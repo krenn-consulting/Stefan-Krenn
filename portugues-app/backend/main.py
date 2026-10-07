@@ -223,9 +223,10 @@ def lektion_zusammenfassung(lesson_id: str, con=Depends(get_db)):
 
 @app.post("/api/lektion/{lesson_id}/abschluss")
 def lektion_abschluss(lesson_id: str, daten: dict = Body(...), con=Depends(get_db)):
-    ergebnis = lesson.lektion_abschliessen(con, lesson_id, daten.get("selbsteinschaetzung"))
+    # Erst den Block speichern: Ein Test räumt beim Auswerten seine Blöcke für den
+    # nächsten Versuch wieder auf.
     lesson.block_speichern(con, lesson_id, "abschluss", "fertig", int(daten.get("sekunden") or 0))
-    return ergebnis
+    return lesson.lektion_abschliessen(con, lesson_id, daten.get("selbsteinschaetzung"))
 
 
 # --- Oberfläche ------------------------------------------------------------

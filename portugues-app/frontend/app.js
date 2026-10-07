@@ -159,7 +159,7 @@ function app() {
     },
 
     bereichName(skill) {
-      return { hoeren: "Hören", lesen: "Lesen", schreiben: "Schreiben", sprechen: "Sprechen",
+      return { hoeren: "Hören", lesen: "Lesen", schreiben: "Schreiben", sprechen: "Sprechen", grammatik: "Wortschatz & Grammatik",
                wortschatz: "Wortschatz & Grammatik", gesamt: "Gesamt" }[skill] || skill;
     },
 
@@ -183,6 +183,7 @@ function app() {
     get startText() {
       const n = this.overview.naechste_lektion;
       if (!n) return "Wiederholen";
+      if (n.typ === "test" || n.typ === "leveltest") return n.begonnen ? "Test fortsetzen" : (n.test_nicht_bestanden ? "Test erneut versuchen" : "Test starten");
       if (n.begonnen) return "Lektion fortsetzen";
       if (this.overview.heute_erledigt > 0) return "Noch eine Lektion";
       return "Heutige Lektion starten";

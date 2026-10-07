@@ -58,8 +58,18 @@ def naechste_lektion(con: sqlite3.Connection) -> dict | None:
             l = content.lesson(lid)
             begonnen = con.execute("SELECT 1 FROM block_state WHERE lesson_id = ? LIMIT 1",
                                    (lid,)).fetchone() is not None
-            return {"id": lid, "titel": l["titel"], "einheit": l["unit_titel"],
-                    "level": l["level"], "begonnen": begonnen}
+            unit = content.unit(l["unit_id"])
+            test_id = next((x["id"] for x in unit.get("lektionen", []) if x.get("typ") == "test"), None)
+            wdh_id = next((x["id"] for x in unit.get("lektionen", []) if x.get("typ") == "wiederholung"), None)
+            letzter_test = con.execute(
+                "SELECT passed FROM tests WHERE test_id = ? AND skill = 'gesamt' ORDER BY ts DESC LIMIT 1",
+                (lid,)).fetchone()
+            return {"id": lid, "titel": l["titel"], "einheit": l["unit_titel"], "level": l["level"],
+                    "typ": l.get("typ", "neu"), "begonnen": begonnen,
+                    # Einheitentest vorziehen (wenn die Einheit einen hat und er nicht schon dran ist)
+                    "test_id": test_id if test_id and test_id != lid else None,
+                    "wiederholung_id": wdh_id,
+                    "test_nicht_bestanden": bool(letzter_test and not letzter_test["passed"])}
     return None
 
 
@@ -374,6 +384,9 @@ def plan(con: sqlite3.Connection, lesson_id: str | None = None, modus: str = "le
     lesson = content.lesson(lesson_id)
     if lesson is None:
         return None
+    if lesson.get("typ", "neu") != "neu":
+        from . import pruefungen      # Wiederholungslektion oder Test
+        return pruefungen.plan(con, lesson, now, rng, settings)
 
     status = _block_status(con, lesson_id)
     schritte = {
@@ -385,7 +398,7 @@ def plan(con: sqlite3.Connection, lesson_id: str | None = None, modus: str = "le
         "abschluss": [],
     }
     return {
-        "id": lesson_id, "modus": "lektion", "titel": lesson["titel"],
+        "id": lesson_id, "modus": "lektion", "typ": "neu", "titel": lesson["titel"],
         "einheit": lesson["unit_titel"], "level": lesson["level"],
         "bloecke": [{"id": bid, "titel": titel, "minuten": minuten[bid],
                      "status": status.get(bid), "schritte": schritte[bid]}
@@ -518,6 +531,10 @@ def lektion_abschliessen(con: sqlite3.Connection, lesson_id: str, selbsteinschae
     """Lektion als erledigt speichern, Satzkarten für später anlegen, Ergebnis berechnen."""
     now = now or datetime.now()
     now_s = now.isoformat(timespec="seconds")
+    lesson = content.lesson(lesson_id)
+    if lesson and lesson.get("typ") in ("test", "leveltest"):
+        from . import pruefungen
+        return pruefungen.test_auswerten(con, lesson, now)
     zeilen = con.execute("SELECT result, block FROM reviews WHERE lesson_id = ?", (lesson_id,)).fetchall()
     gesamt = len(zeilen)
     gut = sum(1 for z in zeilen if z["result"] in ("richtig", "fast"))
@@ -531,7 +548,6 @@ def lektion_abschliessen(con: sqlite3.Connection, lesson_id: str, selbsteinschae
         (lesson_id, now_s, score, selbsteinschaetzung))
 
     # Satzmuster der Lektion kommen als neue Karten in die Wiederholung
-    lesson = content.lesson(lesson_id)
     neue_saetze = 0
     if lesson:
         for s in lesson.get("saetze", []):
@@ -561,7 +577,7 @@ def zusammenfassung(con: sqlite3.Connection, lesson_id: str) -> dict:
     gut = sum(1 for z in zeilen if z["result"] in ("richtig", "fast"))
     lesson = content.lesson(lesson_id)
     woerter = []
-    if lesson:
+    if lesson and lesson.get("typ", "neu") == "neu":
         for vid in lesson.get("vokabeln", []):
             it = content.item(content.vocab_item_id(lesson["unit_id"], vid))
             woerter.append({"pt": it["pt"], "de": it["de"], "emoji": it.get("emoji", "")})

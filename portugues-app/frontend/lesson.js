@@ -39,9 +39,12 @@ function lektion() {
       this.ergebnis = null;
       this.plan = null;
       this.ladeFehler = "";
-      const modus = location.hash.includes("wiederholung") ? "wiederholung" : "lektion";
+      // #/lektion · #/lektion/wiederholung · #/lektion/id/A1-01-L08
+      const teile = location.hash.replace(/^#\/?/, "").split("/");
+      const url = teile[1] === "id" ? `/api/lektion?id=${encodeURIComponent(teile[2])}`
+        : teile[1] === "wiederholung" ? "/api/lektion?modus=wiederholung" : "/api/lektion";
       try {
-        this.plan = await api(`/api/lektion?modus=${modus}`);
+        this.plan = await api(url);
       } catch (e) {
         this.ladeFehler = e.message;
         return;
@@ -405,6 +408,14 @@ function lektion() {
       } catch (e) {
         this.zusammenfassung = { gesamt: 0, gut: 0, woerter: [], fehler: [] };
       }
+    },
+
+    get istTest() {
+      return ["test", "leveltest"].includes(this.plan?.typ);
+    },
+
+    vorlesen(absaetze) {
+      Sprache.dialog(absaetze.map((pt) => ({ pt, stimme: "f" })));
     },
 
     get uebersprungen() {

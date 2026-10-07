@@ -46,6 +46,13 @@
       <p class="next-lesson" x-show="overview.fortschritt && !overview.naechste_lektion">
         Alle vorhandenen Lektionen sind erledigt – neue Inhalte folgen. Bis dahin: wiederholen!
       </p>
+      <div class="notice warn" x-show="overview.naechste_lektion?.test_nicht_bestanden" x-cloak>
+        Der letzte Versuch dieses Tests hat noch nicht gereicht. Tipp: erst
+        <a :href="'#/lektion/id/' + overview.naechste_lektion?.wiederholung_id">gezielt wiederholen</a>, dann neu versuchen.
+      </div>
+      <p x-show="overview.naechste_lektion?.test_id" x-cloak>
+        <a class="link-button" :href="'#/lektion/id/' + overview.naechste_lektion?.test_id">Kannst du das schon? Einheitentest vorziehen und Einheit überspringen</a>
+      </p>
       <p class="notice warn" x-show="overview.wiederholungstag_empfohlen" x-cloak>
         Es sind viele Wiederholungen fällig. Heute lieber einen <strong>Wiederholungstag</strong> einlegen?
       </p>
@@ -246,6 +253,20 @@
                   </div>
                 </template>
 
+                <!-- Lesetext -->
+                <template x-if="schritt.typ === 'lesen'">
+                  <div class="lesetext">
+                    <p class="step-label">📖 Lesen</p>
+                    <h2 x-text="schritt.titel"></h2>
+                    <p class="muted" x-text="schritt.situation"></p>
+                    <div class="text-karte">
+                      <template x-for="a in schritt.absaetze"><p x-text="a"></p></template>
+                    </div>
+                    <button class="play-small" x-show="!istTest" @click="vorlesen(schritt.absaetze)">🔊 Vorlesen</button>
+                    <p class="hint">Lies den Text in Ruhe. Die Fragen kommen gleich – du kannst über „Weiter“ hierher nicht zurück, also lies gründlich.</p>
+                  </div>
+                </template>
+
                 <!-- Nachsprechen -->
                 <template x-if="schritt.typ === 'nachsprechen'">
                   <div class="vokabel">
@@ -315,7 +336,19 @@
           </div>
 
           <!-- ======== Abschluss ======== -->
-          <div class="step abschluss" x-show="block.id === 'abschluss' && !ergebnis">
+          <div class="step abschluss" x-show="block.id === 'abschluss' && !ergebnis && istTest">
+            <h2>Test auswerten</h2>
+            <p>Bestanden ist der Test ab <strong x-text="prozent(plan.bestanden_ab)"></strong> im Durchschnitt aller Bereiche.</p>
+            <div x-show="uebersprungen.length" class="notice warn">
+              Übersprungene Bereiche zählen mit 0 %:
+              <template x-for="b in uebersprungen">
+                <button class="button secondary" @click="nachholen(b.id)" x-text="b.titel + ' nachholen'"></button>
+              </template>
+            </div>
+            <button class="big-button" @click="abschliessen()">Test auswerten</button>
+          </div>
+
+          <div class="step abschluss" x-show="block.id === 'abschluss' && !ergebnis && !istTest">
             <h2>Abschluss 🎉</h2>
             <template x-if="zusammenfassung">
               <div>
@@ -360,7 +393,34 @@
           </div>
 
           <!-- ======== Ergebnis ======== -->
-          <div class="step abschluss" x-show="ergebnis">
+          <template x-if="ergebnis?.test">
+            <div class="step abschluss">
+              <h2 x-text="ergebnis.test.bestanden ? 'Parabéns! Test bestanden. 🎉' : 'Noch nicht bestanden – kein Problem.'"></h2>
+              <p class="score"><strong x-text="prozent(ergebnis.test.gesamt)"></strong> im Durchschnitt
+                <span class="muted">(nötig: <span x-text="prozent(ergebnis.test.bestanden_ab)"></span>)</span></p>
+              <div class="balken-liste">
+                <template x-for="b in ergebnis.test.bereiche" :key="b.id">
+                  <div class="balken-zeile">
+                    <span class="balken-name" x-text="b.titel"></span>
+                    <div class="balken"><div class="balken-fill" :class="{schwach: b.anteil < ergebnis.test.bestanden_ab}" :style="`width: ${b.anteil * 100}%`"></div></div>
+                    <span class="balken-wert" x-text="prozent(b.anteil)"></span>
+                  </div>
+                </template>
+              </div>
+              <p x-show="ergebnis.test.bestanden && ergebnis.test.uebersprungene_lektionen">
+                Du hast die Einheit per Test übersprungen (<span x-text="ergebnis.test.uebersprungene_lektionen"></span> Lektionen).
+                Die Wörter kommen trotzdem gelegentlich in deiner Wiederholung vor.
+              </p>
+              <div x-show="!ergebnis.test.bestanden">
+                <p>Schwächer waren: <strong x-text="ergebnis.test.schwach.join(', ')"></strong>.
+                  Deine Fehler kommen automatisch in der Wiederholung dran. Am besten jetzt gezielt üben und den Test danach noch einmal machen.</p>
+                <a class="button" x-show="ergebnis.test.wiederholung_id" :href="'#/lektion/id/' + ergebnis.test.wiederholung_id">Gezielt wiederholen</a>
+              </div>
+              <a href="#/" class="big-button as-link">Zur Startseite</a>
+            </div>
+          </template>
+
+          <div class="step abschluss" x-show="ergebnis && !ergebnis.test">
             <h2>Muito bem! Lektion geschafft. 🇵🇹</h2>
             <p class="score" x-show="ergebnis?.gesamt"><strong x-text="prozent(ergebnis?.score)"></strong> richtig</p>
             <p x-show="ergebnis?.neue_saetze">

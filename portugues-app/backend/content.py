@@ -51,6 +51,14 @@ def _index() -> dict:
     return {"items": items, "lessons": lessons, "order": order}
 
 
+def unit(unit_id: str) -> dict | None:
+    return next((u for u in load_units() if u["id"] == unit_id), None)
+
+
+def units_in_level(level: str) -> list[dict]:
+    return [u for u in load_units() if u["level"] == level]
+
+
 def reload() -> None:
     """Cache leeren (z. B. in Tests oder nach Änderungen an den Inhalten)."""
     load_units.cache_clear()

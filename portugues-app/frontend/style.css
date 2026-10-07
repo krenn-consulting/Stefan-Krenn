@@ -423,3 +423,11 @@ button.button { border: none; font-family: inherit; }
 .chip-vorschlag { font-size: 0.75rem; padding: 0.3rem 0.7rem; border-radius: 99px; border: 1px dashed var(--border); background: none; color: var(--muted); cursor: pointer; }
 .korrektur-ergebnis { margin-top: 1.5rem; }
 .korrigiert { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 0.8rem 1rem; cursor: pointer; }
+
+/* ===================== Lesen & Tests ===================== */
+.lesetext { text-align: left; }
+.lesetext h2, .lesetext .step-label { text-align: center; }
+.text-karte { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.3rem; font-size: 1.15rem; line-height: 1.7; }
+.text-karte p { margin: 0.4rem 0; }
+.balken-fill.schwach { background: var(--warn); }
+.abschluss .notice .button { margin: 0.4rem 0.4rem 0 0; }

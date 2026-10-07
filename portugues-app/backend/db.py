@@ -103,6 +103,12 @@ CREATE TABLE IF NOT EXISTS daily_log (
     cards_reviewed INTEGER NOT NULL DEFAULT 0
 );
 
+-- Laufender Testversuch: ab wann zählen die Antworten?
+CREATE TABLE IF NOT EXISTS test_versuche (
+    lesson_id TEXT PRIMARY KEY,
+    start     TEXT NOT NULL
+);
+
 CREATE TABLE IF NOT EXISTS settings (
     key   TEXT PRIMARY KEY,
     value TEXT NOT NULL                          -- als JSON gespeichert

@@ -38,6 +38,12 @@ UEBUNG_FELDER = {
 }
 
 
+def _liste(wert) -> list:
+    if not wert:
+        return []
+    return wert if isinstance(wert, list) else [wert]
+
+
 def _portugiesische_texte(unit: dict):
     """Alle portugiesischen Sätze einer Einheit mit Fundort."""
     for v in unit.get("vokabeln", []):
@@ -64,6 +70,18 @@ def _portugiesische_texte(unit: dict):
                 yield f"{l['id']} Schreiben", x
         for x in l.get("saetze", []):
             yield f"{l['id']} Satz {x.get('id')}", x.get("pt", "")
+    test = unit.get("test") or {}
+    for d in _liste(test.get("hoeren")):
+        for z in d.get("zeilen", []):
+            yield "Test Hören", z.get("pt", "")
+    for txt in _liste(test.get("lesen")):
+        for absatz in _liste(txt.get("text")):
+            yield "Test Lesen", absatz
+    for a in test.get("schreiben", []):
+        for x in a.get("loesungen", []):
+            yield "Test Schreiben", x
+    for s in test.get("sprechen", []):
+        yield "Test Sprechen", s.get("pt", "")
 
 
 def pruefe_einheit(unit: dict) -> list[str]:
@@ -81,10 +99,27 @@ def pruefe_einheit(unit: dict) -> list[str]:
             if not v.get(feld):
                 probleme.append(f"{uid}: Vokabel {v.get('id')} ohne '{feld}'")
 
+    typen = [l.get("typ", "neu") for l in unit.get("lektionen", [])]
+    if ("test" in typen or "leveltest" in typen):
+        test = unit.get("test") or {}
+        for teil in ("hoeren", "lesen", "schreiben", "sprechen"):
+            if not test.get(teil):
+                probleme.append(f"{uid}: Abschnitt test.{teil} fehlt (wird für den Test gebraucht)")
+        for d in _liste(test.get("hoeren")) + _liste(test.get("lesen")):
+            for i, f in enumerate(d.get("fragen", [])):
+                if not (0 <= f.get("richtig", -1) < len(f.get("optionen", []))):
+                    probleme.append(f"{uid} Test „{d.get('titel')}“ Frage {i}: 'richtig' zeigt auf keine Option")
+
     for l in unit.get("lektionen", []):
         lid = l.get("id", "?")
         if not lid.startswith(uid + "-L"):
             probleme.append(f"{lid}: Lektions-ID muss mit '{uid}-L' beginnen")
+        if l.get("typ", "neu") not in ("neu", "wiederholung", "test", "leveltest"):
+            probleme.append(f"{lid}: unbekannter Lektionstyp '{l.get('typ')}'")
+        if l.get("typ", "neu") == "neu":
+            for teil in ("vokabeln", "grammatik", "hoeren", "sprechen"):
+                if not l.get(teil):
+                    probleme.append(f"{lid}: Teil '{teil}' fehlt")
         for vid in l.get("vokabeln", []):
             if vid not in vokabel_ids:
                 probleme.append(f"{lid}: Vokabel '{vid}' ist in der Einheit nicht definiert")
