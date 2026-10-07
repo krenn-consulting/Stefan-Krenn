@@ -22,6 +22,7 @@ function app() {
     error: "",
     info: "",
     savedFlash: false,
+    stimmenInfo: "",
 
     // Hell/Dunkel: "auto" folgt der Einstellung des Mac.
     get theme() {
@@ -96,6 +97,14 @@ function app() {
       } catch (e) {
         alert("Speichern hat nicht geklappt: " + e.message);
       }
+    },
+
+    async stimmeTesten() {
+      this.stimmenInfo = "Spiele ab …";
+      await Sprache.sprechen("Olá! Bom dia. Vamos aprender português europeu.");
+      this.stimmenInfo = Sprache.quelle === "server"
+        ? "✓ Hochwertige Stimme (aus dem Internet geladen und gespeichert)."
+        : "Gerade ohne Internet-Stimme – es spricht die Stimme des Mac.";
     },
 
     async importBackup(event) {

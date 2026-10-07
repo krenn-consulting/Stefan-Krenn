@@ -27,6 +27,11 @@ function lektion() {
     bewertung: 0,
     ergebnis: null,     // nach dem Abschließen
     akzente: AKZENTE,
+    hoertZu: false,     // Mikrofon aktiv
+    erkannt: "",        // was die Spracherkennung verstanden hat
+    sprachFehler: "",
+    perSprache: false,  // Antwort wurde gesprochen statt getippt
+    erkennungDa: Erkennung.verfuegbar,
 
     // ---------- Laden und Blöcke ----------
 
@@ -41,10 +46,27 @@ function lektion() {
         this.ladeFehler = e.message;
         return;
       }
+      this.audioVorladen();
       // Mit dem ersten noch offenen Block weitermachen (die App merkt sich den Stand)
       const offen = this.plan.bloecke.findIndex((b) => !b.status && b.id !== "abschluss");
       this.blockStarten(offen >= 0 ? offen : this.plan.bloecke.length - 1);
       this.timer = this.timer || setInterval(() => this.tick(), 1000);
+    },
+
+    // Alle Sätze der Lektion schon einmal beim Server bestellen
+    audioVorladen() {
+      const liste = [];
+      const dazu = (text, stimme = "standard") => text && liste.push({ text, stimme });
+      for (const b of this.plan.bloecke) {
+        for (const s of b.schritte) {
+          dazu(s.pt); dazu(s.beispiel_pt); dazu(s.audio);
+          if (s.loesungen) dazu(s.loesungen[0]);
+          for (const z of s.zeilen || []) dazu(z.pt, z.stimme || "f");
+          for (const z of s.kontext || []) dazu(z.pt, z.stimme || "f");
+          for (const x of s.beispiele || []) dazu(x.pt);
+        }
+      }
+      Sprache.vorladen(liste);
     },
 
     verlassen() {
@@ -130,6 +152,10 @@ function lektion() {
       this.feedback = null;
       this.textZeigen = false;
       this.uebersetzungZeigen = false;
+      this.hoertZu = false;
+      this.erkannt = "";
+      this.sprachFehler = "";
+      this.perSprache = false;
       this.schrittStart = Date.now();
       const s = this.schritt;
       if (!s) return;
@@ -209,12 +235,12 @@ function lektion() {
       return ["eingabe", "auswahl", "satzbau"].includes(this.schritt?.typ);
     },
 
-    async pruefenEingabe(text) {
+    async pruefenEingabe(text, varianten = null) {
+      const daten = varianten
+        ? { modus: "sprechen", varianten, loesungen: this.schritt.loesungen }
+        : { antwort: text, loesungen: this.schritt.loesungen };
       try {
-        this.feedback = await api("/api/pruefen", {
-          method: "POST",
-          body: JSON.stringify({ antwort: text, loesungen: this.schritt.loesungen }),
-        });
+        this.feedback = await api("/api/pruefen", { method: "POST", body: JSON.stringify(daten) });
       } catch (e) {
         alert("Prüfen hat nicht geklappt: " + e.message);
         return;
@@ -228,7 +254,9 @@ function lektion() {
       if (this.phase !== "frage") return;
       if (s.typ === "eingabe") {
         if (!this.eingabe.trim()) return;
-        this.pruefenEingabe(this.eingabe);
+        // Gesprochen und nicht mehr verändert → großzügige Sprach-Prüfung
+        if (this.perSprache && this.eingabe === this.erkannt) this.pruefenEingabe(this.eingabe, [this.eingabe]);
+        else this.pruefenEingabe(this.eingabe);
       } else if (s.typ === "satzbau") {
         if (!this.satz.length) return;
         this.pruefenEingabe(this.satz.map((x) => x.w).join(" "));
@@ -260,6 +288,48 @@ function lektion() {
     trotzdemRichtig() {
       // Für den Fall, dass deine Antwort auch stimmt (z. B. ein Synonym)
       this.feedback = { ...this.feedback, ergebnis: "richtig", korrigiert: true };
+    },
+
+    // ---------- Mikrofon ----------
+
+    async zuhoeren() {
+      if (this.hoertZu || this.phase !== "frage") return;
+      this.sprachFehler = "";
+      this.hoertZu = true;
+      let varianten;
+      try {
+        varianten = await Erkennung.hoeren();
+      } catch (e) {
+        this.sprachFehler = e.message;
+        return;
+      } finally {
+        this.hoertZu = false;
+      }
+      this.erkannt = varianten[0];
+      const s = this.schritt;
+      if (s.typ === "nachsprechen") {
+        // Nachsprechen: direkt mit dem Zielsatz vergleichen
+        try {
+          this.feedback = await api("/api/pruefen", {
+            method: "POST",
+            body: JSON.stringify({ modus: "sprechen", varianten, loesungen: [s.pt] }),
+          });
+          this.erkannt = this.feedback.erkannt || this.erkannt;
+          this.phase = "feedback";
+        } catch (e) {
+          this.sprachFehler = e.message;
+        }
+      } else {
+        // Eingabefeld mit dem Gesprochenen füllen – du kannst es noch korrigieren
+        this.eingabe = this.erkannt;
+        this.perSprache = true;
+      }
+    },
+
+    // Nach der Mikrofon-Prüfung beim Nachsprechen
+    async weiterNachSprechen() {
+      await this.antwortSpeichern(this.erkannt);
+      this.weiter();
     },
 
     // Selbstbewertung beim Nachsprechen
@@ -301,7 +371,9 @@ function lektion() {
       if (this.istFrage) {
         if (this.phase === "frage") this.pruefen();
         else this.weiterNachFeedback();
-      } else if (s.typ !== "nachsprechen") {
+      } else if (s.typ === "nachsprechen") {
+        if (this.phase === "feedback") this.weiterNachSprechen();
+      } else {
         this.weiter();
       }
     },
@@ -315,6 +387,10 @@ function lektion() {
       } else if (e.key === " " && !imFeld) {
         e.preventDefault();
         this.abspielen();
+      } else if (!imFeld && (e.key === "m" || e.key === "M") && this.erkennungDa &&
+                 (this.schritt?.typ === "nachsprechen" || this.schritt?.typ === "eingabe")) {
+        e.preventDefault();
+        this.zuhoeren();
       } else if (!imFeld && this.schritt?.typ === "auswahl" && /^[1-9]$/.test(e.key)) {
         const i = Number(e.key) - 1;
         if (this.phase === "frage" && i < this.schritt.optionen.length) this.waehlen(i);

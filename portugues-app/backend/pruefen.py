@@ -70,3 +70,50 @@ def pruefen(antwort: str, loesungen: list[str]) -> dict:
                     "hinweis": "Fast! Nur ein kleiner Tippfehler."}
 
     return {"ergebnis": "falsch", "loesung": loesungen[0], "hinweis": ""}
+
+
+# --- Gesprochene Antworten (Spracherkennung) --------------------------------
+
+_ZAHLEN = {
+    "0": "zero", "1": "um", "2": "dois", "3": "três", "4": "quatro", "5": "cinco", "6": "seis",
+    "7": "sete", "8": "oito", "9": "nove", "10": "dez", "11": "onze", "12": "doze", "13": "treze",
+    "14": "catorze", "15": "quinze", "16": "dezasseis", "17": "dezassete", "18": "dezoito",
+    "19": "dezanove", "20": "vinte", "30": "trinta", "40": "quarenta", "50": "cinquenta",
+    "100": "cem",
+}
+
+
+def _fuer_sprache(text: str) -> str:
+    """Spracherkennung schreibt Zahlen oft als Ziffern und setzt Akzente anders."""
+    woerter = [_ZAHLEN.get(w, w) for w in normalisieren(text).split()]
+    return ohne_akzente(" ".join(woerter))
+
+
+def pruefen_gesprochen(varianten: list[str], loesungen: list[str]) -> dict:
+    """Großzügiger als beim Tippen: Akzente egal, mehr Toleranz, Wortübereinstimmung.
+
+    Die Spracherkennung macht selbst Fehler – du sollst nicht für ihre
+    Fehler bestraft werden.
+    """
+    if not loesungen:
+        raise ValueError("Keine Lösung angegeben")
+    bestes = {"ergebnis": "falsch", "loesung": loesungen[0], "hinweis": "", "erkannt": varianten[0] if varianten else ""}
+    rang = {"falsch": 0, "fast": 1, "richtig": 2}
+    for v in varianten:
+        a = _fuer_sprache(v)
+        for l in loesungen:
+            nl = _fuer_sprache(l)
+            if not a:
+                continue
+            if a == nl:
+                e = "richtig"
+            elif levenshtein(a, nl) <= max(1, len(nl) // 12):
+                e = "fast"      # z. B. "bom tarde" statt "boa tarde" – kleiner, aber echter Fehler
+            else:
+                ziel = nl.split()
+                treffer = sum(1 for w in ziel if w in a.split())
+                e = "fast" if ziel and treffer / len(ziel) >= 0.7 else "falsch"
+            if rang[e] > rang[bestes["ergebnis"]]:
+                bestes = {"ergebnis": e, "loesung": l, "erkannt": v,
+                          "hinweis": "Fast – einzelne Wörter waren noch nicht klar." if e == "fast" else ""}
+    return bestes

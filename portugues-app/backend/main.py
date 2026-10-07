@@ -1,15 +1,16 @@
 """Webserver der App: liefert die Oberfläche (frontend/) und die API (/api/...)."""
 
+import asyncio
 import os
 from contextlib import asynccontextmanager
 from datetime import date
 from pathlib import Path
 
 from fastapi import Body, Depends, FastAPI, HTTPException, Request
-from fastapi.responses import JSONResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import config, content, db, lesson, pruefen
+from . import config, content, db, lesson, pruefen, tts
 
 FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 
@@ -118,11 +119,39 @@ def lektion_plan(id: str | None = None, modus: str = "lektion", con=Depends(get_
 
 @app.post("/api/pruefen")
 def antwort_pruefen(daten: dict = Body(...)):
-    """Prüft eine getippte Antwort (ohne etwas zu speichern)."""
+    """Prüft eine getippte oder gesprochene Antwort (ohne etwas zu speichern)."""
     try:
+        if daten.get("modus") == "sprechen":
+            # Spracherkennung liefert mehrere Varianten – die beste zählt
+            varianten = daten.get("varianten") or [daten.get("antwort", "")]
+            return pruefen.pruefen_gesprochen(varianten, daten.get("loesungen", []))
         return pruefen.pruefen(daten.get("antwort", ""), daten.get("loesungen", []))
     except ValueError as e:
         raise HTTPException(400, str(e))
+
+
+# --- Audio -----------------------------------------------------------------
+
+@app.get("/api/audio")
+async def audio(text: str, stimme: str = "standard", con=Depends(get_db)):
+    """MP3 für einen portugiesischen Text. 503 = bitte Mac-Stimme verwenden."""
+    standard = db.get_settings(con)["stimme"]
+    try:
+        pfad = await tts.audio_datei(text, tts.stimme_waehlen(stimme, standard))
+    except tts.TTSFehler as e:
+        raise HTTPException(503, str(e))
+    return FileResponse(pfad, media_type="audio/mpeg",
+                        headers={"Cache-Control": "public, max-age=31536000, immutable"})
+
+
+@app.post("/api/audio/vorladen")
+async def audio_vorladen(daten: dict = Body(...), con=Depends(get_db)):
+    """Erzeugt die Audios einer Lektion im Hintergrund, damit es später nicht hakt."""
+    standard = db.get_settings(con)["stimme"]
+    eintraege = [(e.get("text", ""), tts.stimme_waehlen(e.get("stimme", "standard"), standard))
+                 for e in (daten.get("texte") or [])[:300] if e.get("text")]
+    asyncio.create_task(tts.vorladen(eintraege))
+    return {"ok": True, "anzahl": len(eintraege)}
 
 
 @app.post("/api/antwort")

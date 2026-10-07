@@ -6,6 +6,8 @@ requires-python = ">=3.12,<3.14"
 dependencies = [
     "fastapi>=0.115",
     "uvicorn>=0.30",
+    "edge-tts>=7.0",        # Sprachausgabe mit pt-PT-Stimmen (Raquel, Duarte)
+    "anthropic>=1.0",       # optional: Claude für Gespräche und Korrekturen
 ]
 
 [dependency-groups]
