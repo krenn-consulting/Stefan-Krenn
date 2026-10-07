@@ -36,3 +36,29 @@ Diese Teile laufen nur auf einem echten Mac:
 - **Bash 3.2 (macOS):** Das Skript nutzt bewusst keine Funktionen neuerer Bash-Versionen.
 
 **Bitte beim ersten echten Start beobachten:** Kommt die Gatekeeper-Warnung, und öffnet sich Chrome danach automatisch? Falls etwas hakt, schick mir den Inhalt von `data/app.log`.
+
+## Etappe (b) – Lektionsablauf und Wiederholungssystem (7. Oktober 2026)
+
+### Automatische Tests
+`uv run pytest`: **67 von 67 bestanden.** Dazu gehört auch ein Test, dass eine Datenbank aus Etappe (a) automatisch ergänzt wird, ohne dass Lernstand verloren geht.
+
+| Bereich | Was geprüft wird |
+|---|---|
+| Wiederholungssystem (`test_srs.py`, 16 Tests) | Lernstufen, wachsende Abstände, „fast richtig“, Vergessen halbiert den Abstand statt ihn zu löschen, Grenzen für Leichtigkeit und Abstand, Fälligkeit ab Tagesbeginn, Tageslimit und Lastbremse |
+| Antwortprüfung (`test_pruefen.py`, 12 Tests) | Groß-/Kleinschreibung und Satzzeichen, Alternativen, fehlende Akzente und Tippfehler als „fast richtig“, keine Toleranz bei kurzen Wörtern (sou ≠ são) |
+| Lektionsablauf (`test_lektion.py`, 20 Tests) | 6 Blöcke mit Zeitanteilen, Vorstellen vor Abrufen, Fehler kommen als Karte wieder und gelten nach zweimal richtig als behoben, Überspringen wird gemerkt, Abschluss und nächste Lektion, eingestreute alte Übungen, Wiederholungstag, kompletter Ablauf über die API |
+| Inhalte (`test_inhalte.py`, 4 Tests) | Format aller Inhaltsdateien, Erkennung brasilianischer Formen |
+
+### Im Browser (Chromium, automatisch durchgeklickt)
+- **Lektionen 1–3:** vollständig durchgespielt, mit absichtlich falschen Antworten, ohne einen einzigen Browserfehler. Die zweite und dritte Lektion enthielten fällige Karten, neue Satzmuster und eingestreute Übungen aus früheren Lektionen.
+- **Überspringen, Verlassen und Fortsetzen:** Die App setzt beim richtigen Block fort, übersprungene Blöcke lassen sich im Abschluss nachholen.
+- **Wiederholungstag:** funktioniert.
+- **Dunkelmodus:** funktioniert.
+
+### Gefunden und behoben
+- Die Einstellung Hell/Dunkel hatte keine Wirkung (Fehler aus Etappe a).
+- Satzmuster wären an Lerntagen nie eingeführt worden, weil die Lektionsvokabeln das Tageslimit schon ausschöpften. Jetzt kommen mindestens 3 Satzmuster pro Tag dazu, und das Standardlimit liegt bei 15.
+- Die Inhaltsprüfung erkannte „Estou fazendo“ am Satzanfang nicht.
+
+### Noch nicht geprüft
+- **Sprachausgabe:** Sie nutzt in dieser Etappe die Mac-Stimme über Chrome. Im Test-Browser gibt es keine Stimmen, deshalb wurde nur geprüft, dass nichts abstürzt. Etappe (c) bringt die hochwertigen Stimmen.

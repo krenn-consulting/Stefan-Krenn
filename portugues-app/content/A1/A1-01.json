@@ -1,0 +1,467 @@
+{
+  "id": "A1-01",
+  "level": "A1",
+  "titel": "Olá! – Begrüßen und sich vorstellen",
+  "beschreibung": "Grüßen und verabschieden, sich vorstellen, nach dem Befinden fragen, sich verständigen, Zahlen 0–20.",
+  "vokabeln": [
+    {"id": "ola", "pt": "olá", "de": "hallo", "emoji": "👋", "beispiel_pt": "Olá, Ana!", "beispiel_de": "Hallo, Ana!"},
+    {"id": "bom-dia", "pt": "bom dia", "de": "guten Morgen / guten Tag", "emoji": "🌅", "beispiel_pt": "Bom dia, Dona Fernanda!", "beispiel_de": "Guten Morgen, Frau Fernanda!", "hinweis": "Bis etwa 12–13 Uhr. „Dona“ + Vorname ist eine höfliche Anrede für Frauen."},
+    {"id": "boa-tarde", "pt": "boa tarde", "de": "guten Tag (nachmittags)", "emoji": "☀️", "beispiel_pt": "Boa tarde, senhor Rui!", "beispiel_de": "Guten Tag, Herr Rui!", "hinweis": "Vom Mittagessen, bis es dunkel wird."},
+    {"id": "boa-noite", "pt": "boa noite", "de": "guten Abend / gute Nacht", "emoji": "🌙", "beispiel_pt": "Boa noite e até amanhã!", "beispiel_de": "Gute Nacht und bis morgen!"},
+    {"id": "adeus", "pt": "adeus", "de": "auf Wiedersehen / tschüss", "emoji": "🚪", "beispiel_pt": "Adeus, até amanhã!", "beispiel_de": "Tschüss, bis morgen!", "hinweis": "Ganz alltäglich – nicht so endgültig wie das deutsche „Adieu“."},
+    {"id": "ate-logo", "pt": "até logo", "de": "bis später / bis dann", "emoji": "⏳", "beispiel_pt": "Obrigado e até logo!", "beispiel_de": "Danke und bis später!"},
+    {"id": "ate-amanha", "pt": "até amanhã", "de": "bis morgen", "emoji": "📅", "beispiel_pt": "Boa noite, até amanhã!", "beispiel_de": "Gute Nacht, bis morgen!"},
+    {"id": "tchau", "pt": "tchau", "de": "tschüss (locker)", "emoji": "✌️", "beispiel_pt": "Tchau, Ana!", "beispiel_de": "Tschüss, Ana!", "hinweis": "Locker, unter Freunden und Bekannten."},
+    {"id": "obrigado", "pt": "obrigado", "de": "danke (wenn ein Mann spricht)", "emoji": "🙏", "beispiel_pt": "Muito obrigado!", "beispiel_de": "Vielen Dank!", "hinweis": "Frauen sagen „obrigada“.", "alternativen": ["obrigada"]},
+    {"id": "de-nada", "pt": "de nada", "de": "gern geschehen / bitte", "emoji": "😊", "beispiel_pt": "Obrigado! – De nada.", "beispiel_de": "Danke! – Gern geschehen.", "alternativen": ["não tem de quê"]},
+    {"id": "por-favor", "pt": "por favor", "de": "bitte (bei einer Bitte)", "emoji": "🙂", "beispiel_pt": "Um café, por favor.", "beispiel_de": "Einen Kaffee, bitte.", "alternativen": ["se faz favor", "faz favor"]},
+
+    {"id": "como-se-chama", "pt": "Como se chama?", "de": "Wie heißen Sie?", "emoji": "❓", "beispiel_pt": "Boa tarde! Como se chama?", "beispiel_de": "Guten Tag! Wie heißen Sie?", "alternativen": ["Como é que se chama?"]},
+    {"id": "chamo-me", "pt": "chamo-me", "de": "ich heiße", "emoji": "🏷️", "beispiel_pt": "Chamo-me Stefan.", "beispiel_de": "Ich heiße Stefan.", "hinweis": "„me“ steht in Portugal hinter dem Verb – nicht „me chamo“."},
+    {"id": "o-meu-nome-e", "pt": "o meu nome é", "de": "mein Name ist", "emoji": "📛", "beispiel_pt": "O meu nome é Stefan Krenn.", "beispiel_de": "Mein Name ist Stefan Krenn."},
+    {"id": "muito-prazer", "pt": "muito prazer", "de": "sehr erfreut", "emoji": "🤝", "beispiel_pt": "Muito prazer, eu sou a Ana.", "beispiel_de": "Sehr erfreut, ich bin Ana."},
+    {"id": "igualmente", "pt": "igualmente", "de": "gleichfalls", "emoji": "🔁", "beispiel_pt": "Muito prazer! – Igualmente.", "beispiel_de": "Sehr erfreut! – Gleichfalls."},
+    {"id": "eu", "pt": "eu", "de": "ich", "emoji": "🙋", "beispiel_pt": "Eu sou o Stefan.", "beispiel_de": "Ich bin Stefan."},
+    {"id": "sou", "pt": "sou", "de": "ich bin", "emoji": "🧍", "beispiel_pt": "Sou o Stefan.", "beispiel_de": "Ich bin Stefan.", "hinweis": "„eu“ lässt man meistens weg – die Verbform zeigt schon, wer gemeint ist."},
+    {"id": "e-ist", "pt": "é", "de": "ist / Sie sind", "emoji": "👉", "beispiel_pt": "O meu nome é Stefan.", "beispiel_de": "Mein Name ist Stefan."},
+    {"id": "ele", "pt": "ele", "de": "er", "emoji": "👨", "beispiel_pt": "Ele é o senhor Rui.", "beispiel_de": "Er ist Herr Rui."},
+    {"id": "ela", "pt": "ela", "de": "sie (eine Person)", "emoji": "👩", "beispiel_pt": "Ela é a Ana.", "beispiel_de": "Sie ist Ana."},
+    {"id": "o-senhor", "pt": "o senhor", "de": "Sie (zu einem Mann) / der Herr", "emoji": "🎩", "beispiel_pt": "O senhor é o Stefan?", "beispiel_de": "Sind Sie Stefan?"},
+    {"id": "a-senhora", "pt": "a senhora", "de": "Sie (zu einer Frau) / die Dame", "emoji": "👒", "beispiel_pt": "A senhora é a Dona Fernanda?", "beispiel_de": "Sind Sie Frau Fernanda?"},
+    {"id": "e-und", "pt": "e", "de": "und", "emoji": "➕", "beispiel_pt": "Eu sou o Stefan e ela é a Ana.", "beispiel_de": "Ich bin Stefan und sie ist Ana."},
+
+    {"id": "como-esta", "pt": "Como está?", "de": "Wie geht es Ihnen?", "emoji": "🙂", "beispiel_pt": "Bom dia, Dona Fernanda! Como está?", "beispiel_de": "Guten Morgen, Frau Fernanda! Wie geht es Ihnen?"},
+    {"id": "estou-bem", "pt": "estou bem", "de": "mir geht es gut", "emoji": "😊", "beispiel_pt": "Estou bem, obrigado.", "beispiel_de": "Mir geht es gut, danke."},
+    {"id": "muito-bem", "pt": "muito bem", "de": "sehr gut", "emoji": "👍", "beispiel_pt": "Estou muito bem, obrigado!", "beispiel_de": "Mir geht es sehr gut, danke!"},
+    {"id": "mais-ou-menos", "pt": "mais ou menos", "de": "so lala / einigermaßen", "emoji": "🤷", "beispiel_pt": "Como está? – Mais ou menos.", "beispiel_de": "Wie geht es Ihnen? – So lala."},
+    {"id": "tudo-bem", "pt": "Tudo bem?", "de": "Alles gut? / Wie geht's?", "emoji": "👌", "beispiel_pt": "Olá, Rui! Tudo bem?", "beispiel_de": "Hallo, Rui! Alles gut?"},
+    {"id": "e-consigo", "pt": "E consigo?", "de": "Und Ihnen? (höflich)", "emoji": "↩️", "beispiel_pt": "Estou bem, obrigado. E consigo?", "beispiel_de": "Mir geht es gut, danke. Und Ihnen?", "hinweis": "Höfliche Rückfrage. Unter Freunden: „E tu?“"},
+    {"id": "tambem", "pt": "também", "de": "auch", "emoji": "👥", "beispiel_pt": "Eu também estou bem.", "beispiel_de": "Mir geht es auch gut."},
+    {"id": "cansado", "pt": "cansado", "de": "müde", "emoji": "😴", "beispiel_pt": "Estou muito cansado.", "beispiel_de": "Ich bin sehr müde.", "hinweis": "Frauen: cansada", "alternativen": ["cansada"]},
+
+    {"id": "sim", "pt": "sim", "de": "ja", "emoji": "✅", "beispiel_pt": "É o Stefan? – Sou, sim.", "beispiel_de": "Sind Sie Stefan? – Ja, bin ich."},
+    {"id": "nao", "pt": "não", "de": "nein / nicht", "emoji": "❌", "beispiel_pt": "Não, obrigado.", "beispiel_de": "Nein, danke."},
+    {"id": "desculpe", "pt": "desculpe", "de": "Entschuldigung", "emoji": "🙇", "beispiel_pt": "Desculpe, não percebo.", "beispiel_de": "Entschuldigung, ich verstehe nicht.", "hinweis": "Auch, um jemanden höflich anzusprechen."},
+    {"id": "com-licenca", "pt": "com licença", "de": "Entschuldigung, darf ich mal?", "emoji": "🚶", "beispiel_pt": "Com licença!", "beispiel_de": "Entschuldigung, darf ich mal (vorbei)?", "hinweis": "Wenn man vorbei- oder hereingehen möchte."},
+    {"id": "nao-percebo", "pt": "não percebo", "de": "ich verstehe nicht", "emoji": "🤔", "beispiel_pt": "Não percebo. Pode repetir?", "beispiel_de": "Ich verstehe nicht. Können Sie das wiederholen?", "hinweis": "Typisch Portugal. In Brasilien sagt man „não entendo“."},
+    {"id": "pode-repetir", "pt": "Pode repetir, por favor?", "de": "Können Sie das bitte wiederholen?", "emoji": "🔁", "beispiel_pt": "Desculpe, pode repetir, por favor?", "beispiel_de": "Entschuldigung, können Sie das bitte wiederholen?", "alternativen": ["Pode repetir?"]},
+    {"id": "mais-devagar", "pt": "mais devagar", "de": "langsamer", "emoji": "🐢", "beispiel_pt": "Pode falar mais devagar?", "beispiel_de": "Können Sie langsamer sprechen?"},
+    {"id": "nao-sei", "pt": "não sei", "de": "ich weiß nicht", "emoji": "❔", "beispiel_pt": "Não sei, desculpe.", "beispiel_de": "Ich weiß es nicht, Entschuldigung."},
+    {"id": "como-se-diz", "pt": "Como se diz … em português?", "de": "Wie sagt man … auf Portugiesisch?", "emoji": "💬", "beispiel_pt": "Como se diz „Danke“ em português?", "beispiel_de": "Wie sagt man „Danke“ auf Portugiesisch?"},
+    {"id": "falo-um-pouco", "pt": "falo um pouco de português", "de": "ich spreche ein bisschen Portugiesisch", "emoji": "🇵🇹", "beispiel_pt": "Desculpe, só falo um pouco de português.", "beispiel_de": "Entschuldigung, ich spreche nur ein bisschen Portugiesisch."},
+    {"id": "claro", "pt": "claro", "de": "klar / natürlich", "emoji": "👌", "beispiel_pt": "Claro, com certeza!", "beispiel_de": "Klar, natürlich!"},
+
+    {"id": "zero", "pt": "zero", "de": "null", "emoji": "0️⃣", "beispiel_pt": "Zero euros.", "beispiel_de": "Null Euro."},
+    {"id": "um", "pt": "um", "de": "eins / ein", "emoji": "1️⃣", "beispiel_pt": "Um café, por favor.", "beispiel_de": "Einen Kaffee, bitte.", "hinweis": "Weiblich: uma (uma noite)", "alternativen": ["uma"]},
+    {"id": "dois", "pt": "dois", "de": "zwei", "emoji": "2️⃣", "beispiel_pt": "Dois cafés, por favor.", "beispiel_de": "Zwei Kaffee, bitte.", "hinweis": "Weiblich: duas (duas noites)", "alternativen": ["duas"]},
+    {"id": "tres", "pt": "três", "de": "drei", "emoji": "3️⃣", "beispiel_pt": "Senha número três.", "beispiel_de": "Wartenummer drei."},
+    {"id": "quatro", "pt": "quatro", "de": "vier", "emoji": "4️⃣", "beispiel_pt": "Balcão quatro.", "beispiel_de": "Schalter vier."},
+    {"id": "cinco", "pt": "cinco", "de": "fünf", "emoji": "5️⃣", "beispiel_pt": "Cinco minutos, por favor.", "beispiel_de": "Fünf Minuten, bitte."},
+    {"id": "seis", "pt": "seis", "de": "sechs", "emoji": "6️⃣", "beispiel_pt": "Seis dias.", "beispiel_de": "Sechs Tage.", "hinweis": "Das s am Ende klingt wie „sch“: „säisch“."},
+    {"id": "sete", "pt": "sete", "de": "sieben", "emoji": "7️⃣", "beispiel_pt": "Tenho o sete.", "beispiel_de": "Ich habe die Sieben."},
+    {"id": "oito", "pt": "oito", "de": "acht", "emoji": "8️⃣", "beispiel_pt": "Oito euros.", "beispiel_de": "Acht Euro."},
+    {"id": "nove", "pt": "nove", "de": "neun", "emoji": "9️⃣", "beispiel_pt": "Nove euros, por favor.", "beispiel_de": "Neun Euro, bitte."},
+    {"id": "dez", "pt": "dez", "de": "zehn", "emoji": "🔟", "beispiel_pt": "Dez minutos.", "beispiel_de": "Zehn Minuten."},
+    {"id": "a-senha", "pt": "a senha", "de": "die Wartenummer", "emoji": "🎫", "beispiel_pt": "Tire uma senha, por favor.", "beispiel_de": "Ziehen Sie bitte eine Nummer.", "hinweis": "Auf Ämtern, bei der Post, an der Supermarkttheke."},
+
+    {"id": "onze", "pt": "onze", "de": "elf", "emoji": "🔢", "beispiel_pt": "Onze euros.", "beispiel_de": "Elf Euro."},
+    {"id": "doze", "pt": "doze", "de": "zwölf", "emoji": "🔢", "beispiel_pt": "Doze minutos.", "beispiel_de": "Zwölf Minuten."},
+    {"id": "treze", "pt": "treze", "de": "dreizehn", "emoji": "🔢", "beispiel_pt": "Senha número treze.", "beispiel_de": "Wartenummer dreizehn."},
+    {"id": "catorze", "pt": "catorze", "de": "vierzehn", "emoji": "🔢", "beispiel_pt": "Catorze dias.", "beispiel_de": "Vierzehn Tage."},
+    {"id": "quinze", "pt": "quinze", "de": "fünfzehn", "emoji": "🔢", "beispiel_pt": "Quinze minutos.", "beispiel_de": "Fünfzehn Minuten."},
+    {"id": "dezasseis", "pt": "dezasseis", "de": "sechzehn", "emoji": "🔢", "beispiel_pt": "Senha dezasseis.", "beispiel_de": "Wartenummer sechzehn.", "hinweis": "Portugal: dezasseis – Brasilien: dezesseis."},
+    {"id": "dezassete", "pt": "dezassete", "de": "siebzehn", "emoji": "🔢", "beispiel_pt": "Dezassete euros.", "beispiel_de": "Siebzehn Euro."},
+    {"id": "dezoito", "pt": "dezoito", "de": "achtzehn", "emoji": "🔢", "beispiel_pt": "Balcão dezoito.", "beispiel_de": "Schalter achtzehn."},
+    {"id": "dezanove", "pt": "dezanove", "de": "neunzehn", "emoji": "🔢", "beispiel_pt": "Senha dezanove.", "beispiel_de": "Wartenummer neunzehn.", "hinweis": "Portugal: dezanove – Brasilien: dezenove."},
+    {"id": "vinte", "pt": "vinte", "de": "zwanzig", "emoji": "🔢", "beispiel_pt": "Vinte euros, por favor.", "beispiel_de": "Zwanzig Euro, bitte."},
+    {"id": "numero-telefone", "pt": "o número de telefone", "de": "die Telefonnummer", "emoji": "☎️", "beispiel_pt": "Qual é o seu número de telefone?", "beispiel_de": "Wie ist Ihre Telefonnummer?"},
+    {"id": "o-meu", "pt": "o meu", "de": "mein", "emoji": "👤", "beispiel_pt": "O meu nome é Stefan.", "beispiel_de": "Mein Name ist Stefan.", "hinweis": "Weiblich: a minha (a minha casa)"},
+    {"id": "o-seu", "pt": "o seu", "de": "Ihr (höflich)", "emoji": "🫵", "beispiel_pt": "Qual é o seu nome?", "beispiel_de": "Wie ist Ihr Name?", "hinweis": "Weiblich: a sua"}
+  ],
+
+  "lektionen": [
+    {
+      "id": "A1-01-L01",
+      "typ": "neu",
+      "titel": "Grüßen und verabschieden",
+      "vokabeln": ["ola", "bom-dia", "boa-tarde", "boa-noite", "adeus", "ate-logo", "ate-amanha", "tchau", "obrigado", "de-nada", "por-favor"],
+      "grammatik": {
+        "titel": "Grüße nach Tageszeit – und obrigado oder obrigada?",
+        "erklaerung": [
+          "<b>Bom dia</b> sagt man morgens bis zum Mittagessen (ca. 12–13 Uhr), <b>boa tarde</b> am Nachmittag, bis es dunkel wird, und <b>boa noite</b> am Abend – zur Begrüßung <i>und</i> zum Abschied.",
+          "Warum <b>bom</b> dia, aber <b>boa</b> tarde? <i>Dia</i> (Tag) ist männlich, <i>tarde</i> (Nachmittag) und <i>noite</i> (Nacht) sind weiblich – das Wort für „gut“ passt sich an.",
+          "<b>Obrigado</b> heißt wörtlich „verpflichtet“. Es richtet sich nach der Person, die spricht: Du als Mann sagst immer <b>obrigado</b>, eine Frau sagt <b>obrigada</b>."
+        ],
+        "vergleich": "Wie „Guten Morgen / Guten Tag / Guten Abend“ – nur dass <i>boa noite</i> auch „Guten Abend“ heißt. Englisch: good morning / good afternoon / good evening.",
+        "beispiele": [
+          {"pt": "Bom dia, Dona Fernanda!", "de": "Guten Morgen, Frau Fernanda!"},
+          {"pt": "Boa noite e até amanhã!", "de": "Gute Nacht und bis morgen!"},
+          {"pt": "Muito obrigado, senhor Rui.", "de": "Vielen Dank, Herr Rui."}
+        ],
+        "uebungen": [
+          {"typ": "auswahl", "frage": "Es ist 9 Uhr morgens. Du triffst deine Nachbarin. Was sagst du?", "optionen": ["Boa noite!", "Bom dia!", "Boa tarde!"], "richtig": 1},
+          {"typ": "auswahl", "frage": "16 Uhr – du betrittst die Apotheke. Was sagst du?", "optionen": ["Bom dia!", "Boa tarde!", "Boa noite!"], "richtig": 1, "erklaerung": "Nachmittags sagt man boa tarde."},
+          {"typ": "auswahl", "frage": "Du bedankst dich bei der Kassiererin. Was sagst du als Mann?", "optionen": ["Obrigada.", "Obrigado."], "richtig": 1, "erklaerung": "Es zählt, wer spricht: Männer sagen obrigado, Frauen obrigada.", "kategorie": "obrigado/obrigada"},
+          {"typ": "luecke", "satz": "___ tarde!", "loesungen": ["Boa"], "de": "Guten Tag! (nachmittags)", "erklaerung": "tarde ist weiblich → boa.", "kategorie": "Genus"},
+          {"typ": "luecke", "satz": "___ dia!", "loesungen": ["Bom"], "de": "Guten Morgen!", "erklaerung": "dia ist männlich → bom.", "kategorie": "Genus"},
+          {"typ": "uebersetzen", "de": "Bis morgen!", "loesungen": ["Até amanhã!"]},
+          {"typ": "satzbau", "de": "Gute Nacht und bis morgen!", "loesung": "Boa noite e até amanhã!"}
+        ]
+      },
+      "hoeren": {
+        "titel": "No prédio – im Treppenhaus",
+        "situation": "Stefan trifft morgens und abends seine Nachbarin Dona Fernanda.",
+        "zeilen": [
+          {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Bom dia, senhor Stefan!", "de": "Guten Morgen, Herr Stefan!"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia, Dona Fernanda!", "de": "Guten Morgen, Frau Fernanda!"},
+          {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Até logo!", "de": "Bis später!"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Até logo!", "de": "Bis später!"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Boa noite, Dona Fernanda.", "de": "Guten Abend, Frau Fernanda."},
+          {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Boa noite! Até amanhã.", "de": "Gute Nacht! Bis morgen."},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Até amanhã!", "de": "Bis morgen!"}
+        ],
+        "fragen": [
+          {"frage": "Zu welcher Tageszeit treffen sie sich zuerst?", "optionen": ["morgens", "nachmittags", "abends"], "richtig": 0},
+          {"frage": "Wie verabschiedet sich Dona Fernanda am Abend?", "optionen": ["Bis morgen", "Bis später", "Tschüss"], "richtig": 0}
+        ]
+      },
+      "sprechen": {
+        "typ": "nachsprechen",
+        "anweisung": "Hör zu und sprich laut nach. Achte darauf, dass das „o“ am Wortende fast wie „u“ klingt.",
+        "saetze": [
+          {"pt": "Bom dia!", "de": "Guten Morgen!"},
+          {"pt": "Boa tarde!", "de": "Guten Tag!"},
+          {"pt": "Boa noite!", "de": "Guten Abend!"},
+          {"pt": "Muito obrigado.", "de": "Vielen Dank."},
+          {"pt": "Até amanhã!", "de": "Bis morgen!"}
+        ]
+      },
+      "saetze": [
+        {"id": "bom-dia-fernanda", "pt": "Bom dia, Dona Fernanda!", "de": "Guten Morgen, Frau Fernanda!"},
+        {"id": "boa-noite-ate-amanha", "pt": "Boa noite e até amanhã!", "de": "Gute Nacht und bis morgen!"},
+        {"id": "muito-obrigado", "pt": "Muito obrigado!", "de": "Vielen Dank!", "alternativen": ["Muito obrigada!"]}
+      ]
+    },
+
+    {
+      "id": "A1-01-L02",
+      "typ": "neu",
+      "titel": "Sich vorstellen",
+      "vokabeln": ["como-se-chama", "chamo-me", "o-meu-nome-e", "muito-prazer", "igualmente", "eu", "sou", "e-ist", "ele", "ela", "o-senhor", "a-senhora", "e-und"],
+      "grammatik": {
+        "titel": "ser (sein) und chamar-se (heißen)",
+        "erklaerung": [
+          "Das Verb <b>ser</b> (sein): <b>eu sou</b> (ich bin) · <b>o senhor / a senhora é</b> (Sie sind) · <b>ele / ela é</b> (er / sie ist).",
+          "Höflich spricht man in Portugal Erwachsene mit <b>o senhor</b> (zu einem Mann) bzw. <b>a senhora</b> (zu einer Frau) an – das Verb steht dabei in der 3. Person, wie bei „er/sie“. Sehr oft lässt man das Pronomen ganz weg: <i>Como se chama?</i> – Wie heißen Sie?",
+          "Auch <i>eu</i> lässt man meistens weg: <b>Sou o Stefan.</b> Vor Vornamen steht in Portugal oft ein Artikel: <i>o</i> Stefan, <i>a</i> Ana.",
+          "<b>Chamo-me Stefan.</b> Das kleine Wort <i>me</i> (mich) steht im europäischen Portugiesisch <b>hinter</b> dem Verb, mit Bindestrich. „Me chamo“ ist brasilianisch und klingt in Portugal falsch."
+        ],
+        "vergleich": "<i>Chamo-me</i> heißt wörtlich „ich nenne mich“ – wie französisch „je m'appelle“. <i>O meu nome é…</i> entspricht dem englischen „My name is…“.",
+        "beispiele": [
+          {"pt": "Como se chama? – Chamo-me Stefan.", "de": "Wie heißen Sie? – Ich heiße Stefan."},
+          {"pt": "Muito prazer. – Igualmente.", "de": "Sehr erfreut. – Gleichfalls."},
+          {"pt": "Eu sou o Stefan e ela é a Ana.", "de": "Ich bin Stefan und sie ist Ana."}
+        ],
+        "uebungen": [
+          {"typ": "luecke", "satz": "Eu ___ o Stefan.", "loesungen": ["sou"], "de": "Ich bin Stefan.", "kategorie": "ser"},
+          {"typ": "luecke", "satz": "A senhora ___ a Dona Fernanda?", "loesungen": ["é"], "de": "Sind Sie Frau Fernanda?", "erklaerung": "a senhora steht mit der 3. Person: é.", "kategorie": "ser"},
+          {"typ": "auswahl", "frage": "Wie sagt man in Portugal „Ich heiße Stefan“?", "optionen": ["Me chamo Stefan.", "Chamo-me Stefan.", "Chamo me Stefan."], "richtig": 1, "erklaerung": "In Portugal steht me hinter dem Verb, mit Bindestrich.", "kategorie": "Pronomenstellung"},
+          {"typ": "luecke", "satz": "Como se ___?", "loesungen": ["chama"], "de": "Wie heißen Sie?"},
+          {"typ": "uebersetzen", "de": "Sehr erfreut.", "loesungen": ["Muito prazer."]},
+          {"typ": "satzbau", "de": "Mein Name ist Stefan.", "loesung": "O meu nome é Stefan."},
+          {"typ": "uebersetzen", "de": "Ich heiße Stefan.", "loesungen": ["Chamo-me Stefan.", "O meu nome é Stefan.", "Eu chamo-me Stefan."], "kategorie": "Pronomenstellung"}
+        ]
+      },
+      "hoeren": {
+        "titel": "Na receção do ginásio – am Empfang im Fitnessstudio",
+        "situation": "Stefan meldet sich im Fitnessstudio an.",
+        "zeilen": [
+          {"sprecher": "Ana", "stimme": "f", "pt": "Boa tarde! Como se chama?", "de": "Guten Tag! Wie heißen Sie?"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Chamo-me Stefan Krenn.", "de": "Guten Tag. Ich heiße Stefan Krenn."},
+          {"sprecher": "Ana", "stimme": "f", "pt": "Muito prazer. Eu sou a Ana.", "de": "Sehr erfreut. Ich bin Ana."},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Igualmente.", "de": "Gleichfalls."},
+          {"sprecher": "Ana", "stimme": "f", "pt": "O senhor é alemão?", "de": "Sind Sie Deutscher?"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Sou, sim.", "de": "Ja, bin ich."}
+        ],
+        "fragen": [
+          {"frage": "Wie heißt die Frau am Empfang?", "optionen": ["Ana", "Fernanda", "Rita"], "richtig": 0},
+          {"frage": "Wo findet das Gespräch statt?", "optionen": ["im Café", "am Empfang im Fitnessstudio", "in der Apotheke"], "richtig": 1},
+          {"frage": "Wie antwortet Stefan auf „Muito prazer“?", "optionen": ["Igualmente.", "De nada.", "Obrigado."], "richtig": 0}
+        ]
+      },
+      "sprechen": {
+        "typ": "schreiben",
+        "anweisung": "Schreib die Sätze auf Portugiesisch.",
+        "aufgaben": [
+          {"de": "Sag, wie du heißt.", "loesungen": ["Chamo-me Stefan.", "O meu nome é Stefan.", "Sou o Stefan.", "Chamo-me Stefan Krenn.", "O meu nome é Stefan Krenn."]},
+          {"de": "Frag höflich, wie die Person heißt.", "loesungen": ["Como se chama?", "Como é que se chama?"]},
+          {"de": "Antworte auf „Muito prazer“.", "loesungen": ["Igualmente.", "Muito prazer."]},
+          {"de": "Ich bin Stefan und sie ist Ana.", "loesungen": ["Eu sou o Stefan e ela é a Ana.", "Sou o Stefan e ela é a Ana."]}
+        ]
+      },
+      "saetze": [
+        {"id": "como-se-chama-chamo-me", "pt": "Como se chama? – Chamo-me Stefan.", "de": "Wie heißen Sie? – Ich heiße Stefan."},
+        {"id": "muito-prazer-ana", "pt": "Muito prazer, eu sou a Ana.", "de": "Sehr erfreut, ich bin Ana."},
+        {"id": "a-senhora-e", "pt": "A senhora é a Dona Fernanda?", "de": "Sind Sie Frau Fernanda?"}
+      ]
+    },
+
+    {
+      "id": "A1-01-L03",
+      "typ": "neu",
+      "titel": "Wie geht es Ihnen?",
+      "vokabeln": ["como-esta", "estou-bem", "muito-bem", "mais-ou-menos", "tudo-bem", "e-consigo", "tambem", "cansado"],
+      "grammatik": {
+        "titel": "estar – wie es jemandem geht",
+        "erklaerung": [
+          "Für das Befinden benutzt man <b>estar</b>: <b>Estou bem.</b> – Mir geht es gut (wörtlich: Ich bin gut). <b>Como está?</b> – Wie geht es Ihnen?",
+          "Portugiesisch hat zwei Verben für „sein“: <b>ser</b> sagt, <i>wer oder was</i> jemand ist (Name, Herkunft, Beruf). <b>estar</b> sagt, <i>wie es gerade ist</i> (Befinden, Stimmung, Ort). Das üben wir noch oft.",
+          "Formen: <b>eu estou</b> · <b>o senhor / a senhora / ele / ela está</b>.",
+          "Höflich zurückfragen: <b>E consigo?</b> (Und Ihnen?) oder <b>E o senhor? / E a senhora?</b> Unter Freunden: <b>E tu?</b>",
+          "<b>Tudo bem?</b> ist locker, aber auch unter Bekannten und im Geschäft ganz üblich. Antwort: <i>Tudo bem, obrigado!</i>"
+        ],
+        "vergleich": "Englisch und Deutsch haben nur ein Verb „sein / to be“. Wer Spanisch kann: ser/estar funktionieren dort genauso.",
+        "beispiele": [
+          {"pt": "Como está? – Estou bem, obrigado. E consigo?", "de": "Wie geht es Ihnen? – Gut, danke. Und Ihnen?"},
+          {"pt": "Estou muito cansado.", "de": "Ich bin sehr müde."},
+          {"pt": "Eu sou o Stefan. Estou bem.", "de": "Ich bin Stefan. Mir geht es gut."}
+        ],
+        "uebungen": [
+          {"typ": "luecke", "satz": "Como ___?", "loesungen": ["está"], "de": "Wie geht es Ihnen?", "kategorie": "ser/estar"},
+          {"typ": "luecke", "satz": "___ bem, obrigado.", "loesungen": ["Estou"], "de": "Mir geht es gut, danke.", "kategorie": "ser/estar"},
+          {"typ": "auswahl", "frage": "Was passt? „Eu ___ o Stefan.“", "optionen": ["sou", "estou"], "richtig": 0, "erklaerung": "Name / wer jemand ist → ser.", "kategorie": "ser/estar"},
+          {"typ": "auswahl", "frage": "Was passt? „Eu ___ cansado.“ (Ich bin müde.)", "optionen": ["sou", "estou"], "richtig": 1, "erklaerung": "Ein Zustand im Moment → estar.", "kategorie": "ser/estar"},
+          {"typ": "auswahl", "frage": "Deine ältere Nachbarin fragt: „Como está?“ Was antwortest du?", "optionen": ["Estou bem, obrigado. E consigo?", "Sou bem, obrigado.", "Tudo bem, e tu?"], "richtig": 0, "erklaerung": "Befinden → estar. „E tu?“ wäre gegenüber der älteren Nachbarin zu vertraut."},
+          {"typ": "uebersetzen", "de": "Sehr gut, danke. Und Ihnen?", "loesungen": ["Muito bem, obrigado. E consigo?", "Muito bem, obrigado. E o senhor?", "Muito bem, obrigado. E a senhora?"]},
+          {"typ": "satzbau", "de": "Mir geht es so lala.", "loesung": "Estou mais ou menos."}
+        ]
+      },
+      "hoeren": {
+        "titel": "Na rua – auf der Straße",
+        "situation": "Stefan trifft Dona Fernanda vor dem Haus.",
+        "zeilen": [
+          {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Bom dia, senhor Stefan! Como está?", "de": "Guten Morgen, Herr Stefan! Wie geht es Ihnen?"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia! Estou bem, obrigado. E consigo?", "de": "Guten Morgen! Gut, danke. Und Ihnen?"},
+          {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Mais ou menos… Estou um pouco cansada.", "de": "So lala … Ich bin ein bisschen müde."},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Ah, pois. Até logo, Dona Fernanda!", "de": "Ah, verstehe. Bis später, Frau Fernanda!"},
+          {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Até logo!", "de": "Bis später!"}
+        ],
+        "fragen": [
+          {"frage": "Wie geht es Stefan?", "optionen": ["gut", "schlecht", "er ist müde"], "richtig": 0},
+          {"frage": "Wie geht es Dona Fernanda?", "optionen": ["sehr gut", "so lala – sie ist etwas müde", "schlecht – sie ist krank"], "richtig": 1},
+          {"frage": "Wie fragt Stefan höflich zurück?", "optionen": ["E consigo?", "E tu?", "Tudo bem?"], "richtig": 0}
+        ]
+      },
+      "sprechen": {
+        "typ": "rollenspiel",
+        "situation": "Du triffst Senhor Rui vor seinem Café.",
+        "zeilen": [
+          {"sprecher": "Senhor Rui", "stimme": "m", "pt": "Boa tarde, senhor Stefan! Tudo bem?", "de": "Guten Tag, Herr Stefan! Alles gut?"},
+          {"ich": true, "aufgabe": "Antworte: Alles gut, danke! Und Ihnen?", "loesungen": ["Tudo bem, obrigado! E consigo?", "Tudo bem, obrigado. E o senhor?", "Tudo bem, obrigado!"]},
+          {"sprecher": "Senhor Rui", "stimme": "m", "pt": "Muito bem, obrigado.", "de": "Sehr gut, danke."},
+          {"ich": true, "aufgabe": "Verabschiede dich: Bis später!", "loesungen": ["Até logo!", "Até logo, senhor Rui!"]}
+        ]
+      },
+      "saetze": [
+        {"id": "estou-bem-e-consigo", "pt": "Estou bem, obrigado. E consigo?", "de": "Mir geht es gut, danke. Und Ihnen?"},
+        {"id": "estou-muito-cansado", "pt": "Estou muito cansado.", "de": "Ich bin sehr müde.", "alternativen": ["Estou muito cansada."]},
+        {"id": "ola-tudo-bem", "pt": "Olá, Rui! Tudo bem?", "de": "Hallo, Rui! Alles gut?"}
+      ]
+    },
+
+    {
+      "id": "A1-01-L04",
+      "typ": "neu",
+      "titel": "Sich verständigen",
+      "vokabeln": ["sim", "nao", "desculpe", "com-licenca", "nao-percebo", "pode-repetir", "mais-devagar", "nao-sei", "como-se-diz", "falo-um-pouco", "claro"],
+      "grammatik": {
+        "titel": "Verneinen und Fragen",
+        "erklaerung": [
+          "Verneinen ist einfach: <b>não</b> steht direkt vor dem Verb. <i>Percebo.</i> – Ich verstehe. → <b>Não percebo.</b> – Ich verstehe nicht.",
+          "Ja/Nein-Fragen bildet man nur mit der Satzmelodie – die Wortstellung bleibt gleich: <i>O senhor fala português.</i> → <i>O senhor fala português?</i> (Die Stimme geht am Ende hoch.)",
+          "Typisch Portugal: Auf eine Frage antwortet man gern mit dem <b>Verb</b> statt nur mit „ja“: <i>Fala português?</i> – <b>Falo, um pouco.</b> / <i>É o Stefan?</i> – <b>Sou, sim.</b>",
+          "<b>Não percebo</b> ist typisch portugiesisch; in Brasilien sagt man meist „não entendo“."
+        ],
+        "vergleich": "Im Englischen braucht man „do“: <i>I don't understand / Do you speak…?</i> Im Portugiesischen nicht – einfach <i>não</i> davor bzw. die Stimme heben.",
+        "beispiele": [
+          {"pt": "Desculpe, não percebo.", "de": "Entschuldigung, ich verstehe nicht."},
+          {"pt": "Fala inglês? – Falo, sim.", "de": "Sprechen Sie Englisch? – Ja (spreche ich)."},
+          {"pt": "Pode falar mais devagar, por favor?", "de": "Können Sie bitte langsamer sprechen?"}
+        ],
+        "uebungen": [
+          {"typ": "uebersetzen", "de": "Ich verstehe nicht.", "loesungen": ["Não percebo.", "Eu não percebo."], "kategorie": "Verneinung"},
+          {"typ": "luecke", "satz": "___ sei.", "loesungen": ["Não"], "de": "Ich weiß nicht.", "kategorie": "Verneinung"},
+          {"typ": "auswahl", "frage": "Wo steht „não“ richtig?", "optionen": ["Não falo alemão.", "Falo não alemão.", "Falo alemão não."], "richtig": 0, "erklaerung": "não steht direkt vor dem Verb.", "kategorie": "Verneinung"},
+          {"typ": "satzbau", "de": "Können Sie das bitte wiederholen?", "loesung": "Pode repetir, por favor?"},
+          {"typ": "uebersetzen", "de": "Entschuldigung, ich verstehe nicht.", "loesungen": ["Desculpe, não percebo.", "Desculpe, eu não percebo."]},
+          {"typ": "luecke", "satz": "Pode falar mais ___?", "loesungen": ["devagar"], "de": "Können Sie langsamer sprechen?"},
+          {"typ": "uebersetzen", "de": "Ich spreche ein bisschen Portugiesisch.", "loesungen": ["Falo um pouco de português.", "Eu falo um pouco de português."]}
+        ]
+      },
+      "hoeren": {
+        "titel": "Na farmácia – in der Apotheke",
+        "situation": "Stefan kommt in die Apotheke.",
+        "zeilen": [
+          {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Boa tarde. Diga.", "de": "Guten Tag. Bitte schön?"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Desculpe, não falo bem português.", "de": "Guten Tag. Entschuldigung, ich spreche nicht gut Portugiesisch."},
+          {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Não faz mal! Fala inglês?", "de": "Kein Problem! Sprechen Sie Englisch?"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Falo, sim. Mas pode falar português mais devagar, por favor?", "de": "Ja. Aber können Sie bitte langsamer Portugiesisch sprechen?"},
+          {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Claro, com certeza!", "de": "Klar, natürlich!"}
+        ],
+        "fragen": [
+          {"frage": "Wo ist Stefan?", "optionen": ["in der Apotheke", "in der Bäckerei", "in der Bank"], "richtig": 0},
+          {"frage": "Worum bittet Stefan?", "optionen": ["langsamer zu sprechen", "lauter zu sprechen", "nur Englisch zu sprechen"], "richtig": 0},
+          {"frage": "Was bedeutet „Não faz mal“?", "optionen": ["Kein Problem.", "Das tut weh.", "Ich weiß nicht."], "richtig": 0}
+        ]
+      },
+      "sprechen": {
+        "typ": "nachsprechen",
+        "anweisung": "Diese Sätze retten dich in jedem Gespräch. Hör zu und sprich laut nach.",
+        "saetze": [
+          {"pt": "Desculpe, não percebo.", "de": "Entschuldigung, ich verstehe nicht."},
+          {"pt": "Pode repetir, por favor?", "de": "Können Sie das bitte wiederholen?"},
+          {"pt": "Pode falar mais devagar?", "de": "Können Sie langsamer sprechen?"},
+          {"pt": "Como se diz isto em português?", "de": "Wie sagt man das auf Portugiesisch?"},
+          {"pt": "Falo um pouco de português.", "de": "Ich spreche ein bisschen Portugiesisch."}
+        ]
+      },
+      "saetze": [
+        {"id": "desculpe-nao-percebo", "pt": "Desculpe, não percebo.", "de": "Entschuldigung, ich verstehe nicht."},
+        {"id": "pode-falar-mais-devagar", "pt": "Pode falar mais devagar, por favor?", "de": "Können Sie bitte langsamer sprechen?"},
+        {"id": "falo-um-pouco-de-portugues", "pt": "Falo um pouco de português.", "de": "Ich spreche ein bisschen Portugiesisch."},
+        {"id": "como-se-diz-isto", "pt": "Como se diz isto em português?", "de": "Wie sagt man das auf Portugiesisch?"}
+      ]
+    },
+
+    {
+      "id": "A1-01-L05",
+      "typ": "neu",
+      "titel": "Zahlen 0–10 und die Wartenummer",
+      "vokabeln": ["zero", "um", "dois", "tres", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez", "a-senha"],
+      "grammatik": {
+        "titel": "Männlich und weiblich: o/a, um/uma",
+        "erklaerung": [
+          "Jedes Nomen ist männlich oder weiblich – ein „es“ gibt es nicht. Männlich: <b>o</b> (der) / <b>um</b> (ein). Weiblich: <b>a</b> (die) / <b>uma</b> (eine).",
+          "Faustregel: Endung <b>-o</b> → meist männlich (<i>o número</i>), Endung <b>-a</b> → meist weiblich (<i>a senha</i>). Ausnahmen wie <i>o dia</i> (der Tag) lernt man einfach mit.",
+          "Auch die Zahlen 1 und 2 haben eine weibliche Form: <b>um dia, uma noite</b> · <b>dois dias, duas noites</b>.",
+          "Aussprache: Ein <b>s am Wortende</b> klingt in Portugal wie „sch“: <i>seis</i> ≈ „säisch“, <i>dois</i> ≈ „doisch“, <i>três</i> ≈ „tresch“."
+        ],
+        "vergleich": "Wie „ein/eine“ im Deutschen – nur ohne Neutrum. Das Geschlecht stimmt oft nicht mit dem Deutschen überein: <i>a noite</i> (die Nacht) passt, <i>o dia</i> (der Tag) auch, aber <i>a casa</i> (das Haus) nicht.",
+        "beispiele": [
+          {"pt": "um dia e uma noite", "de": "ein Tag und eine Nacht"},
+          {"pt": "dois cafés e duas águas", "de": "zwei Kaffee und zwei Wasser"},
+          {"pt": "Senha número seis, balcão três.", "de": "Wartenummer sechs, Schalter drei."}
+        ],
+        "uebungen": [
+          {"typ": "luecke", "satz": "___ noite", "loesungen": ["uma"], "de": "eine Nacht", "kategorie": "Genus"},
+          {"typ": "luecke", "satz": "___ dia", "loesungen": ["um"], "de": "ein Tag", "erklaerung": "dia ist männlich – eine Ausnahme trotz -a.", "kategorie": "Genus"},
+          {"typ": "auswahl", "frage": "„zwei Nächte“ heißt …", "optionen": ["dois noites", "duas noites"], "richtig": 1, "erklaerung": "noite ist weiblich → duas.", "kategorie": "Genus"},
+          {"typ": "uebersetzen", "de": "sieben", "loesungen": ["sete"]},
+          {"typ": "diktat", "pt": "três"},
+          {"typ": "diktat", "pt": "oito"},
+          {"typ": "auswahl", "frage": "Welche Zahl ist „nove“?", "optionen": ["9", "6", "10"], "richtig": 0, "audio": "nove"}
+        ]
+      },
+      "hoeren": {
+        "titel": "A senha – die Wartenummer",
+        "situation": "Stefan wartet bei der Loja do Cidadão (Bürgerbüro) und hört die Durchsagen.",
+        "zeilen": [
+          {"sprecher": "Durchsage", "stimme": "f", "pt": "Senha número quatro, balcão dois.", "de": "Wartenummer vier, Schalter zwei."},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpe, que número é?", "de": "Entschuldigung, welche Nummer ist das?"},
+          {"sprecher": "Senhora", "stimme": "f", "pt": "É o quatro. O senhor tem que número?", "de": "Die Vier. Welche Nummer haben Sie?"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Tenho o sete.", "de": "Ich habe die Sieben."},
+          {"sprecher": "Senhora", "stimme": "f", "pt": "Então ainda falta um bocadinho!", "de": "Dann dauert es noch ein bisschen!"},
+          {"sprecher": "Durchsage", "stimme": "f", "pt": "Senha número cinco, balcão um.", "de": "Wartenummer fünf, Schalter eins."}
+        ],
+        "fragen": [
+          {"frage": "Welche Nummer hat Stefan?", "optionen": ["4", "5", "7"], "richtig": 2},
+          {"frage": "Welche Nummer wird zuerst aufgerufen?", "optionen": ["4", "2", "7"], "richtig": 0},
+          {"frage": "Zu welchem Schalter soll Nummer 5 gehen?", "optionen": ["Schalter 1", "Schalter 2", "Schalter 4"], "richtig": 0}
+        ]
+      },
+      "sprechen": {
+        "typ": "schreiben",
+        "anweisung": "Schreib die Zahlen und Wörter aus.",
+        "aufgaben": [
+          {"de": "3", "loesungen": ["três"]},
+          {"de": "6", "loesungen": ["seis"]},
+          {"de": "10", "loesungen": ["dez"]},
+          {"de": "eine Nacht", "loesungen": ["uma noite"]},
+          {"de": "zwei Tage", "loesungen": ["dois dias"]}
+        ]
+      },
+      "saetze": [
+        {"id": "tenho-o-sete", "pt": "Tenho o sete.", "de": "Ich habe die Sieben."},
+        {"id": "senha-cinco-balcao-um", "pt": "Senha número cinco, balcão um.", "de": "Wartenummer fünf, Schalter eins."},
+        {"id": "um-dia-uma-noite", "pt": "um dia e uma noite", "de": "ein Tag und eine Nacht"}
+      ]
+    },
+
+    {
+      "id": "A1-01-L06",
+      "typ": "neu",
+      "titel": "Zahlen 11–20 und die Telefonnummer",
+      "vokabeln": ["onze", "doze", "treze", "catorze", "quinze", "dezasseis", "dezassete", "dezoito", "dezanove", "vinte", "numero-telefone", "o-meu", "o-seu"],
+      "grammatik": {
+        "titel": "Zahlen 11–20 und „mein / Ihr“",
+        "erklaerung": [
+          "11–15 lernt man auswendig: <b>onze, doze, treze, catorze, quinze</b>. Ab 16 wird zusammengesetzt: <b>dezasseis</b> (10 + 6), <b>dezassete, dezoito, dezanove</b>.",
+          "Achtung: In Brasilien schreibt man <i>dezesseis, dezessete, dezenove</i> – in Portugal mit <b>a</b>: <b>dezasseis, dezassete, dezanove</b>.",
+          "<b>o meu</b> (mein) und <b>o seu</b> (Ihr – höflich). Im europäischen Portugiesisch steht vor dem Possessivwort der Artikel: <i>Qual é <b>o seu</b> número de telefone?</i> – <i><b>O meu</b> número é…</i>",
+          "Handynummern haben neun Ziffern und beginnen meist mit 9. Man liest sie gern Ziffer für Ziffer in Dreiergruppen: 912 345 678 → <i>nove, um, dois – três, quatro, cinco – seis, sete, oito</i>."
+        ],
+        "vergleich": "Wie englisch „my / your“ – aber mit Artikel davor, als würde man sagen „the my number“.",
+        "beispiele": [
+          {"pt": "Qual é o seu número de telefone?", "de": "Wie ist Ihre Telefonnummer?"},
+          {"pt": "O meu nome é Stefan.", "de": "Mein Name ist Stefan."},
+          {"pt": "Senha número dezasseis.", "de": "Wartenummer sechzehn."}
+        ],
+        "uebungen": [
+          {"typ": "uebersetzen", "de": "sechzehn", "loesungen": ["dezasseis"], "erklaerung": "In Portugal mit a: dezasseis (nicht dezesseis)."},
+          {"typ": "diktat", "pt": "catorze"},
+          {"typ": "diktat", "pt": "dezanove"},
+          {"typ": "luecke", "satz": "Qual é o ___ número de telefone?", "loesungen": ["seu"], "de": "Wie ist Ihre Telefonnummer?", "kategorie": "Possessiv"},
+          {"typ": "luecke", "satz": "O ___ nome é Stefan.", "loesungen": ["meu"], "de": "Mein Name ist Stefan.", "kategorie": "Possessiv"},
+          {"typ": "auswahl", "frage": "Welche Zahl ist „quinze“?", "optionen": ["5", "15", "50"], "richtig": 1, "audio": "quinze"},
+          {"typ": "satzbau", "de": "Wie ist Ihre Telefonnummer?", "loesung": "Qual é o seu número de telefone?"}
+        ]
+      },
+      "hoeren": {
+        "titel": "O número de telefone",
+        "situation": "Ana vom Fitnessstudio braucht Stefans Telefonnummer.",
+        "zeilen": [
+          {"sprecher": "Ana", "stimme": "f", "pt": "Qual é o seu número de telefone?", "de": "Wie ist Ihre Telefonnummer?"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "É o nove, um, dois, três, quatro, cinco, seis, sete, oito.", "de": "Neun, eins, zwei, drei, vier, fünf, sechs, sieben, acht."},
+          {"sprecher": "Ana", "stimme": "f", "pt": "Desculpe, pode repetir mais devagar?", "de": "Entschuldigung, können Sie das langsamer wiederholen?"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Claro. Nove, um, dois… três, quatro, cinco… seis, sete, oito.", "de": "Klar. Neun, eins, zwei … drei, vier, fünf … sechs, sieben, acht."},
+          {"sprecher": "Ana", "stimme": "f", "pt": "Obrigada! E o seu nome é Stefan Krenn, certo?", "de": "Danke! Und Ihr Name ist Stefan Krenn, richtig?"},
+          {"sprecher": "Stefan", "stimme": "m", "pt": "Certo!", "de": "Richtig!"}
+        ],
+        "fragen": [
+          {"frage": "Wie beginnt Stefans Nummer?", "optionen": ["912", "921", "812"], "richtig": 0},
+          {"frage": "Worum bittet Ana?", "optionen": ["langsamer zu wiederholen", "den Namen zu buchstabieren", "lauter zu sprechen"], "richtig": 0},
+          {"frage": "Was bedeutet „certo“?", "optionen": ["richtig", "sicher nicht", "später"], "richtig": 0}
+        ]
+      },
+      "sprechen": {
+        "typ": "rollenspiel",
+        "situation": "Beim Zahnarzt: Die Rezeptionistin nimmt deine Daten auf.",
+        "zeilen": [
+          {"sprecher": "Rececionista", "stimme": "f", "pt": "Bom dia! Como se chama?", "de": "Guten Morgen! Wie heißen Sie?"},
+          {"ich": true, "aufgabe": "Sag deinen Namen.", "loesungen": ["Chamo-me Stefan Krenn.", "O meu nome é Stefan Krenn.", "Chamo-me Stefan.", "Sou o Stefan Krenn.", "O meu nome é Stefan."]},
+          {"sprecher": "Rececionista", "stimme": "f", "pt": "Qual é o seu número de telefone?", "de": "Wie ist Ihre Telefonnummer?"},
+          {"ich": true, "aufgabe": "Sag: Entschuldigung, können Sie das wiederholen?", "loesungen": ["Desculpe, pode repetir?", "Desculpe, pode repetir, por favor?"]},
+          {"sprecher": "Rececionista", "stimme": "f", "pt": "O seu número de telefone, por favor.", "de": "Ihre Telefonnummer, bitte."},
+          {"ich": true, "aufgabe": "Sag: Meine Nummer ist neun, eins, zwei …", "loesungen": ["O meu número é nove, um, dois", "O meu número é o nove, um, dois", "É o nove, um, dois"]},
+          {"sprecher": "Rececionista", "stimme": "f", "pt": "Muito obrigada.", "de": "Vielen Dank."},
+          {"ich": true, "aufgabe": "Antworte: Gern geschehen!", "loesungen": ["De nada.", "Não tem de quê."]}
+        ]
+      },
+      "saetze": [
+        {"id": "qual-e-o-seu-numero", "pt": "Qual é o seu número de telefone?", "de": "Wie ist Ihre Telefonnummer?"},
+        {"id": "pode-repetir-o-numero", "pt": "Pode repetir o número, por favor?", "de": "Können Sie die Nummer bitte wiederholen?"},
+        {"id": "senha-dezasseis", "pt": "Senha número dezasseis.", "de": "Wartenummer sechzehn."}
+      ]
+    }
+  ]
+}

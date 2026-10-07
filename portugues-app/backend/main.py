@@ -9,7 +9,7 @@ from fastapi import Body, Depends, FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import config, content, db
+from . import config, content, db, lesson, pruefen
 
 FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 
@@ -64,9 +64,13 @@ def overview(con=Depends(get_db)):
     done = {r["lesson_id"] for r in con.execute("SELECT lesson_id FROM lessons_done")}
     today = con.execute("SELECT seconds FROM daily_log WHERE day = ?",
                         (date.today().isoformat(),)).fetchone()
+    faellig = db.due_count(con)
     return {
         "streak": db.streak(con),
-        "faellig": db.due_count(con),
+        "faellig": faellig,
+        "naechste_lektion": lesson.naechste_lektion(con),
+        "heute_erledigt": lesson.heute_erledigt(con),
+        "wiederholungstag_empfohlen": faellig >= lesson.WIEDERHOLUNGSTAG_AB,
         "fortschritt": content.level_progress(done),
         "lektionen_erledigt": len(done),
         "heute_minuten": round((today["seconds"] if today else 0) / 60),
@@ -99,6 +103,60 @@ def import_backup(data: dict = Body(...), con=Depends(get_db)):
     except ValueError as e:
         raise HTTPException(400, str(e))
     return {"ok": True}
+
+
+# --- Lektion ---------------------------------------------------------------
+
+@app.get("/api/lektion")
+def lektion_plan(id: str | None = None, modus: str = "lektion", con=Depends(get_db)):
+    """Die heutige (oder eine bestimmte) Lektion mit allen Schritten."""
+    plan = lesson.plan(con, lesson_id=id, modus=modus)
+    if plan is None:
+        raise HTTPException(404, "Alle vorhandenen Lektionen sind erledigt – neue Inhalte folgen.")
+    return plan
+
+
+@app.post("/api/pruefen")
+def antwort_pruefen(daten: dict = Body(...)):
+    """Prüft eine getippte Antwort (ohne etwas zu speichern)."""
+    try:
+        return pruefen.pruefen(daten.get("antwort", ""), daten.get("loesungen", []))
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+@app.post("/api/antwort")
+def antwort_speichern(daten: dict = Body(...), con=Depends(get_db)):
+    """Speichert das endgültige Ergebnis einer Antwort (nach evtl. Korrektur)."""
+    if daten.get("ergebnis") not in ("richtig", "fast", "falsch"):
+        raise HTTPException(400, "Ungültiges Ergebnis")
+    try:
+        return lesson.antwort_verbuchen(con, daten)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+@app.post("/api/lektion/{lesson_id}/block")
+def block_speichern(lesson_id: str, daten: dict = Body(...), con=Depends(get_db)):
+    """Merkt sich, dass ein Block fertig oder übersprungen ist."""
+    try:
+        lesson.block_speichern(con, lesson_id, daten.get("block", ""), daten.get("status", ""),
+                               int(daten.get("sekunden") or 0))
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+    return {"ok": True}
+
+
+@app.get("/api/lektion/{lesson_id}/zusammenfassung")
+def lektion_zusammenfassung(lesson_id: str, con=Depends(get_db)):
+    return lesson.zusammenfassung(con, lesson_id)
+
+
+@app.post("/api/lektion/{lesson_id}/abschluss")
+def lektion_abschluss(lesson_id: str, daten: dict = Body(...), con=Depends(get_db)):
+    ergebnis = lesson.lektion_abschliessen(con, lesson_id, daten.get("selbsteinschaetzung"))
+    lesson.block_speichern(con, lesson_id, "abschluss", "fertig", int(daten.get("sekunden") or 0))
+    return ergebnis
 
 
 # --- Oberfläche ------------------------------------------------------------

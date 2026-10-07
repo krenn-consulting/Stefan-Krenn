@@ -29,7 +29,7 @@ def client(tmp_path, monkeypatch):
 def test_init_ist_mehrfach_ausfuehrbar(con):
     db.init_db(con)
     db.init_db(con)
-    assert db.get_settings(con)["neue_karten_pro_tag"] == 10
+    assert db.get_settings(con)["neue_karten_pro_tag"] == 15
 
 
 def test_einstellungen_speichern_nur_bekannte_schluessel(con):
@@ -121,7 +121,7 @@ def test_settings_api(client):
 def test_startseite_wird_ausgeliefert(client):
     r = client.get("/")
     assert r.status_code == 200
-    assert "Heutige Lektion starten" in r.text
+    assert "big-button" in r.text and "lektion()" in r.text
     assert client.get("/vendor/alpine.min.js").status_code == 200
 
 
@@ -139,3 +139,21 @@ def test_export_api_liefert_datei(client):
     r = client.get("/api/export")
     assert "attachment" in r.headers["content-disposition"]
     assert r.json()["app"] == "portugues-app"
+
+
+def test_alte_datenbank_wird_ergaenzt(tmp_path):
+    # Datenbank im Format von Etappe (a): ohne die später ergänzten Spalten
+    c = db.connect(tmp_path / "alt.sqlite")
+    c.executescript("""
+        CREATE TABLE reviews (id INTEGER PRIMARY KEY, card_id INTEGER, ts TEXT NOT NULL,
+            exercise TEXT NOT NULL, result TEXT NOT NULL, answer TEXT, duration_ms INTEGER);
+        CREATE TABLE mistakes (id INTEGER PRIMARY KEY, item_id TEXT, category TEXT, prompt TEXT NOT NULL,
+            given TEXT, expected TEXT NOT NULL, explanation TEXT, ts TEXT NOT NULL,
+            times_wrong INTEGER NOT NULL DEFAULT 1, resolved INTEGER NOT NULL DEFAULT 0);
+        INSERT INTO reviews(ts, exercise, result) VALUES ('2026-10-01T10:00:00', 'tippen', 'richtig');
+    """)
+    db.init_db(c)
+    spalten = {r[1] for r in c.execute("PRAGMA table_info(reviews)")}
+    assert {"item_id", "lesson_id", "block"} <= spalten
+    assert {"streak", "payload"} <= {r[1] for r in c.execute("PRAGMA table_info(mistakes)")}
+    assert c.execute("SELECT COUNT(*) FROM reviews").fetchone()[0] == 1   # nichts verloren

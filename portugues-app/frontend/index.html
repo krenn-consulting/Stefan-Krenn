@@ -7,12 +7,14 @@
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
+  <script src="audio.js"></script>
   <script src="app.js"></script>
+  <script src="lesson.js"></script>
   <script defer src="vendor/alpine.min.js"></script>
 </head>
-<body x-data="app()" x-init="start()" :data-theme="theme">
+<body x-data="app()" x-init="start()" x-effect="document.documentElement.dataset.theme = theme">
 
-  <nav class="topnav">
+  <nav class="topnav" x-show="page !== 'lektion'">
     <a href="#/" class="brand">🇵🇹 Português</a>
     <div class="navlinks">
       <a href="#/" :class="{active: page === 'start'}">Start</a>
@@ -34,8 +36,20 @@
       <h1>Bom dia! 👋</h1>
       <p class="muted">Deine tägliche Lektion dauert etwa <span x-text="settings.lektionsdauer_min"></span> Minuten.</p>
 
-      <button class="big-button" @click="startLesson()">Heutige Lektion starten</button>
-      <p class="hint" x-show="info" x-text="info"></p>
+      <button class="big-button" @click="startLesson()" x-text="startText"></button>
+      <p class="next-lesson" x-show="overview.naechste_lektion">
+        <span x-text="overview.naechste_lektion?.level"></span> ·
+        <span x-text="overview.naechste_lektion?.einheit"></span> ·
+        <strong x-text="overview.naechste_lektion?.titel"></strong>
+      </p>
+      <p class="next-lesson" x-show="overview.fortschritt && !overview.naechste_lektion">
+        Alle vorhandenen Lektionen sind erledigt – neue Inhalte folgen. Bis dahin: wiederholen!
+      </p>
+      <p class="notice warn" x-show="overview.wiederholungstag_empfohlen" x-cloak>
+        Es sind viele Wiederholungen fällig. Heute lieber einen <strong>Wiederholungstag</strong> einlegen?
+      </p>
+      <button class="link-button" x-show="overview.faellig > 0 && overview.naechste_lektion" x-cloak
+              @click="startWiederholung()">Nur wiederholen (<span x-text="overview.faellig"></span> fällig)</button>
 
       <div class="stats">
         <div class="stat">
@@ -59,6 +73,277 @@
         </div>
         <div class="bar"><div class="bar-fill" :style="`width: ${(overview.fortschritt?.anteil ?? 0) * 100}%`"></div></div>
       </div>
+    </section>
+
+    <!-- ===== Lektion ===== -->
+    <section x-show="page === 'lektion'" x-cloak class="lesson"
+             x-data="lektion()" @lektion-laden.window="laden()" @keydown.window="taste($event)">
+
+      <p class="notice error" x-show="ladeFehler" x-text="ladeFehler"></p>
+      <a href="#/" class="button secondary" x-show="ladeFehler">Zur Startseite</a>
+
+      <template x-if="plan">
+        <div>
+          <!-- Kopfzeile: Blöcke, Timer, Fortschritt -->
+          <header class="lesson-head">
+            <div class="lesson-title">
+              <button class="icon-button" title="Lektion verlassen (Fortschritt bleibt gespeichert)" @click="verlassen()">✕</button>
+              <span x-text="plan.titel"></span>
+            </div>
+            <ol class="block-chips">
+              <template x-for="(b, i) in plan.bloecke" :key="b.id">
+                <li :class="{aktiv: i === bi && !ergebnis, fertig: b.status === 'fertig', uebersprungen: b.status === 'uebersprungen'}">
+                  <span class="chip-symbol" x-text="statusSymbol(b, i)"></span>
+                  <span x-text="b.titel"></span>
+                </li>
+              </template>
+            </ol>
+            <div class="block-bar" x-show="block.id !== 'abschluss'">
+              <div class="bar"><div class="bar-fill" :style="`width: ${fortschritt}%`"></div></div>
+              <span class="timer" :class="{ueber: restSekunden < 0}" x-text="zeitText" title="Richtzeit für diesen Block"></span>
+              <button class="link-button" @click="ueberspringen()" title="Block überspringen – die App merkt sich das">Überspringen ↷</button>
+            </div>
+          </header>
+
+          <!-- ======== Schritte ======== -->
+          <div class="step" x-show="block.id !== 'abschluss' && schritt">
+            <template x-if="schritt">
+              <div>
+                <p class="step-note" x-show="schritt.wiederholt" x-text="schritt.wiederholt"></p>
+
+                <!-- Erklärung -->
+                <template x-if="schritt.typ === 'info'">
+                  <div class="info">
+                    <h2 x-text="schritt.titel"></h2>
+                    <template x-for="a in schritt.absaetze"><p x-html="a"></p></template>
+                    <p class="vergleich" x-show="schritt.vergleich"><span>🇩🇪 🇬🇧</span> <span x-html="schritt.vergleich"></span></p>
+                    <ul class="beispiele">
+                      <template x-for="b in schritt.beispiele">
+                        <li @click="Sprache.sprechen(b.pt)" title="Anhören">
+                          <span class="pt">🔊 <span x-text="b.pt"></span></span>
+                          <span class="de" x-text="b.de"></span>
+                        </li>
+                      </template>
+                    </ul>
+                  </div>
+                </template>
+
+                <!-- Neue Vokabel / neuer Satz -->
+                <template x-if="schritt.typ === 'vokabel'">
+                  <div class="vokabel">
+                    <p class="step-label" x-text="schritt.titel"></p>
+                    <div class="emoji" x-text="schritt.emoji"></div>
+                    <button class="pt-big" @click="abspielen()" x-text="schritt.pt"></button>
+                    <p class="de-big" x-text="schritt.de"></p>
+                    <div class="beispiel" x-show="schritt.beispiel_pt" @click="Sprache.sprechen(schritt.beispiel_pt)">
+                      <p class="pt">🔊 <span x-text="schritt.beispiel_pt"></span></p>
+                      <p class="de" x-text="schritt.beispiel_de"></p>
+                    </div>
+                    <p class="hinweis" x-show="schritt.hinweis">💡 <span x-text="schritt.hinweis"></span></p>
+                  </div>
+                </template>
+
+                <!-- Eingabe-Übungen -->
+                <template x-if="schritt.typ === 'eingabe'">
+                  <div class="aufgabe">
+                    <p class="step-label" x-text="schritt.anweisung"></p>
+                    <template x-if="schritt.art === 'de-pt'">
+                      <p class="frage-gross"><span class="emoji-inline" x-text="schritt.emoji"></span> <span x-text="schritt.frage"></span></p>
+                    </template>
+                    <template x-if="schritt.art === 'luecke'">
+                      <div>
+                        <p class="frage-gross luecke" x-text="schritt.satz"></p>
+                        <p class="muted" x-text="schritt.de"></p>
+                      </div>
+                    </template>
+                    <template x-if="schritt.art === 'diktat'">
+                      <button class="play-big" @click="abspielen()" title="Leertaste">🔊 Anhören</button>
+                    </template>
+                    <template x-if="schritt.art === 'rolle'">
+                      <div class="rolle">
+                        <p class="muted" x-text="schritt.situation"></p>
+                        <template x-for="z in schritt.kontext">
+                          <p class="zeile" @click="sprecheZeile(z)">
+                            <strong x-text="z.sprecher + ':'"></strong> 🔊 <span x-text="z.pt"></span>
+                            <span class="de" x-show="uebersetzungZeigen" x-text="'(' + z.de + ')'"></span>
+                          </p>
+                        </template>
+                        <button class="link-button" x-show="schritt.kontext.length" @click="uebersetzungZeigen = !uebersetzungZeigen"
+                                x-text="uebersetzungZeigen ? 'Übersetzung ausblenden' : 'Übersetzung zeigen'"></button>
+                        <p class="frage-gross">👉 <span x-text="schritt.frage"></span></p>
+                      </div>
+                    </template>
+
+                    <input type="text" class="antwort" data-fokus x-model="eingabe" :disabled="phase === 'feedback'"
+                           autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                           placeholder="Antwort auf Portugiesisch …">
+                    <div class="akzente" x-show="phase === 'frage'">
+                      <template x-for="z in akzente">
+                        <button type="button" tabindex="-1" @mousedown.prevent @click="akzentEinfuegen(z)" x-text="z"></button>
+                      </template>
+                    </div>
+                  </div>
+                </template>
+
+                <!-- Auswahl -->
+                <template x-if="schritt.typ === 'auswahl'">
+                  <div class="aufgabe">
+                    <p class="frage-gross" x-text="schritt.frage"></p>
+                    <button class="play-small" x-show="schritt.audio" @click="abspielen()">🔊 Anhören</button>
+                    <div class="optionen">
+                      <template x-for="(o, i) in schritt.optionen">
+                        <button class="option" @click="waehlen(i)" :disabled="phase === 'feedback'"
+                                :class="{richtig: phase === 'feedback' && i === schritt.richtig, falsch: phase === 'feedback' && i === gewaehlt && i !== schritt.richtig}">
+                          <span class="taste" x-text="i + 1"></span> <span x-text="o"></span>
+                        </button>
+                      </template>
+                    </div>
+                  </div>
+                </template>
+
+                <!-- Satzbau -->
+                <template x-if="schritt.typ === 'satzbau'">
+                  <div class="aufgabe">
+                    <p class="step-label" x-text="schritt.anweisung"></p>
+                    <p class="frage-gross" x-text="schritt.de"></p>
+                    <div class="satz-ziel">
+                      <template x-for="x in satz"><button class="kachel" @click="satzZurueck(x)" x-text="x.w"></button></template>
+                      <span class="muted" x-show="!satz.length">Tippe die Wörter in der richtigen Reihenfolge an.</span>
+                    </div>
+                    <div class="satz-quelle">
+                      <template x-for="x in rest"><button class="kachel" @click="satzWort(x)" x-text="x.w"></button></template>
+                    </div>
+                  </div>
+                </template>
+
+                <!-- Hörtext -->
+                <template x-if="schritt.typ === 'dialog'">
+                  <div class="dialog">
+                    <p class="step-label">🎧 Hören</p>
+                    <h2 x-text="schritt.titel"></h2>
+                    <p class="muted" x-text="schritt.situation"></p>
+                    <button class="play-big" @click="dialogAbspielen()">🔊 Gespräch anhören</button>
+                    <div class="button-row center">
+                      <button class="link-button" @click="textZeigen = !textZeigen" x-text="textZeigen ? 'Text ausblenden' : 'Text zeigen'"></button>
+                      <button class="link-button" x-show="textZeigen" @click="uebersetzungZeigen = !uebersetzungZeigen" x-text="uebersetzungZeigen ? 'Übersetzung ausblenden' : 'Übersetzung zeigen'"></button>
+                    </div>
+                    <div class="zeilen" x-show="textZeigen">
+                      <template x-for="(z, i) in schritt.zeilen">
+                        <p class="zeile" :class="{spricht: i === sprichtZeile}" @click="sprecheZeile(z)">
+                          <strong x-text="z.sprecher + ':'"></strong> <span x-text="z.pt"></span>
+                          <span class="de" x-show="uebersetzungZeigen" x-text="z.de"></span>
+                        </p>
+                      </template>
+                    </div>
+                    <p class="hint">Tipp: Erst zweimal ohne Text hören, dann mit Text.</p>
+                  </div>
+                </template>
+
+                <!-- Nachsprechen -->
+                <template x-if="schritt.typ === 'nachsprechen'">
+                  <div class="vokabel">
+                    <p class="step-label" x-text="schritt.anweisung"></p>
+                    <button class="pt-big" @click="abspielen()" x-text="schritt.pt"></button>
+                    <p class="de-big" x-text="schritt.de"></p>
+                    <button class="play-small" @click="abspielen()">🔊 Nochmal anhören</button>
+                    <p class="muted">Sprich den Satz laut nach. Wie war's?</p>
+                    <div class="button-row center">
+                      <button class="button" @click="selbst(true)">👍 Gut nachgesprochen</button>
+                      <button class="button secondary" @click="selbst(false)">🔁 Muss ich noch üben</button>
+                    </div>
+                  </div>
+                </template>
+
+                <!-- Leerer Block -->
+                <template x-if="schritt.typ === 'leer'">
+                  <div class="vokabel"><p class="de-big" x-text="schritt.text"></p></div>
+                </template>
+
+                <!-- Rückmeldung -->
+                <div class="feedback" x-show="phase === 'feedback' && feedback" :class="feedback?.ergebnis">
+                  <p class="feedback-title">
+                    <span x-show="feedback?.ergebnis === 'richtig'">✓ Certo! Richtig.</span>
+                    <span x-show="feedback?.ergebnis === 'fast'">≈ Fast richtig</span>
+                    <span x-show="feedback?.ergebnis === 'falsch'">✗ Leider nicht richtig</span>
+                  </p>
+                  <p x-show="feedback?.hinweis" x-text="feedback?.hinweis"></p>
+                  <p x-show="feedback?.ergebnis !== 'richtig' || schritt?.art === 'diktat'">
+                    Lösung: <strong class="pt" x-text="feedback?.loesung"></strong>
+                    <button class="play-small" @click="Sprache.sprechen(feedback.loesung)">🔊</button>
+                  </p>
+                  <p class="muted" x-show="schritt?.uebersetzung" x-text="'= ' + schritt?.uebersetzung"></p>
+                  <p class="erklaerung" x-show="schritt?.erklaerung && feedback?.ergebnis !== 'richtig'">💡 <span x-text="schritt?.erklaerung"></span></p>
+                  <button class="link-button" x-show="feedback?.ergebnis === 'falsch' && schritt?.typ !== 'auswahl'"
+                          @click="trotzdemRichtig()">Meine Antwort war auch richtig</button>
+                </div>
+
+                <!-- Haupt-Button -->
+                <div class="step-actions" x-show="schritt.typ !== 'nachsprechen'">
+                  <button class="big-button" x-show="istFrage && phase === 'frage' && schritt.typ !== 'auswahl'" @click="pruefen()">Prüfen ⏎</button>
+                  <button class="big-button" x-show="istFrage && phase === 'feedback'" @click="weiterNachFeedback()">Weiter ⏎</button>
+                  <button class="big-button" x-show="!istFrage" @click="weiter()">Weiter ⏎</button>
+                </div>
+                <p class="keys-hint">Enter = weiter · Leertaste = Audio abspielen<span x-show="schritt.typ === 'auswahl'"> · 1–3 = Antwort wählen</span></p>
+              </div>
+            </template>
+          </div>
+
+          <!-- ======== Abschluss ======== -->
+          <div class="step abschluss" x-show="block.id === 'abschluss' && !ergebnis">
+            <h2>Abschluss 🎉</h2>
+            <template x-if="zusammenfassung">
+              <div>
+                <p class="score" x-show="zusammenfassung.gesamt">
+                  <strong x-text="prozent(zusammenfassung.anteil)"></strong> richtig
+                  <span class="muted">(<span x-text="zusammenfassung.gut"></span> von <span x-text="zusammenfassung.gesamt"></span> Antworten)</span>
+                </p>
+                <div x-show="zusammenfassung.woerter.length">
+                  <h3>Wörter dieser Lektion</h3>
+                  <ul class="wortliste">
+                    <template x-for="w in zusammenfassung.woerter">
+                      <li @click="Sprache.sprechen(w.pt)"><span x-text="w.emoji"></span> <strong x-text="w.pt"></strong> – <span x-text="w.de"></span></li>
+                    </template>
+                  </ul>
+                </div>
+                <div x-show="zusammenfassung.fehler.length">
+                  <h3>Darauf achten</h3>
+                  <ul class="wortliste">
+                    <template x-for="f in zusammenfassung.fehler">
+                      <li><span x-text="f.prompt"></span> → <strong x-text="f.expected"></strong></li>
+                    </template>
+                  </ul>
+                  <p class="muted">Diese Fehler kommen in den nächsten Tagen automatisch wieder.</p>
+                </div>
+              </div>
+            </template>
+
+            <div x-show="uebersprungen.length" class="nachholen">
+              <h3>Übersprungen</h3>
+              <template x-for="b in uebersprungen">
+                <button class="button secondary" @click="nachholen(b.id)" x-text="b.titel + ' nachholen'"></button>
+              </template>
+            </div>
+
+            <h3>Wie gut hast du dich heute gefühlt?</h3>
+            <div class="sterne">
+              <template x-for="n in [1, 2, 3, 4, 5]">
+                <button @click="bewertung = n" :class="{an: n <= bewertung}" x-text="n <= bewertung ? '★' : '☆'"></button>
+              </template>
+            </div>
+            <button class="big-button" @click="abschliessen()">Lektion abschließen</button>
+          </div>
+
+          <!-- ======== Ergebnis ======== -->
+          <div class="step abschluss" x-show="ergebnis">
+            <h2>Muito bem! Lektion geschafft. 🇵🇹</h2>
+            <p class="score" x-show="ergebnis?.gesamt"><strong x-text="prozent(ergebnis?.score)"></strong> richtig</p>
+            <p x-show="ergebnis?.neue_saetze">
+              <span x-text="ergebnis?.neue_saetze"></span> neue Satzmuster kommen ab morgen in deine Wiederholung.
+            </p>
+            <a href="#/" class="big-button as-link">Zur Startseite</a>
+          </div>
+        </div>
+      </template>
     </section>
 
     <!-- ===== Fortschritt ===== -->
@@ -99,7 +384,7 @@
       </label>
 
       <label class="field">
-        <span>Neue Karten pro Tag <small class="muted">(empfohlen: 8–12)</small></span>
+        <span>Neue Karten pro Tag <small class="muted">(Wörter + Sätze, empfohlen: 12–20; 0 = keine neuen Sätze)</small></span>
         <input type="number" min="0" max="40" x-model.number="settings.neue_karten_pro_tag" @change="saveSettings()">
       </label>
 

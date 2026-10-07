@@ -30,21 +30,30 @@ function app() {
       return "";
     },
 
-    async start() {
-      this.route();
+    start() {
       window.addEventListener("hashchange", () => this.route());
-      await this.refresh();
+      this.route();
+      if (this.page === "lektion") this.refresh();  // Einstellungen (Audiotempo) laden
     },
 
     route() {
-      const name = location.hash.replace(/^#\/?/, "") || "start";
-      this.page = ["start", "fortschritt", "wortschatz", "einstellungen"].includes(name) ? name : "start";
-      if (this.page !== "start") this.info = "";
+      const name = (location.hash.replace(/^#\/?/, "") || "start").split("/")[0];
+      this.page = ["start", "lektion", "fortschritt", "wortschatz", "einstellungen"].includes(name) ? name : "start";
+      this.info = "";
+      if (this.page === "lektion") {
+        // Die Lektion (lesson.js) lädt sich daraufhin selbst. setTimeout, damit
+        // die Lektions-Komponente beim allerersten Laden schon bereit ist.
+        setTimeout(() => window.dispatchEvent(new CustomEvent("lektion-laden")), 0);
+      } else {
+        Sprache.stopp();
+        this.refresh();
+      }
     },
 
     async refresh() {
       try {
         [this.overview, this.settings] = await Promise.all([api("/api/overview"), api("/api/settings")]);
+        Sprache.tempo = Number(this.settings.audio_tempo) || 1;
         this.error = "";
       } catch (e) {
         this.error = "Bitte Start.command erneut per Doppelklick öffnen.";
@@ -57,14 +66,31 @@ function app() {
       return `${f.erledigt} von ${f.gesamt} Lektionen`;
     },
 
+    // Beschriftung des großen Buttons je nach Stand
+    get startText() {
+      const n = this.overview.naechste_lektion;
+      if (!n) return "Wiederholen";
+      if (n.begonnen) return "Lektion fortsetzen";
+      if (this.overview.heute_erledigt > 0) return "Noch eine Lektion";
+      return "Heutige Lektion starten";
+    },
+
     startLesson() {
-      // Der Lektionsablauf entsteht in Etappe (b).
-      this.info = "Der Lektionsablauf wird in der nächsten Etappe eingebaut – bis gleich!";
+      if (!this.overview.naechste_lektion) {
+        location.hash = "#/lektion/wiederholung";
+        return;
+      }
+      location.hash = "#/lektion";
+    },
+
+    startWiederholung() {
+      location.hash = "#/lektion/wiederholung";
     },
 
     async saveSettings() {
       try {
         this.settings = await api("/api/settings", { method: "PUT", body: JSON.stringify(this.settings) });
+        Sprache.tempo = Number(this.settings.audio_tempo) || 1;
         this.savedFlash = true;
         setTimeout(() => (this.savedFlash = false), 1500);
       } catch (e) {

@@ -15,7 +15,7 @@ DB_PATH = DATA_DIR / "lernstand.sqlite"
 BACKUP_DIR = DATA_DIR / "backups"
 BACKUPS_BEHALTEN = 14  # so viele automatische Tagessicherungen werden aufbewahrt
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 SCHEMA = """
 -- Eine Karteikarte pro lernbarem Element (Wort, Chunk, Satzmuster, Fehler).
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS cards (
     item_id       TEXT NOT NULL UNIQUE,
     kind          TEXT NOT NULL,                 -- vocab | sentence | mistake
     unit_id       TEXT,                          -- z. B. "A1-01"
-    state         TEXT NOT NULL DEFAULT 'new',   -- new | learning | review
+    state         TEXT NOT NULL DEFAULT 'new',   -- new | learning | review | erledigt
     step          INTEGER NOT NULL DEFAULT 0,    -- Lernstufe für neue Karten
     ease          REAL NOT NULL DEFAULT 2.5,     -- Leichtigkeitsfaktor (SM-2)
     interval_days REAL NOT NULL DEFAULT 0,
@@ -41,6 +41,9 @@ CREATE INDEX IF NOT EXISTS idx_cards_due ON cards(state, due);
 CREATE TABLE IF NOT EXISTS reviews (
     id          INTEGER PRIMARY KEY,
     card_id     INTEGER REFERENCES cards(id),
+    item_id     TEXT,                            -- welches Wort / welche Übung
+    lesson_id   TEXT,                            -- in welcher Lektion beantwortet
+    block       TEXT,                            -- in welchem Block (für Statistik je Fertigkeit)
     ts          TEXT NOT NULL,
     exercise    TEXT NOT NULL,                   -- tippen | diktat | luecke | auswahl | sprechen …
     result      TEXT NOT NULL,                   -- richtig | fast | falsch
@@ -60,7 +63,9 @@ CREATE TABLE IF NOT EXISTS mistakes (
     explanation  TEXT,
     ts           TEXT NOT NULL,
     times_wrong  INTEGER NOT NULL DEFAULT 1,
-    resolved     INTEGER NOT NULL DEFAULT 0      -- 1 = mehrfach richtig beantwortet
+    streak       INTEGER NOT NULL DEFAULT 0,     -- seitdem so oft hintereinander richtig
+    resolved     INTEGER NOT NULL DEFAULT 0,     -- 1 = zweimal hintereinander richtig
+    payload      TEXT                            -- die Übung als JSON, um sie zu wiederholen
 );
 
 -- Abgeschlossene Lektionen.
@@ -113,7 +118,7 @@ CREATE TABLE IF NOT EXISTS meta (
 # App unter "Einstellungen" änderbar.
 DEFAULT_SETTINGS = {
     "lektionsdauer_min": 30,
-    "neue_karten_pro_tag": 10,
+    "neue_karten_pro_tag": 15,
     "max_wiederholungen_pro_tag": 120,
     "audio_tempo": 1.0,
     "stimme": "pt-PT-RaquelNeural",
@@ -141,9 +146,30 @@ def connect(path: Path | None = None) -> sqlite3.Connection:
     return con
 
 
+# Spalten, die nach der ersten Version dazugekommen sind. Ältere Datenbanken
+# werden beim Start automatisch ergänzt – der Lernstand bleibt erhalten.
+MIGRATIONEN = [
+    ("reviews", "item_id", "TEXT"),
+    ("reviews", "lesson_id", "TEXT"),
+    ("reviews", "block", "TEXT"),
+    ("mistakes", "streak", "INTEGER NOT NULL DEFAULT 0"),
+    ("mistakes", "payload", "TEXT"),
+]
+
+
+def _migrieren(con: sqlite3.Connection) -> None:
+    for tabelle, spalte, typ in MIGRATIONEN:
+        vorhanden = {r[1] for r in con.execute(f"PRAGMA table_info({tabelle})")}
+        if vorhanden and spalte not in vorhanden:
+            con.execute(f"ALTER TABLE {tabelle} ADD COLUMN {spalte} {typ}")
+
+
 def init_db(con: sqlite3.Connection) -> None:
     """Legt Tabellen und Standard-Einstellungen an. Mehrfach aufrufbar."""
     con.executescript(SCHEMA)
+    _migrieren(con)
+    con.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_mistakes_item ON mistakes(item_id)")
+    con.execute("UPDATE meta SET value = ? WHERE key = 'schema_version'", (str(SCHEMA_VERSION),))
     for key, value in DEFAULT_SETTINGS.items():
         con.execute("INSERT OR IGNORE INTO settings(key, value) VALUES (?, ?)",
                     (key, json.dumps(value)))
@@ -194,7 +220,8 @@ def due_count(con: sqlite3.Connection, now: str | None = None) -> int:
     """Wie viele bereits gelernte Karten sind jetzt fällig?"""
     now = now or now_iso()
     row = con.execute(
-        "SELECT COUNT(*) AS n FROM cards WHERE state != 'new' AND due <= ?", (now,)
+        "SELECT COUNT(*) AS n FROM cards WHERE state IN ('learning', 'review') AND due <= ?",
+        (now,)
     ).fetchone()
     return row["n"]
 
