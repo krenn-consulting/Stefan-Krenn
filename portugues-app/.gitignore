@@ -1,0 +1,13 @@
+# Lokale Werkzeuge und Umgebung (legt Start.command an)
+.werkzeuge/
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Persönliche Daten: Lernstand, Audio-Cache, Backups, Logs
+data/*
+!data/.gitkeep
+
+# Persönliche Einstellungen (API-Key!)
+.env
+einstellungen.env

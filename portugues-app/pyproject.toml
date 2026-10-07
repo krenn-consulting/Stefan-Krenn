@@ -1,0 +1,20 @@
+[project]
+name = "portugues-app"
+version = "0.1.0"
+description = "Persönliche Lern-App für europäisches Portugiesisch (A0 → B2)"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "httpx2>=2"]
+
+[tool.uv]
+# Kein Paket bauen – wir starten den Code direkt aus dem Ordner.
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Português</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+  <script defer src="vendor/alpine.min.js"></script>
+</head>
+<body x-data="app()" x-init="start()" :data-theme="theme">
+
+  <nav class="topnav">
+    <a href="#/" class="brand">🇵🇹 Português</a>
+    <div class="navlinks">
+      <a href="#/" :class="{active: page === 'start'}">Start</a>
+      <a href="#/fortschritt" :class="{active: page === 'fortschritt'}">Fortschritt</a>
+      <a href="#/wortschatz" :class="{active: page === 'wortschatz'}">Wortschatz</a>
+      <a href="#/einstellungen" :class="{active: page === 'einstellungen'}">Einstellungen</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Fehlermeldung, wenn der Server nicht erreichbar ist -->
+    <div class="notice error" x-show="error" x-cloak>
+      <strong>Die App antwortet gerade nicht.</strong>
+      <span x-text="error"></span>
+    </div>
+
+    <!-- ===== Startseite ===== -->
+    <section x-show="page === 'start'" x-cloak class="home">
+      <h1>Bom dia! 👋</h1>
+      <p class="muted">Deine tägliche Lektion dauert etwa <span x-text="settings.lektionsdauer_min"></span> Minuten.</p>
+
+      <button class="big-button" @click="startLesson()">Heutige Lektion starten</button>
+      <p class="hint" x-show="info" x-text="info"></p>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value"><span x-text="overview.streak ?? '–'"></span> 🔥</div>
+          <div class="stat-label">Tage in Folge</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" x-text="overview.fortschritt?.level ?? '–'"></div>
+          <div class="stat-label">Aktuelles Level</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" x-text="overview.faellig ?? '–'"></div>
+          <div class="stat-label">Fällige Wiederholungen</div>
+        </div>
+      </div>
+
+      <div class="level-progress" x-show="overview.fortschritt">
+        <div class="level-progress-label">
+          <span>Fortschritt zum nächsten Level</span>
+          <span x-text="levelText()"></span>
+        </div>
+        <div class="bar"><div class="bar-fill" :style="`width: ${(overview.fortschritt?.anteil ?? 0) * 100}%`"></div></div>
+      </div>
+    </section>
+
+    <!-- ===== Fortschritt ===== -->
+    <section x-show="page === 'fortschritt'" x-cloak>
+      <h1>Fortschritt</h1>
+      <p class="muted">Statistiken, Kalender und Schwächen folgen in Etappe (d).</p>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value" x-text="overview.lektionen_erledigt ?? 0"></div>
+          <div class="stat-label">Lektionen erledigt</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" x-text="(overview.heute_minuten ?? 0) + ' Min.'"></div>
+          <div class="stat-label">Heute gelernt</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Wortschatz ===== -->
+    <section x-show="page === 'wortschatz'" x-cloak>
+      <h1>Wortschatz</h1>
+      <p class="muted">Das durchsuchbare Wörterbuch folgt in Etappe (d).</p>
+    </section>
+
+    <!-- ===== Einstellungen ===== -->
+    <section x-show="page === 'einstellungen'" x-cloak class="settings">
+      <h1>Einstellungen</h1>
+
+      <label class="field">
+        <span>Lektionsdauer</span>
+        <select x-model.number="settings.lektionsdauer_min" @change="saveSettings()">
+          <option value="15">15 Minuten</option>
+          <option value="20">20 Minuten</option>
+          <option value="30">30 Minuten</option>
+          <option value="45">45 Minuten</option>
+          <option value="60">60 Minuten</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Neue Karten pro Tag <small class="muted">(empfohlen: 8–12)</small></span>
+        <input type="number" min="0" max="40" x-model.number="settings.neue_karten_pro_tag" @change="saveSettings()">
+      </label>
+
+      <label class="field">
+        <span>Audiogeschwindigkeit: <strong x-text="Number(settings.audio_tempo).toFixed(2) + '×'"></strong></span>
+        <input type="range" min="0.6" max="1.2" step="0.05" x-model.number="settings.audio_tempo" @change="saveSettings()">
+      </label>
+
+      <label class="field">
+        <span>Stimme</span>
+        <select x-model="settings.stimme" @change="saveSettings()">
+          <option value="pt-PT-RaquelNeural">Raquel (weiblich)</option>
+          <option value="pt-PT-DuarteNeural">Duarte (männlich)</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Darstellung</span>
+        <select x-model="settings.design" @change="saveSettings()">
+          <option value="auto">Wie der Mac (automatisch)</option>
+          <option value="hell">Hell</option>
+          <option value="dunkel">Dunkel</option>
+        </select>
+      </label>
+
+      <p class="saved" x-show="savedFlash" x-transition>✓ Gespeichert</p>
+
+      <h2>Sicherung</h2>
+      <p class="muted">Die App sichert deinen Lernstand täglich automatisch im Ordner <code>data/backups</code>.
+        Hier kannst du zusätzlich eine Sicherungsdatei herunterladen oder zurückspielen.</p>
+      <div class="button-row">
+        <a class="button" href="/api/export">Lernstand exportieren (JSON)</a>
+        <label class="button secondary">
+          Sicherung wiederherstellen…
+          <input type="file" accept="application/json,.json" hidden @change="importBackup($event)">
+        </label>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

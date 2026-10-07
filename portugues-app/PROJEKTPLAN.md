@@ -14,7 +14,7 @@ portugues-app/
 ├── Stop.command           beendet die App sauber
 ├── LIES-MICH.md           Anleitung (max. 10 Zeilen)
 ├── curriculum.md          Lehrplan
-├── .env.beispiel          optional: Claude-API-Key und Modell
+├── einstellungen.beispiel.env  optional: Claude-API-Key und Modell
 ├── pyproject.toml         Python-Abhängigkeiten (uv)
 ├── backend/               Python + FastAPI
 │   ├── main.py            Webserver, API-Routen
@@ -51,7 +51,7 @@ Backup und Export als JSON auf Knopfdruck. Vor jedem Update entsteht automatisch
 
 **Spracherkennung:** Chrome Web Speech API (`pt-PT`). Wichtig: Chrome schickt das Audio dafür an Google, du brauchst also Internet. Fallback: „Selbst bewerten" (Aufnahme anhören und vergleichen).
 
-**Claude (optional):** In `.env` schaltest du ihn mit `CLAUDE_AKTIV=ja`, `ANTHROPIC_API_KEY=…` und `CLAUDE_MODELL=…` ein. Ohne Key verschwinden die entsprechenden Knöpfe einfach.
+**Claude (optional):** In `einstellungen.env` schaltest du ihn mit `CLAUDE_AKTIV=ja`, `ANTHROPIC_API_KEY=…` und `CLAUDE_MODELL=…` ein. Ohne Key verschwinden die entsprechenden Knöpfe einfach.
 
 ## Etappen
 

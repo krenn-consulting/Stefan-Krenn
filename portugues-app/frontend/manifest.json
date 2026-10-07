@@ -1,0 +1,9 @@
+{
+  "name": "Português",
+  "short_name": "Português",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfaf7",
+  "theme_color": "#0b6e4f",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

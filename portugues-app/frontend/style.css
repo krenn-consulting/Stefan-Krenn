@@ -1,0 +1,152 @@
+/* Farben als Variablen – so funktionieren Hell- und Dunkelmodus mit einer Datei. */
+:root {
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --text: #1d1d1f;
+  --muted: #6b6b70;
+  --border: #e4e2dc;
+  --accent: #0b6e4f;        /* Grün wie die portugiesische Flagge */
+  --accent-text: #ffffff;
+  --accent-soft: #dff1e9;
+  --danger: #b3261e;
+  --danger-soft: #fbe5e3;
+  --ok: #0b6e4f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141416;
+    --surface: #1e1e21;
+    --text: #f2f2f4;
+    --muted: #a0a0a8;
+    --border: #2f2f34;
+    --accent: #3fb68b;
+    --accent-text: #0b1d16;
+    --accent-soft: #173328;
+    --danger: #ff8a80;
+    --danger-soft: #3a1d1b;
+    --ok: #3fb68b;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141416;
+  --surface: #1e1e21;
+  --text: #f2f2f4;
+  --muted: #a0a0a8;
+  --border: #2f2f34;
+  --accent: #3fb68b;
+  --accent-text: #0b1d16;
+  --accent-soft: #173328;
+  --danger: #ff8a80;
+  --danger-soft: #3a1d1b;
+  --ok: #3fb68b;
+}
+
+[x-cloak] { display: none !important; }
+
+* { box-sizing: border-box; }
+
+html { font-size: 20px; }  /* große Grundschrift */
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* --- Navigation --- */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding: 0.8rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+.topnav a { color: var(--muted); text-decoration: none; }
+.topnav a.brand { color: var(--text); font-weight: 700; }
+.navlinks { display: flex; gap: 1.2rem; flex-wrap: wrap; font-size: 0.9rem; }
+.navlinks a.active { color: var(--accent); font-weight: 600; }
+
+/* --- Inhalt --- */
+main { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+h2 { font-size: 1.2rem; margin: 2.5rem 0 0.5rem; }
+.muted { color: var(--muted); }
+code { font-size: 0.85em; }
+
+.home { text-align: center; }
+
+.big-button {
+  display: block;
+  width: 100%;
+  margin: 2rem 0 0.5rem;
+  padding: 1.4rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 18px;
+  background: var(--accent);
+  color: var(--accent-text);
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.12);
+}
+.big-button:hover { filter: brightness(1.08); }
+.hint { color: var(--muted); }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.2rem 1rem;
+  text-align: center;
+}
+.stat-value { font-size: 1.8rem; font-weight: 700; }
+.stat-label { color: var(--muted); font-size: 0.8rem; }
+
+.level-progress { text-align: left; }
+.level-progress-label { display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--muted); margin-bottom: 0.4rem; }
+
+.bar { height: 12px; background: var(--border); border-radius: 99px; overflow: hidden; }
+.bar-fill { height: 100%; background: var(--accent); border-radius: 99px; transition: width 0.4s; }
+
+/* --- Formulare / Einstellungen --- */
+.field { display: flex; flex-direction: column; gap: 0.3rem; margin: 1.2rem 0; }
+.field select, .field input[type="number"] {
+  font-size: 1rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  max-width: 320px;
+}
+.field input[type="range"] { max-width: 320px; accent-color: var(--accent); }
+.saved { color: var(--ok); font-weight: 600; }
+
+.button-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+.button {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border-radius: 12px;
+  background: var(--accent);
+  color: var(--accent-text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.button.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+
+.notice { padding: 1rem 1.2rem; border-radius: 12px; margin-bottom: 1.5rem; }
+.notice.error { background: var(--danger-soft); color: var(--danger); }
