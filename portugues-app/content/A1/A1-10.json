@@ -1,0 +1,501 @@
+{
+ "id": "A1-10",
+ "level": "A1",
+ "titel": "A saúde – Beim Arzt und in der Apotheke",
+ "beschreibung": "Körperteile, Schmerzen und Symptome beschreiben, in der Apotheke, einen Arzttermin vereinbaren, im Notfall Hilfe holen.",
+ "vokabeln": [
+  {"id": "o-corpo", "pt": "o corpo", "de": "der Körper", "emoji": "🧍", "beispiel_pt": "Dói-me o corpo todo.", "beispiel_de": "Mir tut der ganze Körper weh."},
+  {"id": "a-cabeca", "pt": "a cabeça", "de": "der Kopf", "emoji": "🧠", "beispiel_pt": "Dói-me a cabeça.", "beispiel_de": "Mir tut der Kopf weh."},
+  {"id": "a-garganta", "pt": "a garganta", "de": "der Hals (innen)", "emoji": "🗣️", "beispiel_pt": "Dói-me a garganta.", "beispiel_de": "Mir tut der Hals weh."},
+  {"id": "a-barriga", "pt": "a barriga", "de": "der Bauch", "emoji": "🤰", "beispiel_pt": "Tenho dores de barriga.", "beispiel_de": "Ich habe Bauchschmerzen."},
+  {"id": "as-costas", "pt": "as costas", "de": "der Rücken", "emoji": "🔙", "beispiel_pt": "Doem-me as costas.", "beispiel_de": "Mir tut der Rücken weh.", "hinweis": "Immer Plural: as costas"},
+  {"id": "o-braco", "pt": "o braço", "de": "der Arm", "emoji": "💪", "beispiel_pt": "Dói-me o braço direito.", "beispiel_de": "Mir tut der rechte Arm weh."},
+  {"id": "a-perna", "pt": "a perna", "de": "das Bein", "emoji": "🦵", "beispiel_pt": "Dói-me a perna.", "beispiel_de": "Mir tut das Bein weh."},
+  {"id": "o-pe", "pt": "o pé", "de": "der Fuß", "emoji": "🦶", "beispiel_pt": "Doem-me os pés.", "beispiel_de": "Mir tun die Füße weh."},
+  {"id": "a-mao", "pt": "a mão", "de": "die Hand", "emoji": "✋", "beispiel_pt": "Lavo as mãos.", "beispiel_de": "Ich wasche mir die Hände.", "hinweis": "Plural: as mãos"},
+  {"id": "o-ouvido", "pt": "o ouvido", "de": "das Ohr (innen)", "emoji": "👂", "beispiel_pt": "Dói-me o ouvido.", "beispiel_de": "Mir tut das Ohr weh."},
+  {"id": "o-dente", "pt": "o dente", "de": "der Zahn", "emoji": "🦷", "beispiel_pt": "Dói-me um dente.", "beispiel_de": "Mir tut ein Zahn weh."},
+
+  {"id": "doer", "pt": "doer", "de": "wehtun", "emoji": "🤕", "beispiel_pt": "Dói muito?", "beispiel_de": "Tut es sehr weh?"},
+  {"id": "doi-me", "pt": "Dói-me …", "de": "Mir tut … weh", "emoji": "😣", "beispiel_pt": "Dói-me a garganta.", "beispiel_de": "Mir tut der Hals weh."},
+  {"id": "doem-me", "pt": "Doem-me …", "de": "Mir tun … weh (Plural)", "emoji": "😖", "beispiel_pt": "Doem-me as costas.", "beispiel_de": "Mir tut der Rücken weh."},
+  {"id": "a-dor", "pt": "a dor", "de": "der Schmerz", "emoji": "⚡", "beispiel_pt": "A dor é muito forte.", "beispiel_de": "Der Schmerz ist sehr stark."},
+  {"id": "dor-de-cabeca", "pt": "as dores de cabeça", "de": "die Kopfschmerzen", "emoji": "🤯", "beispiel_pt": "Tenho dores de cabeça.", "beispiel_de": "Ich habe Kopfschmerzen.", "alternativen": ["dor de cabeça", "a dor de cabeça", "dores de cabeça"]},
+  {"id": "forte", "pt": "forte", "de": "stark", "emoji": "🏋️", "beispiel_pt": "Tenho uma dor muito forte.", "beispiel_de": "Ich habe einen sehr starken Schmerz."},
+  {"id": "desde", "pt": "desde", "de": "seit (Zeitpunkt)", "emoji": "⏮️", "beispiel_pt": "Desde segunda-feira.", "beispiel_de": "Seit Montag.", "hinweis": "Zeitraum: há (há três dias)"},
+  {"id": "o-que-se-passa", "pt": "O que se passa?", "de": "Was ist los?", "emoji": "❓", "beispiel_pt": "Então, o que se passa?", "beispiel_de": "Also, was ist los?"},
+
+  {"id": "a-febre", "pt": "a febre", "de": "das Fieber", "emoji": "🤒", "beispiel_pt": "Estou com febre.", "beispiel_de": "Ich habe Fieber."},
+  {"id": "a-tosse", "pt": "a tosse", "de": "der Husten", "emoji": "😷", "beispiel_pt": "Tenho tosse.", "beispiel_de": "Ich habe Husten."},
+  {"id": "constipado", "pt": "constipado", "de": "erkältet", "emoji": "🤧", "beispiel_pt": "Estou constipado.", "beispiel_de": "Ich bin erkältet.", "hinweis": "Achtung, falscher Freund: constipado = erkältet (nicht verstopft)! Die Erkältung: a constipação.", "alternativen": ["constipada"]},
+  {"id": "a-gripe", "pt": "a gripe", "de": "die Grippe", "emoji": "🦠", "beispiel_pt": "Ela está com gripe.", "beispiel_de": "Sie hat Grippe."},
+  {"id": "estar-com", "pt": "estar com", "de": "haben (Symptom, gerade)", "emoji": "🌡️", "beispiel_pt": "Estou com tosse.", "beispiel_de": "Ich habe (gerade) Husten."},
+  {"id": "o-nariz", "pt": "o nariz", "de": "die Nase", "emoji": "👃", "beispiel_pt": "Tenho o nariz entupido.", "beispiel_de": "Meine Nase ist verstopft."},
+  {"id": "enjoado", "pt": "enjoado", "de": "übel (mir ist übel)", "emoji": "🤢", "beispiel_pt": "Estou enjoado.", "beispiel_de": "Mir ist übel.", "alternativen": ["enjoada"]},
+  {"id": "a-alergia", "pt": "a alergia", "de": "die Allergie", "emoji": "🤧", "beispiel_pt": "Tenho alergia à penicilina.", "beispiel_de": "Ich bin allergisch gegen Penizillin."},
+  {"id": "tonto", "pt": "tonto", "de": "schwindelig", "emoji": "😵‍💫", "beispiel_pt": "Estou um pouco tonto.", "beispiel_de": "Mir ist ein bisschen schwindelig.", "alternativen": ["tonta"]},
+
+  {"id": "o-comprimido", "pt": "o comprimido", "de": "die Tablette", "emoji": "💊", "beispiel_pt": "Tome um comprimido.", "beispiel_de": "Nehmen Sie eine Tablette."},
+  {"id": "o-xarope", "pt": "o xarope", "de": "der Hustensaft / Sirup", "emoji": "🧴", "beispiel_pt": "Este xarope é para a tosse.", "beispiel_de": "Dieser Saft ist gegen Husten."},
+  {"id": "a-receita", "pt": "a receita", "de": "das Rezept", "emoji": "📄", "beispiel_pt": "Preciso de receita?", "beispiel_de": "Brauche ich ein Rezept?", "hinweis": "auch: das Kochrezept"},
+  {"id": "sem-receita", "pt": "sem receita", "de": "rezeptfrei", "emoji": "🆓", "beispiel_pt": "Este medicamento é sem receita.", "beispiel_de": "Dieses Medikament ist rezeptfrei."},
+  {"id": "tomar", "pt": "tomar", "de": "einnehmen / nehmen", "emoji": "🥄", "beispiel_pt": "Como devo tomar?", "beispiel_de": "Wie soll ich es einnehmen?"},
+  {"id": "de-oito-em-oito", "pt": "de oito em oito horas", "de": "alle acht Stunden", "emoji": "⏲️", "beispiel_pt": "Um comprimido de oito em oito horas.", "beispiel_de": "Eine Tablette alle acht Stunden."},
+  {"id": "as-refeicoes", "pt": "as refeições", "de": "die Mahlzeiten", "emoji": "🍽️", "beispiel_pt": "depois das refeições", "beispiel_de": "nach den Mahlzeiten"},
+  {"id": "a-pomada", "pt": "a pomada", "de": "die Salbe", "emoji": "🧴", "beispiel_pt": "Tem uma pomada para o sol?", "beispiel_de": "Haben Sie eine Salbe gegen Sonnenbrand?"},
+  {"id": "o-farmaceutico", "pt": "o farmacêutico", "de": "der Apotheker", "emoji": "👨‍⚕️", "beispiel_pt": "Pergunte ao farmacêutico.", "beispiel_de": "Fragen Sie den Apotheker.", "hinweis": "Apothekerin: a farmacêutica"},
+
+  {"id": "centro-de-saude", "pt": "o centro de saúde", "de": "das Gesundheitszentrum", "emoji": "🏥", "beispiel_pt": "Vou ao centro de saúde.", "beispiel_de": "Ich gehe ins Gesundheitszentrum.", "hinweis": "Hier hast du deinen Hausarzt im staatlichen Gesundheitssystem (SNS)."},
+  {"id": "medico-de-familia", "pt": "o médico de família", "de": "der Hausarzt", "emoji": "👩‍⚕️", "beispiel_pt": "Queria uma consulta com o médico de família.", "beispiel_de": "Ich hätte gern einen Termin beim Hausarzt."},
+  {"id": "marcar-consulta", "pt": "marcar uma consulta", "de": "einen Termin vereinbaren", "emoji": "📅", "beispiel_pt": "Queria marcar uma consulta.", "beispiel_de": "Ich möchte einen Termin vereinbaren."},
+  {"id": "numero-de-utente", "pt": "o número de utente", "de": "die Patientennummer (SNS)", "emoji": "🪪", "beispiel_pt": "Qual é o seu número de utente?", "beispiel_de": "Wie ist Ihre Patientennummer?"},
+  {"id": "seguro-de-saude", "pt": "o seguro de saúde", "de": "die Krankenversicherung", "emoji": "📋", "beispiel_pt": "Tenho seguro de saúde privado.", "beispiel_de": "Ich habe eine private Krankenversicherung."},
+  {"id": "dever", "pt": "dever", "de": "sollen / müssen", "emoji": "☝️", "beispiel_pt": "Deve descansar.", "beispiel_de": "Sie sollten sich ausruhen."},
+  {"id": "o-mais-rapido", "pt": "o mais rápido possível", "de": "so schnell wie möglich", "emoji": "🏃", "beispiel_pt": "Preciso de uma consulta o mais rápido possível.", "beispiel_de": "Ich brauche so schnell wie möglich einen Termin."},
+  {"id": "urgente", "pt": "urgente", "de": "dringend", "emoji": "⚠️", "beispiel_pt": "É urgente.", "beispiel_de": "Es ist dringend."},
+  {"id": "o-sns", "pt": "o SNS", "de": "der staatliche Gesundheitsdienst", "emoji": "🇵🇹", "beispiel_pt": "Estou inscrito no SNS.", "beispiel_de": "Ich bin im staatlichen Gesundheitsdienst registriert.", "hinweis": "Serviço Nacional de Saúde"},
+
+  {"id": "as-urgencias", "pt": "as urgências", "de": "die Notaufnahme", "emoji": "🚨", "beispiel_pt": "Vou às urgências.", "beispiel_de": "Ich gehe in die Notaufnahme."},
+  {"id": "o-112", "pt": "o 112", "de": "der Notruf (112)", "emoji": "☎️", "beispiel_pt": "Ligue para o 112!", "beispiel_de": "Rufen Sie die 112 an!", "hinweis": "Gesprochen: um, um, dois"},
+  {"id": "socorro", "pt": "Socorro!", "de": "Hilfe!", "emoji": "🆘", "beispiel_pt": "Socorro! Um senhor está mal!", "beispiel_de": "Hilfe! Einem Mann geht es schlecht!"},
+  {"id": "a-ambulancia", "pt": "a ambulância", "de": "der Krankenwagen", "emoji": "🚑", "beispiel_pt": "Chame uma ambulância!", "beispiel_de": "Rufen Sie einen Krankenwagen!"},
+  {"id": "chame", "pt": "Chame …!", "de": "Rufen Sie …!", "emoji": "📣", "beispiel_pt": "Chame um médico!", "beispiel_de": "Rufen Sie einen Arzt!"},
+  {"id": "ajude-me", "pt": "Ajude-me!", "de": "Helfen Sie mir!", "emoji": "🙏", "beispiel_pt": "Ajude-me, por favor!", "beispiel_de": "Helfen Sie mir, bitte!"},
+  {"id": "estou-mal", "pt": "Estou mal.", "de": "Mir geht es schlecht.", "emoji": "😩", "beispiel_pt": "Estou muito mal.", "beispiel_de": "Mir geht es sehr schlecht."},
+  {"id": "ligar-para", "pt": "ligar para", "de": "anrufen", "emoji": "📞", "beispiel_pt": "Vou ligar para o médico.", "beispiel_de": "Ich rufe den Arzt an."},
+  {"id": "sns-24", "pt": "a linha SNS 24", "de": "die Gesundheits-Hotline", "emoji": "📞", "beispiel_pt": "Ligue para a linha SNS 24.", "beispiel_de": "Rufen Sie die Gesundheits-Hotline an.", "hinweis": "808 24 24 24 – rund um die Uhr, bei nicht lebensbedrohlichen Beschwerden."}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-10-L01",
+   "typ": "neu",
+   "titel": "Der Körper",
+   "vokabeln": ["o-corpo", "a-cabeca", "a-garganta", "a-barriga", "as-costas", "o-braco", "a-perna", "o-pe", "a-mao", "o-ouvido", "o-dente"],
+   "grammatik": {
+    "titel": "Körperteile mit Artikel",
+    "erklaerung": [
+     "Bei Körperteilen benutzt man im Portugiesischen den <b>Artikel</b> statt „mein“: <i>Lavo <b>as</b> mãos.</i> – Ich wasche mir die Hände. <i>Dói-me <b>a</b> cabeça.</i> – Mir tut der Kopf weh.",
+     "Achte auf die Plurale: <i>a mão → as mãos</i>, <i>o pé → os pés</i>. <b>as costas</b> (der Rücken) ist immer Plural.",
+     "<i>a garganta</i> ist der Hals innen (Halsschmerzen), <i>o pescoço</i> der Hals außen. Genauso: <i>o ouvido</i> (Ohr innen), <i>a orelha</i> (Ohrmuschel)."
+    ],
+    "vergleich": "Wie im Deutschen „Ich wasche mir die Hände“ (nicht „meine Hände“) – genau so: <i>Lavo as mãos.</i>",
+    "beispiele": [
+     {"pt": "Lavo as mãos.", "de": "Ich wasche mir die Hände."},
+     {"pt": "Cuidado com as costas!", "de": "Vorsicht mit dem Rücken!"},
+     {"pt": "a cabeça, os braços e as pernas", "de": "der Kopf, die Arme und die Beine"}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Mir tut der Kopf weh.“ – ganz natürlich:", "optionen": ["Dói-me a cabeça.", "Dói a minha cabeça."], "richtig": 0, "erklaerung": "Bei Körperteilen Artikel statt Possessiv."},
+     {"typ": "luecke", "satz": "Lavo ___ mãos.", "loesungen": ["as"], "de": "Ich wasche mir die Hände.", "kategorie": "Genus"},
+     {"typ": "luecke", "satz": "as ___", "loesungen": ["mãos"], "de": "die Hände", "kategorie": "Plural"},
+     {"typ": "auswahl", "frage": "„der Rücken“", "optionen": ["a costa", "as costas", "o costas"], "richtig": 1, "kategorie": "Plural"},
+     {"typ": "uebersetzen", "de": "das Bein und der Fuß", "loesungen": ["a perna e o pé"]},
+     {"typ": "uebersetzen", "de": "Ich habe kalte Hände.", "loesungen": ["Tenho as mãos frias."]},
+     {"typ": "satzbau", "de": "Ich wasche mir die Hände.", "loesung": "Lavo as mãos."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A aula de ginástica – die Gymnastikstunde",
+    "situation": "Eine Trainerin im Fitnessstudio.",
+    "zeilen": [
+     {"sprecher": "Professora", "stimme": "f", "pt": "Bom dia a todos! Primeiro, os braços: para cima!", "de": "Guten Morgen allerseits! Zuerst die Arme: nach oben!"},
+     {"sprecher": "Professora", "stimme": "f", "pt": "Agora a cabeça: para a direita, para a esquerda.", "de": "Jetzt den Kopf: nach rechts, nach links."},
+     {"sprecher": "Professora", "stimme": "f", "pt": "Agora as pernas. Cuidado com as costas!", "de": "Jetzt die Beine. Vorsicht mit dem Rücken!"},
+     {"sprecher": "Professora", "stimme": "f", "pt": "E no fim, as mãos nos pés. Muito bem!", "de": "Und zum Schluss die Hände an die Füße. Sehr gut!"}
+    ],
+    "fragen": [
+     {"frage": "Was bewegen sie zuerst?", "optionen": ["die Arme", "die Beine", "den Kopf"], "richtig": 0},
+     {"frage": "Worauf sollen sie aufpassen?", "optionen": ["auf den Rücken", "auf die Füße", "auf den Kopf"], "richtig": 0},
+     {"frage": "Was machen sie am Ende?", "optionen": ["die Hände an die Füße", "die Arme nach oben", "den Kopf drehen"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "a cabeça, os braços e as pernas", "de": "der Kopf, die Arme und die Beine"},
+     {"pt": "Lavo as mãos.", "de": "Ich wasche mir die Hände."},
+     {"pt": "Cuidado com as costas!", "de": "Vorsicht mit dem Rücken!"},
+     {"pt": "o pé direito e o pé esquerdo", "de": "der rechte und der linke Fuß"},
+     {"pt": "Dói-me um dente.", "de": "Mir tut ein Zahn weh."}
+    ]
+   },
+   "saetze": [
+    {"id": "lavo-as-maos", "pt": "Lavo as mãos.", "de": "Ich wasche mir die Hände."},
+    {"id": "cuidado-costas", "pt": "Cuidado com as costas!", "de": "Vorsicht mit dem Rücken!"},
+    {"id": "cabeca-bracos-pernas", "pt": "a cabeça, os braços e as pernas", "de": "der Kopf, die Arme und die Beine"}
+   ]
+  },
+  {
+   "id": "A1-10-L02",
+   "typ": "neu",
+   "titel": "Wo tut es weh?",
+   "vokabeln": ["doer", "doi-me", "doem-me", "a-dor", "dor-de-cabeca", "forte", "desde", "o-que-se-passa"],
+   "grammatik": {
+    "titel": "doer – Dói-me / Doem-me",
+    "erklaerung": [
+     "Der schmerzende Körperteil ist das Subjekt: <b>Dói-me</b> a cabeça (Singular) – <b>Doem-me</b> as costas (Plural). <i>me</i> = mir.",
+     "Arzt höflich: <b>Dói-lhe</b>? (Tut es Ihnen weh?) – <b>Onde lhe dói?</b> (Wo tut es Ihnen weh? – nach Fragewort steht <i>lhe</i> vorn).",
+     "Alternativ mit <b>ter dores de</b>: <i>Tenho dores de cabeça / de garganta / de costas.</i>",
+     "Seit wann? Zeitpunkt mit <b>desde</b> (<i>desde segunda-feira</i>), Zeitraum mit <b>há</b> (<i>há três dias</i>)."
+    ],
+    "vergleich": "Wie das deutsche „Mir tut der Kopf weh“ – der Kopf ist das Subjekt, „mir“ der Betroffene: <i>Dói-me a cabeça</i>.",
+    "beispiele": [
+     {"pt": "Dói-me a cabeça.", "de": "Mir tut der Kopf weh."},
+     {"pt": "Doem-me as costas desde segunda-feira.", "de": "Mir tut der Rücken seit Montag weh."},
+     {"pt": "Onde lhe dói?", "de": "Wo tut es Ihnen weh?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___-me a cabeça.", "loesungen": ["Dói"], "de": "Mir tut der Kopf weh.", "kategorie": "doer"},
+     {"typ": "luecke", "satz": "___-me as costas.", "loesungen": ["Doem"], "de": "Mir tut der Rücken weh.", "kategorie": "doer"},
+     {"typ": "auswahl", "frage": "„Mir tun die Füße weh.“", "optionen": ["Dói-me os pés.", "Doem-me os pés."], "richtig": 1, "erklaerung": "os pés ist Plural → doem.", "kategorie": "doer"},
+     {"typ": "auswahl", "frage": "Der Arzt fragt: „Wo tut es Ihnen weh?“", "optionen": ["Onde lhe dói?", "Onde dói-lhe?"], "richtig": 0, "erklaerung": "Nach Fragewörtern steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Ich habe Kopfschmerzen.", "loesungen": ["Tenho dores de cabeça.", "Dói-me a cabeça.", "Tenho dor de cabeça."]},
+     {"typ": "uebersetzen", "de": "Seit Montag.", "loesungen": ["Desde segunda-feira.", "Desde segunda."]},
+     {"typ": "satzbau", "de": "Der Hals tut mir sehr weh.", "loesung": "Dói-me muito a garganta."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No médico – beim Arzt",
+    "situation": "Stefan ist bei der Ärztin.",
+    "zeilen": [
+     {"sprecher": "Médica", "stimme": "f", "pt": "Bom dia, senhor Krenn. Então, o que se passa?", "de": "Guten Morgen, Herr Krenn. Also, was ist los?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Dói-me muito a garganta e também me dói a cabeça.", "de": "Mir tut der Hals sehr weh und der Kopf tut mir auch weh."},
+     {"sprecher": "Médica", "stimme": "f", "pt": "Desde quando?", "de": "Seit wann?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desde segunda-feira.", "de": "Seit Montag."},
+     {"sprecher": "Médica", "stimme": "f", "pt": "E dói-lhe o corpo todo?", "de": "Und tut Ihnen der ganze Körper weh?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, só a garganta e a cabeça.", "de": "Nein, nur der Hals und der Kopf."}
+    ],
+    "fragen": [
+     {"frage": "Was tut Stefan weh?", "optionen": ["der Hals und der Kopf", "der Rücken", "der ganze Körper"], "richtig": 0},
+     {"frage": "Seit wann?", "optionen": ["seit Montag", "seit gestern", "seit einer Woche"], "richtig": 0},
+     {"frage": "Tut ihm der ganze Körper weh?", "optionen": ["Nein.", "Ja."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist beim Arzt.",
+    "zeilen": [
+     {"sprecher": "Médico", "stimme": "m", "pt": "Bom dia. O que se passa?", "de": "Guten Morgen. Was ist los?"},
+     {"ich": true, "aufgabe": "Sag: Mir tut der Rücken weh.", "loesungen": ["Doem-me as costas.", "Tenho dores nas costas.", "Tenho dores de costas."]},
+     {"sprecher": "Médico", "stimme": "m", "pt": "Desde quando?", "de": "Seit wann?"},
+     {"ich": true, "aufgabe": "Sag: Seit Freitag.", "loesungen": ["Desde sexta-feira.", "Desde sexta."]},
+     {"sprecher": "Médico", "stimme": "m", "pt": "Dói-lhe muito?", "de": "Tut es sehr weh?"},
+     {"ich": true, "aufgabe": "Sag: Ja, sehr.", "loesungen": ["Dói, sim, muito.", "Sim, muito.", "Doem muito.", "Sim, dói muito."]}
+    ]
+   },
+   "saetze": [
+    {"id": "doi-me-a-cabeca", "pt": "Dói-me a cabeça.", "de": "Mir tut der Kopf weh."},
+    {"id": "doem-me-as-costas", "pt": "Doem-me as costas desde segunda-feira.", "de": "Mir tut der Rücken seit Montag weh."},
+    {"id": "onde-lhe-doi", "pt": "Onde lhe dói?", "de": "Wo tut es Ihnen weh?"}
+   ]
+  },
+  {
+   "id": "A1-10-L03",
+   "typ": "neu",
+   "titel": "Symptome",
+   "vokabeln": ["a-febre", "a-tosse", "constipado", "a-gripe", "estar-com", "o-nariz", "enjoado", "a-alergia", "tonto"],
+   "grammatik": {
+    "titel": "ter oder estar com – Symptome",
+    "erklaerung": [
+     "Symptome kann man mit <b>ter</b> oder <b>estar com</b> ausdrücken: <i>Tenho febre. = Estou com febre.</i> <i>estar com</i> betont, dass es gerade so ist.",
+     "Zustände mit <b>estar</b> + Adjektiv: <i>Estou constipado / enjoado / tonto.</i> (Frauen: constipada, enjoada, tonta)",
+     "<b>Falscher Freund:</b> <i>constipado</i> heißt <b>erkältet</b> – nicht „verstopft“!",
+     "Allergien: <b>Tenho alergia a …</b> – <i>Tenho alergia à penicilina.</i>"
+    ],
+    "vergleich": "Englisch „I have a fever / I've got a cold“ – Portugiesisch <i>Tenho febre / Estou constipado</i>.",
+    "beispiele": [
+     {"pt": "Estou constipado e tenho tosse.", "de": "Ich bin erkältet und habe Husten."},
+     {"pt": "Estou com febre.", "de": "Ich habe Fieber."},
+     {"pt": "Tenho alergia à penicilina.", "de": "Ich bin allergisch gegen Penizillin."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich bin erkältet.“ (Portugal)", "optionen": ["Estou constipado.", "Estou resfriado.", "Sou constipado."], "richtig": 0, "erklaerung": "Portugal: constipado. „resfriado“ ist brasilianisch."},
+     {"typ": "luecke", "satz": "Estou ___ febre.", "loesungen": ["com"], "de": "Ich habe Fieber.", "kategorie": "Präposition"},
+     {"typ": "luecke", "satz": "O meu filho ___ tosse.", "loesungen": ["tem"], "de": "Mein Sohn hat Husten.", "kategorie": "ter"},
+     {"typ": "auswahl", "frage": "„Mir ist übel.“", "optionen": ["Estou enjoado.", "Tenho enjoado.", "Sou enjoado."], "richtig": 0, "kategorie": "ser/estar"},
+     {"typ": "uebersetzen", "de": "Ich habe Fieber.", "loesungen": ["Tenho febre.", "Estou com febre."]},
+     {"typ": "uebersetzen", "de": "Sie hat Grippe.", "loesungen": ["Ela tem gripe.", "Ela está com gripe."]},
+     {"typ": "satzbau", "de": "Ich bin allergisch gegen Penizillin.", "loesung": "Tenho alergia à penicilina."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Estou constipado – ich bin erkältet",
+    "situation": "Ana ruft Stefan an.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, não vens ao ginásio hoje?", "de": "Stefan, kommst du heute nicht ins Fitnessstudio?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não posso. Estou constipado e tenho tosse.", "de": "Ich kann nicht. Ich bin erkältet und habe Husten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Tens febre?", "de": "Hast du Fieber?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Um pouco. Trinta e sete e meio.", "de": "Ein bisschen. 37,5."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Coitado! Fica em casa e bebe muito chá.", "de": "Du Armer! Bleib zu Hause und trink viel Tee."}
+    ],
+    "fragen": [
+     {"frage": "Was hat Stefan?", "optionen": ["eine Erkältung und Husten", "Bauchschmerzen", "einen gebrochenen Arm"], "richtig": 0},
+     {"frage": "Wie hoch ist sein Fieber?", "optionen": ["37,5 Grad", "39 Grad", "kein Fieber"], "richtig": 0},
+     {"frage": "Was rät Ana?", "optionen": ["zu Hause bleiben und viel Tee trinken", "ins Fitnessstudio kommen", "in die Notaufnahme gehen"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich bin erkältet.", "loesungen": ["Estou constipado.", "Estou constipada."]},
+     {"de": "Ich habe Husten.", "loesungen": ["Tenho tosse.", "Estou com tosse."]},
+     {"de": "Hast du Fieber?", "loesungen": ["Tens febre?", "Estás com febre?"]},
+     {"de": "Mir ist schwindelig.", "loesungen": ["Estou tonto.", "Estou tonta."]}
+    ]
+   },
+   "saetze": [
+    {"id": "constipado-tosse", "pt": "Estou constipado e tenho tosse.", "de": "Ich bin erkältet und habe Husten.", "alternativen": ["Estou constipada e tenho tosse."]},
+    {"id": "estou-com-febre", "pt": "Estou com febre.", "de": "Ich habe Fieber."},
+    {"id": "alergia-penicilina", "pt": "Tenho alergia à penicilina.", "de": "Ich bin allergisch gegen Penizillin."}
+   ]
+  },
+  {
+   "id": "A1-10-L04",
+   "typ": "neu",
+   "titel": "In der Apotheke",
+   "vokabeln": ["o-comprimido", "o-xarope", "a-receita", "sem-receita", "tomar", "de-oito-em-oito", "as-refeicoes", "a-pomada", "o-farmaceutico"],
+   "grammatik": {
+    "titel": "Tem alguma coisa para …? – und dever",
+    "erklaerung": [
+     "In der Apotheke: <b>Tem alguma coisa para …?</b> – Haben Sie etwas gegen …? (<i>para</i> = für/gegen): <i>para a tosse, para as dores de cabeça</i>.",
+     "Dosierung: <b>de oito em oito horas</b> (alle acht Stunden), <b>duas vezes por dia</b> (zweimal täglich), <b>antes / depois das refeições</b> (vor / nach dem Essen).",
+     "<b>dever</b> + Infinitiv = sollen / müssen: <i>Deve tomar um comprimido.</i> – Sie sollen eine Tablette nehmen. <i>Como devo tomar?</i> – Wie soll ich es einnehmen?"
+    ],
+    "vergleich": "Englisch „something for a cough“ – genauso <i>alguma coisa para a tosse</i>. Und „every eight hours“ = <i>de oito em oito horas</i>.",
+    "beispiele": [
+     {"pt": "Tem alguma coisa para a tosse?", "de": "Haben Sie etwas gegen Husten?"},
+     {"pt": "Não precisa de receita.", "de": "Sie brauchen kein Rezept."},
+     {"pt": "Tome um comprimido de oito em oito horas.", "de": "Nehmen Sie alle acht Stunden eine Tablette."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Tem alguma coisa ___ a tosse?", "loesungen": ["para"], "de": "Haben Sie etwas gegen Husten?", "kategorie": "Präposition"},
+     {"typ": "luecke", "satz": "Tome um comprimido de oito ___ oito horas.", "loesungen": ["em"], "de": "Nehmen Sie alle acht Stunden eine Tablette.", "kategorie": "Präposition"},
+     {"typ": "luecke", "satz": "___ tomar antes das refeições.", "loesungen": ["Deve"], "de": "Sie sollen es vor dem Essen nehmen.", "kategorie": "dever"},
+     {"typ": "auswahl", "frage": "„Brauche ich ein Rezept?“", "optionen": ["Preciso de receita?", "Preciso receita?", "Tenho de receita?"], "richtig": 0, "kategorie": "Präposition"},
+     {"typ": "uebersetzen", "de": "Haben Sie etwas gegen Kopfschmerzen?", "loesungen": ["Tem alguma coisa para as dores de cabeça?", "Tem alguma coisa para a dor de cabeça?"]},
+     {"typ": "uebersetzen", "de": "Ich brauche ein Rezept.", "loesungen": ["Preciso de uma receita.", "Preciso de receita."]},
+     {"typ": "satzbau", "de": "Sie sollen zweimal am Tag eine Tablette nehmen.", "loesung": "Deve tomar um comprimido duas vezes por dia."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na farmácia – in der Apotheke",
+    "situation": "Stefan hat Husten und leichtes Fieber.",
+    "zeilen": [
+     {"sprecher": "Farmacêutico", "stimme": "m", "pt": "Boa tarde. Em que posso ajudar?", "de": "Guten Tag. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Tem alguma coisa para a tosse?", "de": "Guten Tag. Haben Sie etwas gegen Husten?"},
+     {"sprecher": "Farmacêutico", "stimme": "m", "pt": "Tenho este xarope. Não precisa de receita.", "de": "Ich habe diesen Saft. Sie brauchen kein Rezept."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Como devo tomar?", "de": "Wie soll ich ihn einnehmen?"},
+     {"sprecher": "Farmacêutico", "stimme": "m", "pt": "Uma colher de oito em oito horas, depois das refeições.", "de": "Einen Löffel alle acht Stunden, nach dem Essen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E para a febre?", "de": "Und gegen das Fieber?"},
+     {"sprecher": "Farmacêutico", "stimme": "m", "pt": "Pode tomar paracetamol, um comprimido de seis em seis horas.", "de": "Sie können Paracetamol nehmen, alle sechs Stunden eine Tablette."}
+    ],
+    "fragen": [
+     {"frage": "Was bekommt Stefan gegen den Husten?", "optionen": ["einen rezeptfreien Saft", "Tabletten auf Rezept", "eine Salbe"], "richtig": 0},
+     {"frage": "Wie soll er den Saft nehmen?", "optionen": ["einen Löffel alle 8 Stunden nach dem Essen", "zweimal täglich vor dem Essen", "einmal am Abend"], "richtig": 0},
+     {"frage": "Was nimmt er gegen das Fieber?", "optionen": ["Paracetamol alle 6 Stunden", "nichts", "den Saft"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist in der Apotheke.",
+    "zeilen": [
+     {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Boa tarde, diga.", "de": "Guten Tag, bitte?"},
+     {"ich": true, "aufgabe": "Frag: Haben Sie etwas gegen Halsschmerzen?", "loesungen": ["Tem alguma coisa para as dores de garganta?", "Tem alguma coisa para a dor de garganta?", "Tem alguma coisa para a garganta?"]},
+     {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Tenho estas pastilhas.", "de": "Ich habe diese Lutschtabletten."},
+     {"ich": true, "aufgabe": "Frag: Brauche ich ein Rezept?", "loesungen": ["Preciso de receita?", "Preciso de uma receita?"]},
+     {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Não, não precisa.", "de": "Nein, brauchen Sie nicht."},
+     {"ich": true, "aufgabe": "Sag: Gut, ich nehme sie.", "loesungen": ["Está bem, levo.", "Então levo estas.", "Está bem, fico com elas.", "Está bem, levo estas."]}
+    ]
+   },
+   "saetze": [
+    {"id": "alguma-coisa-tosse", "pt": "Tem alguma coisa para a tosse?", "de": "Haben Sie etwas gegen Husten?"},
+    {"id": "nao-precisa-receita", "pt": "Não precisa de receita.", "de": "Sie brauchen kein Rezept."},
+    {"id": "de-oito-em-oito", "pt": "Tome um comprimido de oito em oito horas.", "de": "Nehmen Sie alle acht Stunden eine Tablette."}
+   ]
+  },
+  {
+   "id": "A1-10-L05",
+   "typ": "neu",
+   "titel": "Einen Arzttermin vereinbaren",
+   "vokabeln": ["centro-de-saude", "medico-de-familia", "marcar-consulta", "numero-de-utente", "seguro-de-saude", "dever", "o-mais-rapido", "urgente", "o-sns"],
+   "grammatik": {
+    "titel": "Termine: marcar uma consulta",
+    "erklaerung": [
+     "Einen Termin vereinbaren: <b>Queria marcar uma consulta</b> (com o médico de família / com um dentista).",
+     "Im staatlichen Gesundheitssystem (<b>SNS</b>) brauchst du deine <b>número de utente</b> – die bekommst du im Centro de Saúde.",
+     "Dringlichkeit: <b>É urgente.</b> · <b>o mais rápido possível</b> (so schnell wie möglich).",
+     "Ratschläge mit <b>dever</b>: <i>O senhor deve descansar.</i> – Sie sollten sich ausruhen."
+    ],
+    "vergleich": "Englisch „to make an appointment“ – Portugiesisch „einen Termin markieren“: <i>marcar uma consulta</i>.",
+    "beispiele": [
+     {"pt": "Queria marcar uma consulta com o médico de família.", "de": "Ich hätte gern einen Termin beim Hausarzt."},
+     {"pt": "Qual é o seu número de utente?", "de": "Wie ist Ihre Patientennummer?"},
+     {"pt": "É urgente, o mais rápido possível.", "de": "Es ist dringend, so schnell wie möglich."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Queria ___ uma consulta.", "loesungen": ["marcar"], "de": "Ich möchte einen Termin vereinbaren."},
+     {"typ": "luecke", "satz": "Qual é o seu número de ___?", "loesungen": ["utente"], "de": "Wie ist Ihre Patientennummer?"},
+     {"typ": "auswahl", "frage": "Wo hast du in Portugal deinen Hausarzt (SNS)?", "optionen": ["im Centro de Saúde", "in der Apotheke", "im Rathaus"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "So schnell wie möglich, bitte.", "loesungen": ["O mais rápido possível, por favor."]},
+     {"typ": "uebersetzen", "de": "Es ist dringend.", "loesungen": ["É urgente."]},
+     {"typ": "satzbau", "de": "Ich hätte gern einen Termin beim Hausarzt.", "loesung": "Queria marcar uma consulta com o médico de família."},
+     {"typ": "luecke", "satz": "O senhor ___ descansar.", "loesungen": ["deve"], "de": "Sie sollten sich ausruhen.", "kategorie": "dever"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Marcar uma consulta – einen Termin vereinbaren",
+    "situation": "Stefan ruft im Gesundheitszentrum an.",
+    "zeilen": [
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Centro de Saúde de Lagos, bom dia.", "de": "Gesundheitszentrum Lagos, guten Morgen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Queria marcar uma consulta com o médico de família.", "de": "Guten Morgen. Ich hätte gern einen Termin beim Hausarzt."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Qual é o seu número de utente?", "de": "Wie ist Ihre Patientennummer?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É o três, um, dois, quatro, cinco, seis, sete, oito, nove.", "de": "Drei, eins, zwei, vier, fünf, sechs, sieben, acht, neun."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Esta semana não é possível. Pode ser na segunda-feira às nove e meia?", "de": "Diese Woche geht es nicht. Geht es am Montag um halb zehn?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pode. Muito obrigado.", "de": "Ja. Vielen Dank."}
+    ],
+    "fragen": [
+     {"frage": "Wo ruft Stefan an?", "optionen": ["im Gesundheitszentrum Lagos", "in der Apotheke", "im Krankenhaus Faro"], "richtig": 0},
+     {"frage": "Wonach fragt die Rezeptionistin?", "optionen": ["nach seiner Patientennummer", "nach seiner Adresse", "nach seinem Alter"], "richtig": 0},
+     {"frage": "Wann ist der Termin?", "optionen": ["Montag um 9:30", "heute um 9:30", "Dienstag um 9 Uhr"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Queria marcar uma consulta.", "de": "Ich möchte einen Termin vereinbaren."},
+     {"pt": "Qual é o seu número de utente?", "de": "Wie ist Ihre Patientennummer?"},
+     {"pt": "É urgente.", "de": "Es ist dringend."},
+     {"pt": "O mais rápido possível, por favor.", "de": "So schnell wie möglich, bitte."},
+     {"pt": "Pode ser na segunda-feira?", "de": "Geht es am Montag?"}
+    ]
+   },
+   "saetze": [
+    {"id": "marcar-consulta-familia", "pt": "Queria marcar uma consulta com o médico de família.", "de": "Ich hätte gern einen Termin beim Hausarzt."},
+    {"id": "numero-de-utente-frase", "pt": "Qual é o seu número de utente?", "de": "Wie ist Ihre Patientennummer?"},
+    {"id": "urgente-rapido", "pt": "É urgente, o mais rápido possível.", "de": "Es ist dringend, so schnell wie möglich."}
+   ]
+  },
+  {
+   "id": "A1-10-L06",
+   "typ": "neu",
+   "titel": "Im Notfall",
+   "vokabeln": ["as-urgencias", "o-112", "socorro", "a-ambulancia", "chame", "ajude-me", "estou-mal", "ligar-para", "sns-24"],
+   "grammatik": {
+    "titel": "Notfall-Sätze – Chame! Ajude-me!",
+    "erklaerung": [
+     "Im Notfall die höfliche Befehlsform: <b>Chame</b> uma ambulância! (Rufen Sie …!) · <b>Ligue</b> para o 112! (Rufen Sie die 112 an!)",
+     "Pronomen hängen beim Befehl hinten an: <b>Ajude-me!</b> (Helfen Sie mir!)",
+     "Notruf: <b>112</b>. Bei nicht lebensbedrohlichen Beschwerden: <b>SNS 24</b> (808 24 24 24) – rund um die Uhr, auch auf Englisch.",
+     "Notaufnahme: <b>as urgências</b> (immer Plural): <i>Vou às urgências.</i>"
+    ],
+    "vergleich": "Englisch „Call an ambulance! Help me!“ – <i>Chame uma ambulância! Ajude-me!</i>",
+    "beispiele": [
+     {"pt": "Chame uma ambulância!", "de": "Rufen Sie einen Krankenwagen!"},
+     {"pt": "Ajude-me, por favor!", "de": "Helfen Sie mir, bitte!"},
+     {"pt": "Ligue para o 112!", "de": "Rufen Sie die 112 an!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ uma ambulância!", "loesungen": ["Chame"], "de": "Rufen Sie einen Krankenwagen!", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "Ajude-___!", "loesungen": ["me"], "de": "Helfen Sie mir!", "erklaerung": "Beim Befehl hängt das Pronomen hinten an.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "Welche Nummer ist der Notruf in Portugal?", "optionen": ["112", "110", "911"], "richtig": 0},
+     {"typ": "auswahl", "frage": "Wohin gehst du bei einem Notfall im Krankenhaus?", "optionen": ["às urgências", "à receção", "à farmácia"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Hilfe!", "loesungen": ["Socorro!"]},
+     {"typ": "uebersetzen", "de": "Mir geht es sehr schlecht.", "loesungen": ["Estou muito mal.", "Sinto-me muito mal."]},
+     {"typ": "satzbau", "de": "Rufen Sie die 112 an!", "loesung": "Ligue para o 112!"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na praia – um acidente",
+    "situation": "Am Strand geht es einem Mann schlecht.",
+    "zeilen": [
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Socorro! Um senhor está mal!", "de": "Hilfe! Einem Mann geht es schlecht!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O que se passa?", "de": "Was ist los?"},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Está muito tonto e dói-lhe o peito.", "de": "Ihm ist sehr schwindelig und die Brust tut ihm weh."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vou ligar para o 112. Fique com ele, por favor!", "de": "Ich rufe die 112 an. Bleiben Sie bitte bei ihm!"},
+     {"sprecher": "Operador", "stimme": "m", "pt": "112, qual é a emergência?", "de": "112, was ist der Notfall?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está um senhor mal na praia da Batata, em Lagos. Precisamos de uma ambulância.", "de": "Einem Mann geht es schlecht am Strand Batata in Lagos. Wir brauchen einen Krankenwagen."}
+    ],
+    "fragen": [
+     {"frage": "Was hat der Mann?", "optionen": ["Schwindel und Brustschmerzen", "einen gebrochenen Arm", "Sonnenbrand"], "richtig": 0},
+     {"frage": "Wen ruft Stefan an?", "optionen": ["die 112", "die Apotheke", "SNS 24"], "richtig": 0},
+     {"frage": "Was brauchen sie?", "optionen": ["einen Krankenwagen", "ein Taxi", "Wasser"], "richtig": 0},
+     {"frage": "Wo sind sie?", "optionen": ["am Strand Batata in Lagos", "in Faro", "im Hotel"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Deiner Nachbarin geht es schlecht. Du rufst die 112 an.",
+    "zeilen": [
+     {"sprecher": "Operador", "stimme": "m", "pt": "112, qual é a emergência?", "de": "112, was ist der Notfall?"},
+     {"ich": true, "aufgabe": "Sag: Meiner Nachbarin geht es sehr schlecht.", "loesungen": ["A minha vizinha está muito mal.", "A minha vizinha está muito doente."]},
+     {"sprecher": "Operador", "stimme": "m", "pt": "Qual é a morada?", "de": "Wie ist die Adresse?"},
+     {"ich": true, "aufgabe": "Sag: Rua do Mar, Nummer 12, in Lagos.", "loesungen": ["Rua do Mar, número doze, em Lagos.", "É na Rua do Mar, número doze, em Lagos."]},
+     {"sprecher": "Operador", "stimme": "m", "pt": "A ambulância vai a caminho.", "de": "Der Krankenwagen ist unterwegs."},
+     {"ich": true, "aufgabe": "Sag: Danke! Bitte schnell!", "loesungen": ["Obrigado! Depressa, por favor!", "Obrigado! Rápido, por favor!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "chame-ambulancia", "pt": "Chame uma ambulância!", "de": "Rufen Sie einen Krankenwagen!"},
+    {"id": "ajude-me-por-favor", "pt": "Ajude-me, por favor!", "de": "Helfen Sie mir, bitte!"},
+    {"id": "ligue-112", "pt": "Ligue para o 112!", "de": "Rufen Sie die 112 an!"}
+   ]
+  },
+  {"id": "A1-10-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-10-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Na farmácia de serviço – in der Notdienstapotheke",
+   "situation": "Stefan holt nachts etwas für seine Nachbarin.",
+   "zeilen": [
+    {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Boa noite. O que deseja?", "de": "Guten Abend. Was wünschen Sie?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Boa noite. A minha vizinha está com febre alta e tem tosse.", "de": "Guten Abend. Meine Nachbarin hat hohes Fieber und Husten."},
+    {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Quanto tem de febre?", "de": "Wie hoch ist das Fieber?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Trinta e nove.", "de": "Neununddreißig."},
+    {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Para a febre, pode tomar paracetamol de seis em seis horas. Mas com trinta e nove de febre, deve ligar para a linha SNS 24 ou ir às urgências.", "de": "Gegen das Fieber kann sie alle sechs Stunden Paracetamol nehmen. Aber bei 39 Grad Fieber sollte sie die SNS-24-Hotline anrufen oder in die Notaufnahme gehen."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado, vou ligar já.", "de": "Danke, ich rufe sofort an."}
+   ],
+   "fragen": [
+    {"frage": "Für wen holt Stefan etwas?", "optionen": ["für seine Nachbarin", "für sich selbst", "für einen Freund"], "richtig": 0},
+    {"frage": "Wie hoch ist das Fieber?", "optionen": ["39 Grad", "37,5 Grad", "38 Grad"], "richtig": 0},
+    {"frage": "Welches Medikament empfiehlt die Apothekerin?", "optionen": ["Paracetamol alle 6 Stunden", "Hustensaft", "nichts"], "richtig": 0},
+    {"frage": "Was rät sie außerdem?", "optionen": ["SNS 24 anrufen oder in die Notaufnahme gehen", "morgen zum Hausarzt gehen", "viel schlafen"], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Folheto do centro de saúde – Infoblatt des Gesundheitszentrums",
+   "situation": "Ein Aushang am Eingang.",
+   "text": [
+    "Centro de Saúde de Lagos",
+    "Horário: de segunda a sexta, das 8h às 20h.",
+    "Para marcar consultas: ligue 282 770 100 ou venha à receção com o seu número de utente.",
+    "Fora do horário: ligue SNS 24 – 808 24 24 24.",
+    "Em caso de emergência: ligue 112."
+   ],
+   "fragen": [
+    {"frage": "Wann ist das Gesundheitszentrum geöffnet?", "optionen": ["Mo–Fr von 8 bis 20 Uhr", "täglich rund um die Uhr", "Mo–Sa von 9 bis 13 Uhr"], "richtig": 0},
+    {"frage": "Wie vereinbart man einen Termin?", "optionen": ["anrufen oder mit der Patientennummer zur Rezeption gehen", "nur online", "in der Apotheke"], "richtig": 0},
+    {"frage": "Wen ruft man außerhalb der Öffnungszeiten an?", "optionen": ["SNS 24", "die 112", "die Rezeption"], "richtig": 0},
+    {"frage": "Und im Notfall?", "optionen": ["die 112", "SNS 24", "den Hausarzt"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Mir tut der Kopf weh.", "loesungen": ["Dói-me a cabeça.", "Tenho dores de cabeça."]},
+   {"de": "Ich bin erkältet.", "loesungen": ["Estou constipado.", "Estou constipada."]},
+   {"de": "Haben Sie etwas gegen Husten?", "loesungen": ["Tem alguma coisa para a tosse?"]},
+   {"de": "Ich möchte einen Termin vereinbaren.", "loesungen": ["Queria marcar uma consulta."]},
+   {"de": "Ich habe Fieber.", "loesungen": ["Tenho febre.", "Estou com febre."]},
+   {"de": "Rufen Sie einen Krankenwagen!", "loesungen": ["Chame uma ambulância!"]}
+  ],
+  "sprechen": [
+   {"pt": "Doem-me as costas.", "de": "Mir tut der Rücken weh."},
+   {"pt": "Estou com febre desde segunda.", "de": "Ich habe seit Montag Fieber."},
+   {"pt": "Tem alguma coisa para a garganta?", "de": "Haben Sie etwas gegen Halsschmerzen?"},
+   {"pt": "Queria marcar uma consulta, por favor.", "de": "Ich möchte bitte einen Termin vereinbaren."},
+   {"pt": "Ajude-me, por favor!", "de": "Helfen Sie mir, bitte!"}
+  ]
+ }
+}

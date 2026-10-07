@@ -1,0 +1,502 @@
+{
+ "id": "A1-09",
+ "level": "A1",
+ "titel": "Tempo livre – Freizeit und Wetter",
+ "beschreibung": "Vorlieben, Hobbys, was man gerade tut (estar a), Wetter und Jahreszeiten, Monate, Einladungen annehmen und ablehnen.",
+ "vokabeln": [
+  {"id": "gostar-de", "pt": "gostar de", "de": "mögen / gern tun", "emoji": "❤️", "beispiel_pt": "Gosto muito de nadar.", "beispiel_de": "Ich schwimme sehr gern.", "hinweis": "immer mit de: gosto do mar, gosto de ler"},
+  {"id": "adorar", "pt": "adorar", "de": "lieben / sehr gern mögen", "emoji": "😍", "beispiel_pt": "Adoro viajar.", "beispiel_de": "Ich reise wahnsinnig gern."},
+  {"id": "detestar", "pt": "detestar", "de": "hassen / gar nicht mögen", "emoji": "😖", "beispiel_pt": "Detesto cozinhar.", "beispiel_de": "Ich koche überhaupt nicht gern."},
+  {"id": "tempo-livre", "pt": "o tempo livre", "de": "die Freizeit", "emoji": "🏖️", "beispiel_pt": "O que gosta de fazer no tempo livre?", "beispiel_de": "Was machen Sie gern in Ihrer Freizeit?"},
+  {"id": "ler", "pt": "ler", "de": "lesen", "emoji": "📖", "beispiel_pt": "Gosto de ler na praia.", "beispiel_de": "Ich lese gern am Strand.", "hinweis": "leio, lês, lê, lemos, leem"},
+  {"id": "nadar", "pt": "nadar", "de": "schwimmen", "emoji": "🏊", "beispiel_pt": "Nado no mar todos os dias.", "beispiel_de": "Ich schwimme jeden Tag im Meer."},
+  {"id": "correr", "pt": "correr", "de": "laufen / joggen", "emoji": "🏃", "beispiel_pt": "Corro na praia de manhã.", "beispiel_de": "Ich jogge morgens am Strand."},
+  {"id": "cozinhar", "pt": "cozinhar", "de": "kochen", "emoji": "👨‍🍳", "beispiel_pt": "Gosto de cozinhar peixe.", "beispiel_de": "Ich koche gern Fisch."},
+  {"id": "viajar", "pt": "viajar", "de": "reisen", "emoji": "✈️", "beispiel_pt": "Adoro viajar.", "beispiel_de": "Ich reise wahnsinnig gern."},
+  {"id": "a-musica", "pt": "a música", "de": "die Musik", "emoji": "🎵", "beispiel_pt": "Gosto da música portuguesa.", "beispiel_de": "Ich mag portugiesische Musik."},
+
+  {"id": "jogar", "pt": "jogar", "de": "spielen (Spiel, Sport)", "emoji": "⚽", "beispiel_pt": "Jogo ténis ao fim de semana.", "beispiel_de": "Am Wochenende spiele ich Tennis."},
+  {"id": "tocar", "pt": "tocar", "de": "spielen (Instrument)", "emoji": "🎸", "beispiel_pt": "Ela toca piano.", "beispiel_de": "Sie spielt Klavier."},
+  {"id": "o-futebol", "pt": "o futebol", "de": "der Fußball", "emoji": "⚽", "beispiel_pt": "Jogas futebol?", "beispiel_de": "Spielst du Fußball?"},
+  {"id": "o-tenis", "pt": "o ténis", "de": "das Tennis", "emoji": "🎾", "beispiel_pt": "Jogamos ténis à quarta.", "beispiel_de": "Mittwochs spielen wir Tennis.", "hinweis": "Portugal: ténis – Brasilien: tênis"},
+  {"id": "o-golfe", "pt": "o golfe", "de": "das Golf", "emoji": "⛳", "beispiel_pt": "O Algarve tem muitos campos de golfe.", "beispiel_de": "Die Algarve hat viele Golfplätze."},
+  {"id": "a-guitarra", "pt": "a guitarra", "de": "die Gitarre", "emoji": "🎸", "beispiel_pt": "Toco um pouco de guitarra.", "beispiel_de": "Ich spiele ein bisschen Gitarre.", "hinweis": "Die guitarra portuguesa ist die typische Fado-Gitarre."},
+  {"id": "o-piano", "pt": "o piano", "de": "das Klavier", "emoji": "🎹", "beispiel_pt": "Ela toca piano muito bem.", "beispiel_de": "Sie spielt sehr gut Klavier."},
+  {"id": "ver-televisao", "pt": "ver televisão", "de": "fernsehen", "emoji": "📺", "beispiel_pt": "À noite vejo televisão.", "beispiel_de": "Abends sehe ich fern."},
+  {"id": "ouvir-musica", "pt": "ouvir música", "de": "Musik hören", "emoji": "🎧", "beispiel_pt": "Gosto de ouvir música.", "beispiel_de": "Ich höre gern Musik."},
+  {"id": "o-livro", "pt": "o livro", "de": "das Buch", "emoji": "📚", "beispiel_pt": "Estou a ler um livro.", "beispiel_de": "Ich lese gerade ein Buch."},
+
+  {"id": "estar-a", "pt": "estar a + Infinitiv", "de": "gerade dabei sein, etwas zu tun", "emoji": "⏳", "beispiel_pt": "Estou a trabalhar.", "beispiel_de": "Ich arbeite gerade.", "alternativen": ["estar a"]},
+  {"id": "o-que-esta-a-fazer", "pt": "O que está a fazer?", "de": "Was machen Sie gerade?", "emoji": "❓", "beispiel_pt": "Olá! O que estás a fazer?", "beispiel_de": "Hallo! Was machst du gerade?"},
+  {"id": "descansar", "pt": "descansar", "de": "sich ausruhen", "emoji": "😌", "beispiel_pt": "Estou a descansar.", "beispiel_de": "Ich ruhe mich gerade aus."},
+  {"id": "esperar", "pt": "esperar", "de": "warten", "emoji": "⏱️", "beispiel_pt": "Estou à espera de um cliente.", "beispiel_de": "Ich warte auf einen Kunden.", "hinweis": "warten auf: esperar … oder estar à espera de …"},
+  {"id": "escrever", "pt": "escrever", "de": "schreiben", "emoji": "✍️", "beispiel_pt": "Estou a escrever uma mensagem.", "beispiel_de": "Ich schreibe gerade eine Nachricht."},
+  {"id": "ouvir", "pt": "ouvir", "de": "hören", "emoji": "👂", "beispiel_pt": "Ouves a música?", "beispiel_de": "Hörst du die Musik?", "hinweis": "oiço / ouço, ouves, ouve, ouvimos, ouvem"},
+  {"id": "ver", "pt": "ver", "de": "sehen", "emoji": "👀", "beispiel_pt": "Logo vou ver um filme.", "beispiel_de": "Nachher schaue ich einen Film.", "hinweis": "vejo, vês, vê, vemos, veem"},
+  {"id": "agora-mesmo", "pt": "agora mesmo", "de": "gerade eben / genau jetzt", "emoji": "⚡", "beispiel_pt": "Estou a sair agora mesmo.", "beispiel_de": "Ich gehe genau jetzt los."},
+  {"id": "a-mensagem", "pt": "a mensagem", "de": "die Nachricht", "emoji": "💬", "beispiel_pt": "Recebo muitas mensagens.", "beispiel_de": "Ich bekomme viele Nachrichten."},
+
+  {"id": "o-tempo", "pt": "o tempo", "de": "das Wetter / die Zeit", "emoji": "🌦️", "beispiel_pt": "Hoje o tempo está bom.", "beispiel_de": "Heute ist das Wetter gut."},
+  {"id": "que-tempo-faz", "pt": "Que tempo faz?", "de": "Wie ist das Wetter?", "emoji": "❓", "beispiel_pt": "Que tempo faz em Munique?", "beispiel_de": "Wie ist das Wetter in München?"},
+  {"id": "faz-sol", "pt": "faz sol", "de": "die Sonne scheint", "emoji": "☀️", "beispiel_pt": "Hoje faz sol.", "beispiel_de": "Heute scheint die Sonne.", "alternativen": ["está sol"]},
+  {"id": "faz-calor", "pt": "faz calor", "de": "es ist heiß", "emoji": "🥵", "beispiel_pt": "No verão faz muito calor.", "beispiel_de": "Im Sommer ist es sehr heiß.", "alternativen": ["está calor"]},
+  {"id": "faz-frio", "pt": "faz frio", "de": "es ist kalt", "emoji": "🥶", "beispiel_pt": "No inverno faz frio.", "beispiel_de": "Im Winter ist es kalt.", "alternativen": ["está frio"]},
+  {"id": "chove", "pt": "está a chover", "de": "es regnet (gerade)", "emoji": "🌧️", "beispiel_pt": "Está a chover muito.", "beispiel_de": "Es regnet stark.", "hinweis": "allgemein: chove (es regnet)", "alternativen": ["chove"]},
+  {"id": "esta-vento", "pt": "está vento", "de": "es ist windig", "emoji": "💨", "beispiel_pt": "Hoje está muito vento.", "beispiel_de": "Heute ist es sehr windig.", "alternativen": ["faz vento"]},
+  {"id": "esta-nublado", "pt": "está nublado", "de": "es ist bewölkt", "emoji": "☁️", "beispiel_pt": "No Norte está nublado.", "beispiel_de": "Im Norden ist es bewölkt."},
+  {"id": "a-primavera", "pt": "a primavera", "de": "der Frühling", "emoji": "🌷", "beispiel_pt": "Na primavera há muitas flores.", "beispiel_de": "Im Frühling gibt es viele Blumen."},
+  {"id": "o-verao", "pt": "o verão", "de": "der Sommer", "emoji": "🌞", "beispiel_pt": "No verão faz muito calor.", "beispiel_de": "Im Sommer ist es sehr heiß."},
+  {"id": "o-outono", "pt": "o outono", "de": "der Herbst", "emoji": "🍂", "beispiel_pt": "No outono chove mais.", "beispiel_de": "Im Herbst regnet es mehr."},
+  {"id": "o-inverno", "pt": "o inverno", "de": "der Winter", "emoji": "❄️", "beispiel_pt": "No inverno faz frio.", "beispiel_de": "Im Winter ist es kalt."},
+
+  {"id": "o-mes", "pt": "o mês", "de": "der Monat", "emoji": "🗓️", "beispiel_pt": "Em que mês estamos?", "beispiel_de": "Welcher Monat ist gerade?", "hinweis": "Plural: os meses"},
+  {"id": "janeiro", "pt": "janeiro", "de": "Januar", "emoji": "🗓️", "beispiel_pt": "Em janeiro faz frio.", "beispiel_de": "Im Januar ist es kalt."},
+  {"id": "fevereiro", "pt": "fevereiro", "de": "Februar", "emoji": "🗓️", "beispiel_pt": "em fevereiro", "beispiel_de": "im Februar"},
+  {"id": "marco", "pt": "março", "de": "März", "emoji": "🗓️", "beispiel_pt": "Faço anos em março.", "beispiel_de": "Ich habe im März Geburtstag."},
+  {"id": "abril", "pt": "abril", "de": "April", "emoji": "🗓️", "beispiel_pt": "Em abril chove muito.", "beispiel_de": "Im April regnet es viel."},
+  {"id": "maio", "pt": "maio", "de": "Mai", "emoji": "🗓️", "beispiel_pt": "em maio", "beispiel_de": "im Mai"},
+  {"id": "junho", "pt": "junho", "de": "Juni", "emoji": "🗓️", "beispiel_pt": "Em junho há festas populares.", "beispiel_de": "Im Juni gibt es Volksfeste."},
+  {"id": "julho", "pt": "julho", "de": "Juli", "emoji": "🗓️", "beispiel_pt": "em julho", "beispiel_de": "im Juli"},
+  {"id": "agosto", "pt": "agosto", "de": "August", "emoji": "🗓️", "beispiel_pt": "Em agosto há muitos turistas.", "beispiel_de": "Im August gibt es viele Touristen."},
+  {"id": "setembro", "pt": "setembro", "de": "September", "emoji": "🗓️", "beispiel_pt": "Prefiro setembro.", "beispiel_de": "Ich mag den September lieber."},
+  {"id": "outubro", "pt": "outubro", "de": "Oktober", "emoji": "🗓️", "beispiel_pt": "em outubro", "beispiel_de": "im Oktober"},
+  {"id": "novembro", "pt": "novembro", "de": "November", "emoji": "🗓️", "beispiel_pt": "em novembro", "beispiel_de": "im November"},
+  {"id": "dezembro", "pt": "dezembro", "de": "Dezember", "emoji": "🗓️", "beispiel_pt": "Em dezembro vou à Alemanha.", "beispiel_de": "Im Dezember fahre ich nach Deutschland."},
+
+  {"id": "quer-ir", "pt": "Quer ir …?", "de": "Möchten Sie … gehen?", "emoji": "🙋", "beispiel_pt": "Quer ir ao cinema?", "beispiel_de": "Möchten Sie ins Kino gehen?", "hinweis": "tu-Form: Queres ir …?"},
+  {"id": "boa-ideia", "pt": "Boa ideia!", "de": "Gute Idee!", "emoji": "💡", "beispiel_pt": "Vamos à praia? – Boa ideia!", "beispiel_de": "Gehen wir an den Strand? – Gute Idee!"},
+  {"id": "que-pena", "pt": "Que pena!", "de": "Wie schade!", "emoji": "😔", "beispiel_pt": "Que pena, não posso.", "beispiel_de": "Wie schade, ich kann nicht."},
+  {"id": "nao-posso", "pt": "Não posso.", "de": "Ich kann nicht.", "emoji": "🙅", "beispiel_pt": "Sábado não posso.", "beispiel_de": "Samstag kann ich nicht."},
+  {"id": "fica-para", "pt": "Fica para a próxima.", "de": "Ein anderes Mal.", "emoji": "🔜", "beispiel_pt": "Não faz mal, fica para a próxima!", "beispiel_de": "Macht nichts, ein anderes Mal!"},
+  {"id": "o-cinema", "pt": "o cinema", "de": "das Kino", "emoji": "🎬", "beispiel_pt": "Vamos ao cinema?", "beispiel_de": "Gehen wir ins Kino?"},
+  {"id": "o-concerto", "pt": "o concerto", "de": "das Konzert", "emoji": "🎶", "beispiel_pt": "um concerto de fado", "beispiel_de": "ein Fado-Konzert"},
+  {"id": "o-restaurante", "pt": "o restaurante", "de": "das Restaurant", "emoji": "🍽️", "beispiel_pt": "Vamos a um restaurante típico.", "beispiel_de": "Wir gehen in ein typisches Restaurant."},
+  {"id": "convidar", "pt": "convidar", "de": "einladen", "emoji": "💌", "beispiel_pt": "Convido-te para a minha festa.", "beispiel_de": "Ich lade dich zu meiner Feier ein."},
+  {"id": "a-festa", "pt": "a festa", "de": "das Fest / die Party", "emoji": "🎉", "beispiel_pt": "Queres vir à festa?", "beispiel_de": "Möchtest du zur Party kommen?"}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-09-L01",
+   "typ": "neu",
+   "titel": "Was ich gern mache",
+   "vokabeln": ["gostar-de", "adorar", "detestar", "tempo-livre", "ler", "nadar", "correr", "cozinhar", "viajar", "a-musica"],
+   "grammatik": {
+    "titel": "gostar de – mögen",
+    "erklaerung": [
+     "<b>gostar</b> braucht immer <b>de</b>: <i>Gosto <b>de</b> nadar.</i> Vor Artikel verschmilzt es: <i>Gosto <b>do</b> mar. Gosto <b>da</b> música portuguesa.</i>",
+     "Verstärken: <b>Gosto muito de …</b> (sehr gern) – <b>Não gosto nada de …</b> (überhaupt nicht).",
+     "<b>adorar</b> (lieben) und <b>detestar</b> (hassen) stehen <i>ohne</i> de: <i>Adoro viajar. Detesto cozinhar.</i>"
+    ],
+    "vergleich": "Englisch „I like swimming“ – Portugiesisch braucht das kleine <i>de</i>: <i>Gosto de nadar</i>. Ein sehr häufiger Fehler!",
+    "beispiele": [
+     {"pt": "Gosto muito de nadar e de cozinhar.", "de": "Ich schwimme und koche sehr gern."},
+     {"pt": "O que gosta de fazer no tempo livre?", "de": "Was machen Sie gern in Ihrer Freizeit?"},
+     {"pt": "Não gosto nada de correr.", "de": "Ich jogge überhaupt nicht gern."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Gosto ___ mar.", "loesungen": ["do"], "de": "Ich mag das Meer.", "kategorie": "gostar de"},
+     {"typ": "luecke", "satz": "Gosto ___ nadar.", "loesungen": ["de"], "de": "Ich schwimme gern.", "kategorie": "gostar de"},
+     {"typ": "luecke", "satz": "Ela gosta ___ música brasileira.", "loesungen": ["da"], "de": "Sie mag brasilianische Musik.", "kategorie": "gostar de"},
+     {"typ": "auswahl", "frage": "„Ich koche wahnsinnig gern.“", "optionen": ["Adoro cozinhar.", "Adoro de cozinhar."], "richtig": 0, "erklaerung": "adorar steht ohne de.", "kategorie": "gostar de"},
+     {"typ": "auswahl", "frage": "„Ich mag das überhaupt nicht.“", "optionen": ["Não gosto nada disso.", "Não gosto nenhum disso."], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Was machen Sie gern in Ihrer Freizeit?", "loesungen": ["O que gosta de fazer no tempo livre?", "O que gosta de fazer no seu tempo livre?"]},
+     {"typ": "satzbau", "de": "Ich lese sehr gern.", "loesung": "Gosto muito de ler."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Tempo livre – Freizeit",
+    "situation": "Rita und Stefan sprechen über Hobbys.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "O que gosta de fazer no tempo livre?", "de": "Was machen Sie gern in Ihrer Freizeit?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Gosto muito de nadar e de cozinhar. E adoro viajar.", "de": "Ich schwimme und koche sehr gern. Und ich reise wahnsinnig gern."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Eu também adoro viajar! E gosta de ler?", "de": "Ich reise auch total gern! Und lesen Sie gern?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Gosto, sim, mas não tenho muito tempo.", "de": "Ja, aber ich habe nicht viel Zeit."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Eu detesto cozinhar, mas gosto muito de comer!", "de": "Ich koche gar nicht gern, aber ich esse sehr gern!"}
+    ],
+    "fragen": [
+     {"frage": "Was macht Stefan gern?", "optionen": ["schwimmen, kochen und reisen", "joggen und lesen", "fernsehen"], "richtig": 0},
+     {"frage": "Liest Stefan gern?", "optionen": ["Ja, aber er hat wenig Zeit.", "Nein, gar nicht.", "Ja, jeden Tag."], "richtig": 0},
+     {"frage": "Was sagt Rita über das Kochen?", "optionen": ["Sie kocht gar nicht gern, isst aber gern.", "Sie kocht sehr gern.", "Sie kocht jeden Tag."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Gosto muito de nadar.", "de": "Ich schwimme sehr gern."},
+     {"pt": "Adoro viajar.", "de": "Ich reise wahnsinnig gern."},
+     {"pt": "Não gosto nada de correr.", "de": "Ich jogge überhaupt nicht gern."},
+     {"pt": "Gosto do mar.", "de": "Ich mag das Meer."},
+     {"pt": "O que gosta de fazer?", "de": "Was machen Sie gern?"}
+    ]
+   },
+   "saetze": [
+    {"id": "gosto-nadar-cozinhar", "pt": "Gosto muito de nadar e de cozinhar.", "de": "Ich schwimme und koche sehr gern."},
+    {"id": "o-que-gosta-fazer", "pt": "O que gosta de fazer no tempo livre?", "de": "Was machen Sie gern in Ihrer Freizeit?"},
+    {"id": "nao-gosto-nada-correr", "pt": "Não gosto nada de correr.", "de": "Ich jogge überhaupt nicht gern."}
+   ]
+  },
+  {
+   "id": "A1-09-L02",
+   "typ": "neu",
+   "titel": "Hobbys – jogar oder tocar?",
+   "vokabeln": ["jogar", "tocar", "o-futebol", "o-tenis", "o-golfe", "a-guitarra", "o-piano", "ver-televisao", "ouvir-musica", "o-livro"],
+   "grammatik": {
+    "titel": "jogar oder tocar – und ver, ler, ouvir",
+    "erklaerung": [
+     "Ein Spiel oder einen Sport spielt man mit <b>jogar</b>: <i>jogar futebol, ténis, golfe, às cartas</i>. Ein Instrument mit <b>tocar</b>: <i>tocar guitarra, piano</i>.",
+     "Drei häufige unregelmäßige Verben: <b>ver</b> (sehen): <i>vejo, vês, vê, vemos, veem</i> · <b>ler</b> (lesen): <i>leio, lês, lê, lemos, leem</i> · <b>ouvir</b> (hören): <i>oiço/ouço, ouves, ouve, ouvimos, ouvem</i>.",
+     "Fernsehen heißt <b>ver televisão</b> – wörtlich „Fernsehen sehen“."
+    ],
+    "vergleich": "Englisch „play“ für alles – Portugiesisch trennt wie das Französische (jouer au / jouer du): <i>jogar</i> für Spiele, <i>tocar</i> für Musik.",
+    "beispiele": [
+     {"pt": "Jogo ténis ao fim de semana.", "de": "Am Wochenende spiele ich Tennis."},
+     {"pt": "Ela toca piano muito bem.", "de": "Sie spielt sehr gut Klavier."},
+     {"pt": "À noite vejo televisão ou leio um livro.", "de": "Abends sehe ich fern oder lese ein Buch."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich spiele Gitarre.“", "optionen": ["Jogo guitarra.", "Toco guitarra."], "richtig": 1, "erklaerung": "Instrumente: tocar.", "kategorie": "jogar/tocar"},
+     {"typ": "auswahl", "frage": "„Wir spielen Tennis.“", "optionen": ["Tocamos ténis.", "Jogamos ténis."], "richtig": 1, "erklaerung": "Sport und Spiele: jogar.", "kategorie": "jogar/tocar"},
+     {"typ": "luecke", "satz": "Ao domingo ___ golfe.", "loesungen": ["jogo"], "de": "Sonntags spiele ich Golf.", "kategorie": "jogar/tocar"},
+     {"typ": "luecke", "satz": "Ela ___ piano muito bem.", "loesungen": ["toca"], "de": "Sie spielt sehr gut Klavier.", "kategorie": "jogar/tocar"},
+     {"typ": "uebersetzen", "de": "Abends sehe ich fern.", "loesungen": ["À noite vejo televisão.", "Vejo televisão à noite."]},
+     {"typ": "uebersetzen", "de": "Was liest du?", "loesungen": ["O que lês?", "O que estás a ler?"]},
+     {"typ": "satzbau", "de": "Ich höre gern Musik.", "loesung": "Gosto de ouvir música."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Golfe no Algarve – Golf an der Algarve",
+    "situation": "Senhor Costa spricht über seine Hobbys.",
+    "zeilen": [
+     {"sprecher": "Senhor Costa", "stimme": "m", "pt": "O senhor joga golfe?", "de": "Spielen Sie Golf?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, não jogo. Jogo ténis, às vezes.", "de": "Nein. Ich spiele manchmal Tennis."},
+     {"sprecher": "Senhor Costa", "stimme": "m", "pt": "Eu jogo golfe todas as semanas. O Algarve tem campos fantásticos.", "de": "Ich spiele jede Woche Golf. Die Algarve hat fantastische Plätze."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a sua mulher também joga?", "de": "Und spielt Ihre Frau auch?"},
+     {"sprecher": "Senhor Costa", "stimme": "m", "pt": "Não, ela prefere tocar piano e ler.", "de": "Nein, sie spielt lieber Klavier und liest."}
+    ],
+    "fragen": [
+     {"frage": "Was spielt Stefan?", "optionen": ["manchmal Tennis", "Golf", "Fußball"], "richtig": 0},
+     {"frage": "Wie oft spielt Senhor Costa Golf?", "optionen": ["jede Woche", "jeden Tag", "nie"], "richtig": 0},
+     {"frage": "Was macht seine Frau lieber?", "optionen": ["Klavier spielen und lesen", "Golf spielen", "Tennis spielen"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Tiago fragt dich nach deinen Hobbys (ihr duzt euch).",
+    "zeilen": [
+     {"sprecher": "Tiago", "stimme": "m", "pt": "Jogas futebol?", "de": "Spielst du Fußball?"},
+     {"ich": true, "aufgabe": "Sag: Nein, aber ich spiele Tennis.", "loesungen": ["Não, mas jogo ténis.", "Não jogo, mas jogo ténis.", "Não, mas eu jogo ténis."]},
+     {"sprecher": "Tiago", "stimme": "m", "pt": "E tocas algum instrumento?", "de": "Und spielst du ein Instrument?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich spiele ein bisschen Gitarre.", "loesungen": ["Toco, sim, um pouco de guitarra.", "Sim, toco um pouco de guitarra.", "Toco um pouco de guitarra."]},
+     {"sprecher": "Tiago", "stimme": "m", "pt": "Fixe!", "de": "Cool!"},
+     {"ich": true, "aufgabe": "Frag: Und du, was machst du gern?", "loesungen": ["E tu, o que gostas de fazer?", "E tu? O que gostas de fazer?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "jogo-tenis-fds", "pt": "Jogo ténis ao fim de semana.", "de": "Am Wochenende spiele ich Tennis."},
+    {"id": "toca-piano", "pt": "Ela toca piano muito bem.", "de": "Sie spielt sehr gut Klavier."},
+    {"id": "a-noite-vejo-tv", "pt": "À noite vejo televisão.", "de": "Abends sehe ich fern."}
+   ]
+  },
+  {
+   "id": "A1-09-L03",
+   "typ": "neu",
+   "titel": "Was machst du gerade? – estar a",
+   "vokabeln": ["estar-a", "o-que-esta-a-fazer", "descansar", "esperar", "escrever", "ouvir", "ver", "agora-mesmo", "a-mensagem"],
+   "grammatik": {
+    "titel": "estar a + Infinitiv – die Verlaufsform",
+    "erklaerung": [
+     "Was man <i>gerade</i> tut, sagt man in Portugal mit <b>estar a + Infinitiv</b>: <i>Estou a ler.</i> – Ich lese gerade. <i>O que estás a fazer?</i> – Was machst du gerade?",
+     "Das einfache Präsens beschreibt eher Gewohnheiten: <i>Leio muito.</i> (Ich lese viel.) – <i>Estou a ler.</i> (Ich lese gerade.)",
+     "„auf etwas warten“: <b>estar à espera de</b> – <i>Estou à espera do autocarro.</i>",
+     "Gut zu wissen: In Brasilien – und umgangssprachlich auch im Alentejo und an der Algarve – hört man <i>estou lendo</i>. Lerne die Standardform <i>estou a ler</i>."
+    ],
+    "vergleich": "Genau wie englisch „I am reading“ – nur mit <i>a</i> + Infinitiv statt -ing.",
+    "beispiele": [
+     {"pt": "O que estás a fazer?", "de": "Was machst du gerade?"},
+     {"pt": "Estou a ler um livro na varanda.", "de": "Ich lese gerade ein Buch auf dem Balkon."},
+     {"pt": "Está a chover.", "de": "Es regnet gerade."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Estou ___ trabalhar.", "loesungen": ["a"], "de": "Ich arbeite gerade.", "kategorie": "estar a"},
+     {"typ": "auswahl", "frage": "„Ich lese gerade.“ (Standard in Portugal)", "optionen": ["Estou a ler.", "Estou lendo.", "Estou ler."], "richtig": 0, "erklaerung": "Standard in Portugal: estar a + Infinitiv.", "kategorie": "estar a"},
+     {"typ": "luecke", "satz": "O que ___ a fazer?", "loesungen": ["estás"], "de": "Was machst du gerade?", "kategorie": "estar a"},
+     {"typ": "luecke", "satz": "Eles estão a ___ o autocarro.", "loesungen": ["esperar"], "de": "Sie warten gerade auf den Bus."},
+     {"typ": "uebersetzen", "de": "Ich schreibe gerade eine Nachricht.", "loesungen": ["Estou a escrever uma mensagem."], "kategorie": "estar a"},
+     {"typ": "uebersetzen", "de": "Es regnet gerade.", "loesungen": ["Está a chover."], "kategorie": "estar a"},
+     {"typ": "satzbau", "de": "Was machen Sie gerade?", "loesung": "O que está a fazer?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Ao telefone – am Telefon",
+    "situation": "Joana ruft Stefan an.",
+    "zeilen": [
+     {"sprecher": "Joana", "stimme": "f", "pt": "Olá, Stefan! O que estás a fazer?", "de": "Hallo, Stefan! Was machst du gerade?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estou a descansar. Estou a ler um livro na varanda.", "de": "Ich ruhe mich aus. Ich lese ein Buch auf dem Balkon."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Que bom! Eu estou a trabalhar… Estou à espera de um cliente.", "de": "Wie schön! Ich arbeite … Ich warte auf einen Kunden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Coitada! E logo à noite?", "de": "Du Arme! Und heute Abend?"},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Logo vou ver um filme. Queres vir?", "de": "Nachher schaue ich einen Film. Willst du mitkommen?"}
+    ],
+    "fragen": [
+     {"frage": "Was macht Stefan gerade?", "optionen": ["Er liest auf dem Balkon.", "Er arbeitet.", "Er kocht."], "richtig": 0},
+     {"frage": "Was macht Joana gerade?", "optionen": ["Sie arbeitet und wartet auf einen Kunden.", "Sie ruht sich aus.", "Sie schaut einen Film."], "richtig": 0},
+     {"frage": "Was macht Joana heute Abend?", "optionen": ["einen Film schauen", "ins Konzert gehen", "arbeiten"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich arbeite gerade.", "loesungen": ["Estou a trabalhar.", "Eu estou a trabalhar."]},
+     {"de": "Was machst du gerade?", "loesungen": ["O que estás a fazer?"]},
+     {"de": "Wir warten auf den Bus.", "loesungen": ["Estamos à espera do autocarro.", "Estamos a esperar o autocarro."]},
+     {"de": "Sie liest gerade ein Buch.", "loesungen": ["Ela está a ler um livro.", "Está a ler um livro."]}
+    ]
+   },
+   "saetze": [
+    {"id": "o-que-estas-a-fazer", "pt": "O que estás a fazer?", "de": "Was machst du gerade?"},
+    {"id": "estou-a-ler-varanda", "pt": "Estou a ler um livro na varanda.", "de": "Ich lese gerade ein Buch auf dem Balkon."},
+    {"id": "a-espera-de-cliente", "pt": "Estou à espera de um cliente.", "de": "Ich warte auf einen Kunden."}
+   ]
+  },
+  {
+   "id": "A1-09-L04",
+   "typ": "neu",
+   "titel": "Das Wetter und die Jahreszeiten",
+   "vokabeln": ["o-tempo", "que-tempo-faz", "faz-sol", "faz-calor", "faz-frio", "chove", "esta-vento", "esta-nublado", "a-primavera", "o-verao", "o-outono", "o-inverno"],
+   "grammatik": {
+    "titel": "Wetter mit fazer und estar",
+    "erklaerung": [
+     "Viele Wetterausdrücke bildet man mit <b>fazer</b>: <i>faz sol, faz calor, faz frio</i>. Mit <b>estar</b> beschreibt man das Wetter im Moment: <i>está vento, está nublado, está calor, está a chover</i>.",
+     "Temperatur: <i>Estão vinte e cinco graus.</i> – Es sind 25 Grad.",
+     "Jahreszeiten mit <b>em</b> + Artikel: <i>na primavera, no verão, no outono, no inverno</i>."
+    ],
+    "vergleich": "Englisch „it's hot / it's raining“ – im Portugiesischen „macht“ das Wetter: <i>faz calor</i>, oder es „ist gerade“: <i>está a chover</i>.",
+    "beispiele": [
+     {"pt": "Hoje faz sol e calor.", "de": "Heute ist es sonnig und heiß."},
+     {"pt": "No Norte está a chover.", "de": "Im Norden regnet es."},
+     {"pt": "No verão faz muito calor no Algarve.", "de": "Im Sommer ist es an der Algarve sehr heiß."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Hoje ___ muito calor.", "loesungen": ["faz", "está"], "de": "Heute ist es sehr heiß.", "kategorie": "Wetter"},
+     {"typ": "luecke", "satz": "Está a ___.", "loesungen": ["chover"], "de": "Es regnet gerade.", "kategorie": "Wetter"},
+     {"typ": "auswahl", "frage": "„Es ist windig.“", "optionen": ["Está vento.", "É vento."], "richtig": 0, "kategorie": "Wetter"},
+     {"typ": "luecke", "satz": "___ verão faz muito calor no Algarve.", "loesungen": ["No"], "de": "Im Sommer ist es an der Algarve sehr heiß.", "kategorie": "Präposition + Artikel"},
+     {"typ": "uebersetzen", "de": "Wie ist das Wetter?", "loesungen": ["Que tempo faz?", "Como está o tempo?"]},
+     {"typ": "uebersetzen", "de": "Im Winter ist es kalt.", "loesungen": ["No inverno faz frio.", "No inverno está frio."]},
+     {"typ": "satzbau", "de": "Heute ist es bewölkt.", "loesung": "Hoje está nublado."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A previsão do tempo – die Wettervorhersage",
+    "situation": "Die Wettervorhersage im Radio.",
+    "zeilen": [
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Bom dia! Hoje, no Algarve, vai fazer sol e calor, com vinte e oito graus.", "de": "Guten Morgen! Heute wird es an der Algarve sonnig und heiß, mit 28 Grad."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "No Norte, está nublado e vai chover à tarde.", "de": "Im Norden ist es bewölkt, nachmittags wird es regnen."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Amanhã vai estar vento na costa sul.", "de": "Morgen wird es an der Südküste windig."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "No fim de semana, a temperatura vai baixar: vinte e dois graus em Faro.", "de": "Am Wochenende sinkt die Temperatur: 22 Grad in Faro."}
+    ],
+    "fragen": [
+     {"frage": "Wie ist das Wetter heute an der Algarve?", "optionen": ["sonnig und heiß, 28 Grad", "bewölkt und Regen", "windig, 22 Grad"], "richtig": 0},
+     {"frage": "Wie ist es im Norden?", "optionen": ["bewölkt, nachmittags Regen", "sonnig", "Schnee"], "richtig": 0},
+     {"frage": "Was kommt morgen an der Südküste?", "optionen": ["Wind", "Regen", "Hitze"], "richtig": 0},
+     {"frage": "Wie warm wird es am Wochenende in Faro?", "optionen": ["22 Grad", "28 Grad", "12 Grad"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Que tempo faz hoje?", "de": "Wie ist das Wetter heute?"},
+     {"pt": "Faz sol e calor.", "de": "Es ist sonnig und heiß."},
+     {"pt": "Está a chover.", "de": "Es regnet."},
+     {"pt": "No inverno faz frio.", "de": "Im Winter ist es kalt."},
+     {"pt": "Estão vinte graus.", "de": "Es sind zwanzig Grad."}
+    ]
+   },
+   "saetze": [
+    {"id": "hoje-faz-sol-calor", "pt": "Hoje faz sol e calor.", "de": "Heute ist es sonnig und heiß."},
+    {"id": "no-norte-chove", "pt": "No Norte está a chover.", "de": "Im Norden regnet es."},
+    {"id": "verao-calor-algarve", "pt": "No verão faz muito calor no Algarve.", "de": "Im Sommer ist es an der Algarve sehr heiß."}
+   ]
+  },
+  {
+   "id": "A1-09-L05",
+   "typ": "neu",
+   "titel": "Die Monate",
+   "vokabeln": ["o-mes", "janeiro", "fevereiro", "marco", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"],
+   "grammatik": {
+    "titel": "Monate: em agosto",
+    "erklaerung": [
+     "Monate werden in Portugal kleingeschrieben: <i>janeiro, fevereiro, março …</i>",
+     "„Im“ Monat: <b>em</b> ohne Artikel – <i>em agosto, em dezembro</i>. Bei Jahreszeiten dagegen mit Artikel: <i>no verão</i>.",
+     "Nach dem Monat fragen: <b>Em que mês estamos?</b> – Welcher Monat ist gerade?"
+    ],
+    "vergleich": "Englisch schreibt Monate groß (August), Portugiesisch klein (agosto). Die Namen ähneln dem Deutschen – Vorsicht bei <i>março</i> (März) und <i>maio</i> (Mai).",
+    "beispiele": [
+     {"pt": "Em dezembro vou à Alemanha.", "de": "Im Dezember fahre ich nach Deutschland."},
+     {"pt": "Em agosto há muitos turistas.", "de": "Im August gibt es viele Touristen."},
+     {"pt": "Faço anos em abril.", "de": "Ich habe im April Geburtstag."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ agosto faz muito calor.", "loesungen": ["Em"], "de": "Im August ist es sehr heiß.", "kategorie": "Präposition"},
+     {"typ": "auswahl", "frage": "Wie heißt „Juli“?", "optionen": ["julho", "junho", "jullho"], "richtig": 0},
+     {"typ": "luecke", "satz": "O meu aniversário é em ___.", "loesungen": ["março"], "de": "Mein Geburtstag ist im März."},
+     {"typ": "uebersetzen", "de": "Im Januar ist es kalt.", "loesungen": ["Em janeiro faz frio.", "Em janeiro está frio."]},
+     {"typ": "uebersetzen", "de": "im Mai", "loesungen": ["em maio"]},
+     {"typ": "satzbau", "de": "Im August fahre ich nach Deutschland.", "loesung": "Em agosto vou à Alemanha."},
+     {"typ": "auswahl", "frage": "Wie schreibt man Monate in Portugal?", "optionen": ["klein (janeiro)", "groß (Janeiro)"], "richtig": 0, "erklaerung": "Seit der Rechtschreibreform werden Monate kleingeschrieben."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Quando vais à Alemanha? – Wann fährst du nach Deutschland?",
+    "situation": "Paulo und Stefan sprechen über Reisen.",
+    "zeilen": [
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Quando vais à Alemanha?", "de": "Wann fährst du nach Deutschland?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Em dezembro, para o Natal. Em janeiro faz muito frio lá!", "de": "Im Dezember, zu Weihnachten. Im Januar ist es dort sehr kalt!"},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "E no verão?", "de": "Und im Sommer?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "No verão fico aqui. Em julho e agosto o Algarve é fantástico.", "de": "Im Sommer bleibe ich hier. Im Juli und August ist die Algarve fantastisch."},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Mas há muitos turistas! Eu prefiro setembro e outubro.", "de": "Aber es gibt viele Touristen! Ich mag September und Oktober lieber."}
+    ],
+    "fragen": [
+     {"frage": "Wann fährt Stefan nach Deutschland?", "optionen": ["im Dezember, zu Weihnachten", "im August", "im Januar"], "richtig": 0},
+     {"frage": "Was macht er im Sommer?", "optionen": ["Er bleibt an der Algarve.", "Er fährt nach Deutschland.", "Er arbeitet in Lissabon."], "richtig": 0},
+     {"frage": "Welche Monate mag Paulo lieber?", "optionen": ["September und Oktober", "Juli und August", "Dezember und Januar"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "im Januar", "loesungen": ["em janeiro"]},
+     {"de": "im Sommer", "loesungen": ["no verão"]},
+     {"de": "Ich habe im April Geburtstag.", "loesungen": ["Faço anos em abril.", "O meu aniversário é em abril."]},
+     {"de": "Im Herbst regnet es.", "loesungen": ["No outono chove.", "No outono está a chover."]}
+    ]
+   },
+   "saetze": [
+    {"id": "dezembro-alemanha", "pt": "Em dezembro vou à Alemanha.", "de": "Im Dezember fahre ich nach Deutschland."},
+    {"id": "agosto-turistas", "pt": "Em agosto há muitos turistas.", "de": "Im August gibt es viele Touristen."},
+    {"id": "faco-anos-abril", "pt": "Faço anos em abril.", "de": "Ich habe im April Geburtstag."}
+   ]
+  },
+  {
+   "id": "A1-09-L06",
+   "typ": "neu",
+   "titel": "Einladen, zusagen, absagen",
+   "vokabeln": ["quer-ir", "boa-ideia", "que-pena", "nao-posso", "fica-para", "o-cinema", "o-concerto", "o-restaurante", "convidar", "a-festa"],
+   "grammatik": {
+    "titel": "Einladungen – querer + Infinitiv",
+    "erklaerung": [
+     "Einladen: <b>Quer ir …?</b> (höflich) / <b>Queres vir …?</b> (tu) – Möchten Sie gehen? / Möchtest du kommen?",
+     "Zusagen: <b>Boa ideia!</b> · <b>Com muito gosto!</b> (Sehr gern!) · <b>Combinado!</b>",
+     "Absagen – in Portugal immer freundlich: <b>Que pena, não posso.</b> · <b>Fica para a próxima.</b> (Ein anderes Mal.)",
+     "<b>convidar para</b>: <i>Convido-te para a minha festa.</i> – Ich lade dich zu meiner Feier ein."
+    ],
+    "vergleich": "Wie englisch „Would you like to …?“ – <i>Quer ir ao cinema?</i>",
+    "beispiele": [
+     {"pt": "Queres vir à festa? – Com muito gosto!", "de": "Möchtest du zur Party kommen? – Sehr gern!"},
+     {"pt": "Que pena, não posso. Fica para a próxima.", "de": "Wie schade, ich kann nicht. Ein anderes Mal."},
+     {"pt": "Quer jantar connosco?", "de": "Möchten Sie mit uns zu Abend essen?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ ir ao cinema?", "loesungen": ["Queres"], "de": "Möchtest du ins Kino gehen?", "kategorie": "querer"},
+     {"typ": "auswahl", "frage": "Du nimmst eine Einladung gern an:", "optionen": ["Com muito gosto!", "Que pena!", "Não faz mal."], "richtig": 0},
+     {"typ": "auswahl", "frage": "Du sagst höflich ab:", "optionen": ["Que pena, não posso. Fica para a próxima.", "Não quero.", "Não gosto."], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Möchten Sie heute Abend essen gehen?", "loesungen": ["Quer ir jantar hoje à noite?", "Quer jantar fora hoje à noite?", "Quer ir jantar esta noite?"]},
+     {"typ": "uebersetzen", "de": "Gute Idee!", "loesungen": ["Boa ideia!"]},
+     {"typ": "satzbau", "de": "Ich lade dich zu meiner Feier ein.", "loesung": "Convido-te para a minha festa."},
+     {"typ": "luecke", "satz": "Sábado não ___.", "loesungen": ["posso"], "de": "Samstag kann ich nicht.", "kategorie": "poder"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um convite – eine Einladung",
+    "situation": "Paulo lädt Stefan ein.",
+    "zeilen": [
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Stefan, sábado vamos fazer um churrasco em casa. Queres vir?", "de": "Stefan, am Samstag grillen wir zu Hause. Willst du kommen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sábado? Que pena, não posso. Vou a Lisboa.", "de": "Samstag? Wie schade, ich kann nicht. Ich fahre nach Lissabon."},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Ah, que pena! E domingo? Vamos ao concerto de fado em Loulé.", "de": "Ach, schade! Und Sonntag? Wir gehen zum Fado-Konzert in Loulé."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Domingo posso! Boa ideia!", "de": "Sonntag kann ich! Gute Idee!"},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Combinado. O concerto é às nove.", "de": "Abgemacht. Das Konzert ist um neun."}
+    ],
+    "fragen": [
+     {"frage": "Was ist am Samstag?", "optionen": ["ein Grillfest bei Paulo", "ein Konzert", "eine Reise nach Lissabon"], "richtig": 0},
+     {"frage": "Warum kann Stefan am Samstag nicht?", "optionen": ["Er fährt nach Lissabon.", "Er muss arbeiten.", "Er ist krank."], "richtig": 0},
+     {"frage": "Was machen sie am Sonntag?", "optionen": ["Sie gehen zum Fado-Konzert in Loulé.", "Sie grillen.", "Sie gehen ins Kino."], "richtig": 0},
+     {"frage": "Wann beginnt das Konzert?", "optionen": ["um 21 Uhr", "um 19 Uhr", "um 9 Uhr morgens"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Rita lädt dich ein.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Quer ir à praia amanhã?", "de": "Möchten Sie morgen an den Strand gehen?"},
+     {"ich": true, "aufgabe": "Sag: Gute Idee! Um wie viel Uhr?", "loesungen": ["Boa ideia! A que horas?"]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Às dez. E à noite, quer jantar connosco?", "de": "Um zehn. Und abends, möchten Sie mit uns essen?"},
+     {"ich": true, "aufgabe": "Sag: Wie schade, abends kann ich nicht.", "loesungen": ["Que pena, à noite não posso.", "Que pena! À noite não posso."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Não faz mal. Fica para a próxima!", "de": "Macht nichts. Ein anderes Mal!"},
+     {"ich": true, "aufgabe": "Sag: Ja, bis morgen!", "loesungen": ["Sim, até amanhã!", "Está bem, até amanhã!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "queres-vir-festa", "pt": "Queres vir à festa?", "de": "Möchtest du zur Party kommen?"},
+    {"id": "que-pena-fica-proxima", "pt": "Que pena, não posso. Fica para a próxima.", "de": "Wie schade, ich kann nicht. Ein anderes Mal."},
+    {"id": "boa-ideia-com-gosto", "pt": "Boa ideia! Com muito gosto.", "de": "Gute Idee! Sehr gern."}
+   ]
+  },
+  {"id": "A1-09-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-09-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Um fim de semana em Monchique – ein Wochenende in Monchique",
+   "situation": "Joana schlägt einen Ausflug vor.",
+   "zeilen": [
+    {"sprecher": "Joana", "stimme": "f", "pt": "Este fim de semana vou a Monchique. Queres vir?", "de": "Dieses Wochenende fahre ich nach Monchique. Willst du mitkommen?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Monchique? Na serra? Que tempo vai fazer?", "de": "Monchique? In den Bergen? Wie wird das Wetter?"},
+    {"sprecher": "Joana", "stimme": "f", "pt": "Vai fazer sol, mas na serra está mais frio. Uns quinze graus.", "de": "Es wird sonnig, aber in den Bergen ist es kühler. Etwa fünfzehn Grad."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E o que vamos fazer lá?", "de": "Und was machen wir dort?"},
+    {"sprecher": "Joana", "stimme": "f", "pt": "Vamos caminhar e depois almoçar num restaurante típico. Eu adoro a comida de lá!", "de": "Wir wandern und essen danach in einem typischen Restaurant. Ich liebe das Essen dort!"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Boa ideia! Eu levo a máquina fotográfica.", "de": "Gute Idee! Ich nehme die Kamera mit."}
+   ],
+   "fragen": [
+    {"frage": "Wohin fährt Joana?", "optionen": ["nach Monchique, in die Berge", "an den Strand", "nach Lissabon"], "richtig": 0},
+    {"frage": "Wie wird das Wetter?", "optionen": ["sonnig, aber kühler – etwa 15 Grad", "Regen", "sehr heiß – 30 Grad"], "richtig": 0},
+    {"frage": "Was machen sie dort?", "optionen": ["wandern und essen gehen", "schwimmen", "Golf spielen"], "richtig": 0},
+    {"frage": "Was nimmt Stefan mit?", "optionen": ["die Kamera", "ein Buch", "Essen"], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Agenda cultural de Loulé – Veranstaltungskalender",
+   "situation": "Aus dem Veranstaltungsheft der Gemeinde.",
+   "text": [
+    "Agenda de Loulé – maio",
+    "Sábado, dia 10: Mercado de produtos regionais, na praça, das 9h às 13h.",
+    "Sábado, dia 10: Concerto de fado no Cine-Teatro, às 21h30. Bilhetes: 12 €.",
+    "Domingo, dia 11: Caminhada na serra do Caldeirão. Ponto de encontro: câmara municipal, às 8h.",
+    "Em caso de chuva, a caminhada é no domingo seguinte."
+   ],
+   "fragen": [
+    {"frage": "Wann ist das Fado-Konzert?", "optionen": ["Samstag um 21:30", "Sonntag um 8 Uhr", "Samstag um 9 Uhr"], "richtig": 0},
+    {"frage": "Was kostet eine Karte?", "optionen": ["12 €", "21 €", "kostenlos"], "richtig": 0},
+    {"frage": "Wo trifft man sich zur Wanderung?", "optionen": ["am Rathaus um 8 Uhr", "auf dem Markt", "im Cine-Teatro"], "richtig": 0},
+    {"frage": "Was passiert bei Regen?", "optionen": ["Die Wanderung ist am nächsten Sonntag.", "Sie fällt aus.", "Sie findet trotzdem statt."], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich schwimme sehr gern.", "loesungen": ["Gosto muito de nadar."]},
+   {"de": "Ich spiele Gitarre.", "loesungen": ["Toco guitarra.", "Eu toco guitarra."]},
+   {"de": "Was machst du gerade?", "loesungen": ["O que estás a fazer?"]},
+   {"de": "Heute ist es heiß.", "loesungen": ["Hoje faz calor.", "Hoje está calor."]},
+   {"de": "Im August fahre ich nach Deutschland.", "loesungen": ["Em agosto vou à Alemanha."]},
+   {"de": "Wie schade, ich kann nicht.", "loesungen": ["Que pena, não posso."]}
+  ],
+  "sprechen": [
+   {"pt": "Gosto muito de ler.", "de": "Ich lese sehr gern."},
+   {"pt": "Estou a ver televisão.", "de": "Ich sehe gerade fern."},
+   {"pt": "Hoje faz sol, mas está vento.", "de": "Heute ist es sonnig, aber windig."},
+   {"pt": "Em julho faz muito calor.", "de": "Im Juli ist es sehr heiß."},
+   {"pt": "Queres ir ao cinema?", "de": "Möchtest du ins Kino gehen?"}
+  ]
+ }
+}
