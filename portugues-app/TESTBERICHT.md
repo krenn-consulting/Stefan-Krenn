@@ -62,3 +62,60 @@ Diese Teile laufen nur auf einem echten Mac:
 
 ### Noch nicht geprüft
 - **Sprachausgabe:** Sie nutzt in dieser Etappe die Mac-Stimme über Chrome. Im Test-Browser gibt es keine Stimmen, deshalb wurde nur geprüft, dass nichts abstürzt. Etappe (c) bringt die hochwertigen Stimmen.
+
+## Etappe (c) – Stimmen und Sprechübungen (7. Oktober 2026)
+
+- **Automatische Tests** (`test_audio.py`, 13 Tests):
+  - Stimmenwahl und Cache-Dateinamen
+  - Ein zweiter Abruf kommt aus dem Cache, ohne Internet.
+  - Fällt der Dienst aus, gibt die App eine verständliche Fehlermeldung (503) statt abzustürzen.
+  - Gesprochene Antworten: Zahlen wie „12“ zählen wie „doze“; nur eine exakte Antwort gilt als „richtig“ (z. B. *Bom tarde* ≠ *Boa tarde*).
+- **Im Browser:**
+  - Mikrofon-Übungen mit simulierter Spracherkennung, je eine richtige und eine falsche Antwort.
+  - Ohne Mikrofon erscheint „Selbst bewerten“.
+  - Taste M startet das Zuhören.
+- **Nicht testbar in der Cloud:** Der Microsoft-Sprachdienst (edge-tts) ist hier gesperrt. Geprüft wurde deshalb nur der Rückfall: Nach 23 ms übernimmt die Mac-Stimme. **Auf dem Mac bitte prüfen:** Klingt die Stimme europäisch-portugiesisch (Raquel/Duarte)? Ohne Internet spricht die Mac-Stimme „Joana“, falls sie installiert ist (Systemeinstellungen → Bedienungshilfen → Gesprochene Inhalte).
+
+## Etappe (d) – Fortschritt, Wortschatz, Einstellungen, Claude (7. Oktober 2026)
+
+- **Automatische Tests** (`test_fortschritt.py`, 10 Tests):
+  - Statistiken, Lernkalender, Genauigkeit je Bereich, Schwächenliste
+  - Wörterbuch mit Suche und Filter
+  - Ein fehlender oder ungültiger Claude-Key führt zu einer deutschen Meldung statt eines Fehlers.
+- **Im Browser:**
+  - Mit einer simulierten Datenbank (3 Wochen Lernen) die Seiten Fortschritt, Wortschatz und Einstellungen geprüft, hell und dunkel.
+  - Export und Import funktionieren.
+  - Ein ungültiger API-Key wurde live getestet: verständliche Meldung, die App läuft weiter.
+
+## Etappe (e) – Vollständiger A1-Inhalt (7. Oktober 2026)
+
+- **Inhalt:**
+  - 12 Einheiten plus Abschlusstest, zusammen **98 Lektionen**: je Einheit 6 neue Lektionen, eine Wiederholung und ein Einheitentest.
+  - 709 Wörter und Wendungen, 217 Satzmuster, 511 Grammatikübungen, dazu Hördialoge, Lesetexte und Rollenspiele.
+- **Inhaltsprüfung** (`python -m backend.inhalt_check`):
+  - Alle Dateien sind fehlerfrei.
+  - Geprüft werden das Format sowie brasilianische Formen (*ônibus*, *Me chamo*, Gerundium …).
+  - Kein Wort ist doppelt in zwei Einheiten.
+- **Automatische Tests** (`test_pruefungen.py`, 6 Tests, sowie `test_lektion.py`):
+  - Die Wiederholungslektion nimmt nur Wörter der Einheit.
+  - Ein nicht bestandener Test bleibt die nächste Lektion; beim nächsten Versuch zählen die alten Antworten nicht mehr.
+  - Ein vorgezogener, bestandener Test überspringt die Einheit, und ihre Wörter kommen in 3 Tagen zur Wiederholung.
+  - Ein übersprungener Testbereich zählt 0 %.
+  - Der Level-Test hat zwei Teile mit Wörtern aus allen Einheiten.
+  - **Ganz A1 wird einmal komplett durchlaufen**, alle 98 Lektionen in der richtigen Reihenfolge.
+- **Im Browser:**
+  - Vorgezogener Einheitentest A1-01: bestanden mit 86,5 %, 7 Lektionen übersprungen.
+  - Level-Test Teil 1 mit absichtlichen Fehlern: 78 %, nicht bestanden, mit verständlicher Auswertung je Bereich.
+  - Danach Teil 1 und Teil 2 bestanden; die Startseite zeigt „Alle vorhandenen Lektionen sind erledigt“ und Level A2.
+- **Gefunden und behoben:**
+  - Die Inhaltsprüfung meldete das Bindewort *Se* („wenn“, z. B. *Se precisar …*) fälschlich als brasilianisch.
+  - Einige Wörter kamen in zwei Einheiten vor (Monate, *casado* …) und hätten doppelte Karten erzeugt.
+- **Bitte beachten:** Die Texte sind sorgfältig in europäischem Portugiesisch geschrieben, aber nicht von einem Muttersprachler geprüft. Wenn dir etwas komisch vorkommt, frag gern deine Nachbarn. Korrekturen sind in den JSON-Dateien leicht möglich (siehe `content/INHALTE.md`).
+
+## Etappe (f) – Abschlussprüfung (7. Oktober 2026)
+
+- **Automatische Tests:** `uv run pytest`, **98 von 98 bestanden**, in etwa 10 Sekunden.
+- **Erststart-Test wiederholt:** Wie in Etappe (a) mit einer frischen Kopie des Repos in einer leeren Umgebung ohne Python und uv.
+  - App nach **14 s** bereit, mit dem vollständigen A1-Inhalt inklusive Level-Test.
+  - Stop.command beendet sie sauber.
+  - Der Benutzerordner blieb leer.

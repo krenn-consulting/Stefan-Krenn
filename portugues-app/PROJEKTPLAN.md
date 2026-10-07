@@ -66,6 +66,8 @@ Backup und Export als JSON auf Knopfdruck. Vor jedem Update entsteht automatisch
 
 Nach jeder Etappe schiebe ich den Stand nach GitHub und erkläre dir kurz, wie du ihn ausprobierst.
 
+**Stand 7. Oktober 2026:** Die Etappen a–f sind fertig. A1 ist komplett spielbar (98 Lektionen inkl. Level-Test). Als Nächstes kommen die Inhalte für A2, im gleichen Format; die App selbst muss dafür nicht geändert werden.
+
 ## Ehrliche Einschränkungen
 - **Erststart-Test:** Ich arbeite in einer Linux-Cloud-Umgebung, nicht auf einem Mac. Den Erststart ohne Python teste ich unter Linux in einer frischen, leeren Umgebung (gleiche Logik mit uv). Die macOS-spezifischen Teile (Doppelklick, Gatekeeper, `open -a`, `xattr`) kann ich nur per Code-Prüfung absichern. Im Testbericht steht genau, was geprüft wurde und was du beim ersten Start beobachten solltest.
 - **edge-tts** nutzt eine inoffizielle Microsoft-Schnittstelle. Sollte sie eines Tages nicht mehr funktionieren, übernimmt automatisch die Mac-Stimme. Falls „Joana" fehlt, erkläre ich in LIES-MICH.md, wie du sie in den Systemeinstellungen lädst.
