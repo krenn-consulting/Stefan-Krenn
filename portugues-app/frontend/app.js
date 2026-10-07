@@ -23,6 +23,19 @@ function app() {
     info: "",
     savedFlash: false,
     stimmenInfo: "",
+    statistik: null,
+    wortListe: [],
+    suche: "",
+    wortArt: "alle",
+    kiTab: "chat",
+    chat: { thema: "frei", verlauf: [], eingabe: "", laedt: false, fehler: "", hoert: false },
+    schreiben: { aufgabe: "", text: "", laedt: false, fehler: "", ergebnis: null },
+    schreibVorschlaege: [
+      "Stell dich in 5 Sätzen vor.",
+      "Schreib dem Vermieter, dass die Heizung kaputt ist.",
+      "Beschreib dein letztes Wochenende.",
+      "Bitte einen Handwerker per E-Mail um einen Kostenvoranschlag.",
+    ],
 
     // Hell/Dunkel: "auto" folgt der Einstellung des Mac.
     get theme() {
@@ -39,7 +52,7 @@ function app() {
 
     route() {
       const name = (location.hash.replace(/^#\/?/, "") || "start").split("/")[0];
-      this.page = ["start", "lektion", "fortschritt", "wortschatz", "einstellungen"].includes(name) ? name : "start";
+      this.page = ["start", "lektion", "fortschritt", "wortschatz", "gespraech", "einstellungen"].includes(name) ? name : "start";
       this.info = "";
       if (this.page === "lektion") {
         // Die Lektion (lesson.js) lädt sich daraufhin selbst. setTimeout, damit
@@ -48,7 +61,106 @@ function app() {
       } else {
         Sprache.stopp();
         this.refresh();
+        if (this.page === "fortschritt") this.ladeStatistik();
+        if (this.page === "wortschatz") this.ladeWortschatz();
+        if (this.page === "gespraech" && !this.chat.verlauf.length) setTimeout(() => this.chatNeu(), 300);
       }
+    },
+
+    // --- Gespräch mit Claude ---
+    async chatAnfrage() {
+      this.chat.laedt = true;
+      this.chat.fehler = "";
+      try {
+        const r = await api("/api/ki/gespraech", {
+          method: "POST",
+          body: JSON.stringify({ thema: this.chat.thema, verlauf: this.chat.verlauf.map(({ rolle, text }) => ({ rolle, text })) }),
+        });
+        // Korrektur gehört zur letzten eigenen Nachricht
+        const letzte = [...this.chat.verlauf].reverse().find((m) => m.rolle === "ich");
+        if (letzte && r.korrektur) letzte.korrektur = r.korrektur;
+        this.chat.verlauf.push({ rolle: "claude", text: r.antwort_pt, de: r.uebersetzung_de, zeigeDe: false });
+        Sprache.sprechen(r.antwort_pt);
+      } catch (e) {
+        this.chat.fehler = e.message;
+      }
+      this.chat.laedt = false;
+    },
+
+    chatNeu() {
+      if (!this.overview.claude_aktiv) return;
+      this.chat.verlauf = [];
+      this.chatAnfrage();
+    },
+
+    chatSenden() {
+      const text = this.chat.eingabe.trim();
+      if (!text || this.chat.laedt) return;
+      this.chat.verlauf.push({ rolle: "ich", text });
+      this.chat.eingabe = "";
+      this.chatAnfrage();
+    },
+
+    async chatSprechen() {
+      this.chat.hoert = true;
+      try {
+        const v = await Erkennung.hoeren();
+        this.chat.eingabe = v[0];
+      } catch (e) {
+        this.chat.fehler = e.message;
+      }
+      this.chat.hoert = false;
+    },
+
+    async korrigieren() {
+      this.schreiben.laedt = true;
+      this.schreiben.fehler = "";
+      this.schreiben.ergebnis = null;
+      try {
+        this.schreiben.ergebnis = await api("/api/ki/korrektur", {
+          method: "POST", body: JSON.stringify({ text: this.schreiben.text, aufgabe: this.schreiben.aufgabe }),
+        });
+      } catch (e) {
+        this.schreiben.fehler = e.message;
+      }
+      this.schreiben.laedt = false;
+    },
+
+    async ladeStatistik() {
+      try { this.statistik = await api("/api/statistik"); } catch (e) { /* Hinweis kommt über refresh */ }
+    },
+
+    async ladeWortschatz() {
+      const q = encodeURIComponent(this.suche || "");
+      try { this.wortListe = await api(`/api/wortschatz?q=${q}&art=${this.wortArt}`); } catch (e) { /* s. o. */ }
+    },
+
+    // --- Helfer für die Diagramme ---
+    maxMinuten() {
+      const m = Math.max(...(this.statistik?.lernzeit.tage || []).map((t) => t.minuten), 0);
+      return Math.max(40, m);   // Skala mindestens bis 40 Min., damit das 30-Min.-Ziel sichtbar ist
+    },
+
+    stufe(minuten) {
+      if (!minuten) return 0;
+      if (minuten < 10) return 1;
+      if (minuten < 20) return 2;
+      if (minuten < 30) return 3;
+      return 4;
+    },
+
+    datumKurz(iso) {
+      const [j, m, t] = iso.split("-");
+      return `${Number(t)}.${Number(m)}.`;
+    },
+
+    prozent(wert) {
+      return wert == null ? "–" : `${Math.round(wert * 100)} %`;
+    },
+
+    bereichName(skill) {
+      return { hoeren: "Hören", lesen: "Lesen", schreiben: "Schreiben", sprechen: "Sprechen",
+               wortschatz: "Wortschatz & Grammatik", gesamt: "Gesamt" }[skill] || skill;
     },
 
     async refresh() {

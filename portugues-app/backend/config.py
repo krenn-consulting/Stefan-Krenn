@@ -25,4 +25,4 @@ def claude_enabled() -> bool:
 
 
 def claude_model() -> str:
-    return os.environ.get("CLAUDE_MODELL", "claude-sonnet-5-5")
+    return os.environ.get("CLAUDE_MODELL", "claude-opus-5-5")

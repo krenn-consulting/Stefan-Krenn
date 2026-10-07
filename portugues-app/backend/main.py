@@ -10,7 +10,7 @@ from fastapi import Body, Depends, FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import config, content, db, lesson, pruefen, tts
+from . import ai, config, content, db, lesson, pruefen, statistik, tts
 
 FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 
@@ -104,6 +104,46 @@ def import_backup(data: dict = Body(...), con=Depends(get_db)):
     except ValueError as e:
         raise HTTPException(400, str(e))
     return {"ok": True}
+
+
+# --- Fortschritt und Wortschatz -------------------------------------------
+
+@app.get("/api/statistik")
+def statistik_seite(con=Depends(get_db)):
+    daten = statistik.fortschritt(con)
+    daten["audio_mb"] = tts.cache_groesse_mb()
+    return daten
+
+
+@app.get("/api/wortschatz")
+def wortschatz_seite(q: str = "", art: str = "alle", con=Depends(get_db)):
+    return statistik.wortschatz(con, q, art)
+
+
+# --- Claude (optional) -----------------------------------------------------
+
+def _aktuelles_level(con) -> str:
+    done = {r["lesson_id"] for r in con.execute("SELECT lesson_id FROM lessons_done")}
+    return content.level_progress(done)["level"]
+
+
+@app.post("/api/ki/gespraech")
+def ki_gespraech(daten: dict = Body(...), con=Depends(get_db)):
+    try:
+        return ai.gespraech(daten.get("verlauf", []), daten.get("thema", "frei"), _aktuelles_level(con))
+    except ai.KIFehler as e:
+        raise HTTPException(503, str(e))
+
+
+@app.post("/api/ki/korrektur")
+def ki_korrektur(daten: dict = Body(...), con=Depends(get_db)):
+    text = (daten.get("text") or "").strip()
+    if not text:
+        raise HTTPException(400, "Bitte zuerst einen Text schreiben.")
+    try:
+        return ai.korrigieren(text[:5000], daten.get("aufgabe", ""), _aktuelles_level(con))
+    except ai.KIFehler as e:
+        raise HTTPException(503, str(e))
 
 
 # --- Lektion ---------------------------------------------------------------

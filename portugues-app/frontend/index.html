@@ -20,6 +20,7 @@
       <a href="#/" :class="{active: page === 'start'}">Start</a>
       <a href="#/fortschritt" :class="{active: page === 'fortschritt'}">Fortschritt</a>
       <a href="#/wortschatz" :class="{active: page === 'wortschatz'}">Wortschatz</a>
+      <a href="#/gespraech" x-show="overview.claude_aktiv" :class="{active: page === 'gespraech'}">Gespräch</a>
       <a href="#/einstellungen" :class="{active: page === 'einstellungen'}">Einstellungen</a>
     </div>
   </nav>
@@ -372,25 +373,250 @@
     </section>
 
     <!-- ===== Fortschritt ===== -->
-    <section x-show="page === 'fortschritt'" x-cloak>
+    <section x-show="page === 'fortschritt'" x-cloak class="fortschritt">
       <h1>Fortschritt</h1>
-      <p class="muted">Statistiken, Kalender und Schwächen folgen in Etappe (d).</p>
-      <div class="stats">
-        <div class="stat">
-          <div class="stat-value" x-text="overview.lektionen_erledigt ?? 0"></div>
-          <div class="stat-label">Lektionen erledigt</div>
+      <template x-if="statistik">
+        <div>
+          <!-- Kennzahlen -->
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-value" x-text="statistik.wortschatz.woerter"></div>
+              <div class="stat-label">Wörter gelernt</div>
+              <div class="stat-sub"><span x-text="statistik.wortschatz.saetze"></span> Satzmuster · <span x-text="statistik.wortschatz.sicher"></span> sicher</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value" x-text="prozent(statistik.genauigkeit.gesamt)"></div>
+              <div class="stat-label">Genauigkeit</div>
+              <div class="stat-sub">letzte 30 Tage · <span x-text="statistik.genauigkeit.anzahl"></span> Antworten</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value"><span x-text="statistik.lernzeit.gesamt_stunden"></span> h</div>
+              <div class="stat-label">Lernzeit gesamt</div>
+              <div class="stat-sub">Ø <span x-text="statistik.lernzeit.schnitt_minuten_30"></span> Min./Tag (30 Tage)</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value"><span x-text="statistik.serie.aktuell"></span> 🔥</div>
+              <div class="stat-label">Tage in Folge</div>
+              <div class="stat-sub">Rekord: <span x-text="statistik.serie.laengste"></span> · <span x-text="statistik.serie.lerntage"></span> Lerntage</div>
+            </div>
+          </div>
+
+          <div class="level-progress">
+            <div class="level-progress-label">
+              <span>Level <strong x-text="statistik.level.level"></strong></span>
+              <span x-text="statistik.level.erledigt + ' von ' + statistik.level.gesamt + ' Lektionen'"></span>
+            </div>
+            <div class="bar"><div class="bar-fill" :style="`width: ${statistik.level.anteil * 100}%`"></div></div>
+          </div>
+
+          <!-- Lernzeit pro Tag -->
+          <h2>Lernzeit pro Tag</h2>
+          <p class="muted chart-sub">Minuten in den letzten 30 Tagen · gestrichelt: Ziel 30 Minuten</p>
+          <div class="saeulen" :style="`--max: ${maxMinuten()}`">
+            <div class="ziel-linie" :style="`bottom: ${30 / maxMinuten() * 100}%`"></div>
+            <template x-for="t in statistik.lernzeit.tage" :key="t.tag">
+              <div class="saeule" :data-tip="datumKurz(t.tag) + ': ' + t.minuten + ' Min.'">
+                <div class="saeule-fill" :style="`height: ${t.minuten / maxMinuten() * 100}%`"></div>
+              </div>
+            </template>
+          </div>
+          <div class="achse">
+            <span x-text="datumKurz(statistik.lernzeit.tage[0].tag)"></span>
+            <span x-text="datumKurz(statistik.lernzeit.tage[15].tag)"></span>
+            <span>heute</span>
+          </div>
+          <details class="tabelle">
+            <summary>Als Tabelle anzeigen</summary>
+            <table>
+              <tr><th>Tag</th><th>Minuten</th></tr>
+              <template x-for="t in statistik.lernzeit.tage.slice().reverse()" :key="t.tag">
+                <tr><td x-text="datumKurz(t.tag)"></td><td x-text="t.minuten"></td></tr>
+              </template>
+            </table>
+          </details>
+
+          <!-- Kalender -->
+          <h2>Kalender</h2>
+          <p class="muted chart-sub">Die letzten 16 Wochen · jedes Kästchen ist ein Tag</p>
+          <div class="kalender-wrap">
+            <div class="kalender-tage"><span>Mo</span><span></span><span>Mi</span><span></span><span>Fr</span><span></span><span>So</span></div>
+            <div class="kalender">
+              <template x-for="t in statistik.kalender" :key="t.tag">
+                <div class="tag" :class="'stufe-' + stufe(t.minuten)"
+                     :data-tip="datumKurz(t.tag) + ': ' + (t.minuten ? t.minuten + ' Min.' : 'nicht gelernt') + (t.lektionen ? ' · ' + t.lektionen + ' Lektion(en)' : '')"></div>
+              </template>
+            </div>
+          </div>
+          <div class="legende">weniger
+            <span class="tag stufe-0"></span><span class="tag stufe-1"></span><span class="tag stufe-2"></span><span class="tag stufe-3"></span><span class="tag stufe-4"></span>
+            mehr (30+ Min.)
+          </div>
+
+          <!-- Genauigkeit je Bereich -->
+          <h2>Genauigkeit nach Bereich</h2>
+          <p class="muted chart-sub">Anteil richtiger Antworten in den letzten 30 Tagen</p>
+          <p class="muted" x-show="!statistik.genauigkeit.je_block.length">Noch keine Antworten – starte deine erste Lektion.</p>
+          <div class="balken-liste">
+            <template x-for="b in statistik.genauigkeit.je_block" :key="b.id">
+              <div class="balken-zeile" :data-tip="b.anzahl + ' Antworten'">
+                <span class="balken-name" x-text="b.name"></span>
+                <div class="balken"><div class="balken-fill" :style="`width: ${b.anteil * 100}%`"></div></div>
+                <span class="balken-wert" x-text="prozent(b.anteil)"></span>
+              </div>
+            </template>
+          </div>
+
+          <!-- Schwächen -->
+          <h2>Schwächen</h2>
+          <p class="muted" x-show="!statistik.schwaechen.fehler.length && !statistik.schwaechen.woerter.length">
+            Keine offenen Fehler – weiter so! 🎉</p>
+          <div class="schwaechen" x-show="statistik.schwaechen.kategorien.length">
+            <template x-for="k in statistik.schwaechen.kategorien">
+              <span class="chip-schwach"><span x-text="k.kategorie"></span> · <span x-text="k.falsch"></span>×</span>
+            </template>
+          </div>
+          <ul class="fehler-liste" x-show="statistik.schwaechen.fehler.length">
+            <template x-for="f in statistik.schwaechen.fehler">
+              <li>
+                <span x-text="f.prompt"></span>
+                <span class="muted" x-show="f.given"> · deine Antwort: <s x-text="f.given"></s></span>
+                → <strong x-text="f.expected"></strong>
+                <span class="muted" x-text="'(' + f.times_wrong + '× falsch)'"></span>
+              </li>
+            </template>
+          </ul>
+          <div x-show="statistik.schwaechen.woerter.length">
+            <h3>Oft vergessen</h3>
+            <ul class="fehler-liste">
+              <template x-for="w in statistik.schwaechen.woerter">
+                <li @click="Sprache.sprechen(w.pt)"><strong x-text="w.pt"></strong> – <span x-text="w.de"></span>
+                  <span class="muted" x-text="'(' + w.vergessen + '× vergessen)'"></span></li>
+              </template>
+            </ul>
+          </div>
+          <p class="muted">Alle offenen Fehler kommen automatisch in deinen Wiederholungen dran.</p>
+          <button class="button" x-show="overview.faellig > 0" @click="startWiederholung()">Jetzt wiederholen</button>
+
+          <!-- Tests -->
+          <h2>Tests</h2>
+          <p class="muted" x-show="!statistik.tests.length">Noch keine Tests abgelegt. Am Ende jeder Einheit wartet ein Einheitentest.</p>
+          <table class="test-tabelle" x-show="statistik.tests.length">
+            <tr><th>Datum</th><th>Test</th><th>Bereich</th><th>Ergebnis</th></tr>
+            <template x-for="t in statistik.tests">
+              <tr>
+                <td x-text="datumKurz(t.ts.slice(0, 10))"></td>
+                <td x-text="t.titel"></td>
+                <td x-text="bereichName(t.skill)"></td>
+                <td><span x-text="prozent(t.score)"></span> <span x-text="t.passed ? '✓ bestanden' : '✗ nicht bestanden'" :class="t.passed ? 'ok' : 'nok'"></span></td>
+              </tr>
+            </template>
+          </table>
+          <p class="muted klein">Audio-Speicher: <span x-text="statistik.audio_mb"></span> MB</p>
         </div>
-        <div class="stat">
-          <div class="stat-value" x-text="(overview.heute_minuten ?? 0) + ' Min.'"></div>
-          <div class="stat-label">Heute gelernt</div>
-        </div>
-      </div>
+      </template>
     </section>
 
     <!-- ===== Wortschatz ===== -->
-    <section x-show="page === 'wortschatz'" x-cloak>
+    <section x-show="page === 'wortschatz'" x-cloak class="wortschatz">
       <h1>Wortschatz</h1>
-      <p class="muted">Das durchsuchbare Wörterbuch folgt in Etappe (d).</p>
+      <p class="muted">Alle Wörter und Sätze, die du schon gelernt hast. Klick auf einen Eintrag, um ihn zu hören.</p>
+      <div class="such-zeile">
+        <input type="search" placeholder="Suchen (Portugiesisch oder Deutsch) …" x-model.debounce.250ms="suche" @input.debounce.250ms="ladeWortschatz()">
+        <select x-model="wortArt" @change="ladeWortschatz()">
+          <option value="alle">Alle</option>
+          <option value="woerter">Nur Wörter</option>
+          <option value="saetze">Nur Sätze</option>
+        </select>
+      </div>
+      <p class="muted" x-text="wortListe.length + ' Einträge'"></p>
+      <p class="muted" x-show="!wortListe.length && !suche">Noch leer – nach deiner ersten Lektion stehen hier die neuen Wörter.</p>
+      <ul class="woerterbuch">
+        <template x-for="w in wortListe" :key="w.item_id">
+          <li @click="Sprache.sprechen(w.pt)">
+            <span class="wb-emoji" x-text="w.emoji"></span>
+            <div class="wb-text">
+              <strong x-text="w.pt"></strong> <span class="de" x-text="w.de"></span>
+              <div class="wb-beispiel" x-show="w.beispiel_pt"><span x-text="w.beispiel_pt"></span> <span class="de" x-text="'– ' + w.beispiel_de"></span></div>
+            </div>
+            <div class="wb-meta">
+              <span class="status-chip" :class="w.status" x-text="w.status"></span>
+              <span class="muted klein" x-show="w.genauigkeit !== null" x-text="prozent(w.genauigkeit) + ' richtig'"></span>
+            </div>
+          </li>
+        </template>
+      </ul>
+    </section>
+
+    <!-- ===== Gespräch & Schreiben mit Claude (optional) ===== -->
+    <section x-show="page === 'gespraech'" x-cloak class="gespraech">
+      <h1>Gespräch</h1>
+      <p class="muted" x-show="!overview.claude_aktiv">Diese Seite ist nur mit Claude verfügbar (siehe LIES-MICH.md, Punkt 7).</p>
+      <div class="tabs" x-show="overview.claude_aktiv">
+        <button :class="{an: kiTab === 'chat'}" @click="kiTab = 'chat'">💬 Freies Gespräch</button>
+        <button :class="{an: kiTab === 'schreiben'}" @click="kiTab = 'schreiben'">✍️ Text korrigieren lassen</button>
+      </div>
+
+      <div x-show="overview.claude_aktiv && kiTab === 'chat'">
+        <label class="field">
+          <span>Situation</span>
+          <select x-model="chat.thema" @change="chatNeu()">
+            <option value="frei">Freies Alltagsgespräch</option>
+            <option value="cafe">Im Café bestellen</option>
+            <option value="vizinha">Mit der Nachbarin plaudern</option>
+            <option value="canalizador">Den Klempner anrufen</option>
+            <option value="financas">Bei den Finanças</option>
+            <option value="medico">Beim Arzt</option>
+            <option value="mercado">Auf dem Markt</option>
+            <option value="negocios">Geschäftsgespräch</option>
+          </select>
+        </label>
+        <div class="chat">
+          <template x-for="(m, i) in chat.verlauf" :key="i">
+            <div class="blase" :class="m.rolle">
+              <p class="blase-text" @click="m.rolle === 'claude' && Sprache.sprechen(m.text)" x-text="m.text"></p>
+              <p class="blase-de" x-show="m.de && m.zeigeDe" x-text="m.de"></p>
+              <button class="link-button klein" x-show="m.de" @click="m.zeigeDe = !m.zeigeDe" x-text="m.zeigeDe ? 'Übersetzung ausblenden' : 'Übersetzung'"></button>
+              <p class="korrektur" x-show="m.korrektur">✏️ <span x-text="m.korrektur"></span></p>
+            </div>
+          </template>
+          <p class="muted" x-show="chat.laedt">Claude schreibt …</p>
+          <p class="sprach-fehler" x-show="chat.fehler" x-text="chat.fehler"></p>
+        </div>
+        <div class="chat-eingabe">
+          <input type="text" x-model="chat.eingabe" @keydown.enter="chatSenden()" placeholder="Auf Portugiesisch antworten …" :disabled="chat.laedt">
+          <button class="mic" x-show="Erkennung.verfuegbar" :class="{an: chat.hoert}" @click="chatSprechen()" title="Sprechen">🎤</button>
+          <button class="button" @click="chatSenden()" :disabled="chat.laedt">Senden</button>
+        </div>
+        <button class="link-button" @click="chatNeu()">Neues Gespräch beginnen</button>
+      </div>
+
+      <div x-show="overview.claude_aktiv && kiTab === 'schreiben'">
+        <label class="field">
+          <span>Aufgabe (optional)</span>
+          <input type="text" class="voll" x-model="schreiben.aufgabe" placeholder="z. B. Schreib deiner Nachbarin, dass du nächste Woche verreist.">
+        </label>
+        <div class="button-row">
+          <template x-for="v in schreibVorschlaege">
+            <button class="chip-vorschlag" @click="schreiben.aufgabe = v" x-text="v"></button>
+          </template>
+        </div>
+        <textarea class="schreibfeld" x-model="schreiben.text" rows="7" placeholder="Dein Text auf Portugiesisch …"></textarea>
+        <button class="button" @click="korrigieren()" :disabled="schreiben.laedt" x-text="schreiben.laedt ? 'Wird korrigiert …' : 'Korrigieren lassen'"></button>
+        <p class="sprach-fehler" x-show="schreiben.fehler" x-text="schreiben.fehler"></p>
+        <template x-if="schreiben.ergebnis">
+          <div class="korrektur-ergebnis">
+            <p class="score"><strong x-text="schreiben.ergebnis.punkte + ' / 100'"></strong> – <span x-text="schreiben.ergebnis.urteil"></span></p>
+            <h3>Korrigierter Text</h3>
+            <p class="korrigiert" @click="Sprache.sprechen(schreiben.ergebnis.korrigiert)" x-text="schreiben.ergebnis.korrigiert"></p>
+            <h3 x-show="schreiben.ergebnis.fehler.length">Fehler im Einzelnen</h3>
+            <ul class="fehler-liste">
+              <template x-for="f in schreiben.ergebnis.fehler">
+                <li><s x-text="f.original"></s> → <strong x-text="f.korrektur"></strong><br><span class="muted" x-text="f.erklaerung"></span></li>
+              </template>
+            </ul>
+          </div>
+        </template>
+      </div>
     </section>
 
     <!-- ===== Einstellungen ===== -->

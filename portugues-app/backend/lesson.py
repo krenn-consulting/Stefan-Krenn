@@ -449,6 +449,17 @@ def antwort_verbuchen(con: sqlite3.Connection, daten: dict, now: datetime | None
     return {"ok": True, "karte": karte}
 
 
+def _kategorie(schritt: dict, kind: str) -> str:
+    """Kategorie für die Fehleranalyse (Seite Fortschritt → Schwächen)."""
+    k = (schritt.get("ref") or {}).get("kategorie")
+    if k:
+        return k
+    if schritt.get("art") == "diktat":
+        return "Hören & Schreiben (Diktat)"
+    return {"vocab": "Wortschatz", "sentence": "Satzmuster", "hoeren": "Hörverstehen",
+            "uebung": "Grammatik & Ausdruck"}.get(kind, "Sonstiges")
+
+
 def _fehler_merken(con, item_id, kind, ergebnis, schritt, antwort, now_s) -> None:
     """Fehlerspeicher pflegen. Falsch beantwortete Übungen kommen als Karte wieder."""
     if kind == "sprechen":       # Selbstbewertung – kein Fehler im engeren Sinn
@@ -468,7 +479,7 @@ def _fehler_merken(con, item_id, kind, ergebnis, schritt, antwort, now_s) -> Non
                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
                ON CONFLICT(item_id) DO UPDATE SET times_wrong = times_wrong + 1, streak = 0,
                    resolved = 0, given = excluded.given, ts = excluded.ts""",
-            (basis_id, (schritt.get("ref") or {}).get("kategorie", ""), frage, antwort, loesung,
+            (basis_id, _kategorie(schritt, kind), frage, antwort, loesung,
              schritt.get("erklaerung", ""), now_s, payload))
         # Übungen haben keine eigene Karte → eine Fehler-Karte anlegen bzw. reaktivieren
         if kind in ("uebung", "hoeren"):
