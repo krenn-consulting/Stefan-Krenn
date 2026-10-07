@@ -22,7 +22,8 @@ BRASILIANISMEN = [
     (r"\bdezesseis\b|\bdezessete\b|\bdezenove\b", "dezesseis/… → dezasseis/dezassete/dezanove"),
     (r"\bvocê\b", "você nur bewusst verwenden – Standard: o senhor/a senhora oder tu"),
     (r"(?i)\b(estou|está|estamos|estão|estás) \w+ndo\b", "estar + Gerundium → estar a + Infinitiv"),
-    (r"(^|[.!?–]\s*)(Me|Te|Se|Lhe|Nos) [a-zà-ú]+", "Pronomen am Satzanfang → Enklise (Chamo-me …)"),
+    # Ausnahme: die feste Wendung „Se faz favor“ (= bitte)
+    (r"(^|[.!?–]\s*)(?!Se faz favor)(Me|Te|Se|Lhe|Nos) [a-zà-ú]+", "Pronomen am Satzanfang → Enklise (Chamo-me …)"),
     (r"\bequipe\b", "equipe → equipa"),
     (r"\btela\b", "tela → ecrã"),
     (r"\bfato\b(?! de banho)", "fato (BR = Tatsache) → facto"),

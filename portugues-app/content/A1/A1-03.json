@@ -1,0 +1,499 @@
+{
+ "id": "A1-03",
+ "level": "A1",
+ "titel": "No café – Bestellen und bezahlen",
+ "beschreibung": "Im Café und in der Pastelaria bestellen, Preise verstehen, bezahlen (auch mit NIF), einen Tisch auf der Esplanada finden.",
+ "vokabeln": [
+  {"id": "o-cafe", "pt": "um café", "de": "ein Espresso", "emoji": "☕", "beispiel_pt": "Queria um café, por favor.", "beispiel_de": "Ich hätte gern einen Espresso, bitte.", "hinweis": "In Portugal ist „um café“ immer ein Espresso. In Lissabon sagt man auch „uma bica“."},
+  {"id": "a-bica", "pt": "uma bica", "de": "ein Espresso (Lissabon)", "emoji": "☕", "beispiel_pt": "Uma bica, por favor.", "beispiel_de": "Einen Espresso, bitte."},
+  {"id": "o-galao", "pt": "um galão", "de": "ein Milchkaffee im Glas", "emoji": "🥛", "beispiel_pt": "Um galão e um pastel de nata.", "beispiel_de": "Einen Milchkaffee und ein Puddingtörtchen."},
+  {"id": "meia-de-leite", "pt": "uma meia de leite", "de": "ein Milchkaffee in der Tasse", "emoji": "☕", "beispiel_pt": "Queria uma meia de leite.", "beispiel_de": "Ich hätte gern einen Milchkaffee."},
+  {"id": "o-cha", "pt": "um chá", "de": "ein Tee", "emoji": "🍵", "beispiel_pt": "Para mim, um chá.", "beispiel_de": "Für mich einen Tee."},
+  {"id": "a-agua", "pt": "uma água", "de": "ein Wasser", "emoji": "💧", "beispiel_pt": "Uma água sem gás, por favor.", "beispiel_de": "Ein stilles Wasser, bitte.", "hinweis": "fresca = gekühlt, natural = Zimmertemperatur"},
+  {"id": "com-gas", "pt": "com gás", "de": "mit Kohlensäure", "emoji": "🫧", "beispiel_pt": "Uma água com gás.", "beispiel_de": "Ein Wasser mit Kohlensäure.", "hinweis": "ohne: sem gás"},
+  {"id": "o-sumo", "pt": "um sumo de laranja", "de": "ein Orangensaft", "emoji": "🍊", "beispiel_pt": "Um sumo de laranja natural.", "beispiel_de": "Ein frisch gepresster Orangensaft.", "hinweis": "Portugal: sumo – Brasilien: suco"},
+  {"id": "a-imperial", "pt": "uma imperial", "de": "ein kleines Bier vom Fass", "emoji": "🍺", "beispiel_pt": "Uma imperial, por favor.", "beispiel_de": "Ein kleines Bier, bitte.", "hinweis": "Im Norden sagt man „um fino“."},
+  {"id": "queria", "pt": "queria", "de": "ich hätte gern", "emoji": "🙋", "beispiel_pt": "Queria uma água, por favor.", "beispiel_de": "Ich hätte gern ein Wasser, bitte."},
+
+  {"id": "pastel-de-nata", "pt": "um pastel de nata", "de": "ein Puddingtörtchen", "emoji": "🥧", "beispiel_pt": "Dois pastéis de nata, por favor.", "beispiel_de": "Zwei Puddingtörtchen, bitte.", "hinweis": "Plural: pastéis de nata"},
+  {"id": "tosta-mista", "pt": "uma tosta mista", "de": "ein Toast mit Schinken und Käse", "emoji": "🥪", "beispiel_pt": "Uma tosta mista e um galão.", "beispiel_de": "Ein Schinken-Käse-Toast und ein Milchkaffee."},
+  {"id": "a-torrada", "pt": "uma torrada", "de": "ein Toast mit Butter", "emoji": "🍞", "beispiel_pt": "Uma torrada com pouca manteiga.", "beispiel_de": "Ein Toast mit wenig Butter."},
+  {"id": "a-sandes", "pt": "uma sandes", "de": "ein belegtes Brötchen", "emoji": "🥖", "beispiel_pt": "Uma sandes de queijo.", "beispiel_de": "Ein Käsebrötchen."},
+  {"id": "o-croissant", "pt": "um croissant", "de": "ein Croissant", "emoji": "🥐", "beispiel_pt": "Um croissant com fiambre.", "beispiel_de": "Ein Croissant mit Schinken."},
+  {"id": "o-bolo", "pt": "um bolo", "de": "ein Kuchen", "emoji": "🍰", "beispiel_pt": "Que bolos tem?", "beispiel_de": "Welche Kuchen haben Sie?"},
+  {"id": "o-acucar", "pt": "o açúcar", "de": "der Zucker", "emoji": "🍬", "beispiel_pt": "Sem açúcar, por favor.", "beispiel_de": "Ohne Zucker, bitte."},
+  {"id": "o-leite", "pt": "o leite", "de": "die Milch", "emoji": "🥛", "beispiel_pt": "Um chá com leite.", "beispiel_de": "Ein Tee mit Milch."},
+  {"id": "o-copo", "pt": "um copo", "de": "ein Glas", "emoji": "🥃", "beispiel_pt": "Um copo de água, por favor.", "beispiel_de": "Ein Glas Wasser, bitte."},
+  {"id": "a-chavena", "pt": "uma chávena", "de": "eine Tasse", "emoji": "☕", "beispiel_pt": "Uma chávena de chá.", "beispiel_de": "Eine Tasse Tee.", "hinweis": "Portugal: chávena – Brasilien: xícara"},
+
+  {"id": "o-empregado", "pt": "o empregado de mesa", "de": "der Kellner", "emoji": "🤵", "beispiel_pt": "O empregado de mesa é muito simpático.", "beispiel_de": "Der Kellner ist sehr nett.", "hinweis": "Kellnerin: a empregada de mesa"},
+  {"id": "diga", "pt": "Diga!", "de": "Bitte schön? / Was darf's sein?", "emoji": "👂", "beispiel_pt": "Bom dia! Diga.", "beispiel_de": "Guten Morgen! Was darf's sein?"},
+  {"id": "para-mim", "pt": "para mim", "de": "für mich", "emoji": "🙋", "beispiel_pt": "Para mim, uma imperial.", "beispiel_de": "Für mich ein kleines Bier."},
+  {"id": "para-beber", "pt": "para beber", "de": "zu trinken", "emoji": "🥤", "beispiel_pt": "E para beber?", "beispiel_de": "Und zu trinken?"},
+  {"id": "para-comer", "pt": "para comer", "de": "zu essen", "emoji": "🍽️", "beispiel_pt": "E para comer?", "beispiel_de": "Und zu essen?"},
+  {"id": "para-levar", "pt": "para levar", "de": "zum Mitnehmen", "emoji": "🛍️", "beispiel_pt": "É para levar.", "beispiel_de": "Es ist zum Mitnehmen."},
+  {"id": "mais-alguma-coisa", "pt": "Mais alguma coisa?", "de": "Sonst noch etwas?", "emoji": "➕", "beispiel_pt": "Mais alguma coisa? – Não, obrigado.", "beispiel_de": "Sonst noch etwas? – Nein, danke."},
+  {"id": "e-tudo", "pt": "É tudo.", "de": "Das ist alles.", "emoji": "✅", "beispiel_pt": "Não, é tudo. Obrigado.", "beispiel_de": "Nein, das ist alles. Danke."},
+  {"id": "faz-favor", "pt": "Faz favor!", "de": "Entschuldigung! (Kellner rufen)", "emoji": "✋", "beispiel_pt": "Faz favor! A conta, por favor.", "beispiel_de": "Entschuldigung! Die Rechnung, bitte.", "alternativen": ["Se faz favor!"]},
+
+  {"id": "quanto-e", "pt": "Quanto é?", "de": "Was macht das? / Wie viel ist das?", "emoji": "💶", "beispiel_pt": "Faz favor, quanto é?", "beispiel_de": "Entschuldigung, was macht das?"},
+  {"id": "o-euro", "pt": "o euro", "de": "der Euro", "emoji": "💶", "beispiel_pt": "São três euros.", "beispiel_de": "Das macht drei Euro."},
+  {"id": "o-centimo", "pt": "o cêntimo", "de": "der Cent", "emoji": "🪙", "beispiel_pt": "Oitenta cêntimos.", "beispiel_de": "Achtzig Cent."},
+  {"id": "custa", "pt": "custa", "de": "kostet", "emoji": "🏷️", "beispiel_pt": "Quanto custa um galão?", "beispiel_de": "Wie viel kostet ein Milchkaffee?", "hinweis": "Plural: custam"},
+  {"id": "sao", "pt": "são", "de": "das macht / es sind", "emoji": "🧮", "beispiel_pt": "São quatro euros e vinte.", "beispiel_de": "Das macht vier Euro zwanzig."},
+  {"id": "caro", "pt": "caro", "de": "teuer", "emoji": "💸", "beispiel_pt": "Não é caro.", "beispiel_de": "Das ist nicht teuer."},
+  {"id": "barato", "pt": "barato", "de": "billig", "emoji": "🪙", "beispiel_pt": "Aqui é barato.", "beispiel_de": "Hier ist es billig."},
+  {"id": "a-conta", "pt": "a conta", "de": "die Rechnung", "emoji": "🧾", "beispiel_pt": "A conta, se faz favor.", "beispiel_de": "Die Rechnung, bitte."},
+  {"id": "o-preco", "pt": "o preço", "de": "der Preis", "emoji": "🏷️", "beispiel_pt": "O preço é bom.", "beispiel_de": "Der Preis ist gut."},
+
+  {"id": "pagar", "pt": "pagar", "de": "bezahlen", "emoji": "💳", "beispiel_pt": "Posso pagar?", "beispiel_de": "Kann ich bezahlen?"},
+  {"id": "o-cartao", "pt": "o cartão", "de": "die Karte", "emoji": "💳", "beispiel_pt": "Posso pagar com cartão?", "beispiel_de": "Kann ich mit Karte bezahlen?"},
+  {"id": "em-dinheiro", "pt": "em dinheiro", "de": "bar", "emoji": "💵", "beispiel_pt": "Pago em dinheiro.", "beispiel_de": "Ich zahle bar."},
+  {"id": "o-troco", "pt": "o troco", "de": "das Wechselgeld", "emoji": "🔄", "beispiel_pt": "Aqui tem o troco.", "beispiel_de": "Hier ist Ihr Wechselgeld."},
+  {"id": "contribuinte", "pt": "o número de contribuinte", "de": "die Steuernummer (NIF)", "emoji": "🔢", "beispiel_pt": "Quer número de contribuinte?", "beispiel_de": "Möchten Sie Ihre Steuernummer (auf der Rechnung)?", "hinweis": "Mit NIF auf der Rechnung kannst du Ausgaben steuerlich geltend machen."},
+  {"id": "a-fatura", "pt": "a fatura", "de": "die Rechnung (Beleg)", "emoji": "🧾", "beispiel_pt": "Aqui tem a fatura.", "beispiel_de": "Hier ist Ihre Rechnung."},
+  {"id": "multibanco", "pt": "o multibanco", "de": "Geldautomat / Kartenzahlung", "emoji": "🏧", "beispiel_pt": "Aceitam multibanco?", "beispiel_de": "Nehmen Sie Karte?", "hinweis": "In Portugal heißt das Bankkarten-Netz „Multibanco“."},
+  {"id": "posso", "pt": "posso", "de": "ich kann / darf ich", "emoji": "🙏", "beispiel_pt": "Posso ver a ementa?", "beispiel_de": "Kann ich die Speisekarte sehen?"},
+  {"id": "com-certeza", "pt": "com certeza", "de": "selbstverständlich", "emoji": "👌", "beispiel_pt": "Com certeza, senhor.", "beispiel_de": "Selbstverständlich, mein Herr."},
+  {"id": "ja-esta", "pt": "já está", "de": "erledigt / fertig", "emoji": "✔️", "beispiel_pt": "Já está! Obrigado.", "beispiel_de": "Erledigt! Danke."},
+
+  {"id": "a-esplanada", "pt": "a esplanada", "de": "die Café-Terrasse", "emoji": "⛱️", "beispiel_pt": "Vamos para a esplanada?", "beispiel_de": "Gehen wir auf die Terrasse?"},
+  {"id": "a-mesa", "pt": "a mesa", "de": "der Tisch", "emoji": "🪑", "beispiel_pt": "Esta mesa está livre?", "beispiel_de": "Ist dieser Tisch frei?"},
+  {"id": "livre", "pt": "livre", "de": "frei", "emoji": "🟢", "beispiel_pt": "A mesa está livre.", "beispiel_de": "Der Tisch ist frei."},
+  {"id": "ocupado", "pt": "ocupado", "de": "besetzt", "emoji": "🔴", "beispiel_pt": "Esta mesa está ocupada.", "beispiel_de": "Dieser Tisch ist besetzt.", "hinweis": "weiblich: ocupada", "alternativen": ["ocupada"]},
+  {"id": "sentar-se", "pt": "sentar-se", "de": "sich setzen", "emoji": "🪑", "beispiel_pt": "Posso sentar-me aqui?", "beispiel_de": "Darf ich mich hier hinsetzen?"},
+  {"id": "ca-fora", "pt": "cá fora", "de": "hier draußen", "emoji": "🌤️", "beispiel_pt": "Prefiro ficar cá fora.", "beispiel_de": "Ich bleibe lieber hier draußen."},
+  {"id": "la-dentro", "pt": "lá dentro", "de": "drinnen", "emoji": "🏠", "beispiel_pt": "Há mesas lá dentro.", "beispiel_de": "Drinnen gibt es Tische."},
+  {"id": "casa-de-banho", "pt": "a casa de banho", "de": "die Toilette / das Bad", "emoji": "🚻", "beispiel_pt": "Onde é a casa de banho?", "beispiel_de": "Wo ist die Toilette?", "hinweis": "Brasilien: banheiro"},
+  {"id": "a-ementa", "pt": "a ementa", "de": "die Speisekarte", "emoji": "📋", "beispiel_pt": "A ementa, se faz favor.", "beispiel_de": "Die Speisekarte, bitte.", "hinweis": "Brasilien: cardápio"}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-03-L01",
+   "typ": "neu",
+   "titel": "Getränke bestellen",
+   "vokabeln": ["o-cafe", "a-bica", "o-galao", "meia-de-leite", "o-cha", "a-agua", "com-gas", "o-sumo", "a-imperial", "queria"],
+   "grammatik": {
+    "titel": "queria – höflich bestellen",
+    "erklaerung": [
+     "Am höflichsten bestellt man mit <b>queria</b> (ich hätte gern): <i>Queria um café, por favor.</i> Das direkte <i>quero</i> (ich will) ist nicht falsch, klingt aber fordernder.",
+     "Die Formen von <b>querer</b> (wollen) im Präsens: <i>eu quero, tu queres, o senhor / ele / ela quer</i>. Die Kellnerin fragt also: <i>O que quer?</i> oder <i>O que deseja?</i>",
+     "Auch beim Bestellen braucht jedes Getränk sein Geschlecht: <b>um</b> café, <b>um</b> chá, <b>um</b> galão – aber <b>uma</b> água, <b>uma</b> imperial, <b>uma</b> meia de leite."
+    ],
+    "vergleich": "Genau wie im Deutschen „ich hätte gern“ statt „ich will“ – oder im Englischen „I'd like“ statt „I want“.",
+    "beispiele": [
+     {"pt": "Queria um café e uma água, por favor.", "de": "Ich hätte gern einen Espresso und ein Wasser, bitte."},
+     {"pt": "O que deseja? – Um galão, por favor.", "de": "Was wünschen Sie? – Einen Milchkaffee, bitte."},
+     {"pt": "Uma água sem gás, fresca.", "de": "Ein stilles Wasser, gekühlt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ um galão, por favor.", "loesungen": ["Queria"], "de": "Ich hätte gern einen Milchkaffee, bitte."},
+     {"typ": "auswahl", "frage": "Was ist am höflichsten?", "optionen": ["Quero um café!", "Queria um café, por favor.", "Um café, já!"], "richtig": 1},
+     {"typ": "luecke", "satz": "___ chá, por favor.", "loesungen": ["Um"], "de": "Einen Tee, bitte.", "kategorie": "Genus"},
+     {"typ": "luecke", "satz": "___ imperial, por favor.", "loesungen": ["Uma"], "de": "Ein kleines Bier, bitte.", "kategorie": "Genus"},
+     {"typ": "auswahl", "frage": "Was bekommst du in Portugal, wenn du „um café“ bestellst?", "optionen": ["einen Espresso", "einen Filterkaffee", "einen Milchkaffee"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Ich hätte gern einen Orangensaft.", "loesungen": ["Queria um sumo de laranja.", "Queria um sumo de laranja, por favor."]},
+     {"typ": "satzbau", "de": "Ich hätte gern ein stilles Wasser, bitte.", "loesung": "Queria uma água sem gás, por favor."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Ao balcão – an der Theke",
+    "situation": "Stefan bestellt an der Theke eines Cafés.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Bom dia! Diga.", "de": "Guten Morgen! Was darf's sein?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Queria um café e uma água, por favor.", "de": "Guten Morgen. Ich hätte gern einen Espresso und ein Wasser, bitte."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "A água é com gás ou sem gás?", "de": "Das Wasser mit oder ohne Kohlensäure?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sem gás. E fresca, por favor.", "de": "Ohne. Und gekühlt, bitte."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Com certeza.", "de": "Selbstverständlich."}
+    ],
+    "fragen": [
+     {"frage": "Was bestellt Stefan?", "optionen": ["einen Espresso und ein Wasser", "einen Tee und ein Wasser", "einen Milchkaffee"], "richtig": 0},
+     {"frage": "Wie möchte er das Wasser?", "optionen": ["ohne Kohlensäure, gekühlt", "mit Kohlensäure", "ohne Kohlensäure, ungekühlt"], "richtig": 0, "erklaerung": "„fresca“ = gekühlt, „natural“ = Zimmertemperatur."}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach – so bestellst du in jedem Café.",
+    "saetze": [
+     {"pt": "Queria um café, por favor.", "de": "Ich hätte gern einen Espresso, bitte."},
+     {"pt": "Uma meia de leite, por favor.", "de": "Einen Milchkaffee, bitte."},
+     {"pt": "Um galão e um pastel de nata.", "de": "Einen Milchkaffee im Glas und ein Puddingtörtchen."},
+     {"pt": "Uma água sem gás.", "de": "Ein stilles Wasser."},
+     {"pt": "Uma imperial, por favor.", "de": "Ein kleines Bier, bitte."}
+    ]
+   },
+   "saetze": [
+    {"id": "queria-um-cafe", "pt": "Queria um café, por favor.", "de": "Ich hätte gern einen Espresso, bitte."},
+    {"id": "agua-sem-gas-fresca", "pt": "Uma água sem gás, fresca.", "de": "Ein stilles Wasser, gekühlt."},
+    {"id": "queria-um-galao", "pt": "Queria um galão, por favor.", "de": "Ich hätte gern einen Milchkaffee im Glas, bitte."}
+   ]
+  },
+  {
+   "id": "A1-03-L02",
+   "typ": "neu",
+   "titel": "Snacks und Gebäck",
+   "vokabeln": ["pastel-de-nata", "tosta-mista", "a-torrada", "a-sandes", "o-croissant", "o-bolo", "o-acucar", "o-leite", "o-copo", "a-chavena"],
+   "grammatik": {
+    "titel": "Der Plural",
+    "erklaerung": [
+     "Nach Vokal einfach <b>-s</b>: <i>um café → dois cafés, uma tosta → duas tostas</i>.",
+     "Wörter auf <b>-l</b>: <b>-is</b> – <i>um pastel → dois pastéis</i>, <i>espanhol → espanhóis</i>.",
+     "Wörter auf <b>-ão</b> haben drei mögliche Plurale, meist <b>-ões</b>: <i>galão → galões</i>, aber <i>pão → pães</i>, <i>mão → mãos</i>. Man lernt sie mit.",
+     "Nach <b>-r, -z, -s</b> (betont): <b>-es</b> – <i>a mulher → as mulheres, o mês → os meses</i>. Artikel im Plural: <b>os / as</b>, <b>uns / umas</b>."
+    ],
+    "vergleich": "Wie im Englischen meistens ein -s – mit ein paar Sonderfällen wie bei child/children.",
+    "beispiele": [
+     {"pt": "Dois pastéis de nata e dois cafés, por favor.", "de": "Zwei Puddingtörtchen und zwei Espresso, bitte."},
+     {"pt": "Duas tostas mistas e dois galões.", "de": "Zwei Schinken-Käse-Toasts und zwei Milchkaffee."},
+     {"pt": "As torradas são boas aqui.", "de": "Die Toasts sind gut hier."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "dois ___ de nata", "loesungen": ["pastéis"], "de": "zwei Puddingtörtchen", "erklaerung": "pastel → pastéis", "kategorie": "Plural"},
+     {"typ": "luecke", "satz": "dois ___", "loesungen": ["galões"], "de": "zwei Milchkaffee (im Glas)", "erklaerung": "galão → galões", "kategorie": "Plural"},
+     {"typ": "luecke", "satz": "três ___ mistas", "loesungen": ["tostas"], "de": "drei Schinken-Käse-Toasts", "kategorie": "Plural"},
+     {"typ": "auswahl", "frage": "„zwei Brote“", "optionen": ["dois pãos", "dois pães", "dois pões"], "richtig": 1, "erklaerung": "pão → pães (Ausnahme, einfach merken).", "kategorie": "Plural"},
+     {"typ": "auswahl", "frage": "Welcher Artikel? „___ torradas“", "optionen": ["os", "as"], "richtig": 1, "kategorie": "Genus"},
+     {"typ": "uebersetzen", "de": "zwei Tassen Tee", "loesungen": ["duas chávenas de chá"]},
+     {"typ": "satzbau", "de": "Zwei Puddingtörtchen und zwei Espresso, bitte.", "loesung": "Dois pastéis de nata e dois cafés, por favor."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na pastelaria – in der Konditorei",
+    "situation": "Stefan kauft in einer Pastelaria ein.",
+    "zeilen": [
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Boa tarde! O que deseja?", "de": "Guten Tag! Was wünschen Sie?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Queria dois pastéis de nata, por favor.", "de": "Guten Tag. Ich hätte gern zwei Puddingtörtchen, bitte."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Para comer aqui ou para levar?", "de": "Zum Hieressen oder zum Mitnehmen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Para levar. E também uma tosta mista.", "de": "Zum Mitnehmen. Und auch einen Schinken-Käse-Toast."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "A tosta também é para levar?", "de": "Ist der Toast auch zum Mitnehmen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, a tosta é para comer aqui, com um galão.", "de": "Nein, den Toast esse ich hier, mit einem Milchkaffee."}
+    ],
+    "fragen": [
+     {"frage": "Wie viele Puddingtörtchen kauft Stefan?", "optionen": ["zwei", "eins", "drei"], "richtig": 0},
+     {"frage": "Was nimmt er mit?", "optionen": ["die Puddingtörtchen", "den Toast", "alles"], "richtig": 0},
+     {"frage": "Was isst und trinkt er vor Ort?", "optionen": ["einen Schinken-Käse-Toast mit Milchkaffee", "nur einen Kuchen", "nichts"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "zwei Puddingtörtchen", "loesungen": ["dois pastéis de nata"]},
+     {"de": "zwei Milchkaffee (im Glas)", "loesungen": ["dois galões"]},
+     {"de": "drei Schinken-Käse-Toasts", "loesungen": ["três tostas mistas"]},
+     {"de": "Zum Mitnehmen, bitte.", "loesungen": ["Para levar, por favor.", "É para levar, por favor."]}
+    ]
+   },
+   "saetze": [
+    {"id": "dois-pasteis", "pt": "Dois pastéis de nata, por favor.", "de": "Zwei Puddingtörtchen, bitte."},
+    {"id": "comer-aqui-ou-levar", "pt": "Para comer aqui ou para levar?", "de": "Zum Hieressen oder zum Mitnehmen?"},
+    {"id": "e-para-levar", "pt": "É para levar.", "de": "Es ist zum Mitnehmen."}
+   ]
+  },
+  {
+   "id": "A1-03-L03",
+   "typ": "neu",
+   "titel": "Am Tisch bestellen",
+   "vokabeln": ["o-empregado", "diga", "para-mim", "para-beber", "para-comer", "para-levar", "mais-alguma-coisa", "e-tudo", "faz-favor"],
+   "grammatik": {
+    "titel": "para mim, para o senhor – Pronomen nach Präpositionen",
+    "erklaerung": [
+     "Nach Präpositionen wie <b>para</b> (für) stehen eigene Formen: <b>para mim</b> (für mich), <b>para ti</b> (für dich), <b>para o senhor / a senhora</b> (für Sie), <b>para ele / ela</b>, <b>para nós</b>.",
+     "Mit <b>com</b> (mit) verschmelzen sie: <b>comigo</b> (mit mir), <b>contigo</b> (mit dir), <b>consigo</b> (mit Ihnen) – das kennst du schon aus <i>E consigo?</i>",
+     "Den Kellner ruft man höflich mit <b>Faz favor!</b> oder <b>Se faz favor!</b> – nicht mit „Olá!“ oder Fingerschnipsen."
+    ],
+    "vergleich": "Wie englisch „for me / with me“ – nur dass Portugiesisch „mit mir“ zu einem Wort macht: comigo.",
+    "beispiele": [
+     {"pt": "Para mim, uma imperial. E para a senhora?", "de": "Für mich ein kleines Bier. Und für Sie?"},
+     {"pt": "Mais alguma coisa? – Não, é tudo.", "de": "Sonst noch etwas? – Nein, das ist alles."},
+     {"pt": "Vem comigo?", "de": "Kommen Sie mit mir?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Um café para ___.", "loesungen": ["mim"], "de": "Einen Espresso für mich.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„mit mir“", "optionen": ["com mim", "comigo", "com eu"], "richtig": 1, "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "Wie rufst du höflich den Kellner?", "optionen": ["Faz favor!", "Ei, tu!", "Olá, empregado!"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Für mich einen Tee, bitte.", "loesungen": ["Para mim, um chá, por favor.", "Para mim um chá, por favor."]},
+     {"typ": "uebersetzen", "de": "Sonst noch etwas? – Nein, das ist alles.", "loesungen": ["Mais alguma coisa? – Não, é tudo.", "Mais alguma coisa? Não, é tudo."]},
+     {"typ": "satzbau", "de": "Und für Sie, Frau Fernanda?", "loesung": "E para a senhora, Dona Fernanda?"},
+     {"typ": "luecke", "satz": "E para ___? – Uma água.", "loesungen": ["ti"], "de": "Und für dich? – Ein Wasser.", "kategorie": "Pronomen"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na esplanada com a Dona Fernanda",
+    "situation": "Stefan lädt seine Nachbarin auf einen Kaffee ein.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Boa tarde! Para beber?", "de": "Guten Tag! Was möchten Sie trinken?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Para mim, uma imperial. E para a senhora, Dona Fernanda?", "de": "Für mich ein kleines Bier. Und für Sie, Frau Fernanda?"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Para mim, um chá, por favor.", "de": "Für mich einen Tee, bitte."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "E para comer?", "de": "Und zu essen?"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Uma torrada, se faz favor.", "de": "Einen Toast, bitte."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Mais alguma coisa?", "de": "Sonst noch etwas?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, é tudo. Obrigado.", "de": "Nein, das ist alles. Danke."}
+    ],
+    "fragen": [
+     {"frage": "Was trinkt Stefan?", "optionen": ["ein kleines Bier", "einen Tee", "einen Espresso"], "richtig": 0},
+     {"frage": "Was trinkt Dona Fernanda?", "optionen": ["einen Tee", "ein Wasser", "einen Milchkaffee"], "richtig": 0},
+     {"frage": "Was isst Dona Fernanda?", "optionen": ["einen Toast mit Butter", "ein Puddingtörtchen", "nichts"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du sitzt allein im Café. Der Kellner kommt.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Boa tarde! Para beber?", "de": "Guten Tag! Was möchten Sie trinken?"},
+     {"ich": true, "aufgabe": "Bestell einen Milchkaffee im Glas.", "loesungen": ["Para mim, um galão, por favor.", "Queria um galão, por favor.", "Um galão, por favor."]},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "E para comer?", "de": "Und zu essen?"},
+     {"ich": true, "aufgabe": "Bestell ein Puddingtörtchen.", "loesungen": ["Um pastel de nata, por favor.", "Queria um pastel de nata, por favor.", "Um pastel de nata."]},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Mais alguma coisa?", "de": "Sonst noch etwas?"},
+     {"ich": true, "aufgabe": "Sag: Nein, das ist alles, danke.", "loesungen": ["Não, é tudo, obrigado.", "Não, é tudo. Obrigado.", "É tudo, obrigado."]}
+    ]
+   },
+   "saetze": [
+    {"id": "para-mim-imperial", "pt": "Para mim, uma imperial.", "de": "Für mich ein kleines Bier."},
+    {"id": "mais-alguma-coisa-e-tudo", "pt": "Mais alguma coisa? – Não, é tudo.", "de": "Sonst noch etwas? – Nein, das ist alles."},
+    {"id": "faz-favor-conta", "pt": "Faz favor! A conta, por favor.", "de": "Entschuldigung! Die Rechnung, bitte."}
+   ]
+  },
+  {
+   "id": "A1-03-L04",
+   "typ": "neu",
+   "titel": "Preise",
+   "vokabeln": ["quanto-e", "o-euro", "o-centimo", "custa", "sao", "caro", "barato", "a-conta", "o-preco"],
+   "grammatik": {
+    "titel": "É um euro – são dois euros",
+    "erklaerung": [
+     "Beim Preis richtet sich <i>ser</i> nach der Zahl: <b>É um euro.</b> – aber <b>São dois euros.</b> (wörtlich: „Es sind zwei Euro.“)",
+     "Euro und Cent: <i>três euros e vinte (cêntimos)</i> = 3,20 €. Das Wort <i>cêntimos</i> lässt man meist weg: <i>São quatro e cinquenta.</i>",
+     "Nach dem Preis fragen: <b>Quanto é?</b> (Was macht das?) oder <b>Quanto custa …?</b> – im Plural <b>Quanto custam …?</b>"
+    ],
+    "vergleich": "Im Englischen „It's one euro / That's two euros“ – im Portugiesischen wechselt das Verb selbst: é → são.",
+    "beispiele": [
+     {"pt": "Quanto é? – São quatro euros e vinte.", "de": "Was macht das? – Vier Euro zwanzig."},
+     {"pt": "Quanto custa um pastel de nata?", "de": "Wie viel kostet ein Puddingtörtchen?"},
+     {"pt": "Quanto custam os pastéis?", "de": "Wie viel kosten die Törtchen?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ três euros.", "loesungen": ["São"], "de": "Das macht drei Euro.", "kategorie": "ser"},
+     {"typ": "luecke", "satz": "___ um euro e vinte.", "loesungen": ["É"], "de": "Das macht einen Euro zwanzig.", "kategorie": "ser"},
+     {"typ": "auswahl", "frage": "„Wie viel kostet der Kaffee?“", "optionen": ["Quanto custam o café?", "Quanto custa o café?"], "richtig": 1, "kategorie": "Singular/Plural"},
+     {"typ": "auswahl", "frage": "„Wie viel kosten die Törtchen?“", "optionen": ["Quanto custa os pastéis?", "Quanto custam os pastéis?"], "richtig": 1, "kategorie": "Singular/Plural"},
+     {"typ": "diktat", "pt": "São quatro euros e oitenta.", "de": "Das macht 4,80 €."},
+     {"typ": "uebersetzen", "de": "Die Rechnung, bitte.", "loesungen": ["A conta, por favor.", "A conta, se faz favor."]},
+     {"typ": "uebersetzen", "de": "Das ist nicht teuer.", "loesungen": ["Não é caro.", "Isso não é caro."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Quanto é? – Was macht das?",
+    "situation": "Stefan will bezahlen.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Faz favor! Quanto é?", "de": "Entschuldigung! Was macht das?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Dois cafés e dois pastéis… são quatro euros e vinte.", "de": "Zwei Espresso und zwei Törtchen … das macht vier Euro zwanzig."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quatro e vinte? Não é caro!", "de": "Vier zwanzig? Das ist nicht teuer!"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Pois é. Aqui no Algarve ainda é barato.", "de": "Genau. Hier an der Algarve ist es noch günstig."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Aqui tem cinco euros.", "de": "Hier haben Sie fünf Euro."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Obrigado. Oitenta cêntimos de troco.", "de": "Danke. Achtzig Cent zurück."}
+    ],
+    "fragen": [
+     {"frage": "Was kostet alles zusammen?", "optionen": ["4,20 €", "4,80 €", "2,20 €"], "richtig": 0},
+     {"frage": "Wie viel gibt Stefan dem Kellner?", "optionen": ["5 €", "10 €", "4,20 €"], "richtig": 0},
+     {"frage": "Wie viel Wechselgeld bekommt er?", "optionen": ["80 Cent", "20 Cent", "1 €"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Quanto é?", "de": "Was macht das?"},
+     {"pt": "São quatro euros e vinte.", "de": "Das macht vier Euro zwanzig."},
+     {"pt": "A conta, se faz favor.", "de": "Die Rechnung, bitte."},
+     {"pt": "Quanto custa um galão?", "de": "Wie viel kostet ein Milchkaffee?"},
+     {"pt": "Não é caro.", "de": "Das ist nicht teuer."}
+    ]
+   },
+   "saetze": [
+    {"id": "quanto-e-sao", "pt": "Quanto é? – São quatro euros e vinte.", "de": "Was macht das? – Vier Euro zwanzig."},
+    {"id": "quanto-custa-pastel", "pt": "Quanto custa um pastel de nata?", "de": "Wie viel kostet ein Puddingtörtchen?"},
+    {"id": "a-conta-se-faz-favor", "pt": "A conta, se faz favor.", "de": "Die Rechnung, bitte."}
+   ]
+  },
+  {
+   "id": "A1-03-L05",
+   "typ": "neu",
+   "titel": "Bezahlen",
+   "vokabeln": ["pagar", "o-cartao", "em-dinheiro", "o-troco", "contribuinte", "a-fatura", "multibanco", "posso", "com-certeza", "ja-esta"],
+   "grammatik": {
+    "titel": "poder – können und dürfen",
+    "erklaerung": [
+     "<b>poder</b> (können, dürfen) + Infinitiv: <b>posso</b> (ich kann/darf) · <b>podes</b> · <b>pode</b> (er/sie kann; Sie können).",
+     "Höfliche Frage: <i>Posso pagar com cartão?</i> – Kann ich mit Karte bezahlen? Eine Bitte an jemanden: <i>Pode trazer a conta?</i> – Können Sie die Rechnung bringen?",
+     "Typisch Portugal: An der Kasse fragt man oft <b>Quer número de contribuinte?</b> – ob deine Steuernummer (NIF) auf die Rechnung soll. Mit NIF auf der <i>fatura</i> kannst du Ausgaben bei der Steuer geltend machen."
+    ],
+    "vergleich": "Wie englisch „Can I pay by card? / Could you bring the bill?“",
+    "beispiele": [
+     {"pt": "Posso pagar com cartão? – Com certeza.", "de": "Kann ich mit Karte zahlen? – Selbstverständlich."},
+     {"pt": "Quer número de contribuinte? – Sim, por favor.", "de": "Möchten Sie Ihre Steuernummer auf der Rechnung? – Ja, bitte."},
+     {"pt": "Pago em dinheiro.", "de": "Ich zahle bar."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ pagar com cartão?", "loesungen": ["Posso"], "de": "Kann ich mit Karte bezahlen?", "kategorie": "poder"},
+     {"typ": "luecke", "satz": "O senhor ___ pagar em dinheiro.", "loesungen": ["pode"], "de": "Sie können bar bezahlen.", "kategorie": "poder"},
+     {"typ": "uebersetzen", "de": "Kann ich bar bezahlen?", "loesungen": ["Posso pagar em dinheiro?"]},
+     {"typ": "auswahl", "frage": "Die Kassiererin fragt: „Quer número de contribuinte?“ Was meint sie?", "optionen": ["Möchten Sie Ihre Steuernummer auf der Rechnung?", "Möchten Sie etwas spenden?", "Möchten Sie bestellen?"], "richtig": 0, "erklaerung": "contribuinte = Steuerzahler; gemeint ist die NIF auf der Rechnung."},
+     {"typ": "luecke", "satz": "Aceitam ___?", "loesungen": ["multibanco"], "de": "Nehmen Sie Karte (Multibanco)?"},
+     {"typ": "satzbau", "de": "Kann ich mit Karte bezahlen?", "loesung": "Posso pagar com cartão?"},
+     {"typ": "uebersetzen", "de": "Selbstverständlich!", "loesungen": ["Com certeza!", "Claro!"]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Pagar com cartão – mit Karte zahlen",
+    "situation": "Stefan bezahlt an der Kasse.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Posso pagar com cartão?", "de": "Kann ich mit Karte bezahlen?"},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Com certeza. Quer número de contribuinte na fatura?", "de": "Selbstverständlich. Möchten Sie Ihre Steuernummer auf der Rechnung?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, por favor. Aqui está o meu número.", "de": "Ja, bitte. Hier ist meine Nummer."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Obrigada. Pode inserir o cartão.", "de": "Danke. Sie können die Karte einstecken."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já está.", "de": "Erledigt."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Aqui tem a fatura. Bom dia!", "de": "Hier ist Ihre Rechnung. Schönen Tag!"}
+    ],
+    "fragen": [
+     {"frage": "Wie bezahlt Stefan?", "optionen": ["mit Karte", "bar", "gar nicht"], "richtig": 0},
+     {"frage": "Was kommt auf die Rechnung?", "optionen": ["seine Steuernummer (NIF)", "seine Adresse", "sein Geburtsdatum"], "richtig": 0},
+     {"frage": "Was bedeutet „Já está“?", "optionen": ["Erledigt / fertig.", "Schon wieder.", "Ich bin schon da."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist an der Kasse eines Cafés.",
+    "zeilen": [
+     {"sprecher": "Empregada", "stimme": "f", "pt": "São seis euros e cinquenta.", "de": "Das macht sechs Euro fünfzig."},
+     {"ich": true, "aufgabe": "Frag: Kann ich mit Karte bezahlen?", "loesungen": ["Posso pagar com cartão?"]},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Com certeza. Quer contribuinte?", "de": "Selbstverständlich. Möchten Sie die Steuernummer?"},
+     {"ich": true, "aufgabe": "Sag: Ja, bitte.", "loesungen": ["Sim, por favor.", "Quero, sim, por favor.", "Sim, se faz favor."]},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Aqui tem a fatura.", "de": "Hier ist Ihre Rechnung."},
+     {"ich": true, "aufgabe": "Bedank dich und verabschiede dich.", "loesungen": ["Obrigado. Bom dia!", "Obrigado, até logo!", "Obrigado. Adeus!", "Obrigado, bom dia!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "posso-pagar-cartao", "pt": "Posso pagar com cartão?", "de": "Kann ich mit Karte bezahlen?"},
+    {"id": "quer-contribuinte", "pt": "Quer número de contribuinte?", "de": "Möchten Sie Ihre Steuernummer auf der Rechnung?"},
+    {"id": "aceitam-multibanco", "pt": "Aceitam multibanco?", "de": "Nehmen Sie Karte?"}
+   ]
+  },
+  {
+   "id": "A1-03-L06",
+   "typ": "neu",
+   "titel": "Auf der Esplanada",
+   "vokabeln": ["a-esplanada", "a-mesa", "livre", "ocupado", "sentar-se", "ca-fora", "la-dentro", "casa-de-banho", "a-ementa"],
+   "grammatik": {
+    "titel": "estar livre – und „mich“ hinter dem Verb",
+    "erklaerung": [
+     "Ob ein Tisch frei oder besetzt ist, ist ein Zustand – also <b>estar</b>: <i>A mesa está livre / ocupada.</i>",
+     "<b>sentar-se</b> (sich setzen): Das Pronomen hängt in Portugal mit Bindestrich am Verb, auch am Infinitiv: <i>Posso <b>sentar-me</b> aqui?</i> – Darf ich mich hier hinsetzen?",
+     "Ortsangaben: <b>cá</b> / <b>aqui</b> (hier), <b>lá</b> (dort): <i>cá fora</i> (hier draußen), <i>lá dentro</i> (da drinnen). Wo etwas ist, fragt man mit <b>Onde é …?</b> oder <b>Onde fica …?</b>"
+    ],
+    "vergleich": "Englisch „Can I sit here?“ – im Portugiesischen sitzt man sich selbst: sentar-<b>me</b>.",
+    "beispiele": [
+     {"pt": "Esta mesa está livre?", "de": "Ist dieser Tisch frei?"},
+     {"pt": "Posso sentar-me aqui?", "de": "Darf ich mich hier hinsetzen?"},
+     {"pt": "Onde é a casa de banho? – Lá dentro, ao fundo.", "de": "Wo ist die Toilette? – Drinnen, ganz hinten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Esta mesa ___ livre?", "loesungen": ["está"], "de": "Ist dieser Tisch frei?", "kategorie": "ser/estar"},
+     {"typ": "auswahl", "frage": "„Darf ich mich hier hinsetzen?“", "optionen": ["Posso me sentar aqui?", "Posso sentar-me aqui?"], "richtig": 1, "erklaerung": "In Portugal steht das Pronomen hinter dem Infinitiv, mit Bindestrich.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "A mesa está ___.", "loesungen": ["ocupada"], "de": "Der Tisch ist besetzt.", "kategorie": "Genus"},
+     {"typ": "uebersetzen", "de": "Wo ist die Toilette?", "loesungen": ["Onde é a casa de banho?", "Onde fica a casa de banho?"]},
+     {"typ": "uebersetzen", "de": "Die Speisekarte, bitte.", "loesungen": ["A ementa, por favor.", "A ementa, se faz favor."]},
+     {"typ": "satzbau", "de": "Ist dieser Tisch frei?", "loesung": "Esta mesa está livre?"},
+     {"typ": "auswahl", "frage": "Die Kellnerin fragt: „Cá fora ou lá dentro?“", "optionen": ["Draußen oder drinnen?", "Zum Mitnehmen oder hier?", "Mit oder ohne Zucker?"], "richtig": 0}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma mesa na esplanada",
+    "situation": "Stefan sucht einen Tisch auf der Terrasse.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde! Esta mesa está livre?", "de": "Guten Tag! Ist dieser Tisch frei?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Essa está ocupada, mas aquela ali está livre.", "de": "Der ist besetzt, aber der dort drüben ist frei."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado. Posso ver a ementa?", "de": "Danke. Kann ich die Speisekarte sehen?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Claro, aqui está. Prefere ficar cá fora ou lá dentro?", "de": "Natürlich, hier bitte. Möchten Sie lieber draußen oder drinnen sitzen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Cá fora, na esplanada. Está um dia bonito!", "de": "Draußen, auf der Terrasse. Es ist ein schöner Tag!"}
+    ],
+    "fragen": [
+     {"frage": "Ist der erste Tisch frei?", "optionen": ["Nein, er ist besetzt.", "Ja."], "richtig": 0},
+     {"frage": "Was möchte Stefan sehen?", "optionen": ["die Speisekarte", "die Rechnung", "die Toilette"], "richtig": 0},
+     {"frage": "Wo sitzt Stefan?", "optionen": ["draußen auf der Terrasse", "drinnen", "an der Theke"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Esta mesa está livre?", "de": "Ist dieser Tisch frei?"},
+     {"pt": "Posso sentar-me aqui?", "de": "Darf ich mich hier hinsetzen?"},
+     {"pt": "Onde é a casa de banho?", "de": "Wo ist die Toilette?"},
+     {"pt": "A ementa, se faz favor.", "de": "Die Speisekarte, bitte."},
+     {"pt": "Prefiro ficar cá fora.", "de": "Ich bleibe lieber hier draußen."}
+    ]
+   },
+   "saetze": [
+    {"id": "mesa-livre", "pt": "Esta mesa está livre?", "de": "Ist dieser Tisch frei?"},
+    {"id": "posso-sentar-me", "pt": "Posso sentar-me aqui?", "de": "Darf ich mich hier hinsetzen?"},
+    {"id": "onde-casa-de-banho", "pt": "Onde é a casa de banho?", "de": "Wo ist die Toilette?"}
+   ]
+  },
+  {"id": "A1-03-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-03-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "O pequeno-almoço no café – Frühstück im Café",
+   "situation": "Stefan frühstückt in einem Café.",
+   "zeilen": [
+    {"sprecher": "Empregada", "stimme": "f", "pt": "Bom dia! O que vai ser?", "de": "Guten Morgen! Was darf's sein?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Queria uma meia de leite e uma torrada, por favor.", "de": "Guten Morgen. Ich hätte gern einen Milchkaffee und einen Toast, bitte."},
+    {"sprecher": "Empregada", "stimme": "f", "pt": "A torrada é com manteiga?", "de": "Den Toast mit Butter?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, com pouca manteiga. E um sumo de laranja natural.", "de": "Ja, mit wenig Butter. Und einen frisch gepressten Orangensaft."},
+    {"sprecher": "Empregada", "stimme": "f", "pt": "Mais alguma coisa?", "de": "Sonst noch etwas?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Não, é tudo. Quanto é?", "de": "Nein, das ist alles. Was macht das?"},
+    {"sprecher": "Empregada", "stimme": "f", "pt": "São cinco euros e trinta.", "de": "Das macht fünf Euro dreißig."}
+   ],
+   "fragen": [
+    {"frage": "Welches Kaffeegetränk bestellt Stefan?", "optionen": ["eine meia de leite", "einen galão", "einen Espresso"], "richtig": 0},
+    {"frage": "Wie möchte er den Toast?", "optionen": ["mit wenig Butter", "ohne Butter", "mit Käse"], "richtig": 0},
+    {"frage": "Welchen Saft bestellt er?", "optionen": ["frisch gepressten Orangensaft", "Apfelsaft", "keinen"], "richtig": 0},
+    {"frage": "Was kostet alles zusammen?", "optionen": ["5,30 €", "3,50 €", "5,13 €"], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "A ementa do Café Central – die Karte des Café Central",
+   "situation": "Die Preisliste an der Wand eines Cafés in Lagos.",
+   "text": [
+    "Café Central – Lagos",
+    "Café: 0,90 € · Galão: 1,50 € · Chá: 1,20 €",
+    "Sumo de laranja natural: 3,00 €",
+    "Pastel de nata: 1,30 € · Tosta mista: 3,50 €",
+    "Esplanada aberta das 8h às 20h. Aceitamos multibanco."
+   ],
+   "fragen": [
+    {"frage": "Was kostet ein Galão?", "optionen": ["1,50 €", "0,90 €", "1,20 €"], "richtig": 0},
+    {"frage": "Was ist am teuersten?", "optionen": ["der Schinken-Käse-Toast", "der frische Orangensaft", "das Puddingtörtchen"], "richtig": 0},
+    {"frage": "Kann man mit Karte bezahlen?", "optionen": ["Ja.", "Nein, nur bar."], "richtig": 0},
+    {"frage": "Wann ist die Terrasse geöffnet?", "optionen": ["von 8 bis 20 Uhr", "von 9 bis 18 Uhr", "nur abends"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich hätte gern einen Espresso, bitte.", "loesungen": ["Queria um café, por favor."]},
+   {"de": "Zwei Puddingtörtchen zum Mitnehmen.", "loesungen": ["Dois pastéis de nata para levar.", "Dois pastéis de nata para levar, por favor."]},
+   {"de": "Was macht das?", "loesungen": ["Quanto é?"]},
+   {"de": "Kann ich mit Karte bezahlen?", "loesungen": ["Posso pagar com cartão?"]},
+   {"de": "Die Rechnung, bitte.", "loesungen": ["A conta, por favor.", "A conta, se faz favor."]},
+   {"de": "Ist dieser Tisch frei?", "loesungen": ["Esta mesa está livre?"]}
+  ],
+  "sprechen": [
+   {"pt": "Queria uma meia de leite, por favor.", "de": "Ich hätte gern einen Milchkaffee, bitte."},
+   {"pt": "Para mim, um chá.", "de": "Für mich einen Tee."},
+   {"pt": "Não, é tudo. Obrigado.", "de": "Nein, das ist alles. Danke."},
+   {"pt": "São três euros e cinquenta.", "de": "Das macht drei Euro fünfzig."},
+   {"pt": "Posso pagar com cartão?", "de": "Kann ich mit Karte bezahlen?"}
+  ]
+ }
+}

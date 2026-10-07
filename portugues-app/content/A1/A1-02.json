@@ -1,0 +1,504 @@
+{
+ "id": "A1-02",
+ "level": "A1",
+ "titel": "Quem sou eu? – Herkunft, Sprachen, Beruf",
+ "beschreibung": "Herkunft und Nationalität, Wohnort, Sprachen, die vertraute Anrede tu, Berufe, Zahlen bis 100.",
+ "vokabeln": [
+  {"id": "de-onde-e", "pt": "De onde é?", "de": "Woher kommen Sie?", "emoji": "🌍", "beispiel_pt": "De onde é, senhor Stefan? – Sou da Alemanha.", "beispiel_de": "Woher kommen Sie, Herr Stefan? – Aus Deutschland."},
+  {"id": "sou-de", "pt": "sou de", "de": "ich komme aus", "emoji": "📍", "beispiel_pt": "Sou de Munique.", "beispiel_de": "Ich komme aus München."},
+  {"id": "alemanha", "pt": "a Alemanha", "de": "Deutschland", "emoji": "🇩🇪", "beispiel_pt": "Sou da Alemanha.", "beispiel_de": "Ich komme aus Deutschland.", "hinweis": "de + a = da"},
+  {"id": "portugal", "pt": "Portugal", "de": "Portugal", "emoji": "🇵🇹", "beispiel_pt": "Moro em Portugal.", "beispiel_de": "Ich wohne in Portugal.", "hinweis": "Portugal steht ohne Artikel."},
+  {"id": "alemao", "pt": "alemão", "de": "deutsch / Deutscher", "emoji": "🥨", "beispiel_pt": "O Stefan é alemão.", "beispiel_de": "Stefan ist Deutscher.", "hinweis": "weiblich: alemã", "alternativen": ["alemã"]},
+  {"id": "portugues-adj", "pt": "português", "de": "portugiesisch / Portugiese", "emoji": "🐓", "beispiel_pt": "A Ana é portuguesa.", "beispiel_de": "Ana ist Portugiesin.", "hinweis": "weiblich: portuguesa", "alternativen": ["portuguesa"]},
+  {"id": "ingles", "pt": "inglês", "de": "englisch / Engländer", "emoji": "🇬🇧", "beispiel_pt": "O John é inglês.", "beispiel_de": "John ist Engländer.", "hinweis": "weiblich: inglesa", "alternativen": ["inglesa"]},
+  {"id": "o-pais", "pt": "o país", "de": "das Land", "emoji": "🗺️", "beispiel_pt": "Portugal é um país bonito.", "beispiel_de": "Portugal ist ein schönes Land."},
+  {"id": "a-cidade", "pt": "a cidade", "de": "die Stadt", "emoji": "🏙️", "beispiel_pt": "Faro é uma cidade bonita.", "beispiel_de": "Faro ist eine schöne Stadt."},
+  {"id": "bonito", "pt": "bonito", "de": "schön", "emoji": "🌸", "beispiel_pt": "O Algarve é muito bonito.", "beispiel_de": "Die Algarve ist sehr schön.", "hinweis": "weiblich: bonita", "alternativen": ["bonita"]},
+
+  {"id": "morar", "pt": "morar", "de": "wohnen", "emoji": "🏠", "beispiel_pt": "Moro no Algarve.", "beispiel_de": "Ich wohne an der Algarve."},
+  {"id": "onde-mora", "pt": "Onde mora?", "de": "Wo wohnen Sie?", "emoji": "❓", "beispiel_pt": "Onde mora, Dona Fernanda?", "beispiel_de": "Wo wohnen Sie, Frau Fernanda?"},
+  {"id": "em", "pt": "em", "de": "in", "emoji": "📌", "beispiel_pt": "Moro em Faro.", "beispiel_de": "Ich wohne in Faro.", "hinweis": "em + o = no, em + a = na"},
+  {"id": "aqui", "pt": "aqui", "de": "hier", "emoji": "👇", "beispiel_pt": "Moro aqui há dois anos.", "beispiel_de": "Ich wohne seit zwei Jahren hier."},
+  {"id": "perto-de", "pt": "perto de", "de": "in der Nähe von", "emoji": "📏", "beispiel_pt": "Moro perto de Lagos.", "beispiel_de": "Ich wohne in der Nähe von Lagos."},
+  {"id": "longe", "pt": "longe", "de": "weit (weg)", "emoji": "🛤️", "beispiel_pt": "Faro é longe?", "beispiel_de": "Ist Faro weit weg?"},
+  {"id": "ha-anos", "pt": "há dois anos", "de": "seit zwei Jahren / vor zwei Jahren", "emoji": "⏱️", "beispiel_pt": "Moro em Portugal há dois anos.", "beispiel_de": "Ich wohne seit zwei Jahren in Portugal.", "hinweis": "há + Zeitraum: mit Präsens = seit"},
+  {"id": "a-praia", "pt": "a praia", "de": "der Strand", "emoji": "🏖️", "beispiel_pt": "Moro perto da praia.", "beispiel_de": "Ich wohne in der Nähe des Strandes."},
+  {"id": "o-mar", "pt": "o mar", "de": "das Meer", "emoji": "🌊", "beispiel_pt": "O mar é muito bonito.", "beispiel_de": "Das Meer ist sehr schön."},
+  {"id": "trabalhar", "pt": "trabalhar", "de": "arbeiten", "emoji": "💼", "beispiel_pt": "Trabalho em casa.", "beispiel_de": "Ich arbeite zu Hause."},
+
+  {"id": "falar", "pt": "falar", "de": "sprechen", "emoji": "🗣️", "beispiel_pt": "Fala português?", "beispiel_de": "Sprechen Sie Portugiesisch?"},
+  {"id": "o-portugues", "pt": "o português", "de": "Portugiesisch (Sprache)", "emoji": "💬", "beispiel_pt": "O português é bonito.", "beispiel_de": "Portugiesisch ist schön."},
+  {"id": "o-alemao", "pt": "o alemão", "de": "Deutsch (Sprache)", "emoji": "💬", "beispiel_pt": "Falo alemão.", "beispiel_de": "Ich spreche Deutsch."},
+  {"id": "o-ingles", "pt": "o inglês", "de": "Englisch (Sprache)", "emoji": "💬", "beispiel_pt": "Falo bem inglês.", "beispiel_de": "Ich spreche gut Englisch."},
+  {"id": "bem", "pt": "bem", "de": "gut (wie man etwas tut)", "emoji": "👍", "beispiel_pt": "Ela fala muito bem.", "beispiel_de": "Sie spricht sehr gut."},
+  {"id": "mal", "pt": "mal", "de": "schlecht", "emoji": "👎", "beispiel_pt": "Falo mal espanhol.", "beispiel_de": "Ich spreche schlecht Spanisch."},
+  {"id": "um-pouco", "pt": "um pouco", "de": "ein bisschen", "emoji": "🤏", "beispiel_pt": "Falo um pouco de português.", "beispiel_de": "Ich spreche ein bisschen Portugiesisch."},
+  {"id": "aprender", "pt": "aprender", "de": "lernen", "emoji": "📚", "beispiel_pt": "Estou a aprender português.", "beispiel_de": "Ich lerne (gerade) Portugiesisch."},
+  {"id": "a-lingua", "pt": "a língua", "de": "die Sprache", "emoji": "👅", "beispiel_pt": "Que línguas fala?", "beispiel_de": "Welche Sprachen sprechen Sie?"},
+  {"id": "perceber", "pt": "perceber", "de": "verstehen", "emoji": "💡", "beispiel_pt": "Percebe inglês?", "beispiel_de": "Verstehen Sie Englisch?"},
+
+  {"id": "tu", "pt": "tu", "de": "du", "emoji": "🧑", "beispiel_pt": "Tu és o Tiago?", "beispiel_de": "Bist du Tiago?"},
+  {"id": "es", "pt": "és", "de": "du bist", "emoji": "👉", "beispiel_pt": "És alemão?", "beispiel_de": "Bist du Deutscher?"},
+  {"id": "como-te-chamas", "pt": "Como te chamas?", "de": "Wie heißt du?", "emoji": "🏷️", "beispiel_pt": "Olá! Como te chamas?", "beispiel_de": "Hallo! Wie heißt du?"},
+  {"id": "de-onde-es", "pt": "De onde és?", "de": "Woher kommst du?", "emoji": "🌍", "beispiel_pt": "De onde és? – Sou de Lisboa.", "beispiel_de": "Woher kommst du? – Aus Lissabon."},
+  {"id": "onde-moras", "pt": "Onde moras?", "de": "Wo wohnst du?", "emoji": "🏡", "beispiel_pt": "Onde moras? – Em Portimão.", "beispiel_de": "Wo wohnst du? – In Portimão."},
+  {"id": "e-tu", "pt": "E tu?", "de": "Und du?", "emoji": "↩️", "beispiel_pt": "Chamo-me Stefan. E tu?", "beispiel_de": "Ich heiße Stefan. Und du?"},
+  {"id": "o-amigo", "pt": "o amigo", "de": "der Freund", "emoji": "🤝", "beispiel_pt": "O Tiago é um amigo.", "beispiel_de": "Tiago ist ein Freund.", "hinweis": "Freundin: a amiga", "alternativen": ["a amiga"]},
+  {"id": "o-colega", "pt": "o colega", "de": "der Kollege", "emoji": "👔", "beispiel_pt": "Ele é um colega.", "beispiel_de": "Er ist ein Kollege.", "hinweis": "Kollegin: a colega"},
+  {"id": "fixe", "pt": "fixe", "de": "cool / super (umgangssprachlich)", "emoji": "😎", "beispiel_pt": "Que fixe!", "beispiel_de": "Wie cool!", "hinweis": "Typisch Portugal, nur locker unter Freunden."},
+
+  {"id": "o-que-faz", "pt": "O que faz?", "de": "Was machen Sie (beruflich)?", "emoji": "❓", "beispiel_pt": "O que faz? – Sou consultor.", "beispiel_de": "Was machen Sie beruflich? – Ich bin Berater.", "alternativen": ["O que é que faz?"]},
+  {"id": "o-trabalho", "pt": "o trabalho", "de": "die Arbeit", "emoji": "🧰", "beispiel_pt": "O trabalho é interessante.", "beispiel_de": "Die Arbeit ist interessant."},
+  {"id": "consultor", "pt": "o consultor", "de": "der Berater", "emoji": "📊", "beispiel_pt": "Sou consultor.", "beispiel_de": "Ich bin Berater.", "hinweis": "weiblich: a consultora"},
+  {"id": "o-empresario", "pt": "o empresário", "de": "der Unternehmer", "emoji": "🏢", "beispiel_pt": "Ele é empresário.", "beispiel_de": "Er ist Unternehmer.", "hinweis": "weiblich: a empresária"},
+  {"id": "a-empresa", "pt": "a empresa", "de": "die Firma", "emoji": "🏭", "beispiel_pt": "Trabalho para uma empresa alemã.", "beispiel_de": "Ich arbeite für eine deutsche Firma."},
+  {"id": "o-professor", "pt": "o professor", "de": "der Lehrer", "emoji": "👨‍🏫", "beispiel_pt": "O Paulo é professor.", "beispiel_de": "Paulo ist Lehrer.", "hinweis": "weiblich: a professora"},
+  {"id": "o-medico", "pt": "o médico", "de": "der Arzt", "emoji": "🩺", "beispiel_pt": "A Ana é médica.", "beispiel_de": "Ana ist Ärztin.", "hinweis": "weiblich: a médica"},
+  {"id": "o-engenheiro", "pt": "o engenheiro", "de": "der Ingenieur", "emoji": "👷", "beispiel_pt": "Sou engenheiro.", "beispiel_de": "Ich bin Ingenieur.", "hinweis": "weiblich: a engenheira"},
+  {"id": "reformado", "pt": "reformado", "de": "in Rente / Rentner", "emoji": "👴", "beispiel_pt": "Agora estou reformado.", "beispiel_de": "Jetzt bin ich in Rente.", "hinweis": "Portugal: reformado – Brasilien: aposentado", "alternativen": ["reformada"]},
+  {"id": "o-cliente", "pt": "o cliente", "de": "der Kunde", "emoji": "🤝", "beispiel_pt": "Tenho clientes em Portugal.", "beispiel_de": "Ich habe Kunden in Portugal."},
+  {"id": "trabalhar-para", "pt": "trabalhar para", "de": "arbeiten für", "emoji": "🏷️", "beispiel_pt": "Trabalho para uma empresa portuguesa.", "beispiel_de": "Ich arbeite für eine portugiesische Firma."},
+
+  {"id": "vinte-e-um", "pt": "vinte e um", "de": "einundzwanzig", "emoji": "🔢", "beispiel_pt": "Vinte e um euros.", "beispiel_de": "Einundzwanzig Euro.", "alternativen": ["vinte e uma"]},
+  {"id": "trinta", "pt": "trinta", "de": "dreißig", "emoji": "🔢", "beispiel_pt": "Trinta minutos.", "beispiel_de": "Dreißig Minuten."},
+  {"id": "quarenta", "pt": "quarenta", "de": "vierzig", "emoji": "🔢", "beispiel_pt": "Número quarenta.", "beispiel_de": "Nummer vierzig."},
+  {"id": "cinquenta", "pt": "cinquenta", "de": "fünfzig", "emoji": "🔢", "beispiel_pt": "Cinquenta euros.", "beispiel_de": "Fünfzig Euro."},
+  {"id": "sessenta", "pt": "sessenta", "de": "sechzig", "emoji": "🔢", "beispiel_pt": "Sessenta minutos.", "beispiel_de": "Sechzig Minuten.", "hinweis": "sess- = 60, set- = 70"},
+  {"id": "setenta", "pt": "setenta", "de": "siebzig", "emoji": "🔢", "beispiel_pt": "Senha setenta.", "beispiel_de": "Wartenummer siebzig."},
+  {"id": "oitenta", "pt": "oitenta", "de": "achtzig", "emoji": "🔢", "beispiel_pt": "Oitenta euros.", "beispiel_de": "Achtzig Euro."},
+  {"id": "noventa", "pt": "noventa", "de": "neunzig", "emoji": "🔢", "beispiel_pt": "Noventa e nove.", "beispiel_de": "Neunundneunzig."},
+  {"id": "cem", "pt": "cem", "de": "hundert", "emoji": "💯", "beispiel_pt": "Cem euros.", "beispiel_de": "Hundert Euro."},
+  {"id": "a-rua", "pt": "a rua", "de": "die Straße", "emoji": "🛣️", "beispiel_pt": "Moro na Rua do Mar.", "beispiel_de": "Ich wohne in der Rua do Mar."},
+  {"id": "ate-ja", "pt": "até já", "de": "bis gleich", "emoji": "⏩", "beispiel_pt": "Obrigado! Até já.", "beispiel_de": "Danke! Bis gleich."}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-02-L01",
+   "typ": "neu",
+   "titel": "Herkunft und Nationalität",
+   "vokabeln": ["de-onde-e", "sou-de", "alemanha", "portugal", "alemao", "portugues-adj", "ingles", "o-pais", "a-cidade", "bonito"],
+   "grammatik": {
+    "titel": "ser de – und Nationalitäten",
+    "erklaerung": [
+     "Herkunft: <b>ser de</b> + Ort: <i>Sou de Munique.</i> Bei Ländern mit Artikel verschmilzt <i>de</i>: de + a = <b>da</b> (<i>Sou da Alemanha</i>), de + o = <b>do</b> (<i>É do Porto</i>). Portugal hat keinen Artikel: <i>Sou de Portugal.</i>",
+     "Nationalitäten sind Adjektive und richten sich nach dem Geschlecht: <b>alemão → alemã</b>, <b>português → portuguesa</b>, <b>inglês → inglesa</b>, <b>espanhol → espanhola</b>.",
+     "Sie werden kleingeschrieben und stehen nach <i>ser</i> ohne Artikel: <i>Ele é alemão.</i> – Er ist Deutscher."
+    ],
+    "vergleich": "Englisch schreibt Nationalitäten groß (German), Portugiesisch klein: <i>alemão</i>. Und wie im Deutschen ohne „ein“: <i>Sou alemão</i> – Ich bin Deutscher.",
+    "beispiele": [
+     {"pt": "De onde é? – Sou da Alemanha, de Munique.", "de": "Woher kommen Sie? – Aus Deutschland, aus München."},
+     {"pt": "A Ana é portuguesa, de Faro.", "de": "Ana ist Portugiesin, aus Faro."},
+     {"pt": "O John é inglês.", "de": "John ist Engländer."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Sou ___ Alemanha.", "loesungen": ["da"], "de": "Ich komme aus Deutschland.", "erklaerung": "de + a (a Alemanha) = da", "kategorie": "Präposition + Artikel"},
+     {"typ": "auswahl", "frage": "Die Nachbarin Fernanda ist Portugiesin. Sie ist …", "optionen": ["português", "portuguesa", "Portugal"], "richtig": 1, "erklaerung": "weiblich: portuguesa", "kategorie": "Genus"},
+     {"typ": "luecke", "satz": "O Stefan é ___.", "loesungen": ["alemão"], "de": "Stefan ist Deutscher."},
+     {"typ": "auswahl", "frage": "„Sie ist Engländerin.“", "optionen": ["Ela é inglês.", "Ela é inglesa.", "Ela é uma inglesa."], "richtig": 1, "erklaerung": "weiblich: inglesa – und kein Artikel nach ser.", "kategorie": "Genus"},
+     {"typ": "uebersetzen", "de": "Woher kommen Sie?", "loesungen": ["De onde é?", "De onde é o senhor?", "De onde é a senhora?"]},
+     {"typ": "satzbau", "de": "Ich komme aus Deutschland, aus München.", "loesung": "Sou da Alemanha, de Munique."},
+     {"typ": "uebersetzen", "de": "Portugal ist ein schönes Land.", "loesungen": ["Portugal é um país bonito."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "No café da esquina – im Café an der Ecke",
+    "situation": "Eine Frau spricht Stefan im Café an.",
+    "zeilen": [
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Bom dia! O senhor é inglês?", "de": "Guten Morgen! Sind Sie Engländer?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, sou alemão. Sou de Munique.", "de": "Nein, ich bin Deutscher. Ich komme aus München."},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Ah, de Munique! E mora aqui no Algarve?", "de": "Ah, aus München! Und wohnen Sie hier an der Algarve?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Moro, sim. E a senhora, de onde é?", "de": "Ja. Und Sie, woher kommen Sie?"},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Sou portuguesa, do Porto. Mas moro em Faro.", "de": "Ich bin Portugiesin, aus Porto. Aber ich wohne in Faro."}
+    ],
+    "fragen": [
+     {"frage": "Woher kommt Stefan?", "optionen": ["aus München", "aus London", "aus Porto"], "richtig": 0},
+     {"frage": "Woher kommt die Frau?", "optionen": ["aus Porto", "aus Faro", "aus Lissabon"], "richtig": 0},
+     {"frage": "Wo wohnt die Frau?", "optionen": ["in Faro", "in Porto", "in Lagos"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach. Achte auf das nasale „ão“ in alemão.",
+    "saetze": [
+     {"pt": "Sou alemão.", "de": "Ich bin Deutscher."},
+     {"pt": "Sou da Alemanha, de Munique.", "de": "Ich komme aus Deutschland, aus München."},
+     {"pt": "Ela é portuguesa.", "de": "Sie ist Portugiesin."},
+     {"pt": "De onde é?", "de": "Woher kommen Sie?"},
+     {"pt": "Portugal é um país bonito.", "de": "Portugal ist ein schönes Land."}
+    ]
+   },
+   "saetze": [
+    {"id": "sou-da-alemanha", "pt": "Sou da Alemanha, de Munique.", "de": "Ich komme aus Deutschland, aus München."},
+    {"id": "de-onde-e-sou-alemao", "pt": "De onde é? – Sou alemão.", "de": "Woher kommen Sie? – Ich bin Deutscher."},
+    {"id": "ela-e-portuguesa", "pt": "Ela é portuguesa, do Porto.", "de": "Sie ist Portugiesin, aus Porto."}
+   ]
+  },
+  {
+   "id": "A1-02-L02",
+   "typ": "neu",
+   "titel": "Wo ich wohne",
+   "vokabeln": ["morar", "onde-mora", "em", "aqui", "perto-de", "longe", "ha-anos", "a-praia", "o-mar", "trabalhar"],
+   "grammatik": {
+    "titel": "Verben auf -ar und „in“: em, no, na",
+    "erklaerung": [
+     "Die meisten Verben enden auf <b>-ar</b>. Präsens Singular: <b>eu moro</b> (ich wohne) · <b>tu moras</b> · <b>o senhor / ele / ela mora</b>. Genauso: <i>trabalho, trabalhas, trabalha</i>.",
+     "„In“ heißt <b>em</b>. Mit dem Artikel verschmilzt es: em + o = <b>no</b> (<i>no Algarve</i>), em + a = <b>na</b> (<i>na Alemanha</i>). Städte meist ohne Artikel: <i>em Faro, em Lagos</i>.",
+     "<b>há</b> + Zeitraum mit Präsens bedeutet „seit“: <i>Moro aqui há dois anos.</i> – Ich wohne seit zwei Jahren hier."
+    ],
+    "vergleich": "Englisch: <i>I live / he lives</i> – Portugiesisch hat für jede Person eine eigene Endung, deshalb lässt man <i>eu</i> und <i>ele</i> meist weg.",
+    "beispiele": [
+     {"pt": "Onde mora? – Moro no Algarve, perto de Lagos.", "de": "Wo wohnen Sie? – An der Algarve, in der Nähe von Lagos."},
+     {"pt": "Trabalho em casa.", "de": "Ich arbeite zu Hause."},
+     {"pt": "Moro em Portugal há dois anos.", "de": "Ich wohne seit zwei Jahren in Portugal."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ no Algarve.", "loesungen": ["moro"], "de": "Ich wohne an der Algarve.", "kategorie": "-ar-Verben"},
+     {"typ": "luecke", "satz": "A senhora ___ em Faro?", "loesungen": ["mora"], "de": "Wohnen Sie in Faro?", "kategorie": "-ar-Verben"},
+     {"typ": "auswahl", "frage": "„an der Algarve“ heißt …", "optionen": ["em o Algarve", "no Algarve", "na Algarve"], "richtig": 1, "erklaerung": "em + o = no – o Algarve ist männlich.", "kategorie": "Präposition + Artikel"},
+     {"typ": "luecke", "satz": "A Anna mora ___ Alemanha.", "loesungen": ["na"], "de": "Anna wohnt in Deutschland.", "erklaerung": "em + a = na", "kategorie": "Präposition + Artikel"},
+     {"typ": "uebersetzen", "de": "Ich arbeite zu Hause.", "loesungen": ["Trabalho em casa.", "Eu trabalho em casa."]},
+     {"typ": "uebersetzen", "de": "Ich wohne seit zwei Jahren in Portugal.", "loesungen": ["Moro em Portugal há dois anos.", "Moro há dois anos em Portugal.", "Eu moro em Portugal há dois anos."], "kategorie": "há + Zeitraum"},
+     {"typ": "satzbau", "de": "Ich wohne in der Nähe des Strandes.", "loesung": "Moro perto da praia."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na loja – im Laden",
+    "situation": "Eine Verkäuferin plaudert mit Stefan.",
+    "zeilen": [
+     {"sprecher": "Empregada", "stimme": "f", "pt": "O senhor mora aqui em Lagos?", "de": "Wohnen Sie hier in Lagos?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, moro perto de Lagos, na Luz.", "de": "Nein, ich wohne in der Nähe von Lagos, in Luz."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Ah, perto da praia! Há quanto tempo mora no Algarve?", "de": "Ah, in der Nähe des Strandes! Wie lange wohnen Sie schon an der Algarve?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Há dois anos.", "de": "Seit zwei Jahren."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "E trabalha aqui?", "de": "Und arbeiten Sie hier?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Trabalho, sim. Trabalho em casa.", "de": "Ja. Ich arbeite zu Hause."}
+    ],
+    "fragen": [
+     {"frage": "Wo wohnt Stefan?", "optionen": ["in Luz, bei Lagos", "mitten in Lagos", "in Faro"], "richtig": 0},
+     {"frage": "Seit wann wohnt er an der Algarve?", "optionen": ["seit zwei Jahren", "seit zwei Monaten", "seit zwölf Jahren"], "richtig": 0},
+     {"frage": "Wo arbeitet er?", "optionen": ["zu Hause", "in einem Laden in Lagos", "am Strand"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Eine neue Bekannte, Rita, fragt dich nach deinem Wohnort.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Olá! Onde mora?", "de": "Hallo! Wo wohnen Sie?"},
+     {"ich": true, "aufgabe": "Sag: Ich wohne an der Algarve, in der Nähe von Lagos.", "loesungen": ["Moro no Algarve, perto de Lagos.", "Eu moro no Algarve, perto de Lagos."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Há quanto tempo mora em Portugal?", "de": "Wie lange wohnen Sie schon in Portugal?"},
+     {"ich": true, "aufgabe": "Sag: Seit zwei Jahren.", "loesungen": ["Há dois anos.", "Moro em Portugal há dois anos.", "Moro aqui há dois anos."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E trabalha?", "de": "Und arbeiten Sie?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich arbeite zu Hause.", "loesungen": ["Trabalho, sim. Trabalho em casa.", "Sim, trabalho em casa.", "Trabalho em casa."]}
+    ]
+   },
+   "saetze": [
+    {"id": "moro-no-algarve", "pt": "Moro no Algarve, perto de Lagos.", "de": "Ich wohne an der Algarve, in der Nähe von Lagos."},
+    {"id": "moro-ha-dois-anos", "pt": "Moro em Portugal há dois anos.", "de": "Ich wohne seit zwei Jahren in Portugal."},
+    {"id": "trabalho-em-casa", "pt": "Trabalho em casa.", "de": "Ich arbeite zu Hause."}
+   ]
+  },
+  {
+   "id": "A1-02-L03",
+   "typ": "neu",
+   "titel": "Sprachen",
+   "vokabeln": ["falar", "o-portugues", "o-alemao", "o-ingles", "bem", "mal", "um-pouco", "aprender", "a-lingua", "perceber"],
+   "grammatik": {
+    "titel": "Sprachen – und bom oder bem?",
+    "erklaerung": [
+     "Sprachen sind männlich und werden kleingeschrieben: <b>o português, o alemão, o inglês</b>. Nach <i>falar</i> meist ohne Artikel: <i>Falo alemão e inglês.</i>",
+     "<b>bem</b> (gut), <b>mal</b> (schlecht), <b>muito bem</b> und <b>um pouco</b> beschreiben, <i>wie</i> man etwas tut: <i>Falo bem inglês. Falo um pouco de português.</i>",
+     "Achtung: <b>bom</b> ist ein Adjektiv und beschreibt Dinge oder Personen (<i>um bom dia, um bom professor</i>). <b>bem</b> ist ein Adverb und beschreibt eine Tätigkeit (<i>fala bem</i>)."
+    ],
+    "vergleich": "Genau wie englisch <i>good</i> vs. <i>well</i>: a good teacher = um bom professor, he speaks well = fala bem.",
+    "beispiele": [
+     {"pt": "Fala inglês? – Falo, sim, muito bem.", "de": "Sprechen Sie Englisch? – Ja, sehr gut."},
+     {"pt": "Falo alemão, inglês e um pouco de português.", "de": "Ich spreche Deutsch, Englisch und ein bisschen Portugiesisch."},
+     {"pt": "Estou a aprender português.", "de": "Ich lerne gerade Portugiesisch."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Sie spricht gut Englisch.“", "optionen": ["Ela fala bom inglês.", "Ela fala bem inglês.", "Ela é bem inglês."], "richtig": 1, "erklaerung": "Wie sie spricht → Adverb bem.", "kategorie": "bom/bem"},
+     {"typ": "luecke", "satz": "Falo ___ pouco de português.", "loesungen": ["um"], "de": "Ich spreche ein bisschen Portugiesisch."},
+     {"typ": "luecke", "satz": "A Ana fala ___ alemão.", "loesungen": ["mal"], "de": "Ana spricht schlecht Deutsch."},
+     {"typ": "uebersetzen", "de": "Sprechen Sie Englisch?", "loesungen": ["Fala inglês?", "O senhor fala inglês?", "A senhora fala inglês?"]},
+     {"typ": "uebersetzen", "de": "Ich spreche Deutsch und Englisch.", "loesungen": ["Falo alemão e inglês.", "Eu falo alemão e inglês."]},
+     {"typ": "satzbau", "de": "Ich lerne gerade Portugiesisch.", "loesung": "Estou a aprender português."},
+     {"typ": "auswahl", "frage": "Was ist richtig?", "optionen": ["um bem dia", "um bom dia"], "richtig": 1, "erklaerung": "dia ist ein Ding → Adjektiv bom.", "kategorie": "bom/bem"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na escola de línguas – in der Sprachschule",
+    "situation": "Stefan meldet sich für einen Portugiesischkurs an.",
+    "zeilen": [
+     {"sprecher": "Professora", "stimme": "f", "pt": "Bom dia! Fala português?", "de": "Guten Morgen! Sprechen Sie Portugiesisch?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Falo um pouco. Estou a aprender.", "de": "Ein bisschen. Ich lerne gerade."},
+     {"sprecher": "Professora", "stimme": "f", "pt": "Muito bem! E que línguas fala?", "de": "Sehr gut! Und welche Sprachen sprechen Sie?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Falo alemão, claro, e inglês. Inglês falo bem.", "de": "Deutsch natürlich, und Englisch. Englisch spreche ich gut."},
+     {"sprecher": "Professora", "stimme": "f", "pt": "E espanhol?", "de": "Und Spanisch?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, espanhol não falo.", "de": "Nein, Spanisch spreche ich nicht."}
+    ],
+    "fragen": [
+     {"frage": "Welche Sprachen spricht Stefan?", "optionen": ["Deutsch, Englisch und etwas Portugiesisch", "Deutsch und Spanisch", "nur Deutsch"], "richtig": 0},
+     {"frage": "Wie gut ist sein Englisch?", "optionen": ["gut", "schlecht", "er spricht kein Englisch"], "richtig": 0},
+     {"frage": "Spricht er Spanisch?", "optionen": ["nein", "ja, gut", "ein bisschen"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich spreche ein bisschen Portugiesisch.", "loesungen": ["Falo um pouco de português.", "Eu falo um pouco de português."]},
+     {"de": "Ich spreche gut Englisch.", "loesungen": ["Falo bem inglês.", "Falo inglês bem.", "Eu falo bem inglês."]},
+     {"de": "Sprechen Sie Deutsch?", "loesungen": ["Fala alemão?", "O senhor fala alemão?", "A senhora fala alemão?"]},
+     {"de": "Ich lerne gerade Portugiesisch.", "loesungen": ["Estou a aprender português.", "Eu estou a aprender português."]}
+    ]
+   },
+   "saetze": [
+    {"id": "falo-alemao-ingles", "pt": "Falo alemão, inglês e um pouco de português.", "de": "Ich spreche Deutsch, Englisch und ein bisschen Portugiesisch."},
+    {"id": "estou-a-aprender", "pt": "Estou a aprender português.", "de": "Ich lerne gerade Portugiesisch."},
+    {"id": "fala-ingles-falo", "pt": "Fala inglês? – Falo, sim.", "de": "Sprechen Sie Englisch? – Ja."}
+   ]
+  },
+  {
+   "id": "A1-02-L04",
+   "typ": "neu",
+   "titel": "Du oder Sie? – tu",
+   "vokabeln": ["tu", "es", "como-te-chamas", "de-onde-es", "onde-moras", "e-tu", "o-amigo", "o-colega", "fixe"],
+   "grammatik": {
+    "titel": "tu – die vertraute Anrede",
+    "erklaerung": [
+     "<b>tu</b> benutzt man in Portugal mit Freunden, Familie, Kindern, unter Jüngeren und oft unter Kollegen. Fremde, Ältere, Behörden, Handwerker und Kunden spricht man höflich an – mit <i>o senhor / a senhora</i> oder ganz ohne Pronomen.",
+     "Die tu-Form endet im Präsens auf <b>-s</b>: <i>moras, falas, trabalhas</i>. Bei ser: <b>tu és</b>. Auch <i>tu</i> lässt man oft weg: <i>Onde moras?</i>",
+     "<b>Como te chamas?</b> – Wie heißt du? (te = dich). Die Antwort bleibt: <i>Chamo-me …</i>",
+     "Und „você“? Das gibt es auch, klingt in Portugal aber oft distanziert oder sogar unhöflich. Sicher bist du mit <i>tu</i> oder <i>o senhor / a senhora</i>."
+    ],
+    "vergleich": "Wie du/Sie im Deutschen – und wie dort benutzt die Höflichkeitsform die Verbform von „er/sie“: <i>mora</i> = er wohnt / Sie wohnen.",
+    "beispiele": [
+     {"pt": "Olá! Como te chamas? – Chamo-me Stefan. E tu?", "de": "Hallo! Wie heißt du? – Ich heiße Stefan. Und du?"},
+     {"pt": "De onde és? – Sou de Munique.", "de": "Woher kommst du? – Aus München."},
+     {"pt": "Onde moras? – Moro em Lagos.", "de": "Wo wohnst du? – In Lagos."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Du sprichst mit dem 8-jährigen Sohn der Nachbarin. Was fragst du?", "optionen": ["Como se chama?", "Como te chamas?"], "richtig": 1, "erklaerung": "Kinder duzt man: tu.", "kategorie": "tu / o senhor"},
+     {"typ": "auswahl", "frage": "Du sprichst mit dem Beamten bei den Finanças. Was fragst du?", "optionen": ["Onde moras?", "Onde mora?"], "richtig": 1, "erklaerung": "Auf Ämtern immer höflich: mora.", "kategorie": "tu / o senhor"},
+     {"typ": "luecke", "satz": "Tu ___ alemão?", "loesungen": ["és"], "de": "Bist du Deutscher?", "kategorie": "ser"},
+     {"typ": "luecke", "satz": "Onde ___?", "loesungen": ["moras"], "de": "Wo wohnst du?", "kategorie": "-ar-Verben"},
+     {"typ": "uebersetzen", "de": "Woher kommst du?", "loesungen": ["De onde és?", "De onde és tu?", "Tu és de onde?"]},
+     {"typ": "uebersetzen", "de": "Sprichst du Englisch?", "loesungen": ["Falas inglês?", "Tu falas inglês?"]},
+     {"typ": "satzbau", "de": "Ich heiße Rita. Und du?", "loesung": "Chamo-me Rita. E tu?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na praia – am Strand",
+    "situation": "Stefan lernt am Strand den jungen Surfer Tiago kennen.",
+    "zeilen": [
+     {"sprecher": "Tiago", "stimme": "m", "pt": "Olá! És novo aqui? Como te chamas?", "de": "Hallo! Bist du neu hier? Wie heißt du?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Olá! Chamo-me Stefan. E tu?", "de": "Hallo! Ich heiße Stefan. Und du?"},
+     {"sprecher": "Tiago", "stimme": "m", "pt": "Eu sou o Tiago. De onde és?", "de": "Ich bin Tiago. Woher kommst du?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sou alemão, mas moro aqui perto.", "de": "Ich bin Deutscher, aber ich wohne hier in der Nähe."},
+     {"sprecher": "Tiago", "stimme": "m", "pt": "Fixe! Falas bem português!", "de": "Cool! Du sprichst gut Portugiesisch!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado, mas só falo um pouco.", "de": "Danke, aber ich spreche nur ein bisschen."}
+    ],
+    "fragen": [
+     {"frage": "Wie heißt der junge Mann?", "optionen": ["Tiago", "Rui", "Paulo"], "richtig": 0},
+     {"frage": "Was sagt Tiago über Stefans Portugiesisch?", "optionen": ["Er spricht gut Portugiesisch.", "Er spricht kein Portugiesisch.", "Er spricht zu schnell."], "richtig": 0},
+     {"frage": "Was bedeutet „Fixe!“?", "optionen": ["Cool!", "Schade!", "Danke!"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Auf einer Party lernst du Joana kennen – ihr duzt euch.",
+    "zeilen": [
+     {"sprecher": "Joana", "stimme": "f", "pt": "Olá! Eu sou a Joana. Como te chamas?", "de": "Hallo! Ich bin Joana. Wie heißt du?"},
+     {"ich": true, "aufgabe": "Sag deinen Namen und dass du dich freust.", "loesungen": ["Chamo-me Stefan. Muito prazer!", "Chamo-me Stefan, muito prazer.", "Sou o Stefan. Muito prazer!"]},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Muito prazer! De onde és?", "de": "Sehr erfreut! Woher kommst du?"},
+     {"ich": true, "aufgabe": "Sag: Ich komme aus Deutschland. Und du?", "loesungen": ["Sou da Alemanha. E tu?", "Sou alemão. E tu?"]},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Sou de Lisboa, mas moro em Portimão.", "de": "Ich komme aus Lissabon, aber ich wohne in Portimão."},
+     {"ich": true, "aufgabe": "Frag: Sprichst du Deutsch?", "loesungen": ["Falas alemão?", "Tu falas alemão?"]},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Não, mas falo inglês!", "de": "Nein, aber ich spreche Englisch!"}
+    ]
+   },
+   "saetze": [
+    {"id": "como-te-chamas-stefan", "pt": "Como te chamas? – Chamo-me Stefan.", "de": "Wie heißt du? – Ich heiße Stefan."},
+    {"id": "de-onde-es-frase", "pt": "De onde és? – Sou de Lisboa.", "de": "Woher kommst du? – Aus Lissabon."},
+    {"id": "falas-ingles", "pt": "Falas inglês?", "de": "Sprichst du Englisch?"}
+   ]
+  },
+  {
+   "id": "A1-02-L05",
+   "typ": "neu",
+   "titel": "Beruf",
+   "vokabeln": ["o-que-faz", "o-trabalho", "consultor", "o-empresario", "a-empresa", "o-professor", "o-medico", "o-engenheiro", "reformado", "o-cliente", "trabalhar-para"],
+   "grammatik": {
+    "titel": "Berufe – ohne Artikel, mit weiblicher Form",
+    "erklaerung": [
+     "Den Beruf nennt man mit <b>ser</b> und <b>ohne Artikel</b>: <i>Sou consultor.</i> – Ich bin Berater.",
+     "Weibliche Formen: <b>-o → -a</b> (<i>médico → médica</i>), <b>-or → -ora</b> (<i>professor → professora</i>), <b>-ário → -ária</b> (<i>empresário → empresária</i>). Manche bleiben gleich: <i>o/a cliente, o/a colega</i>.",
+     "Höflich nach dem Beruf fragen: <b>O que faz?</b> oder <b>Qual é a sua profissão?</b> Unter Freunden: <i>O que fazes?</i>",
+     "Für wen man arbeitet: <b>trabalhar para</b> – <i>Trabalho para uma empresa alemã.</i> Wo: <b>trabalhar em</b> – <i>Trabalho em casa.</i>"
+    ],
+    "vergleich": "Wie im Deutschen „Ich bin Lehrer“ – im Englischen bräuchte man „a“: <i>I am a teacher</i>.",
+    "beispiele": [
+     {"pt": "O que faz? – Sou consultor.", "de": "Was machen Sie beruflich? – Ich bin Berater."},
+     {"pt": "A Ana é médica.", "de": "Ana ist Ärztin."},
+     {"pt": "Trabalho para uma empresa alemã.", "de": "Ich arbeite für eine deutsche Firma."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich bin Berater.“", "optionen": ["Sou um consultor.", "Sou consultor.", "Estou consultor."], "richtig": 1, "erklaerung": "Beruf: ser ohne Artikel.", "kategorie": "ser/estar"},
+     {"typ": "luecke", "satz": "A Ana é ___.", "loesungen": ["médica"], "de": "Ana ist Ärztin.", "kategorie": "Genus"},
+     {"typ": "luecke", "satz": "A Joana é ___.", "loesungen": ["professora"], "de": "Joana ist Lehrerin.", "kategorie": "Genus"},
+     {"typ": "uebersetzen", "de": "Was machen Sie beruflich?", "loesungen": ["O que faz?", "O que é que faz?", "Qual é a sua profissão?"]},
+     {"typ": "uebersetzen", "de": "Ich arbeite für eine deutsche Firma.", "loesungen": ["Trabalho para uma empresa alemã.", "Eu trabalho para uma empresa alemã."]},
+     {"typ": "auswahl", "frage": "Senhor Costa arbeitet nicht mehr, er ist Rentner. Er ist …", "optionen": ["reformado", "aposentado", "cansado"], "richtig": 0, "erklaerung": "In Portugal: reformado. „aposentado“ ist brasilianisch."},
+     {"typ": "satzbau", "de": "Sie ist Unternehmerin.", "loesung": "Ela é empresária."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um jantar – ein Abendessen",
+    "situation": "Stefan sitzt beim Abendessen neben Senhor Costa.",
+    "zeilen": [
+     {"sprecher": "Senhor Costa", "stimme": "m", "pt": "Então, senhor Stefan, o que faz?", "de": "Also, Herr Stefan, was machen Sie beruflich?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sou consultor. Trabalho para empresas alemãs e portuguesas.", "de": "Ich bin Berater. Ich arbeite für deutsche und portugiesische Firmen."},
+     {"sprecher": "Senhor Costa", "stimme": "m", "pt": "Ah, muito interessante! Trabalha em casa?", "de": "Ah, sehr interessant! Arbeiten Sie zu Hause?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, normalmente trabalho em casa. E o senhor?", "de": "Ja, normalerweise arbeite ich zu Hause. Und Sie?"},
+     {"sprecher": "Senhor Costa", "stimme": "m", "pt": "Eu sou engenheiro, mas agora estou reformado.", "de": "Ich bin Ingenieur, aber jetzt bin ich in Rente."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ah, que bom!", "de": "Ah, wie schön!"}
+    ],
+    "fragen": [
+     {"frage": "Was ist Stefan von Beruf?", "optionen": ["Berater", "Ingenieur", "Lehrer"], "richtig": 0},
+     {"frage": "Für wen arbeitet er?", "optionen": ["für deutsche und portugiesische Firmen", "nur für deutsche Firmen", "für die Stadt Lagos"], "richtig": 0},
+     {"frage": "Was macht Senhor Costa heute?", "optionen": ["Er ist in Rente.", "Er arbeitet als Ingenieur.", "Er ist Arzt."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Sou consultor.", "de": "Ich bin Berater."},
+     {"pt": "Trabalho para uma empresa alemã.", "de": "Ich arbeite für eine deutsche Firma."},
+     {"pt": "O que faz?", "de": "Was machen Sie beruflich?"},
+     {"pt": "A Ana é médica.", "de": "Ana ist Ärztin."},
+     {"pt": "Ele está reformado.", "de": "Er ist in Rente."}
+    ]
+   },
+   "saetze": [
+    {"id": "o-que-faz-sou-consultor", "pt": "O que faz? – Sou consultor.", "de": "Was machen Sie beruflich? – Ich bin Berater."},
+    {"id": "trabalho-para-empresa", "pt": "Trabalho para uma empresa alemã.", "de": "Ich arbeite für eine deutsche Firma."},
+    {"id": "esta-reformado", "pt": "Ele é engenheiro, mas agora está reformado.", "de": "Er ist Ingenieur, aber jetzt ist er in Rente."}
+   ]
+  },
+  {
+   "id": "A1-02-L06",
+   "typ": "neu",
+   "titel": "Zahlen bis 100 und die Adresse",
+   "vokabeln": ["vinte-e-um", "trinta", "quarenta", "cinquenta", "sessenta", "setenta", "oitenta", "noventa", "cem", "a-rua", "ate-ja"],
+   "grammatik": {
+    "titel": "Zahlen 21–100",
+    "erklaerung": [
+     "Zehner: <b>vinte, trinta, quarenta, cinquenta, sessenta, setenta, oitenta, noventa</b> – und <b>cem</b> (100).",
+     "Zehner und Einer verbindet man mit <b>e</b> („und“), aber zuerst die Zehner: <b>trinta e cinco</b> = 35 (dreißig und fünf).",
+     "Bei weiblichen Nomen: <b>vinte e uma</b> casas, <b>trinta e duas</b> pessoas.",
+     "Gut hinhören: <b>sessenta</b> (60) und <b>setenta</b> (70) klingen ähnlich – sess- ist 60, set- ist 70."
+    ],
+    "vergleich": "Wie im Englischen: thirty-five = <i>trinta e cinco</i> – die Zehner zuerst, anders als im Deutschen.",
+    "beispiele": [
+     {"pt": "Moro na Rua do Mar, número quarenta e cinco.", "de": "Ich wohne in der Rua do Mar, Nummer 45."},
+     {"pt": "Senha número setenta e três.", "de": "Wartenummer 73."},
+     {"pt": "Cinquenta e oito, não sessenta e oito.", "de": "58, nicht 68."}
+    ],
+    "uebungen": [
+     {"typ": "uebersetzen", "de": "fünfunddreißig", "loesungen": ["trinta e cinco"]},
+     {"typ": "diktat", "pt": "sessenta e seis"},
+     {"typ": "diktat", "pt": "setenta e sete"},
+     {"typ": "auswahl", "frage": "Welche Zahl ist „oitenta e quatro“?", "optionen": ["48", "84", "74"], "richtig": 1, "audio": "oitenta e quatro"},
+     {"typ": "auswahl", "frage": "„einundzwanzig Häuser“", "optionen": ["vinte e um casas", "vinte e uma casas"], "richtig": 1, "erklaerung": "casa ist weiblich → uma.", "kategorie": "Genus"},
+     {"typ": "uebersetzen", "de": "hundert", "loesungen": ["cem"]},
+     {"typ": "satzbau", "de": "Ich wohne in der Rua do Mar, Nummer 45.", "loesung": "Moro na Rua do Mar, número quarenta e cinco."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Ao telefone – am Telefon",
+    "situation": "Ein Paketbote ruft Stefan an.",
+    "zeilen": [
+     {"sprecher": "Estafeta", "stimme": "m", "pt": "Bom dia! Tenho uma encomenda para o senhor Krenn. Qual é a morada?", "de": "Guten Morgen! Ich habe ein Paket für Herrn Krenn. Wie ist die Adresse?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Rua das Flores, número cinquenta e oito.", "de": "Rua das Flores, Nummer 58."},
+     {"sprecher": "Estafeta", "stimme": "m", "pt": "Cinquenta e oito? Ou sessenta e oito?", "de": "58? Oder 68?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Cinquenta e oito. Cinco, oito.", "de": "58. Fünf, acht."},
+     {"sprecher": "Estafeta", "stimme": "m", "pt": "Perfeito. Chego daqui a vinte minutos.", "de": "Perfekt. Ich bin in zwanzig Minuten da."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado! Até já.", "de": "Danke! Bis gleich."}
+    ],
+    "fragen": [
+     {"frage": "Was bringt der Bote?", "optionen": ["ein Paket", "einen Brief", "eine Pizza"], "richtig": 0},
+     {"frage": "Welche Hausnummer hat Stefan?", "optionen": ["58", "68", "85"], "richtig": 0},
+     {"frage": "Wann kommt der Bote?", "optionen": ["in zwanzig Minuten", "in zwei Minuten", "morgen"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Zahlen und Sätze aus.",
+    "aufgaben": [
+     {"de": "47", "loesungen": ["quarenta e sete"]},
+     {"de": "63", "loesungen": ["sessenta e três"]},
+     {"de": "99", "loesungen": ["noventa e nove"]},
+     {"de": "Ich wohne in der Rua da Praia, Nummer 30.", "loesungen": ["Moro na Rua da Praia, número trinta.", "Eu moro na Rua da Praia, número trinta."]}
+    ]
+   },
+   "saetze": [
+    {"id": "moro-na-rua", "pt": "Moro na Rua do Mar, número quarenta e cinco.", "de": "Ich wohne in der Rua do Mar, Nummer 45."},
+    {"id": "obrigado-ate-ja", "pt": "Obrigado! Até já.", "de": "Danke! Bis gleich.", "alternativen": ["Obrigada! Até já."]},
+    {"id": "cinquenta-e-oito", "pt": "Cinquenta e oito, não sessenta e oito.", "de": "58, nicht 68."}
+   ]
+  },
+  {"id": "A1-02-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-02-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Um novo vizinho – ein neuer Nachbar",
+   "situation": "Ein neuer Nachbar stellt sich vor.",
+   "zeilen": [
+    {"sprecher": "Paulo", "stimme": "m", "pt": "Olá, boa tarde! Sou o Paulo, o novo vizinho. Moro no número trinta e dois.", "de": "Hallo, guten Tag! Ich bin Paulo, der neue Nachbar. Ich wohne in Nummer 32."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde! Muito prazer. Eu sou o Stefan. Moro no número trinta e quatro.", "de": "Guten Tag! Sehr erfreut. Ich bin Stefan. Ich wohne in Nummer 34."},
+    {"sprecher": "Paulo", "stimme": "m", "pt": "És alemão, não és?", "de": "Du bist Deutscher, oder?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Sou, sim. E tu, és daqui?", "de": "Ja. Und du, bist du von hier?"},
+    {"sprecher": "Paulo", "stimme": "m", "pt": "Não, sou do Porto. Sou professor e agora trabalho numa escola em Lagos.", "de": "Nein, ich komme aus Porto. Ich bin Lehrer und arbeite jetzt an einer Schule in Lagos."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Que fixe! Bem-vindo ao Algarve!", "de": "Wie cool! Willkommen an der Algarve!"}
+   ],
+   "fragen": [
+    {"frage": "In welcher Hausnummer wohnt Paulo?", "optionen": ["32", "34", "23"], "richtig": 0},
+    {"frage": "Woher kommt Paulo?", "optionen": ["aus Porto", "aus Lagos", "aus Deutschland"], "richtig": 0},
+    {"frage": "Was ist Paulo von Beruf?", "optionen": ["Lehrer", "Berater", "Arzt"], "richtig": 0},
+    {"frage": "Wie sprechen die beiden miteinander?", "optionen": ["Sie duzen sich (tu).", "Sie siezen sich (o senhor)."], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Um perfil – ein Profil in einer Sprach-App",
+   "situation": "Marta sucht einen Sprachpartner.",
+   "text": [
+    "Olá! Chamo-me Marta e sou portuguesa, de Tavira.",
+    "Moro em Faro há cinco anos e trabalho numa empresa de turismo.",
+    "Falo português, inglês e um pouco de alemão.",
+    "Procuro uma pessoa alemã para conversar. Obrigada!"
+   ],
+   "fragen": [
+    {"frage": "Woher kommt Marta?", "optionen": ["aus Tavira", "aus Faro", "aus Deutschland"], "richtig": 0},
+    {"frage": "Seit wann wohnt sie in Faro?", "optionen": ["seit fünf Jahren", "seit fünfzehn Jahren", "seit zwei Jahren"], "richtig": 0},
+    {"frage": "Wo arbeitet sie?", "optionen": ["in einer Tourismusfirma", "in einer Schule", "in einer Apotheke"], "richtig": 0},
+    {"frage": "Welche Sprachen spricht sie?", "optionen": ["Portugiesisch, Englisch und etwas Deutsch", "nur Portugiesisch", "Portugiesisch und Spanisch"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich bin Deutscher und komme aus München.", "loesungen": ["Sou alemão e sou de Munique.", "Sou alemão, de Munique.", "Sou da Alemanha, de Munique."]},
+   {"de": "Ich wohne seit zwei Jahren an der Algarve.", "loesungen": ["Moro no Algarve há dois anos.", "Moro há dois anos no Algarve."]},
+   {"de": "Ich bin Berater.", "loesungen": ["Sou consultor."]},
+   {"de": "Woher kommst du?", "loesungen": ["De onde és?", "De onde és tu?"]},
+   {"de": "Sprechen Sie Englisch?", "loesungen": ["Fala inglês?", "O senhor fala inglês?", "A senhora fala inglês?"]},
+   {"de": "Schreib die Zahl 78 aus.", "loesungen": ["setenta e oito"]}
+  ],
+  "sprechen": [
+   {"pt": "Sou alemão, mas moro em Portugal.", "de": "Ich bin Deutscher, aber ich wohne in Portugal."},
+   {"pt": "Trabalho em casa.", "de": "Ich arbeite zu Hause."},
+   {"pt": "Falo um pouco de português.", "de": "Ich spreche ein bisschen Portugiesisch."},
+   {"pt": "Como te chamas?", "de": "Wie heißt du?"},
+   {"pt": "Moro no número cinquenta e cinco.", "de": "Ich wohne in Nummer 55."}
+  ]
+ }
+}

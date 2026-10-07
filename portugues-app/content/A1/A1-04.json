@@ -1,0 +1,493 @@
+{
+ "id": "A1-04",
+ "level": "A1",
+ "titel": "A família – Familie und Menschen",
+ "beschreibung": "Familie vorstellen, Alter und Geburtstag, Menschen beschreiben, Befinden und Familienstand, Freunde und Haustiere vorstellen.",
+ "vokabeln": [
+  {"id": "a-familia", "pt": "a família", "de": "die Familie", "emoji": "👨‍👩‍👧", "beispiel_pt": "Esta é a minha família.", "beispiel_de": "Das ist meine Familie."},
+  {"id": "o-pai", "pt": "o pai", "de": "der Vater", "emoji": "👨", "beispiel_pt": "O meu pai é engenheiro.", "beispiel_de": "Mein Vater ist Ingenieur."},
+  {"id": "a-mae", "pt": "a mãe", "de": "die Mutter", "emoji": "👩", "beispiel_pt": "A minha mãe mora em Munique.", "beispiel_de": "Meine Mutter wohnt in München."},
+  {"id": "os-pais", "pt": "os pais", "de": "die Eltern", "emoji": "👫", "beispiel_pt": "Os meus pais são alemães.", "beispiel_de": "Meine Eltern sind Deutsche."},
+  {"id": "o-filho", "pt": "o filho", "de": "der Sohn", "emoji": "👦", "beispiel_pt": "O filho da Fernanda mora em Lisboa.", "beispiel_de": "Fernandas Sohn wohnt in Lissabon.", "hinweis": "Tochter: a filha", "alternativen": ["a filha"]},
+  {"id": "o-irmao", "pt": "o irmão", "de": "der Bruder", "emoji": "👬", "beispiel_pt": "O meu irmão mora em Berlim.", "beispiel_de": "Mein Bruder wohnt in Berlin.", "hinweis": "Schwester: a irmã · Geschwister: os irmãos"},
+  {"id": "o-marido", "pt": "o marido", "de": "der Ehemann", "emoji": "🤵", "beispiel_pt": "Este é o meu marido, o Manuel.", "beispiel_de": "Das ist mein Mann, Manuel."},
+  {"id": "a-mulher", "pt": "a mulher", "de": "die Frau / Ehefrau", "emoji": "👰", "beispiel_pt": "Como se chama a sua mulher?", "beispiel_de": "Wie heißt Ihre Frau?", "hinweis": "„a minha mulher“ = meine Frau; formeller: a esposa"},
+  {"id": "a-minha", "pt": "a minha", "de": "meine", "emoji": "👤", "beispiel_pt": "A minha filha é médica.", "beispiel_de": "Meine Tochter ist Ärztin.", "hinweis": "männlich: o meu · Plural: os meus / as minhas"},
+
+  {"id": "ter", "pt": "ter", "de": "haben", "emoji": "🤲", "beispiel_pt": "Tem filhos?", "beispiel_de": "Haben Sie Kinder?"},
+  {"id": "tenho", "pt": "tenho", "de": "ich habe", "emoji": "✋", "beispiel_pt": "Tenho dois irmãos.", "beispiel_de": "Ich habe zwei Brüder."},
+  {"id": "tem", "pt": "tem", "de": "er/sie hat · Sie haben", "emoji": "👉", "beispiel_pt": "A Fernanda tem três netos.", "beispiel_de": "Fernanda hat drei Enkel."},
+  {"id": "os-filhos", "pt": "os filhos", "de": "die Kinder (eigene)", "emoji": "👧👦", "beispiel_pt": "Não tenho filhos.", "beispiel_de": "Ich habe keine Kinder.", "hinweis": "Kinder allgemein: as crianças"},
+  {"id": "a-crianca", "pt": "a criança", "de": "das Kind", "emoji": "🧒", "beispiel_pt": "Há muitas crianças na praia.", "beispiel_de": "Es gibt viele Kinder am Strand."},
+  {"id": "o-neto", "pt": "o neto", "de": "der Enkel", "emoji": "👶", "beispiel_pt": "Tenho quatro netos.", "beispiel_de": "Ich habe vier Enkel.", "hinweis": "Enkelin: a neta"},
+  {"id": "os-avos", "pt": "os avós", "de": "die Großeltern", "emoji": "👴👵", "beispiel_pt": "Os meus avós moram no Porto.", "beispiel_de": "Meine Großeltern wohnen in Porto.", "hinweis": "o avô (Opa), a avó (Oma)"},
+  {"id": "quantos", "pt": "quantos", "de": "wie viele", "emoji": "🔢", "beispiel_pt": "Quantos filhos tem?", "beispiel_de": "Wie viele Kinder haben Sie?", "hinweis": "weiblich: quantas"},
+  {"id": "nenhum", "pt": "nenhum", "de": "kein (einziger)", "emoji": "0️⃣", "beispiel_pt": "Não tenho nenhum irmão.", "beispiel_de": "Ich habe keinen einzigen Bruder.", "hinweis": "weiblich: nenhuma"},
+
+  {"id": "quantos-anos", "pt": "Quantos anos tem?", "de": "Wie alt sind Sie?", "emoji": "🎂", "beispiel_pt": "Quantos anos tem a sua filha?", "beispiel_de": "Wie alt ist Ihre Tochter?"},
+  {"id": "o-ano", "pt": "o ano", "de": "das Jahr", "emoji": "📆", "beispiel_pt": "Tenho cinquenta anos.", "beispiel_de": "Ich bin fünfzig Jahre alt."},
+  {"id": "o-aniversario", "pt": "o aniversário", "de": "der Geburtstag", "emoji": "🎂", "beispiel_pt": "Hoje é o meu aniversário.", "beispiel_de": "Heute ist mein Geburtstag."},
+  {"id": "fazer-anos", "pt": "fazer anos", "de": "Geburtstag haben", "emoji": "🎈", "beispiel_pt": "Hoje faço anos!", "beispiel_de": "Heute habe ich Geburtstag!"},
+  {"id": "parabens", "pt": "Parabéns!", "de": "Herzlichen Glückwunsch!", "emoji": "🎉", "beispiel_pt": "Parabéns, Tiago!", "beispiel_de": "Herzlichen Glückwunsch, Tiago!"},
+  {"id": "mais-velho", "pt": "mais velho", "de": "älter", "emoji": "⬆️", "beispiel_pt": "o meu irmão mais velho", "beispiel_de": "mein älterer Bruder", "hinweis": "weiblich: mais velha"},
+  {"id": "mais-novo", "pt": "mais novo", "de": "jünger", "emoji": "⬇️", "beispiel_pt": "a minha irmã mais nova", "beispiel_de": "meine jüngere Schwester", "hinweis": "weiblich: mais nova", "alternativen": ["mais nova"]},
+  {"id": "jovem", "pt": "jovem", "de": "jung", "emoji": "🧑", "beispiel_pt": "O Tiago é muito jovem.", "beispiel_de": "Tiago ist sehr jung."},
+  {"id": "a-serio", "pt": "A sério?", "de": "Wirklich? / Im Ernst?", "emoji": "😮", "beispiel_pt": "A sério? Parabéns!", "beispiel_de": "Wirklich? Glückwunsch!"},
+
+  {"id": "alto", "pt": "alto", "de": "groß (Person)", "emoji": "📏", "beispiel_pt": "O meu irmão é alto.", "beispiel_de": "Mein Bruder ist groß.", "hinweis": "weiblich: alta", "alternativen": ["alta"]},
+  {"id": "baixo", "pt": "baixo", "de": "klein (Person)", "emoji": "🔽", "beispiel_pt": "A minha avó é baixa.", "beispiel_de": "Meine Oma ist klein.", "hinweis": "weiblich: baixa", "alternativen": ["baixa"]},
+  {"id": "simpatico", "pt": "simpático", "de": "nett / sympathisch", "emoji": "😊", "beispiel_pt": "Os vizinhos são muito simpáticos.", "beispiel_de": "Die Nachbarn sind sehr nett.", "alternativen": ["simpática"]},
+  {"id": "louro", "pt": "louro", "de": "blond", "emoji": "👱", "beispiel_pt": "Ela é loura.", "beispiel_de": "Sie ist blond.", "alternativen": ["loura"]},
+  {"id": "moreno", "pt": "moreno", "de": "dunkelhaarig / gebräunt", "emoji": "🧔", "beispiel_pt": "O Lucas é alto e moreno.", "beispiel_de": "Lucas ist groß und dunkelhaarig.", "alternativen": ["morena"]},
+  {"id": "o-cabelo", "pt": "o cabelo", "de": "die Haare", "emoji": "💇", "beispiel_pt": "Tem cabelo castanho.", "beispiel_de": "Er/Sie hat braune Haare.", "hinweis": "Im Portugiesischen Singular: o cabelo"},
+  {"id": "os-olhos", "pt": "os olhos", "de": "die Augen", "emoji": "👀", "beispiel_pt": "Ela tem olhos azuis.", "beispiel_de": "Sie hat blaue Augen."},
+  {"id": "azul", "pt": "azul", "de": "blau", "emoji": "🔵", "beispiel_pt": "olhos azuis", "beispiel_de": "blaue Augen", "hinweis": "Plural: azuis"},
+  {"id": "castanho", "pt": "castanho", "de": "braun", "emoji": "🟤", "beispiel_pt": "olhos castanhos", "beispiel_de": "braune Augen", "hinweis": "Brasilien: marrom"},
+  {"id": "magro", "pt": "magro", "de": "schlank / dünn", "emoji": "🧍", "beispiel_pt": "Ele é alto e magro.", "beispiel_de": "Er ist groß und schlank.", "alternativen": ["magra"]},
+
+  {"id": "casado", "pt": "casado", "de": "verheiratet", "emoji": "💍", "beispiel_pt": "Sou casado.", "beispiel_de": "Ich bin verheiratet.", "alternativen": ["casada"]},
+  {"id": "solteiro", "pt": "solteiro", "de": "ledig", "emoji": "🙋", "beispiel_pt": "O Tiago é solteiro.", "beispiel_de": "Tiago ist ledig.", "alternativen": ["solteira"]},
+  {"id": "divorciado", "pt": "divorciado", "de": "geschieden", "emoji": "💔", "beispiel_pt": "Ele é divorciado.", "beispiel_de": "Er ist geschieden.", "alternativen": ["divorciada"]},
+  {"id": "contente", "pt": "contente", "de": "froh", "emoji": "😄", "beispiel_pt": "Hoje estou muito contente.", "beispiel_de": "Heute bin ich sehr froh."},
+  {"id": "triste", "pt": "triste", "de": "traurig", "emoji": "😢", "beispiel_pt": "Porque estás triste?", "beispiel_de": "Warum bist du traurig?"},
+  {"id": "doente", "pt": "doente", "de": "krank", "emoji": "🤒", "beispiel_pt": "O Manuel está doente.", "beispiel_de": "Manuel ist krank."},
+  {"id": "preocupado", "pt": "preocupado", "de": "besorgt", "emoji": "😟", "beispiel_pt": "Estou um pouco preocupada.", "beispiel_de": "Ich bin ein bisschen besorgt.", "alternativen": ["preocupada"]},
+  {"id": "as-melhoras", "pt": "As melhoras!", "de": "Gute Besserung!", "emoji": "💐", "beispiel_pt": "Que pena! As melhoras!", "beispiel_de": "Wie schade! Gute Besserung!"},
+
+  {"id": "o-cao", "pt": "o cão", "de": "der Hund", "emoji": "🐕", "beispiel_pt": "Tenho um cão.", "beispiel_de": "Ich habe einen Hund.", "hinweis": "Brasilien: cachorro"},
+  {"id": "o-gato", "pt": "o gato", "de": "die Katze / der Kater", "emoji": "🐈", "beispiel_pt": "O gato chama-se Tigre.", "beispiel_de": "Die Katze heißt Tigre."},
+  {"id": "o-vizinho", "pt": "o vizinho", "de": "der Nachbar", "emoji": "🏘️", "beispiel_pt": "O meu vizinho é muito simpático.", "beispiel_de": "Mein Nachbar ist sehr nett.", "hinweis": "Nachbarin: a vizinha", "alternativen": ["a vizinha"]},
+  {"id": "o-namorado", "pt": "o namorado", "de": "der (feste) Freund", "emoji": "💑", "beispiel_pt": "O namorado da Sofia é inglês.", "beispiel_de": "Sofias Freund ist Engländer.", "hinweis": "Freundin (Partnerin): a namorada"},
+  {"id": "este-e", "pt": "Este é …", "de": "Das ist … (bei einem Mann)", "emoji": "👉", "beispiel_pt": "Este é o meu amigo Tiago.", "beispiel_de": "Das ist mein Freund Tiago.", "hinweis": "bei einer Frau: Esta é …"},
+  {"id": "apresento-lhe", "pt": "Apresento-lhe …", "de": "Darf ich Ihnen … vorstellen", "emoji": "🤝", "beispiel_pt": "Apresento-lhe a minha vizinha.", "beispiel_de": "Darf ich Ihnen meine Nachbarin vorstellen."},
+  {"id": "conhecer", "pt": "conhecer", "de": "kennen / kennenlernen", "emoji": "🧑‍🤝‍🧑", "beispiel_pt": "Prazer em conhecê-lo!", "beispiel_de": "Freut mich, Sie kennenzulernen!"},
+  {"id": "a-pessoa", "pt": "a pessoa", "de": "die Person / der Mensch", "emoji": "🧍", "beispiel_pt": "É uma pessoa muito simpática.", "beispiel_de": "Er/Sie ist ein sehr netter Mensch."}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-04-L01",
+   "typ": "neu",
+   "titel": "Die Familie",
+   "vokabeln": ["a-familia", "o-pai", "a-mae", "os-pais", "o-filho", "o-irmao", "o-marido", "a-mulher", "a-minha"],
+   "grammatik": {
+    "titel": "o meu, a minha – Possessiv mit Artikel",
+    "erklaerung": [
+     "Im europäischen Portugiesisch steht vor dem Possessiv meist der Artikel: <b>o meu</b> pai, <b>a minha</b> mãe, <b>os meus</b> pais, <b>as minhas</b> irmãs.",
+     "Das Possessiv richtet sich nach dem <i>Besessenen</i>, nicht nach dem Besitzer: Stefan sagt <i>a minha mãe</i> (weil <i>mãe</i> weiblich ist).",
+     "Die Formen: <b>o meu / a minha</b> (mein), <b>o teu / a tua</b> (dein – tu), <b>o seu / a sua</b> (Ihr – höflich, und auch: sein/ihr)."
+    ],
+    "vergleich": "Englisch „my mother“, Deutsch „meine Mutter“ – Portugiesisch sagt wörtlich „die meine Mutter“: <i>a minha mãe</i>.",
+    "beispiele": [
+     {"pt": "Esta é a minha família.", "de": "Das ist meine Familie."},
+     {"pt": "Os meus pais moram na Alemanha.", "de": "Meine Eltern wohnen in Deutschland."},
+     {"pt": "Como se chama o seu marido?", "de": "Wie heißt Ihr Mann?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ mãe mora em Munique.", "loesungen": ["A minha"], "de": "Meine Mutter wohnt in München.", "kategorie": "Possessiv"},
+     {"typ": "luecke", "satz": "___ pai é engenheiro.", "loesungen": ["O meu"], "de": "Mein Vater ist Ingenieur.", "kategorie": "Possessiv"},
+     {"typ": "auswahl", "frage": "„meine Eltern“", "optionen": ["os meus pais", "as minhas pais", "meus pais"], "richtig": 0, "erklaerung": "pais ist männlich Plural – und in Portugal mit Artikel.", "kategorie": "Possessiv"},
+     {"typ": "luecke", "satz": "Como se chama a ___ mulher?", "loesungen": ["sua"], "de": "Wie heißt Ihre Frau?", "kategorie": "Possessiv"},
+     {"typ": "auswahl", "frage": "Ein Freund (tu) fragt nach deiner Schwester: „Como se chama a ___ irmã?“", "optionen": ["tua", "sua", "teu"], "richtig": 0, "erklaerung": "tu-Form: o teu / a tua.", "kategorie": "Possessiv"},
+     {"typ": "uebersetzen", "de": "Das ist meine Familie.", "loesungen": ["Esta é a minha família."]},
+     {"typ": "satzbau", "de": "Mein Bruder wohnt in Berlin.", "loesung": "O meu irmão mora em Berlim."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma fotografia – ein Foto",
+    "situation": "Dona Fernanda zeigt Stefan ein Familienfoto.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que fotografia bonita! É a sua família, Dona Fernanda?", "de": "Was für ein schönes Foto! Ist das Ihre Familie, Frau Fernanda?"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "É, sim. Este é o meu marido, o Manuel.", "de": "Ja. Das ist mein Mann, Manuel."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E estes dois?", "de": "Und diese beiden?"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "São os meus filhos, o João e a Sofia. O João mora em Lisboa.", "de": "Das sind meine Kinder, João und Sofia. João wohnt in Lissabon."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a Sofia?", "de": "Und Sofia?"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "A minha filha mora em Londres. É médica.", "de": "Meine Tochter wohnt in London. Sie ist Ärztin."}
+    ],
+    "fragen": [
+     {"frage": "Wie heißt Fernandas Mann?", "optionen": ["Manuel", "João", "Rui"], "richtig": 0},
+     {"frage": "Wo wohnt João?", "optionen": ["in Lissabon", "in London", "in Faro"], "richtig": 0},
+     {"frage": "Was macht Sofia?", "optionen": ["Sie ist Ärztin in London.", "Sie ist Lehrerin in Lissabon.", "Sie studiert in Porto."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach. Achte auf das nasale „ãe“ in mãe.",
+    "saetze": [
+     {"pt": "Esta é a minha família.", "de": "Das ist meine Familie."},
+     {"pt": "Este é o meu pai.", "de": "Das ist mein Vater."},
+     {"pt": "A minha mãe mora em Munique.", "de": "Meine Mutter wohnt in München."},
+     {"pt": "Os meus pais são alemães.", "de": "Meine Eltern sind Deutsche."},
+     {"pt": "Como se chama o seu marido?", "de": "Wie heißt Ihr Mann?"}
+    ]
+   },
+   "saetze": [
+    {"id": "esta-e-a-minha-familia", "pt": "Esta é a minha família.", "de": "Das ist meine Familie."},
+    {"id": "os-meus-pais-moram", "pt": "Os meus pais moram na Alemanha.", "de": "Meine Eltern wohnen in Deutschland."},
+    {"id": "a-minha-filha-londres", "pt": "A minha filha mora em Londres.", "de": "Meine Tochter wohnt in London."}
+   ]
+  },
+  {
+   "id": "A1-04-L02",
+   "typ": "neu",
+   "titel": "Haben: ter",
+   "vokabeln": ["ter", "tenho", "tem", "os-filhos", "a-crianca", "o-neto", "os-avos", "quantos", "nenhum"],
+   "grammatik": {
+    "titel": "ter (haben) und quantos?",
+    "erklaerung": [
+     "<b>ter</b> (haben) ist unregelmäßig: <b>eu tenho</b> · <b>tu tens</b> · <b>o senhor / ele / ela tem</b> · <b>nós temos</b> · <b>eles / elas têm</b>.",
+     "Fragen nach Familie oft ohne Artikel: <i>Tem filhos?</i> – Haben Sie Kinder? Antwort typisch portugiesisch mit dem Verb: <i>Tenho, sim.</i> / <i>Não, não tenho.</i>",
+     "<b>quantos / quantas</b> (wie viele) richtet sich nach dem Nomen: <i>Quantos netos?</i> – <i>Quantas netas?</i>"
+    ],
+    "vergleich": "Wie englisch „Do you have children? – I do.“ – auf Portugiesisch wiederholt man einfach das Verb: <i>Tenho.</i>",
+    "beispiele": [
+     {"pt": "Tem filhos? – Tenho dois filhos e uma filha.", "de": "Haben Sie Kinder? – Zwei Söhne und eine Tochter."},
+     {"pt": "Quantos netos tem? – Tenho quatro.", "de": "Wie viele Enkel haben Sie? – Vier."},
+     {"pt": "Não tenho filhos.", "de": "Ich habe keine Kinder."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ dois filhos.", "loesungen": ["Tenho"], "de": "Ich habe zwei Söhne.", "kategorie": "ter"},
+     {"typ": "luecke", "satz": "A Fernanda ___ três netos.", "loesungen": ["tem"], "de": "Fernanda hat drei Enkel.", "kategorie": "ter"},
+     {"typ": "luecke", "satz": "Tu ___ irmãos?", "loesungen": ["tens"], "de": "Hast du Geschwister?", "kategorie": "ter"},
+     {"typ": "auswahl", "frage": "„Wie viele Enkel haben Sie?“", "optionen": ["Quantas netos tem?", "Quantos netos tem?"], "richtig": 1, "erklaerung": "netos ist männlich → quantos.", "kategorie": "Genus"},
+     {"typ": "uebersetzen", "de": "Ich habe keine Kinder.", "loesungen": ["Não tenho filhos.", "Eu não tenho filhos."]},
+     {"typ": "uebersetzen", "de": "Haben Sie Geschwister?", "loesungen": ["Tem irmãos?", "O senhor tem irmãos?", "A senhora tem irmãos?"]},
+     {"typ": "satzbau", "de": "Meine Großeltern wohnen in Porto.", "loesung": "Os meus avós moram no Porto."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No café do senhor Rui",
+    "situation": "Stefan plaudert mit Senhor Rui über Familie.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Senhor Rui, tem filhos?", "de": "Herr Rui, haben Sie Kinder?"},
+     {"sprecher": "Senhor Rui", "stimme": "m", "pt": "Tenho três: dois filhos e uma filha. E já tenho quatro netos!", "de": "Drei: zwei Söhne und eine Tochter. Und ich habe schon vier Enkel!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quatro netos! Que bom.", "de": "Vier Enkel! Wie schön."},
+     {"sprecher": "Senhor Rui", "stimme": "m", "pt": "E o senhor? Tem família aqui?", "de": "Und Sie? Haben Sie Familie hier?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, a minha família está na Alemanha.", "de": "Nein, meine Familie ist in Deutschland."}
+    ],
+    "fragen": [
+     {"frage": "Wie viele Kinder hat Senhor Rui?", "optionen": ["drei", "zwei", "vier"], "richtig": 0},
+     {"frage": "Wie viele Enkel hat er?", "optionen": ["vier", "drei", "zwei"], "richtig": 0},
+     {"frage": "Wo ist Stefans Familie?", "optionen": ["in Deutschland", "an der Algarve", "in Lissabon"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dona Fernanda fragt dich nach deiner Familie (Übungsantworten).",
+    "zeilen": [
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Tem irmãos, senhor Stefan?", "de": "Haben Sie Geschwister, Herr Stefan?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich habe einen Bruder.", "loesungen": ["Tenho, sim. Tenho um irmão.", "Sim, tenho um irmão.", "Tenho um irmão."]},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "E onde mora?", "de": "Und wo wohnt er?"},
+     {"ich": true, "aufgabe": "Sag: Er wohnt in Berlin.", "loesungen": ["Mora em Berlim.", "Ele mora em Berlim."]},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Tem filhos?", "de": "Hat er Kinder?"},
+     {"ich": true, "aufgabe": "Sag: Ja, er hat zwei Kinder.", "loesungen": ["Tem, sim. Tem dois filhos.", "Sim, tem dois filhos.", "Tem dois filhos."]}
+    ]
+   },
+   "saetze": [
+    {"id": "tenho-dois-filhos", "pt": "Tenho dois filhos e uma filha.", "de": "Ich habe zwei Söhne und eine Tochter."},
+    {"id": "tem-irmaos", "pt": "Tem irmãos? – Tenho um irmão.", "de": "Haben Sie Geschwister? – Ich habe einen Bruder."},
+    {"id": "nao-tenho-filhos", "pt": "Não tenho filhos.", "de": "Ich habe keine Kinder."}
+   ]
+  },
+  {
+   "id": "A1-04-L03",
+   "typ": "neu",
+   "titel": "Alter und Geburtstag",
+   "vokabeln": ["quantos-anos", "o-ano", "o-aniversario", "fazer-anos", "parabens", "mais-velho", "mais-novo", "jovem", "a-serio"],
+   "grammatik": {
+    "titel": "Das Alter mit ter – und fazer anos",
+    "erklaerung": [
+     "Das Alter „hat“ man auf Portugiesisch: <b>Tenho cinquenta anos.</b> – Ich bin 50 Jahre alt. Frage: <b>Quantos anos tem?</b>",
+     "Geburtstag haben heißt <b>fazer anos</b> (wörtlich: Jahre machen): <i>Hoje faço anos!</i> – <i>Quando fazes anos?</i> Und dazu gratuliert man mit <b>Parabéns!</b>",
+     "Älter / jünger bei Geschwistern: <b>o irmão mais velho</b>, <b>a irmã mais nova</b>."
+    ],
+    "vergleich": "Wie französisch „J'ai cinquante ans“ – nicht wie englisch „I am fifty“. Ein typischer Fehler für Deutschsprachige: „Sou cinquenta anos“ ist falsch.",
+    "beispiele": [
+     {"pt": "Quantos anos tem? – Tenho cinquenta anos.", "de": "Wie alt sind Sie? – Ich bin fünfzig."},
+     {"pt": "Hoje faço anos!", "de": "Heute habe ich Geburtstag!"},
+     {"pt": "A minha irmã mais nova tem dezoito anos.", "de": "Meine jüngere Schwester ist achtzehn."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich bin 50 Jahre alt.“", "optionen": ["Sou cinquenta anos.", "Tenho cinquenta anos.", "Estou cinquenta anos."], "richtig": 1, "erklaerung": "Das Alter drückt man mit ter aus.", "kategorie": "ter"},
+     {"typ": "luecke", "satz": "Quantos anos ___?", "loesungen": ["tem"], "de": "Wie alt sind Sie?", "kategorie": "ter"},
+     {"typ": "luecke", "satz": "Hoje ___ anos!", "loesungen": ["faço"], "de": "Heute habe ich Geburtstag!"},
+     {"typ": "uebersetzen", "de": "Herzlichen Glückwunsch!", "loesungen": ["Parabéns!"]},
+     {"typ": "uebersetzen", "de": "mein älterer Bruder", "loesungen": ["o meu irmão mais velho"]},
+     {"typ": "satzbau", "de": "Meine Tochter ist zwanzig Jahre alt.", "loesung": "A minha filha tem vinte anos."},
+     {"typ": "auswahl", "frage": "„Wann hast du Geburtstag?“ (tu)", "optionen": ["Quando fazes anos?", "Quando és anos?", "Quando tens aniversário?"], "richtig": 0}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma festa de aniversário – eine Geburtstagsfeier",
+    "situation": "Tiago feiert Geburtstag am Strand.",
+    "zeilen": [
+     {"sprecher": "Tiago", "stimme": "m", "pt": "Olá, Stefan! Hoje faço anos!", "de": "Hallo, Stefan! Heute habe ich Geburtstag!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Parabéns, Tiago! Quantos anos fazes?", "de": "Wirklich? Glückwunsch, Tiago! Wie alt wirst du?"},
+     {"sprecher": "Tiago", "stimme": "m", "pt": "Faço vinte e cinco.", "de": "Fünfundzwanzig."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tão jovem!", "de": "So jung!"},
+     {"sprecher": "Tiago", "stimme": "m", "pt": "A minha irmã mais nova também está aqui. Tem dezoito anos.", "de": "Meine jüngere Schwester ist auch hier. Sie ist achtzehn."}
+    ],
+    "fragen": [
+     {"frage": "Was feiert Tiago?", "optionen": ["seinen Geburtstag", "eine Hochzeit", "einen neuen Job"], "richtig": 0},
+     {"frage": "Wie alt wird Tiago?", "optionen": ["25", "35", "52"], "richtig": 0},
+     {"frage": "Wie alt ist seine Schwester?", "optionen": ["18", "25", "8"], "richtig": 0},
+     {"frage": "Was bedeutet „A sério?“", "optionen": ["Wirklich?", "Wie bitte?", "Wie schön!"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Quantos anos tem?", "de": "Wie alt sind Sie?"},
+     {"pt": "Tenho cinquenta anos.", "de": "Ich bin fünfzig Jahre alt."},
+     {"pt": "Hoje faço anos!", "de": "Heute habe ich Geburtstag!"},
+     {"pt": "Parabéns!", "de": "Herzlichen Glückwunsch!"},
+     {"pt": "O meu irmão mais velho mora em Berlim.", "de": "Mein älterer Bruder wohnt in Berlin."}
+    ]
+   },
+   "saetze": [
+    {"id": "quantos-anos-tenho", "pt": "Quantos anos tem? – Tenho cinquenta anos.", "de": "Wie alt sind Sie? – Ich bin fünfzig."},
+    {"id": "hoje-faco-anos", "pt": "Hoje faço anos!", "de": "Heute habe ich Geburtstag!"},
+    {"id": "parabens-tiago", "pt": "Parabéns, Tiago!", "de": "Herzlichen Glückwunsch, Tiago!"}
+   ]
+  },
+  {
+   "id": "A1-04-L04",
+   "typ": "neu",
+   "titel": "Menschen beschreiben",
+   "vokabeln": ["alto", "baixo", "simpatico", "louro", "moreno", "o-cabelo", "os-olhos", "azul", "castanho", "magro"],
+   "grammatik": {
+    "titel": "Adjektive: Geschlecht und Zahl",
+    "erklaerung": [
+     "Adjektive stehen meist <b>nach</b> dem Nomen und passen sich an: <i>um homem alt<b>o</b>, uma mulher alt<b>a</b>, os vizinhos simpátic<b>os</b>, as vizinhas simpátic<b>as</b></i>.",
+     "Adjektive auf <b>-e</b> oder Konsonant haben für beide Geschlechter dieselbe Form: <i>jovem, triste, azul</i>. Plural: <i>azul → azuis, jovem → jovens</i>.",
+     "Wie jemand ist: <b>ser</b> + Adjektiv (<i>Ele é alto.</i>). Was jemand „hat“: <b>ter</b> + Nomen (<i>Tem olhos azuis e cabelo castanho.</i>)"
+    ],
+    "vergleich": "Im Englischen ändert sich das Adjektiv nie (tall man, tall woman). Im Portugiesischen schon: <i>alto / alta / altos / altas</i>.",
+    "beispiele": [
+     {"pt": "Ele é alto e moreno.", "de": "Er ist groß und dunkelhaarig."},
+     {"pt": "Ela tem olhos azuis e cabelo louro.", "de": "Sie hat blaue Augen und blonde Haare."},
+     {"pt": "Os meus vizinhos são muito simpáticos.", "de": "Meine Nachbarn sind sehr nett."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A minha irmã é ___.", "loesungen": ["alta"], "de": "Meine Schwester ist groß.", "kategorie": "Genus"},
+     {"typ": "luecke", "satz": "Os meus pais são muito ___.", "loesungen": ["simpáticos"], "de": "Meine Eltern sind sehr nett.", "kategorie": "Genus"},
+     {"typ": "luecke", "satz": "Ela tem olhos ___.", "loesungen": ["azuis"], "de": "Sie hat blaue Augen.", "erklaerung": "azul → azuis", "kategorie": "Plural"},
+     {"typ": "auswahl", "frage": "„Er hat braune Haare.“", "optionen": ["Ele é cabelo castanho.", "Ele tem cabelo castanho.", "Ele tem cabelo marrom."], "richtig": 1, "erklaerung": "Aussehen: ter + Nomen; braun heißt in Portugal castanho.", "kategorie": "ser/ter"},
+     {"typ": "uebersetzen", "de": "Sie ist nett.", "loesungen": ["Ela é simpática."]},
+     {"typ": "satzbau", "de": "Mein Nachbar ist groß und blond.", "loesung": "O meu vizinho é alto e louro."},
+     {"typ": "auswahl", "frage": "„eine kleine Frau“", "optionen": ["uma mulher baixa", "uma baixa mulher", "uma mulher baixo"], "richtig": 0, "kategorie": "Genus"}
+    ]
+   },
+   "hoeren": {
+    "titel": "O novo professor – der neue Lehrer",
+    "situation": "Ana erzählt Stefan vom neuen Yogalehrer im Fitnessstudio.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Conheces o novo professor de ioga?", "de": "Kennst du den neuen Yogalehrer?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não. Como é?", "de": "Nein. Wie ist er?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "É alto, moreno e tem olhos castanhos. É muito simpático.", "de": "Er ist groß, dunkelhaarig und hat braune Augen. Er ist sehr nett."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E é português?", "de": "Und ist er Portugiese?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não, é brasileiro. Chama-se Lucas.", "de": "Nein, er ist Brasilianer. Er heißt Lucas."}
+    ],
+    "fragen": [
+     {"frage": "Wie sieht der neue Lehrer aus?", "optionen": ["groß, dunkelhaarig, braune Augen", "klein, blond, blaue Augen", "groß, blond, braune Augen"], "richtig": 0},
+     {"frage": "Wie ist er?", "optionen": ["sehr nett", "unfreundlich", "traurig"], "richtig": 0},
+     {"frage": "Woher kommt er?", "optionen": ["aus Brasilien", "aus Portugal", "aus Spanien"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Sie ist groß und blond.", "loesungen": ["Ela é alta e loura."]},
+     {"de": "Er hat blaue Augen.", "loesungen": ["Ele tem olhos azuis.", "Tem olhos azuis."]},
+     {"de": "Meine Nachbarn sind sehr nett.", "loesungen": ["Os meus vizinhos são muito simpáticos."]},
+     {"de": "Wie ist er?", "loesungen": ["Como é ele?", "Como é que ele é?", "Como é?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "alto-e-moreno", "pt": "Ele é alto e moreno.", "de": "Er ist groß und dunkelhaarig."},
+    {"id": "olhos-azuis", "pt": "Ela tem olhos azuis.", "de": "Sie hat blaue Augen."},
+    {"id": "vizinhos-simpaticos", "pt": "Os meus vizinhos são muito simpáticos.", "de": "Meine Nachbarn sind sehr nett."}
+   ]
+  },
+  {
+   "id": "A1-04-L05",
+   "typ": "neu",
+   "titel": "Wie geht es dir? – ser und estar",
+   "vokabeln": ["casado", "solteiro", "divorciado", "contente", "triste", "doente", "preocupado", "as-melhoras"],
+   "grammatik": {
+    "titel": "ser oder estar mit Adjektiven",
+    "erklaerung": [
+     "<b>ser</b> beschreibt, wie jemand <i>ist</i> – Eigenschaft, Charakter, Nationalität, Beruf: <i>Ela é simpática.</i>",
+     "<b>estar</b> beschreibt, wie es jemandem <i>gerade geht</i> – Zustand, Stimmung, Gesundheit: <i>Estou cansado. O Manuel está doente.</i>",
+     "Manche Adjektive ändern so die Bedeutung: <i>Ela é triste</i> (ein trauriger Mensch) – <i>Ela está triste</i> (gerade traurig).",
+     "Familienstand sagt man meist mit ser: <i>Sou casado. Ele é solteiro.</i> Und wer krank ist, dem wünscht man <b>As melhoras!</b>"
+    ],
+    "vergleich": "Englisch und Deutsch haben nur ein „sein“. Merkhilfe: ser = wer/was jemand ist, estar = wie es gerade ist.",
+    "beispiele": [
+     {"pt": "Hoje estou muito contente.", "de": "Heute bin ich sehr froh."},
+     {"pt": "O Manuel está doente. – As melhoras!", "de": "Manuel ist krank. – Gute Besserung!"},
+     {"pt": "Sou casado. A minha mulher é muito simpática.", "de": "Ich bin verheiratet. Meine Frau ist sehr nett."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich bin heute krank.“", "optionen": ["Sou doente hoje.", "Estou doente hoje."], "richtig": 1, "erklaerung": "Zustand jetzt → estar.", "kategorie": "ser/estar"},
+     {"typ": "auswahl", "frage": "„Sie ist ein netter Mensch.“", "optionen": ["Ela está simpática.", "Ela é simpática."], "richtig": 1, "erklaerung": "Charakter → ser.", "kategorie": "ser/estar"},
+     {"typ": "luecke", "satz": "O Manuel ___ casado com a Fernanda.", "loesungen": ["é"], "de": "Manuel ist mit Fernanda verheiratet.", "kategorie": "ser/estar"},
+     {"typ": "luecke", "satz": "Hoje ___ muito contente!", "loesungen": ["estou"], "de": "Heute bin ich sehr froh!", "kategorie": "ser/estar"},
+     {"typ": "luecke", "satz": "A Sofia ___ preocupada.", "loesungen": ["está"], "de": "Sofia ist besorgt.", "kategorie": "ser/estar"},
+     {"typ": "uebersetzen", "de": "Ich bin ledig.", "loesungen": ["Sou solteiro.", "Eu sou solteiro.", "Sou solteira."]},
+     {"typ": "satzbau", "de": "Warum bist du traurig?", "loesung": "Porque estás triste?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Como está o Manuel?",
+    "situation": "Stefan trifft Dona Fernanda im Treppenhaus.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia, Dona Fernanda! Como está o seu marido?", "de": "Guten Morgen, Frau Fernanda! Wie geht es Ihrem Mann?"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Ai, o Manuel está doente. Está com gripe.", "de": "Ach, Manuel ist krank. Er hat Grippe."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que pena! As melhoras!", "de": "Wie schade! Gute Besserung!"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Obrigada. Estou um pouco preocupada, mas ele é forte.", "de": "Danke. Ich bin ein bisschen besorgt, aber er ist stark."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro. E a senhora, está bem?", "de": "Natürlich. Und Ihnen, geht es Ihnen gut?"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Estou cansada, mas contente: a Sofia vem no sábado.", "de": "Ich bin müde, aber froh: Sofia kommt am Samstag."}
+    ],
+    "fragen": [
+     {"frage": "Was hat Manuel?", "optionen": ["Grippe", "Kopfschmerzen", "nichts"], "richtig": 0},
+     {"frage": "Wie geht es Dona Fernanda?", "optionen": ["Sie ist müde, aber froh.", "Sie ist krank.", "Sie ist sehr traurig."], "richtig": 0},
+     {"frage": "Was bedeutet „As melhoras!“?", "optionen": ["Gute Besserung!", "Herzlichen Glückwunsch!", "Bis später!"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ana trifft dich im Fitnessstudio (ihr duzt euch).",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Olá, Stefan! Estás bem?", "de": "Hallo, Stefan! Geht's dir gut?"},
+     {"ich": true, "aufgabe": "Sag: Nein, heute bin ich ein bisschen müde.", "loesungen": ["Não, hoje estou um pouco cansado.", "Hoje estou um pouco cansado.", "Não, estou um pouco cansado hoje."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Coitado! E o teu vizinho, o senhor Manuel?", "de": "Du Armer! Und dein Nachbar, Herr Manuel?"},
+     {"ich": true, "aufgabe": "Sag: Er ist krank.", "loesungen": ["Está doente.", "Ele está doente."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Oh, que pena!", "de": "Oh, wie schade!"},
+     {"ich": true, "aufgabe": "Sag: Ja, aber seine Frau ist sehr nett.", "loesungen": ["Sim, mas a mulher dele é muito simpática.", "Pois, mas a mulher dele é muito simpática.", "Sim, mas a sua mulher é muito simpática."]}
+    ]
+   },
+   "saetze": [
+    {"id": "hoje-estou-contente", "pt": "Hoje estou muito contente.", "de": "Heute bin ich sehr froh."},
+    {"id": "manuel-esta-doente", "pt": "O Manuel está doente.", "de": "Manuel ist krank."},
+    {"id": "que-pena-as-melhoras", "pt": "Que pena! As melhoras!", "de": "Wie schade! Gute Besserung!"}
+   ]
+  },
+  {
+   "id": "A1-04-L06",
+   "typ": "neu",
+   "titel": "Freunde, Nachbarn und Haustiere",
+   "vokabeln": ["o-cao", "o-gato", "o-vizinho", "o-namorado", "este-e", "apresento-lhe", "conhecer", "a-pessoa"],
+   "grammatik": {
+    "titel": "Jemanden vorstellen – este, esta und Apresento-lhe",
+    "erklaerung": [
+     "Auf jemanden in der Nähe zeigen: <b>este</b> (dieser, männlich), <b>esta</b> (diese, weiblich), Plural <b>estes / estas</b>: <i>Este é o meu amigo Tiago. Estas são as minhas filhas.</i>",
+     "Höflich vorstellen: <b>Apresento-lhe …</b> (Ich stelle Ihnen … vor). Unter Freunden: <b>Apresento-te …</b> Das Pronomen hängt wieder hinter dem Verb.",
+     "Die Antwort: <b>Prazer em conhecê-lo</b> (zu einem Mann) bzw. <b>conhecê-la</b> (zu einer Frau) – oder einfach <i>Muito prazer</i>."
+    ],
+    "vergleich": "Wie englisch „This is my friend Tiago“ – nur dass „this“ im Portugiesischen männlich oder weiblich ist: este / esta.",
+    "beispiele": [
+     {"pt": "Apresento-lhe a minha vizinha, a Dona Fernanda.", "de": "Darf ich Ihnen meine Nachbarin vorstellen, Frau Fernanda."},
+     {"pt": "Prazer em conhecê-la.", "de": "Freut mich, Sie kennenzulernen (zu einer Frau)."},
+     {"pt": "Este é o meu cão. Chama-se Max.", "de": "Das ist mein Hund. Er heißt Max."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ é a minha vizinha, a Dona Fernanda.", "loesungen": ["Esta"], "de": "Das ist meine Nachbarin, Frau Fernanda.", "kategorie": "Demonstrativ"},
+     {"typ": "luecke", "satz": "___ é o meu cão, o Max.", "loesungen": ["Este"], "de": "Das ist mein Hund, Max.", "kategorie": "Demonstrativ"},
+     {"typ": "auswahl", "frage": "„Darf ich Ihnen meine Nachbarin vorstellen.“", "optionen": ["Lhe apresento a minha vizinha.", "Apresento-lhe a minha vizinha."], "richtig": 1, "erklaerung": "In Portugal hängt lhe hinter dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "Zu einem Mann: „Freut mich, Sie kennenzulernen.“", "optionen": ["Prazer em conhecê-lo.", "Prazer em conhecê-la."], "richtig": 0, "erklaerung": "-lo für Männer, -la für Frauen."},
+     {"typ": "uebersetzen", "de": "Kennen Sie Senhor Rui?", "loesungen": ["Conhece o senhor Rui?"]},
+     {"typ": "uebersetzen", "de": "Ich habe einen Hund und eine Katze.", "loesungen": ["Tenho um cão e um gato."]},
+     {"typ": "satzbau", "de": "Das sind meine Freunde.", "loesung": "Estes são os meus amigos."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na rua com o cão – mit dem Hund auf der Straße",
+    "situation": "Stefan ist mit Joana und ihrem Hund unterwegs und trifft Dona Fernanda.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Dona Fernanda, apresento-lhe a minha amiga Joana.", "de": "Frau Fernanda, darf ich Ihnen meine Freundin Joana vorstellen."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Muito prazer, Dona Fernanda.", "de": "Sehr erfreut, Frau Fernanda."},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Muito prazer! E este cão tão bonito? É seu, senhor Stefan?", "de": "Sehr erfreut! Und dieser hübsche Hund? Ist das Ihrer, Herr Stefan?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, é da Joana. Chama-se Bolinha.", "de": "Nein, er gehört Joana. Er heißt Bolinha."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "É muito simpático, mas não gosta de gatos!", "de": "Er ist sehr lieb, aber er mag keine Katzen!"}
+    ],
+    "fragen": [
+     {"frage": "Wen stellt Stefan vor?", "optionen": ["seine Freundin Joana", "seine Schwester", "seine Kollegin Ana"], "richtig": 0},
+     {"frage": "Wem gehört der Hund?", "optionen": ["Joana", "Stefan", "Dona Fernanda"], "richtig": 0},
+     {"frage": "Was mag der Hund nicht?", "optionen": ["Katzen", "Kinder", "das Meer"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Este é o meu amigo Tiago.", "de": "Das ist mein Freund Tiago."},
+     {"pt": "Apresento-lhe a minha vizinha.", "de": "Darf ich Ihnen meine Nachbarin vorstellen."},
+     {"pt": "Prazer em conhecê-lo.", "de": "Freut mich, Sie kennenzulernen."},
+     {"pt": "Tenho um cão e um gato.", "de": "Ich habe einen Hund und eine Katze."},
+     {"pt": "Conhece a Dona Fernanda?", "de": "Kennen Sie Frau Fernanda?"}
+    ]
+   },
+   "saetze": [
+    {"id": "apresento-lhe-vizinha", "pt": "Apresento-lhe a minha vizinha, a Dona Fernanda.", "de": "Darf ich Ihnen meine Nachbarin vorstellen, Frau Fernanda."},
+    {"id": "prazer-em-conhece-la", "pt": "Prazer em conhecê-la.", "de": "Freut mich, Sie kennenzulernen (zu einer Frau)."},
+    {"id": "este-e-o-meu-amigo", "pt": "Este é o meu amigo Tiago.", "de": "Das ist mein Freund Tiago."}
+   ]
+  },
+  {"id": "A1-04-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-04-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "A família do Paulo – Paulos Familie",
+   "situation": "Stefan unterhält sich mit seinem Nachbarn Paulo.",
+   "zeilen": [
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Paulo, tens família aqui no Algarve?", "de": "Paulo, hast du Familie hier an der Algarve?"},
+    {"sprecher": "Paulo", "stimme": "m", "pt": "Tenho. A minha mulher, a Inês, e os nossos dois filhos.", "de": "Ja. Meine Frau Inês und unsere zwei Kinder."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Quantos anos têm os teus filhos?", "de": "Wie alt sind deine Kinder?"},
+    {"sprecher": "Paulo", "stimme": "m", "pt": "O Rodrigo tem oito anos e a Matilde tem cinco.", "de": "Rodrigo ist acht und Matilde ist fünf."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E a Inês também é professora?", "de": "Und ist Inês auch Lehrerin?"},
+    {"sprecher": "Paulo", "stimme": "m", "pt": "Não, a Inês é enfermeira no hospital de Portimão.", "de": "Nein, Inês ist Krankenschwester im Krankenhaus von Portimão."}
+   ],
+   "fragen": [
+    {"frage": "Wie heißt Paulos Frau?", "optionen": ["Inês", "Matilde", "Joana"], "richtig": 0},
+    {"frage": "Wie viele Kinder hat Paulo?", "optionen": ["zwei", "drei", "eins"], "richtig": 0},
+    {"frage": "Wie alt ist Rodrigo?", "optionen": ["8", "5", "18"], "richtig": 0},
+    {"frage": "Was ist Inês von Beruf?", "optionen": ["Krankenschwester", "Lehrerin", "Ärztin"], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Um e-mail da Sofia – eine E-Mail von Sofia",
+   "situation": "Sofia schreibt ihrer Mutter, Dona Fernanda.",
+   "text": [
+    "Olá, mãe!",
+    "Estou bem, mas um pouco cansada. Tenho muito trabalho no hospital.",
+    "O meu namorado, o Tom, é inglês. É alto, louro e muito simpático.",
+    "No sábado vamos ao Algarve. E o pai faz setenta anos, não é? Parabéns ao pai!",
+    "Beijinhos, Sofia"
+   ],
+   "fragen": [
+    {"frage": "Wem schreibt Sofia?", "optionen": ["ihrer Mutter", "einer Freundin", "ihrem Bruder"], "richtig": 0},
+    {"frage": "Wie geht es Sofia?", "optionen": ["gut, aber etwas müde", "sehr schlecht", "sie ist krank"], "richtig": 0},
+    {"frage": "Wie ist Tom?", "optionen": ["groß, blond und sehr nett", "klein, dunkelhaarig und ernst", "groß, dunkelhaarig und traurig"], "richtig": 0},
+    {"frage": "Wie alt wird Sofias Vater?", "optionen": ["70", "60", "17"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Meine Mutter wohnt in München.", "loesungen": ["A minha mãe mora em Munique."]},
+   {"de": "Ich habe zwei Brüder.", "loesungen": ["Tenho dois irmãos.", "Eu tenho dois irmãos."]},
+   {"de": "Wie alt sind Sie?", "loesungen": ["Quantos anos tem?", "Quantos anos tem o senhor?", "Quantos anos tem a senhora?"]},
+   {"de": "Herzlichen Glückwunsch!", "loesungen": ["Parabéns!"]},
+   {"de": "Sie ist heute krank.", "loesungen": ["Ela está doente hoje.", "Hoje ela está doente.", "Ela hoje está doente."]},
+   {"de": "Er ist groß und nett.", "loesungen": ["Ele é alto e simpático."]}
+  ],
+  "sprechen": [
+   {"pt": "Esta é a minha família.", "de": "Das ist meine Familie."},
+   {"pt": "Tenho um irmão mais novo.", "de": "Ich habe einen jüngeren Bruder."},
+   {"pt": "Quantos anos tem?", "de": "Wie alt sind Sie?"},
+   {"pt": "Hoje estou muito contente.", "de": "Heute bin ich sehr froh."},
+   {"pt": "Prazer em conhecê-la.", "de": "Freut mich, Sie kennenzulernen."}
+  ]
+ }
+}

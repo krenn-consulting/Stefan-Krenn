@@ -1,0 +1,498 @@
+{
+ "id": "A1-05",
+ "level": "A1",
+ "titel": "A minha casa – Wohnen",
+ "beschreibung": "Wohnung und Haus beschreiben, Möbel und Lage, Farben, Stockwerke und Wohnungstypen, Defekte melden, sich in der Wohnung orientieren.",
+ "vokabeln": [
+  {"id": "a-casa", "pt": "a casa", "de": "das Haus / das Zuhause", "emoji": "🏠", "beispiel_pt": "Estou em casa.", "beispiel_de": "Ich bin zu Hause.", "hinweis": "em casa = zu Hause (ohne Artikel)"},
+  {"id": "o-apartamento", "pt": "o apartamento", "de": "die Wohnung", "emoji": "🏢", "beispiel_pt": "O apartamento é bonito.", "beispiel_de": "Die Wohnung ist schön."},
+  {"id": "o-quarto", "pt": "o quarto", "de": "das Schlafzimmer / Zimmer", "emoji": "🛏️", "beispiel_pt": "A casa tem três quartos.", "beispiel_de": "Das Haus hat drei Schlafzimmer."},
+  {"id": "a-sala", "pt": "a sala", "de": "das Wohnzimmer", "emoji": "🛋️", "beispiel_pt": "A sala é grande.", "beispiel_de": "Das Wohnzimmer ist groß."},
+  {"id": "a-cozinha", "pt": "a cozinha", "de": "die Küche", "emoji": "🍳", "beispiel_pt": "A cozinha é pequena.", "beispiel_de": "Die Küche ist klein."},
+  {"id": "a-varanda", "pt": "a varanda", "de": "der Balkon", "emoji": "🌅", "beispiel_pt": "Tem uma varanda com vista para o mar.", "beispiel_de": "Sie hat einen Balkon mit Meerblick."},
+  {"id": "o-jardim", "pt": "o jardim", "de": "der Garten", "emoji": "🌳", "beispiel_pt": "Há jardim? – Há, sim.", "beispiel_de": "Gibt es einen Garten? – Ja."},
+  {"id": "a-piscina", "pt": "a piscina", "de": "der Pool / das Schwimmbad", "emoji": "🏊", "beispiel_pt": "A moradia tem piscina.", "beispiel_de": "Das Haus hat einen Pool."},
+  {"id": "ha", "pt": "há", "de": "es gibt", "emoji": "✨", "beispiel_pt": "Há três quartos.", "beispiel_de": "Es gibt drei Schlafzimmer.", "hinweis": "há bleibt im Plural gleich."},
+  {"id": "a-garagem", "pt": "a garagem", "de": "die Garage", "emoji": "🚗", "beispiel_pt": "Não há garagem.", "beispiel_de": "Es gibt keine Garage."},
+
+  {"id": "a-cadeira", "pt": "a cadeira", "de": "der Stuhl", "emoji": "🪑", "beispiel_pt": "As cadeiras estão no jardim.", "beispiel_de": "Die Stühle sind im Garten."},
+  {"id": "a-cama", "pt": "a cama", "de": "das Bett", "emoji": "🛏️", "beispiel_pt": "A chave está ao lado da cama.", "beispiel_de": "Der Schlüssel liegt neben dem Bett."},
+  {"id": "o-sofa", "pt": "o sofá", "de": "das Sofa", "emoji": "🛋️", "beispiel_pt": "O gato está debaixo do sofá.", "beispiel_de": "Die Katze ist unter dem Sofa."},
+  {"id": "o-armario", "pt": "o armário", "de": "der Schrank", "emoji": "🗄️", "beispiel_pt": "O armário é grande.", "beispiel_de": "Der Schrank ist groß."},
+  {"id": "a-chave", "pt": "a chave", "de": "der Schlüssel", "emoji": "🔑", "beispiel_pt": "Onde estão as chaves?", "beispiel_de": "Wo sind die Schlüssel?"},
+  {"id": "em-cima-de", "pt": "em cima de", "de": "auf", "emoji": "⬆️", "beispiel_pt": "A chave está em cima da mesa.", "beispiel_de": "Der Schlüssel liegt auf dem Tisch."},
+  {"id": "debaixo-de", "pt": "debaixo de", "de": "unter", "emoji": "⬇️", "beispiel_pt": "Está debaixo do sofá.", "beispiel_de": "Es ist unter dem Sofa."},
+  {"id": "ao-lado-de", "pt": "ao lado de", "de": "neben", "emoji": "↔️", "beispiel_pt": "ao lado da janela", "beispiel_de": "neben dem Fenster"},
+  {"id": "atras-de", "pt": "atrás de", "de": "hinter", "emoji": "🔙", "beispiel_pt": "O cão está atrás da porta.", "beispiel_de": "Der Hund ist hinter der Tür."},
+  {"id": "em-frente-de", "pt": "em frente de", "de": "gegenüber / vor", "emoji": "🔜", "beispiel_pt": "em frente da janela", "beispiel_de": "vor dem Fenster", "alternativen": ["em frente a"]},
+
+  {"id": "branco", "pt": "branco", "de": "weiß", "emoji": "⚪", "beispiel_pt": "As casas são brancas.", "beispiel_de": "Die Häuser sind weiß.", "alternativen": ["branca"]},
+  {"id": "preto", "pt": "preto", "de": "schwarz", "emoji": "⚫", "beispiel_pt": "um gato preto", "beispiel_de": "eine schwarze Katze", "alternativen": ["preta"]},
+  {"id": "vermelho", "pt": "vermelho", "de": "rot", "emoji": "🔴", "beispiel_pt": "O sofá é vermelho.", "beispiel_de": "Das Sofa ist rot.", "alternativen": ["vermelha"]},
+  {"id": "amarelo", "pt": "amarelo", "de": "gelb", "emoji": "🟡", "beispiel_pt": "uma casa amarela", "beispiel_de": "ein gelbes Haus", "alternativen": ["amarela"]},
+  {"id": "verde", "pt": "verde", "de": "grün", "emoji": "🟢", "beispiel_pt": "A porta é verde.", "beispiel_de": "Die Tür ist grün."},
+  {"id": "cinzento", "pt": "cinzento", "de": "grau", "emoji": "🩶", "beispiel_pt": "As paredes são cinzentas.", "beispiel_de": "Die Wände sind grau.", "hinweis": "Brasilien: cinza", "alternativen": ["cinzenta"]},
+  {"id": "a-cor", "pt": "a cor", "de": "die Farbe", "emoji": "🎨", "beispiel_pt": "De que cor é a porta?", "beispiel_de": "Welche Farbe hat die Tür?"},
+  {"id": "a-parede", "pt": "a parede", "de": "die Wand", "emoji": "🧱", "beispiel_pt": "As paredes são brancas.", "beispiel_de": "Die Wände sind weiß."},
+  {"id": "a-porta", "pt": "a porta", "de": "die Tür", "emoji": "🚪", "beispiel_pt": "A porta é azul.", "beispiel_de": "Die Tür ist blau."},
+  {"id": "a-janela", "pt": "a janela", "de": "das Fenster", "emoji": "🪟", "beispiel_pt": "As janelas são azuis.", "beispiel_de": "Die Fenster sind blau."},
+
+  {"id": "a-moradia", "pt": "a moradia", "de": "das Einfamilienhaus", "emoji": "🏡", "beispiel_pt": "Moro numa moradia.", "beispiel_de": "Ich wohne in einem Einfamilienhaus."},
+  {"id": "o-t2", "pt": "um T2", "de": "eine Wohnung mit 2 Schlafzimmern", "emoji": "🔢", "beispiel_pt": "Moro num T2.", "beispiel_de": "Ich wohne in einer Wohnung mit zwei Schlafzimmern.", "hinweis": "T0 = Studio, T1 = 1 Schlafzimmer, T2 = 2 Schlafzimmer …"},
+  {"id": "o-andar", "pt": "o andar", "de": "das Stockwerk", "emoji": "🏬", "beispiel_pt": "Em que andar mora?", "beispiel_de": "In welchem Stock wohnen Sie?"},
+  {"id": "o-res-do-chao", "pt": "o rés-do-chão", "de": "das Erdgeschoss", "emoji": "⬇️", "beispiel_pt": "O apartamento é no rés-do-chão.", "beispiel_de": "Die Wohnung ist im Erdgeschoss.", "hinweis": "Brasilien: térreo"},
+  {"id": "primeiro", "pt": "primeiro", "de": "erster", "emoji": "1️⃣", "beispiel_pt": "no primeiro andar", "beispiel_de": "im ersten Stock", "alternativen": ["primeira"]},
+  {"id": "segundo", "pt": "segundo", "de": "zweiter", "emoji": "2️⃣", "beispiel_pt": "no segundo andar", "beispiel_de": "im zweiten Stock", "alternativen": ["segunda"]},
+  {"id": "terceiro", "pt": "terceiro", "de": "dritter", "emoji": "3️⃣", "beispiel_pt": "Moro no terceiro esquerdo.", "beispiel_de": "Ich wohne im dritten Stock links.", "alternativen": ["terceira"]},
+  {"id": "o-elevador", "pt": "o elevador", "de": "der Aufzug", "emoji": "🛗", "beispiel_pt": "Há elevador? – Não há.", "beispiel_de": "Gibt es einen Aufzug? – Nein."},
+  {"id": "a-escada", "pt": "a escada", "de": "die Treppe", "emoji": "🪜", "beispiel_pt": "Subo pela escada.", "beispiel_de": "Ich gehe die Treppe hoch."},
+  {"id": "o-predio", "pt": "o prédio", "de": "das (Wohn-)Gebäude", "emoji": "🏢", "beispiel_pt": "O prédio é novo.", "beispiel_de": "Das Gebäude ist neu."},
+
+  {"id": "o-frigorifico", "pt": "o frigorífico", "de": "der Kühlschrank", "emoji": "🧊", "beispiel_pt": "O frigorífico está avariado.", "beispiel_de": "Der Kühlschrank ist kaputt.", "hinweis": "Brasilien: geladeira"},
+  {"id": "o-fogao", "pt": "o fogão", "de": "der Herd", "emoji": "🔥", "beispiel_pt": "Tenho um problema com o fogão.", "beispiel_de": "Ich habe ein Problem mit dem Herd."},
+  {"id": "o-forno", "pt": "o forno", "de": "der Backofen", "emoji": "♨️", "beispiel_pt": "O forno não funciona.", "beispiel_de": "Der Backofen funktioniert nicht."},
+  {"id": "maquina-de-lavar", "pt": "a máquina de lavar", "de": "die Waschmaschine", "emoji": "🧺", "beispiel_pt": "A máquina de lavar está avariada.", "beispiel_de": "Die Waschmaschine ist kaputt.", "hinweis": "Spülmaschine: a máquina de lavar loiça"},
+  {"id": "ar-condicionado", "pt": "o ar condicionado", "de": "die Klimaanlage", "emoji": "❄️", "beispiel_pt": "O ar condicionado não funciona.", "beispiel_de": "Die Klimaanlage funktioniert nicht."},
+  {"id": "a-luz", "pt": "a luz", "de": "das Licht / der Strom", "emoji": "💡", "beispiel_pt": "Não há luz.", "beispiel_de": "Es gibt keinen Strom."},
+  {"id": "funcionar", "pt": "funcionar", "de": "funktionieren", "emoji": "⚙️", "beispiel_pt": "Não funciona.", "beispiel_de": "Es funktioniert nicht."},
+  {"id": "avariado", "pt": "avariado", "de": "kaputt (Gerät)", "emoji": "🛠️", "beispiel_pt": "O elevador está avariado.", "beispiel_de": "Der Aufzug ist kaputt.", "hinweis": "Für Geräte. Brasilien: quebrado", "alternativen": ["avariada"]},
+  {"id": "o-esquentador", "pt": "o esquentador", "de": "der Durchlauferhitzer (Gas)", "emoji": "🚿", "beispiel_pt": "O esquentador não funciona.", "beispiel_de": "Der Durchlauferhitzer funktioniert nicht.", "hinweis": "In vielen portugiesischen Wohnungen macht er das Warmwasser."},
+  {"id": "o-senhorio", "pt": "o senhorio", "de": "der Vermieter", "emoji": "🧑‍💼", "beispiel_pt": "Vou ligar ao senhorio.", "beispiel_de": "Ich rufe den Vermieter an.", "hinweis": "Vermieterin: a senhoria"},
+
+  {"id": "onde-fica", "pt": "Onde fica …?", "de": "Wo liegt / befindet sich …?", "emoji": "📍", "beispiel_pt": "Onde fica a cozinha?", "beispiel_de": "Wo ist die Küche?"},
+  {"id": "ficar", "pt": "ficar", "de": "sich befinden / bleiben", "emoji": "📌", "beispiel_pt": "A sala fica à esquerda.", "beispiel_de": "Das Wohnzimmer ist links."},
+  {"id": "ali", "pt": "ali", "de": "dort (drüben)", "emoji": "👉", "beispiel_pt": "A cozinha fica ali.", "beispiel_de": "Die Küche ist dort drüben."},
+  {"id": "ao-fundo", "pt": "ao fundo", "de": "hinten / am Ende", "emoji": "🔚", "beispiel_pt": "ao fundo do corredor", "beispiel_de": "am Ende des Flurs"},
+  {"id": "o-corredor", "pt": "o corredor", "de": "der Flur", "emoji": "🚶", "beispiel_pt": "Os quartos ficam ao fundo do corredor.", "beispiel_de": "Die Schlafzimmer sind am Ende des Flurs."},
+  {"id": "a-direita", "pt": "à direita", "de": "rechts", "emoji": "➡️", "beispiel_pt": "A casa de banho fica à direita.", "beispiel_de": "Das Bad ist rechts."},
+  {"id": "a-esquerda", "pt": "à esquerda", "de": "links", "emoji": "⬅️", "beispiel_pt": "A sala fica à esquerda.", "beispiel_de": "Das Wohnzimmer ist links."},
+  {"id": "grande", "pt": "grande", "de": "groß", "emoji": "🐘", "beispiel_pt": "A sala é grande.", "beispiel_de": "Das Wohnzimmer ist groß."},
+  {"id": "pequeno", "pt": "pequeno", "de": "klein", "emoji": "🐭", "beispiel_pt": "O apartamento é pequeno, mas bonito.", "beispiel_de": "Die Wohnung ist klein, aber schön.", "alternativen": ["pequena"]}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-05-L01",
+   "typ": "neu",
+   "titel": "Räume – es gibt",
+   "vokabeln": ["a-casa", "o-apartamento", "o-quarto", "a-sala", "a-cozinha", "a-varanda", "o-jardim", "a-piscina", "ha", "a-garagem"],
+   "grammatik": {
+    "titel": "há – es gibt",
+    "erklaerung": [
+     "<b>há</b> heißt „es gibt“ und bleibt immer gleich, auch im Plural: <i>Há um quarto. Há três quartos.</i>",
+     "Verneint: <b>Não há</b> garagem. – Es gibt keine Garage. In der Frage oft ohne Artikel: <i>Há piscina?</i> Antwort mit dem Verb: <i>Há, sim.</i> / <i>Não há.</i>",
+     "Alternativ mit <b>ter</b>: <i>A casa tem três quartos.</i> – Das Haus hat drei Schlafzimmer. Beides ist richtig."
+    ],
+    "vergleich": "Wie englisch „there is / there are“ – nur dass <i>há</i> für Singular und Plural gleich bleibt.",
+    "beispiele": [
+     {"pt": "Na casa há três quartos e duas casas de banho.", "de": "Im Haus gibt es drei Schlafzimmer und zwei Bäder."},
+     {"pt": "Há piscina? – Há, sim.", "de": "Gibt es einen Pool? – Ja."},
+     {"pt": "A moradia tem um jardim grande.", "de": "Das Haus hat einen großen Garten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Na casa ___ três quartos.", "loesungen": ["há"], "de": "Im Haus gibt es drei Schlafzimmer.", "kategorie": "haver"},
+     {"typ": "luecke", "satz": "Não ___ garagem.", "loesungen": ["há"], "de": "Es gibt keine Garage.", "kategorie": "haver"},
+     {"typ": "auswahl", "frage": "„Es gibt zwei Bäder.“", "optionen": ["Há duas casas de banho.", "Hão duas casas de banho."], "richtig": 0, "erklaerung": "há bleibt im Plural gleich.", "kategorie": "haver"},
+     {"typ": "auswahl", "frage": "Welche Frage ist richtig: „Gibt es einen Pool?“", "optionen": ["Há piscina?", "Tem há piscina?", "É piscina?"], "richtig": 0, "kategorie": "haver"},
+     {"typ": "uebersetzen", "de": "Das Haus hat einen Garten.", "loesungen": ["A casa tem um jardim.", "A casa tem jardim."]},
+     {"typ": "uebersetzen", "de": "Ich bin zu Hause.", "loesungen": ["Estou em casa."], "erklaerung": "zu Hause = em casa, ohne Artikel."},
+     {"typ": "satzbau", "de": "In der Wohnung gibt es einen Balkon.", "loesung": "No apartamento há uma varanda."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma casa para arrendar – ein Haus zum Mieten",
+    "situation": "Stefan ruft bei einem Immobilienbüro an.",
+    "zeilen": [
+     {"sprecher": "Agente", "stimme": "f", "pt": "Boa tarde, imobiliária Sol, diga.", "de": "Guten Tag, Immobilien Sol, bitte?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Queria informações sobre a moradia em Lagoa.", "de": "Guten Tag. Ich hätte gern Informationen über das Haus in Lagoa."},
+     {"sprecher": "Agente", "stimme": "f", "pt": "Com certeza. A moradia tem três quartos, duas casas de banho, uma sala grande e uma cozinha.", "de": "Gern. Das Haus hat drei Schlafzimmer, zwei Bäder, ein großes Wohnzimmer und eine Küche."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E há jardim?", "de": "Und gibt es einen Garten?"},
+     {"sprecher": "Agente", "stimme": "f", "pt": "Há, sim. E também há piscina. Não há garagem.", "de": "Ja. Und es gibt auch einen Pool. Eine Garage gibt es nicht."}
+    ],
+    "fragen": [
+     {"frage": "Wie viele Schlafzimmer hat das Haus?", "optionen": ["drei", "zwei", "vier"], "richtig": 0},
+     {"frage": "Wie viele Bäder?", "optionen": ["zwei", "eins", "drei"], "richtig": 0},
+     {"frage": "Was gibt es nicht?", "optionen": ["eine Garage", "einen Pool", "einen Garten"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Na casa há três quartos.", "de": "Im Haus gibt es drei Schlafzimmer."},
+     {"pt": "Há uma piscina?", "de": "Gibt es einen Pool?"},
+     {"pt": "A cozinha é grande.", "de": "Die Küche ist groß."},
+     {"pt": "Não há garagem.", "de": "Es gibt keine Garage."},
+     {"pt": "Estou em casa.", "de": "Ich bin zu Hause."}
+    ]
+   },
+   "saetze": [
+    {"id": "moradia-tres-quartos", "pt": "A moradia tem três quartos e um jardim.", "de": "Das Haus hat drei Schlafzimmer und einen Garten."},
+    {"id": "ha-piscina", "pt": "Há piscina? – Há, sim.", "de": "Gibt es einen Pool? – Ja."},
+    {"id": "estou-em-casa", "pt": "Estou em casa.", "de": "Ich bin zu Hause."}
+   ]
+  },
+  {
+   "id": "A1-05-L02",
+   "typ": "neu",
+   "titel": "Möbel – wo ist was?",
+   "vokabeln": ["a-cadeira", "a-cama", "o-sofa", "o-armario", "a-chave", "em-cima-de", "debaixo-de", "ao-lado-de", "atras-de", "em-frente-de"],
+   "grammatik": {
+    "titel": "estar + Ort – und de + Artikel",
+    "erklaerung": [
+     "Wo sich bewegliche Dinge oder Personen gerade befinden: <b>estar</b>. <i>A chave está em cima da mesa.</i> – Der Schlüssel liegt auf dem Tisch.",
+     "Viele Ortsangaben enden auf <b>de</b>: <i>em cima de</i> (auf), <i>debaixo de</i> (unter), <i>ao lado de</i> (neben), <i>atrás de</i> (hinter), <i>em frente de</i> (vor/gegenüber).",
+     "<b>de</b> verschmilzt mit dem Artikel: de + o = <b>do</b>, de + a = <b>da</b>, de + os = <b>dos</b>, de + as = <b>das</b>: <i>debaixo do sofá, ao lado da cama</i>."
+    ],
+    "vergleich": "Im Deutschen „liegt“, „steht“ oder „hängt“ etwas – im Portugiesischen ist es einfach: <i>está</i>.",
+    "beispiele": [
+     {"pt": "A chave está em cima da mesa.", "de": "Der Schlüssel liegt auf dem Tisch."},
+     {"pt": "O gato está debaixo do sofá.", "de": "Die Katze ist unter dem Sofa."},
+     {"pt": "As cadeiras estão no jardim.", "de": "Die Stühle sind im Garten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A chave está em cima ___ mesa.", "loesungen": ["da"], "de": "Der Schlüssel liegt auf dem Tisch.", "kategorie": "Präposition + Artikel"},
+     {"typ": "luecke", "satz": "O gato está debaixo ___ sofá.", "loesungen": ["do"], "de": "Die Katze ist unter dem Sofa.", "kategorie": "Präposition + Artikel"},
+     {"typ": "auswahl", "frage": "„Wo ist der Schlüssel?“", "optionen": ["Onde é a chave?", "Onde está a chave?"], "richtig": 1, "erklaerung": "Bewegliche Dinge: estar.", "kategorie": "ser/estar"},
+     {"typ": "luecke", "satz": "A cadeira está em frente ___ janela.", "loesungen": ["da"], "de": "Der Stuhl steht vor dem Fenster.", "kategorie": "Präposition + Artikel"},
+     {"typ": "uebersetzen", "de": "Der Hund ist hinter der Tür.", "loesungen": ["O cão está atrás da porta."]},
+     {"typ": "uebersetzen", "de": "Der Schlüssel liegt neben dem Bett.", "loesungen": ["A chave está ao lado da cama."]},
+     {"typ": "satzbau", "de": "Die Stühle sind im Garten.", "loesung": "As cadeiras estão no jardim."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Onde estão as chaves? – Wo sind die Schlüssel?",
+    "situation": "Stefan sucht seine Schlüssel, Joana hilft.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Joana, sabes onde estão as minhas chaves?", "de": "Joana, weißt du, wo meine Schlüssel sind?"},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Não estão em cima da mesa?", "de": "Liegen sie nicht auf dem Tisch?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não. Também não estão na cozinha.", "de": "Nein. In der Küche sind sie auch nicht."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Olha, estão ali, debaixo do sofá! O gato…", "de": "Schau, da sind sie, unter dem Sofa! Die Katze …"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ah, o gato! Obrigado!", "de": "Ah, die Katze! Danke!"}
+    ],
+    "fragen": [
+     {"frage": "Was sucht Stefan?", "optionen": ["seine Schlüssel", "sein Handy", "die Katze"], "richtig": 0},
+     {"frage": "Wo sind sie?", "optionen": ["unter dem Sofa", "auf dem Tisch", "in der Küche"], "richtig": 0},
+     {"frage": "Wer hat sie wohl dorthin gebracht?", "optionen": ["die Katze", "Joana", "der Nachbar"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ein Handwerker ist bei dir und fragt, wo die Dinge sind.",
+    "zeilen": [
+     {"sprecher": "Técnico", "stimme": "m", "pt": "Bom dia! Onde está a máquina de lavar?", "de": "Guten Morgen! Wo ist die Waschmaschine?"},
+     {"ich": true, "aufgabe": "Sag: In der Küche, neben dem Fenster.", "loesungen": ["Está na cozinha, ao lado da janela.", "Na cozinha, ao lado da janela."]},
+     {"sprecher": "Técnico", "stimme": "m", "pt": "E a chave da garagem?", "de": "Und der Garagenschlüssel?"},
+     {"ich": true, "aufgabe": "Sag: Er liegt auf dem Tisch.", "loesungen": ["Está em cima da mesa.", "A chave está em cima da mesa."]},
+     {"sprecher": "Técnico", "stimme": "m", "pt": "Obrigado.", "de": "Danke."},
+     {"ich": true, "aufgabe": "Antworte: Gern geschehen.", "loesungen": ["De nada.", "Não tem de quê."]}
+    ]
+   },
+   "saetze": [
+    {"id": "chave-em-cima-da-mesa", "pt": "A chave está em cima da mesa.", "de": "Der Schlüssel liegt auf dem Tisch."},
+    {"id": "gato-debaixo-do-sofa", "pt": "O gato está debaixo do sofá.", "de": "Die Katze ist unter dem Sofa."},
+    {"id": "onde-estao-as-chaves", "pt": "Onde estão as chaves?", "de": "Wo sind die Schlüssel?"}
+   ]
+  },
+  {
+   "id": "A1-05-L03",
+   "typ": "neu",
+   "titel": "Farben",
+   "vokabeln": ["branco", "preto", "vermelho", "amarelo", "verde", "cinzento", "a-cor", "a-parede", "a-porta", "a-janela"],
+   "grammatik": {
+    "titel": "Farben passen sich an",
+    "erklaerung": [
+     "Farben sind Adjektive und stehen nach dem Nomen: <i>uma porta branc<b>a</b>, as paredes branc<b>as</b>, os sofás vermelh<b>os</b></i>.",
+     "Farben auf <b>-e</b> oder Konsonant ändern nur die Zahl: <i>verde → verdes, azul → azuis</i>.",
+     "Nach der Farbe fragen: <b>De que cor é …?</b> – Welche Farbe hat …?"
+    ],
+    "vergleich": "Englisch „white houses“ – Portugiesisch „casas brancas“: Farbe danach und mit Endung.",
+    "beispiele": [
+     {"pt": "As casas do Algarve são brancas.", "de": "Die Häuser an der Algarve sind weiß."},
+     {"pt": "De que cor é a porta? – É azul.", "de": "Welche Farbe hat die Tür? – Sie ist blau."},
+     {"pt": "Tenho uma casa branca com janelas azuis.", "de": "Ich habe ein weißes Haus mit blauen Fenstern."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A porta é ___.", "loesungen": ["branca"], "de": "Die Tür ist weiß.", "kategorie": "Genus"},
+     {"typ": "luecke", "satz": "As paredes são ___.", "loesungen": ["brancas"], "de": "Die Wände sind weiß.", "kategorie": "Genus"},
+     {"typ": "luecke", "satz": "uma casa ___", "loesungen": ["amarela"], "de": "ein gelbes Haus", "kategorie": "Genus"},
+     {"typ": "auswahl", "frage": "„graue Fenster“", "optionen": ["janelas cinzentas", "janelas cinzentos", "janelas cinza"], "richtig": 0, "erklaerung": "In Portugal cinzento, angepasst an janelas (weiblich Plural).", "kategorie": "Genus"},
+     {"typ": "uebersetzen", "de": "Das Sofa ist rot.", "loesungen": ["O sofá é vermelho."]},
+     {"typ": "uebersetzen", "de": "Welche Farbe hat die Tür?", "loesungen": ["De que cor é a porta?"]},
+     {"typ": "satzbau", "de": "Ich habe ein weißes Haus mit blauen Fenstern.", "loesung": "Tenho uma casa branca com janelas azuis."}
+    ]
+   },
+   "hoeren": {
+    "titel": "As casas do Algarve – die Häuser der Algarve",
+    "situation": "Stefan und Joana gehen durch ein Dorf.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Porque é que as casas aqui são todas brancas?", "de": "Warum sind die Häuser hier alle weiß?"},
+     {"sprecher": "Joana", "stimme": "f", "pt": "No Algarve, as casas são brancas por causa do calor.", "de": "An der Algarve sind die Häuser wegen der Hitze weiß."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E as janelas e as portas são azuis ou amarelas.", "de": "Und die Fenster und Türen sind blau oder gelb."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Pois é! E as chaminés também são muito bonitas.", "de": "Genau! Und die Schornsteine sind auch sehr schön."}
+    ],
+    "fragen": [
+     {"frage": "Welche Farbe haben die Häuser?", "optionen": ["weiß", "gelb", "grau"], "richtig": 0},
+     {"frage": "Warum?", "optionen": ["wegen der Hitze", "wegen des Regens", "weil es billig ist"], "richtig": 0},
+     {"frage": "Welche Farben haben Fenster und Türen?", "optionen": ["blau oder gelb", "rot oder grün", "schwarz"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "eine weiße Tür", "loesungen": ["uma porta branca"]},
+     {"de": "rote Stühle", "loesungen": ["cadeiras vermelhas"]},
+     {"de": "Das Haus ist gelb.", "loesungen": ["A casa é amarela."]},
+     {"de": "Die Wände sind grau.", "loesungen": ["As paredes são cinzentas."]}
+    ]
+   },
+   "saetze": [
+    {"id": "casas-brancas", "pt": "As casas do Algarve são brancas.", "de": "Die Häuser an der Algarve sind weiß."},
+    {"id": "de-que-cor", "pt": "De que cor é a porta?", "de": "Welche Farbe hat die Tür?"},
+    {"id": "casa-branca-janelas-azuis", "pt": "Tenho uma casa branca com janelas azuis.", "de": "Ich habe ein weißes Haus mit blauen Fenstern."}
+   ]
+  },
+  {
+   "id": "A1-05-L04",
+   "typ": "neu",
+   "titel": "Stockwerk und Wohnungstyp",
+   "vokabeln": ["a-moradia", "o-t2", "o-andar", "o-res-do-chao", "primeiro", "segundo", "terceiro", "o-elevador", "a-escada", "o-predio"],
+   "grammatik": {
+    "titel": "Ordnungszahlen – und num, numa",
+    "erklaerung": [
+     "Ordnungszahlen: <b>primeiro, segundo, terceiro, quarto, quinto, sexto, sétimo, oitavo, nono, décimo</b>. Sie passen sich an: <i>a primeira rua</i>. Abgekürzt: 1.º, 2.º, 3.º",
+     "In Adressen steht oft z. B. <b>3.º Esq.</b> = 3. Stock, links (<i>esquerdo</i>) oder <b>2.º Dto.</b> = 2. Stock, rechts (<i>direito</i>).",
+     "<b>em</b> verschmilzt auch mit <i>um / uma</i>: em + um = <b>num</b>, em + uma = <b>numa</b>: <i>Moro num T2. Ela mora numa moradia.</i>",
+     "Typisch Portugal: Wohnungen nach Schlafzimmern: <b>T0</b> (Studio), <b>T1</b>, <b>T2</b>, <b>T3</b> …"
+    ],
+    "vergleich": "Der „erste Stock“ ist wie im Deutschen eine Etage über dem Erdgeschoss (rés-do-chão) – nicht wie im amerikanischen Englisch.",
+    "beispiele": [
+     {"pt": "Moro num T2 no terceiro andar.", "de": "Ich wohne in einer 2-Zimmer-Wohnung im dritten Stock."},
+     {"pt": "Há elevador? – Não há.", "de": "Gibt es einen Aufzug? – Nein."},
+     {"pt": "O apartamento é no rés-do-chão.", "de": "Die Wohnung ist im Erdgeschoss."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Moro ___ T2.", "loesungen": ["num"], "de": "Ich wohne in einer Wohnung mit zwei Schlafzimmern.", "kategorie": "Präposition + Artikel"},
+     {"typ": "luecke", "satz": "Moro no ___ andar.", "loesungen": ["primeiro"], "de": "Ich wohne im ersten Stock."},
+     {"typ": "luecke", "satz": "A Fernanda mora ___ moradia.", "loesungen": ["numa"], "de": "Fernanda wohnt in einem Einfamilienhaus.", "kategorie": "Präposition + Artikel"},
+     {"typ": "auswahl", "frage": "„im Erdgeschoss“", "optionen": ["no rés-do-chão", "no térreo", "no primeiro andar"], "richtig": 0, "erklaerung": "Portugal: rés-do-chão. „térreo“ ist brasilianisch."},
+     {"typ": "auswahl", "frage": "Auf dem Briefkasten steht „3.º Esq.“. Was heißt das?", "optionen": ["3. Stock, links", "3. Stock, rechts", "Hausnummer 3"], "richtig": 0, "erklaerung": "Esq. = esquerdo (links), Dto. = direito (rechts)."},
+     {"typ": "uebersetzen", "de": "Gibt es einen Aufzug?", "loesungen": ["Há elevador?", "Há um elevador?"]},
+     {"typ": "satzbau", "de": "Ich wohne im dritten Stock.", "loesung": "Moro no terceiro andar."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Em que andar moras? – In welchem Stock wohnst du?",
+    "situation": "Paulo fragt Stefan nach seiner Wohnung.",
+    "zeilen": [
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Em que andar moras?", "de": "In welchem Stock wohnst du?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "No terceiro, o terceiro esquerdo.", "de": "Im dritten, dritter Stock links."},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Há elevador?", "de": "Gibt es einen Aufzug?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não há. Subo pela escada todos os dias!", "de": "Nein. Ich gehe jeden Tag die Treppe hoch!"},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Eu moro numa moradia. Não tenho escadas!", "de": "Ich wohne in einem Einfamilienhaus. Ich habe keine Treppen!"}
+    ],
+    "fragen": [
+     {"frage": "Wo wohnt Stefan?", "optionen": ["3. Stock links", "3. Stock rechts", "Erdgeschoss"], "richtig": 0},
+     {"frage": "Gibt es einen Aufzug?", "optionen": ["nein", "ja"], "richtig": 0},
+     {"frage": "Wie wohnt Paulo?", "optionen": ["in einem Einfamilienhaus", "im 2. Stock", "in einem Hotel"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Moro num T2.", "de": "Ich wohne in einer 2-Zimmer-Wohnung."},
+     {"pt": "Moro no terceiro andar.", "de": "Ich wohne im dritten Stock."},
+     {"pt": "Há elevador?", "de": "Gibt es einen Aufzug?"},
+     {"pt": "É no rés-do-chão.", "de": "Es ist im Erdgeschoss."},
+     {"pt": "A Fernanda mora numa moradia.", "de": "Fernanda wohnt in einem Einfamilienhaus."}
+    ]
+   },
+   "saetze": [
+    {"id": "t2-terceiro-andar", "pt": "Moro num T2 no terceiro andar.", "de": "Ich wohne in einer 2-Zimmer-Wohnung im dritten Stock."},
+    {"id": "ha-elevador", "pt": "Há elevador? – Não há.", "de": "Gibt es einen Aufzug? – Nein."},
+    {"id": "no-res-do-chao", "pt": "O apartamento é no rés-do-chão.", "de": "Die Wohnung ist im Erdgeschoss."}
+   ]
+  },
+  {
+   "id": "A1-05-L05",
+   "typ": "neu",
+   "titel": "Geräte und Defekte",
+   "vokabeln": ["o-frigorifico", "o-fogao", "o-forno", "maquina-de-lavar", "ar-condicionado", "a-luz", "funcionar", "avariado", "o-esquentador", "o-senhorio"],
+   "grammatik": {
+    "titel": "Es funktioniert nicht – está avariado",
+    "erklaerung": [
+     "Ein Gerät, das kaputt ist, <i>ist</i> gerade in diesem Zustand: <b>estar avariado</b>. <i>A máquina de lavar está avariada.</i> (Das Adjektiv passt sich an.)",
+     "Oder einfach: <b>não funciona</b> – <i>O esquentador não funciona.</i>",
+     "Ein Problem melden: <b>Tenho um problema com …</b> (mit) bzw. <b>no / na …</b> (in): <i>Tenho um problema no apartamento.</i>",
+     "Am Telefon meldet man sich in Portugal oft mit <b>Estou?</b> oder <b>Estou sim?</b> – „Hallo?“"
+    ],
+    "vergleich": "„kaputt“ für Geräte heißt in Portugal <i>avariado</i>; <i>partido</i> sagt man, wenn etwas zerbrochen ist (ein Glas, ein Fenster).",
+    "beispiele": [
+     {"pt": "O esquentador não funciona. Não há água quente.", "de": "Der Durchlauferhitzer funktioniert nicht. Es gibt kein warmes Wasser."},
+     {"pt": "A máquina de lavar está avariada.", "de": "Die Waschmaschine ist kaputt."},
+     {"pt": "Tenho um problema com o fogão.", "de": "Ich habe ein Problem mit dem Herd."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O frigorífico está ___.", "loesungen": ["avariado"], "de": "Der Kühlschrank ist kaputt."},
+     {"typ": "luecke", "satz": "A máquina de lavar não ___.", "loesungen": ["funciona"], "de": "Die Waschmaschine funktioniert nicht."},
+     {"typ": "auswahl", "frage": "„Die Waschmaschine ist kaputt.“", "optionen": ["A máquina de lavar está avariada.", "A máquina de lavar é avariada."], "richtig": 0, "erklaerung": "Ein Zustand → estar. Und weiblich: avariada.", "kategorie": "ser/estar"},
+     {"typ": "auswahl", "frage": "Wofür ist der esquentador?", "optionen": ["für warmes Wasser", "für die Heizung", "für den Kühlschrank"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Das Licht funktioniert nicht.", "loesungen": ["A luz não funciona."]},
+     {"typ": "uebersetzen", "de": "Es gibt kein warmes Wasser.", "loesungen": ["Não há água quente."]},
+     {"typ": "satzbau", "de": "Ich habe ein Problem mit dem Herd.", "loesung": "Tenho um problema com o fogão."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Ao telefone com o senhorio – Anruf beim Vermieter",
+    "situation": "Stefan ruft seinen Vermieter an.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia, senhor Almeida. Tenho um problema no apartamento.", "de": "Guten Morgen, Herr Almeida. Ich habe ein Problem in der Wohnung."},
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "Bom dia! Diga, o que se passa?", "de": "Guten Morgen! Was ist los?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O esquentador não funciona. Não há água quente.", "de": "Der Durchlauferhitzer funktioniert nicht. Es gibt kein warmes Wasser."},
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "Ah, que chatice! Amanhã de manhã vai aí um técnico.", "de": "Ach, wie ärgerlich! Morgen früh kommt ein Techniker vorbei."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a máquina de lavar também está avariada.", "de": "Und die Waschmaschine ist auch kaputt."},
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "Está bem, o técnico vê as duas coisas.", "de": "In Ordnung, der Techniker schaut sich beides an."}
+    ],
+    "fragen": [
+     {"frage": "Was funktioniert nicht?", "optionen": ["der Durchlauferhitzer und die Waschmaschine", "der Kühlschrank", "das Licht"], "richtig": 0},
+     {"frage": "Wann kommt der Techniker?", "optionen": ["morgen früh", "heute Abend", "nächste Woche"], "richtig": 0},
+     {"frage": "Was bedeutet „Que chatice!“?", "optionen": ["Wie ärgerlich!", "Wie schön!", "Keine Ahnung!"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du rufst deinen Vermieter an.",
+    "zeilen": [
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "Estou? Diga.", "de": "Hallo? Bitte?"},
+     {"ich": true, "aufgabe": "Sag: Guten Morgen, ich habe ein Problem in der Wohnung.", "loesungen": ["Bom dia, tenho um problema no apartamento.", "Bom dia. Tenho um problema no apartamento."]},
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "O que se passa?", "de": "Was ist los?"},
+     {"ich": true, "aufgabe": "Sag: Der Kühlschrank funktioniert nicht.", "loesungen": ["O frigorífico não funciona.", "O frigorífico está avariado."]},
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "Amanhã vai aí um técnico.", "de": "Morgen kommt ein Techniker vorbei."},
+     {"ich": true, "aufgabe": "Sag: Danke, bis morgen.", "loesungen": ["Obrigado, até amanhã.", "Obrigado. Até amanhã!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "esquentador-nao-funciona", "pt": "O esquentador não funciona.", "de": "Der Durchlauferhitzer funktioniert nicht."},
+    {"id": "maquina-avariada", "pt": "A máquina de lavar está avariada.", "de": "Die Waschmaschine ist kaputt."},
+    {"id": "tenho-um-problema", "pt": "Tenho um problema no apartamento.", "de": "Ich habe ein Problem in der Wohnung."}
+   ]
+  },
+  {
+   "id": "A1-05-L06",
+   "typ": "neu",
+   "titel": "Sich orientieren – links, rechts, hinten",
+   "vokabeln": ["onde-fica", "ficar", "ali", "ao-fundo", "o-corredor", "a-direita", "a-esquerda", "grande", "pequeno"],
+   "grammatik": {
+    "titel": "ficar – wo etwas liegt",
+    "erklaerung": [
+     "Für Orte und Räume, die sich nicht bewegen, sagt man gern <b>ficar</b> (sich befinden): <i>Onde fica a cozinha? – Fica à esquerda.</i> Umgangssprachlich geht auch <i>Onde é …?</i>",
+     "<b>à direita</b> (rechts), <b>à esquerda</b> (links): Das <b>à</b> ist a + a – der Akzent zeigt die Verschmelzung.",
+     "Hier und dort: <b>aqui</b> (hier), <b>aí</b> (da, beim Gesprächspartner), <b>ali</b> (dort drüben), <b>lá</b> (dort, weiter weg)."
+    ],
+    "vergleich": "Englisch „Where is the kitchen?“ – im Portugiesischen sagt man für Räume und Gebäude lieber „wo befindet sich“: <i>Onde fica</i>.",
+    "beispiele": [
+     {"pt": "Onde fica a cozinha? – Fica ali, à esquerda.", "de": "Wo ist die Küche? – Dort drüben, links."},
+     {"pt": "Os quartos ficam ao fundo do corredor.", "de": "Die Schlafzimmer sind am Ende des Flurs."},
+     {"pt": "O apartamento é pequeno, mas bonito.", "de": "Die Wohnung ist klein, aber schön."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Wo ist die Küche?“", "optionen": ["Onde fica a cozinha?", "Onde fica-se a cozinha?", "Onde está fica a cozinha?"], "richtig": 0},
+     {"typ": "luecke", "satz": "A casa de banho fica ___ direita.", "loesungen": ["à"], "de": "Das Bad ist rechts.", "erklaerung": "a + a = à", "kategorie": "Präposition + Artikel"},
+     {"typ": "luecke", "satz": "O quarto fica ao ___ do corredor.", "loesungen": ["fundo"], "de": "Das Schlafzimmer ist am Ende des Flurs."},
+     {"typ": "uebersetzen", "de": "Das Wohnzimmer ist links.", "loesungen": ["A sala fica à esquerda.", "A sala é à esquerda."]},
+     {"typ": "uebersetzen", "de": "Das Haus ist klein, aber schön.", "loesungen": ["A casa é pequena, mas bonita."]},
+     {"typ": "satzbau", "de": "Die Küche ist dort drüben, rechts.", "loesung": "A cozinha fica ali, à direita."},
+     {"typ": "auswahl", "frage": "Was heißt „ali“?", "optionen": ["dort drüben", "hier", "überall"], "richtig": 0}
+    ]
+   },
+   "hoeren": {
+    "titel": "Visita ao apartamento – Wohnungsbesichtigung",
+    "situation": "Eine Maklerin zeigt Stefan eine Wohnung.",
+    "zeilen": [
+     {"sprecher": "Agente", "stimme": "f", "pt": "Bem-vindo! Esta é a sala. É grande, não é?", "de": "Willkommen! Das ist das Wohnzimmer. Groß, nicht wahr?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É, sim. E onde fica a cozinha?", "de": "Ja. Und wo ist die Küche?"},
+     {"sprecher": "Agente", "stimme": "f", "pt": "A cozinha fica ali, à esquerda. Os quartos ficam ao fundo do corredor.", "de": "Die Küche ist dort drüben, links. Die Schlafzimmer sind am Ende des Flurs."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a casa de banho?", "de": "Und das Bad?"},
+     {"sprecher": "Agente", "stimme": "f", "pt": "Fica ao lado do quarto grande, à direita.", "de": "Neben dem großen Schlafzimmer, rechts."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O apartamento é pequeno, mas muito bonito.", "de": "Die Wohnung ist klein, aber sehr schön."}
+    ],
+    "fragen": [
+     {"frage": "Wo ist die Küche?", "optionen": ["links", "rechts", "am Ende des Flurs"], "richtig": 0},
+     {"frage": "Wo sind die Schlafzimmer?", "optionen": ["am Ende des Flurs", "neben der Küche", "im Erdgeschoss"], "richtig": 0},
+     {"frage": "Wo ist das Bad?", "optionen": ["neben dem großen Schlafzimmer, rechts", "links neben der Küche", "es gibt keins"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Onde fica a cozinha?", "de": "Wo ist die Küche?"},
+     {"pt": "A cozinha fica à esquerda.", "de": "Die Küche ist links."},
+     {"pt": "Os quartos ficam ao fundo do corredor.", "de": "Die Schlafzimmer sind am Ende des Flurs."},
+     {"pt": "A casa de banho é à direita.", "de": "Das Bad ist rechts."},
+     {"pt": "O apartamento é pequeno, mas bonito.", "de": "Die Wohnung ist klein, aber schön."}
+    ]
+   },
+   "saetze": [
+    {"id": "onde-fica-a-cozinha", "pt": "Onde fica a cozinha? – Fica à esquerda.", "de": "Wo ist die Küche? – Links."},
+    {"id": "quartos-ao-fundo", "pt": "Os quartos ficam ao fundo do corredor.", "de": "Die Schlafzimmer sind am Ende des Flurs."},
+    {"id": "pequeno-mas-bonito", "pt": "O apartamento é pequeno, mas bonito.", "de": "Die Wohnung ist klein, aber schön."}
+   ]
+  },
+  {"id": "A1-05-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-05-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "O apartamento da Marta – Martas Wohnung",
+   "situation": "Marta erzählt von ihrer neuen Wohnung.",
+   "zeilen": [
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Marta, como é o teu apartamento novo?", "de": "Marta, wie ist deine neue Wohnung?"},
+    {"sprecher": "Marta", "stimme": "f", "pt": "É um T1 no segundo andar, perto do mar.", "de": "Es ist eine Einzimmerwohnung (T1) im zweiten Stock, in der Nähe des Meeres."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Tem varanda?", "de": "Hat sie einen Balkon?"},
+    {"sprecher": "Marta", "stimme": "f", "pt": "Tem uma varanda pequena com vista para o mar. A cozinha é pequena, mas a sala é grande.", "de": "Einen kleinen Balkon mit Meerblick. Die Küche ist klein, aber das Wohnzimmer ist groß."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E há elevador?", "de": "Und gibt es einen Aufzug?"},
+    {"sprecher": "Marta", "stimme": "f", "pt": "Há, mas está avariado!", "de": "Ja, aber er ist kaputt!"}
+   ],
+   "fragen": [
+    {"frage": "Was für eine Wohnung hat Marta?", "optionen": ["T1 – ein Schlafzimmer", "T2 – zwei Schlafzimmer", "ein Einfamilienhaus"], "richtig": 0},
+    {"frage": "In welchem Stock?", "optionen": ["im zweiten", "im Erdgeschoss", "im dritten"], "richtig": 0},
+    {"frage": "Was ist groß?", "optionen": ["das Wohnzimmer", "die Küche", "der Balkon"], "richtig": 0},
+    {"frage": "Was ist mit dem Aufzug?", "optionen": ["Es gibt einen, aber er ist kaputt.", "Es gibt keinen.", "Er funktioniert gut."], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Anúncio: Arrenda-se T2 – Anzeige: Wohnung zu vermieten",
+   "situation": "Eine Wohnungsanzeige im Internet.",
+   "text": [
+    "Arrenda-se T2 em Portimão, no centro.",
+    "Primeiro andar, com elevador.",
+    "Sala com varanda, cozinha equipada: frigorífico, fogão, forno e máquina de lavar.",
+    "Dois quartos e uma casa de banho. Ar condicionado.",
+    "Sem garagem. 850 € por mês. Contacto: 912 345 678."
+   ],
+   "fragen": [
+    {"frage": "Wo liegt die Wohnung?", "optionen": ["im Zentrum von Portimão", "am Strand von Lagos", "in Faro"], "richtig": 0},
+    {"frage": "In welchem Stock?", "optionen": ["im ersten, mit Aufzug", "im Erdgeschoss", "im dritten, ohne Aufzug"], "richtig": 0},
+    {"frage": "Was gibt es nicht?", "optionen": ["eine Garage", "eine Klimaanlage", "einen Balkon"], "richtig": 0},
+    {"frage": "Was kostet die Wohnung?", "optionen": ["850 € im Monat", "850 € im Jahr", "580 € im Monat"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Das Haus hat drei Schlafzimmer.", "loesungen": ["A casa tem três quartos."]},
+   {"de": "Gibt es einen Pool?", "loesungen": ["Há piscina?", "Há uma piscina?"]},
+   {"de": "Der Schlüssel liegt auf dem Tisch.", "loesungen": ["A chave está em cima da mesa."]},
+   {"de": "Ich wohne im zweiten Stock.", "loesungen": ["Moro no segundo andar."]},
+   {"de": "Der Kühlschrank ist kaputt.", "loesungen": ["O frigorífico está avariado.", "O frigorífico não funciona."]},
+   {"de": "Wo ist die Küche?", "loesungen": ["Onde fica a cozinha?", "Onde é a cozinha?"]}
+  ],
+  "sprechen": [
+   {"pt": "Moro num apartamento no primeiro andar.", "de": "Ich wohne in einer Wohnung im ersten Stock."},
+   {"pt": "A sala é grande e tem varanda.", "de": "Das Wohnzimmer ist groß und hat einen Balkon."},
+   {"pt": "O esquentador não funciona.", "de": "Der Durchlauferhitzer funktioniert nicht."},
+   {"pt": "A chave está em cima da mesa.", "de": "Der Schlüssel liegt auf dem Tisch."},
+   {"pt": "A casa de banho fica à direita.", "de": "Das Bad ist rechts."}
+  ]
+ }
+}
