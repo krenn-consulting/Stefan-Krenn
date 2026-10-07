@@ -1,0 +1,497 @@
+{
+ "id": "A1-08",
+ "level": "A1",
+ "titel": "Na cidade – Orientierung und Verkehr",
+ "beschreibung": "Orte in der Stadt, nach dem Weg fragen und Wege beschreiben, gehen und fahren mit ir, Bus und Zug, Pläne mit ir + Infinitiv, Verkehrsmittel.",
+ "vokabeln": [
+  {"id": "o-centro", "pt": "o centro", "de": "das Zentrum", "emoji": "🏙️", "beispiel_pt": "O banco fica no centro.", "beispiel_de": "Die Bank ist im Zentrum."},
+  {"id": "a-praca", "pt": "a praça", "de": "der Platz", "emoji": "⛲", "beispiel_pt": "A câmara municipal fica na praça.", "beispiel_de": "Das Rathaus ist am Platz."},
+  {"id": "o-banco", "pt": "o banco", "de": "die Bank", "emoji": "🏦", "beispiel_pt": "Há algum banco aqui perto?", "beispiel_de": "Gibt es hier in der Nähe eine Bank?", "hinweis": "auch: die Sitzbank"},
+  {"id": "a-farmacia", "pt": "a farmácia", "de": "die Apotheke", "emoji": "💊", "beispiel_pt": "A farmácia fica na esquina.", "beispiel_de": "Die Apotheke ist an der Ecke."},
+  {"id": "os-correios", "pt": "os correios", "de": "die Post", "emoji": "📮", "beispiel_pt": "Os correios ficam perto da câmara.", "beispiel_de": "Die Post ist beim Rathaus.", "hinweis": "Die portugiesische Post heißt CTT. „os correios“ ist Plural."},
+  {"id": "a-camara", "pt": "a câmara municipal", "de": "das Rathaus", "emoji": "🏛️", "beispiel_pt": "Vou à câmara municipal.", "beispiel_de": "Ich gehe zum Rathaus."},
+  {"id": "o-hospital", "pt": "o hospital", "de": "das Krankenhaus", "emoji": "🏥", "beispiel_pt": "O hospital fica longe.", "beispiel_de": "Das Krankenhaus ist weit weg."},
+  {"id": "a-igreja", "pt": "a igreja", "de": "die Kirche", "emoji": "⛪", "beispiel_pt": "ao lado da igreja", "beispiel_de": "neben der Kirche"},
+  {"id": "perto-daqui", "pt": "perto daqui", "de": "hier in der Nähe", "emoji": "📍", "beispiel_pt": "Há uma farmácia perto daqui?", "beispiel_de": "Gibt es hier in der Nähe eine Apotheke?", "hinweis": "de + aqui = daqui"},
+  {"id": "ha-algum", "pt": "Há algum … aqui perto?", "de": "Gibt es hier in der Nähe ein …?", "emoji": "🔎", "beispiel_pt": "Há algum restaurante aqui perto?", "beispiel_de": "Gibt es hier in der Nähe ein Restaurant?", "hinweis": "weiblich: alguma"},
+
+  {"id": "virar", "pt": "virar", "de": "abbiegen", "emoji": "↪️", "beispiel_pt": "Vire à direita.", "beispiel_de": "Biegen Sie rechts ab."},
+  {"id": "seguir", "pt": "seguir", "de": "weitergehen / folgen", "emoji": "⬆️", "beispiel_pt": "Siga em frente.", "beispiel_de": "Gehen Sie geradeaus."},
+  {"id": "atravessar", "pt": "atravessar", "de": "überqueren", "emoji": "🚸", "beispiel_pt": "Atravesse a rua.", "beispiel_de": "Überqueren Sie die Straße."},
+  {"id": "em-frente", "pt": "em frente", "de": "geradeaus", "emoji": "⬆️", "beispiel_pt": "Siga sempre em frente.", "beispiel_de": "Gehen Sie immer geradeaus."},
+  {"id": "a-rotunda", "pt": "a rotunda", "de": "der Kreisverkehr", "emoji": "🔄", "beispiel_pt": "Na rotunda, saia na segunda saída.", "beispiel_de": "Im Kreisverkehr nehmen Sie die zweite Ausfahrt."},
+  {"id": "o-semaforo", "pt": "o semáforo", "de": "die Ampel", "emoji": "🚦", "beispiel_pt": "Vire à esquerda no semáforo.", "beispiel_de": "Biegen Sie an der Ampel links ab."},
+  {"id": "a-esquina", "pt": "a esquina", "de": "die Ecke", "emoji": "📐", "beispiel_pt": "A farmácia fica na esquina.", "beispiel_de": "Die Apotheke ist an der Ecke."},
+  {"id": "a-saida", "pt": "a saída", "de": "die Ausfahrt / der Ausgang", "emoji": "🚪", "beispiel_pt": "a segunda saída", "beispiel_de": "die zweite Ausfahrt", "hinweis": "Eingang: a entrada"},
+  {"id": "ate-ao-fim", "pt": "até ao fim da rua", "de": "bis zum Ende der Straße", "emoji": "🔚", "beispiel_pt": "Siga até ao fim da rua.", "beispiel_de": "Gehen Sie bis zum Ende der Straße.", "hinweis": "In Portugal: até ao / até à"},
+  {"id": "a-rua-segunda", "pt": "a segunda rua", "de": "die zweite Straße", "emoji": "2️⃣", "beispiel_pt": "Vire na segunda rua à direita.", "beispiel_de": "Biegen Sie in die zweite Straße rechts ab."},
+
+  {"id": "ir", "pt": "ir", "de": "gehen / fahren", "emoji": "🚶", "beispiel_pt": "Vou ao banco.", "beispiel_de": "Ich gehe zur Bank.", "hinweis": "vou, vais, vai, vamos, vão"},
+  {"id": "vou", "pt": "vou", "de": "ich gehe / fahre", "emoji": "👣", "beispiel_pt": "Vou à praia.", "beispiel_de": "Ich gehe zum Strand."},
+  {"id": "vai", "pt": "vai", "de": "er/sie geht · Sie gehen", "emoji": "👉", "beispiel_pt": "Vai a Lisboa amanhã?", "beispiel_de": "Fahren Sie morgen nach Lissabon?"},
+  {"id": "vamos", "pt": "Vamos!", "de": "Gehen wir! / wir gehen", "emoji": "🙌", "beispiel_pt": "Vamos tomar um café?", "beispiel_de": "Gehen wir einen Kaffee trinken?"},
+  {"id": "ao", "pt": "ao", "de": "zum (a + o)", "emoji": "➡️", "beispiel_pt": "Vou ao supermercado.", "beispiel_de": "Ich gehe zum Supermarkt.", "hinweis": "a + a = à: à praia"},
+  {"id": "para", "pt": "para", "de": "nach / zu (Ziel)", "emoji": "🎯", "beispiel_pt": "Agora vou para casa.", "beispiel_de": "Jetzt gehe ich nach Hause."},
+  {"id": "agora", "pt": "agora", "de": "jetzt", "emoji": "⏱️", "beispiel_pt": "Agora não posso.", "beispiel_de": "Jetzt kann ich nicht."},
+  {"id": "depois", "pt": "depois", "de": "danach / später", "emoji": "⏭️", "beispiel_pt": "Depois vou ao banco.", "beispiel_de": "Danach gehe ich zur Bank."},
+
+  {"id": "o-autocarro", "pt": "o autocarro", "de": "der Bus", "emoji": "🚌", "beispiel_pt": "Vou apanhar o autocarro.", "beispiel_de": "Ich nehme den Bus.", "hinweis": "Brasilianisch heißt der Bus anders – in Portugal immer autocarro."},
+  {"id": "o-comboio", "pt": "o comboio", "de": "der Zug", "emoji": "🚆", "beispiel_pt": "O comboio para Faro parte às dez.", "beispiel_de": "Der Zug nach Faro fährt um zehn.", "hinweis": "In Portugal immer comboio."},
+  {"id": "a-paragem", "pt": "a paragem", "de": "die Haltestelle", "emoji": "🚏", "beispiel_pt": "Onde fica a paragem do autocarro?", "beispiel_de": "Wo ist die Bushaltestelle?"},
+  {"id": "a-estacao", "pt": "a estação", "de": "der Bahnhof", "emoji": "🚉", "beispiel_pt": "A estação fica longe do centro.", "beispiel_de": "Der Bahnhof ist weit vom Zentrum."},
+  {"id": "o-bilhete", "pt": "o bilhete", "de": "die Fahrkarte / das Ticket", "emoji": "🎫", "beispiel_pt": "Um bilhete para Faro, por favor.", "beispiel_de": "Eine Fahrkarte nach Faro, bitte."},
+  {"id": "ida-e-volta", "pt": "ida e volta", "de": "hin und zurück", "emoji": "🔁", "beispiel_pt": "Um bilhete de ida e volta.", "beispiel_de": "Eine Rückfahrkarte.", "hinweis": "nur hin: só ida"},
+  {"id": "partir", "pt": "partir", "de": "abfahren", "emoji": "🚀", "beispiel_pt": "A que horas parte o comboio?", "beispiel_de": "Um wie viel Uhr fährt der Zug ab?"},
+  {"id": "a-linha", "pt": "a linha", "de": "das Gleis / die Linie", "emoji": "🛤️", "beispiel_pt": "Parte da linha um.", "beispiel_de": "Er fährt von Gleis eins."},
+  {"id": "apanhar", "pt": "apanhar", "de": "nehmen (Bus, Zug) / fangen", "emoji": "🙋", "beispiel_pt": "Apanho o autocarro às oito.", "beispiel_de": "Ich nehme den Bus um acht.", "hinweis": "Typisch Portugal – in Brasilien sagt man pegar."},
+
+  {"id": "proxima-semana", "pt": "para a semana", "de": "nächste Woche", "emoji": "📆", "beispiel_pt": "Para a semana vou a Lisboa.", "beispiel_de": "Nächste Woche fahre ich nach Lissabon.", "alternativen": ["na próxima semana", "a próxima semana"]},
+  {"id": "logo", "pt": "logo", "de": "nachher / später (heute)", "emoji": "🔜", "beispiel_pt": "Logo vou às compras.", "beispiel_de": "Nachher gehe ich einkaufen."},
+  {"id": "este-fim-de-semana", "pt": "este fim de semana", "de": "dieses Wochenende", "emoji": "🎒", "beispiel_pt": "Este fim de semana vamos a Sintra.", "beispiel_de": "Dieses Wochenende fahren wir nach Sintra."},
+  {"id": "visitar", "pt": "visitar", "de": "besuchen (Ort)", "emoji": "🗺️", "beispiel_pt": "Vamos visitar Silves.", "beispiel_de": "Wir besuchen Silves."},
+  {"id": "tratar-de", "pt": "tratar de", "de": "sich kümmern um / erledigen", "emoji": "📝", "beispiel_pt": "Amanhã vou tratar do NIF.", "beispiel_de": "Morgen kümmere ich mich um die Steuernummer."},
+  {"id": "o-carro", "pt": "o carro", "de": "das Auto", "emoji": "🚗", "beispiel_pt": "Vou de carro.", "beispiel_de": "Ich fahre mit dem Auto."},
+  {"id": "conduzir", "pt": "conduzir", "de": "Auto fahren", "emoji": "🧑‍✈️", "beispiel_pt": "Conduzo todos os dias.", "beispiel_de": "Ich fahre jeden Tag Auto.", "hinweis": "Brasilien: dirigir"},
+  {"id": "estacionar", "pt": "estacionar", "de": "parken", "emoji": "🅿️", "beispiel_pt": "Em Faro é difícil estacionar.", "beispiel_de": "In Faro ist Parken schwierig."},
+
+  {"id": "de-carro", "pt": "de carro", "de": "mit dem Auto", "emoji": "🚗", "beispiel_pt": "Vou para o trabalho de carro.", "beispiel_de": "Ich fahre mit dem Auto zur Arbeit."},
+  {"id": "a-pe", "pt": "a pé", "de": "zu Fuß", "emoji": "🚶", "beispiel_pt": "Vou a pé.", "beispiel_de": "Ich gehe zu Fuß."},
+  {"id": "de-bicicleta", "pt": "de bicicleta", "de": "mit dem Fahrrad", "emoji": "🚲", "beispiel_pt": "Vou de bicicleta à praia.", "beispiel_de": "Ich fahre mit dem Fahrrad zum Strand."},
+  {"id": "demorar", "pt": "demorar", "de": "dauern", "emoji": "⏳", "beispiel_pt": "Quanto tempo demora?", "beispiel_de": "Wie lange dauert es?"},
+  {"id": "quanto-tempo", "pt": "quanto tempo", "de": "wie lange", "emoji": "⌛", "beispiel_pt": "Quanto tempo demora a pé?", "beispiel_de": "Wie lange dauert es zu Fuß?"},
+  {"id": "o-caminho", "pt": "o caminho", "de": "der Weg", "emoji": "🛤️", "beispiel_pt": "Qual é o caminho para a praia?", "beispiel_de": "Wie ist der Weg zum Strand?"},
+  {"id": "o-mapa", "pt": "o mapa", "de": "die Karte (Stadtplan)", "emoji": "🗺️", "beispiel_pt": "Tem um mapa da cidade?", "beispiel_de": "Haben Sie einen Stadtplan?", "hinweis": "o mapa ist männlich, obwohl es auf -a endet."},
+  {"id": "a-portagem", "pt": "a portagem", "de": "die Maut", "emoji": "🛣️", "beispiel_pt": "Na A22 há portagens.", "beispiel_de": "Auf der A22 gibt es Maut.", "hinweis": "Die A22 an der Algarve hat elektronische Maut (z. B. mit Via Verde)."}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-08-L01",
+   "typ": "neu",
+   "titel": "Orte in der Stadt",
+   "vokabeln": ["o-centro", "a-praca", "o-banco", "a-farmacia", "os-correios", "a-camara", "o-hospital", "a-igreja", "perto-daqui", "ha-algum"],
+   "grammatik": {
+    "titel": "Há algum …? – Gibt es hier ein …?",
+    "erklaerung": [
+     "Nach etwas in der Nähe fragen: <b>Há algum</b> banco aqui perto? (männlich) / <b>Há alguma</b> farmácia aqui perto? (weiblich). Man kann auch einfach <i>um / uma</i> sagen.",
+     "Wo ein Gebäude liegt: <b>ficar</b> – <i>Os correios ficam perto da câmara.</i> (Plural, weil <i>os correios</i>)",
+     "<b>de</b> verschmilzt auch mit Ortswörtern: de + aqui = <b>daqui</b>, de + ali = <b>dali</b>: <i>perto daqui</i> – hier in der Nähe."
+    ],
+    "vergleich": "Wie englisch „Is there a bank near here?“ – <i>Há algum banco aqui perto?</i>",
+    "beispiele": [
+     {"pt": "Há alguma farmácia aqui perto?", "de": "Gibt es hier in der Nähe eine Apotheke?"},
+     {"pt": "O banco fica na praça, ao lado da igreja.", "de": "Die Bank ist am Platz, neben der Kirche."},
+     {"pt": "Os correios ficam perto da câmara municipal.", "de": "Die Post ist beim Rathaus."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Há ___ farmácia aqui perto?", "loesungen": ["alguma"], "de": "Gibt es hier in der Nähe eine Apotheke?", "kategorie": "Genus"},
+     {"typ": "luecke", "satz": "Há ___ banco aqui perto?", "loesungen": ["algum"], "de": "Gibt es hier in der Nähe eine Bank?", "kategorie": "Genus"},
+     {"typ": "auswahl", "frage": "„Wo ist die Post?“", "optionen": ["Onde ficam os correios?", "Onde fica os correios?"], "richtig": 0, "erklaerung": "os correios ist Plural → ficam.", "kategorie": "Singular/Plural"},
+     {"typ": "uebersetzen", "de": "Gibt es hier in der Nähe eine Apotheke?", "loesungen": ["Há alguma farmácia aqui perto?", "Há uma farmácia aqui perto?", "Há alguma farmácia perto daqui?"]},
+     {"typ": "uebersetzen", "de": "Das Krankenhaus ist weit weg.", "loesungen": ["O hospital fica longe.", "O hospital é longe."]},
+     {"typ": "satzbau", "de": "Das Rathaus ist am Platz.", "loesung": "A câmara municipal fica na praça."},
+     {"typ": "auswahl", "frage": "„hier in der Nähe“", "optionen": ["perto de aqui", "perto daqui"], "richtig": 1, "erklaerung": "de + aqui = daqui", "kategorie": "Präposition + Artikel"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Há algum banco aqui perto?",
+    "situation": "Stefan fragt einen Passanten.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpe, há algum banco aqui perto?", "de": "Entschuldigung, gibt es hier in der Nähe eine Bank?"},
+     {"sprecher": "Senhor", "stimme": "m", "pt": "Há, sim. Há um na praça, ao lado da igreja.", "de": "Ja. Es gibt eine am Platz, neben der Kirche."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E os correios?", "de": "Und die Post?"},
+     {"sprecher": "Senhor", "stimme": "m", "pt": "Os correios ficam um pouco longe, perto da câmara municipal.", "de": "Die Post ist etwas weiter weg, beim Rathaus."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muito obrigado!", "de": "Vielen Dank!"},
+     {"sprecher": "Senhor", "stimme": "m", "pt": "De nada, boa tarde.", "de": "Gern geschehen, schönen Tag."}
+    ],
+    "fragen": [
+     {"frage": "Wo ist die Bank?", "optionen": ["am Platz, neben der Kirche", "beim Rathaus", "weit weg"], "richtig": 0},
+     {"frage": "Wo ist die Post?", "optionen": ["etwas weiter weg, beim Rathaus", "neben der Kirche", "am Platz"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Há algum banco aqui perto?", "de": "Gibt es hier in der Nähe eine Bank?"},
+     {"pt": "Onde fica a farmácia?", "de": "Wo ist die Apotheke?"},
+     {"pt": "Os correios ficam perto da câmara.", "de": "Die Post ist beim Rathaus."},
+     {"pt": "A igreja fica na praça.", "de": "Die Kirche ist am Platz."},
+     {"pt": "O hospital é longe?", "de": "Ist das Krankenhaus weit?"}
+    ]
+   },
+   "saetze": [
+    {"id": "alguma-farmacia-perto", "pt": "Há alguma farmácia aqui perto?", "de": "Gibt es hier in der Nähe eine Apotheke?"},
+    {"id": "correios-perto-camara", "pt": "Os correios ficam perto da câmara municipal.", "de": "Die Post ist beim Rathaus."},
+    {"id": "banco-na-praca", "pt": "O banco fica na praça, ao lado da igreja.", "de": "Die Bank ist am Platz, neben der Kirche."}
+   ]
+  },
+  {
+   "id": "A1-08-L02",
+   "typ": "neu",
+   "titel": "Den Weg beschreiben",
+   "vokabeln": ["virar", "seguir", "atravessar", "em-frente", "a-rotunda", "o-semaforo", "a-esquina", "a-saida", "ate-ao-fim", "a-rua-segunda"],
+   "grammatik": {
+    "titel": "Vire, siga, atravesse – Anweisungen geben",
+    "erklaerung": [
+     "Wegbeschreibungen gibt man in der höflichen Befehlsform. Bei Verben auf -ar wird das -a zu <b>-e</b>: <i>virar → <b>vire</b>, atravessar → <b>atravesse</b></i>.",
+     "Bei Verben auf -er/-ir endet sie auf <b>-a</b>: <i>seguir → <b>siga</b>, sair → <b>saia</b></i>. Lerne die wichtigsten als feste Wendungen.",
+     "Typisch Portugal: <b>a rotunda</b> (Kreisverkehr) – <i>Na rotunda, saia na segunda saída.</i> Und „bis zu“ heißt in Portugal <b>até ao / até à</b>."
+    ],
+    "vergleich": "Englisch „Turn right, go straight on“ – Portugiesisch höflich: <i>Vire à direita, siga em frente.</i>",
+    "beispiele": [
+     {"pt": "Siga em frente até à rotunda.", "de": "Fahren Sie geradeaus bis zum Kreisverkehr."},
+     {"pt": "Vire à esquerda no semáforo.", "de": "Biegen Sie an der Ampel links ab."},
+     {"pt": "Atravesse a praça e vire na segunda rua à direita.", "de": "Überqueren Sie den Platz und biegen Sie in die zweite Straße rechts."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ à direita.", "loesungen": ["Vire"], "de": "Biegen Sie rechts ab.", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ em frente até ao semáforo.", "loesungen": ["Siga"], "de": "Gehen Sie geradeaus bis zur Ampel.", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ a rua.", "loesungen": ["Atravesse"], "de": "Überqueren Sie die Straße.", "kategorie": "Imperativ"},
+     {"typ": "auswahl", "frage": "„Nehmen Sie die zweite Straße links.“", "optionen": ["Vire na segunda rua à esquerda.", "Virar segunda esquerda rua."], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Gehen Sie geradeaus.", "loesungen": ["Siga em frente."]},
+     {"typ": "uebersetzen", "de": "Im Kreisverkehr die zweite Ausfahrt.", "loesungen": ["Na rotunda, a segunda saída.", "Na rotunda, saia na segunda saída."]},
+     {"typ": "satzbau", "de": "Biegen Sie an der Ampel links ab.", "loesung": "Vire à esquerda no semáforo."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Para a praia da Marinha – zum Strand Marinha",
+    "situation": "Stefan fragt im Auto nach dem Weg.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpe, para ir para a praia da Marinha?", "de": "Entschuldigung, wie komme ich zum Strand Marinha?"},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Siga em frente até à rotunda. Na rotunda, saia na segunda saída.", "de": "Fahren Sie geradeaus bis zum Kreisverkehr. Dort nehmen Sie die zweite Ausfahrt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Segunda saída… e depois?", "de": "Zweite Ausfahrt … und dann?"},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Depois vire à direita no semáforo e siga sempre em frente. São cinco minutos.", "de": "Dann an der Ampel rechts und immer geradeaus. Fünf Minuten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado!", "de": "Danke!"}
+    ],
+    "fragen": [
+     {"frage": "Bis wohin fährt Stefan zuerst geradeaus?", "optionen": ["bis zum Kreisverkehr", "bis zur Ampel", "bis zur Kirche"], "richtig": 0},
+     {"frage": "Welche Ausfahrt nimmt er?", "optionen": ["die zweite", "die erste", "die dritte"], "richtig": 0},
+     {"frage": "Was macht er an der Ampel?", "optionen": ["rechts abbiegen", "links abbiegen", "anhalten und fragen"], "richtig": 0},
+     {"frage": "Wie lange dauert es?", "optionen": ["fünf Minuten", "fünfzehn Minuten", "eine halbe Stunde"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Eine Touristin fragt dich nach dem Weg zur Apotheke.",
+    "zeilen": [
+     {"sprecher": "Turista", "stimme": "f", "pt": "Desculpe, onde fica a farmácia?", "de": "Entschuldigung, wo ist die Apotheke?"},
+     {"ich": true, "aufgabe": "Sag: Gehen Sie geradeaus.", "loesungen": ["Siga em frente."]},
+     {"sprecher": "Turista", "stimme": "f", "pt": "E depois?", "de": "Und dann?"},
+     {"ich": true, "aufgabe": "Sag: Biegen Sie an der Ecke rechts ab.", "loesungen": ["Vire à direita na esquina.", "Na esquina, vire à direita."]},
+     {"sprecher": "Turista", "stimme": "f", "pt": "É longe?", "de": "Ist es weit?"},
+     {"ich": true, "aufgabe": "Sag: Nein, es ist hier in der Nähe.", "loesungen": ["Não, fica aqui perto.", "Não, é aqui perto.", "Não, fica perto daqui."]}
+    ]
+   },
+   "saetze": [
+    {"id": "siga-ate-rotunda", "pt": "Siga em frente até à rotunda.", "de": "Fahren Sie geradeaus bis zum Kreisverkehr."},
+    {"id": "vire-esquerda-semaforo", "pt": "Vire à esquerda no semáforo.", "de": "Biegen Sie an der Ampel links ab."},
+    {"id": "segunda-saida", "pt": "Na rotunda, saia na segunda saída.", "de": "Im Kreisverkehr nehmen Sie die zweite Ausfahrt."}
+   ]
+  },
+  {
+   "id": "A1-08-L03",
+   "typ": "neu",
+   "titel": "Gehen und fahren: ir",
+   "vokabeln": ["ir", "vou", "vai", "vamos", "ao", "para", "agora", "depois"],
+   "grammatik": {
+    "titel": "ir – und ao, à, para",
+    "erklaerung": [
+     "<b>ir</b> (gehen, fahren) ist unregelmäßig: <b>vou · vais · vai · vamos · vão</b>.",
+     "Das Ziel steht mit <b>a</b> – verschmolzen: a + o = <b>ao</b> (<i>ao banco</i>), a + a = <b>à</b> (<i>à praia</i>), a + os = <b>aos</b>, a + as = <b>às</b>.",
+     "<b>ir para</b> klingt nach längerem Aufenthalt oder Ziel einer Fahrt: <i>Vou para casa. Vão para Lisboa.</i> Kurze Wege meist mit <i>a</i>: <i>Vou ao café.</i>",
+     "<b>Vamos!</b> heißt auch „Los geht's! / Gehen wir!“"
+    ],
+    "vergleich": "Deutsch unterscheidet gehen/fahren – Portugiesisch nimmt für beides <i>ir</i>, egal ob zu Fuß oder mit dem Auto.",
+    "beispiele": [
+     {"pt": "Vou aos correios e depois ao banco.", "de": "Ich gehe zur Post und danach zur Bank."},
+     {"pt": "Vamos tomar um café?", "de": "Gehen wir einen Kaffee trinken?"},
+     {"pt": "Agora vou para casa.", "de": "Jetzt gehe ich nach Hause."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ ao banco.", "loesungen": ["vou"], "de": "Ich gehe zur Bank.", "kategorie": "ir"},
+     {"typ": "luecke", "satz": "Nós ___ à praia.", "loesungen": ["vamos"], "de": "Wir gehen zum Strand.", "kategorie": "ir"},
+     {"typ": "luecke", "satz": "Eles ___ para Lisboa amanhã.", "loesungen": ["vão"], "de": "Sie fahren morgen nach Lissabon.", "kategorie": "ir"},
+     {"typ": "luecke", "satz": "Vou ___ supermercado.", "loesungen": ["ao"], "de": "Ich gehe zum Supermarkt.", "kategorie": "Präposition + Artikel"},
+     {"typ": "auswahl", "frage": "„Gehst du zum Strand?“", "optionen": ["Vais à praia?", "Vai à praia?", "Vais na praia?"], "richtig": 0, "erklaerung": "tu-Form: vais. Ziel mit a: à praia.", "kategorie": "ir"},
+     {"typ": "uebersetzen", "de": "Gehen wir!", "loesungen": ["Vamos!", "Vamos embora!"]},
+     {"typ": "satzbau", "de": "Jetzt gehe ich nach Hause.", "loesung": "Agora vou para casa."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Onde vais? – Wohin gehst du?",
+    "situation": "Ana trifft Stefan auf der Straße.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Olá, Stefan! Onde vais?", "de": "Hallo, Stefan! Wohin gehst du?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vou aos correios e depois vou ao banco.", "de": "Ich gehe zur Post und danach zur Bank."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Eu vou à farmácia. Vamos juntos?", "de": "Ich gehe zur Apotheke. Gehen wir zusammen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vamos! A farmácia fica perto dos correios.", "de": "Gern! Die Apotheke ist bei der Post."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E depois vamos tomar um café?", "de": "Und danach trinken wir einen Kaffee?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa ideia!", "de": "Gute Idee!"}
+    ],
+    "fragen": [
+     {"frage": "Wohin geht Stefan?", "optionen": ["zur Post, dann zur Bank", "zur Apotheke", "nach Hause"], "richtig": 0},
+     {"frage": "Wohin geht Ana?", "optionen": ["zur Apotheke", "zur Bank", "zum Strand"], "richtig": 0},
+     {"frage": "Was machen sie danach?", "optionen": ["Kaffee trinken", "einkaufen", "zum Strand gehen"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Onde vais?", "de": "Wohin gehst du?"},
+     {"pt": "Vou ao banco.", "de": "Ich gehe zur Bank."},
+     {"pt": "Vamos à praia!", "de": "Gehen wir zum Strand!"},
+     {"pt": "Eles vão para Lisboa.", "de": "Sie fahren nach Lissabon."},
+     {"pt": "Agora vou para casa.", "de": "Jetzt gehe ich nach Hause."}
+    ]
+   },
+   "saetze": [
+    {"id": "vou-correios-banco", "pt": "Vou aos correios e depois ao banco.", "de": "Ich gehe zur Post und danach zur Bank."},
+    {"id": "vamos-tomar-cafe", "pt": "Vamos tomar um café?", "de": "Gehen wir einen Kaffee trinken?"},
+    {"id": "agora-vou-para-casa", "pt": "Agora vou para casa.", "de": "Jetzt gehe ich nach Hause."}
+   ]
+  },
+  {
+   "id": "A1-08-L04",
+   "typ": "neu",
+   "titel": "Bus und Zug",
+   "vokabeln": ["o-autocarro", "o-comboio", "a-paragem", "a-estacao", "o-bilhete", "ida-e-volta", "partir", "a-linha", "apanhar"],
+   "grammatik": {
+    "titel": "partir de, chegar a – Abfahrt und Ankunft",
+    "erklaerung": [
+     "<b>partir</b> (abfahren) – <i>O comboio parte de Lagos às dez.</i> <b>chegar</b> (ankommen) steht in Portugal mit <b>a</b>: <i>Chega <b>a</b> Faro às onze.</i>",
+     "Bus und Zug „nimmt“ man in Portugal mit <b>apanhar</b>: <i>Vou apanhar o autocarro.</i>",
+     "Fahrkarte kaufen: <b>Um bilhete para Faro</b> – <i>só ida</i> (nur hin) oder <i>ida e volta</i> (hin und zurück)."
+    ],
+    "vergleich": "„in Faro ankommen“ – deutsch „in“, englisch „in/at“, portugiesisch <i>a</i>. „chegar em“ ist brasilianisch.",
+    "beispiele": [
+     {"pt": "Um bilhete de ida e volta para Faro, por favor.", "de": "Eine Rückfahrkarte nach Faro, bitte."},
+     {"pt": "A que horas parte o próximo comboio?", "de": "Wann fährt der nächste Zug?"},
+     {"pt": "O comboio chega a Faro às quatro.", "de": "Der Zug kommt um vier in Faro an."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Er kommt in Faro an.“ (Portugal)", "optionen": ["Chega a Faro.", "Chega em Faro."], "richtig": 0, "erklaerung": "In Portugal: chegar a. „chegar em“ ist brasilianisch.", "kategorie": "Präposition"},
+     {"typ": "luecke", "satz": "O comboio ___ às dez.", "loesungen": ["parte"], "de": "Der Zug fährt um zehn ab.", "kategorie": "-ir-Verben"},
+     {"typ": "luecke", "satz": "Um bilhete de ida e ___, por favor.", "loesungen": ["volta"], "de": "Eine Rückfahrkarte, bitte."},
+     {"typ": "luecke", "satz": "Vou ___ o autocarro.", "loesungen": ["apanhar"], "de": "Ich nehme den Bus."},
+     {"typ": "uebersetzen", "de": "Wo ist die Bushaltestelle?", "loesungen": ["Onde fica a paragem do autocarro?", "Onde é a paragem do autocarro?", "Onde fica a paragem?"]},
+     {"typ": "uebersetzen", "de": "Der Zug kommt um zwölf in Lagos an.", "loesungen": ["O comboio chega a Lagos ao meio-dia.", "O comboio chega a Lagos às doze."]},
+     {"typ": "satzbau", "de": "Von welchem Gleis fährt der Zug?", "loesung": "De que linha parte o comboio?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na estação de Lagos – am Bahnhof Lagos",
+    "situation": "Stefan kauft eine Fahrkarte.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Um bilhete para Faro, por favor.", "de": "Guten Tag. Eine Fahrkarte nach Faro, bitte."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Só ida ou ida e volta?", "de": "Nur hin oder hin und zurück?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ida e volta. A que horas parte o próximo comboio?", "de": "Hin und zurück. Wann fährt der nächste Zug?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Parte às catorze e vinte, da linha um. Chega a Faro às dezasseis e dez.", "de": "Um 14:20 von Gleis eins. Er kommt um 16:10 in Faro an."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quanto é?", "de": "Was kostet das?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "São catorze euros.", "de": "Vierzehn Euro."}
+    ],
+    "fragen": [
+     {"frage": "Welche Fahrkarte kauft Stefan?", "optionen": ["hin und zurück nach Faro", "nur hin nach Faro", "nach Lissabon"], "richtig": 0},
+     {"frage": "Wann fährt der Zug?", "optionen": ["14:20", "16:10", "14:10"], "richtig": 0},
+     {"frage": "Von welchem Gleis?", "optionen": ["Gleis eins", "Gleis zwei", "Gleis vier"], "richtig": 0},
+     {"frage": "Was kostet die Fahrkarte?", "optionen": ["14 €", "4 €", "40 €"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du kaufst am Bahnhof eine Fahrkarte.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Boa tarde, diga.", "de": "Guten Tag, bitte?"},
+     {"ich": true, "aufgabe": "Sag: Eine Fahrkarte nach Tavira, hin und zurück.", "loesungen": ["Um bilhete para Tavira, ida e volta.", "Queria um bilhete de ida e volta para Tavira.", "Um bilhete de ida e volta para Tavira."]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "São doze euros.", "de": "Zwölf Euro."},
+     {"ich": true, "aufgabe": "Frag: Um wie viel Uhr fährt der Zug?", "loesungen": ["A que horas parte o comboio?"]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Às onze e meia.", "de": "Um halb zwölf."},
+     {"ich": true, "aufgabe": "Frag: Von welchem Gleis?", "loesungen": ["De que linha?", "De que linha parte?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "bilhete-ida-volta-faro", "pt": "Um bilhete de ida e volta para Faro, por favor.", "de": "Eine Rückfahrkarte nach Faro, bitte."},
+    {"id": "proximo-comboio", "pt": "A que horas parte o próximo comboio?", "de": "Wann fährt der nächste Zug?"},
+    {"id": "chega-a-faro", "pt": "O comboio chega a Faro às quatro.", "de": "Der Zug kommt um vier in Faro an."}
+   ]
+  },
+  {
+   "id": "A1-08-L05",
+   "typ": "neu",
+   "titel": "Pläne: ir + Infinitiv",
+   "vokabeln": ["proxima-semana", "logo", "este-fim-de-semana", "visitar", "tratar-de", "o-carro", "conduzir", "estacionar"],
+   "grammatik": {
+    "titel": "Die nahe Zukunft: vou fazer",
+    "erklaerung": [
+     "Pläne drückt man am einfachsten mit <b>ir + Infinitiv</b> aus: <i>Vou trabalhar.</i> (Ich werde arbeiten.) <i>Vamos visitar Silves.</i> – ohne Präposition dazwischen!",
+     "Passende Zeitangaben: <i>logo</i> (nachher), <i>amanhã</i>, <i>este fim de semana</i>, <b>para a semana</b> (nächste Woche – typisch Portugal).",
+     "<b>tratar de</b> (sich kümmern um) ist auf Ämtern Gold wert: <i>Vou tratar do NIF.</i> (de + o = do)"
+    ],
+    "vergleich": "Wie englisch „I'm going to work“ – <i>Vou trabalhar</i>. Das ist im Alltag viel häufiger als das echte Futur.",
+    "beispiele": [
+     {"pt": "Amanhã vou tratar do NIF.", "de": "Morgen kümmere ich mich um die Steuernummer."},
+     {"pt": "O que vais fazer este fim de semana?", "de": "Was machst du dieses Wochenende?"},
+     {"pt": "Para a semana vamos visitar Sintra.", "de": "Nächste Woche besuchen wir Sintra."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Amanhã ___ trabalhar em casa.", "loesungen": ["vou"], "de": "Morgen werde ich zu Hause arbeiten.", "kategorie": "ir + Infinitiv"},
+     {"typ": "luecke", "satz": "Este fim de semana ___ visitar Sintra.", "loesungen": ["vamos"], "de": "Dieses Wochenende besuchen wir Sintra.", "kategorie": "ir + Infinitiv"},
+     {"typ": "auswahl", "frage": "„Ich werde das Auto parken.“", "optionen": ["Vou estacionar o carro.", "Vou a estacionar o carro."], "richtig": 0, "erklaerung": "ir + Infinitiv – ohne Präposition.", "kategorie": "ir + Infinitiv"},
+     {"typ": "uebersetzen", "de": "Nächste Woche fahre ich nach Lissabon.", "loesungen": ["Para a semana vou a Lisboa.", "Na próxima semana vou a Lisboa.", "A próxima semana vou a Lisboa."]},
+     {"typ": "uebersetzen", "de": "Morgen kümmere ich mich um die NIF.", "loesungen": ["Amanhã vou tratar do NIF."], "erklaerung": "tratar de + o = tratar do"},
+     {"typ": "satzbau", "de": "Was wirst du heute machen?", "loesung": "O que vais fazer hoje?"},
+     {"typ": "luecke", "satz": "Ela vai ___ o carro na garagem.", "loesungen": ["estacionar"], "de": "Sie wird das Auto in der Garage parken."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Planos para amanhã – Pläne für morgen",
+    "situation": "Joana fragt Stefan nach seinen Plänen.",
+    "zeilen": [
+     {"sprecher": "Joana", "stimme": "f", "pt": "O que vais fazer amanhã?", "de": "Was machst du morgen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "De manhã vou tratar de umas coisas nas Finanças. Depois vou apanhar o comboio para Faro.", "de": "Vormittags erledige ich ein paar Sachen beim Finanzamt. Danach nehme ich den Zug nach Faro."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Vais de comboio? Não vais de carro?", "de": "Du fährst mit dem Zug? Nicht mit dem Auto?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não. Em Faro é difícil estacionar.", "de": "Nein. In Faro ist Parken schwierig."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Tens razão. E à noite?", "de": "Da hast du recht. Und abends?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "À noite vou jantar com uns amigos.", "de": "Abends esse ich mit ein paar Freunden."}
+    ],
+    "fragen": [
+     {"frage": "Was macht Stefan vormittags?", "optionen": ["Er geht zum Finanzamt.", "Er arbeitet zu Hause.", "Er fährt an den Strand."], "richtig": 0},
+     {"frage": "Wie fährt er nach Faro?", "optionen": ["mit dem Zug", "mit dem Auto", "mit dem Bus"], "richtig": 0},
+     {"frage": "Warum nicht mit dem Auto?", "optionen": ["Parken in Faro ist schwierig.", "Das Auto ist kaputt.", "Er hat kein Auto."], "richtig": 0},
+     {"frage": "Was macht er abends?", "optionen": ["mit Freunden essen", "fernsehen", "arbeiten"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Morgen werde ich arbeiten.", "loesungen": ["Amanhã vou trabalhar.", "Amanhã eu vou trabalhar."]},
+     {"de": "Wir werden Faro besuchen.", "loesungen": ["Vamos visitar Faro.", "Nós vamos visitar Faro."]},
+     {"de": "Was wirst du machen?", "loesungen": ["O que vais fazer?"]},
+     {"de": "Nächste Woche fahre ich nach Porto.", "loesungen": ["Para a semana vou ao Porto.", "Na próxima semana vou ao Porto."]}
+    ]
+   },
+   "saetze": [
+    {"id": "vou-tratar-do-nif", "pt": "Amanhã vou tratar do NIF.", "de": "Morgen kümmere ich mich um die Steuernummer."},
+    {"id": "o-que-vais-fazer-fds", "pt": "O que vais fazer este fim de semana?", "de": "Was machst du dieses Wochenende?"},
+    {"id": "dificil-estacionar", "pt": "Em Faro é difícil estacionar.", "de": "In Faro ist Parken schwierig."}
+   ]
+  },
+  {
+   "id": "A1-08-L06",
+   "typ": "neu",
+   "titel": "Verkehrsmittel und Entfernungen",
+   "vokabeln": ["de-carro", "a-pe", "de-bicicleta", "demorar", "quanto-tempo", "o-caminho", "o-mapa", "a-portagem"],
+   "grammatik": {
+    "titel": "de carro, a pé – und Quanto tempo demora?",
+    "erklaerung": [
+     "Verkehrsmittel mit <b>de</b>: <i>de carro, de comboio, de autocarro, de bicicleta</i>. Aber zu Fuß: <b>a pé</b>.",
+     "Wie lange etwas dauert: <b>Quanto tempo demora?</b> – <i>Demora dez minutos a pé.</i> oder kurz: <i>São dez minutos.</i>",
+     "Gut zu wissen: Auf der A22 an der Algarve gibt es elektronische <b>portagens</b> (Maut) – mit Via Verde oder per Kennzeichen."
+    ],
+    "vergleich": "Englisch „by car, on foot“ – Portugiesisch genauso aufgeteilt: <i>de carro, a pé</i>.",
+    "beispiele": [
+     {"pt": "Quanto tempo demora a pé?", "de": "Wie lange dauert es zu Fuß?"},
+     {"pt": "Vou a Lisboa de comboio.", "de": "Ich fahre mit dem Zug nach Lissabon."},
+     {"pt": "De carro há portagens.", "de": "Mit dem Auto gibt es Maut."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Vou para o trabalho ___ carro.", "loesungen": ["de"], "de": "Ich fahre mit dem Auto zur Arbeit.", "kategorie": "Präposition"},
+     {"typ": "luecke", "satz": "Vou ___ pé.", "loesungen": ["a"], "de": "Ich gehe zu Fuß.", "kategorie": "Präposition"},
+     {"typ": "auswahl", "frage": "„Wie lange dauert es?“", "optionen": ["Quanto tempo demora?", "Quanto tempo é demorar?", "Quantos tempos demora?"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Es dauert zehn Minuten zu Fuß.", "loesungen": ["Demora dez minutos a pé.", "São dez minutos a pé."]},
+     {"typ": "uebersetzen", "de": "Ich fahre mit dem Fahrrad.", "loesungen": ["Vou de bicicleta."]},
+     {"typ": "satzbau", "de": "Wie kommen Sie zur Arbeit?", "loesung": "Como vai para o trabalho?"},
+     {"typ": "auswahl", "frage": "Was zahlt man auf der A22 an der Algarve?", "optionen": ["Maut (portagem)", "nichts", "eine Grenzgebühr"], "richtig": 0}
+    ]
+   },
+   "hoeren": {
+    "titel": "Como vais para Lisboa? – Wie fährst du nach Lissabon?",
+    "situation": "Paulo fragt Stefan nach seiner Reise.",
+    "zeilen": [
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Vais a Lisboa de carro ou de comboio?", "de": "Fährst du mit dem Auto oder mit dem Zug nach Lissabon?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "De comboio. De carro demora três horas e há portagens.", "de": "Mit dem Zug. Mit dem Auto dauert es drei Stunden und es gibt Maut."},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "E de comboio, quanto tempo demora?", "de": "Und mit dem Zug, wie lange dauert es?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Também demora três horas, mas posso trabalhar no comboio.", "de": "Auch drei Stunden, aber im Zug kann ich arbeiten."},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Boa! E da estação para o hotel?", "de": "Gut! Und vom Bahnhof zum Hotel?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vou a pé. São só dez minutos.", "de": "Ich gehe zu Fuß. Es sind nur zehn Minuten."}
+    ],
+    "fragen": [
+     {"frage": "Wie fährt Stefan nach Lissabon?", "optionen": ["mit dem Zug", "mit dem Auto", "mit dem Bus"], "richtig": 0},
+     {"frage": "Was ist ein Nachteil beim Auto?", "optionen": ["die Maut", "es gibt keinen Parkplatz", "es ist langsamer"], "richtig": 0},
+     {"frage": "Wie lange dauert die Zugfahrt?", "optionen": ["drei Stunden", "zwei Stunden", "dreißig Minuten"], "richtig": 0},
+     {"frage": "Wie kommt er vom Bahnhof zum Hotel?", "optionen": ["zu Fuß, zehn Minuten", "mit dem Taxi", "mit dem Bus"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Vou de comboio.", "de": "Ich fahre mit dem Zug."},
+     {"pt": "Quanto tempo demora?", "de": "Wie lange dauert es?"},
+     {"pt": "Demora dez minutos a pé.", "de": "Es dauert zehn Minuten zu Fuß."},
+     {"pt": "Vou para o trabalho de carro.", "de": "Ich fahre mit dem Auto zur Arbeit."},
+     {"pt": "Há portagens na A22.", "de": "Auf der A22 gibt es Maut."}
+    ]
+   },
+   "saetze": [
+    {"id": "quanto-tempo-a-pe", "pt": "Quanto tempo demora a pé?", "de": "Wie lange dauert es zu Fuß?"},
+    {"id": "lisboa-de-comboio", "pt": "Vou a Lisboa de comboio.", "de": "Ich fahre mit dem Zug nach Lissabon."},
+    {"id": "de-carro-portagens", "pt": "De carro há portagens.", "de": "Mit dem Auto gibt es Maut."}
+   ]
+  },
+  {"id": "A1-08-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-08-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "No posto de turismo – in der Touristeninformation",
+   "situation": "Stefan möchte nach Silves.",
+   "zeilen": [
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Como posso ir para Silves?", "de": "Guten Morgen. Wie komme ich nach Silves?"},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Pode ir de autocarro ou de comboio. O autocarro parte da paragem em frente ao mercado.", "de": "Sie können mit dem Bus oder mit dem Zug fahren. Der Bus fährt an der Haltestelle gegenüber dem Markt ab."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "A que horas parte?", "de": "Um wie viel Uhr fährt er?"},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Às dez e quinze. Demora quarenta minutos.", "de": "Um 10:15. Die Fahrt dauert vierzig Minuten."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E o comboio?", "de": "Und der Zug?"},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "O comboio é mais rápido, mas a estação de Silves fica longe do centro.", "de": "Der Zug ist schneller, aber der Bahnhof von Silves liegt weit vom Zentrum."}
+   ],
+   "fragen": [
+    {"frage": "Wo fährt der Bus ab?", "optionen": ["an der Haltestelle gegenüber dem Markt", "am Bahnhof", "am Rathaus"], "richtig": 0},
+    {"frage": "Wann fährt der Bus?", "optionen": ["um 10:15", "um 10:50", "um 11:15"], "richtig": 0},
+    {"frage": "Wie lange dauert die Busfahrt?", "optionen": ["vierzig Minuten", "vierzehn Minuten", "eine Stunde"], "richtig": 0},
+    {"frage": "Was ist der Nachteil beim Zug?", "optionen": ["Der Bahnhof ist weit vom Zentrum.", "Er ist langsamer.", "Er ist teurer."], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Uma mensagem com indicações – eine Wegbeschreibung per SMS",
+   "situation": "Paulo lädt Stefan zu einer Feier ein.",
+   "text": [
+    "Olá Stefan! A festa é amanhã às oito em minha casa.",
+    "Da tua casa é fácil: segue em frente até à rotunda e vira à esquerda.",
+    "Depois vira na segunda rua à direita. A minha casa é a terceira, a casa branca com a porta azul.",
+    "Podes vir a pé, são quinze minutos. Até amanhã!"
+   ],
+   "fragen": [
+    {"frage": "Wann ist die Feier?", "optionen": ["morgen um 20 Uhr", "heute um 20 Uhr", "morgen um 18 Uhr"], "richtig": 0},
+    {"frage": "Was macht Stefan am Kreisverkehr?", "optionen": ["links abbiegen", "rechts abbiegen", "geradeaus fahren"], "richtig": 0},
+    {"frage": "Welches Haus ist Paulos?", "optionen": ["das dritte, weiß mit blauer Tür", "das zweite, gelb", "das erste, mit Garten"], "richtig": 0},
+    {"frage": "Wie lange dauert es zu Fuß?", "optionen": ["fünfzehn Minuten", "fünf Minuten", "eine halbe Stunde"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Gibt es hier in der Nähe eine Bank?", "loesungen": ["Há algum banco aqui perto?", "Há um banco aqui perto?"]},
+   {"de": "Gehen Sie geradeaus.", "loesungen": ["Siga em frente."]},
+   {"de": "Ich gehe zum Strand.", "loesungen": ["Vou à praia."]},
+   {"de": "Eine Fahrkarte nach Faro, bitte.", "loesungen": ["Um bilhete para Faro, por favor."]},
+   {"de": "Morgen werde ich arbeiten.", "loesungen": ["Amanhã vou trabalhar."]},
+   {"de": "Wie lange dauert es?", "loesungen": ["Quanto tempo demora?"]}
+  ],
+  "sprechen": [
+   {"pt": "Desculpe, onde fica a estação?", "de": "Entschuldigung, wo ist der Bahnhof?"},
+   {"pt": "Vire à direita na rotunda.", "de": "Biegen Sie am Kreisverkehr rechts ab."},
+   {"pt": "Vou apanhar o autocarro.", "de": "Ich nehme den Bus."},
+   {"pt": "Amanhã vou a Lisboa de comboio.", "de": "Morgen fahre ich mit dem Zug nach Lissabon."},
+   {"pt": "Demora vinte minutos a pé.", "de": "Es dauert zwanzig Minuten zu Fuß."}
+  ]
+ }
+}

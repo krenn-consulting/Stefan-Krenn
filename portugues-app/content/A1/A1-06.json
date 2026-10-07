@@ -1,0 +1,498 @@
+{
+ "id": "A1-06",
+ "level": "A1",
+ "titel": "O dia a dia – Tagesablauf",
+ "beschreibung": "Uhrzeit, Wochentage, Tagesablauf mit Verben auf -ar und reflexiven Verben, Häufigkeit, Termine vereinbaren.",
+ "vokabeln": [
+  {"id": "a-hora", "pt": "a hora", "de": "die Stunde / die Uhrzeit", "emoji": "🕐", "beispiel_pt": "A que horas é?", "beispiel_de": "Um wie viel Uhr ist es?"},
+  {"id": "que-horas-sao", "pt": "Que horas são?", "de": "Wie spät ist es?", "emoji": "⌚", "beispiel_pt": "Desculpe, sabe que horas são?", "beispiel_de": "Entschuldigung, wissen Sie, wie spät es ist?"},
+  {"id": "e-uma-hora", "pt": "É uma hora.", "de": "Es ist ein Uhr.", "emoji": "🕐", "beispiel_pt": "É uma hora e dez.", "beispiel_de": "Es ist zehn nach eins."},
+  {"id": "sao-duas", "pt": "São duas horas.", "de": "Es ist zwei Uhr.", "emoji": "🕑", "beispiel_pt": "São duas horas em ponto.", "beispiel_de": "Es ist genau zwei Uhr."},
+  {"id": "e-meia", "pt": "e meia", "de": "halb (… Uhr dreißig)", "emoji": "🕞", "beispiel_pt": "São três e meia.", "beispiel_de": "Es ist halb vier (3:30).", "hinweis": "Achtung: „três e meia“ = 3:30 – nicht halb drei!"},
+  {"id": "e-um-quarto", "pt": "e um quarto", "de": "Viertel nach", "emoji": "🕒", "beispiel_pt": "São dez e um quarto.", "beispiel_de": "Es ist Viertel nach zehn."},
+  {"id": "menos-um-quarto", "pt": "menos um quarto", "de": "Viertel vor", "emoji": "🕦", "beispiel_pt": "São cinco menos um quarto.", "beispiel_de": "Es ist Viertel vor fünf."},
+  {"id": "o-meio-dia", "pt": "o meio-dia", "de": "der Mittag (12 Uhr)", "emoji": "🌞", "beispiel_pt": "É meio-dia.", "beispiel_de": "Es ist Mittag."},
+  {"id": "a-meia-noite", "pt": "a meia-noite", "de": "die Mitternacht", "emoji": "🌑", "beispiel_pt": "Deito-me à meia-noite.", "beispiel_de": "Ich gehe um Mitternacht ins Bett."},
+  {"id": "as", "pt": "às", "de": "um (Uhrzeit)", "emoji": "⏰", "beispiel_pt": "A reunião é às três.", "beispiel_de": "Das Meeting ist um drei.", "hinweis": "um ein Uhr: à uma"},
+
+  {"id": "segunda", "pt": "a segunda-feira", "de": "der Montag", "emoji": "1️⃣", "beispiel_pt": "À segunda trabalho em casa.", "beispiel_de": "Montags arbeite ich zu Hause.", "hinweis": "Kurz: a segunda. Die Woche zählt ab Sonntag: segunda = 2. Tag.", "alternativen": ["segunda-feira", "segunda", "a segunda"]},
+  {"id": "terca", "pt": "a terça-feira", "de": "der Dienstag", "emoji": "2️⃣", "beispiel_pt": "Até terça!", "beispiel_de": "Bis Dienstag!", "alternativen": ["terça-feira", "terça", "a terça"]},
+  {"id": "quarta", "pt": "a quarta-feira", "de": "der Mittwoch", "emoji": "3️⃣", "beispiel_pt": "Hoje é quarta-feira.", "beispiel_de": "Heute ist Mittwoch.", "alternativen": ["quarta-feira", "quarta", "a quarta"]},
+  {"id": "quinta", "pt": "a quinta-feira", "de": "der Donnerstag", "emoji": "4️⃣", "beispiel_pt": "Pode ser na quinta-feira?", "beispiel_de": "Geht es am Donnerstag?", "alternativen": ["quinta-feira", "quinta", "a quinta"]},
+  {"id": "sexta", "pt": "a sexta-feira", "de": "der Freitag", "emoji": "5️⃣", "beispiel_pt": "Hoje é sexta-feira!", "beispiel_de": "Heute ist Freitag!", "alternativen": ["sexta-feira", "sexta", "a sexta"]},
+  {"id": "sabado", "pt": "o sábado", "de": "der Samstag", "emoji": "6️⃣", "beispiel_pt": "Ao sábado não trabalho.", "beispiel_de": "Samstags arbeite ich nicht."},
+  {"id": "domingo", "pt": "o domingo", "de": "der Sonntag", "emoji": "7️⃣", "beispiel_pt": "Ao domingo descanso.", "beispiel_de": "Sonntags ruhe ich mich aus."},
+  {"id": "o-fim-de-semana", "pt": "o fim de semana", "de": "das Wochenende", "emoji": "🎉", "beispiel_pt": "Ao fim de semana caminho na praia.", "beispiel_de": "Am Wochenende gehe ich am Strand spazieren."},
+  {"id": "hoje", "pt": "hoje", "de": "heute", "emoji": "📍", "beispiel_pt": "Hoje é sexta-feira.", "beispiel_de": "Heute ist Freitag."},
+  {"id": "amanha", "pt": "amanhã", "de": "morgen", "emoji": "➡️", "beispiel_pt": "Amanhã trabalho em casa.", "beispiel_de": "Morgen arbeite ich zu Hause."},
+
+  {"id": "acordar", "pt": "acordar", "de": "aufwachen", "emoji": "⏰", "beispiel_pt": "Acordo às sete.", "beispiel_de": "Ich wache um sieben auf."},
+  {"id": "pequeno-almoco", "pt": "tomar o pequeno-almoço", "de": "frühstücken", "emoji": "🥐", "beispiel_pt": "Tomo o pequeno-almoço em casa.", "beispiel_de": "Ich frühstücke zu Hause.", "hinweis": "o pequeno-almoço = das Frühstück · Brasilien: café da manhã"},
+  {"id": "almocar", "pt": "almoçar", "de": "zu Mittag essen", "emoji": "🍲", "beispiel_pt": "Almoçamos à uma.", "beispiel_de": "Wir essen um eins zu Mittag."},
+  {"id": "jantar", "pt": "jantar", "de": "zu Abend essen", "emoji": "🍽️", "beispiel_pt": "Jantamos às oito e meia.", "beispiel_de": "Wir essen um halb neun zu Abend.", "hinweis": "Auch Nomen: o jantar = das Abendessen"},
+  {"id": "chegar", "pt": "chegar", "de": "ankommen", "emoji": "🛬", "beispiel_pt": "Chego às seis.", "beispiel_de": "Ich komme um sechs an."},
+  {"id": "voltar", "pt": "voltar", "de": "zurückkommen", "emoji": "🔙", "beispiel_pt": "Volto para casa às sete.", "beispiel_de": "Ich komme um sieben nach Hause."},
+  {"id": "nos", "pt": "nós", "de": "wir", "emoji": "👥", "beispiel_pt": "Nós jantamos tarde.", "beispiel_de": "Wir essen spät zu Abend."},
+  {"id": "voces", "pt": "vocês", "de": "ihr / Sie (Plural)", "emoji": "👨‍👩‍👦", "beispiel_pt": "Vocês almoçam aqui?", "beispiel_de": "Esst ihr hier zu Mittag?", "hinweis": "Im Plural ist vocês in Portugal ganz normal."},
+  {"id": "eles", "pt": "eles", "de": "sie (Plural)", "emoji": "👫", "beispiel_pt": "Eles chegam amanhã.", "beispiel_de": "Sie kommen morgen an.", "hinweis": "nur Frauen: elas"},
+
+  {"id": "levantar-se", "pt": "levantar-se", "de": "aufstehen", "emoji": "🛏️", "beispiel_pt": "Levanto-me às sete.", "beispiel_de": "Ich stehe um sieben auf."},
+  {"id": "deitar-se", "pt": "deitar-se", "de": "ins Bett gehen", "emoji": "😴", "beispiel_pt": "Deito-me às onze.", "beispiel_de": "Ich gehe um elf ins Bett."},
+  {"id": "vestir-se", "pt": "vestir-se", "de": "sich anziehen", "emoji": "👕", "beispiel_pt": "Visto-me depressa.", "beispiel_de": "Ich ziehe mich schnell an."},
+  {"id": "tomar-duche", "pt": "tomar duche", "de": "duschen", "emoji": "🚿", "beispiel_pt": "Tomo duche de manhã.", "beispiel_de": "Ich dusche morgens.", "hinweis": "Portugal: duche; „tomar banho“ = baden"},
+  {"id": "cedo", "pt": "cedo", "de": "früh", "emoji": "🌄", "beispiel_pt": "Não me levanto cedo.", "beispiel_de": "Ich stehe nicht früh auf."},
+  {"id": "tarde-adv", "pt": "tarde", "de": "spät", "emoji": "🌃", "beispiel_pt": "Jantamos tarde.", "beispiel_de": "Wir essen spät zu Abend.", "hinweis": "a tarde = der Nachmittag"},
+  {"id": "de-manha", "pt": "de manhã", "de": "morgens / vormittags", "emoji": "🌅", "beispiel_pt": "Trabalho de manhã.", "beispiel_de": "Ich arbeite vormittags."},
+  {"id": "a-tarde", "pt": "à tarde", "de": "nachmittags", "emoji": "☀️", "beispiel_pt": "À tarde descanso.", "beispiel_de": "Nachmittags ruhe ich mich aus."},
+  {"id": "a-noite", "pt": "à noite", "de": "abends / nachts", "emoji": "🌙", "beispiel_pt": "À noite janto em casa.", "beispiel_de": "Abends esse ich zu Hause."},
+
+  {"id": "sempre", "pt": "sempre", "de": "immer", "emoji": "🔁", "beispiel_pt": "Levanto-me sempre às sete.", "beispiel_de": "Ich stehe immer um sieben auf."},
+  {"id": "normalmente", "pt": "normalmente", "de": "normalerweise", "emoji": "📊", "beispiel_pt": "Normalmente almoço em casa.", "beispiel_de": "Normalerweise esse ich zu Hause zu Mittag."},
+  {"id": "as-vezes", "pt": "às vezes", "de": "manchmal", "emoji": "🎲", "beispiel_pt": "Às vezes trabalho ao sábado.", "beispiel_de": "Manchmal arbeite ich samstags."},
+  {"id": "nunca", "pt": "nunca", "de": "nie", "emoji": "🚫", "beispiel_pt": "Nunca janto tarde.", "beispiel_de": "Ich esse nie spät zu Abend."},
+  {"id": "todos-os-dias", "pt": "todos os dias", "de": "jeden Tag", "emoji": "📅", "beispiel_pt": "Caminho todos os dias.", "beispiel_de": "Ich gehe jeden Tag spazieren."},
+  {"id": "o-ginasio", "pt": "o ginásio", "de": "das Fitnessstudio", "emoji": "🏋️", "beispiel_pt": "O ginásio abre às sete.", "beispiel_de": "Das Fitnessstudio öffnet um sieben."},
+  {"id": "fazer-exercicio", "pt": "fazer exercício", "de": "Sport machen", "emoji": "🤸", "beispiel_pt": "Faço exercício três vezes por semana.", "beispiel_de": "Ich mache dreimal pro Woche Sport."},
+  {"id": "caminhar", "pt": "caminhar", "de": "spazieren gehen / wandern", "emoji": "🚶", "beispiel_pt": "Caminho na praia.", "beispiel_de": "Ich gehe am Strand spazieren."},
+  {"id": "a-semana", "pt": "a semana", "de": "die Woche", "emoji": "🗓️", "beispiel_pt": "duas vezes por semana", "beispiel_de": "zweimal pro Woche"},
+
+  {"id": "a-reuniao", "pt": "a reunião", "de": "das Meeting / die Besprechung", "emoji": "👔", "beispiel_pt": "A reunião é às dez.", "beispiel_de": "Das Meeting ist um zehn."},
+  {"id": "a-consulta", "pt": "a consulta", "de": "der (Arzt-)Termin", "emoji": "🩺", "beispiel_pt": "A consulta é na quinta-feira.", "beispiel_de": "Der Termin ist am Donnerstag."},
+  {"id": "combinado", "pt": "Combinado!", "de": "Abgemacht!", "emoji": "🤝", "beispiel_pt": "Combinado! Até quinta.", "beispiel_de": "Abgemacht! Bis Donnerstag."},
+  {"id": "esta-bem", "pt": "Está bem.", "de": "In Ordnung. / Okay.", "emoji": "👌", "beispiel_pt": "Está bem, até amanhã.", "beispiel_de": "In Ordnung, bis morgen."},
+  {"id": "pode-ser", "pt": "Pode ser …?", "de": "Geht … ? / Passt …?", "emoji": "❔", "beispiel_pt": "Pode ser às três?", "beispiel_de": "Geht es um drei?"},
+  {"id": "das-as", "pt": "das … às …", "de": "von … bis … (Uhrzeit)", "emoji": "↔️", "beispiel_pt": "das nove às cinco", "beispiel_de": "von neun bis fünf"},
+  {"id": "o-horario", "pt": "o horário", "de": "die Öffnungszeiten / der Fahrplan", "emoji": "📋", "beispiel_pt": "Qual é o horário da farmácia?", "beispiel_de": "Wie sind die Öffnungszeiten der Apotheke?"},
+  {"id": "aberto", "pt": "aberto", "de": "geöffnet", "emoji": "🟢", "beispiel_pt": "A loja está aberta.", "beispiel_de": "Der Laden ist geöffnet.", "alternativen": ["aberta"]},
+  {"id": "fechado", "pt": "fechado", "de": "geschlossen", "emoji": "🔴", "beispiel_pt": "O banco está fechado ao sábado.", "beispiel_de": "Die Bank ist samstags geschlossen.", "alternativen": ["fechada"]}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-06-L01",
+   "typ": "neu",
+   "titel": "Die Uhrzeit",
+   "vokabeln": ["a-hora", "que-horas-sao", "e-uma-hora", "sao-duas", "e-meia", "e-um-quarto", "menos-um-quarto", "o-meio-dia", "a-meia-noite", "as"],
+   "grammatik": {
+    "titel": "Wie spät ist es?",
+    "erklaerung": [
+     "<b>É</b> uma hora / meio-dia / meia-noite (Singular) – <b>São</b> duas, três, quatro … horas (Plural).",
+     "Minuten danach mit <b>e</b>: <i>três e dez</i> (3:10), <i>três e um quarto</i> (3:15), <i>três e meia</i> (3:30!). Minuten davor mit <b>menos</b>: <i>quatro menos um quarto</i> (3:45), <i>quatro menos dez</i> (3:50).",
+     "„Um … Uhr“: <b>à</b> uma, <b>às</b> duas, <b>às</b> três – <b>ao</b> meio-dia, <b>à</b> meia-noite.",
+     "Offiziell (Fahrpläne, Termine) oft mit 24 Stunden: <i>às quinze horas</i> = um 15 Uhr."
+    ],
+    "vergleich": "Vorsicht, deutsche Falle: „halb vier“ ist auf Portugiesisch <i>três e meia</i> (drei und halb) – wie englisch „half past three“.",
+    "beispiele": [
+     {"pt": "Que horas são? – São dez e um quarto.", "de": "Wie spät ist es? – Viertel nach zehn."},
+     {"pt": "É meio-dia e meia.", "de": "Es ist halb eins (12:30)."},
+     {"pt": "A reunião é às três.", "de": "Das Meeting ist um drei."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Es ist 3:30. Was sagst du?", "optionen": ["São três e meia.", "São meia quatro.", "É três e meia."], "richtig": 0, "erklaerung": "3:30 = três e meia, mit são (Plural).", "kategorie": "Uhrzeit"},
+     {"typ": "luecke", "satz": "___ uma hora.", "loesungen": ["É"], "de": "Es ist ein Uhr.", "kategorie": "Uhrzeit"},
+     {"typ": "luecke", "satz": "São duas ___ um quarto.", "loesungen": ["menos"], "de": "Es ist Viertel vor zwei.", "kategorie": "Uhrzeit"},
+     {"typ": "uebersetzen", "de": "Es ist Mittag.", "loesungen": ["É meio-dia."]},
+     {"typ": "luecke", "satz": "A reunião é ___ três.", "loesungen": ["às"], "de": "Das Meeting ist um drei.", "kategorie": "Uhrzeit"},
+     {"typ": "auswahl", "frage": "„um ein Uhr“", "optionen": ["às uma", "à uma", "a uma"], "richtig": 1, "erklaerung": "à uma (Singular) – aber às duas, às três …", "kategorie": "Uhrzeit"},
+     {"typ": "diktat", "pt": "São oito e um quarto.", "de": "Es ist Viertel nach acht."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Que horas são? – Wie spät ist es?",
+    "situation": "Stefan fragt auf der Straße nach der Uhrzeit.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpe, sabe que horas são?", "de": "Entschuldigung, wissen Sie, wie spät es ist?"},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "São dez e um quarto.", "de": "Viertel nach zehn."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado. O banco abre às dez e meia?", "de": "Danke. Öffnet die Bank um halb elf?"},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Não, abre às oito e meia. Já está aberto.", "de": "Nein, sie öffnet um halb neun. Sie ist schon offen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ah, ótimo! Obrigado.", "de": "Ah, prima! Danke."}
+    ],
+    "fragen": [
+     {"frage": "Wie spät ist es?", "optionen": ["10:15", "10:30", "8:30"], "richtig": 0},
+     {"frage": "Wann öffnet die Bank?", "optionen": ["um 8:30", "um 10:30", "um 10:15"], "richtig": 0},
+     {"frage": "Ist die Bank jetzt offen?", "optionen": ["Ja, schon.", "Nein, noch nicht.", "Heute ist sie zu."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Que horas são?", "de": "Wie spät ist es?"},
+     {"pt": "É uma hora.", "de": "Es ist ein Uhr."},
+     {"pt": "São três e meia.", "de": "Es ist halb vier."},
+     {"pt": "São cinco menos um quarto.", "de": "Es ist Viertel vor fünf."},
+     {"pt": "A reunião é às dez.", "de": "Das Meeting ist um zehn."}
+    ]
+   },
+   "saetze": [
+    {"id": "que-horas-dez-quarto", "pt": "Que horas são? – São dez e um quarto.", "de": "Wie spät ist es? – Viertel nach zehn."},
+    {"id": "e-meio-dia", "pt": "É meio-dia.", "de": "Es ist Mittag."},
+    {"id": "reuniao-as-tres", "pt": "A reunião é às três.", "de": "Das Meeting ist um drei."}
+   ]
+  },
+  {
+   "id": "A1-06-L02",
+   "typ": "neu",
+   "titel": "Die Wochentage",
+   "vokabeln": ["segunda", "terca", "quarta", "quinta", "sexta", "sabado", "domingo", "o-fim-de-semana", "hoje", "amanha"],
+   "grammatik": {
+    "titel": "Wochentage – à segunda, ao sábado",
+    "erklaerung": [
+     "Die Wochentage zählen ab Sonntag: <b>segunda-feira</b> (Montag, 2. Tag), <b>terça</b>, <b>quarta</b>, <b>quinta</b>, <b>sexta</b> – dann <b>sábado</b> und <b>domingo</b>. Im Alltag lässt man <i>-feira</i> oft weg.",
+     "Regelmäßig („montags“, „sonntags“): <b>à segunda</b>, <b>ao sábado</b>, <b>ao domingo</b> (a + a = à, a + o = ao).",
+     "Ein bestimmter Tag („am Donnerstag“): oft <b>na quinta-feira</b>, <b>no sábado</b>.",
+     "Typisch Portugal: <b>ao fim de semana</b> (am Wochenende)."
+    ],
+    "vergleich": "Englisch „on Mondays“ – Portugiesisch <i>à segunda</i>. Die Zählung ab Sonntag kennt man auch aus dem Kirchenlatein.",
+    "beispiele": [
+     {"pt": "Hoje é sexta-feira!", "de": "Heute ist Freitag!"},
+     {"pt": "À segunda trabalho em casa.", "de": "Montags arbeite ich zu Hause."},
+     {"pt": "Ao fim de semana não trabalho.", "de": "Am Wochenende arbeite ich nicht."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ domingo descanso.", "loesungen": ["Ao"], "de": "Sonntags ruhe ich mich aus.", "erklaerung": "a + o = ao", "kategorie": "Präposition + Artikel"},
+     {"typ": "luecke", "satz": "___ segunda trabalho em casa.", "loesungen": ["À"], "de": "Montags arbeite ich zu Hause.", "erklaerung": "a + a = à", "kategorie": "Präposition + Artikel"},
+     {"typ": "auswahl", "frage": "Welcher Tag ist „quinta-feira“?", "optionen": ["Donnerstag", "Freitag", "Fünfter des Monats"], "richtig": 0, "erklaerung": "Die Zählung beginnt am Sonntag: segunda = Montag, quinta = Donnerstag."},
+     {"typ": "auswahl", "frage": "„am Wochenende“ – typisch für Portugal:", "optionen": ["ao fim de semana", "no fim da semana", "em fim de semana"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Heute ist Freitag.", "loesungen": ["Hoje é sexta-feira.", "Hoje é sexta."]},
+     {"typ": "uebersetzen", "de": "bis morgen", "loesungen": ["até amanhã"]},
+     {"typ": "satzbau", "de": "Samstags arbeite ich nicht.", "loesung": "Ao sábado não trabalho."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A semana do Stefan – Stefans Woche",
+    "situation": "Ana fragt Stefan, wann er ins Fitnessstudio kommt.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, quando vens ao ginásio?", "de": "Stefan, wann kommst du ins Fitnessstudio?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "À segunda e à quarta, de manhã.", "de": "Montags und mittwochs, vormittags."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E à sexta?", "de": "Und freitags?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "À sexta trabalho muito. Mas ao sábado também venho.", "de": "Freitags arbeite ich viel. Aber samstags komme ich auch."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E ao domingo?", "de": "Und sonntags?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ao domingo descanso!", "de": "Sonntags ruhe ich mich aus!"}
+    ],
+    "fragen": [
+     {"frage": "Wann trainiert Stefan?", "optionen": ["Mo und Mi vormittags und samstags", "jeden Tag", "nur am Wochenende"], "richtig": 0},
+     {"frage": "Warum nicht freitags?", "optionen": ["Er arbeitet viel.", "Das Studio ist zu.", "Er ist müde."], "richtig": 0},
+     {"frage": "Was macht er sonntags?", "optionen": ["Er ruht sich aus.", "Er arbeitet.", "Er trainiert."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Montag", "loesungen": ["segunda-feira", "a segunda-feira", "segunda"]},
+     {"de": "am Wochenende", "loesungen": ["ao fim de semana"]},
+     {"de": "Heute ist Mittwoch.", "loesungen": ["Hoje é quarta-feira.", "Hoje é quarta."]},
+     {"de": "sonntags", "loesungen": ["ao domingo", "aos domingos"]}
+    ]
+   },
+   "saetze": [
+    {"id": "hoje-e-sexta", "pt": "Hoje é sexta-feira!", "de": "Heute ist Freitag!"},
+    {"id": "fim-de-semana-nao-trabalho", "pt": "Ao fim de semana não trabalho.", "de": "Am Wochenende arbeite ich nicht."},
+    {"id": "a-segunda-em-casa", "pt": "À segunda trabalho em casa.", "de": "Montags arbeite ich zu Hause."}
+   ]
+  },
+  {
+   "id": "A1-06-L03",
+   "typ": "neu",
+   "titel": "Alltagsverben – alle Personen",
+   "vokabeln": ["acordar", "pequeno-almoco", "almocar", "jantar", "chegar", "voltar", "nos", "voces", "eles"],
+   "grammatik": {
+    "titel": "Verben auf -ar im Präsens (vollständig)",
+    "erklaerung": [
+     "Am Beispiel <b>jantar</b>: <i>eu jant<b>o</b> · tu jant<b>as</b> · o senhor / ele / ela jant<b>a</b> · nós jant<b>amos</b> · vocês / eles / elas jant<b>am</b></i>.",
+     "<b>vocês</b> ist in Portugal die normale Anrede für mehrere Personen (ihr / Sie) – anders als das heikle Singular-„você“.",
+     "Ganz regelmäßig gehen z. B. <i>acordar, almoçar, chegar, voltar, trabalhar, morar, falar, caminhar</i>."
+    ],
+    "vergleich": "Im Englischen gibt es nur „-s“ bei he/she. Im Portugiesischen hat jede Person ihre Endung – deshalb fällt das Pronomen meist weg.",
+    "beispiele": [
+     {"pt": "Nós acordamos às sete.", "de": "Wir wachen um sieben auf."},
+     {"pt": "Vocês almoçam aqui?", "de": "Esst ihr hier zu Mittag?"},
+     {"pt": "As crianças almoçam na escola.", "de": "Die Kinder essen in der Schule zu Mittag."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Nós ___ às oito.", "loesungen": ["jantamos"], "de": "Wir essen um acht zu Abend.", "kategorie": "-ar-Verben"},
+     {"typ": "luecke", "satz": "Eles ___ tarde.", "loesungen": ["chegam"], "de": "Sie kommen spät an.", "kategorie": "-ar-Verben"},
+     {"typ": "luecke", "satz": "Vocês ___ aqui?", "loesungen": ["almoçam"], "de": "Esst ihr hier zu Mittag?", "kategorie": "-ar-Verben"},
+     {"typ": "luecke", "satz": "A que horas ___?", "loesungen": ["acordas"], "de": "Um wie viel Uhr wachst du auf?", "kategorie": "-ar-Verben"},
+     {"typ": "auswahl", "frage": "„ihr“ (mehrere Freunde) heißt im Alltag in Portugal …", "optionen": ["vocês", "vós", "tu"], "richtig": 0, "erklaerung": "„vós“ ist veraltet bzw. regional; im Alltag: vocês."},
+     {"typ": "uebersetzen", "de": "Wir frühstücken um acht.", "loesungen": ["Tomamos o pequeno-almoço às oito.", "Nós tomamos o pequeno-almoço às oito."]},
+     {"typ": "satzbau", "de": "Wir kommen um sieben nach Hause zurück.", "loesung": "Voltamos para casa às sete."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O horário da família – der Familienalltag",
+    "situation": "Paulo erzählt vom Alltag seiner Familie.",
+    "zeilen": [
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Nós acordamos às sete. As crianças tomam o pequeno-almoço às sete e meia.", "de": "Wir wachen um sieben auf. Die Kinder frühstücken um halb acht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E almoçam na escola?", "de": "Und essen sie in der Schule zu Mittag?"},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Almoçam, sim. Eu e a Inês almoçamos no trabalho.", "de": "Ja. Inês und ich essen bei der Arbeit."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a que horas jantam?", "de": "Und um wie viel Uhr esst ihr zu Abend?"},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Jantamos tarde, às oito e meia. É normal em Portugal!", "de": "Wir essen spät, um halb neun. Das ist normal in Portugal!"}
+    ],
+    "fragen": [
+     {"frage": "Wann wacht die Familie auf?", "optionen": ["um 7 Uhr", "um 7:30", "um 8:30"], "richtig": 0},
+     {"frage": "Wo essen die Kinder zu Mittag?", "optionen": ["in der Schule", "zu Hause", "bei der Arbeit"], "richtig": 0},
+     {"frage": "Wann essen sie zu Abend?", "optionen": ["um 20:30", "um 18:30", "um 19:00"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Paulo fragt nach deinem Tagesablauf (ihr duzt euch).",
+    "zeilen": [
+     {"sprecher": "Paulo", "stimme": "m", "pt": "A que horas acordas?", "de": "Um wie viel Uhr wachst du auf?"},
+     {"ich": true, "aufgabe": "Sag: Ich wache um sieben auf.", "loesungen": ["Acordo às sete.", "Eu acordo às sete."]},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "E almoças em casa?", "de": "Und isst du zu Hause zu Mittag?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich esse zu Hause zu Mittag.", "loesungen": ["Almoço, sim. Almoço em casa.", "Sim, almoço em casa.", "Almoço em casa."]},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "E jantas tarde?", "de": "Und isst du spät zu Abend?"},
+     {"ich": true, "aufgabe": "Sag: Nein, ich esse um sieben zu Abend.", "loesungen": ["Não, janto às sete.", "Não, eu janto às sete."]}
+    ]
+   },
+   "saetze": [
+    {"id": "jantamos-oito-e-meia", "pt": "Jantamos às oito e meia.", "de": "Wir essen um halb neun zu Abend."},
+    {"id": "voces-almocam-aqui", "pt": "Vocês almoçam aqui?", "de": "Esst ihr hier zu Mittag?"},
+    {"id": "criancas-almocam-escola", "pt": "As crianças almoçam na escola.", "de": "Die Kinder essen in der Schule zu Mittag."}
+   ]
+  },
+  {
+   "id": "A1-06-L04",
+   "typ": "neu",
+   "titel": "Aufstehen, duschen, ins Bett gehen",
+   "vokabeln": ["levantar-se", "deitar-se", "vestir-se", "tomar-duche", "cedo", "tarde-adv", "de-manha", "a-tarde", "a-noite"],
+   "grammatik": {
+    "titel": "Reflexive Verben – wo steht „mich“?",
+    "erklaerung": [
+     "Reflexive Verben haben ein Pronomen: <i>levanto-<b>me</b>, levantas-<b>te</b>, levanta-<b>se</b>, levantamo-<b>nos</b>, levantam-<b>se</b></i>. Bei <i>nós</i> fällt das -s weg: <i>levantamos + nos → levantamo-nos</i>.",
+     "Normalfall in Portugal: Pronomen <b>hinter</b> dem Verb mit Bindestrich: <i>Levanto-me às sete.</i>",
+     "Aber <b>vor</b> das Verb rückt es nach <b>não, nunca, também, já</b> und nach <b>Fragewörtern</b>: <i>Não <b>me</b> levanto cedo. Nunca <b>me</b> deito tarde. A que horas <b>te</b> levantas?</i>"
+    ],
+    "vergleich": "Wie deutsch „ich stehe auf“ vs. „ich ziehe mich an“ – im Portugiesischen sind mehr Verben reflexiv (levantar-se, deitar-se, chamar-se).",
+    "beispiele": [
+     {"pt": "Levanto-me às sete e tomo duche.", "de": "Ich stehe um sieben auf und dusche."},
+     {"pt": "Nunca me levanto antes das nove.", "de": "Ich stehe nie vor neun auf."},
+     {"pt": "A que horas te deitas?", "de": "Um wie viel Uhr gehst du ins Bett?"}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich stehe um sieben auf.“", "optionen": ["Levanto-me às sete.", "Me levanto às sete."], "richtig": 0, "erklaerung": "Im Hauptsatz: Pronomen hinter dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Não ___ levanto cedo.", "loesungen": ["me"], "de": "Ich stehe nicht früh auf.", "erklaerung": "Nach não steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Um wie viel Uhr stehst du auf?“", "optionen": ["A que horas levantas-te?", "A que horas te levantas?"], "richtig": 1, "erklaerung": "Nach Fragewörtern steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Nós deitamo-___ às onze.", "loesungen": ["nos"], "de": "Wir gehen um elf ins Bett.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Ich dusche morgens.", "loesungen": ["Tomo duche de manhã.", "De manhã tomo duche."]},
+     {"typ": "uebersetzen", "de": "Er steht spät auf.", "loesungen": ["Ele levanta-se tarde.", "Levanta-se tarde."], "kategorie": "Pronomenstellung"},
+     {"typ": "satzbau", "de": "Ich gehe um Mitternacht ins Bett.", "loesung": "Deito-me à meia-noite."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um dia normal – ein normaler Tag",
+    "situation": "Joana fragt Stefan nach seinem Tag.",
+    "zeilen": [
+     {"sprecher": "Joana", "stimme": "f", "pt": "Como é o teu dia, Stefan?", "de": "Wie sieht dein Tag aus, Stefan?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Levanto-me às sete, tomo duche e tomo o pequeno-almoço.", "de": "Ich stehe um sieben auf, dusche und frühstücke."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Tão cedo! Eu nunca me levanto antes das nove.", "de": "So früh! Ich stehe nie vor neun auf."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Depois trabalho em casa até às seis.", "de": "Danach arbeite ich bis sechs zu Hause."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "E à noite?", "de": "Und abends?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "À noite janto e deito-me às onze.", "de": "Abends esse ich und gehe um elf ins Bett."}
+    ],
+    "fragen": [
+     {"frage": "Wann steht Stefan auf?", "optionen": ["um sieben", "um neun", "um sechs"], "richtig": 0},
+     {"frage": "Und Joana?", "optionen": ["nie vor neun", "immer um sieben", "um sechs"], "richtig": 0},
+     {"frage": "Bis wann arbeitet Stefan?", "optionen": ["bis 18 Uhr", "bis 23 Uhr", "bis Mittag"], "richtig": 0},
+     {"frage": "Wann geht er ins Bett?", "optionen": ["um 23 Uhr", "um Mitternacht", "um 21 Uhr"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Levanto-me às sete.", "de": "Ich stehe um sieben auf."},
+     {"pt": "Não me levanto cedo.", "de": "Ich stehe nicht früh auf."},
+     {"pt": "A que horas te deitas?", "de": "Um wie viel Uhr gehst du ins Bett?"},
+     {"pt": "Tomo duche de manhã.", "de": "Ich dusche morgens."},
+     {"pt": "Deito-me às onze.", "de": "Ich gehe um elf ins Bett."}
+    ]
+   },
+   "saetze": [
+    {"id": "levanto-me-duche", "pt": "Levanto-me às sete e tomo duche.", "de": "Ich stehe um sieben auf und dusche."},
+    {"id": "nunca-me-levanto", "pt": "Nunca me levanto antes das nove.", "de": "Ich stehe nie vor neun auf."},
+    {"id": "a-que-horas-te-deitas", "pt": "A que horas te deitas?", "de": "Um wie viel Uhr gehst du ins Bett?"}
+   ]
+  },
+  {
+   "id": "A1-06-L05",
+   "typ": "neu",
+   "titel": "Wie oft? – Häufigkeit",
+   "vokabeln": ["sempre", "normalmente", "as-vezes", "nunca", "todos-os-dias", "o-ginasio", "fazer-exercicio", "caminhar", "a-semana"],
+   "grammatik": {
+    "titel": "sempre, às vezes, nunca – und „zweimal pro Woche“",
+    "erklaerung": [
+     "Häufigkeitswörter stehen meist <b>vor</b> dem Verb: <i>Sempre almoço em casa. Às vezes trabalho ao sábado.</i> (<i>sempre</i> kann auch dahinter stehen: <i>Almoço sempre em casa.</i>)",
+     "<b>nunca</b> (nie) vor dem Verb braucht kein <i>não</i>: <i>Nunca janto tarde.</i> Steht es dahinter, braucht man eine doppelte Verneinung: <i>Não janto nunca tarde.</i>",
+     "Wie oft: <b>uma vez</b> / <b>duas vezes por semana</b> (ein-/zweimal pro Woche), <b>todos os dias</b> (jeden Tag)."
+    ],
+    "vergleich": "Englisch „I never eat late“ – Portugiesisch ebenso: <i>Nunca janto tarde.</i> Doppelte Verneinung („não … nunca“) ist im Portugiesischen korrekt.",
+    "beispiele": [
+     {"pt": "Faço exercício três vezes por semana.", "de": "Ich mache dreimal pro Woche Sport."},
+     {"pt": "Nunca janto tarde.", "de": "Ich esse nie spät zu Abend."},
+     {"pt": "Normalmente tomo o pequeno-almoço em casa.", "de": "Normalerweise frühstücke ich zu Hause."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ janto tarde.", "loesungen": ["Nunca"], "de": "Ich esse nie spät zu Abend."},
+     {"typ": "auswahl", "frage": "„Ich gehe nie ins Fitnessstudio.“", "optionen": ["Nunca vou ao ginásio.", "Não nunca vou ao ginásio."], "richtig": 0, "erklaerung": "nunca vor dem Verb – ohne não.", "kategorie": "Verneinung"},
+     {"typ": "luecke", "satz": "Faço exercício duas ___ por semana.", "loesungen": ["vezes"], "de": "Ich mache zweimal pro Woche Sport."},
+     {"typ": "uebersetzen", "de": "Manchmal arbeite ich samstags.", "loesungen": ["Às vezes trabalho ao sábado.", "Às vezes trabalho aos sábados."]},
+     {"typ": "uebersetzen", "de": "jeden Tag", "loesungen": ["todos os dias"]},
+     {"typ": "satzbau", "de": "Normalerweise frühstücke ich zu Hause.", "loesung": "Normalmente tomo o pequeno-almoço em casa."},
+     {"typ": "auswahl", "frage": "Was heißt „uma vez por semana“?", "optionen": ["einmal pro Woche", "eine Woche lang", "jede Woche mehr"], "richtig": 0}
+    ]
+   },
+   "hoeren": {
+    "titel": "No ginásio – im Fitnessstudio",
+    "situation": "Ana und Stefan reden über Sport.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Vens sempre de manhã?", "de": "Kommst du immer morgens?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Normalmente, sim. Às vezes também venho à tarde.", "de": "Normalerweise ja. Manchmal komme ich auch nachmittags."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Eu venho todos os dias, mas nunca ao domingo.", "de": "Ich komme jeden Tag, aber nie sonntags."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Todos os dias? Eu só faço exercício três vezes por semana.", "de": "Jeden Tag? Ich mache nur dreimal pro Woche Sport."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E caminhas na praia?", "de": "Und gehst du am Strand spazieren?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Caminho, sim, sempre ao fim de semana.", "de": "Ja, immer am Wochenende."}
+    ],
+    "fragen": [
+     {"frage": "Wann kommt Stefan normalerweise?", "optionen": ["morgens", "abends", "nachts"], "richtig": 0},
+     {"frage": "Wie oft kommt Ana?", "optionen": ["jeden Tag außer sonntags", "dreimal pro Woche", "nur sonntags"], "richtig": 0},
+     {"frage": "Wie oft macht Stefan Sport?", "optionen": ["dreimal pro Woche", "jeden Tag", "einmal pro Woche"], "richtig": 0},
+     {"frage": "Wann geht er am Strand spazieren?", "optionen": ["immer am Wochenende", "nie", "jeden Morgen"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ana fragt dich nach deinem Sport (ihr duzt euch).",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Fazes exercício?", "de": "Machst du Sport?"},
+     {"ich": true, "aufgabe": "Sag: Ja, dreimal pro Woche.", "loesungen": ["Faço, sim, três vezes por semana.", "Sim, três vezes por semana.", "Faço exercício três vezes por semana."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E ao domingo?", "de": "Und sonntags?"},
+     {"ich": true, "aufgabe": "Sag: Sonntags gehe ich am Strand spazieren.", "loesungen": ["Ao domingo caminho na praia.", "Ao domingo, caminho na praia."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Que bom!", "de": "Wie schön!"},
+     {"ich": true, "aufgabe": "Frag: Und du?", "loesungen": ["E tu?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "nunca-janto-tarde", "pt": "Nunca janto tarde.", "de": "Ich esse nie spät zu Abend."},
+    {"id": "tres-vezes-por-semana", "pt": "Faço exercício três vezes por semana.", "de": "Ich mache dreimal pro Woche Sport."},
+    {"id": "as-vezes-trabalho-sabado", "pt": "Às vezes trabalho ao sábado.", "de": "Manchmal arbeite ich samstags."}
+   ]
+  },
+  {
+   "id": "A1-06-L06",
+   "typ": "neu",
+   "titel": "Termine und Öffnungszeiten",
+   "vokabeln": ["a-reuniao", "a-consulta", "combinado", "esta-bem", "pode-ser", "das-as", "o-horario", "aberto", "fechado"],
+   "grammatik": {
+    "titel": "Einen Termin vereinbaren",
+    "erklaerung": [
+     "Vorschlagen: <b>Pode ser na quinta-feira?</b> / <b>Pode ser às três?</b> – Geht es am Donnerstag / um drei?",
+     "Zusagen: <b>Pode.</b> / <b>Está bem.</b> / <b>Combinado!</b> – Absagen: <b>Às dez não posso.</b> (Um zehn kann ich nicht.)",
+     "Zeitspanne: <b>das</b> nove <b>às</b> cinco (von neun bis fünf) – de + as = das, a + as = às. Viele Geschäfte in Portugal schließen mittags: <i>das 9h às 13h e das 15h às 19h</i>.",
+     "Ein bestimmter Tag: <b>na</b> quinta-feira, <b>no</b> sábado. Regelmäßig: <b>à</b> quinta, <b>ao</b> sábado."
+    ],
+    "vergleich": "Wie englisch „from nine to five“ – nur dass Portugiesisch die Artikel mitnimmt: <i>das nove às cinco</i>.",
+    "beispiele": [
+     {"pt": "Pode ser às três da tarde? – Pode. Combinado!", "de": "Geht es um drei Uhr nachmittags? – Ja. Abgemacht!"},
+     {"pt": "A loja está aberta das nove às sete.", "de": "Der Laden ist von neun bis sieben geöffnet."},
+     {"pt": "O banco está fechado ao sábado.", "de": "Die Bank ist samstags geschlossen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A loja está aberta das nove ___ sete.", "loesungen": ["às"], "de": "Der Laden ist von neun bis sieben geöffnet.", "kategorie": "Präposition + Artikel"},
+     {"typ": "auswahl", "frage": "Jemand fragt „Pode ser às três?“ – du bist einverstanden:", "optionen": ["Combinado!", "Quanto é?", "Não percebo."], "richtig": 0},
+     {"typ": "luecke", "satz": "O banco está ___ ao sábado.", "loesungen": ["fechado"], "de": "Die Bank ist samstags geschlossen."},
+     {"typ": "uebersetzen", "de": "Geht es um vier?", "loesungen": ["Pode ser às quatro?"]},
+     {"typ": "uebersetzen", "de": "In Ordnung, bis Dienstag.", "loesungen": ["Está bem, até terça.", "Está bem, até terça-feira."]},
+     {"typ": "satzbau", "de": "Der Termin ist am Donnerstag um zehn.", "loesung": "A consulta é na quinta-feira às dez."},
+     {"typ": "auswahl", "frage": "„Um zehn kann ich nicht.“", "optionen": ["Às dez não posso.", "Às dez não pode.", "Não às dez posso."], "richtig": 0}
+    ]
+   },
+   "hoeren": {
+    "titel": "Marcar uma reunião – ein Meeting vereinbaren",
+    "situation": "Ein Kunde ruft Stefan an.",
+    "zeilen": [
+     {"sprecher": "Senhor Mendes", "stimme": "m", "pt": "Senhor Stefan, podemos ter uma reunião esta semana?", "de": "Herr Stefan, können wir diese Woche ein Meeting haben?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro. Pode ser na quinta-feira?", "de": "Natürlich. Geht es am Donnerstag?"},
+     {"sprecher": "Senhor Mendes", "stimme": "m", "pt": "Na quinta às dez?", "de": "Donnerstag um zehn?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Às dez não posso. Pode ser às três da tarde?", "de": "Um zehn kann ich nicht. Geht es um drei Uhr nachmittags?"},
+     {"sprecher": "Senhor Mendes", "stimme": "m", "pt": "Pode. Combinado: quinta, às quinze horas, no meu escritório.", "de": "Ja. Abgemacht: Donnerstag, 15 Uhr, in meinem Büro."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. Até quinta!", "de": "In Ordnung. Bis Donnerstag!"}
+    ],
+    "fragen": [
+     {"frage": "An welchem Tag ist das Meeting?", "optionen": ["Donnerstag", "Dienstag", "Freitag"], "richtig": 0},
+     {"frage": "Um wie viel Uhr?", "optionen": ["15 Uhr", "10 Uhr", "13 Uhr"], "richtig": 0},
+     {"frage": "Wo?", "optionen": ["im Büro von Herrn Mendes", "bei Stefan zu Hause", "im Café"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Pode ser na quinta-feira?", "de": "Geht es am Donnerstag?"},
+     {"pt": "Às dez não posso.", "de": "Um zehn kann ich nicht."},
+     {"pt": "Combinado!", "de": "Abgemacht!"},
+     {"pt": "A loja está aberta das nove às sete.", "de": "Der Laden ist von neun bis sieben geöffnet."},
+     {"pt": "Até quinta!", "de": "Bis Donnerstag!"}
+    ]
+   },
+   "saetze": [
+    {"id": "pode-ser-tres-tarde", "pt": "Pode ser às três da tarde?", "de": "Geht es um drei Uhr nachmittags?"},
+    {"id": "combinado-ate-quinta", "pt": "Combinado! Até quinta.", "de": "Abgemacht! Bis Donnerstag."},
+    {"id": "loja-fechada-domingo", "pt": "A loja está fechada ao domingo.", "de": "Der Laden ist sonntags geschlossen."}
+   ]
+  },
+  {"id": "A1-06-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-06-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "O horário da farmácia – Ansage der Apotheke",
+   "situation": "Stefan ruft bei der Apotheke an und hört eine Bandansage.",
+   "zeilen": [
+    {"sprecher": "Gravação", "stimme": "f", "pt": "Farmácia Central, bom dia. O nosso horário: de segunda a sexta, das nove às treze e das quinze às dezanove horas.", "de": "Apotheke Central, guten Tag. Unsere Öffnungszeiten: Montag bis Freitag, 9 bis 13 und 15 bis 19 Uhr."},
+    {"sprecher": "Gravação", "stimme": "f", "pt": "Ao sábado, das nove às treze. Ao domingo estamos fechados.", "de": "Samstags von 9 bis 13 Uhr. Sonntags haben wir geschlossen."},
+    {"sprecher": "Gravação", "stimme": "f", "pt": "Hoje, quarta-feira, a farmácia de serviço é a Farmácia Silva.", "de": "Heute, Mittwoch, hat die Apotheke Silva Notdienst."}
+   ],
+   "fragen": [
+    {"frage": "Wann hat die Apotheke unter der Woche Mittagspause?", "optionen": ["von 13 bis 15 Uhr", "von 12 bis 14 Uhr", "keine"], "richtig": 0},
+    {"frage": "Wie lange ist samstags offen?", "optionen": ["von 9 bis 13 Uhr", "den ganzen Tag", "gar nicht"], "richtig": 0},
+    {"frage": "Was ist sonntags?", "optionen": ["geschlossen", "von 9 bis 13 Uhr offen", "Notdienst"], "richtig": 0},
+    {"frage": "Welche Apotheke hat heute Notdienst?", "optionen": ["Farmácia Silva", "Farmácia Central", "keine"], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "O dia da Dona Fernanda – Fernandas Tag",
+   "situation": "Ein kurzer Text über den Alltag der Nachbarin.",
+   "text": [
+    "A Dona Fernanda levanta-se sempre às sete.",
+    "Toma o pequeno-almoço com o marido e depois caminha meia hora.",
+    "Às terças e às quintas vai ao mercado de manhã.",
+    "Almoça à uma hora e à tarde descansa um pouco.",
+    "Janta às oito e deita-se às dez e meia. Nunca vê televisão à noite."
+   ],
+   "fragen": [
+    {"frage": "Wann steht Dona Fernanda auf?", "optionen": ["immer um sieben", "manchmal um sieben", "um halb acht"], "richtig": 0},
+    {"frage": "Wann geht sie auf den Markt?", "optionen": ["dienstags und donnerstags vormittags", "jeden Tag", "samstags"], "richtig": 0},
+    {"frage": "Um wie viel Uhr isst sie zu Mittag?", "optionen": ["um eins", "um zwölf", "um halb zwei"], "richtig": 0},
+    {"frage": "Was macht sie abends nie?", "optionen": ["fernsehen", "zu Abend essen", "spazieren gehen"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Wie spät ist es?", "loesungen": ["Que horas são?"]},
+   {"de": "Es ist halb drei (2:30).", "loesungen": ["São duas e meia."]},
+   {"de": "Ich stehe um sieben auf.", "loesungen": ["Levanto-me às sete."]},
+   {"de": "Sonntags arbeite ich nie.", "loesungen": ["Ao domingo nunca trabalho.", "Nunca trabalho ao domingo."]},
+   {"de": "Wir essen um acht zu Abend.", "loesungen": ["Jantamos às oito.", "Nós jantamos às oito."]},
+   {"de": "Geht es am Donnerstag?", "loesungen": ["Pode ser na quinta-feira?", "Pode ser na quinta?"]}
+  ],
+  "sprechen": [
+   {"pt": "Que horas são? – São três e meia.", "de": "Wie spät ist es? – Halb vier."},
+   {"pt": "Levanto-me sempre às sete.", "de": "Ich stehe immer um sieben auf."},
+   {"pt": "Ao fim de semana não trabalho.", "de": "Am Wochenende arbeite ich nicht."},
+   {"pt": "Pode ser na terça-feira às dez?", "de": "Geht es am Dienstag um zehn?"},
+   {"pt": "Combinado, até amanhã!", "de": "Abgemacht, bis morgen!"}
+  ]
+ }
+}

@@ -1,0 +1,507 @@
+{
+ "id": "A1-07",
+ "level": "A1",
+ "titel": "Às compras – Markt und Supermarkt",
+ "beschreibung": "Obst und Gemüse, Mengen und Preise, beim Fischhändler und Metzger, im Supermarkt, an der Kasse, Vorlieben beim Einkaufen.",
+ "vokabeln": [
+  {"id": "a-fruta", "pt": "a fruta", "de": "das Obst", "emoji": "🍇", "beispiel_pt": "Como muita fruta.", "beispiel_de": "Ich esse viel Obst."},
+  {"id": "a-maca", "pt": "a maçã", "de": "der Apfel", "emoji": "🍎", "beispiel_pt": "Como uma maçã todos os dias.", "beispiel_de": "Ich esse jeden Tag einen Apfel."},
+  {"id": "a-laranja", "pt": "a laranja", "de": "die Orange", "emoji": "🍊", "beispiel_pt": "As laranjas do Algarve são famosas.", "beispiel_de": "Die Orangen der Algarve sind berühmt."},
+  {"id": "o-morango", "pt": "o morango", "de": "die Erdbeere", "emoji": "🍓", "beispiel_pt": "Os morangos são muito doces.", "beispiel_de": "Die Erdbeeren sind sehr süß."},
+  {"id": "o-tomate", "pt": "o tomate", "de": "die Tomate", "emoji": "🍅", "beispiel_pt": "Queria meio quilo de tomates.", "beispiel_de": "Ich hätte gern ein halbes Kilo Tomaten."},
+  {"id": "a-batata", "pt": "a batata", "de": "die Kartoffel", "emoji": "🥔", "beispiel_pt": "Um quilo de batatas, por favor.", "beispiel_de": "Ein Kilo Kartoffeln, bitte."},
+  {"id": "a-cebola", "pt": "a cebola", "de": "die Zwiebel", "emoji": "🧅", "beispiel_pt": "Não como cebola.", "beispiel_de": "Ich esse keine Zwiebeln."},
+  {"id": "o-alho", "pt": "o alho", "de": "der Knoblauch", "emoji": "🧄", "beispiel_pt": "O alho é muito bom.", "beispiel_de": "Der Knoblauch ist sehr gut."},
+  {"id": "a-alface", "pt": "a alface", "de": "der Kopfsalat", "emoji": "🥬", "beispiel_pt": "Uma alface, por favor.", "beispiel_de": "Einen Salatkopf, bitte."},
+  {"id": "a-cenoura", "pt": "a cenoura", "de": "die Karotte", "emoji": "🥕", "beispiel_pt": "meio quilo de cenouras", "beispiel_de": "ein halbes Kilo Karotten"},
+  {"id": "comer", "pt": "comer", "de": "essen", "emoji": "🍴", "beispiel_pt": "O que comes ao almoço?", "beispiel_de": "Was isst du zu Mittag?"},
+  {"id": "beber", "pt": "beber", "de": "trinken", "emoji": "🥤", "beispiel_pt": "Bebemos vinho ao jantar.", "beispiel_de": "Wir trinken Wein zum Abendessen."},
+
+  {"id": "um-quilo", "pt": "um quilo", "de": "ein Kilo", "emoji": "⚖️", "beispiel_pt": "um quilo de maçãs", "beispiel_de": "ein Kilo Äpfel"},
+  {"id": "meio-quilo", "pt": "meio quilo", "de": "ein halbes Kilo", "emoji": "⚖️", "beispiel_pt": "meio quilo de tomates", "beispiel_de": "ein halbes Kilo Tomaten"},
+  {"id": "cem-gramas", "pt": "cem gramas", "de": "hundert Gramm", "emoji": "🧀", "beispiel_pt": "cem gramas de fiambre", "beispiel_de": "hundert Gramm Kochschinken", "hinweis": "In Portugal: o grama (männlich) – duzentos gramas"},
+  {"id": "uma-duzia", "pt": "uma dúzia", "de": "ein Dutzend", "emoji": "🥚", "beispiel_pt": "uma dúzia de ovos", "beispiel_de": "zwölf Eier"},
+  {"id": "a-garrafa", "pt": "a garrafa", "de": "die Flasche", "emoji": "🍾", "beispiel_pt": "uma garrafa de água", "beispiel_de": "eine Flasche Wasser"},
+  {"id": "o-pacote", "pt": "o pacote", "de": "die Packung", "emoji": "📦", "beispiel_pt": "um pacote de leite", "beispiel_de": "eine Packung Milch"},
+  {"id": "a-lata", "pt": "a lata", "de": "die Dose", "emoji": "🥫", "beispiel_pt": "uma lata de atum", "beispiel_de": "eine Dose Thunfisch"},
+  {"id": "quanto-custam", "pt": "Quanto custam …?", "de": "Wie viel kosten …?", "emoji": "💶", "beispiel_pt": "Quanto custam as laranjas?", "beispiel_de": "Wie viel kosten die Orangen?"},
+  {"id": "o-ovo", "pt": "o ovo", "de": "das Ei", "emoji": "🥚", "beispiel_pt": "uma dúzia de ovos", "beispiel_de": "ein Dutzend Eier"},
+
+  {"id": "o-talho", "pt": "o talho", "de": "die Metzgerei", "emoji": "🥩", "beispiel_pt": "Compro carne no talho.", "beispiel_de": "Ich kaufe Fleisch in der Metzgerei.", "hinweis": "Brasilien: açougue"},
+  {"id": "a-peixaria", "pt": "a peixaria", "de": "das Fischgeschäft", "emoji": "🐟", "beispiel_pt": "A peixaria fica no mercado.", "beispiel_de": "Das Fischgeschäft ist in der Markthalle."},
+  {"id": "a-carne", "pt": "a carne", "de": "das Fleisch", "emoji": "🥩", "beispiel_pt": "Não como muita carne.", "beispiel_de": "Ich esse nicht viel Fleisch."},
+  {"id": "o-frango", "pt": "o frango", "de": "das Hähnchen", "emoji": "🍗", "beispiel_pt": "Quanto custa este frango?", "beispiel_de": "Wie viel kostet dieses Hähnchen?"},
+  {"id": "carne-de-porco", "pt": "a carne de porco", "de": "das Schweinefleisch", "emoji": "🐖", "beispiel_pt": "meio quilo de carne de porco", "beispiel_de": "ein halbes Kilo Schweinefleisch"},
+  {"id": "o-peixe", "pt": "o peixe", "de": "der Fisch", "emoji": "🐟", "beispiel_pt": "Este peixe é muito fresco.", "beispiel_de": "Dieser Fisch ist sehr frisch."},
+  {"id": "a-sardinha", "pt": "a sardinha", "de": "die Sardine", "emoji": "🐠", "beispiel_pt": "As sardinhas estão a seis euros o quilo.", "beispiel_de": "Die Sardinen kosten sechs Euro das Kilo."},
+  {"id": "o-bacalhau", "pt": "o bacalhau", "de": "der Stockfisch (Kabeljau)", "emoji": "🐡", "beispiel_pt": "O bacalhau é muito português.", "beispiel_de": "Stockfisch ist sehr portugiesisch."},
+  {"id": "fresco", "pt": "fresco", "de": "frisch", "emoji": "❄️", "beispiel_pt": "O peixe está fresco?", "beispiel_de": "Ist der Fisch frisch?", "alternativen": ["fresca"]},
+  {"id": "aquele", "pt": "aquele", "de": "jener (dort drüben)", "emoji": "👉", "beispiel_pt": "E aquele peixe ali?", "beispiel_de": "Und der Fisch dort drüben?", "hinweis": "este (hier bei mir), esse (da bei dir), aquele (dort drüben)"},
+
+  {"id": "o-supermercado", "pt": "o supermercado", "de": "der Supermarkt", "emoji": "🛒", "beispiel_pt": "O supermercado abre às oito.", "beispiel_de": "Der Supermarkt öffnet um acht."},
+  {"id": "o-pao", "pt": "o pão", "de": "das Brot", "emoji": "🍞", "beispiel_pt": "Compro pão todos os dias.", "beispiel_de": "Ich kaufe jeden Tag Brot.", "hinweis": "Plural: os pães"},
+  {"id": "o-queijo", "pt": "o queijo", "de": "der Käse", "emoji": "🧀", "beispiel_pt": "O queijo da Serra é muito bom.", "beispiel_de": "Der Käse aus der Serra ist sehr gut."},
+  {"id": "o-fiambre", "pt": "o fiambre", "de": "der Kochschinken", "emoji": "🥓", "beispiel_pt": "cem gramas de fiambre", "beispiel_de": "hundert Gramm Kochschinken", "hinweis": "presunto = roher Schinken"},
+  {"id": "o-iogurte", "pt": "o iogurte", "de": "der Joghurt", "emoji": "🥛", "beispiel_pt": "Um pacote de iogurtes.", "beispiel_de": "Eine Packung Joghurts."},
+  {"id": "o-arroz", "pt": "o arroz", "de": "der Reis", "emoji": "🍚", "beispiel_pt": "O arroz está no corredor cinco.", "beispiel_de": "Der Reis ist in Gang fünf."},
+  {"id": "o-azeite", "pt": "o azeite", "de": "das Olivenöl", "emoji": "🫒", "beispiel_pt": "uma garrafa de azeite", "beispiel_de": "eine Flasche Olivenöl"},
+  {"id": "o-vinho", "pt": "o vinho", "de": "der Wein", "emoji": "🍷", "beispiel_pt": "vinho tinto ou vinho branco?", "beispiel_de": "Rotwein oder Weißwein?"},
+  {"id": "abrir", "pt": "abrir", "de": "öffnen", "emoji": "🔓", "beispiel_pt": "A loja abre às nove.", "beispiel_de": "Der Laden öffnet um neun."},
+  {"id": "a-loja", "pt": "a loja", "de": "der Laden / das Geschäft", "emoji": "🏪", "beispiel_pt": "As lojas abrem às dez.", "beispiel_de": "Die Läden öffnen um zehn."},
+  {"id": "comprar", "pt": "comprar", "de": "kaufen", "emoji": "🛍️", "beispiel_pt": "Compro pão e queijo.", "beispiel_de": "Ich kaufe Brot und Käse."},
+
+  {"id": "a-caixa", "pt": "a caixa", "de": "die Kasse / die Kiste", "emoji": "🧾", "beispiel_pt": "Pago na caixa.", "beispiel_de": "Ich zahle an der Kasse."},
+  {"id": "o-saco", "pt": "o saco", "de": "die Tüte", "emoji": "🛍️", "beispiel_pt": "Quer saco?", "beispiel_de": "Möchten Sie eine Tüte?", "hinweis": "Tüten kosten in Portugal meist ein paar Cent."},
+  {"id": "o-talao", "pt": "o talão", "de": "der Kassenbon", "emoji": "🧾", "beispiel_pt": "Quer o talão?", "beispiel_de": "Möchten Sie den Kassenbon?"},
+  {"id": "a-fila", "pt": "a fila", "de": "die Schlange (Warteschlange)", "emoji": "🚶‍♂️", "beispiel_pt": "A fila é muito grande.", "beispiel_de": "Die Schlange ist sehr lang."},
+  {"id": "o-desconto", "pt": "o desconto", "de": "der Rabatt", "emoji": "🏷️", "beispiel_pt": "Tem vinte por cento de desconto.", "beispiel_de": "Es gibt zwanzig Prozent Rabatt."},
+  {"id": "a-promocao", "pt": "a promoção", "de": "das Sonderangebot", "emoji": "📢", "beispiel_pt": "O vinho está em promoção.", "beispiel_de": "Der Wein ist im Angebot."},
+  {"id": "precisar-de", "pt": "precisar de", "de": "brauchen", "emoji": "🙏", "beispiel_pt": "Não preciso de saco.", "beispiel_de": "Ich brauche keine Tüte.", "hinweis": "immer mit de: preciso de …"},
+  {"id": "cartao-de-cliente", "pt": "o cartão de cliente", "de": "die Kundenkarte", "emoji": "💳", "beispiel_pt": "Tem cartão de cliente?", "beispiel_de": "Haben Sie eine Kundenkarte?"},
+  {"id": "mais-nada", "pt": "mais nada", "de": "sonst nichts", "emoji": "✅", "beispiel_pt": "Mais nada, obrigado.", "beispiel_de": "Sonst nichts, danke."},
+
+  {"id": "preferir", "pt": "preferir", "de": "lieber mögen / bevorzugen", "emoji": "❤️", "beispiel_pt": "Prefiro o mercado.", "beispiel_de": "Ich gehe lieber auf den Markt.", "hinweis": "prefiro, preferes, prefere, preferimos, preferem"},
+  {"id": "maduro", "pt": "maduro", "de": "reif", "emoji": "🍑", "beispiel_pt": "Tem tomates maduros?", "beispiel_de": "Haben Sie reife Tomaten?", "alternativen": ["madura"]},
+  {"id": "mais-barato", "pt": "mais barato", "de": "billiger", "emoji": "📉", "beispiel_pt": "No supermercado é mais barato.", "beispiel_de": "Im Supermarkt ist es billiger."},
+  {"id": "acabou", "pt": "Acabou.", "de": "Ist alle / ausverkauft.", "emoji": "🚫", "beispiel_pt": "O pão integral acabou.", "beispiel_de": "Das Vollkornbrot ist ausverkauft."},
+  {"id": "tem", "pt": "Tem …?", "de": "Haben Sie …?", "emoji": "❓", "beispiel_pt": "Tem pão integral?", "beispiel_de": "Haben Sie Vollkornbrot?"},
+  {"id": "integral", "pt": "integral", "de": "Vollkorn-", "emoji": "🌾", "beispiel_pt": "pão integral", "beispiel_de": "Vollkornbrot"},
+  {"id": "biologico", "pt": "biológico", "de": "Bio-", "emoji": "🌱", "beispiel_pt": "fruta biológica", "beispiel_de": "Bio-Obst", "alternativen": ["biológica"]},
+  {"id": "o-mercado", "pt": "o mercado", "de": "der Markt / die Markthalle", "emoji": "🧺", "beispiel_pt": "Ao sábado vou ao mercado.", "beispiel_de": "Samstags gehe ich auf den Markt."},
+  {"id": "a-frutaria", "pt": "a frutaria", "de": "der Obst- und Gemüseladen", "emoji": "🍏", "beispiel_pt": "Compro fruta na frutaria.", "beispiel_de": "Ich kaufe Obst im Obstladen."}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-07-L01",
+   "typ": "neu",
+   "titel": "Obst und Gemüse",
+   "vokabeln": ["a-fruta", "a-maca", "a-laranja", "o-morango", "o-tomate", "a-batata", "a-cebola", "o-alho", "a-alface", "a-cenoura", "comer", "beber"],
+   "grammatik": {
+    "titel": "Verben auf -er: comer, beber",
+    "erklaerung": [
+     "Verben auf <b>-er</b> enden im Präsens auf: <i>eu com<b>o</b> · tu com<b>es</b> · o senhor / ele com<b>e</b> · nós com<b>emos</b> · vocês / eles com<b>em</b></i>.",
+     "Genauso: <i>beber</i> (trinken), <i>aprender</i> (lernen), <i>perceber</i> (verstehen), <i>vender</i> (verkaufen).",
+     "Verneint: <i>Não como cebola.</i> – Ich esse keine Zwiebeln. (Ein „kein“ gibt es nicht – einfach <i>não</i> vor das Verb.)"
+    ],
+    "vergleich": "Wie bei -ar, nur mit -e- statt -a-: <i>falas</i> → <i>comes</i>, <i>falamos</i> → <i>comemos</i>.",
+    "beispiele": [
+     {"pt": "Como muita fruta.", "de": "Ich esse viel Obst."},
+     {"pt": "Bebemos vinho ao jantar.", "de": "Wir trinken Wein zum Abendessen."},
+     {"pt": "Eu não como muita cebola.", "de": "Ich esse nicht viel Zwiebeln."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ muita fruta.", "loesungen": ["como"], "de": "Ich esse viel Obst.", "kategorie": "-er-Verben"},
+     {"typ": "luecke", "satz": "Nós ___ vinho ao jantar.", "loesungen": ["bebemos"], "de": "Wir trinken Wein zum Abendessen.", "kategorie": "-er-Verben"},
+     {"typ": "luecke", "satz": "Tu ___ carne?", "loesungen": ["comes"], "de": "Isst du Fleisch?", "kategorie": "-er-Verben"},
+     {"typ": "luecke", "satz": "Eles não ___ peixe.", "loesungen": ["comem"], "de": "Sie essen keinen Fisch.", "kategorie": "-er-Verben"},
+     {"typ": "uebersetzen", "de": "Ich esse jeden Tag einen Apfel.", "loesungen": ["Como uma maçã todos os dias.", "Eu como uma maçã todos os dias."]},
+     {"typ": "auswahl", "frage": "„Was trinkst du?“ (tu)", "optionen": ["O que bebes?", "O que bebe?"], "richtig": 0, "kategorie": "tu / o senhor"},
+     {"typ": "satzbau", "de": "Sie isst keine Zwiebeln.", "loesung": "Ela não come cebola."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No mercado de Loulé – auf dem Markt von Loulé",
+    "situation": "Stefan kauft auf dem Markt ein.",
+    "zeilen": [
+     {"sprecher": "Vendedora", "stimme": "f", "pt": "Bom dia! O que vai ser hoje?", "de": "Guten Morgen! Was darf's heute sein?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Os morangos são do Algarve?", "de": "Guten Morgen. Sind die Erdbeeren von der Algarve?"},
+     {"sprecher": "Vendedora", "stimme": "f", "pt": "São, sim! São muito doces. E os tomates também são daqui.", "de": "Ja! Sie sind sehr süß. Und die Tomaten sind auch von hier."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então queria morangos e tomates. E uma alface.", "de": "Dann hätte ich gern Erdbeeren und Tomaten. Und einen Salat."},
+     {"sprecher": "Vendedora", "stimme": "f", "pt": "Mais alguma coisa? Tenho cebolas e alho muito bons.", "de": "Sonst noch etwas? Ich habe sehr gute Zwiebeln und Knoblauch."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, obrigado. Eu não como muita cebola.", "de": "Nein, danke. Ich esse nicht viel Zwiebeln."}
+    ],
+    "fragen": [
+     {"frage": "Woher kommen die Erdbeeren?", "optionen": ["von der Algarve", "aus Spanien", "aus Lissabon"], "richtig": 0},
+     {"frage": "Was kauft Stefan?", "optionen": ["Erdbeeren, Tomaten und einen Salat", "Zwiebeln und Knoblauch", "nur Erdbeeren"], "richtig": 0},
+     {"frage": "Warum kauft er keine Zwiebeln?", "optionen": ["Er isst nicht viel Zwiebeln.", "Sie sind zu teuer.", "Es gibt keine."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Como muita fruta.", "de": "Ich esse viel Obst."},
+     {"pt": "Os morangos são do Algarve?", "de": "Sind die Erdbeeren von der Algarve?"},
+     {"pt": "Queria tomates e uma alface.", "de": "Ich hätte gern Tomaten und einen Salat."},
+     {"pt": "Não como cebola.", "de": "Ich esse keine Zwiebeln."},
+     {"pt": "O que bebes?", "de": "Was trinkst du?"}
+    ]
+   },
+   "saetze": [
+    {"id": "como-muita-fruta", "pt": "Como muita fruta.", "de": "Ich esse viel Obst."},
+    {"id": "morangos-do-algarve", "pt": "Os morangos são do Algarve?", "de": "Sind die Erdbeeren von der Algarve?"},
+    {"id": "nao-como-cebola", "pt": "Eu não como muita cebola.", "de": "Ich esse nicht viel Zwiebeln."}
+   ]
+  },
+  {
+   "id": "A1-07-L02",
+   "typ": "neu",
+   "titel": "Mengen und Preise",
+   "vokabeln": ["um-quilo", "meio-quilo", "cem-gramas", "uma-duzia", "a-garrafa", "o-pacote", "a-lata", "quanto-custam", "o-ovo"],
+   "grammatik": {
+    "titel": "Mengenangaben mit de",
+    "erklaerung": [
+     "Nach Mengen steht <b>de</b> – ohne Artikel: <i>um quilo <b>de</b> maçãs, uma garrafa <b>de</b> água, cem gramas <b>de</b> queijo</i>.",
+     "<b>meio</b> (halb) steht ohne <i>um</i>: <i>meio quilo</i> – ein halbes Kilo.",
+     "Preise auf dem Markt: <b>Estão a dois euros o quilo.</b> – Sie kosten zwei Euro das Kilo. Fragen: <i>Quanto custa o quilo?</i> / <i>Quanto custam as laranjas?</i>"
+    ],
+    "vergleich": "Wie englisch „a kilo of apples, a bottle of water“ – Deutsch lässt das „von“ weg (ein Kilo Äpfel), Portugiesisch nicht.",
+    "beispiele": [
+     {"pt": "Queria um quilo de laranjas.", "de": "Ich hätte gern ein Kilo Orangen."},
+     {"pt": "Quanto custam os morangos? – Estão a dois euros o quilo.", "de": "Wie viel kosten die Erdbeeren? – Zwei Euro das Kilo."},
+     {"pt": "uma dúzia de ovos e um pacote de leite", "de": "zwölf Eier und eine Packung Milch"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "um quilo ___ maçãs", "loesungen": ["de"], "de": "ein Kilo Äpfel", "kategorie": "Präposition"},
+     {"typ": "luecke", "satz": "meio ___ de tomates", "loesungen": ["quilo"], "de": "ein halbes Kilo Tomaten"},
+     {"typ": "auswahl", "frage": "„Wie viel kosten die Erdbeeren?“", "optionen": ["Quanto custa os morangos?", "Quanto custam os morangos?"], "richtig": 1, "kategorie": "Singular/Plural"},
+     {"typ": "luecke", "satz": "uma ___ de ovos", "loesungen": ["dúzia"], "de": "ein Dutzend Eier"},
+     {"typ": "uebersetzen", "de": "zweihundert Gramm Käse", "loesungen": ["duzentos gramas de queijo"]},
+     {"typ": "uebersetzen", "de": "eine Flasche Wasser", "loesungen": ["uma garrafa de água"]},
+     {"typ": "satzbau", "de": "Wie viel kostet das Kilo?", "loesung": "Quanto custa o quilo?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na frutaria – im Obstladen",
+    "situation": "Stefan kauft Obst, Gemüse und Eier.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quanto custam as laranjas?", "de": "Wie viel kosten die Orangen?"},
+     {"sprecher": "Vendedor", "stimme": "m", "pt": "Estão a um euro e vinte o quilo.", "de": "Einen Euro zwanzig das Kilo."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Queria dois quilos, por favor. E meio quilo de cenouras.", "de": "Ich hätte gern zwei Kilo, bitte. Und ein halbes Kilo Karotten."},
+     {"sprecher": "Vendedor", "stimme": "m", "pt": "Aqui tem. Mais alguma coisa?", "de": "Bitte schön. Sonst noch etwas?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Uma dúzia de ovos.", "de": "Ein Dutzend Eier."},
+     {"sprecher": "Vendedor", "stimme": "m", "pt": "São quatro euros e dez.", "de": "Das macht vier Euro zehn."}
+    ],
+    "fragen": [
+     {"frage": "Was kosten die Orangen?", "optionen": ["1,20 € das Kilo", "2,10 € das Kilo", "1,02 € das Kilo"], "richtig": 0},
+     {"frage": "Wie viele Orangen kauft Stefan?", "optionen": ["zwei Kilo", "ein halbes Kilo", "ein Dutzend"], "richtig": 0},
+     {"frage": "Wie viele Karotten?", "optionen": ["ein halbes Kilo", "ein Kilo", "zwei Kilo"], "richtig": 0},
+     {"frage": "Was kostet alles zusammen?", "optionen": ["4,10 €", "4,20 €", "14,10 €"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "ein Kilo Äpfel", "loesungen": ["um quilo de maçãs"]},
+     {"de": "ein halbes Kilo Tomaten", "loesungen": ["meio quilo de tomates"]},
+     {"de": "Wie viel kosten die Orangen?", "loesungen": ["Quanto custam as laranjas?"]},
+     {"de": "ein Dutzend Eier", "loesungen": ["uma dúzia de ovos"]}
+    ]
+   },
+   "saetze": [
+    {"id": "um-quilo-de-laranjas", "pt": "Queria um quilo de laranjas.", "de": "Ich hätte gern ein Kilo Orangen."},
+    {"id": "quanto-custam-morangos", "pt": "Quanto custam os morangos?", "de": "Wie viel kosten die Erdbeeren?"},
+    {"id": "dois-euros-o-quilo", "pt": "Estão a dois euros o quilo.", "de": "Sie kosten zwei Euro das Kilo."}
+   ]
+  },
+  {
+   "id": "A1-07-L03",
+   "typ": "neu",
+   "titel": "Fisch und Fleisch",
+   "vokabeln": ["o-talho", "a-peixaria", "a-carne", "o-frango", "carne-de-porco", "o-peixe", "a-sardinha", "o-bacalhau", "fresco", "aquele"],
+   "grammatik": {
+    "titel": "este, esse, aquele – dieser hier, der da, jener dort",
+    "erklaerung": [
+     "Portugiesisch hat drei Stufen: <b>este</b> (hier bei mir), <b>esse</b> (da bei dir), <b>aquele</b> (dort drüben, weit von beiden).",
+     "Sie passen sich an: <i>este / esta / estes / estas · esse / essa / esses / essas · aquele / aquela / aqueles / aquelas</i>.",
+     "Für Dinge ohne Namen: <b>isto</b>, <b>isso</b>, <b>aquilo</b> (das hier / das da / das dort): <i>O que é isto?</i>",
+     "Kaufentscheidung: <b>Fico com este.</b> – Ich nehme diesen."
+    ],
+    "vergleich": "Englisch kennt nur this/that, Deutsch „dieser/der da“ – Portugiesisch unterscheidet sauber nach Entfernung.",
+    "beispiele": [
+     {"pt": "Quanto custam estas sardinhas?", "de": "Wie viel kosten diese Sardinen (hier)?"},
+     {"pt": "E aquele peixe grande ali?", "de": "Und der große Fisch dort drüben?"},
+     {"pt": "Fico com este frango.", "de": "Ich nehme dieses Hähnchen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Queria ___ peixe aqui.", "loesungen": ["este"], "de": "Ich hätte gern diesen Fisch hier.", "kategorie": "Demonstrativ"},
+     {"typ": "luecke", "satz": "___ sardinhas aí são frescas?", "loesungen": ["Essas"], "de": "Sind die Sardinen da (bei Ihnen) frisch?", "kategorie": "Demonstrativ"},
+     {"typ": "luecke", "satz": "Quanto custa ___ frango ali?", "loesungen": ["aquele"], "de": "Wie viel kostet das Hähnchen dort drüben?", "kategorie": "Demonstrativ"},
+     {"typ": "auswahl", "frage": "„Was ist das (hier)?“ – für ein unbekanntes Ding", "optionen": ["O que é isto?", "O que é este?"], "richtig": 0, "erklaerung": "Für Unbekanntes: isto / isso / aquilo.", "kategorie": "Demonstrativ"},
+     {"typ": "uebersetzen", "de": "Ist der Fisch frisch?", "loesungen": ["O peixe é fresco?", "O peixe está fresco?"]},
+     {"typ": "uebersetzen", "de": "Ich hätte gern ein Hähnchen.", "loesungen": ["Queria um frango.", "Queria um frango, por favor."]},
+     {"typ": "satzbau", "de": "Diese Sardinen sind sehr frisch.", "loesung": "Estas sardinhas são muito frescas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na peixaria – beim Fischhändler",
+    "situation": "Stefan kauft Fisch in der Markthalle.",
+    "zeilen": [
+     {"sprecher": "Peixeira", "stimme": "f", "pt": "Bom dia, freguês! Hoje o peixe está fresquinho!", "de": "Guten Morgen, Kunde! Heute ist der Fisch ganz frisch!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Quanto custam estas sardinhas?", "de": "Guten Morgen. Wie viel kosten diese Sardinen?"},
+     {"sprecher": "Peixeira", "stimme": "f", "pt": "Essas estão a seis euros o quilo.", "de": "Die kosten sechs Euro das Kilo."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E aquele peixe grande ali?", "de": "Und der große Fisch dort drüben?"},
+     {"sprecher": "Peixeira", "stimme": "f", "pt": "Aquele é robalo. Está a quinze euros o quilo.", "de": "Das ist Wolfsbarsch. Fünfzehn Euro das Kilo."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então queria um quilo de sardinhas, por favor.", "de": "Dann hätte ich gern ein Kilo Sardinen, bitte."}
+    ],
+    "fragen": [
+     {"frage": "Was kosten die Sardinen?", "optionen": ["6 € das Kilo", "15 € das Kilo", "16 € das Kilo"], "richtig": 0},
+     {"frage": "Was ist der große Fisch?", "optionen": ["Wolfsbarsch, 15 € das Kilo", "Stockfisch, 6 € das Kilo", "Sardinen"], "richtig": 0},
+     {"frage": "Was kauft Stefan?", "optionen": ["ein Kilo Sardinen", "den großen Fisch", "nichts"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist beim Metzger.",
+    "zeilen": [
+     {"sprecher": "Talhante", "stimme": "m", "pt": "Bom dia! Diga.", "de": "Guten Morgen! Was darf's sein?"},
+     {"ich": true, "aufgabe": "Frag: Wie viel kostet dieses Hähnchen?", "loesungen": ["Quanto custa este frango?", "Quanto é este frango?"]},
+     {"sprecher": "Talhante", "stimme": "m", "pt": "Esse custa sete euros.", "de": "Das kostet sieben Euro."},
+     {"ich": true, "aufgabe": "Sag: Ich nehme es. Und ein halbes Kilo Schweinefleisch.", "loesungen": ["Fico com ele. E meio quilo de carne de porco.", "Fico com esse. E meio quilo de carne de porco.", "Queria esse. E meio quilo de carne de porco."]},
+     {"sprecher": "Talhante", "stimme": "m", "pt": "Mais alguma coisa?", "de": "Sonst noch etwas?"},
+     {"ich": true, "aufgabe": "Sag: Nein, das ist alles.", "loesungen": ["Não, é tudo.", "É tudo, obrigado.", "Não, é tudo, obrigado."]}
+    ]
+   },
+   "saetze": [
+    {"id": "quanto-custam-sardinhas", "pt": "Quanto custam estas sardinhas?", "de": "Wie viel kosten diese Sardinen?"},
+    {"id": "fico-com-este", "pt": "Fico com este frango.", "de": "Ich nehme dieses Hähnchen."},
+    {"id": "o-que-e-isto", "pt": "O que é isto?", "de": "Was ist das?"}
+   ]
+  },
+  {
+   "id": "A1-07-L04",
+   "typ": "neu",
+   "titel": "Im Supermarkt",
+   "vokabeln": ["o-supermercado", "o-pao", "o-queijo", "o-fiambre", "o-iogurte", "o-arroz", "o-azeite", "o-vinho", "abrir", "a-loja", "comprar"],
+   "grammatik": {
+    "titel": "Verben auf -ir: abrir",
+    "erklaerung": [
+     "Verben auf <b>-ir</b>: <i>eu abr<b>o</b> · tu abr<b>es</b> · o senhor / ele abr<b>e</b> · nós abr<b>imos</b> · vocês / eles abr<b>em</b></i>. Nur bei <i>nós</i> anders als -er (<i>-imos</i> statt <i>-emos</i>).",
+     "Genauso: <i>partir</i> (abfahren), <i>decidir</i> (entscheiden), <i>assistir</i> (zuschauen).",
+     "Gegenteil von <i>abrir</i>: <b>fechar</b> (schließen – ein -ar-Verb): <i>A que horas fecha a loja?</i>"
+    ],
+    "vergleich": "Drei Verbgruppen, ein Muster: fal-<b>a</b>mos, com-<b>e</b>mos, abr-<b>i</b>mos.",
+    "beispiele": [
+     {"pt": "O supermercado abre às oito.", "de": "Der Supermarkt öffnet um acht."},
+     {"pt": "As lojas abrem às dez e fecham às sete.", "de": "Die Läden öffnen um zehn und schließen um sieben."},
+     {"pt": "Compro pão, queijo e fiambre.", "de": "Ich kaufe Brot, Käse und Kochschinken."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O supermercado ___ às oito.", "loesungen": ["abre"], "de": "Der Supermarkt öffnet um acht.", "kategorie": "-ir-Verben"},
+     {"typ": "luecke", "satz": "As lojas ___ às dez.", "loesungen": ["abrem"], "de": "Die Läden öffnen um zehn.", "kategorie": "-ir-Verben"},
+     {"typ": "luecke", "satz": "Nós ___ a garrafa de vinho.", "loesungen": ["abrimos"], "de": "Wir öffnen die Flasche Wein.", "kategorie": "-ir-Verben"},
+     {"typ": "auswahl", "frage": "„Wann macht der Laden zu?“", "optionen": ["A que horas fecha a loja?", "A que horas fechas a loja?"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Ich kaufe Brot und Käse.", "loesungen": ["Compro pão e queijo.", "Eu compro pão e queijo."]},
+     {"typ": "uebersetzen", "de": "Olivenöl und Wein", "loesungen": ["azeite e vinho", "o azeite e o vinho"]},
+     {"typ": "satzbau", "de": "Der Supermarkt öffnet um acht.", "loesung": "O supermercado abre às oito."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No supermercado – im Supermarkt",
+    "situation": "Stefan fragt eine Mitarbeiterin.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpe, onde está o fiambre?", "de": "Entschuldigung, wo ist der Kochschinken?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Está ali, ao lado do queijo.", "de": "Dort drüben, neben dem Käse."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o azeite?", "de": "Und das Olivenöl?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "O azeite está no corredor cinco, com o arroz.", "de": "Das Olivenöl ist in Gang fünf, beim Reis."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado. A que horas fecha o supermercado hoje?", "de": "Danke. Um wie viel Uhr schließt der Supermarkt heute?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Hoje fecha às dez da noite.", "de": "Heute schließt er um zehn Uhr abends."}
+    ],
+    "fragen": [
+     {"frage": "Wo ist der Kochschinken?", "optionen": ["neben dem Käse", "in Gang fünf", "beim Wein"], "richtig": 0},
+     {"frage": "Wo ist das Olivenöl?", "optionen": ["in Gang fünf, beim Reis", "neben dem Käse", "an der Kasse"], "richtig": 0},
+     {"frage": "Wann schließt der Supermarkt heute?", "optionen": ["um 22 Uhr", "um 20 Uhr", "um 12 Uhr"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Onde está o azeite?", "de": "Wo ist das Olivenöl?"},
+     {"pt": "O supermercado abre às oito.", "de": "Der Supermarkt öffnet um acht."},
+     {"pt": "Compro pão e queijo.", "de": "Ich kaufe Brot und Käse."},
+     {"pt": "Abrimos uma garrafa de vinho.", "de": "Wir öffnen eine Flasche Wein."},
+     {"pt": "A loja fecha às dez.", "de": "Der Laden schließt um zehn."}
+    ]
+   },
+   "saetze": [
+    {"id": "a-que-horas-abre", "pt": "A que horas abre o supermercado?", "de": "Um wie viel Uhr öffnet der Supermarkt?"},
+    {"id": "azeite-corredor-cinco", "pt": "O azeite está no corredor cinco.", "de": "Das Olivenöl ist in Gang fünf."},
+    {"id": "compro-pao-queijo", "pt": "Compro pão, queijo e fiambre.", "de": "Ich kaufe Brot, Käse und Kochschinken."}
+   ]
+  },
+  {
+   "id": "A1-07-L05",
+   "typ": "neu",
+   "titel": "An der Kasse",
+   "vokabeln": ["a-caixa", "o-saco", "o-talao", "a-fila", "o-desconto", "a-promocao", "precisar-de", "cartao-de-cliente", "mais-nada"],
+   "grammatik": {
+    "titel": "precisar de – brauchen",
+    "erklaerung": [
+     "<b>precisar</b> (brauchen) steht immer mit <b>de</b>: <i>Preciso <b>de</b> um saco.</i> – Ich brauche eine Tüte. Vor Artikel verschmilzt es: <i>Preciso do talão.</i>",
+     "Mit Infinitiv: <i>Preciso de comprar pão.</i> – Ich muss Brot kaufen.",
+     "Höflich ablehnen an der Kasse: <b>Não preciso, obrigado.</b> / <b>Não é preciso.</b> (Nicht nötig.)"
+    ],
+    "vergleich": "Wie englisch „I need“ – aber mit festem „de“, ähnlich wie „to be in need of“.",
+    "beispiele": [
+     {"pt": "Não preciso de saco, obrigado.", "de": "Ich brauche keine Tüte, danke."},
+     {"pt": "Tem cartão de cliente? – Não tenho.", "de": "Haben Sie eine Kundenkarte? – Nein."},
+     {"pt": "O vinho está em promoção.", "de": "Der Wein ist im Angebot."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Preciso ___ um saco.", "loesungen": ["de"], "de": "Ich brauche eine Tüte.", "kategorie": "Präposition"},
+     {"typ": "auswahl", "frage": "„Ich brauche keine Tüte.“", "optionen": ["Não preciso de saco.", "Não preciso saco."], "richtig": 0, "erklaerung": "precisar immer mit de.", "kategorie": "Präposition"},
+     {"typ": "luecke", "satz": "___ de pão.", "loesungen": ["Precisamos"], "de": "Wir brauchen Brot.", "kategorie": "-ar-Verben"},
+     {"typ": "uebersetzen", "de": "Haben Sie eine Kundenkarte?", "loesungen": ["Tem cartão de cliente?"]},
+     {"typ": "uebersetzen", "de": "Das ist im Angebot.", "loesungen": ["Está em promoção.", "Isto está em promoção."]},
+     {"typ": "satzbau", "de": "Möchten Sie den Kassenbon?", "loesung": "Quer o talão?"},
+     {"typ": "auswahl", "frage": "Was bedeutet „Mais nada?“", "optionen": ["Sonst nichts?", "Nichts mehr da?", "Noch einmal?"], "richtig": 0}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na caixa – an der Kasse",
+    "situation": "Stefan bezahlt im Supermarkt.",
+    "zeilen": [
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Boa tarde. Tem cartão de cliente?", "de": "Guten Tag. Haben Sie eine Kundenkarte?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não tenho.", "de": "Nein."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Quer saco? São dez cêntimos.", "de": "Möchten Sie eine Tüte? Zehn Cent."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, obrigado, não preciso. Tenho o meu saco.", "de": "Nein, danke, brauche ich nicht. Ich habe meine eigene Tasche."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "O vinho está em promoção, tem vinte por cento de desconto. São quinze euros e quarenta.", "de": "Der Wein ist im Angebot, zwanzig Prozent Rabatt. Das macht fünfzehn Euro vierzig."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pago com cartão. Não preciso do talão, obrigado.", "de": "Ich zahle mit Karte. Den Kassenbon brauche ich nicht, danke."}
+    ],
+    "fragen": [
+     {"frage": "Hat Stefan eine Kundenkarte?", "optionen": ["nein", "ja"], "richtig": 0},
+     {"frage": "Was kostet eine Tüte?", "optionen": ["10 Cent", "20 Cent", "nichts"], "richtig": 0},
+     {"frage": "Worauf gibt es Rabatt?", "optionen": ["auf den Wein, 20 %", "auf alles, 10 %", "auf das Brot"], "richtig": 0},
+     {"frage": "Was braucht Stefan nicht?", "optionen": ["den Kassenbon", "die Karte", "den Wein"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist an der Supermarktkasse.",
+    "zeilen": [
+     {"sprecher": "Caixa", "stimme": "f", "pt": "Tem cartão de cliente?", "de": "Haben Sie eine Kundenkarte?"},
+     {"ich": true, "aufgabe": "Sag: Nein, habe ich nicht.", "loesungen": ["Não tenho.", "Não, não tenho."]},
+     {"sprecher": "Caixa", "stimme": "f", "pt": "Quer saco?", "de": "Möchten Sie eine Tüte?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich brauche eine Tüte.", "loesungen": ["Sim, preciso de um saco.", "Quero, sim, preciso de um saco.", "Sim, por favor, preciso de um saco."]},
+     {"sprecher": "Caixa", "stimme": "f", "pt": "Quer o talão?", "de": "Möchten Sie den Kassenbon?"},
+     {"ich": true, "aufgabe": "Sag: Nein, danke.", "loesungen": ["Não, obrigado.", "Não é preciso, obrigado."]}
+    ]
+   },
+   "saetze": [
+    {"id": "nao-preciso-de-saco", "pt": "Não preciso de saco, obrigado.", "de": "Ich brauche keine Tüte, danke."},
+    {"id": "tem-cartao-cliente", "pt": "Tem cartão de cliente?", "de": "Haben Sie eine Kundenkarte?"},
+    {"id": "vinho-em-promocao", "pt": "O vinho está em promoção.", "de": "Der Wein ist im Angebot."}
+   ]
+  },
+  {
+   "id": "A1-07-L06",
+   "typ": "neu",
+   "titel": "Lieber auf dem Markt",
+   "vokabeln": ["preferir", "maduro", "mais-barato", "acabou", "tem", "integral", "biologico", "o-mercado", "a-frutaria"],
+   "grammatik": {
+    "titel": "preferir – und „Haben Sie …?“",
+    "erklaerung": [
+     "<b>preferir</b> (lieber mögen) ändert in der ich-Form den Stamm: <b>prefiro</b>, aber <i>preferes, prefere, preferimos, preferem</i>.",
+     "Mit Nomen oder Infinitiv: <i>Prefiro o mercado. Prefiro comprar no mercado.</i>",
+     "Im Laden fragt man mit <b>ter</b>: <i>Tem pão integral?</i> Antworten: <i>Tenho, sim.</i> / <i>Não há.</i> / <i>Acabou.</i> (Ist aus.)",
+     "„billiger“ = <b>mais barato</b>, „teurer“ = <b>mais caro</b>."
+    ],
+    "vergleich": "Englisch „I prefer“ – im Portugiesischen fast gleich: <i>prefiro</i>. Nur der Vokal wechselt (e → i).",
+    "beispiele": [
+     {"pt": "Prefiro comprar no mercado.", "de": "Ich kaufe lieber auf dem Markt."},
+     {"pt": "Tem pão integral? – Acabou.", "de": "Haben Sie Vollkornbrot? – Ist aus."},
+     {"pt": "No supermercado é mais barato.", "de": "Im Supermarkt ist es billiger."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ fruta biológica.", "loesungen": ["prefiro"], "de": "Ich mag lieber Bio-Obst.", "kategorie": "unregelmäßige Verben"},
+     {"typ": "luecke", "satz": "O senhor ___ o vinho tinto ou o branco?", "loesungen": ["prefere"], "de": "Möchten Sie lieber Rotwein oder Weißwein?", "kategorie": "unregelmäßige Verben"},
+     {"typ": "auswahl", "frage": "Du fragst nach Vollkornbrot – es ist ausverkauft. Was sagt die Verkäuferin?", "optionen": ["Acabou.", "Acabei.", "Abriu."], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Haben Sie reife Tomaten?", "loesungen": ["Tem tomates maduros?"]},
+     {"typ": "uebersetzen", "de": "Das ist billiger.", "loesungen": ["É mais barato.", "Isto é mais barato.", "Isso é mais barato."]},
+     {"typ": "satzbau", "de": "Ich kaufe lieber auf dem Markt.", "loesung": "Prefiro comprar no mercado."},
+     {"typ": "luecke", "satz": "Hoje não ___ morangos.", "loesungen": ["há"], "de": "Heute gibt es keine Erdbeeren.", "kategorie": "haver"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Mercado ou supermercado?",
+    "situation": "Stefan und Dona Fernanda unterhalten sich über das Einkaufen.",
+    "zeilen": [
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "O senhor prefere o mercado ou o supermercado?", "de": "Gehen Sie lieber auf den Markt oder in den Supermarkt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Prefiro o mercado. A fruta é mais fresca.", "de": "Lieber auf den Markt. Das Obst ist frischer."},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Eu também. Mas no supermercado é mais barato.", "de": "Ich auch. Aber im Supermarkt ist es billiger."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Às vezes. Hoje queria morangos, mas no mercado acabaram.", "de": "Manchmal. Heute wollte ich Erdbeeren, aber auf dem Markt waren sie aus."},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Pois, ao sábado acaba tudo cedo!", "de": "Ja, samstags ist alles früh weg!"}
+    ],
+    "fragen": [
+     {"frage": "Wo kauft Stefan lieber ein?", "optionen": ["auf dem Markt", "im Supermarkt", "online"], "richtig": 0},
+     {"frage": "Was ist laut Fernanda im Supermarkt besser?", "optionen": ["Es ist billiger.", "Das Obst ist frischer.", "Er ist näher."], "richtig": 0},
+     {"frage": "Warum hat Stefan keine Erdbeeren?", "optionen": ["Sie waren ausverkauft.", "Sie waren zu teuer.", "Er mag keine."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Prefiro o mercado.", "de": "Ich gehe lieber auf den Markt."},
+     {"pt": "Tem pão integral?", "de": "Haben Sie Vollkornbrot?"},
+     {"pt": "Já acabou.", "de": "Ist schon aus."},
+     {"pt": "Hoje não há morangos.", "de": "Heute gibt es keine Erdbeeren."},
+     {"pt": "No supermercado é mais barato.", "de": "Im Supermarkt ist es billiger."}
+    ]
+   },
+   "saetze": [
+    {"id": "prefiro-mercado", "pt": "Prefiro comprar no mercado.", "de": "Ich kaufe lieber auf dem Markt."},
+    {"id": "pao-integral-acabou", "pt": "Tem pão integral? – Acabou.", "de": "Haben Sie Vollkornbrot? – Ist aus."},
+    {"id": "supermercado-mais-barato", "pt": "No supermercado é mais barato.", "de": "Im Supermarkt ist es billiger."}
+   ]
+  },
+  {"id": "A1-07-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-07-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Lista de compras ao telefone – Einkaufsliste am Telefon",
+   "situation": "Joana ruft Stefan an, während er im Supermarkt ist.",
+   "zeilen": [
+    {"sprecher": "Joana", "stimme": "f", "pt": "Stefan, estás no supermercado?", "de": "Stefan, bist du im Supermarkt?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Estou. Precisas de alguma coisa?", "de": "Ja. Brauchst du etwas?"},
+    {"sprecher": "Joana", "stimme": "f", "pt": "Preciso de leite, uma dúzia de ovos e pão.", "de": "Ich brauche Milch, ein Dutzend Eier und Brot."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Pão integral ou normal?", "de": "Vollkornbrot oder normales?"},
+    {"sprecher": "Joana", "stimme": "f", "pt": "Integral, por favor. E uma garrafa de vinho tinto para o jantar.", "de": "Vollkorn, bitte. Und eine Flasche Rotwein zum Abendessen."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. Mais nada?", "de": "In Ordnung. Sonst nichts?"},
+    {"sprecher": "Joana", "stimme": "f", "pt": "Mais nada. Obrigada!", "de": "Sonst nichts. Danke!"}
+   ],
+   "fragen": [
+    {"frage": "Was braucht Joana?", "optionen": ["Milch, Eier, Brot und Rotwein", "Käse und Weißwein", "Obst und Gemüse"], "richtig": 0},
+    {"frage": "Welches Brot?", "optionen": ["Vollkornbrot", "normales Brot", "kein Brot"], "richtig": 0},
+    {"frage": "Wofür ist der Wein?", "optionen": ["zum Abendessen", "als Geschenk", "zum Kochen"], "richtig": 0},
+    {"frage": "Wie viele Eier?", "optionen": ["zwölf", "sechs", "zehn"], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Folheto de promoções – Angebotsprospekt",
+   "situation": "Ein Prospekt aus dem Briefkasten.",
+   "text": [
+    "Supermercado Sol – Promoções da semana",
+    "Morangos do Algarve: 2,49 € a caixa de 500 g",
+    "Sardinhas frescas: 4,99 € o quilo",
+    "Azeite português: na compra de duas garrafas, a segunda é grátis",
+    "Pão integral: 1,20 €",
+    "Promoções válidas de segunda a domingo. Aberto todos os dias das 8h às 22h."
+   ],
+   "fragen": [
+    {"frage": "Was kosten die Erdbeeren?", "optionen": ["2,49 € für 500 g", "2,49 € das Kilo", "4,99 € das Kilo"], "richtig": 0},
+    {"frage": "Was ist das Angebot beim Olivenöl?", "optionen": ["Die zweite Flasche ist gratis.", "50 % auf alle Flaschen.", "Es gibt kein Angebot."], "richtig": 0},
+    {"frage": "Was kosten die Sardinen?", "optionen": ["4,99 € das Kilo", "1,20 € das Kilo", "2,49 € das Stück"], "richtig": 0},
+    {"frage": "Wann ist der Supermarkt geöffnet?", "optionen": ["täglich von 8 bis 22 Uhr", "Mo–Fr von 8 bis 20 Uhr", "nur am Wochenende"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich hätte gern ein Kilo Tomaten.", "loesungen": ["Queria um quilo de tomates.", "Queria um quilo de tomates, por favor."]},
+   {"de": "Wie viel kosten die Erdbeeren?", "loesungen": ["Quanto custam os morangos?"]},
+   {"de": "Ich brauche keine Tüte.", "loesungen": ["Não preciso de saco.", "Não preciso de saco, obrigado."]},
+   {"de": "Wann öffnet der Supermarkt?", "loesungen": ["A que horas abre o supermercado?"]},
+   {"de": "Ich kaufe lieber auf dem Markt.", "loesungen": ["Prefiro comprar no mercado."]},
+   {"de": "Ist dieser Fisch frisch?", "loesungen": ["Este peixe é fresco?", "Este peixe está fresco?"]}
+  ],
+  "sprechen": [
+   {"pt": "Queria meio quilo de cenouras.", "de": "Ich hätte gern ein halbes Kilo Karotten."},
+   {"pt": "Quanto custa o quilo?", "de": "Wie viel kostet das Kilo?"},
+   {"pt": "Não preciso de saco, obrigado.", "de": "Ich brauche keine Tüte, danke."},
+   {"pt": "Prefiro o mercado.", "de": "Ich gehe lieber auf den Markt."},
+   {"pt": "Este peixe é muito fresco.", "de": "Dieser Fisch ist sehr frisch."}
+  ]
+ }
+}
