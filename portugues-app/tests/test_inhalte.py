@@ -39,3 +39,20 @@ def test_formfehler_werden_erkannt():
     assert "'fehlt'" in probleme
     assert "keine Option" in probleme
     assert "ohne ___" in probleme
+
+
+def test_se_als_bindewort_ist_kein_brasilianismus():
+    def meldet(satz):
+        einheit = {"id": "X1-01", "titel": "T", "vokabeln": [{"id": "a", "pt": satz, "de": "x"}], "lektionen": []}
+        return any("Enklise" in p for p in inhalt_check.pruefe_einheit(einheit))
+    assert meldet("Se chama Ana.")
+    assert meldet("Me diga uma coisa.")
+    assert not meldet("Se precisar de alguma coisa, diga.")
+    assert not meldet("Se calhar chove amanhã.")
+    assert not meldet("Se faz favor.")
+
+
+def test_a1_komplett():
+    assert len(content.lessons_in_level("A1")) == content.PLANNED_LESSONS["A1"]
+    typen = [content.lesson(l)["typ"] for l in content.lesson_order() if l.startswith("A1-")]
+    assert typen.count("test") == 12 and typen.count("leveltest") == 2

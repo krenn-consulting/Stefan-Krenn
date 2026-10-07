@@ -1,0 +1,508 @@
+{
+ "id": "A1-11",
+ "level": "A1",
+ "titel": "Os serviços – Behördengänge und Dienstleistungen",
+ "beschreibung": "Persönliche Daten angeben, buchstabieren, Datum sagen, bei den Finanças und in der Loja do Cidadão, höflich um Hilfe bitten, Post und Bank.",
+ "vokabeln": [
+  {"id": "o-nome-completo", "pt": "o nome completo", "de": "der vollständige Name", "emoji": "🪪", "beispiel_pt": "Qual é o seu nome completo?", "beispiel_de": "Wie ist Ihr vollständiger Name?"},
+  {"id": "o-apelido", "pt": "o apelido", "de": "der Nachname", "emoji": "🔤", "beispiel_pt": "O meu apelido é Krenn.", "beispiel_de": "Mein Nachname ist Krenn.", "hinweis": "Falscher Freund: apelido = Nachname (nicht Spitzname)!"},
+  {"id": "a-data-de-nascimento", "pt": "a data de nascimento", "de": "das Geburtsdatum", "emoji": "🎂", "beispiel_pt": "Qual é a sua data de nascimento?", "beispiel_de": "Wie ist Ihr Geburtsdatum?"},
+  {"id": "a-morada", "pt": "a morada", "de": "die Adresse", "emoji": "🏠", "beispiel_pt": "Qual é a sua morada?", "beispiel_de": "Wie ist Ihre Adresse?"},
+  {"id": "o-codigo-postal", "pt": "o código postal", "de": "die Postleitzahl", "emoji": "📮", "beispiel_pt": "O código postal é 8600-500.", "beispiel_de": "Die Postleitzahl ist 8600-500."},
+  {"id": "o-numero-de-telemovel", "pt": "o número de telemóvel", "de": "die Handynummer", "emoji": "📱", "beispiel_pt": "Pode dar-me o seu número de telemóvel?", "beispiel_de": "Können Sie mir Ihre Handynummer geben?"},
+  {"id": "o-email", "pt": "o e-mail", "de": "die E-Mail(-Adresse)", "emoji": "📧", "beispiel_pt": "O meu e-mail é stefan arroba gmail ponto com.", "beispiel_de": "Meine E-Mail ist stefan at gmail punkt com.", "hinweis": "@ = arroba, . = ponto"},
+  {"id": "preencher", "pt": "preencher", "de": "ausfüllen", "emoji": "✍️", "beispiel_pt": "Tem de preencher este formulário.", "beispiel_de": "Sie müssen dieses Formular ausfüllen."},
+  {"id": "o-formulario", "pt": "o formulário", "de": "das Formular", "emoji": "📝", "beispiel_pt": "Onde está o formulário?", "beispiel_de": "Wo ist das Formular?"},
+  {"id": "o-impresso", "pt": "o impresso", "de": "das (Papier-)Formular", "emoji": "🗒️", "beispiel_pt": "Tem de preencher este impresso.", "beispiel_de": "Sie müssen dieses Formular ausfüllen.", "hinweis": "Auf Ämtern sehr üblich; o formulário geht genauso."},
+  {"id": "o-estado-civil", "pt": "o estado civil", "de": "der Familienstand", "emoji": "💍", "beispiel_pt": "Estado civil: casado.", "beispiel_de": "Familienstand: verheiratet."},
+  {"id": "a-nacionalidade", "pt": "a nacionalidade", "de": "die Staatsangehörigkeit", "emoji": "🏳️", "beispiel_pt": "Nacionalidade: austríaca.", "beispiel_de": "Staatsangehörigkeit: österreichisch."},
+
+  {"id": "soletrar", "pt": "soletrar", "de": "buchstabieren", "emoji": "🔡", "beispiel_pt": "Pode soletrar, por favor?", "beispiel_de": "Können Sie bitte buchstabieren?"},
+  {"id": "como-se-escreve", "pt": "Como se escreve?", "de": "Wie schreibt man das?", "emoji": "❔", "beispiel_pt": "Krenn? Como se escreve?", "beispiel_de": "Krenn? Wie schreibt man das?"},
+  {"id": "a-letra", "pt": "a letra", "de": "der Buchstabe", "emoji": "🅰️", "beispiel_pt": "Com duas letras n.", "beispiel_de": "Mit zwei n."},
+  {"id": "a-data", "pt": "a data", "de": "das Datum", "emoji": "📆", "beispiel_pt": "Que data é hoje?", "beispiel_de": "Welches Datum ist heute?"},
+  {"id": "o-alfabeto", "pt": "o alfabeto", "de": "das Alphabet", "emoji": "🔠", "beispiel_pt": "O alfabeto português tem vinte e seis letras.", "beispiel_de": "Das portugiesische Alphabet hat 26 Buchstaben."},
+  {"id": "o-dia", "pt": "o dia", "de": "der Tag", "emoji": "☀️", "beispiel_pt": "no dia três de maio", "beispiel_de": "am 3. Mai"},
+  {"id": "que-dia-e-hoje", "pt": "Que dia é hoje?", "de": "Der Wievielte ist heute?", "emoji": "📆", "beispiel_pt": "Que dia é hoje? – É dia doze.", "beispiel_de": "Der Wievielte ist heute? – Der Zwölfte."},
+  {"id": "dois-enes", "pt": "com dois enes", "de": "mit zwei n", "emoji": "✌️", "beispiel_pt": "Krenn, com dois enes no fim.", "beispiel_de": "Krenn, mit zwei n am Ende."},
+  {"id": "nasci", "pt": "nasci", "de": "ich bin geboren", "emoji": "👶", "beispiel_pt": "Nasci em Viena.", "beispiel_de": "Ich bin in Wien geboren."},
+
+  {"id": "as-financas", "pt": "as Finanças", "de": "das Finanzamt", "emoji": "🏛️", "beispiel_pt": "Tenho de ir às Finanças.", "beispiel_de": "Ich muss zum Finanzamt."},
+  {"id": "o-nif", "pt": "o NIF", "de": "die Steuernummer", "emoji": "🔢", "beispiel_pt": "Contribuinte? – Sim, o meu NIF é …", "beispiel_de": "Mit Steuernummer? – Ja, meine Steuernummer ist …", "hinweis": "Número de Identificação Fiscal – auf jeder Rechnung gefragt: „Contribuinte?“"},
+  {"id": "pedir", "pt": "pedir", "de": "beantragen / bitten um", "emoji": "🙏", "beispiel_pt": "Queria pedir o NIF.", "beispiel_de": "Ich möchte die Steuernummer beantragen.", "hinweis": "eu peço, ele pede"},
+  {"id": "o-passaporte", "pt": "o passaporte", "de": "der Reisepass", "emoji": "🛂", "beispiel_pt": "Trouxe o passaporte.", "beispiel_de": "Ich habe den Pass mitgebracht."},
+  {"id": "o-certificado-de-residencia", "pt": "o certificado de residência", "de": "die Aufenthaltsbescheinigung (EU)", "emoji": "📜", "beispiel_pt": "Tenho o certificado de residência.", "beispiel_de": "Ich habe die Aufenthaltsbescheinigung.", "hinweis": "Für EU-Bürger von der Câmara Municipal ausgestellt."},
+  {"id": "o-comprovativo-de-morada", "pt": "o comprovativo de morada", "de": "der Adressnachweis", "emoji": "🧾", "beispiel_pt": "Precisa de um comprovativo de morada.", "beispiel_de": "Sie brauchen einen Adressnachweis."},
+  {"id": "tirar-senha", "pt": "tirar a senha", "de": "eine Wartenummer ziehen", "emoji": "🎟️", "beispiel_pt": "Onde tiro a senha?", "beispiel_de": "Wo ziehe ich die Wartenummer?"},
+  {"id": "o-balcao", "pt": "o balcão", "de": "der Schalter", "emoji": "🪟", "beispiel_pt": "Dirija-se ao balcão três.", "beispiel_de": "Gehen Sie zu Schalter drei."},
+  {"id": "a-vez", "pt": "a vez", "de": "die Reihe (wer dran ist)", "emoji": "👉", "beispiel_pt": "É a sua vez.", "beispiel_de": "Sie sind dran."},
+  {"id": "venho-tratar-de", "pt": "Venho tratar de …", "de": "Ich komme wegen … (um … zu erledigen)", "emoji": "📂", "beispiel_pt": "Venho tratar do NIF.", "beispiel_de": "Ich komme wegen der Steuernummer."},
+  {"id": "ter-de", "pt": "ter de", "de": "müssen", "emoji": "❗", "beispiel_pt": "Tenho de pagar.", "beispiel_de": "Ich muss bezahlen."},
+
+  {"id": "loja-do-cidadao", "pt": "a Loja do Cidadão", "de": "das Bürgerbüro", "emoji": "🏢", "beispiel_pt": "A Loja do Cidadão fica no centro.", "beispiel_de": "Das Bürgerbüro ist im Zentrum."},
+  {"id": "podia", "pt": "podia …?", "de": "könnten Sie …?", "emoji": "🙇", "beispiel_pt": "Podia ajudar-me?", "beispiel_de": "Könnten Sie mir helfen?"},
+  {"id": "pode-ajudar-me", "pt": "Pode ajudar-me?", "de": "Können Sie mir helfen?", "emoji": "🤝", "beispiel_pt": "Desculpe, pode ajudar-me?", "beispiel_de": "Entschuldigung, können Sie mir helfen?"},
+  {"id": "nao-percebi", "pt": "Não percebi.", "de": "Ich habe nicht verstanden.", "emoji": "🤷", "beispiel_pt": "Desculpe, não percebi.", "beispiel_de": "Entschuldigung, ich habe nicht verstanden."},
+  {"id": "assinar", "pt": "assinar", "de": "unterschreiben", "emoji": "🖊️", "beispiel_pt": "Assine aqui, por favor.", "beispiel_de": "Unterschreiben Sie hier, bitte."},
+  {"id": "a-fotocopia", "pt": "a fotocópia", "de": "die Kopie", "emoji": "📠", "beispiel_pt": "Tem uma fotocópia do passaporte?", "beispiel_de": "Haben Sie eine Kopie des Passes?"},
+  {"id": "a-informacao", "pt": "a informação", "de": "die Auskunft / Information", "emoji": "ℹ️", "beispiel_pt": "Queria uma informação, por favor.", "beispiel_de": "Ich hätte gern eine Auskunft."},
+  {"id": "explicar", "pt": "explicar", "de": "erklären", "emoji": "🧑‍🏫", "beispiel_pt": "Podia explicar-me outra vez?", "beispiel_de": "Könnten Sie es mir noch einmal erklären?"},
+  {"id": "o-documento", "pt": "o documento", "de": "das Dokument", "emoji": "📄", "beispiel_pt": "Que documentos preciso?", "beispiel_de": "Welche Dokumente brauche ich?"},
+
+  {"id": "os-ctt", "pt": "os CTT", "de": "die Post", "emoji": "📯", "beispiel_pt": "Vou aos CTT.", "beispiel_de": "Ich gehe zur Post.", "hinweis": "Correios de Portugal – man sagt meist einfach „os CTT“ oder „os correios“."},
+  {"id": "a-carta", "pt": "a carta", "de": "der Brief", "emoji": "✉️", "beispiel_pt": "Queria enviar esta carta.", "beispiel_de": "Ich möchte diesen Brief schicken."},
+  {"id": "a-encomenda", "pt": "a encomenda", "de": "das Paket / die Bestellung", "emoji": "📦", "beispiel_pt": "Venho levantar uma encomenda.", "beispiel_de": "Ich komme ein Paket abholen."},
+  {"id": "o-selo", "pt": "o selo", "de": "die Briefmarke", "emoji": "🏷️", "beispiel_pt": "Quanto custa um selo para a Áustria?", "beispiel_de": "Was kostet eine Briefmarke nach Österreich?"},
+  {"id": "enviar", "pt": "enviar", "de": "schicken / senden", "emoji": "📤", "beispiel_pt": "Quero enviar isto para a Alemanha.", "beispiel_de": "Ich will das nach Deutschland schicken."},
+  {"id": "levantar", "pt": "levantar", "de": "abheben / abholen", "emoji": "🏧", "beispiel_pt": "Vou levantar dinheiro.", "beispiel_de": "Ich gehe Geld abheben."},
+  {"id": "a-conta-bancaria", "pt": "a conta bancária", "de": "das Bankkonto", "emoji": "🏦", "beispiel_pt": "Queria abrir uma conta bancária.", "beispiel_de": "Ich möchte ein Bankkonto eröffnen."},
+  {"id": "o-envelope", "pt": "o envelope", "de": "der Briefumschlag", "emoji": "✉️", "beispiel_pt": "Queria um envelope grande.", "beispiel_de": "Ich hätte gern einen großen Umschlag."},
+  {"id": "a-transferencia", "pt": "a transferência", "de": "die Überweisung", "emoji": "💸", "beispiel_pt": "Posso pagar por transferência?", "beispiel_de": "Kann ich per Überweisung zahlen?"},
+
+  {"id": "a-marcacao", "pt": "a marcação", "de": "die Terminvereinbarung", "emoji": "📅", "beispiel_pt": "É preciso marcação?", "beispiel_de": "Braucht man einen Termin?"},
+  {"id": "o-prazo", "pt": "o prazo", "de": "die Frist", "emoji": "⏰", "beispiel_pt": "O prazo é até trinta de junho.", "beispiel_de": "Die Frist läuft bis zum 30. Juni."},
+  {"id": "renovar", "pt": "renovar", "de": "verlängern / erneuern", "emoji": "♻️", "beispiel_pt": "Tenho de renovar a carta de condução.", "beispiel_de": "Ich muss den Führerschein verlängern."},
+  {"id": "valido", "pt": "válido", "de": "gültig", "emoji": "✅", "beispiel_pt": "O documento é válido por cinco anos.", "beispiel_de": "Das Dokument ist fünf Jahre gültig.", "alternativen": ["válida"]},
+  {"id": "caducado", "pt": "caducado", "de": "abgelaufen", "emoji": "⌛", "beispiel_pt": "O seu passaporte está caducado.", "beispiel_de": "Ihr Pass ist abgelaufen.", "alternativen": ["caducada"]},
+  {"id": "ate", "pt": "até", "de": "bis", "emoji": "🔚", "beispiel_pt": "até sexta-feira", "beispiel_de": "bis Freitag"},
+  {"id": "a-partir-de", "pt": "a partir de", "de": "ab", "emoji": "▶️", "beispiel_pt": "a partir de amanhã", "beispiel_de": "ab morgen"},
+  {"id": "a-carta-de-conducao", "pt": "a carta de condução", "de": "der Führerschein", "emoji": "🚗", "beispiel_pt": "Tenho carta de condução austríaca.", "beispiel_de": "Ich habe einen österreichischen Führerschein."}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-11-L01",
+   "typ": "neu",
+   "titel": "Persönliche Daten",
+   "vokabeln": ["o-nome-completo", "o-apelido", "a-data-de-nascimento", "a-morada", "o-codigo-postal", "o-numero-de-telemovel", "o-email", "o-estado-civil", "a-nacionalidade", "preencher", "o-formulario", "o-impresso"],
+   "grammatik": {
+    "titel": "Formularfragen mit „Qual é o seu …?“",
+    "erklaerung": [
+     "Nach Daten fragt man mit <b>Qual é …?</b> (Was/Wie ist …?): <i>Qual é o seu apelido?</i> – Wie ist Ihr Nachname? <i>Qual é a sua morada?</i> – Wie ist Ihre Adresse?",
+     "Das Possessiv richtet sich nach dem Wort danach: <b>o seu</b> nome, <b>a sua</b> morada. Mit Artikel davor ist das in Portugal ganz normal.",
+     "Familienstand mit <b>ser</b>: <i>Sou casado. / Sou solteira.</i> Die weibliche Form endet auf <b>-a</b>."
+    ],
+    "vergleich": "Deutsch „Wie ist Ihr Name?“ – Portugiesisch nicht „como“, sondern <i>Qual é o seu nome?</i>",
+    "beispiele": [
+     {"pt": "Qual é o seu nome completo?", "de": "Wie ist Ihr vollständiger Name?"},
+     {"pt": "Qual é a sua morada?", "de": "Wie ist Ihre Adresse?"},
+     {"pt": "Sou casado e moro em Lagos.", "de": "Ich bin verheiratet und wohne in Lagos."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Wie ist Ihre Adresse?“", "optionen": ["Como é a sua morada?", "Qual é a sua morada?", "Que é a sua morada?"], "richtig": 1, "erklaerung": "Nach Daten fragt man mit „Qual é …?“."},
+     {"typ": "luecke", "satz": "Qual é ___ morada?", "loesungen": ["a sua"], "de": "Wie ist Ihre Adresse?", "kategorie": "Possessiv"},
+     {"typ": "luecke", "satz": "Qual é ___ apelido?", "loesungen": ["o seu"], "de": "Wie ist Ihr Nachname?", "kategorie": "Possessiv"},
+     {"typ": "auswahl", "frage": "Stefans Frau sagt: „Ich bin verheiratet.“", "optionen": ["Sou casado.", "Sou casada.", "Estou casada."], "richtig": 1, "kategorie": "Genus"},
+     {"typ": "uebersetzen", "de": "Wie ist Ihre Handynummer?", "loesungen": ["Qual é o seu número de telemóvel?", "Qual é o seu telemóvel?"]},
+     {"typ": "uebersetzen", "de": "Ich muss dieses Formular ausfüllen.", "loesungen": ["Tenho de preencher este formulário.", "Tenho que preencher este formulário."]},
+     {"typ": "satzbau", "de": "Wie ist Ihr Geburtsdatum?", "loesung": "Qual é a sua data de nascimento?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na receção do ginásio – Anmeldung im Fitnessstudio",
+    "situation": "Stefan meldet sich im Fitnessstudio an.",
+    "zeilen": [
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Boa tarde. Para a inscrição, preciso dos seus dados. Qual é o seu nome completo?", "de": "Guten Tag. Für die Anmeldung brauche ich Ihre Daten. Wie ist Ihr vollständiger Name?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Stefan Krenn.", "de": "Stefan Krenn."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "E a sua morada?", "de": "Und Ihre Adresse?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Rua das Flores, número oito, Lagos. O código postal é oito mil e seiscentos.", "de": "Rua das Flores Nummer 8, Lagos. Die Postleitzahl ist 8600."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Muito bem. E o número de telemóvel?", "de": "Sehr gut. Und die Handynummer?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Novecentos e doze, trezentos e quarenta, quinhentos e sessenta.", "de": "912 340 560."}
+    ],
+    "fragen": [
+     {"frage": "Wo ist Stefan?", "optionen": ["im Fitnessstudio", "beim Arzt", "auf der Post"], "richtig": 0},
+     {"frage": "Wie ist seine Hausnummer?", "optionen": ["8", "18", "80"], "richtig": 0},
+     {"frage": "Was fragt die Rezeptionistin zuletzt?", "optionen": ["die Handynummer", "die E-Mail", "das Geburtsdatum"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du meldest dich in der Sprachschule an.",
+    "zeilen": [
+     {"sprecher": "Secretária", "stimme": "f", "pt": "Qual é o seu apelido?", "de": "Wie ist Ihr Nachname?"},
+     {"ich": true, "aufgabe": "Sag: Mein Nachname ist Krenn.", "loesungen": ["O meu apelido é Krenn.", "É Krenn.", "Krenn."]},
+     {"sprecher": "Secretária", "stimme": "f", "pt": "E qual é o seu e-mail?", "de": "Und wie ist Ihre E-Mail?"},
+     {"ich": true, "aufgabe": "Sag: stefan at gmail punkt com.", "loesungen": ["stefan arroba gmail ponto com", "É stefan arroba gmail ponto com.", "O meu e-mail é stefan arroba gmail ponto com."]},
+     {"sprecher": "Secretária", "stimme": "f", "pt": "Obrigada. Agora preencha este formulário, por favor.", "de": "Danke. Füllen Sie jetzt bitte dieses Formular aus."},
+     {"ich": true, "aufgabe": "Frag: Mit Kugelschreiber?", "loesungen": ["Com caneta?", "É com caneta?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "qual-sua-morada", "pt": "Qual é a sua morada?", "de": "Wie ist Ihre Adresse?"},
+    {"id": "meu-apelido-krenn", "pt": "O meu apelido é Krenn.", "de": "Mein Nachname ist Krenn."},
+    {"id": "preencher-formulario", "pt": "Tenho de preencher este formulário.", "de": "Ich muss dieses Formular ausfüllen."}
+   ]
+  },
+  {
+   "id": "A1-11-L02",
+   "typ": "neu",
+   "titel": "Buchstabieren und Datum",
+   "vokabeln": ["soletrar", "como-se-escreve", "a-letra", "o-alfabeto", "dois-enes", "a-data", "o-dia", "que-dia-e-hoje", "nasci"],
+   "grammatik": {
+    "titel": "Das Datum",
+    "erklaerung": [
+     "Das Datum sagt man mit Grundzahlen: <b>dia</b> + <b>de</b> + Monat + <b>de</b> + Jahr: <i>três de maio de mil novecentos e setenta e cinco</i>.",
+     "„Am …“ heißt <b>a</b> oder <b>no dia</b>: <i>a três de maio</i> / <i>no dia três de maio</i>. Nur der Erste darf auch <i>primeiro</i> heißen: <i>primeiro de dezembro</i> (oder <i>um de dezembro</i>).",
+     "„Im Mai“ heißt <b>em maio</b>. Monate schreibt man in Portugal <b>klein</b>.",
+     "Buchstabieren: Die Buchstaben heißen z. B. <i>a, bê, cê, dê, e, efe, gê, agá, i, jota, capa (k), ele, eme, ene, o, pê, quê, erre, esse, tê, u, vê, dâblio (w), xis, ípsilon (y), zê</i>. Doppelte Buchstaben: <i>dois enes</i>."
+    ],
+    "vergleich": "Kein „dritter Mai“ wie im Deutschen – im Portugiesischen einfach „drei von Mai“: <i>três de maio</i>.",
+    "beispiele": [
+     {"pt": "Nasci a três de maio de 1975.", "de": "Ich bin am 3. Mai 1975 geboren."},
+     {"pt": "Hoje é dia vinte de agosto.", "de": "Heute ist der 20. August."},
+     {"pt": "Krenn: cá, erre, e, dois enes.", "de": "Krenn: K, R, E, zwei N."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„am 3. März“", "optionen": ["a três de março", "a terceiro de março", "em três março"], "richtig": 0, "erklaerung": "Datum mit Grundzahlen: três de março.", "kategorie": "Datum"},
+     {"typ": "luecke", "satz": "Nasci ___ maio.", "loesungen": ["em"], "de": "Ich bin im Mai geboren.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Hoje é dia vinte ___ agosto.", "loesungen": ["de"], "de": "Heute ist der 20. August.", "kategorie": "Datum"},
+     {"typ": "auswahl", "frage": "Wie schreibt man „Januar“ in Portugal?", "optionen": ["janeiro", "Janeiro", "Januário"], "richtig": 0, "kategorie": "Rechtschreibung"},
+     {"typ": "uebersetzen", "de": "Können Sie bitte buchstabieren?", "loesungen": ["Pode soletrar, por favor?", "Podia soletrar, por favor?", "Pode soletrar, se faz favor?"]},
+     {"typ": "uebersetzen", "de": "Ich bin im Dezember geboren.", "loesungen": ["Nasci em dezembro."]},
+     {"typ": "satzbau", "de": "Heute ist der 1. Dezember.", "loesung": "Hoje é dia um de dezembro."},
+     {"typ": "diktat", "pt": "a vinte e cinco de dezembro"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Ao telefone – am Telefon",
+    "situation": "Stefan reserviert telefonisch einen Tisch für einen Geburtstag.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Restaurante O Pescador, boa tarde.", "de": "Restaurant O Pescador, guten Tag."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Queria reservar uma mesa para o dia doze de março.", "de": "Guten Tag. Ich möchte einen Tisch für den 12. März reservieren."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Para quantas pessoas? E em nome de quem?", "de": "Für wie viele Personen? Und auf welchen Namen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Seis pessoas. Em nome de Krenn.", "de": "Sechs Personen. Auf den Namen Krenn."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Desculpe, como se escreve?", "de": "Entschuldigung, wie schreibt man das?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Cá, erre, e, dois enes. É o aniversário da minha mulher.", "de": "K, R, E, zwei N. Es ist der Geburtstag meiner Frau."}
+    ],
+    "fragen": [
+     {"frage": "Für welches Datum reserviert Stefan?", "optionen": ["12. März", "2. Mai", "12. Dezember"], "richtig": 0},
+     {"frage": "Für wie viele Personen?", "optionen": ["6", "2", "16"], "richtig": 0},
+     {"frage": "Was wird gefeiert?", "optionen": ["der Geburtstag seiner Frau", "Stefans Geburtstag", "ein Jahrestag"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Pode soletrar, por favor?", "de": "Können Sie bitte buchstabieren?"},
+     {"pt": "Cá, erre, e, dois enes.", "de": "K, R, E, zwei N."},
+     {"pt": "Nasci a três de maio.", "de": "Ich bin am 3. Mai geboren."},
+     {"pt": "Hoje é dia vinte de agosto.", "de": "Heute ist der 20. August."},
+     {"pt": "Como se escreve?", "de": "Wie schreibt man das?"}
+    ]
+   },
+   "saetze": [
+    {"id": "pode-soletrar", "pt": "Pode soletrar, por favor?", "de": "Können Sie bitte buchstabieren?"},
+    {"id": "nasci-tres-maio", "pt": "Nasci a três de maio.", "de": "Ich bin am 3. Mai geboren."},
+    {"id": "hoje-vinte-agosto", "pt": "Hoje é dia vinte de agosto.", "de": "Heute ist der 20. August."}
+   ]
+  },
+  {
+   "id": "A1-11-L03",
+   "typ": "neu",
+   "titel": "Bei den Finanças",
+   "vokabeln": ["as-financas", "o-nif", "pedir", "venho-tratar-de", "o-passaporte", "o-certificado-de-residencia", "o-comprovativo-de-morada", "tirar-senha", "a-vez", "o-balcao", "ter-de"],
+   "grammatik": {
+    "titel": "Müssen: ter de + Infinitiv",
+    "erklaerung": [
+     "„Müssen“ heißt <b>ter de</b> + Infinitiv: <i>Tenho de esperar.</i> – Ich muss warten. <i>Tem de tirar uma senha.</i> – Sie müssen eine Nummer ziehen.",
+     "<b>ter</b>: eu <b>tenho</b>, você/ele/ela <b>tem</b>, nós <b>temos</b>, vocês/eles <b>têm</b>.",
+     "Im Alltag hörst du auch <i>ter que</i> – beides ist richtig. <i>ter de</i> klingt in Portugal etwas sorgfältiger.",
+     "Verneint: <i>Não tem de pagar.</i> – Sie müssen nicht bezahlen."
+    ],
+    "vergleich": "Wörtlich „haben zu“ – wie im Deutschen „Ich habe noch zu arbeiten“.",
+    "beispiele": [
+     {"pt": "Tenho de ir às Finanças.", "de": "Ich muss zum Finanzamt."},
+     {"pt": "Tem de tirar uma senha.", "de": "Sie müssen eine Wartenummer ziehen."},
+     {"pt": "Temos de esperar.", "de": "Wir müssen warten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ de esperar.", "loesungen": ["tenho"], "de": "Ich muss warten.", "kategorie": "Verbformen"},
+     {"typ": "luecke", "satz": "Você tem ___ tirar uma senha.", "loesungen": ["de", "que"], "de": "Sie müssen eine Nummer ziehen.", "kategorie": "ter de"},
+     {"typ": "luecke", "satz": "Nós ___ de pagar.", "loesungen": ["temos"], "de": "Wir müssen bezahlen.", "kategorie": "Verbformen"},
+     {"typ": "auswahl", "frage": "„Sie müssen nicht warten.“", "optionen": ["Não tem de esperar.", "Tem não de esperar.", "Não tem esperar."], "richtig": 0, "kategorie": "Verneinung"},
+     {"typ": "uebersetzen", "de": "Ich möchte die Steuernummer beantragen.", "loesungen": ["Queria pedir o NIF.", "Queria pedir o número de contribuinte.", "Quero pedir o NIF."]},
+     {"typ": "uebersetzen", "de": "Ich muss zum Finanzamt.", "loesungen": ["Tenho de ir às Finanças.", "Tenho que ir às Finanças."]},
+     {"typ": "satzbau", "de": "Wo ziehe ich die Wartenummer?", "loesung": "Onde tiro a senha?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Nas Finanças – im Finanzamt",
+    "situation": "Stefan will seine Adresse ändern lassen.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Senha cento e doze, balcão quatro.", "de": "Nummer 112, Schalter vier."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Queria mudar a minha morada.", "de": "Guten Tag. Ich möchte meine Adresse ändern."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Tem o NIF e o passaporte?", "de": "Haben Sie die Steuernummer und den Pass?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, aqui estão.", "de": "Ja, hier sind sie."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Também tem de trazer um comprovativo de morada, por exemplo a fatura da luz.", "de": "Sie müssen auch einen Adressnachweis mitbringen, zum Beispiel die Stromrechnung."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ah, não tenho aqui. Volto amanhã.", "de": "Ach, den habe ich nicht dabei. Ich komme morgen wieder."}
+    ],
+    "fragen": [
+     {"frage": "Was möchte Stefan?", "optionen": ["seine Adresse ändern", "eine Steuernummer beantragen", "eine Rechnung bezahlen"], "richtig": 0},
+     {"frage": "Was fehlt ihm?", "optionen": ["ein Adressnachweis", "der Pass", "die Wartenummer"], "richtig": 0},
+     {"frage": "Was macht Stefan jetzt?", "optionen": ["Er kommt morgen wieder.", "Er wartet.", "Er ruft an."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist bei den Finanças und möchtest einen NIF für deine Frau beantragen.",
+    "zeilen": [
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Bom dia, em que posso ajudar?", "de": "Guten Tag, wie kann ich helfen?"},
+     {"ich": true, "aufgabe": "Sag: Ich möchte eine Steuernummer für meine Frau beantragen.", "loesungen": ["Queria pedir um NIF para a minha mulher.", "Queria pedir o NIF para a minha mulher.", "Quero pedir um NIF para a minha mulher."]},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Ela tem de vir pessoalmente, com o passaporte.", "de": "Sie muss persönlich kommen, mit dem Pass."},
+     {"ich": true, "aufgabe": "Frag: Muss sie einen Termin vereinbaren?", "loesungen": ["Ela tem de marcar?", "Ela tem de fazer marcação?", "Tem de marcar uma consulta?", "Ela tem de marcar uma hora?", "Ela tem que marcar?"]},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Não, basta tirar uma senha.", "de": "Nein, es reicht, eine Nummer zu ziehen."},
+     {"ich": true, "aufgabe": "Sag: Gut, danke. Bis morgen!", "loesungen": ["Está bem, obrigado. Até amanhã!", "Muito bem, obrigado. Até amanhã!", "Ótimo, obrigado. Até amanhã!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "tenho-de-ir-financas", "pt": "Tenho de ir às Finanças.", "de": "Ich muss zum Finanzamt."},
+    {"id": "queria-pedir-nif", "pt": "Queria pedir o NIF.", "de": "Ich möchte die Steuernummer beantragen."},
+    {"id": "tem-de-tirar-senha", "pt": "Tem de tirar uma senha.", "de": "Sie müssen eine Wartenummer ziehen."}
+   ]
+  },
+  {
+   "id": "A1-11-L04",
+   "typ": "neu",
+   "titel": "Höflich um Hilfe bitten",
+   "vokabeln": ["loja-do-cidadao", "podia", "pode-ajudar-me", "a-informacao", "explicar", "nao-percebi", "assinar", "a-fotocopia", "o-documento"],
+   "grammatik": {
+    "titel": "Höflich: queria, podia, pode …?",
+    "erklaerung": [
+     "<b>Queria</b> (ich hätte gern / ich möchte) ist höflicher als <i>quero</i>: <i>Queria uma informação.</i>",
+     "<b>Pode …?</b> (Können Sie …?) und noch höflicher <b>Podia …?</b> (Könnten Sie …?) + Infinitiv: <i>Podia falar mais devagar?</i>",
+     "Mit Pronomen hängt das <b>-me</b> in Portugal am Infinitiv: <i>Pode ajudar<b>-me</b>?</i> – Können Sie mir helfen? <i>Podia explicar<b>-me</b>?</i>",
+     "Wenn du etwas nicht verstehst: <i>Desculpe, não percebi. Pode repetir?</i>"
+    ],
+    "vergleich": "Wie im Deutschen „Ich hätte gern …“ statt „Ich will …“ – <i>queria</i> ist die Vergangenheitsform, die höflich wirkt.",
+    "beispiele": [
+     {"pt": "Desculpe, pode ajudar-me?", "de": "Entschuldigung, können Sie mir helfen?"},
+     {"pt": "Podia falar mais devagar?", "de": "Könnten Sie langsamer sprechen?"},
+     {"pt": "Queria uma informação, por favor.", "de": "Ich hätte gern eine Auskunft, bitte."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Am höflichsten:", "optionen": ["Quero uma informação.", "Queria uma informação.", "Dá-me uma informação."], "richtig": 1, "kategorie": "Höflichkeit"},
+     {"typ": "auswahl", "frage": "„Können Sie mir helfen?“ (in Portugal)", "optionen": ["Pode me ajudar?", "Pode ajudar-me?", "Me pode ajudar?"], "richtig": 1, "erklaerung": "In Portugal hängt das Pronomen an: ajudar-me.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "___ falar mais devagar?", "loesungen": ["Podia", "Pode"], "de": "Könnten Sie langsamer sprechen?", "kategorie": "Höflichkeit"},
+     {"typ": "luecke", "satz": "Desculpe, não ___.", "loesungen": ["percebi"], "de": "Entschuldigung, ich habe nicht verstanden."},
+     {"typ": "uebersetzen", "de": "Können Sie das wiederholen?", "loesungen": ["Pode repetir?", "Podia repetir?"]},
+     {"typ": "uebersetzen", "de": "Welche Dokumente brauche ich?", "loesungen": ["Que documentos preciso?", "De que documentos preciso?", "Quais documentos preciso?", "Que documentos é que preciso?"]},
+     {"typ": "satzbau", "de": "Entschuldigung, können Sie mir helfen?", "loesung": "Desculpe, pode ajudar-me?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na Loja do Cidadão – im Bürgerbüro",
+    "situation": "Stefan braucht Hilfe am Schalter.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Desculpe, pode ajudar-me? Queria renovar a carta de condução.", "de": "Guten Tag. Entschuldigung, können Sie mir helfen? Ich möchte den Führerschein verlängern."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Precisa do atestado médico, de uma fotografia e do cartão de cidadão ou do passaporte.", "de": "Sie brauchen das ärztliche Attest, ein Foto und den Personalausweis oder den Pass."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpe, não percebi. Podia falar mais devagar?", "de": "Entschuldigung, ich habe nicht verstanden. Könnten Sie langsamer sprechen?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Claro. Um atestado médico. Uma fotografia. E o passaporte.", "de": "Natürlich. Ein ärztliches Attest. Ein Foto. Und den Pass."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muito obrigado, é muito simpática.", "de": "Vielen Dank, Sie sind sehr freundlich."}
+    ],
+    "fragen": [
+     {"frage": "Was will Stefan verlängern?", "optionen": ["den Führerschein", "den Pass", "die Aufenthaltsbescheinigung"], "richtig": 0},
+     {"frage": "Worum bittet Stefan?", "optionen": ["langsamer zu sprechen", "lauter zu sprechen", "es aufzuschreiben"], "richtig": 0},
+     {"frage": "Was braucht er NICHT?", "optionen": ["eine Steuernummer", "ein Foto", "ein ärztliches Attest"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Entschuldigung, können Sie mir helfen?", "loesungen": ["Desculpe, pode ajudar-me?", "Desculpe, podia ajudar-me?"]},
+     {"de": "Ich habe nicht verstanden.", "loesungen": ["Não percebi.", "Não percebi nada."]},
+     {"de": "Könnten Sie langsamer sprechen?", "loesungen": ["Podia falar mais devagar?", "Pode falar mais devagar?"]},
+     {"de": "Wo muss ich unterschreiben?", "loesungen": ["Onde tenho de assinar?", "Onde é que tenho de assinar?", "Onde assino?", "Onde tenho que assinar?"]},
+     {"de": "Ich hätte gern eine Kopie, bitte.", "loesungen": ["Queria uma fotocópia, por favor.", "Queria uma cópia, por favor.", "Queria uma fotocópia, se faz favor."]}
+    ]
+   },
+   "saetze": [
+    {"id": "pode-ajudar-me", "pt": "Desculpe, pode ajudar-me?", "de": "Entschuldigung, können Sie mir helfen?"},
+    {"id": "podia-mais-devagar", "pt": "Podia falar mais devagar?", "de": "Könnten Sie langsamer sprechen?"},
+    {"id": "nao-percebi-repetir", "pt": "Não percebi. Pode repetir?", "de": "Ich habe nicht verstanden. Können Sie das wiederholen?"}
+   ]
+  },
+  {
+   "id": "A1-11-L05",
+   "typ": "neu",
+   "titel": "Post und Bank",
+   "vokabeln": ["os-ctt", "a-carta", "a-encomenda", "o-selo", "o-envelope", "enviar", "levantar", "a-conta-bancaria", "a-transferencia"],
+   "grammatik": {
+    "titel": "precisar de – brauchen",
+    "erklaerung": [
+     "<b>precisar</b> braucht immer <b>de</b>: <i>Preciso <b>de</b> um selo.</i> – Ich brauche eine Briefmarke.",
+     "<b>de</b> verschmilzt mit dem Artikel: <i>de + o = <b>do</b></i>, <i>de + a = <b>da</b></i>: <i>Preciso <b>do</b> passaporte.</i> <i>Preciso <b>da</b> morada.</i>",
+     "Mit Infinitiv: <i>Preciso de enviar uma carta.</i> – Ich muss einen Brief schicken.",
+     "„um zu“ heißt <b>para</b> + Infinitiv: <i>Vou aos CTT <b>para</b> enviar uma encomenda.</i>"
+    ],
+    "vergleich": "Wie „bedürfen“ + Genitiv im Deutschen: man „bedarf <b>einer</b> Sache“ – im Portugiesischen braucht man immer „von“ etwas.",
+    "beispiele": [
+     {"pt": "Preciso de um selo para a Áustria.", "de": "Ich brauche eine Briefmarke nach Österreich."},
+     {"pt": "Preciso do seu passaporte.", "de": "Ich brauche Ihren Pass."},
+     {"pt": "Vou ao multibanco para levantar dinheiro.", "de": "Ich gehe zum Automaten, um Geld abzuheben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Preciso ___ um selo.", "loesungen": ["de"], "de": "Ich brauche eine Briefmarke.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Preciso ___ passaporte.", "loesungen": ["do"], "de": "Ich brauche den Pass.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Preciso ___ morada.", "loesungen": ["da"], "de": "Ich brauche die Adresse.", "kategorie": "Präpositionen"},
+     {"typ": "auswahl", "frage": "„Ich gehe zur Post, um ein Paket zu schicken.“", "optionen": ["Vou aos CTT para enviar uma encomenda.", "Vou aos CTT por enviar uma encomenda.", "Vou aos CTT enviar para uma encomenda."], "richtig": 0, "kategorie": "Präpositionen"},
+     {"typ": "uebersetzen", "de": "Ich möchte ein Bankkonto eröffnen.", "loesungen": ["Queria abrir uma conta bancária.", "Quero abrir uma conta bancária.", "Queria abrir uma conta."]},
+     {"typ": "uebersetzen", "de": "Gibt es hier in der Nähe einen Geldautomaten?", "loesungen": ["Há um multibanco aqui perto?", "Há algum multibanco aqui perto?", "Há um multibanco perto daqui?"]},
+     {"typ": "satzbau", "de": "Ich komme ein Paket abholen.", "loesung": "Venho levantar uma encomenda."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Nos CTT – auf der Post",
+    "situation": "Stefan schickt ein Paket nach Wien.",
+    "zeilen": [
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Bom dia, diga.", "de": "Guten Tag, bitte."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Queria enviar esta encomenda para a Áustria.", "de": "Guten Tag. Ich möchte dieses Paket nach Österreich schicken."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Normal ou expresso? Normal são doze euros e chega numa semana.", "de": "Normal oder Express? Normal kostet zwölf Euro und kommt in einer Woche an."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Normal, obrigado. E preciso de dois selos para cartas.", "de": "Normal, danke. Und ich brauche zwei Briefmarken für Briefe."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "São catorze euros e trinta, ao todo. Paga com cartão?", "de": "Das macht zusammen 14,30 €. Zahlen Sie mit Karte?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, com multibanco.", "de": "Ja, mit Bankkarte."}
+    ],
+    "fragen": [
+     {"frage": "Wohin schickt Stefan das Paket?", "optionen": ["nach Österreich", "nach Deutschland", "nach Lissabon"], "richtig": 0},
+     {"frage": "Was kauft er noch?", "optionen": ["zwei Briefmarken", "einen Umschlag", "eine Postkarte"], "richtig": 0},
+     {"frage": "Wie viel zahlt er insgesamt?", "optionen": ["14,30 €", "12 €", "4,30 €"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist in der Bank.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Bom dia, em que posso ajudar?", "de": "Guten Tag, wie kann ich helfen?"},
+     {"ich": true, "aufgabe": "Sag: Ich möchte ein Bankkonto eröffnen.", "loesungen": ["Queria abrir uma conta bancária.", "Queria abrir uma conta.", "Quero abrir uma conta bancária."]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Com certeza. Precisa do passaporte, do NIF e de um comprovativo de morada.", "de": "Natürlich. Sie brauchen den Pass, die Steuernummer und einen Adressnachweis."},
+     {"ich": true, "aufgabe": "Sag: Ich habe alles hier.", "loesungen": ["Tenho tudo aqui.", "Tenho aqui tudo."]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Ótimo. Então preencha este formulário e assine aqui.", "de": "Prima. Dann füllen Sie dieses Formular aus und unterschreiben hier."},
+     {"ich": true, "aufgabe": "Frag: Wann bekomme ich die Karte? (Wann kommt die Karte?)", "loesungen": ["Quando chega o cartão?", "Quando é que chega o cartão?", "Quando recebo o cartão?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "preciso-de-selo", "pt": "Preciso de um selo para a Áustria.", "de": "Ich brauche eine Briefmarke nach Österreich."},
+    {"id": "enviar-encomenda", "pt": "Queria enviar esta encomenda.", "de": "Ich möchte dieses Paket schicken."},
+    {"id": "abrir-conta", "pt": "Queria abrir uma conta bancária.", "de": "Ich möchte ein Bankkonto eröffnen."}
+   ]
+  },
+  {
+   "id": "A1-11-L06",
+   "typ": "neu",
+   "titel": "Termine und Fristen",
+   "vokabeln": ["a-marcacao", "o-prazo", "renovar", "valido", "caducado", "ate", "a-partir-de", "a-carta-de-conducao"],
+   "grammatik": {
+    "titel": "Zeitangaben: até, a partir de, desde, há",
+    "erklaerung": [
+     "<b>até</b> = bis: <i>até sexta-feira</i>, <i>até ao dia trinta</i> (in Portugal meist <i>até ao / até à</i>).",
+     "<b>a partir de</b> = ab: <i>a partir de amanhã</i>, <i>a partir de segunda</i>.",
+     "<b>desde</b> = seit (Zeitpunkt): <i>desde janeiro</i>. <b>há</b> = seit (Zeitraum) / vor: <i>Moro aqui há dois anos.</i> – Ich wohne seit zwei Jahren hier.",
+     "<b>por</b> + Zeitraum = für: <i>válido por cinco anos</i>."
+    ],
+    "vergleich": "Deutsch „seit“ hat zwei Übersetzungen: <i>desde</i> vor einem Datum, <i>há</i> vor einer Dauer.",
+    "beispiele": [
+     {"pt": "O prazo é até ao dia trinta.", "de": "Die Frist läuft bis zum Dreißigsten."},
+     {"pt": "A partir de amanhã está aberto.", "de": "Ab morgen ist geöffnet."},
+     {"pt": "Moro em Portugal há dois anos.", "de": "Ich wohne seit zwei Jahren in Portugal."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„seit zwei Jahren“", "optionen": ["há dois anos", "desde dois anos", "a partir de dois anos"], "richtig": 0, "erklaerung": "Dauer: há. Zeitpunkt: desde.", "kategorie": "Zeitangaben"},
+     {"typ": "auswahl", "frage": "„seit Januar“", "optionen": ["há janeiro", "desde janeiro", "até janeiro"], "richtig": 1, "kategorie": "Zeitangaben"},
+     {"typ": "luecke", "satz": "___ de amanhã está aberto.", "loesungen": ["A partir"], "de": "Ab morgen ist geöffnet.", "kategorie": "Zeitangaben"},
+     {"typ": "luecke", "satz": "O prazo é ___ sexta-feira.", "loesungen": ["até"], "de": "Die Frist läuft bis Freitag.", "kategorie": "Zeitangaben"},
+     {"typ": "uebersetzen", "de": "Ihr Pass ist abgelaufen.", "loesungen": ["O seu passaporte está caducado."]},
+     {"typ": "uebersetzen", "de": "Ich muss den Führerschein verlängern.", "loesungen": ["Tenho de renovar a carta de condução.", "Tenho que renovar a carta de condução.", "Preciso de renovar a carta de condução."]},
+     {"typ": "satzbau", "de": "Braucht man einen Termin?", "loesung": "É preciso marcação?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma chamada para a Câmara – Anruf bei der Gemeinde",
+    "situation": "Stefan ruft wegen seiner Aufenthaltsbescheinigung an.",
+    "zeilen": [
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Câmara Municipal de Lagos, bom dia.", "de": "Gemeindeverwaltung Lagos, guten Tag."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. O meu certificado de residência está caducado. Tenho de renovar.", "de": "Guten Tag. Meine Aufenthaltsbescheinigung ist abgelaufen. Ich muss sie verlängern."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "É preciso marcação. Pode ser na quinta-feira, às dez horas?", "de": "Man braucht einen Termin. Geht Donnerstag um zehn Uhr?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quinta não posso. E a partir de segunda?", "de": "Donnerstag kann ich nicht. Und ab Montag?"},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Segunda-feira, às onze e meia. Traga o passaporte e quinze euros.", "de": "Montag um halb zwölf. Bringen Sie den Pass und fünfzehn Euro mit."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perfeito. Muito obrigado.", "de": "Perfekt. Vielen Dank."}
+    ],
+    "fragen": [
+     {"frage": "Warum ruft Stefan an?", "optionen": ["Seine Aufenthaltsbescheinigung ist abgelaufen.", "Er hat seinen Pass verloren.", "Er braucht eine Steuernummer."], "richtig": 0},
+     {"frage": "Wann ist der Termin?", "optionen": ["Montag um 11:30", "Donnerstag um 10:00", "Montag um 10:30"], "richtig": 0},
+     {"frage": "Was soll er mitbringen?", "optionen": ["den Pass und 15 €", "ein Foto", "den Führerschein"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "É preciso marcação?", "de": "Braucht man einen Termin?"},
+     {"pt": "O meu passaporte está caducado.", "de": "Mein Pass ist abgelaufen."},
+     {"pt": "Tenho de renovar a carta de condução.", "de": "Ich muss den Führerschein verlängern."},
+     {"pt": "Moro em Portugal há dois anos.", "de": "Ich wohne seit zwei Jahren in Portugal."},
+     {"pt": "O prazo é até sexta-feira.", "de": "Die Frist läuft bis Freitag."}
+    ]
+   },
+   "saetze": [
+    {"id": "e-preciso-marcacao", "pt": "É preciso marcação?", "de": "Braucht man einen Termin?"},
+    {"id": "passaporte-caducado", "pt": "O meu passaporte está caducado.", "de": "Mein Pass ist abgelaufen."},
+    {"id": "moro-em-lagos-desde", "pt": "Moro em Lagos desde janeiro.", "de": "Ich wohne seit Januar in Lagos."}
+   ]
+  },
+  {"id": "A1-11-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-11-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Na Loja do Cidadão – im Bürgerbüro",
+   "situation": "Stefans Frau Ana braucht eine Steuernummer.",
+   "zeilen": [
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Senha noventa e sete, balcão dois.", "de": "Nummer 97, Schalter zwei."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Bom dia. Queria pedir o NIF, por favor.", "de": "Guten Tag. Ich möchte bitte eine Steuernummer beantragen."},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Tem o passaporte? E qual é a sua morada em Portugal?", "de": "Haben Sie den Pass? Und wie ist Ihre Adresse in Portugal?"},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Sim, aqui está. A morada é Rua das Flores, número oito, em Lagos.", "de": "Ja, hier ist er. Die Adresse ist Rua das Flores Nummer 8 in Lagos."},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "E a data de nascimento?", "de": "Und das Geburtsdatum?"},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Dezassete de agosto de mil novecentos e setenta e oito.", "de": "17. August 1978."},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Muito bem. Assine aqui, por favor. O NIF chega por carta em dez dias.", "de": "Sehr gut. Unterschreiben Sie bitte hier. Die Steuernummer kommt in zehn Tagen per Brief."}
+   ],
+   "fragen": [
+    {"frage": "Was beantragt Ana?", "optionen": ["eine Steuernummer", "einen Führerschein", "ein Bankkonto"], "richtig": 0},
+    {"frage": "Wann ist Ana geboren?", "optionen": ["17. August 1978", "7. August 1987", "17. April 1978"], "richtig": 0},
+    {"frage": "Was muss sie am Ende tun?", "optionen": ["unterschreiben", "bezahlen", "ein Foto abgeben"], "richtig": 0},
+    {"frage": "Wie bekommt sie die Nummer?", "optionen": ["per Brief in zehn Tagen", "sofort am Schalter", "per E-Mail morgen"], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Aviso – Aushang im Bürgerbüro",
+   "situation": "Ein Aushang neben der Eingangstür.",
+   "text": [
+    "Loja do Cidadão de Faro",
+    "Horário: de segunda a sexta, das 8h30 às 19h30. Sábado: das 9h30 às 15h.",
+    "Atendimento com marcação prévia: marque no site ou pelo telefone.",
+    "Sem marcação: tire uma senha à entrada. Atenção: as senhas acabam às 18h.",
+    "Renovação da carta de condução: traga o atestado médico e uma fotografia."
+   ],
+   "fragen": [
+    {"frage": "Ist das Bürgerbüro samstags geöffnet?", "optionen": ["Ja, von 9:30 bis 15 Uhr", "Nein", "Ja, bis 19:30 Uhr"], "richtig": 0},
+    {"frage": "Was macht man ohne Termin?", "optionen": ["eine Wartenummer am Eingang ziehen", "anrufen", "später wiederkommen"], "richtig": 0},
+    {"frage": "Bis wann gibt es Wartenummern?", "optionen": ["bis 18 Uhr", "bis 19:30 Uhr", "bis 15 Uhr"], "richtig": 0},
+    {"frage": "Was braucht man für den Führerschein?", "optionen": ["ärztliches Attest und Foto", "Pass und Steuernummer", "Adressnachweis"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Wie ist Ihre Adresse?", "loesungen": ["Qual é a sua morada?"]},
+   {"de": "Können Sie bitte buchstabieren?", "loesungen": ["Pode soletrar, por favor?", "Podia soletrar, por favor?"]},
+   {"de": "Ich muss eine Wartenummer ziehen.", "loesungen": ["Tenho de tirar uma senha.", "Tenho que tirar uma senha.", "Tenho de tirar senha."]},
+   {"de": "Entschuldigung, ich habe nicht verstanden.", "loesungen": ["Desculpe, não percebi."]},
+   {"de": "Ich brauche eine Briefmarke.", "loesungen": ["Preciso de um selo."]},
+   {"de": "Ich bin am 3. Mai geboren.", "loesungen": ["Nasci a três de maio.", "Nasci no dia três de maio.", "Nasci a 3 de maio.", "Nasci no dia 3 de maio."]}
+  ],
+  "sprechen": [
+   {"pt": "Qual é o seu número de telemóvel?", "de": "Wie ist Ihre Handynummer?"},
+   {"pt": "Desculpe, pode ajudar-me?", "de": "Entschuldigung, können Sie mir helfen?"},
+   {"pt": "Queria pedir o NIF, por favor.", "de": "Ich möchte bitte die Steuernummer beantragen."},
+   {"pt": "Podia falar mais devagar?", "de": "Könnten Sie langsamer sprechen?"},
+   {"pt": "Moro em Portugal há dois anos.", "de": "Ich wohne seit zwei Jahren in Portugal."}
+  ]
+ }
+}

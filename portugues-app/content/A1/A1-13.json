@@ -1,0 +1,107 @@
+{
+ "id": "A1-13",
+ "level": "A1",
+ "titel": "Teste final A1 – Abschlusstest A1",
+ "beschreibung": "Der Level-Test über alle A1-Einheiten in zwei Teilen: zuerst Hören, Lesen, Wortschatz & Grammatik, dann Schreiben und Sprechen. Bestanden ab 80 %.",
+ "vokabeln": [],
+ "lektionen": [
+  {"id": "A1-13-L01", "typ": "leveltest", "titel": "Level-Test A1 – Teil 1: Hören, Lesen, Grammatik", "bloecke": ["hoeren", "lesen", "grammatik"]},
+  {"id": "A1-13-L02", "typ": "leveltest", "titel": "Level-Test A1 – Teil 2: Schreiben und Sprechen", "bloecke": ["schreiben", "sprechen"]}
+ ],
+ "test": {
+  "hoeren": [
+   {
+    "titel": "No café da esquina – im Eckcafé",
+    "situation": "Stefan trifft eine neue Nachbarin im Café.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Bom dia! O que vai ser?", "de": "Guten Morgen! Was darf es sein?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Uma bica e um pastel de nata, por favor.", "de": "Einen Espresso und ein Pastel de Nata, bitte."},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Desculpe, esta cadeira está livre?", "de": "Entschuldigung, ist dieser Stuhl frei?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está, sim. Sente-se. Eu sou o Stefan, moro no número oito.", "de": "Ja, bitte. Setzen Sie sich. Ich bin Stefan, ich wohne in Nummer acht."},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Muito prazer, eu sou a Helena. Cheguei há uma semana, sou do Porto.", "de": "Freut mich, ich bin Helena. Ich bin vor einer Woche angekommen, ich komme aus Porto."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bem-vinda a Lagos! Se precisar de alguma coisa, diga.", "de": "Willkommen in Lagos! Wenn Sie etwas brauchen, sagen Sie Bescheid."}
+    ],
+    "fragen": [
+     {"frage": "Was bestellt Stefan?", "optionen": ["einen Espresso und ein Pastel de Nata", "einen Galão und einen Toast", "einen Tee"], "richtig": 0},
+     {"frage": "Was fragt Helena?", "optionen": ["ob der Stuhl frei ist", "wo die Toilette ist", "wie spät es ist"], "richtig": 0},
+     {"frage": "Woher kommt Helena?", "optionen": ["aus Porto", "aus Lissabon", "aus Faro"], "richtig": 0},
+     {"frage": "Seit wann ist sie in Lagos?", "optionen": ["seit einer Woche", "seit einem Monat", "seit gestern"], "richtig": 0}
+    ]
+   },
+   {
+    "titel": "A caminho do mercado – auf dem Weg zum Markt",
+    "situation": "Ein Tourist fragt Stefan nach dem Weg.",
+    "zeilen": [
+     {"sprecher": "Turista", "stimme": "f", "pt": "Desculpe, há algum mercado aqui perto?", "de": "Entschuldigung, gibt es hier in der Nähe einen Markt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Há, sim. Siga em frente até à rotunda e vire à direita.", "de": "Ja. Gehen Sie geradeaus bis zum Kreisverkehr und biegen Sie rechts ab."},
+     {"sprecher": "Turista", "stimme": "f", "pt": "É longe? Posso ir a pé?", "de": "Ist es weit? Kann ich zu Fuß gehen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, demora dez minutos a pé. O mercado fica ao lado da estação.", "de": "Nein, zu Fuß dauert es zehn Minuten. Der Markt ist neben dem Bahnhof."},
+     {"sprecher": "Turista", "stimme": "f", "pt": "Está aberto hoje?", "de": "Hat er heute geöffnet?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Hoje é sábado, está aberto das sete à uma.", "de": "Heute ist Samstag, er hat von sieben bis eins geöffnet."}
+    ],
+    "fragen": [
+     {"frage": "Wo muss die Touristin abbiegen?", "optionen": ["am Kreisverkehr rechts", "an der Ampel links", "an der zweiten Straße rechts"], "richtig": 0},
+     {"frage": "Wie lange dauert es zu Fuß?", "optionen": ["zehn Minuten", "zwei Minuten", "eine halbe Stunde"], "richtig": 0},
+     {"frage": "Wo ist der Markt?", "optionen": ["neben dem Bahnhof", "hinter der Kirche", "gegenüber der Apotheke"], "richtig": 0},
+     {"frage": "Wann hat der Markt geöffnet?", "optionen": ["von 7 bis 13 Uhr", "von 9 bis 17 Uhr", "den ganzen Tag"], "richtig": 0}
+    ]
+   }
+  ],
+  "lesen": [
+   {
+    "titel": "Arrenda-se – Wohnungsanzeige",
+    "situation": "Eine Anzeige im Schaufenster einer Immobilienagentur.",
+    "text": [
+     "Arrenda-se apartamento T2 em Portimão, no centro, perto da praia.",
+     "Segundo andar com elevador. Sala grande, cozinha equipada, dois quartos e uma varanda com vista para o mar.",
+     "Tem ar condicionado e garagem. Não tem piscina.",
+     "Renda: 900 euros por mês. Disponível a partir de 1 de novembro.",
+     "Contacto: 914 555 210 (de segunda a sexta, das 9h às 18h)."
+    ],
+    "fragen": [
+     {"frage": "Wie viele Schlafzimmer hat die Wohnung?", "optionen": ["zwei", "eins", "drei"], "richtig": 0},
+     {"frage": "Was hat die Wohnung NICHT?", "optionen": ["einen Pool", "eine Garage", "einen Balkon"], "richtig": 0},
+     {"frage": "Ab wann ist sie frei?", "optionen": ["ab 1. November", "sofort", "ab 1. Oktober"], "richtig": 0},
+     {"frage": "Wann kann man anrufen?", "optionen": ["Mo–Fr von 9 bis 18 Uhr", "jeden Tag", "nur am Wochenende"], "richtig": 0}
+    ]
+   },
+   {
+    "titel": "Uma mensagem do Pedro – eine Nachricht von Pedro",
+    "situation": "Pedro schreibt Stefan eine Nachricht.",
+    "text": [
+     "Olá, Stefan! Tudo bem?",
+     "No sábado passado fui ao médico porque me doíam as costas. Agora estou melhor, mas não posso jogar golfe durante duas semanas.",
+     "Queres vir jantar cá a casa na sexta-feira? A minha mulher vai fazer bacalhau. Às oito, pode ser?",
+     "Traz a Ana, claro! Abraço, Pedro"
+    ],
+    "fragen": [
+     {"frage": "Warum war Pedro beim Arzt?", "optionen": ["Er hatte Rückenschmerzen.", "Er hatte Fieber.", "Er hatte Kopfschmerzen."], "richtig": 0},
+     {"frage": "Was darf Pedro zwei Wochen lang nicht?", "optionen": ["Golf spielen", "arbeiten", "Auto fahren"], "richtig": 0},
+     {"frage": "Wozu lädt Pedro ein?", "optionen": ["zum Abendessen am Freitag um acht", "zum Mittagessen am Samstag", "zu einer Geburtstagsfeier"], "richtig": 0},
+     {"frage": "Wen soll Stefan mitbringen?", "optionen": ["Ana", "seinen Nachbarn", "niemanden"], "richtig": 0}
+    ]
+   }
+  ],
+  "schreiben": [
+   {"de": "Formular: Wie ist Ihr vollständiger Name? (Antworte: Mein Name ist Stefan Krenn.)", "loesungen": ["O meu nome é Stefan Krenn.", "Chamo-me Stefan Krenn.", "Stefan Krenn."]},
+   {"de": "Formular: Ich bin Österreicher und wohne in Lagos.", "loesungen": ["Sou austríaco e moro em Lagos.", "Sou austríaco e vivo em Lagos."]},
+   {"de": "Formular: Ich bin verheiratet und habe zwei Kinder.", "loesungen": ["Sou casado e tenho dois filhos.", "Sou casado e tenho duas filhas."]},
+   {"de": "Nachricht: Hallo Pedro, danke für die Einladung!", "loesungen": ["Olá, Pedro, obrigado pelo convite!", "Olá Pedro, obrigado pelo convite!", "Olá, Pedro! Obrigado pelo convite!"]},
+   {"de": "Nachricht: Wir kommen gern am Freitag um acht.", "loesungen": ["Vamos com muito gosto na sexta-feira às oito.", "Vamos com todo o gosto na sexta-feira às oito.", "Vamos na sexta-feira às oito, com muito gosto.", "Vamos com muito gosto na sexta às oito."]},
+   {"de": "Nachricht: Gute Besserung!", "loesungen": ["As melhoras!"]},
+   {"de": "Im Café: Ich hätte gern einen Galão und einen Toast, bitte.", "loesungen": ["Queria um galão e uma torrada, por favor.", "Queria um galão e uma torrada, se faz favor."]},
+   {"de": "Auf der Straße: Entschuldigung, wo ist die Apotheke?", "loesungen": ["Desculpe, onde é a farmácia?", "Desculpe, onde fica a farmácia?"]},
+   {"de": "Gestern bin ich an den Strand gegangen.", "loesungen": ["Ontem fui à praia.", "Fui à praia ontem."]}
+  ],
+  "sprechen": [
+   {"pt": "Bom dia! Chamo-me Stefan e sou austríaco.", "de": "Guten Morgen! Ich heiße Stefan und bin Österreicher."},
+   {"pt": "Moro em Lagos há dois anos.", "de": "Ich wohne seit zwei Jahren in Lagos."},
+   {"pt": "Sou consultor e trabalho em casa.", "de": "Ich bin Berater und arbeite zu Hause."},
+   {"pt": "Queria uma bica e um pastel de nata, por favor.", "de": "Ich hätte gern einen Espresso und ein Pastel de Nata, bitte."},
+   {"pt": "Quanto é, por favor?", "de": "Was macht das, bitte?"},
+   {"pt": "Desculpe, há algum multibanco aqui perto?", "de": "Entschuldigung, gibt es hier in der Nähe einen Geldautomaten?"},
+   {"pt": "Siga em frente e vire à esquerda.", "de": "Gehen Sie geradeaus und biegen Sie links ab."},
+   {"pt": "No fim de semana fizemos uma caminhada.", "de": "Am Wochenende haben wir eine Wanderung gemacht."}
+  ]
+ }
+}

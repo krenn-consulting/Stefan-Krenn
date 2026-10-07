@@ -209,8 +209,15 @@ def test_wiederholungstag(con):
 
 
 def test_alle_lektionen_erledigt(con):
-    for _ in range(6):
-        lektion_komplett(con)
+    """Ganz A1 durchlaufen (alles richtig): Tests werden bestanden, am Ende ist nichts mehr offen."""
+    from backend import content
+    gesehen = []
+    while lesson.naechste_lektion(con) is not None and len(gesehen) < 200:
+        p, ergebnis = lektion_komplett(con)
+        gesehen.append(p["id"])
+        if p["typ"] in ("test", "leveltest"):
+            assert ergebnis["test"]["bestanden"], p["id"]
+    assert gesehen == content.lesson_order()
     assert lesson.naechste_lektion(con) is None
     assert lesson.plan(con, now=TAG1) is None
 

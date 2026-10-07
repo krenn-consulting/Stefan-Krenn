@@ -1,0 +1,515 @@
+{
+ "id": "A1-12",
+ "level": "A1",
+ "titel": "O fim de semana passado – Erste Vergangenheit",
+ "beschreibung": "Vom Wochenende und vom Urlaub erzählen: Pretérito perfeito simples der regelmäßigen Verben und von ser/ir, ter, estar, fazer, ver.",
+ "vokabeln": [
+  {"id": "ontem", "pt": "ontem", "de": "gestern", "emoji": "⏪", "beispiel_pt": "Ontem trabalhei muito.", "beispiel_de": "Gestern habe ich viel gearbeitet."},
+  {"id": "anteontem", "pt": "anteontem", "de": "vorgestern", "emoji": "⏮️", "beispiel_pt": "Anteontem choveu.", "beispiel_de": "Vorgestern hat es geregnet."},
+  {"id": "ontem-a-noite", "pt": "ontem à noite", "de": "gestern Abend", "emoji": "🌙", "beispiel_pt": "Ontem à noite jantei fora.", "beispiel_de": "Gestern Abend habe ich auswärts gegessen."},
+  {"id": "no-sabado-passado", "pt": "no sábado passado", "de": "letzten Samstag", "emoji": "📅", "beispiel_pt": "No sábado passado joguei golfe.", "beispiel_de": "Letzten Samstag habe ich Golf gespielt."},
+  {"id": "a-semana-passada", "pt": "a semana passada", "de": "letzte Woche", "emoji": "🗓️", "beispiel_pt": "A semana passada foi muito cansativa.", "beispiel_de": "Letzte Woche war sehr anstrengend."},
+  {"id": "o-ano-passado", "pt": "o ano passado", "de": "letztes Jahr", "emoji": "🎆", "beispiel_pt": "O ano passado mudei-me para o Algarve.", "beispiel_de": "Letztes Jahr bin ich an die Algarve gezogen."},
+  {"id": "passear", "pt": "passear", "de": "spazieren gehen", "emoji": "🚶", "beispiel_pt": "Passeámos na praia.", "beispiel_de": "Wir sind am Strand spazieren gegangen.", "hinweis": "eu passeio, ele passeia"},
+  {"id": "falei", "pt": "falei", "de": "ich habe gesprochen", "emoji": "🗣️", "beispiel_pt": "Falei com o vizinho.", "beispiel_de": "Ich habe mit dem Nachbarn gesprochen."},
+  {"id": "trabalhei", "pt": "trabalhei", "de": "ich habe gearbeitet", "emoji": "💼", "beispiel_pt": "Trabalhei até às oito.", "beispiel_de": "Ich habe bis acht gearbeitet."},
+  {"id": "joguei", "pt": "joguei", "de": "ich habe gespielt", "emoji": "⛳", "beispiel_pt": "Joguei ténis com a Ana.", "beispiel_de": "Ich habe mit Ana Tennis gespielt.", "hinweis": "jogar → joguei (mit u, damit das g hart bleibt)"},
+  {"id": "fiquei-em-casa", "pt": "fiquei em casa", "de": "ich bin zu Hause geblieben", "emoji": "🛋️", "beispiel_pt": "No domingo fiquei em casa.", "beispiel_de": "Am Sonntag bin ich zu Hause geblieben.", "hinweis": "ficar → fiquei"},
+
+  {"id": "comi", "pt": "comi", "de": "ich habe gegessen", "emoji": "🍽️", "beispiel_pt": "Comi peixe grelhado.", "beispiel_de": "Ich habe gegrillten Fisch gegessen."},
+  {"id": "bebi", "pt": "bebi", "de": "ich habe getrunken", "emoji": "🍷", "beispiel_pt": "Bebi um copo de vinho.", "beispiel_de": "Ich habe ein Glas Wein getrunken."},
+  {"id": "sair", "pt": "sair", "de": "ausgehen / hinausgehen", "emoji": "🚪", "beispiel_pt": "Vamos sair hoje à noite?", "beispiel_de": "Gehen wir heute Abend aus?"},
+  {"id": "sai", "pt": "saí", "de": "ich bin ausgegangen", "emoji": "🎉", "beispiel_pt": "Saí com amigos.", "beispiel_de": "Ich bin mit Freunden ausgegangen."},
+  {"id": "dormir", "pt": "dormir", "de": "schlafen", "emoji": "😴", "beispiel_pt": "Dormi muito bem.", "beispiel_de": "Ich habe sehr gut geschlafen.", "hinweis": "eu durmo, ele dorme – Vergangenheit: dormi"},
+  {"id": "receber", "pt": "receber", "de": "bekommen / erhalten", "emoji": "📬", "beispiel_pt": "Recebi uma mensagem.", "beispiel_de": "Ich habe eine Nachricht bekommen."},
+  {"id": "decidir", "pt": "decidir", "de": "entscheiden", "emoji": "🤔", "beispiel_pt": "Decidimos ficar mais um dia.", "beispiel_de": "Wir haben beschlossen, noch einen Tag zu bleiben."},
+  {"id": "conheci", "pt": "conheci", "de": "ich habe kennengelernt", "emoji": "🤝", "beispiel_pt": "Conheci a Ana em Lisboa.", "beispiel_de": "Ich habe Ana in Lissabon kennengelernt."},
+  {"id": "ha-dois-dias", "pt": "há dois dias", "de": "vor zwei Tagen", "emoji": "⏳", "beispiel_pt": "Cheguei há dois dias.", "beispiel_de": "Ich bin vor zwei Tagen angekommen.", "hinweis": "há + Zeitraum: mit Vergangenheit = vor"},
+  {"id": "o-marisco", "pt": "o marisco", "de": "die Meeresfrüchte", "emoji": "🦐", "beispiel_pt": "Comemos marisco em Olhão.", "beispiel_de": "Wir haben in Olhão Meeresfrüchte gegessen."},
+  {"id": "a-sobremesa", "pt": "a sobremesa", "de": "die Nachspeise", "emoji": "🍮", "beispiel_pt": "De sobremesa comi um pudim.", "beispiel_de": "Als Nachspeise habe ich einen Pudding gegessen."},
+
+  {"id": "fui", "pt": "fui", "de": "ich ging / ich war", "emoji": "🏃", "beispiel_pt": "Fui à praia.", "beispiel_de": "Ich bin an den Strand gegangen."},
+  {"id": "foi", "pt": "foi", "de": "er/sie/es ging / war", "emoji": "✔️", "beispiel_pt": "Foi ótimo!", "beispiel_de": "Es war super!"},
+  {"id": "fomos", "pt": "fomos", "de": "wir gingen / waren", "emoji": "👫", "beispiel_pt": "Fomos a Sevilha.", "beispiel_de": "Wir sind nach Sevilla gefahren."},
+  {"id": "foram", "pt": "foram", "de": "sie gingen / waren", "emoji": "👨‍👩‍👧", "beispiel_pt": "Eles foram ao cinema.", "beispiel_de": "Sie sind ins Kino gegangen."},
+  {"id": "as-ferias", "pt": "as férias", "de": "der Urlaub / die Ferien", "emoji": "🏝️", "beispiel_pt": "As férias foram fantásticas.", "beispiel_de": "Der Urlaub war fantastisch.", "hinweis": "Immer Plural: as férias"},
+  {"id": "de-ferias", "pt": "de férias", "de": "im Urlaub", "emoji": "🧳", "beispiel_pt": "Estive de férias na Madeira.", "beispiel_de": "Ich war auf Madeira im Urlaub."},
+  {"id": "a-viagem", "pt": "a viagem", "de": "die Reise", "emoji": "✈️", "beispiel_pt": "A viagem foi longa.", "beispiel_de": "Die Reise war lang."},
+  {"id": "otimo", "pt": "ótimo", "de": "super / prima", "emoji": "🤩", "beispiel_pt": "O jantar foi ótimo.", "beispiel_de": "Das Abendessen war super."},
+  {"id": "horrivel", "pt": "horrível", "de": "schrecklich", "emoji": "😫", "beispiel_pt": "O tempo foi horrível.", "beispiel_de": "Das Wetter war schrecklich."},
+  {"id": "divertido", "pt": "divertido", "de": "lustig / unterhaltsam", "emoji": "😄", "beispiel_pt": "A festa foi muito divertida.", "beispiel_de": "Die Party war sehr lustig.", "alternativen": ["divertida"]},
+  {"id": "o-passeio", "pt": "o passeio", "de": "der Ausflug / Spaziergang", "emoji": "🥾", "beispiel_pt": "Fizemos um passeio de barco.", "beispiel_de": "Wir haben eine Bootstour gemacht."},
+
+  {"id": "tive", "pt": "tive", "de": "ich hatte", "emoji": "🎁", "beispiel_pt": "Tive um fim de semana tranquilo.", "beispiel_de": "Ich hatte ein ruhiges Wochenende."},
+  {"id": "teve", "pt": "teve", "de": "er/sie hatte", "emoji": "🤲", "beispiel_pt": "Ela teve gripe.", "beispiel_de": "Sie hatte Grippe."},
+  {"id": "tivemos", "pt": "tivemos", "de": "wir hatten", "emoji": "👥", "beispiel_pt": "Tivemos visitas.", "beispiel_de": "Wir hatten Besuch."},
+  {"id": "estive", "pt": "estive", "de": "ich war (irgendwo / in einem Zustand)", "emoji": "📍", "beispiel_pt": "Estive em Lisboa.", "beispiel_de": "Ich war in Lissabon."},
+  {"id": "esteve", "pt": "esteve", "de": "er/sie/es war", "emoji": "🌤️", "beispiel_pt": "Esteve muito calor.", "beispiel_de": "Es war sehr heiß."},
+  {"id": "estivemos", "pt": "estivemos", "de": "wir waren", "emoji": "🏞️", "beispiel_pt": "Estivemos no Porto.", "beispiel_de": "Wir waren in Porto."},
+  {"id": "a-sorte", "pt": "a sorte", "de": "das Glück", "emoji": "🍀", "beispiel_pt": "Tivemos sorte com o tempo.", "beispiel_de": "Wir hatten Glück mit dem Wetter."},
+  {"id": "o-azar", "pt": "o azar", "de": "das Pech", "emoji": "🐈‍⬛", "beispiel_pt": "Que azar!", "beispiel_de": "So ein Pech!"},
+  {"id": "o-dia-todo", "pt": "o dia todo", "de": "den ganzen Tag", "emoji": "🕘", "beispiel_pt": "Estive o dia todo em casa.", "beispiel_de": "Ich war den ganzen Tag zu Hause."},
+  {"id": "o-transito", "pt": "o trânsito", "de": "der Verkehr / Stau", "emoji": "🚦", "beispiel_pt": "Havia muito trânsito.", "beispiel_de": "Es gab viel Verkehr."},
+  {"id": "o-atraso", "pt": "o atraso", "de": "die Verspätung", "emoji": "🐌", "beispiel_pt": "O voo teve uma hora de atraso.", "beispiel_de": "Der Flug hatte eine Stunde Verspätung."},
+
+  {"id": "fiz", "pt": "fiz", "de": "ich habe gemacht", "emoji": "🛠️", "beispiel_pt": "Fiz um bolo.", "beispiel_de": "Ich habe einen Kuchen gemacht."},
+  {"id": "fez", "pt": "fez", "de": "er/sie hat gemacht", "emoji": "🧑‍🍳", "beispiel_pt": "O que fez no fim de semana?", "beispiel_de": "Was haben Sie am Wochenende gemacht?"},
+  {"id": "fizemos", "pt": "fizemos", "de": "wir haben gemacht", "emoji": "👐", "beispiel_pt": "Fizemos uma caminhada.", "beispiel_de": "Wir haben eine Wanderung gemacht."},
+  {"id": "vi", "pt": "vi", "de": "ich habe gesehen", "emoji": "👀", "beispiel_pt": "Vi um filme ótimo.", "beispiel_de": "Ich habe einen super Film gesehen."},
+  {"id": "viu", "pt": "viu", "de": "er/sie hat gesehen", "emoji": "👁️", "beispiel_pt": "Viu o jogo ontem?", "beispiel_de": "Haben Sie gestern das Spiel gesehen?"},
+  {"id": "vimos", "pt": "vimos", "de": "wir haben gesehen", "emoji": "🐬", "beispiel_pt": "Vimos golfinhos!", "beispiel_de": "Wir haben Delfine gesehen!"},
+  {"id": "o-filme", "pt": "o filme", "de": "der Film", "emoji": "🎬", "beispiel_pt": "O filme foi muito bom.", "beispiel_de": "Der Film war sehr gut."},
+  {"id": "a-exposicao", "pt": "a exposição", "de": "die Ausstellung", "emoji": "🖼️", "beispiel_pt": "Vimos uma exposição em Faro.", "beispiel_de": "Wir haben eine Ausstellung in Faro gesehen."},
+  {"id": "a-caminhada", "pt": "a caminhada", "de": "die Wanderung", "emoji": "🥾", "beispiel_pt": "Fizemos uma caminhada na Rota Vicentina.", "beispiel_de": "Wir haben eine Wanderung auf der Rota Vicentina gemacht."},
+  {"id": "o-jogo", "pt": "o jogo", "de": "das Spiel", "emoji": "⚽", "beispiel_pt": "O jogo acabou empatado.", "beispiel_de": "Das Spiel endete unentschieden."},
+  {"id": "as-compras", "pt": "as compras", "de": "die Einkäufe", "emoji": "🛍️", "beispiel_pt": "Fiz as compras no mercado.", "beispiel_de": "Ich habe die Einkäufe auf dem Markt gemacht."},
+
+  {"id": "como-correu", "pt": "Como correu?", "de": "Wie ist es gelaufen?", "emoji": "❓", "beispiel_pt": "Como correu o fim de semana?", "beispiel_de": "Wie war das Wochenende?"},
+  {"id": "correu-bem", "pt": "Correu bem.", "de": "Es ist gut gelaufen.", "emoji": "👍", "beispiel_pt": "A reunião correu bem.", "beispiel_de": "Die Besprechung ist gut gelaufen."},
+  {"id": "correu-mal", "pt": "Correu mal.", "de": "Es ist schlecht gelaufen.", "emoji": "👎", "beispiel_pt": "A viagem correu mal.", "beispiel_de": "Die Reise ist schlecht gelaufen."},
+  {"id": "que-tal", "pt": "Que tal …?", "de": "Wie war …? / Wie wäre es mit …?", "emoji": "🙂", "beispiel_pt": "Que tal as férias?", "beispiel_de": "Wie war der Urlaub?"},
+  {"id": "a-seguir", "pt": "a seguir", "de": "danach / anschließend", "emoji": "➡️", "beispiel_pt": "A seguir fomos jantar.", "beispiel_de": "Danach sind wir essen gegangen."},
+  {"id": "no-fim", "pt": "no fim", "de": "am Ende", "emoji": "🏁", "beispiel_pt": "No fim vimos o pôr do sol.", "beispiel_de": "Am Ende haben wir den Sonnenuntergang gesehen."},
+  {"id": "finalmente", "pt": "finalmente", "de": "endlich / schließlich", "emoji": "🎯", "beispiel_pt": "Finalmente chegámos a casa.", "beispiel_de": "Endlich sind wir zu Hause angekommen."},
+  {"id": "entao", "pt": "então", "de": "dann / also", "emoji": "🔀", "beispiel_pt": "Então decidimos voltar.", "beispiel_de": "Dann haben wir beschlossen, umzukehren."},
+  {"id": "de-repente", "pt": "de repente", "de": "plötzlich", "emoji": "⚡", "beispiel_pt": "De repente começou a chover.", "beispiel_de": "Plötzlich fing es an zu regnen."},
+  {"id": "contar", "pt": "contar", "de": "erzählen / zählen", "emoji": "📖", "beispiel_pt": "Conte-me tudo!", "beispiel_de": "Erzählen Sie mir alles!"}
+ ],
+ "lektionen": [
+  {
+   "id": "A1-12-L01",
+   "typ": "neu",
+   "titel": "Was ich gestern gemacht habe (-ar)",
+   "vokabeln": ["ontem", "anteontem", "ontem-a-noite", "no-sabado-passado", "a-semana-passada", "o-ano-passado", "passear", "falei", "trabalhei", "joguei", "fiquei-em-casa"],
+   "grammatik": {
+    "titel": "Pretérito perfeito: Verben auf -ar",
+    "erklaerung": [
+     "Für abgeschlossene Handlungen in der Vergangenheit benutzt man das <b>pretérito perfeito simples</b>. Es entspricht fast immer dem deutschen Perfekt: <i>Ontem trabalhei.</i> – Gestern habe ich gearbeitet.",
+     "Endungen für <b>-ar</b> (falar): eu fal<b>ei</b>, tu fal<b>aste</b>, você/ele/ela fal<b>ou</b>, nós fal<b>ámos</b>, vocês/eles fal<b>aram</b>.",
+     "Achtung, nur in Portugal: <i>falámos</i> (mit Akzent) = wir haben gesprochen; <i>falamos</i> = wir sprechen.",
+     "Schreibung bei eu: jo<b>g</b>ar → jo<b>gu</b>ei, fi<b>c</b>ar → fi<b>qu</b>ei, almo<b>ç</b>ar → almo<b>c</b>ei, che<b>g</b>ar → che<b>gu</b>ei."
+    ],
+    "vergleich": "Deutsch braucht „haben/sein“ + Partizip (ich habe gearbeitet). Portugiesisch ist kürzer: ein Wort – <i>trabalhei</i>. Das portugiesische <i>tenho trabalhado</i> ist eine Falle: es heißt „ich arbeite in letzter Zeit (immer wieder)“.",
+    "beispiele": [
+     {"pt": "Ontem trabalhei até às oito.", "de": "Gestern habe ich bis acht gearbeitet."},
+     {"pt": "No sábado passado jogámos golfe.", "de": "Letzten Samstag haben wir Golf gespielt."},
+     {"pt": "Ela ficou em casa.", "de": "Sie ist zu Hause geblieben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Ontem eu ___ muito. (trabalhar)", "loesungen": ["trabalhei"], "de": "Gestern habe ich viel gearbeitet.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Ela ___ com o médico. (falar)", "loesungen": ["falou"], "de": "Sie hat mit dem Arzt gesprochen.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Nós ___ na praia. (passear)", "loesungen": ["passeámos"], "de": "Wir sind am Strand spazieren gegangen.", "erklaerung": "Wir-Form in der Vergangenheit: -ámos mit Akzent.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Eu ___ ténis. (jogar)", "loesungen": ["joguei"], "de": "Ich habe Tennis gespielt.", "kategorie": "Rechtschreibung"},
+     {"typ": "auswahl", "frage": "„Wir haben gestern gesprochen.“", "optionen": ["Falamos ontem.", "Falámos ontem.", "Temos falado ontem."], "richtig": 1, "erklaerung": "Vergangenheit: falámos (mit Akzent). „temos falado“ ist kein deutsches Perfekt.", "kategorie": "Perfeito"},
+     {"typ": "uebersetzen", "de": "Letzten Samstag bin ich zu Hause geblieben.", "loesungen": ["No sábado passado fiquei em casa.", "Fiquei em casa no sábado passado."]},
+     {"typ": "uebersetzen", "de": "Gestern Abend habe ich mit Ana gesprochen.", "loesungen": ["Ontem à noite falei com a Ana.", "Falei com a Ana ontem à noite."]},
+     {"typ": "satzbau", "de": "Sie haben bis spät gearbeitet.", "loesung": "Eles trabalharam até tarde."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Segunda de manhã – Montagmorgen",
+    "situation": "Stefan trifft seinen Nachbarn João.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Bom dia, Stefan! Então, o fim de semana?", "de": "Guten Morgen, Stefan! Na, wie war das Wochenende?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom! No sábado joguei golfe com uns amigos.", "de": "Gut! Am Samstag habe ich mit Freunden Golf gespielt."},
+     {"sprecher": "João", "stimme": "m", "pt": "E no domingo?", "de": "Und am Sonntag?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "No domingo fiquei em casa. À tarde passeámos na praia com o cão.", "de": "Am Sonntag bin ich zu Hause geblieben. Am Nachmittag sind wir mit dem Hund am Strand spazieren gegangen."},
+     {"sprecher": "João", "stimme": "m", "pt": "Eu trabalhei o fim de semana todo. Que inveja!", "de": "Ich habe das ganze Wochenende gearbeitet. Wie beneidenswert!"}
+    ],
+    "fragen": [
+     {"frage": "Was hat Stefan am Samstag gemacht?", "optionen": ["Golf gespielt", "gearbeitet", "Tennis gespielt"], "richtig": 0},
+     {"frage": "Was hat er am Sonntagnachmittag gemacht?", "optionen": ["am Strand spazieren gegangen", "gekocht", "ferngesehen"], "richtig": 0},
+     {"frage": "Und João?", "optionen": ["Er hat das ganze Wochenende gearbeitet.", "Er war auch Golf spielen.", "Er war krank."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Ontem trabalhei muito.", "de": "Gestern habe ich viel gearbeitet."},
+     {"pt": "No sábado passado joguei golfe.", "de": "Letzten Samstag habe ich Golf gespielt."},
+     {"pt": "No domingo fiquei em casa.", "de": "Am Sonntag bin ich zu Hause geblieben."},
+     {"pt": "Passeámos na praia.", "de": "Wir sind am Strand spazieren gegangen."},
+     {"pt": "Falei com o vizinho.", "de": "Ich habe mit dem Nachbarn gesprochen."}
+    ]
+   },
+   "saetze": [
+    {"id": "ontem-trabalhei", "pt": "Ontem trabalhei muito.", "de": "Gestern habe ich viel gearbeitet."},
+    {"id": "fiquei-em-casa-domingo", "pt": "No domingo fiquei em casa.", "de": "Am Sonntag bin ich zu Hause geblieben."},
+    {"id": "passeamos-praia", "pt": "Passeámos na praia.", "de": "Wir sind am Strand spazieren gegangen."}
+   ]
+  },
+  {
+   "id": "A1-12-L02",
+   "typ": "neu",
+   "titel": "Essen, ausgehen, schlafen (-er, -ir)",
+   "vokabeln": ["comi", "bebi", "sair", "sai", "dormir", "receber", "decidir", "conheci", "ha-dois-dias", "o-marisco", "a-sobremesa"],
+   "grammatik": {
+    "titel": "Pretérito perfeito: Verben auf -er und -ir",
+    "erklaerung": [
+     "<b>-er</b> (comer): eu com<b>i</b>, tu com<b>este</b>, você/ele com<b>eu</b>, nós com<b>emos</b>, vocês/eles com<b>eram</b>.",
+     "<b>-ir</b> (abrir): eu abr<b>i</b>, tu abr<b>iste</b>, você/ele abr<b>iu</b>, nós abr<b>imos</b>, vocês/eles abr<b>iram</b>.",
+     "Die eu-Form endet immer auf <b>-i</b>: comi, bebi, dormi, saí (sair bekommt einen Akzent).",
+     "<b>há</b> + Zeitraum heißt mit der Vergangenheit „vor“: <i>Cheguei há dois dias.</i> – Ich bin vor zwei Tagen angekommen."
+    ],
+    "vergleich": "„vor zwei Tagen“ = <i>há dois dias</i> – wörtlich „es gibt zwei Tage“. Wie englisch „two days ago“ steht die Zeitangabe für sich.",
+    "beispiele": [
+     {"pt": "Ontem à noite comemos marisco.", "de": "Gestern Abend haben wir Meeresfrüchte gegessen."},
+     {"pt": "Saí com amigos e dormi pouco.", "de": "Ich bin mit Freunden ausgegangen und habe wenig geschlafen."},
+     {"pt": "Recebi a carta há dois dias.", "de": "Ich habe den Brief vor zwei Tagen bekommen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ um copo de vinho. (beber)", "loesungen": ["bebi"], "de": "Ich habe ein Glas Wein getrunken.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Ela ___ muito bem. (dormir)", "loesungen": ["dormiu"], "de": "Sie hat sehr gut geschlafen.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Nós ___ marisco. (comer)", "loesungen": ["comemos"], "de": "Wir haben Meeresfrüchte gegessen.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Eles ___ ficar mais um dia. (decidir)", "loesungen": ["decidiram"], "de": "Sie haben beschlossen, noch einen Tag zu bleiben.", "kategorie": "Perfeito"},
+     {"typ": "auswahl", "frage": "„vor drei Tagen“", "optionen": ["há três dias", "desde três dias", "antes três dias"], "richtig": 0, "kategorie": "Zeitangaben"},
+     {"typ": "uebersetzen", "de": "Ich habe eine Nachricht bekommen.", "loesungen": ["Recebi uma mensagem."]},
+     {"typ": "uebersetzen", "de": "Wir sind gestern Abend ausgegangen.", "loesungen": ["Saímos ontem à noite.", "Ontem à noite saímos."]},
+     {"typ": "satzbau", "de": "Ich habe Ana vor zwei Jahren kennengelernt.", "loesung": "Conheci a Ana há dois anos."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um jantar em Olhão – ein Abendessen in Olhão",
+    "situation": "Ana erzählt ihrer Freundin Rita vom Wochenende.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então, Ana, o que fizeram no sábado?", "de": "Na, Ana, was habt ihr am Samstag gemacht?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Fomos a Olhão. Comemos marisco num restaurante ao pé do mercado.", "de": "Wir waren in Olhão. Wir haben in einem Restaurant beim Markt Meeresfrüchte gegessen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Que bom! E de sobremesa?", "de": "Wie schön! Und als Nachspeise?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Eu comi um pudim e o Stefan bebeu só um café.", "de": "Ich habe einen Pudding gegessen und Stefan hat nur einen Kaffee getrunken."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Depois saímos com uns amigos e dormimos muito pouco!", "de": "Danach sind wir mit Freunden ausgegangen und haben sehr wenig geschlafen!"}
+    ],
+    "fragen": [
+     {"frage": "Wo haben sie gegessen?", "optionen": ["in einem Restaurant beim Markt in Olhão", "zu Hause", "in Faro"], "richtig": 0},
+     {"frage": "Was hat Stefan nach dem Essen genommen?", "optionen": ["nur einen Kaffee", "einen Pudding", "einen Wein"], "richtig": 0},
+     {"frage": "Wie haben sie geschlafen?", "optionen": ["sehr wenig", "sehr gut", "lange"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Gestern habe ich Fisch gegessen.", "loesungen": ["Ontem comi peixe.", "Comi peixe ontem."]},
+     {"de": "Ich habe sehr gut geschlafen.", "loesungen": ["Dormi muito bem."]},
+     {"de": "Wir sind mit Freunden ausgegangen.", "loesungen": ["Saímos com amigos.", "Saímos com uns amigos."]},
+     {"de": "Ich bin vor zwei Tagen angekommen.", "loesungen": ["Cheguei há dois dias.", "Cheguei há 2 dias."]},
+     {"de": "Was hast du gegessen? (tu)", "loesungen": ["O que comeste?", "O que é que comeste?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "comemos-marisco", "pt": "Ontem à noite comemos marisco.", "de": "Gestern Abend haben wir Meeresfrüchte gegessen."},
+    {"id": "dormi-muito-bem", "pt": "Dormi muito bem.", "de": "Ich habe sehr gut geschlafen."},
+    {"id": "cheguei-ha-dois-dias", "pt": "Cheguei há dois dias.", "de": "Ich bin vor zwei Tagen angekommen."}
+   ]
+  },
+  {
+   "id": "A1-12-L03",
+   "typ": "neu",
+   "titel": "Urlaub: ser und ir",
+   "vokabeln": ["fui", "foi", "fomos", "foram", "as-ferias", "de-ferias", "a-viagem", "otimo", "horrivel", "divertido", "o-passeio"],
+   "grammatik": {
+    "titel": "ser und ir: gleiche Formen in der Vergangenheit",
+    "erklaerung": [
+     "<b>ser</b> (sein) und <b>ir</b> (gehen/fahren) haben im perfeito <b>dieselben</b> Formen: eu <b>fui</b>, tu <b>foste</b>, você/ele <b>foi</b>, nós <b>fomos</b>, vocês/eles <b>foram</b>.",
+     "Der Zusammenhang zeigt, was gemeint ist: <i>Fui <b>a</b> Lisboa.</i> (ir – ich bin nach Lissabon gefahren) – <i>Foi ótimo.</i> (ser – es war super).",
+     "Nach <i>ir</i> kommt <b>a</b> (+ Artikel): <i>Fui à praia, fomos ao cinema.</i>",
+     "Bewertungen mit <b>foi</b>: <i>Foi ótimo / horrível / muito divertido.</i>"
+    ],
+    "vergleich": "Kein Gegenstück im Deutschen – merk dir einfach: <i>fui</i> = „ich war“ oder „ich ging“.",
+    "beispiele": [
+     {"pt": "Fomos de férias à Madeira.", "de": "Wir sind auf Madeira in Urlaub gefahren."},
+     {"pt": "A viagem foi longa, mas foi ótimo.", "de": "Die Reise war lang, aber es war super."},
+     {"pt": "Eles foram ao concerto.", "de": "Sie sind ins Konzert gegangen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "No sábado eu ___ à praia.", "loesungen": ["fui"], "de": "Am Samstag bin ich an den Strand gegangen.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "O jantar ___ ótimo.", "loesungen": ["foi"], "de": "Das Abendessen war super.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Nós ___ a Sevilha.", "loesungen": ["fomos"], "de": "Wir sind nach Sevilla gefahren.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "As férias ___ fantásticas.", "loesungen": ["foram"], "de": "Der Urlaub war fantastisch.", "kategorie": "Perfeito"},
+     {"typ": "auswahl", "frage": "„Fui ao cinema.“ bedeutet:", "optionen": ["Ich bin ins Kino gegangen.", "Ich war das Kino.", "Ich gehe ins Kino."], "richtig": 0, "kategorie": "Perfeito"},
+     {"typ": "uebersetzen", "de": "Die Party war sehr lustig.", "loesungen": ["A festa foi muito divertida."]},
+     {"typ": "uebersetzen", "de": "Wo warst du im Urlaub? (tu, ir)", "loesungen": ["Onde foste de férias?", "Onde é que foste de férias?"]},
+     {"typ": "satzbau", "de": "Wir haben eine Bootstour gemacht und es war super.", "loesung": "Fizemos um passeio de barco e foi ótimo."}
+    ]
+   },
+   "hoeren": {
+    "titel": "As férias da Rita – Ritas Urlaub",
+    "situation": "Rita ist aus dem Urlaub zurück.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Olá, Rita! Que tal as férias?", "de": "Hallo Rita! Wie war der Urlaub?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Foram ótimas! Fui aos Açores com o meu marido.", "de": "Super! Ich war mit meinem Mann auf den Azoren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que bom! E o tempo?", "de": "Wie schön! Und das Wetter?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "O tempo foi horrível, choveu muito. Mas fomos ver as baleias. Foi fantástico!", "de": "Das Wetter war schrecklich, es hat viel geregnet. Aber wir haben die Wale angeschaut. Es war fantastisch!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a viagem de avião?", "de": "Und der Flug?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Foi rápida, só duas horas.", "de": "Der war schnell, nur zwei Stunden."}
+    ],
+    "fragen": [
+     {"frage": "Wo war Rita im Urlaub?", "optionen": ["auf den Azoren", "auf Madeira", "in Spanien"], "richtig": 0},
+     {"frage": "Wie war das Wetter?", "optionen": ["schrecklich, viel Regen", "sehr heiß", "sonnig"], "richtig": 0},
+     {"frage": "Was war fantastisch?", "optionen": ["die Wale", "das Essen", "das Hotel"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Eine Kollegin fragt nach deinem Urlaub in Spanien.",
+    "zeilen": [
+     {"sprecher": "Colega", "stimme": "f", "pt": "Então, que tal as férias?", "de": "Na, wie war der Urlaub?"},
+     {"ich": true, "aufgabe": "Sag: Super! Wir sind nach Sevilla gefahren.", "loesungen": ["Ótimas! Fomos a Sevilha.", "Foram ótimas! Fomos a Sevilha.", "Ótimo! Fomos a Sevilha.", "Foi ótimo! Fomos a Sevilha."]},
+     {"sprecher": "Colega", "stimme": "f", "pt": "E foram de carro?", "de": "Und seid ihr mit dem Auto gefahren?"},
+     {"ich": true, "aufgabe": "Sag: Ja, die Reise war lang.", "loesungen": ["Sim, a viagem foi longa.", "Fomos, a viagem foi longa.", "Sim, fomos. A viagem foi longa."]},
+     {"sprecher": "Colega", "stimme": "f", "pt": "E Sevilha?", "de": "Und Sevilla?"},
+     {"ich": true, "aufgabe": "Sag: Es war sehr schön und sehr heiß.", "loesungen": ["Foi muito bonito e muito quente.", "Foi muito bonita e esteve muito calor.", "Foi muito bonito e esteve muito calor.", "Foi lindo e esteve muito calor."]}
+    ]
+   },
+   "saetze": [
+    {"id": "fui-a-praia", "pt": "No sábado fui à praia.", "de": "Am Samstag bin ich an den Strand gegangen."},
+    {"id": "que-tal-ferias", "pt": "Que tal as férias?", "de": "Wie war der Urlaub?"},
+    {"id": "foi-otimo", "pt": "A viagem foi longa, mas foi ótimo.", "de": "Die Reise war lang, aber es war super."}
+   ]
+  },
+  {
+   "id": "A1-12-L04",
+   "typ": "neu",
+   "titel": "Glück und Pech: ter und estar",
+   "vokabeln": ["tive", "teve", "tivemos", "estive", "esteve", "estivemos", "a-sorte", "o-azar", "o-dia-todo", "o-transito", "o-atraso"],
+   "grammatik": {
+    "titel": "ter und estar in der Vergangenheit",
+    "erklaerung": [
+     "<b>ter</b>: eu <b>tive</b>, tu <b>tiveste</b>, você/ele <b>teve</b>, nós <b>tivemos</b>, vocês/eles <b>tiveram</b>.",
+     "<b>estar</b>: eu <b>estive</b>, tu <b>estiveste</b>, você/ele <b>esteve</b>, nós <b>estivemos</b>, vocês/eles <b>estiveram</b>.",
+     "<b>estive</b> für Orte und vorübergehende Zustände: <i>Estive em Lisboa. Estive doente.</i> – <b>foi</b> für Bewertungen: <i>Foi ótimo.</i>",
+     "<b>tive de</b> + Infinitiv = ich musste: <i>Tive de esperar uma hora.</i>"
+    ],
+    "vergleich": "„Ich war in Lissabon“ = <i>Estive em Lisboa</i> (Aufenthalt). „Ich bin nach Lissabon gefahren“ = <i>Fui a Lisboa</i> (Bewegung).",
+    "beispiele": [
+     {"pt": "Tivemos sorte com o tempo.", "de": "Wir hatten Glück mit dem Wetter."},
+     {"pt": "Estive o dia todo em casa.", "de": "Ich war den ganzen Tag zu Hause."},
+     {"pt": "Tive de esperar uma hora.", "de": "Ich musste eine Stunde warten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Ontem eu ___ doente. (estar)", "loesungen": ["estive"], "de": "Gestern war ich krank.", "kategorie": "ser/estar"},
+     {"typ": "luecke", "satz": "Nós ___ muita sorte. (ter)", "loesungen": ["tivemos"], "de": "Wir hatten viel Glück.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "O voo ___ uma hora de atraso. (ter)", "loesungen": ["teve"], "de": "Der Flug hatte eine Stunde Verspätung.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Eu ___ de esperar. (ter)", "loesungen": ["tive"], "de": "Ich musste warten.", "kategorie": "ter de"},
+     {"typ": "auswahl", "frage": "„Ich war letzte Woche in Porto.“", "optionen": ["Estive no Porto a semana passada.", "Fui no Porto a semana passada.", "Estava no Porto a semana passada."], "richtig": 0, "erklaerung": "Aufenthalt an einem Ort (abgeschlossen): estive.", "kategorie": "ser/estar"},
+     {"typ": "uebersetzen", "de": "So ein Pech!", "loesungen": ["Que azar!"]},
+     {"typ": "uebersetzen", "de": "Es gab viel Verkehr und ich musste warten.", "loesungen": ["Havia muito trânsito e tive de esperar.", "Havia muito trânsito e tive que esperar."]},
+     {"typ": "satzbau", "de": "Wir waren den ganzen Tag am Strand.", "loesung": "Estivemos o dia todo na praia."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um dia de azar – ein Pechtag",
+    "situation": "Stefan erzählt Ana von seiner Fahrt nach Lissabon.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então, como foi em Lisboa?", "de": "Na, wie war es in Lissabon?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Um dia de azar! O comboio teve uma hora de atraso.", "de": "Ein Pechtag! Der Zug hatte eine Stunde Verspätung."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Que azar! E a reunião?", "de": "So ein Pech! Und die Besprechung?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tive de mudar a reunião para a tarde. Mas depois correu bem.", "de": "Ich musste die Besprechung auf den Nachmittag verlegen. Aber dann lief es gut."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E à noite estive com o Pedro. Tivemos um jantar ótimo.", "de": "Und am Abend war ich mit Pedro zusammen. Wir hatten ein super Abendessen."}
+    ],
+    "fragen": [
+     {"frage": "Was war das Problem?", "optionen": ["Der Zug hatte eine Stunde Verspätung.", "Stefan war krank.", "Es gab viel Verkehr."], "richtig": 0},
+     {"frage": "Was musste Stefan tun?", "optionen": ["die Besprechung verlegen", "ein Taxi nehmen", "übernachten"], "richtig": 0},
+     {"frage": "Mit wem war er am Abend?", "optionen": ["mit Pedro", "mit Ana", "mit Kollegen"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Tivemos sorte com o tempo.", "de": "Wir hatten Glück mit dem Wetter."},
+     {"pt": "Estive o dia todo em casa.", "de": "Ich war den ganzen Tag zu Hause."},
+     {"pt": "O comboio teve uma hora de atraso.", "de": "Der Zug hatte eine Stunde Verspätung."},
+     {"pt": "Tive de esperar muito tempo.", "de": "Ich musste lange warten."},
+     {"pt": "Que azar!", "de": "So ein Pech!"}
+    ]
+   },
+   "saetze": [
+    {"id": "tivemos-sorte", "pt": "Tivemos sorte com o tempo.", "de": "Wir hatten Glück mit dem Wetter."},
+    {"id": "estive-dia-todo", "pt": "Estive o dia todo em casa.", "de": "Ich war den ganzen Tag zu Hause."},
+    {"id": "tive-de-esperar", "pt": "Tive de esperar uma hora.", "de": "Ich musste eine Stunde warten."}
+   ]
+  },
+  {
+   "id": "A1-12-L05",
+   "typ": "neu",
+   "titel": "Was hast du gemacht? fazer und ver",
+   "vokabeln": ["fiz", "fez", "fizemos", "vi", "viu", "vimos", "o-filme", "a-exposicao", "a-caminhada", "o-jogo", "as-compras"],
+   "grammatik": {
+    "titel": "fazer und ver in der Vergangenheit",
+    "erklaerung": [
+     "<b>fazer</b>: eu <b>fiz</b>, tu <b>fizeste</b>, você/ele <b>fez</b>, nós <b>fizemos</b>, vocês/eles <b>fizeram</b>.",
+     "<b>ver</b>: eu <b>vi</b>, tu <b>viste</b>, você/ele <b>viu</b>, nós <b>vimos</b>, vocês/eles <b>viram</b>.",
+     "Die Standardfrage nach dem Wochenende: <i>O que fez no fim de semana?</i> (formell) / <i>O que fizeste?</i> (tu).",
+     "Feste Verbindungen mit fazer: <i>fazer uma caminhada, fazer as compras, fazer anos</i> (Geburtstag haben)."
+    ],
+    "vergleich": "Englisch hilft: <i>fiz</i> ≈ „I did“, <i>vi</i> ≈ „I saw“ – unregelmäßig wie im Englischen.",
+    "beispiele": [
+     {"pt": "O que fez no fim de semana?", "de": "Was haben Sie am Wochenende gemacht?"},
+     {"pt": "Fizemos uma caminhada e vimos golfinhos.", "de": "Wir haben eine Wanderung gemacht und Delfine gesehen."},
+     {"pt": "Viste o jogo ontem?", "de": "Hast du gestern das Spiel gesehen?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O que ___ no fim de semana? (formell, fazer)", "loesungen": ["fez"], "de": "Was haben Sie am Wochenende gemacht?", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Eu ___ um bolo. (fazer)", "loesungen": ["fiz"], "de": "Ich habe einen Kuchen gemacht.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Nós ___ golfinhos! (ver)", "loesungen": ["vimos"], "de": "Wir haben Delfine gesehen!", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "___ o jogo ontem? (tu, ver)", "loesungen": ["Viste"], "de": "Hast du gestern das Spiel gesehen?", "kategorie": "Perfeito"},
+     {"typ": "auswahl", "frage": "„Sie haben die Einkäufe gemacht.“ (eles)", "optionen": ["Eles fizeram as compras.", "Eles fazeram as compras.", "Eles fez as compras."], "richtig": 0, "kategorie": "Perfeito"},
+     {"typ": "uebersetzen", "de": "Ich habe einen super Film gesehen.", "loesungen": ["Vi um filme ótimo.", "Vi um ótimo filme."]},
+     {"typ": "uebersetzen", "de": "Was hast du gestern gemacht? (tu)", "loesungen": ["O que fizeste ontem?", "O que é que fizeste ontem?"]},
+     {"typ": "satzbau", "de": "Wir haben eine Ausstellung in Faro gesehen.", "loesung": "Vimos uma exposição em Faro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O que fizeste? – Was hast du gemacht?",
+    "situation": "Stefan und sein Freund Pedro telefonieren am Montag.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Olá, Stefan! O que fizeste no fim de semana?", "de": "Hallo Stefan! Was hast du am Wochenende gemacht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "No sábado fizemos uma caminhada na Rota Vicentina. Vimos o mar e muitas flores.", "de": "Am Samstag haben wir eine Wanderung auf der Rota Vicentina gemacht. Wir haben das Meer und viele Blumen gesehen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Que bom! E viste o jogo no domingo?", "de": "Wie schön! Und hast du am Sonntag das Spiel gesehen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, no domingo fiz as compras e vi um filme em casa.", "de": "Nein, am Sonntag habe ich eingekauft und zu Hause einen Film gesehen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Pois, o Benfica perdeu. Fizeste bem!", "de": "Tja, Benfica hat verloren. Du hast gut daran getan!"}
+    ],
+    "fragen": [
+     {"frage": "Was haben sie am Samstag gemacht?", "optionen": ["eine Wanderung", "eine Bootstour", "eingekauft"], "richtig": 0},
+     {"frage": "Was hat Stefan am Sonntag NICHT gemacht?", "optionen": ["das Spiel gesehen", "eingekauft", "einen Film gesehen"], "richtig": 0},
+     {"frage": "Wie ist das Spiel ausgegangen?", "optionen": ["Benfica hat verloren.", "Benfica hat gewonnen.", "unentschieden"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Deine Portugiesischlehrerin fragt am Montag nach deinem Wochenende.",
+    "zeilen": [
+     {"sprecher": "Professora", "stimme": "f", "pt": "Bom dia! O que fez no fim de semana?", "de": "Guten Morgen! Was haben Sie am Wochenende gemacht?"},
+     {"ich": true, "aufgabe": "Sag: Am Samstag habe ich eine Wanderung gemacht.", "loesungen": ["No sábado fiz uma caminhada.", "Fiz uma caminhada no sábado."]},
+     {"sprecher": "Professora", "stimme": "f", "pt": "Muito bem! E no domingo?", "de": "Sehr gut! Und am Sonntag?"},
+     {"ich": true, "aufgabe": "Sag: Am Sonntag habe ich einen Film gesehen.", "loesungen": ["No domingo vi um filme.", "Vi um filme no domingo."]},
+     {"sprecher": "Professora", "stimme": "f", "pt": "Que filme viu?", "de": "Welchen Film haben Sie gesehen?"},
+     {"ich": true, "aufgabe": "Sag: Einen portugiesischen Film. Er war sehr gut.", "loesungen": ["Um filme português. Foi muito bom.", "Vi um filme português. Foi muito bom."]}
+    ]
+   },
+   "saetze": [
+    {"id": "o-que-fez-fds", "pt": "O que fez no fim de semana?", "de": "Was haben Sie am Wochenende gemacht?"},
+    {"id": "fizemos-caminhada", "pt": "Fizemos uma caminhada e vimos golfinhos.", "de": "Wir haben eine Wanderung gemacht und Delfine gesehen."},
+    {"id": "vi-um-filme", "pt": "Vi um filme ótimo.", "de": "Ich habe einen super Film gesehen."}
+   ]
+  },
+  {
+   "id": "A1-12-L06",
+   "typ": "neu",
+   "titel": "Erzählen: Como correu?",
+   "vokabeln": ["como-correu", "correu-bem", "correu-mal", "que-tal", "a-seguir", "no-fim", "finalmente", "entao", "de-repente", "contar"],
+   "grammatik": {
+    "titel": "Eine kleine Geschichte erzählen",
+    "erklaerung": [
+     "Mit <b>Como correu …?</b> fragt man, wie etwas gelaufen ist: <i>Como correu a viagem?</i> Antwort: <i>Correu bem / mal / muito bem.</i>",
+     "Die Reihenfolge machen kleine Wörter klar: <b>primeiro</b> (zuerst) → <b>depois</b> / <b>a seguir</b> (danach) → <b>então</b> (dann) → <b>no fim</b> / <b>finalmente</b> (am Ende / schließlich).",
+     "Überraschung: <b>de repente</b> (plötzlich).",
+     "Alle Verben in der Geschichte stehen im <b>perfeito</b>: <i>Primeiro fomos à praia, depois almoçámos e no fim vimos o pôr do sol.</i>"
+    ],
+    "vergleich": "Wie im Deutschen: „zuerst … dann … am Ende“ – nur die Verben sind kürzer.",
+    "beispiele": [
+     {"pt": "Como correu o fim de semana?", "de": "Wie war das Wochenende?"},
+     {"pt": "Primeiro fomos à praia, a seguir almoçámos.", "de": "Zuerst sind wir an den Strand gegangen, danach haben wir zu Mittag gegessen."},
+     {"pt": "De repente começou a chover.", "de": "Plötzlich fing es an zu regnen."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Wie ist die Besprechung gelaufen?“", "optionen": ["Como correu a reunião?", "Como corre a reunião?", "Como foi correr a reunião?"], "richtig": 0, "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Correu muito ___.", "loesungen": ["bem"], "de": "Es ist sehr gut gelaufen."},
+     {"typ": "luecke", "satz": "Primeiro jantámos, ___ fomos ao cinema.", "loesungen": ["depois", "a seguir", "então"], "de": "Zuerst haben wir zu Abend gegessen, danach sind wir ins Kino gegangen.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "De ___ começou a chover.", "loesungen": ["repente"], "de": "Plötzlich fing es an zu regnen.", "kategorie": "Konnektoren"},
+     {"typ": "uebersetzen", "de": "Wie war der Urlaub? (Que tal …)", "loesungen": ["Que tal as férias?"]},
+     {"typ": "uebersetzen", "de": "Endlich sind wir zu Hause angekommen.", "loesungen": ["Finalmente chegámos a casa.", "Chegámos finalmente a casa."]},
+     {"typ": "satzbau", "de": "Am Ende haben wir den Sonnenuntergang gesehen.", "loesung": "No fim vimos o pôr do sol."},
+     {"typ": "diktat", "pt": "A viagem correu muito bem."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um sábado em Sagres – ein Samstag in Sagres",
+    "situation": "Stefan erzählt Rita von einem Ausflug.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então, como correu o passeio a Sagres?", "de": "Na, wie ist der Ausflug nach Sagres gelaufen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Correu muito bem! Primeiro fomos à fortaleza.", "de": "Sehr gut! Zuerst sind wir zur Festung gegangen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A seguir almoçámos peixe num restaurante ao pé do porto.", "de": "Danach haben wir in einem Restaurant am Hafen Fisch gegessen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "De repente começou a chover, então fomos ao café.", "de": "Plötzlich fing es an zu regnen, also sind wir ins Café gegangen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "No fim o sol voltou e vimos o pôr do sol no Cabo de São Vicente.", "de": "Am Ende kam die Sonne zurück und wir haben den Sonnenuntergang am Cabo de São Vicente gesehen."}
+    ],
+    "fragen": [
+     {"frage": "Was haben sie zuerst besucht?", "optionen": ["die Festung", "den Hafen", "das Café"], "richtig": 0},
+     {"frage": "Warum sind sie ins Café gegangen?", "optionen": ["Es fing an zu regnen.", "Sie waren müde.", "Sie hatten Durst."], "richtig": 0},
+     {"frage": "Was haben sie am Ende gesehen?", "optionen": ["den Sonnenuntergang", "Delfine", "ein Konzert"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Erzähl dein Wochenende in kurzen Sätzen auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Zuerst bin ich an den Strand gegangen.", "loesungen": ["Primeiro fui à praia."]},
+     {"de": "Danach habe ich mit Freunden zu Mittag gegessen.", "loesungen": ["Depois almocei com amigos.", "A seguir almocei com amigos.", "Depois almocei com uns amigos.", "A seguir almocei com uns amigos."]},
+     {"de": "Plötzlich fing es an zu regnen.", "loesungen": ["De repente começou a chover."]},
+     {"de": "Am Ende habe ich einen Film gesehen.", "loesungen": ["No fim vi um filme.", "Finalmente vi um filme."]},
+     {"de": "Es war ein super Wochenende.", "loesungen": ["Foi um fim de semana ótimo.", "Foi um ótimo fim de semana."]}
+    ]
+   },
+   "saetze": [
+    {"id": "como-correu-fds", "pt": "Como correu o fim de semana?", "de": "Wie war das Wochenende?"},
+    {"id": "correu-muito-bem", "pt": "Correu muito bem!", "de": "Es ist sehr gut gelaufen!"},
+    {"id": "de-repente-chover", "pt": "De repente começou a chover.", "de": "Plötzlich fing es an zu regnen."}
+   ]
+  },
+  {"id": "A1-12-L07", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A1-12-L08", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Segunda-feira no escritório – Montag im Büro",
+   "situation": "Zwei Kollegen sprechen über ihr Wochenende.",
+   "zeilen": [
+    {"sprecher": "Marta", "stimme": "f", "pt": "Bom dia, Paulo! Como correu o fim de semana?", "de": "Guten Morgen, Paulo! Wie war dein Wochenende?"},
+    {"sprecher": "Paulo", "stimme": "m", "pt": "Correu bem. Fui ao Porto ver a minha irmã. Fomos de comboio.", "de": "Gut. Ich war in Porto bei meiner Schwester. Wir sind mit dem Zug gefahren."},
+    {"sprecher": "Marta", "stimme": "f", "pt": "E o que fizeram lá?", "de": "Und was habt ihr dort gemacht?"},
+    {"sprecher": "Paulo", "stimme": "m", "pt": "No sábado passeámos na Ribeira e comemos uma francesinha. No domingo choveu, então vimos uma exposição.", "de": "Am Samstag sind wir an der Ribeira spazieren gegangen und haben eine Francesinha gegessen. Am Sonntag hat es geregnet, also haben wir eine Ausstellung angeschaut."},
+    {"sprecher": "Marta", "stimme": "f", "pt": "Que bom! Eu estive o fim de semana todo em casa. Tive gripe.", "de": "Wie schön! Ich war das ganze Wochenende zu Hause. Ich hatte Grippe."},
+    {"sprecher": "Paulo", "stimme": "m", "pt": "Que azar! As melhoras!", "de": "So ein Pech! Gute Besserung!"}
+   ],
+   "fragen": [
+    {"frage": "Wen hat Paulo besucht?", "optionen": ["seine Schwester", "seine Mutter", "einen Freund"], "richtig": 0},
+    {"frage": "Wie ist er nach Porto gefahren?", "optionen": ["mit dem Zug", "mit dem Auto", "mit dem Flugzeug"], "richtig": 0},
+    {"frage": "Was haben sie am Sonntag gemacht?", "optionen": ["eine Ausstellung angeschaut", "einen Spaziergang gemacht", "ein Fußballspiel gesehen"], "richtig": 0},
+    {"frage": "Warum war Marta zu Hause?", "optionen": ["Sie hatte Grippe.", "Es hat geregnet.", "Sie musste arbeiten."], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Uma mensagem da Ana – eine Nachricht von Ana",
+   "situation": "Ana schreibt ihrer Freundin Rita nach einem Ausflug.",
+   "text": [
+    "Olá, Rita! Ontem fomos a Tavira. Foi um dia ótimo!",
+    "Primeiro passeámos no centro e vimos as igrejas. A seguir apanhámos o barco para a Ilha de Tavira.",
+    "Almoçámos na praia: peixe grelhado e salada. O Stefan bebeu um vinho branco e eu uma água.",
+    "No fim tivemos azar: perdemos o último barco e tivemos de apanhar um táxi!",
+    "Beijinhos, Ana"
+   ],
+   "fragen": [
+    {"frage": "Wo waren Ana und Stefan?", "optionen": ["in Tavira", "in Sagres", "in Faro"], "richtig": 0},
+    {"frage": "Was haben sie nach dem Spaziergang gemacht?", "optionen": ["das Boot zur Insel genommen", "eingekauft", "eine Ausstellung angeschaut"], "richtig": 0},
+    {"frage": "Was hat Ana getrunken?", "optionen": ["Wasser", "Weißwein", "Kaffee"], "richtig": 0},
+    {"frage": "Welches Pech hatten sie?", "optionen": ["Sie haben das letzte Boot verpasst.", "Es hat geregnet.", "Das Restaurant war geschlossen."], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Gestern habe ich viel gearbeitet.", "loesungen": ["Ontem trabalhei muito.", "Trabalhei muito ontem."]},
+   {"de": "Am Samstag bin ich an den Strand gegangen.", "loesungen": ["No sábado fui à praia.", "Fui à praia no sábado."]},
+   {"de": "Wir haben Meeresfrüchte gegessen.", "loesungen": ["Comemos marisco."]},
+   {"de": "Ich war den ganzen Tag zu Hause.", "loesungen": ["Estive o dia todo em casa.", "Estive em casa o dia todo."]},
+   {"de": "Was haben Sie am Wochenende gemacht?", "loesungen": ["O que fez no fim de semana?", "O que é que fez no fim de semana?"]},
+   {"de": "Der Urlaub war super.", "loesungen": ["As férias foram ótimas."]}
+  ],
+  "sprechen": [
+   {"pt": "Como correu o fim de semana?", "de": "Wie war das Wochenende?"},
+   {"pt": "No sábado passado joguei golfe.", "de": "Letzten Samstag habe ich Golf gespielt."},
+   {"pt": "Fomos a Sevilha e foi ótimo.", "de": "Wir sind nach Sevilla gefahren, und es war super."},
+   {"pt": "Tivemos sorte com o tempo.", "de": "Wir hatten Glück mit dem Wetter."},
+   {"pt": "Primeiro fiz as compras, depois vi um filme.", "de": "Zuerst habe ich eingekauft, danach habe ich einen Film gesehen."}
+  ]
+ }
+}
