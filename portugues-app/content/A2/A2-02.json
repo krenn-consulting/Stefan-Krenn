@@ -1,0 +1,646 @@
+{
+ "id": "A2-02",
+ "level": "A2",
+ "titel": "Antigamente – Früher und heute",
+ "beschreibung": "Von der Kindheit und von früher erzählen, früher und heute vergleichen: Pretérito imperfeito (regelmäßig und ser, ter, ir, vir, pôr) und der Unterschied zwischen imperfeito und perfeito.",
+ "vokabeln": [
+  {"id": "antigamente", "pt": "antigamente", "de": "früher / in alten Zeiten", "emoji": "🏚️", "beispiel_pt": "Antigamente a vida era mais simples.", "beispiel_de": "Früher war das Leben einfacher."},
+  {"id": "a-aldeia", "pt": "a aldeia", "de": "das Dorf", "emoji": "🏘️", "beispiel_pt": "A aldeia tinha só uma rua.", "beispiel_de": "Das Dorf hatte nur eine Straße."},
+  {"id": "a-quinta", "pt": "a quinta", "de": "der Bauernhof / das Landgut", "emoji": "🐄", "beispiel_pt": "Os meus avós tinham uma quinta.", "beispiel_de": "Meine Großeltern hatten einen Bauernhof.", "hinweis": "auch: Weingut (uma quinta no Douro)"},
+  {"id": "o-avo", "pt": "o avô", "de": "der Großvater", "emoji": "👴", "beispiel_pt": "O meu avô trabalhava na quinta.", "beispiel_de": "Mein Großvater arbeitete auf dem Bauernhof.", "hinweis": "avô (geschlossenes o) – avó (offenes ó)"},
+  {"id": "a-avo", "pt": "a avó", "de": "die Großmutter", "emoji": "👵", "beispiel_pt": "A minha avó cozinhava muito bem.", "beispiel_de": "Meine Großmutter kochte sehr gut."},
+  {"id": "todos-os-veroes", "pt": "todos os verões", "de": "jeden Sommer", "emoji": "☀️", "beispiel_pt": "Todos os verões passávamos lá um mês.", "beispiel_de": "Jeden Sommer verbrachten wir dort einen Monat."},
+  {"id": "andar-de-bicicleta", "pt": "andar de bicicleta", "de": "Fahrrad fahren", "emoji": "🚲", "beispiel_pt": "Andava de bicicleta na aldeia.", "beispiel_de": "Ich fuhr im Dorf Fahrrad.", "hinweis": "andar de + Fahrzeug: andar de comboio, andar de barco"},
+
+  {"id": "a-eletricidade", "pt": "a eletricidade", "de": "der Strom / die Elektrizität", "emoji": "🔌", "beispiel_pt": "Na aldeia não havia eletricidade.", "beispiel_de": "Im Dorf gab es keinen Strom."},
+  {"id": "havia", "pt": "havia", "de": "es gab", "emoji": "🏞️", "beispiel_pt": "Havia poucas casas.", "beispiel_de": "Es gab wenige Häuser.", "hinweis": "Imperfeito von há – immer Singular: havia muitos turistas"},
+  {"id": "a-vela", "pt": "a vela", "de": "die Kerze", "emoji": "🕯️", "beispiel_pt": "À noite acendíamos velas.", "beispiel_de": "Abends zündeten wir Kerzen an."},
+  {"id": "a-lareira", "pt": "a lareira", "de": "der Kamin", "emoji": "🔥", "beispiel_pt": "No inverno sentávamo-nos à lareira.", "beispiel_de": "Im Winter saßen wir am Kamin."},
+  {"id": "a-lenha", "pt": "a lenha", "de": "das Brennholz", "emoji": "🪵", "beispiel_pt": "O meu pai cortava lenha.", "beispiel_de": "Mein Vater hackte Holz."},
+  {"id": "a-radio", "pt": "a rádio", "de": "das Radio", "emoji": "📻", "beispiel_pt": "Ouvíamos as notícias na rádio.", "beispiel_de": "Wir hörten die Nachrichten im Radio.", "hinweis": "a rádio = Radio (Sender und Gerät); o rádio = nur das Gerät"},
+  {"id": "a-sopa", "pt": "a sopa", "de": "die Suppe", "emoji": "🍲", "beispiel_pt": "Comíamos sopa todos os dias.", "beispiel_de": "Wir aßen jeden Tag Suppe.", "hinweis": "In Portugal gibt es fast zu jeder Mahlzeit Suppe."},
+  {"id": "acender", "pt": "acender", "de": "anzünden / einschalten", "emoji": "💡", "beispiel_pt": "Podes acender a luz?", "beispiel_de": "Kannst du das Licht einschalten?", "hinweis": "Gegenteil: apagar"},
+
+  {"id": "era", "pt": "era", "de": "ich war / er/sie/es war (Beschreibung)", "emoji": "🖼️", "beispiel_pt": "A casa era muito pequena.", "beispiel_de": "Das Haus war sehr klein."},
+  {"id": "tinha", "pt": "tinha", "de": "ich hatte / er/sie hatte", "emoji": "🐕", "beispiel_pt": "Tinha um cão chamado Max.", "beispiel_de": "Ich hatte einen Hund namens Max."},
+  {"id": "ia", "pt": "ia", "de": "ich ging / er/sie ging (regelmäßig)", "emoji": "🚸", "beispiel_pt": "Ia a pé para a escola.", "beispiel_de": "Ich ging zu Fuß zur Schule."},
+  {"id": "vinha", "pt": "vinha", "de": "ich kam / er/sie kam (regelmäßig)", "emoji": "📬", "beispiel_pt": "O carteiro vinha todos os dias às dez.", "beispiel_de": "Der Briefträger kam jeden Tag um zehn."},
+  {"id": "punha", "pt": "punha", "de": "ich legte / er/sie stellte (regelmäßig)", "emoji": "🌷", "beispiel_pt": "A minha mãe punha flores na mesa.", "beispiel_de": "Meine Mutter stellte Blumen auf den Tisch."},
+  {"id": "o-carteiro", "pt": "o carteiro", "de": "der Briefträger", "emoji": "📮", "beispiel_pt": "O carteiro já passou?", "beispiel_de": "War der Briefträger schon da?"},
+  {"id": "a-costureira", "pt": "a costureira", "de": "die Schneiderin", "emoji": "🧵", "beispiel_pt": "A minha avó era costureira.", "beispiel_de": "Meine Großmutter war Schneiderin."},
+
+  {"id": "costumar", "pt": "costumar", "de": "pflegen zu / gewöhnlich tun", "emoji": "🔁", "beispiel_pt": "Costumava ir a pé para a escola.", "beispiel_de": "Früher ging ich gewöhnlich zu Fuß zur Schule.", "hinweis": "costumo (heute) – costumava (früher, wie engl. „used to“)"},
+  {"id": "brincar", "pt": "brincar", "de": "spielen (Kinder) / scherzen", "emoji": "🤸", "beispiel_pt": "As crianças brincavam na rua.", "beispiel_de": "Die Kinder spielten auf der Straße.", "hinweis": "brincar = frei spielen; jogar = Spiel mit Regeln (Fußball, Karten); Estás a brincar? = Machst du Witze?"},
+  {"id": "a-infancia", "pt": "a infância", "de": "die Kindheit", "emoji": "🧒", "beispiel_pt": "Tive uma infância muito feliz.", "beispiel_de": "Ich hatte eine sehr glückliche Kindheit."},
+  {"id": "a-escola-primaria", "pt": "a escola primária", "de": "die Grundschule", "emoji": "✏️", "beispiel_pt": "A escola primária ficava ao lado da igreja.", "beispiel_de": "Die Grundschule lag neben der Kirche."},
+  {"id": "o-recreio", "pt": "o recreio", "de": "die (Schul-)Pause / der Pausenhof", "emoji": "🛝", "beispiel_pt": "No recreio jogávamos à bola.", "beispiel_de": "In der Pause spielten wir Fußball."},
+  {"id": "o-brinquedo", "pt": "o brinquedo", "de": "das Spielzeug", "emoji": "🧸", "beispiel_pt": "O meu brinquedo preferido era um comboio.", "beispiel_de": "Mein Lieblingsspielzeug war eine Eisenbahn."},
+  {"id": "os-trabalhos-de-casa", "pt": "os trabalhos de casa", "de": "die Hausaufgaben", "emoji": "📓", "beispiel_pt": "Fazia os trabalhos de casa depois do almoço.", "beispiel_de": "Ich machte die Hausaufgaben nach dem Mittagessen.", "hinweis": "abgekürzt: os TPC"},
+
+  {"id": "ja-nao", "pt": "já não", "de": "nicht mehr", "emoji": "🚭", "beispiel_pt": "Já não fumo.", "beispiel_de": "Ich rauche nicht mehr.", "hinweis": "pt-PT: já não + Verb (nicht: não … mais)"},
+  {"id": "ainda", "pt": "ainda", "de": "noch", "emoji": "🔂", "beispiel_pt": "Ainda moras em Viena?", "beispiel_de": "Wohnst du noch in Wien?", "hinweis": "ainda não = noch nicht"},
+  {"id": "hoje-em-dia", "pt": "hoje em dia", "de": "heutzutage", "emoji": "📱", "beispiel_pt": "Hoje em dia toda a gente tem telemóvel.", "beispiel_de": "Heutzutage hat jeder ein Handy."},
+  {"id": "antes", "pt": "antes", "de": "früher / vorher", "emoji": "⬅️", "beispiel_pt": "Antes vivia em Viena, agora vivo em Lagos.", "beispiel_de": "Früher lebte ich in Wien, jetzt lebe ich in Lagos.", "hinweis": "antes de + Infinitiv = bevor"},
+  {"id": "mudar", "pt": "mudar", "de": "(sich) ändern / wechseln", "emoji": "🔄", "beispiel_pt": "Lagos mudou muito.", "beispiel_de": "Lagos hat sich sehr verändert.", "hinweis": "mudar-se = umziehen"},
+  {"id": "a-diferenca", "pt": "a diferença", "de": "der Unterschied", "emoji": "⚖️", "beispiel_pt": "Qual é a diferença?", "beispiel_de": "Was ist der Unterschied?"},
+  {"id": "cada-vez-mais", "pt": "cada vez mais", "de": "immer mehr", "emoji": "⬆️", "beispiel_pt": "Há cada vez mais turistas.", "beispiel_de": "Es gibt immer mehr Touristen.", "hinweis": "Gegenteil: cada vez menos"},
+
+  {"id": "feliz", "pt": "feliz", "de": "glücklich", "emoji": "😊", "beispiel_pt": "Era uma criança muito feliz.", "beispiel_de": "Ich war ein sehr glückliches Kind.", "hinweis": "Plural: felizes"},
+  {"id": "nervoso", "pt": "nervoso", "de": "nervös", "emoji": "😬", "beispiel_pt": "Estava muito nervoso antes da entrevista.", "beispiel_de": "Ich war vor dem Vorstellungsgespräch sehr nervös.", "alternativen": ["nervosa"]},
+  {"id": "ter-medo", "pt": "ter medo", "de": "Angst haben", "emoji": "😨", "beispiel_pt": "Tinha medo do escuro.", "beispiel_de": "Ich hatte Angst vor der Dunkelheit.", "hinweis": "ter medo de algo / de alguém"},
+  {"id": "os-oculos", "pt": "os óculos", "de": "die Brille", "emoji": "👓", "beispiel_pt": "Usava uns óculos redondos.", "beispiel_de": "Er trug eine runde Brille.", "hinweis": "Immer Plural: os óculos"},
+  {"id": "a-barba", "pt": "a barba", "de": "der Bart", "emoji": "🧔", "beispiel_pt": "O meu pai tinha barba.", "beispiel_de": "Mein Vater hatte einen Bart."},
+  {"id": "usar", "pt": "usar", "de": "benutzen / tragen (Brille, Kleidung)", "emoji": "🧥", "beispiel_pt": "Usava sempre um chapéu.", "beispiel_de": "Er trug immer einen Hut."},
+  {"id": "o-nevoeiro", "pt": "o nevoeiro", "de": "der Nebel", "emoji": "🌫️", "beispiel_pt": "Havia muito nevoeiro de manhã.", "beispiel_de": "Am Morgen war es sehr neblig."},
+
+  {"id": "quando", "pt": "quando", "de": "als / wenn / wann", "emoji": "⏰", "beispiel_pt": "Estava a jantar quando o telefone tocou.", "beispiel_de": "Ich aß gerade zu Abend, als das Telefon klingelte."},
+  {"id": "enquanto", "pt": "enquanto", "de": "während", "emoji": "⏸️", "beispiel_pt": "Enquanto eu cozinhava, a Ana lia.", "beispiel_de": "Während ich kochte, las Ana."},
+  {"id": "acontecer", "pt": "acontecer", "de": "passieren / geschehen", "emoji": "❗", "beispiel_pt": "O que aconteceu?", "beispiel_de": "Was ist passiert?"},
+  {"id": "o-acidente", "pt": "o acidente", "de": "der Unfall", "emoji": "💥", "beispiel_pt": "Vi um acidente na estrada.", "beispiel_de": "Ich habe einen Unfall auf der Straße gesehen."},
+  {"id": "cair", "pt": "cair", "de": "fallen / stürzen", "emoji": "🤕", "beispiel_pt": "Caí da bicicleta.", "beispiel_de": "Ich bin vom Fahrrad gefallen.", "hinweis": "caí, caíste, caiu – Imperfeito: caía"},
+  {"id": "o-barulho", "pt": "o barulho", "de": "der Lärm / das Geräusch", "emoji": "🔊", "beispiel_pt": "Ouvi um barulho estranho.", "beispiel_de": "Ich habe ein seltsames Geräusch gehört."},
+  {"id": "o-telefone", "pt": "o telefone", "de": "das Telefon", "emoji": "☎️", "beispiel_pt": "O telefone tocou às três da manhã.", "beispiel_de": "Das Telefon hat um drei Uhr morgens geklingelt."},
+
+  {"id": "quando-eu-era-pequeno", "pt": "Quando eu era pequeno …", "de": "Als ich klein war …", "emoji": "👦", "beispiel_pt": "Quando eu era pequeno, vivia numa aldeia.", "beispiel_de": "Als ich klein war, wohnte ich in einem Dorf.", "hinweis": "Frauen sagen: Quando eu era pequena …", "alternativen": ["Quando eu era pequena …", "Quando eu era pequeno", "Quando eu era pequena"]},
+  {"id": "lembrar-se-de", "pt": "lembrar-se de", "de": "sich erinnern an", "emoji": "💭", "beispiel_pt": "Lembro-me bem desse dia.", "beispiel_de": "Ich erinnere mich gut an diesen Tag.", "hinweis": "Não me lembro. – Lembras-te?"},
+  {"id": "a-recordacao", "pt": "a recordação", "de": "die Erinnerung (an etwas)", "emoji": "🎞️", "beispiel_pt": "Tenho boas recordações da infância.", "beispiel_de": "Ich habe schöne Erinnerungen an die Kindheit."},
+  {"id": "ter-saudades-de", "pt": "ter saudades de", "de": "vermissen / sich sehnen nach", "emoji": "💞", "beispiel_pt": "Tenho saudades da minha avó.", "beispiel_de": "Ich vermisse meine Großmutter."},
+  {"id": "inesquecivel", "pt": "inesquecível", "de": "unvergesslich", "emoji": "🌟", "beispiel_pt": "Foi um verão inesquecível.", "beispiel_de": "Es war ein unvergesslicher Sommer."},
+  {"id": "de-vez-em-quando", "pt": "de vez em quando", "de": "ab und zu", "emoji": "🎲", "beispiel_pt": "De vez em quando vejo as fotografias antigas.", "beispiel_de": "Ab und zu schaue ich mir die alten Fotos an."},
+  {"id": "a-fotografia", "pt": "a fotografia", "de": "das Foto", "emoji": "📷", "beispiel_pt": "Esta fotografia é de 1990.", "beispiel_de": "Dieses Foto ist von 1990.", "hinweis": "kurz: a foto"}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-02-L01",
+   "typ": "neu",
+   "titel": "So war es früher (-ar)",
+   "vokabeln": ["antigamente", "a-aldeia", "a-quinta", "o-avo", "a-avo", "todos-os-veroes", "andar-de-bicicleta"],
+   "grammatik": {
+    "titel": "Pretérito imperfeito: Verben auf -ar",
+    "erklaerung": [
+     "Das <b>pretérito imperfeito</b> beschreibt, wie etwas früher <b>war</b> oder was man früher <b>regelmäßig</b> tat: <i>Antigamente morava numa aldeia.</i> – Früher wohnte ich in einem Dorf.",
+     "Endungen für <b>-ar</b> (morar): eu mor<b>ava</b>, tu mor<b>avas</b>, você/ele mor<b>ava</b>, nós mor<b>ávamos</b>, vocês/eles mor<b>avam</b>.",
+     "eu und ele haben dieselbe Form (<i>morava</i>). Wenn es unklar ist, sagt man das Pronomen dazu: <i>Eu trabalhava, ele estudava.</i>",
+     "<b>nós</b> trägt immer einen Akzent: <i>morávamos, passávamos, andávamos</i>. Auch <b>estar</b> ist hier regelmäßig: <i>estava, estávamos</i>."
+    ],
+    "vergleich": "Deutsch hat ein Präteritum („wohnte“). Portugiesisch unterscheidet: <i>morei</i> (Perfeito – abgeschlossen: „ich habe drei Jahre dort gewohnt“) und <i>morava</i> (Imperfeito – so war es damals). Englisch „I used to live“ ≈ <i>morava</i>.",
+    "beispiele": [
+     {"pt": "Antigamente morávamos numa aldeia.", "de": "Früher wohnten wir in einem Dorf."},
+     {"pt": "Todos os verões passava as férias na quinta dos meus avós.", "de": "Jeden Sommer verbrachte ich die Ferien auf dem Bauernhof meiner Großeltern."},
+     {"pt": "O meu avô andava de bicicleta todos os dias.", "de": "Mein Großvater fuhr jeden Tag Fahrrad."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Antigamente eu ___ numa aldeia. (morar)", "loesungen": ["morava"], "de": "Früher wohnte ich in einem Dorf.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "Todos os verões nós ___ as férias na quinta. (passar)", "loesungen": ["passávamos"], "de": "Jeden Sommer verbrachten wir die Ferien auf dem Bauernhof.", "erklaerung": "nós im Imperfeito: -ávamos mit Akzent.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "O meu avô ___ na quinta. (trabalhar)", "loesungen": ["trabalhava"], "de": "Mein Großvater arbeitete auf dem Bauernhof.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "Tu ___ de bicicleta quando eras pequeno? (andar)", "loesungen": ["andavas"], "de": "Bist du Fahrrad gefahren, als du klein warst?", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "Os meus pais ___ muito. (viajar)", "loesungen": ["viajavam"], "de": "Meine Eltern reisten viel.", "kategorie": "Imperfeito"},
+     {"typ": "auswahl", "frage": "„Wir wohnten (damals) in Linz.“", "optionen": ["Morávamos em Linz.", "Morámos em Linz.", "Moramos em Linz."], "richtig": 0, "erklaerung": "morávamos = Imperfeito (damals); morámos = Perfeito (abgeschlossen); moramos = Präsens.", "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "uebersetzen", "de": "Früher bin ich jeden Tag Fahrrad gefahren.", "loesungen": ["Antigamente andava de bicicleta todos os dias.", "Antigamente eu andava de bicicleta todos os dias.", "Antes andava de bicicleta todos os dias.", "Antigamente, andava de bicicleta todos os dias."]},
+     {"typ": "satzbau", "de": "Meine Großmutter wohnte in einem Dorf.", "loesung": "A minha avó morava numa aldeia."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A quinta dos avós – der Bauernhof der Großeltern",
+    "situation": "Ana findet ein altes Foto und fragt Stefan danach.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, quem são estas pessoas na fotografia?", "de": "Stefan, wer sind die Leute auf dem Foto?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "São os meus avós. Moravam numa quinta perto de Salzburgo.", "de": "Das sind meine Großeltern. Sie wohnten auf einem Bauernhof bei Salzburg."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E tu passavas lá muito tempo?", "de": "Und warst du oft lange dort?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, todos os verões passava lá as férias. O meu avô trabalhava na quinta de manhã à noite.", "de": "Ja, jeden Sommer verbrachte ich dort die Ferien. Mein Großvater arbeitete von morgens bis abends auf dem Hof."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E a tua avó?", "de": "Und deine Großmutter?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A minha avó cozinhava para toda a família. E à tarde eu andava de bicicleta com os meus primos.", "de": "Meine Großmutter kochte für die ganze Familie. Und nachmittags fuhr ich mit meinen Cousins Fahrrad."}
+    ],
+    "fragen": [
+     {"frage": "Wo wohnten Stefans Großeltern?", "optionen": ["in Salzburg", "auf einem Bauernhof bei Salzburg", "in Linz"], "richtig": 1},
+     {"frage": "Wann war Stefan dort?", "optionen": ["jeden Sommer", "jedes Wochenende", "zu Weihnachten"], "richtig": 0},
+     {"frage": "Was machte Stefan am Nachmittag?", "optionen": ["Er half dem Großvater.", "Er kochte mit der Großmutter.", "Er fuhr mit seinen Cousins Fahrrad."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Antigamente morávamos numa aldeia.", "de": "Früher wohnten wir in einem Dorf."},
+     {"pt": "Os meus avós tinham uma quinta.", "de": "Meine Großeltern hatten einen Bauernhof."},
+     {"pt": "Todos os verões passava lá as férias.", "de": "Jeden Sommer verbrachte ich dort die Ferien."},
+     {"pt": "O meu avô trabalhava de manhã à noite.", "de": "Mein Großvater arbeitete von morgens bis abends."},
+     {"pt": "Andava de bicicleta com os meus primos.", "de": "Ich fuhr mit meinen Cousins Fahrrad."}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-antigamente-moravamos", "pt": "Antigamente morávamos numa aldeia.", "de": "Früher wohnten wir in einem Dorf."},
+    {"id": "a2-todos-os-veroes", "pt": "Todos os verões passava as férias na quinta dos meus avós.", "de": "Jeden Sommer verbrachte ich die Ferien auf dem Bauernhof meiner Großeltern."},
+    {"id": "a2-avo-trabalhava", "pt": "O meu avô trabalhava na quinta.", "de": "Mein Großvater arbeitete auf dem Bauernhof."}
+   ]
+  },
+  {
+   "id": "A2-02-L02",
+   "typ": "neu",
+   "titel": "Leben ohne Strom (-er, -ir)",
+   "vokabeln": ["a-eletricidade", "havia", "a-vela", "a-lareira", "a-lenha", "a-radio", "a-sopa", "acender"],
+   "grammatik": {
+    "titel": "Pretérito imperfeito: Verben auf -er und -ir",
+    "erklaerung": [
+     "<b>-er</b> (comer): eu com<b>ia</b>, tu com<b>ias</b>, você/ele com<b>ia</b>, nós com<b>íamos</b>, vocês/eles com<b>iam</b>.",
+     "<b>-ir</b> (abrir) hat dieselben Endungen: abr<b>ia</b>, abr<b>ias</b>, abr<b>ia</b>, abr<b>íamos</b>, abr<b>iam</b>.",
+     "<b>nós</b> mit Akzent: <i>comíamos, vivíamos, acendíamos, ouvíamos</i>.",
+     "Auch <i>fazer</i>, <i>ver</i>, <i>dizer</i> und <i>querer</i> sind im Imperfeito regelmäßig: <i>fazia, via, dizia, queria</i>.",
+     "<b>haver</b> → <b>havia</b> (es gab) – immer im Singular: <i>Havia muitas velas.</i>"
+    ],
+    "vergleich": "Englisch „We used to eat soup every day.“ = <i>Comíamos sopa todos os dias.</i> Im Deutschen sagt man „Wir aßen jeden Tag Suppe“ oder „Wir haben immer Suppe gegessen“ – das „immer“ verlangt im Portugiesischen das Imperfeito.",
+    "beispiele": [
+     {"pt": "Na aldeia não havia eletricidade.", "de": "Im Dorf gab es keinen Strom."},
+     {"pt": "À noite acendíamos velas.", "de": "Abends zündeten wir Kerzen an."},
+     {"pt": "A minha avó fazia sopa todos os dias.", "de": "Meine Großmutter kochte jeden Tag Suppe."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Antigamente nós ___ sopa todos os dias. (comer)", "loesungen": ["comíamos"], "de": "Früher aßen wir jeden Tag Suppe.", "erklaerung": "nós im Imperfeito: -íamos mit Akzent.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "A minha avó ___ sem eletricidade. (viver)", "loesungen": ["vivia"], "de": "Meine Großmutter lebte ohne Strom.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "À noite eles ___ a lareira. (acender)", "loesungen": ["acendiam"], "de": "Abends zündeten sie den Kamin an.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "Tu ___ muito a rádio? (ouvir)", "loesungen": ["ouvias"], "de": "Hast du (früher) viel Radio gehört?", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "Na aldeia não ___ eletricidade. (haver)", "loesungen": ["havia"], "de": "Im Dorf gab es keinen Strom.", "erklaerung": "haver → havia, immer im Singular.", "kategorie": "Imperfeito"},
+     {"typ": "auswahl", "frage": "„Wir lebten (damals) auf dem Land.“", "optionen": ["Vivemos no campo.", "Vivíamos no campo.", "Viviamos no campo."], "richtig": 1, "erklaerung": "Imperfeito nós: -íamos mit Akzent. vivemos ist Präsens oder Perfeito.", "kategorie": "Imperfeito"},
+     {"typ": "uebersetzen", "de": "Es gab keinen Strom.", "loesungen": ["Não havia eletricidade.", "Não havia luz."]},
+     {"typ": "satzbau", "de": "Meine Mutter kochte die Suppe am Kamin.", "loesung": "A minha mãe fazia a sopa na lareira."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Sem eletricidade – ohne Strom",
+    "situation": "Der Nachbar João erzählt, wie er als Kind in Lagos gelebt hat.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Sabes, Stefan, na casa dos meus pais não havia eletricidade.", "de": "Weißt du, Stefan, im Haus meiner Eltern gab es keinen Strom."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? E à noite, como faziam?", "de": "Wirklich? Und wie habt ihr das abends gemacht?"},
+     {"sprecher": "João", "stimme": "m", "pt": "À noite acendíamos velas. No inverno a minha mãe acendia a lareira e fazia lá a sopa.", "de": "Abends zündeten wir Kerzen an. Im Winter machte meine Mutter den Kamin an und kochte dort die Suppe."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a lenha? Compravam?", "de": "Und das Holz? Habt ihr es gekauft?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Não! Eu e o meu pai apanhávamos lenha no campo.", "de": "Nein! Mein Vater und ich sammelten Holz auf dem Feld."},
+     {"sprecher": "João", "stimme": "m", "pt": "E ao domingo ouvíamos o futebol na rádio do café.", "de": "Und sonntags hörten wir Fußball im Radio im Café."}
+    ],
+    "fragen": [
+     {"frage": "Was gab es in Joãos Elternhaus nicht?", "optionen": ["Wasser", "Strom", "eine Küche"], "richtig": 1},
+     {"frage": "Wo kochte seine Mutter im Winter die Suppe?", "optionen": ["am Kamin", "beim Nachbarn", "auf dem Gasherd"], "richtig": 0},
+     {"frage": "Was hörten sie sonntags im Radio des Cafés?", "optionen": ["Musik", "Nachrichten", "Fußball"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Im Dorf gab es keinen Strom.", "loesungen": ["Na aldeia não havia eletricidade.", "Não havia eletricidade na aldeia."]},
+     {"de": "Abends zündeten wir Kerzen an.", "loesungen": ["À noite acendíamos velas.", "À noite, acendíamos velas."]},
+     {"de": "Meine Großmutter kochte jeden Tag Suppe.", "loesungen": ["A minha avó fazia sopa todos os dias.", "A minha avó cozinhava sopa todos os dias."]},
+     {"de": "Wir hörten Radio.", "loesungen": ["Ouvíamos rádio.", "Ouvíamos a rádio."]},
+     {"de": "Kannst du das Licht einschalten? (tu)", "loesungen": ["Podes acender a luz?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-nao-havia-eletricidade", "pt": "Na aldeia não havia eletricidade.", "de": "Im Dorf gab es keinen Strom."},
+    {"id": "a2-acendiamos-velas", "pt": "À noite acendíamos velas.", "de": "Abends zündeten wir Kerzen an."},
+    {"id": "a2-comiamos-sopa", "pt": "Comíamos sopa todos os dias.", "de": "Wir aßen jeden Tag Suppe."}
+   ]
+  },
+  {
+   "id": "A2-02-L03",
+   "typ": "neu",
+   "titel": "era, tinha, ia: die unregelmäßigen Verben",
+   "vokabeln": ["era", "tinha", "ia", "vinha", "punha", "o-carteiro", "a-costureira"],
+   "grammatik": {
+    "titel": "Unregelmäßig im Imperfeito: ser, ter, ir, vir, pôr",
+    "erklaerung": [
+     "Nur fünf Verben sind im Imperfeito unregelmäßig – alle anderen folgen den Mustern -ava / -ia.",
+     "<b>ser</b>: era, eras, era, <b>éramos</b>, eram · <b>ter</b>: tinha, tinhas, tinha, <b>tínhamos</b>, tinham.",
+     "<b>ir</b>: ia, ias, ia, <b>íamos</b>, iam · <b>vir</b>: vinha, vinhas, vinha, <b>vínhamos</b>, vinham · <b>pôr</b>: punha, punhas, punha, <b>púnhamos</b>, punham.",
+     "Auch hier: eu = ele. <i>Quando era pequeno …</i> heißt „als ich klein war …“ oder „als er klein war …“."
+    ],
+    "vergleich": "„Ich war“ gibt es doppelt: <i>fui / estive</i> (abgeschlossen: <i>Foi ótimo.</i>) und <i>era / estava</i> (Beschreibung von damals: <i>A casa era pequena.</i>). Das Deutsche macht diesen Unterschied nicht.",
+    "beispiele": [
+     {"pt": "A minha avó era costureira e tinha uma loja.", "de": "Meine Großmutter war Schneiderin und hatte einen Laden."},
+     {"pt": "Ao sábado íamos ao mercado.", "de": "Samstags gingen wir auf den Markt."},
+     {"pt": "O carteiro vinha sempre às dez.", "de": "Der Briefträger kam immer um zehn."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A minha avó ___ costureira. (ser)", "loesungen": ["era"], "de": "Meine Großmutter war Schneiderin.", "kategorie": "Imperfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Nós ___ um cão. (ter)", "loesungen": ["tínhamos"], "de": "Wir hatten einen Hund.", "kategorie": "Imperfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Ao sábado eu ___ ao mercado com a minha mãe. (ir)", "loesungen": ["ia"], "de": "Samstags ging ich mit meiner Mutter auf den Markt.", "kategorie": "Imperfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "O carteiro ___ sempre de bicicleta. (vir)", "loesungen": ["vinha"], "de": "Der Briefträger kam immer mit dem Fahrrad.", "kategorie": "Imperfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "A minha mãe ___ sempre flores na mesa. (pôr)", "loesungen": ["punha"], "de": "Meine Mutter stellte immer Blumen auf den Tisch.", "kategorie": "Imperfeito unregelmäßig"},
+     {"typ": "auswahl", "frage": "„Wir waren noch jung.“ (Beschreibung)", "optionen": ["Ainda fomos jovens.", "Ainda eramos jovens.", "Ainda éramos jovens."], "richtig": 2, "erklaerung": "Beschreibung → Imperfeito; nós: éramos mit Akzent.", "kategorie": "Imperfeito unregelmäßig"},
+     {"typ": "uebersetzen", "de": "Früher hatte ich lange Haare.", "loesungen": ["Antigamente tinha o cabelo comprido.", "Antes tinha o cabelo comprido.", "Antigamente eu tinha o cabelo comprido.", "Antes eu tinha o cabelo comprido."]},
+     {"typ": "satzbau", "de": "Mein Vater ging jeden Tag zu Fuß zur Arbeit.", "loesung": "O meu pai ia a pé para o trabalho todos os dias."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A loja da avó – der Laden der Großmutter",
+    "situation": "Ana erzählt Stefan von ihrer Großmutter in Lissabon.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "A minha avó era costureira. Tinha uma pequena loja em Lisboa, na Graça.", "de": "Meine Großmutter war Schneiderin. Sie hatte einen kleinen Laden in Lissabon, in der Graça."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E tu ias lá muitas vezes?", "de": "Und warst du oft dort?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ia todos os sábados. A minha avó punha-me a arrumar os botões.", "de": "Jeden Samstag. Meine Großmutter ließ mich die Knöpfe sortieren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que giro! E havia muitos clientes?", "de": "Wie süß! Und gab es viele Kunden?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Muitos! E o carteiro vinha sempre às onze e bebia um café connosco.", "de": "Viele! Und der Briefträger kam immer um elf und trank einen Kaffee mit uns."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a loja ainda existe?", "de": "Und gibt es den Laden noch?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não, já não. Agora é um hostel para turistas.", "de": "Nein, nicht mehr. Jetzt ist es ein Hostel für Touristen."}
+    ],
+    "fragen": [
+     {"frage": "Was war Anas Großmutter von Beruf?", "optionen": ["Schneiderin", "Verkäuferin", "Lehrerin"], "richtig": 0},
+     {"frage": "Was musste Ana im Laden machen?", "optionen": ["Kaffee kochen", "die Knöpfe sortieren", "Kunden bedienen"], "richtig": 1},
+     {"frage": "Was ist der Laden heute?", "optionen": ["ein Café", "eine Bäckerei", "ein Hostel"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Rita fragt dich nach deiner Kindheit in Österreich.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, como era a tua casa quando eras pequeno?", "de": "Stefan, wie war dein Zuhause, als du klein warst?"},
+     {"ich": true, "aufgabe": "Sag: Es war klein, aber es hatte einen großen Garten.", "loesungen": ["Era pequena, mas tinha um jardim grande.", "Era pequena, mas tinha um grande jardim.", "A casa era pequena, mas tinha um jardim grande.", "A casa era pequena, mas tinha um grande jardim."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E como é que ias para a escola?", "de": "Und wie bist du zur Schule gekommen?"},
+     {"ich": true, "aufgabe": "Sag: Ich ging zu Fuß, mit meinem Bruder.", "loesungen": ["Ia a pé, com o meu irmão.", "Ia a pé com o meu irmão.", "Eu ia a pé com o meu irmão.", "Eu ia a pé, com o meu irmão."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E os teus avós vinham visitar-vos?", "de": "Und kamen deine Großeltern euch besuchen?"},
+     {"ich": true, "aufgabe": "Sag: Ja, sie kamen jeden Sonntag.", "loesungen": ["Sim, vinham todos os domingos.", "Vinham, vinham todos os domingos.", "Sim, vinham ao domingo.", "Sim, vinham aos domingos."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-avo-era-costureira", "pt": "A minha avó era costureira e tinha uma loja.", "de": "Meine Großmutter war Schneiderin und hatte einen Laden."},
+    {"id": "a2-ao-sabado-iamos", "pt": "Ao sábado íamos ao mercado.", "de": "Samstags gingen wir auf den Markt."},
+    {"id": "a2-carteiro-vinha", "pt": "O carteiro vinha sempre às dez.", "de": "Der Briefträger kam immer um zehn."}
+   ]
+  },
+  {
+   "id": "A2-02-L04",
+   "typ": "neu",
+   "titel": "Kindheit und Gewohnheiten",
+   "vokabeln": ["costumar", "brincar", "a-infancia", "a-escola-primaria", "o-recreio", "o-brinquedo", "os-trabalhos-de-casa"],
+   "grammatik": {
+    "titel": "Gewohnheiten: Imperfeito und costumar",
+    "erklaerung": [
+     "Was man früher <b>regelmäßig</b> tat, steht im Imperfeito: <i>Brincava na rua todos os dias.</i>",
+     "<b>costumar</b> + Infinitiv = gewöhnlich etwas tun: <i>Costumo jantar às oito.</i> (heute) – <i>Costumava jantar às sete.</i> (früher, wie engl. „used to“).",
+     "Typische Signalwörter: <i>sempre, todos os dias, normalmente, às vezes, nunca</i>.",
+     "<b>ao</b> / <b>aos</b> + Wochentag = jeden …: <i>ao domingo</i> (sonntags), <i>aos sábados</i> (samstags)."
+    ],
+    "vergleich": "Englisch „I used to play in the street“ = <i>Costumava brincar na rua</i> oder einfach <i>Brincava na rua.</i> Im Deutschen hilft das Wörtchen „immer“ oder „früher“: „Früher habe ich immer …“ → Imperfeito.",
+    "beispiele": [
+     {"pt": "Na minha infância brincava na rua com os vizinhos.", "de": "In meiner Kindheit spielte ich mit den Nachbarskindern auf der Straße."},
+     {"pt": "Costumava ir a pé para a escola primária.", "de": "Ich ging gewöhnlich zu Fuß zur Grundschule."},
+     {"pt": "No recreio jogávamos à bola.", "de": "In der Pause spielten wir Fußball."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quando era pequeno, ___ na rua. (brincar)", "loesungen": ["brincava"], "de": "Als ich klein war, spielte ich auf der Straße.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "Eu ___ fazer os trabalhos de casa à tarde. (costumar)", "loesungen": ["costumava"], "de": "Ich machte die Hausaufgaben gewöhnlich am Nachmittag.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "No recreio nós ___ à bola. (jogar)", "loesungen": ["jogávamos"], "de": "In der Pause spielten wir Fußball.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "Ao domingo a família ___ almoçar em casa dos avós. (costumar)", "loesungen": ["costumava"], "de": "Sonntags aß die Familie gewöhnlich bei den Großeltern zu Mittag.", "kategorie": "Imperfeito"},
+     {"typ": "auswahl", "frage": "„Früher bin ich immer zu Fuß zur Schule gegangen.“", "optionen": ["Fui sempre a pé para a escola.", "Ia sempre a pé para a escola.", "Vou sempre a pé para a escola."], "richtig": 1, "erklaerung": "Gewohnheit in der Vergangenheit → Imperfeito: ia.", "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "auswahl", "frage": "„Ich frühstücke normalerweise um acht.“ (heute)", "optionen": ["Costumava tomar o pequeno-almoço às oito.", "Costumei tomar o pequeno-almoço às oito.", "Costumo tomar o pequeno-almoço às oito."], "richtig": 2, "erklaerung": "Heute → Präsens: costumo. costumava = früher.", "kategorie": "Imperfeito"},
+     {"typ": "uebersetzen", "de": "Was war dein Lieblingsspielzeug? (tu)", "loesungen": ["Qual era o teu brinquedo preferido?", "Qual era o teu brinquedo favorito?"]},
+     {"typ": "satzbau", "de": "In meiner Kindheit spielte ich jeden Tag mit meinem Bruder.", "loesung": "Na minha infância brincava todos os dias com o meu irmão."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A escola primária – die Grundschule",
+    "situation": "Stefan und Pedro erinnern sich an ihre Schulzeit.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Stefan, como era a tua escola primária?", "de": "Stefan, wie war deine Grundschule?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Era pequena, só tinha duas salas. Eu costumava ir a pé com o meu irmão.", "de": "Sie war klein, sie hatte nur zwei Klassenzimmer. Ich ging gewöhnlich mit meinem Bruder zu Fuß hin."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Eu também! E no recreio jogávamos sempre à bola.", "de": "Ich auch! Und in der Pause spielten wir immer Fußball."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Nós no inverno brincávamos na neve. E tu fazias os trabalhos de casa?", "de": "Wir spielten im Winter im Schnee. Und hast du deine Hausaufgaben gemacht?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Nem sempre! A minha mãe ficava furiosa.", "de": "Nicht immer! Meine Mutter wurde dann wütend."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Eu fazia-os logo depois do almoço. Era um aluno muito sério!", "de": "Ich machte sie gleich nach dem Mittagessen. Ich war ein sehr braver Schüler!"}
+    ],
+    "fragen": [
+     {"frage": "Wie viele Klassenzimmer hatte Stefans Grundschule?", "optionen": ["eins", "zwei", "vier"], "richtig": 1},
+     {"frage": "Was machte Stefan im Winter in der Pause?", "optionen": ["Fußball spielen", "lesen", "im Schnee spielen"], "richtig": 2},
+     {"frage": "Wann machte Stefan seine Hausaufgaben?", "optionen": ["gleich nach dem Mittagessen", "am Abend", "nie"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Na minha infância brincava na rua.", "de": "In meiner Kindheit spielte ich auf der Straße."},
+     {"pt": "Costumava ir a pé para a escola.", "de": "Ich ging gewöhnlich zu Fuß zur Schule."},
+     {"pt": "No recreio jogávamos à bola.", "de": "In der Pause spielten wir Fußball."},
+     {"pt": "O meu brinquedo preferido era um comboio.", "de": "Mein Lieblingsspielzeug war eine Eisenbahn."},
+     {"pt": "Fazia os trabalhos de casa depois do almoço.", "de": "Ich machte die Hausaufgaben nach dem Mittagessen."}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-brincava-na-rua", "pt": "Na minha infância brincava na rua com os vizinhos.", "de": "In meiner Kindheit spielte ich mit den Nachbarskindern auf der Straße."},
+    {"id": "a2-costumava-ir-a-pe", "pt": "Costumava ir a pé para a escola primária.", "de": "Ich ging gewöhnlich zu Fuß zur Grundschule."},
+    {"id": "a2-brinquedo-preferido", "pt": "O meu brinquedo preferido era um comboio.", "de": "Mein Lieblingsspielzeug war eine Eisenbahn."}
+   ]
+  },
+  {
+   "id": "A2-02-L05",
+   "typ": "neu",
+   "titel": "Früher und heute",
+   "vokabeln": ["ja-nao", "ainda", "hoje-em-dia", "antes", "mudar", "a-diferenca", "cada-vez-mais"],
+   "grammatik": {
+    "titel": "antes … agora, já não und ainda",
+    "erklaerung": [
+     "Vergleich mit zwei Zeiten: <b>antes</b> / <b>antigamente</b> + Imperfeito, <b>agora</b> / <b>hoje em dia</b> + Präsens: <i>Antes vivia em Viena, agora vivo em Lagos.</i>",
+     "<b>já não</b> = nicht mehr: <i>Já não fumo.</i> – <b>ainda</b> = noch: <i>Ainda trabalho muito.</i> Kurze Antwort: <i>Ainda moras em Viena? – Não, já não.</i>",
+     "Nach <i>já</i> und <i>ainda</i> rückt das Pronomen vor das Verb: <i>Já não me levanto às seis. Ainda me lembro.</i>",
+     "<b>cada vez mais / menos</b> = immer mehr / weniger: <i>Hoje em dia há cada vez mais turistas.</i>"
+    ],
+    "vergleich": "„nicht mehr“ heißt auf Portugiesisch <i>já não</i> (wörtlich „schon nicht“) – und steht <b>vor</b> dem Verb: <i>Já não moro lá.</i> Die Form <i>não … mais</i> ist brasilianisch.",
+    "beispiele": [
+     {"pt": "Antes vivia em Viena, agora vivo em Lagos.", "de": "Früher lebte ich in Wien, jetzt lebe ich in Lagos."},
+     {"pt": "Já não trabalho aos fins de semana.", "de": "Ich arbeite nicht mehr an den Wochenenden."},
+     {"pt": "Hoje em dia há cada vez mais turistas no Algarve.", "de": "Heutzutage gibt es immer mehr Touristen an der Algarve."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Antes ___ muito, agora trabalho menos. (trabalhar)", "loesungen": ["trabalhava"], "de": "Früher arbeitete ich viel, jetzt arbeite ich weniger.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "___ não fumo.", "loesungen": ["Já"], "de": "Ich rauche nicht mehr.", "kategorie": "já não / ainda"},
+     {"typ": "luecke", "satz": "Ainda ___ em Viena? (tu, morar – heute)", "loesungen": ["moras"], "de": "Wohnst du noch in Wien?", "kategorie": "já não / ainda"},
+     {"typ": "luecke", "satz": "Lagos ___ muito nos últimos anos. (mudar)", "loesungen": ["mudou"], "de": "Lagos hat sich in den letzten Jahren sehr verändert.", "erklaerung": "Eine abgeschlossene Veränderung → Perfeito: mudou.", "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "auswahl", "frage": "„Ich wohne nicht mehr dort.“", "optionen": ["Não moro mais lá.", "Já não moro lá.", "Não já moro lá."], "richtig": 1, "erklaerung": "pt-PT: já não + Verb. „não … mais“ klingt brasilianisch.", "kategorie": "já não / ainda"},
+     {"typ": "auswahl", "frage": "„Heutzutage gibt es immer mehr Touristen.“", "optionen": ["Hoje em dia há cada vez mais turistas.", "Hoje em dia há sempre mais turistas.", "Hoje em dia havia cada vez mais turistas."], "richtig": 0, "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Was ist der Unterschied?", "loesungen": ["Qual é a diferença?"]},
+     {"typ": "satzbau", "de": "Früher hatte ich ein Auto, jetzt fahre ich Fahrrad.", "loesung": "Antes tinha um carro, agora ando de bicicleta."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Lagos antes e agora – Lagos früher und heute",
+    "situation": "Stefan fragt João, wie Lagos früher war.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "João, Lagos mudou muito?", "de": "João, hat sich Lagos sehr verändert?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Muito! Antes era uma vila de pescadores. Havia poucos turistas.", "de": "Sehr! Früher war es ein Fischerstädtchen. Es gab wenige Touristen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E hoje em dia há cada vez mais, não é?", "de": "Und heutzutage gibt es immer mehr, oder?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois é. No verão já não consigo estacionar no centro!", "de": "Genau. Im Sommer finde ich im Zentrum keinen Parkplatz mehr!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o mercado? Ainda vais lá?", "de": "Und der Markt? Gehst du noch hin?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Ainda vou, todas as manhãs. Mas antes comprava o peixe diretamente aos pescadores.", "de": "Ja, jeden Morgen. Aber früher kaufte ich den Fisch direkt bei den Fischern."}
+    ],
+    "fragen": [
+     {"frage": "Was war Lagos früher?", "optionen": ["eine große Stadt", "ein Fischerort", "ein Badeort für Touristen"], "richtig": 1},
+     {"frage": "Welches Problem hat João heute im Sommer?", "optionen": ["Er findet keinen Parkplatz.", "Es ist zu heiß.", "Der Markt ist geschlossen."], "richtig": 0},
+     {"frage": "Wo kaufte er früher den Fisch?", "optionen": ["im Supermarkt", "auf dem Markt", "direkt bei den Fischern"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Früher lebte ich in Wien, jetzt lebe ich in Lagos.", "loesungen": ["Antes vivia em Viena, agora vivo em Lagos.", "Antigamente vivia em Viena, agora vivo em Lagos.", "Antes morava em Viena, agora moro em Lagos."]},
+     {"de": "Ich arbeite nicht mehr am Wochenende.", "loesungen": ["Já não trabalho ao fim de semana.", "Já não trabalho aos fins de semana.", "Já não trabalho no fim de semana."]},
+     {"de": "Spielst du noch Golf? (tu)", "loesungen": ["Ainda jogas golfe?"]},
+     {"de": "Heutzutage gibt es immer mehr Touristen.", "loesungen": ["Hoje em dia há cada vez mais turistas."]},
+     {"de": "Lagos hat sich sehr verändert.", "loesungen": ["Lagos mudou muito."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-antes-agora", "pt": "Antes vivia em Viena, agora vivo em Lagos.", "de": "Früher lebte ich in Wien, jetzt lebe ich in Lagos."},
+    {"id": "a2-ja-nao-trabalho", "pt": "Já não trabalho aos fins de semana.", "de": "Ich arbeite nicht mehr an den Wochenenden."},
+    {"id": "a2-cada-vez-mais-turistas", "pt": "Hoje em dia há cada vez mais turistas.", "de": "Heutzutage gibt es immer mehr Touristen."}
+   ]
+  },
+  {
+   "id": "A2-02-L06",
+   "typ": "neu",
+   "titel": "Wie war es? Beschreibungen",
+   "vokabeln": ["feliz", "nervoso", "ter-medo", "os-oculos", "a-barba", "usar", "o-nevoeiro"],
+   "grammatik": {
+    "titel": "Beschreibungen in der Vergangenheit",
+    "erklaerung": [
+     "Für Beschreibungen – Wetter, Aussehen, Gefühle, der Rahmen einer Geschichte – nimmt man das <b>Imperfeito</b>.",
+     "Wetter: <i>Estava frio. Fazia sol. Chovia. Havia nevoeiro.</i>",
+     "Aussehen: <b>era</b> (Eigenschaft), <b>tinha</b> (Haare, Bart), <b>usava</b> (Brille, Kleidung): <i>Era alto, tinha barba e usava óculos.</i>",
+     "Gefühle: <b>estava</b> (Zustand) oder <b>tinha medo</b>: <i>Estava nervoso. Tinha medo.</i> – ser vs. estar bleibt wie im Präsens: <i>Era simpático</i> (Charakter), <i>Estava cansado</i> (Zustand)."
+    ],
+    "vergleich": "Auch im Deutschen erzählt man den Rahmen im Präteritum: „Es war kalt, ich war nervös.“ Im Portugiesischen steht dafür immer das Imperfeito – nie das Perfeito.",
+    "beispiele": [
+     {"pt": "Estava frio e havia muito nevoeiro.", "de": "Es war kalt und sehr neblig."},
+     {"pt": "O Stefan era magro, tinha barba e usava óculos.", "de": "Stefan war schlank, hatte einen Bart und trug eine Brille."},
+     {"pt": "Eu estava muito nervoso.", "de": "Ich war sehr nervös."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Nesse dia ___ muito frio. (estar)", "loesungen": ["estava", "fazia"], "de": "An diesem Tag war es sehr kalt.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "O meu pai ___ barba. (ter)", "loesungen": ["tinha"], "de": "Mein Vater hatte einen Bart.", "kategorie": "Imperfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Ela ___ óculos. (usar)", "loesungen": ["usava"], "de": "Sie trug eine Brille.", "kategorie": "Imperfeito"},
+     {"typ": "luecke", "satz": "Eu ___ medo do escuro. (ter)", "loesungen": ["tinha"], "de": "Ich hatte Angst vor der Dunkelheit.", "kategorie": "Imperfeito unregelmäßig"},
+     {"typ": "auswahl", "frage": "„Er war (in dem Moment) sehr nervös.“", "optionen": ["Foi muito nervoso.", "Era muito nervoso.", "Estava muito nervoso."], "richtig": 2, "erklaerung": "Gefühl / Zustand → estar: estava. „Era nervoso“ hieße: Er war ein nervöser Mensch.", "kategorie": "ser/estar"},
+     {"typ": "auswahl", "frage": "„Es war neblig.“", "optionen": ["Havia nevoeiro.", "Houve nevoeiro.", "Tinha nevoeiro."], "richtig": 0, "erklaerung": "Beschreibung → Imperfeito von haver: havia.", "kategorie": "Imperfeito"},
+     {"typ": "uebersetzen", "de": "Ich war sehr glücklich.", "loesungen": ["Estava muito feliz.", "Era muito feliz.", "Eu estava muito feliz.", "Eu era muito feliz."]},
+     {"typ": "satzbau", "de": "Sie war groß und hatte blonde Haare.", "loesung": "Ela era alta e tinha o cabelo louro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O primeiro encontro – das erste Treffen",
+    "situation": "Rita fragt Ana, wie Stefan war, als sie ihn kennengelernt hat.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ana, como era o Stefan quando o conheceste?", "de": "Ana, wie war Stefan, als du ihn kennengelernt hast?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Era muito magro, tinha barba e usava uns óculos enormes!", "de": "Er war sehr dünn, hatte einen Bart und trug eine riesige Brille!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E onde foi?", "de": "Und wo war das?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Numa conferência em Lisboa. Era novembro, chovia e havia muito nevoeiro.", "de": "Auf einer Konferenz in Lissabon. Es war November, es regnete und war sehr neblig."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ele estava muito nervoso, porque tinha de fazer uma apresentação em inglês.", "de": "Er war sehr nervös, weil er eine Präsentation auf Englisch halten musste."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E tu? Ficaste logo apaixonada?", "de": "Und du? Hast du dich gleich verliebt?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Logo, não! Mas ele era tão simpático …", "de": "Gleich nicht! Aber er war so nett …"}
+    ],
+    "fragen": [
+     {"frage": "Wie sah Stefan damals aus?", "optionen": ["Er hatte kurze Haare und keinen Bart.", "Er war sehr dünn und hatte einen Bart.", "Er war kräftig und trug einen Hut."], "richtig": 1},
+     {"frage": "Wie war das Wetter?", "optionen": ["Es regnete und war neblig.", "Es war sonnig.", "Es schneite."], "richtig": 0},
+     {"frage": "Warum war Stefan nervös?", "optionen": ["Er hatte Angst vor Ana.", "Er kam zu spät.", "Er musste eine Präsentation auf Englisch halten."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Bei der Polizei (PSP) beschreibst du einen Mann, der gestern Abend vor deinem Haus war.",
+    "zeilen": [
+     {"sprecher": "Agente", "stimme": "f", "pt": "Boa tarde. Como era o homem?", "de": "Guten Tag. Wie sah der Mann aus?"},
+     {"ich": true, "aufgabe": "Sag: Er war groß und hatte einen Bart.", "loesungen": ["Era alto e tinha barba.", "Ele era alto e tinha barba."]},
+     {"sprecher": "Agente", "stimme": "f", "pt": "Usava óculos?", "de": "Trug er eine Brille?"},
+     {"ich": true, "aufgabe": "Sag: Ja, er trug eine Brille. Er war sehr nervös.", "loesungen": ["Sim, usava óculos. Estava muito nervoso.", "Usava, usava óculos. Estava muito nervoso.", "Sim, usava óculos. Ele estava muito nervoso."]},
+     {"sprecher": "Agente", "stimme": "f", "pt": "E a que horas foi isso?", "de": "Und um wie viel Uhr war das?"},
+     {"ich": true, "aufgabe": "Sag: Um sieben. Es war neblig.", "loesungen": ["Às sete. Havia nevoeiro.", "Foi às sete. Havia nevoeiro.", "Às sete horas. Havia nevoeiro.", "Às sete. Estava nevoeiro."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-era-alto-tinha-barba", "pt": "Era alto, tinha barba e usava óculos.", "de": "Er war groß, hatte einen Bart und trug eine Brille."},
+    {"id": "a2-estava-nervoso", "pt": "Eu estava muito nervoso.", "de": "Ich war sehr nervös."},
+    {"id": "a2-havia-nevoeiro", "pt": "Estava frio e havia muito nevoeiro.", "de": "Es war kalt und sehr neblig."}
+   ]
+  },
+  {
+   "id": "A2-02-L07",
+   "typ": "neu",
+   "titel": "Plötzlich passierte etwas: Hintergrund und Ereignis",
+   "vokabeln": ["quando", "enquanto", "acontecer", "o-acidente", "cair", "o-barulho", "o-telefone"],
+   "grammatik": {
+    "titel": "Imperfeito und Perfeito zusammen",
+    "erklaerung": [
+     "Der <b>Hintergrund</b> (was gerade lief) steht im <b>Imperfeito</b>, das <b>Ereignis</b> (was plötzlich passierte) im <b>Perfeito</b>: <i>Estava a jantar quando o telefone tocou.</i>",
+     "Verlaufsform in der Vergangenheit: <b>estava a</b> + Infinitiv: <i>Estávamos a ver televisão.</i> (in Portugal nie mit Gerundium!)",
+     "<b>quando</b> + Perfeito für das Ereignis: <i>… quando ouvi um barulho.</i> – <b>enquanto</b> + Imperfeito für zwei Abläufe gleichzeitig: <i>Enquanto eu cozinhava, a Ana punha a mesa.</i>",
+     "<b>acontecer</b> (passieren) steht meist im Perfeito: <i>O que aconteceu?</i> – Was ist passiert?"
+    ],
+    "vergleich": "Englisch ist das beste Modell: „I <b>was having</b> dinner when the phone <b>rang</b>.“ = <i>Estava a jantar quando o telefone tocou.</i> Im Deutschen sieht man den Unterschied nicht („Ich aß gerade, als das Telefon klingelte.“).",
+    "beispiele": [
+     {"pt": "Estava a jantar quando o telefone tocou.", "de": "Ich aß gerade zu Abend, als das Telefon klingelte."},
+     {"pt": "Enquanto eu cozinhava, a Ana punha a mesa.", "de": "Während ich kochte, deckte Ana den Tisch."},
+     {"pt": "Estávamos a dormir quando ouvimos um barulho.", "de": "Wir schliefen gerade, als wir ein Geräusch hörten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ a jantar quando o telefone tocou. (estar)", "loesungen": ["estava"], "de": "Ich aß gerade zu Abend, als das Telefon klingelte.", "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "luecke", "satz": "Estávamos a ver televisão quando o João ___. (chegar)", "loesungen": ["chegou"], "de": "Wir sahen gerade fern, als João ankam.", "erklaerung": "Das plötzliche Ereignis steht im Perfeito.", "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "luecke", "satz": "Enquanto eu ___, a Ana lia. (cozinhar)", "loesungen": ["cozinhava"], "de": "Während ich kochte, las Ana.", "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "luecke", "satz": "Ela ___ quando estava a correr. (cair)", "loesungen": ["caiu"], "de": "Sie ist gestürzt, als sie gerade lief.", "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "auswahl", "frage": "„Ich schlief gerade, als ich ein Geräusch hörte.“", "optionen": ["Dormi quando ouvia um barulho.", "Estava a dormir quando ouvi um barulho.", "Estava dormindo quando ouvi um barulho."], "richtig": 1, "erklaerung": "Hintergrund: estava a dormir (Imperfeito, nie Gerundium) – Ereignis: ouvi (Perfeito).", "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "auswahl", "frage": "„Was ist passiert?“", "optionen": ["O que passou?", "O que acontecia?", "O que aconteceu?"], "richtig": 2, "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "uebersetzen", "de": "Während ich arbeitete, schlief die Katze.", "loesungen": ["Enquanto eu trabalhava, o gato dormia.", "Enquanto trabalhava, o gato dormia.", "Enquanto eu estava a trabalhar, o gato dormia.", "Enquanto eu trabalhava, a gata dormia.", "Enquanto trabalhava, a gata dormia."]},
+     {"typ": "satzbau", "de": "Wir aßen gerade zu Abend, als das Telefon klingelte.", "loesung": "Estávamos a jantar quando o telefone tocou."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um pequeno acidente – ein kleiner Unfall",
+    "situation": "Pedro sieht Stefan mit verbundenem Arm.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Stefan! O que é que aconteceu ao teu braço?", "de": "Stefan! Was ist mit deinem Arm passiert?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ontem estava a andar de bicicleta na estrada da Luz quando um cão atravessou a rua.", "de": "Gestern fuhr ich gerade auf der Straße nach Luz Fahrrad, als ein Hund über die Straße lief."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E caíste?", "de": "Und du bist gestürzt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Caí! Enquanto o dono pedia desculpa, eu estava sentado no chão com dores no braço.", "de": "Ja! Während sich der Besitzer entschuldigte, saß ich mit Schmerzen im Arm auf dem Boden."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Que azar! Foste ao hospital?", "de": "So ein Pech! Warst du im Krankenhaus?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Fui. Felizmente não é nada grave.", "de": "Ja. Zum Glück ist es nichts Schlimmes."}
+    ],
+    "fragen": [
+     {"frage": "Was machte Stefan, als es passierte?", "optionen": ["Er joggte.", "Er fuhr Fahrrad.", "Er fuhr Auto."], "richtig": 1},
+     {"frage": "Was ist passiert?", "optionen": ["Ein Hund lief über die Straße.", "Ein Auto hat ihn angefahren.", "Er ist auf dem Sand ausgerutscht."], "richtig": 0},
+     {"frage": "Was machte der Besitzer des Hundes?", "optionen": ["Er rief den Krankenwagen.", "Er lief weg.", "Er entschuldigte sich."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich aß gerade zu Abend, als das Telefon klingelte.", "loesungen": ["Estava a jantar quando o telefone tocou.", "Eu estava a jantar quando o telefone tocou."]},
+     {"de": "Was ist passiert?", "loesungen": ["O que aconteceu?", "O que é que aconteceu?", "O que se passou?"]},
+     {"de": "Ich bin vom Fahrrad gefallen.", "loesungen": ["Caí da bicicleta."]},
+     {"de": "Während ich kochte, deckte Ana den Tisch.", "loesungen": ["Enquanto eu cozinhava, a Ana punha a mesa.", "Enquanto cozinhava, a Ana punha a mesa."]},
+     {"de": "Wir schliefen gerade, als wir ein Geräusch hörten.", "loesungen": ["Estávamos a dormir quando ouvimos um barulho."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-estava-a-jantar-quando", "pt": "Estava a jantar quando o telefone tocou.", "de": "Ich aß gerade zu Abend, als das Telefon klingelte."},
+    {"id": "a2-enquanto-cozinhava", "pt": "Enquanto eu cozinhava, a Ana punha a mesa.", "de": "Während ich kochte, deckte Ana den Tisch."},
+    {"id": "a2-o-que-aconteceu", "pt": "O que é que aconteceu?", "de": "Was ist passiert?"}
+   ]
+  },
+  {
+   "id": "A2-02-L08",
+   "typ": "neu",
+   "titel": "Eine Erinnerung erzählen",
+   "vokabeln": ["quando-eu-era-pequeno", "lembrar-se-de", "a-recordacao", "ter-saudades-de", "inesquecivel", "de-vez-em-quando", "a-fotografia"],
+   "grammatik": {
+    "titel": "Eine Erinnerung erzählen",
+    "erklaerung": [
+     "Einstieg: <b>Quando eu era pequeno/pequena …</b>, <b>Lembro-me de …</b>, <b>Uma vez …</b> (einmal), <b>Um dia …</b> (eines Tages).",
+     "<b>lembrar-se de</b> + Nomen oder Infinitiv: <i>Lembro-me bem desse verão. Lembro-me de brincar na neve.</i> Verneint: <i>Não me lembro.</i>",
+     "<b>ter saudades de</b> = vermissen, sich zurücksehnen: <i>Tenho saudades da minha avó.</i>",
+     "Aufbau: Rahmen im <b>Imperfeito</b> (era, tinha, estava a …) → Ereignis im <b>Perfeito</b> (um dia aconteceu …) → Bewertung im Perfeito: <i>Foi inesquecível!</i>"
+    ],
+    "vergleich": "„Saudade“ hat kein deutsches Gegenstück – es ist mehr als Heimweh: die liebevolle Sehnsucht nach etwas oder jemandem, das fehlt. <i>Tenho saudades tuas.</i> = Ich vermisse dich.",
+    "beispiele": [
+     {"pt": "Quando eu era pequeno, vivia numa aldeia.", "de": "Als ich klein war, wohnte ich in einem Dorf."},
+     {"pt": "Lembro-me de brincar na neve com o meu irmão.", "de": "Ich erinnere mich, wie ich mit meinem Bruder im Schnee spielte."},
+     {"pt": "Tenho saudades desse tempo.", "de": "Ich sehne mich nach dieser Zeit zurück."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quando eu ___ pequeno, vivia numa aldeia. (ser)", "loesungen": ["era"], "de": "Als ich klein war, wohnte ich in einem Dorf.", "kategorie": "Imperfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Não me ___ do nome dele. (lembrar-se, eu)", "loesungen": ["lembro"], "de": "Ich erinnere mich nicht an seinen Namen.", "erklaerung": "Nach não steht me vor dem Verb: Não me lembro.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Um dia ___ uma coisa incrível. (acontecer)", "loesungen": ["aconteceu"], "de": "Eines Tages ist etwas Unglaubliches passiert.", "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "auswahl", "frage": "„Ich erinnere mich an diesen Sommer.“", "optionen": ["Lembro desse verão.", "Me lembro desse verão.", "Lembro-me desse verão."], "richtig": 2, "erklaerung": "pt-PT: lembrar-se, Pronomen hinter dem Verb: Lembro-me.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Es war unvergesslich!“ (Bewertung am Ende)", "optionen": ["Foi inesquecível!", "Era inesquecível!", "Esteve inesquecível!"], "richtig": 0, "erklaerung": "Abschließende Bewertung → Perfeito: foi.", "kategorie": "Imperfeito/Perfeito"},
+     {"typ": "diktat", "pt": "Tenho muitas saudades desse tempo."},
+     {"typ": "uebersetzen", "de": "Ich vermisse dich. (tu)", "loesungen": ["Tenho saudades tuas.", "Tenho saudades de ti."]},
+     {"typ": "satzbau", "de": "Ab und zu schaue ich mir die alten Fotos an.", "loesung": "De vez em quando vejo as fotografias antigas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma fotografia antiga – ein altes Foto",
+    "situation": "Ana zeigt Stefan ein Foto aus ihrer Kindheit.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que fotografia é esta? És tu?", "de": "Was ist das für ein Foto? Bist du das?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Sou eu! Tinha oito anos. Era o verão de 1990, na praia da Nazaré.", "de": "Das bin ich! Ich war acht. Es war der Sommer 1990, am Strand von Nazaré."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Lembras-te bem desse dia?", "de": "Erinnerst du dich gut an diesen Tag?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Lembro-me de tudo! Estava muito calor e o meu pai estava a fazer um castelo de areia.", "de": "An alles! Es war sehr heiß und mein Vater baute gerade eine Sandburg."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "De repente veio uma onda enorme e levou o castelo. Chorei tanto!", "de": "Plötzlich kam eine riesige Welle und nahm die Burg mit. Ich habe so geweint!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Coitadinha! E depois?", "de": "Du Arme! Und dann?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Depois o meu pai comprou-me um gelado. Foi inesquecível. Tenho saudades desses verões.", "de": "Dann hat mir mein Vater ein Eis gekauft. Es war unvergesslich. Ich sehne mich nach diesen Sommern zurück."}
+    ],
+    "fragen": [
+     {"frage": "Wie alt war Ana auf dem Foto?", "optionen": ["sechs", "acht", "zehn"], "richtig": 1},
+     {"frage": "Was machte ihr Vater gerade?", "optionen": ["Er baute eine Sandburg.", "Er schwamm im Meer.", "Er las Zeitung."], "richtig": 0},
+     {"frage": "Was passierte dann?", "optionen": ["Es fing an zu regnen.", "Ana verlor ihr Eis.", "Eine große Welle zerstörte die Burg."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Rita fragt dich nach deiner schönsten Kindheitserinnerung.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, qual é a tua melhor recordação de infância?", "de": "Stefan, was ist deine schönste Kindheitserinnerung?"},
+     {"ich": true, "aufgabe": "Sag: Als ich klein war, verbrachte ich die Sommer auf dem Bauernhof meiner Großeltern.", "loesungen": ["Quando eu era pequeno, passava os verões na quinta dos meus avós.", "Quando era pequeno, passava os verões na quinta dos meus avós.", "Quando eu era pequeno, passava os verões na quinta dos avós."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Que bonito! E lembras-te de algum dia especial?", "de": "Wie schön! Und erinnerst du dich an einen besonderen Tag?"},
+     {"ich": true, "aufgabe": "Sag: Ja. Eines Tages hat mir mein Großvater ein Fahrrad geschenkt.", "loesungen": ["Sim. Um dia o meu avô deu-me uma bicicleta.", "Sim, um dia o meu avô deu-me uma bicicleta.", "Lembro-me. Um dia o meu avô deu-me uma bicicleta.", "Sim. Um dia, o meu avô deu-me uma bicicleta.", "Sim. Um dia o meu avô ofereceu-me uma bicicleta."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E tens saudades desse tempo?", "de": "Und sehnst du dich nach dieser Zeit zurück?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich sehne mich sehr nach dieser Zeit zurück.", "loesungen": ["Sim, tenho muitas saudades desse tempo.", "Tenho, tenho muitas saudades desse tempo.", "Sim, tenho muitas saudades daquele tempo."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-quando-era-pequeno", "pt": "Quando eu era pequeno, vivia numa aldeia.", "de": "Als ich klein war, wohnte ich in einem Dorf."},
+    {"id": "a2-lembro-me-de", "pt": "Lembro-me de brincar na neve com o meu irmão.", "de": "Ich erinnere mich, wie ich mit meinem Bruder im Schnee spielte."},
+    {"id": "a2-tenho-saudades", "pt": "Tenho saudades desse tempo.", "de": "Ich sehne mich nach dieser Zeit zurück."}
+   ]
+  },
+  {"id": "A2-02-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-02-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "A escola da avó Lurdes – die Schule von Oma Lurdes",
+   "situation": "Pedro fragt seine Großmutter Lurdes nach ihrer Schulzeit an der Algarve.",
+   "zeilen": [
+    {"sprecher": "Pedro", "stimme": "m", "pt": "Avó, como era a escola quando a avó era pequena?", "de": "Oma, wie war die Schule, als du klein warst?"},
+    {"sprecher": "Lurdes", "stimme": "f", "pt": "Era muito diferente! Eu ia a pé, cinco quilómetros, todos os dias.", "de": "Ganz anders! Ich ging jeden Tag fünf Kilometer zu Fuß."},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "Cinco quilómetros? E quando chovia?", "de": "Fünf Kilometer? Und wenn es regnete?"},
+    {"sprecher": "Lurdes", "stimme": "f", "pt": "Ia na mesma. Não havia autocarro. E tínhamos só uma professora para quatro turmas.", "de": "Ich ging trotzdem. Es gab keinen Bus. Und wir hatten nur eine Lehrerin für vier Klassen."},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "E no recreio, o que é que faziam?", "de": "Und was habt ihr in der Pause gemacht?"},
+    {"sprecher": "Lurdes", "stimme": "f", "pt": "As raparigas saltavam à corda e os rapazes jogavam à bola. Um dia estávamos a brincar quando começou a nevar. Neve no Algarve! Foi inesquecível.", "de": "Die Mädchen sprangen Seil und die Jungen spielten Fußball. Eines Tages spielten wir gerade, als es zu schneien begann. Schnee an der Algarve! Es war unvergesslich."}
+   ],
+   "fragen": [
+    {"frage": "Wie kam Lurdes zur Schule?", "optionen": ["mit dem Bus", "zu Fuß", "mit dem Fahrrad"], "richtig": 1},
+    {"frage": "Wie viele Lehrerinnen gab es?", "optionen": ["eine", "vier", "zwei"], "richtig": 0},
+    {"frage": "Was machten die Jungen in der Pause?", "optionen": ["Seilspringen", "Verstecken spielen", "Fußball spielen"], "richtig": 2},
+    {"frage": "Was passierte eines Tages?", "optionen": ["Es schneite.", "Die Schule brannte.", "Die Lehrerin war krank."], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "A minha infância na Áustria – meine Kindheit in Österreich",
+   "situation": "Stefan hat für seinen Portugiesischkurs einen Text geschrieben.",
+   "text": [
+    "Quando eu era pequeno, vivia numa aldeia perto de Salzburgo. A nossa casa era antiga e tinha um jardim grande.",
+    "No inverno nevava muito. Eu e o meu irmão costumávamos ir para a escola de trenó.",
+    "Aos domingos íamos a casa dos meus avós. A minha avó fazia sempre um bolo de maçã.",
+    "Hoje em dia a aldeia já não é tão pequena: há um supermercado e muitas casas novas. Mas ainda tenho saudades daquele tempo."
+   ],
+   "fragen": [
+    {"frage": "Wie war Stefans Elternhaus?", "optionen": ["alt, mit einem großen Garten", "neu und klein", "eine Wohnung im Zentrum"], "richtig": 0},
+    {"frage": "Wie kamen die Brüder im Winter zur Schule?", "optionen": ["mit dem Bus", "mit dem Schlitten", "mit dem Fahrrad"], "richtig": 1},
+    {"frage": "Was machte die Großmutter immer?", "optionen": ["Suppe", "Brot", "Apfelkuchen"], "richtig": 2},
+    {"frage": "Was hat sich im Dorf verändert?", "optionen": ["Es gibt jetzt einen Supermarkt und neue Häuser.", "Die Schule ist geschlossen.", "Es schneit nicht mehr."], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Früher wohnten wir in einem Dorf.", "loesungen": ["Antigamente morávamos numa aldeia.", "Antes morávamos numa aldeia.", "Antigamente vivíamos numa aldeia.", "Antes vivíamos numa aldeia."]},
+   {"de": "Als ich klein war, spielte ich auf der Straße.", "loesungen": ["Quando eu era pequeno, brincava na rua.", "Quando era pequeno, brincava na rua.", "Quando eu era pequena, brincava na rua.", "Quando era pequena, brincava na rua."]},
+   {"de": "Es gab keinen Strom.", "loesungen": ["Não havia eletricidade.", "Não havia luz."]},
+   {"de": "Ich wohne nicht mehr in Wien.", "loesungen": ["Já não moro em Viena.", "Já não vivo em Viena."]},
+   {"de": "Ich aß gerade zu Abend, als das Telefon klingelte.", "loesungen": ["Estava a jantar quando o telefone tocou.", "Eu estava a jantar quando o telefone tocou."]},
+   {"de": "Ich sehne mich nach dieser Zeit zurück.", "loesungen": ["Tenho saudades desse tempo.", "Tenho saudades daquele tempo.", "Tenho muitas saudades desse tempo."]}
+  ],
+  "sprechen": [
+   {"pt": "Antigamente morávamos numa aldeia.", "de": "Früher wohnten wir in einem Dorf."},
+   {"pt": "Quando eu era pequeno, brincava na rua.", "de": "Als ich klein war, spielte ich auf der Straße."},
+   {"pt": "Antes vivia em Viena, agora vivo em Lagos.", "de": "Früher lebte ich in Wien, jetzt lebe ich in Lagos."},
+   {"pt": "Estava a jantar quando o telefone tocou.", "de": "Ich aß gerade zu Abend, als das Telefon klingelte."},
+   {"pt": "Tenho saudades desse tempo.", "de": "Ich sehne mich nach dieser Zeit zurück."}
+  ]
+ }
+}

@@ -1,0 +1,648 @@
+{
+ "id": "A2-12",
+ "level": "A2",
+ "titel": "Planos e opiniões – Pläne und Meinungen",
+ "beschreibung": "Pläne machen, Wünsche und Vorschläge äußern, Meinungen sagen, zustimmen und widersprechen: Konditional (faria, seria) und Imperfeito als Alltagsform, Perfeito composto richtig verwenden (tenho trabalhado), acho que, na minha opinião.",
+ "vokabeln": [
+  {"id": "pensar-infinitiv", "pt": "pensar + Infinitiv", "de": "vorhaben (etwas zu tun)", "emoji": "💭", "beispiel_pt": "Penso abrir um escritório em Faro.", "beispiel_de": "Ich habe vor, in Faro ein Büro zu eröffnen.", "hinweis": "pensar em = denken an (Penso em ti.)"},
+  {"id": "tencionar", "pt": "tencionar", "de": "beabsichtigen", "emoji": "🎯", "beispiel_pt": "Tencionamos ficar em Portugal.", "beispiel_de": "Wir beabsichtigen, in Portugal zu bleiben.", "hinweis": "tencionar + Infinitiv, ohne Präposition"},
+  {"id": "o-objetivo", "pt": "o objetivo", "de": "das Ziel", "emoji": "🏁", "beispiel_pt": "O meu objetivo é falar português fluentemente.", "beispiel_de": "Mein Ziel ist es, fließend Portugiesisch zu sprechen."},
+  {"id": "a-medio-prazo", "pt": "a médio prazo", "de": "mittelfristig", "emoji": "📆", "beispiel_pt": "A médio prazo, queremos comprar uma casa.", "beispiel_de": "Mittelfristig wollen wir ein Haus kaufen.", "hinweis": "a curto prazo = kurzfristig"},
+  {"id": "a-longo-prazo", "pt": "a longo prazo", "de": "langfristig", "emoji": "🗓️", "beispiel_pt": "A longo prazo, queremos ficar cá.", "beispiel_de": "Langfristig wollen wir hierbleiben."},
+  {"id": "o-plano", "pt": "o plano", "de": "der Plan", "emoji": "📋", "beispiel_pt": "Qual é o plano para amanhã?", "beispiel_de": "Was ist der Plan für morgen?"},
+  {"id": "fazer-planos", "pt": "fazer planos", "de": "Pläne machen", "emoji": "🗺️", "beispiel_pt": "Gostamos de fazer planos para o verão.", "beispiel_de": "Wir machen gern Pläne für den Sommer."},
+  {"id": "um-dia", "pt": "um dia", "de": "eines Tages", "emoji": "🌈", "beispiel_pt": "Um dia quero aprender a velejar.", "beispiel_de": "Eines Tages will ich segeln lernen."},
+
+  {"id": "faria", "pt": "faria", "de": "ich/er/sie würde machen", "emoji": "🛠️", "beispiel_pt": "No teu lugar, eu faria o mesmo.", "beispiel_de": "An deiner Stelle würde ich dasselbe machen.", "hinweis": "fazer → faria (unregelmäßig)"},
+  {"id": "seria", "pt": "seria", "de": "ich/er/sie/es wäre", "emoji": "✨", "beispiel_pt": "Seria ótimo viver perto do mar.", "beispiel_de": "Es wäre super, am Meer zu wohnen."},
+  {"id": "diria", "pt": "diria", "de": "ich/er/sie würde sagen", "emoji": "💬", "beispiel_pt": "Eu diria que sim.", "beispiel_de": "Ich würde sagen, ja.", "hinweis": "dizer → diria (unregelmäßig)"},
+  {"id": "teria", "pt": "teria", "de": "ich/er/sie hätte", "emoji": "🎁", "beispiel_pt": "Com mais tempo, teria um jardim.", "beispiel_de": "Mit mehr Zeit hätte ich einen Garten."},
+  {"id": "iria", "pt": "iria", "de": "ich/er/sie würde gehen/fahren", "emoji": "🚗", "beispiel_pt": "Eu iria de comboio.", "beispiel_de": "Ich würde mit dem Zug fahren."},
+  {"id": "poderia", "pt": "poderia", "de": "ich/er/sie könnte", "emoji": "🙏", "beispiel_pt": "Poderia ajudar-me, por favor?", "beispiel_de": "Könnten Sie mir bitte helfen?", "hinweis": "im Alltag meist: podia"},
+  {"id": "gostariamos", "pt": "gostaríamos", "de": "wir würden gern", "emoji": "💕", "beispiel_pt": "Gostaríamos de visitar os Açores.", "beispiel_de": "Wir würden gern die Azoren besuchen.", "hinweis": "im Alltag meist: gostávamos"},
+
+  {"id": "seria-bom", "pt": "Seria bom …", "de": "Es wäre gut …", "emoji": "👍", "beispiel_pt": "Seria bom reservar mesa.", "beispiel_de": "Es wäre gut, einen Tisch zu reservieren."},
+  {"id": "que-tal-irmos", "pt": "Que tal irmos …?", "de": "Wie wär's, wenn wir … gehen/fahren?", "emoji": "💡", "beispiel_pt": "Que tal irmos à praia?", "beispiel_de": "Wie wär's, wenn wir an den Strand gehen?", "hinweis": "Que tal + persönlicher Infinitiv: Que tal jantarmos fora?"},
+  {"id": "apetecia-me", "pt": "Apetecia-me …", "de": "Ich hätte Lust auf …", "emoji": "🍦", "beispiel_pt": "Apetecia-me um gelado.", "beispiel_de": "Ich hätte Lust auf ein Eis.", "hinweis": "Präsens: Apetece-me …; verneint: Não me apetece."},
+  {"id": "a-sugestao", "pt": "a sugestão", "de": "der Vorschlag", "emoji": "📝", "beispiel_pt": "Tenho uma sugestão: vamos a Sagres!", "beispiel_de": "Ich habe einen Vorschlag: Fahren wir nach Sagres!"},
+  {"id": "propor", "pt": "propor", "de": "vorschlagen", "emoji": "🗣️", "beispiel_pt": "O que propões?", "beispiel_de": "Was schlägst du vor?", "hinweis": "wie pôr: proponho, propões, propõe; Perfeito: propus"},
+  {"id": "porque-nao", "pt": "Porque não …?", "de": "Warum nicht …? / Wieso nicht …?", "emoji": "🤷", "beispiel_pt": "Porque não vamos a Tavira?", "beispiel_de": "Warum fahren wir nicht nach Tavira?"},
+  {"id": "valer-a-pena", "pt": "valer a pena", "de": "sich lohnen", "emoji": "💎", "beispiel_pt": "Vale a pena visitar Monchique.", "beispiel_de": "Es lohnt sich, Monchique zu besuchen."},
+
+  {"id": "ultimamente", "pt": "ultimamente", "de": "in letzter Zeit", "emoji": "⏱️", "beispiel_pt": "Ultimamente tenho dormido mal.", "beispiel_de": "In letzter Zeit schlafe ich schlecht."},
+  {"id": "tenho-andado", "pt": "tenho andado", "de": "ich bin in letzter Zeit (+ Adjektiv)", "emoji": "🚶", "beispiel_pt": "Tenho andado muito cansado.", "beispiel_de": "Ich bin in letzter Zeit sehr müde.", "hinweis": "andar + Adjektiv = in letzter Zeit so sein; tenho andado a pensar = ich denke in letzter Zeit darüber nach"},
+  {"id": "tenho-trabalhado", "pt": "tenho trabalhado", "de": "ich arbeite in letzter Zeit (viel)", "emoji": "💼", "beispiel_pt": "Tenho trabalhado muito.", "beispiel_de": "Ich arbeite in letzter Zeit viel.", "hinweis": "Kein deutsches Perfekt! „Ich habe gearbeitet“ = trabalhei"},
+  {"id": "tem-chovido", "pt": "tem chovido", "de": "es regnet in letzter Zeit", "emoji": "🌧️", "beispiel_pt": "Este inverno tem chovido pouco.", "beispiel_de": "In diesem Winter regnet es wenig."},
+  {"id": "nos-ultimos-tempos", "pt": "nos últimos tempos", "de": "in letzter Zeit / in der letzten Zeit", "emoji": "📉", "beispiel_pt": "Temos ido muitas vezes à praia nos últimos tempos.", "beispiel_de": "In letzter Zeit gehen wir oft an den Strand."},
+  {"id": "o-cansaco", "pt": "o cansaço", "de": "die Müdigkeit / Erschöpfung", "emoji": "🥱", "beispiel_pt": "Com tanto trabalho, o cansaço é normal.", "beispiel_de": "Bei so viel Arbeit ist die Müdigkeit normal."},
+  {"id": "o-stress", "pt": "o stress", "de": "der Stress", "emoji": "😵", "beispiel_pt": "Tenho tido muito stress no trabalho.", "beispiel_de": "Ich habe in letzter Zeit viel Stress in der Arbeit."},
+
+  {"id": "ate-agora", "pt": "até agora", "de": "bis jetzt", "emoji": "⏩", "beispiel_pt": "Até agora, correu tudo bem.", "beispiel_de": "Bis jetzt ist alles gut gelaufen."},
+  {"id": "este-mes", "pt": "este mês", "de": "diesen Monat", "emoji": "📅", "beispiel_pt": "Este mês temos tido muitas visitas.", "beispiel_de": "Diesen Monat haben wir viel Besuch."},
+  {"id": "desde-que", "pt": "desde que", "de": "seit (+ Nebensatz)", "emoji": "🔙", "beispiel_pt": "Desde que chegámos, tem feito sempre sol.", "beispiel_de": "Seit wir angekommen sind, ist immer schönes Wetter."},
+  {"id": "adaptar-se", "pt": "adaptar-se", "de": "sich anpassen / sich einleben", "emoji": "🦎", "beispiel_pt": "Adaptámo-nos bem à vida no Algarve.", "beispiel_de": "Wir haben uns gut an das Leben in der Algarve angepasst.", "hinweis": "adaptar-se a; nós: adaptámo-nos (das s fällt vor -nos weg)"},
+  {"id": "habituar-se", "pt": "habituar-se", "de": "sich gewöhnen", "emoji": "🛋️", "beispiel_pt": "Já me habituei ao jantar tarde.", "beispiel_de": "Ich habe mich schon an das späte Abendessen gewöhnt.", "hinweis": "habituar-se a + Nomen/Infinitiv"},
+  {"id": "o-progresso", "pt": "o progresso", "de": "der Fortschritt", "emoji": "🚀", "beispiel_pt": "Tens feito muitos progressos!", "beispiel_de": "Du machst in letzter Zeit viele Fortschritte!", "hinweis": "fazer progressos = Fortschritte machen"},
+  {"id": "o-habito", "pt": "o hábito", "de": "die Gewohnheit", "emoji": "🔁", "beispiel_pt": "Jantar tarde é um hábito português.", "beispiel_de": "Spät zu Abend essen ist eine portugiesische Gewohnheit."},
+
+  {"id": "acho-que", "pt": "acho que", "de": "ich finde / glaube, dass", "emoji": "🤔", "beispiel_pt": "Acho que o Algarve é caro.", "beispiel_de": "Ich finde, die Algarve ist teuer.", "hinweis": "Acho que sim. / Acho que não. = Ich glaube schon / nicht."},
+  {"id": "na-minha-opiniao", "pt": "na minha opinião", "de": "meiner Meinung nach", "emoji": "🗨️", "beispiel_pt": "Na minha opinião, o comboio é melhor.", "beispiel_de": "Meiner Meinung nach ist der Zug besser."},
+  {"id": "parece-me-que", "pt": "parece-me que", "de": "mir scheint, dass", "emoji": "🧐", "beispiel_pt": "Parece-me que vai chover.", "beispiel_de": "Mir scheint, es wird regnen."},
+  {"id": "a-meu-ver", "pt": "a meu ver", "de": "meiner Ansicht nach", "emoji": "👓", "beispiel_pt": "A meu ver, é uma boa ideia.", "beispiel_de": "Meiner Ansicht nach ist das eine gute Idee."},
+  {"id": "julgo-que", "pt": "julgo que", "de": "ich glaube / meine, dass", "emoji": "⚖️", "beispiel_pt": "Julgo que a reunião é amanhã.", "beispiel_de": "Ich glaube, die Besprechung ist morgen."},
+  {"id": "sinceramente", "pt": "sinceramente", "de": "ehrlich gesagt", "emoji": "😇", "beispiel_pt": "Sinceramente, não gosto muito.", "beispiel_de": "Ehrlich gesagt gefällt es mir nicht so sehr."},
+  {"id": "achas-que", "pt": "Achas que …?", "de": "Glaubst du, dass …?", "emoji": "❓", "beispiel_pt": "Achas que vai chover?", "beispiel_de": "Glaubst du, dass es regnen wird?", "hinweis": "formell: Acha que …?"},
+
+  {"id": "concordo", "pt": "concordo", "de": "ich bin einverstanden / ich stimme zu", "emoji": "🤝", "beispiel_pt": "Concordo contigo.", "beispiel_de": "Ich stimme dir zu.", "hinweis": "concordar com: contigo (tu), consigo (formell)"},
+  {"id": "discordo", "pt": "discordo", "de": "ich bin anderer Meinung", "emoji": "🙅", "beispiel_pt": "Discordo, acho que é caro.", "beispiel_de": "Da bin ich anderer Meinung, ich finde es teuer."},
+  {"id": "tens-razao", "pt": "tens razão", "de": "du hast recht", "emoji": "✔️", "beispiel_pt": "Tens razão, é melhor irmos cedo.", "beispiel_de": "Du hast recht, es ist besser, wenn wir früh fahren.", "hinweis": "formell: Tem razão."},
+  {"id": "depende", "pt": "depende", "de": "das kommt darauf an", "emoji": "🔀", "beispiel_pt": "Depende do tempo.", "beispiel_de": "Das hängt vom Wetter ab."},
+  {"id": "pois-e", "pt": "Pois é.", "de": "Genau. / So ist es.", "emoji": "😌", "beispiel_pt": "Pois é, o verão aqui é muito quente.", "beispiel_de": "Genau, der Sommer hier ist sehr heiß."},
+  {"id": "nem-pensar", "pt": "Nem pensar!", "de": "Kommt nicht in Frage!", "emoji": "🚫", "beispiel_pt": "Ir de carro a Lisboa em agosto? Nem pensar!", "beispiel_de": "Im August mit dem Auto nach Lissabon? Kommt nicht in Frage!"},
+  {"id": "nao-tenho-a-certeza", "pt": "não tenho a certeza", "de": "ich bin mir nicht sicher", "emoji": "😕", "beispiel_pt": "Não tenho a certeza se o restaurante está aberto.", "beispiel_de": "Ich bin mir nicht sicher, ob das Restaurant offen hat."},
+  {"id": "exatamente", "pt": "exatamente", "de": "genau", "emoji": "🎯", "beispiel_pt": "Exatamente! Era isso que eu queria dizer.", "beispiel_de": "Genau! Das wollte ich sagen."},
+
+  {"id": "a-vantagem", "pt": "a vantagem", "de": "der Vorteil", "emoji": "➕", "beispiel_pt": "A grande vantagem é o clima.", "beispiel_de": "Der große Vorteil ist das Klima."},
+  {"id": "a-desvantagem", "pt": "a desvantagem", "de": "der Nachteil", "emoji": "➖", "beispiel_pt": "A desvantagem é a distância.", "beispiel_de": "Der Nachteil ist die Entfernung."},
+  {"id": "por-um-lado", "pt": "por um lado", "de": "einerseits", "emoji": "↩️", "beispiel_pt": "Por um lado, é barato.", "beispiel_de": "Einerseits ist es billig."},
+  {"id": "por-outro-lado", "pt": "por outro lado", "de": "andererseits", "emoji": "↪️", "beispiel_pt": "Por outro lado, fica longe.", "beispiel_de": "Andererseits ist es weit weg."},
+  {"id": "o-custo-de-vida", "pt": "o custo de vida", "de": "die Lebenshaltungskosten", "emoji": "💶", "beispiel_pt": "O custo de vida tem subido muito.", "beispiel_de": "Die Lebenshaltungskosten steigen in letzter Zeit stark."},
+  {"id": "a-qualidade-de-vida", "pt": "a qualidade de vida", "de": "die Lebensqualität", "emoji": "🌞", "beispiel_pt": "Aqui a qualidade de vida é ótima.", "beispiel_de": "Hier ist die Lebensqualität super."},
+  {"id": "a-burocracia", "pt": "a burocracia", "de": "die Bürokratie", "emoji": "📑", "beispiel_pt": "A burocracia é a maior desvantagem.", "beispiel_de": "Die Bürokratie ist der größte Nachteil."},
+  {"id": "o-futuro", "pt": "o futuro", "de": "die Zukunft", "emoji": "🔮", "beispiel_pt": "No futuro, queremos ficar cá.", "beispiel_de": "In Zukunft wollen wir hierbleiben."}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-12-L01",
+   "typ": "neu",
+   "titel": "Pläne machen",
+   "vokabeln": ["pensar-infinitiv", "tencionar", "o-objetivo", "a-medio-prazo", "a-longo-prazo", "o-plano", "fazer-planos", "um-dia"],
+   "grammatik": {
+    "titel": "Pläne ausdrücken: pensar, tencionar, ir, querer",
+    "erklaerung": [
+     "<b>pensar + Infinitiv</b> (ohne Präposition) = vorhaben: <i>Penso abrir um escritório em Faro.</i> – Ich habe vor, in Faro ein Büro zu eröffnen.",
+     "<b>tencionar + Infinitiv</b> = beabsichtigen (etwas formeller): <i>Tencionamos ficar em Portugal.</i>",
+     "<b>ir + Infinitiv</b> für feste Pläne, <b>querer</b> für Wünsche: <i>Vou começar em janeiro. Quero aprender a velejar.</i>",
+     "Zeitrahmen: <b>a curto / médio / longo prazo</b> (kurz-/mittel-/langfristig), <b>um dia</b> (eines Tages): <i>A médio prazo, queremos comprar uma casa.</i>"
+    ],
+    "vergleich": "Achtung: <i>pensar em</i> = „denken an“ (<i>Penso em ti.</i>), <i>pensar + Infinitiv</i> = „vorhaben“. Englisch ähnlich: <i>I'm thinking of opening …</i>",
+    "beispiele": [
+     {"pt": "Penso abrir um escritório em Faro.", "de": "Ich habe vor, in Faro ein Büro zu eröffnen."},
+     {"pt": "A médio prazo, tencionamos comprar uma casa.", "de": "Mittelfristig beabsichtigen wir, ein Haus zu kaufen."},
+     {"pt": "O meu objetivo é falar português fluentemente.", "de": "Mein Ziel ist es, fließend Portugiesisch zu sprechen."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich habe vor, ein Büro zu eröffnen.“", "optionen": ["Penso abrir um escritório.", "Penso que abrir um escritório.", "Penso de abrir um escritório."], "richtig": 0, "erklaerung": "pensar + Infinitiv, ohne Präposition.", "kategorie": "Pläne"},
+     {"typ": "luecke", "satz": "___ ficar em Portugal. (wir, tencionar)", "loesungen": ["Tencionamos"], "de": "Wir beabsichtigen, in Portugal zu bleiben.", "kategorie": "Pläne"},
+     {"typ": "luecke", "satz": "A ___ prazo, queremos comprar uma casa. (mittelfristig)", "loesungen": ["médio"], "de": "Mittelfristig wollen wir ein Haus kaufen."},
+     {"typ": "luecke", "satz": "O meu ___ é falar português fluentemente.", "loesungen": ["objetivo"], "de": "Mein Ziel ist es, fließend Portugiesisch zu sprechen.", "erklaerung": "Neue Rechtschreibung: objetivo (ohne c).", "kategorie": "Rechtschreibung"},
+     {"typ": "luecke", "satz": "Este ano ___ uma viagem aos Açores. (nós, planear)", "loesungen": ["planeamos"], "de": "Dieses Jahr planen wir eine Reise auf die Azoren.", "erklaerung": "planear: planeio, planeias, planeia, planeamos, planeiam (wie passear)."},
+     {"typ": "uebersetzen", "de": "Was hast du vor? (tu, pensar)", "loesungen": ["O que pensas fazer?", "O que é que pensas fazer?"]},
+     {"typ": "uebersetzen", "de": "Eines Tages will ich ein Haus kaufen.", "loesungen": ["Um dia quero comprar uma casa.", "Um dia, quero comprar uma casa.", "Quero comprar uma casa um dia."]},
+     {"typ": "satzbau", "de": "Langfristig wollen wir in Portugal bleiben.", "loesung": "A longo prazo queremos ficar em Portugal."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Planos para o futuro – Zukunftspläne",
+    "situation": "Stefan und Pedro trinken einen Kaffee in Lagos.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então, Stefan, quais são os teus planos para o próximo ano?", "de": "Na, Stefan, was sind deine Pläne fürs nächste Jahr?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Penso abrir um pequeno escritório em Faro. Tenho cada vez mais clientes portugueses.", "de": "Ich habe vor, ein kleines Büro in Faro zu eröffnen. Ich habe immer mehr portugiesische Kunden."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Boa! E a Ana?", "de": "Super! Und Ana?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A Ana tenciona fazer um curso de cerâmica. É um sonho antigo dela.", "de": "Ana möchte einen Keramikkurs machen. Das ist ein alter Traum von ihr."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E a longo prazo? Vão ficar no Algarve?", "de": "Und langfristig? Bleibt ihr in der Algarve?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vamos. A médio prazo queremos comprar uma casa no campo, perto de Lagos.", "de": "Ja. Mittelfristig wollen wir ein Haus auf dem Land kaufen, in der Nähe von Lagos."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então um dia vou visitar-vos lá!", "de": "Dann besuche ich euch eines Tages dort!"}
+    ],
+    "fragen": [
+     {"frage": "O que pensa fazer o Stefan no próximo ano?", "optionen": ["comprar uma casa", "abrir um escritório em Faro", "fazer um curso"], "richtig": 1},
+     {"frage": "O que tenciona fazer a Ana?", "optionen": ["um curso de cerâmica", "um curso de português", "abrir uma loja"], "richtig": 0},
+     {"frage": "Onde querem comprar casa?", "optionen": ["em Faro", "em Lisboa", "no campo, perto de Lagos"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Penso abrir um escritório em Faro.", "de": "Ich habe vor, in Faro ein Büro zu eröffnen."},
+     {"pt": "Tencionamos ficar em Portugal.", "de": "Wir beabsichtigen, in Portugal zu bleiben."},
+     {"pt": "A médio prazo, queremos comprar uma casa.", "de": "Mittelfristig wollen wir ein Haus kaufen."},
+     {"pt": "O meu objetivo é falar português fluentemente.", "de": "Mein Ziel ist es, fließend Portugiesisch zu sprechen."},
+     {"pt": "Quais são os teus planos?", "de": "Was sind deine Pläne?"}
+    ]
+   },
+   "saetze": [
+    {"id": "penso-abrir-escritorio", "pt": "Penso abrir um escritório em Faro.", "de": "Ich habe vor, in Faro ein Büro zu eröffnen."},
+    {"id": "medio-prazo-casa", "pt": "A médio prazo, queremos comprar uma casa.", "de": "Mittelfristig wollen wir ein Haus kaufen."},
+    {"id": "quais-teus-planos", "pt": "Quais são os teus planos?", "de": "Was sind deine Pläne?"}
+   ]
+  },
+  {
+   "id": "A2-12-L02",
+   "typ": "neu",
+   "titel": "Was wäre, wenn …: das Konditional",
+   "vokabeln": ["faria", "seria", "diria", "teria", "iria", "poderia", "gostariamos"],
+   "grammatik": {
+    "titel": "Condicional: faria, seria – und im Alltag das Imperfeito",
+    "erklaerung": [
+     "Das <b>condicional</b> entspricht „würde“: Infinitiv + <b>-ia, -ias, -ia, -íamos, -iam</b>: eu viajar<b>ia</b>, tu viajar<b>ias</b>, você/ele viajar<b>ia</b>, nós viajar<b>íamos</b>, vocês/eles viajar<b>iam</b>.",
+     "Nur drei Verben sind unregelmäßig: fazer → <b>faria</b>, dizer → <b>diria</b>, trazer → <b>traria</b>.",
+     "Verwendung: Höflichkeit (<i>Poderia ajudar-me?</i>), Hypothesen (<i>Com mais tempo, viajaria mais.</i>) und Ratschläge (<i>No teu lugar, eu faria isso.</i>).",
+     "Im Alltag sagt man in Portugal sehr oft das <b>imperfeito</b> statt des condicional: <i>gostava</i> statt <i>gostaria</i>, <i>fazia</i> statt <i>faria</i>, <i>podia</i> statt <i>poderia</i>. Beides ist richtig – das imperfeito klingt lockerer."
+    ],
+    "vergleich": "Deutsch „würde + Infinitiv“ ist im Portugiesischen ein Wort: <i>faria</i> = „ich würde machen“, <i>seria</i> = „wäre“, <i>teria</i> = „hätte“. Englisch: <i>would</i>.",
+    "beispiele": [
+     {"pt": "Com mais tempo, viajaria mais.", "de": "Mit mehr Zeit würde ich mehr reisen."},
+     {"pt": "No teu lugar, eu faria o mesmo.", "de": "An deiner Stelle würde ich dasselbe tun."},
+     {"pt": "Seria ótimo viver perto do mar.", "de": "Es wäre super, am Meer zu wohnen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Com mais tempo, eu ___ mais. (viajar)", "loesungen": ["viajaria", "viajava"], "de": "Mit mehr Zeit würde ich mehr reisen.", "kategorie": "Konditional"},
+     {"typ": "luecke", "satz": "No teu lugar, eu ___ o mesmo. (fazer)", "loesungen": ["faria", "fazia"], "de": "An deiner Stelle würde ich dasselbe tun.", "erklaerung": "fazer → faria (unregelmäßig); im Alltag auch: fazia.", "kategorie": "Konditional"},
+     {"typ": "luecke", "satz": "Nós ___ muito contentes. (ficar)", "loesungen": ["ficaríamos", "ficávamos"], "de": "Wir würden uns sehr freuen.", "erklaerung": "nós: -íamos mit Akzent.", "kategorie": "Konditional"},
+     {"typ": "luecke", "satz": "Eu ___ que sim. (dizer)", "loesungen": ["diria"], "de": "Ich würde sagen, ja.", "kategorie": "Konditional"},
+     {"typ": "auswahl", "frage": "Was sagt man im Alltag meistens statt „gostaria“?", "optionen": ["gostei", "gostava", "gostarei"], "richtig": 1, "erklaerung": "Das imperfeito gostava ist in Portugal die übliche Alltagsform.", "kategorie": "Konditional"},
+     {"typ": "auswahl", "frage": "„Das wäre super!“", "optionen": ["Será ótimo!", "Foi ótimo!", "Seria ótimo!"], "richtig": 2, "erklaerung": "será = wird sein, foi = war, seria = wäre.", "kategorie": "Konditional"},
+     {"typ": "uebersetzen", "de": "Was würdest du an meiner Stelle tun? (tu)", "loesungen": ["O que farias no meu lugar?", "O que é que farias no meu lugar?", "No meu lugar, o que farias?", "O que fazias no meu lugar?"]},
+     {"typ": "satzbau", "de": "Mit mehr Geld würden wir ein Boot kaufen.", "loesung": "Com mais dinheiro compraríamos um barco."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Com mais tempo … – Mit mehr Zeit …",
+    "situation": "Ana und Stefan träumen am Abend auf der Terrasse.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, com mais tempo, o que farias?", "de": "Stefan, was würdest du mit mehr Zeit machen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Viajaria mais. Iria aos Açores e à Madeira.", "de": "Ich würde mehr reisen. Ich würde auf die Azoren und nach Madeira fahren."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Eu teria um jardim enorme, com amendoeiras e laranjeiras.", "de": "Ich hätte einen riesigen Garten mit Mandel- und Orangenbäumen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Seria ótimo! Mas eu diria que já temos uma vida muito boa.", "de": "Das wäre super! Aber ich würde sagen, wir haben schon ein sehr gutes Leben."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Tens razão. Gostava só de ter mais férias.", "de": "Du hast recht. Ich hätte nur gern mehr Urlaub."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Eu também!", "de": "Ich auch!"}
+    ],
+    "fragen": [
+     {"frage": "O que faria o Stefan com mais tempo?", "optionen": ["Trabalharia mais.", "Viajaria mais.", "Compraria um barco."], "richtig": 1},
+     {"frage": "O que teria a Ana?", "optionen": ["um barco", "uma casa em Lisboa", "um jardim enorme"], "richtig": 2},
+     {"frage": "O que diz o Stefan sobre a vida deles?", "optionen": ["Já é muito boa.", "É muito cansativa.", "É muito cara."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Mit mehr Zeit würde ich mehr reisen.", "loesungen": ["Com mais tempo, viajaria mais.", "Com mais tempo viajaria mais.", "Com mais tempo, eu viajaria mais.", "Com mais tempo, viajava mais.", "Com mais tempo viajava mais."]},
+     {"de": "An deiner Stelle würde ich dasselbe tun.", "loesungen": ["No teu lugar, eu faria o mesmo.", "No teu lugar, faria o mesmo.", "No teu lugar faria o mesmo.", "No teu lugar, fazia o mesmo.", "No teu lugar, eu fazia o mesmo."]},
+     {"de": "Es wäre super, am Meer zu wohnen.", "loesungen": ["Seria ótimo viver perto do mar.", "Seria ótimo morar perto do mar.", "Era ótimo viver perto do mar.", "Era ótimo morar perto do mar."]},
+     {"de": "Könnten Sie mir helfen?", "loesungen": ["Poderia ajudar-me?", "Podia ajudar-me?"]},
+     {"de": "Wir würden gern die Azoren besuchen.", "loesungen": ["Gostaríamos de visitar os Açores.", "Gostávamos de visitar os Açores.", "Gostaríamos de ir aos Açores.", "Gostávamos de ir aos Açores."]}
+    ]
+   },
+   "saetze": [
+    {"id": "com-mais-tempo-viajaria", "pt": "Com mais tempo, viajaria mais.", "de": "Mit mehr Zeit würde ich mehr reisen."},
+    {"id": "no-teu-lugar-faria", "pt": "No teu lugar, eu faria o mesmo.", "de": "An deiner Stelle würde ich dasselbe tun."},
+    {"id": "seria-otimo-mar", "pt": "Seria ótimo viver perto do mar.", "de": "Es wäre super, am Meer zu wohnen."}
+   ]
+  },
+  {
+   "id": "A2-12-L03",
+   "typ": "neu",
+   "titel": "Wünsche und Vorschläge",
+   "vokabeln": ["seria-bom", "que-tal-irmos", "apetecia-me", "a-sugestao", "propor", "porque-nao", "valer-a-pena"],
+   "grammatik": {
+    "titel": "Höflich wünschen und vorschlagen",
+    "erklaerung": [
+     "Wünsche: <b>Gostava de</b> + Infinitiv (Alltag) oder <b>Gostaria de</b> (formeller): <i>Gostava de ir ao cinema.</i> – <b>Seria bom</b> + Infinitiv: <i>Seria bom sair cedo.</i>",
+     "Vorschläge: <b>Que tal</b> + persönlicher Infinitiv: <i>Que tal irmos à praia?</i> (Wie wär's, wenn wir an den Strand gehen?) – oder <b>Porque não …?</b>: <i>Porque não jantamos fora?</i>",
+     "Du hörst auch <i>E se fôssemos …?</i> (Und wenn wir … gingen?) – richtig, aber eine schwierige Form (B1). Einfacher und genauso natürlich: <b>Que tal irmos …?</b>",
+     "Typisch portugiesisch: <b>Apetece-me</b> / höflicher <b>Apetecia-me</b> + Nomen oder Infinitiv = „ich hätte Lust auf …“: <i>Apetecia-me um gelado.</i> Verneint: <i>Não me apetece.</i>"
+    ],
+    "vergleich": "<i>Apetecer</i> funktioniert wie „mir ist nach …“: Die Person steht als Pronomen dabei (<i>me, te, lhe</i>) – im Hauptsatz hinten (<i>Apetece-me</i>), nach não vorne (<i>Não me apetece</i>).",
+    "beispiele": [
+     {"pt": "Que tal irmos à praia no sábado?", "de": "Wie wär's, wenn wir am Samstag an den Strand gehen?"},
+     {"pt": "Apetecia-me um gelado.", "de": "Ich hätte Lust auf ein Eis."},
+     {"pt": "Seria bom reservar mesa. Vale a pena.", "de": "Es wäre gut, einen Tisch zu reservieren. Das lohnt sich."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Wie wär's, wenn wir an den Strand gehen?“ (einfach und natürlich)", "optionen": ["Que tal irmos à praia?", "Que tal vamos à praia?", "Que tal ir nós à praia?"], "richtig": 0, "erklaerung": "Que tal + persönlicher Infinitiv: irmos.", "kategorie": "Vorschläge"},
+     {"typ": "luecke", "satz": "Que tal ___ fora hoje? (jantar, nós)", "loesungen": ["jantarmos"], "de": "Wie wär's, wenn wir heute auswärts essen?", "erklaerung": "persönlicher Infinitiv: jantar + -mos.", "kategorie": "Vorschläge"},
+     {"typ": "luecke", "satz": "___-me um gelado. (Ich hätte Lust auf)", "loesungen": ["Apetecia", "Apetece"], "de": "Ich hätte Lust auf ein Eis."},
+     {"typ": "auswahl", "frage": "„Ich habe keine Lust.“", "optionen": ["Não apetece-me.", "Não me apetece.", "Me não apetece."], "richtig": 1, "erklaerung": "Nach não steht das Pronomen vor dem Verb.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Porque ___ vamos a Tavira?", "loesungen": ["não"], "de": "Warum fahren wir nicht nach Tavira?"},
+     {"typ": "luecke", "satz": "Seria ___ reservar mesa. (gut)", "loesungen": ["bom"], "de": "Es wäre gut, einen Tisch zu reservieren."},
+     {"typ": "uebersetzen", "de": "Ich würde gern Kajak fahren. (Alltag)", "loesungen": ["Gostava de andar de caiaque.", "Eu gostava de andar de caiaque.", "Gostaria de andar de caiaque."]},
+     {"typ": "uebersetzen", "de": "Lohnt es sich?", "loesungen": ["Vale a pena?"]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um plano para sábado – ein Plan für Samstag",
+    "situation": "Ana und Stefan überlegen, was sie am Samstag machen.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "O que te apetece fazer no sábado?", "de": "Worauf hast du am Samstag Lust?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Apetecia-me ir à praia. Que tal irmos a Odeceixe?", "de": "Ich hätte Lust, an den Strand zu gehen. Wie wär's, wenn wir nach Odeceixe fahren?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Fica um pouco longe. Porque não vamos antes à Meia Praia?", "de": "Das ist ein bisschen weit. Warum gehen wir nicht lieber an die Meia Praia?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pode ser. E à noite? Seria bom jantar com a Rita e o Pedro.", "de": "Kann man machen. Und am Abend? Es wäre schön, mit Rita und Pedro zu essen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Boa ideia! Gostava de experimentar aquele restaurante novo em Lagos.", "de": "Gute Idee! Ich würde gern das neue Restaurant in Lagos ausprobieren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vale a pena? Dizem que é caro.", "de": "Lohnt es sich? Man sagt, es ist teuer."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Dizem que vale a pena. Eu faço a reserva.", "de": "Man sagt, es lohnt sich. Ich mache die Reservierung."}
+    ],
+    "fragen": [
+     {"frage": "Onde queria o Stefan ir primeiro?", "optionen": ["à Meia Praia", "a Odeceixe", "a Lisboa"], "richtig": 1},
+     {"frage": "Com quem querem jantar?", "optionen": ["com a Rita e o Pedro", "com o João", "com os pais do Stefan"], "richtig": 0},
+     {"frage": "Quem vai fazer a reserva?", "optionen": ["o Stefan", "a Rita", "a Ana"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Rita fragt dich nach euren Plänen fürs Wochenende.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Olá! Tens planos para o fim de semana?", "de": "Hallo! Hast du Pläne fürs Wochenende?"},
+     {"ich": true, "aufgabe": "Sag: Noch nicht. Wie wär's, wenn wir in die Berge fahren?", "loesungen": ["Ainda não. Que tal irmos à serra?", "Ainda não. Que tal irmos à Serra de Monchique?", "Ainda não. Porque não vamos à serra?", "Ainda não. Que tal irmos para a serra?"]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Boa ideia! Mas no sábado vai estar muito calor.", "de": "Gute Idee! Aber am Samstag wird es sehr heiß."},
+     {"ich": true, "aufgabe": "Sag: Dann wäre es gut, früh loszufahren.", "loesungen": ["Então seria bom sair cedo.", "Então era bom sair cedo.", "Então seria bom partir cedo.", "Então, seria bom sair cedo.", "Então, era bom sair cedo."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Concordo. E depois do passeio?", "de": "Einverstanden. Und nach dem Ausflug?"},
+     {"ich": true, "aufgabe": "Sag: Ich hätte Lust, in Monchique zu Mittag zu essen.", "loesungen": ["Apetecia-me almoçar em Monchique.", "Apetece-me almoçar em Monchique.", "Apetecia-me um almoço em Monchique."]}
+    ]
+   },
+   "saetze": [
+    {"id": "que-tal-irmos-praia", "pt": "Que tal irmos à praia no sábado?", "de": "Wie wär's, wenn wir am Samstag an den Strand gehen?"},
+    {"id": "apetecia-me-gelado", "pt": "Apetecia-me um gelado.", "de": "Ich hätte Lust auf ein Eis."},
+    {"id": "vale-a-pena", "pt": "Vale a pena visitar Monchique.", "de": "Es lohnt sich, Monchique zu besuchen."}
+   ]
+  },
+  {
+   "id": "A2-12-L04",
+   "typ": "neu",
+   "titel": "In letzter Zeit: tenho trabalhado",
+   "vokabeln": ["ultimamente", "tenho-andado", "tenho-trabalhado", "tem-chovido", "nos-ultimos-tempos", "o-cansaco", "o-stress"],
+   "grammatik": {
+    "titel": "Perfeito composto: tenho + Partizip",
+    "erklaerung": [
+     "Das <b>pretérito perfeito composto</b> (<b>ter</b> im Präsens + Partizip) beschreibt etwas, das <b>in letzter Zeit wiederholt oder andauernd</b> passiert und bis jetzt anhält: <i>Tenho trabalhado muito.</i> – Ich arbeite in letzter Zeit viel.",
+     "Formen: eu <b>tenho</b>, tu <b>tens</b>, você/ele <b>tem</b>, nós <b>temos</b>, vocês/eles <b>têm</b> + Partizip (unverändert): <i>Temos ido muitas vezes à praia.</i>",
+     "Typische Begleiter: <b>ultimamente</b>, <b>nos últimos tempos</b>, <b>este mês</b>, <b>cada vez mais</b>.",
+     "<b>Falle:</b> Das ist <b>kein</b> deutsches Perfekt! Eine einzelne, abgeschlossene Handlung steht im perfeito simples: „Ich habe gestern gearbeitet“ = <i>Ontem trabalhei</i>, nie <i>tenho trabalhado</i>."
+    ],
+    "vergleich": "Es entspricht dem englischen <i>I have been working a lot lately</i> – nicht dem deutschen „ich habe gearbeitet“. Denk dir immer „in letzter Zeit / immer wieder“ dazu.",
+    "beispiele": [
+     {"pt": "Tenho trabalhado muito ultimamente.", "de": "Ich arbeite in letzter Zeit viel."},
+     {"pt": "Este inverno tem chovido pouco.", "de": "In diesem Winter regnet es wenig."},
+     {"pt": "Temos ido muitas vezes à praia nos últimos tempos.", "de": "In letzter Zeit gehen wir oft an den Strand."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich arbeite in letzter Zeit viel.“", "optionen": ["Trabalhei muito ultimamente.", "Tenho trabalhado muito ultimamente.", "Tinha trabalhado muito ultimamente."], "richtig": 1, "erklaerung": "Wiederholt bis jetzt → perfeito composto.", "kategorie": "Perfeito composto"},
+     {"typ": "auswahl", "frage": "„Ich habe gestern viel gearbeitet.“", "optionen": ["Ontem tenho trabalhado muito.", "Ontem trabalhei muito.", "Ontem tinha trabalhado muito."], "richtig": 1, "erklaerung": "Einmalig und abgeschlossen (ontem) → perfeito simples. Das ist die klassische Falle!", "kategorie": "Perfeito composto"},
+     {"typ": "luecke", "satz": "Este mês ___ chovido muito.", "loesungen": ["tem"], "de": "Diesen Monat regnet es viel.", "kategorie": "Perfeito composto"},
+     {"typ": "luecke", "satz": "Nós ___ ido muitas vezes à praia.", "loesungen": ["temos"], "de": "Wir gehen in letzter Zeit oft an den Strand.", "kategorie": "Perfeito composto"},
+     {"typ": "luecke", "satz": "Ultimamente, tenho ___ muito cansado. (andar)", "loesungen": ["andado"], "de": "In letzter Zeit bin ich sehr müde.", "kategorie": "Perfeito composto"},
+     {"typ": "luecke", "satz": "Eles têm ___ muito. (viajar)", "loesungen": ["viajado"], "de": "Sie reisen in letzter Zeit viel.", "erklaerung": "eles têm (mit Zirkumflex) + Partizip.", "kategorie": "Perfeito composto"},
+     {"typ": "uebersetzen", "de": "In letzter Zeit schlafe ich schlecht.", "loesungen": ["Ultimamente tenho dormido mal.", "Ultimamente, tenho dormido mal.", "Tenho dormido mal ultimamente."]},
+     {"typ": "satzbau", "de": "In letzter Zeit lernen wir viel Portugiesisch.", "loesung": "Ultimamente temos aprendido muito português."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Andas cansado? – Bist du müde?",
+    "situation": "Rita trifft Stefan im Café.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, estás com má cara. Andas cansado?", "de": "Stefan, du siehst nicht gut aus. Bist du in letzter Zeit müde?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ando. Tenho trabalhado muito ultimamente. Tenho tido muitos clientes novos.", "de": "Ja. Ich arbeite in letzter Zeit viel. Ich habe viele neue Kunden."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E tens dormido bem?", "de": "Und schläfst du gut?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Nem por isso. Tenho dormido muito mal nos últimos tempos. É o stress.", "de": "Nicht wirklich. Ich schlafe in letzter Zeit sehr schlecht. Das ist der Stress."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Tens de descansar! E a Ana?", "de": "Du musst dich ausruhen! Und Ana?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A Ana tem ido à praia todas as manhãs. Ela está ótima!", "de": "Ana geht in letzter Zeit jeden Morgen an den Strand. Ihr geht's super!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan anda cansado?", "optionen": ["Tem trabalhado muito.", "Tem ido à praia.", "Tem estado doente."], "richtig": 0},
+     {"frage": "Como tem dormido o Stefan?", "optionen": ["muito bem", "muito mal", "muitas horas"], "richtig": 1},
+     {"frage": "O que tem feito a Ana?", "optionen": ["Tem trabalhado muito.", "Tem estado em Lisboa.", "Tem ido à praia todas as manhãs."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Tenho trabalhado muito ultimamente.", "de": "Ich arbeite in letzter Zeit viel."},
+     {"pt": "Tenho andado muito cansado.", "de": "Ich bin in letzter Zeit sehr müde."},
+     {"pt": "Este inverno tem chovido pouco.", "de": "In diesem Winter regnet es wenig."},
+     {"pt": "Há cada vez mais turistas.", "de": "Es gibt immer mehr Touristen."},
+     {"pt": "Temos ido muitas vezes à praia nos últimos tempos.", "de": "In letzter Zeit gehen wir oft an den Strand."}
+    ]
+   },
+   "saetze": [
+    {"id": "tenho-trabalhado-muito", "pt": "Tenho trabalhado muito ultimamente.", "de": "Ich arbeite in letzter Zeit viel."},
+    {"id": "tenho-andado-cansado", "pt": "Tenho andado muito cansado.", "de": "Ich bin in letzter Zeit sehr müde."},
+    {"id": "tem-chovido-pouco", "pt": "Este inverno tem chovido pouco.", "de": "In diesem Winter regnet es wenig."}
+   ]
+  },
+  {
+   "id": "A2-12-L05",
+   "typ": "neu",
+   "titel": "Einmal oder in letzter Zeit? fiz oder tenho feito",
+   "vokabeln": ["ate-agora", "este-mes", "desde-que", "adaptar-se", "habituar-se", "o-progresso", "o-habito"],
+   "grammatik": {
+    "titel": "Perfeito simples oder perfeito composto?",
+    "erklaerung": [
+     "<b>perfeito simples</b> (falei, fui, fiz): einmalig und abgeschlossen, oft mit Zeitpunkt: <i>ontem, em 2023, há dois anos, no sábado</i>. Auch für Erfahrungen: <i>Já fui a Sagres. Ainda não fui aos Açores.</i>",
+     "<b>perfeito composto</b> (tenho falado, tenho ido): wiederholt oder andauernd <b>bis jetzt</b>: <i>ultimamente, nos últimos tempos, desde que …, este mês</i>.",
+     "Also: „Ich war schon in Sagres“ = <i>Já fui a Sagres</i> – nicht <i>tenho ido</i>. <i>Tenho ido a Sagres</i> heißt „ich fahre in letzter Zeit öfter nach Sagres“.",
+     "<b>desde que</b> + perfeito simples, der Hauptsatz oft im perfeito composto: <i>Desde que chegámos, temos aprendido muito.</i>"
+    ],
+    "vergleich": "Das deutsche Perfekt „ich habe gemacht“ ist fast immer <i>fiz</i>. Nur wenn du „in letzter Zeit / immer wieder“ dazudenken kannst, passt <i>tenho feito</i>.",
+    "beispiele": [
+     {"pt": "Já fui a Sagres, mas ainda não fui aos Açores.", "de": "Ich war schon in Sagres, aber noch nicht auf den Azoren."},
+     {"pt": "Desde que chegámos, temos aprendido muito.", "de": "Seit wir angekommen sind, lernen wir viel."},
+     {"pt": "Até agora, correu tudo bem.", "de": "Bis jetzt ist alles gut gelaufen."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich war noch nie auf den Azoren.“", "optionen": ["Nunca tenho ido aos Açores.", "Nunca fui aos Açores.", "Ainda não tenho ido aos Açores."], "richtig": 1, "erklaerung": "Erfahrung (ja/nein) → perfeito simples.", "kategorie": "Perfeito composto"},
+     {"typ": "auswahl", "frage": "„In letzter Zeit fahren wir oft nach Faro.“", "optionen": ["Fomos muitas vezes a Faro.", "Ultimamente temos ido muitas vezes a Faro.", "Ultimamente fomos a Faro."], "richtig": 1, "erklaerung": "Wiederholt bis jetzt → perfeito composto.", "kategorie": "Perfeito composto"},
+     {"typ": "luecke", "satz": "Ontem ___ com o contabilista. (falar, eu)", "loesungen": ["falei"], "de": "Gestern habe ich mit dem Steuerberater gesprochen.", "erklaerung": "ontem → einmalig → perfeito simples.", "kategorie": "Perfeito composto"},
+     {"typ": "luecke", "satz": "Desde que chegámos, ___ aprendido muito.", "loesungen": ["temos"], "de": "Seit wir angekommen sind, lernen wir viel.", "kategorie": "Perfeito composto"},
+     {"typ": "luecke", "satz": "Em 2023 ___ para Lagos. (mudar-se, nós)", "loesungen": ["mudámo-nos"], "de": "2023 sind wir nach Lagos gezogen.", "erklaerung": "Einmalig mit Jahreszahl → perfeito simples. Vor -nos fällt das s weg: mudámo-nos.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Já me ___ ao jantar tarde. (habituar-se, eu)", "loesungen": ["habituei"], "de": "Ich habe mich schon an das späte Abendessen gewöhnt.", "erklaerung": "Nach já steht das Pronomen vorne: Já me habituei."},
+     {"typ": "uebersetzen", "de": "Bis jetzt ist alles gut gelaufen.", "loesungen": ["Até agora, correu tudo bem.", "Até agora correu tudo bem.", "Até agora, tudo correu bem.", "Até agora tudo correu bem."]},
+     {"typ": "uebersetzen", "de": "Du machst in letzter Zeit viele Fortschritte! (tu)", "loesungen": ["Tens feito muitos progressos!", "Ultimamente tens feito muitos progressos!", "Tens feito muitos progressos ultimamente!"]}
+    ]
+   },
+   "hoeren": {
+    "titel": "A vida em Lagos – das Leben in Lagos",
+    "situation": "Stefans Portugiesischlehrerin fragt ihn nach seinem Leben in Portugal.",
+    "zeilen": [
+     {"sprecher": "Professora", "stimme": "f", "pt": "Stefan, há quanto tempo vive em Lagos?", "de": "Stefan, wie lange wohnen Sie schon in Lagos?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Mudámo-nos em 2023. Até agora, adaptámo-nos muito bem.", "de": "Wir sind 2023 hergezogen. Bis jetzt haben wir uns sehr gut eingelebt."},
+     {"sprecher": "Professora", "stimme": "f", "pt": "E o português? Tem feito muitos progressos!", "de": "Und das Portugiesisch? Sie machen in letzter Zeit viele Fortschritte!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado! Desde que comecei as aulas, tenho falado mais com os vizinhos.", "de": "Danke! Seit ich mit dem Unterricht angefangen habe, spreche ich mehr mit den Nachbarn."},
+     {"sprecher": "Professora", "stimme": "f", "pt": "E já se habituou aos horários portugueses?", "de": "Und haben Sie sich schon an die portugiesischen Zeiten gewöhnt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ao jantar às nove, sim! Mas ainda não me habituei ao trânsito no verão.", "de": "An das Abendessen um neun, ja! Aber an den Verkehr im Sommer habe ich mich noch nicht gewöhnt."}
+    ],
+    "fragen": [
+     {"frage": "Quando se mudou o Stefan para Lagos?", "optionen": ["em 2021", "em 2023", "no mês passado"], "richtig": 1},
+     {"frage": "O que tem feito o Stefan desde que começou as aulas?", "optionen": ["Tem falado mais com os vizinhos.", "Tem viajado muito.", "Tem trabalhado menos."], "richtig": 0},
+     {"frage": "A que é que o Stefan ainda não se habituou?", "optionen": ["ao jantar às nove", "aos vizinhos", "ao trânsito no verão"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Eine neue Bekannte fragt dich auf einer Feier nach deinem Leben in Portugal.",
+    "zeilen": [
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Então, há quanto tempo está em Portugal?", "de": "Und, wie lange sind Sie schon in Portugal?"},
+     {"ich": true, "aufgabe": "Sag: Seit drei Jahren. Wir sind 2023 hergezogen.", "loesungen": ["Há três anos. Mudámo-nos em 2023.", "Estou cá há três anos. Mudámo-nos em 2023.", "Há três anos. Viemos em 2023.", "Estou cá há três anos. Viemos em 2023."]},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "E já se habituou?", "de": "Und haben Sie sich schon eingewöhnt?"},
+     {"ich": true, "aufgabe": "Sag: Ja, bis jetzt ist alles gut gelaufen.", "loesungen": ["Sim, até agora correu tudo bem.", "Já, até agora correu tudo bem.", "Sim, até agora, correu tudo bem.", "Sim, até agora tudo correu bem.", "Já me habituei, até agora correu tudo bem."]},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "E o português? Fala muito bem!", "de": "Und Ihr Portugiesisch? Sie sprechen sehr gut!"},
+     {"ich": true, "aufgabe": "Sag: Danke! In letzter Zeit lerne ich viel.", "loesungen": ["Obrigado! Ultimamente tenho aprendido muito.", "Obrigado! Tenho aprendido muito ultimamente.", "Obrigada! Ultimamente tenho aprendido muito.", "Obrigado! Tenho aprendido muito nos últimos tempos."]}
+    ]
+   },
+   "saetze": [
+    {"id": "ja-fui-ainda-nao-fui", "pt": "Já fui a Sagres, mas ainda não fui aos Açores.", "de": "Ich war schon in Sagres, aber noch nicht auf den Azoren."},
+    {"id": "desde-que-chegamos", "pt": "Desde que chegámos, temos aprendido muito.", "de": "Seit wir angekommen sind, lernen wir viel."},
+    {"id": "ate-agora-tudo-bem", "pt": "Até agora, correu tudo bem.", "de": "Bis jetzt ist alles gut gelaufen."}
+   ]
+  },
+  {
+   "id": "A2-12-L06",
+   "typ": "neu",
+   "titel": "Meine Meinung",
+   "vokabeln": ["acho-que", "na-minha-opiniao", "parece-me-que", "a-meu-ver", "julgo-que", "sinceramente", "achas-que"],
+   "grammatik": {
+    "titel": "Meinung sagen: acho que, na minha opinião, parece-me",
+    "erklaerung": [
+     "<b>Acho que</b> + Indikativ ist der Alltagsweg: <i>Acho que o Algarve é caro.</i> Kurzantworten: <i>Acho que sim. / Acho que não.</i>",
+     "Etwas formeller: <b>Na minha opinião, …</b>, <b>A meu ver, …</b>, <b>Julgo que …</b>, <b>Parece-me que …</b> (mir scheint).",
+     "<b>Para mim, …</b> = für mich: <i>Para mim, o mais importante é a família.</i>",
+     "Nach der Meinung fragen: <b>Achas que …?</b> (tu) / <b>Acha que …?</b> (formell) / <b>O que achas?</b> Achtung: <i>Não acho que …</i> braucht den Konjunktiv (B1) – sag vorerst lieber <i>Acho que não …</i>"
+    ],
+    "vergleich": "Deutsch „ich finde / ich glaube“ = <i>acho</i>. Wie im Deutschen folgt danach ein ganz normaler Satz: <i>Acho que tens razão.</i>",
+    "beispiele": [
+     {"pt": "Acho que o Algarve é caro.", "de": "Ich finde, die Algarve ist teuer."},
+     {"pt": "Na minha opinião, o comboio é a melhor opção.", "de": "Meiner Meinung nach ist der Zug die beste Option."},
+     {"pt": "Parece-me que vai chover.", "de": "Mir scheint, es wird regnen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ que o Algarve é caro. (ich finde)", "loesungen": ["Acho"], "de": "Ich finde, die Algarve ist teuer.", "kategorie": "Meinung"},
+     {"typ": "luecke", "satz": "Na minha ___, o comboio é melhor.", "loesungen": ["opinião"], "de": "Meiner Meinung nach ist der Zug besser.", "kategorie": "Meinung"},
+     {"typ": "luecke", "satz": "___-me que vai chover. (mir scheint)", "loesungen": ["Parece"], "de": "Mir scheint, es wird regnen.", "kategorie": "Meinung"},
+     {"typ": "auswahl", "frage": "„Was meinst du?“ (tu)", "optionen": ["O que achas?", "Como achas?", "O que achar?"], "richtig": 0, "kategorie": "Meinung"},
+     {"typ": "auswahl", "frage": "„Ich glaube nicht.“ (Kurzantwort)", "optionen": ["Não acho.", "Acho que não.", "Acho não."], "richtig": 1, "erklaerung": "Kurzantwort: Acho que sim / Acho que não.", "kategorie": "Meinung"},
+     {"typ": "auswahl", "frage": "„Meiner Ansicht nach …“", "optionen": ["A meu ver, …", "No meu ver, …", "Em meu ver, …"], "richtig": 0, "kategorie": "Meinung"},
+     {"typ": "uebersetzen", "de": "Ehrlich gesagt finde ich, dass es zu teuer ist.", "loesungen": ["Sinceramente, acho que é demasiado caro.", "Sinceramente, acho que é caro demais.", "Sinceramente acho que é demasiado caro.", "Sinceramente acho que é caro demais.", "Sinceramente, acho que é muito caro."]},
+     {"typ": "uebersetzen", "de": "Glaubst du, dass es regnen wird? (tu)", "loesungen": ["Achas que vai chover?", "Achas que chove?"]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Lagos ou Faro? – Lagos oder Faro?",
+    "situation": "Stefan fragt seinen Nachbarn João um Rat.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "João, o que achas? Abro o escritório em Lagos ou em Faro?", "de": "João, was meinst du? Eröffne ich das Büro in Lagos oder in Faro?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Na minha opinião, Faro é melhor. Tem o aeroporto e a universidade.", "de": "Meiner Meinung nach ist Faro besser. Dort gibt es den Flughafen und die Universität."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois, mas eu moro em Lagos. Parece-me que seria muito tempo no carro.", "de": "Schon, aber ich wohne in Lagos. Mir scheint, das wäre viel Zeit im Auto."},
+     {"sprecher": "João", "stimme": "m", "pt": "Também é verdade. Sinceramente, acho que depende dos teus clientes.", "de": "Das stimmt auch. Ehrlich gesagt glaube ich, das hängt von deinen Kunden ab."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A maior parte dos clientes está no barlavento.", "de": "Die meisten Kunden sind im Westen der Algarve."},
+     {"sprecher": "João", "stimme": "m", "pt": "Então, a meu ver, Lagos é a melhor opção.", "de": "Dann ist meiner Ansicht nach Lagos die beste Option."}
+    ],
+    "fragen": [
+     {"frage": "Qual é a primeira opinião do João?", "optionen": ["Faro é melhor.", "Lagos é melhor.", "Portimão é melhor."], "richtig": 0},
+     {"frage": "Qual é o problema de Faro para o Stefan?", "optionen": ["É muito caro.", "Seria muito tempo no carro.", "Não tem clientes."], "richtig": 1},
+     {"frage": "No fim, o que acha o João?", "optionen": ["que Faro é melhor", "que o Stefan não deve abrir o escritório", "que Lagos é a melhor opção"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib deine Meinung auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich finde, die Algarve ist teuer.", "loesungen": ["Acho que o Algarve é caro."]},
+     {"de": "Meiner Meinung nach ist der Zug besser.", "loesungen": ["Na minha opinião, o comboio é melhor.", "Na minha opinião o comboio é melhor."]},
+     {"de": "Mir scheint, es wird regnen.", "loesungen": ["Parece-me que vai chover."]},
+     {"de": "Glaubst du, dass das eine gute Idee ist? (tu)", "loesungen": ["Achas que é uma boa ideia?"]},
+     {"de": "Ich glaube schon.", "loesungen": ["Acho que sim."]}
+    ]
+   },
+   "saetze": [
+    {"id": "acho-que-caro", "pt": "Acho que o Algarve é caro.", "de": "Ich finde, die Algarve ist teuer."},
+    {"id": "na-minha-opiniao-comboio", "pt": "Na minha opinião, o comboio é a melhor opção.", "de": "Meiner Meinung nach ist der Zug die beste Option."},
+    {"id": "o-que-achas", "pt": "O que achas?", "de": "Was meinst du?"}
+   ]
+  },
+  {
+   "id": "A2-12-L07",
+   "typ": "neu",
+   "titel": "Zustimmen und widersprechen",
+   "vokabeln": ["concordo", "discordo", "tens-razao", "depende", "pois-e", "nem-pensar", "nao-tenho-a-certeza", "exatamente"],
+   "grammatik": {
+    "titel": "Concordo! – Discordo! – Depende.",
+    "erklaerung": [
+     "Zustimmen: <b>Concordo.</b> / <b>Concordo contigo</b> (tu) / <b>consigo</b> (formell) / <b>Tens razão.</b> / <b>Tem razão.</b> / <b>Exatamente!</b> / <b>Pois é.</b> (Genau so ist es.)",
+     "Widersprechen: <b>Discordo.</b> / <b>Não concordo.</b> / <b>Não tens razão.</b> – stark: <b>Nem pensar!</b> (Kommt nicht in Frage!)",
+     "Dazwischen: <b>Depende.</b> / <b>Não tenho a certeza.</b> / <b>Talvez.</b> / <b>Sim e não.</b>",
+     "Höflich widersprechen: <b>Percebo, mas …</b> / <b>Sim, mas por outro lado …</b> – in Portugal widerspricht man lieber weich als direkt."
+    ],
+    "vergleich": "„Recht haben“ heißt <i>ter razão</i> – mit <i>ter</i>, wie „haben“: <i>Tens razão.</i> „Ich bin mir sicher“ ebenfalls mit ter: <i>tenho a certeza</i>. Und „einverstanden sein“ ist ein Verb: <i>concordo</i> (auch: <i>estou de acordo</i>).",
+    "beispiele": [
+     {"pt": "Concordo contigo, o verão aqui é muito quente.", "de": "Ich stimme dir zu, der Sommer hier ist sehr heiß."},
+     {"pt": "Tens razão, é melhor irmos de comboio.", "de": "Du hast recht, es ist besser, wenn wir mit dem Zug fahren."},
+     {"pt": "Discordo. Acho que é demasiado caro.", "de": "Da bin ich anderer Meinung. Ich finde es zu teuer."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Concordo ___. (mit dir)", "loesungen": ["contigo"], "de": "Ich stimme dir zu.", "kategorie": "Meinung"},
+     {"typ": "luecke", "satz": "Concordo ___. (mit Ihnen, formell)", "loesungen": ["consigo", "com o senhor", "com a senhora"], "de": "Ich stimme Ihnen zu.", "kategorie": "Meinung"},
+     {"typ": "luecke", "satz": "Tens ___. (Du hast recht.)", "loesungen": ["razão"], "de": "Du hast recht.", "kategorie": "Meinung"},
+     {"typ": "auswahl", "frage": "„Kommt nicht in Frage!“", "optionen": ["Nem pensar!", "Não penso!", "Pensa nada!"], "richtig": 0, "kategorie": "Meinung"},
+     {"typ": "auswahl", "frage": "„Ich bin mir nicht sicher.“", "optionen": ["Não estou certeza.", "Não tenho a certeza.", "Não sou certo."], "richtig": 1, "erklaerung": "ter a certeza = sicher sein.", "kategorie": "Meinung"},
+     {"typ": "auswahl", "frage": "„Du hast recht.“", "optionen": ["És razão.", "Estás razão.", "Tens razão."], "richtig": 2, "erklaerung": "ter razão = recht haben.", "kategorie": "Meinung"},
+     {"typ": "uebersetzen", "de": "Das kommt darauf an.", "loesungen": ["Depende."]},
+     {"typ": "uebersetzen", "de": "Ich bin nicht einverstanden.", "loesungen": ["Não concordo.", "Discordo.", "Não estou de acordo."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma discussão entre amigos – eine Diskussion unter Freunden",
+    "situation": "Pedro, Rita und Stefan diskutieren über den Sommer in der Algarve.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Eu acho que o Algarve no verão é o melhor sítio do mundo!", "de": "Ich finde, die Algarve im Sommer ist der beste Ort der Welt!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Discordo. Há demasiados turistas e está muito calor.", "de": "Da bin ich anderer Meinung. Es gibt zu viele Touristen und es ist sehr heiß."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tens razão, Rita, em agosto é difícil. Mas em junho é ótimo.", "de": "Du hast recht, Rita, im August ist es schwierig. Aber im Juni ist es super."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Pois é. E em setembro a água do mar está mais quente.", "de": "Genau. Und im September ist das Meerwasser wärmer."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Exatamente! Setembro é o melhor mês. Nisso concordo contigo, Pedro.", "de": "Genau! Der September ist der beste Monat. Da stimme ich dir zu, Pedro."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então vamos todos a Sagres em agosto?", "de": "Also fahren wir alle im August nach Sagres?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Nem pensar!", "de": "Kommt nicht in Frage!"}
+    ],
+    "fragen": [
+     {"frage": "O que acha a Rita do Algarve no verão?", "optionen": ["É o melhor sítio do mundo.", "Tem demasiados turistas.", "É muito barato."], "richtig": 1},
+     {"frage": "Qual é o melhor mês, segundo a Rita?", "optionen": ["setembro", "junho", "agosto"], "richtig": 0},
+     {"frage": "Como responde a Rita à ideia de ir a Sagres em agosto?", "optionen": ["Concordo.", "Depende.", "Nem pensar!"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ein Kollege macht Vorschläge für ein Online-Meeting mit einem Kunden.",
+    "zeilen": [
+     {"sprecher": "Colega", "stimme": "m", "pt": "Acho que devíamos fazer a reunião por videochamada. É mais prático.", "de": "Ich finde, wir sollten die Besprechung per Videoanruf machen. Das ist praktischer."},
+     {"ich": true, "aufgabe": "Sag: Du hast recht. Ich bin einverstanden.", "loesungen": ["Tens razão. Concordo.", "Tens razão, concordo.", "Tens razão. Concordo contigo.", "Tens razão, concordo contigo."]},
+     {"sprecher": "Colega", "stimme": "m", "pt": "E acho que devíamos começar às sete da manhã.", "de": "Und ich finde, wir sollten um sieben Uhr früh anfangen."},
+     {"ich": true, "aufgabe": "Sag: Kommt nicht in Frage! Das ist zu früh.", "loesungen": ["Nem pensar! É muito cedo.", "Nem pensar! É demasiado cedo.", "Nem pensar, é muito cedo.", "Nem pensar, é demasiado cedo.", "Nem pensar! É cedo demais."]},
+     {"sprecher": "Colega", "stimme": "m", "pt": "Está bem. E às dez?", "de": "Na gut. Und um zehn?"},
+     {"ich": true, "aufgabe": "Sag: Ich bin mir nicht sicher. Das hängt vom Kunden ab.", "loesungen": ["Não tenho a certeza. Depende do cliente.", "Não tenho a certeza, depende do cliente."]}
+    ]
+   },
+   "saetze": [
+    {"id": "concordo-contigo", "pt": "Concordo contigo.", "de": "Ich stimme dir zu."},
+    {"id": "tens-razao-comboio", "pt": "Tens razão, é melhor irmos de comboio.", "de": "Du hast recht, es ist besser, wenn wir mit dem Zug fahren."},
+    {"id": "nao-tenho-certeza-depende", "pt": "Não tenho a certeza. Depende.", "de": "Ich bin mir nicht sicher. Das kommt darauf an."}
+   ]
+  },
+  {
+   "id": "A2-12-L08",
+   "typ": "neu",
+   "titel": "Vor- und Nachteile: Zukunft in Portugal",
+   "vokabeln": ["a-vantagem", "a-desvantagem", "por-um-lado", "por-outro-lado", "o-custo-de-vida", "a-qualidade-de-vida", "a-burocracia", "o-futuro"],
+   "grammatik": {
+    "titel": "Abwägen: por um lado … por outro",
+    "erklaerung": [
+     "Abwägen: <b>Por um lado, …</b> <b>por outro (lado), …</b> = einerseits … andererseits: <i>Por um lado, o clima é ótimo; por outro, as casas são caras.</i>",
+     "<b>A vantagem / A desvantagem é que …</b>: <i>A grande vantagem é que há sol quase todo o ano.</i>",
+     "Verbinden: <b>além disso</b> (außerdem), <b>mas</b> (aber), <b>por isso</b> (deshalb).",
+     "Alles zusammen: Meinung (<i>acho que</i>), Entwicklung (<i>tem subido</i>), Wunsch (<i>gostava de</i>) und Plan (<i>penso ficar</i>): <i>Acho que o custo de vida tem subido muito, mas gostava de ficar cá.</i>"
+    ],
+    "vergleich": "Wie Englisch „on the one hand … on the other“. Im Portugiesischen sagt man den zweiten Teil oft kurz: <i>por outro</i>.",
+    "beispiele": [
+     {"pt": "Por um lado, o clima é ótimo; por outro, as casas são caras.", "de": "Einerseits ist das Klima super, andererseits sind die Häuser teuer."},
+     {"pt": "A grande vantagem é a qualidade de vida.", "de": "Der große Vorteil ist die Lebensqualität."},
+     {"pt": "O custo de vida tem subido, por isso temos de poupar.", "de": "Die Lebenshaltungskosten steigen, deshalb müssen wir sparen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Por um lado é barato, por ___ lado é longe.", "loesungen": ["outro"], "de": "Einerseits ist es billig, andererseits ist es weit weg.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "A grande ___ é o clima. (Vorteil)", "loesungen": ["vantagem"], "de": "Der große Vorteil ist das Klima."},
+     {"typ": "luecke", "satz": "A ___ é a burocracia. (Nachteil)", "loesungen": ["desvantagem"], "de": "Der Nachteil ist die Bürokratie."},
+     {"typ": "auswahl", "frage": "„außerdem“", "optionen": ["além disso", "por isso", "por outro lado"], "richtig": 0, "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "„deshalb“", "optionen": ["além disso", "por isso", "por um lado"], "richtig": 1, "kategorie": "Konnektoren"},
+     {"typ": "uebersetzen", "de": "Die Lebensqualität ist hier sehr hoch.", "loesungen": ["A qualidade de vida aqui é muito alta.", "Aqui a qualidade de vida é muito alta.", "A qualidade de vida é muito alta aqui.", "Aqui, a qualidade de vida é muito alta."]},
+     {"typ": "uebersetzen", "de": "In Zukunft würden wir gern hierbleiben. (Alltag)", "loesungen": ["No futuro, gostávamos de ficar cá.", "No futuro, gostávamos de ficar aqui.", "No futuro gostávamos de ficar cá.", "No futuro gostávamos de ficar aqui.", "No futuro, gostaríamos de ficar cá.", "No futuro, gostaríamos de ficar aqui."]},
+     {"typ": "satzbau", "de": "Der größte Nachteil ist die Bürokratie.", "loesung": "A maior desvantagem é a burocracia."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Viver no Algarve – Leben in der Algarve",
+    "situation": "Eine Journalistin des Lokalradios interviewt Stefan.",
+    "zeilen": [
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Stefan, quais são as vantagens de viver no Algarve?", "de": "Stefan, was sind die Vorteile, wenn man in der Algarve lebt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Por um lado, a qualidade de vida: o clima, o mar e as pessoas simpáticas.", "de": "Einerseits die Lebensqualität: das Klima, das Meer und die netten Leute."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "E por outro lado? Há desvantagens?", "de": "Und andererseits? Gibt es Nachteile?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Há. O custo de vida tem subido muito, sobretudo as casas. E a burocracia às vezes é difícil.", "de": "Ja. Die Lebenshaltungskosten steigen stark, vor allem die Häuser. Und die Bürokratie ist manchmal schwierig."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "E o futuro? Pensa ficar cá?", "de": "Und die Zukunft? Haben Sie vor hierzubleiben?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Penso, sim. E um dia gostava de ter a nacionalidade portuguesa.", "de": "Ja, das habe ich vor. Und eines Tages hätte ich gern die portugiesische Staatsbürgerschaft."}
+    ],
+    "fragen": [
+     {"frage": "Qual é a grande vantagem para o Stefan?", "optionen": ["a qualidade de vida", "o custo de vida", "a burocracia"], "richtig": 0},
+     {"frage": "O que tem subido muito?", "optionen": ["o número de turistas", "o custo de vida", "a temperatura"], "richtig": 1},
+     {"frage": "O que gostava o Stefan de ter um dia?", "optionen": ["uma casa em Lisboa", "um barco", "a nacionalidade portuguesa"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib Vor- und Nachteile auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Der große Vorteil ist das Klima.", "loesungen": ["A grande vantagem é o clima."]},
+     {"de": "Der Nachteil ist die Bürokratie.", "loesungen": ["A desvantagem é a burocracia."]},
+     {"de": "Einerseits ist es billig, andererseits ist es weit weg.", "loesungen": ["Por um lado é barato, por outro é longe.", "Por um lado, é barato; por outro, é longe.", "Por um lado é barato, por outro lado é longe.", "Por um lado, é barato, por outro lado, é longe.", "Por um lado é barato, por outro fica longe.", "Por um lado é barato, por outro lado fica longe."]},
+     {"de": "Die Lebenshaltungskosten steigen in letzter Zeit stark.", "loesungen": ["O custo de vida tem subido muito.", "Ultimamente o custo de vida tem subido muito."]},
+     {"de": "In Zukunft wollen wir hierbleiben.", "loesungen": ["No futuro, queremos ficar cá.", "No futuro queremos ficar cá.", "No futuro, queremos ficar aqui.", "No futuro queremos ficar aqui."]}
+    ]
+   },
+   "saetze": [
+    {"id": "por-um-lado-por-outro", "pt": "Por um lado, o clima é ótimo; por outro, as casas são caras.", "de": "Einerseits ist das Klima super, andererseits sind die Häuser teuer."},
+    {"id": "grande-vantagem-qualidade", "pt": "A grande vantagem é a qualidade de vida.", "de": "Der große Vorteil ist die Lebensqualität."},
+    {"id": "custo-de-vida-subido", "pt": "O custo de vida tem subido muito.", "de": "Die Lebenshaltungskosten steigen in letzter Zeit stark."}
+   ]
+  },
+  {"id": "A2-12-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-12-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Uma ideia da Rita – eine Idee von Rita",
+   "situation": "Rita erzählt Ana von einem Plan.",
+   "zeilen": [
+    {"sprecher": "Rita", "stimme": "f", "pt": "Ana, tenho andado a pensar numa coisa. Que tal abrirmos uma loja de artesanato em Lagos?", "de": "Ana, ich denke in letzter Zeit über etwas nach. Wie wär's, wenn wir in Lagos einen Laden für Kunsthandwerk eröffnen?"},
+    {"sprecher": "Ana", "stimme": "f", "pt": "A sério? Por um lado, seria ótimo. Por outro, as rendas no centro têm subido muito.", "de": "Echt? Einerseits wäre das super. Andererseits steigen die Mieten im Zentrum stark."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Tens razão. Mas acho que podíamos começar online.", "de": "Du hast recht. Aber ich finde, wir könnten online anfangen."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Concordo! E a médio prazo, se correr bem, abrimos uma loja.", "de": "Einverstanden! Und mittelfristig, wenn es gut läuft, eröffnen wir einen Laden."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Exatamente. O meu objetivo é começar já em janeiro.", "de": "Genau. Mein Ziel ist es, schon im Januar anzufangen."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Em janeiro? Nem pensar, é muito cedo! Talvez em março.", "de": "Im Januar? Kommt nicht in Frage, das ist zu früh! Vielleicht im März."}
+   ],
+   "fragen": [
+    {"frage": "O que propõe a Rita?", "optionen": ["abrir uma loja de artesanato", "fazer uma viagem", "mudar-se para Lisboa"], "richtig": 0},
+    {"frage": "Qual é a desvantagem, segundo a Ana?", "optionen": ["Há poucos turistas.", "As rendas no centro têm subido muito.", "A burocracia."], "richtig": 1},
+    {"frage": "Como querem começar?", "optionen": ["com uma loja no centro", "no mercado mensal", "online"], "richtig": 2},
+    {"frage": "Quando acha a Ana que devem começar?", "optionen": ["em janeiro", "em março", "no verão"], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Um e-mail do Stefan – eine E-Mail von Stefan",
+   "situation": "Stefan schreibt seinem Freund Pedro.",
+   "text": [
+    "Olá, Pedro! Desculpa a demora – tenho trabalhado muito ultimamente.",
+    "Tenho uma novidade: penso abrir um pequeno escritório em Lagos. A Ana acha que é uma boa ideia, mas o meu contabilista acha que é cedo demais.",
+    "Na minha opinião, é o momento certo: tenho cada vez mais clientes portugueses. Por outro lado, a renda é cara.",
+    "O que achas? Gostava muito de saber a tua opinião. Que tal falarmos no sábado?",
+    "Um abraço, Stefan"
+   ],
+   "fragen": [
+    {"frage": "Porque é que o Stefan não respondeu antes?", "optionen": ["Tem trabalhado muito.", "Esteve de férias.", "Esteve doente."], "richtig": 0},
+    {"frage": "O que acha o contabilista?", "optionen": ["que é uma boa ideia", "que é cedo demais", "que Faro é melhor"], "richtig": 1},
+    {"frage": "Qual é a desvantagem?", "optionen": ["Não há clientes.", "O escritório é pequeno.", "A renda é cara."], "richtig": 2},
+    {"frage": "O que propõe o Stefan?", "optionen": ["falarem no sábado", "jantarem juntos", "irem a Lisboa"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich habe vor, ein Büro zu eröffnen.", "loesungen": ["Penso abrir um escritório.", "Tenciono abrir um escritório."]},
+   {"de": "In letzter Zeit arbeite ich viel.", "loesungen": ["Ultimamente tenho trabalhado muito.", "Tenho trabalhado muito ultimamente.", "Tenho trabalhado muito nos últimos tempos.", "Ultimamente, tenho trabalhado muito."]},
+   {"de": "Gestern habe ich viel gearbeitet.", "loesungen": ["Ontem trabalhei muito.", "Trabalhei muito ontem."]},
+   {"de": "Meiner Meinung nach ist das Leben hier teuer.", "loesungen": ["Na minha opinião, a vida aqui é cara.", "Na minha opinião a vida aqui é cara.", "Na minha opinião, aqui a vida é cara."]},
+   {"de": "Wie wär's, wenn wir an den Strand gehen?", "loesungen": ["Que tal irmos à praia?"]},
+   {"de": "Du hast recht, ich bin einverstanden.", "loesungen": ["Tens razão, concordo.", "Tens razão. Concordo.", "Tens razão, concordo contigo."]}
+  ],
+  "sprechen": [
+   {"pt": "Penso abrir um escritório em Faro.", "de": "Ich habe vor, in Faro ein Büro zu eröffnen."},
+   {"pt": "Com mais tempo, viajaria mais.", "de": "Mit mehr Zeit würde ich mehr reisen."},
+   {"pt": "Tenho trabalhado muito ultimamente.", "de": "Ich arbeite in letzter Zeit viel."},
+   {"pt": "Na minha opinião, a qualidade de vida aqui é ótima.", "de": "Meiner Meinung nach ist die Lebensqualität hier super."},
+   {"pt": "Tens razão, concordo contigo.", "de": "Du hast recht, ich stimme dir zu."}
+  ]
+ }
+}

@@ -1,0 +1,647 @@
+{
+ "id": "A2-07",
+ "level": "A2",
+ "titel": "Saúde e SNS – Das Gesundheitssystem",
+ "beschreibung": "Im portugiesischen Gesundheitssystem zurechtkommen – SNS 24, Notaufnahme, Zahnarzt, Augenarzt, Krankschreibung und Versicherung – und Anweisungen und Ratschläge geben: der Imperativ für tu und formell, bejaht und verneint.",
+ "vokabeln": [
+  {"id": "a-triagem", "pt": "a triagem", "de": "die Ersteinschätzung (Triage)", "emoji": "🩺", "beispiel_pt": "Nas urgências, primeiro passei pela triagem.", "beispiel_de": "In der Notaufnahme bin ich zuerst zur Ersteinschätzung gekommen."},
+  {"id": "a-pulseira", "pt": "a pulseira", "de": "das Armband (Triage-Farbe)", "emoji": "📿", "beispiel_pt": "Deram-me uma pulseira amarela.", "beispiel_de": "Ich habe ein gelbes Armband bekommen.", "hinweis": "Manchester-Triage: vermelha, laranja, amarela, verde, azul – Rot ist am dringendsten."},
+  {"id": "o-tempo-de-espera", "pt": "o tempo de espera", "de": "die Wartezeit", "emoji": "⏳", "beispiel_pt": "O tempo de espera é de três horas.", "beispiel_de": "Die Wartezeit beträgt drei Stunden."},
+  {"id": "o-enfermeiro", "pt": "o enfermeiro", "de": "der Krankenpfleger", "emoji": "🧑‍⚕️", "beispiel_pt": "A enfermeira do SNS 24 foi muito simpática.", "beispiel_de": "Die Krankenschwester von SNS 24 war sehr freundlich.", "hinweis": "a enfermeira = die Krankenschwester; bei SNS 24 beraten Pflegekräfte am Telefon.", "alternativen": ["a enfermeira"]},
+  {"id": "a-sala-de-espera", "pt": "a sala de espera", "de": "das Wartezimmer", "emoji": "🪑", "beispiel_pt": "Esperei duas horas na sala de espera.", "beispiel_de": "Ich habe zwei Stunden im Wartezimmer gewartet."},
+  {"id": "grave", "pt": "grave", "de": "schwer / ernst", "emoji": "⚠️", "beispiel_pt": "Não é grave, fique descansado.", "beispiel_de": "Es ist nichts Ernstes, seien Sie beruhigt."},
+  {"id": "encaminhar", "pt": "encaminhar", "de": "weiterleiten / verweisen", "emoji": "↪️", "beispiel_pt": "O SNS 24 encaminhou-me para o centro de saúde.", "beispiel_de": "SNS 24 hat mich an das Gesundheitszentrum verwiesen."},
+
+  {"id": "descansa", "pt": "Descansa!", "de": "Ruh dich aus!", "emoji": "🛋️", "beispiel_pt": "Descansa e bebe muita água.", "beispiel_de": "Ruh dich aus und trink viel Wasser.", "hinweis": "tu-Imperativ = ele-Form: (ele) descansa → Descansa!"},
+  {"id": "bebe-muita-agua", "pt": "Bebe muita água!", "de": "Trink viel Wasser!", "emoji": "💧", "beispiel_pt": "Tens febre? Bebe muita água!", "beispiel_de": "Hast du Fieber? Trink viel Wasser!"},
+  {"id": "liga-me", "pt": "Liga-me!", "de": "Ruf mich an!", "emoji": "📞", "beispiel_pt": "Liga-me amanhã e diz-me como estás.", "beispiel_de": "Ruf mich morgen an und sag mir, wie es dir geht.", "hinweis": "Bejahter Imperativ: Pronomen hinten (Enklise)."},
+  {"id": "a-canja", "pt": "a canja", "de": "die Hühnersuppe (mit Reis)", "emoji": "🍲", "beispiel_pt": "Quando estou doente, a minha mulher faz-me uma canja.", "beispiel_de": "Wenn ich krank bin, kocht mir meine Frau eine Hühnersuppe.", "hinweis": "In Portugal das klassische Essen für Kranke."},
+  {"id": "o-repouso", "pt": "o repouso", "de": "die (Bett-)Ruhe", "emoji": "🛏️", "beispiel_pt": "O médico recomendou três dias de repouso.", "beispiel_de": "Der Arzt hat drei Tage Ruhe empfohlen."},
+  {"id": "melhorar", "pt": "melhorar", "de": "besser werden / sich bessern", "emoji": "📈", "beispiel_pt": "Já estás a melhorar?", "beispiel_de": "Geht es dir schon besser?"},
+  {"id": "piorar", "pt": "piorar", "de": "schlechter werden", "emoji": "📉", "beispiel_pt": "A tosse piorou durante a noite.", "beispiel_de": "Der Husten ist in der Nacht schlimmer geworden."},
+
+  {"id": "preocupar-se", "pt": "preocupar-se", "de": "sich Sorgen machen", "emoji": "😟", "beispiel_pt": "Preocupo-me com a saúde do meu pai.", "beispiel_de": "Ich mache mir Sorgen um die Gesundheit meines Vaters.", "hinweis": "preocupar-se com = sich Sorgen machen um"},
+  {"id": "nao-te-preocupes", "pt": "Não te preocupes!", "de": "Mach dir keine Sorgen!", "emoji": "🤗", "beispiel_pt": "Não te preocupes, não é nada grave.", "beispiel_de": "Mach dir keine Sorgen, es ist nichts Ernstes.", "hinweis": "formell: Não se preocupe!"},
+  {"id": "contagioso", "pt": "contagioso", "de": "ansteckend", "emoji": "🦠", "beispiel_pt": "A gripe é muito contagiosa.", "beispiel_de": "Die Grippe ist sehr ansteckend.", "alternativen": ["contagiosa"]},
+  {"id": "os-fritos", "pt": "os fritos", "de": "Frittiertes", "emoji": "🍟", "beispiel_pt": "Não comas fritos esta semana.", "beispiel_de": "Iss diese Woche nichts Frittiertes."},
+  {"id": "o-alcool", "pt": "o álcool", "de": "der Alkohol", "emoji": "🍺", "beispiel_pt": "Com estes comprimidos, não bebas álcool.", "beispiel_de": "Trink bei diesen Tabletten keinen Alkohol."},
+  {"id": "esforcar-se", "pt": "esforçar-se", "de": "sich anstrengen", "emoji": "🏋️", "beispiel_pt": "Não te esforces demasiado.", "beispiel_de": "Streng dich nicht zu sehr an.", "hinweis": "não te esforces: ç wird vor e zu c"},
+  {"id": "cocar", "pt": "coçar", "de": "kratzen", "emoji": "🦟", "beispiel_pt": "Não coces a picada!", "beispiel_de": "Kratz den Stich nicht!", "hinweis": "a picada = der Stich (Mücke, Insekt)"},
+
+  {"id": "deite-se", "pt": "Deite-se!", "de": "Legen Sie sich hin!", "emoji": "🛌", "beispiel_pt": "Deite-se aqui, por favor.", "beispiel_de": "Legen Sie sich bitte hier hin.", "hinweis": "verneint: Não se deite!"},
+  {"id": "respire-fundo", "pt": "Respire fundo!", "de": "Atmen Sie tief ein!", "emoji": "🌬️", "beispiel_pt": "Respire fundo e não fale.", "beispiel_de": "Atmen Sie tief ein und sprechen Sie nicht."},
+  {"id": "abra-a-boca", "pt": "Abra a boca!", "de": "Öffnen Sie den Mund!", "emoji": "👄", "beispiel_pt": "Abra a boca e diga „ah“.", "beispiel_de": "Öffnen Sie den Mund und sagen Sie „ah“."},
+  {"id": "a-tensao", "pt": "a tensão", "de": "der Blutdruck", "emoji": "💓", "beispiel_pt": "Vou medir-lhe a tensão.", "beispiel_de": "Ich messe Ihnen jetzt den Blutdruck.", "hinweis": "auch: a tensão arterial; ter a tensão alta = hohen Blutdruck haben"},
+  {"id": "as-analises", "pt": "as análises", "de": "die Laboruntersuchung (Blut, Urin)", "emoji": "🧪", "beispiel_pt": "Faça as análises na próxima semana.", "beispiel_de": "Lassen Sie nächste Woche das Labor machen.", "hinweis": "uma análise ao sangue = eine Blutuntersuchung"},
+  {"id": "em-jejum", "pt": "em jejum", "de": "nüchtern", "emoji": "🍽️", "beispiel_pt": "Venha em jejum, por favor.", "beispiel_de": "Kommen Sie bitte nüchtern."},
+  {"id": "a-injecao", "pt": "a injeção", "de": "die Spritze / Injektion", "emoji": "💉", "beispiel_pt": "A enfermeira deu-me uma injeção.", "beispiel_de": "Die Krankenschwester hat mir eine Spritze gegeben."},
+
+  {"id": "o-dentista", "pt": "o dentista", "de": "der Zahnarzt", "emoji": "🦷", "beispiel_pt": "Amanhã vou ao dentista.", "beispiel_de": "Morgen gehe ich zum Zahnarzt.", "hinweis": "Zahnärzte sind in Portugal fast immer privat.", "alternativen": ["a dentista"]},
+  {"id": "a-carie", "pt": "a cárie", "de": "das Loch im Zahn / die Karies", "emoji": "🕳️", "beispiel_pt": "Tem uma cárie neste dente.", "beispiel_de": "Sie haben ein Loch in diesem Zahn."},
+  {"id": "o-chumbo", "pt": "o chumbo", "de": "die Füllung (Plombe)", "emoji": "🔩", "beispiel_pt": "O dentista pôs-me um chumbo.", "beispiel_de": "Der Zahnarzt hat mir eine Füllung gemacht.", "hinweis": "chumbo = eigentlich Blei. Achtung: chumbar no exame = durch die Prüfung fallen."},
+  {"id": "a-limpeza", "pt": "a limpeza", "de": "die (Zahn-)Reinigung", "emoji": "✨", "beispiel_pt": "Faço uma limpeza duas vezes por ano.", "beispiel_de": "Ich mache zweimal im Jahr eine Zahnreinigung."},
+  {"id": "a-anestesia", "pt": "a anestesia", "de": "die Betäubung", "emoji": "😶", "beispiel_pt": "Primeiro dou-lhe uma anestesia.", "beispiel_de": "Zuerst gebe ich Ihnen eine Betäubung."},
+  {"id": "arrancar", "pt": "arrancar", "de": "(einen Zahn) ziehen / herausreißen", "emoji": "🔧", "beispiel_pt": "Não é preciso arrancar o dente.", "beispiel_de": "Der Zahn muss nicht gezogen werden.", "hinweis": "auch: tirar um dente"},
+  {"id": "a-gengiva", "pt": "a gengiva", "de": "das Zahnfleisch", "emoji": "🩷", "beispiel_pt": "A gengiva sangra quando lavo os dentes.", "beispiel_de": "Das Zahnfleisch blutet, wenn ich mir die Zähne putze.", "hinweis": "Zähne putzen = lavar os dentes (auch: escovar os dentes)"},
+
+  {"id": "o-oftalmologista", "pt": "o oftalmologista", "de": "der Augenarzt", "emoji": "👁️", "beispiel_pt": "Marquei uma consulta no oftalmologista.", "beispiel_de": "Ich habe einen Termin beim Augenarzt gemacht.", "hinweis": "Optikergeschäft: a ótica (umgangssprachlich auch o oculista)", "alternativen": ["a oftalmologista"]},
+  {"id": "as-lentes-de-contacto", "pt": "as lentes de contacto", "de": "die Kontaktlinsen", "emoji": "🔵", "beispiel_pt": "Uso lentes de contacto há dez anos.", "beispiel_de": "Ich trage seit zehn Jahren Kontaktlinsen.", "hinweis": "pt-PT: contacto (mit c)"},
+  {"id": "a-vista", "pt": "a vista", "de": "die Sehkraft / die Augen", "emoji": "👀", "beispiel_pt": "Tenho a vista cansada.", "beispiel_de": "Meine Augen sind müde.", "hinweis": "ver mal ao longe / ao perto = in die Ferne / in der Nähe schlecht sehen; graduar a vista = die Sehstärke messen lassen"},
+  {"id": "o-especialista", "pt": "o especialista", "de": "der Facharzt", "emoji": "👨‍⚕️", "beispiel_pt": "A médica de família encaminhou-me para um especialista.", "beispiel_de": "Die Hausärztin hat mich an einen Facharzt überwiesen.", "alternativen": ["a especialista"]},
+  {"id": "a-credencial", "pt": "a credencial", "de": "die Überweisung (Formular)", "emoji": "📄", "beispiel_pt": "Para o especialista, preciso de uma credencial.", "beispiel_de": "Für den Facharzt brauche ich eine Überweisung.", "hinweis": "Im SNS das Formular des Hausarztes für Facharzt, Labor oder Röntgen."},
+  {"id": "a-lista-de-espera", "pt": "a lista de espera", "de": "die Warteliste", "emoji": "📋", "beispiel_pt": "A lista de espera para o oftalmologista é de seis meses.", "beispiel_de": "Die Warteliste für den Augenarzt beträgt sechs Monate."},
+
+  {"id": "evitar", "pt": "evitar", "de": "vermeiden", "emoji": "🙅", "beispiel_pt": "Evita o açúcar e os fritos.", "beispiel_de": "Vermeide Zucker und Frittiertes."},
+  {"id": "saudavel", "pt": "saudável", "de": "gesund", "emoji": "🥗", "beispiel_pt": "Tento ter uma vida saudável.", "beispiel_de": "Ich versuche, gesund zu leben.", "hinweis": "Plural: saudáveis"},
+  {"id": "a-alimentacao", "pt": "a alimentação", "de": "die Ernährung", "emoji": "🍎", "beispiel_pt": "A alimentação mediterrânica é muito saudável.", "beispiel_de": "Die Mittelmeerkost ist sehr gesund."},
+  {"id": "os-legumes", "pt": "os legumes", "de": "das Gemüse", "emoji": "🥦", "beispiel_pt": "Come mais legumes e menos carne.", "beispiel_de": "Iss mehr Gemüse und weniger Fleisch."},
+  {"id": "o-sal", "pt": "o sal", "de": "das Salz", "emoji": "🧂", "beispiel_pt": "Com a tensão alta, evite o sal.", "beispiel_de": "Bei hohem Blutdruck vermeiden Sie Salz."},
+  {"id": "fumar", "pt": "fumar", "de": "rauchen", "emoji": "🚭", "beispiel_pt": "É proibido fumar aqui.", "beispiel_de": "Rauchen ist hier verboten."},
+  {"id": "deixar-de", "pt": "deixar de", "de": "aufhören zu", "emoji": "✋", "beispiel_pt": "Deixei de fumar há cinco anos.", "beispiel_de": "Ich habe vor fünf Jahren aufgehört zu rauchen.", "hinweis": "deixar de + Infinitiv"},
+
+  {"id": "a-baixa-medica", "pt": "a baixa médica", "de": "die Krankschreibung", "emoji": "📝", "beispiel_pt": "O médico passou-me a baixa médica.", "beispiel_de": "Der Arzt hat mich krankgeschrieben.", "hinweis": "passar a baixa = krankschreiben"},
+  {"id": "estar-de-baixa", "pt": "estar de baixa", "de": "krankgeschrieben sein", "emoji": "🏠", "beispiel_pt": "A Rita está de baixa até sexta-feira.", "beispiel_de": "Rita ist bis Freitag krankgeschrieben."},
+  {"id": "o-atestado-medico", "pt": "o atestado médico", "de": "das ärztliche Attest", "emoji": "📃", "beispiel_pt": "A empresa pediu um atestado médico.", "beispiel_de": "Die Firma hat ein ärztliches Attest verlangt."},
+  {"id": "o-reembolso", "pt": "o reembolso", "de": "die Rückerstattung", "emoji": "💶", "beispiel_pt": "O seguro faz o reembolso em dez dias.", "beispiel_de": "Die Versicherung erstattet innerhalb von zehn Tagen."},
+  {"id": "a-comparticipacao", "pt": "a comparticipação", "de": "die Kostenbeteiligung / der Zuschuss", "emoji": "🤝", "beispiel_pt": "Este medicamento tem comparticipação do SNS.", "beispiel_de": "Für dieses Medikament gibt es einen Zuschuss vom SNS.", "hinweis": "comparticipado = (teilweise) bezahlt, z. B. vom SNS"},
+  {"id": "a-apolice", "pt": "a apólice", "de": "die Versicherungspolice", "emoji": "📑", "beispiel_pt": "Diga-me o número da apólice, por favor.", "beispiel_de": "Nennen Sie mir bitte Ihre Versicherungsnummer (Policennummer).", "hinweis": "Rechnung mit Quittung = a fatura-recibo"},
+  {"id": "o-copagamento", "pt": "o copagamento", "de": "die Zuzahlung / der Eigenanteil", "emoji": "💳", "beispiel_pt": "Com o seguro, pago só um copagamento de quinze euros.", "beispiel_de": "Mit der Versicherung zahle ich nur einen Eigenanteil von fünfzehn Euro.", "hinweis": "üblich bei privaten Krankenversicherungen"}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-07-L01",
+   "typ": "neu",
+   "titel": "SNS 24 anrufen & Triage",
+   "vokabeln": ["a-triagem", "a-pulseira", "o-tempo-de-espera", "o-enfermeiro", "a-sala-de-espera", "grave", "encaminhar"],
+   "grammatik": {
+    "titel": "Der Imperativ: Anweisungen verstehen (formell, -ar)",
+    "erklaerung": [
+     "Mit dem <b>Imperativ</b> gibt man Anweisungen, Ratschläge und Bitten: <i>Ligue para o 112!</i> – Rufen Sie die 112 an! In dieser Einheit lernst du ihn für <b>tu</b> und <b>formell</b> (o senhor / a senhora), bejaht und verneint.",
+     "Am Telefon, im Krankenhaus und auf Schildern hörst du meist die <b>formelle Form</b>. Bei Verben auf <b>-ar</b> wird aus dem -a ein <b>-e</b>: tom<b>ar</b> → <i>tom<b>e</b></i>, esper<b>ar</b> → <i>esper<b>e</b></i>, aguard<b>ar</b> → <i>aguard<b>e</b></i>.",
+     "Schreibung: -car → <b>-que</b> (fi<b>car</b> → <i>fi<b>que</b></i>), -gar → <b>-gue</b> (li<b>gar</b> → <i>li<b>gue</b></i>), -çar → <b>-ce</b> (come<b>çar</b> → <i>come<b>ce</b></i>).",
+     "Verneint bleibt die formelle Form gleich: <i>Tome</i> – <i>Não tome</i>. Reflexive Verben hängen das Pronomen an: <i>Acalme-<b>se</b>!</i> – Beruhigen Sie sich!"
+    ],
+    "vergleich": "Deutsch braucht beim Siezen das „Sie“: „Warten Sie!“ – Portugiesisch nur das Verb: <i>Espere!</i> Höflicher wird es mit <i>por favor</i> oder <i>se faz favor</i>.",
+    "beispiele": [
+     {"pt": "Aguarde, por favor. A sua chamada vai ser atendida.", "de": "Bitte warten Sie. Ihr Anruf wird gleich angenommen."},
+     {"pt": "Fique em casa e ligue outra vez amanhã.", "de": "Bleiben Sie zu Hause und rufen Sie morgen noch einmal an."},
+     {"pt": "Se piorar, ligue para o 112.", "de": "Wenn es schlimmer wird, rufen Sie die 112 an."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ um momento, por favor. (esperar, formell)", "loesungen": ["Espere"], "de": "Warten Sie bitte einen Moment.", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ para o SNS 24 antes de ir às urgências. (ligar, formell)", "loesungen": ["Ligue"], "de": "Rufen Sie SNS 24 an, bevor Sie in die Notaufnahme gehen.", "erklaerung": "-gar → -gue: So bleibt das g hart.", "kategorie": "Rechtschreibung"},
+     {"typ": "luecke", "satz": "___ em casa hoje. (ficar, formell)", "loesungen": ["Fique"], "de": "Bleiben Sie heute zu Hause.", "erklaerung": "-car → -que.", "kategorie": "Rechtschreibung"},
+     {"typ": "auswahl", "frage": "Was bedeutet „Aguarde, por favor.“?", "optionen": ["Bitte rufen Sie an.", "Bitte warten Sie.", "Bitte kommen Sie herein."], "richtig": 1, "kategorie": "Imperativ"},
+     {"typ": "auswahl", "frage": "„Nehmen Sie diese Tablette!“ (formell)", "optionen": ["Toma este comprimido!", "Tomar este comprimido!", "Tome este comprimido!"], "richtig": 2, "erklaerung": "Formell: -ar → -e. „Toma“ ist die tu-Form.", "kategorie": "Imperativ"},
+     {"typ": "uebersetzen", "de": "Beruhigen Sie sich! (acalmar-se)", "loesungen": ["Acalme-se!", "Acalme-se."], "kategorie": "Imperativ"},
+     {"typ": "uebersetzen", "de": "Rufen Sie die 112 an!", "loesungen": ["Ligue para o 112!", "Ligue para o 112.", "Ligue 112!", "Ligue para o cento e doze!"]},
+     {"typ": "satzbau", "de": "Bleiben Sie zu Hause und warten Sie.", "loesung": "Fique em casa e espere."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma chamada para o SNS 24 – ein Anruf bei SNS 24",
+    "situation": "Stefan hat seit gestern hohes Fieber und ruft die Linie SNS 24 an.",
+    "zeilen": [
+     {"sprecher": "Enfermeira", "stimme": "f", "pt": "SNS 24, bom dia. Fala a enfermeira Sofia. Em que posso ajudar?", "de": "SNS 24, guten Morgen. Hier spricht Krankenschwester Sofia. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Tenho febre alta desde ontem e dói-me muito a garganta.", "de": "Guten Morgen. Ich habe seit gestern hohes Fieber und starke Halsschmerzen."},
+     {"sprecher": "Enfermeira", "stimme": "f", "pt": "Que temperatura tem agora? Tem dificuldade em respirar?", "de": "Wie hoch ist Ihre Temperatur jetzt? Haben Sie Atemprobleme?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Trinta e nove e meio. Não, respiro bem.", "de": "39,5. Nein, ich atme gut."},
+     {"sprecher": "Enfermeira", "stimme": "f", "pt": "Não parece grave. Vou encaminhá-lo para o centro de saúde. Tem consulta hoje às três.", "de": "Es scheint nichts Ernstes zu sein. Ich verweise Sie an das Gesundheitszentrum. Sie haben heute um drei einen Termin."},
+     {"sprecher": "Enfermeira", "stimme": "f", "pt": "Até lá, beba muita água e descanse. Se piorar, ligue para o 112.", "de": "Bis dahin trinken Sie viel Wasser und ruhen Sie sich aus. Wenn es schlimmer wird, rufen Sie die 112 an."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vou fazer isso. Muito obrigado.", "de": "Das mache ich. Vielen Dank."}
+    ],
+    "fragen": [
+     {"frage": "O que tem o Stefan?", "optionen": ["Dores de costas e tosse.", "Febre alta e dores de garganta.", "Uma alergia."], "richtig": 1},
+     {"frage": "Para onde vai o Stefan?", "optionen": ["Para as urgências do hospital.", "Para a farmácia.", "Para o centro de saúde."], "richtig": 2},
+     {"frage": "O que deve fazer até à consulta?", "optionen": ["Beber muita água e descansar.", "Tomar um antibiótico.", "Ligar outra vez para o SNS 24."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Liguei para a linha SNS 24.", "de": "Ich habe bei SNS 24 angerufen."},
+     {"pt": "Na triagem deram-me uma pulseira amarela.", "de": "Bei der Ersteinschätzung habe ich ein gelbes Armband bekommen."},
+     {"pt": "O tempo de espera é de duas horas.", "de": "Die Wartezeit beträgt zwei Stunden."},
+     {"pt": "Esperei muito tempo na sala de espera.", "de": "Ich habe lange im Wartezimmer gewartet."},
+     {"pt": "Não é grave, fique descansado.", "de": "Es ist nichts Ernstes, seien Sie beruhigt."}
+    ]
+   },
+   "saetze": [
+    {"id": "sns24-encaminhou", "pt": "O SNS 24 encaminhou-me para o centro de saúde.", "de": "SNS 24 hat mich an das Gesundheitszentrum verwiesen."},
+    {"id": "pulseira-amarela", "pt": "Na triagem deram-me uma pulseira amarela.", "de": "Bei der Ersteinschätzung habe ich ein gelbes Armband bekommen."},
+    {"id": "qual-tempo-espera", "pt": "Qual é o tempo de espera?", "de": "Wie lang ist die Wartezeit?"}
+   ]
+  },
+  {
+   "id": "A2-07-L02",
+   "typ": "neu",
+   "titel": "Ratschläge unter Freunden: tu bejaht",
+   "vokabeln": ["descansa", "bebe-muita-agua", "liga-me", "a-canja", "o-repouso", "melhorar", "piorar"],
+   "grammatik": {
+    "titel": "Imperativ mit tu – bejaht",
+    "erklaerung": [
+     "Den bejahten Imperativ für <b>tu</b> bildest du ganz einfach: Er ist gleich der <b>ele/ela-Form</b> des Präsens. <i>Ele descansa.</i> → <i>Descansa!</i> – Ruh dich aus!",
+     "-ar: <i>descansa, toma, liga, fica</i> · -er: <i>bebe, come</i> · -ir: <i>abre, sai, dorme</i>.",
+     "Unregelmäßig: <b>ser</b> → <i>sê</i>, <b>ir</b> → <i>vai</i>, <b>dizer</b> → <i>diz</i>, <b>fazer</b> → <i>faz</i>, <b>ter</b> → <i>tem</i>, <b>vir</b> → <i>vem</i>, <b>pôr</b> → <i>põe</i>, <b>estar</b> → <i>está</i>.",
+     "Pronomen stehen beim bejahten Imperativ <b>hinter</b> dem Verb (Enklise): <i>Liga-<b>me</b>!</i> – Ruf mich an! <i>Deita-<b>te</b>!</i> – Leg dich hin!"
+    ],
+    "vergleich": "Wie im Deutschen fällt das Pronomen weg: „Trink!“ – <i>Bebe!</i> Das Englische („Drink!“) unterscheidet nicht zwischen du und Sie – das Portugiesische schon: <i>Bebe!</i> (tu) – <i>Beba!</i> (formell).",
+    "beispiele": [
+     {"pt": "Descansa e bebe muita água.", "de": "Ruh dich aus und trink viel Wasser."},
+     {"pt": "Liga-me amanhã e diz-me como estás.", "de": "Ruf mich morgen an und sag mir, wie es dir geht."},
+     {"pt": "Vai ao médico e toma os comprimidos.", "de": "Geh zum Arzt und nimm die Tabletten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ muita água! (beber)", "loesungen": ["Bebe"], "de": "Trink viel Wasser!", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ à farmácia e compra um xarope. (ir)", "loesungen": ["Vai"], "de": "Geh in die Apotheke und kauf einen Hustensaft.", "erklaerung": "ir → vai (wie: ele vai).", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___-me o que te dói. (dizer)", "loesungen": ["Diz"], "de": "Sag mir, was dir wehtut.", "erklaerung": "dizer → diz (wie: ele diz).", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ paciente, a gripe demora uma semana. (ser)", "loesungen": ["Sê"], "de": "Sei geduldig, die Grippe dauert eine Woche.", "erklaerung": "ser → sê (mit Zirkumflex).", "kategorie": "Imperativ"},
+     {"typ": "auswahl", "frage": "„Ruf mich morgen an!“", "optionen": ["Me liga amanhã!", "Liga-me amanhã!", "Ligas-me amanhã!"], "richtig": 1, "erklaerung": "Bejahter Imperativ: Pronomen hinten. „Me liga“ ist brasilianisch, „Ligas-me“ ist eine Frage/Aussage.", "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Ruh dich aus und iss eine Hühnersuppe! (tu)", "loesungen": ["Descansa e come uma canja!", "Descansa e come uma canja."]},
+     {"typ": "uebersetzen", "de": "Leg dich hin! (deitar-se, tu)", "loesungen": ["Deita-te!", "Deita-te."], "kategorie": "Pronomen"},
+     {"typ": "satzbau", "de": "Bleib im Bett und ruh dich aus.", "loesung": "Fica na cama e descansa."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A Ana está constipada – Ana ist erkältet",
+    "situation": "Ana ist erkältet. Ihre Freundin Rita ruft an.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Olá, Ana! Então, como estás? O Stefan disse-me que estás doente.", "de": "Hallo Ana! Na, wie geht's dir? Stefan hat mir gesagt, dass du krank bist."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Estou constipada e tenho um pouco de febre. Hoje não fui trabalhar.", "de": "Ich bin erkältet und habe ein bisschen Fieber. Heute bin ich nicht zur Arbeit gegangen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Coitada! Fica na cama e descansa. E bebe muitos chás com mel e limão.", "de": "Du Arme! Bleib im Bett und ruh dich aus. Und trink viel Tee mit Honig und Zitrone."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Já estou a fazer isso. E o Stefan fez-me uma canja ontem.", "de": "Mache ich schon. Und Stefan hat mir gestern eine Hühnersuppe gekocht."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Que querido! Toma um paracetamol se a febre subir.", "de": "Wie lieb! Nimm ein Paracetamol, wenn das Fieber steigt."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E liga-me amanhã, está bem? As melhoras!", "de": "Und ruf mich morgen an, ja? Gute Besserung!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Obrigada, Rita. Beijinhos!", "de": "Danke, Rita. Küsschen!"}
+    ],
+    "fragen": [
+     {"frage": "O que tem a Ana?", "optionen": ["Uma alergia.", "Dores de dentes.", "Uma constipação e um pouco de febre."], "richtig": 2},
+     {"frage": "O que fez o Stefan para a Ana?", "optionen": ["Uma canja.", "Um chá.", "Uma marcação no médico."], "richtig": 0},
+     {"frage": "O que deve a Ana fazer amanhã?", "optionen": ["Ir trabalhar.", "Ligar à Rita.", "Ir ao médico."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Nachbar João fühlt sich nicht gut. Gib ihm Ratschläge (tu).",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Olá, Stefan. Hoje estou mesmo mal: tenho dores de cabeça e febre.", "de": "Hallo Stefan. Heute geht es mir wirklich schlecht: Ich habe Kopfschmerzen und Fieber."},
+     {"ich": true, "aufgabe": "Sag: Bleib zu Hause und ruh dich aus.", "loesungen": ["Fica em casa e descansa.", "Fica em casa e descansa!", "Fica em casa a descansar."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Mas tenho muito trabalho…", "de": "Aber ich habe viel Arbeit …"},
+     {"ich": true, "aufgabe": "Sag: Ruf deinen Chef an.", "loesungen": ["Liga ao teu chefe.", "Liga para o teu chefe.", "Telefona ao teu chefe.", "Liga ao teu chefe!", "Liga para o teu chefe!"]},
+     {"sprecher": "João", "stimme": "m", "pt": "Está bem. E o que tomo para a febre?", "de": "Na gut. Und was nehme ich gegen das Fieber?"},
+     {"ich": true, "aufgabe": "Sag: Nimm ein Paracetamol und trink viel Wasser.", "loesungen": ["Toma um paracetamol e bebe muita água.", "Toma um paracetamol e bebe muita água!", "Toma paracetamol e bebe muita água."]}
+    ]
+   },
+   "saetze": [
+    {"id": "descansa-bebe-agua", "pt": "Descansa e bebe muita água.", "de": "Ruh dich aus und trink viel Wasser."},
+    {"id": "liga-me-amanha", "pt": "Liga-me amanhã e diz-me como estás.", "de": "Ruf mich morgen an und sag mir, wie es dir geht."},
+    {"id": "fica-na-cama", "pt": "Fica na cama e toma o xarope.", "de": "Bleib im Bett und nimm den Hustensaft."}
+   ]
+  },
+  {
+   "id": "A2-07-L03",
+   "typ": "neu",
+   "titel": "Was du lassen solltest: tu verneint",
+   "vokabeln": ["preocupar-se", "nao-te-preocupes", "contagioso", "os-fritos", "o-alcool", "esforcar-se", "cocar"],
+   "grammatik": {
+    "titel": "Imperativ mit tu – verneint",
+    "erklaerung": [
+     "Achtung, Falle: Der verneinte tu-Imperativ hat eine <b>eigene Form</b>. Nicht <i>não come</i>, sondern <i>não com<b>as</b></i>!",
+     "Regel: Nimm die <b>eu-Form</b> des Präsens, streich das -o und tausche den Vokal: -ar → <b>-es</b>, -er/-ir → <b>-as</b>. tom<b>o</b> → <i>não tom<b>es</b></i>, beb<b>o</b> → <i>não beb<b>as</b></i>, sai<b>o</b> → <i>não sai<b>as</b></i>, faç<b>o</b> → <i>não faç<b>as</b></i>, dig<b>o</b> → <i>não dig<b>as</b></i>.",
+     "Unregelmäßig: <b>ser</b> → <i>não sejas</i>, <b>ir</b> → <i>não vás</i>, <b>estar</b> → <i>não estejas</i>, <b>dar</b> → <i>não dês</i>. Schreibung: <i>não fiques, não ligues, não te esforces</i>.",
+     "Nach <b>não</b> steht das Pronomen <b>vor</b> dem Verb (Proklise): <i>Não <b>te</b> preocupes!</i> Diese Formen stammen aus dem Konjunktiv, den du erst in B1 lernst – hier merkst du sie dir einfach als Verbotsform."
+    ],
+    "vergleich": "Im Deutschen kommt nur „nicht“ dazu: „Iss!“ – „Iss nicht!“. Im Portugiesischen ändert sich das Verb: <i>Come!</i> – <i>Não comas!</i> Typischer Fehler: <i>Não come!</i> heißt „Er/Sie isst nicht.“",
+    "beispiele": [
+     {"pt": "Não te preocupes, não é nada grave.", "de": "Mach dir keine Sorgen, es ist nichts Ernstes."},
+     {"pt": "Não saias de casa hoje, a gripe é contagiosa.", "de": "Geh heute nicht aus dem Haus, die Grippe ist ansteckend."},
+     {"pt": "Com estes comprimidos, não bebas álcool.", "de": "Trink bei diesen Tabletten keinen Alkohol."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Não ___ fritos esta semana. (comer)", "loesungen": ["comas"], "de": "Iss diese Woche nichts Frittiertes.", "kategorie": "Imperativ verneint"},
+     {"typ": "luecke", "satz": "Não te ___! (preocupar-se)", "loesungen": ["preocupes"], "de": "Mach dir keine Sorgen!", "kategorie": "Imperativ verneint"},
+     {"typ": "luecke", "satz": "Não ___ nada à Ana. (dizer)", "loesungen": ["digas"], "de": "Sag Ana nichts.", "erklaerung": "Ausgangspunkt ist die eu-Form: digo → não digas.", "kategorie": "Imperativ verneint"},
+     {"typ": "luecke", "satz": "Não ___ trabalhar com febre! (ir)", "loesungen": ["vás"], "de": "Geh nicht mit Fieber arbeiten!", "erklaerung": "ir → não vás (unregelmäßig, mit Akzent).", "kategorie": "Imperativ verneint"},
+     {"typ": "auswahl", "frage": "„Não come!“ bedeutet:", "optionen": ["Iss nicht!", "Er/Sie isst nicht.", "Iss!"], "richtig": 1, "erklaerung": "„Iss nicht!“ heißt „Não comas!“.", "kategorie": "Imperativ verneint"},
+     {"typ": "auswahl", "frage": "„Kratz dich nicht!“", "optionen": ["Não te coces!", "Não coça-te!", "Não te coças!"], "richtig": 0, "erklaerung": "Nach não steht das Pronomen vorne; Verbform auf -es; ç wird vor e zu c.", "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Geh heute nicht aus dem Haus! (tu)", "loesungen": ["Não saias de casa hoje!", "Não saias de casa hoje.", "Hoje não saias de casa!", "Hoje não saias de casa."], "kategorie": "Imperativ verneint"},
+     {"typ": "satzbau", "de": "Streng dich nicht zu sehr an.", "loesung": "Não te esforces demasiado."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Os conselhos do João – Joãos Ratschläge",
+    "situation": "Stefan hat einen Magen-Darm-Virus. Nachbar João schaut vorbei.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Então, Stefan, ainda estás doente?", "de": "Na, Stefan, bist du noch krank?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estou melhor, mas ainda me dói a barriga. O médico disse que é um vírus.", "de": "Es geht mir besser, aber der Bauch tut mir noch weh. Der Arzt hat gesagt, es ist ein Virus."},
+     {"sprecher": "João", "stimme": "m", "pt": "É contagioso? Então fico aqui à porta!", "de": "Ist das ansteckend? Dann bleibe ich hier an der Tür!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É, um bocadinho. Amanhã queria ir ao jantar do Pedro…", "de": "Ja, ein bisschen. Morgen wollte ich zum Abendessen bei Pedro …"},
+     {"sprecher": "João", "stimme": "m", "pt": "Nem penses! Não saias de casa, não comas fritos e, sobretudo, não bebas álcool.", "de": "Denk nicht mal dran! Geh nicht aus dem Haus, iss nichts Frittiertes und vor allem trink keinen Alkohol."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem, está bem. Não te preocupes, eu fico em casa.", "de": "Schon gut, schon gut. Mach dir keine Sorgen, ich bleibe zu Hause."}
+    ],
+    "fragen": [
+     {"frage": "O que diz o médico?", "optionen": ["Que é uma gripe.", "Que é um vírus.", "Que não é nada."], "richtig": 1},
+     {"frage": "O que queria o Stefan fazer amanhã?", "optionen": ["Ir a um jantar do Pedro.", "Ir trabalhar.", "Fazer uma caminhada."], "richtig": 0},
+     {"frage": "Segundo o João, o que não deve o Stefan fazer?", "optionen": ["Ficar em casa.", "Descansar.", "Beber álcool."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português (tu). – Schreib auf Portugiesisch (tu).",
+    "aufgaben": [
+     {"de": "Mach dir keine Sorgen!", "loesungen": ["Não te preocupes!", "Não te preocupes."]},
+     {"de": "Iss nichts Frittiertes!", "loesungen": ["Não comas fritos!", "Não comas fritos."]},
+     {"de": "Kratz den Stich nicht!", "loesungen": ["Não coces a picada!", "Não coces a picada."]},
+     {"de": "Geh nicht mit Fieber zur Arbeit!", "loesungen": ["Não vás trabalhar com febre!", "Não vás trabalhar com febre.", "Não vás para o trabalho com febre!", "Não vás para o trabalho com febre.", "Não vás ao trabalho com febre!", "Não vás ao trabalho com febre."]},
+     {"de": "Die Grippe ist ansteckend, geh nicht aus!", "loesungen": ["A gripe é contagiosa, não saias!", "A gripe é contagiosa, não saias de casa!", "A gripe é contagiosa. Não saias!", "A gripe é contagiosa. Não saias de casa!", "A gripe é contagiosa, não saias.", "A gripe é contagiosa, não saias de casa."]}
+    ]
+   },
+   "saetze": [
+    {"id": "nao-te-preocupes-grave", "pt": "Não te preocupes, não é nada grave.", "de": "Mach dir keine Sorgen, es ist nichts Ernstes."},
+    {"id": "nao-bebas-alcool", "pt": "Com estes comprimidos, não bebas álcool.", "de": "Trink bei diesen Tabletten keinen Alkohol."},
+    {"id": "nao-saias-de-casa", "pt": "Não saias de casa hoje.", "de": "Geh heute nicht aus dem Haus."}
+   ]
+  },
+  {
+   "id": "A2-07-L04",
+   "typ": "neu",
+   "titel": "Beim Hausarzt: formell bejaht und verneint",
+   "vokabeln": ["deite-se", "respire-fundo", "abra-a-boca", "a-tensao", "as-analises", "em-jejum", "a-injecao"],
+   "grammatik": {
+    "titel": "Formeller Imperativ – bejaht und verneint",
+    "erklaerung": [
+     "Den formellen Imperativ kennst du schon (<i>tome, espere, sente-se, diga</i>). Bei <b>-er/-ir</b>-Verben endet er auf <b>-a</b>: beb<b>er</b> → <i>beb<b>a</b></i>, abr<b>ir</b> → <i>abr<b>a</b></i> – bei -ar auf <b>-e</b>: respir<b>ar</b> → <i>respir<b>e</b></i>.",
+     "Wie beim verneinten tu gehst du von der <b>eu-Form</b> aus: faç<b>o</b> → <i>faç<b>a</b></i>, dig<b>o</b> → <i>dig<b>a</b></i>, tenh<b>o</b> → <i>tenh<b>a</b></i>, venh<b>o</b> → <i>venh<b>a</b></i>, tuss<b>o</b> → <i>tuss<b>a</b></i>, durm<b>o</b> → <i>durm<b>a</b></i>. Ganz unregelmäßig: <i>seja, esteja, vá, dê, saiba</i>.",
+     "Bejaht und verneint ist die Form <b>gleich</b>: <i>Tome</i> – <i>Não tome</i>. Nur das Pronomen wandert: <i>Deite-<b>se</b>!</i> – <i>Não <b>se</b> deite!</i>",
+     "Vergleich mit tu: <i>Toma!</i> (du) – <i>Tome!</i> (Sie) · <i>Não tomes!</i> (du) – <i>Não tome!</i> (Sie). Die formelle Form ist also die tu-Verbotsform ohne -s."
+    ],
+    "vergleich": "Deutsch: „Legen Sie sich hin!“ – Portugiesisch: <i>Deite-se!</i> Das <i>-se</i> ist das reflexive „sich“, nicht das höfliche „Sie“.",
+    "beispiele": [
+     {"pt": "Deite-se aqui e respire fundo.", "de": "Legen Sie sich hier hin und atmen Sie tief ein."},
+     {"pt": "Venha amanhã em jejum para as análises.", "de": "Kommen Sie morgen nüchtern zur Laboruntersuchung."},
+     {"pt": "Não se preocupe, a tensão está boa.", "de": "Machen Sie sich keine Sorgen, der Blutdruck ist gut."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ a boca e diga „ah“. (abrir)", "loesungen": ["Abra"], "de": "Öffnen Sie den Mund und sagen Sie „ah“.", "kategorie": "Imperativ formell"},
+     {"typ": "luecke", "satz": "___ amanhã às nove, em jejum. (vir)", "loesungen": ["Venha"], "de": "Kommen Sie morgen um neun, nüchtern.", "erklaerung": "venho → venha.", "kategorie": "Imperativ formell"},
+     {"typ": "luecke", "satz": "Não ___ estes comprimidos com álcool. (tomar)", "loesungen": ["tome"], "de": "Nehmen Sie diese Tabletten nicht mit Alkohol.", "kategorie": "Imperativ formell"},
+     {"typ": "luecke", "satz": "___ uma análise ao sangue. (fazer)", "loesungen": ["Faça"], "de": "Machen Sie eine Blutuntersuchung.", "erklaerung": "faço → faça.", "kategorie": "Imperativ formell"},
+     {"typ": "auswahl", "frage": "„Legen Sie sich nicht hin!“", "optionen": ["Não deite-se!", "Não se deite!", "Não te deites!"], "richtig": 1, "erklaerung": "Nach não steht das Pronomen vor dem Verb. „Não te deites“ ist die tu-Form.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist formell?", "optionen": ["Bebe muita água.", "Não bebas álcool.", "Beba muita água."], "richtig": 2, "kategorie": "Imperativ formell"},
+     {"typ": "uebersetzen", "de": "Atmen Sie tief ein und husten Sie.", "loesungen": ["Respire fundo e tussa.", "Respire fundo e tussa!"], "erklaerung": "tossir: eu tusso → tussa.", "kategorie": "Imperativ formell"},
+     {"typ": "satzbau", "de": "Haben Sie Geduld, die Ergebnisse dauern eine Woche.", "loesung": "Tenha paciência, os resultados demoram uma semana."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na consulta – in der Sprechstunde",
+    "situation": "Stefan ist bei seiner Hausärztin, Dra. Marques.",
+    "zeilen": [
+     {"sprecher": "Médica", "stimme": "f", "pt": "Bom dia, senhor Stefan. Sente-se, por favor. Então, o que o traz cá?", "de": "Guten Tag, Herr Stefan. Setzen Sie sich bitte. Was führt Sie zu mir?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ando muito cansado e às vezes tenho tonturas.", "de": "Ich bin in letzter Zeit sehr müde und manchmal ist mir schwindlig."},
+     {"sprecher": "Médica", "stimme": "f", "pt": "Vamos ver. Deite-se aqui. Vou medir-lhe a tensão.", "de": "Schauen wir mal. Legen Sie sich hier hin. Ich messe Ihren Blutdruck."},
+     {"sprecher": "Médica", "stimme": "f", "pt": "Hum, a tensão está um pouco alta. Respire fundo… muito bem.", "de": "Hm, der Blutdruck ist etwas hoch. Atmen Sie tief ein … sehr gut."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É grave, senhora doutora?", "de": "Ist es ernst, Frau Doktor?"},
+     {"sprecher": "Médica", "stimme": "f", "pt": "Não se preocupe. Faça estas análises e venha em jejum. E não coma muito sal.", "de": "Machen Sie sich keine Sorgen. Lassen Sie diese Laborwerte machen und kommen Sie nüchtern. Und essen Sie nicht viel Salz."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. Obrigado, doutora.", "de": "In Ordnung. Danke, Frau Doktor."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan vai à médica?", "optionen": ["Porque tem febre.", "Porque anda cansado e tem tonturas.", "Porque precisa de óculos."], "richtig": 1},
+     {"frage": "Como está a tensão do Stefan?", "optionen": ["Um pouco alta.", "Muito baixa.", "Normal."], "richtig": 0},
+     {"frage": "Como deve o Stefan ir fazer as análises?", "optionen": ["Com a mulher.", "Depois do pequeno-almoço.", "Em jejum."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Deite-se aqui, por favor.", "de": "Legen Sie sich bitte hier hin."},
+     {"pt": "Respire fundo.", "de": "Atmen Sie tief ein."},
+     {"pt": "Abra a boca e diga „ah“.", "de": "Öffnen Sie den Mund und sagen Sie „ah“."},
+     {"pt": "Venha amanhã em jejum.", "de": "Kommen Sie morgen nüchtern."},
+     {"pt": "Não se preocupe, não é grave.", "de": "Machen Sie sich keine Sorgen, es ist nichts Ernstes."}
+    ]
+   },
+   "saetze": [
+    {"id": "deite-se-respire", "pt": "Deite-se aqui e respire fundo.", "de": "Legen Sie sich hier hin und atmen Sie tief ein."},
+    {"id": "venha-em-jejum", "pt": "Venha amanhã em jejum para as análises.", "de": "Kommen Sie morgen nüchtern zur Laboruntersuchung."},
+    {"id": "nao-se-preocupe", "pt": "Não se preocupe, a tensão está boa.", "de": "Machen Sie sich keine Sorgen, der Blutdruck ist gut."}
+   ]
+  },
+  {
+   "id": "A2-07-L05",
+   "typ": "neu",
+   "titel": "Beim Zahnarzt",
+   "vokabeln": ["o-dentista", "a-carie", "o-chumbo", "a-limpeza", "a-anestesia", "arrancar", "a-gengiva"],
+   "grammatik": {
+    "titel": "Imperativ + Objektpronomen (o, a, os, as)",
+    "erklaerung": [
+     "Die Objektpronomen <i>o, a, os, as</i> folgen beim Imperativ derselben Regel wie <i>me, te, se</i>: bejaht <b>hinter</b> dem Verb, verneint <b>davor</b>.",
+     "formell: <i>Tome-<b>o</b> depois do almoço.</i> – <i>Não <b>o</b> tome em jejum.</i> · tu: <i>Lava-<b>os</b> bem.</i> – <i>Não <b>os</b> laves com força.</i>",
+     "Endet die tu-Form auf <b>-z</b>, fällt das z weg und aus o wird <b>lo</b>: <i>faz</i> + o → <i>fá-lo</i>, <i>diz</i> + o → <i>di-lo</i>. Formell gibt es das Problem nicht: <i>faça-o, diga-o</i>.",
+     "Das Geschlecht richtet sich nach dem portugiesischen Wort: <i>o comprimido</i> → <i>Tome-<b>o</b>!</i> (auch wenn es auf Deutsch „die Tablette“ heißt)."
+    ],
+    "vergleich": "Im Deutschen steht das Pronomen immer hinter dem Verb: „Nehmen Sie sie!“ – „Nehmen Sie sie nicht!“. Im Portugiesischen springt es nach <i>não</i> nach vorne: <i>Tome-o!</i> – <i>Não o tome!</i>",
+    "beispiele": [
+     {"pt": "Esta pasta de dentes é boa para as gengivas. Use-a todos os dias.", "de": "Diese Zahnpasta ist gut fürs Zahnfleisch. Verwenden Sie sie jeden Tag."},
+     {"pt": "O antibiótico? Tome-o depois das refeições, não o tome em jejum.", "de": "Das Antibiotikum? Nehmen Sie es nach dem Essen, nehmen Sie es nicht nüchtern."},
+     {"pt": "Os dentes? Lava-os bem, mas não os laves com força.", "de": "Die Zähne? Putz sie gründlich, aber nicht zu fest."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Este comprimido? Tome-___ depois do almoço.", "loesungen": ["o"], "de": "Diese Tablette? Nehmen Sie sie nach dem Mittagessen.", "erklaerung": "o comprimido ist männlich → o.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "A pasta de dentes? Não ___ engulas!", "loesungen": ["a"], "de": "Die Zahnpasta? Schluck sie nicht hinunter!", "erklaerung": "Nach não steht das Pronomen vorne.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Os papéis? ___ aqui, se faz favor. (deixar, formell)", "loesungen": ["Deixe-os"], "de": "Die Unterlagen? Lassen Sie sie bitte hier.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Den Zahn? Ziehen Sie ihn nicht!“ (formell)", "optionen": ["Não arranque-o!", "Não o arranque!", "Não o arranques!"], "richtig": 1, "erklaerung": "Formell, verneint, Pronomen vorne. „Não o arranques“ wäre die tu-Form.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Mach es!“ (tu, fazer + o)", "optionen": ["Faz-o!", "Faze-lo!", "Fá-lo!"], "richtig": 2, "erklaerung": "faz + o → fá-lo: Das z fällt weg, aus o wird lo.", "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Öffnen Sie den Mund und schließen Sie ihn langsam.", "loesungen": ["Abra a boca e feche-a devagar.", "Abra a boca e feche-a devagar!", "Abra a boca e feche-a lentamente."], "erklaerung": "a boca ist weiblich → feche-a.", "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Benutze sie zweimal am Tag! (die Zahnbürste = a escova, tu)", "loesungen": ["Usa-a duas vezes por dia!", "Usa-a duas vezes por dia.", "Usa-a duas vezes ao dia!", "Usa-a duas vezes ao dia."], "kategorie": "Pronomen"},
+     {"typ": "satzbau", "de": "Ich brauche eine Zahnreinigung und habe ein Loch im Zahn.", "loesung": "Preciso de uma limpeza e tenho uma cárie."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No dentista – beim Zahnarzt",
+    "situation": "Stefan hat Zahnschmerzen und geht zu einem Zahnarzt in Lagos.",
+    "zeilen": [
+     {"sprecher": "Dentista", "stimme": "m", "pt": "Boa tarde. Sente-se e diga-me: qual é o problema?", "de": "Guten Tag. Setzen Sie sich und sagen Sie mir: Was ist das Problem?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Dói-me este dente quando como coisas frias. E a gengiva sangra um bocado.", "de": "Dieser Zahn tut mir weh, wenn ich kalte Sachen esse. Und das Zahnfleisch blutet ein bisschen."},
+     {"sprecher": "Dentista", "stimme": "m", "pt": "Abra bem a boca… Pois, tem aqui uma cárie. Não é grande, não é preciso arrancar o dente.", "de": "Machen Sie den Mund weit auf … Ja, Sie haben hier ein Loch. Es ist nicht groß, der Zahn muss nicht gezogen werden."},
+     {"sprecher": "Dentista", "stimme": "m", "pt": "Vou pôr-lhe um chumbo hoje. Primeiro dou-lhe uma anestesia.", "de": "Ich mache Ihnen heute eine Füllung. Zuerst gebe ich Ihnen eine Betäubung."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. E a gengiva?", "de": "In Ordnung. Und das Zahnfleisch?"},
+     {"sprecher": "Dentista", "stimme": "m", "pt": "Faça uma limpeza daqui a um mês. E durante duas horas não coma nada, por causa da anestesia.", "de": "Machen Sie in einem Monat eine Zahnreinigung. Und essen Sie zwei Stunden lang nichts, wegen der Betäubung."}
+    ],
+    "fragen": [
+     {"frage": "Quando é que o Stefan tem dores?", "optionen": ["Quando come coisas frias.", "À noite.", "Quando bebe café."], "richtig": 0},
+     {"frage": "O que vai fazer o dentista hoje?", "optionen": ["Arrancar o dente.", "Uma limpeza.", "Pôr um chumbo."], "richtig": 2},
+     {"frage": "O que não deve o Stefan fazer durante duas horas?", "optionen": ["Falar.", "Comer.", "Lavar os dentes."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du rufst bei einer Zahnarztpraxis an und machst einen Termin.",
+    "zeilen": [
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Clínica Dentária do Mar, boa tarde. Em que posso ajudar?", "de": "Zahnklinik do Mar, guten Tag. Wie kann ich helfen?"},
+     {"ich": true, "aufgabe": "Sag: Guten Tag. Ich habe starke Zahnschmerzen. Ich glaube, ich habe ein Loch im Zahn.", "loesungen": ["Boa tarde. Tenho muitas dores de dentes. Acho que tenho uma cárie.", "Boa tarde, tenho muitas dores de dentes. Acho que tenho uma cárie.", "Boa tarde. Dói-me muito um dente. Acho que tenho uma cárie.", "Boa tarde. Tenho uma dor de dentes forte. Acho que tenho uma cárie.", "Boa tarde. Tenho dores de dentes fortes. Acho que tenho uma cárie."]},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Pode vir hoje às cinco e meia?", "de": "Können Sie heute um halb sechs kommen?"},
+     {"ich": true, "aufgabe": "Sag: Ja, sehr gut. Und ich möchte auch eine Zahnreinigung machen.", "loesungen": ["Sim, muito bem. E também queria fazer uma limpeza.", "Posso, muito bem. E também queria fazer uma limpeza.", "Sim, ótimo. E também queria fazer uma limpeza.", "Sim, muito bem. E queria fazer também uma limpeza.", "Sim, muito bem. E também gostava de fazer uma limpeza."]},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Com certeza. Diga-me o seu nome, por favor.", "de": "Selbstverständlich. Sagen Sie mir bitte Ihren Namen."},
+     {"ich": true, "aufgabe": "Sag: Stefan Krenn. K-R-E-N-N.", "loesungen": ["Stefan Krenn. K-R-E-N-N.", "Stefan Krenn.", "Chamo-me Stefan Krenn.", "O meu nome é Stefan Krenn."]}
+    ]
+   },
+   "saetze": [
+    {"id": "doi-me-este-dente", "pt": "Dói-me este dente quando como coisas frias.", "de": "Dieser Zahn tut mir weh, wenn ich kalte Sachen esse."},
+    {"id": "acho-que-tenho-carie", "pt": "Acho que tenho uma cárie.", "de": "Ich glaube, ich habe ein Loch im Zahn."},
+    {"id": "tome-o-depois", "pt": "Tome-o depois das refeições.", "de": "Nehmen Sie es nach dem Essen."}
+   ]
+  },
+  {
+   "id": "A2-07-L06",
+   "typ": "neu",
+   "titel": "Augenarzt und Fachärzte",
+   "vokabeln": ["o-oftalmologista", "as-lentes-de-contacto", "a-vista", "o-especialista", "a-credencial", "a-lista-de-espera"],
+   "grammatik": {
+    "titel": "Imperativ im Plural: vocês und os senhores",
+    "erklaerung": [
+     "Sprichst du mehrere Personen an (<i>vocês, os senhores, as senhoras</i>), hängst du an die formelle Form ein <b>-m</b>: <i>tome</i> → <i>tome<b>m</b></i>, <i>beba</i> → <i>beba<b>m</b></i>, <i>venha</i> → <i>venha<b>m</b></i>.",
+     "Bejaht und verneint ist die Form gleich, nur das Pronomen wandert: <i>Sentem-<b>se</b>!</i> – <i>Não <b>se</b> esqueçam da credencial!</i>",
+     "Unregelmäßig wie im Singular: <i>sejam, estejam, vão, deem, façam, tragam</i>.",
+     "Der Plural <i>vocês</i> ist in Portugal auch unter Freunden ganz normal – anders als das heikle Singular-<i>você</i>."
+    ],
+    "vergleich": "Deutsch unterscheidet „Kommt!“ (ihr) und „Kommen Sie!“ (Sie, mehrere). Portugiesisch hat für beide nur eine Form: <i>Venham!</i>",
+    "beispiele": [
+     {"pt": "Tragam a credencial e o cartão de utente.", "de": "Bringen Sie die Überweisung und die Patientenkarte mit."},
+     {"pt": "Sentem-se, por favor. O oftalmologista já vem.", "de": "Setzen Sie sich bitte. Der Augenarzt kommt gleich."},
+     {"pt": "Não se esqueçam dos óculos!", "de": "Vergesst eure Brillen nicht!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ na sala de espera, por favor. (aguardar, os senhores)", "loesungen": ["Aguardem"], "de": "Warten Sie bitte im Wartezimmer.", "kategorie": "Imperativ Plural"},
+     {"typ": "luecke", "satz": "___ a credencial na próxima consulta. (trazer, vocês)", "loesungen": ["Tragam"], "de": "Bringt die Überweisung zum nächsten Termin mit.", "erklaerung": "trazer: eu trago → tragam.", "kategorie": "Imperativ Plural"},
+     {"typ": "luecke", "satz": "Não se ___ dos óculos! (esquecer-se, vocês)", "loesungen": ["esqueçam"], "de": "Vergesst die Brillen nicht!", "erklaerung": "eu esqueço → esqueçam.", "kategorie": "Imperativ Plural"},
+     {"typ": "luecke", "satz": "___ pacientes, a lista de espera é longa. (ser, vocês)", "loesungen": ["Sejam"], "de": "Seid geduldig, die Warteliste ist lang.", "kategorie": "Imperativ Plural"},
+     {"typ": "auswahl", "frage": "„Setzen Sie sich bitte!“ (zu einem Ehepaar)", "optionen": ["Sente-se, por favor.", "Sentem-se, por favor.", "Sentam-se, por favor."], "richtig": 1, "erklaerung": "„Sentam-se“ ist Präsens: Sie setzen sich.", "kategorie": "Imperativ Plural"},
+     {"typ": "auswahl", "frage": "„Kommt morgen nicht!“ (vocês)", "optionen": ["Não venham amanhã!", "Não vêm amanhã!", "Não venhas amanhã!"], "richtig": 0, "erklaerung": "„Não vêm“ ist Präsens, „Não venhas“ ist tu.", "kategorie": "Imperativ Plural"},
+     {"typ": "uebersetzen", "de": "Ich sehe in die Ferne schlecht. Ich brauche eine Brille.", "loesungen": ["Vejo mal ao longe. Preciso de óculos.", "Vejo mal ao longe, preciso de óculos.", "Vejo mal ao longe. Preciso de uns óculos."]},
+     {"typ": "satzbau", "de": "Die Hausärztin hat mich an einen Facharzt überwiesen.", "loesung": "A médica de família encaminhou-me para um especialista."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Oito meses de espera – acht Monate Wartezeit",
+    "situation": "Ana braucht wohl eine Brille und spricht mit Stefan darüber.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, ultimamente vejo mal ao perto. Acho que preciso de óculos.", "de": "Stefan, in letzter Zeit sehe ich in der Nähe schlecht. Ich glaube, ich brauche eine Brille."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vai ao oftalmologista! Pede uma credencial à médica de família.", "de": "Geh zum Augenarzt! Bitte die Hausärztin um eine Überweisung."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Já pedi. Mas no SNS a lista de espera é de oito meses!", "de": "Hab ich schon. Aber im SNS beträgt die Warteliste acht Monate!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Oito meses?! Então vai a uma clínica privada. Com o nosso seguro de saúde, não é muito caro.", "de": "Acht Monate?! Dann geh in eine Privatklinik. Mit unserer Krankenversicherung ist das nicht sehr teuer."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Tens razão. E na ótica posso ver logo as lentes de contacto também.", "de": "Du hast recht. Und beim Optiker kann ich mir gleich auch Kontaktlinsen anschauen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. Marca já, não deixes para amanhã!", "de": "Super. Mach gleich einen Termin, schieb es nicht auf!"}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema da Ana?", "optionen": ["Vê mal ao longe.", "Vê mal ao perto.", "Tem dores nos olhos."], "richtig": 1},
+     {"frage": "Quanto tempo é a lista de espera no SNS?", "optionen": ["Oito meses.", "Oito semanas.", "Um ano."], "richtig": 0},
+     {"frage": "O que decide a Ana?", "optionen": ["Esperar pelo SNS.", "Comprar óculos no supermercado.", "Ir a uma clínica privada."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich brauche eine neue Brille.", "loesungen": ["Preciso de óculos novos.", "Preciso de uns óculos novos."]},
+     {"de": "Die Warteliste ist sehr lang.", "loesungen": ["A lista de espera é muito longa.", "A lista de espera é muito grande."]},
+     {"de": "Bringen Sie die Überweisung mit! (os senhores)", "loesungen": ["Tragam a credencial!", "Tragam a credencial."]},
+     {"de": "Vergesst die Kontaktlinsen nicht! (vocês)", "loesungen": ["Não se esqueçam das lentes de contacto!", "Não se esqueçam das lentes de contacto."]},
+     {"de": "Meine Augen sind müde.", "loesungen": ["Tenho a vista cansada.", "Tenho os olhos cansados."]}
+    ]
+   },
+   "saetze": [
+    {"id": "preciso-credencial", "pt": "Preciso de uma credencial para o especialista.", "de": "Ich brauche eine Überweisung für den Facharzt."},
+    {"id": "vejo-mal-ao-longe", "pt": "Vejo mal ao longe. Preciso de óculos.", "de": "Ich sehe in die Ferne schlecht. Ich brauche eine Brille."},
+    {"id": "tragam-credencial", "pt": "Tragam a credencial e o cartão de utente.", "de": "Bringen Sie die Überweisung und die Patientenkarte mit."}
+   ]
+  },
+  {
+   "id": "A2-07-L07",
+   "typ": "neu",
+   "titel": "Gesund leben: Ratschläge geben",
+   "vokabeln": ["evitar", "saudavel", "a-alimentacao", "os-legumes", "o-sal", "fumar", "deixar-de"],
+   "grammatik": {
+    "titel": "Ratschläge: Imperativ, dever und é melhor",
+    "erklaerung": [
+     "Der Imperativ ist direkt: <i>Faz exercício!</i> Weicher klingt <b>dever</b> + Infinitiv (du solltest / Sie sollten): <i>Deves fazer exercício. – Deve fazer exercício.</i> Oder unpersönlich <b>é melhor</b> + Infinitiv: <i>É melhor evitar o açúcar.</i>",
+     "Aufhören: <b>deixar de</b> + Infinitiv. <i>Deixa de fumar!</i> (tu) – <i>Deixe de fumar!</i> (formell). Vermeiden: <i>Evita / Evite o sal.</i>",
+     "Verbote auf Schildern stehen oft im <b>Infinitiv</b>: <i>Proibido fumar. Não fumar.</i>",
+     "Wiederholung: tu bejaht <i>come, bebe, faz</i> · tu verneint <i>não comas, não bebas, não faças</i> · formell <i>coma / não coma</i>."
+    ],
+    "vergleich": "Wie im Deutschen: „Hör auf zu rauchen!“ ist direkt, „Du solltest aufhören zu rauchen.“ ist weicher. <i>deixar de</i> funktioniert wie englisch „to stop doing“.",
+    "beispiele": [
+     {"pt": "Come mais legumes e evita o açúcar.", "de": "Iss mehr Gemüse und vermeide Zucker."},
+     {"pt": "Deve deixar de fumar, senhor Stefan.", "de": "Sie sollten mit dem Rauchen aufhören, Herr Stefan."},
+     {"pt": "É melhor beber menos álcool.", "de": "Es ist besser, weniger Alkohol zu trinken."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ de fumar! (deixar, tu)", "loesungen": ["Deixa"], "de": "Hör auf zu rauchen!", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ o sal, a sua tensão está alta. (evitar, formell)", "loesungen": ["Evite"], "de": "Vermeiden Sie Salz, Ihr Blutdruck ist hoch.", "kategorie": "Imperativ formell"},
+     {"typ": "luecke", "satz": "Não ___ tanto açúcar! (comer, tu)", "loesungen": ["comas"], "de": "Iss nicht so viel Zucker!", "kategorie": "Imperativ verneint"},
+     {"typ": "luecke", "satz": "Para dormir bem, não ___ café à noite. (beber, formell)", "loesungen": ["beba"], "de": "Um gut zu schlafen, trinken Sie abends keinen Kaffee.", "kategorie": "Imperativ formell"},
+     {"typ": "auswahl", "frage": "„Du solltest mehr Gemüse essen.“", "optionen": ["Deves comer mais legumes.", "Deve comeres mais legumes.", "Deves come mais legumes."], "richtig": 0, "erklaerung": "dever + Infinitiv: deves comer.", "kategorie": "dever"},
+     {"typ": "auswahl", "frage": "„Mach Sport!“ (tu)", "optionen": ["Faça exercício!", "Faz exercício!", "Fazes exercício!"], "richtig": 1, "erklaerung": "„Faça“ ist formell, „Fazes“ ist Präsens.", "kategorie": "Imperativ"},
+     {"typ": "uebersetzen", "de": "Es ist besser, weniger Salz zu essen.", "loesungen": ["É melhor comer menos sal.", "É melhor comer com menos sal."]},
+     {"typ": "diktat", "pt": "Uma alimentação saudável é muito importante."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma vida mais saudável – ein gesünderes Leben",
+    "situation": "Stefans Freund Pedro hat schlechte Blutwerte. Stefan gibt ihm Tipps.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Stefan, a médica disse-me que tenho o colesterol alto. Tenho de mudar a alimentação.", "de": "Stefan, die Ärztin hat mir gesagt, dass mein Cholesterin hoch ist. Ich muss meine Ernährung umstellen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Eu tive o mesmo problema. Come mais legumes e fruta, e evita os fritos.", "de": "Ich hatte dasselbe Problem. Iss mehr Gemüse und Obst und vermeide Frittiertes."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E o vinho? Também tenho de deixar de beber?", "de": "Und der Wein? Muss ich auch aufhören zu trinken?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, mas não bebas todos os dias. E faz exercício: vem caminhar comigo na praia de manhã!", "de": "Nein, aber trink nicht jeden Tag. Und mach Sport: Komm morgens mit mir am Strand spazieren!"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Às sete da manhã? Nem pensar!", "de": "Um sieben Uhr morgens? Kommt nicht in Frage!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então às oito. E deixa de fumar, Pedro. É o mais importante.", "de": "Dann um acht. Und hör auf zu rauchen, Pedro. Das ist das Wichtigste."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema do Pedro?", "optionen": ["Tem a tensão baixa.", "Tem uma alergia.", "Tem o colesterol alto."], "richtig": 2},
+     {"frage": "O que diz o Stefan sobre o vinho?", "optionen": ["Que o Pedro não deve beber todos os dias.", "Que o Pedro tem de deixar de beber.", "Que o vinho é saudável."], "richtig": 0},
+     {"frage": "O que é o mais importante, segundo o Stefan?", "optionen": ["Caminhar às sete.", "Deixar de fumar.", "Comer fruta."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Come mais legumes e evita os fritos.", "de": "Iss mehr Gemüse und vermeide Frittiertes."},
+     {"pt": "Deixa de fumar!", "de": "Hör auf zu rauchen!"},
+     {"pt": "É melhor comer menos sal.", "de": "Es ist besser, weniger Salz zu essen."},
+     {"pt": "Tento ter uma vida saudável.", "de": "Ich versuche, gesund zu leben."},
+     {"pt": "Faz exercício todos os dias.", "de": "Mach jeden Tag Sport."}
+    ]
+   },
+   "saetze": [
+    {"id": "come-mais-legumes", "pt": "Come mais legumes e evita o açúcar.", "de": "Iss mehr Gemüse und vermeide Zucker."},
+    {"id": "deixa-de-fumar", "pt": "Deixa de fumar, é o mais importante.", "de": "Hör auf zu rauchen, das ist das Wichtigste."},
+    {"id": "e-melhor-menos-sal", "pt": "É melhor comer menos sal.", "de": "Es ist besser, weniger Salz zu essen."}
+   ]
+  },
+  {
+   "id": "A2-07-L08",
+   "typ": "neu",
+   "titel": "Krankschreibung und Versicherung",
+   "vokabeln": ["a-baixa-medica", "estar-de-baixa", "o-atestado-medico", "o-reembolso", "a-comparticipacao", "a-apolice", "o-copagamento"],
+   "grammatik": {
+    "titel": "Schriftliche Anweisungen und Überblick Imperativ",
+    "erklaerung": [
+     "In Formularen, Anleitungen und auf Schildern steht statt des Imperativs oft der <b>Infinitiv</b>: <i>Preencher o formulário. Enviar o recibo. Não fumar.</i>",
+     "Überblick: tu bejaht = ele-Form (<i>envia</i>) · tu verneint = <i>não</i> + -es/-as (<i>não envies</i>) · formell = -e/-a (<i>envie / não envie</i>) · Plural = + -m (<i>enviem / não enviem</i>).",
+     "Pronomen: bejaht hinten (<i>Envie-<b>o</b> por e-mail.</i>), nach <i>não</i> vorne (<i>Não <b>o</b> envie por correio.</i>).",
+     "Höflicher als ein Imperativ ist oft eine Frage: <i>Pode enviar-me o recibo?</i> klingt weicher als <i>Envie-me o recibo.</i>"
+    ],
+    "vergleich": "Auch im Deutschen stehen Anleitungen im Infinitiv: „Formular ausfüllen. Nicht rauchen.“ – Portugiesisch macht es genauso.",
+    "beispiele": [
+     {"pt": "Enviar a fatura-recibo até trinta dias após a consulta.", "de": "Rechnung mit Quittung bis 30 Tage nach dem Termin einsenden."},
+     {"pt": "Peça um atestado médico e envie-o à empresa.", "de": "Lassen Sie sich ein Attest geben und schicken Sie es an die Firma."},
+     {"pt": "Não te esqueças: estás de baixa, não trabalhes!", "de": "Vergiss nicht: Du bist krankgeschrieben, arbeite nicht!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ o recibo e envie-o ao seguro. (guardar, formell)", "loesungen": ["Guarde"], "de": "Heben Sie die Quittung auf und schicken Sie sie an die Versicherung.", "kategorie": "Imperativ formell"},
+     {"typ": "luecke", "satz": "Estás de baixa! Não ___ os e-mails do trabalho! (ler, tu)", "loesungen": ["leias"], "de": "Du bist krankgeschrieben! Lies die Arbeits-E-Mails nicht!", "erklaerung": "ler: eu leio → não leias.", "kategorie": "Imperativ verneint"},
+     {"typ": "luecke", "satz": "O atestado? ___ hoje na secretaria. (entregar, formell + o)", "loesungen": ["Entregue-o"], "de": "Das Attest? Geben Sie es heute im Sekretariat ab.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "Auf einem Formular steht „Preencher em maiúsculas.“ Das bedeutet:", "optionen": ["In Großbuchstaben ausfüllen.", "Ich fülle in Großbuchstaben aus.", "Nicht in Großbuchstaben ausfüllen."], "richtig": 0, "kategorie": "Infinitiv"},
+     {"typ": "auswahl", "frage": "„Schickt mir die Quittung!“ (vocês)", "optionen": ["Enviam-me o recibo!", "Me enviem o recibo!", "Enviem-me o recibo!"], "richtig": 2, "erklaerung": "„Enviam-me“ ist Präsens; „Me enviem“ ist brasilianische Wortstellung.", "kategorie": "Imperativ Plural"},
+     {"typ": "uebersetzen", "de": "Der Arzt hat mich krankgeschrieben.", "loesungen": ["O médico passou-me a baixa.", "O médico passou-me a baixa médica.", "O médico deu-me baixa.", "O médico deu-me a baixa.", "O médico pôs-me de baixa."]},
+     {"typ": "uebersetzen", "de": "Wie lange dauert die Rückerstattung?", "loesungen": ["Quanto tempo demora o reembolso?", "Quanto tempo é que demora o reembolso?"]},
+     {"typ": "satzbau", "de": "Für dieses Medikament gibt es einen Zuschuss vom SNS.", "loesung": "Este medicamento tem comparticipação do SNS."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O seguro de saúde – die Krankenversicherung",
+    "situation": "Stefan ruft bei seiner privaten Krankenversicherung an.",
+    "zeilen": [
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Linha de apoio ao cliente, bom dia. Em que posso ajudar?", "de": "Kundenservice, guten Morgen. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Fui a um oftalmologista privado e queria pedir o reembolso da consulta.", "de": "Guten Morgen. Ich war bei einem privaten Augenarzt und möchte die Erstattung für den Termin beantragen."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Com certeza. Diga-me o número da apólice, por favor.", "de": "Selbstverständlich. Nennen Sie mir bitte die Versicherungsnummer."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É o quatro, cinco, sete, dois, um, nove. A consulta custou oitenta euros.", "de": "Das ist die 457219. Der Termin hat achtzig Euro gekostet."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Obrigada. Envie-nos a fatura-recibo pela aplicação ou por e-mail. Não se esqueça: o seu NIF tem de estar na fatura.", "de": "Danke. Schicken Sie uns die Rechnung mit Quittung über die App oder per E-Mail. Vergessen Sie nicht: Ihre Steuernummer muss auf der Rechnung stehen."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "O reembolso é de setenta por cento e demora cerca de dez dias úteis.", "de": "Die Erstattung beträgt siebzig Prozent und dauert etwa zehn Werktage."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perfeito. Muito obrigado!", "de": "Perfekt. Vielen Dank!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan liga para o seguro?", "optionen": ["Para marcar uma consulta.", "Para pedir um reembolso.", "Para mudar de seguro."], "richtig": 1},
+     {"frage": "O que tem o Stefan de enviar?", "optionen": ["A fatura-recibo.", "A credencial.", "O atestado médico."], "richtig": 0},
+     {"frage": "Quanto tempo demora o reembolso?", "optionen": ["Setenta dias.", "Um mês.", "Cerca de dez dias úteis."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist krank und rufst deine Kollegin Marta an.",
+    "zeilen": [
+     {"sprecher": "Marta", "stimme": "f", "pt": "Olá, Stefan! Então, vens à reunião amanhã?", "de": "Hallo Stefan! Na, kommst du morgen zur Besprechung?"},
+     {"ich": true, "aufgabe": "Sag: Leider nicht. Ich bin bis Freitag krankgeschrieben.", "loesungen": ["Infelizmente não. Estou de baixa até sexta-feira.", "Infelizmente, não. Estou de baixa até sexta-feira.", "Infelizmente não. Estou de baixa até sexta.", "Não, infelizmente. Estou de baixa até sexta-feira.", "Não, infelizmente. Estou de baixa até sexta."]},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Oh, coitado! O que tens?", "de": "Oh, du Armer! Was hast du?"},
+     {"ich": true, "aufgabe": "Sag: Ich habe Grippe. Ich brauche Ruhe.", "loesungen": ["Tenho gripe. Preciso de repouso.", "Estou com gripe. Preciso de repouso.", "Tenho gripe e preciso de repouso.", "Estou com gripe e preciso de repouso.", "Tenho gripe. Preciso de descansar.", "Estou com gripe. Preciso de descansar."]},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Não te preocupes, eu faço a apresentação. Precisas de alguma coisa?", "de": "Mach dir keine Sorgen, ich mache die Präsentation. Brauchst du etwas?"},
+     {"ich": true, "aufgabe": "Sag: Danke! Schick mir bitte das Protokoll per E-Mail. (a ata)", "loesungen": ["Obrigado! Envia-me a ata por e-mail, por favor.", "Obrigado! Manda-me a ata por e-mail, por favor.", "Obrigado! Por favor, envia-me a ata por e-mail.", "Obrigado! Envia-me a ata da reunião por e-mail, por favor.", "Obrigado! Manda-me a ata da reunião por e-mail, por favor."]}
+    ]
+   },
+   "saetze": [
+    {"id": "estou-de-baixa", "pt": "Estou de baixa até sexta-feira.", "de": "Ich bin bis Freitag krankgeschrieben."},
+    {"id": "pedir-reembolso", "pt": "Queria pedir o reembolso da consulta.", "de": "Ich möchte die Erstattung für den Termin beantragen."},
+    {"id": "medicamento-comparticipado", "pt": "Este medicamento tem comparticipação do SNS.", "de": "Für dieses Medikament gibt es einen Zuschuss vom SNS."}
+   ]
+  },
+  {"id": "A2-07-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-07-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Nas urgências – in der Notaufnahme",
+   "situation": "Stefan begleitet Ana in die Notaufnahme des Krankenhauses in Portimão.",
+   "zeilen": [
+    {"sprecher": "Enfermeiro", "stimme": "m", "pt": "Boa noite. Sou o enfermeiro da triagem. O que se passa?", "de": "Guten Abend. Ich bin der Pfleger der Ersteinschätzung. Was ist los?"},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Caí na escada e dói-me muito o pé. Não consigo andar.", "de": "Ich bin auf der Treppe gestürzt und mein Fuß tut sehr weh. Ich kann nicht gehen."},
+    {"sprecher": "Enfermeiro", "stimme": "m", "pt": "Ligaram primeiro para o SNS 24?", "de": "Haben Sie zuerst bei SNS 24 angerufen?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, ligámos e encaminharam-nos para cá.", "de": "Ja, wir haben angerufen und man hat uns hierher geschickt."},
+    {"sprecher": "Enfermeiro", "stimme": "m", "pt": "Muito bem. Aqui tem a pulseira verde. Aguardem na sala de espera, por favor.", "de": "Sehr gut. Hier ist das grüne Armband. Warten Sie bitte im Wartezimmer."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E qual é o tempo de espera?", "de": "Und wie lange ist die Wartezeit?"},
+    {"sprecher": "Enfermeiro", "stimme": "m", "pt": "Neste momento, cerca de três horas. Não se preocupem: se a dor piorar, falem comigo.", "de": "Im Moment etwa drei Stunden. Machen Sie sich keine Sorgen: Wenn der Schmerz schlimmer wird, sprechen Sie mich an."}
+   ],
+   "fragen": [
+    {"frage": "O que aconteceu à Ana?", "optionen": ["Caiu na escada.", "Tem febre alta.", "Cortou-se na cozinha."], "richtig": 0},
+    {"frage": "Para onde é que o SNS 24 os encaminhou?", "optionen": ["Para o centro de saúde.", "Para as urgências.", "Para a farmácia."], "richtig": 1},
+    {"frage": "De que cor é a pulseira?", "optionen": ["Amarela.", "Laranja.", "Verde."], "richtig": 2},
+    {"frage": "Quanto tempo têm de esperar?", "optionen": ["Meia hora.", "Cerca de três horas.", "Uma hora."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Gripe: o que fazer? – Grippe: Was tun?",
+   "situation": "Ein Merkblatt im Gesundheitszentrum.",
+   "text": [
+    "Gripe: o que fazer?",
+    "Fique em casa e descanse. A gripe é muito contagiosa: não vá trabalhar e evite visitas.",
+    "Beba muita água, chá ou canja. Para a febre, tome paracetamol. Não tome antibióticos sem receita: não tratam a gripe.",
+    "Antes de ir às urgências, ligue para a linha SNS 24 (808 24 24 24). Um enfermeiro vai encaminhá-lo para o sítio certo.",
+    "Se tiver dificuldade em respirar, ligue logo para o 112.",
+    "Precisa de baixa médica? Peça-a ao seu médico de família."
+   ],
+   "fragen": [
+    {"frage": "Porque é que não deve ir trabalhar com gripe?", "optionen": ["Porque está muito cansado.", "Porque a gripe é contagiosa.", "Porque precisa de um atestado."], "richtig": 1},
+    {"frage": "O que diz o folheto sobre os antibióticos?", "optionen": ["Não tratam a gripe.", "São bons para a febre.", "Pode comprá-los sem receita."], "richtig": 0},
+    {"frage": "Quando deve ligar logo para o 112?", "optionen": ["Quando tem febre.", "Quando precisa de baixa.", "Quando tem dificuldade em respirar."], "richtig": 2},
+    {"frage": "A quem pede a baixa médica?", "optionen": ["Ao enfermeiro do SNS 24.", "Ao médico de família.", "Ao farmacêutico."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ruh dich aus und trink viel Wasser! (tu)", "loesungen": ["Descansa e bebe muita água!", "Descansa e bebe muita água."]},
+   {"de": "Mach dir keine Sorgen!", "loesungen": ["Não te preocupes!", "Não te preocupes."]},
+   {"de": "Legen Sie sich bitte hier hin.", "loesungen": ["Deite-se aqui, por favor.", "Deite-se aqui, se faz favor.", "Por favor, deite-se aqui."]},
+   {"de": "Nehmen Sie diese Tabletten nicht mit Alkohol!", "loesungen": ["Não tome estes comprimidos com álcool!", "Não tome estes comprimidos com álcool."]},
+   {"de": "Ich habe ein Loch im Zahn.", "loesungen": ["Tenho uma cárie.", "Tenho uma cárie no dente."]},
+   {"de": "Ich bin bis Freitag krankgeschrieben.", "loesungen": ["Estou de baixa até sexta-feira.", "Estou de baixa até sexta."]}
+  ],
+  "sprechen": [
+   {"pt": "Liguei para a linha SNS 24.", "de": "Ich habe bei SNS 24 angerufen."},
+   {"pt": "Na triagem deram-me uma pulseira amarela.", "de": "Bei der Ersteinschätzung habe ich ein gelbes Armband bekommen."},
+   {"pt": "Não comas fritos e evita o açúcar.", "de": "Iss nichts Frittiertes und vermeide Zucker."},
+   {"pt": "Respire fundo, por favor.", "de": "Atmen Sie bitte tief ein."},
+   {"pt": "Queria pedir o reembolso da consulta.", "de": "Ich möchte die Erstattung für den Termin beantragen."}
+  ]
+ }
+}

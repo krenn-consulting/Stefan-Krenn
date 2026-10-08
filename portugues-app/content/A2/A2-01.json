@@ -1,0 +1,647 @@
+{
+ "id": "A2-01",
+ "level": "A2",
+ "titel": "A minha vida – Biografie",
+ "beschreibung": "Das eigene Leben erzählen: Lebensstationen, Ausbildung und Beruf. Pretérito perfeito der unregelmäßigen Verben dar, vir, pôr, saber, querer, poder, trazer und dizer – und Wiederholung der regelmäßigen Formen.",
+ "vokabeln": [
+  {"id": "nascer", "pt": "nascer", "de": "geboren werden", "emoji": "👶", "beispiel_pt": "O meu pai nasceu em 1945.", "beispiel_de": "Mein Vater wurde 1945 geboren.", "hinweis": "„Ich bin geboren“ = Nasci. (Perfeito, nicht Präsens!)"},
+  {"id": "crescer", "pt": "crescer", "de": "aufwachsen / wachsen", "emoji": "🌱", "beispiel_pt": "Cresci numa aldeia perto de Salzburgo.", "beispiel_de": "Ich bin in einem Dorf bei Salzburg aufgewachsen.", "hinweis": "eu cresço, ele cresce – Vergangenheit: cresci"},
+  {"id": "mudar-se", "pt": "mudar-se", "de": "umziehen", "emoji": "📦", "beispiel_pt": "Mudámo-nos para Lagos em 2024.", "beispiel_de": "Wir sind 2024 nach Lagos gezogen.", "hinweis": "mudar-se para = umziehen nach; ohne -se: mudar = ändern / wechseln"},
+  {"id": "licenciar-se", "pt": "licenciar-se", "de": "das Studium abschließen", "emoji": "🎓", "beispiel_pt": "Licenciei-me em Economia em 1997.", "beispiel_de": "Ich habe 1997 mein Wirtschaftsstudium abgeschlossen.", "hinweis": "licenciar-se em + Fach"},
+  {"id": "casar-se", "pt": "casar-se", "de": "heiraten", "emoji": "💍", "beispiel_pt": "Casámo-nos em Lisboa.", "beispiel_de": "Wir haben in Lissabon geheiratet.", "hinweis": "casar-se com alguém – auch ohne -se: casar com", "alternativen": ["casar"]},
+  {"id": "viver", "pt": "viver", "de": "leben / wohnen", "emoji": "🏡", "beispiel_pt": "Vivi quinze anos em Viena.", "beispiel_de": "Ich habe fünfzehn Jahre in Wien gelebt.", "hinweis": "viver ≈ morar; viver auch für „leben“ allgemein"},
+  {"id": "a-vida", "pt": "a vida", "de": "das Leben", "emoji": "✨", "beispiel_pt": "A minha vida mudou muito.", "beispiel_de": "Mein Leben hat sich sehr verändert."},
+
+  {"id": "vir", "pt": "vir", "de": "kommen", "emoji": "🚶", "beispiel_pt": "Vens à festa no sábado?", "beispiel_de": "Kommst du am Samstag zur Party?", "hinweis": "Präsens: venho, vens, vem, vimos, vêm"},
+  {"id": "vim", "pt": "vim", "de": "ich bin gekommen", "emoji": "🛬", "beispiel_pt": "Vim para Portugal em 2024.", "beispiel_de": "Ich bin 2024 nach Portugal gekommen."},
+  {"id": "veio", "pt": "veio", "de": "er/sie ist gekommen", "emoji": "🚪", "beispiel_pt": "A Ana veio comigo.", "beispiel_de": "Ana ist mit mir gekommen."},
+  {"id": "trazer", "pt": "trazer", "de": "(mit)bringen", "emoji": "🎒", "beispiel_pt": "Podes trazer o vinho?", "beispiel_de": "Kannst du den Wein mitbringen?", "hinweis": "Präsens: trago, trazes, traz, trazemos, trazem"},
+  {"id": "trouxe", "pt": "trouxe", "de": "ich habe / er hat mitgebracht", "emoji": "🧳", "beispiel_pt": "Trouxe os móveis da Áustria.", "beispiel_de": "Ich habe die Möbel aus Österreich mitgebracht.", "hinweis": "Aussprache: das x klingt wie ss – „trósse“"},
+  {"id": "os-moveis", "pt": "os móveis", "de": "die Möbel", "emoji": "🪑", "beispiel_pt": "Os móveis chegaram de camião.", "beispiel_de": "Die Möbel sind mit dem Lkw gekommen.", "hinweis": "Singular: o móvel (ein Möbelstück)"},
+  {"id": "a-mudanca", "pt": "a mudança", "de": "der Umzug / die Veränderung", "emoji": "🚚", "beispiel_pt": "A mudança correu bem.", "beispiel_de": "Der Umzug ist gut gelaufen."},
+
+  {"id": "dizer", "pt": "dizer", "de": "sagen", "emoji": "💬", "beispiel_pt": "Não sei o que dizer.", "beispiel_de": "Ich weiß nicht, was ich sagen soll.", "hinweis": "Präsens: digo, dizes, diz, dizemos, dizem"},
+  {"id": "disse", "pt": "disse", "de": "ich habe / er hat gesagt", "emoji": "🗨️", "beispiel_pt": "O João disse-me tudo.", "beispiel_de": "João hat mir alles gesagt."},
+  {"id": "saber", "pt": "saber", "de": "wissen / können (gelernt)", "emoji": "🧠", "beispiel_pt": "Sabes nadar?", "beispiel_de": "Kannst du schwimmen?", "hinweis": "Präsens: sei, sabes, sabe, sabemos, sabem"},
+  {"id": "soube", "pt": "soube", "de": "ich habe / er hat erfahren", "emoji": "📰", "beispiel_pt": "Soube da notícia ontem.", "beispiel_de": "Ich habe gestern von der Neuigkeit erfahren.", "hinweis": "saber im Perfeito = erfahren: saber de algo"},
+  {"id": "a-noticia", "pt": "a notícia", "de": "die Neuigkeit / Nachricht", "emoji": "📢", "beispiel_pt": "Que boa notícia!", "beispiel_de": "Was für eine gute Nachricht!", "hinweis": "a notícia = Neuigkeit; a mensagem = geschriebene Nachricht (SMS)"},
+  {"id": "a-verdade", "pt": "a verdade", "de": "die Wahrheit", "emoji": "✅", "beispiel_pt": "É verdade!", "beispiel_de": "Das stimmt!"},
+  {"id": "responder", "pt": "responder", "de": "antworten", "emoji": "↩️", "beispiel_pt": "Ainda não respondi ao e-mail.", "beispiel_de": "Ich habe noch nicht auf die E-Mail geantwortet.", "hinweis": "responder a alguém / a algo"},
+
+  {"id": "querer", "pt": "querer", "de": "wollen", "emoji": "🙋", "beispiel_pt": "O que queres fazer hoje?", "beispiel_de": "Was willst du heute machen?", "hinweis": "Präsens: quero, queres, quer, queremos, querem"},
+  {"id": "quis", "pt": "quis", "de": "ich wollte / er wollte", "emoji": "🎯", "beispiel_pt": "Quis ajudar, mas não pude.", "beispiel_de": "Ich wollte helfen, aber ich konnte nicht.", "hinweis": "Não quis = wollte nicht (hat abgelehnt)"},
+  {"id": "pude", "pt": "pude", "de": "ich konnte", "emoji": "💪", "beispiel_pt": "Não pude ir à reunião.", "beispiel_de": "Ich konnte nicht zur Besprechung gehen."},
+  {"id": "pode-perfeito", "pt": "pôde", "de": "er/sie konnte", "emoji": "🤷", "beispiel_pt": "Ela não pôde vir.", "beispiel_de": "Sie konnte nicht kommen.", "hinweis": "Mit Zirkumflex: pôde (konnte) ≠ pode (kann)"},
+  {"id": "ajudar", "pt": "ajudar", "de": "helfen", "emoji": "🙌", "beispiel_pt": "Ajudei o vizinho com a mudança.", "beispiel_de": "Ich habe dem Nachbarn beim Umzug geholfen.", "hinweis": "ajudar alguém – ohne „a“: ajudei-o (ich habe ihm geholfen)"},
+  {"id": "conseguir", "pt": "conseguir", "de": "schaffen / es hinkriegen", "emoji": "🏆", "beispiel_pt": "Consegui acabar o trabalho.", "beispiel_de": "Ich habe es geschafft, die Arbeit fertig zu machen.", "hinweis": "eu consigo, ele consegue – Vergangenheit: consegui"},
+  {"id": "infelizmente", "pt": "infelizmente", "de": "leider", "emoji": "😔", "beispiel_pt": "Infelizmente não pude ir.", "beispiel_de": "Leider konnte ich nicht hingehen."},
+
+  {"id": "dar", "pt": "dar", "de": "geben", "emoji": "🫴", "beispiel_pt": "Podes dar-me o teu número?", "beispiel_de": "Kannst du mir deine Nummer geben?", "hinweis": "Präsens: dou, dás, dá, damos, dão"},
+  {"id": "dei", "pt": "dei", "de": "ich habe gegeben", "emoji": "🎀", "beispiel_pt": "Dei-lhe uma prenda.", "beispiel_de": "Ich habe ihm/ihr ein Geschenk gegeben."},
+  {"id": "deu", "pt": "deu", "de": "er/sie hat gegeben", "emoji": "💐", "beispiel_pt": "A Rita deu-me flores.", "beispiel_de": "Rita hat mir Blumen geschenkt."},
+  {"id": "por-verbo", "pt": "pôr", "de": "legen / stellen / setzen", "emoji": "📥", "beispiel_pt": "Onde pões as chaves?", "beispiel_de": "Wohin legst du die Schlüssel?", "hinweis": "Präsens: ponho, pões, põe, pomos, põem – pôr (Verb) mit Akzent, por (Präposition) ohne"},
+  {"id": "pus", "pt": "pus", "de": "ich habe gelegt / gestellt", "emoji": "🅿️", "beispiel_pt": "Pus o carro na garagem.", "beispiel_de": "Ich habe das Auto in die Garage gestellt."},
+  {"id": "pos", "pt": "pôs", "de": "er/sie hat gelegt / gestellt", "emoji": "🍽️", "beispiel_pt": "A Ana pôs a mesa.", "beispiel_de": "Ana hat den Tisch gedeckt.", "hinweis": "pôr a mesa = den Tisch decken"},
+  {"id": "a-prenda", "pt": "a prenda", "de": "das Geschenk", "emoji": "🎁", "beispiel_pt": "Obrigado pela prenda!", "beispiel_de": "Danke für das Geschenk!", "hinweis": "auch: o presente; a prenda de anos = Geburtstagsgeschenk"},
+  {"id": "dar-boleia", "pt": "dar boleia", "de": "(im Auto) mitnehmen", "emoji": "🚗", "beispiel_pt": "Dás-me boleia até à estação?", "beispiel_de": "Nimmst du mich bis zum Bahnhof mit?", "hinweis": "pedir boleia = per Anhalter fahren / um Mitfahrt bitten"},
+
+  {"id": "o-curso", "pt": "o curso", "de": "das Studium / der Kurs", "emoji": "📚", "beispiel_pt": "Tirei o curso de Economia em Viena.", "beispiel_de": "Ich habe in Wien Wirtschaft studiert.", "hinweis": "tirar / fazer um curso = ein Studium machen"},
+  {"id": "a-licenciatura", "pt": "a licenciatura", "de": "der Hochschulabschluss (Bachelor)", "emoji": "📜", "beispiel_pt": "Tenho uma licenciatura em Economia.", "beispiel_de": "Ich habe einen Abschluss in Wirtschaft."},
+  {"id": "a-universidade", "pt": "a universidade", "de": "die Universität", "emoji": "🏛️", "beispiel_pt": "Estudei na Universidade de Viena.", "beispiel_de": "Ich habe an der Universität Wien studiert."},
+  {"id": "o-mestrado", "pt": "o mestrado", "de": "der Master", "emoji": "🧑‍🎓", "beispiel_pt": "A Ana fez um mestrado em Gestão.", "beispiel_de": "Ana hat einen Master in Betriebswirtschaft gemacht."},
+  {"id": "o-estagio", "pt": "o estágio", "de": "das Praktikum", "emoji": "🧑‍💼", "beispiel_pt": "Fiz um estágio numa empresa alemã.", "beispiel_de": "Ich habe ein Praktikum in einer deutschen Firma gemacht."},
+  {"id": "o-emprego", "pt": "o emprego", "de": "die Stelle / Arbeitsstelle", "emoji": "🏢", "beispiel_pt": "Encontrei o meu primeiro emprego em 1998.", "beispiel_de": "Ich habe 1998 meine erste Stelle gefunden.", "hinweis": "o trabalho = Arbeit allgemein; o emprego = Anstellung"},
+  {"id": "fundar", "pt": "fundar", "de": "gründen", "emoji": "🚀", "beispiel_pt": "Fundei a minha empresa em 2005.", "beispiel_de": "Ich habe 2005 meine Firma gegründet."},
+  {"id": "a-experiencia", "pt": "a experiência", "de": "die Erfahrung", "emoji": "🧭", "beispiel_pt": "Tenho muita experiência em consultoria.", "beispiel_de": "Ich habe viel Erfahrung in der Beratung."},
+
+  {"id": "aos-vinte-anos", "pt": "aos vinte anos", "de": "mit zwanzig (Jahren)", "emoji": "🎂", "beispiel_pt": "Aos vinte anos fui para Viena.", "beispiel_de": "Mit zwanzig bin ich nach Wien gegangen.", "hinweis": "a + os + Alter: aos dezoito anos, aos trinta anos"},
+  {"id": "durante", "pt": "durante", "de": "während / … lang", "emoji": "⏱️", "beispiel_pt": "Trabalhei lá durante dez anos.", "beispiel_de": "Ich habe dort zehn Jahre lang gearbeitet."},
+  {"id": "depois-de", "pt": "depois de", "de": "nach (+ Infinitiv: nachdem)", "emoji": "⏭️", "beispiel_pt": "Depois de acabar o curso, fiz um estágio.", "beispiel_de": "Nach dem Studium habe ich ein Praktikum gemacht.", "hinweis": "depois de + Infinitiv; vor Artikel: depois do / da"},
+  {"id": "antes-de", "pt": "antes de", "de": "vor (+ Infinitiv: bevor)", "emoji": "◀️", "beispiel_pt": "Antes de vir para Portugal, vivi em Viena.", "beispiel_de": "Bevor ich nach Portugal gekommen bin, habe ich in Wien gelebt."},
+  {"id": "mais-tarde", "pt": "mais tarde", "de": "später", "emoji": "🕰️", "beispiel_pt": "Mais tarde fundei a minha empresa.", "beispiel_de": "Später habe ich meine Firma gegründet."},
+  {"id": "no-ano-seguinte", "pt": "no ano seguinte", "de": "im Jahr darauf", "emoji": "📆", "beispiel_pt": "No ano seguinte casámo-nos.", "beispiel_de": "Im Jahr darauf haben wir geheiratet."},
+  {"id": "na-altura", "pt": "na altura", "de": "damals / zu der Zeit", "emoji": "🕯️", "beispiel_pt": "Na altura não percebi nada.", "beispiel_de": "Damals habe ich nichts verstanden.", "hinweis": "sehr typisch für Portugal"},
+
+  {"id": "o-curriculo", "pt": "o currículo", "de": "der Lebenslauf", "emoji": "📄", "beispiel_pt": "Enviei o currículo por e-mail.", "beispiel_de": "Ich habe den Lebenslauf per E-Mail geschickt.", "hinweis": "auch: o CV (gesprochen „cê-vê“)"},
+  {"id": "a-entrevista", "pt": "a entrevista", "de": "das (Vorstellungs-)Gespräch / Interview", "emoji": "🎙️", "beispiel_pt": "A entrevista correu muito bem.", "beispiel_de": "Das Vorstellungsgespräch ist sehr gut gelaufen.", "hinweis": "a entrevista de emprego = Vorstellungsgespräch"},
+  {"id": "candidatar-se", "pt": "candidatar-se", "de": "sich bewerben", "emoji": "✍️", "beispiel_pt": "Candidatei-me a um emprego em Faro.", "beispiel_de": "Ich habe mich auf eine Stelle in Faro beworben.", "hinweis": "candidatar-se a + Stelle"},
+  {"id": "o-percurso", "pt": "o percurso", "de": "der Werdegang / Weg", "emoji": "🛤️", "beispiel_pt": "Fale-me do seu percurso profissional.", "beispiel_de": "Erzählen Sie mir von Ihrem beruflichen Werdegang."},
+  {"id": "a-formacao", "pt": "a formação", "de": "die Ausbildung", "emoji": "🏫", "beispiel_pt": "Qual é a sua formação?", "beispiel_de": "Welche Ausbildung haben Sie?"},
+  {"id": "a-carreira", "pt": "a carreira", "de": "die Laufbahn / Karriere", "emoji": "📈", "beispiel_pt": "Comecei a carreira como consultor.", "beispiel_de": "Ich habe meine Laufbahn als Berater begonnen."},
+  {"id": "orgulhoso", "pt": "orgulhoso", "de": "stolz", "emoji": "🦚", "beispiel_pt": "Estou muito orgulhoso da minha equipa.", "beispiel_de": "Ich bin sehr stolz auf mein Team.", "hinweis": "orgulhoso de = stolz auf", "alternativen": ["orgulhosa"]}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-01-L01",
+   "typ": "neu",
+   "titel": "Lebensstationen: geboren, aufgewachsen, umgezogen",
+   "vokabeln": ["nascer", "crescer", "mudar-se", "licenciar-se", "casar-se", "viver", "a-vida"],
+   "grammatik": {
+    "titel": "Perfeito (Wiederholung) und reflexive Verben",
+    "erklaerung": [
+     "Das <b>pretérito perfeito</b> erzählt abgeschlossene Ereignisse – genau richtig für die eigene Biografie: <i>Nasci em Linz. Cresci numa aldeia.</i>",
+     "Endungen zur Wiederholung: <b>-ar</b>: -ei, -aste, -ou, -ámos, -aram · <b>-er</b>: -i, -este, -eu, -emos, -eram · <b>-ir</b>: -i, -iste, -iu, -imos, -iram.",
+     "Reflexive Verben: Das Pronomen steht im Hauptsatz <b>hinter</b> dem Verb: <i>mudei-<b>me</b>, mudaste-<b>te</b>, mudou-<b>se</b>, mudámo-<b>nos</b>, mudaram-<b>se</b></i>.",
+     "Bei <b>nós</b> fällt das -s weg: mudámos + nos → <b>mudámo-nos</b>, casámos + nos → <b>casámo-nos</b>.",
+     "Nach <i>não</i>, Fragewörtern und <i>é que</i> steht das Pronomen <b>vor</b> dem Verb: <i>Não me mudei. Quando é que se casaram?</i>"
+    ],
+    "vergleich": "„Ich bin 1972 geboren“ – im Portugiesischen ein Verb im Perfeito: <i>Nasci em 1972.</i> „Umziehen“ ist reflexiv wie „sich verändern“: <i>mudar-se</i>. Ohne -se heißt <i>mudar</i> „ändern / wechseln“.",
+    "beispiele": [
+     {"pt": "Nasci em Linz e cresci numa aldeia.", "de": "Ich bin in Linz geboren und in einem Dorf aufgewachsen."},
+     {"pt": "Licenciei-me em Economia em 1997.", "de": "Ich habe 1997 mein Wirtschaftsstudium abgeschlossen."},
+     {"pt": "Casámo-nos em 2010 e mudámo-nos para Lagos em 2024.", "de": "Wir haben 2010 geheiratet und sind 2024 nach Lagos gezogen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ em Linz, na Áustria. (nascer)", "loesungen": ["nasci"], "de": "Ich bin in Linz in Österreich geboren.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "A Ana ___ em Lisboa. (crescer)", "loesungen": ["cresceu"], "de": "Ana ist in Lissabon aufgewachsen.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Nós ___ para Lagos em 2024. (mudar-se)", "loesungen": ["mudámo-nos"], "de": "Wir sind 2024 nach Lagos gezogen.", "erklaerung": "nós + nos: Das -s von mudámos fällt weg → mudámo-nos.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Eu ___ em Economia. (licenciar-se)", "loesungen": ["licenciei-me"], "de": "Ich habe mein Wirtschaftsstudium abgeschlossen.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Wann habt ihr geheiratet?“", "optionen": ["Quando casaram-se?", "Quando é que se casaram?", "Quando é que casaram-se?"], "richtig": 1, "erklaerung": "Nach Fragewörtern (und é que) rückt das Pronomen vor das Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Er ist nicht umgezogen.“", "optionen": ["Não mudou-se.", "Não se mudou.", "Não mudaste-te."], "richtig": 1, "erklaerung": "Nach não steht das Pronomen vor dem Verb: não se mudou.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Ich bin in einem Dorf aufgewachsen.", "loesungen": ["Cresci numa aldeia.", "Eu cresci numa aldeia."]},
+     {"typ": "satzbau", "de": "Wir haben 2010 in Lissabon geheiratet.", "loesung": "Casámo-nos em Lisboa em 2010."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Onde é que nasceste? – Wo bist du geboren?",
+    "situation": "Beim Abendessen fragt Rita Stefan nach seinem Leben.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, onde é que nasceste?", "de": "Stefan, wo bist du geboren?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Nasci em Linz, na Áustria, mas cresci numa aldeia perto de Salzburgo.", "de": "Ich bin in Linz in Österreich geboren, aber in einem Dorf bei Salzburg aufgewachsen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E quando é que te mudaste para Portugal?", "de": "Und wann bist du nach Portugal gezogen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Mudámo-nos para Lagos em 2024. Antes vivi muitos anos em Viena.", "de": "Wir sind 2024 nach Lagos gezogen. Davor habe ich viele Jahre in Wien gelebt."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E a Ana? Também viveu em Viena?", "de": "Und Ana? Hat sie auch in Wien gelebt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, casámo-nos lá em 2010. A Ana gostou muito da cidade, mas sentiu a falta do mar.", "de": "Ja, wir haben dort 2010 geheiratet. Ana hat die Stadt sehr gemocht, aber sie hat das Meer vermisst."}
+    ],
+    "fragen": [
+     {"frage": "Wo ist Stefan aufgewachsen?", "optionen": ["in Linz", "in Wien", "in einem Dorf bei Salzburg"], "richtig": 2},
+     {"frage": "Wann sind sie nach Lagos gezogen?", "optionen": ["2010", "2024", "1997"], "richtig": 1},
+     {"frage": "Was hat Ana in Wien gefehlt?", "optionen": ["das Meer", "die Familie", "die Sonne"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Nasci em Linz, na Áustria.", "de": "Ich bin in Linz in Österreich geboren."},
+     {"pt": "Cresci numa aldeia perto de Salzburgo.", "de": "Ich bin in einem Dorf bei Salzburg aufgewachsen."},
+     {"pt": "Licenciei-me em Economia.", "de": "Ich habe mein Wirtschaftsstudium abgeschlossen."},
+     {"pt": "Casámo-nos em Lisboa.", "de": "Wir haben in Lissabon geheiratet."},
+     {"pt": "Mudámo-nos para Lagos em 2024.", "de": "Wir sind 2024 nach Lagos gezogen."}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-nasci-cresci", "pt": "Nasci em Linz e cresci numa aldeia.", "de": "Ich bin in Linz geboren und in einem Dorf aufgewachsen."},
+    {"id": "a2-mudamo-nos-lagos", "pt": "Mudámo-nos para Lagos em 2024.", "de": "Wir sind 2024 nach Lagos gezogen."},
+    {"id": "a2-quando-se-casaram", "pt": "Quando é que se casaram?", "de": "Wann habt ihr geheiratet?"}
+   ]
+  },
+  {
+   "id": "A2-01-L02",
+   "typ": "neu",
+   "titel": "Kommen und mitbringen: vir und trazer",
+   "vokabeln": ["vir", "vim", "veio", "trazer", "trouxe", "os-moveis", "a-mudanca"],
+   "grammatik": {
+    "titel": "vir und trazer im Perfeito",
+    "erklaerung": [
+     "<b>vir</b> (kommen): eu <b>vim</b>, tu <b>vieste</b>, você/ele <b>veio</b>, nós <b>viemos</b>, vocês/eles <b>vieram</b>.",
+     "<b>trazer</b> (mitbringen): eu <b>trouxe</b>, tu <b>trouxeste</b>, você/ele <b>trouxe</b>, nós <b>trouxemos</b>, vocês/eles <b>trouxeram</b>. Das x spricht man wie ss.",
+     "Achtung, Verwechslungsgefahr: <i>viemos</i> = wir sind gekommen – <i>vimos</i> = wir kommen (Präsens von vir) <b>oder</b> wir haben gesehen (ver).",
+     "<b>vir</b> = hierher kommen (zum Sprecher), <b>ir</b> = hingehen. Wer jetzt in Portugal ist, sagt: <i>Vim para Portugal em 2024.</i> Genauso <b>trazer</b> (herbringen) ↔ <b>levar</b> (hinbringen / mitnehmen)."
+    ],
+    "vergleich": "Wie im Englischen: <i>vir / trazer</i> = come / bring (her), <i>ir / levar</i> = go / take (hin). „Ich bringe Wein mit“ zur Party des Gastgebers sagt man aus seiner Sicht: <i>Levo um vinho.</i> – danach erzählt der Gastgeber: <i>Ele trouxe um vinho.</i>",
+    "beispiele": [
+     {"pt": "Vim para Portugal em 2024.", "de": "Ich bin 2024 nach Portugal gekommen."},
+     {"pt": "Trouxemos os móveis da Áustria.", "de": "Wir haben die Möbel aus Österreich mitgebracht."},
+     {"pt": "Os meus pais vieram visitar-nos no Natal.", "de": "Meine Eltern sind uns zu Weihnachten besuchen gekommen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ para Portugal em 2024. (vir)", "loesungen": ["vim"], "de": "Ich bin 2024 nach Portugal gekommen.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "A Ana ___ comigo. (vir)", "loesungen": ["veio"], "de": "Ana ist mit mir gekommen.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Nós ___ de comboio. (vir)", "loesungen": ["viemos"], "de": "Wir sind mit dem Zug gekommen.", "erklaerung": "viemos = wir sind gekommen; vimos = wir haben gesehen / wir kommen.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "O que é que ___? (tu, trazer)", "loesungen": ["trouxeste"], "de": "Was hast du mitgebracht?", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Eles ___ os móveis de camião. (trazer)", "loesungen": ["trouxeram"], "de": "Sie haben die Möbel mit dem Lkw gebracht.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "auswahl", "frage": "„Wir sind letzte Woche gekommen.“", "optionen": ["Vimos a semana passada.", "Viémos a semana passada.", "Viemos a semana passada."], "richtig": 2, "erklaerung": "viemos (ohne Akzent). vimos ist das Präsens von vir oder das Perfeito von ver.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "uebersetzen", "de": "Ich habe einen Wein mitgebracht.", "loesungen": ["Trouxe um vinho.", "Eu trouxe um vinho.", "Trouxe uma garrafa de vinho."]},
+     {"typ": "satzbau", "de": "Wann bist du nach Portugal gekommen?", "loesung": "Quando é que vieste para Portugal?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "A mudança – der Umzug",
+    "situation": "Pedro fragt Stefan, wie der Umzug von Wien nach Lagos war.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então, Stefan, como é que vieram de Viena para cá? De avião?", "de": "Na, Stefan, wie seid ihr von Wien hierher gekommen? Mit dem Flugzeug?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, viemos de carro. Foram três dias de viagem!", "de": "Nein, wir sind mit dem Auto gekommen. Das waren drei Tage Fahrt!"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E os móveis? Trouxeram tudo?", "de": "Und die Möbel? Habt ihr alles mitgebracht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Trouxemos só alguns. Uma empresa de mudanças trouxe-os de camião.", "de": "Wir haben nur einige mitgebracht. Eine Umzugsfirma hat sie mit dem Lkw gebracht."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E o gato? Também veio convosco?", "de": "Und die Katze? Ist sie auch mit euch gekommen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro! Veio no carro connosco, mas não gostou nada da viagem.", "de": "Klar! Sie ist mit uns im Auto gekommen, aber die Fahrt hat ihr überhaupt nicht gefallen."}
+    ],
+    "fragen": [
+     {"frage": "Wie sind Stefan und Ana nach Portugal gekommen?", "optionen": ["mit dem Flugzeug", "mit dem Zug", "mit dem Auto"], "richtig": 2},
+     {"frage": "Wer hat die Möbel transportiert?", "optionen": ["eine Umzugsfirma", "Pedro", "Stefans Eltern"], "richtig": 0},
+     {"frage": "Wie fand die Katze die Reise?", "optionen": ["Sie hat die ganze Zeit geschlafen.", "Sie mochte sie gar nicht.", "Sie fand sie lustig."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich bin 2024 nach Portugal gekommen.", "loesungen": ["Vim para Portugal em 2024.", "Em 2024 vim para Portugal."]},
+     {"de": "Ana ist mit mir gekommen.", "loesungen": ["A Ana veio comigo."]},
+     {"de": "Wir haben die Möbel aus Österreich mitgebracht.", "loesungen": ["Trouxemos os móveis da Áustria."]},
+     {"de": "Was hast du mitgebracht? (tu)", "loesungen": ["O que trouxeste?", "O que é que trouxeste?"]},
+     {"de": "Der Umzug ist gut gelaufen.", "loesungen": ["A mudança correu bem."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-vim-para-portugal", "pt": "Vim para Portugal em 2024.", "de": "Ich bin 2024 nach Portugal gekommen."},
+    {"id": "a2-trouxemos-moveis", "pt": "Trouxemos os móveis da Áustria.", "de": "Wir haben die Möbel aus Österreich mitgebracht."},
+    {"id": "a2-quando-vieste", "pt": "Quando é que vieste para Portugal?", "de": "Wann bist du nach Portugal gekommen?"}
+   ]
+  },
+  {
+   "id": "A2-01-L03",
+   "typ": "neu",
+   "titel": "Neuigkeiten: dizer und saber",
+   "vokabeln": ["dizer", "disse", "saber", "soube", "a-noticia", "a-verdade", "responder"],
+   "grammatik": {
+    "titel": "dizer und saber im Perfeito",
+    "erklaerung": [
+     "<b>dizer</b> (sagen): eu <b>disse</b>, tu <b>disseste</b>, você/ele <b>disse</b>, nós <b>dissemos</b>, vocês/eles <b>disseram</b>.",
+     "<b>saber</b> (wissen): eu <b>soube</b>, tu <b>soubeste</b>, você/ele <b>soube</b>, nós <b>soubemos</b>, vocês/eles <b>souberam</b>.",
+     "<b>saber</b> im Perfeito bedeutet meistens „erfahren“: <i>Soube da notícia ontem.</i> – Ich habe gestern von der Neuigkeit erfahren.",
+     "Mit Pronomen: <i>Disse-<b>me</b> que …</i> (er hat mir gesagt, dass …), <i>Disse-<b>lhe</b> a verdade.</i> Nach <i>não</i> davor: <i>Não <b>me</b> disse nada.</i>"
+    ],
+    "vergleich": "Englisch hilft: <i>soube</i> ≈ „I found out“. Und wie im Deutschen folgt auf „sagen, dass“ ein ganzer Satz: <i>Disse-me que vem amanhã.</i> – Er hat mir gesagt, dass er morgen kommt.",
+    "beispiele": [
+     {"pt": "O João disse-me que vem amanhã.", "de": "João hat mir gesagt, dass er morgen kommt."},
+     {"pt": "Soubemos da notícia pelo jornal.", "de": "Wir haben die Neuigkeit aus der Zeitung erfahren."},
+     {"pt": "Não lhe disse a verdade.", "de": "Ich habe ihm/ihr nicht die Wahrheit gesagt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Ele ___ que não pode vir. (dizer)", "loesungen": ["disse"], "de": "Er hat gesagt, dass er nicht kommen kann.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "O que é que tu ___? (dizer)", "loesungen": ["disseste"], "de": "Was hast du gesagt?", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Como é que ___ da notícia? (tu, saber)", "loesungen": ["soubeste"], "de": "Wie hast du von der Neuigkeit erfahren?", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Nós ___ ontem. (saber)", "loesungen": ["soubemos"], "de": "Wir haben es gestern erfahren.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "auswahl", "frage": "„Er hat mir nichts gesagt.“", "optionen": ["Não disse-me nada.", "Não me disse nada.", "Disse-me nada."], "richtig": 1, "erklaerung": "Nach não steht das Pronomen vor dem Verb – und die Verneinung braucht não … nada.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Soube que a Rita está doente.“ bedeutet:", "optionen": ["Ich wusste, dass Rita krank ist.", "Ich weiß, dass Rita krank ist.", "Ich habe erfahren, dass Rita krank ist."], "richtig": 2, "erklaerung": "saber im Perfeito = erfahren.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "uebersetzen", "de": "Sie hat mir die Wahrheit gesagt.", "loesungen": ["Ela disse-me a verdade.", "Disse-me a verdade."]},
+     {"typ": "satzbau", "de": "Ich habe noch nicht auf die E-Mail geantwortet.", "loesung": "Ainda não respondi ao e-mail."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma boa notícia – eine gute Nachricht",
+    "situation": "Ana kommt nach Hause und hat eine Neuigkeit für Stefan.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, já sabes da notícia?", "de": "Stefan, weißt du schon das Neueste?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não. Que notícia?", "de": "Nein. Welche Neuigkeit?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "A Rita vai ter um bebé! Soube hoje de manhã.", "de": "Rita bekommt ein Baby! Ich habe es heute Morgen erfahren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Quem te disse?", "de": "Wirklich? Wer hat es dir gesagt?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Foi ela que me disse. Ligou-me às nove e contou-me tudo.", "de": "Sie selbst hat es mir gesagt. Sie hat mich um neun angerufen und mir alles erzählt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que boa notícia! Temos de lhes dar os parabéns.", "de": "Was für eine gute Nachricht! Wir müssen ihnen gratulieren."}
+    ],
+    "fragen": [
+     {"frage": "Was ist die Neuigkeit?", "optionen": ["Rita bekommt ein Baby.", "Rita zieht um.", "Rita heiratet."], "richtig": 0},
+     {"frage": "Wann hat Ana es erfahren?", "optionen": ["gestern Abend", "heute Morgen", "letzte Woche"], "richtig": 1},
+     {"frage": "Wer hat es Ana gesagt?", "optionen": ["Pedro", "João", "Rita selbst"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Nachbar João hat eine Neuigkeit aus der Straße.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Olá, Stefan! Já soubeste da notícia?", "de": "Hallo Stefan! Hast du schon das Neueste gehört?"},
+     {"ich": true, "aufgabe": "Sag: Nein. Welche Neuigkeit?", "loesungen": ["Não. Que notícia?", "Não, que notícia?"]},
+     {"sprecher": "João", "stimme": "m", "pt": "O café da esquina vai fechar. O dono disse-me ontem.", "de": "Das Café an der Ecke macht zu. Der Besitzer hat es mir gestern gesagt."},
+     {"ich": true, "aufgabe": "Sag: Wirklich? Er hat mir nichts gesagt!", "loesungen": ["A sério? Não me disse nada!", "A sério? Ele não me disse nada!", "A sério? A mim não me disse nada!"]},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois. E soube também que vão abrir uma loja de telemóveis.", "de": "Tja. Und ich habe auch erfahren, dass sie einen Handyladen aufmachen."},
+     {"ich": true, "aufgabe": "Sag: Wie schade! Das ist eine schlechte Nachricht.", "loesungen": ["Que pena! É uma má notícia.", "Que pena! É uma notícia má.", "Que pena! Que má notícia!", "Que pena! É uma notícia triste."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-soube-da-noticia", "pt": "Soube da notícia ontem.", "de": "Ich habe gestern von der Neuigkeit erfahren."},
+    {"id": "a2-disse-me-que", "pt": "O João disse-me que vem amanhã.", "de": "João hat mir gesagt, dass er morgen kommt."},
+    {"id": "a2-nao-me-disse-nada", "pt": "Não me disse nada.", "de": "Er/Sie hat mir nichts gesagt."}
+   ]
+  },
+  {
+   "id": "A2-01-L04",
+   "typ": "neu",
+   "titel": "Wollen und können: querer und poder",
+   "vokabeln": ["querer", "quis", "pude", "pode-perfeito", "ajudar", "conseguir", "infelizmente"],
+   "grammatik": {
+    "titel": "querer und poder im Perfeito",
+    "erklaerung": [
+     "<b>querer</b>: eu <b>quis</b>, tu <b>quiseste</b>, você/ele <b>quis</b>, nós <b>quisemos</b>, vocês/eles <b>quiseram</b>.",
+     "<b>poder</b>: eu <b>pude</b>, tu <b>pudeste</b>, você/ele <b>pôde</b>, nós <b>pudemos</b>, vocês/eles <b>puderam</b>. <b>pôde</b> (er konnte) behält den Zirkumflex – zur Unterscheidung von <i>pode</i> (er kann).",
+     "Im Perfeito geht es um einen <b>konkreten Moment</b>: <i>Quis ajudar, mas não pude.</i> – Ich wollte (in dem Moment) helfen, konnte aber nicht. <i>Não quis</i> heißt oft: „hat sich geweigert“.",
+     "<b>conseguir</b> = es schaffen: <i>Consegui marcar a consulta.</i> Oft verneint: <i>Não consegui dormir.</i> (consegui, conseguiste, conseguiu …)"
+    ],
+    "vergleich": "Im Deutschen sind „wollte / konnte“ ganz alltäglich. Portugiesisch hat zwei Formen: <i>quis / pude</i> für einen konkreten Moment und <i>queria / podia</i> für Zustände und Gewohnheiten – die lernst du in der nächsten Einheit.",
+    "beispiele": [
+     {"pt": "Quis ajudar, mas não pude.", "de": "Ich wollte helfen, aber ich konnte nicht."},
+     {"pt": "A Ana não pôde vir à festa.", "de": "Ana konnte nicht zur Party kommen."},
+     {"pt": "Finalmente consegui falar com o senhorio.", "de": "Endlich habe ich es geschafft, mit dem Vermieter zu sprechen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ ajudar, mas não tive tempo. (querer)", "loesungen": ["quis"], "de": "Ich wollte helfen, aber ich hatte keine Zeit.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Ela não ___ vir. (poder)", "loesungen": ["pôde"], "de": "Sie konnte nicht kommen.", "erklaerung": "Vergangenheit: pôde mit Akzent – pode ohne Akzent ist Präsens.", "kategorie": "Rechtschreibung"},
+     {"typ": "luecke", "satz": "Nós não ___ dormir. (poder)", "loesungen": ["pudemos"], "de": "Wir konnten nicht schlafen.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Eles não ___ pagar. (querer)", "loesungen": ["quiseram"], "de": "Sie wollten nicht zahlen.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "___ falar com o médico? (tu, conseguir)", "loesungen": ["Conseguiste"], "de": "Hast du es geschafft, mit dem Arzt zu sprechen?", "kategorie": "Perfeito"},
+     {"typ": "auswahl", "frage": "„Er konnte gestern nicht kommen.“", "optionen": ["Ontem não pode vir.", "Ontem não pôde vir.", "Ontem não pudeu vir."], "richtig": 1, "erklaerung": "poder ist unregelmäßig: ele pôde (mit Akzent).", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "uebersetzen", "de": "Leider konnte ich nicht zur Besprechung gehen.", "loesungen": ["Infelizmente não pude ir à reunião.", "Infelizmente, não pude ir à reunião."]},
+     {"typ": "satzbau", "de": "Ich wollte helfen, aber ich konnte nicht.", "loesung": "Quis ajudar, mas não pude."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Desculpa! – Entschuldige!",
+    "situation": "Pedro ist gestern umgezogen. Stefan und Ana waren nicht da.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Olá, Stefan! Ontem esperámos por ti. Porque é que não vieste?", "de": "Hallo Stefan! Gestern haben wir auf dich gewartet. Warum bist du nicht gekommen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpa, Pedro! Quis ir, mas não pude. Tive de trabalhar até às dez.", "de": "Entschuldige, Pedro! Ich wollte kommen, aber ich konnte nicht. Ich musste bis zehn arbeiten."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Que pena! E a Ana? Também não pôde?", "de": "Schade! Und Ana? Konnte sie auch nicht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A Ana esteve com gripe. Nem conseguiu sair da cama.", "de": "Ana hatte Grippe. Sie hat es nicht einmal aus dem Bett geschafft."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Coitada! Bom, conseguimos fazer a mudança sem vocês. O João ajudou-nos.", "de": "Die Arme! Na ja, wir haben den Umzug ohne euch geschafft. João hat uns geholfen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ainda bem! Da próxima vez ajudo eu, prometo.", "de": "Zum Glück! Nächstes Mal helfe ich, versprochen."}
+    ],
+    "fragen": [
+     {"frage": "Warum ist Stefan nicht gekommen?", "optionen": ["Er war krank.", "Er musste bis zehn arbeiten.", "Er hatte es vergessen."], "richtig": 1},
+     {"frage": "Was war mit Ana?", "optionen": ["Sie hatte Grippe.", "Sie war in Lissabon.", "Sie musste arbeiten."], "richtig": 0},
+     {"frage": "Wer hat Pedro beim Umzug geholfen?", "optionen": ["Rita", "niemand", "João"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Quis ajudar, mas não pude.", "de": "Ich wollte helfen, aber ich konnte nicht."},
+     {"pt": "A Ana não pôde vir.", "de": "Ana konnte nicht kommen."},
+     {"pt": "Infelizmente não pude ir à reunião.", "de": "Leider konnte ich nicht zur Besprechung gehen."},
+     {"pt": "Não consegui dormir.", "de": "Ich konnte nicht schlafen."},
+     {"pt": "Ajudei o vizinho com a mudança.", "de": "Ich habe dem Nachbarn beim Umzug geholfen."}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-quis-mas-nao-pude", "pt": "Quis ajudar, mas não pude.", "de": "Ich wollte helfen, aber ich konnte nicht."},
+    {"id": "a2-nao-pode-vir", "pt": "A Ana não pôde vir à festa.", "de": "Ana konnte nicht zur Party kommen."},
+    {"id": "a2-consegui-falar", "pt": "Finalmente consegui falar com o senhorio.", "de": "Endlich habe ich es geschafft, mit dem Vermieter zu sprechen."}
+   ]
+  },
+  {
+   "id": "A2-01-L05",
+   "typ": "neu",
+   "titel": "Geben und hinstellen: dar und pôr",
+   "vokabeln": ["dar", "dei", "deu", "por-verbo", "pus", "pos", "a-prenda", "dar-boleia"],
+   "grammatik": {
+    "titel": "dar und pôr im Perfeito",
+    "erklaerung": [
+     "<b>dar</b> (geben) – Endungen wie bei -er-Verben: eu <b>dei</b>, tu <b>deste</b>, você/ele <b>deu</b>, nós <b>demos</b>, vocês/eles <b>deram</b>.",
+     "<b>pôr</b> (legen, stellen, setzen): eu <b>pus</b>, tu <b>puseste</b>, você/ele <b>pôs</b>, nós <b>pusemos</b>, vocês/eles <b>puseram</b>.",
+     "Mit Pronomen für „wem?“: <i>Dei-<b>lhe</b> uma prenda.</i> – Ich habe ihm/ihr ein Geschenk gegeben. <i>O João deu-<b>nos</b> boleia.</i> Nach <i>não</i> davor: <i>Não <b>lhe</b> dei nada.</i>",
+     "Feste Verbindungen: <i>dar boleia</i> (mitnehmen), <i>dar os parabéns</i> (gratulieren), <i>pôr a mesa</i> (den Tisch decken)."
+    ],
+    "vergleich": "Deutsch unterscheidet genau zwischen „stellen, legen, setzen“. Portugiesisch sagt fast immer <i>pôr</i>: <i>Pus o livro na mesa. Pus o carro na garagem. Pus açúcar no café.</i>",
+    "beispiele": [
+     {"pt": "Dei-lhe uma prenda de anos.", "de": "Ich habe ihm/ihr ein Geburtstagsgeschenk gegeben."},
+     {"pt": "Pus o carro na garagem.", "de": "Ich habe das Auto in die Garage gestellt."},
+     {"pt": "O João deu-nos boleia até à estação.", "de": "João hat uns bis zum Bahnhof mitgenommen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ uma prenda à Ana. (dar)", "loesungen": ["dei"], "de": "Ich habe Ana ein Geschenk gegeben.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Quem é que te ___ boleia? (dar)", "loesungen": ["deu"], "de": "Wer hat dich mitgenommen?", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Onde é que ___ as chaves? (tu, pôr)", "loesungen": ["puseste"], "de": "Wo hast du die Schlüssel hingelegt?", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "A Ana ___ a mesa. (pôr)", "loesungen": ["pôs"], "de": "Ana hat den Tisch gedeckt.", "erklaerung": "ele/ela pôs – mit Zirkumflex.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "auswahl", "frage": "„Ich habe das Auto in die Garage gestellt.“", "optionen": ["Pôs o carro na garagem.", "Pondei o carro na garagem.", "Pus o carro na garagem."], "richtig": 2, "erklaerung": "eu pus – ele pôs.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "auswahl", "frage": "„Ich habe ihm nichts gegeben.“", "optionen": ["Não lhe dei nada.", "Não dei-lhe nada.", "Dei-lhe nada."], "richtig": 0, "erklaerung": "Nach não steht lhe vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Danke für das Geschenk!", "loesungen": ["Obrigado pela prenda!", "Obrigada pela prenda!", "Obrigado pelo presente!", "Obrigada pelo presente!"]},
+     {"typ": "satzbau", "de": "João hat uns bis zum Bahnhof mitgenommen.", "loesung": "O João deu-nos boleia até à estação."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Os anos da Ana – Anas Geburtstag",
+    "situation": "Rita fragt Ana nach ihrem Geburtstag.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então, Ana, o que é que o Stefan te deu nos anos?", "de": "Na, Ana, was hat Stefan dir zum Geburtstag geschenkt?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Deu-me uma bicicleta nova! Pôs um laço enorme na bicicleta e deixou-a na garagem.", "de": "Er hat mir ein neues Fahrrad geschenkt! Er hat eine riesige Schleife an das Fahrrad gemacht und es in der Garage gelassen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Que giro! E os teus pais?", "de": "Wie süß! Und deine Eltern?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Os meus pais deram-me um livro e flores. E o João pôs um postal na nossa caixa do correio.", "de": "Meine Eltern haben mir ein Buch und Blumen geschenkt. Und João hat eine Karte in unseren Briefkasten gesteckt."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E fizeram uma festa?", "de": "Und habt ihr eine Party gemacht?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não, o Stefan levou-me a jantar a Sagres. Foi ótimo!", "de": "Nein, Stefan hat mich in Sagres zum Abendessen ausgeführt. Es war super!"}
+    ],
+    "fragen": [
+     {"frage": "Was hat Stefan Ana geschenkt?", "optionen": ["ein Buch", "ein neues Fahrrad", "Blumen"], "richtig": 1},
+     {"frage": "Wo hat er das Geschenk hingestellt?", "optionen": ["in die Garage", "ins Wohnzimmer", "in den Garten"], "richtig": 0},
+     {"frage": "Was hat João gemacht?", "optionen": ["Er hat Blumen gebracht.", "Er hat sie zum Essen eingeladen.", "Er hat eine Karte in den Briefkasten gesteckt."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich habe Ana ein Geschenk gegeben.", "loesungen": ["Dei uma prenda à Ana.", "Dei um presente à Ana.", "Dei à Ana uma prenda."]},
+     {"de": "Ich habe das Auto in die Garage gestellt.", "loesungen": ["Pus o carro na garagem."]},
+     {"de": "Ana hat den Tisch gedeckt.", "loesungen": ["A Ana pôs a mesa."]},
+     {"de": "Nimmst du mich bis zum Bahnhof mit? (tu)", "loesungen": ["Dás-me boleia até à estação?", "Podes dar-me boleia até à estação?"]},
+     {"de": "Wir haben João gratuliert.", "loesungen": ["Demos os parabéns ao João."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-dei-lhe-prenda", "pt": "Dei-lhe uma prenda de anos.", "de": "Ich habe ihm/ihr ein Geburtstagsgeschenk gegeben."},
+    {"id": "a2-pus-carro-garagem", "pt": "Pus o carro na garagem.", "de": "Ich habe das Auto in die Garage gestellt."},
+    {"id": "a2-deu-nos-boleia", "pt": "O João deu-nos boleia até à estação.", "de": "João hat uns bis zum Bahnhof mitgenommen."}
+   ]
+  },
+  {
+   "id": "A2-01-L06",
+   "typ": "neu",
+   "titel": "Ausbildung und Beruf",
+   "vokabeln": ["o-curso", "a-licenciatura", "a-universidade", "o-mestrado", "o-estagio", "o-emprego", "fundar", "a-experiencia"],
+   "grammatik": {
+    "titel": "Ausbildung und Beruf erzählen",
+    "erklaerung": [
+     "Studium: <i>tirar / fazer o curso de …</i> (Economia, Direito, Gestão). Abschluss: <i>licenciar-se em …</i>. Danach: <i>fazer um mestrado, fazer um estágio</i>.",
+     "Beruf mit <b>como</b>: <i>Trabalhei <b>como</b> consultor.</i> Mit <i>ser</i> <b>ohne Artikel</b>: <i>Fui consultor durante sete anos.</i>",
+     "Abgeschlossene Dauer an einem Ort: <b>estive</b> + Zeit + em: <i>Estive cinco anos numa empresa alemã.</i>",
+     "Beginn: <b>começar a</b> + Infinitiv: <i>Comecei a trabalhar em 1998.</i> – <b>fundar</b> ist regelmäßig: <i>fundei, fundou, fundámos</i>."
+    ],
+    "vergleich": "Wie im Deutschen ohne Artikel: <i>Sou consultor.</i> = „Ich bin Berater.“ – anders als im Englischen (I am <b>a</b> consultant). Mit Adjektiv kommt der Artikel zurück: <i>É um ótimo consultor.</i>",
+    "beispiele": [
+     {"pt": "Tirei o curso de Economia em Viena.", "de": "Ich habe in Wien Wirtschaft studiert."},
+     {"pt": "Fiz um estágio numa empresa alemã.", "de": "Ich habe ein Praktikum in einer deutschen Firma gemacht."},
+     {"pt": "Trabalhei como consultor e em 2005 fundei a minha empresa.", "de": "Ich habe als Berater gearbeitet und 2005 meine Firma gegründet."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich war Berater.“", "optionen": ["Fui um consultor.", "Fui consultor.", "Estive consultor."], "richtig": 1, "erklaerung": "Beruf mit ser: ohne Artikel.", "kategorie": "Artikel"},
+     {"typ": "luecke", "satz": "Trabalhei ___ consultor durante sete anos.", "loesungen": ["como"], "de": "Ich habe sieben Jahre lang als Berater gearbeitet.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Em 2005 eu ___ a minha empresa. (fundar)", "loesungen": ["fundei"], "de": "2005 habe ich meine Firma gegründet.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "A Ana ___ um mestrado em Gestão. (fazer)", "loesungen": ["fez"], "de": "Ana hat einen Master in Betriebswirtschaft gemacht.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "luecke", "satz": "Depois do curso, ___ um estágio em Munique. (eu, fazer)", "loesungen": ["fiz"], "de": "Nach dem Studium habe ich ein Praktikum in München gemacht.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "uebersetzen", "de": "Ich habe an der Universität Wien studiert.", "loesungen": ["Estudei na Universidade de Viena.", "Tirei o curso na Universidade de Viena.", "Fiz o curso na Universidade de Viena."]},
+     {"typ": "uebersetzen", "de": "Ich habe viel Erfahrung.", "loesungen": ["Tenho muita experiência.", "Eu tenho muita experiência."]},
+     {"typ": "satzbau", "de": "1998 habe ich meine erste Stelle gefunden.", "loesung": "Em 1998 encontrei o meu primeiro emprego."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No clube de golfe – im Golfclub",
+    "situation": "Stefan lernt im Golfclub Senhor Carlos kennen.",
+    "zeilen": [
+     {"sprecher": "Carlos", "stimme": "m", "pt": "Então, Stefan, o que é que estudou?", "de": "Also, Stefan, was haben Sie studiert?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tirei o curso de Economia na Universidade de Viena.", "de": "Ich habe an der Universität Wien Wirtschaft studiert."},
+     {"sprecher": "Carlos", "stimme": "m", "pt": "E depois do curso?", "de": "Und nach dem Studium?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Fiz um estágio em Munique e a seguir trabalhei como consultor numa empresa grande.", "de": "Ich habe ein Praktikum in München gemacht und danach als Berater in einer großen Firma gearbeitet."},
+     {"sprecher": "Carlos", "stimme": "m", "pt": "E agora trabalha por conta própria?", "de": "Und jetzt sind Sie selbstständig?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, em 2005 fundei a minha própria empresa. Temos clientes na Áustria e na Alemanha.", "de": "Ja, 2005 habe ich meine eigene Firma gegründet. Wir haben Kunden in Österreich und Deutschland."},
+     {"sprecher": "Carlos", "stimme": "m", "pt": "Muita experiência, então! Eu fui professor durante trinta anos.", "de": "Viel Erfahrung also! Ich war dreißig Jahre lang Lehrer."}
+    ],
+    "fragen": [
+     {"frage": "Was hat Stefan studiert?", "optionen": ["Wirtschaft", "Ingenieurwesen", "Jura"], "richtig": 0},
+     {"frage": "Wo hat er sein Praktikum gemacht?", "optionen": ["in Wien", "in Lissabon", "in München"], "richtig": 2},
+     {"frage": "Was war Senhor Carlos von Beruf?", "optionen": ["Arzt", "Lehrer", "Berater"], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Bei einem Unternehmertreffen in Faro fragt dich eine Unternehmerin nach deinem Werdegang.",
+    "zeilen": [
+     {"sprecher": "Empresária", "stimme": "f", "pt": "O senhor é consultor, não é? O que é que estudou?", "de": "Sie sind Berater, nicht wahr? Was haben Sie studiert?"},
+     {"ich": true, "aufgabe": "Sag: Ich habe in Wien Wirtschaft studiert.", "loesungen": ["Estudei Economia em Viena.", "Tirei o curso de Economia em Viena.", "Fiz o curso de Economia em Viena.", "Estudei Economia na Universidade de Viena."]},
+     {"sprecher": "Empresária", "stimme": "f", "pt": "E há quanto tempo trabalha como consultor?", "de": "Und wie lange arbeiten Sie schon als Berater?"},
+     {"ich": true, "aufgabe": "Sag: Seit 1998. 2005 habe ich meine Firma gegründet.", "loesungen": ["Desde 1998. Em 2005 fundei a minha empresa.", "Desde 1998. Fundei a minha empresa em 2005.", "Trabalho como consultor desde 1998. Em 2005 fundei a minha empresa."]},
+     {"sprecher": "Empresária", "stimme": "f", "pt": "Que interessante! Então tem muita experiência.", "de": "Wie interessant! Dann haben Sie viel Erfahrung."},
+     {"ich": true, "aufgabe": "Sag: Ja, ich habe viel Erfahrung mit kleinen Firmen.", "loesungen": ["Sim, tenho muita experiência com pequenas empresas.", "Sim, tenho muita experiência com empresas pequenas.", "Tenho, tenho muita experiência com pequenas empresas."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-tirei-o-curso", "pt": "Tirei o curso de Economia em Viena.", "de": "Ich habe in Wien Wirtschaft studiert."},
+    {"id": "a2-trabalhei-como", "pt": "Trabalhei como consultor durante sete anos.", "de": "Ich habe sieben Jahre lang als Berater gearbeitet."},
+    {"id": "a2-fundei-empresa", "pt": "Em 2005 fundei a minha empresa.", "de": "2005 habe ich meine Firma gegründet."}
+   ]
+  },
+  {
+   "id": "A2-01-L07",
+   "typ": "neu",
+   "titel": "Wann und wie lange? Zeitangaben",
+   "vokabeln": ["aos-vinte-anos", "durante", "depois-de", "antes-de", "mais-tarde", "no-ano-seguinte", "na-altura"],
+   "grammatik": {
+    "titel": "Zeitangaben in der Biografie",
+    "erklaerung": [
+     "Alter: <b>aos</b> + Zahl + <b>anos</b>: <i>Aos vinte anos fui para Viena.</i> (a + os = aos)",
+     "Jahr und Monat: <b>em</b>: <i>em 1998</i> (mil novecentos e noventa e oito), <i>em 2024</i> (dois mil e vinte e quatro), <i>em março</i>.",
+     "Dauer: <b>durante</b> + Zeitraum: <i>durante dez anos</i>. Zeitpunkt zurück: <b>há</b> + Zeitraum: <i>há vinte anos</i> (vor zwanzig Jahren).",
+     "<b>depois de</b> / <b>antes de</b> + <b>Infinitiv</b> – ganz ohne konjugiertes Verb: <i>Depois de acabar o curso, fiz um estágio.</i> Vor einem Nomen mit Artikel: <i>depois <b>do</b> curso, antes <b>da</b> mudança</i>.",
+     "Zum Erzählen: <b>na altura</b> (damals), <b>mais tarde</b> (später), <b>no ano seguinte</b> (im Jahr darauf)."
+    ],
+    "vergleich": "Deutsch braucht einen Nebensatz: „Nachdem ich das Studium beendet hatte, …“. Portugiesisch macht es kurz wie das Englische „after finishing“: <i>Depois de acabar o curso, …</i>",
+    "beispiele": [
+     {"pt": "Aos vinte anos fui estudar para Viena.", "de": "Mit zwanzig bin ich zum Studieren nach Wien gegangen."},
+     {"pt": "Depois de acabar o curso, fiz um estágio.", "de": "Nachdem ich das Studium beendet hatte, habe ich ein Praktikum gemacht."},
+     {"pt": "Vivi em Viena durante quinze anos.", "de": "Ich habe fünfzehn Jahre lang in Wien gelebt."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„mit dreißig“", "optionen": ["com trinta anos", "aos trinta anos", "em trinta anos"], "richtig": 1, "kategorie": "Zeitangaben"},
+     {"typ": "luecke", "satz": "___ acabar o curso, fiz um estágio.", "loesungen": ["Depois de"], "de": "Nachdem ich das Studium beendet hatte, habe ich ein Praktikum gemacht.", "kategorie": "Zeitangaben"},
+     {"typ": "luecke", "satz": "Trabalhei lá ___ dez anos.", "loesungen": ["durante"], "de": "Ich habe dort zehn Jahre lang gearbeitet.", "erklaerung": "„… lang“ = durante. „há dez anos“ hieße „vor zehn Jahren“.", "kategorie": "Zeitangaben"},
+     {"typ": "luecke", "satz": "Conheci a Ana ___ 2008.", "loesungen": ["em"], "de": "Ich habe Ana 2008 kennengelernt.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Antes ___ vir para Portugal, vivi em Viena.", "loesungen": ["de"], "de": "Bevor ich nach Portugal gekommen bin, habe ich in Wien gelebt.", "kategorie": "Präpositionen"},
+     {"typ": "auswahl", "frage": "„Nach dem Studium habe ich ein Praktikum gemacht.“", "optionen": ["Depois o curso, fiz um estágio.", "Depois de o curso, fiz um estágio.", "Depois do curso, fiz um estágio."], "richtig": 2, "erklaerung": "Vor einem Nomen mit Artikel: de + o = do.", "kategorie": "Präpositionen"},
+     {"typ": "uebersetzen", "de": "Damals habe ich nichts verstanden.", "loesungen": ["Na altura não percebi nada.", "Na altura, não percebi nada."]},
+     {"typ": "satzbau", "de": "Im Jahr darauf haben wir geheiratet.", "loesung": "No ano seguinte casámo-nos."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A vida do João – Joãos Leben",
+    "situation": "Der Nachbar João erzählt Stefan aus seinem Leben.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Eu nasci aqui em Lagos, em 1958. Aos dezoito anos fui para Lisboa.", "de": "Ich bin hier in Lagos geboren, 1958. Mit achtzehn bin ich nach Lissabon gegangen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o que fizeste em Lisboa?", "de": "Und was hast du in Lissabon gemacht?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Trabalhei num restaurante durante cinco anos. Depois de juntar algum dinheiro, voltei e comprei um barco.", "de": "Ich habe fünf Jahre lang in einem Restaurant gearbeitet. Nachdem ich etwas Geld gespart hatte, bin ich zurückgekommen und habe ein Boot gekauft."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Um barco? Foste pescador?", "de": "Ein Boot? Warst du Fischer?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Fui, durante quase trinta anos. Na altura havia muito peixe aqui.", "de": "Ja, fast dreißig Jahre lang. Damals gab es hier viel Fisch."},
+     {"sprecher": "João", "stimme": "m", "pt": "Mais tarde vendi o barco e, em 2015, reformei-me.", "de": "Später habe ich das Boot verkauft und 2015 bin ich in Rente gegangen."}
+    ],
+    "fragen": [
+     {"frage": "Wann ist João nach Lissabon gegangen?", "optionen": ["mit achtzehn", "mit dreißig", "1958"], "richtig": 0},
+     {"frage": "Was hat er nach der Zeit im Restaurant gekauft?", "optionen": ["ein Haus", "ein Restaurant", "ein Boot"], "richtig": 2},
+     {"frage": "Wie lange war er Fischer?", "optionen": ["fünf Jahre", "fast dreißig Jahre", "zehn Jahre"], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Mit zwanzig bin ich nach Wien gegangen.", "loesungen": ["Aos vinte anos fui para Viena.", "Fui para Viena aos vinte anos."]},
+     {"de": "Ich habe dort fünfzehn Jahre lang gelebt.", "loesungen": ["Vivi lá durante quinze anos.", "Vivi lá quinze anos.", "Morei lá durante quinze anos."]},
+     {"de": "Nach dem Studium habe ich ein Praktikum gemacht.", "loesungen": ["Depois do curso, fiz um estágio.", "Depois do curso fiz um estágio.", "Fiz um estágio depois do curso."]},
+     {"de": "Später habe ich meine Firma gegründet.", "loesungen": ["Mais tarde fundei a minha empresa.", "Mais tarde, fundei a minha empresa."]},
+     {"de": "Im Jahr darauf habe ich meine erste Stelle gefunden.", "loesungen": ["No ano seguinte encontrei o meu primeiro emprego.", "No ano seguinte, encontrei o meu primeiro emprego.", "No ano seguinte encontrei o primeiro emprego."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-aos-vinte-anos", "pt": "Aos vinte anos fui estudar para Viena.", "de": "Mit zwanzig bin ich zum Studieren nach Wien gegangen."},
+    {"id": "a2-depois-de-acabar", "pt": "Depois de acabar o curso, fiz um estágio.", "de": "Nachdem ich das Studium beendet hatte, habe ich ein Praktikum gemacht."},
+    {"id": "a2-no-ano-seguinte", "pt": "No ano seguinte casámo-nos.", "de": "Im Jahr darauf haben wir geheiratet."}
+   ]
+  },
+  {
+   "id": "A2-01-L08",
+   "typ": "neu",
+   "titel": "Lebenslauf und Vorstellungsgespräch",
+   "vokabeln": ["o-curriculo", "a-entrevista", "candidatar-se", "o-percurso", "a-formacao", "a-carreira", "orgulhoso"],
+   "grammatik": {
+    "titel": "Eine Biografie erzählen – Überblick",
+    "erklaerung": [
+     "Eine Biografie in der 3. Person: <i>Nasceu em Linz. Licenciou-se em 1997. Mais tarde fundou a sua empresa.</i>",
+     "Die unregelmäßigen Verben im Überblick (eu / ele): vir – <b>vim / veio</b>, trazer – <b>trouxe / trouxe</b>, dizer – <b>disse / disse</b>, saber – <b>soube / soube</b>, querer – <b>quis / quis</b>, poder – <b>pude / pôde</b>, dar – <b>dei / deu</b>, pôr – <b>pus / pôs</b>.",
+     "Im Vorstellungsgespräch (formell, ohne Pronomen): <i>Fale-me do seu percurso. Qual é a sua formação? Porque é que se candidatou?</i>",
+     "Reflexiv in der 3. Person: <i>licenciou-se, mudou-se, casou-se, candidatou-se</i> – aber nach <i>porque é que</i>, <i>quando</i> oder <i>não</i>: <i>Porque é que se mudou?</i>"
+    ],
+    "vergleich": "Ein deutscher Lebenslauf ist meist eine Tabelle. Im Gespräch erzählt man ihn aber – und dann stehen auf Portugiesisch alle abgeschlossenen Stationen im <i>perfeito</i>.",
+    "beispiele": [
+     {"pt": "Nasceu em Linz e licenciou-se em Viena.", "de": "Er wurde in Linz geboren und hat in Wien sein Studium abgeschlossen."},
+     {"pt": "Candidatei-me a um emprego em Faro.", "de": "Ich habe mich auf eine Stelle in Faro beworben."},
+     {"pt": "Fale-me do seu percurso profissional.", "de": "Erzählen Sie mir von Ihrem beruflichen Werdegang."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Ele ___ em Economia em 1997. (licenciar-se)", "loesungen": ["licenciou-se"], "de": "Er hat 1997 sein Wirtschaftsstudium abgeschlossen.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Porque é que se ___ a este emprego? (candidatar-se, formell)", "loesungen": ["candidatou"], "de": "Warum haben Sie sich auf diese Stelle beworben?", "erklaerung": "Nach porque é que steht se vor dem Verb – das Verb selbst ohne Bindestrich.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Em 2024 ela ___ para Portugal. (vir)", "loesungen": ["veio"], "de": "2024 ist sie nach Portugal gekommen.", "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "auswahl", "frage": "„Ich habe die Neuigkeit gestern erfahren.“", "optionen": ["Sabi da notícia ontem.", "Soube da notícia ontem.", "Sube da notícia ontem."], "richtig": 1, "kategorie": "Perfeito unregelmäßig"},
+     {"typ": "diktat", "pt": "Quis vir, mas não pude."},
+     {"typ": "uebersetzen", "de": "Erzählen Sie mir von Ihrem Werdegang.", "loesungen": ["Fale-me do seu percurso.", "Fale-me do seu percurso profissional.", "Conte-me o seu percurso."]},
+     {"typ": "uebersetzen", "de": "Ich habe den Lebenslauf per E-Mail geschickt.", "loesungen": ["Enviei o currículo por e-mail.", "Mandei o currículo por e-mail.", "Enviei o CV por e-mail.", "Mandei o CV por e-mail."]},
+     {"typ": "satzbau", "de": "Ich bin sehr stolz auf meine Laufbahn.", "loesung": "Estou muito orgulhoso da minha carreira."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A entrevista – das Vorstellungsgespräch",
+    "situation": "Stefan sucht eine Assistentin und führt ein Gespräch mit Sofia.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia, Sofia. Fale-me um pouco do seu percurso.", "de": "Guten Morgen, Sofia. Erzählen Sie mir ein bisschen von Ihrem Werdegang."},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Nasci em Faro e licenciei-me em Gestão na Universidade do Algarve.", "de": "Ich bin in Faro geboren und habe an der Universität der Algarve BWL abgeschlossen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E depois do curso?", "de": "Und nach dem Studium?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Fiz um estágio num hotel em Albufeira. Mais tarde estive três anos numa empresa de turismo em Lisboa.", "de": "Ich habe ein Praktikum in einem Hotel in Albufeira gemacht. Später war ich drei Jahre bei einer Tourismusfirma in Lissabon."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E porque é que se candidatou a este emprego?", "de": "Und warum haben Sie sich auf diese Stelle beworben?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Quis voltar para o Algarve. E a sua empresa trabalha com clientes alemães – eu falo alemão!", "de": "Ich wollte an die Algarve zurück. Und Ihre Firma arbeitet mit deutschen Kunden – ich spreche Deutsch!"}
+    ],
+    "fragen": [
+     {"frage": "Was hat Sofia studiert?", "optionen": ["Tourismus", "Betriebswirtschaft", "Deutsch"], "richtig": 1},
+     {"frage": "Wo hat sie drei Jahre gearbeitet?", "optionen": ["in Lissabon", "in Albufeira", "in Faro"], "richtig": 0},
+     {"frage": "Warum hat sie sich beworben?", "optionen": ["Sie wollte mehr verdienen.", "Sie mag keine Hotels.", "Sie wollte an die Algarve zurück."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Eine Journalistin der Lokalzeitung interviewt dich über dein Leben.",
+    "zeilen": [
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Senhor Stefan, onde é que nasceu?", "de": "Stefan, wo sind Sie geboren?"},
+     {"ich": true, "aufgabe": "Sag: Ich bin in Linz geboren, in Österreich.", "loesungen": ["Nasci em Linz, na Áustria.", "Eu nasci em Linz, na Áustria.", "Nasci na Áustria, em Linz."]},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "E quando é que veio para Portugal?", "de": "Und wann sind Sie nach Portugal gekommen?"},
+     {"ich": true, "aufgabe": "Sag: Ich bin 2024 mit meiner Frau gekommen.", "loesungen": ["Vim em 2024 com a minha mulher.", "Vim com a minha mulher em 2024.", "Vim para Portugal em 2024 com a minha mulher.", "Vim para Portugal com a minha mulher em 2024."]},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "E porque é que escolheram Lagos?", "de": "Und warum haben Sie Lagos gewählt?"},
+     {"ich": true, "aufgabe": "Sag: Meine Frau wollte am Meer leben.", "loesungen": ["A minha mulher quis viver perto do mar.", "A minha mulher quis viver junto ao mar.", "A minha mulher quis viver à beira-mar.", "A minha mulher queria viver perto do mar.", "A minha mulher queria viver junto ao mar.", "A minha mulher queria viver à beira-mar."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a2-fale-me-percurso", "pt": "Fale-me do seu percurso profissional.", "de": "Erzählen Sie mir von Ihrem beruflichen Werdegang."},
+    {"id": "a2-candidatei-me", "pt": "Candidatei-me a um emprego em Faro.", "de": "Ich habe mich auf eine Stelle in Faro beworben."},
+    {"id": "a2-orgulhoso-carreira", "pt": "Estou muito orgulhoso da minha carreira.", "de": "Ich bin sehr stolz auf meine Laufbahn."}
+   ]
+  },
+  {"id": "A2-01-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-01-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Uma vida entre dois países – ein Leben zwischen zwei Ländern",
+   "situation": "Ein Radiojournalist interviewt Helga, eine Deutsche, die in Tavira lebt.",
+   "zeilen": [
+    {"sprecher": "Jornalista", "stimme": "m", "pt": "Helga, quando é que veio para Portugal pela primeira vez?", "de": "Helga, wann sind Sie zum ersten Mal nach Portugal gekommen?"},
+    {"sprecher": "Helga", "stimme": "f", "pt": "Vim em 1995, de férias. Gostei tanto que no ano seguinte voltei.", "de": "1995, im Urlaub. Es hat mir so gut gefallen, dass ich im Jahr darauf wiedergekommen bin."},
+    {"sprecher": "Jornalista", "stimme": "m", "pt": "E quando é que se mudou de vez?", "de": "Und wann sind Sie für immer hergezogen?"},
+    {"sprecher": "Helga", "stimme": "f", "pt": "Em 2003. Trouxe só duas malas e o meu cão!", "de": "2003. Ich habe nur zwei Koffer und meinen Hund mitgebracht!"},
+    {"sprecher": "Jornalista", "stimme": "m", "pt": "E o que fez aqui?", "de": "Und was haben Sie hier gemacht?"},
+    {"sprecher": "Helga", "stimme": "f", "pt": "Na altura não pude trabalhar como professora, por isso abri um café em Tavira. Mais tarde dei aulas de alemão.", "de": "Damals konnte ich nicht als Lehrerin arbeiten, deshalb habe ich ein Café in Tavira eröffnet. Später habe ich Deutschunterricht gegeben."}
+   ],
+   "fragen": [
+    {"frage": "Wann war Helga zum ersten Mal in Portugal?", "optionen": ["1995", "2003", "1996"], "richtig": 0},
+    {"frage": "Was hat sie mitgebracht?", "optionen": ["ihre Möbel", "zwei Koffer und ihren Hund", "ihr Auto"], "richtig": 1},
+    {"frage": "Was hat sie in Tavira eröffnet?", "optionen": ["eine Schule", "einen Laden", "ein Café"], "richtig": 2},
+    {"frage": "Was hat sie später gemacht?", "optionen": ["Sie hat Deutschunterricht gegeben.", "Sie hat geheiratet.", "Sie ist nach Deutschland zurückgegangen."], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "O perfil do Stefan – Stefans Profil",
+   "situation": "Auf der Website von Stefans Firma steht eine kurze Biografie.",
+   "text": [
+    "O Stefan nasceu em Linz, na Áustria, e cresceu numa aldeia perto de Salzburgo.",
+    "Aos dezanove anos foi para Viena, onde tirou o curso de Economia. Depois de acabar o curso, fez um estágio em Munique.",
+    "Durante sete anos trabalhou como consultor numa empresa grande. Em 2005 fundou a sua própria empresa.",
+    "Em 2008 conheceu a Ana em Lisboa e dois anos mais tarde casaram-se.",
+    "Em 2024 vieram para Lagos. O Stefan trouxe a empresa consigo: hoje trabalha a partir de casa, com vista para o mar."
+   ],
+   "fragen": [
+    {"frage": "Wo ist Stefan aufgewachsen?", "optionen": ["in Wien", "in einem Dorf bei Salzburg", "in Linz"], "richtig": 1},
+    {"frage": "Was hat er nach dem Studium gemacht?", "optionen": ["ein Praktikum in München", "einen Master", "eine Firma gegründet"], "richtig": 0},
+    {"frage": "Wann haben Stefan und Ana geheiratet?", "optionen": ["2008", "2024", "2010"], "richtig": 2},
+    {"frage": "Wo arbeitet Stefan heute?", "optionen": ["zu Hause", "in Lissabon", "in Faro"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich bin 2024 nach Portugal gekommen.", "loesungen": ["Vim para Portugal em 2024.", "Em 2024 vim para Portugal."]},
+   {"de": "Wir sind nach Lagos gezogen.", "loesungen": ["Mudámo-nos para Lagos."]},
+   {"de": "Er hat mir die Wahrheit gesagt.", "loesungen": ["Disse-me a verdade.", "Ele disse-me a verdade."]},
+   {"de": "Ich wollte helfen, aber ich konnte nicht.", "loesungen": ["Quis ajudar, mas não pude."]},
+   {"de": "Ana hat den Tisch gedeckt.", "loesungen": ["A Ana pôs a mesa."]},
+   {"de": "Nach dem Studium habe ich ein Praktikum gemacht.", "loesungen": ["Depois do curso, fiz um estágio.", "Depois do curso fiz um estágio.", "Depois da licenciatura, fiz um estágio.", "Depois da licenciatura fiz um estágio."]}
+  ],
+  "sprechen": [
+   {"pt": "Nasci em Linz e cresci numa aldeia.", "de": "Ich bin in Linz geboren und in einem Dorf aufgewachsen."},
+   {"pt": "Licenciei-me em Economia em Viena.", "de": "Ich habe mein Wirtschaftsstudium in Wien abgeschlossen."},
+   {"pt": "Trouxemos os móveis da Áustria.", "de": "Wir haben die Möbel aus Österreich mitgebracht."},
+   {"pt": "Soube da notícia ontem.", "de": "Ich habe gestern von der Neuigkeit erfahren."},
+   {"pt": "Em 2005 fundei a minha empresa.", "de": "2005 habe ich meine Firma gegründet."}
+  ]
+ }
+}

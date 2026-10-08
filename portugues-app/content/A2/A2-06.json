@@ -1,0 +1,650 @@
+{
+ "id": "A2-06",
+ "level": "A2",
+ "titel": "Viajar em Portugal – Reisen",
+ "beschreibung": "Reisen planen und unterwegs zurechtkommen – mit Zug, Mietwagen, Unterkunft und Sehenswürdigkeiten: ir + Infinitiv im Alltag, futuro simples in Reiseprogrammen und für Vermutungen.",
+ "vokabeln": [
+  {"id": "com-antecedencia", "pt": "com antecedência", "de": "rechtzeitig / im Voraus", "emoji": "⏰", "beispiel_pt": "É melhor reservar com antecedência.", "beispiel_de": "Es ist besser, im Voraus zu buchen."},
+  {"id": "o-destino", "pt": "o destino", "de": "das Reiseziel", "emoji": "📍", "beispiel_pt": "Qual é o destino da viagem?", "beispiel_de": "Was ist das Ziel der Reise?"},
+  {"id": "o-roteiro", "pt": "o roteiro", "de": "die Reiseroute", "emoji": "🧭", "beispiel_pt": "Já fiz o roteiro: Porto, Braga e Guimarães.", "beispiel_de": "Ich habe die Route schon gemacht: Porto, Braga und Guimarães."},
+  {"id": "fazer-as-malas", "pt": "fazer as malas", "de": "die Koffer packen", "emoji": "🧳", "beispiel_pt": "Amanhã vou fazer as malas.", "beispiel_de": "Morgen packe ich die Koffer."},
+  {"id": "daqui-a", "pt": "daqui a", "de": "in (+ Zeitraum, Zukunft)", "emoji": "⏩", "beispiel_pt": "Partimos daqui a duas semanas.", "beispiel_de": "Wir fahren in zwei Wochen los.", "hinweis": "Vergangenheit: há duas semanas = vor zwei Wochen"},
+  {"id": "proximo", "pt": "próximo", "de": "nächster", "emoji": "⏭️", "beispiel_pt": "No próximo mês vamos ao Gerês.", "beispiel_de": "Nächsten Monat fahren wir in den Gerês."},
+  {"id": "o-fim-de-semana-prolongado", "pt": "o fim de semana prolongado", "de": "das lange Wochenende", "emoji": "🏖️", "beispiel_pt": "Em junho há um fim de semana prolongado.", "beispiel_de": "Im Juni gibt es ein langes Wochenende."},
+  {"id": "a-epoca-alta", "pt": "a época alta", "de": "die Hochsaison", "emoji": "📈", "beispiel_pt": "Na época alta tudo é mais caro.", "beispiel_de": "In der Hochsaison ist alles teurer.", "hinweis": "a época baixa = die Nebensaison"},
+
+  {"id": "a-partida", "pt": "a partida", "de": "die Abfahrt / der Abflug", "emoji": "⏱️", "beispiel_pt": "A partida é às oito e um quarto.", "beispiel_de": "Die Abfahrt ist um Viertel nach acht."},
+  {"id": "a-chegada", "pt": "a chegada", "de": "die Ankunft", "emoji": "🏁", "beispiel_pt": "À chegada, faremos uma visita ao centro.", "beispiel_de": "Bei der Ankunft machen wir eine Besichtigung des Zentrums."},
+  {"id": "previsto", "pt": "previsto", "de": "vorgesehen / geplant", "emoji": "🗓️", "beispiel_pt": "A chegada está prevista para as onze.", "beispiel_de": "Die Ankunft ist für elf Uhr vorgesehen."},
+  {"id": "a-excursao", "pt": "a excursão", "de": "der Ausflug (organisiert)", "emoji": "🚌", "beispiel_pt": "A excursão partirá às nove.", "beispiel_de": "Der Ausflug wird um neun Uhr abfahren."},
+  {"id": "o-programa", "pt": "o programa", "de": "das Programm", "emoji": "📄", "beispiel_pt": "O programa da viagem está no site.", "beispiel_de": "Das Reiseprogramm steht auf der Website."},
+  {"id": "no-dia-seguinte", "pt": "no dia seguinte", "de": "am nächsten Tag", "emoji": "🌅", "beispiel_pt": "No dia seguinte, visitaremos Évora.", "beispiel_de": "Am nächsten Tag werden wir Évora besichtigen."},
+  {"id": "durar", "pt": "durar", "de": "dauern", "emoji": "⌛", "beispiel_pt": "A viagem durará três horas.", "beispiel_de": "Die Reise wird drei Stunden dauern.", "hinweis": "demorar = (Zeit) brauchen: O comboio demora três horas."},
+
+  {"id": "farei", "pt": "farei", "de": "ich werde machen", "emoji": "🛠️", "beispiel_pt": "Farei a reserva amanhã.", "beispiel_de": "Ich werde die Reservierung morgen machen.", "hinweis": "fazer → farei, farás, fará, faremos, farão"},
+  {"id": "direi", "pt": "direi", "de": "ich werde sagen", "emoji": "🗨️", "beispiel_pt": "Direi ao Pedro a que horas chegamos.", "beispiel_de": "Ich werde Pedro sagen, um wie viel Uhr wir ankommen.", "hinweis": "dizer → direi, dirás, dirá, diremos, dirão"},
+  {"id": "trarei", "pt": "trarei", "de": "ich werde mitbringen", "emoji": "🎁", "beispiel_pt": "Trarei vinho do Douro.", "beispiel_de": "Ich werde Wein aus dem Douro mitbringen.", "hinweis": "trazer → trarei, trarás, trará, traremos, trarão"},
+  {"id": "sera", "pt": "será", "de": "wird sein / ist wohl", "emoji": "🤔", "beispiel_pt": "Será que vai chover?", "beispiel_de": "Ob es wohl regnet?", "hinweis": "Será que …? = Ob wohl …?"},
+  {"id": "cerca-de", "pt": "cerca de", "de": "etwa / ungefähr", "emoji": "≈", "beispiel_pt": "A viagem demora cerca de três horas.", "beispiel_de": "Die Fahrt dauert etwa drei Stunden."},
+  {"id": "se-calhar", "pt": "se calhar", "de": "vielleicht", "emoji": "🤷", "beispiel_pt": "Se calhar chegamos tarde.", "beispiel_de": "Vielleicht kommen wir spät an.", "hinweis": "Typisch für Portugal; neutraler: talvez"},
+  {"id": "provavelmente", "pt": "provavelmente", "de": "wahrscheinlich", "emoji": "🎲", "beispiel_pt": "Provavelmente vamos de comboio.", "beispiel_de": "Wahrscheinlich fahren wir mit dem Zug."},
+
+  {"id": "a-cp", "pt": "a CP", "de": "die portugiesische Bahn", "emoji": "🚆", "beispiel_pt": "Comprei os bilhetes no site da CP.", "beispiel_de": "Ich habe die Fahrkarten auf der Website der CP gekauft.", "hinweis": "CP = Comboios de Portugal"},
+  {"id": "o-alfa-pendular", "pt": "o Alfa Pendular", "de": "der Schnellzug (Alfa)", "emoji": "🚄", "beispiel_pt": "O Alfa Pendular é o comboio mais rápido.", "beispiel_de": "Der Alfa Pendular ist der schnellste Zug."},
+  {"id": "o-intercidades", "pt": "o Intercidades", "de": "der Intercity", "emoji": "🚃", "beispiel_pt": "Apanhamos o Intercidades em Tunes.", "beispiel_de": "Wir nehmen den Intercity in Tunes."},
+  {"id": "o-regional", "pt": "o regional", "de": "der Regionalzug", "emoji": "🚈", "beispiel_pt": "De Lagos a Tunes vamos no regional.", "beispiel_de": "Von Lagos nach Tunes fahren wir mit dem Regionalzug."},
+  {"id": "a-carruagem", "pt": "a carruagem", "de": "der Wagen (Zug)", "emoji": "🚋", "beispiel_pt": "Estamos na carruagem quatro.", "beispiel_de": "Wir sind in Wagen vier."},
+  {"id": "o-lugar-marcado", "pt": "o lugar marcado", "de": "der reservierte Sitzplatz", "emoji": "💺", "beispiel_pt": "No Alfa todos têm lugar marcado.", "beispiel_de": "Im Alfa haben alle einen reservierten Platz."},
+  {"id": "o-revisor", "pt": "o revisor", "de": "der Schaffner", "emoji": "🎫", "beispiel_pt": "O revisor pediu os bilhetes.", "beispiel_de": "Der Schaffner hat die Fahrkarten verlangt."},
+  {"id": "a-bilheteira", "pt": "a bilheteira", "de": "der Fahrkartenschalter / die Kasse", "emoji": "🏪", "beispiel_pt": "A bilheteira abre às seis e meia.", "beispiel_de": "Der Fahrkartenschalter öffnet um halb sieben."},
+
+  {"id": "a-autoestrada", "pt": "a autoestrada", "de": "die Autobahn", "emoji": "🛣️", "beispiel_pt": "Pela autoestrada chegamos mais depressa.", "beispiel_de": "Über die Autobahn sind wir schneller da."},
+  {"id": "a-via-verde", "pt": "a Via Verde", "de": "die elektronische Mautbox", "emoji": "🟩", "beispiel_pt": "Com a Via Verde não é preciso parar nas portagens.", "beispiel_de": "Mit der Via Verde muss man an den Mautstellen nicht anhalten."},
+  {"id": "a-bomba-de-gasolina", "pt": "a bomba de gasolina", "de": "die Tankstelle", "emoji": "⛽", "beispiel_pt": "Há uma bomba de gasolina à saída de Lagos.", "beispiel_de": "Am Ortsausgang von Lagos gibt es eine Tankstelle."},
+  {"id": "atestar", "pt": "atestar", "de": "volltanken", "emoji": "🫗", "beispiel_pt": "Ateste, se faz favor.", "beispiel_de": "Volltanken, bitte.", "hinweis": "atestar o depósito = den Tank füllen"},
+  {"id": "o-gasoleo", "pt": "o gasóleo", "de": "der Diesel", "emoji": "🛢️", "beispiel_pt": "O meu carro é a gasóleo.", "beispiel_de": "Mein Auto fährt mit Diesel.", "hinweis": "a gasolina = das Benzin"},
+  {"id": "alugar-um-carro", "pt": "alugar um carro", "de": "ein Auto mieten", "emoji": "🚙", "beispiel_pt": "Vamos alugar um carro no aeroporto.", "beispiel_de": "Wir mieten am Flughafen ein Auto."},
+  {"id": "o-seguro", "pt": "o seguro", "de": "die Versicherung", "emoji": "📑", "beispiel_pt": "O seguro contra todos os riscos custa mais dez euros por dia.", "beispiel_de": "Die Vollkaskoversicherung kostet zehn Euro mehr pro Tag."},
+  {"id": "a-estrada-nacional", "pt": "a estrada nacional", "de": "die Nationalstraße (Landstraße)", "emoji": "🛤️", "beispiel_pt": "A EN125 é a estrada nacional do Algarve.", "beispiel_de": "Die EN125 ist die Nationalstraße der Algarve."},
+
+  {"id": "o-alojamento-local", "pt": "o alojamento local", "de": "die Ferienunterkunft (AL)", "emoji": "🏠", "beispiel_pt": "Ficámos num alojamento local em Tavira.", "beispiel_de": "Wir haben in einer Ferienunterkunft in Tavira gewohnt.", "hinweis": "kurz: AL – Ferienwohnungen und Zimmer mit Lizenz"},
+  {"id": "a-pousada", "pt": "a pousada", "de": "das Hotel in einem historischen Gebäude", "emoji": "🏰", "beispiel_pt": "Vamos dormir na pousada de Óbidos.", "beispiel_de": "Wir übernachten in der Pousada von Óbidos.", "hinweis": "a pousada da juventude = die Jugendherberge"},
+  {"id": "o-check-in", "pt": "o check-in", "de": "der Check-in", "emoji": "🔑", "beispiel_pt": "O check-in é a partir das três.", "beispiel_de": "Der Check-in ist ab drei Uhr."},
+  {"id": "o-pequeno-almoco-incluido", "pt": "o pequeno-almoço incluído", "de": "mit Frühstück", "emoji": "🥐", "beispiel_pt": "O preço é com pequeno-almoço incluído.", "beispiel_de": "Der Preis ist mit Frühstück."},
+  {"id": "o-quarto-duplo", "pt": "o quarto duplo", "de": "das Doppelzimmer", "emoji": "🛏️", "beispiel_pt": "Queria um quarto duplo para duas noites.", "beispiel_de": "Ich hätte gern ein Doppelzimmer für zwei Nächte.", "hinweis": "o quarto de casal = mit Doppelbett; o quarto individual = Einzelzimmer"},
+  {"id": "a-rececao", "pt": "a receção", "de": "die Rezeption", "emoji": "🛎️", "beispiel_pt": "Deixe a chave na receção.", "beispiel_de": "Lassen Sie den Schlüssel an der Rezeption."},
+  {"id": "por-noite", "pt": "por noite", "de": "pro Nacht", "emoji": "🌙", "beispiel_pt": "Custa noventa euros por noite.", "beispiel_de": "Es kostet neunzig Euro pro Nacht."},
+  {"id": "a-vaga", "pt": "a vaga", "de": "das freie Zimmer / der freie Platz", "emoji": "🈳", "beispiel_pt": "Ainda há vagas para sábado?", "beispiel_de": "Gibt es für Samstag noch freie Zimmer?", "hinweis": "Não há vagas. = Ausgebucht."},
+
+  {"id": "o-miradouro", "pt": "o miradouro", "de": "der Aussichtspunkt", "emoji": "🔭", "beispiel_pt": "Do miradouro vê-se a cidade toda.", "beispiel_de": "Vom Aussichtspunkt sieht man die ganze Stadt."},
+  {"id": "o-castelo", "pt": "o castelo", "de": "die Burg", "emoji": "🏯", "beispiel_pt": "O castelo de Silves é do tempo dos mouros.", "beispiel_de": "Die Burg von Silves stammt aus der Zeit der Mauren."},
+  {"id": "o-mosteiro", "pt": "o mosteiro", "de": "das Kloster", "emoji": "⛪", "beispiel_pt": "O Mosteiro dos Jerónimos fica em Belém.", "beispiel_de": "Das Hieronymus-Kloster liegt in Belém."},
+  {"id": "a-visita-guiada", "pt": "a visita guiada", "de": "die Führung", "emoji": "👥", "beispiel_pt": "A visita guiada começa às dez.", "beispiel_de": "Die Führung beginnt um zehn."},
+  {"id": "o-museu", "pt": "o museu", "de": "das Museum", "emoji": "🏛️", "beispiel_pt": "O museu fecha à segunda-feira.", "beispiel_de": "Das Museum ist montags geschlossen."},
+  {"id": "o-centro-historico", "pt": "o centro histórico", "de": "die Altstadt", "emoji": "🏘️", "beispiel_pt": "O centro histórico de Évora é Património Mundial.", "beispiel_de": "Die Altstadt von Évora ist Weltkulturerbe."},
+  {"id": "o-guia", "pt": "o guia", "de": "der Reiseleiter / der Reiseführer", "emoji": "🧑‍🏫", "beispiel_pt": "O guia fala inglês e português.", "beispiel_de": "Der Reiseleiter spricht Englisch und Portugiesisch.", "hinweis": "auch das Buch: o guia de viagem"},
+
+  {"id": "perder-o-comboio", "pt": "perder o comboio", "de": "den Zug verpassen", "emoji": "🏃", "beispiel_pt": "Perdi o comboio das oito.", "beispiel_de": "Ich habe den Zug um acht verpasst."},
+  {"id": "o-voo", "pt": "o voo", "de": "der Flug", "emoji": "✈️", "beispiel_pt": "O voo para Frankfurt sai às seis.", "beispiel_de": "Der Flug nach Frankfurt geht um sechs."},
+  {"id": "cancelado", "pt": "cancelado", "de": "gestrichen / abgesagt", "emoji": "🚫", "beispiel_pt": "O voo foi cancelado.", "beispiel_de": "Der Flug wurde gestrichen."},
+  {"id": "a-mala-extraviada", "pt": "a mala extraviada", "de": "der verlorene Koffer", "emoji": "🔍", "beispiel_pt": "A minha mala foi extraviada.", "beispiel_de": "Mein Koffer ist verloren gegangen."},
+  {"id": "a-greve", "pt": "a greve", "de": "der Streik", "emoji": "✊", "beispiel_pt": "Amanhã há greve na CP.", "beispiel_de": "Morgen wird bei der CP gestreikt."},
+  {"id": "a-bagagem", "pt": "a bagagem", "de": "das Gepäck", "emoji": "🛄", "beispiel_pt": "Onde se levanta a bagagem?", "beispiel_de": "Wo holt man das Gepäck ab?"},
+  {"id": "o-aeroporto", "pt": "o aeroporto", "de": "der Flughafen", "emoji": "🛫", "beispiel_pt": "O aeroporto de Faro fica perto da cidade.", "beispiel_de": "Der Flughafen Faro liegt nahe der Stadt."}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-06-L01",
+   "typ": "neu",
+   "titel": "Eine Reise planen: ir + Infinitiv",
+   "vokabeln": ["com-antecedencia", "o-destino", "o-roteiro", "fazer-as-malas", "daqui-a", "proximo", "o-fim-de-semana-prolongado", "a-epoca-alta"],
+   "grammatik": {
+    "titel": "Zukunft im Alltag: ir + Infinitiv",
+    "erklaerung": [
+     "Im Gespräch drückt man die Zukunft fast immer mit <b>ir + Infinitiv</b> aus: eu <b>vou</b>, tu <b>vais</b>, você/ele <b>vai</b>, nós <b>vamos</b>, vocês/eles <b>vão</b> + Infinitiv: <i>Vamos planear a viagem.</i>",
+     "Nicht <i>vou ir</i>! Bei ir genügt die einfache Form: <i>Amanhã vou a Lisboa.</i>",
+     "Für feste Pläne reicht oft das Präsens: <i>Partimos no sábado.</i>",
+     "Zeitangaben: <b>amanhã</b>, <b>para a semana</b>, <b>no próximo mês</b>, <b>daqui a</b> + Zeitraum (<i>daqui a duas semanas</i> = in zwei Wochen)."
+    ],
+    "vergleich": "Englisch „I'm going to plan“ = <i>Vou planear</i> – genau dieselbe Konstruktion. Deutsch benutzt meist einfach das Präsens: „Morgen packe ich“ = <i>Amanhã vou fazer as malas.</i>",
+    "beispiele": [
+     {"pt": "No próximo mês vamos ao Norte.", "de": "Nächsten Monat fahren wir in den Norden."},
+     {"pt": "Amanhã vou fazer as malas.", "de": "Morgen packe ich die Koffer."},
+     {"pt": "Partimos daqui a duas semanas.", "de": "Wir fahren in zwei Wochen los."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Nós ___ planear a viagem hoje.", "loesungen": ["vamos"], "de": "Wir planen heute die Reise.", "kategorie": "Futur"},
+     {"typ": "luecke", "satz": "O Pedro ___ fazer as malas logo à noite.", "loesungen": ["vai"], "de": "Pedro packt heute Abend die Koffer.", "kategorie": "Futur"},
+     {"typ": "luecke", "satz": "Partimos ___ a duas semanas.", "loesungen": ["daqui"], "de": "Wir fahren in zwei Wochen los.", "kategorie": "Zeitangaben"},
+     {"typ": "auswahl", "frage": "„Wir fahren nächsten Monat nach Porto.“", "optionen": ["Vamos ir ao Porto no próximo mês.", "Vamos ao Porto no próximo mês.", "Iremos ir ao Porto no próximo mês."], "richtig": 1, "erklaerung": "Nicht „vamos ir“ – einfach vamos.", "kategorie": "Futur"},
+     {"typ": "auswahl", "frage": "„in drei Tagen“ (Zukunft)", "optionen": ["há três dias", "desde três dias", "daqui a três dias"], "richtig": 2, "erklaerung": "há três dias = vor drei Tagen (Vergangenheit).", "kategorie": "Zeitangaben"},
+     {"typ": "uebersetzen", "de": "Morgen packe ich die Koffer.", "loesungen": ["Amanhã vou fazer as malas.", "Vou fazer as malas amanhã.", "Amanhã faço as malas."]},
+     {"typ": "uebersetzen", "de": "Was machst du am langen Wochenende? (tu)", "loesungen": ["O que vais fazer no fim de semana prolongado?", "O que é que vais fazer no fim de semana prolongado?", "O que fazes no fim de semana prolongado?"]},
+     {"typ": "satzbau", "de": "In der Hochsaison ist alles teurer.", "loesung": "Na época alta tudo é mais caro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Vamos ao Norte! – Auf in den Norden!",
+    "situation": "Ana und Stefan planen eine Reise.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, em junho há um fim de semana prolongado. Vamos viajar?", "de": "Stefan, im Juni gibt es ein langes Wochenende. Wollen wir verreisen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa ideia! E qual é o destino?", "de": "Gute Idee! Und was ist das Ziel?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Gostava de ir ao Norte. Vamos ver o Porto e o Douro.", "de": "Ich würde gern in den Norden fahren. Wir schauen uns Porto und den Douro an."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. Vou já planear o roteiro. Vamos de comboio ou de carro?", "de": "Super. Ich plane gleich die Route. Fahren wir mit dem Zug oder mit dem Auto?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "De comboio, é mais confortável. Amanhã vou ver os hotéis.", "de": "Mit dem Zug, das ist bequemer. Morgen schaue ich mir die Hotels an."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Reserva depressa! Em junho já é época alta.", "de": "Buch schnell! Im Juni ist schon Hochsaison."}
+    ],
+    "fragen": [
+     {"frage": "Wohin wollen sie fahren?", "optionen": ["in den Norden (Porto und Douro)", "nach Lissabon", "in den Alentejo"], "richtig": 0},
+     {"frage": "Wie wollen sie reisen?", "optionen": ["mit dem Auto", "mit dem Zug", "mit dem Flugzeug"], "richtig": 1},
+     {"frage": "Warum soll Ana schnell buchen?", "optionen": ["Es ist gerade billig.", "Ana hat morgen keine Zeit.", "Im Juni ist schon Hochsaison."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Vamos planear uma viagem ao Norte.", "de": "Wir planen eine Reise in den Norden."},
+     {"pt": "Amanhã vou fazer as malas.", "de": "Morgen packe ich die Koffer."},
+     {"pt": "Partimos daqui a duas semanas.", "de": "Wir fahren in zwei Wochen los."},
+     {"pt": "Qual é o destino da viagem?", "de": "Was ist das Ziel der Reise?"},
+     {"pt": "Na época alta tudo é mais caro.", "de": "In der Hochsaison ist alles teurer."}
+    ]
+   },
+   "saetze": [
+    {"id": "vamos-planear-viagem", "pt": "Vamos planear uma viagem ao Norte.", "de": "Wir planen eine Reise in den Norden."},
+    {"id": "vou-fazer-as-malas", "pt": "Amanhã vou fazer as malas.", "de": "Morgen packe ich die Koffer."},
+    {"id": "partimos-daqui-a", "pt": "Partimos daqui a duas semanas.", "de": "Wir fahren in zwei Wochen los."}
+   ]
+  },
+  {
+   "id": "A2-06-L02",
+   "typ": "neu",
+   "titel": "Das Reiseprogramm: futuro simples",
+   "vokabeln": ["a-partida", "a-chegada", "previsto", "a-excursao", "o-programa", "no-dia-seguinte", "durar"],
+   "grammatik": {
+    "titel": "Futuro simples: regelmäßige Verben",
+    "erklaerung": [
+     "Das <b>futuro simples</b> ist leicht: <b>ganzer Infinitiv + Endung</b> – gleich für -ar, -er und -ir: eu visitar<b>ei</b>, tu visitar<b>ás</b>, você/ele visitar<b>á</b>, nós visitar<b>emos</b>, vocês/eles visitar<b>ão</b>.",
+     "Im Gespräch sagt man fast immer <b>ir + Infinitiv</b> (<i>Vamos visitar …</i>). Das futuro begegnet dir vor allem <b>schriftlich und formell</b>: Reiseprogramme, Durchsagen, Nachrichten, E-Mails.",
+     "Typisch im Programm: <i>No dia seguinte, visitaremos Évora. O comboio partirá às 8h15.</i>",
+     "Verwechslungsgefahr: chegar<b>ão</b> (sie werden ankommen) – cheg<b>aram</b> (sie sind angekommen)."
+    ],
+    "vergleich": "Deutsch „werden + Infinitiv“ (wir werden besuchen) – Portugiesisch ein Wort: <i>visitaremos</i>. Wie im Deutschen klingt das im Gespräch steif; dort sagt man lieber „Morgen besuchen wir …“ = <i>Amanhã vamos visitar …</i>",
+    "beispiele": [
+     {"pt": "No dia seguinte, visitaremos Évora.", "de": "Am nächsten Tag werden wir Évora besichtigen."},
+     {"pt": "A excursão partirá às nove em ponto.", "de": "Der Ausflug wird um Punkt neun abfahren."},
+     {"pt": "A viagem durará três horas.", "de": "Die Reise wird drei Stunden dauern."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "No dia seguinte, ___ o castelo. (nós, visitar)", "loesungen": ["visitaremos"], "de": "Am nächsten Tag werden wir die Burg besichtigen.", "kategorie": "Futur"},
+     {"typ": "luecke", "satz": "O comboio ___ às oito. (partir)", "loesungen": ["partirá"], "de": "Der Zug wird um acht abfahren.", "kategorie": "Futur"},
+     {"typ": "luecke", "satz": "A viagem ___ três horas. (durar)", "loesungen": ["durará"], "de": "Die Reise wird drei Stunden dauern.", "kategorie": "Futur"},
+     {"typ": "luecke", "satz": "Os turistas ___ ao hotel às sete. (chegar)", "loesungen": ["chegarão"], "de": "Die Touristen werden um sieben im Hotel ankommen.", "kategorie": "Futur"},
+     {"typ": "auswahl", "frage": "Was sagt man im Gespräch mit Freunden am natürlichsten?", "optionen": ["Amanhã visitaremos a Ana.", "Amanhã vamos visitar a Ana.", "Amanhã visitarei-a."], "richtig": 1, "erklaerung": "Im Alltag: ir + Infinitiv. Das futuro klingt gesprochen steif.", "kategorie": "Futur"},
+     {"typ": "auswahl", "frage": "„sie werden ankommen“ (eles)", "optionen": ["chegarão", "chegaram", "chegam"], "richtig": 0, "erklaerung": "chegaram = sie sind angekommen (Vergangenheit)!", "kategorie": "Futur"},
+     {"typ": "uebersetzen", "de": "Die Ankunft ist für elf Uhr vorgesehen.", "loesungen": ["A chegada está prevista para as onze.", "A chegada está prevista para as onze horas.", "A chegada está prevista para as 11h."]},
+     {"typ": "satzbau", "de": "Der Ausflug wird um neun Uhr abfahren.", "loesung": "A excursão partirá às nove horas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Excursão ao Alentejo – Ausflug in den Alentejo",
+    "situation": "Eine Reiseleiterin erklärt im Bus das Programm. Stefan und Ana sind dabei.",
+    "zeilen": [
+     {"sprecher": "Guia", "stimme": "f", "pt": "Bom dia a todos! Bem-vindos à nossa excursão ao Alentejo.", "de": "Guten Morgen allerseits! Willkommen zu unserem Ausflug in den Alentejo."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "A viagem até Évora durará cerca de três horas.", "de": "Die Fahrt bis Évora wird etwa drei Stunden dauern."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "Chegaremos por volta do meio-dia e almoçaremos num restaurante típico.", "de": "Wir werden gegen Mittag ankommen und in einem typischen Restaurant zu Mittag essen."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "À tarde, visitaremos a Sé e a Capela dos Ossos.", "de": "Am Nachmittag werden wir die Kathedrale und die Knochenkapelle besichtigen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpe, e a que horas é a partida para Lagos?", "de": "Entschuldigung, und um wie viel Uhr ist die Abfahrt nach Lagos?"},
+     {"sprecher": "Guia", "stimme": "f", "pt": "A partida está prevista para as seis da tarde.", "de": "Die Abfahrt ist für sechs Uhr abends vorgesehen."}
+    ],
+    "fragen": [
+     {"frage": "Wie lange dauert die Fahrt nach Évora?", "optionen": ["etwa drei Stunden", "eine Stunde", "fünf Stunden"], "richtig": 0},
+     {"frage": "Was machen sie mittags?", "optionen": ["Sie besichtigen die Kathedrale.", "Sie essen in einem typischen Restaurant.", "Sie fahren zurück."], "richtig": 1},
+     {"frage": "Wann fahren sie zurück nach Lagos?", "optionen": ["um drei", "um zwölf", "um sechs Uhr abends"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib das Reiseprogramm auf Portugiesisch – im futuro, wenn angegeben.",
+    "aufgaben": [
+     {"de": "Am nächsten Tag werden wir Évora besichtigen. (futuro)", "loesungen": ["No dia seguinte, visitaremos Évora.", "No dia seguinte visitaremos Évora.", "Visitaremos Évora no dia seguinte."]},
+     {"de": "Der Zug wird um acht Uhr abfahren. (futuro)", "loesungen": ["O comboio partirá às oito.", "O comboio partirá às oito horas."]},
+     {"de": "Die Reise wird zwei Stunden dauern. (futuro)", "loesungen": ["A viagem durará duas horas."]},
+     {"de": "Ich rufe dich morgen an. (ir + Infinitiv, tu)", "loesungen": ["Amanhã vou ligar-te.", "Vou ligar-te amanhã.", "Amanhã vou telefonar-te.", "Vou telefonar-te amanhã."]},
+     {"de": "Wann ist die Ankunft vorgesehen?", "loesungen": ["Quando está prevista a chegada?", "A que horas está prevista a chegada?", "Para quando está prevista a chegada?", "Para que horas está prevista a chegada?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "no-dia-seguinte-visitaremos", "pt": "No dia seguinte, visitaremos Évora.", "de": "Am nächsten Tag werden wir Évora besichtigen."},
+    {"id": "chegada-prevista", "pt": "A chegada está prevista para as onze.", "de": "Die Ankunft ist für elf Uhr vorgesehen."},
+    {"id": "viagem-durara", "pt": "A viagem durará cerca de três horas.", "de": "Die Reise wird etwa drei Stunden dauern."}
+   ]
+  },
+  {
+   "id": "A2-06-L03",
+   "typ": "neu",
+   "titel": "Farei, direi, trarei – und Vermutungen",
+   "vokabeln": ["farei", "direi", "trarei", "sera", "cerca-de", "se-calhar", "provavelmente"],
+   "grammatik": {
+    "titel": "Unregelmäßiges futuro und das futuro der Vermutung",
+    "erklaerung": [
+     "Nur drei Verben sind unregelmäßig – sie verlieren das <b>-ze-</b>: fazer → <b>farei</b>, dizer → <b>direi</b>, trazer → <b>trarei</b> (farás, fará, faremos, farão …).",
+     "Das futuro drückt oft eine <b>Vermutung</b> aus – wie deutsch „wohl“: <i>Serão umas oito horas.</i> = Es wird wohl so acht Uhr sein. <i>Onde estará o Pedro?</i> = Wo mag Pedro wohl sein?",
+     "Sehr häufig: <b>Será que …?</b> = „Ob wohl …?“: <i>Será que vai chover?</i>",
+     "Weitere Vermutungswörter: <b>se calhar</b> (typisch portugiesisch: vielleicht), <b>provavelmente</b>, <b>cerca de</b> oder <b>uns / umas</b> (ungefähr).",
+     "Mit Pronomen wird das futuro kompliziert (<i>dir-lhe-ei</i>) – im Alltag sagt man einfach <i>Vou dizer-lhe.</i>"
+    ],
+    "vergleich": "Auch das Deutsche benutzt das Futur für Vermutungen: „Er wird wohl im Stau stehen.“ = <i>Estará no trânsito.</i> Englisch braucht dafür „probably“ oder „must be“.",
+    "beispiele": [
+     {"pt": "Farei a reserva amanhã.", "de": "Ich werde die Reservierung morgen machen."},
+     {"pt": "Serão umas oito horas.", "de": "Es wird wohl so acht Uhr sein."},
+     {"pt": "Será que o comboio está atrasado?", "de": "Ob der Zug wohl Verspätung hat?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Amanhã eu ___ a reserva. (fazer)", "loesungen": ["farei"], "de": "Morgen werde ich die Reservierung machen.", "kategorie": "Futur"},
+     {"typ": "luecke", "satz": "Nós ___ vinho do Douro. (trazer)", "loesungen": ["traremos"], "de": "Wir werden Wein aus dem Douro mitbringen.", "kategorie": "Futur"},
+     {"typ": "luecke", "satz": "O guia ___ onde fica o castelo. (dizer)", "loesungen": ["dirá"], "de": "Der Reiseleiter wird sagen, wo die Burg liegt.", "kategorie": "Futur"},
+     {"typ": "auswahl", "frage": "„Es wird wohl so acht Uhr sein.“", "optionen": ["São oito horas.", "Serão umas oito horas.", "Foram umas oito horas."], "richtig": 1, "kategorie": "Futur"},
+     {"typ": "auswahl", "frage": "„Ob es wohl regnet?“", "optionen": ["Será que vai chover?", "Se vai chover?", "Vai ser chover?"], "richtig": 0, "kategorie": "Futur"},
+     {"typ": "uebersetzen", "de": "Wo mag Pedro wohl sein?", "loesungen": ["Onde estará o Pedro?", "Onde é que estará o Pedro?"]},
+     {"typ": "uebersetzen", "de": "Die Fahrt dauert etwa drei Stunden.", "loesungen": ["A viagem demora cerca de três horas.", "A viagem dura cerca de três horas.", "A viagem demora umas três horas.", "A viagem dura umas três horas."]},
+     {"typ": "satzbau", "de": "Wahrscheinlich fahren wir mit dem Zug.", "loesung": "Provavelmente vamos de comboio."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Onde estará o Pedro? – Wo bleibt Pedro?",
+    "situation": "Stefan und Ana warten am Bahnhof von Faro auf Pedro.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "O Pedro ainda não chegou. Onde estará?", "de": "Pedro ist noch nicht da. Wo er wohl ist?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estará no trânsito. Se calhar perdeu o autocarro.", "de": "Er wird wohl im Stau stehen. Vielleicht hat er den Bus verpasst."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Que horas são?", "de": "Wie spät ist es?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não sei bem, serão umas sete e meia.", "de": "Ich weiß nicht genau, es wird so halb acht sein."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Será que ele se esqueceu? Olha, ali está ele! E traz uma garrafa de vinho.", "de": "Ob er es wohl vergessen hat? Schau, da ist er! Und er bringt eine Flasche Wein mit."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Desculpem o atraso! Da próxima vez farei tudo para chegar a horas.", "de": "Entschuldigt die Verspätung! Nächstes Mal werde ich alles tun, um pünktlich zu sein."}
+    ],
+    "fragen": [
+     {"frage": "Was vermutet Stefan zuerst?", "optionen": ["Pedro steht im Stau.", "Pedro ist krank.", "Pedro hat verschlafen."], "richtig": 0},
+     {"frage": "Wie spät ist es ungefähr?", "optionen": ["sieben Uhr", "halb acht", "acht Uhr"], "richtig": 1},
+     {"frage": "Was bringt Pedro mit?", "optionen": ["Blumen", "einen Kuchen", "eine Flasche Wein"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Rita fragt dich nach dem Besuch von Pedro am Wochenende.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "A que horas chega o comboio do Pedro?", "de": "Um wie viel Uhr kommt Pedros Zug an?"},
+     {"ich": true, "aufgabe": "Sag: Ich weiß nicht. Wahrscheinlich gegen acht.", "loesungen": ["Não sei. Provavelmente por volta das oito.", "Não sei. Provavelmente às oito.", "Não sei. Serão umas oito horas.", "Não sei. Se calhar às oito.", "Não sei. Provavelmente lá para as oito."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E o que vão fazer no sábado?", "de": "Und was macht ihr am Samstag?"},
+     {"ich": true, "aufgabe": "Sag: Ich mache ein Abendessen und Pedro bringt Wein mit. (ir + Infinitiv)", "loesungen": ["Vou fazer um jantar e o Pedro vai trazer vinho.", "Eu vou fazer um jantar e o Pedro vai trazer vinho.", "Vou fazer um jantar e o Pedro vai trazer o vinho.", "Vou fazer o jantar e o Pedro vai trazer vinho."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Será que vai chover?", "de": "Ob es wohl regnet?"},
+     {"ich": true, "aufgabe": "Sag: Vielleicht. Dann essen wir drinnen.", "loesungen": ["Se calhar. Então jantamos lá dentro.", "Se calhar. Então comemos lá dentro.", "Talvez. Então jantamos lá dentro.", "Talvez. Então comemos lá dentro.", "Se calhar sim. Então jantamos lá dentro."]}
+    ]
+   },
+   "saetze": [
+    {"id": "farei-a-reserva", "pt": "Farei a reserva amanhã.", "de": "Ich werde die Reservierung morgen machen."},
+    {"id": "serao-umas-oito", "pt": "Serão umas oito horas.", "de": "Es wird wohl so acht Uhr sein."},
+    {"id": "sera-que-vai-chover", "pt": "Será que vai chover?", "de": "Ob es wohl regnet?"}
+   ]
+  },
+  {
+   "id": "A2-06-L04",
+   "typ": "neu",
+   "titel": "Mit der Bahn: CP, Alfa und Intercidades",
+   "vokabeln": ["a-cp", "o-alfa-pendular", "o-intercidades", "o-regional", "a-carruagem", "o-lugar-marcado", "o-revisor", "a-bilheteira"],
+   "grammatik": {
+    "titel": "Am Bahnhof: partir de, chegar a, mudar em",
+    "erklaerung": [
+     "Die <b>CP</b> (Comboios de Portugal) hat drei Zugarten: <b>Alfa Pendular</b> (am schnellsten), <b>Intercidades</b> (IC) und <b>regional</b> (hält überall). Im Alfa und IC hat jeder einen <b>lugar marcado</b>: Wagen (<i>carruagem</i>) und Platz stehen auf dem Ticket.",
+     "Fragen: <i>A que horas parte o próximo comboio para Lisboa?</i> – <i>De que linha parte?</i> (linha = Gleis) – <i>É direto?</i>",
+     "Umsteigen: <b>mudar de comboio em</b> …: <i>Tem de mudar em Tunes.</i>",
+     "Präpositionen: <b>partir de</b>, <b>chegar a</b>, <b>ir para</b>: <i>O Alfa parte de Faro e chega a Lisboa às onze.</i>"
+    ],
+    "vergleich": "Deutsch „Gleis 2“ = <i>linha 2</i>; „Wagen 4, Platz 52“ = <i>carruagem 4, lugar 52</i>. Englisch „to change trains“ = <i>mudar de comboio</i>. Und wie im Deutschen „ankommen in“ – aber Portugiesisch <i>chegar <b>a</b></i>.",
+    "beispiele": [
+     {"pt": "A que horas parte o próximo comboio para Lisboa?", "de": "Um wie viel Uhr fährt der nächste Zug nach Lissabon?"},
+     {"pt": "Tem de mudar de comboio em Tunes.", "de": "Sie müssen in Tunes umsteigen."},
+     {"pt": "Temos lugar marcado na carruagem quatro.", "de": "Wir haben reservierte Plätze in Wagen vier."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A que horas ___ o próximo comboio para Lisboa?", "loesungen": ["parte", "sai"], "de": "Um wie viel Uhr fährt der nächste Zug nach Lissabon?", "kategorie": "Verben"},
+     {"typ": "luecke", "satz": "Tem de mudar de comboio ___ Tunes.", "loesungen": ["em"], "de": "Sie müssen in Tunes umsteigen.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "O Alfa chega ___ Lisboa às onze.", "loesungen": ["a"], "de": "Der Alfa kommt um elf in Lissabon an.", "erklaerung": "chegar a + Ort (nicht em).", "kategorie": "Präpositionen"},
+     {"typ": "auswahl", "frage": "Was ist „a carruagem“?", "optionen": ["der Bahnsteig", "der Wagen", "der Schaffner"], "richtig": 1},
+     {"typ": "auswahl", "frage": "Welcher Zug ist der schnellste?", "optionen": ["o regional", "o Intercidades", "o Alfa Pendular"], "richtig": 2, "kategorie": "Landeskunde"},
+     {"typ": "uebersetzen", "de": "Ist der Zug direkt?", "loesungen": ["O comboio é direto?", "É direto?"]},
+     {"typ": "uebersetzen", "de": "Zwei Fahrkarten nach Lissabon, hin und zurück, bitte.", "loesungen": ["Dois bilhetes para Lisboa, ida e volta, se faz favor.", "Dois bilhetes para Lisboa, ida e volta, por favor.", "Dois bilhetes de ida e volta para Lisboa, se faz favor.", "Dois bilhetes de ida e volta para Lisboa, por favor."]},
+     {"typ": "satzbau", "de": "Ich habe einen reservierten Platz in Wagen vier.", "loesung": "Tenho lugar marcado na carruagem quatro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na bilheteira – am Fahrkartenschalter",
+    "situation": "Stefan kauft am Bahnhof Lagos Fahrkarten nach Lissabon.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Dois bilhetes para Lisboa, para amanhã de manhã, se faz favor.", "de": "Guten Morgen. Zwei Fahrkarten nach Lissabon für morgen früh, bitte."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "De Lagos não há comboio direto. Têm de apanhar o regional até Tunes e lá mudar para o Intercidades.", "de": "Von Lagos gibt es keinen direkten Zug. Sie müssen den Regionalzug bis Tunes nehmen und dort in den Intercity umsteigen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A que horas parte o regional?", "de": "Um wie viel Uhr fährt der Regionalzug?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Às sete e cinco. Em Tunes, o Intercidades parte às oito e dez e chega a Lisboa às onze.", "de": "Um fünf nach sieben. In Tunes fährt der Intercity um zehn nach acht ab und kommt um elf in Lissabon an."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E temos lugares marcados?", "de": "Und haben wir reservierte Plätze?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Sim, na carruagem três, lugares quarenta e um e quarenta e dois. Boa viagem!", "de": "Ja, in Wagen drei, Plätze einundvierzig und zweiundvierzig. Gute Reise!"}
+    ],
+    "fragen": [
+     {"frage": "Wo müssen sie umsteigen?", "optionen": ["in Faro", "in Tunes", "in Lissabon"], "richtig": 1},
+     {"frage": "Wann kommen sie in Lissabon an?", "optionen": ["um elf", "um zehn nach acht", "um fünf nach sieben"], "richtig": 0},
+     {"frage": "In welchem Wagen sitzen sie?", "optionen": ["in Wagen eins", "in Wagen vier", "in Wagen drei"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "A que horas parte o próximo comboio para Lisboa?", "de": "Um wie viel Uhr fährt der nächste Zug nach Lissabon?"},
+     {"pt": "O comboio é direto?", "de": "Ist der Zug direkt?"},
+     {"pt": "Tem de mudar em Tunes.", "de": "Sie müssen in Tunes umsteigen."},
+     {"pt": "Estamos na carruagem três.", "de": "Wir sind in Wagen drei."},
+     {"pt": "O revisor pediu os bilhetes.", "de": "Der Schaffner hat die Fahrkarten verlangt."}
+    ]
+   },
+   "saetze": [
+    {"id": "proximo-comboio-lisboa", "pt": "A que horas parte o próximo comboio para Lisboa?", "de": "Um wie viel Uhr fährt der nächste Zug nach Lissabon?"},
+    {"id": "mudar-em-tunes", "pt": "Tem de mudar de comboio em Tunes.", "de": "Sie müssen in Tunes umsteigen."},
+    {"id": "lugar-marcado-carruagem", "pt": "Temos lugar marcado na carruagem quatro.", "de": "Wir haben reservierte Plätze in Wagen vier."}
+   ]
+  },
+  {
+   "id": "A2-06-L05",
+   "typ": "neu",
+   "titel": "Mit dem Auto: Mietwagen, Maut und Tankstelle",
+   "vokabeln": ["a-autoestrada", "a-via-verde", "a-bomba-de-gasolina", "atestar", "o-gasoleo", "alugar-um-carro", "o-seguro", "a-estrada-nacional"],
+   "grammatik": {
+    "titel": "Was man braucht: é preciso, não é preciso, é obrigatório",
+    "erklaerung": [
+     "<b>É preciso</b> + Infinitiv = man muss / es ist nötig: <i>É preciso pagar portagem.</i> Verneint: <b>não é preciso</b> = man muss nicht: <i>Com a Via Verde não é preciso parar.</i>",
+     "<b>É obrigatório</b> = es ist Pflicht: <i>É obrigatório ter seguro.</i>",
+     "Persönlich mit dem bekannten <b>ter de</b>: <i>Temos de atestar antes de devolver o carro.</i>",
+     "Algarve-Tipp: Auf der <b>A22</b> gibt es nur elektronische Mautstellen – beim Mietwagen fragt man nach der <i>Via Verde</i>. Die <b>EN125</b> (estrada nacional) ist gratis, aber langsamer.",
+     "An der Tankstelle: <i>Ateste, se faz favor.</i> (formeller Imperativ aus A2-05) – <i>gasóleo</i> = Diesel, <i>gasolina</i> = Benzin."
+    ],
+    "vergleich": "Deutsch „man muss nicht“ = <i>não é preciso</i> – nicht verwechseln mit „man darf nicht“ = <i>não se pode</i> oder <i>é proibido</i>. Englisch „you don't need to“ passt genau.",
+    "beispiele": [
+     {"pt": "Com a Via Verde não é preciso parar.", "de": "Mit der Via Verde muss man nicht anhalten."},
+     {"pt": "Queríamos alugar um carro por uma semana.", "de": "Wir möchten ein Auto für eine Woche mieten."},
+     {"pt": "A autoestrada é mais rápida do que a estrada nacional.", "de": "Die Autobahn ist schneller als die Nationalstraße."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Com a Via Verde não é ___ parar na portagem.", "loesungen": ["preciso"], "de": "Mit der Via Verde muss man an der Mautstelle nicht anhalten.", "kategorie": "Notwendigkeit"},
+     {"typ": "luecke", "satz": "É ___ ter seguro.", "loesungen": ["obrigatório"], "de": "Eine Versicherung ist Pflicht.", "kategorie": "Notwendigkeit"},
+     {"typ": "luecke", "satz": "___, se faz favor. (atestar, formell)", "loesungen": ["Ateste"], "de": "Volltanken, bitte.", "erklaerung": "Formeller Imperativ: eu atesto → ateste.", "kategorie": "Imperativ"},
+     {"typ": "auswahl", "frage": "„Diesel“", "optionen": ["a gasolina", "o gasóleo", "o óleo"], "richtig": 1},
+     {"typ": "auswahl", "frage": "„Man muss nicht anhalten.“", "optionen": ["Não se pode parar.", "É proibido parar.", "Não é preciso parar."], "richtig": 2, "erklaerung": "Não se pode / é proibido = man darf nicht.", "kategorie": "Notwendigkeit"},
+     {"typ": "uebersetzen", "de": "Wir möchten ein Auto für eine Woche mieten.", "loesungen": ["Queríamos alugar um carro por uma semana.", "Queríamos alugar um carro para uma semana.", "Gostávamos de alugar um carro por uma semana.", "Gostávamos de alugar um carro para uma semana.", "Queremos alugar um carro por uma semana."]},
+     {"typ": "uebersetzen", "de": "Wo ist die nächste Tankstelle?", "loesungen": ["Onde fica a bomba de gasolina mais próxima?", "Onde é a bomba de gasolina mais próxima?", "Onde fica a próxima bomba de gasolina?"]},
+     {"typ": "satzbau", "de": "Die Autobahn ist schneller als die Nationalstraße.", "loesung": "A autoestrada é mais rápida do que a estrada nacional."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Alugar um carro em Faro – ein Auto in Faro mieten",
+    "situation": "Stefan holt am Flughafen Faro einen Mietwagen ab.",
+    "zeilen": [
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Bom dia. Tem reserva?", "de": "Guten Morgen. Haben Sie reserviert?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tenho, em nome de Krenn. Um carro para cinco dias.", "de": "Ja, auf den Namen Krenn. Ein Auto für fünf Tage."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Muito bem. Quer o seguro contra todos os riscos? São mais doze euros por dia.", "de": "Sehr gut. Möchten Sie die Vollkaskoversicherung? Das sind zwölf Euro mehr pro Tag."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, quero. E o carro tem Via Verde?", "de": "Ja, gern. Und hat das Auto eine Via Verde?"},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Tem, sim. Na A22 é preciso, porque só há portagens eletrónicas.", "de": "Ja, hat es. Auf der A22 braucht man sie, weil es nur elektronische Mautstellen gibt."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "O carro é a gasóleo e está atestado. Devolva-o também atestado, se faz favor.", "de": "Das Auto fährt mit Diesel und ist vollgetankt. Geben Sie es bitte auch vollgetankt zurück."}
+    ],
+    "fragen": [
+     {"frage": "Für wie lange mietet Stefan das Auto?", "optionen": ["für fünf Tage", "für eine Woche", "für drei Tage"], "richtig": 0},
+     {"frage": "Was kostet die Vollkaskoversicherung extra?", "optionen": ["zehn Euro pro Tag", "zwölf Euro pro Tag", "zwanzig Euro insgesamt"], "richtig": 1},
+     {"frage": "Wie muss Stefan das Auto zurückgeben?", "optionen": ["gewaschen", "am Flughafen Lissabon", "vollgetankt"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du tankst an einer Tankstelle bei Portimão und fragst nach dem Weg.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Bom dia. Gasolina ou gasóleo?", "de": "Guten Morgen. Benzin oder Diesel?"},
+     {"ich": true, "aufgabe": "Sag: Diesel. Volltanken, bitte.", "loesungen": ["Gasóleo. Ateste, se faz favor.", "Gasóleo. Ateste, por favor.", "Gasóleo, ateste, se faz favor.", "Gasóleo. Atestar, se faz favor."]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Muito bem. Mais alguma coisa?", "de": "Sehr gut. Sonst noch etwas?"},
+     {"ich": true, "aufgabe": "Frag: Ist das der Weg zur Autobahn?", "loesungen": ["É este o caminho para a autoestrada?", "Este é o caminho para a autoestrada?", "É por aqui para a autoestrada?"]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "É, sim. Siga em frente e, na rotunda, vire à direita.", "de": "Ja. Fahren Sie geradeaus und biegen Sie am Kreisverkehr rechts ab."},
+     {"ich": true, "aufgabe": "Frag: Braucht man eine Via Verde?", "loesungen": ["É preciso Via Verde?", "É preciso ter Via Verde?", "É preciso ter a Via Verde?", "Preciso de Via Verde?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "via-verde-nao-e-preciso", "pt": "Com a Via Verde não é preciso parar.", "de": "Mit der Via Verde muss man nicht anhalten."},
+    {"id": "alugar-carro-semana", "pt": "Queríamos alugar um carro por uma semana.", "de": "Wir möchten ein Auto für eine Woche mieten."},
+    {"id": "ateste-se-faz-favor", "pt": "Ateste, se faz favor.", "de": "Volltanken, bitte."}
+   ]
+  },
+  {
+   "id": "A2-06-L06",
+   "typ": "neu",
+   "titel": "Die Unterkunft: Zimmer buchen",
+   "vokabeln": ["o-alojamento-local", "a-pousada", "o-check-in", "o-pequeno-almoco-incluido", "o-quarto-duplo", "a-rececao", "por-noite", "a-vaga"],
+   "grammatik": {
+    "titel": "Zimmer buchen: de … a …, por noite, está incluído?",
+    "erklaerung": [
+     "Zeitraum: <b>de</b> … <b>a</b> …: <i>de 10 a 12 de junho</i> (Monate klein!). Dauer: <b>para</b> oder <b>por</b> + Nächte: <i>um quarto para duas noites</i>.",
+     "Preis: <b>por noite</b>, <b>por pessoa</b>: <i>São noventa euros por noite.</i>",
+     "Was ist dabei? <i>O pequeno-almoço está incluído?</i> – <b>incluído</b> passt sich an: <i>As toalhas estão incluídas.</i>",
+     "Uhrzeiten: <i>O check-in é a partir das três. O check-out é até ao meio-dia.</i>",
+     "<b>alojamento local</b> (AL): Ferienwohnungen und Zimmer mit Lizenz. <b>pousada</b>: Hotel in einer Burg, einem Kloster oder Palast."
+    ],
+    "vergleich": "Deutsch „vom 10. bis 12. Juni“ = <i>de 10 a 12 de junho</i>; Englisch „per night“ = <i>por noite</i>. Achtung: <i>livre</i> geht auch, aber an der Rezeption hört man meist <i>disponível</i>.",
+    "beispiele": [
+     {"pt": "Tem quartos disponíveis de 10 a 12 de junho?", "de": "Haben Sie vom 10. bis 12. Juni Zimmer frei?"},
+     {"pt": "São noventa euros por noite, com pequeno-almoço incluído.", "de": "Das sind neunzig Euro pro Nacht, mit Frühstück."},
+     {"pt": "O check-in é a partir das três.", "de": "Der Check-in ist ab drei Uhr."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Queria um quarto duplo ___ duas noites.", "loesungen": ["para", "por"], "de": "Ich hätte gern ein Doppelzimmer für zwei Nächte.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "São oitenta euros ___ noite.", "loesungen": ["por"], "de": "Das sind achtzig Euro pro Nacht.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "O pequeno-almoço está ___ no preço?", "loesungen": ["incluído"], "de": "Ist das Frühstück im Preis inbegriffen?"},
+     {"typ": "auswahl", "frage": "„vom 3. bis 5. Mai“", "optionen": ["de 3 até 5 de Maio", "de 3 a 5 de maio", "desde 3 a 5 maio"], "richtig": 1, "erklaerung": "de … a …; Monate schreibt man klein.", "kategorie": "Datum"},
+     {"typ": "auswahl", "frage": "Was ist eine „pousada“?", "optionen": ["ein Campingplatz", "ein Bauernhof", "ein Hotel in einem historischen Gebäude"], "richtig": 2, "kategorie": "Landeskunde"},
+     {"typ": "uebersetzen", "de": "Haben Sie für Samstag Zimmer frei?", "loesungen": ["Tem quartos disponíveis para sábado?", "Há quartos disponíveis para sábado?", "Tem quartos livres para sábado?", "Tem algum quarto disponível para sábado?"]},
+     {"typ": "uebersetzen", "de": "Ab wann ist der Check-in?", "loesungen": ["A partir de que horas é o check-in?", "O check-in é a partir de que horas?", "A que horas é o check-in?"]},
+     {"typ": "satzbau", "de": "Lassen Sie den Schlüssel an der Rezeption.", "loesung": "Deixe a chave na receção."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um quarto no Porto – ein Zimmer in Porto",
+    "situation": "Stefan ruft bei einer Ferienunterkunft an der Ribeira in Porto an.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Tem quartos disponíveis de dez a doze de junho?", "de": "Guten Tag. Haben Sie vom zehnten bis zwölften Juni Zimmer frei?"},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Deixe-me ver… Tenho um quarto duplo com vista para o rio.", "de": "Lassen Sie mich sehen … Ich habe ein Doppelzimmer mit Blick auf den Fluss."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quanto custa por noite?", "de": "Was kostet es pro Nacht?"},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "São cento e dez euros por noite, com pequeno-almoço incluído.", "de": "Das sind hundertzehn Euro pro Nacht, mit Frühstück."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo, fico com ele. E a que horas é o check-in?", "de": "Super, ich nehme es. Und um wie viel Uhr ist der Check-in?"},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "A partir das três. A receção está aberta até às dez da noite.", "de": "Ab drei Uhr. Die Rezeption ist bis zehn Uhr abends geöffnet."}
+    ],
+    "fragen": [
+     {"frage": "Für welche Daten fragt Stefan?", "optionen": ["10. bis 12. Juni", "10. bis 12. Juli", "2. bis 4. Juni"], "richtig": 0},
+     {"frage": "Was kostet das Zimmer?", "optionen": ["90 € pro Nacht", "110 € pro Nacht mit Frühstück", "110 € pro Nacht ohne Frühstück"], "richtig": 1},
+     {"frage": "Bis wann ist die Rezeption geöffnet?", "optionen": ["bis 15 Uhr", "bis Mitternacht", "bis 22 Uhr"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib eine kurze Anfrage auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich hätte gern ein Doppelzimmer für zwei Nächte.", "loesungen": ["Queria um quarto duplo para duas noites.", "Queria um quarto duplo por duas noites.", "Gostava de um quarto duplo para duas noites.", "Gostaria de um quarto duplo para duas noites."]},
+     {"de": "Haben Sie vom 10. bis 12. Juni Zimmer frei?", "loesungen": ["Tem quartos disponíveis de 10 a 12 de junho?", "Tem quartos disponíveis de dez a doze de junho?", "Há quartos disponíveis de 10 a 12 de junho?", "Tem quartos livres de 10 a 12 de junho?"]},
+     {"de": "Was kostet es pro Nacht?", "loesungen": ["Quanto custa por noite?", "Quanto é por noite?"]},
+     {"de": "Ist das Frühstück inbegriffen?", "loesungen": ["O pequeno-almoço está incluído?", "O pequeno-almoço é incluído?", "Está incluído o pequeno-almoço?"]},
+     {"de": "Ab wann ist der Check-in?", "loesungen": ["A partir de que horas é o check-in?", "O check-in é a partir de que horas?", "A que horas é o check-in?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "quartos-disponiveis", "pt": "Tem quartos disponíveis de 10 a 12 de junho?", "de": "Haben Sie vom 10. bis 12. Juni Zimmer frei?"},
+    {"id": "noventa-euros-por-noite", "pt": "São noventa euros por noite, com pequeno-almoço incluído.", "de": "Das sind neunzig Euro pro Nacht, mit Frühstück."},
+    {"id": "check-in-a-partir", "pt": "O check-in é a partir das três.", "de": "Der Check-in ist ab drei Uhr."}
+   ]
+  },
+  {
+   "id": "A2-06-L07",
+   "typ": "neu",
+   "titel": "Sehenswürdigkeiten: vale a pena!",
+   "vokabeln": ["o-miradouro", "o-castelo", "o-mosteiro", "a-visita-guiada", "o-museu", "o-centro-historico", "o-guia"],
+   "grammatik": {
+    "titel": "Empfehlungen: vale a pena, dá para, não perca",
+    "erklaerung": [
+     "<b>vale a pena</b> + Infinitiv = es lohnt sich: <i>Vale a pena visitar o Mosteiro da Batalha.</i> Frage: <i>Vale a pena?</i>",
+     "<b>dá para</b> + Infinitiv = man kann, es ist möglich – sehr typisch im Gespräch: <i>Do miradouro dá para ver o rio.</i>",
+     "<b>Não perca …!</b> = Verpassen Sie … nicht! – verneinter formeller Imperativ (perder: eu perco → perca; Plural: não percam).",
+     "Praktische Fragen: <i>A que horas abre o museu? Quanto custa a entrada? Há visita guiada em inglês?</i>"
+    ],
+    "vergleich": "Deutsch „es lohnt sich“ = <i>vale a pena</i> (wörtlich „es ist die Mühe wert“), Englisch „it's worth it“. Für <i>dá para</i> gibt es keine wörtliche Entsprechung – am ehesten „man kann“.",
+    "beispiele": [
+     {"pt": "Vale a pena visitar o castelo de Silves.", "de": "Es lohnt sich, die Burg von Silves zu besichtigen."},
+     {"pt": "Do miradouro dá para ver a cidade toda.", "de": "Vom Aussichtspunkt kann man die ganze Stadt sehen."},
+     {"pt": "Não percam a visita guiada!", "de": "Verpassen Sie die Führung nicht!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Vale a ___ visitar o castelo.", "loesungen": ["pena"], "de": "Es lohnt sich, die Burg zu besichtigen."},
+     {"typ": "luecke", "satz": "Do miradouro ___ para ver o mar.", "loesungen": ["dá"], "de": "Vom Aussichtspunkt kann man das Meer sehen."},
+     {"typ": "luecke", "satz": "Não ___ a visita guiada! (perder, formell)", "loesungen": ["perca"], "de": "Verpassen Sie die Führung nicht!", "erklaerung": "eu perco → perca.", "kategorie": "Imperativ"},
+     {"typ": "auswahl", "frage": "„Wann öffnet das Museum?“", "optionen": ["A que horas abre o museu?", "Quando abre-se o museu?", "A que hora abre-se o museu?"], "richtig": 0},
+     {"typ": "auswahl", "frage": "„Lohnt es sich?“", "optionen": ["Vale o preço?", "Vale a pena?", "Dá pena?"], "richtig": 1},
+     {"typ": "uebersetzen", "de": "Die Führung beginnt um zehn.", "loesungen": ["A visita guiada começa às dez.", "A visita guiada começa às dez horas."]},
+     {"typ": "uebersetzen", "de": "Was für eine schöne Aussicht!", "loesungen": ["Que vista bonita!", "Que vista linda!", "Que bela vista!", "Que vista tão bonita!"]},
+     {"typ": "satzbau", "de": "Es lohnt sich, das Kloster zu besuchen.", "loesung": "Vale a pena visitar o mosteiro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um dia em Belém – ein Tag in Belém",
+    "situation": "Stefan und Ana machen in Lissabon eine Führung.",
+    "zeilen": [
+     {"sprecher": "Guia", "stimme": "m", "pt": "Bom dia! Bem-vindos a Belém. Este é o Mosteiro dos Jerónimos.", "de": "Guten Morgen! Willkommen in Belém. Das ist das Hieronymus-Kloster."},
+     {"sprecher": "Guia", "stimme": "m", "pt": "A visita guiada demora uma hora. Depois, vale a pena ir à Torre de Belém.", "de": "Die Führung dauert eine Stunde. Danach lohnt es sich, zum Turm von Belém zu gehen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Desculpe, a que horas fecha o mosteiro?", "de": "Entschuldigung, um wie viel Uhr schließt das Kloster?"},
+     {"sprecher": "Guia", "stimme": "m", "pt": "Às seis e meia. E não percam os pastéis de Belém, aqui ao lado!", "de": "Um halb sieben. Und verpassen Sie nicht die Pastéis de Belém, gleich hier nebenan!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E à noite, onde há uma boa vista sobre a cidade?", "de": "Und abends, wo hat man einen schönen Blick über die Stadt?"},
+     {"sprecher": "Guia", "stimme": "m", "pt": "Vão ao Miradouro da Senhora do Monte. Dá para ver o castelo e o rio.", "de": "Gehen Sie zum Aussichtspunkt Senhora do Monte. Von dort sieht man die Burg und den Fluss."}
+    ],
+    "fragen": [
+     {"frage": "Wie lange dauert die Führung?", "optionen": ["eine Stunde", "zwei Stunden", "eine halbe Stunde"], "richtig": 0},
+     {"frage": "Wann schließt das Kloster?", "optionen": ["um sechs", "um halb sieben", "um sieben"], "richtig": 1},
+     {"frage": "Was sieht man vom Miradouro da Senhora do Monte?", "optionen": ["das Meer und die Brücke", "das Kloster", "die Burg und den Fluss"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist in der Touristeninformation von Silves.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Bom dia, em que posso ajudar?", "de": "Guten Morgen, wie kann ich helfen?"},
+     {"ich": true, "aufgabe": "Frag: Lohnt es sich, die Burg zu besichtigen?", "loesungen": ["Vale a pena visitar o castelo?"]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Vale muito a pena! E do castelo dá para ver a cidade toda.", "de": "Das lohnt sich sehr! Und von der Burg aus sieht man die ganze Stadt."},
+     {"ich": true, "aufgabe": "Frag: Gibt es eine Führung auf Englisch?", "loesungen": ["Há visita guiada em inglês?", "Há uma visita guiada em inglês?", "Tem visita guiada em inglês?", "Tem uma visita guiada em inglês?"]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Há, às onze e às três.", "de": "Ja, um elf und um drei."},
+     {"ich": true, "aufgabe": "Frag: Wie viel kostet der Eintritt?", "loesungen": ["Quanto custa a entrada?", "Quanto é a entrada?", "Quanto custa o bilhete?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "vale-a-pena-visitar", "pt": "Vale a pena visitar o castelo de Silves.", "de": "Es lohnt sich, die Burg von Silves zu besichtigen."},
+    {"id": "da-para-ver", "pt": "Do miradouro dá para ver a cidade toda.", "de": "Vom Aussichtspunkt kann man die ganze Stadt sehen."},
+    {"id": "visita-guiada-ingles", "pt": "Há visita guiada em inglês?", "de": "Gibt es eine Führung auf Englisch?"}
+   ]
+  },
+  {
+   "id": "A2-06-L08",
+   "typ": "neu",
+   "titel": "Pannen unterwegs",
+   "vokabeln": ["perder-o-comboio", "o-voo", "cancelado", "a-mala-extraviada", "a-greve", "a-bagagem", "o-aeroporto"],
+   "grammatik": {
+    "titel": "Pannen erzählen: perdi, foi cancelado, vou pedir",
+    "erklaerung": [
+     "Was passiert ist, steht im <b>perfeito</b>: <i>Perdi o comboio. O avião chegou atrasado.</i>",
+     "<b>foi</b> + Partizip = „wurde …“ (Passiv – hier nur zum Erkennen): <i>O voo foi cancelado. A minha mala foi extraviada.</i> Das Partizip passt sich an: cancelad<b>o</b>, extraviad<b>a</b>.",
+     "Was jetzt? Mit <b>ir + Infinitiv</b>: <i>Vou pedir o reembolso. Vamos apanhar o próximo comboio.</i>",
+     "Hilfe holen: <i>O que é que eu faço agora? – Tenho direito a reembolso? – Onde posso reclamar?</i>"
+    ],
+    "vergleich": "Deutsch „Der Flug wurde gestrichen“ = <i>O voo foi cancelado</i> – fast wörtlich (werden ↔ ser). Englisch „was cancelled“ funktioniert genauso.",
+    "beispiele": [
+     {"pt": "O nosso voo foi cancelado.", "de": "Unser Flug wurde gestrichen."},
+     {"pt": "Perdi o comboio das oito.", "de": "Ich habe den Zug um acht verpasst."},
+     {"pt": "Vou pedir o reembolso do bilhete.", "de": "Ich werde die Erstattung der Fahrkarte beantragen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O voo foi ___. (cancelar)", "loesungen": ["cancelado"], "de": "Der Flug wurde gestrichen.", "kategorie": "Passiv"},
+     {"typ": "luecke", "satz": "A minha mala foi ___. (extraviar)", "loesungen": ["extraviada"], "de": "Mein Koffer ist verloren gegangen.", "erklaerung": "mala ist weiblich → extraviada.", "kategorie": "Passiv"},
+     {"typ": "luecke", "satz": "Ontem eu ___ o comboio das oito. (perder)", "loesungen": ["perdi"], "de": "Gestern habe ich den Zug um acht verpasst.", "kategorie": "Perfeito"},
+     {"typ": "auswahl", "frage": "„Morgen wird bei der CP gestreikt.“", "optionen": ["Amanhã há greve na CP.", "Amanhã está greve na CP.", "Amanhã faz greve na CP."], "richtig": 0},
+     {"typ": "auswahl", "frage": "„Ich werde die Erstattung beantragen.“ (im Gespräch)", "optionen": ["Pedirei o reembolso.", "Vou pedir o reembolso.", "Pedi o reembolso."], "richtig": 1, "erklaerung": "Im Gespräch klingt ir + Infinitiv natürlicher als das futuro.", "kategorie": "Futur"},
+     {"typ": "uebersetzen", "de": "Unser Flug wurde gestrichen.", "loesungen": ["O nosso voo foi cancelado."]},
+     {"typ": "uebersetzen", "de": "Was mache ich jetzt?", "loesungen": ["O que é que eu faço agora?", "O que faço agora?", "E agora, o que faço?", "O que é que faço agora?"]},
+     {"typ": "satzbau", "de": "Wir haben den letzten Zug verpasst.", "loesung": "Perdemos o último comboio."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A mala não chegou – der Koffer ist nicht da",
+    "situation": "Ana und Stefan kommen aus Deutschland am Flughafen Faro an. Anas Koffer fehlt.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, a minha mala não aparece!", "de": "Stefan, mein Koffer kommt nicht!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Calma. Vamos perguntar no balcão de informações.", "de": "Ruhig. Wir fragen am Informationsschalter."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "A sua mala foi extraviada em Frankfurt. Chegará amanhã no primeiro voo.", "de": "Ihr Koffer ist in Frankfurt verloren gegangen. Er wird morgen mit dem ersten Flug ankommen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Amanhã? E o que é que eu faço hoje? Tenho tudo na mala!", "de": "Morgen? Und was mache ich heute? Ich habe alles im Koffer!"},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Pode comprar o essencial. Guarde as faturas para pedir o reembolso.", "de": "Sie können das Nötigste kaufen. Heben Sie die Rechnungen auf, um die Erstattung zu beantragen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E vão levar a mala a nossa casa, em Lagos?", "de": "Und bringen Sie den Koffer zu uns nach Hause, nach Lagos?"},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Sim, a companhia aérea leva a mala a casa.", "de": "Ja, die Fluggesellschaft bringt den Koffer nach Hause."}
+    ],
+    "fragen": [
+     {"frage": "Wo ist Anas Koffer?", "optionen": ["in Frankfurt geblieben", "in Lissabon", "gestohlen"], "richtig": 0},
+     {"frage": "Wann kommt der Koffer?", "optionen": ["heute Abend", "morgen mit dem ersten Flug", "in einer Woche"], "richtig": 1},
+     {"frage": "Was soll Ana aufheben?", "optionen": ["die Bordkarte", "den Koffer", "die Rechnungen"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Perdi o comboio das oito.", "de": "Ich habe den Zug um acht verpasst."},
+     {"pt": "O nosso voo foi cancelado.", "de": "Unser Flug wurde gestrichen."},
+     {"pt": "A minha mala foi extraviada.", "de": "Mein Koffer ist verloren gegangen."},
+     {"pt": "Amanhã há greve na CP.", "de": "Morgen wird bei der CP gestreikt."},
+     {"pt": "Vou pedir o reembolso.", "de": "Ich werde die Erstattung beantragen."}
+    ]
+   },
+   "saetze": [
+    {"id": "voo-foi-cancelado", "pt": "O nosso voo foi cancelado.", "de": "Unser Flug wurde gestrichen."},
+    {"id": "mala-foi-extraviada", "pt": "A minha mala foi extraviada.", "de": "Mein Koffer ist verloren gegangen."},
+    {"id": "vou-pedir-reembolso", "pt": "Vou pedir o reembolso do bilhete.", "de": "Ich werde die Erstattung der Fahrkarte beantragen."}
+   ]
+  },
+  {"id": "A2-06-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-06-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Uma viagem ao Porto – eine Reise nach Porto",
+   "situation": "Pedro, der gerade in Porto arbeitet, telefoniert mit Stefan.",
+   "zeilen": [
+    {"sprecher": "Pedro", "stimme": "m", "pt": "Então, Stefan, quando vêm ao Porto?", "de": "Na, Stefan, wann kommt ihr nach Porto?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Vamos no sábado. Queríamos ir de comboio, mas há greve na CP.", "de": "Wir fahren am Samstag. Wir wollten mit dem Zug fahren, aber bei der CP wird gestreikt."},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "Que azar! E agora?", "de": "So ein Pech! Und jetzt?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Vamos alugar um carro. Pela autoestrada são cerca de seis horas.", "de": "Wir mieten ein Auto. Über die Autobahn sind es etwa sechs Stunden."},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "E já têm onde ficar?", "de": "Und habt ihr schon eine Unterkunft?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Já. Reservámos um alojamento local na Ribeira, com pequeno-almoço incluído.", "de": "Ja. Wir haben eine Ferienunterkunft an der Ribeira gebucht, mit Frühstück."},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "Ótimo! No domingo levo-vos ao miradouro da Serra do Pilar. Dá para ver a cidade toda.", "de": "Super! Am Sonntag bringe ich euch zum Aussichtspunkt Serra do Pilar. Von dort sieht man die ganze Stadt."}
+   ],
+   "fragen": [
+    {"frage": "Warum fahren sie nicht mit dem Zug?", "optionen": ["Der Zug ist zu teuer.", "Bei der CP wird gestreikt.", "Es gibt keinen Zug nach Porto."], "richtig": 1},
+    {"frage": "Wie lange dauert die Fahrt ungefähr?", "optionen": ["sechs Stunden", "drei Stunden", "zehn Stunden"], "richtig": 0},
+    {"frage": "Wo übernachten sie?", "optionen": ["in einer Pousada", "bei Pedro", "in einer Ferienunterkunft an der Ribeira"], "richtig": 2},
+    {"frage": "Was machen sie am Sonntag?", "optionen": ["Sie besuchen ein Museum.", "Sie gehen zu einem Aussichtspunkt.", "Sie fahren zurück."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Programa: fim de semana em Évora – Reiseprogramm",
+   "situation": "Ana liest das Programm einer Wochenendreise.",
+   "text": [
+    "Sábado: A partida de Lagos será às oito horas, em frente à câmara municipal. A viagem durará cerca de três horas.",
+    "À chegada, faremos uma visita guiada ao centro histórico: a Sé, o Templo Romano e a Capela dos Ossos.",
+    "À noite, jantaremos num restaurante típico. O alojamento será numa pousada, num antigo convento, com pequeno-almoço incluído.",
+    "Domingo: Teremos a manhã livre. O regresso a Lagos está previsto para as seis da tarde. Preço: 240 euros por pessoa."
+   ],
+   "fragen": [
+    {"frage": "Wo beginnt die Reise?", "optionen": ["vor dem Rathaus", "am Bahnhof", "am Hafen"], "richtig": 0},
+    {"frage": "Wo übernachten die Reisenden?", "optionen": ["in einer Ferienwohnung", "in einem modernen Hotel", "in einer Pousada in einem alten Kloster"], "richtig": 2},
+    {"frage": "Was ist am Sonntagvormittag?", "optionen": ["eine Führung", "freie Zeit", "die Rückfahrt"], "richtig": 1},
+    {"frage": "Was ist im Preis inbegriffen?", "optionen": ["das Frühstück", "alle Abendessen", "die Museumseintritte"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Nächsten Monat fahren wir in den Norden.", "loesungen": ["No próximo mês vamos ao Norte.", "Vamos ao Norte no próximo mês.", "No próximo mês vamos para o Norte.", "Vamos para o Norte no próximo mês."]},
+   {"de": "Am nächsten Tag werden wir die Burg besichtigen. (futuro)", "loesungen": ["No dia seguinte, visitaremos o castelo.", "No dia seguinte visitaremos o castelo.", "Visitaremos o castelo no dia seguinte."]},
+   {"de": "Sie müssen in Tunes umsteigen. (formell)", "loesungen": ["Tem de mudar em Tunes.", "Tem de mudar de comboio em Tunes.", "Tem que mudar em Tunes.", "Tem que mudar de comboio em Tunes."]},
+   {"de": "Haben Sie für Samstag Zimmer frei?", "loesungen": ["Tem quartos disponíveis para sábado?", "Há quartos disponíveis para sábado?", "Tem quartos livres para sábado?"]},
+   {"de": "Es lohnt sich, das Kloster zu besichtigen.", "loesungen": ["Vale a pena visitar o mosteiro."]},
+   {"de": "Unser Flug wurde gestrichen.", "loesungen": ["O nosso voo foi cancelado."]}
+  ],
+  "sprechen": [
+   {"pt": "Amanhã vou fazer as malas.", "de": "Morgen packe ich die Koffer."},
+   {"pt": "Serão umas oito horas.", "de": "Es wird wohl so acht Uhr sein."},
+   {"pt": "A que horas parte o próximo comboio para Lisboa?", "de": "Um wie viel Uhr fährt der nächste Zug nach Lissabon?"},
+   {"pt": "Com a Via Verde não é preciso parar.", "de": "Mit der Via Verde muss man nicht anhalten."},
+   {"pt": "Do miradouro dá para ver a cidade toda.", "de": "Vom Aussichtspunkt kann man die ganze Stadt sehen."}
+  ]
+ }
+}

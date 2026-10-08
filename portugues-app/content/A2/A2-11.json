@@ -1,0 +1,648 @@
+{
+ "id": "A2-11",
+ "level": "A2",
+ "titel": "O Algarve e a natureza – Umwelt und Freizeit",
+ "beschreibung": "Landschaft, Tiere und Freizeit in der Algarve: Mais-que-perfeito composto (tinha feito), unregelmäßige Partizipien, Umwelt, regionale Akzente sowie Märkte und Traditionen.",
+ "vokabeln": [
+  {"id": "a-serra", "pt": "a serra", "de": "das Gebirge / die Bergkette", "emoji": "⛰️", "beispiel_pt": "A Serra de Monchique fica a norte de Portimão.", "beispiel_de": "Die Serra de Monchique liegt nördlich von Portimão."},
+  {"id": "a-ria", "pt": "a ria", "de": "die Lagune / die Ria", "emoji": "🌊", "beispiel_pt": "A Ria Formosa é um parque natural.", "beispiel_de": "Die Ria Formosa ist ein Naturpark.", "hinweis": "In der Algarve: Ria Formosa (zwischen Faro und Tavira), Ria de Alvor (bei Portimão)"},
+  {"id": "a-falesia", "pt": "a falésia", "de": "die Steilküste / die Klippe", "emoji": "🪨", "beispiel_pt": "As falésias da Ponta da Piedade são lindas.", "beispiel_de": "Die Klippen der Ponta da Piedade sind wunderschön."},
+  {"id": "a-gruta", "pt": "a gruta", "de": "die Grotte / die Höhle", "emoji": "🕳️", "beispiel_pt": "Visitámos a gruta de Benagil.", "beispiel_de": "Wir haben die Grotte von Benagil besucht."},
+  {"id": "o-barlavento", "pt": "o barlavento", "de": "der Westen der Algarve (wörtl. Luv)", "emoji": "⬅️", "beispiel_pt": "Lagos fica no barlavento.", "beispiel_de": "Lagos liegt im Westen der Algarve.", "hinweis": "Barlavento: etwa Sagres, Lagos, Portimão, Albufeira"},
+  {"id": "o-sotavento", "pt": "o sotavento", "de": "der Osten der Algarve (wörtl. Lee)", "emoji": "➡️", "beispiel_pt": "Tavira fica no sotavento.", "beispiel_de": "Tavira liegt im Osten der Algarve.", "hinweis": "Sotavento: etwa Faro, Olhão, Tavira, Vila Real de Santo António"},
+  {"id": "a-paisagem", "pt": "a paisagem", "de": "die Landschaft", "emoji": "🏞️", "beispiel_pt": "Que paisagem tão bonita!", "beispiel_de": "Was für eine schöne Landschaft!"},
+  {"id": "a-costa", "pt": "a costa", "de": "die Küste", "emoji": "🏖️", "beispiel_pt": "A Costa Vicentina é muito selvagem.", "beispiel_de": "Die Costa Vicentina ist sehr wild."},
+
+  {"id": "a-cegonha", "pt": "a cegonha", "de": "der Storch", "emoji": "🐦", "beispiel_pt": "As cegonhas fazem ninhos nas chaminés.", "beispiel_de": "Die Störche bauen Nester auf den Schornsteinen."},
+  {"id": "o-flamingo", "pt": "o flamingo", "de": "der Flamingo", "emoji": "🦩", "beispiel_pt": "Na Ria Formosa vimos flamingos.", "beispiel_de": "In der Ria Formosa haben wir Flamingos gesehen."},
+  {"id": "a-amendoeira", "pt": "a amendoeira", "de": "der Mandelbaum", "emoji": "🌸", "beispiel_pt": "Em fevereiro, as amendoeiras estão em flor.", "beispiel_de": "Im Februar blühen die Mandelbäume.", "hinweis": "a amêndoa = die Mandel; em flor = in Blüte"},
+  {"id": "a-alfarrobeira", "pt": "a alfarrobeira", "de": "der Johannisbrotbaum", "emoji": "🌳", "beispiel_pt": "A alfarrobeira é uma árvore típica do Algarve.", "beispiel_de": "Der Johannisbrotbaum ist ein typischer Baum der Algarve.", "hinweis": "a alfarroba = das Johannisbrot"},
+  {"id": "o-sobreiro", "pt": "o sobreiro", "de": "die Korkeiche", "emoji": "🌲", "beispiel_pt": "Na serra há muitos sobreiros.", "beispiel_de": "In den Bergen gibt es viele Korkeichen."},
+  {"id": "a-cortica", "pt": "a cortiça", "de": "der Kork", "emoji": "🍾", "beispiel_pt": "Portugal produz muita cortiça.", "beispiel_de": "Portugal produziert viel Kork."},
+  {"id": "o-ninho", "pt": "o ninho", "de": "das Nest", "emoji": "🪺", "beispiel_pt": "Há um ninho de cegonha na torre da igreja.", "beispiel_de": "Auf dem Kirchturm gibt es ein Storchennest."},
+
+  {"id": "ja-tinha", "pt": "já tinha", "de": "hatte schon / war schon", "emoji": "✅", "beispiel_pt": "Quando cheguei, o barco já tinha partido.", "beispiel_de": "Als ich ankam, war das Boot schon abgefahren."},
+  {"id": "ainda-nao-tinha", "pt": "ainda não tinha", "de": "hatte noch nicht", "emoji": "⏳", "beispiel_pt": "Em 2020 ainda não tinha visitado o Algarve.", "beispiel_de": "2020 hatte ich die Algarve noch nicht besucht."},
+  {"id": "nessa-altura", "pt": "nessa altura", "de": "damals / zu dem Zeitpunkt", "emoji": "🕰️", "beispiel_pt": "Nessa altura, morávamos em Viena.", "beispiel_de": "Damals wohnten wir in Wien."},
+  {"id": "a-mare", "pt": "a maré", "de": "die Gezeiten / der Wasserstand", "emoji": "🌊", "beispiel_pt": "A maré está baixa.", "beispiel_de": "Es ist Ebbe.", "hinweis": "a maré alta = die Flut, a maré baixa = die Ebbe"},
+  {"id": "a-onda", "pt": "a onda", "de": "die Welle", "emoji": "🌊", "beispiel_pt": "Hoje as ondas estão muito grandes.", "beispiel_de": "Heute sind die Wellen sehr hoch."},
+  {"id": "o-nascer-do-sol", "pt": "o nascer do sol", "de": "der Sonnenaufgang", "emoji": "🌅", "beispiel_pt": "Acordámos cedo para ver o nascer do sol.", "beispiel_de": "Wir sind früh aufgewacht, um den Sonnenaufgang zu sehen.", "hinweis": "Gegenteil: o pôr do sol (der Sonnenuntergang)"},
+  {"id": "o-farol", "pt": "o farol", "de": "der Leuchtturm", "emoji": "🗼", "beispiel_pt": "O farol do Cabo de São Vicente é famoso.", "beispiel_de": "Der Leuchtturm am Cabo de São Vicente ist berühmt."},
+
+  {"id": "feito", "pt": "feito", "de": "gemacht (Partizip von fazer)", "emoji": "🛠️", "beispiel_pt": "Já tinha feito a reserva.", "beispiel_de": "Ich hatte die Reservierung schon gemacht."},
+  {"id": "dito", "pt": "dito", "de": "gesagt (Partizip von dizer)", "emoji": "💬", "beispiel_pt": "A Ana já me tinha dito.", "beispiel_de": "Ana hatte es mir schon gesagt."},
+  {"id": "visto", "pt": "visto", "de": "gesehen (Partizip von ver)", "emoji": "👀", "beispiel_pt": "Nunca tinha visto golfinhos.", "beispiel_de": "Ich hatte noch nie Delfine gesehen.", "hinweis": "o visto = auch: das Visum"},
+  {"id": "escrito", "pt": "escrito", "de": "geschrieben (Partizip von escrever)", "emoji": "✍️", "beispiel_pt": "Ele tinha escrito um postal.", "beispiel_de": "Er hatte eine Postkarte geschrieben."},
+  {"id": "posto", "pt": "posto", "de": "gelegt / gestellt (Partizip von pôr)", "emoji": "📥", "beispiel_pt": "Tinha posto o chapéu na mochila.", "beispiel_de": "Ich hatte den Hut in den Rucksack gesteckt."},
+  {"id": "vindo", "pt": "vindo", "de": "gekommen (Partizip von vir)", "emoji": "🚶", "beispiel_pt": "Os meus pais tinham vindo de Viena.", "beispiel_de": "Meine Eltern waren aus Wien gekommen.", "hinweis": "vir → vindo"},
+  {"id": "o-postal", "pt": "o postal", "de": "die Postkarte", "emoji": "📮", "beispiel_pt": "Escrevi um postal aos meus pais.", "beispiel_de": "Ich habe meinen Eltern eine Postkarte geschrieben."},
+
+  {"id": "andar-de-caiaque", "pt": "andar de caiaque", "de": "Kajak fahren", "emoji": "🛶", "beispiel_pt": "Andámos de caiaque até às grutas.", "beispiel_de": "Wir sind mit dem Kajak bis zu den Grotten gefahren."},
+  {"id": "o-passeio-de-barco", "pt": "o passeio de barco", "de": "die Bootstour", "emoji": "🚤", "beispiel_pt": "O passeio de barco demora duas horas.", "beispiel_de": "Die Bootstour dauert zwei Stunden."},
+  {"id": "observar-aves", "pt": "observar aves", "de": "Vögel beobachten", "emoji": "🐦", "beispiel_pt": "Na ria é ótimo observar aves.", "beispiel_de": "In der Lagune kann man wunderbar Vögel beobachten.", "hinweis": "a ave = der Vogel (allgemein); o pássaro = kleiner Vogel"},
+  {"id": "o-trilho", "pt": "o trilho", "de": "der Wanderweg / Pfad", "emoji": "🥾", "beispiel_pt": "Este trilho vai até ao farol.", "beispiel_de": "Dieser Wanderweg führt bis zum Leuchtturm."},
+  {"id": "a-subida", "pt": "a subida", "de": "der Anstieg / die Steigung", "emoji": "📈", "beispiel_pt": "A subida até à Fóia é dura.", "beispiel_de": "Der Anstieg zur Fóia ist hart.", "hinweis": "Gegenteil: a descida (der Abstieg)"},
+  {"id": "a-mochila", "pt": "a mochila", "de": "der Rucksack", "emoji": "🎒", "beispiel_pt": "Não te esqueças da mochila!", "beispiel_de": "Vergiss den Rucksack nicht!"},
+  {"id": "o-protetor-solar", "pt": "o protetor solar", "de": "die Sonnencreme", "emoji": "🧴", "beispiel_pt": "Põe protetor solar antes de sair.", "beispiel_de": "Creme dich ein, bevor du rausgehst."},
+
+  {"id": "a-seca", "pt": "a seca", "de": "die Dürre / Trockenheit", "emoji": "🏜️", "beispiel_pt": "A seca no Algarve é um problema grave.", "beispiel_de": "Die Dürre in der Algarve ist ein ernstes Problem."},
+  {"id": "o-incendio", "pt": "o incêndio", "de": "der Brand / Waldbrand", "emoji": "🔥", "beispiel_pt": "Em 2018 houve um grande incêndio em Monchique.", "beispiel_de": "2018 gab es einen großen Brand in Monchique."},
+  {"id": "poupar-agua", "pt": "poupar água", "de": "Wasser sparen", "emoji": "🚿", "beispiel_pt": "Temos de poupar água.", "beispiel_de": "Wir müssen Wasser sparen.", "hinweis": "poupar = sparen (auch Geld: poupar dinheiro)"},
+  {"id": "reciclar", "pt": "reciclar", "de": "recyceln / Müll trennen", "emoji": "♻️", "beispiel_pt": "Reciclamos o vidro e o papel.", "beispiel_de": "Wir recyceln Glas und Papier."},
+  {"id": "o-ecoponto", "pt": "o ecoponto", "de": "die Wertstoffsammelstelle", "emoji": "🗑️", "beispiel_pt": "O ecoponto fica ao fundo da rua.", "beispiel_de": "Die Sammelstelle ist am Ende der Straße.", "hinweis": "amarelo = Plastik & Metall, azul = Papier & Karton, verde = Glas"},
+  {"id": "o-lixo", "pt": "o lixo", "de": "der Müll", "emoji": "🚮", "beispiel_pt": "Não deites lixo para o chão!", "beispiel_de": "Wirf keinen Müll auf den Boden!"},
+  {"id": "o-plastico", "pt": "o plástico", "de": "das Plastik", "emoji": "🥤", "beispiel_pt": "Uso cada vez menos plástico.", "beispiel_de": "Ich verwende immer weniger Plastik."},
+  {"id": "o-ambiente", "pt": "o ambiente", "de": "die Umwelt", "emoji": "🌍", "beispiel_pt": "Temos de proteger o ambiente.", "beispiel_de": "Wir müssen die Umwelt schützen.", "hinweis": "auch: die Atmosphäre / Stimmung (um bom ambiente)"},
+
+  {"id": "o-sotaque", "pt": "o sotaque", "de": "der Akzent (Aussprache)", "emoji": "🗣️", "beispiel_pt": "O João tem sotaque algarvio.", "beispiel_de": "João hat einen Algarve-Akzent.", "hinweis": "o acento = der Akzent auf dem Buchstaben (á, ê)"},
+  {"id": "algarvio", "pt": "algarvio", "de": "aus der Algarve / Algarvier", "emoji": "🏖️", "beispiel_pt": "Os algarvios falam depressa.", "beispiel_de": "Die Leute aus der Algarve sprechen schnell.", "alternativen": ["algarvia"]},
+  {"id": "alentejano", "pt": "alentejano", "de": "aus dem Alentejo / Alentejaner", "emoji": "🌾", "beispiel_pt": "O meu colega é alentejano.", "beispiel_de": "Mein Kollege kommt aus dem Alentejo.", "alternativen": ["alentejana"]},
+  {"id": "o-dialeto", "pt": "o dialeto", "de": "der Dialekt", "emoji": "📜", "beispiel_pt": "Em Portugal não há grandes dialetos, mas há muitos sotaques.", "beispiel_de": "In Portugal gibt es keine großen Dialekte, aber viele Akzente."},
+  {"id": "a-expressao", "pt": "a expressão", "de": "der Ausdruck / die Redewendung", "emoji": "💭", "beispiel_pt": "O que quer dizer essa expressão?", "beispiel_de": "Was bedeutet dieser Ausdruck?"},
+  {"id": "carregado", "pt": "carregado", "de": "stark (Akzent) / beladen", "emoji": "🎚️", "beispiel_pt": "Ele tem um sotaque muito carregado.", "beispiel_de": "Er hat einen sehr starken Akzent.", "alternativen": ["carregada"]},
+  {"id": "atao", "pt": "atão", "de": "na / also (umgangssprachlich im Süden für „então“)", "emoji": "😄", "beispiel_pt": "Atão, tudo bem?", "beispiel_de": "Na, alles gut?", "hinweis": "Nur verstehen – selbst besser „então“ sagen."},
+
+  {"id": "o-mercado-mensal", "pt": "o mercado mensal", "de": "der Monatsmarkt", "emoji": "🗓️", "beispiel_pt": "O mercado mensal é no primeiro sábado do mês.", "beispiel_de": "Der Monatsmarkt ist am ersten Samstag im Monat."},
+  {"id": "a-feira", "pt": "a feira", "de": "der Jahrmarkt / die Messe", "emoji": "🎪", "beispiel_pt": "Na feira há de tudo: roupa, animais e comida.", "beispiel_de": "Auf dem Jahrmarkt gibt es alles: Kleidung, Tiere und Essen."},
+  {"id": "o-artesanato", "pt": "o artesanato", "de": "das Kunsthandwerk", "emoji": "🧺", "beispiel_pt": "Comprei um cesto de artesanato.", "beispiel_de": "Ich habe einen handgemachten Korb gekauft."},
+  {"id": "o-medronho", "pt": "o medronho", "de": "die Erdbeerbaumfrucht / der Medronho-Schnaps", "emoji": "🍓", "beispiel_pt": "O medronho de Monchique é muito forte.", "beispiel_de": "Der Medronho aus Monchique ist sehr stark.", "hinweis": "Frucht des Erdbeerbaums (o medronheiro) – und der Schnaps daraus (aguardente de medronho)"},
+  {"id": "a-aguardente", "pt": "a aguardente", "de": "der Schnaps / Branntwein", "emoji": "🥃", "beispiel_pt": "Quer uma aguardente depois do jantar?", "beispiel_de": "Möchten Sie nach dem Abendessen einen Schnaps?"},
+  {"id": "a-tradicao", "pt": "a tradição", "de": "die Tradition", "emoji": "🎭", "beispiel_pt": "É uma tradição muito antiga.", "beispiel_de": "Es ist eine sehr alte Tradition."},
+  {"id": "a-banca", "pt": "a banca", "de": "der Marktstand", "emoji": "🏪", "beispiel_pt": "A banca da Dona Fernanda tem os melhores queijos.", "beispiel_de": "Der Stand von Frau Fernanda hat die besten Käse.", "hinweis": "nicht verwechseln: o banco = die Bank"}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-11-L01",
+   "typ": "neu",
+   "titel": "Die Landschaft der Algarve",
+   "vokabeln": ["a-serra", "a-ria", "a-falesia", "a-gruta", "o-barlavento", "o-sotavento", "a-paisagem", "a-costa"],
+   "grammatik": {
+    "titel": "Landschaft beschreiben: ficar, haver, ser und estar",
+    "erklaerung": [
+     "<b>ficar</b> für die Lage eines festen Ortes: <i>Lagos fica no barlavento.</i> – Lagos liegt im Westen der Algarve. Frage: <i>Onde fica …?</i>",
+     "<b>há</b> für „es gibt“: <i>Na costa há muitas grutas.</i>",
+     "<b>ser</b> für bleibende Eigenschaften: <i>A paisagem é muito bonita.</i> – <b>estar</b> für den Zustand gerade jetzt: <i>Hoje o mar está calmo.</i>",
+     "Himmelsrichtungen: <b>a norte de</b>, <b>a sul de</b>, <b>a leste de</b>, <b>a oeste de</b>: <i>Monchique fica a norte de Portimão.</i>"
+    ],
+    "vergleich": "Deutsch „liegen“ heißt hier <i>ficar</i>, nicht <i>estar</i>: „Wo liegt Tavira?“ – <i>Onde fica Tavira?</i> Und „im Norden von“ ist kürzer: <i>a norte de</i>.",
+    "beispiele": [
+     {"pt": "Lagos fica no barlavento e Tavira fica no sotavento.", "de": "Lagos liegt im Westen der Algarve und Tavira im Osten."},
+     {"pt": "Na costa há muitas grutas.", "de": "An der Küste gibt es viele Grotten."},
+     {"pt": "A paisagem é linda, mas hoje o mar está agitado.", "de": "Die Landschaft ist wunderschön, aber heute ist das Meer unruhig."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Tavira ___ no sotavento.", "loesungen": ["fica"], "de": "Tavira liegt im Osten der Algarve.", "kategorie": "ficar", "erklaerung": "Lage eines Ortes: ficar."},
+     {"typ": "luecke", "satz": "Na Ria Formosa ___ muitas aves.", "loesungen": ["há"], "de": "In der Ria Formosa gibt es viele Vögel.", "kategorie": "haver"},
+     {"typ": "auswahl", "frage": "„Heute ist das Meer ruhig.“", "optionen": ["Hoje o mar é calmo.", "Hoje o mar está calmo.", "Hoje o mar fica calmo."], "richtig": 1, "erklaerung": "Zustand im Moment: estar.", "kategorie": "ser/estar"},
+     {"typ": "luecke", "satz": "Monchique fica a ___ de Portimão. (nördlich)", "loesungen": ["norte"], "de": "Monchique liegt nördlich von Portimão."},
+     {"typ": "auswahl", "frage": "Welche Stadt liegt im barlavento?", "optionen": ["Tavira", "Olhão", "Lagos"], "richtig": 2, "erklaerung": "Barlavento = Westen (Lagos, Portimão), sotavento = Osten (Faro, Olhão, Tavira)."},
+     {"typ": "uebersetzen", "de": "Die Landschaft ist sehr schön.", "loesungen": ["A paisagem é muito bonita.", "A paisagem é muito linda."]},
+     {"typ": "uebersetzen", "de": "An der Küste gibt es viele Grotten.", "loesungen": ["Na costa há muitas grutas.", "Há muitas grutas na costa."]},
+     {"typ": "satzbau", "de": "Die Klippen von Lagos sind spektakulär.", "loesung": "As falésias de Lagos são espetaculares."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um passeio pela costa – ein Ausflug an der Küste",
+    "situation": "Stefan zeigt seinem Freund Pedro aus Lissabon die Küste bei Lagos.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Que paisagem, Stefan! Estas falésias são incríveis.", "de": "Was für eine Landschaft, Stefan! Diese Klippen sind unglaublich."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "São, não são? Aqui no barlavento a costa é assim, com muitas grutas.", "de": "Nicht wahr? Hier im Westen ist die Küste so, mit vielen Grotten."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E no sotavento? A Rita disse-me que é diferente.", "de": "Und im Osten? Rita hat mir gesagt, dass es dort anders ist."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, lá há a Ria Formosa, com praias de areia e muitas ilhas.", "de": "Ja, dort gibt es die Ria Formosa, mit Sandstränden und vielen Inseln."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E aquela serra ali ao fundo?", "de": "Und die Berge dort hinten?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É a Serra de Monchique. Fica a norte de Portimão. No domingo podemos ir lá.", "de": "Das ist die Serra de Monchique. Sie liegt nördlich von Portimão. Am Sonntag können wir hinfahren."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Combinado! Mas hoje quero ver as grutas.", "de": "Abgemacht! Aber heute will ich die Grotten sehen."}
+    ],
+    "fragen": [
+     {"frage": "Onde estão o Stefan e o Pedro?", "optionen": ["na Ria Formosa", "na costa perto de Lagos", "em Monchique"], "richtig": 1},
+     {"frage": "Como é o sotavento, segundo o Stefan?", "optionen": ["Tem a Ria Formosa e muitas ilhas.", "Tem falésias muito altas.", "Tem muitas grutas."], "richtig": 0},
+     {"frage": "Onde podem ir no domingo?", "optionen": ["às grutas", "a Lisboa", "à Serra de Monchique"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Lagos fica no barlavento.", "de": "Lagos liegt im Westen der Algarve."},
+     {"pt": "Tavira fica no sotavento.", "de": "Tavira liegt im Osten der Algarve."},
+     {"pt": "Que paisagem tão bonita!", "de": "Was für eine schöne Landschaft!"},
+     {"pt": "Na costa há muitas grutas.", "de": "An der Küste gibt es viele Grotten."},
+     {"pt": "A Serra de Monchique fica a norte de Portimão.", "de": "Die Serra de Monchique liegt nördlich von Portimão."}
+    ]
+   },
+   "saetze": [
+    {"id": "lagos-fica-barlavento", "pt": "Lagos fica no barlavento.", "de": "Lagos liegt im Westen der Algarve."},
+    {"id": "que-paisagem-bonita", "pt": "Que paisagem tão bonita!", "de": "Was für eine schöne Landschaft!"},
+    {"id": "costa-muitas-grutas", "pt": "Na costa há muitas grutas.", "de": "An der Küste gibt es viele Grotten."}
+   ]
+  },
+  {
+   "id": "A2-11-L02",
+   "typ": "neu",
+   "titel": "Tiere und Pflanzen",
+   "vokabeln": ["a-cegonha", "o-flamingo", "a-amendoeira", "a-alfarrobeira", "o-sobreiro", "a-cortica", "o-ninho"],
+   "grammatik": {
+    "titel": "Das Partizip: -ado und -ido",
+    "erklaerung": [
+     "Das Partizip (<i>particípio</i>) brauchst du gleich für die Vorvergangenheit. Regelmäßig: <b>-ar → -ado</b> (falar → falado), <b>-er/-ir → -ido</b> (comer → comido, partir → partido).",
+     "Steht vor <b>-ido</b> ein eigener Vokal, kommt ein Akzent: sair → <b>saído</b>, cair → <b>caído</b>, construir → <b>construído</b>.",
+     "Als Adjektiv passt sich das Partizip an: <i>o ninho abandonado, as amendoeiras floridas, a porta fechada</i>.",
+     "Mit <b>estar</b> beschreibt es einen Zustand: <i>O parque está protegido.</i> – Der Park ist geschützt."
+    ],
+    "vergleich": "Wie Deutsch „ge-…-t“ (geschützt) und Englisch „-ed“ (protected) – aber als Adjektiv mit Endung nach Geschlecht und Zahl: <i>protegido, protegida, protegidos, protegidas</i>.",
+    "beispiele": [
+     {"pt": "Em fevereiro, as amendoeiras estão floridas.", "de": "Im Februar sind die Mandelbäume in Blüte."},
+     {"pt": "A Ria Formosa é uma zona protegida.", "de": "Die Ria Formosa ist ein Schutzgebiet."},
+     {"pt": "Encontrámos um ninho abandonado.", "de": "Wir haben ein verlassenes Nest gefunden."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "falar → ___", "loesungen": ["falado"], "de": "gesprochen", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "comer → ___", "loesungen": ["comido"], "de": "gegessen", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "sair → ___", "loesungen": ["saído"], "de": "hinausgegangen", "erklaerung": "Eigener Vokal vor -ido → Akzent: saído.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "As amendoeiras estão ___. (florir)", "loesungen": ["floridas"], "de": "Die Mandelbäume blühen.", "erklaerung": "Als Adjektiv: feminin Plural → -idas.", "kategorie": "Partizip"},
+     {"typ": "auswahl", "frage": "„Die Ria Formosa ist ein Schutzgebiet.“", "optionen": ["A Ria Formosa é uma zona protegido.", "A Ria Formosa é uma zona protegida.", "A Ria Formosa é uma zona protegeu."], "richtig": 1, "erklaerung": "zona ist feminin → protegida.", "kategorie": "Partizip"},
+     {"typ": "uebersetzen", "de": "Wir haben in der Ria Formosa Flamingos gesehen.", "loesungen": ["Vimos flamingos na Ria Formosa.", "Na Ria Formosa vimos flamingos."]},
+     {"typ": "uebersetzen", "de": "Auf dem Kirchturm gibt es ein Storchennest.", "loesungen": ["Há um ninho de cegonha na torre da igreja.", "Na torre da igreja há um ninho de cegonha.", "Há um ninho de cegonhas na torre da igreja."]},
+     {"typ": "satzbau", "de": "Die Korkeiche liefert den Kork.", "loesung": "O sobreiro dá a cortiça."}
+    ]
+   },
+   "hoeren": {
+    "titel": "As amendoeiras em flor – die Mandelblüte",
+    "situation": "Ana und ihre Freundin Rita fahren im Februar ins Hinterland.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Olha, Ana, as amendoeiras já estão em flor!", "de": "Schau, Ana, die Mandelbäume blühen schon!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Que lindo! Parece neve. E aquelas árvores escuras são alfarrobeiras, não são?", "de": "Wie schön! Sieht aus wie Schnee. Und die dunklen Bäume dort sind Johannisbrotbäume, oder?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "São. E mais acima, na serra, há muitos sobreiros.", "de": "Ja. Und weiter oben, in den Bergen, gibt es viele Korkeichen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Os sobreiros dão a cortiça, certo?", "de": "Die Korkeichen liefern den Kork, richtig?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Certo. Portugal é o maior produtor de cortiça do mundo.", "de": "Richtig. Portugal ist der größte Korkproduzent der Welt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Olha, uma cegonha! E ali, na torre da igreja, há um ninho enorme.", "de": "Schau, ein Storch! Und dort, auf dem Kirchturm, ist ein riesiges Nest."}
+    ],
+    "fragen": [
+     {"frage": "Como estão as amendoeiras?", "optionen": ["sem folhas", "cortadas", "em flor"], "richtig": 2},
+     {"frage": "Onde há muitos sobreiros?", "optionen": ["na praia", "na serra", "na cidade"], "richtig": 1},
+     {"frage": "O que vê a Ana na torre da igreja?", "optionen": ["um ninho de cegonha", "um flamingo", "uma alfarrobeira"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Im Februar blühen die Mandelbäume.", "loesungen": ["Em fevereiro, as amendoeiras estão em flor.", "Em fevereiro as amendoeiras estão em flor.", "Em fevereiro, as amendoeiras estão floridas.", "Em fevereiro as amendoeiras estão floridas."]},
+     {"de": "Wir haben Flamingos gesehen.", "loesungen": ["Vimos flamingos."]},
+     {"de": "In den Bergen gibt es viele Korkeichen.", "loesungen": ["Na serra há muitos sobreiros.", "Há muitos sobreiros na serra."]},
+     {"de": "Portugal produziert viel Kork.", "loesungen": ["Portugal produz muita cortiça."]},
+     {"de": "Die Störche bauen Nester auf den Schornsteinen.", "loesungen": ["As cegonhas fazem ninhos nas chaminés.", "As cegonhas fazem os ninhos nas chaminés."]}
+    ]
+   },
+   "saetze": [
+    {"id": "amendoeiras-em-flor", "pt": "Em fevereiro, as amendoeiras estão em flor.", "de": "Im Februar blühen die Mandelbäume."},
+    {"id": "vimos-flamingos", "pt": "Na Ria Formosa vimos flamingos.", "de": "In der Ria Formosa haben wir Flamingos gesehen."},
+    {"id": "zona-protegida", "pt": "A Ria Formosa é uma zona protegida.", "de": "Die Ria Formosa ist ein Schutzgebiet."}
+   ]
+  },
+  {
+   "id": "A2-11-L03",
+   "typ": "neu",
+   "titel": "Es war schon passiert: tinha + Partizip",
+   "vokabeln": ["ja-tinha", "ainda-nao-tinha", "nessa-altura", "a-mare", "a-onda", "o-nascer-do-sol", "o-farol"],
+   "grammatik": {
+    "titel": "Mais-que-perfeito composto: tinha + Partizip",
+    "erklaerung": [
+     "Mit dem <b>mais-que-perfeito composto</b> sagst du, dass etwas <b>vor</b> einem anderen Ereignis in der Vergangenheit schon passiert war: <i>Quando chegámos, o barco já tinha partido.</i> – Als wir ankamen, war das Boot schon abgefahren.",
+     "Bildung: Imperfeito von <b>ter</b> + Partizip: eu <b>tinha</b>, tu <b>tinhas</b>, você/ele <b>tinha</b>, nós <b>tínhamos</b>, vocês/eles <b>tinham</b> + falado / comido / partido.",
+     "Das Partizip bleibt hier <b>unverändert</b>: <i>A maré tinha subido. As cegonhas tinham voltado.</i>",
+     "Typische Begleiter: <b>já</b> (schon), <b>ainda não</b> (noch nicht), <b>nessa altura</b> (damals), <b>quando</b> + perfeito für das spätere Ereignis."
+    ],
+    "vergleich": "Deutsch: „hatte/war + Partizip“ (ich hatte gegessen, er war gegangen). Portugiesisch nimmt <b>immer ter</b> – auch bei Bewegungsverben: <i>tinha partido</i> = „war abgefahren“. Englisch: <i>had left</i>.",
+    "beispiele": [
+     {"pt": "Quando chegámos ao cais, o barco já tinha partido.", "de": "Als wir am Anleger ankamen, war das Boot schon abgefahren."},
+     {"pt": "Nessa altura, ainda não tínhamos visitado a Ria Formosa.", "de": "Damals hatten wir die Ria Formosa noch nicht besucht."},
+     {"pt": "O nevoeiro tinha desaparecido e vimos o farol.", "de": "Der Nebel hatte sich aufgelöst und wir sahen den Leuchtturm."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quando cheguei, o barco já ___ partido.", "loesungen": ["tinha"], "de": "Als ich ankam, war das Boot schon abgefahren.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "luecke", "satz": "Nós ainda não ___ visitado a gruta.", "loesungen": ["tínhamos"], "de": "Wir hatten die Grotte noch nicht besucht.", "erklaerung": "nós tínhamos – mit Akzent.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "luecke", "satz": "Eles já tinham ___ quando telefonei. (jantar)", "loesungen": ["jantado"], "de": "Sie hatten schon zu Abend gegessen, als ich anrief.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "A maré já tinha ___. (subir)", "loesungen": ["subido"], "de": "Die Flut war schon gekommen.", "kategorie": "Partizip"},
+     {"typ": "auswahl", "frage": "„Als wir ankamen, war die Sonne schon aufgegangen.“", "optionen": ["Quando chegámos, o sol já nasceu.", "Quando chegámos, o sol já tinha nascido.", "Quando chegámos, o sol já estava nascido."], "richtig": 1, "erklaerung": "Das frühere Ereignis: tinha + Partizip – immer mit ter, auch wenn Deutsch „war“ sagt.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "uebersetzen", "de": "Damals hatte ich noch nicht Portugiesisch gelernt.", "loesungen": ["Nessa altura, ainda não tinha aprendido português.", "Nessa altura ainda não tinha aprendido português.", "Nessa altura, eu ainda não tinha aprendido português.", "Nessa altura eu ainda não tinha aprendido português."], "kategorie": "Mais-que-perfeito"},
+     {"typ": "uebersetzen", "de": "Der Nebel hatte sich aufgelöst.", "loesungen": ["O nevoeiro tinha desaparecido.", "O nevoeiro já tinha desaparecido."]},
+     {"typ": "satzbau", "de": "Ana hatte schon zu Mittag gegessen.", "loesung": "A Ana já tinha almoçado."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O barco para a Culatra – das Boot zur Culatra",
+    "situation": "Ana erzählt Rita von einem missglückten Ausflug.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então, foram à Culatra no sábado?", "de": "Na, wart ihr am Samstag auf der Culatra?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não! Quando chegámos ao cais de Olhão, o barco já tinha partido.", "de": "Nein! Als wir am Anleger in Olhão ankamen, war das Boot schon abgefahren."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Que azar! Porquê?", "de": "So ein Pech! Warum?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Havia muito nevoeiro na estrada e o Stefan tinha deixado o telemóvel em casa. Tivemos de voltar.", "de": "Es war viel Nebel auf der Straße, und Stefan hatte das Handy zu Hause gelassen. Wir mussten umkehren."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E depois?", "de": "Und dann?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Apanhámos o barco seguinte, ao meio-dia. Mas nessa altura a maré já tinha subido e não vimos as aves.", "de": "Wir haben das nächste Boot um zwölf genommen. Aber da war die Flut schon gekommen, und wir haben die Vögel nicht gesehen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Bem, fica para a próxima!", "de": "Na ja, dann eben nächstes Mal!"}
+    ],
+    "fragen": [
+     {"frage": "Para onde queriam ir a Ana e o Stefan?", "optionen": ["para Faro", "para a Culatra", "para Tavira"], "richtig": 1},
+     {"frage": "O que tinha o Stefan deixado em casa?", "optionen": ["o telemóvel", "a carteira", "os bilhetes"], "richtig": 0},
+     {"frage": "Porque não viram as aves?", "optionen": ["Estava a chover.", "O barco não partiu.", "A maré já tinha subido."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Pedro fragt, ob du den Sonnenaufgang am Cabo de São Vicente gesehen hast.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Olá! Então, viste o nascer do sol no Cabo de São Vicente?", "de": "Hallo! Na, hast du den Sonnenaufgang am Cabo de São Vicente gesehen?"},
+     {"ich": true, "aufgabe": "Sag: Nein, als ich ankam, war die Sonne schon aufgegangen.", "loesungen": ["Não, quando cheguei, o sol já tinha nascido.", "Não. Quando cheguei, o sol já tinha nascido.", "Não, quando cheguei o sol já tinha nascido.", "Não, quando eu cheguei, o sol já tinha nascido."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "A sério? A que horas saíste de casa?", "de": "Echt? Um wie viel Uhr bist du von zu Hause los?"},
+     {"ich": true, "aufgabe": "Sag: Um sechs. Aber es gab viel Nebel.", "loesungen": ["Às seis. Mas havia muito nevoeiro.", "Saí às seis. Mas havia muito nevoeiro.", "Às seis, mas havia muito nevoeiro.", "Saí de casa às seis. Mas havia muito nevoeiro.", "Saí às seis, mas havia muito nevoeiro."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E o farol? Conseguiste ver?", "de": "Und der Leuchtturm? Konntest du ihn sehen?"},
+     {"ich": true, "aufgabe": "Sag: Ja, der Nebel hatte sich aufgelöst und ich habe den Leuchtturm gesehen.", "loesungen": ["Sim, o nevoeiro tinha desaparecido e vi o farol.", "Sim, o nevoeiro já tinha desaparecido e vi o farol.", "Consegui, o nevoeiro tinha desaparecido e vi o farol.", "Sim. O nevoeiro tinha desaparecido e vi o farol."]}
+    ]
+   },
+   "saetze": [
+    {"id": "barco-ja-tinha-partido", "pt": "Quando chegámos, o barco já tinha partido.", "de": "Als wir ankamen, war das Boot schon abgefahren."},
+    {"id": "ainda-nao-tinhamos-visitado", "pt": "Nessa altura, ainda não tínhamos visitado a Ria Formosa.", "de": "Damals hatten wir die Ria Formosa noch nicht besucht."},
+    {"id": "mare-tinha-subido", "pt": "A maré já tinha subido.", "de": "Die Flut war schon gekommen."}
+   ]
+  },
+  {
+   "id": "A2-11-L04",
+   "typ": "neu",
+   "titel": "Noch nie gesehen: unregelmäßige Partizipien",
+   "vokabeln": ["feito", "dito", "visto", "escrito", "posto", "vindo", "o-postal"],
+   "grammatik": {
+    "titel": "Unregelmäßige Partizipien im mais-que-perfeito",
+    "erklaerung": [
+     "Einige häufige Verben haben ein unregelmäßiges Partizip: fazer → <b>feito</b>, dizer → <b>dito</b>, ver → <b>visto</b>, escrever → <b>escrito</b>, pôr → <b>posto</b>, abrir → <b>aberto</b>, vir → <b>vindo</b>.",
+     "Mit <b>tinha</b> bleiben sie unverändert: <i>Ela tinha feito, nós tínhamos visto.</i> Als Adjektiv passen sie sich an: <i>a janela aberta, as cartas escritas</i>.",
+     "Pronomen stehen im Hauptsatz hinter <b>tinha</b>: <i>Tinha-o visto.</i> Nach <i>já, não, nunca</i> usw. davor: <i>Já o tinha visto.</i>",
+     "Erfahrung bis zu einem Punkt in der Vergangenheit: <i>Nunca tinha visto uma gruta tão bonita.</i> – Ich hatte noch nie eine so schöne Grotte gesehen."
+    ],
+    "vergleich": "Wie im Deutschen und Englischen sind gerade die häufigsten Verben unregelmäßig: gemacht/made – <i>feito</i>, gesehen/seen – <i>visto</i>, geschrieben/written – <i>escrito</i>.",
+    "beispiele": [
+     {"pt": "Nunca tinha visto uma gruta tão bonita.", "de": "Ich hatte noch nie eine so schöne Grotte gesehen."},
+     {"pt": "O João já nos tinha dito que o trilho era difícil.", "de": "João hatte uns schon gesagt, dass der Weg schwierig ist."},
+     {"pt": "Os meus pais tinham vindo de Viena para nos visitar.", "de": "Meine Eltern waren aus Wien gekommen, um uns zu besuchen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu nunca tinha ___ golfinhos. (ver)", "loesungen": ["visto"], "de": "Ich hatte noch nie Delfine gesehen.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "Ela já tinha ___ o jantar. (fazer)", "loesungen": ["feito"], "de": "Sie hatte das Abendessen schon gemacht.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "O João tinha-nos ___ a verdade. (dizer)", "loesungen": ["dito"], "de": "João hatte uns die Wahrheit gesagt.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "Eles tinham ___ de Lisboa de comboio. (vir)", "loesungen": ["vindo"], "de": "Sie waren mit dem Zug aus Lissabon gekommen.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "Quem tinha ___ a mesa? (pôr)", "loesungen": ["posto"], "de": "Wer hatte den Tisch gedeckt?", "kategorie": "Partizip"},
+     {"typ": "auswahl", "frage": "„Ich hatte ihn schon gesehen.“", "optionen": ["Já tinha-o visto.", "Já o tinha visto.", "Já tinha visto-o."], "richtig": 1, "erklaerung": "Nach já steht das Pronomen vor dem Hilfsverb: Já o tinha visto.", "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Wir hatten noch nie so eine Landschaft gesehen.", "loesungen": ["Nunca tínhamos visto uma paisagem assim.", "Nunca tínhamos visto uma paisagem como esta.", "Nós nunca tínhamos visto uma paisagem assim.", "Nunca tínhamos visto uma paisagem destas."]},
+     {"typ": "satzbau", "de": "Ana hatte am Aussichtspunkt eine Postkarte geschrieben.", "loesung": "A Ana tinha escrito um postal no miradouro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A visita dos pais – der Besuch der Eltern",
+    "situation": "Stefan erzählt seinem Nachbarn João vom Besuch seiner Eltern aus Wien.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Então, Stefan, os teus pais gostaram do Algarve?", "de": "Na, Stefan, hat deinen Eltern die Algarve gefallen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Adoraram! Nunca tinham visto falésias tão altas.", "de": "Sie waren begeistert! Sie hatten noch nie so hohe Klippen gesehen."},
+     {"sprecher": "João", "stimme": "m", "pt": "Levaste-os à Ponta da Piedade?", "de": "Hast du sie zur Ponta da Piedade gebracht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Levei. Tu já me tinhas dito que o miradouro era o melhor sítio, e tinhas razão.", "de": "Ja. Du hattest mir schon gesagt, dass der Aussichtspunkt der beste Ort ist, und du hattest recht."},
+     {"sprecher": "João", "stimme": "m", "pt": "E o passeio às grutas?", "de": "Und die Tour zu den Grotten?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A minha mãe tinha visto fotos na internet e quis ir logo. Foi o melhor da viagem!", "de": "Meine Mutter hatte Fotos im Internet gesehen und wollte sofort hin. Das war das Beste an der Reise!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o meu pai escreveu um postal em português. Nunca tinha escrito nada em português!", "de": "Und mein Vater hat eine Postkarte auf Portugiesisch geschrieben. Er hatte noch nie etwas auf Portugiesisch geschrieben!"}
+    ],
+    "fragen": [
+     {"frage": "O que é que os pais do Stefan nunca tinham visto?", "optionen": ["golfinhos", "falésias tão altas", "uma cegonha"], "richtig": 1},
+     {"frage": "Quem tinha dito que o miradouro era o melhor sítio?", "optionen": ["a mãe do Stefan", "o pai do Stefan", "o João"], "richtig": 2},
+     {"frage": "O que fez o pai do Stefan?", "optionen": ["Escreveu um postal em português.", "Tirou fotos para a internet.", "Fez um passeio de barco sozinho."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Nunca tinha visto uma gruta tão bonita.", "de": "Ich hatte noch nie eine so schöne Grotte gesehen."},
+     {"pt": "Já tinha feito a reserva.", "de": "Ich hatte die Reservierung schon gemacht."},
+     {"pt": "A Ana já me tinha dito.", "de": "Ana hatte es mir schon gesagt."},
+     {"pt": "Os meus pais tinham vindo de Viena.", "de": "Meine Eltern waren aus Wien gekommen."},
+     {"pt": "Do miradouro vê-se a costa toda.", "de": "Vom Aussichtspunkt sieht man die ganze Küste."}
+    ]
+   },
+   "saetze": [
+    {"id": "nunca-tinha-visto", "pt": "Nunca tinha visto uma gruta tão bonita.", "de": "Ich hatte noch nie eine so schöne Grotte gesehen."},
+    {"id": "ja-me-tinha-dito", "pt": "A Ana já me tinha dito.", "de": "Ana hatte es mir schon gesagt."},
+    {"id": "miradouro-costa-toda", "pt": "Do miradouro vê-se a costa toda.", "de": "Vom Aussichtspunkt sieht man die ganze Küste."}
+   ]
+  },
+  {
+   "id": "A2-11-L05",
+   "typ": "neu",
+   "titel": "Aktiv in der Natur",
+   "vokabeln": ["andar-de-caiaque", "o-passeio-de-barco", "observar-aves", "o-trilho", "a-subida", "a-mochila", "o-protetor-solar"],
+   "grammatik": {
+    "titel": "Zwei Ereignisse ordnen: perfeito und mais-que-perfeito",
+    "erklaerung": [
+     "In Erzählungen steht das spätere Ereignis im <b>perfeito</b>, das frühere im <b>mais-que-perfeito</b>: <i>Quando chegámos à praia, o passeio de barco já tinha começado.</i>",
+     "<b>já tinha</b> = hatte schon; <b>ainda não tinha</b> = hatte noch nicht; <b>nunca tinha</b> = hatte noch nie: <i>Antes daquela viagem, nunca tinha andado de caiaque.</i>",
+     "Mit <b>porque</b> nennst du einen Grund, der davor lag: <i>Estava cansado porque tinha feito o trilho todo.</i>",
+     "Achtung: Handlungen, die einfach nacheinander passieren, erzählst du im perfeito: <i>Fizemos o trilho e depois almoçámos.</i> Das mais-que-perfeito brauchst du nur, wenn du <b>zurückspringst</b>."
+    ],
+    "vergleich": "Deutsch: „Als wir ankamen, hatte die Tour schon begonnen.“ – Portugiesisch genauso: <i>Quando chegámos, o passeio já tinha começado.</i> Nur das Hilfsverb ist immer <i>ter</i>.",
+    "beispiele": [
+     {"pt": "Quando chegámos, o passeio de barco já tinha começado.", "de": "Als wir ankamen, hatte die Bootstour schon begonnen."},
+     {"pt": "Estava cansado porque tinha feito o percurso todo a pé.", "de": "Ich war müde, weil ich die ganze Strecke zu Fuß gegangen war."},
+     {"pt": "Antes daquela viagem, nunca tinha andado de caiaque.", "de": "Vor dieser Reise war ich noch nie Kajak gefahren."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Als ich ankam, hatte die Tour schon begonnen.“", "optionen": ["Quando cheguei, o passeio já começava.", "Quando cheguei, o passeio já tinha começado.", "Quando tinha chegado, o passeio começou."], "richtig": 1, "kategorie": "Mais-que-perfeito"},
+     {"typ": "luecke", "satz": "Estávamos cansados porque ___ feito o trilho todo.", "loesungen": ["tínhamos"], "de": "Wir waren müde, weil wir den ganzen Weg gegangen waren.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "luecke", "satz": "Quando ___ à praia, eles já tinham saído. (nós, chegar)", "loesungen": ["chegámos"], "de": "Als wir am Strand ankamen, waren sie schon weg.", "erklaerung": "Das spätere Ereignis steht im perfeito: chegámos (mit Akzent).", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Ela nunca ___ andado de caiaque.", "loesungen": ["tinha"], "de": "Sie war noch nie Kajak gefahren.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "auswahl", "frage": "Welcher Satz springt in die Vorvergangenheit zurück?", "optionen": ["Fizemos o trilho e depois almoçámos.", "Almoçámos às duas.", "Almoçámos tarde porque tínhamos feito o trilho."], "richtig": 2, "erklaerung": "Der Grund (den Weg gehen) lag vor dem Mittagessen → tínhamos feito.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "uebersetzen", "de": "Ich hatte die Sonnencreme zu Hause vergessen.", "loesungen": ["Tinha-me esquecido do protetor solar em casa.", "Eu tinha-me esquecido do protetor solar em casa.", "Tinha deixado o protetor solar em casa."], "erklaerung": "esquecer-se de: Tinha-me esquecido do …", "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Hattet ihr in der Lagune schon Vögel beobachtet?", "loesungen": ["Já tinham observado aves na ria?", "Vocês já tinham observado aves na ria?", "Já tinham observado aves na lagoa?"]},
+     {"typ": "satzbau", "de": "Die Strecke ist sechs Kilometer lang.", "loesung": "O percurso tem seis quilómetros."}
+    ]
+   },
+   "hoeren": {
+    "titel": "De caiaque até Benagil – mit dem Kajak nach Benagil",
+    "situation": "Stefan erzählt Rita von einer Kajaktour.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então, Stefan, como correu o passeio de caiaque?", "de": "Na, Stefan, wie war die Kajaktour?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Correu muito bem! Mas quase o perdemos.", "de": "Sehr gut! Aber wir hätten sie fast verpasst."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Porquê?", "de": "Warum?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quando chegámos à praia, o grupo já tinha saído. O guia tinha-nos dito nove e meia, e nós percebemos dez e meia!", "de": "Als wir am Strand ankamen, war die Gruppe schon losgefahren. Der Guide hatte halb zehn gesagt, und wir hatten halb elf verstanden!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ai, que confusão! E depois?", "de": "Oje, was für ein Durcheinander! Und dann?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O guia voltou para nos ir buscar. Entrámos na gruta e foi espetacular.", "de": "Der Guide ist zurückgekommen, um uns abzuholen. Wir sind in die Grotte gefahren, und es war spektakulär."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a Ana nunca tinha andado de caiaque, mas adorou!", "de": "Und Ana war noch nie Kajak gefahren, aber sie war begeistert!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que quase perderam o passeio?", "optionen": ["O grupo já tinha saído quando chegaram.", "O caiaque estava avariado.", "Estava muito vento."], "richtig": 0},
+     {"frage": "A que horas era o passeio?", "optionen": ["às dez e meia", "às nove", "às nove e meia"], "richtig": 2},
+     {"frage": "O que é verdade sobre a Ana?", "optionen": ["Já tinha andado de caiaque muitas vezes.", "Nunca tinha andado de caiaque.", "Não entrou na gruta."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du buchst an einem Kiosk am Hafen von Lagos eine Bootstour.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Bom dia! Querem fazer um passeio de barco?", "de": "Guten Morgen! Möchten Sie eine Bootstour machen?"},
+     {"ich": true, "aufgabe": "Sag: Ja, wir möchten die Grotten sehen. Wie lange dauert die Tour?", "loesungen": ["Sim, queríamos ver as grutas. Quanto tempo demora o passeio?", "Sim, queremos ver as grutas. Quanto tempo demora o passeio?", "Sim, gostávamos de ver as grutas. Quanto tempo demora o passeio?", "Sim, queríamos ver as grutas. Quanto tempo dura o passeio?", "Sim, queremos ver as grutas. Quanto tempo dura o passeio?"]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Uma hora e meia. Também temos caiaques, se preferirem.", "de": "Eineinhalb Stunden. Wir haben auch Kajaks, wenn Sie das lieber möchten."},
+     {"ich": true, "aufgabe": "Sag: Meine Frau ist noch nie Kajak gefahren. Wir nehmen lieber das Boot.", "loesungen": ["A minha mulher nunca andou de caiaque. Preferimos o barco.", "A minha mulher nunca andou de caiaque. Preferimos ir de barco.", "A minha mulher nunca andou de caiaque. Prefiro o barco."]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Muito bem. Não se esqueçam do protetor solar e de uma garrafa de água!", "de": "Sehr gut. Vergessen Sie nicht die Sonnencreme und eine Flasche Wasser!"},
+     {"ich": true, "aufgabe": "Sag: Danke, wir haben alles im Rucksack.", "loesungen": ["Obrigado, temos tudo na mochila.", "Obrigado! Temos tudo na mochila.", "Obrigada, temos tudo na mochila.", "Obrigado, está tudo na mochila."]}
+    ]
+   },
+   "saetze": [
+    {"id": "passeio-ja-tinha-comecado", "pt": "Quando chegámos, o passeio de barco já tinha começado.", "de": "Als wir ankamen, hatte die Bootstour schon begonnen."},
+    {"id": "nunca-tinha-andado-caiaque", "pt": "Antes daquela viagem, nunca tinha andado de caiaque.", "de": "Vor dieser Reise war ich noch nie Kajak gefahren."},
+    {"id": "cansado-porque-tinha-feito", "pt": "Estava cansado porque tinha feito o percurso todo a pé.", "de": "Ich war müde, weil ich die ganze Strecke zu Fuß gegangen war."}
+   ]
+  },
+  {
+   "id": "A2-11-L06",
+   "typ": "neu",
+   "titel": "Umwelt: Dürre, Brände und Recycling",
+   "vokabeln": ["a-seca", "o-incendio", "poupar-agua", "reciclar", "o-ecoponto", "o-lixo", "o-plastico", "o-ambiente"],
+   "grammatik": {
+    "titel": "Verneinung und Pronomen beim mais-que-perfeito",
+    "erklaerung": [
+     "Verneinung: <b>não</b> steht vor <b>tinha</b>: <i>Não tinha chovido durante meses.</i>",
+     "Objektpronomen stehen im Hauptsatz ohne Auslöser hinter <b>tinha</b>, mit Bindestrich: <i>Tinha-o levado ao ecoponto.</i> – Ich hatte es zur Sammelstelle gebracht.",
+     "Nach <b>não, já, nunca, ainda, também</b>, nach Fragewörtern und nach <b>que</b> steht das Pronomen <b>vor</b> tinha: <i>Não o tinha visto. Já lhe tinha dito. Disse que o tinha separado.</i>",
+     "Das Partizip bleibt dabei immer gleich: <i>As garrafas? Já as tinha levado.</i> (nicht „levadas“)"
+    ],
+    "vergleich": "Im Deutschen ist die Stellung frei („Ich hatte sie schon weggebracht“). Im Portugiesischen entscheidet das Wort davor: ohne Auslöser <i>tinha-as levado</i>, mit Auslöser <i>já as tinha levado</i>.",
+    "beispiele": [
+     {"pt": "Não tinha chovido durante seis meses.", "de": "Es hatte sechs Monate lang nicht geregnet."},
+     {"pt": "As garrafas? Já as tinha levado ao ecoponto.", "de": "Die Flaschen? Die hatte ich schon zur Sammelstelle gebracht."},
+     {"pt": "O João disse que o incêndio tinha começado na serra.", "de": "João sagte, dass der Brand in den Bergen angefangen hatte."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Ich hatte es nicht gesehen.“", "optionen": ["Não tinha-o visto.", "Não o tinha visto.", "Não tinha visto-o."], "richtig": 1, "erklaerung": "Nach não steht das Pronomen vor tinha.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Ich hatte ihm schon gesagt, dass er Wasser sparen soll.“", "optionen": ["Já lhe tinha dito para poupar água.", "Já tinha-lhe dito para poupar água.", "Lhe tinha já dito para poupar água."], "richtig": 0, "erklaerung": "Nach já: Pronomen vor tinha. Nie mit dem Pronomen beginnen.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Durante o verão não ___ chovido nada.", "loesungen": ["tinha"], "de": "Den ganzen Sommer über hatte es nicht geregnet.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "luecke", "satz": "As garrafas? Já ___ tinha levado ao ecoponto.", "loesungen": ["as"], "de": "Die Flaschen? Die hatte ich schon zur Sammelstelle gebracht.", "erklaerung": "as garrafas → as; nach já steht das Pronomen vorne.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "O plástico? Tinha-___ posto no ecoponto amarelo.", "loesungen": ["o"], "de": "Das Plastik? Das hatte ich in den gelben Container geworfen.", "erklaerung": "Kein Auslöser → Enklise: tinha-o.", "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Wir müssen Wasser sparen.", "loesungen": ["Temos de poupar água.", "Temos que poupar água.", "Precisamos de poupar água."]},
+     {"typ": "uebersetzen", "de": "Der Brand hatte in den Bergen angefangen.", "loesungen": ["O incêndio tinha começado na serra.", "O incêndio tinha começado nas serras."]},
+     {"typ": "diktat", "pt": "Temos de proteger o ambiente."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No ecoponto – an der Sammelstelle",
+    "situation": "Stefan trifft seinen Nachbarn João beim Müllentsorgen.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Bom dia, Stefan! Também vens reciclar?", "de": "Guten Morgen, Stefan! Kommst du auch zum Recyceln?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Venho. Mas o ecoponto amarelo está cheio outra vez.", "de": "Ja. Aber der gelbe Container ist schon wieder voll."},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois, ontem já estava cheio. Eu já tinha ligado para a câmara, mas ainda não vieram.", "de": "Tja, gestern war er schon voll. Ich hatte schon bei der Gemeinde angerufen, aber sie sind noch nicht gekommen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E com esta seca, já viste? Não chove há meses.", "de": "Und bei dieser Dürre, hast du das gesehen? Es regnet seit Monaten nicht."},
+     {"sprecher": "João", "stimme": "m", "pt": "É verdade. Lá em casa pomos um balde no duche para poupar água.", "de": "Stimmt. Bei uns zu Hause stellen wir einen Eimer in die Dusche, um Wasser zu sparen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa ideia! E a Ana disse-me que o risco de incêndio este ano é muito alto.", "de": "Gute Idee! Und Ana hat mir gesagt, dass die Brandgefahr dieses Jahr sehr hoch ist."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema do ecoponto amarelo?", "optionen": ["Está avariado.", "Está fechado.", "Está cheio."], "richtig": 2},
+     {"frage": "Para onde é que o João já tinha ligado?", "optionen": ["para a câmara", "para os bombeiros", "para o Stefan"], "richtig": 0},
+     {"frage": "O que faz a família do João para poupar água?", "optionen": ["Toma banho no mar.", "Põe um balde no duche.", "Não rega o jardim."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Die Dürre ist ein ernstes Problem.", "loesungen": ["A seca é um problema grave.", "A seca é um problema sério."]},
+     {"de": "Wir recyceln Glas und Papier.", "loesungen": ["Reciclamos o vidro e o papel.", "Reciclamos vidro e papel."]},
+     {"de": "Die Sammelstelle ist am Ende der Straße.", "loesungen": ["O ecoponto fica ao fundo da rua.", "O ecoponto é ao fundo da rua."]},
+     {"de": "Es hatte monatelang nicht geregnet.", "loesungen": ["Não tinha chovido durante meses.", "Havia meses que não chovia."]},
+     {"de": "Ich verwende immer weniger Plastik.", "loesungen": ["Uso cada vez menos plástico.", "Eu uso cada vez menos plástico.", "Utilizo cada vez menos plástico."]}
+    ]
+   },
+   "saetze": [
+    {"id": "temos-de-poupar-agua", "pt": "Temos de poupar água.", "de": "Wir müssen Wasser sparen."},
+    {"id": "ja-as-tinha-levado", "pt": "As garrafas? Já as tinha levado ao ecoponto.", "de": "Die Flaschen? Die hatte ich schon zur Sammelstelle gebracht."},
+    {"id": "nao-tinha-chovido", "pt": "Não tinha chovido durante seis meses.", "de": "Es hatte sechs Monate lang nicht geregnet."}
+   ]
+  },
+  {
+   "id": "A2-11-L07",
+   "typ": "neu",
+   "titel": "Akzente im Süden",
+   "vokabeln": ["o-sotaque", "algarvio", "alentejano", "o-dialeto", "a-expressao", "carregado", "atao"],
+   "grammatik": {
+    "titel": "Regionale Varianten: Algarve und Alentejo",
+    "erklaerung": [
+     "Im Süden klingt Portugiesisch anders: In der Algarve werden noch mehr Vokale verschluckt, und statt <i>então</i> hörst du oft <b>atão</b>.",
+     "Im Alentejo und in Teilen der Algarve hörst du vielleicht umgangssprachlich das Gerundium: <i>…fazendo</i> statt <i>a fazer</i>, <i>…trabalhando</i> statt <i>a trabalhar</i>. Das ist regional – du selbst bleibst beim Standard <b>estar a + Infinitiv</b>: <i>Estou a trabalhar.</i>",
+     "Nachfragen ist ganz normal und höflich: <b>Pode repetir mais devagar?</b> – <b>O que quer dizer …?</b> (Was bedeutet …?)",
+     "Über Akzente sprechen: <i>ter sotaque</i> (einen Akzent haben), <i>um sotaque carregado</i> (ein starker Akzent), <i>Nota-se que é algarvio.</i> (Man merkt, dass er aus der Algarve ist.)"
+    ],
+    "vergleich": "Wie Wienerisch und Tirolerisch: Alle verstehen sich, aber man hört sofort, woher jemand kommt. Als Orientierung gilt in Portugal die Aussprache von Lissabon und Coimbra.",
+    "beispiele": [
+     {"pt": "O João tem um sotaque algarvio muito carregado.", "de": "João hat einen sehr starken Algarve-Akzent."},
+     {"pt": "Desculpe, o que quer dizer essa expressão?", "de": "Entschuldigung, was bedeutet dieser Ausdruck?"},
+     {"pt": "Nota-se que ela é alentejana.", "de": "Man merkt, dass sie aus dem Alentejo ist."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Du hörst „Atão, tudo bem?“. Was bedeutet „atão“?", "optionen": ["ainda", "então", "até"], "richtig": 1, "kategorie": "Regional"},
+     {"typ": "auswahl", "frage": "„Ich arbeite gerade.“ – Was sagst du selbst?", "optionen": ["Estou a trabalhar.", "Estou trabalhar.", "Estou de trabalhar."], "richtig": 0, "erklaerung": "Standard in Portugal: estar a + Infinitiv. Das Gerundium hörst du im Süden nur umgangssprachlich.", "kategorie": "estar a"},
+     {"typ": "luecke", "satz": "Ele tem um sotaque muito ___. (stark)", "loesungen": ["carregado"], "de": "Er hat einen sehr starken Akzent."},
+     {"typ": "luecke", "satz": "Nota-se que ela é ___. (aus dem Alentejo)", "loesungen": ["alentejana"], "de": "Man merkt, dass sie aus dem Alentejo ist.", "erklaerung": "Adjektiv angepasst: ela → alentejana."},
+     {"typ": "luecke", "satz": "Desculpe, o que quer ___ essa expressão?", "loesungen": ["dizer"], "de": "Entschuldigung, was bedeutet dieser Ausdruck?"},
+     {"typ": "uebersetzen", "de": "Können Sie das bitte langsamer wiederholen?", "loesungen": ["Pode repetir mais devagar, por favor?", "Pode repetir mais devagar, se faz favor?", "Pode repetir mais devagar?", "Por favor, pode repetir mais devagar?"]},
+     {"typ": "uebersetzen", "de": "Man merkt, dass er aus der Algarve ist.", "loesungen": ["Nota-se que é algarvio.", "Nota-se que ele é algarvio."]},
+     {"typ": "satzbau", "de": "In Portugal gibt es viele Akzente.", "loesung": "Em Portugal há muitos sotaques."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O sotaque do João – Joãos Akzent",
+    "situation": "João spricht Stefan auf der Straße an – sehr schnell.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Atão, vizinho, tudo bem? Já foste ao mercado hoje?", "de": "Na, Nachbar, alles gut? Warst du heute schon auf dem Markt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpa, João, podes repetir mais devagar?", "de": "Entschuldige, João, kannst du das langsamer wiederholen?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Ah, pois! Perguntei se já foste ao mercado. Nós, os algarvios, falamos muito depressa!", "de": "Ach so! Ich habe gefragt, ob du schon auf dem Markt warst. Wir Algarvier sprechen sehr schnell!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o que quer dizer «atão»?", "de": "Und was bedeutet „atão“?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Quer dizer «então». No Alentejo, onde mora a minha sogra, fala-se muito mais devagar.", "de": "Es bedeutet „então“. Im Alentejo, wo meine Schwiegermutter wohnt, spricht man viel langsamer."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Eu gosto dos sotaques. Mas no início não percebia nada!", "de": "Ich mag die Akzente. Aber am Anfang habe ich nichts verstanden!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan pede ao João para repetir?", "optionen": ["O João fala muito depressa.", "O João fala muito baixo.", "O João fala inglês."], "richtig": 0},
+     {"frage": "O que quer dizer «atão»?", "optionen": ["até já", "então", "atenção"], "richtig": 1},
+     {"frage": "Onde se fala mais devagar, segundo o João?", "optionen": ["no Algarve", "em Lisboa", "no Alentejo"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ein älterer Herr auf dem Markt in Monchique spricht dich an – mit starkem Akzent.",
+    "zeilen": [
+     {"sprecher": "Senhor", "stimme": "m", "pt": "Atão, o senhor não é de cá, pois não?", "de": "Na, Sie sind nicht von hier, oder?"},
+     {"ich": true, "aufgabe": "Sag: Nein, ich bin Österreicher. Können Sie bitte langsamer sprechen?", "loesungen": ["Não, sou austríaco. Pode falar mais devagar, por favor?", "Não, sou austríaco. Pode falar mais devagar, se faz favor?", "Não, sou austríaco. Pode falar mais devagar?", "Não sou, sou austríaco. Pode falar mais devagar, por favor?"]},
+     {"sprecher": "Senhor", "stimme": "m", "pt": "Desculpe! Perguntei se gosta de viver no Algarve.", "de": "Entschuldigung! Ich habe gefragt, ob Sie gern in der Algarve leben."},
+     {"ich": true, "aufgabe": "Sag: Ja, sehr. Aber Ihr Akzent ist schwierig für mich.", "loesungen": ["Gosto muito. Mas o seu sotaque é difícil para mim.", "Sim, gosto muito. Mas o seu sotaque é difícil para mim.", "Sim, muito. Mas o seu sotaque é difícil para mim.", "Gosto muito, mas o seu sotaque é difícil para mim."]},
+     {"sprecher": "Senhor", "stimme": "m", "pt": "Ah, é o sotaque algarvio! Até os lisboetas têm dificuldade.", "de": "Ach, das ist der Algarve-Akzent! Sogar die Lissabonner tun sich schwer."},
+     {"ich": true, "aufgabe": "Frag: Was bedeutet „atão“?", "loesungen": ["O que quer dizer atão?", "O que quer dizer «atão»?", "O que significa atão?", "O que significa «atão»?", "O que é que quer dizer atão?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "pode-repetir-devagar", "pt": "Pode repetir mais devagar, por favor?", "de": "Können Sie das bitte langsamer wiederholen?"},
+    {"id": "o-que-quer-dizer", "pt": "O que quer dizer essa expressão?", "de": "Was bedeutet dieser Ausdruck?"},
+    {"id": "sotaque-carregado", "pt": "Ele tem um sotaque muito carregado.", "de": "Er hat einen sehr starken Akzent."}
+   ]
+  },
+  {
+   "id": "A2-11-L08",
+   "typ": "neu",
+   "titel": "Märkte und Traditionen",
+   "vokabeln": ["o-mercado-mensal", "a-feira", "o-artesanato", "o-medronho", "a-aguardente", "a-tradicao", "a-banca"],
+   "grammatik": {
+    "titel": "Erzählen mit drei Zeiten: perfeito, imperfeito, mais-que-perfeito",
+    "erklaerung": [
+     "<b>perfeito</b> für die Handlungen, die die Geschichte vorantreiben: <i>Fomos à feira e comprámos um cesto.</i>",
+     "<b>imperfeito</b> für Hintergrund, Beschreibung und Gewohnheit: <i>Estava muito calor e havia muita gente.</i>",
+     "<b>mais-que-perfeito</b> für das, was <b>davor</b> schon passiert war: <i>O senhor já tinha vendido o medronho todo.</i>",
+     "Signalwörter: <b>de repente, depois, a seguir</b> → perfeito; <b>sempre, todos os anos, antigamente</b> → imperfeito; <b>já, ainda não, nunca</b> (vor einem Zeitpunkt) → mais-que-perfeito."
+    ],
+    "vergleich": "Im Gespräch packt Deutsch fast alles ins Perfekt („wir sind gegangen, es war heiß, er hatte schon verkauft“). Portugiesisch trennt die drei Ebenen streng – genau das macht deine Erzählung natürlich.",
+    "beispiele": [
+     {"pt": "Quando chegámos à feira, havia muita gente.", "de": "Als wir zum Jahrmarkt kamen, waren viele Leute da."},
+     {"pt": "O senhor da banca já tinha vendido o medronho todo.", "de": "Der Mann am Stand hatte den ganzen Medronho schon verkauft."},
+     {"pt": "Antigamente, o mercado mensal era na praça.", "de": "Früher war der Monatsmarkt auf dem Platz."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Es war sehr heiß.“ (Hintergrund der Geschichte)", "optionen": ["Fez muito calor.", "Estava muito calor.", "Tinha estado muito calor."], "richtig": 1, "erklaerung": "Beschreibung/Hintergrund: imperfeito.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "luecke", "satz": "Quando chegámos, o senhor já ___ vendido tudo.", "loesungen": ["tinha"], "de": "Als wir ankamen, hatte der Mann schon alles verkauft.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "luecke", "satz": "De repente, ___ a chover. (começar)", "loesungen": ["começou"], "de": "Plötzlich fing es an zu regnen.", "erklaerung": "de repente → perfeito.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "luecke", "satz": "Antigamente, a feira ___ na praça. (ser)", "loesungen": ["era"], "de": "Früher war der Jahrmarkt auf dem Platz.", "erklaerung": "antigamente → imperfeito.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "auswahl", "frage": "„Ich war noch nie auf einem Monatsmarkt gewesen.“", "optionen": ["Nunca fui a um mercado mensal.", "Nunca tinha ido a um mercado mensal.", "Nunca ia a um mercado mensal."], "richtig": 1, "erklaerung": "Erfahrung bis zu einem Punkt in der Vergangenheit: nunca tinha ido.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "uebersetzen", "de": "Wir haben auf dem Markt Kunsthandwerk gekauft.", "loesungen": ["Comprámos artesanato no mercado.", "No mercado comprámos artesanato.", "Comprámos artesanato na feira."]},
+     {"typ": "uebersetzen", "de": "Es ist eine sehr alte Tradition.", "loesungen": ["É uma tradição muito antiga."]},
+     {"typ": "satzbau", "de": "Der Mann hatte den ganzen Medronho schon verkauft.", "loesung": "O senhor já tinha vendido o medronho todo."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A feira de Monchique – der Jahrmarkt in Monchique",
+    "situation": "Ana erzählt Rita von ihrem Sonntag.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então, Ana, foram à feira de Monchique no domingo?", "de": "Na, Ana, wart ihr am Sonntag auf dem Jahrmarkt in Monchique?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Fomos! Estava um dia lindo e havia imensa gente.", "de": "Ja! Es war ein wunderschöner Tag, und es waren unheimlich viele Leute da."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Compraram alguma coisa?", "de": "Habt ihr etwas gekauft?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Eu comprei um cesto de artesanato numa banca pequena. O Stefan queria medronho, mas o senhor já tinha vendido tudo!", "de": "Ich habe an einem kleinen Stand einen handgemachten Korb gekauft. Stefan wollte Medronho, aber der Mann hatte schon alles verkauft!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Que pena! E provaram os enchidos?", "de": "Wie schade! Und habt ihr die Würste probiert?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Provámos. E no fim um senhor ofereceu-nos uma aguardente. «É a tradição», disse ele.", "de": "Ja. Und am Ende hat uns ein Herr einen Schnaps angeboten. „Das ist Tradition“, sagte er."}
+    ],
+    "fragen": [
+     {"frage": "Como estava o tempo no domingo?", "optionen": ["Estava a chover.", "Estava um dia lindo.", "Havia nevoeiro."], "richtig": 1},
+     {"frage": "Porque é que o Stefan não comprou medronho?", "optionen": ["O senhor já tinha vendido tudo.", "Era muito caro.", "A Ana não deixou."], "richtig": 0},
+     {"frage": "O que lhes ofereceu um senhor no fim?", "optionen": ["um cesto", "um queijo", "uma aguardente"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Erzähl deinen Marktbesuch in kurzen Sätzen auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Am Samstag sind wir auf den Monatsmarkt gegangen.", "loesungen": ["No sábado fomos ao mercado mensal.", "Fomos ao mercado mensal no sábado."]},
+     {"de": "Es waren viele Leute da.", "loesungen": ["Havia muita gente.", "Havia imensa gente.", "Estava muita gente."]},
+     {"de": "Ich habe einen handgemachten Korb gekauft.", "loesungen": ["Comprei um cesto de artesanato.", "Comprei um cesto feito à mão."]},
+     {"de": "Der Mann hatte den ganzen Medronho schon verkauft.", "loesungen": ["O senhor já tinha vendido o medronho todo.", "O senhor já tinha vendido todo o medronho."]},
+     {"de": "Es ist eine sehr alte Tradition.", "loesungen": ["É uma tradição muito antiga."]}
+    ]
+   },
+   "saetze": [
+    {"id": "mercado-mensal-sabado", "pt": "O mercado mensal é no primeiro sábado do mês.", "de": "Der Monatsmarkt ist am ersten Samstag im Monat."},
+    {"id": "ja-tinha-vendido-tudo", "pt": "O senhor já tinha vendido tudo.", "de": "Der Mann hatte schon alles verkauft."},
+    {"id": "tradicao-antiga", "pt": "É uma tradição muito antiga.", "de": "Es ist eine sehr alte Tradition."}
+   ]
+  },
+  {"id": "A2-11-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-11-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Um passeio na Ria Formosa – ein Ausflug in die Ria Formosa",
+   "situation": "Eine Naturführerin begrüßt Stefan und andere Gäste am Boot.",
+   "zeilen": [
+    {"sprecher": "Guia", "stimme": "f", "pt": "Bem-vindos à Ria Formosa! Hoje vamos observar aves e visitar a ilha da Culatra.", "de": "Willkommen in der Ria Formosa! Heute beobachten wir Vögel und besuchen die Insel Culatra."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Vamos ver flamingos?", "de": "Werden wir Flamingos sehen?"},
+    {"sprecher": "Guia", "stimme": "f", "pt": "Com sorte, sim. Ontem vimos mais de cinquenta. Mas a maré está a subir, por isso temos de partir já.", "de": "Mit Glück, ja. Gestern haben wir mehr als fünfzig gesehen. Aber die Flut kommt, deshalb müssen wir gleich los."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "A minha mulher já tinha feito este passeio há dois anos e adorou.", "de": "Meine Frau hatte diese Tour schon vor zwei Jahren gemacht und war begeistert."},
+    {"sprecher": "Guia", "stimme": "f", "pt": "Ótimo! Uma coisa importante: aqui não deixamos lixo. A ria é uma zona protegida.", "de": "Super! Etwas Wichtiges: Hier lassen wir keinen Müll zurück. Die Lagune ist ein Schutzgebiet."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Claro. Trouxemos sacos para o plástico.", "de": "Natürlich. Wir haben Beutel für das Plastik mitgebracht."}
+   ],
+   "fragen": [
+    {"frage": "O que vão fazer hoje?", "optionen": ["andar de caiaque nas grutas", "observar aves e visitar a Culatra", "fazer um trilho na serra"], "richtig": 1},
+    {"frage": "Quantos flamingos viram ontem?", "optionen": ["mais de cinquenta", "cinco", "quinze"], "richtig": 0},
+    {"frage": "Quem já tinha feito este passeio?", "optionen": ["o Stefan", "a guia", "a mulher do Stefan"], "richtig": 2},
+    {"frage": "Porque é que não se deixa lixo na ria?", "optionen": ["Porque é uma zona protegida.", "Porque não há ecopontos.", "Porque a maré está a subir."], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Uma mensagem do Pedro – eine Nachricht von Pedro",
+   "situation": "Pedro schreibt Stefan nach einem Wochenende in der Algarve.",
+   "text": [
+    "Olá, Stefan! Obrigado pelo fim de semana fantástico no Algarve.",
+    "Eu nunca tinha visto as falésias da Ponta da Piedade. Quando chegámos ao miradouro, o nevoeiro já tinha desaparecido e vimos a costa toda.",
+    "O passeio de caiaque até às grutas foi o melhor. A Rita estava com medo no início, mas depois adorou.",
+    "Na viagem de volta parámos em Monchique. Comprei uma garrafa de medronho para o meu pai – ele ainda não o tinha provado.",
+    "Um abraço, Pedro"
+   ],
+   "fragen": [
+    {"frage": "O que é que o Pedro nunca tinha visto?", "optionen": ["a Serra de Monchique", "as falésias da Ponta da Piedade", "a Ria Formosa"], "richtig": 1},
+    {"frage": "Como estava o tempo no miradouro?", "optionen": ["O nevoeiro já tinha desaparecido.", "Estava a chover.", "Havia muito nevoeiro."], "richtig": 0},
+    {"frage": "O que foi o melhor para o Pedro?", "optionen": ["o jantar", "o mercado", "o passeio de caiaque"], "richtig": 2},
+    {"frage": "Para quem comprou o Pedro o medronho?", "optionen": ["para o pai", "para a Rita", "para o Stefan"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Als wir ankamen, war das Boot schon abgefahren.", "loesungen": ["Quando chegámos, o barco já tinha partido.", "Quando chegámos, o barco já tinha saído.", "Quando chegámos o barco já tinha partido.", "Quando chegámos o barco já tinha saído."]},
+   {"de": "Ich hatte noch nie Flamingos gesehen.", "loesungen": ["Nunca tinha visto flamingos.", "Eu nunca tinha visto flamingos."]},
+   {"de": "Wir müssen Wasser sparen.", "loesungen": ["Temos de poupar água.", "Temos que poupar água."]},
+   {"de": "Lagos liegt im Westen der Algarve (barlavento).", "loesungen": ["Lagos fica no barlavento."]},
+   {"de": "Ich hatte es ihm schon gesagt.", "loesungen": ["Já lhe tinha dito.", "Eu já lhe tinha dito."]},
+   {"de": "Der Monatsmarkt ist am ersten Samstag im Monat.", "loesungen": ["O mercado mensal é no primeiro sábado do mês.", "O mercado mensal é no primeiro sábado de cada mês."]}
+  ],
+  "sprechen": [
+   {"pt": "Que paisagem tão bonita!", "de": "Was für eine schöne Landschaft!"},
+   {"pt": "Quando chegámos, o barco já tinha partido.", "de": "Als wir ankamen, war das Boot schon abgefahren."},
+   {"pt": "Nunca tinha visto uma gruta tão bonita.", "de": "Ich hatte noch nie eine so schöne Grotte gesehen."},
+   {"pt": "Temos de poupar água e reciclar.", "de": "Wir müssen Wasser sparen und recyceln."},
+   {"pt": "Desculpe, pode repetir mais devagar?", "de": "Entschuldigung, können Sie das langsamer wiederholen?"}
+  ]
+ }
+}

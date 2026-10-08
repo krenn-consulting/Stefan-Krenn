@@ -211,10 +211,10 @@ def test_wiederholungstag(con):
 
 
 def test_alle_lektionen_erledigt(con):
-    """Ganz A1 durchlaufen (alles richtig): Tests werden bestanden, am Ende ist nichts mehr offen."""
+    """Alle Lektionen durchlaufen (alles richtig): Tests werden bestanden, am Ende ist nichts mehr offen."""
     from backend import content
     gesehen = []
-    while lesson.naechste_lektion(con) is not None and len(gesehen) < 200:
+    while lesson.naechste_lektion(con) is not None and len(gesehen) < 1000:
         p, ergebnis = lektion_komplett(con)
         gesehen.append(p["id"])
         if p["typ"] in ("test", "leveltest"):

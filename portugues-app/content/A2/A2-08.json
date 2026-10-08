@@ -1,0 +1,648 @@
+{
+ "id": "A2-08",
+ "level": "A2",
+ "titel": "Compras e reclamações – Einkaufen und reklamieren",
+ "beschreibung": "Kleidung kaufen und anprobieren, Geschenke besorgen, umtauschen, Garantie und Defekte, Beschwerden mit dem Livro de Reclamações und Online-Bestellungen – dazu die indirekten Objektpronomen lhe/lhes und die Demonstrativa isto/isso/aquilo, este/esse/aquele.",
+ "vokabeln": [
+  {"id": "a-camisa", "pt": "a camisa", "de": "das Hemd / die Bluse", "emoji": "👔", "beispiel_pt": "Esta camisa é de algodão.", "beispiel_de": "Dieses Hemd ist aus Baumwolle."},
+  {"id": "as-calcas", "pt": "as calças", "de": "die Hose", "emoji": "👖", "beispiel_pt": "Preciso de umas calças novas.", "beispiel_de": "Ich brauche eine neue Hose.", "hinweis": "Immer Plural: as calças, umas calças"},
+  {"id": "o-casaco", "pt": "o casaco", "de": "die Jacke / der Mantel", "emoji": "🧥", "beispiel_pt": "Leva um casaco, à noite está frio.", "beispiel_de": "Nimm eine Jacke mit, abends ist es kalt."},
+  {"id": "os-sapatos", "pt": "os sapatos", "de": "die Schuhe", "emoji": "👞", "beispiel_pt": "Estes sapatos são muito confortáveis.", "beispiel_de": "Diese Schuhe sind sehr bequem."},
+  {"id": "a-camisola", "pt": "a camisola", "de": "der Pullover", "emoji": "🧶", "beispiel_pt": "Comprei uma camisola de lã.", "beispiel_de": "Ich habe einen Wollpullover gekauft."},
+  {"id": "o-vestido", "pt": "o vestido", "de": "das Kleid", "emoji": "👗", "beispiel_pt": "A Ana comprou um vestido para o casamento.", "beispiel_de": "Ana hat ein Kleid für die Hochzeit gekauft."},
+  {"id": "o-tamanho", "pt": "o tamanho", "de": "die Größe (Kleidung)", "emoji": "📏", "beispiel_pt": "Que tamanho veste?", "beispiel_de": "Welche Größe tragen Sie?", "hinweis": "vestir o M / o 40 = Größe M / 40 tragen"},
+
+  {"id": "o-provador", "pt": "o provador", "de": "die Umkleidekabine", "emoji": "🚪", "beispiel_pt": "Onde é o provador?", "beispiel_de": "Wo ist die Umkleidekabine?"},
+  {"id": "o-espelho", "pt": "o espelho", "de": "der Spiegel", "emoji": "🪞", "beispiel_pt": "Há um espelho grande ao lado dos provadores.", "beispiel_de": "Neben den Umkleidekabinen gibt es einen großen Spiegel."},
+  {"id": "fica-me-bem", "pt": "Fica-me bem.", "de": "Es steht / passt mir gut.", "emoji": "👌", "beispiel_pt": "Este casaco fica-te muito bem!", "beispiel_de": "Diese Jacke steht dir sehr gut!", "hinweis": "Plural: Ficam-me bem. Verneint: Não me fica bem."},
+  {"id": "largo", "pt": "largo", "de": "weit / zu groß", "emoji": "↔️", "beispiel_pt": "As calças ficam-me largas.", "beispiel_de": "Die Hose ist mir zu weit.", "hinweis": "Achtung: largo heißt nicht „lang“! (lang = comprido)", "alternativen": ["larga"]},
+  {"id": "apertado", "pt": "apertado", "de": "eng", "emoji": "🤏", "beispiel_pt": "Os sapatos estão apertados.", "beispiel_de": "Die Schuhe sind eng.", "alternativen": ["apertada"]},
+  {"id": "comprido", "pt": "comprido", "de": "lang", "emoji": "📐", "beispiel_pt": "O vestido é demasiado comprido.", "beispiel_de": "Das Kleid ist zu lang.", "hinweis": "kurz = curto", "alternativen": ["comprida"]},
+  {"id": "o-numero", "pt": "o número", "de": "die (Schuh-)Größe", "emoji": "👟", "beispiel_pt": "Que número calça?", "beispiel_de": "Welche Schuhgröße haben Sie?", "hinweis": "calçar = Schuhe tragen: Calço o 43."},
+
+  {"id": "isto", "pt": "isto", "de": "das (hier, bei mir)", "emoji": "👇", "beispiel_pt": "O que é isto?", "beispiel_de": "Was ist das (hier)?", "hinweis": "unveränderlich, steht allein (ohne Nomen)"},
+  {"id": "isso", "pt": "isso", "de": "das (da, bei dir / Ihnen)", "emoji": "👉", "beispiel_pt": "Isso é muito caro.", "beispiel_de": "Das (da) ist sehr teuer.", "hinweis": "auch für Gesagtes: por isso = deshalb"},
+  {"id": "aquilo", "pt": "aquilo", "de": "das (dort drüben)", "emoji": "🔭", "beispiel_pt": "O que é aquilo ali na montra?", "beispiel_de": "Was ist das dort im Schaufenster?"},
+  {"id": "este", "pt": "este", "de": "dieser (hier, bei mir)", "emoji": "📍", "beispiel_pt": "Este casaco é bonito.", "beispiel_de": "Diese Jacke (hier) ist schön.", "hinweis": "este, esta, estes, estas"},
+  {"id": "esse", "pt": "esse", "de": "dieser (da, bei dir / Ihnen)", "emoji": "🫵", "beispiel_pt": "Essa camisa fica-te bem.", "beispiel_de": "Das Hemd (das du anhast) steht dir gut.", "hinweis": "esse, essa, esses, essas"},
+  {"id": "a-montra", "pt": "a montra", "de": "das Schaufenster", "emoji": "🪟", "beispiel_pt": "Vi uns sapatos na montra.", "beispiel_de": "Ich habe Schuhe im Schaufenster gesehen."},
+  {"id": "a-prateleira", "pt": "a prateleira", "de": "das Regal(brett)", "emoji": "🗄️", "beispiel_pt": "As camisolas estão naquela prateleira.", "beispiel_de": "Die Pullover sind in dem Regal dort."},
+
+  {"id": "mostrar", "pt": "mostrar", "de": "zeigen", "emoji": "👀", "beispiel_pt": "Pode mostrar-me aquele casaco?", "beispiel_de": "Können Sie mir die Jacke dort zeigen?"},
+  {"id": "oferecer", "pt": "oferecer", "de": "schenken / anbieten", "emoji": "🎁", "beispiel_pt": "Ofereci-lhe um perfume.", "beispiel_de": "Ich habe ihr ein Parfum geschenkt."},
+  {"id": "emprestar", "pt": "emprestar", "de": "(ver)leihen", "emoji": "🤲", "beispiel_pt": "Emprestei-lhe o meu carro.", "beispiel_de": "Ich habe ihm mein Auto geliehen."},
+  {"id": "pedir-desculpa", "pt": "pedir desculpa", "de": "sich entschuldigen", "emoji": "🙇", "beispiel_pt": "Já lhe pedi desculpa.", "beispiel_de": "Ich habe mich schon bei ihr entschuldigt."},
+  {"id": "agradecer", "pt": "agradecer", "de": "danken / sich bedanken", "emoji": "🙏", "beispiel_pt": "Agradeci-lhes a ajuda.", "beispiel_de": "Ich habe mich bei ihnen für die Hilfe bedankt.", "hinweis": "agradecer algo a alguém"},
+  {"id": "embrulhar", "pt": "embrulhar", "de": "einpacken (Geschenk)", "emoji": "🎀", "beispiel_pt": "Pode embrulhar, por favor?", "beispiel_de": "Können Sie es bitte einpacken?"},
+  {"id": "para-oferta", "pt": "para oferta", "de": "als Geschenk", "emoji": "🎊", "beispiel_pt": "É para oferta?", "beispiel_de": "Ist es als Geschenk?"},
+
+  {"id": "trocar", "pt": "trocar", "de": "umtauschen / wechseln", "emoji": "🔄", "beispiel_pt": "Queria trocar estas calças por um tamanho acima.", "beispiel_de": "Ich möchte diese Hose gegen eine Größe größer umtauschen."},
+  {"id": "devolver", "pt": "devolver", "de": "zurückgeben", "emoji": "↩️", "beispiel_pt": "Posso devolver o casaco?", "beispiel_de": "Kann ich die Jacke zurückgeben?"},
+  {"id": "o-talao-de-troca", "pt": "o talão de troca", "de": "der Geschenkbeleg / Umtauschbon", "emoji": "🧾", "beispiel_pt": "Pode dar-me um talão de troca?", "beispiel_de": "Können Sie mir einen Geschenkbeleg geben?", "hinweis": "Damit kann der Beschenkte umtauschen, ohne den Preis zu sehen."},
+  {"id": "o-vale", "pt": "o vale", "de": "der Gutschein", "emoji": "🎟️", "beispiel_pt": "Não devolvem o dinheiro, só dão um vale.", "beispiel_de": "Sie geben kein Geld zurück, nur einen Gutschein.", "hinweis": "auch: o vale de compras"},
+  {"id": "a-etiqueta", "pt": "a etiqueta", "de": "das Etikett / Preisschild", "emoji": "🏷️", "beispiel_pt": "Não tire a etiqueta antes de experimentar.", "beispiel_de": "Entfernen Sie das Etikett nicht vor dem Anprobieren."},
+  {"id": "a-embalagem", "pt": "a embalagem", "de": "die Verpackung", "emoji": "📦", "beispiel_pt": "Guarde a embalagem original.", "beispiel_de": "Heben Sie die Originalverpackung auf."},
+  {"id": "o-dinheiro-de-volta", "pt": "o dinheiro de volta", "de": "das Geld zurück", "emoji": "💶", "beispiel_pt": "Queria o dinheiro de volta, por favor.", "beispiel_de": "Ich hätte gern mein Geld zurück, bitte."},
+
+  {"id": "a-garantia", "pt": "a garantia", "de": "die Garantie", "emoji": "📜", "beispiel_pt": "A máquina ainda está na garantia.", "beispiel_de": "Die Maschine hat noch Garantie.", "hinweis": "In Portugal gilt für neue Produkte eine gesetzliche Garantie von drei Jahren."},
+  {"id": "nao-funciona", "pt": "Não funciona.", "de": "Es funktioniert nicht.", "emoji": "❌", "beispiel_pt": "O carregador não funciona.", "beispiel_de": "Das Ladegerät funktioniert nicht."},
+  {"id": "avariou", "pt": "Avariou.", "de": "Es ist kaputtgegangen.", "emoji": "💥", "beispiel_pt": "A máquina de lavar avariou ontem.", "beispiel_de": "Die Waschmaschine ist gestern kaputtgegangen.", "hinweis": "avariar = kaputtgehen (Geräte, Auto); Zustand: está avariado"},
+  {"id": "a-assistencia-tecnica", "pt": "a assistência técnica", "de": "der Kundendienst / Reparaturservice", "emoji": "🛠️", "beispiel_pt": "Enviaram o telemóvel para a assistência técnica.", "beispiel_de": "Sie haben das Handy zum Reparaturservice geschickt."},
+  {"id": "o-defeito", "pt": "o defeito", "de": "der Mangel / Defekt", "emoji": "⚠️", "beispiel_pt": "O casaco tem um defeito no fecho.", "beispiel_de": "Die Jacke hat einen Fehler am Reißverschluss.", "hinweis": "com defeito = mangelhaft, defekt"},
+  {"id": "riscado", "pt": "riscado", "de": "zerkratzt", "emoji": "〰️", "beispiel_pt": "O ecrã está riscado.", "beispiel_de": "Der Bildschirm ist zerkratzt.", "alternativen": ["riscada"]},
+  {"id": "o-carregador", "pt": "o carregador", "de": "das Ladegerät", "emoji": "🔌", "beispiel_pt": "Esqueci-me do carregador em casa.", "beispiel_de": "Ich habe das Ladegerät zu Hause vergessen."},
+
+  {"id": "reclamar", "pt": "reclamar", "de": "sich beschweren / reklamieren", "emoji": "😠", "beispiel_pt": "Quero reclamar do atendimento.", "beispiel_de": "Ich möchte mich über den Service beschweren.", "hinweis": "reclamar de algo = sich über etwas beschweren"},
+  {"id": "o-livro-de-reclamacoes", "pt": "o Livro de Reclamações", "de": "das Beschwerdebuch", "emoji": "📒", "beispiel_pt": "Pode dar-me o Livro de Reclamações, por favor?", "beispiel_de": "Können Sie mir bitte das Beschwerdebuch geben?", "hinweis": "umgangssprachlich: o livro amarelo. Pflicht in jedem Geschäft; auch online unter livroreclamacoes.pt"},
+  {"id": "apresentar-uma-reclamacao", "pt": "apresentar uma reclamação", "de": "eine Beschwerde einreichen", "emoji": "✍️", "beispiel_pt": "Apresentei uma reclamação online.", "beispiel_de": "Ich habe online eine Beschwerde eingereicht."},
+  {"id": "o-gerente", "pt": "o gerente", "de": "der Geschäftsführer / Filialleiter", "emoji": "🧑‍💼", "beispiel_pt": "Queria falar com o gerente, por favor.", "beispiel_de": "Ich möchte bitte mit dem Geschäftsführer sprechen.", "alternativen": ["a gerente"]},
+  {"id": "o-atendimento", "pt": "o atendimento", "de": "der Service / die Bedienung", "emoji": "🛎️", "beispiel_pt": "O atendimento foi péssimo.", "beispiel_de": "Der Service war miserabel.", "hinweis": "o atendimento ao cliente = der Kundenservice"},
+  {"id": "inaceitavel", "pt": "inaceitável", "de": "inakzeptabel", "emoji": "🙅", "beispiel_pt": "Isto é inaceitável!", "beispiel_de": "Das ist inakzeptabel!"},
+  {"id": "ter-direito-a", "pt": "ter direito a", "de": "Anspruch haben auf", "emoji": "⚖️", "beispiel_pt": "Tenho direito a uma reparação gratuita.", "beispiel_de": "Ich habe Anspruch auf eine kostenlose Reparatur."},
+
+  {"id": "encomendar", "pt": "encomendar", "de": "bestellen", "emoji": "🛒", "beispiel_pt": "Encomendei uns sapatos online.", "beispiel_de": "Ich habe online Schuhe bestellt.", "hinweis": "die Bestellung / das Paket = a encomenda"},
+  {"id": "a-entrega", "pt": "a entrega", "de": "die Lieferung / Zustellung", "emoji": "🚚", "beispiel_pt": "A entrega é grátis a partir de cinquenta euros.", "beispiel_de": "Die Lieferung ist ab fünfzig Euro kostenlos."},
+  {"id": "os-portes", "pt": "os portes", "de": "die Versandkosten", "emoji": "💸", "beispiel_pt": "Os portes custam quatro euros.", "beispiel_de": "Der Versand kostet vier Euro.", "hinweis": "portes grátis = versandkostenfrei"},
+  {"id": "o-estado-da-encomenda", "pt": "o estado da encomenda", "de": "der Bestellstatus", "emoji": "📊", "beispiel_pt": "Pode ver o estado da encomenda no site.", "beispiel_de": "Sie können den Bestellstatus auf der Website sehen."},
+  {"id": "o-codigo-de-rastreio", "pt": "o código de rastreio", "de": "die Sendungsnummer (Tracking)", "emoji": "🔢", "beispiel_pt": "Recebi o código de rastreio por e-mail.", "beispiel_de": "Ich habe die Sendungsnummer per E-Mail bekommen."},
+  {"id": "o-estafeta", "pt": "o estafeta", "de": "der Kurier / Paketbote", "emoji": "🛵", "beispiel_pt": "O estafeta deixou a encomenda com o vizinho.", "beispiel_de": "Der Kurier hat das Paket beim Nachbarn abgegeben."},
+  {"id": "danificado", "pt": "danificado", "de": "beschädigt", "emoji": "🩹", "beispiel_pt": "A caixa chegou danificada.", "beispiel_de": "Der Karton ist beschädigt angekommen.", "alternativen": ["danificada"]}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-08-L01",
+   "typ": "neu",
+   "titel": "Kleidung kaufen",
+   "vokabeln": ["a-camisa", "as-calcas", "o-casaco", "os-sapatos", "a-camisola", "o-vestido", "o-tamanho"],
+   "grammatik": {
+    "titel": "Kleidung tragen: vestir, calçar, usar – und umas calças",
+    "erklaerung": [
+     "<b>vestir</b> = (Kleidung) anziehen / eine Größe tragen: eu <b>visto</b>, tu vestes, você/ele veste. <i>Que tamanho veste?</i> – <i>Visto o M.</i>",
+     "<b>calçar</b> = Schuhe anziehen / eine Schuhgröße haben: <i>Que número calça?</i> – <i>Calço o 43.</i>",
+     "<b>usar</b> = gewohnheitsmäßig tragen: <i>Uso sempre camisa.</i> – <b>levar</b> = mitnehmen / für einen Anlass anziehen: <i>Leva um casaco!</i>",
+     "Nur im Plural: <i>as calças, os óculos</i> – „eine Hose“ = <i>umas calças</i>. Farben passen sich an: <i>umas calças pretas, uma camisa branca</i>."
+    ],
+    "vergleich": "Englisch kennt das auch: „a pair of trousers“ ≈ <i>umas calças</i>. Deutsch sagt „eine Hose“ im Singular – im Portugiesischen also immer Plural: <i>As calças são caras.</i>",
+    "beispiele": [
+     {"pt": "Que tamanho veste? – Visto o M.", "de": "Welche Größe tragen Sie? – Ich trage M."},
+     {"pt": "Preciso de umas calças pretas.", "de": "Ich brauche eine schwarze Hose."},
+     {"pt": "Calço o quarenta e três.", "de": "Ich habe Schuhgröße 43."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Que tamanho ___? (vestir, formell)", "loesungen": ["veste"], "de": "Welche Größe tragen Sie?", "kategorie": "Verben"},
+     {"typ": "luecke", "satz": "Eu ___ o M. (vestir)", "loesungen": ["visto"], "de": "Ich trage M.", "erklaerung": "vestir: eu visto (mit i!), tu vestes, ele veste.", "kategorie": "Verben"},
+     {"typ": "luecke", "satz": "Que número ___? (calçar, formell)", "loesungen": ["calça"], "de": "Welche Schuhgröße haben Sie?", "kategorie": "Verben"},
+     {"typ": "luecke", "satz": "Preciso de ___ calças novas.", "loesungen": ["umas"], "de": "Ich brauche eine neue Hose.", "erklaerung": "calças ist immer Plural → umas calças = eine Hose.", "kategorie": "Plural"},
+     {"typ": "auswahl", "frage": "„Ich habe Schuhgröße 43.“", "optionen": ["Tenho o tamanho 43.", "Calço o 43.", "Visto o 43."], "richtig": 1, "erklaerung": "Bei Schuhen: calçar + o número.", "kategorie": "Verben"},
+     {"typ": "auswahl", "frage": "„Die Hose ist schwarz.“", "optionen": ["A calça é preta.", "As calças são preto.", "As calças são pretas."], "richtig": 2, "erklaerung": "as calças: weiblich Plural → são pretas.", "kategorie": "Plural"},
+     {"typ": "uebersetzen", "de": "Ich brauche ein weißes Hemd und eine Jacke.", "loesungen": ["Preciso de uma camisa branca e de um casaco.", "Preciso de uma camisa branca e um casaco."]},
+     {"typ": "satzbau", "de": "Ana hat ein rotes Kleid gekauft.", "loesung": "A Ana comprou um vestido vermelho."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na loja de roupa – im Kleidergeschäft",
+    "situation": "Stefan braucht Kleidung für eine Hochzeit in Lissabon.",
+    "zeilen": [
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Boa tarde! Posso ajudar?", "de": "Guten Tag! Kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Vou a um casamento no sábado e preciso de uma camisa e de umas calças.", "de": "Guten Tag. Ich gehe am Samstag auf eine Hochzeit und brauche ein Hemd und eine Hose."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Muito bem. Que tamanho veste?", "de": "Sehr gut. Welche Größe tragen Sie?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Normalmente visto o L. E nas calças, o quarenta e quatro.", "de": "Normalerweise L. Und bei Hosen 44."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Temos estas camisas, brancas e azuis. E as calças, prefere cinzentas ou pretas?", "de": "Wir haben diese Hemden, in Weiß und Blau. Und die Hose – lieber grau oder schwarz?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pretas. E também preciso de sapatos. Calço o quarenta e três.", "de": "Schwarz. Und ich brauche auch Schuhe. Ich habe Größe 43."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Os sapatos estão ali ao fundo. Já lhe mostro.", "de": "Die Schuhe sind dort hinten. Ich zeige sie Ihnen gleich."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan precisa de roupa?", "optionen": ["Vai a um casamento.", "Vai de férias.", "Tem uma entrevista."], "richtig": 0},
+     {"frage": "Que tamanho de camisa veste o Stefan?", "optionen": ["O M.", "O XL.", "O L."], "richtig": 2},
+     {"frage": "De que cor quer as calças?", "optionen": ["Cinzentas.", "Pretas.", "Azuis."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Preciso de uma camisa e de umas calças.", "de": "Ich brauche ein Hemd und eine Hose."},
+     {"pt": "Normalmente visto o L.", "de": "Normalerweise trage ich L."},
+     {"pt": "Calço o quarenta e três.", "de": "Ich habe Schuhgröße 43."},
+     {"pt": "Comprei uma camisola de lã.", "de": "Ich habe einen Wollpullover gekauft."},
+     {"pt": "A Ana comprou um vestido para o casamento.", "de": "Ana hat ein Kleid für die Hochzeit gekauft."}
+    ]
+   },
+   "saetze": [
+    {"id": "que-tamanho-veste", "pt": "Que tamanho veste?", "de": "Welche Größe tragen Sie?"},
+    {"id": "preciso-umas-calcas", "pt": "Preciso de umas calças pretas.", "de": "Ich brauche eine schwarze Hose."},
+    {"id": "calco-o-43", "pt": "Calço o quarenta e três.", "de": "Ich habe Schuhgröße 43."}
+   ]
+  },
+  {
+   "id": "A2-08-L02",
+   "typ": "neu",
+   "titel": "Anprobieren",
+   "vokabeln": ["o-provador", "o-espelho", "fica-me-bem", "largo", "apertado", "comprido", "o-numero"],
+   "grammatik": {
+    "titel": "ficar + Pronomen: Fica-me bem. – Ficam-te largas.",
+    "erklaerung": [
+     "Ob Kleidung passt oder steht, sagt man mit <b>ficar</b> + Pronomen + Adjektiv/Adverb: <i>Fica-<b>me</b> bem.</i> – Es steht/passt mir gut.",
+     "Das Verb richtet sich nach dem <b>Kleidungsstück</b>, nicht nach der Person: <i>O casaco fica-me largo.</i> – <i>As calças fica<b>m</b>-me apertad<b>as</b>.</i>",
+     "Pronomen: <i>me</i> (mir), <i>te</i> (dir), <i>lhe</i> (ihm / ihr / Ihnen). Nach <i>não</i> und Fragewörtern davor: <i>Não me fica bem. Como te fica?</i>",
+     "„zu …“ = <b>demasiado</b> oder <b>muito</b>: <i>É demasiado comprido.</i> Größer / kleiner: <i>um tamanho acima / abaixo</i>, <i>um número maior / mais pequeno</i>."
+    ],
+    "vergleich": "Deutsch: „Die Hose ist mir zu eng.“ – Portugiesisch fast genauso: <i>As calças ficam-me apertadas.</i> Das „mir“ wird zu <i>-me</i>.",
+    "beispiele": [
+     {"pt": "Este casaco fica-te muito bem!", "de": "Diese Jacke steht dir sehr gut!"},
+     {"pt": "As calças ficam-me largas. Tem um tamanho abaixo?", "de": "Die Hose ist mir zu weit. Haben Sie eine Größe kleiner?"},
+     {"pt": "Não me fica bem, é demasiado comprido.", "de": "Es steht mir nicht, es ist zu lang."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O vestido fica-___ muito bem, Ana! (dir)", "loesungen": ["te"], "de": "Das Kleid steht dir sehr gut, Ana!", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Os sapatos ___-me apertados. (ficar)", "loesungen": ["ficam"], "de": "Die Schuhe sind mir zu eng.", "erklaerung": "os sapatos = Plural → ficam.", "kategorie": "ficar"},
+     {"typ": "luecke", "satz": "Não ___ fica bem. (mir)", "loesungen": ["me"], "de": "Es steht mir nicht.", "erklaerung": "Nach não steht das Pronomen vorne.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "As calças ficam-me ___. (largo)", "loesungen": ["largas"], "de": "Die Hose ist mir zu weit.", "erklaerung": "Angleichung an as calças: weiblich Plural.", "kategorie": "Adjektive"},
+     {"typ": "auswahl", "frage": "„Wie steht es dir?“", "optionen": ["Como te fica?", "Como fica-te?", "Como te ficas?"], "richtig": 0, "erklaerung": "Nach Fragewort: Pronomen vorne.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„largo“ bedeutet:", "optionen": ["lang", "weit / zu groß", "eng"], "richtig": 1, "erklaerung": "lang = comprido; eng = apertado.", "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Kann ich das anprobieren? Wo ist die Umkleidekabine?", "loesungen": ["Posso experimentar? Onde é o provador?", "Posso experimentar? Onde fica o provador?", "Posso experimentar isto? Onde é o provador?", "Posso experimentar isto? Onde fica o provador?", "Posso experimentar? Onde são os provadores?"]},
+     {"typ": "satzbau", "de": "Haben Sie eine Nummer größer?", "loesung": "Tem um número maior?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "No provador – in der Umkleide",
+    "situation": "Ana probiert in Portimão ein Kleid an, Stefan wartet draußen.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, o que achas? Como me fica este vestido?", "de": "Stefan, was meinst du? Wie steht mir dieses Kleid?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Fica-te muito bem! Mas não é um pouco comprido?", "de": "Es steht dir sehr gut! Aber ist es nicht ein bisschen lang?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Sim, é demasiado comprido. E na cintura fica-me apertado.", "de": "Ja, es ist zu lang. Und an der Taille ist es mir zu eng."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Quer experimentar um tamanho acima? Também temos o mesmo vestido mais curto.", "de": "Möchten Sie eine Größe größer probieren? Wir haben dasselbe Kleid auch kürzer."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Sim, por favor. E onde está o espelho grande?", "de": "Ja, bitte. Und wo ist der große Spiegel?"},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Está ali, ao lado dos provadores.", "de": "Dort, neben den Umkleidekabinen."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema do vestido?", "optionen": ["É demasiado curto.", "É demasiado comprido e apertado.", "É muito largo."], "richtig": 1},
+     {"frage": "O que diz o Stefan?", "optionen": ["Que o vestido fica muito bem à Ana.", "Que o vestido é caro.", "Que não gosta da cor."], "richtig": 0},
+     {"frage": "Onde está o espelho grande?", "optionen": ["Na montra.", "À entrada da loja.", "Ao lado dos provadores."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du probierst in einem Schuhgeschäft Schuhe an.",
+    "zeilen": [
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Então, como lhe ficam os sapatos?", "de": "Na, wie passen Ihnen die Schuhe?"},
+     {"ich": true, "aufgabe": "Sag: Sie sind mir etwas eng.", "loesungen": ["Ficam-me um pouco apertados.", "Ficam-me um bocadinho apertados.", "Estão-me um pouco apertados.", "São um pouco apertados."]},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Que número calça?", "de": "Welche Größe haben Sie?"},
+     {"ich": true, "aufgabe": "Sag: Ich habe 43. Haben Sie eine Nummer größer?", "loesungen": ["Calço o 43. Tem um número maior?", "Calço o quarenta e três. Tem um número maior?", "Calço o 43. Tem um número acima?", "Calço o quarenta e três. Tem um número acima?"]},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Temos o quarenta e quatro. Experimente.", "de": "Wir haben 44. Probieren Sie."},
+     {"ich": true, "aufgabe": "Sag: Ja, die passen mir gut. Ich nehme sie.", "loesungen": ["Sim, estes ficam-me bem. Levo-os.", "Sim, ficam-me bem. Levo-os.", "Sim, estes ficam-me bem. Vou levá-los.", "Sim, ficam-me bem. Vou levá-los.", "Sim, ficam-me bem. Fico com eles.", "Sim, estes ficam-me bem. Fico com eles."]}
+    ]
+   },
+   "saetze": [
+    {"id": "fica-te-bem", "pt": "Este casaco fica-te muito bem!", "de": "Diese Jacke steht dir sehr gut!"},
+    {"id": "ficam-me-apertados", "pt": "Os sapatos ficam-me apertados.", "de": "Die Schuhe sind mir zu eng."},
+    {"id": "um-numero-maior", "pt": "Tem um número maior?", "de": "Haben Sie eine Nummer größer?"}
+   ]
+  },
+  {
+   "id": "A2-08-L03",
+   "typ": "neu",
+   "titel": "Dies, das und jenes",
+   "vokabeln": ["isto", "isso", "aquilo", "este", "esse", "a-montra", "a-prateleira"],
+   "grammatik": {
+    "titel": "isto/isso/aquilo und este/esse/aquele",
+    "erklaerung": [
+     "Portugiesisch hat <b>drei</b> Entfernungen: <b>este</b> (hier, bei mir) – <b>esse</b> (da, bei dir / Ihnen) – <b>aquele</b> (dort drüben, weit weg von beiden). Dazu passen <i>aqui – aí – ali/lá</i>.",
+     "<b>este / esse / aquele</b> stehen vor einem Nomen und passen sich an: <i>este casaco, esta camisa, estes sapatos, estas calças</i> · <i>esse, essa, esses, essas</i> · <i>aquele, aquela, aqueles, aquelas</i>.",
+     "<b>isto / isso / aquilo</b> stehen allein und sind unveränderlich – für Dinge, die man nicht benennt: <i>O que é isto? Isso é caro. Quanto custa aquilo?</i>",
+     "Mit <b>em</b> und <b>de</b> verschmelzen sie: <i>neste, nessa, naquele, disto, desse, daquilo</i>. <i>Gosto daquela camisa.</i>"
+    ],
+    "vergleich": "Englisch hat zwei Stufen (this / that), Portugiesisch drei: <i>este – esse – aquele</i>. Wichtig: Was die andere Person in der Hand hat oder anhat, ist <i>esse / isso</i>.",
+    "beispiele": [
+     {"pt": "Esta camisa é bonita, mas essa é mais barata.", "de": "Dieses Hemd (hier) ist schön, aber das (bei dir) ist billiger."},
+     {"pt": "O que é aquilo na montra?", "de": "Was ist das dort im Schaufenster?"},
+     {"pt": "Gosto daqueles sapatos ali na prateleira.", "de": "Mir gefallen die Schuhe dort im Regal."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O que é ___? (das hier, in meiner Hand)", "loesungen": ["isto"], "de": "Was ist das (hier)?", "kategorie": "Demonstrativa"},
+     {"typ": "luecke", "satz": "___ calças são muito caras. (diese hier)", "loesungen": ["Estas"], "de": "Diese Hose (hier) ist sehr teuer.", "erklaerung": "as calças: weiblich Plural → estas.", "kategorie": "Demonstrativa"},
+     {"typ": "luecke", "satz": "Gosto ___ casaco ali na montra. (de + aquele)", "loesungen": ["daquele"], "de": "Mir gefällt die Jacke dort im Schaufenster.", "kategorie": "Demonstrativa"},
+     {"typ": "luecke", "satz": "Quanto custa ___ camisola que tem na mão? (diese da, bei Ihnen)", "loesungen": ["essa"], "de": "Was kostet der Pullover, den Sie in der Hand haben?", "kategorie": "Demonstrativa"},
+     {"typ": "auswahl", "frage": "Die Verkäuferin hält einen Pullover. Du fragst: „Ist das Wolle?“", "optionen": ["Isto é lã?", "Isso é lã?", "Aquilo é lã?"], "richtig": 1, "erklaerung": "Was die andere Person hält: isso.", "kategorie": "Demonstrativa"},
+     {"typ": "auswahl", "frage": "„in diesem Geschäft“", "optionen": ["em este loja", "nessas loja", "nesta loja"], "richtig": 2, "erklaerung": "em + esta = nesta.", "kategorie": "Demonstrativa"},
+     {"typ": "uebersetzen", "de": "Was kostet das dort drüben?", "loesungen": ["Quanto custa aquilo?", "Quanto custa aquilo ali?", "Quanto é aquilo?", "Quanto é que custa aquilo?"], "kategorie": "Demonstrativa"},
+     {"typ": "satzbau", "de": "Diese Schuhe sind schöner als die dort.", "loesung": "Estes sapatos são mais bonitos do que aqueles."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Estes ou aqueles? – Diese oder die dort?",
+    "situation": "Ana und Stefan suchen in einem Schuhgeschäft in Lagos Schuhe für Ana.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Olha, Stefan, gosto daqueles sapatos ali na montra.", "de": "Schau mal, Stefan, mir gefallen die Schuhe dort im Schaufenster."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quais? Esses castanhos?", "de": "Welche? Die braunen da?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não, aqueles azuis, ao lado das malas.", "de": "Nein, die blauen dort, neben den Taschen."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Boa tarde. Os azuis? Temos aqui nesta prateleira.", "de": "Guten Tag. Die blauen? Die haben wir hier in diesem Regal."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Sim, esses! Quanto custam?", "de": "Ja, die! Was kosten sie?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Estes custam oitenta euros, mas aqueles ali, os pretos, estão em promoção: cinquenta.", "de": "Diese kosten achtzig Euro, aber die dort, die schwarzen, sind im Angebot: fünfzig."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Hum… Posso experimentar os dois?", "de": "Hm … Kann ich beide anprobieren?"}
+    ],
+    "fragen": [
+     {"frage": "Onde viu a Ana os sapatos?", "optionen": ["Na montra.", "Na internet.", "Numa revista."], "richtig": 0},
+     {"frage": "De que cor são os sapatos de que a Ana gosta?", "optionen": ["Castanhos.", "Azuis.", "Pretos."], "richtig": 1},
+     {"frage": "Quanto custam os sapatos em promoção?", "optionen": ["Oitenta euros.", "Trinta euros.", "Cinquenta euros."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Was ist das? (hier, bei mir)", "loesungen": ["O que é isto?", "O que é que é isto?"]},
+     {"de": "Diese Jacke (hier) ist zu teuer.", "loesungen": ["Este casaco é muito caro.", "Este casaco é demasiado caro.", "Este casaco é caro demais."]},
+     {"de": "Mir gefällt das Kleid dort im Schaufenster.", "loesungen": ["Gosto daquele vestido na montra.", "Gosto daquele vestido ali na montra.", "Gosto daquele vestido da montra."]},
+     {"de": "Was kostet das? (bei Ihnen)", "loesungen": ["Quanto custa isso?", "Quanto é isso?", "Quanto é que custa isso?"]},
+     {"de": "In diesem Geschäft ist alles billig.", "loesungen": ["Nesta loja tudo é barato.", "Nesta loja é tudo barato.", "Nesta loja está tudo barato."]}
+    ]
+   },
+   "saetze": [
+    {"id": "o-que-e-isto", "pt": "O que é isto?", "de": "Was ist das (hier)?"},
+    {"id": "gosto-daquele-vestido", "pt": "Gosto daquele vestido na montra.", "de": "Mir gefällt das Kleid dort im Schaufenster."},
+    {"id": "quanto-custa-isso", "pt": "Quanto custa isso?", "de": "Was kostet das (da)?"}
+   ]
+  },
+  {
+   "id": "A2-08-L04",
+   "typ": "neu",
+   "titel": "Geschenke: lhe und lhes",
+   "vokabeln": ["mostrar", "oferecer", "emprestar", "pedir-desculpa", "agradecer", "embrulhar", "para-oferta"],
+   "grammatik": {
+    "titel": "Indirekte Objektpronomen: lhe / lhes",
+    "erklaerung": [
+     "Das indirekte Objekt antwortet auf „wem?“: <i>Dei um presente <b>à Ana</b>.</i> → <i>Dei-<b>lhe</b> um presente.</i> – Ich habe <b>ihr</b> ein Geschenk gegeben.",
+     "Formen: <i>me</i> (mir), <i>te</i> (dir), <b>lhe</b> (ihm / ihr / Ihnen), <i>nos</i> (uns), <b>lhes</b> (ihnen / Ihnen, Plural).",
+     "Stellung wie immer: im Hauptsatz <b>hinter</b> dem Verb (<i>Disse-lhe a verdade.</i>), nach <i>não, já, também, nunca, que</i> und Fragewörtern <b>davor</b> (<i>Não lhe disse nada. Já lhe mostrei.</i>).",
+     "<b>lhe</b> ist auch das höfliche „Ihnen“: <i>Posso mostrar-lhe uma coisa?</i> Ist unklar, wer gemeint ist, nennt man einfach die Person: <i>Dei o presente à Ana.</i>"
+    ],
+    "vergleich": "Deutsch unterscheidet „ihm“ und „ihr“ – Portugiesisch nicht: <i>lhe</i> für beide. Und Achtung: <i>lhe</i> (wem?) ist nicht <i>o/a</i> (wen?): <i>Vi-o.</i> (Ich habe ihn gesehen.) – <i>Disse-lhe.</i> (Ich habe es ihm gesagt.)",
+    "beispiele": [
+     {"pt": "Ofereci-lhe um perfume no aniversário.", "de": "Ich habe ihr zum Geburtstag ein Parfum geschenkt."},
+     {"pt": "Não lhe disse o preço.", "de": "Ich habe ihm den Preis nicht gesagt."},
+     {"pt": "Agradeci-lhes a ajuda.", "de": "Ich habe mich bei ihnen für die Hilfe bedankt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Mostrei-___ a camisola. (ihr)", "loesungen": ["lhe"], "de": "Ich habe ihr den Pullover gezeigt.", "kategorie": "lhe/lhes"},
+     {"typ": "luecke", "satz": "Não ___ disse nada. (ihm)", "loesungen": ["lhe"], "de": "Ich habe ihm nichts gesagt.", "erklaerung": "Nach não steht das Pronomen vorne.", "kategorie": "lhe/lhes"},
+     {"typ": "luecke", "satz": "Emprestei-___ o carro. (ihnen, Plural)", "loesungen": ["lhes"], "de": "Ich habe ihnen das Auto geliehen.", "kategorie": "lhe/lhes"},
+     {"typ": "luecke", "satz": "Já ___ pedi desculpa. (ihr)", "loesungen": ["lhe"], "de": "Ich habe mich schon bei ihr entschuldigt.", "erklaerung": "Nach já steht das Pronomen vorne.", "kategorie": "lhe/lhes"},
+     {"typ": "auswahl", "frage": "„Ich habe ihm geschrieben.“", "optionen": ["Escrevi-o.", "Escrevi-lhe.", "Lhe escrevi."], "richtig": 1, "erklaerung": "escrever a alguém → indirektes Objekt: lhe. „Lhe escrevi“ ist brasilianische Wortstellung.", "kategorie": "lhe/lhes"},
+     {"typ": "auswahl", "frage": "„Kann ich Ihnen etwas zeigen?“", "optionen": ["Posso mostrar-o uma coisa?", "Posso lhe mostrar uma coisa?", "Posso mostrar-lhe uma coisa?"], "richtig": 2, "erklaerung": "Ihnen = lhe, angehängt an den Infinitiv.", "kategorie": "lhe/lhes"},
+     {"typ": "uebersetzen", "de": "Ich habe mich bei ihnen für das Geschenk bedankt.", "loesungen": ["Agradeci-lhes o presente.", "Agradeci-lhes pelo presente.", "Agradeci-lhes a prenda.", "Agradeci-lhes pela prenda."], "kategorie": "lhe/lhes"},
+     {"typ": "uebersetzen", "de": "Es ist ein Geschenk. Können Sie es einpacken?", "loesungen": ["É para oferta. Pode embrulhar?", "É para oferta. Pode embrulhá-lo?", "É para oferta. Pode embrulhar, por favor?", "É para oferta. Pode embrulhar, se faz favor?"]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um presente para a Ana – ein Geschenk für Ana",
+    "situation": "Stefan kauft in einer Boutique ein Geburtstagsgeschenk für Ana.",
+    "zeilen": [
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Bom dia. Posso ajudá-lo?", "de": "Guten Morgen. Kann ich Ihnen helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Procuro um presente para a minha mulher. Faz anos no domingo.", "de": "Guten Morgen. Ich suche ein Geschenk für meine Frau. Sie hat am Sonntag Geburtstag."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Posso mostrar-lhe estes lenços de seda? São muito bonitos.", "de": "Darf ich Ihnen diese Seidentücher zeigen? Sie sind sehr schön."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Hum… O ano passado ofereci-lhe um lenço. Tem alguma camisola de caxemira?", "de": "Hm … Letztes Jahr habe ich ihr ein Tuch geschenkt. Haben Sie einen Kaschmirpullover?"},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Temos esta, em azul. É para oferta?", "de": "Wir haben diesen hier, in Blau. Ist er als Geschenk?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim. Pode embrulhar, por favor? E não lhe digo nada até domingo!", "de": "Ja. Können Sie ihn bitte einpacken? Und ich sage ihr bis Sonntag nichts!"},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Com certeza. Vai ver que ela vai gostar.", "de": "Selbstverständlich. Sie werden sehen, er wird ihr gefallen."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan compra um presente?", "optionen": ["Porque a Ana faz anos.", "Porque é Natal.", "Porque é o aniversário de casamento."], "richtig": 0},
+     {"frage": "O que ofereceu o Stefan à Ana o ano passado?", "optionen": ["Uma camisola.", "Um lenço.", "Um perfume."], "richtig": 1},
+     {"frage": "O que compra o Stefan?", "optionen": ["Um lenço de seda.", "Uma mala.", "Uma camisola de caxemira."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Ofereci-lhe um perfume.", "de": "Ich habe ihr ein Parfum geschenkt."},
+     {"pt": "Não lhe disse nada.", "de": "Ich habe ihm nichts gesagt."},
+     {"pt": "Posso mostrar-lhe uma coisa?", "de": "Darf ich Ihnen etwas zeigen?"},
+     {"pt": "É para oferta. Pode embrulhar?", "de": "Es ist ein Geschenk. Können Sie es einpacken?"},
+     {"pt": "Agradeci-lhes a ajuda.", "de": "Ich habe mich bei ihnen für die Hilfe bedankt."}
+    ]
+   },
+   "saetze": [
+    {"id": "ofereci-lhe-perfume", "pt": "Ofereci-lhe um perfume no aniversário.", "de": "Ich habe ihr zum Geburtstag ein Parfum geschenkt."},
+    {"id": "nao-lhe-disse", "pt": "Não lhe disse nada.", "de": "Ich habe ihm nichts gesagt."},
+    {"id": "para-oferta-embrulhar", "pt": "É para oferta. Pode embrulhar, por favor?", "de": "Es ist ein Geschenk. Können Sie es bitte einpacken?"}
+   ]
+  },
+  {
+   "id": "A2-08-L05",
+   "typ": "neu",
+   "titel": "Umtauschen und zurückgeben",
+   "vokabeln": ["trocar", "devolver", "o-talao-de-troca", "o-vale", "a-etiqueta", "a-embalagem", "o-dinheiro-de-volta"],
+   "grammatik": {
+    "titel": "Pronomen bei Modalverb + Infinitiv: Posso trocá-lo?",
+    "erklaerung": [
+     "Bei <b>poder, querer, ir, ter de</b> + Infinitiv hängt das Pronomen meist am <b>Infinitiv</b>: <i>Pode devolver-<b>me</b> o dinheiro? Queria trocar-<b>lhe</b> o casaco.</i>",
+     "Achtung bei <i>o / a / os / as</i> nach dem Infinitiv: Das <b>-r fällt weg</b> und das Pronomen wird zu <b>lo / la / los / las</b>, oft mit Akzent: troca<b>r</b> + o → <i>troc<b>á-lo</b></i>, devolve<b>r</b> + a → <i>devolv<b>ê-la</b></i>, abri<b>r</b> + os → <i>abri-<b>los</b></i>.",
+     "Nach <i>não, só, já</i> usw. steht das Pronomen meist vor dem ersten Verb: <i>Não <b>o</b> podemos trocar.</i> (auch möglich: <i>Não podemos trocá-lo.</i>)",
+     "So fragst du im Geschäft: <i>Posso trocá-lo?</i> – Kann ich es umtauschen? <i>Pode devolver-me o dinheiro?</i> – Können Sie mir das Geld zurückgeben?"
+    ],
+    "vergleich": "Wie im Deutschen „Kann ich es umtauschen?“ – nur hängt das „es“ hinten am Infinitiv und verändert ihn: <i>trocar</i> + <i>o</i> → <i>trocá-lo</i>.",
+    "beispiele": [
+     {"pt": "Comprei este casaco ontem. Posso trocá-lo?", "de": "Ich habe diese Jacke gestern gekauft. Kann ich sie umtauschen?"},
+     {"pt": "Sem talão, não o podemos trocar.", "de": "Ohne Kassenbon können wir es nicht umtauschen."},
+     {"pt": "Pode devolver-me o dinheiro, por favor?", "de": "Können Sie mir bitte das Geld zurückgeben?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Queria ___ este casaco. (trocar + o)", "loesungen": ["trocá-lo"], "de": "Ich möchte diese Jacke umtauschen.", "erklaerung": "trocar + o → trocá-lo (das r fällt weg, Akzent auf dem a).", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "A camisa? Posso ___? (devolver + a)", "loesungen": ["devolvê-la"], "de": "Das Hemd? Kann ich es zurückgeben?", "erklaerung": "devolver + a → devolvê-la.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Sem talão, não ___ podemos trocar. (es, o casaco)", "loesungen": ["o"], "de": "Ohne Kassenbon können wir sie nicht umtauschen.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Pode ___ o dinheiro? (devolver + me)", "loesungen": ["devolver-me"], "de": "Können Sie mir das Geld zurückgeben?", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Kann ich die Schuhe zurückgeben?“", "optionen": ["Posso devolver-os?", "Posso devolvê-los?", "Posso devolver-lhes?"], "richtig": 1, "erklaerung": "devolver + os → devolvê-los. „lhes“ wäre „ihnen“.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Wir können Ihnen nur einen Gutschein geben.“", "optionen": ["Só lhe podemos dar um vale.", "Só podemos o dar um vale.", "Só podemos dar-o um vale."], "richtig": 0, "erklaerung": "Ihnen = lhe; nach só steht es vorne.", "kategorie": "lhe/lhes"},
+     {"typ": "uebersetzen", "de": "Ich hätte gern das Geld zurück, bitte.", "loesungen": ["Queria o dinheiro de volta, por favor.", "Queria o dinheiro de volta, se faz favor.", "Gostava de ter o dinheiro de volta, por favor."]},
+     {"typ": "satzbau", "de": "Haben Sie den Kassenbon und die Originalverpackung?", "loesung": "Tem o talão e a embalagem original?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Quero trocar – ich möchte umtauschen",
+    "situation": "Stefan hat eine Jacke geschenkt bekommen und bringt sie ins Geschäft zurück.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Recebi este casaco de presente, mas fica-me pequeno. Posso trocá-lo?", "de": "Guten Tag. Ich habe diese Jacke geschenkt bekommen, aber sie ist mir zu klein. Kann ich sie umtauschen?"},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Claro. Tem o talão de troca?", "de": "Natürlich. Haben Sie den Geschenkbeleg?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tenho, está aqui. E ainda tem a etiqueta.", "de": "Ja, hier ist er. Und das Etikett ist noch dran."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Ótimo. Quer outro tamanho ou prefere escolher outra coisa?", "de": "Sehr gut. Möchten Sie eine andere Größe oder lieber etwas anderes aussuchen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Na verdade, queria devolvê-lo. Pode dar-me o dinheiro de volta?", "de": "Eigentlich möchte ich sie zurückgeben. Können Sie mir das Geld zurückgeben?"},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Com talão de troca, não lhe posso devolver o dinheiro. Só lhe posso dar um vale.", "de": "Mit Geschenkbeleg kann ich Ihnen das Geld nicht zurückgeben. Ich kann Ihnen nur einen Gutschein geben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem, então fico com o vale.", "de": "Na gut, dann nehme ich den Gutschein."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema do casaco?", "optionen": ["Tem um defeito.", "Fica pequeno ao Stefan.", "É muito caro."], "richtig": 1},
+     {"frage": "O que tem o Stefan?", "optionen": ["O talão de troca e a etiqueta.", "Só o casaco.", "A fatura."], "richtig": 0},
+     {"frage": "O que recebe o Stefan no fim?", "optionen": ["O dinheiro de volta.", "Um casaco maior.", "Um vale."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du möchtest eine Hose umtauschen.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Boa tarde. Diga, por favor.", "de": "Guten Tag. Bitte schön?"},
+     {"ich": true, "aufgabe": "Sag: Ich habe diese Hose gestern gekauft. Kann ich sie umtauschen?", "loesungen": ["Comprei estas calças ontem. Posso trocá-las?", "Ontem comprei estas calças. Posso trocá-las?", "Comprei estas calças ontem. Posso trocar?", "Comprei estas calças ontem. Queria trocá-las."]},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Claro. Qual é o problema?", "de": "Natürlich. Was ist das Problem?"},
+     {"ich": true, "aufgabe": "Sag: Sie ist mir zu weit. Ich brauche eine Größe kleiner.", "loesungen": ["Ficam-me largas. Preciso de um tamanho abaixo.", "Ficam-me largas. Preciso de um tamanho mais pequeno.", "Ficam-me muito largas. Preciso de um tamanho abaixo.", "Ficam-me muito largas. Preciso de um tamanho mais pequeno.", "Ficam-me demasiado largas. Preciso de um tamanho abaixo.", "São muito largas. Preciso de um tamanho mais pequeno."]},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Tem o talão?", "de": "Haben Sie den Kassenbon?"},
+     {"ich": true, "aufgabe": "Sag: Ja, hier ist er. Und das Etikett ist auch noch dran.", "loesungen": ["Sim, está aqui. E ainda têm a etiqueta.", "Tenho, está aqui. E ainda têm a etiqueta.", "Sim, aqui está. E ainda têm a etiqueta.", "Sim, está aqui. E a etiqueta também."]}
+    ]
+   },
+   "saetze": [
+    {"id": "posso-troca-lo", "pt": "Comprei este casaco ontem. Posso trocá-lo?", "de": "Ich habe diese Jacke gestern gekauft. Kann ich sie umtauschen?"},
+    {"id": "dinheiro-de-volta", "pt": "Pode dar-me o dinheiro de volta?", "de": "Können Sie mir das Geld zurückgeben?"},
+    {"id": "so-um-vale", "pt": "Só lhe podemos dar um vale.", "de": "Wir können Ihnen nur einen Gutschein geben."}
+   ]
+  },
+  {
+   "id": "A2-08-L06",
+   "typ": "neu",
+   "titel": "Defekt und Garantie",
+   "vokabeln": ["a-garantia", "nao-funciona", "avariou", "a-assistencia-tecnica", "o-defeito", "riscado", "o-carregador"],
+   "grammatik": {
+    "titel": "Probleme beschreiben: avariou – está avariado",
+    "erklaerung": [
+     "Was <b>passiert</b> ist, steht im <b>perfeito</b>: <i>A máquina avariou ontem.</i> – Die Maschine ist gestern kaputtgegangen. <i>O ecrã partiu-se.</i> – Der Bildschirm ist zerbrochen.",
+     "Den <b>Zustand</b> jetzt beschreibst du mit <b>estar</b> + Partizip/Adjektiv: <i>A máquina está avariada. O ecrã está riscado.</i>",
+     "Das Partizip passt sich an: <i>o telemóvel está avariad<b>o</b>, a torradeira está avariad<b>a</b>, os auscultadores estão avariad<b>os</b></i>.",
+     "Nützlich: <i>Não funciona.</i> – <i>Não liga.</i> (Es geht nicht an.) – <i>Não carrega.</i> (Es lädt nicht.) – <i>Faz um barulho estranho.</i>"
+    ],
+    "vergleich": "Deutsch: „Es ist kaputtgegangen“ (Ereignis) – „Es ist kaputt“ (Zustand). Portugiesisch genauso: <i>Avariou.</i> – <i>Está avariado.</i>",
+    "beispiele": [
+     {"pt": "O telemóvel caiu e o ecrã partiu-se.", "de": "Das Handy ist runtergefallen und der Bildschirm ist zerbrochen."},
+     {"pt": "A máquina de café está avariada, faz um barulho estranho.", "de": "Die Kaffeemaschine ist kaputt, sie macht ein seltsames Geräusch."},
+     {"pt": "O carregador não funciona, o telemóvel não carrega.", "de": "Das Ladegerät funktioniert nicht, das Handy lädt nicht."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A máquina de lavar ___ ontem. (avariar)", "loesungen": ["avariou"], "de": "Die Waschmaschine ist gestern kaputtgegangen.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Agora a máquina está ___. (avariar)", "loesungen": ["avariada"], "de": "Jetzt ist die Maschine kaputt.", "erklaerung": "a máquina: weiblich → avariada.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "O ecrã ___ riscado. (sein, Zustand)", "loesungen": ["está"], "de": "Der Bildschirm ist zerkratzt.", "kategorie": "ser/estar"},
+     {"typ": "luecke", "satz": "Os auscultadores estão ___. (avariar)", "loesungen": ["avariados"], "de": "Die Kopfhörer sind kaputt.", "kategorie": "Partizip"},
+     {"typ": "auswahl", "frage": "„Das Handy ist gestern kaputtgegangen.“", "optionen": ["O telemóvel está avariado ontem.", "O telemóvel avariou ontem.", "O telemóvel é avariado ontem."], "richtig": 1, "erklaerung": "Ereignis in der Vergangenheit → perfeito: avariou.", "kategorie": "Perfeito"},
+     {"typ": "auswahl", "frage": "„Es geht nicht an.“ (ein Gerät)", "optionen": ["Não liga.", "Não chega.", "Não abre."], "richtig": 0, "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Die Kaffeemaschine hat noch Garantie.", "loesungen": ["A máquina de café ainda está na garantia.", "A máquina de café ainda tem garantia.", "A máquina do café ainda está na garantia."]},
+     {"typ": "satzbau", "de": "Wir schicken das Gerät zum Reparaturservice.", "loesung": "Vamos enviar o aparelho para a assistência técnica."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A máquina de café – die Kaffeemaschine",
+    "situation": "Stefan bringt seine Kaffeemaschine zurück ins Elektrogeschäft.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Comprei esta máquina de café há quatro meses e avariou.", "de": "Guten Morgen. Ich habe diese Kaffeemaschine vor vier Monaten gekauft und sie ist kaputtgegangen."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "O que é que tem?", "de": "Was hat sie denn?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não liga. Às vezes faz um barulho estranho e depois não funciona.", "de": "Sie geht nicht an. Manchmal macht sie ein seltsames Geräusch und dann funktioniert sie nicht."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Tem a fatura? A máquina ainda está na garantia: são três anos.", "de": "Haben Sie die Rechnung? Die Maschine hat noch Garantie: Das sind drei Jahre."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tenho, aqui está. Podem trocá-la?", "de": "Ja, hier ist sie. Können Sie sie umtauschen?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Primeiro temos de a enviar para a assistência técnica. Se for um defeito de fábrica, damos-lhe uma nova.", "de": "Zuerst müssen wir sie zum Reparaturservice schicken. Wenn es ein Herstellungsfehler ist, geben wir Ihnen eine neue."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Demora cerca de duas semanas. Depois ligamos-lhe.", "de": "Das dauert etwa zwei Wochen. Danach rufen wir Sie an."}
+    ],
+    "fragen": [
+     {"frage": "Há quanto tempo comprou o Stefan a máquina?", "optionen": ["Há três anos.", "Há duas semanas.", "Há quatro meses."], "richtig": 2},
+     {"frage": "Qual é o problema da máquina?", "optionen": ["Não liga e faz um barulho estranho.", "Está riscada.", "Não tem carregador."], "richtig": 0},
+     {"frage": "Para onde vai a máquina primeiro?", "optionen": ["Para a fábrica.", "Para a assistência técnica.", "Para outra loja."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Mein Handy ist kaputtgegangen.", "loesungen": ["O meu telemóvel avariou.", "O telemóvel avariou."]},
+     {"de": "Das Ladegerät funktioniert nicht.", "loesungen": ["O carregador não funciona."]},
+     {"de": "Der Bildschirm ist zerkratzt.", "loesungen": ["O ecrã está riscado."]},
+     {"de": "Die Maschine hat einen Defekt.", "loesungen": ["A máquina tem um defeito.", "A máquina tem defeito."]},
+     {"de": "Hat es noch Garantie?", "loesungen": ["Ainda está na garantia?", "Ainda tem garantia?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "comprei-e-avariou", "pt": "Comprei esta máquina há quatro meses e avariou.", "de": "Ich habe diese Maschine vor vier Monaten gekauft und sie ist kaputtgegangen."},
+    {"id": "carregador-nao-funciona", "pt": "O carregador não funciona.", "de": "Das Ladegerät funktioniert nicht."},
+    {"id": "esta-na-garantia", "pt": "A máquina ainda está na garantia.", "de": "Die Maschine hat noch Garantie."}
+   ]
+  },
+  {
+   "id": "A2-08-L07",
+   "typ": "neu",
+   "titel": "Das Livro de Reclamações",
+   "vokabeln": ["reclamar", "o-livro-de-reclamacoes", "apresentar-uma-reclamacao", "o-gerente", "o-atendimento", "inaceitavel", "ter-direito-a"],
+   "grammatik": {
+    "titel": "lhe/lhes und die Proklise: Já lhe disse!",
+    "erklaerung": [
+     "Beim Reklamieren brauchst du oft <b>lhe</b> (Ihnen / ihm / ihr): <i>Já <b>lhe</b> expliquei o problema.</i> – Ich habe Ihnen das Problem schon erklärt.",
+     "Diese Wörter ziehen das Pronomen <b>vor</b> das Verb: <i>não, nunca, ninguém, já, também, ainda, só, sempre</i>, Fragewörter und <i>que</i>. <i>Ninguém <b>me</b> respondeu. Também <b>lhes</b> escrevi.</i>",
+     "Ohne diese Wörter bleibt es hinten: <i>Disse-<b>lhe</b> que era inaceitável. Peço-<b>lhe</b> o Livro de Reclamações.</i>",
+     "Höflich, aber bestimmt: <i>Queria falar com o gerente. Tenho direito a uma resposta.</i> Das Geschäft muss das Original der Beschwerde an die zuständige Behörde schicken – du behältst eine Kopie."
+    ],
+    "vergleich": "Im Deutschen steht „Ihnen“ hinter dem Verb: „Ich habe Ihnen schon gesagt …“. Portugiesisch: <i>Já lhe disse …</i> – das <i>já</i> zieht <i>lhe</i> nach vorne.",
+    "beispiele": [
+     {"pt": "Já lhe disse duas vezes: a máquina não funciona.", "de": "Ich habe es Ihnen schon zweimal gesagt: Die Maschine funktioniert nicht."},
+     {"pt": "Ninguém me respondeu ao e-mail.", "de": "Niemand hat mir auf die E-Mail geantwortet."},
+     {"pt": "Peço-lhe o Livro de Reclamações, por favor.", "de": "Ich bitte Sie um das Beschwerdebuch."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Já ___ expliquei o problema. (Ihnen)", "loesungen": ["lhe"], "de": "Ich habe Ihnen das Problem schon erklärt.", "kategorie": "lhe/lhes"},
+     {"typ": "auswahl", "frage": "„Niemand hat mir geantwortet.“", "optionen": ["Ninguém respondeu-me.", "Ninguém me respondeu.", "Me ninguém respondeu."], "richtig": 1, "erklaerung": "Nach ninguém steht das Pronomen vorne.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Ich habe ihm gesagt, dass es inakzeptabel ist.“", "optionen": ["Disse-lhe que é inaceitável.", "Lhe disse que é inaceitável.", "Disse-o que é inaceitável."], "richtig": 0, "erklaerung": "Hauptsatz ohne Auslöser: lhe hinten.", "kategorie": "lhe/lhes"},
+     {"typ": "luecke", "satz": "Também ___ pedi o Livro de Reclamações. (ihnen, Plural)", "loesungen": ["lhes"], "de": "Ich habe sie auch um das Beschwerdebuch gebeten.", "kategorie": "lhe/lhes"},
+     {"typ": "luecke", "satz": "Queria apresentar uma ___.", "loesungen": ["reclamação"], "de": "Ich möchte eine Beschwerde einreichen.", "kategorie": "Wortschatz"},
+     {"typ": "luecke", "satz": "Tenho ___ a uma resposta.", "loesungen": ["direito"], "de": "Ich habe Anspruch auf eine Antwort.", "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Ich möchte mit dem Geschäftsführer sprechen.", "loesungen": ["Queria falar com o gerente.", "Gostava de falar com o gerente.", "Quero falar com o gerente."]},
+     {"typ": "uebersetzen", "de": "Geben Sie mir bitte das Beschwerdebuch.", "loesungen": ["Dê-me o Livro de Reclamações, por favor.", "Por favor, dê-me o Livro de Reclamações.", "Pode dar-me o Livro de Reclamações, por favor?", "Dê-me o livro de reclamações, por favor."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "O livro amarelo – das gelbe Buch",
+    "situation": "Stefan wartet seit drei Wochen auf seine Kaffeemaschine und geht ins Geschäft.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Há três semanas deixei aqui uma máquina de café para reparar. Já liguei quatro vezes e ninguém me responde.", "de": "Guten Tag. Vor drei Wochen habe ich hier eine Kaffeemaschine zur Reparatur abgegeben. Ich habe schon viermal angerufen und niemand antwortet mir."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Lamento, mas a assistência técnica ainda não a devolveu.", "de": "Tut mir leid, aber der Reparaturservice hat sie noch nicht zurückgeschickt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso é inaceitável. Disseram-me que demorava duas semanas. Queria falar com o gerente.", "de": "Das ist inakzeptabel. Man hat mir gesagt, es dauert zwei Wochen. Ich möchte mit dem Geschäftsführer sprechen."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "O gerente não está. Volte amanhã, por favor.", "de": "Der Geschäftsführer ist nicht da. Kommen Sie bitte morgen wieder."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então peço-lhe o Livro de Reclamações. Tenho direito a apresentar uma reclamação.", "de": "Dann bitte ich Sie um das Beschwerdebuch. Ich habe das Recht, eine Beschwerde einzureichen."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Com certeza, aqui tem. Também pode reclamar online, no site do Livro de Reclamações.", "de": "Selbstverständlich, bitte sehr. Sie können sich auch online beschweren, auf der Website des Livro de Reclamações."}
+    ],
+    "fragen": [
+     {"frage": "Há quanto tempo deixou o Stefan a máquina na loja?", "optionen": ["Há três semanas.", "Há duas semanas.", "Há quatro dias."], "richtig": 0},
+     {"frage": "Quantas vezes ligou o Stefan?", "optionen": ["Duas.", "Três.", "Quatro."], "richtig": 2},
+     {"frage": "O que pede o Stefan no fim?", "optionen": ["O dinheiro de volta.", "O Livro de Reclamações.", "Uma máquina nova."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du hast eine Lampe im Angebot gekauft – sie ist defekt. Die Verkäuferin will sie nicht umtauschen.",
+    "zeilen": [
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Lamento, mas não trocamos artigos em promoção.", "de": "Tut mir leid, aber wir tauschen keine Angebotsartikel um."},
+     {"ich": true, "aufgabe": "Sag: Aber die Lampe hat einen Defekt. Ich habe Anspruch auf einen Umtausch. (o candeeiro)", "loesungen": ["Mas o candeeiro tem um defeito. Tenho direito à troca.", "Mas o candeeiro tem um defeito. Tenho direito a uma troca.", "Mas o candeeiro tem defeito. Tenho direito à troca.", "Mas o candeeiro tem defeito. Tenho direito a uma troca."]},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Não posso fazer nada.", "de": "Da kann ich nichts machen."},
+     {"ich": true, "aufgabe": "Sag: Dann möchte ich mit dem Geschäftsführer sprechen.", "loesungen": ["Então queria falar com o gerente.", "Então quero falar com o gerente.", "Então gostava de falar com o gerente."]},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "O gerente só chega às cinco.", "de": "Der Geschäftsführer kommt erst um fünf."},
+     {"ich": true, "aufgabe": "Sag: Dann geben Sie mir bitte das Beschwerdebuch.", "loesungen": ["Então dê-me o Livro de Reclamações, por favor.", "Então, por favor, dê-me o Livro de Reclamações.", "Então pode dar-me o Livro de Reclamações, por favor?", "Então queria o Livro de Reclamações, por favor.", "Então dê-me o livro de reclamações, por favor."]}
+    ]
+   },
+   "saetze": [
+    {"id": "ja-lhe-disse", "pt": "Já lhe disse duas vezes: não funciona.", "de": "Ich habe es Ihnen schon zweimal gesagt: Es funktioniert nicht."},
+    {"id": "peco-lhe-livro", "pt": "Peço-lhe o Livro de Reclamações, por favor.", "de": "Ich bitte Sie um das Beschwerdebuch."},
+    {"id": "tenho-direito-resposta", "pt": "Tenho direito a uma resposta.", "de": "Ich habe Anspruch auf eine Antwort."}
+   ]
+  },
+  {
+   "id": "A2-08-L08",
+   "typ": "neu",
+   "titel": "Online bestellen und Lieferung",
+   "vokabeln": ["encomendar", "a-entrega", "os-portes", "o-estado-da-encomenda", "o-codigo-de-rastreio", "o-estafeta", "danificado"],
+   "grammatik": {
+    "titel": "Demonstrativa in Zeitangaben: esta semana, nesse dia, naquela altura",
+    "erklaerung": [
+     "<b>este</b> = die jetzige Zeit: <i>esta semana, este mês, este ano</i> (diese Woche, diesen Monat, dieses Jahr).",
+     "<b>esse / aquele</b> = eine erwähnte oder vergangene Zeit: <i>nesse dia</i> (an dem Tag – gerade erwähnt), <i>naquela altura</i> (damals), <i>nesse momento</i> (in dem Moment).",
+     "Mit <b>em</b> verschmolzen: <i>nesta semana, neste momento, nesse dia, naquele ano</i>. Bei <i>esta semana / este mês</i> geht es auch ohne Präposition: <i>Esta semana estou ocupado.</i>",
+     "<b>isso</b> greift Gesagtes auf: <i>Isso é estranho! Por isso</i> (deshalb) <i>reclamei.</i>"
+    ],
+    "vergleich": "Deutsch sagt „an dem Tag“, „damals“, „deshalb“ – Portugiesisch nimmt dafür die Demonstrativa: <i>nesse dia, naquela altura, por isso</i>.",
+    "beispiele": [
+     {"pt": "Encomendei os sapatos na segunda. Nesse dia recebi o código de rastreio.", "de": "Ich habe die Schuhe am Montag bestellt. An dem Tag habe ich die Sendungsnummer bekommen."},
+     {"pt": "Esta semana as entregas estão atrasadas.", "de": "Diese Woche sind die Lieferungen verspätet."},
+     {"pt": "A caixa chegou danificada, por isso devolvi a encomenda.", "de": "Der Karton ist beschädigt angekommen, deshalb habe ich die Bestellung zurückgeschickt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ semana estou muito ocupado. (diese)", "loesungen": ["Esta", "Nesta"], "de": "Diese Woche bin ich sehr beschäftigt.", "kategorie": "Demonstrativa"},
+     {"typ": "luecke", "satz": "Fiz a encomenda na sexta. ___ dia recebi um e-mail. (an dem)", "loesungen": ["Nesse"], "de": "Ich habe am Freitag bestellt. An dem Tag habe ich eine E-Mail bekommen.", "kategorie": "Demonstrativa"},
+     {"typ": "luecke", "satz": "A caixa estava danificada, por ___ reclamei.", "loesungen": ["isso"], "de": "Der Karton war beschädigt, deshalb habe ich mich beschwert.", "kategorie": "Demonstrativa"},
+     {"typ": "luecke", "satz": "Em 2010 morava em Viena. ___ altura não falava português. (damals)", "loesungen": ["Naquela", "Nessa"], "de": "2010 habe ich in Wien gewohnt. Damals habe ich kein Portugiesisch gesprochen.", "kategorie": "Demonstrativa"},
+     {"typ": "auswahl", "frage": "„im Moment / gerade jetzt“", "optionen": ["nesse momento", "neste momento", "naquele momento"], "richtig": 1, "erklaerung": "Jetzt = este → neste momento.", "kategorie": "Demonstrativa"},
+     {"typ": "auswahl", "frage": "„Was kostet der Versand?“", "optionen": ["Quanto custam os portes?", "Quanto custa a entrega dos portes?", "Quanto custam as portas?"], "richtig": 0, "erklaerung": "os portes = Versandkosten; as portas = die Türen.", "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Das Paket ist beschädigt angekommen.", "loesungen": ["A encomenda chegou danificada.", "O pacote chegou danificado."]},
+     {"typ": "satzbau", "de": "Ich habe die Sendungsnummer per E-Mail bekommen.", "loesung": "Recebi o código de rastreio por e-mail."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma encomenda online – eine Online-Bestellung",
+    "situation": "Stefan ruft beim Kundenservice eines Onlineshops an.",
+    "zeilen": [
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Bom dia, fala a Carla. Em que posso ajudar?", "de": "Guten Morgen, hier spricht Carla. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Encomendei uma cadeira de escritório na semana passada. Nesse dia disseram-me que a entrega era em três dias, mas ainda não chegou.", "de": "Guten Morgen. Ich habe letzte Woche einen Bürostuhl bestellt. An dem Tag hat man mir gesagt, die Lieferung kommt in drei Tagen, aber er ist noch nicht da."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Diga-me o número da encomenda, por favor.", "de": "Nennen Sie mir bitte die Bestellnummer."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É o sete, sete, três, um. E o código de rastreio não funciona.", "de": "Die 7731. Und die Sendungsnummer funktioniert nicht."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Deixe-me ver… O estafeta tentou entregar ontem, mas não estava ninguém em casa.", "de": "Lassen Sie mich sehen … Der Kurier hat gestern versucht zu liefern, aber es war niemand zu Hause."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso é impossível, eu estive em casa o dia todo!", "de": "Das ist unmöglich, ich war den ganzen Tag zu Hause!"},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Peço desculpa. Vamos fazer uma nova entrega amanhã de manhã, sem portes.", "de": "Entschuldigen Sie bitte. Wir liefern morgen Vormittag erneut, ohne Versandkosten."}
+    ],
+    "fragen": [
+     {"frage": "O que encomendou o Stefan?", "optionen": ["Uns sapatos.", "Uma cadeira de escritório.", "Um telemóvel."], "richtig": 1},
+     {"frage": "O que diz a Carla sobre o estafeta?", "optionen": ["Que perdeu a encomenda.", "Que a encomenda chegou danificada.", "Que tentou entregar ontem."], "richtig": 2},
+     {"frage": "Quando é a nova entrega?", "optionen": ["Amanhã de manhã.", "Daqui a três dias.", "Hoje à tarde."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Encomendei uns sapatos online.", "de": "Ich habe online Schuhe bestellt."},
+     {"pt": "Os portes são grátis.", "de": "Der Versand ist kostenlos."},
+     {"pt": "Ainda não recebi o código de rastreio.", "de": "Ich habe die Sendungsnummer noch nicht bekommen."},
+     {"pt": "A encomenda chegou danificada.", "de": "Das Paket ist beschädigt angekommen."},
+     {"pt": "Nesse dia estive em casa o dia todo.", "de": "An dem Tag war ich den ganzen Tag zu Hause."}
+    ]
+   },
+   "saetze": [
+    {"id": "estado-da-encomenda", "pt": "Qual é o estado da minha encomenda?", "de": "Wie ist der Status meiner Bestellung?"},
+    {"id": "chegou-danificada", "pt": "A encomenda chegou danificada.", "de": "Das Paket ist beschädigt angekommen."},
+    {"id": "quanto-custam-portes", "pt": "Quanto custam os portes?", "de": "Was kostet der Versand?"}
+   ]
+  },
+  {"id": "A2-08-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-08-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Uma camisola com defeito – ein Pullover mit Fehler",
+   "situation": "Ana bringt einen Pullover in ein Geschäft zurück.",
+   "zeilen": [
+    {"sprecher": "Ana", "stimme": "f", "pt": "Boa tarde. Comprei esta camisola aqui na semana passada e já tem um buraco.", "de": "Guten Tag. Ich habe diesen Pullover letzte Woche hier gekauft und er hat schon ein Loch."},
+    {"sprecher": "Empregado", "stimme": "m", "pt": "Deixe-me ver… Pois, tem um defeito. Tem o talão?", "de": "Lassen Sie mich sehen … Ja, er hat einen Fehler. Haben Sie den Kassenbon?"},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Tenho, aqui está. Posso trocá-la por outra igual?", "de": "Ja, hier ist er. Kann ich ihn gegen einen gleichen umtauschen?"},
+    {"sprecher": "Empregado", "stimme": "m", "pt": "Lamento, mas dessa cor já não temos. Temos aquela ali, em verde, ou esta, em cinzento.", "de": "Tut mir leid, in dieser Farbe haben wir keine mehr. Wir haben den dort in Grün oder diesen hier in Grau."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Não gosto de nenhuma. Prefiro o dinheiro de volta.", "de": "Mir gefällt keiner davon. Ich möchte lieber das Geld zurück."},
+    {"sprecher": "Empregado", "stimme": "m", "pt": "Com certeza. Como tem defeito, tem direito ao reembolso. Devolvo-lhe o dinheiro no cartão.", "de": "Selbstverständlich. Da er einen Fehler hat, haben Sie Anspruch auf Rückerstattung. Ich erstatte Ihnen das Geld auf die Karte."}
+   ],
+   "fragen": [
+    {"frage": "Quando comprou a Ana a camisola?", "optionen": ["Ontem.", "Na semana passada.", "Há um mês."], "richtig": 1},
+    {"frage": "Qual é o problema da camisola?", "optionen": ["Tem um buraco.", "Fica-lhe larga.", "É muito cara."], "richtig": 0},
+    {"frage": "Porque é que a Ana não troca a camisola?", "optionen": ["Porque não tem talão.", "Porque está em promoção.", "Porque não gosta das outras cores."], "richtig": 2},
+    {"frage": "Como recebe a Ana o dinheiro?", "optionen": ["Em notas.", "No cartão.", "Num vale."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Os seus direitos – Ihre Rechte",
+   "situation": "Ein Infotext über Verbraucherrechte in Portugal.",
+   "text": [
+    "Comprou algo com defeito? Conheça os seus direitos.",
+    "Em Portugal, os produtos novos têm uma garantia de três anos. Quando um produto avaria, tem direito à reparação ou à troca.",
+    "Nas compras online, pode devolver a encomenda até catorze dias depois da entrega, sem explicar porquê.",
+    "Atenção: nas lojas, a troca de artigos sem defeito não é obrigatória. Muitas lojas aceitam trocas com talão, mas as regras são da loja.",
+    "Se não está satisfeito com o atendimento, peça o Livro de Reclamações. Todas as lojas são obrigadas a tê-lo, e também pode reclamar online."
+   ],
+   "fragen": [
+    {"frage": "Quantos anos de garantia têm os produtos novos?", "optionen": ["Dois.", "Três.", "Cinco."], "richtig": 1},
+    {"frage": "Quanto tempo tem para devolver uma compra online?", "optionen": ["Catorze dias.", "Um mês.", "Três dias."], "richtig": 0},
+    {"frage": "Uma loja tem de trocar uma camisola sem defeito?", "optionen": ["Sim, sempre.", "Só com talão de troca.", "Não, não é obrigatório."], "richtig": 2},
+    {"frage": "O que pode pedir se não está satisfeito com o atendimento?", "optionen": ["Um vale.", "O Livro de Reclamações.", "Um desconto."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Welche Größe tragen Sie?", "loesungen": ["Que tamanho veste?"]},
+   {"de": "Die Hose ist mir zu eng.", "loesungen": ["As calças ficam-me apertadas.", "As calças ficam-me muito apertadas.", "As calças ficam-me demasiado apertadas.", "As calças estão-me apertadas."]},
+   {"de": "Was kostet das dort drüben?", "loesungen": ["Quanto custa aquilo?", "Quanto é aquilo?", "Quanto custa aquilo ali?"]},
+   {"de": "Ich habe ihr ein Kleid geschenkt.", "loesungen": ["Ofereci-lhe um vestido."]},
+   {"de": "Kann ich die Jacke umtauschen?", "loesungen": ["Posso trocar o casaco?", "Posso trocar este casaco?", "O casaco, posso trocá-lo?"]},
+   {"de": "Das Paket ist beschädigt angekommen.", "loesungen": ["A encomenda chegou danificada."]}
+  ],
+  "sprechen": [
+   {"pt": "Posso experimentar estas calças?", "de": "Kann ich diese Hose anprobieren?"},
+   {"pt": "Este casaco fica-te muito bem.", "de": "Diese Jacke steht dir sehr gut."},
+   {"pt": "Não lhe disse nada.", "de": "Ich habe ihm nichts gesagt."},
+   {"pt": "Queria trocar esta camisola.", "de": "Ich möchte diesen Pullover umtauschen."},
+   {"pt": "Peço-lhe o Livro de Reclamações, por favor.", "de": "Ich bitte Sie um das Beschwerdebuch."}
+  ]
+ }
+}

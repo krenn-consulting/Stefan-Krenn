@@ -1,0 +1,653 @@
+{
+ "id": "A2-09",
+ "level": "A2",
+ "titel": "Banco, correios e telemóvel – Dienstleister",
+ "beschreibung": "Bankgeschäfte, MB Way, Handyvertrag, Internetstörung, Post und Kündigungen erledigen – mit Relativsätzen (que, onde, quem, com quem, o que).",
+ "vokabeln": [
+  {"id": "o-iban", "pt": "o IBAN", "de": "die IBAN (Kontonummer)", "emoji": "🏦", "beispiel_pt": "Pode dar-me o seu IBAN?", "beispiel_de": "Können Sie mir Ihre IBAN geben?", "hinweis": "Portugiesische IBANs beginnen mit PT50."},
+  {"id": "o-saldo", "pt": "o saldo", "de": "der Kontostand / das Guthaben", "emoji": "💶", "beispiel_pt": "Queria consultar o saldo.", "beispiel_de": "Ich möchte den Kontostand abfragen."},
+  {"id": "o-extrato", "pt": "o extrato", "de": "der Kontoauszug", "emoji": "🧾", "beispiel_pt": "Preciso do extrato do mês passado.", "beispiel_de": "Ich brauche den Kontoauszug vom letzten Monat."},
+  {"id": "o-cartao-de-debito", "pt": "o cartão de débito", "de": "die Bankkarte (Debitkarte)", "emoji": "💳", "beispiel_pt": "Perdi o cartão de débito.", "beispiel_de": "Ich habe die Bankkarte verloren."},
+  {"id": "o-cartao-de-credito", "pt": "o cartão de crédito", "de": "die Kreditkarte", "emoji": "💎", "beispiel_pt": "Posso pagar com cartão de crédito?", "beispiel_de": "Kann ich mit Kreditkarte zahlen?"},
+  {"id": "a-comissao", "pt": "a comissão", "de": "die Gebühr / Provision", "emoji": "💸", "beispiel_pt": "O banco cobra uma comissão de manutenção.", "beispiel_de": "Die Bank verlangt eine Kontoführungsgebühr.", "hinweis": "cobrar = (Geld) verlangen"},
+  {"id": "depositar", "pt": "depositar", "de": "einzahlen", "emoji": "📥", "beispiel_pt": "Quero depositar quinhentos euros.", "beispiel_de": "Ich möchte fünfhundert Euro einzahlen."},
+
+  {"id": "o-mb-way", "pt": "o MB Way", "de": "MB Way (Bezahl-App)", "emoji": "📱", "beispiel_pt": "Pagas com MB Way?", "beispiel_de": "Zahlst du mit MB Way?", "hinweis": "Portugiesische App: Geld per Handynummer schicken und im Geschäft zahlen."},
+  {"id": "pagar-com-o-telemovel", "pt": "pagar com o telemóvel", "de": "mit dem Handy bezahlen", "emoji": "📲", "beispiel_pt": "Hoje em dia pago tudo com o telemóvel.", "beispiel_de": "Heutzutage zahle ich alles mit dem Handy."},
+  {"id": "a-referencia-multibanco", "pt": "a referência multibanco", "de": "die Multibanco-Referenz (Zahlungsnummer)", "emoji": "🔢", "beispiel_pt": "A fatura da água tem uma referência multibanco.", "beispiel_de": "Die Wasserrechnung hat eine Multibanco-Referenz."},
+  {"id": "a-entidade", "pt": "a entidade", "de": "die Entidade (Nummer des Zahlungsempfängers)", "emoji": "🏢", "beispiel_pt": "Primeiro introduza a entidade e depois a referência.", "beispiel_de": "Geben Sie zuerst die Entidade und dann die Referenz ein.", "hinweis": "„Pagamento de serviços“: entidade + referência + montante"},
+  {"id": "o-debito-direto", "pt": "o débito direto", "de": "die Lastschrift (Bankeinzug)", "emoji": "🔁", "beispiel_pt": "Pago a luz por débito direto.", "beispiel_de": "Ich zahle den Strom per Lastschrift."},
+  {"id": "o-montante", "pt": "o montante", "de": "der Betrag", "emoji": "💰", "beispiel_pt": "Qual é o montante a pagar?", "beispiel_de": "Wie hoch ist der zu zahlende Betrag?"},
+  {"id": "o-codigo", "pt": "o código", "de": "der Code", "emoji": "🔐", "beispiel_pt": "Recebi um código por SMS.", "beispiel_de": "Ich habe einen Code per SMS bekommen."},
+
+  {"id": "o-pagamento", "pt": "o pagamento", "de": "die Zahlung", "emoji": "🧮", "beispiel_pt": "O pagamento foi feito ontem.", "beispiel_de": "Die Zahlung wurde gestern ausgeführt."},
+  {"id": "a-prestacao", "pt": "a prestação", "de": "die Rate", "emoji": "📆", "beispiel_pt": "A prestação da casa é de seiscentos euros.", "beispiel_de": "Die Rate für das Haus beträgt sechshundert Euro."},
+  {"id": "o-emprestimo", "pt": "o empréstimo", "de": "der Kredit / das Darlehen", "emoji": "🏠", "beispiel_pt": "Pedimos um empréstimo ao banco.", "beispiel_de": "Wir haben bei der Bank einen Kredit beantragt."},
+  {"id": "os-juros", "pt": "os juros", "de": "die Zinsen", "emoji": "📈", "beispiel_pt": "Os juros estão mais baixos este ano.", "beispiel_de": "Die Zinsen sind dieses Jahr niedriger.", "hinweis": "Meist im Plural: os juros"},
+  {"id": "poupar", "pt": "poupar", "de": "sparen", "emoji": "🐷", "beispiel_pt": "Estamos a poupar para as férias.", "beispiel_de": "Wir sparen für den Urlaub."},
+  {"id": "as-poupancas", "pt": "as poupanças", "de": "die Ersparnisse", "emoji": "🏺", "beispiel_pt": "Tenho as poupanças noutra conta.", "beispiel_de": "Ich habe die Ersparnisse auf einem anderen Konto."},
+  {"id": "gastar", "pt": "gastar", "de": "ausgeben (Geld) / verbrauchen", "emoji": "🛒", "beispiel_pt": "Gastei muito dinheiro este mês.", "beispiel_de": "Ich habe diesen Monat viel Geld ausgegeben."},
+
+  {"id": "a-agencia", "pt": "a agência", "de": "die (Bank-)Filiale", "emoji": "🏛️", "beispiel_pt": "A agência onde abri a conta fica na praça.", "beispiel_de": "Die Filiale, in der ich das Konto eröffnet habe, liegt am Platz."},
+  {"id": "o-gestor-de-conta", "pt": "o gestor de conta", "de": "der Kundenbetreuer (Bank)", "emoji": "👔", "beispiel_pt": "O meu gestor de conta chama-se Rui.", "beispiel_de": "Mein Kundenbetreuer heißt Rui."},
+  {"id": "o-titular", "pt": "o titular", "de": "der Kontoinhaber", "emoji": "🪪", "beispiel_pt": "Quem é o titular da conta?", "beispiel_de": "Wer ist der Kontoinhaber?"},
+  {"id": "a-linha-de-apoio", "pt": "a linha de apoio", "de": "die Hotline", "emoji": "☎️", "beispiel_pt": "Liguei para a linha de apoio ao cliente.", "beispiel_de": "Ich habe die Kundenhotline angerufen."},
+  {"id": "a-palavra-passe", "pt": "a palavra-passe", "de": "das Passwort", "emoji": "🔑", "beispiel_pt": "Esqueci-me da palavra-passe do banco online.", "beispiel_de": "Ich habe das Passwort fürs Onlinebanking vergessen.", "hinweis": "In Portugal meist palavra-passe; a senha ist vor allem die Wartenummer."},
+
+  {"id": "o-tarifario", "pt": "o tarifário", "de": "der Tarif", "emoji": "📋", "beispiel_pt": "Qual é o tarifário mais barato?", "beispiel_de": "Welcher Tarif ist am billigsten?"},
+  {"id": "o-pre-pago", "pt": "o pré-pago", "de": "die Wertkarte / Prepaid", "emoji": "🎟️", "beispiel_pt": "Tenho um tarifário pré-pago.", "beispiel_de": "Ich habe einen Wertkartentarif.", "hinweis": "Gegenteil: o pós-pago (Vertrag mit Monatsrechnung)"},
+  {"id": "carregar-o-telemovel", "pt": "carregar o telemóvel", "de": "das Handy aufladen", "emoji": "🔋", "beispiel_pt": "Tenho de carregar o telemóvel, já não tenho saldo.", "beispiel_de": "Ich muss das Handy aufladen, ich habe kein Guthaben mehr.", "hinweis": "Heißt Guthaben aufladen und auch Akku laden."},
+  {"id": "o-carregamento", "pt": "o carregamento", "de": "die Aufladung", "emoji": "➕", "beispiel_pt": "Fiz um carregamento de dez euros no multibanco.", "beispiel_de": "Ich habe am Bankomaten zehn Euro aufgeladen."},
+  {"id": "os-dados-moveis", "pt": "os dados móveis", "de": "die mobilen Daten", "emoji": "📶", "beispiel_pt": "Os dados móveis acabaram.", "beispiel_de": "Das mobile Datenvolumen ist aufgebraucht."},
+  {"id": "a-operadora", "pt": "a operadora", "de": "der (Mobilfunk-)Anbieter", "emoji": "📡", "beispiel_pt": "Qual é a tua operadora?", "beispiel_de": "Welchen Anbieter hast du?"},
+  {"id": "o-cartao-sim", "pt": "o cartão SIM", "de": "die SIM-Karte", "emoji": "📇", "beispiel_pt": "Comprei um cartão SIM português.", "beispiel_de": "Ich habe eine portugiesische SIM-Karte gekauft."},
+
+  {"id": "a-fibra", "pt": "a fibra", "de": "das Glasfaser-Internet", "emoji": "🌐", "beispiel_pt": "Já temos fibra em casa.", "beispiel_de": "Wir haben schon Glasfaser zu Hause."},
+  {"id": "o-router", "pt": "o router", "de": "der Router", "emoji": "📟", "beispiel_pt": "Desligue o router e volte a ligá-lo.", "beispiel_de": "Schalten Sie den Router aus und wieder ein."},
+  {"id": "a-avaria-tecnica", "pt": "a avaria técnica", "de": "die technische Störung", "emoji": "⚠️", "beispiel_pt": "Há uma avaria técnica na sua zona.", "beispiel_de": "Es gibt eine technische Störung in Ihrer Gegend."},
+  {"id": "sem-rede", "pt": "sem rede", "de": "ohne Netz / kein Empfang", "emoji": "📵", "beispiel_pt": "Estou sem rede aqui na cave.", "beispiel_de": "Ich habe hier im Keller keinen Empfang."},
+  {"id": "a-ligacao", "pt": "a ligação", "de": "die Verbindung / der Anruf", "emoji": "🔗", "beispiel_pt": "A ligação à internet está muito lenta.", "beispiel_de": "Die Internetverbindung ist sehr langsam."},
+  {"id": "reiniciar", "pt": "reiniciar", "de": "neu starten", "emoji": "🔄", "beispiel_pt": "Já reiniciei o router duas vezes.", "beispiel_de": "Ich habe den Router schon zweimal neu gestartet."},
+
+  {"id": "o-aviso", "pt": "o aviso", "de": "die Benachrichtigung (Zettel) / der Hinweis", "emoji": "📝", "beispiel_pt": "O carteiro deixou um aviso na caixa do correio.", "beispiel_de": "Der Briefträger hat eine Benachrichtigung in den Briefkasten gelegt."},
+  {"id": "a-carta-registada", "pt": "a carta registada", "de": "der Einschreibebrief", "emoji": "✉️", "beispiel_pt": "Recebi uma carta registada das Finanças.", "beispiel_de": "Ich habe einen Einschreibebrief vom Finanzamt bekommen.", "hinweis": "registar = einschreiben; o registo = das Einschreiben"},
+  {"id": "a-estacao-dos-correios", "pt": "a estação dos correios", "de": "die Postfiliale", "emoji": "🏤", "beispiel_pt": "Tenho de levantar a encomenda na estação dos correios.", "beispiel_de": "Ich muss das Paket in der Postfiliale abholen."},
+  {"id": "o-cacifo", "pt": "o cacifo", "de": "das (Paket-)Schließfach", "emoji": "🗄️", "beispiel_pt": "A encomenda está num cacifo no supermercado.", "beispiel_de": "Das Paket ist in einem Schließfach im Supermarkt."},
+  {"id": "o-remetente", "pt": "o remetente", "de": "der Absender", "emoji": "📤", "beispiel_pt": "Escreva o nome do remetente atrás.", "beispiel_de": "Schreiben Sie den Namen des Absenders auf die Rückseite."},
+  {"id": "o-destinatario", "pt": "o destinatário", "de": "der Empfänger", "emoji": "🎯", "beispiel_pt": "O destinatário não estava em casa.", "beispiel_de": "Der Empfänger war nicht zu Hause."},
+
+  {"id": "rescindir-o-contrato", "pt": "rescindir o contrato", "de": "den Vertrag kündigen", "emoji": "✂️", "beispiel_pt": "Quero rescindir o contrato de internet.", "beispiel_de": "Ich möchte den Internetvertrag kündigen.", "hinweis": "a rescisão = die Kündigung"},
+  {"id": "a-fidelizacao", "pt": "a fidelização", "de": "die Vertragsbindung", "emoji": "⛓️", "beispiel_pt": "Este tarifário não tem fidelização.", "beispiel_de": "Dieser Tarif hat keine Vertragsbindung."},
+  {"id": "o-periodo-de-fidelizacao", "pt": "o período de fidelização", "de": "die Mindestvertragslaufzeit", "emoji": "⏳", "beispiel_pt": "O período de fidelização é de vinte e quatro meses.", "beispiel_de": "Die Mindestvertragslaufzeit beträgt vierundzwanzig Monate."},
+  {"id": "a-penalizacao", "pt": "a penalização", "de": "die Vertragsstrafe / Strafgebühr", "emoji": "⚖️", "beispiel_pt": "Há uma penalização de cem euros.", "beispiel_de": "Es gibt eine Strafgebühr von hundert Euro."},
+  {"id": "o-pre-aviso", "pt": "o pré-aviso", "de": "die Kündigungsfrist", "emoji": "📅", "beispiel_pt": "O pré-aviso é de trinta dias.", "beispiel_de": "Die Kündigungsfrist beträgt dreißig Tage."},
+  {"id": "a-mensalidade", "pt": "a mensalidade", "de": "die Monatsgebühr", "emoji": "🗓️", "beispiel_pt": "A mensalidade é de quarenta euros.", "beispiel_de": "Die Monatsgebühr beträgt vierzig Euro."},
+  {"id": "mudar-de-operadora", "pt": "mudar de operadora", "de": "den Anbieter wechseln", "emoji": "🔀", "beispiel_pt": "Vamos mudar de operadora porque é mais barato.", "beispiel_de": "Wir wechseln den Anbieter, weil es billiger ist.", "hinweis": "mudar de + Nomen = wechseln (mudar de casa, mudar de emprego)"}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-09-L01",
+   "typ": "neu",
+   "titel": "Auf der Bank",
+   "vokabeln": ["o-iban", "o-saldo", "o-extrato", "o-cartao-de-debito", "o-cartao-de-credito", "a-comissao", "depositar"],
+   "grammatik": {
+    "titel": "Große Zahlen und Geldbeträge",
+    "erklaerung": [
+     "Genau 100 heißt <b>cem</b>, ab 101 sagt man <b>cento e</b> …: <i>cem euros</i>, aber <i>cento e vinte euros</i>.",
+     "Ab 200 haben die Hunderter ein Geschlecht: <i>duzent<b>os</b> euros</i>, aber <i>duzent<b>as</b> contas</i>. Ebenso trezentos, quatrocentos, <b>quinhentos</b> (500 – unregelmäßig!), seiscentos, setecentos, oitocentos, novecentos.",
+     "<b>mil</b> (1000) bleibt unverändert: <i>dois mil euros</i>. Nach mil steht <b>e</b> nur vor einem runden Hunderter oder einer Zahl unter 100: <i>mil <b>e</b> quinhentos, mil <b>e</b> vinte</i>, aber <i>mil duzentos e cinquenta</i>.",
+     "Beträge: <i>12,50 €</i> = <i>doze euros e cinquenta (cêntimos)</i>. Das Komma trennt die Cents, der Punkt oder ein Leerzeichen die Tausender: <i>1.250 €</i> / <i>1 250 €</i>."
+    ],
+    "vergleich": "Wie im Deutschen „hundert“ und „hundertzwanzig“ – aber Portugiesisch hat zwei Formen (cem / cento) und die Hunderter richten sich nach dem Nomen: <i>duzentos euros</i>, <i>duzentas pessoas</i>.",
+    "beispiele": [
+     {"pt": "Quero levantar duzentos euros.", "de": "Ich möchte zweihundert Euro abheben."},
+     {"pt": "O saldo é de mil e quinhentos euros.", "de": "Der Kontostand beträgt tausendfünfhundert Euro."},
+     {"pt": "O banco cobra uma comissão de três euros e cinquenta por mês.", "de": "Die Bank verlangt eine Gebühr von drei Euro fünfzig pro Monat."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„120 €“", "optionen": ["cem e vinte euros", "cento e vinte euros", "um cento vinte euros"], "richtig": 1, "erklaerung": "Genau 100 = cem; ab 101 = cento e …", "kategorie": "Zahlen"},
+     {"typ": "auswahl", "frage": "„500 €“", "optionen": ["cinco cem euros", "cinco centos euros", "quinhentos euros"], "richtig": 2, "erklaerung": "500 ist unregelmäßig: quinhentos.", "kategorie": "Zahlen"},
+     {"typ": "luecke", "satz": "Quero levantar ___ euros. (200)", "loesungen": ["duzentos"], "de": "Ich möchte zweihundert Euro abheben.", "kategorie": "Zahlen"},
+     {"typ": "luecke", "satz": "O banco abriu ___ contas novas. (300)", "loesungen": ["trezentas"], "de": "Die Bank hat dreihundert neue Konten eröffnet.", "erklaerung": "a conta ist weiblich → trezentas.", "kategorie": "Zahlen"},
+     {"typ": "luecke", "satz": "O saldo é de mil ___ quinhentos euros.", "loesungen": ["e"], "de": "Der Kontostand beträgt tausendfünfhundert Euro.", "erklaerung": "Vor einem runden Hunderter steht nach mil ein e.", "kategorie": "Zahlen"},
+     {"typ": "uebersetzen", "de": "Ich möchte fünfhundert Euro einzahlen.", "loesungen": ["Quero depositar quinhentos euros.", "Queria depositar quinhentos euros.", "Gostava de depositar quinhentos euros.", "Queria depositar 500 euros.", "Quero depositar 500 euros."]},
+     {"typ": "uebersetzen", "de": "Ich habe die Kreditkarte verloren.", "loesungen": ["Perdi o cartão de crédito.", "Perdi o meu cartão de crédito."]},
+     {"typ": "satzbau", "de": "Die Bank verlangt eine Gebühr von drei Euro.", "loesung": "O banco cobra uma comissão de três euros."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No banco – in der Bank",
+    "situation": "Stefan ist am Schalter seiner Bank in Lagos.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Bom dia. Em que posso ajudar?", "de": "Guten Morgen. Womit kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Queria depositar mil e duzentos euros e pedir um extrato.", "de": "Guten Morgen. Ich möchte tausendzweihundert Euro einzahlen und einen Kontoauszug anfordern."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Com certeza. A conta está em seu nome?", "de": "Selbstverständlich. Läuft das Konto auf Ihren Namen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está, sim. E queria saber uma coisa: porque é que pago uma comissão de cinco euros por mês?", "de": "Ja. Und ich wollte etwas wissen: Warum zahle ich eine Gebühr von fünf Euro im Monat?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "É a comissão de manutenção de conta. Com uma conta ordenado não paga nada.", "de": "Das ist die Kontoführungsgebühr. Mit einem Gehaltskonto zahlen Sie nichts."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Interessante. E qual é o saldo depois do depósito?", "de": "Interessant. Und wie hoch ist der Kontostand nach der Einzahlung?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Fica com dois mil e trezentos euros. Aqui tem o extrato.", "de": "Sie haben dann zweitausenddreihundert Euro. Hier ist der Kontoauszug."}
+    ],
+    "fragen": [
+     {"frage": "O que é que o Stefan quer fazer?", "optionen": ["levantar dinheiro", "depositar dinheiro e pedir um extrato", "abrir uma conta nova"], "richtig": 1},
+     {"frage": "Quanto paga o Stefan de comissão por mês?", "optionen": ["cinco euros", "doze euros", "nada"], "richtig": 0},
+     {"frage": "Qual é o saldo no fim?", "optionen": ["mil e duzentos euros", "mil e cem euros", "dois mil e trezentos euros"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Queria depositar quinhentos euros.", "de": "Ich möchte fünfhundert Euro einzahlen."},
+     {"pt": "Pode dar-me o seu IBAN?", "de": "Können Sie mir Ihre IBAN geben?"},
+     {"pt": "Preciso de um extrato do mês passado.", "de": "Ich brauche einen Kontoauszug vom letzten Monat."},
+     {"pt": "Perdi o cartão de débito.", "de": "Ich habe die Bankkarte verloren."},
+     {"pt": "Porque é que pago esta comissão?", "de": "Warum zahle ich diese Gebühr?"}
+    ]
+   },
+   "saetze": [
+    {"id": "queria-depositar", "pt": "Queria depositar quinhentos euros.", "de": "Ich möchte fünfhundert Euro einzahlen."},
+    {"id": "pode-dar-me-iban", "pt": "Pode dar-me o seu IBAN?", "de": "Können Sie mir Ihre IBAN geben?"},
+    {"id": "saldo-mil-quinhentos", "pt": "O saldo é de mil e quinhentos euros.", "de": "Der Kontostand beträgt tausendfünfhundert Euro."}
+   ]
+  },
+  {
+   "id": "A2-09-L02",
+   "typ": "neu",
+   "titel": "MB Way und Zahlungen",
+   "vokabeln": ["o-mb-way", "pagar-com-o-telemovel", "a-referencia-multibanco", "a-entidade", "o-debito-direto", "o-montante", "o-codigo"],
+   "grammatik": {
+    "titel": "Höflich nachfragen: indirekte Fragen",
+    "erklaerung": [
+     "Statt direkt zu fragen (<i>Como funciona?</i>) klingt eine indirekte Frage höflicher: <b>Pode dizer-me</b> como funciona? / <b>Sabe</b> como funciona?",
+     "Ja/Nein-Fragen leitet man mit <b>se</b> (ob) ein: <i>Queria saber <b>se</b> posso pagar com MB Way.</i>",
+     "Fragewörter bleiben erhalten: <b>onde, quando, quanto, como, qual</b>: <i>Sabe quanto custa?</i> <i>Pode dizer-me qual é a entidade?</i>",
+     "Die Wortstellung bleibt wie im normalen Aussagesatz – das Verb wandert <b>nicht</b> ans Ende.",
+     "Nützliche Einleitungen: <i>Queria saber …, Pode dizer-me …, Sabe …</i> (formell) / <i>Sabes …, Podes dizer-me …</i> (tu)."
+    ],
+    "vergleich": "Deutsch schiebt das Verb ans Ende (… ob ich mit MB Way zahlen <b>kann</b>). Portugiesisch nicht: <i>… se posso pagar com MB Way.</i> Wie im Englischen: „I wanted to know if I can pay …“.",
+    "beispiele": [
+     {"pt": "Queria saber se posso pagar com MB Way.", "de": "Ich wollte wissen, ob ich mit MB Way zahlen kann."},
+     {"pt": "Pode dizer-me qual é a entidade?", "de": "Können Sie mir sagen, welche Entidade es ist?"},
+     {"pt": "Sabe quanto é o montante?", "de": "Wissen Sie, wie hoch der Betrag ist?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Queria saber ___ posso pagar com o telemóvel.", "loesungen": ["se"], "de": "Ich wollte wissen, ob ich mit dem Handy zahlen kann.", "erklaerung": "ob = se", "kategorie": "Indirekte Frage"},
+     {"typ": "luecke", "satz": "Pode dizer-me ___ é a referência?", "loesungen": ["qual"], "de": "Können Sie mir sagen, welches die Referenz ist?", "kategorie": "Indirekte Frage"},
+     {"typ": "auswahl", "frage": "„Wissen Sie, wie viel es kostet?“", "optionen": ["Sabe quanto custa?", "Sabe se quanto custa?", "Sabe quanto custa ele?"], "richtig": 0, "kategorie": "Indirekte Frage"},
+     {"typ": "auswahl", "frage": "„Ich wollte wissen, ob ich mit Karte zahlen kann.“", "optionen": ["Queria saber que posso pagar com cartão.", "Queria saber se com cartão pagar posso.", "Queria saber se posso pagar com cartão."], "richtig": 2, "erklaerung": "ob = se; die Wortstellung bleibt normal.", "kategorie": "Indirekte Frage"},
+     {"typ": "uebersetzen", "de": "Zahlst du mit MB Way? (tu)", "loesungen": ["Pagas com MB Way?", "Pagas por MB Way?"]},
+     {"typ": "uebersetzen", "de": "Ich zahle den Strom per Lastschrift.", "loesungen": ["Pago a luz por débito direto.", "Pago a eletricidade por débito direto."]},
+     {"typ": "satzbau", "de": "Können Sie mir sagen, wie hoch der Betrag ist?", "loesung": "Pode dizer-me qual é o montante?"},
+     {"typ": "diktat", "pt": "Recebi um código por SMS."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Pagas-me por MB Way? – Zahlst du mir per MB Way?",
+    "situation": "Stefan und Pedro teilen sich die Rechnung vom Abendessen.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Stefan, o jantar ficou em oitenta euros. Pagas-me metade por MB Way?", "de": "Stefan, das Abendessen hat achtzig Euro gekostet. Zahlst du mir die Hälfte per MB Way?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro. Qual é o teu número de telemóvel?", "de": "Klar. Wie ist deine Handynummer?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Novecentos e doze, trezentos e quarenta e cinco, seiscentos e setenta e oito.", "de": "912 345 678."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pronto, já está. Quarenta euros. Recebeste?", "de": "So, erledigt. Vierzig Euro. Hast du es bekommen?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Recebi, obrigado! Tu também pagas as contas da casa com o telemóvel?", "de": "Ja, danke! Zahlst du die Haushaltsrechnungen auch mit dem Handy?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pago. A fatura da água tem referência multibanco: ponho a entidade, a referência e o montante na app e já está.", "de": "Ja. Die Wasserrechnung hat eine Multibanco-Referenz: Ich gebe Entidade, Referenz und Betrag in die App ein, und fertig."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Eu pago a luz por débito direto. É mais fácil.", "de": "Ich zahle den Strom per Lastschrift. Das ist einfacher."}
+    ],
+    "fragen": [
+     {"frage": "Quanto é que o Stefan envia ao Pedro?", "optionen": ["oitenta euros", "quarenta euros", "nove euros"], "richtig": 1},
+     {"frage": "Como é que o Stefan paga a água?", "optionen": ["por débito direto", "em dinheiro", "com a referência multibanco na app"], "richtig": 2},
+     {"frage": "Como é que o Pedro paga a luz?", "optionen": ["por débito direto", "por MB Way", "no banco"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bezahlst in einem kleinen Geschäft in Lagos.",
+    "zeilen": [
+     {"sprecher": "Lojista", "stimme": "f", "pt": "São vinte e cinco euros e quarenta.", "de": "Das macht fünfundzwanzig Euro vierzig."},
+     {"ich": true, "aufgabe": "Frag, ob du mit MB Way zahlen kannst.", "loesungen": ["Posso pagar com MB Way?", "Posso pagar por MB Way?", "Queria saber se posso pagar com MB Way.", "Queria saber se posso pagar por MB Way.", "Dá para pagar com MB Way?"]},
+     {"sprecher": "Lojista", "stimme": "f", "pt": "Pode, sim. Diga-me o seu número de telemóvel.", "de": "Ja, gern. Sagen Sie mir Ihre Handynummer."},
+     {"ich": true, "aufgabe": "Sag: Es ist die 912 345 678.", "loesungen": ["É o 912 345 678.", "É 912 345 678.", "912 345 678.", "É o novecentos e doze, trezentos e quarenta e cinco, seiscentos e setenta e oito."]},
+     {"sprecher": "Lojista", "stimme": "f", "pt": "Já enviei o pedido. Confirme na app, se faz favor.", "de": "Ich habe die Anfrage geschickt. Bestätigen Sie bitte in der App."},
+     {"ich": true, "aufgabe": "Sag: Fertig, ich habe bezahlt. Ich hätte gern die Rechnung mit Steuernummer.", "loesungen": ["Já está, já paguei. Queria a fatura com número de contribuinte.", "Pronto, já paguei. Queria a fatura com número de contribuinte.", "Já está, já paguei. Queria fatura com número de contribuinte.", "Já está, já paguei. Queria a fatura com NIF.", "Pronto, já paguei. Queria a fatura com contribuinte."]}
+    ]
+   },
+   "saetze": [
+    {"id": "queria-saber-se-mbway", "pt": "Queria saber se posso pagar com MB Way.", "de": "Ich wollte wissen, ob ich mit MB Way zahlen kann."},
+    {"id": "pago-debito-direto", "pt": "Pago a luz por débito direto.", "de": "Ich zahle den Strom per Lastschrift."},
+    {"id": "pode-dizer-me-montante", "pt": "Pode dizer-me qual é o montante?", "de": "Können Sie mir sagen, wie hoch der Betrag ist?"}
+   ]
+  },
+  {
+   "id": "A2-09-L03",
+   "typ": "neu",
+   "titel": "Kredit und Sparen: Relativsatz mit que",
+   "vokabeln": ["o-pagamento", "a-prestacao", "o-emprestimo", "os-juros", "poupar", "as-poupancas", "gastar"],
+   "grammatik": {
+    "titel": "Relativsätze mit que",
+    "erklaerung": [
+     "<b>que</b> verbindet zwei Sätze und bezieht sich auf Personen <b>und</b> Sachen: <i>o banco <b>que</b> fica na praça</i> – die Bank, die am Platz liegt; <i>a senhora <b>que</b> trabalha aqui</i> – die Frau, die hier arbeitet.",
+     "<b>que</b> ist unveränderlich – kein der/die/das, kein Plural, kein Fall: <i>o empréstimo que pedimos, a prestação que pagamos, os juros que o banco cobra</i>.",
+     "<b>que</b> kann Subjekt oder Objekt sein: <i>a senhora que <b>trabalha</b> aqui</i> (sie arbeitet) – <i>a senhora que <b>conheci</b></i> (ich habe sie kennengelernt).",
+     "Wichtig: <b>que</b> zieht das Pronomen vor das Verb (Proklise): <i>o senhor que <b>me</b> atendeu</i>, <i>a carta que <b>lhe</b> enviei</i>.",
+     "Das Verb bleibt an seiner normalen Stelle und steht nicht am Satzende."
+    ],
+    "vergleich": "Deutsch: der/die/das, den, dem, deren … – Portugiesisch einfach <i>que</i>. Englisch: who/which/that → alles <i>que</i>. Und: <i>o empréstimo que pedimos</i> – der Kredit, den wir beantragt <b>haben</b> (im Deutschen am Ende, im Portugiesischen nicht).",
+    "beispiele": [
+     {"pt": "O empréstimo que pedimos tem juros baixos.", "de": "Der Kredit, den wir beantragt haben, hat niedrige Zinsen."},
+     {"pt": "A senhora que me atendeu foi muito simpática.", "de": "Die Dame, die mich bedient hat, war sehr freundlich."},
+     {"pt": "Este é o dinheiro que poupei este ano.", "de": "Das ist das Geld, das ich dieses Jahr gespart habe."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O banco ___ fica na praça abre às oito e meia.", "loesungen": ["que"], "de": "Die Bank, die am Platz liegt, öffnet um halb neun.", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "A prestação ___ pagamos é de seiscentos euros.", "loesungen": ["que"], "de": "Die Rate, die wir zahlen, beträgt sechshundert Euro.", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "A senhora que ___ ajudou chama-se Teresa. (mir)", "loesungen": ["me"], "de": "Die Dame, die mir geholfen hat, heißt Teresa.", "erklaerung": "Nach que steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Der Herr, der mich bedient hat, war sehr nett.“", "optionen": ["O senhor que atendeu-me foi muito simpático.", "O senhor que me atendeu foi muito simpático.", "O senhor quem me atendeu foi muito simpático."], "richtig": 1, "erklaerung": "Nach que: Pronomen vor dem Verb (que me atendeu). quem steht im Relativsatz nur nach einer Präposition.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„die Zinsen, die die Bank verlangt“", "optionen": ["os juros que o banco cobra", "os juros quem o banco cobra", "os juros onde o banco cobra"], "richtig": 0, "kategorie": "Relativpronomen"},
+     {"typ": "uebersetzen", "de": "Das ist das Geld, das ich gespart habe.", "loesungen": ["Este é o dinheiro que poupei.", "Este é o dinheiro que eu poupei.", "É o dinheiro que poupei.", "Esse é o dinheiro que poupei."]},
+     {"typ": "uebersetzen", "de": "Der Kredit, den wir beantragt haben, hat niedrige Zinsen.", "loesungen": ["O empréstimo que pedimos tem juros baixos.", "O empréstimo que pedimos tem uns juros baixos."]},
+     {"typ": "satzbau", "de": "Die Zahlung, die ich gestern gemacht habe, ist nicht angekommen.", "loesung": "O pagamento que fiz ontem não chegou."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma carta do banco – ein Brief von der Bank",
+    "situation": "Ana und Stefan sprechen beim Frühstück über ihren Kredit.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, viste a carta que chegou do banco?", "de": "Stefan, hast du den Brief gesehen, der von der Bank gekommen ist?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vi. É sobre o empréstimo que pedimos para a casa.", "de": "Ja. Es geht um den Kredit, den wir für das Haus aufgenommen haben."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E então? Más notícias?", "de": "Und? Schlechte Nachrichten?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pelo contrário! Os juros que pagamos vão baixar. A prestação passa de seiscentos para quinhentos e cinquenta euros.", "de": "Im Gegenteil! Die Zinsen, die wir zahlen, sinken. Die Rate geht von sechshundert auf fünfhundertfünfzig Euro zurück."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ótimo! Então podemos poupar cinquenta euros por mês.", "de": "Super! Dann können wir fünfzig Euro im Monat sparen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Exatamente. E o dinheiro que poupamos vai para a viagem que queremos fazer aos Açores.", "de": "Genau. Und das Geld, das wir sparen, ist für die Reise, die wir auf die Azoren machen wollen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Combinado! Mas este mês já gastámos muito…", "de": "Abgemacht! Aber diesen Monat haben wir schon viel ausgegeben …"}
+    ],
+    "fragen": [
+     {"frage": "A carta do banco é sobre o quê?", "optionen": ["sobre o cartão de crédito", "sobre o empréstimo da casa", "sobre uma comissão nova"], "richtig": 1},
+     {"frage": "Quanto é a prestação nova?", "optionen": ["seiscentos euros", "cinquenta euros", "quinhentos e cinquenta euros"], "richtig": 2},
+     {"frage": "Para que é o dinheiro que vão poupar?", "optionen": ["para uma viagem aos Açores", "para um carro novo", "para a piscina"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Die Bank, die am Platz liegt, ist sehr gut.", "loesungen": ["O banco que fica na praça é muito bom."]},
+     {"de": "Die Rate, die wir zahlen, ist hoch.", "loesungen": ["A prestação que pagamos é alta."]},
+     {"de": "Der Herr, der mich bedient hat, heißt Rui.", "loesungen": ["O senhor que me atendeu chama-se Rui."]},
+     {"de": "Wir sparen für den Urlaub.", "loesungen": ["Estamos a poupar para as férias.", "Poupamos para as férias."]},
+     {"de": "Ich habe diesen Monat zu viel ausgegeben.", "loesungen": ["Gastei demasiado este mês.", "Este mês gastei demasiado.", "Gastei demais este mês.", "Este mês gastei demais."]}
+    ]
+   },
+   "saetze": [
+    {"id": "emprestimo-que-pedimos", "pt": "O empréstimo que pedimos tem juros baixos.", "de": "Der Kredit, den wir beantragt haben, hat niedrige Zinsen."},
+    {"id": "senhora-que-me-atendeu", "pt": "A senhora que me atendeu foi muito simpática.", "de": "Die Dame, die mich bedient hat, war sehr freundlich."},
+    {"id": "estamos-a-poupar", "pt": "Estamos a poupar para as férias.", "de": "Wir sparen für den Urlaub."}
+   ]
+  },
+  {
+   "id": "A2-09-L04",
+   "typ": "neu",
+   "titel": "Hotline und Filiale: onde, quem, o que",
+   "vokabeln": ["a-agencia", "o-gestor-de-conta", "o-titular", "a-linha-de-apoio", "a-palavra-passe"],
+   "grammatik": {
+    "titel": "onde, quem, com quem, o que",
+    "erklaerung": [
+     "<b>onde</b> = wo (bei Orten): <i>a agência <b>onde</b> abri a conta</i> – die Filiale, in der ich das Konto eröffnet habe. Etwas formeller: <i>em que</i>.",
+     "<b>quem</b> steht für Personen – im Relativsatz fast immer nach einer Präposition: <i>o gestor <b>com quem</b> falei</i>, <i>a pessoa <b>a quem</b> enviei o e-mail</i>, <i>o amigo <b>de quem</b> te falei</i>.",
+     "Ohne Präposition nimmt man auch für Personen <b>que</b>: <i>o senhor <b>que</b> me atendeu</i> (nicht: <i>quem me atendeu</i>).",
+     "<b>o que</b> = (das,) was – wenn es kein Bezugswort gibt: <i>Não percebi <b>o que</b> disse.</i> <i>Explique-me <b>o que</b> tenho de fazer.</i> <i>Tudo <b>o que</b> tenho está nesta conta.</i>"
+    ],
+    "vergleich": "„der Betreuer, mit dem ich gesprochen habe“ = <i>o gestor com quem falei</i>: Die Präposition steht wie im Deutschen vorne – nie am Ende wie im Englischen („who I spoke <b>with</b>“). „was“ als Relativwort = <i>o que</i>, nicht nur <i>que</i>.",
+    "beispiele": [
+     {"pt": "Esta é a agência onde abri a conta.", "de": "Das ist die Filiale, in der ich das Konto eröffnet habe."},
+     {"pt": "O gestor de conta com quem falei chama-se Rui.", "de": "Der Kundenbetreuer, mit dem ich gesprochen habe, heißt Rui."},
+     {"pt": "Desculpe, não percebi o que disse.", "de": "Entschuldigung, ich habe nicht verstanden, was Sie gesagt haben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A agência ___ abri a conta fica perto da praça.", "loesungen": ["onde", "em que"], "de": "Die Filiale, in der ich das Konto eröffnet habe, liegt in der Nähe des Platzes.", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "O gestor com ___ falei foi muito simpático.", "loesungen": ["quem"], "de": "Der Betreuer, mit dem ich gesprochen habe, war sehr nett.", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "Desculpe, não percebi ___ disse.", "loesungen": ["o que"], "de": "Entschuldigung, ich habe nicht verstanden, was Sie gesagt haben.", "erklaerung": "„was“ ohne Bezugswort = o que.", "kategorie": "Relativpronomen"},
+     {"typ": "auswahl", "frage": "„die Person, der ich die E-Mail geschickt habe“", "optionen": ["a pessoa que enviei o e-mail", "a pessoa a quem enviei o e-mail", "a pessoa onde enviei o e-mail"], "richtig": 1, "erklaerung": "enviar algo a alguém → a quem.", "kategorie": "Relativpronomen"},
+     {"typ": "auswahl", "frage": "„Erklären Sie mir, was ich tun muss.“", "optionen": ["Explique-me que tenho de fazer.", "Explique-me quem tenho de fazer.", "Explique-me o que tenho de fazer."], "richtig": 2, "kategorie": "Relativpronomen"},
+     {"typ": "uebersetzen", "de": "Das ist der Kundenbetreuer, mit dem ich gesprochen habe.", "loesungen": ["Este é o gestor de conta com quem falei.", "Esse é o gestor de conta com quem falei.", "É o gestor de conta com quem falei."]},
+     {"typ": "uebersetzen", "de": "Ich habe das Passwort vergessen.", "loesungen": ["Esqueci-me da palavra-passe.", "Esqueci a palavra-passe."]},
+     {"typ": "satzbau", "de": "Das ist das Café, wo ich jeden Tag frühstücke.", "loesung": "Este é o café onde tomo o pequeno-almoço todos os dias."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A linha de apoio – die Hotline",
+    "situation": "Stefan ruft die Hotline seiner Bank an.",
+    "zeilen": [
+     {"sprecher": "Operador", "stimme": "m", "pt": "Linha de apoio ao cliente, bom dia. Fala o Nuno. Qual é o assunto?", "de": "Kundenhotline, guten Morgen. Hier spricht Nuno. Worum geht es?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Esqueci-me da palavra-passe do banco online e agora não consigo entrar.", "de": "Guten Morgen. Ich habe das Passwort fürs Onlinebanking vergessen und komme jetzt nicht hinein."},
+     {"sprecher": "Operador", "stimme": "m", "pt": "Compreendo. É o titular da conta?", "de": "Verstehe. Sind Sie der Kontoinhaber?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sou, sim. Mas a conta tem dois titulares: eu e a minha mulher.", "de": "Ja. Aber das Konto hat zwei Inhaber: mich und meine Frau."},
+     {"sprecher": "Operador", "stimme": "m", "pt": "Não há problema. Vou enviar um código para o número de telemóvel que está associado à conta.", "de": "Kein Problem. Ich schicke einen Code an die Handynummer, die mit dem Konto verbunden ist."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já recebi. E o que tenho de fazer agora?", "de": "Schon angekommen. Und was muss ich jetzt tun?"},
+     {"sprecher": "Operador", "stimme": "m", "pt": "Agora escolha uma palavra-passe nova. Em caso de dúvida, pode ir à agência onde abriu a conta.", "de": "Wählen Sie jetzt ein neues Passwort. Bei Fragen können Sie in die Filiale gehen, in der Sie das Konto eröffnet haben."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan liga para a linha de apoio?", "optionen": ["Perdeu o cartão.", "Esqueceu-se da palavra-passe.", "Quer pedir um empréstimo."], "richtig": 1},
+     {"frage": "Quantos titulares tem a conta?", "optionen": ["um", "três", "dois"], "richtig": 2},
+     {"frage": "Onde pode o Stefan ir em caso de dúvida?", "optionen": ["à agência onde abriu a conta", "aos correios", "às Finanças"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Esta é a agência onde abri a conta.", "de": "Das ist die Filiale, in der ich das Konto eröffnet habe."},
+     {"pt": "O gestor com quem falei chama-se Rui.", "de": "Der Betreuer, mit dem ich gesprochen habe, heißt Rui."},
+     {"pt": "Desculpe, não percebi o que disse.", "de": "Entschuldigung, ich habe nicht verstanden, was Sie gesagt haben."},
+     {"pt": "Esqueci-me da palavra-passe.", "de": "Ich habe das Passwort vergessen."},
+     {"pt": "O que tenho de fazer agora?", "de": "Was muss ich jetzt tun?"}
+    ]
+   },
+   "saetze": [
+    {"id": "agencia-onde-abri", "pt": "Esta é a agência onde abri a conta.", "de": "Das ist die Filiale, in der ich das Konto eröffnet habe."},
+    {"id": "gestor-com-quem-falei", "pt": "O gestor de conta com quem falei chama-se Rui.", "de": "Der Kundenbetreuer, mit dem ich gesprochen habe, heißt Rui."},
+    {"id": "nao-percebi-o-que", "pt": "Desculpe, não percebi o que disse.", "de": "Entschuldigung, ich habe nicht verstanden, was Sie gesagt haben."}
+   ]
+  },
+  {
+   "id": "A2-09-L05",
+   "typ": "neu",
+   "titel": "Der Handyvertrag",
+   "vokabeln": ["o-tarifario", "o-pre-pago", "carregar-o-telemovel", "o-carregamento", "os-dados-moveis", "a-operadora", "o-cartao-sim"],
+   "grammatik": {
+    "titel": "Präposition + que: de que, em que",
+    "erklaerung": [
+     "Verlangt das Verb eine Präposition (<i>precisar <b>de</b>, falar <b>de</b>, gostar <b>de</b>, pensar <b>em</b></i>), steht sie <b>vor</b> dem Relativpronomen: <i>o tarifário <b>de que</b> preciso</i>, <i>a operadora <b>de que</b> te falei</i>.",
+     "<b>em que</b> bei Zeit und Ort: <i>o dia <b>em que</b> chegámos</i>, <i>a loja <b>em que</b> comprei o cartão SIM</i> (= <i>onde</i>).",
+     "Bei Personen nach einer Präposition: <b>quem</b> – <i>o colega <b>de quem</b> te falei</i>.",
+     "Im Alltag hört man oft <i>o tarifário que preciso</i> – korrekt und geschrieben: <i>de que preciso</i>."
+    ],
+    "vergleich": "„der Tarif, <b>den</b> ich brauche“ – auf Portugiesisch „von dem ich brauche“: <i>de que preciso</i>, weil es <i>precisar <b>de</b></i> heißt. Ähnlich wie im Deutschen „der Tarif, <b>von dem</b> ich erzählt habe“.",
+    "beispiele": [
+     {"pt": "Este é o tarifário de que preciso.", "de": "Das ist der Tarif, den ich brauche."},
+     {"pt": "Foi no dia em que chegámos a Lagos.", "de": "Das war an dem Tag, an dem wir in Lagos angekommen sind."},
+     {"pt": "A loja em que comprei o cartão SIM fica no centro.", "de": "Das Geschäft, in dem ich die SIM-Karte gekauft habe, liegt im Zentrum."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Este é o tarifário ___ preciso.", "loesungen": ["de que"], "de": "Das ist der Tarif, den ich brauche.", "erklaerung": "precisar de → de que.", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "Lembras-te do dia ___ chegámos?", "loesungen": ["em que"], "de": "Erinnerst du dich an den Tag, an dem wir angekommen sind?", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "A operadora de ___ te falei é mais barata.", "loesungen": ["que"], "de": "Der Anbieter, von dem ich dir erzählt habe, ist billiger.", "kategorie": "Relativpronomen"},
+     {"typ": "auswahl", "frage": "„der Kollege, von dem ich dir erzählt habe“", "optionen": ["o colega de que te falei", "o colega de quem te falei", "o colega quem te falei"], "richtig": 1, "erklaerung": "Person nach Präposition: de quem.", "kategorie": "Relativpronomen"},
+     {"typ": "auswahl", "frage": "„das Geschäft, in dem ich die SIM-Karte gekauft habe“", "optionen": ["a loja em que comprei o cartão SIM", "a loja que comprei o cartão SIM", "a loja de quem comprei o cartão SIM"], "richtig": 0, "kategorie": "Relativpronomen"},
+     {"typ": "uebersetzen", "de": "Ich muss das Handy aufladen.", "loesungen": ["Tenho de carregar o telemóvel.", "Tenho que carregar o telemóvel.", "Preciso de carregar o telemóvel."]},
+     {"typ": "uebersetzen", "de": "Meine mobilen Daten sind aufgebraucht.", "loesungen": ["Os meus dados móveis acabaram.", "Acabaram-se os meus dados móveis.", "Os dados móveis acabaram.", "Já não tenho dados móveis."]},
+     {"typ": "satzbau", "de": "Das ist der Tarif, den ich brauche.", "loesung": "Este é o tarifário de que preciso."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um tarifário novo – ein neuer Tarif",
+    "situation": "Stefan ist im Geschäft seines Mobilfunkanbieters.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Boa tarde! Em que posso ajudar?", "de": "Guten Tag! Womit kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Tenho um tarifário pré-pago, mas os dados móveis acabam sempre a meio do mês.", "de": "Guten Tag. Ich habe einen Wertkartentarif, aber die mobilen Daten sind immer zur Monatsmitte aufgebraucht."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Quantos gigas gasta por mês, mais ou menos?", "de": "Wie viele Gigabyte verbrauchen Sie ungefähr im Monat?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Uns vinte. Trabalho muito com o telemóvel quando estou fora do escritório.", "de": "Etwa zwanzig. Ich arbeite viel mit dem Handy, wenn ich nicht im Büro bin."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Então o tarifário de que precisa é este: trinta gigas e chamadas ilimitadas por quinze euros por mês.", "de": "Dann ist das der Tarif, den Sie brauchen: dreißig Gigabyte und unbegrenzt telefonieren für fünfzehn Euro im Monat."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E tenho de mudar de cartão SIM?", "de": "Und muss ich die SIM-Karte wechseln?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Não, fica com o mesmo cartão e o mesmo número. Só deixa de fazer carregamentos.", "de": "Nein, Sie behalten dieselbe Karte und dieselbe Nummer. Sie müssen nur nicht mehr aufladen."}
+    ],
+    "fragen": [
+     {"frage": "Que problema tem o Stefan?", "optionen": ["O telemóvel está avariado.", "Os dados móveis acabam a meio do mês.", "Perdeu o cartão SIM."], "richtig": 1},
+     {"frage": "Quanto custa o tarifário novo?", "optionen": ["vinte euros", "trinta euros", "quinze euros"], "richtig": 2},
+     {"frage": "O Stefan precisa de um cartão SIM novo?", "optionen": ["Não, fica com o mesmo.", "Sim, e com outro número.", "Sim, mas com o mesmo número."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du willst in einem Kiosk dein Wertkartenhandy aufladen.",
+    "zeilen": [
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Boa tarde. Diga, se faz favor.", "de": "Guten Tag. Bitte schön?"},
+     {"ich": true, "aufgabe": "Sag: Ich möchte das Handy mit zwanzig Euro aufladen.", "loesungen": ["Queria carregar o telemóvel com vinte euros.", "Queria fazer um carregamento de vinte euros.", "Queria carregar o telemóvel com 20 euros.", "Queria fazer um carregamento de 20 euros.", "Gostava de carregar o telemóvel com vinte euros."]},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Com certeza. Qual é a sua operadora?", "de": "Selbstverständlich. Welchen Anbieter haben Sie?"},
+     {"ich": true, "aufgabe": "Sag: Ich weiß nicht, es ist eine portugiesische SIM-Karte.", "loesungen": ["Não sei, é um cartão SIM português.", "Não sei. É um cartão SIM português."]},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Não faz mal, eu vejo pelo número. Pronto, já está!", "de": "Macht nichts, ich sehe es an der Nummer. So, erledigt!"},
+     {"ich": true, "aufgabe": "Frag: Wie viel kostet ein Tarif mit mobilen Daten?", "loesungen": ["Quanto custa um tarifário com dados móveis?", "Quanto é um tarifário com dados móveis?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "tarifario-de-que-preciso", "pt": "Este é o tarifário de que preciso.", "de": "Das ist der Tarif, den ich brauche."},
+    {"id": "tenho-de-carregar", "pt": "Tenho de carregar o telemóvel.", "de": "Ich muss das Handy aufladen."},
+    {"id": "dados-moveis-acabaram", "pt": "Os dados móveis acabaram.", "de": "Das mobile Datenvolumen ist aufgebraucht."}
+   ]
+  },
+  {
+   "id": "A2-09-L06",
+   "typ": "neu",
+   "titel": "Internet und Störungen",
+   "vokabeln": ["a-fibra", "o-router", "a-avaria-tecnica", "sem-rede", "a-ligacao", "reiniciar"],
+   "grammatik": {
+    "titel": "Seit wann? estar sem, desde, há … que",
+    "erklaerung": [
+     "<b>estar sem</b> + Nomen = etwas (gerade) nicht haben: <i>Estou sem internet. Estamos sem rede.</i>",
+     "Seit einem Zeitpunkt: <b>desde</b> – <i>desde ontem, desde segunda-feira, desde as oito</i>.",
+     "Seit einem Zeitraum: <b>há</b> + Zeitraum, das Verb steht im <b>Präsens</b>: <i>Estou sem internet <b>há</b> dois dias.</i> = <i><b>Há</b> dois dias <b>que</b> estou sem internet.</i>",
+     "Achtung: Mit dem Perfeito heißt <i>há</i> „vor“: <i>Liguei há dois dias.</i> – Ich habe vor zwei Tagen angerufen.",
+     "<b>já</b> + Perfeito = schon: <i>Já reiniciei o router.</i> – <b>ainda não</b> = noch nicht: <i>O técnico ainda não veio.</i>"
+    ],
+    "vergleich": "Deutsch „seit“ deckt beides ab. Portugiesisch unterscheidet wie das Englische: <i>desde</i> + Zeitpunkt (since Monday), <i>há</i> + Zeitraum (for two days). Aber anders als im Englischen steht das Verb im einfachen Präsens: <i>Estou sem internet há dois dias.</i>",
+    "beispiele": [
+     {"pt": "Estou sem internet há dois dias.", "de": "Ich habe seit zwei Tagen kein Internet."},
+     {"pt": "Há uma semana que a fibra não funciona.", "de": "Seit einer Woche funktioniert das Glasfaser-Internet nicht."},
+     {"pt": "Já reiniciei o router, mas continuo sem ligação.", "de": "Ich habe den Router schon neu gestartet, aber ich habe immer noch keine Verbindung."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Estamos sem internet ___ segunda-feira.", "loesungen": ["desde"], "de": "Wir haben seit Montag kein Internet.", "kategorie": "há/desde"},
+     {"typ": "luecke", "satz": "Estou sem rede ___ duas horas.", "loesungen": ["há"], "de": "Ich habe seit zwei Stunden keinen Empfang.", "kategorie": "há/desde"},
+     {"typ": "luecke", "satz": "___ uma semana que a fibra não funciona.", "loesungen": ["Há"], "de": "Seit einer Woche funktioniert das Glasfaser-Internet nicht.", "kategorie": "há/desde"},
+     {"typ": "auswahl", "frage": "„Ich habe den Router schon neu gestartet.“", "optionen": ["Ainda reiniciei o router.", "Já reiniciei o router.", "Reinicio já o router."], "richtig": 1, "kategorie": "Perfeito"},
+     {"typ": "auswahl", "frage": "„Wir haben seit drei Tagen kein Internet.“", "optionen": ["Estamos sem internet desde três dias.", "Estivemos sem internet há três dias.", "Estamos sem internet há três dias."], "richtig": 2, "erklaerung": "Zeitraum → há; das Verb steht im Präsens.", "kategorie": "há/desde"},
+     {"typ": "uebersetzen", "de": "Es gibt eine technische Störung.", "loesungen": ["Há uma avaria técnica."]},
+     {"typ": "uebersetzen", "de": "Der Techniker ist noch nicht gekommen.", "loesungen": ["O técnico ainda não veio.", "Ainda não veio o técnico.", "O técnico ainda não chegou.", "Ainda não chegou o técnico."]},
+     {"typ": "satzbau", "de": "Ich habe seit gestern keinen Empfang.", "loesung": "Estou sem rede desde ontem."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Sem internet – ohne Internet",
+    "situation": "Stefan ruft den technischen Kundendienst seines Internetanbieters an.",
+    "zeilen": [
+     {"sprecher": "Operadora", "stimme": "f", "pt": "Assistência técnica, boa tarde. Em que posso ajudar?", "de": "Technischer Kundendienst, guten Tag. Womit kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Estou sem internet desde ontem à noite. A fibra não funciona.", "de": "Guten Tag. Ich habe seit gestern Abend kein Internet. Das Glasfaser-Internet funktioniert nicht."},
+     {"sprecher": "Operadora", "stimme": "f", "pt": "Já reiniciou o router?", "de": "Haben Sie den Router schon neu gestartet?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já, duas vezes. Mas a luz vermelha continua acesa.", "de": "Ja, zweimal. Aber das rote Licht leuchtet immer noch."},
+     {"sprecher": "Operadora", "stimme": "f", "pt": "Um momento… Pois, há uma avaria técnica na sua zona. Os nossos técnicos já estão a trabalhar.", "de": "Einen Moment … Ja, es gibt eine technische Störung in Ihrer Gegend. Unsere Techniker arbeiten schon daran."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E quando volta a ligação? Trabalho em casa e preciso da internet.", "de": "Und wann kommt die Verbindung zurück? Ich arbeite zu Hause und brauche das Internet."},
+     {"sprecher": "Operadora", "stimme": "f", "pt": "Deve ficar resolvido até amanhã de manhã. Até lá, pode usar os dados móveis do telemóvel.", "de": "Das sollte bis morgen früh behoben sein. Bis dahin können Sie die mobilen Daten Ihres Handys nutzen."}
+    ],
+    "fragen": [
+     {"frage": "Desde quando é que o Stefan está sem internet?", "optionen": ["desde ontem à noite", "desde segunda-feira", "há uma semana"], "richtig": 0},
+     {"frage": "Qual é o problema?", "optionen": ["O router está avariado.", "Há uma avaria técnica na zona.", "O Stefan não pagou a fatura."], "richtig": 1},
+     {"frage": "O que pode o Stefan usar até lá?", "optionen": ["o computador do vizinho", "o telefone fixo", "os dados móveis do telemóvel"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Beschreib dein Internetproblem auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich habe seit gestern kein Internet.", "loesungen": ["Estou sem internet desde ontem.", "Desde ontem que estou sem internet."]},
+     {"de": "Ich habe den Router schon zweimal neu gestartet.", "loesungen": ["Já reiniciei o router duas vezes."]},
+     {"de": "Die Verbindung ist sehr langsam.", "loesungen": ["A ligação está muito lenta.", "A ligação é muito lenta."]},
+     {"de": "Seit einer Woche habe ich im Keller keinen Empfang.", "loesungen": ["Há uma semana que estou sem rede na cave.", "Estou sem rede na cave há uma semana.", "Há uma semana que não tenho rede na cave."]},
+     {"de": "Wann kommt der Techniker?", "loesungen": ["Quando vem o técnico?", "Quando é que vem o técnico?", "Quando é que o técnico vem?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "sem-internet-ha-dois-dias", "pt": "Estou sem internet há dois dias.", "de": "Ich habe seit zwei Tagen kein Internet."},
+    {"id": "ja-reiniciei-router", "pt": "Já reiniciei o router.", "de": "Ich habe den Router schon neu gestartet."},
+    {"id": "ha-avaria-tecnica", "pt": "Há uma avaria técnica na sua zona.", "de": "Es gibt eine technische Störung in Ihrer Gegend."}
+   ]
+  },
+  {
+   "id": "A2-09-L07",
+   "typ": "neu",
+   "titel": "Post: Pakete und Einschreiben",
+   "vokabeln": ["o-aviso", "a-carta-registada", "a-estacao-dos-correios", "o-cacifo", "o-remetente", "o-destinatario"],
+   "grammatik": {
+    "titel": "„man“ ausdrücken: 3. Person Plural",
+    "erklaerung": [
+     "Wenn man nicht weiß oder nicht sagen will, <b>wer</b> etwas getan hat, nimmt man oft die <b>3. Person Plural ohne Subjekt</b>: <i><b>Deixaram</b> um aviso na caixa do correio.</i> – Man hat eine Benachrichtigung eingeworfen.",
+     "Mit Pronomen gilt im Hauptsatz die Enklise: <i><b>Ligaram-me</b> dos correios.</i> <i><b>Enviaram-me</b> uma carta registada.</i>",
+     "Nach Verneinung steht das Pronomen davor: <i><b>Não me</b> disseram nada.</i>",
+     "Auch im Präsens: <i><b>Dizem</b> que a estação dos correios fecha cedo.</i> – Man sagt, …",
+     "Achtung: Präsens <i>enviam</i> (sie schicken) – Perfeito <i>enviaram</i> (sie haben geschickt)."
+    ],
+    "vergleich": "Deutsch sagt „man“, Englisch „they“ (They left a note). Portugiesisch macht es wie das Englische: <i>Deixaram um aviso.</i>",
+    "beispiele": [
+     {"pt": "Deixaram um aviso na caixa do correio.", "de": "Man hat eine Benachrichtigung in den Briefkasten gelegt."},
+     {"pt": "Ligaram-me dos correios hoje de manhã.", "de": "Heute Morgen hat man mich von der Post angerufen."},
+     {"pt": "Dizem que o cacifo fica no supermercado.", "de": "Man sagt, das Schließfach ist im Supermarkt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ um aviso na caixa do correio. (deixar, Perfeito)", "loesungen": ["Deixaram"], "de": "Man hat eine Benachrichtigung in den Briefkasten gelegt.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "___-me uma carta registada. (enviar, Perfeito)", "loesungen": ["Enviaram"], "de": "Man hat mir einen Einschreibebrief geschickt.", "kategorie": "Perfeito"},
+     {"typ": "auswahl", "frage": "„Man hat mich von der Post angerufen.“", "optionen": ["Me ligaram dos correios.", "Ligaram-me dos correios.", "Ligaram dos correios-me."], "richtig": 1, "erklaerung": "Im bejahten Hauptsatz steht das Pronomen hinter dem Verb: Ligaram-me.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Man hat mir nichts gesagt.“", "optionen": ["Não me disseram nada.", "Não disseram-me nada.", "Disseram-me não nada."], "richtig": 0, "erklaerung": "Nach não steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Wer ist der Absender?", "loesungen": ["Quem é o remetente?"]},
+     {"typ": "uebersetzen", "de": "Das Paket ist in einem Schließfach.", "loesungen": ["A encomenda está num cacifo."]},
+     {"typ": "satzbau", "de": "Ich muss das Paket in der Postfiliale abholen.", "loesung": "Tenho de levantar a encomenda na estação dos correios."},
+     {"typ": "diktat", "pt": "O carteiro deixou um aviso."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um aviso dos correios – eine Benachrichtigung von der Post",
+    "situation": "Stefan kommt mit der Post nach Hause.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ana, deixaram um aviso na caixa do correio.", "de": "Ana, man hat eine Benachrichtigung in den Briefkasten gelegt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Um aviso? De quê?", "de": "Eine Benachrichtigung? Worüber?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "De uma carta registada. O carteiro passou às onze, mas nós não estávamos em casa.", "de": "Über einen Einschreibebrief. Der Briefträger war um elf da, aber wir waren nicht zu Hause."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E quem é o remetente?", "de": "Und wer ist der Absender?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Diz aqui: Finanças. Tenho de a levantar na estação dos correios até sexta-feira.", "de": "Hier steht: Finanzamt. Ich muss ihn bis Freitag in der Postfiliale abholen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E a minha encomenda da Alemanha? Também ainda não chegou.", "de": "Und mein Paket aus Deutschland? Das ist auch noch nicht angekommen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Essa está num cacifo no supermercado. Mandaram-te um código por SMS.", "de": "Das ist in einem Schließfach im Supermarkt. Man hat dir einen Code per SMS geschickt."}
+    ],
+    "fragen": [
+     {"frage": "O que deixou o carteiro?", "optionen": ["uma encomenda", "um aviso", "um selo"], "richtig": 1},
+     {"frage": "Quem é o remetente da carta registada?", "optionen": ["as Finanças", "o banco", "a mãe da Ana"], "richtig": 0},
+     {"frage": "Onde está a encomenda da Ana?", "optionen": ["na estação dos correios", "em casa do vizinho", "num cacifo no supermercado"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du holst in der Postfiliale einen Einschreibebrief ab.",
+    "zeilen": [
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Bom dia. Diga, se faz favor.", "de": "Guten Morgen. Bitte schön?"},
+     {"ich": true, "aufgabe": "Sag: Guten Morgen. Ich möchte einen Einschreibebrief abholen. Hier ist die Benachrichtigung.", "loesungen": ["Bom dia. Queria levantar uma carta registada. Aqui está o aviso.", "Bom dia. Venho levantar uma carta registada. Aqui está o aviso.", "Bom dia. Queria levantar uma carta registada. Aqui tem o aviso.", "Bom dia. Venho levantar uma carta registada. Aqui tem o aviso."]},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Obrigado. Tem um documento de identificação?", "de": "Danke. Haben Sie einen Ausweis?"},
+     {"ich": true, "aufgabe": "Sag: Ja, hier ist mein Reisepass.", "loesungen": ["Sim, aqui está o meu passaporte.", "Tenho, aqui está o meu passaporte.", "Sim, aqui tem o meu passaporte.", "Tenho, aqui tem o meu passaporte."]},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Muito bem. Assine aqui, por favor.", "de": "Sehr gut. Unterschreiben Sie bitte hier."},
+     {"ich": true, "aufgabe": "Frag: Kann ich hier auch ein Paket nach Österreich schicken?", "loesungen": ["Posso também enviar uma encomenda para a Áustria?", "Também posso enviar uma encomenda para a Áustria?", "Posso enviar também uma encomenda para a Áustria?", "Posso enviar aqui uma encomenda para a Áustria?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "deixaram-um-aviso", "pt": "Deixaram um aviso na caixa do correio.", "de": "Man hat eine Benachrichtigung in den Briefkasten gelegt."},
+    {"id": "levantar-carta-registada", "pt": "Queria levantar uma carta registada.", "de": "Ich möchte einen Einschreibebrief abholen."},
+    {"id": "quem-e-o-remetente", "pt": "Quem é o remetente?", "de": "Wer ist der Absender?"}
+   ]
+  },
+  {
+   "id": "A2-09-L08",
+   "typ": "neu",
+   "titel": "Verträge kündigen",
+   "vokabeln": ["rescindir-o-contrato", "a-fidelizacao", "o-periodo-de-fidelizacao", "a-penalizacao", "o-pre-aviso", "a-mensalidade", "mudar-de-operadora"],
+   "grammatik": {
+    "titel": "Formell schreiben: eine Kündigung",
+    "erklaerung": [
+     "Anrede in formellen Briefen und E-Mails: <b>Exmos. Senhores</b> (Sehr geehrte Damen und Herren). Schluss: <b>Com os melhores cumprimentos</b> (Mit freundlichen Grüßen).",
+     "Einleitung: <b>Venho por este meio</b> + Infinitiv = Hiermit …: <i>Venho por este meio solicitar a rescisão do contrato.</i>",
+     "Wünsche und Fragen: <b>gostaria de</b> (schriftlich, formell) / <b>gostava de</b> (gesprochen) + Infinitiv: <i>Gostaria de saber se tenho de pagar uma penalização.</i>",
+     "Relativsätze machen genau: <i>o contrato <b>que</b> assinei em março</i>, <i>a morada <b>onde</b> está instalado o serviço</i>."
+    ],
+    "vergleich": "„Hiermit kündige ich …“ = <i>Venho por este meio …</i> – wörtlich „Ich komme auf diesem Weg …“. Typisch portugiesisch und in jedem formellen Schreiben nützlich.",
+    "beispiele": [
+     {"pt": "Venho por este meio solicitar a rescisão do contrato de internet.", "de": "Hiermit beantrage ich die Kündigung des Internetvertrags."},
+     {"pt": "Gostaria de saber se tenho de pagar uma penalização.", "de": "Ich möchte wissen, ob ich eine Vertragsstrafe zahlen muss."},
+     {"pt": "O contrato que assinei em março tem fidelização de vinte e quatro meses.", "de": "Der Vertrag, den ich im März unterschrieben habe, hat eine Bindung von vierundzwanzig Monaten."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Sehr geehrte Damen und Herren“", "optionen": ["Exmos. Senhores", "Caros amigos", "Olá a todos"], "richtig": 0, "kategorie": "Formell"},
+     {"typ": "luecke", "satz": "Venho ___ este meio solicitar a rescisão do contrato.", "loesungen": ["por"], "de": "Hiermit beantrage ich die Kündigung des Vertrags.", "kategorie": "Formell"},
+     {"typ": "luecke", "satz": "Gostaria ___ saber quanto é a penalização.", "loesungen": ["de"], "de": "Ich möchte wissen, wie hoch die Vertragsstrafe ist.", "kategorie": "Formell"},
+     {"typ": "luecke", "satz": "O contrato ___ assinei tem fidelização.", "loesungen": ["que"], "de": "Der Vertrag, den ich unterschrieben habe, hat eine Vertragsbindung.", "kategorie": "Relativpronomen"},
+     {"typ": "auswahl", "frage": "„Wir möchten den Anbieter wechseln.“", "optionen": ["Queríamos mudar a operadora.", "Queríamos mudar para operadora.", "Queríamos mudar de operadora."], "richtig": 2, "erklaerung": "mudar de + Nomen (ohne Artikel) = wechseln.", "kategorie": "Präpositionen"},
+     {"typ": "uebersetzen", "de": "Die Kündigungsfrist beträgt dreißig Tage.", "loesungen": ["O pré-aviso é de trinta dias.", "O pré-aviso é de 30 dias."]},
+     {"typ": "uebersetzen", "de": "Ich möchte den Vertrag kündigen.", "loesungen": ["Queria rescindir o contrato.", "Gostava de rescindir o contrato.", "Gostaria de rescindir o contrato.", "Quero rescindir o contrato."]},
+     {"typ": "satzbau", "de": "Die Monatsgebühr ist zu hoch.", "loesung": "A mensalidade é demasiado cara."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Quero rescindir – ich möchte kündigen",
+    "situation": "Stefan ruft seinen Internetanbieter an, um zu kündigen.",
+    "zeilen": [
+     {"sprecher": "Operador", "stimme": "m", "pt": "Boa tarde, fala o Ricardo. Em que posso ajudar?", "de": "Guten Tag, hier spricht Ricardo. Womit kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Queria rescindir o contrato de internet. Vou mudar de operadora.", "de": "Guten Tag. Ich möchte den Internetvertrag kündigen. Ich wechsle den Anbieter."},
+     {"sprecher": "Operador", "stimme": "m", "pt": "Lamento ouvir isso. Posso saber porquê?", "de": "Das tut mir leid zu hören. Darf ich fragen, warum?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A mensalidade é muito cara e tive três avarias este ano.", "de": "Die Monatsgebühr ist sehr hoch und ich hatte dieses Jahr drei Störungen."},
+     {"sprecher": "Operador", "stimme": "m", "pt": "Compreendo. Mas o seu contrato ainda tem fidelização até março. Para rescindir agora, tem de pagar uma penalização de oitenta euros.", "de": "Verstehe. Aber Ihr Vertrag hat noch eine Bindung bis März. Wenn Sie jetzt kündigen, müssen Sie eine Vertragsstrafe von achtzig Euro zahlen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Oitenta euros? E qual é o pré-aviso?", "de": "Achtzig Euro? Und wie lang ist die Kündigungsfrist?"},
+     {"sprecher": "Operador", "stimme": "m", "pt": "São trinta dias, e tem de enviar o pedido por escrito. Ou posso oferecer-lhe um desconto de dez euros na mensalidade…", "de": "Dreißig Tage, und Sie müssen die Kündigung schriftlich schicken. Oder ich kann Ihnen einen Rabatt von zehn Euro auf die Monatsgebühr anbieten …"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan quer rescindir o contrato?", "optionen": ["Vai mudar de casa.", "A mensalidade é cara e teve avarias.", "Já não precisa de internet."], "richtig": 1},
+     {"frage": "Até quando tem o contrato fidelização?", "optionen": ["até março", "até dezembro", "até ao fim do mês"], "richtig": 0},
+     {"frage": "Quanto é a penalização?", "optionen": ["trinta euros", "dez euros", "oitenta euros"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib eine kurze Kündigungs-E-Mail auf Portugiesisch, Satz für Satz.",
+    "aufgaben": [
+     {"de": "Sehr geehrte Damen und Herren,", "loesungen": ["Exmos. Senhores,", "Exmos. Senhores"]},
+     {"de": "Hiermit beantrage ich die Kündigung des Internetvertrags.", "loesungen": ["Venho por este meio solicitar a rescisão do contrato de internet.", "Venho por este meio pedir a rescisão do contrato de internet."]},
+     {"de": "Die Mindestvertragslaufzeit ist schon vorbei.", "loesungen": ["O período de fidelização já acabou.", "O período de fidelização já terminou."]},
+     {"de": "Ich möchte wissen, ob ich eine Vertragsstrafe zahlen muss.", "loesungen": ["Gostaria de saber se tenho de pagar uma penalização.", "Gostaria de saber se tenho que pagar uma penalização.", "Gostava de saber se tenho de pagar uma penalização.", "Queria saber se tenho de pagar uma penalização.", "Gostaria de saber se tenho de pagar alguma penalização."]},
+     {"de": "Mit freundlichen Grüßen", "loesungen": ["Com os melhores cumprimentos", "Com os melhores cumprimentos,", "Melhores cumprimentos", "Cumprimentos"]}
+    ]
+   },
+   "saetze": [
+    {"id": "venho-por-este-meio", "pt": "Venho por este meio solicitar a rescisão do contrato.", "de": "Hiermit beantrage ich die Kündigung des Vertrags."},
+    {"id": "queria-rescindir", "pt": "Queria rescindir o contrato de internet.", "de": "Ich möchte den Internetvertrag kündigen."},
+    {"id": "pre-aviso-trinta-dias", "pt": "O pré-aviso é de trinta dias.", "de": "Die Kündigungsfrist beträgt dreißig Tage."}
+   ]
+  },
+  {"id": "A2-09-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-09-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Um dia de recados – ein Tag voller Erledigungen",
+   "situation": "Stefan erzählt Ana, was er heute alles erledigt hat.",
+   "zeilen": [
+    {"sprecher": "Ana", "stimme": "f", "pt": "Então, conseguiste tratar de tudo?", "de": "Na, hast du alles erledigen können?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Quase tudo. Primeiro fui ao banco. A senhora que me atendeu explicou-me o que temos de fazer para não pagar comissões.", "de": "Fast alles. Zuerst war ich bei der Bank. Die Dame, die mich bedient hat, hat mir erklärt, was wir tun müssen, um keine Gebühren zu zahlen."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "E o que é?", "de": "Und was ist es?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Temos de receber o ordenado nessa conta. Depois fui aos correios levantar a carta registada.", "de": "Wir müssen das Gehalt auf dieses Konto bekommen. Danach war ich auf der Post, um den Einschreibebrief abzuholen."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Era das Finanças?", "de": "War er vom Finanzamt?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Era, mas não é nada de grave. No fim passei pela loja onde comprámos os telemóveis e mudei de tarifário: agora pago doze euros por mês.", "de": "Ja, aber es ist nichts Schlimmes. Zum Schluss war ich in dem Geschäft, in dem wir die Handys gekauft haben, und habe den Tarif gewechselt: Jetzt zahle ich zwölf Euro im Monat."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Ótimo! E a internet? Ainda estamos sem fibra?", "de": "Super! Und das Internet? Haben wir immer noch kein Glasfaser?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Não, a avaria técnica já está resolvida. Já funciona tudo.", "de": "Nein, die technische Störung ist schon behoben. Alles funktioniert wieder."}
+   ],
+   "fragen": [
+    {"frage": "Onde foi o Stefan primeiro?", "optionen": ["aos correios", "ao banco", "à loja de telemóveis"], "richtig": 1},
+    {"frage": "O que é que o Stefan levantou nos correios?", "optionen": ["uma carta registada", "uma encomenda", "um cartão SIM"], "richtig": 0},
+    {"frage": "Quanto paga o Stefan agora pelo tarifário?", "optionen": ["vinte euros", "quinze euros", "doze euros"], "richtig": 2},
+    {"frage": "Como está a internet?", "optionen": ["Ainda não funciona.", "Já funciona outra vez.", "Vão mudar de operadora."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Uma carta da operadora – ein Brief vom Anbieter",
+   "situation": "Stefan bekommt eine Antwort auf seine Kündigung.",
+   "text": [
+    "Exmo. Senhor,",
+    "Recebemos o seu pedido de rescisão do contrato de internet que assinou em março de 2024.",
+    "O período de fidelização já terminou, por isso não tem de pagar nenhuma penalização.",
+    "O serviço termina no dia 30 de novembro. A última mensalidade é paga por débito direto, como sempre.",
+    "Por favor, devolva o router numa das nossas lojas ou na estação dos correios mais perto de sua casa até 15 de dezembro.",
+    "Com os melhores cumprimentos, o Serviço de Apoio ao Cliente"
+   ],
+   "fragen": [
+    {"frage": "O que pediu o Stefan?", "optionen": ["um tarifário novo", "a rescisão do contrato de internet", "um router novo"], "richtig": 1},
+    {"frage": "O Stefan tem de pagar uma penalização?", "optionen": ["Sim, de oitenta euros.", "Sim, mas só metade.", "Não, porque a fidelização já terminou."], "richtig": 2},
+    {"frage": "Como é paga a última mensalidade?", "optionen": ["por débito direto", "em dinheiro na loja", "por MB Way"], "richtig": 0},
+    {"frage": "Onde pode o Stefan devolver o router?", "optionen": ["só na loja de Lagos", "numa loja ou na estação dos correios", "ao técnico em casa"], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich möchte fünfhundert Euro einzahlen.", "loesungen": ["Queria depositar quinhentos euros.", "Quero depositar quinhentos euros.", "Gostava de depositar quinhentos euros."]},
+   {"de": "Die Dame, die mich bedient hat, war sehr freundlich.", "loesungen": ["A senhora que me atendeu foi muito simpática.", "A senhora que me atendeu era muito simpática."]},
+   {"de": "Das ist die Filiale, in der ich das Konto eröffnet habe.", "loesungen": ["Esta é a agência onde abri a conta.", "Esta é a agência em que abri a conta.", "É a agência onde abri a conta."]},
+   {"de": "Ich habe seit gestern kein Internet.", "loesungen": ["Estou sem internet desde ontem.", "Desde ontem que estou sem internet."]},
+   {"de": "Man hat eine Benachrichtigung in den Briefkasten gelegt.", "loesungen": ["Deixaram um aviso na caixa do correio."]},
+   {"de": "Ich möchte den Vertrag kündigen.", "loesungen": ["Queria rescindir o contrato.", "Gostava de rescindir o contrato.", "Gostaria de rescindir o contrato.", "Quero rescindir o contrato."]}
+  ],
+  "sprechen": [
+   {"pt": "Pode dar-me o seu IBAN?", "de": "Können Sie mir Ihre IBAN geben?"},
+   {"pt": "Queria saber se posso pagar com MB Way.", "de": "Ich wollte wissen, ob ich mit MB Way zahlen kann."},
+   {"pt": "O gestor de conta com quem falei chama-se Rui.", "de": "Der Kundenbetreuer, mit dem ich gesprochen habe, heißt Rui."},
+   {"pt": "Este é o tarifário de que preciso.", "de": "Das ist der Tarif, den ich brauche."},
+   {"pt": "Tenho de levantar a encomenda na estação dos correios.", "de": "Ich muss das Paket in der Postfiliale abholen."}
+  ]
+ }
+}

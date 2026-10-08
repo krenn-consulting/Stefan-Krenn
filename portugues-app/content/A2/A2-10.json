@@ -1,0 +1,645 @@
+{
+ "id": "A2-10",
+ "level": "A2",
+ "titel": "Vizinhos e convites – Nachbarschaft",
+ "beschreibung": "Nachbarn kennenlernen, Einladungen annehmen und ablehnen, um Gefallen bitten, Feste feiern und Probleme im Haus ansprechen – mit por vs. para, Indefinitpronomen und doppelter Verneinung.",
+ "vokabeln": [
+  {"id": "a-vizinhanca", "pt": "a vizinhança", "de": "die Nachbarschaft", "emoji": "🏘️", "beispiel_pt": "A vizinhança aqui é muito tranquila.", "beispiel_de": "Die Nachbarschaft hier ist sehr ruhig."},
+  {"id": "apresentar-se", "pt": "apresentar-se", "de": "sich vorstellen", "emoji": "🙋", "beispiel_pt": "Deixe-me apresentar-me: sou o Stefan, do terceiro andar.", "beispiel_de": "Darf ich mich vorstellen: Ich bin Stefan aus dem dritten Stock.", "hinweis": "Apresento-me … / Ainda não me apresentei."},
+  {"id": "o-patamar", "pt": "o patamar", "de": "der Treppenabsatz (vor der Wohnungstür)", "emoji": "🪜", "beispiel_pt": "Encontrei a nova vizinha no patamar.", "beispiel_de": "Ich habe die neue Nachbarin auf dem Treppenabsatz getroffen."},
+  {"id": "tocar-a-campainha", "pt": "tocar à campainha", "de": "an der Tür läuten", "emoji": "🔔", "beispiel_pt": "Toquei à campainha, mas ninguém abriu.", "beispiel_de": "Ich habe geläutet, aber niemand hat aufgemacht.", "hinweis": "a campainha = die Türglocke"},
+  {"id": "o-recem-chegado", "pt": "o recém-chegado", "de": "der Neuankömmling", "emoji": "🧳", "beispiel_pt": "Somos recém-chegados a Lagos.", "beispiel_de": "Wir sind neu in Lagos.", "alternativen": ["a recém-chegada"]},
+  {"id": "dar-se-bem-com", "pt": "dar-se bem com", "de": "sich gut verstehen mit", "emoji": "🤝", "beispiel_pt": "Damo-nos muito bem com os vizinhos.", "beispiel_de": "Wir verstehen uns sehr gut mit den Nachbarn."},
+
+  {"id": "o-convite", "pt": "o convite", "de": "die Einladung", "emoji": "💌", "beispiel_pt": "Obrigado pelo convite!", "beispiel_de": "Danke für die Einladung!"},
+  {"id": "aceitar", "pt": "aceitar", "de": "annehmen", "emoji": "✅", "beispiel_pt": "Aceito com prazer.", "beispiel_de": "Ich nehme gerne an."},
+  {"id": "recusar", "pt": "recusar", "de": "ablehnen", "emoji": "❌", "beispiel_pt": "Tive de recusar o convite.", "beispiel_de": "Ich musste die Einladung ablehnen."},
+  {"id": "com-todo-o-gosto", "pt": "com todo o gosto", "de": "sehr gerne / mit Vergnügen", "emoji": "😊", "beispiel_pt": "– Vens jantar connosco? – Com todo o gosto!", "beispiel_de": "– Kommst du mit uns zu Abend essen? – Sehr gerne!"},
+  {"id": "aparecer", "pt": "aparecer", "de": "vorbeikommen / auftauchen", "emoji": "🚪", "beispiel_pt": "Aparece lá em casa no sábado!", "beispiel_de": "Komm am Samstag bei uns vorbei!", "hinweis": "eu apareço, ele aparece"},
+  {"id": "la-em-casa", "pt": "lá em casa", "de": "bei uns / bei mir zu Hause", "emoji": "🏡", "beispiel_pt": "Vamos fazer um jantar lá em casa.", "beispiel_de": "Wir machen ein Abendessen bei uns zu Hause.", "hinweis": "Wenn man gerade zu Hause ist: cá em casa"},
+  {"id": "pedir-emprestado", "pt": "pedir emprestado", "de": "sich (aus)leihen", "emoji": "🙏", "beispiel_pt": "Pedi emprestado o carro ao João.", "beispiel_de": "Ich habe mir Joãos Auto ausgeliehen."},
+  {"id": "fazer-um-favor", "pt": "fazer um favor", "de": "einen Gefallen tun", "emoji": "🤲", "beispiel_pt": "Podes fazer-me um favor?", "beispiel_de": "Kannst du mir einen Gefallen tun?"},
+  {"id": "regar", "pt": "regar", "de": "gießen", "emoji": "🚿", "beispiel_pt": "Rego as plantas da vizinha quando ela está fora.", "beispiel_de": "Ich gieße die Pflanzen der Nachbarin, wenn sie weg ist."},
+  {"id": "as-plantas", "pt": "as plantas", "de": "die Pflanzen", "emoji": "🪴", "beispiel_pt": "As plantas da varanda precisam de muita água.", "beispiel_de": "Die Pflanzen auf dem Balkon brauchen viel Wasser."},
+  {"id": "tomar-conta-de", "pt": "tomar conta de", "de": "aufpassen auf / sich kümmern um", "emoji": "🐈", "beispiel_pt": "Tomas conta do gato durante as férias?", "beispiel_de": "Passt du in den Ferien auf die Katze auf?"},
+  {"id": "a-caixa-do-correio", "pt": "a caixa do correio", "de": "der Briefkasten", "emoji": "📫", "beispiel_pt": "Podes esvaziar a caixa do correio?", "beispiel_de": "Kannst du den Briefkasten leeren?"},
+  {"id": "por-causa-de", "pt": "por causa de", "de": "wegen", "emoji": "❗", "beispiel_pt": "Não dormi por causa do calor.", "beispiel_de": "Ich habe wegen der Hitze nicht geschlafen."},
+  {"id": "passar-por", "pt": "passar por", "de": "vorbeikommen an / vorbeischauen bei", "emoji": "🚶", "beispiel_pt": "Passei pela farmácia a caminho de casa.", "beispiel_de": "Ich bin auf dem Heimweg bei der Apotheke vorbeigegangen."},
+  {"id": "o-bairro", "pt": "o bairro", "de": "das (Wohn-)Viertel", "emoji": "🗺️", "beispiel_pt": "O nosso bairro é muito calmo.", "beispiel_de": "Unser Viertel ist sehr ruhig."},
+  {"id": "por-aqui", "pt": "por aqui", "de": "hier in der Gegend / hier entlang", "emoji": "📍", "beispiel_pt": "Há uma padaria por aqui?", "beispiel_de": "Gibt es hier in der Gegend eine Bäckerei?"},
+
+  {"id": "alguem", "pt": "alguém", "de": "jemand", "emoji": "🧍", "beispiel_pt": "Está alguém em casa?", "beispiel_de": "Ist jemand zu Hause?"},
+  {"id": "ninguem", "pt": "ninguém", "de": "niemand", "emoji": "🚫", "beispiel_pt": "Não está ninguém em casa.", "beispiel_de": "Es ist niemand zu Hause.", "hinweis": "Nach dem Verb: não … ninguém"},
+  {"id": "algo", "pt": "algo", "de": "etwas", "emoji": "❔", "beispiel_pt": "Precisas de algo?", "beispiel_de": "Brauchst du etwas?", "hinweis": "Etwas gehobener; im Alltag meist alguma coisa."},
+  {"id": "alguma-coisa", "pt": "alguma coisa", "de": "etwas", "emoji": "📦", "beispiel_pt": "Queres beber alguma coisa?", "beispiel_de": "Möchtest du etwas trinken?"},
+  {"id": "nada", "pt": "nada", "de": "nichts", "emoji": "🫙", "beispiel_pt": "Não comprei nada.", "beispiel_de": "Ich habe nichts gekauft.", "hinweis": "Nach dem Verb: não … nada"},
+  {"id": "tudo", "pt": "tudo", "de": "alles", "emoji": "🌍", "beispiel_pt": "Está tudo pronto para a festa.", "beispiel_de": "Alles ist bereit für das Fest."},
+  {"id": "qualquer-coisa", "pt": "qualquer coisa", "de": "irgendetwas / egal was", "emoji": "🎲", "beispiel_pt": "Qualquer coisa, é só tocar à campainha.", "beispiel_de": "Wenn irgendetwas ist, einfach läuten.", "hinweis": "qualquer pessoa = jeder (beliebige)"},
+
+  {"id": "algum", "pt": "algum", "de": "irgendein", "emoji": "➕", "beispiel_pt": "Tens algum problema com o vizinho?", "beispiel_de": "Hast du irgendein Problem mit dem Nachbarn?", "hinweis": "algum, alguma, alguns, algumas"},
+  {"id": "alguns", "pt": "alguns", "de": "einige", "emoji": "👥", "beispiel_pt": "Alguns vizinhos vieram à festa.", "beispiel_de": "Einige Nachbarn sind zum Fest gekommen.", "alternativen": ["algumas"]},
+  {"id": "em-lado-nenhum", "pt": "em lado nenhum", "de": "nirgendwo", "emoji": "🔍", "beispiel_pt": "Não encontro as chaves em lado nenhum.", "beispiel_de": "Ich finde die Schlüssel nirgends."},
+  {"id": "em-algum-lado", "pt": "em algum lado", "de": "irgendwo", "emoji": "🧭", "beispiel_pt": "Deixei o telemóvel em algum lado.", "beispiel_de": "Ich habe das Handy irgendwo liegen lassen."},
+  {"id": "nem-nem", "pt": "nem … nem", "de": "weder … noch", "emoji": "↔️", "beispiel_pt": "Não conheço nem o João nem a Marta.", "beispiel_de": "Ich kenne weder João noch Marta."},
+  {"id": "tambem-nao", "pt": "também não", "de": "auch nicht", "emoji": "🙅", "beispiel_pt": "– Não gosto de barulho. – Eu também não.", "beispiel_de": "– Ich mag keinen Lärm. – Ich auch nicht."},
+  {"id": "nem-eu", "pt": "nem eu", "de": "ich auch nicht", "emoji": "🤷", "beispiel_pt": "– Nunca fui a Monchique. – Nem eu!", "beispiel_de": "– Ich war nie in Monchique. – Ich auch nicht!"},
+
+  {"id": "os-santos-populares", "pt": "os Santos Populares", "de": "die Volksheiligenfeste (im Juni)", "emoji": "🎊", "beispiel_pt": "Em junho há festas dos Santos Populares em todo o país.", "beispiel_de": "Im Juni gibt es im ganzen Land Volksheiligenfeste.", "hinweis": "Santo António (13.6.), São João (24.6.), São Pedro (29.6.)"},
+  {"id": "o-arraial", "pt": "o arraial", "de": "das Volksfest (Straßenfest)", "emoji": "🏮", "beispiel_pt": "Há um arraial na praça esta noite.", "beispiel_de": "Heute Abend gibt es ein Volksfest auf dem Platz."},
+  {"id": "a-sardinhada", "pt": "a sardinhada", "de": "das Sardinengrillen", "emoji": "🐟", "beispiel_pt": "Fizemos uma sardinhada no quintal.", "beispiel_de": "Wir haben im Hof Sardinen gegrillt."},
+  {"id": "o-manjerico", "pt": "o manjerico", "de": "das Basilikumtöpfchen (Glücksbringer)", "emoji": "🌱", "beispiel_pt": "Ofereci um manjerico à vizinha.", "beispiel_de": "Ich habe der Nachbarin ein Basilikumtöpfchen geschenkt.", "hinweis": "Mit kleinem Liebesvers – typisch für Santo António."},
+  {"id": "o-presente", "pt": "o presente", "de": "das Geschenk", "emoji": "🎁", "beispiel_pt": "Trouxe um presente para ti.", "beispiel_de": "Ich habe dir ein Geschenk mitgebracht.", "hinweis": "In Portugal auch oft: a prenda", "alternativen": ["a prenda"]},
+  {"id": "brindar", "pt": "brindar", "de": "anstoßen", "emoji": "🥂", "beispiel_pt": "Vamos brindar aos novos vizinhos!", "beispiel_de": "Stoßen wir auf die neuen Nachbarn an!", "hinweis": "Beim Anstoßen sagt man: Saúde!"},
+  {"id": "incomodar", "pt": "incomodar", "de": "stören", "emoji": "😣", "beispiel_pt": "Desculpe incomodar.", "beispiel_de": "Entschuldigen Sie die Störung."},
+  {"id": "queixar-se", "pt": "queixar-se", "de": "sich beschweren", "emoji": "😤", "beispiel_pt": "O vizinho queixou-se do cão.", "beispiel_de": "Der Nachbar hat sich über den Hund beschwert.", "hinweis": "queixar-se de algo (a alguém)"},
+  {"id": "a-reuniao-de-condominio", "pt": "a reunião de condomínio", "de": "die Eigentümerversammlung", "emoji": "🗳️", "beispiel_pt": "A reunião de condomínio é na quinta-feira.", "beispiel_de": "Die Eigentümerversammlung ist am Donnerstag."},
+  {"id": "o-administrador", "pt": "o administrador", "de": "der (Haus-)Verwalter", "emoji": "🧑‍💼", "beispiel_pt": "Vou falar com o administrador do condomínio.", "beispiel_de": "Ich werde mit dem Hausverwalter sprechen."},
+  {"id": "a-quota", "pt": "a quota", "de": "der Beitrag (Hausgeld)", "emoji": "💶", "beispiel_pt": "A quota do condomínio é de trinta euros por mês.", "beispiel_de": "Das Hausgeld beträgt dreißig Euro im Monat."},
+  {"id": "as-partes-comuns", "pt": "as partes comuns", "de": "die Gemeinschaftsflächen", "emoji": "🏢", "beispiel_pt": "Não se pode deixar lixo nas partes comuns.", "beispiel_de": "Man darf keinen Müll in den Gemeinschaftsflächen lassen."}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-10-L01",
+   "typ": "neu",
+   "titel": "Die neuen Nachbarn",
+   "vokabeln": ["a-vizinhanca", "apresentar-se", "o-patamar", "tocar-a-campainha", "o-recem-chegado", "dar-se-bem-com"],
+   "grammatik": {
+    "titel": "Reflexive Verben und Pronomenstellung",
+    "erklaerung": [
+     "Viele Verben rund ums Kennenlernen sind reflexiv: <b>apresentar-se</b>, <b>dar-se bem com</b>, <b>chamar-se</b>, <b>mudar-se</b> (umziehen). Die Pronomen: <i>me, te, se, nos, vos, se</i>.",
+     "Im bejahten Hauptsatz steht das Pronomen <b>hinter</b> dem Verb: <i>Apresento-<b>me</b>. Mudei-<b>me</b> ontem.</i>",
+     "Bei <i>nós</i> fällt das -s weg: <i>damos + nos → <b>damo-nos</b></i>, <i>mudámos + nos → <b>mudámo-nos</b></i>.",
+     "<b>Vor</b> dem Verb steht es nach <b>não, já, também, ainda, sempre, nunca</b>, nach Fragewörtern und nach <b>que</b>: <i>Ainda não <b>me</b> apresentei. Já <b>nos</b> conhecemos? Os vizinhos que <b>se</b> mudaram ontem …</i>"
+    ],
+    "vergleich": "Deutsch „sich vorstellen“ – Portugiesisch hängt das Pronomen mit Bindestrich ans Verb: <i>apresento-me</i>. Englisch braucht oft gar kein Reflexivpronomen: „we get on well“ = <i>damo-nos bem</i>.",
+    "beispiele": [
+     {"pt": "Deixe-me apresentar-me: sou o Stefan, do terceiro esquerdo.", "de": "Darf ich mich vorstellen: Ich bin Stefan aus dem dritten Stock links."},
+     {"pt": "Ainda não nos conhecemos, pois não?", "de": "Wir kennen uns noch nicht, oder?"},
+     {"pt": "Damo-nos muito bem com a vizinhança.", "de": "Wir verstehen uns sehr gut mit der Nachbarschaft."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ muito bem com os vizinhos. (dar-se, nós)", "loesungen": ["Damo-nos"], "de": "Wir verstehen uns sehr gut mit den Nachbarn.", "erklaerung": "damos + nos → damo-nos (das -s fällt weg).", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Desculpe, ainda não ___ apresentei.", "loesungen": ["me"], "de": "Entschuldigung, ich habe mich noch nicht vorgestellt.", "erklaerung": "Nach ainda não steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Kennen wir uns schon?“", "optionen": ["Já conhecemo-nos?", "Já nos conhecemos?", "Nos já conhecemos?"], "richtig": 1, "erklaerung": "Nach já: Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Ich stelle mich vor: Ich bin Stefan.“", "optionen": ["Apresento-me: sou o Stefan.", "Me apresento: sou o Stefan.", "Apresento: sou o Stefan."], "richtig": 0, "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Os vizinhos que ___ mudaram ontem são ingleses.", "loesungen": ["se"], "de": "Die Nachbarn, die gestern eingezogen sind, sind Engländer.", "erklaerung": "Nach que steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Willkommen im Haus! (zu einem Mann, formell)", "loesungen": ["Seja bem-vindo ao prédio!", "Bem-vindo ao prédio!"]},
+     {"typ": "uebersetzen", "de": "Wir sind neu in Lagos.", "loesungen": ["Somos recém-chegados a Lagos.", "Somos novos em Lagos.", "Chegámos há pouco a Lagos."]},
+     {"typ": "satzbau", "de": "Ich habe bei der Nachbarin geläutet.", "loesung": "Toquei à campainha da vizinha."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No patamar – auf dem Treppenabsatz",
+    "situation": "Stefan trifft eine neue Nachbarin im Treppenhaus.",
+    "zeilen": [
+     {"sprecher": "Marta", "stimme": "f", "pt": "Boa tarde! Desculpe, mora aqui no prédio?", "de": "Guten Tag! Entschuldigung, wohnen Sie hier im Haus?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Moro, sim, no terceiro esquerdo. Deixe-me apresentar-me: sou o Stefan.", "de": "Ja, im dritten Stock links. Darf ich mich vorstellen: Ich bin Stefan."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Muito prazer. Sou a Marta. Mudei-me ontem para o segundo direito.", "de": "Sehr erfreut. Ich bin Marta. Ich bin gestern in den zweiten Stock rechts gezogen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ah, é a recém-chegada! Seja bem-vinda ao prédio!", "de": "Ah, Sie sind die Neue! Willkommen im Haus!"},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Obrigada! E a vizinhança, como é?", "de": "Danke! Und wie ist die Nachbarschaft?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É muito tranquila. Damo-nos todos bem. Qualquer coisa, é só tocar à campainha.", "de": "Sehr ruhig. Wir verstehen uns alle gut. Wenn irgendetwas ist, einfach bei mir läuten."}
+    ],
+    "fragen": [
+     {"frage": "Onde mora o Stefan?", "optionen": ["no segundo direito", "no terceiro esquerdo", "no rés-do-chão"], "richtig": 1},
+     {"frage": "Quando é que a Marta se mudou?", "optionen": ["ontem", "há um mês", "hoje de manhã"], "richtig": 0},
+     {"frage": "Como é a vizinhança, segundo o Stefan?", "optionen": ["barulhenta", "antipática", "muito tranquila"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Deixe-me apresentar-me: sou o Stefan.", "de": "Darf ich mich vorstellen: Ich bin Stefan."},
+     {"pt": "Seja bem-vinda ao prédio!", "de": "Willkommen im Haus! (zu einer Frau)"},
+     {"pt": "Ainda não nos conhecemos, pois não?", "de": "Wir kennen uns noch nicht, oder?"},
+     {"pt": "Damo-nos muito bem com os vizinhos.", "de": "Wir verstehen uns sehr gut mit den Nachbarn."},
+     {"pt": "Qualquer coisa, é só tocar à campainha.", "de": "Wenn irgendetwas ist, einfach läuten."}
+    ]
+   },
+   "saetze": [
+    {"id": "deixe-me-apresentar", "pt": "Deixe-me apresentar-me: sou o Stefan.", "de": "Darf ich mich vorstellen: Ich bin Stefan."},
+    {"id": "seja-bem-vindo-predio", "pt": "Seja bem-vindo ao prédio!", "de": "Willkommen im Haus!"},
+    {"id": "damo-nos-bem", "pt": "Damo-nos muito bem com os vizinhos.", "de": "Wir verstehen uns sehr gut mit den Nachbarn."}
+   ]
+  },
+  {
+   "id": "A2-10-L02",
+   "typ": "neu",
+   "titel": "Einladungen annehmen und ablehnen",
+   "vokabeln": ["o-convite", "aceitar", "recusar", "com-todo-o-gosto", "aparecer", "la-em-casa"],
+   "grammatik": {
+    "titel": "Zusagen und absagen",
+    "erklaerung": [
+     "Einladen: <b>Queres vir …?</b> / <b>Quer vir …?</b> (formell), <b>Apetece-te …?</b> (Hast du Lust …?), <b>Aparece!</b> (Komm vorbei!).",
+     "Zusagen: <b>Com todo o gosto!</b> / <b>Aceito com prazer.</b> / <b>Claro que sim!</b> / <b>Conta comigo!</b> (Ich bin dabei!)",
+     "Absagen mit Grund: <b>Infelizmente não vou poder</b>, tenho … / <b>Obrigado pelo convite, mas</b> … – die Zukunft mit <i>ir + poder</i> klingt weicher als <i>não posso</i>.",
+     "<b>pelo</b> = por + o: <i>Obrigado <b>pelo</b> convite.</i> (Mehr zu <i>por</i> in Lektion 4.)"
+    ],
+    "vergleich": "„Ich werde nicht kommen können“ klingt im Deutschen umständlich – auf Portugiesisch ist <i>Não vou poder ir</i> die normale, höfliche Absage. Englisch: „I won't be able to come“.",
+    "beispiele": [
+     {"pt": "Obrigado pelo convite! Com todo o gosto.", "de": "Danke für die Einladung! Sehr gerne."},
+     {"pt": "Infelizmente não vou poder ir, tenho uma reunião.", "de": "Leider werde ich nicht kommen können, ich habe eine Besprechung."},
+     {"pt": "Apetece-te aparecer lá em casa no sábado?", "de": "Hast du Lust, am Samstag bei uns vorbeizukommen?"}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Welche Antwort ist eine Zusage?", "optionen": ["Infelizmente não vou poder.", "Com todo o gosto!", "Fica para a próxima."], "richtig": 1, "kategorie": "Einladung"},
+     {"typ": "luecke", "satz": "Obrigado ___ convite!", "loesungen": ["pelo"], "de": "Danke für die Einladung!", "erklaerung": "por + o = pelo", "kategorie": "por/para"},
+     {"typ": "luecke", "satz": "Infelizmente não vou ___ ir.", "loesungen": ["poder"], "de": "Leider werde ich nicht kommen können.", "kategorie": "Einladung"},
+     {"typ": "luecke", "satz": "Queres ___ jantar lá em casa no sábado? (kommen)", "loesungen": ["vir"], "de": "Willst du am Samstag zu uns zum Abendessen kommen?", "kategorie": "Einladung"},
+     {"typ": "auswahl", "frage": "„Komm doch mal bei uns vorbei!“ (tu)", "optionen": ["Aparecer lá em casa!", "Aparece lá em casa!", "Apareça-te lá em casa!"], "richtig": 1, "erklaerung": "Imperativ für tu = 3. Person Präsens: aparece.", "kategorie": "Imperativ"},
+     {"typ": "uebersetzen", "de": "Leider muss ich die Einladung ablehnen.", "loesungen": ["Infelizmente tenho de recusar o convite.", "Infelizmente tenho que recusar o convite."]},
+     {"typ": "uebersetzen", "de": "Ich nehme gerne an.", "loesungen": ["Aceito com prazer.", "Aceito com todo o gosto.", "Aceito com muito gosto."]},
+     {"typ": "satzbau", "de": "Danke für die Einladung, aber ich kann nicht.", "loesung": "Obrigado pelo convite, mas não posso."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um jantar de anos – ein Geburtstagsessen",
+    "situation": "Rita ruft Stefan an und lädt ihn ein.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Olá, Stefan! No sábado faço anos e vou fazer um jantar lá em casa. Vocês aparecem?", "de": "Hallo Stefan! Am Samstag habe ich Geburtstag und mache ein Abendessen bei mir. Kommt ihr vorbei?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Com todo o gosto! A que horas?", "de": "Sehr gerne! Um wie viel Uhr?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Às oito. E a Ana? Também vem?", "de": "Um acht. Und Ana? Kommt sie auch?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Infelizmente a Ana não vai poder. Vai estar em Lisboa com a mãe até domingo.", "de": "Leider wird Ana nicht können. Sie ist bis Sonntag mit ihrer Mutter in Lissabon."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Que pena! Então fica para a próxima com ela.", "de": "Wie schade! Dann holen wir es mit ihr ein anderes Mal nach."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro. Obrigado pelo convite! Levo uma sobremesa?", "de": "Klar. Danke für die Einladung! Soll ich eine Nachspeise mitbringen?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Não é preciso, mas aceito com prazer!", "de": "Das ist nicht nötig, aber ich nehme gerne an!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a Rita faz um jantar?", "optionen": ["Faz anos.", "Mudou de casa.", "Vai de férias."], "richtig": 0},
+     {"frage": "Porque é que a Ana não vai?", "optionen": ["Está doente.", "Tem de trabalhar.", "Vai estar em Lisboa com a mãe."], "richtig": 2},
+     {"frage": "O que vai o Stefan levar?", "optionen": ["vinho", "uma sobremesa", "flores"], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Nachbar João lädt dich zum Grillen ein.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Olá! No domingo fazemos um churrasco no quintal. Queres vir?", "de": "Hallo! Am Sonntag grillen wir im Hof. Willst du kommen?"},
+     {"ich": true, "aufgabe": "Sag: Sehr gerne! Danke für die Einladung.", "loesungen": ["Com todo o gosto! Obrigado pelo convite.", "Com muito gosto! Obrigado pelo convite.", "Claro que sim! Obrigado pelo convite."]},
+     {"sprecher": "João", "stimme": "m", "pt": "E a Ana? Também vem?", "de": "Und Ana? Kommt sie auch?"},
+     {"ich": true, "aufgabe": "Sag: Leider kann sie nicht, sie muss arbeiten.", "loesungen": ["Infelizmente ela não pode, tem de trabalhar.", "Infelizmente não pode, tem de trabalhar.", "Infelizmente ela não vai poder, tem de trabalhar.", "Infelizmente não vai poder, tem de trabalhar.", "Infelizmente ela não pode, tem que trabalhar.", "Infelizmente não pode, tem que trabalhar."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Que pena! Fica para a próxima.", "de": "Wie schade! Ein anderes Mal."},
+     {"ich": true, "aufgabe": "Frag: Soll ich etwas mitbringen?", "loesungen": ["Levo alguma coisa?", "Posso levar alguma coisa?", "Queres que leve alguma coisa?", "Levo algo?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "obrigado-pelo-convite", "pt": "Obrigado pelo convite! Com todo o gosto.", "de": "Danke für die Einladung! Sehr gerne."},
+    {"id": "nao-vou-poder-ir", "pt": "Infelizmente não vou poder ir.", "de": "Leider werde ich nicht kommen können."},
+    {"id": "aparece-la-em-casa", "pt": "Aparece lá em casa no sábado!", "de": "Komm am Samstag bei uns vorbei!"}
+   ]
+  },
+  {
+   "id": "A2-10-L03",
+   "typ": "neu",
+   "titel": "Nachbarschaftshilfe: para",
+   "vokabeln": ["pedir-emprestado", "fazer-um-favor", "regar", "as-plantas", "tomar-conta-de", "a-caixa-do-correio"],
+   "grammatik": {
+    "titel": "para – Ziel, Zweck, Empfänger, Frist, Meinung",
+    "erklaerung": [
+     "<b>Ziel / Richtung</b>: <i>Vou <b>para</b> casa. Vamos <b>para</b> a Áustria.</i> (<i>para</i> eher bei längerem Aufenthalt, <i>a</i> bei kurzen Wegen: <i>Vou à praia.</i>)",
+     "<b>Zweck</b> (um … zu) + Infinitiv: <i>Liguei <b>para</b> te pedir um favor.</i>",
+     "<b>Empfänger</b> (für): <i>Este presente é <b>para</b> ti. Há uma carta <b>para</b> o vizinho.</i>",
+     "<b>Frist / Zeitpunkt</b>: <i>Preciso da escada <b>para</b> amanhã.</i> <i><b>para</b> a semana</i> = nächste Woche.",
+     "<b>Meinung</b>: <i><b>Para</b> mim, esta vizinhança é ótima.</i> (Achtung: <i>por mim</i> = meinetwegen.)"
+    ],
+    "vergleich": "Faustregel: <i>para</i> zeigt nach vorne – auf ein Ziel, einen Zweck, einen Empfänger (Englisch: to, for, in order to). Das deutsche „für“ ist manchmal <i>para</i>, manchmal <i>por</i> (Lektion 4).",
+    "beispiele": [
+     {"pt": "Vamos para a Áustria na sexta-feira.", "de": "Wir fahren am Freitag nach Österreich."},
+     {"pt": "Liguei para te pedir um favor.", "de": "Ich habe angerufen, um dich um einen Gefallen zu bitten."},
+     {"pt": "Para mim, esta vizinhança é ótima.", "de": "Für mich ist diese Nachbarschaft super."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Liguei ___ te pedir um favor.", "loesungen": ["para"], "de": "Ich habe angerufen, um dich um einen Gefallen zu bitten.", "erklaerung": "Zweck (um … zu) → para + Infinitiv.", "kategorie": "por/para"},
+     {"typ": "luecke", "satz": "Este presente é ___ ti.", "loesungen": ["para"], "de": "Dieses Geschenk ist für dich.", "erklaerung": "Empfänger → para.", "kategorie": "por/para"},
+     {"typ": "luecke", "satz": "Preciso da escada ___ amanhã.", "loesungen": ["para"], "de": "Ich brauche die Leiter für morgen.", "kategorie": "por/para"},
+     {"typ": "auswahl", "frage": "„Für mich ist das sehr wichtig.“", "optionen": ["Por mim, isto é muito importante.", "Para mim, isto é muito importante.", "Para eu, isto é muito importante."], "richtig": 1, "erklaerung": "Meinung: para mim. (por mim = meinetwegen)", "kategorie": "por/para"},
+     {"typ": "auswahl", "frage": "„Wir fahren nächste Woche nach Österreich.“", "optionen": ["Vamos para a Áustria para a semana.", "Vamos por a Áustria para a semana.", "Vamos para a Áustria pela semana."], "richtig": 0, "kategorie": "por/para"},
+     {"typ": "uebersetzen", "de": "Kannst du mir einen Gefallen tun? (tu)", "loesungen": ["Podes fazer-me um favor?", "Fazes-me um favor?"]},
+     {"typ": "uebersetzen", "de": "Passt du in den Ferien auf die Katze auf? (tu)", "loesungen": ["Tomas conta do gato durante as férias?", "Podes tomar conta do gato durante as férias?", "Tomas conta da gata durante as férias?", "Podes tomar conta da gata durante as férias?", "Tomas conta do gato nas férias?"]},
+     {"typ": "satzbau", "de": "Ich gieße die Pflanzen, um dir zu helfen.", "loesung": "Rego as plantas para te ajudar."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um favor – ein Gefallen",
+    "situation": "Stefan bittet seinen Nachbarn João um Hilfe während einer Reise.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Olá, João! Posso pedir-te um favor?", "de": "Hallo João! Kann ich dich um einen Gefallen bitten?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Claro, diz lá.", "de": "Klar, sag schon."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vamos para a Áustria na sexta-feira, para visitar a minha família. Podes regar as plantas da varanda e esvaziar a caixa do correio?", "de": "Wir fahren am Freitag nach Österreich, um meine Familie zu besuchen. Kannst du die Pflanzen auf dem Balkon gießen und den Briefkasten leeren?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Sem problema. E o gato? Também precisa de companhia?", "de": "Kein Problem. Und die Katze? Braucht sie auch Gesellschaft?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, o gato vai para casa da Rita. Ela toma conta dele.", "de": "Nein, die Katze kommt zu Rita. Sie passt auf sie auf."},
+     {"sprecher": "João", "stimme": "m", "pt": "Está bem. Deixa-me a chave até quinta-feira.", "de": "In Ordnung. Gib mir den Schlüssel bis Donnerstag."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado! Trago-te um presente de Viena.", "de": "Danke! Ich bringe dir ein Geschenk aus Wien mit."}
+    ],
+    "fragen": [
+     {"frage": "Para onde vai o Stefan?", "optionen": ["para a Áustria", "para Lisboa", "para Espanha"], "richtig": 0},
+     {"frage": "O que é que o João vai fazer?", "optionen": ["tomar conta do gato", "regar as plantas e esvaziar a caixa do correio", "levar o Stefan ao aeroporto"], "richtig": 1},
+     {"frage": "Quem toma conta do gato?", "optionen": ["o João", "a Ana", "a Rita"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Kannst du mir deine Leiter leihen? (tu)", "loesungen": ["Podes emprestar-me a tua escada?", "Emprestas-me a tua escada?", "Podes emprestar-me a escada?"]},
+     {"de": "Ich habe mir das Auto von João ausgeliehen.", "loesungen": ["Pedi emprestado o carro ao João.", "Pedi o carro emprestado ao João.", "Pedi ao João o carro emprestado."]},
+     {"de": "Kannst du die Pflanzen gießen? (tu)", "loesungen": ["Podes regar as plantas?", "Regas as plantas?"]},
+     {"de": "Dieser Brief ist für den Nachbarn.", "loesungen": ["Esta carta é para o vizinho."]},
+     {"de": "Für mich ist das kein Problem.", "loesungen": ["Para mim, não é problema.", "Para mim não é problema.", "Para mim, isso não é problema.", "Para mim, não há problema."]}
+    ]
+   },
+   "saetze": [
+    {"id": "podes-fazer-me-favor", "pt": "Podes fazer-me um favor?", "de": "Kannst du mir einen Gefallen tun?"},
+    {"id": "liguei-para-pedir", "pt": "Liguei para te pedir um favor.", "de": "Ich habe angerufen, um dich um einen Gefallen zu bitten."},
+    {"id": "tomas-conta-do-gato", "pt": "Tomas conta do gato durante as férias?", "de": "Passt du in den Ferien auf die Katze auf?"}
+   ]
+  },
+  {
+   "id": "A2-10-L04",
+   "typ": "neu",
+   "titel": "Danke und wegen: por",
+   "vokabeln": ["por-causa-de", "passar-por", "o-bairro", "por-aqui"],
+   "grammatik": {
+    "titel": "por – Grund, Weg, Tausch, Zeit, Urheber",
+    "erklaerung": [
+     "<b>por</b> verschmilzt mit dem Artikel: <b>pelo, pela, pelos, pelas</b>.",
+     "<b>Grund</b> (für, wegen): <i>Obrigado <b>pela</b> ajuda. Desculpe <b>pelo</b> atraso.</i> Auch: <b>por causa de</b> – <i>Não dormi por causa do barulho.</i>",
+     "<b>Weg</b> (durch, über, vorbei an): <i>Passei <b>pela</b> praça. Vamos <b>por</b> aqui.</i>",
+     "<b>Tausch / Preis</b>: <i>Comprei a bicicleta <b>por</b> cem euros.</i> – <b>pro</b>: <i>duas vezes <b>por</b> semana</i>.",
+     "<b>ungefähre Zeit</b>: <i><b>por</b> volta das dez</i> (gegen zehn). <b>Urheber im Passiv</b>: <i>O bolo foi feito <b>pela</b> vizinha.</i> Und natürlich: <b>por favor</b>."
+    ],
+    "vergleich": "Faustregel: <i>para</i> = Ziel (wohin? wozu? für wen?), <i>por</i> = Ursache und Weg (warum? wodurch? wo entlang?). „Danke für …“ = <i>obrigado por</i>, aber „ein Geschenk für dich“ = <i>um presente para ti</i>.",
+    "beispiele": [
+     {"pt": "Obrigado pela ajuda com as plantas!", "de": "Danke für die Hilfe mit den Pflanzen!"},
+     {"pt": "Passei pelo café e deixei-te um recado.", "de": "Ich bin beim Café vorbeigegangen und habe dir eine Nachricht hinterlassen."},
+     {"pt": "O bolo foi feito pela Dona Fernanda.", "de": "Der Kuchen wurde von Frau Fernanda gemacht."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Obrigado ___ ajuda! (por + a)", "loesungen": ["pela"], "de": "Danke für die Hilfe!", "kategorie": "por/para"},
+     {"typ": "luecke", "satz": "Não dormi ___ causa do calor.", "loesungen": ["por"], "de": "Ich habe wegen der Hitze nicht geschlafen.", "kategorie": "por/para"},
+     {"typ": "luecke", "satz": "Passei ___ farmácia a caminho de casa. (por + a)", "loesungen": ["pela"], "de": "Ich bin auf dem Heimweg bei der Apotheke vorbeigegangen.", "kategorie": "por/para"},
+     {"typ": "auswahl", "frage": "„Danke für das Geschenk!“", "optionen": ["Obrigado para o presente!", "Obrigado pelo presente!", "Obrigado por o presente!"], "richtig": 1, "erklaerung": "Grund des Dankes → por; por + o = pelo.", "kategorie": "por/para"},
+     {"typ": "auswahl", "frage": "„ein Geschenk für die Nachbarin“", "optionen": ["um presente pela vizinha", "um presente por a vizinha", "um presente para a vizinha"], "richtig": 2, "erklaerung": "Empfänger → para.", "kategorie": "por/para"},
+     {"typ": "auswahl", "frage": "„Wir treffen uns ab und zu, zweimal im Monat.“", "optionen": ["Encontramo-nos de vez em quando, duas vezes por mês.", "Encontramo-nos de vez em quando, duas vezes para mês.", "Encontramo-nos de vez em quando, duas vezes pelo mês."], "richtig": 0, "erklaerung": "pro Zeiteinheit → por.", "kategorie": "por/para"},
+     {"typ": "uebersetzen", "de": "Gibt es hier in der Gegend eine Bäckerei?", "loesungen": ["Há alguma padaria por aqui?", "Há uma padaria por aqui?"]},
+     {"typ": "satzbau", "de": "Der Kuchen wurde von der Nachbarin gemacht.", "loesung": "O bolo foi feito pela vizinha."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um bolo da vizinha – ein Kuchen von der Nachbarin",
+    "situation": "Die ältere Nachbarin Dona Fernanda klingelt bei Stefan.",
+    "zeilen": [
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Bom dia, Stefan! Trouxe-lhe um bolo de laranja, para agradecer a ajuda com as compras.", "de": "Guten Morgen, Stefan! Ich habe Ihnen einen Orangenkuchen mitgebracht, um mich für die Hilfe beim Einkaufen zu bedanken."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que simpática, Dona Fernanda! Foi feito pela senhora?", "de": "Wie nett, Frau Fernanda! Haben Sie ihn selbst gemacht?"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Foi, pois. É a receita da minha mãe.", "de": "Ja, freilich. Es ist das Rezept meiner Mutter."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muito obrigado pelo bolo. Olhe, amanhã passo pelo mercado. Precisa de alguma coisa?", "de": "Vielen Dank für den Kuchen. Schauen Sie, morgen komme ich am Markt vorbei. Brauchen Sie etwas?"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Preciso de pão e de fruta. Por volta das dez, pode ser?", "de": "Ich brauche Brot und Obst. Gegen zehn, geht das?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pode ser. Depois deixo-lhe as compras à porta.", "de": "Das geht. Danach stelle ich Ihnen die Einkäufe vor die Tür."},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "O senhor é um anjo! Há poucos vizinhos assim por aqui.", "de": "Sie sind ein Engel! Solche Nachbarn gibt es hier in der Gegend nur wenige."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a Dona Fernanda traz um bolo?", "optionen": ["É o aniversário do Stefan.", "Para agradecer a ajuda com as compras.", "Fez um bolo a mais."], "richtig": 1},
+     {"frage": "Quem fez o bolo?", "optionen": ["a mãe da Dona Fernanda", "uma pastelaria", "a Dona Fernanda"], "richtig": 2},
+     {"frage": "A que horas vai o Stefan ao mercado?", "optionen": ["por volta das dez", "às oito", "à tarde"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Obrigado pela ajuda!", "de": "Danke für die Hilfe!"},
+     {"pt": "Desculpe pelo atraso.", "de": "Entschuldigen Sie die Verspätung."},
+     {"pt": "Não dormi por causa do barulho.", "de": "Ich habe wegen des Lärms nicht geschlafen."},
+     {"pt": "Amanhã passo pelo mercado.", "de": "Morgen komme ich am Markt vorbei."},
+     {"pt": "De vez em quando jantamos com os vizinhos.", "de": "Ab und zu essen wir mit den Nachbarn zu Abend."}
+    ]
+   },
+   "saetze": [
+    {"id": "obrigado-pela-ajuda", "pt": "Obrigado pela ajuda!", "de": "Danke für die Hilfe!"},
+    {"id": "por-causa-do-barulho", "pt": "Não dormi por causa do barulho.", "de": "Ich habe wegen des Lärms nicht geschlafen."},
+    {"id": "passo-pelo-mercado", "pt": "Amanhã passo pelo mercado.", "de": "Morgen komme ich am Markt vorbei."}
+   ]
+  },
+  {
+   "id": "A2-10-L05",
+   "typ": "neu",
+   "titel": "Jemand, niemand, etwas, nichts",
+   "vokabeln": ["alguem", "ninguem", "algo", "alguma-coisa", "nada", "tudo", "qualquer-coisa"],
+   "grammatik": {
+    "titel": "alguém/ninguém, alguma coisa/nada – doppelte Verneinung",
+    "erklaerung": [
+     "Personen: <b>alguém</b> (jemand) – <b>ninguém</b> (niemand). Sachen: <b>algo / alguma coisa</b> (etwas) – <b>nada</b> (nichts) – <b>tudo</b> (alles). Diese Wörter sind unveränderlich.",
+     "<b>Doppelte Verneinung</b>: Steht <i>ninguém</i> oder <i>nada</i> <b>nach</b> dem Verb, braucht man zusätzlich <b>não</b> davor: <i><b>Não</b> vi <b>ninguém</b>. <b>Não</b> comprei <b>nada</b>.</i> Das ist korrekt und Pflicht!",
+     "Steht <i>ninguém</i> oder <i>nada</i> <b>vor</b> dem Verb, fällt <i>não</i> weg: <i><b>Ninguém</b> sabe. <b>Nada</b> mudou.</i> Und das Pronomen rückt vor das Verb: <i>Ninguém <b>me</b> disse nada.</i>",
+     "Im verneinten Satz wird „etwas“ zu <b>nada</b> und „jemand“ zu <b>ninguém</b>: <i>Não ouvi nada.</i> – Ich habe nichts gehört.",
+     "In Fragen: <i>Está <b>alguém</b> em casa? Precisas de <b>alguma coisa</b>?</i> – <i>algo</i> klingt etwas gehobener als <i>alguma coisa</i>."
+    ],
+    "vergleich": "Im Deutschen hebt eine zweite Verneinung die erste auf („nicht niemand“ = jemand). Im Portugiesischen verstärkt sie: <i>Não vi ninguém</i> – wörtlich „Ich habe nicht niemanden gesehen“. Englisch: „I didn't see anybody.“",
+    "beispiele": [
+     {"pt": "Não está ninguém em casa.", "de": "Es ist niemand zu Hause."},
+     {"pt": "Ninguém me disse nada.", "de": "Niemand hat mir etwas gesagt."},
+     {"pt": "Precisas de alguma coisa do supermercado?", "de": "Brauchst du etwas aus dem Supermarkt?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Não vi ___ no prédio. (niemand)", "loesungen": ["ninguém"], "de": "Ich habe niemanden im Haus gesehen.", "kategorie": "Verneinung"},
+     {"typ": "luecke", "satz": "Não comprei ___. (nichts)", "loesungen": ["nada"], "de": "Ich habe nichts gekauft.", "kategorie": "Verneinung"},
+     {"typ": "luecke", "satz": "Está ___ em casa? (jemand)", "loesungen": ["alguém"], "de": "Ist jemand zu Hause?", "kategorie": "Verneinung"},
+     {"typ": "auswahl", "frage": "„Niemand weiß es.“", "optionen": ["Não ninguém sabe.", "Ninguém não sabe.", "Ninguém sabe."], "richtig": 2, "erklaerung": "ninguém vor dem Verb → kein não.", "kategorie": "Verneinung"},
+     {"typ": "auswahl", "frage": "„Ich habe nichts gehört.“", "optionen": ["Ouvi nada.", "Não ouvi nada.", "Nada não ouvi."], "richtig": 1, "erklaerung": "nada nach dem Verb → não davor.", "kategorie": "Verneinung"},
+     {"typ": "uebersetzen", "de": "Brauchst du etwas? (tu)", "loesungen": ["Precisas de alguma coisa?", "Precisas de algo?"]},
+     {"typ": "uebersetzen", "de": "Niemand hat mir etwas gesagt.", "loesungen": ["Ninguém me disse nada."], "erklaerung": "Im verneinten Satz wird „etwas“ zu nada; nach ninguém steht das Pronomen vor dem Verb.", "kategorie": "Verneinung"},
+     {"typ": "satzbau", "de": "Alles ist bereit für das Fest.", "loesung": "Está tudo pronto para a festa."}
+    ]
+   },
+   "hoeren": {
+    "titel": "De volta a casa – zurück zu Hause",
+    "situation": "Ana und Stefan sind gerade aus Österreich zurückgekommen.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, tocaram à campainha. Está alguém à porta?", "de": "Stefan, es hat geläutet. Ist jemand an der Tür?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, não está ninguém. Mas deixaram alguma coisa no patamar.", "de": "Nein, da ist niemand. Aber man hat etwas auf den Treppenabsatz gestellt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "O que é?", "de": "Was ist es?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Um saco com fruta e um bilhete: «Bem-vindos de volta! João».", "de": "Eine Tüte mit Obst und ein Zettel: „Willkommen zurück! João“."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Que simpático! E nós não trouxemos nada para ele…", "de": "Wie nett! Und wir haben ihm nichts mitgebracht …"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Trouxemos, sim! O chocolate de Viena. Está tudo na mala.", "de": "Doch! Die Schokolade aus Wien. Alles ist im Koffer."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ah, é verdade. Então levo-lhe já o chocolate.", "de": "Ah, stimmt. Dann bringe ich ihm die Schokolade gleich."}
+    ],
+    "fragen": [
+     {"frage": "Está alguém à porta?", "optionen": ["Sim, o João.", "Sim, a vizinha.", "Não, não está ninguém."], "richtig": 2},
+     {"frage": "O que deixaram no patamar?", "optionen": ["um saco com fruta e um bilhete", "uma encomenda", "flores"], "richtig": 0},
+     {"frage": "O que trouxeram a Ana e o Stefan para o João?", "optionen": ["nada", "chocolate de Viena", "vinho"], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Die Nachbarin Marta vermisst ein Paket und fragt dich.",
+    "zeilen": [
+     {"sprecher": "Marta", "stimme": "f", "pt": "Olá! Viste alguém à minha porta hoje de manhã?", "de": "Hallo! Hast du heute Morgen jemanden an meiner Tür gesehen?"},
+     {"ich": true, "aufgabe": "Sag: Nein, ich habe niemanden gesehen.", "loesungen": ["Não, não vi ninguém.", "Não vi ninguém."]},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Que estranho. Desapareceu uma encomenda do patamar.", "de": "Wie seltsam. Vom Treppenabsatz ist ein Paket verschwunden."},
+     {"ich": true, "aufgabe": "Sag: Ich habe auch nichts gehört.", "loesungen": ["Também não ouvi nada.", "Eu também não ouvi nada.", "Não ouvi nada."]},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Vou perguntar aos outros vizinhos.", "de": "Ich frage die anderen Nachbarn."},
+     {"ich": true, "aufgabe": "Sag: Gute Idee. Vielleicht (se calhar) weiß jemand etwas.", "loesungen": ["Boa ideia. Se calhar alguém sabe alguma coisa.", "Boa ideia! Se calhar alguém sabe alguma coisa.", "Boa ideia. Se calhar alguém sabe algo."]}
+    ]
+   },
+   "saetze": [
+    {"id": "nao-esta-ninguem", "pt": "Não está ninguém em casa.", "de": "Es ist niemand zu Hause."},
+    {"id": "ninguem-me-disse-nada", "pt": "Ninguém me disse nada.", "de": "Niemand hat mir etwas gesagt."},
+    {"id": "precisas-de-alguma-coisa", "pt": "Precisas de alguma coisa?", "de": "Brauchst du etwas?"}
+   ]
+  },
+  {
+   "id": "A2-10-L06",
+   "typ": "neu",
+   "titel": "Nirgendwo und nie: doppelte Verneinung",
+   "vokabeln": ["algum", "alguns", "em-lado-nenhum", "em-algum-lado", "nem-nem", "tambem-nao", "nem-eu"],
+   "grammatik": {
+    "titel": "algum/nenhum, nunca, nem – Verneinung verstärken",
+    "erklaerung": [
+     "<b>algum</b> (irgendein, einige) passt sich an: <i>algum, alguma, alguns, algumas</i>. Verneint: <b>nenhum, nenhuma</b> (kein einziger) – fast immer mit <i>não</i> davor: <i>Não há nenhuma farmácia aberta.</i>",
+     "<b>nenhum</b> nach dem Nomen verstärkt: <i>Não tenho problema <b>nenhum</b>.</i> = Ich habe überhaupt kein Problem.",
+     "Ort: <b>em algum lado</b> (irgendwo) – <b>em lado nenhum</b> (nirgendwo): <i><b>Não</b> encontro a chave <b>em lado nenhum</b>.</i>",
+     "Zeit: <b>nunca</b> vor dem Verb braucht kein <i>não</i>: <i>Nunca disse nada.</i> – mehrere Verneinungen hintereinander sind normal: <i>Nunca disse nada a ninguém.</i>",
+     "<b>nem … nem</b> = weder … noch: <i><b>Não</b> conheço <b>nem</b> o João <b>nem</b> a Marta.</i> Zustimmung zu einem verneinten Satz: <b>também não</b> / <b>nem eu</b> (ich auch nicht)."
+    ],
+    "vergleich": "Im Deutschen hebt eine zweite Verneinung die erste auf. Im Portugiesischen verstärkt sie: <i>Nunca disse nada a ninguém.</i> = Ich habe nie jemandem etwas gesagt (wörtlich: nie nichts niemandem). Und auf „Ich mag das nicht“ antwortet man nicht <i>eu também</i>, sondern <i>eu também não</i> oder <i>nem eu</i>.",
+    "beispiele": [
+     {"pt": "Nunca disse nada a ninguém.", "de": "Ich habe nie jemandem etwas gesagt."},
+     {"pt": "Não tenho problema nenhum com os vizinhos.", "de": "Ich habe überhaupt kein Problem mit den Nachbarn."},
+     {"pt": "– Nunca fui ao arraial de Lagos. – Nem eu!", "de": "– Ich war nie auf dem Volksfest in Lagos. – Ich auch nicht!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Não há ___ farmácia aberta. (keine)", "loesungen": ["nenhuma"], "de": "Es hat keine Apotheke offen.", "erklaerung": "a farmácia ist weiblich → nenhuma.", "kategorie": "Verneinung"},
+     {"typ": "luecke", "satz": "___ vizinhos vieram à festa. (einige)", "loesungen": ["Alguns"], "de": "Einige Nachbarn sind zum Fest gekommen.", "kategorie": "Verneinung"},
+     {"typ": "luecke", "satz": "Nunca disse ___ a ninguém. (nichts)", "loesungen": ["nada"], "de": "Ich habe nie jemandem etwas gesagt.", "kategorie": "Verneinung"},
+     {"typ": "auswahl", "frage": "„Ich finde die Schlüssel nirgends.“", "optionen": ["Não encontro as chaves em algum lado.", "Não encontro as chaves em lado nenhum.", "Encontro as chaves em lado nenhum."], "richtig": 1, "kategorie": "Verneinung"},
+     {"typ": "auswahl", "frage": "„– Ich mag keinen Lärm. – Ich auch nicht.“", "optionen": ["– Não gosto de barulho. – Eu também.", "– Não gosto de barulho. – Eu não também.", "– Não gosto de barulho. – Nem eu."], "richtig": 2, "erklaerung": "Zustimmung zu einem verneinten Satz: nem eu / eu também não.", "kategorie": "Verneinung"},
+     {"typ": "uebersetzen", "de": "Ich kenne weder João noch Marta.", "loesungen": ["Não conheço nem o João nem a Marta."]},
+     {"typ": "uebersetzen", "de": "Ich habe überhaupt kein Problem.", "loesungen": ["Não tenho problema nenhum.", "Não tenho nenhum problema."]},
+     {"typ": "satzbau", "de": "Er hat nie etwas gesagt.", "loesung": "Ele nunca disse nada."}
+    ]
+   },
+   "hoeren": {
+    "titel": "As chaves perdidas – die verlorenen Schlüssel",
+    "situation": "Stefan steht ohne Schlüssel vor der Tür und trifft João.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "João, por acaso viste as minhas chaves? Não as encontro em lado nenhum.", "de": "João, hast du zufällig meine Schlüssel gesehen? Ich finde sie nirgends."},
+     {"sprecher": "João", "stimme": "m", "pt": "Não, não vi nada. Não as deixaste em algum lado no carro?", "de": "Nein, ich habe nichts gesehen. Hast du sie nicht irgendwo im Auto liegen lassen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já procurei no carro, no jardim, nos bolsos… Nada!", "de": "Ich habe schon im Auto, im Garten, in den Taschen gesucht … Nichts!"},
+     {"sprecher": "João", "stimme": "m", "pt": "E a Ana? Não tem nenhuma chave?", "de": "Und Ana? Hat sie keinen Schlüssel?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tem, mas está em Faro até à noite. E eu nunca deixo chaves com ninguém…", "de": "Doch, aber sie ist bis zum Abend in Faro. Und ich lasse nie bei jemandem Schlüssel …"},
+     {"sprecher": "João", "stimme": "m", "pt": "Espera! Eu tenho uma chave tua desde as férias. Ficou comigo!", "de": "Warte! Ich habe seit dem Urlaub einen Schlüssel von dir. Er ist bei mir geblieben!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Salvaste-me o dia!", "de": "Im Ernst? Du hast mir den Tag gerettet!"}
+    ],
+    "fragen": [
+     {"frage": "O que perdeu o Stefan?", "optionen": ["o telemóvel", "as chaves", "a carteira"], "richtig": 1},
+     {"frage": "Onde está a Ana?", "optionen": ["em Faro", "em casa", "no jardim"], "richtig": 0},
+     {"frage": "Como se resolve o problema?", "optionen": ["O Stefan chama um serralheiro.", "O Stefan encontra as chaves no carro.", "O João tem uma chave do Stefan desde as férias."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch – denk an die doppelte Verneinung.",
+    "aufgaben": [
+     {"de": "Ich finde mein Handy nirgends.", "loesungen": ["Não encontro o meu telemóvel em lado nenhum.", "Não encontro o telemóvel em lado nenhum."]},
+     {"de": "Ich habe es irgendwo liegen lassen.", "loesungen": ["Deixei-o em algum lado.", "Deixei-o algures."]},
+     {"de": "Einige Nachbarn sind sehr nett.", "loesungen": ["Alguns vizinhos são muito simpáticos."]},
+     {"de": "– Ich war nie in Monchique. – Ich auch nicht!", "loesungen": ["– Nunca fui a Monchique. – Nem eu!", "Nunca fui a Monchique. – Nem eu!", "Nunca fui a Monchique. Nem eu!", "– Nunca fui a Monchique. – Eu também não!", "Nunca fui a Monchique. Eu também não!"]},
+     {"de": "Ich trinke weder Kaffee noch Tee.", "loesungen": ["Não bebo nem café nem chá."]}
+    ]
+   },
+   "saetze": [
+    {"id": "nunca-disse-nada", "pt": "Nunca disse nada a ninguém.", "de": "Ich habe nie jemandem etwas gesagt."},
+    {"id": "em-lado-nenhum-chaves", "pt": "Não encontro as chaves em lado nenhum.", "de": "Ich finde die Schlüssel nirgends."},
+    {"id": "problema-nenhum", "pt": "Não tenho problema nenhum.", "de": "Ich habe überhaupt kein Problem."}
+   ]
+  },
+  {
+   "id": "A2-10-L07",
+   "typ": "neu",
+   "titel": "Feste und Geschenke",
+   "vokabeln": ["os-santos-populares", "o-arraial", "a-sardinhada", "o-manjerico", "o-presente", "brindar"],
+   "grammatik": {
+    "titel": "Präposition + Pronomen: para mim, contigo, connosco",
+    "erklaerung": [
+     "Nach Präpositionen (<i>para, de, por, sem, a</i> …) stehen eigene Formen: <b>mim</b>, <b>ti</b>, <b>si</b> (formell), <b>ele/ela</b>, <b>nós</b>, <b>vocês</b>, <b>eles/elas</b>: <i>Este presente é <b>para ti</b>. Isto é <b>para si</b>, Dona Fernanda.</i>",
+     "Mit <b>com</b> verschmelzen sie: <b>comigo</b>, <b>contigo</b>, <b>consigo</b> (formell), <b>connosco</b> (mit zwei n!) – aber <i>com ele, com ela, com vocês</i>.",
+     "<i>para eu</i> nur vor einem Infinitiv (<i>É para eu embrulhar?</i> – Soll ich es einpacken?), sonst immer <i>para mim</i>.",
+     "Schenken: <b>oferecer</b> algo a alguém: <i>Ofereci-<b>lhe</b> um manjerico.</i> – <i>É para oferecer.</i> (Es ist ein Geschenk.)"
+    ],
+    "vergleich": "„mit mir / mit dir“ = <i>comigo / contigo</i> – ein Wort, wie im Spanischen. „Für Sie“ (höflich) = <i>para si</i> oder <i>para o senhor / a senhora</i>.",
+    "beispiele": [
+     {"pt": "Este manjerico é para si, Dona Fernanda.", "de": "Dieses Basilikumtöpfchen ist für Sie, Frau Fernanda."},
+     {"pt": "Queres vir ao arraial connosco?", "de": "Willst du mit uns aufs Volksfest kommen?"},
+     {"pt": "Vamos brindar! Saúde!", "de": "Stoßen wir an! Prost!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Este presente é para ___. (dich)", "loesungen": ["ti"], "de": "Dieses Geschenk ist für dich.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Queres vir ao arraial ___? (mit uns)", "loesungen": ["connosco"], "de": "Willst du mit uns aufs Volksfest kommen?", "erklaerung": "com + nós = connosco (mit zwei n).", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Vens ___ à sardinhada? (mit mir)", "loesungen": ["comigo"], "de": "Kommst du mit mir zum Sardinengrillen?", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Das ist für Sie, Frau Fernanda.“", "optionen": ["Isto é para sim, Dona Fernanda.", "Isto é para si, Dona Fernanda.", "Isto é para lhe, Dona Fernanda."], "richtig": 1, "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Kann ich mit dir sprechen?“", "optionen": ["Posso falar contigo?", "Posso falar com ti?", "Posso falar com tu?"], "richtig": 0, "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Können Sie es bitte einpacken? Es ist ein Geschenk.", "loesungen": ["Pode embrulhar, por favor? É um presente.", "Pode embrulhar, se faz favor? É para oferecer.", "Pode embrulhar, por favor? É para oferecer.", "Pode embrulhar, se faz favor? É um presente.", "Pode embrulhar, por favor? É uma prenda."]},
+     {"typ": "uebersetzen", "de": "Stoßen wir auf die Nachbarn an!", "loesungen": ["Vamos brindar aos vizinhos!"]},
+     {"typ": "satzbau", "de": "Im Juni gibt es viele Volksfeste.", "loesung": "Em junho há muitos arraiais."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O arraial – das Volksfest",
+    "situation": "Die Nachbarin Marta lädt Ana und Stefan zu den Santos Populares ein.",
+    "zeilen": [
+     {"sprecher": "Marta", "stimme": "f", "pt": "Ana, Stefan, este sábado há um arraial na praça. Vêm connosco?", "de": "Ana, Stefan, diesen Samstag gibt es ein Volksfest auf dem Platz. Kommt ihr mit uns?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Com todo o gosto! E o que se faz num arraial?", "de": "Sehr gerne! Und was macht man auf einem Volksfest?"},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Come-se sardinha assada, bebe-se sangria, dança-se… É a festa dos Santos Populares.", "de": "Man isst gegrillte Sardinen, trinkt Sangria, tanzt … Es ist das Fest der Volksheiligen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o que é aquela planta pequena nas janelas?", "de": "Und was ist diese kleine Pflanze in den Fenstern?"},
+     {"sprecher": "Marta", "stimme": "f", "pt": "É um manjerico. Oferece-se a alguém de quem se gosta, com um pequeno poema.", "de": "Das ist ein Basilikumtöpfchen. Man schenkt es jemandem, den man gernhat, mit einem kleinen Gedicht."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Que bonito! Então vou comprar um para ti, Stefan.", "de": "Wie schön! Dann kaufe ich eines für dich, Stefan."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E eu ofereço-te outro. E depois vamos brindar ao Santo António!", "de": "Und ich schenke dir auch eines. Und danach stoßen wir auf den heiligen Antonius an!"}
+    ],
+    "fragen": [
+     {"frage": "Onde é o arraial?", "optionen": ["na praia", "na praça", "no jardim da Marta"], "richtig": 1},
+     {"frage": "O que se come num arraial?", "optionen": ["sardinha assada", "bacalhau", "marisco"], "richtig": 0},
+     {"frage": "A quem se oferece um manjerico?", "optionen": ["ao vizinho do lado", "só às crianças", "a alguém de quem se gosta"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du kaufst in einem kleinen Geschäft ein Geschenk für die Nachbarin.",
+    "zeilen": [
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Boa tarde! Posso ajudar?", "de": "Guten Tag! Kann ich helfen?"},
+     {"ich": true, "aufgabe": "Sag: Ich suche ein Geschenk für meine Nachbarin.", "loesungen": ["Estou à procura de um presente para a minha vizinha.", "Procuro um presente para a minha vizinha.", "Ando à procura de um presente para a minha vizinha.", "Estou à procura de uma prenda para a minha vizinha."]},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Que tal este manjerico? É a época dos Santos Populares.", "de": "Wie wäre es mit diesem Basilikumtöpfchen? Es ist die Zeit der Volksheiligenfeste."},
+     {"ich": true, "aufgabe": "Sag: Gute Idee. Können Sie es einpacken?", "loesungen": ["Boa ideia. Pode embrulhar?", "Boa ideia! Pode embrulhar, por favor?", "Boa ideia. Pode embrulhar, se faz favor?", "Boa ideia. Pode embrulhá-lo?"]},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Com certeza. É para oferecer, não é?", "de": "Selbstverständlich. Es ist ein Geschenk, oder?"},
+     {"ich": true, "aufgabe": "Sag: Ja, es ist für sie. Sie hat mir sehr geholfen.", "loesungen": ["Sim, é para ela. Ajudou-me muito.", "É, é para ela. Ajudou-me muito.", "Sim, é para ela. Ela ajudou-me muito."]}
+    ]
+   },
+   "saetze": [
+    {"id": "e-para-si", "pt": "Este manjerico é para si.", "de": "Dieses Basilikumtöpfchen ist für Sie."},
+    {"id": "vens-connosco", "pt": "Queres vir ao arraial connosco?", "de": "Willst du mit uns aufs Volksfest kommen?"},
+    {"id": "pode-embrulhar", "pt": "Pode embrulhar, se faz favor? É para oferecer.", "de": "Können Sie es bitte einpacken? Es ist ein Geschenk."}
+   ]
+  },
+  {
+   "id": "A2-10-L08",
+   "typ": "neu",
+   "titel": "Ärger mit den Nachbarn",
+   "vokabeln": ["incomodar", "queixar-se", "a-reuniao-de-condominio", "o-administrador", "a-quota", "as-partes-comuns"],
+   "grammatik": {
+    "titel": "Höflich bitten und sich beschweren",
+    "erklaerung": [
+     "Einstieg: <b>Desculpe incomodar, mas …</b> (Entschuldigen Sie die Störung, aber …).",
+     "Höfliche Bitte mit dem Imperfeito: <b>Podia</b> + Infinitiv? – <i>Podia baixar a música, por favor?</i>",
+     "Noch höflicher: <b>Importa-se de</b> + Infinitiv? (Würde es Ihnen etwas ausmachen …?) – <i>Importa-se de fechar a porta da garagem?</i> Zustimmung: <i>Não, não me importo.</i> (Nein, gar nicht.)",
+     "Sich beschweren: <b>queixar-se de</b> algo (<b>a</b> alguém): <i>Queixei-me do barulho ao administrador.</i> – nach Verneinung: <i>Nunca me queixei.</i>"
+    ],
+    "vergleich": "„Würde es Ihnen etwas ausmachen …?“ = <i>Importa-se de …?</i> Wie bei „Do you mind …?“ bedeutet ein <i>Não</i> hier Zustimmung.",
+    "beispiele": [
+     {"pt": "Desculpe incomodar, mas a música está muito alta.", "de": "Entschuldigen Sie die Störung, aber die Musik ist sehr laut."},
+     {"pt": "Importa-se de fechar a porta da garagem?", "de": "Würde es Ihnen etwas ausmachen, das Garagentor zu schließen?"},
+     {"pt": "Vou queixar-me na reunião de condomínio.", "de": "Ich werde mich bei der Eigentümerversammlung beschweren."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Desculpe ___, mas há muito barulho. (stören)", "loesungen": ["incomodar"], "de": "Entschuldigen Sie die Störung, aber es ist sehr laut.", "kategorie": "Höflichkeit"},
+     {"typ": "luecke", "satz": "Importa-se ___ baixar a música?", "loesungen": ["de"], "de": "Würde es Ihnen etwas ausmachen, die Musik leiser zu machen?", "kategorie": "Höflichkeit"},
+     {"typ": "luecke", "satz": "___ baixar a televisão, por favor? (können, höflich)", "loesungen": ["Podia"], "de": "Könnten Sie bitte den Fernseher leiser machen?", "kategorie": "Höflichkeit"},
+     {"typ": "auswahl", "frage": "„Importa-se de fechar a janela?“ – Wie sagst du freundlich zu?", "optionen": ["Sim, importo-me.", "Não, não me importo.", "Importa-se, sim."], "richtig": 1, "erklaerung": "Wie bei „Do you mind?“: Não, não me importo = Gern, kein Problem.", "kategorie": "Höflichkeit"},
+     {"typ": "auswahl", "frage": "„Ich habe mich beim Verwalter beschwert.“", "optionen": ["Queixei-me ao administrador.", "Me queixei ao administrador.", "Queixei ao administrador."], "richtig": 0, "erklaerung": "queixar-se ist reflexiv; im Hauptsatz steht das Pronomen hinter dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Die Eigentümerversammlung ist am Donnerstag.", "loesungen": ["A reunião de condomínio é na quinta-feira.", "A reunião de condomínio é quinta-feira.", "A reunião do condomínio é na quinta-feira."]},
+     {"typ": "uebersetzen", "de": "Der Lärm stört mich sehr.", "loesungen": ["O barulho incomoda-me muito.", "O barulho incomoda-me imenso."]},
+     {"typ": "satzbau", "de": "Könnten Sie nach Mitternacht weniger Lärm machen?", "loesung": "Podia fazer menos barulho depois da meia-noite?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "A reunião de condomínio – die Eigentümerversammlung",
+    "situation": "Im Haus findet die jährliche Eigentümerversammlung statt.",
+    "zeilen": [
+     {"sprecher": "Administrador", "stimme": "m", "pt": "Boa noite a todos. O primeiro ponto é o barulho no prédio.", "de": "Guten Abend allerseits. Der erste Punkt ist der Lärm im Haus."},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Pois é! O vizinho do primeiro direito faz festas até às três da manhã. Ninguém consegue dormir.", "de": "Allerdings! Der Nachbar aus dem ersten Stock rechts feiert bis drei Uhr früh. Niemand kann schlafen."},
+     {"sprecher": "Administrador", "stimme": "m", "pt": "Já falou com ele, Dona Fernanda?", "de": "Haben Sie schon mit ihm gesprochen, Frau Fernanda?"},
+     {"sprecher": "Dona Fernanda", "stimme": "f", "pt": "Já, mas não mudou nada.", "de": "Ja, aber es hat sich nichts geändert."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Eu também me queixei, mas ele nunca abre a porta a ninguém.", "de": "Ich habe mich auch beschwert, aber er macht niemandem die Tür auf."},
+     {"sprecher": "Administrador", "stimme": "m", "pt": "Vou enviar-lhe uma carta. O segundo ponto é a quota do condomínio: vai subir cinco euros por causa das obras no elevador.", "de": "Ich werde ihm einen Brief schicken. Der zweite Punkt ist das Hausgeld: Es steigt wegen der Arbeiten am Aufzug um fünf Euro."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Mais cinco euros por mês? E as partes comuns? A luz da escada está avariada há semanas!", "de": "Fünf Euro mehr im Monat? Und die Gemeinschaftsflächen? Das Licht im Stiegenhaus ist seit Wochen kaputt!"}
+    ],
+    "fragen": [
+     {"frage": "Qual é o primeiro ponto da reunião?", "optionen": ["a quota", "o barulho", "o elevador"], "richtig": 1},
+     {"frage": "O que vai fazer o administrador?", "optionen": ["enviar uma carta ao vizinho", "chamar a polícia", "falar com o vizinho amanhã"], "richtig": 0},
+     {"frage": "Quanto vai subir a quota?", "optionen": ["dez euros por mês", "três euros por mês", "cinco euros por mês"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Es ist spät, beim Nachbarn läuft laute Musik. Du läutest.",
+    "zeilen": [
+     {"sprecher": "Vizinho", "stimme": "m", "pt": "Boa noite. Diga?", "de": "Guten Abend. Ja, bitte?"},
+     {"ich": true, "aufgabe": "Sag: Guten Abend. Entschuldigen Sie die Störung, aber die Musik ist sehr laut.", "loesungen": ["Boa noite. Desculpe incomodar, mas a música está muito alta.", "Boa noite. Desculpe incomodar, mas a música está muito alta!"]},
+     {"sprecher": "Vizinho", "stimme": "m", "pt": "Ah, desculpe. É o aniversário da minha filha.", "de": "Oh, Entschuldigung. Meine Tochter hat Geburtstag."},
+     {"ich": true, "aufgabe": "Sag: Herzlichen Glückwunsch! Könnten Sie die Musik ein bisschen leiser machen?", "loesungen": ["Parabéns! Podia baixar um pouco a música?", "Parabéns! Podia baixar a música um pouco?", "Parabéns! Importa-se de baixar um pouco a música?", "Parabéns! Importa-se de baixar a música um pouco?", "Parabéns! Podia pôr a música mais baixa?"]},
+     {"sprecher": "Vizinho", "stimme": "m", "pt": "Claro, sem problema. Mais uma vez, desculpe.", "de": "Natürlich, kein Problem. Noch einmal Entschuldigung."},
+     {"ich": true, "aufgabe": "Sag: Macht nichts. Danke und gute Nacht!", "loesungen": ["Não faz mal. Obrigado e boa noite!", "Não faz mal. Obrigado, boa noite!", "Não há problema. Obrigado e boa noite!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "desculpe-incomodar", "pt": "Desculpe incomodar, mas a música está muito alta.", "de": "Entschuldigen Sie die Störung, aber die Musik ist sehr laut."},
+    {"id": "importa-se-de", "pt": "Importa-se de fechar a porta da garagem?", "de": "Würde es Ihnen etwas ausmachen, das Garagentor zu schließen?"},
+    {"id": "queixei-me-administrador", "pt": "Queixei-me do barulho ao administrador.", "de": "Ich habe mich beim Verwalter über den Lärm beschwert."}
+   ]
+  },
+  {"id": "A2-10-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-10-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Uma sardinhada no quintal – Sardinengrillen im Hof",
+   "situation": "João lädt Stefan zu einem Nachbarschaftsfest ein.",
+   "zeilen": [
+    {"sprecher": "João", "stimme": "m", "pt": "Stefan, no sábado vamos fazer uma sardinhada no quintal para os vizinhos. Vens?", "de": "Stefan, am Samstag grillen wir für die Nachbarn Sardinen im Hof. Kommst du?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Com todo o gosto! Mas a Ana não vai poder. Vai estar em Lisboa por causa do trabalho.", "de": "Sehr gerne! Aber Ana wird nicht können. Sie ist wegen der Arbeit in Lissabon."},
+    {"sprecher": "João", "stimme": "m", "pt": "Que pena. Olha, convidei os vizinhos todos, mas o do primeiro direito ainda não respondeu.", "de": "Wie schade. Schau, ich habe alle Nachbarn eingeladen, aber der aus dem ersten Stock rechts hat noch nicht geantwortet."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Aquele das festas? Ele nunca fala com ninguém…", "de": "Der mit den Partys? Er redet nie mit jemandem …"},
+    {"sprecher": "João", "stimme": "m", "pt": "Pois. Mas pode ser uma boa ocasião para falar com ele.", "de": "Eben. Aber es kann eine gute Gelegenheit sein, mit ihm zu reden."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Tens razão. Levo alguma coisa? Vinho, pão?", "de": "Du hast recht. Soll ich etwas mitbringen? Wein, Brot?"},
+    {"sprecher": "João", "stimme": "m", "pt": "Traz vinho branco. As sardinhas são por minha conta.", "de": "Bring Weißwein mit. Die Sardinen gehen auf mich."}
+   ],
+   "fragen": [
+    {"frage": "O que vai o João fazer no sábado?", "optionen": ["um jantar no restaurante", "uma sardinhada no quintal", "uma reunião de condomínio"], "richtig": 1},
+    {"frage": "Porque é que a Ana não vai?", "optionen": ["Vai estar em Lisboa por causa do trabalho.", "Está doente.", "Não gosta de sardinhas."], "richtig": 0},
+    {"frage": "Quem ainda não respondeu ao convite?", "optionen": ["a Dona Fernanda", "a Marta", "o vizinho do primeiro direito"], "richtig": 2},
+    {"frage": "O que vai o Stefan levar?", "optionen": ["pão", "vinho branco", "sardinhas"], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Aviso aos vizinhos – Aushang im Haus",
+   "situation": "Im Eingang hängt ein Aushang des Hausverwalters.",
+   "text": [
+    "Caros vizinhos,",
+    "A próxima reunião de condomínio é na quinta-feira, dia 12, às 21h00, na sala do rés-do-chão.",
+    "Vamos falar sobre o barulho depois da meia-noite e sobre o lixo nas partes comuns. Por favor, ninguém deve deixar sacos de lixo no patamar.",
+    "A quota do condomínio vai passar para trinta e cinco euros por mês, para pagar as obras no elevador.",
+    "Se não pode vir à reunião, pode enviar as suas perguntas por e-mail até quarta-feira.",
+    "Obrigado a todos pela colaboração. O administrador, Carlos Mendes"
+   ],
+   "fragen": [
+    {"frage": "Quando é a reunião?", "optionen": ["na quinta-feira às nove da noite", "na quarta-feira de manhã", "no sábado à tarde"], "richtig": 0},
+    {"frage": "O que não se pode deixar no patamar?", "optionen": ["bicicletas", "sacos de lixo", "plantas"], "richtig": 1},
+    {"frage": "Para que vai subir a quota?", "optionen": ["para pintar o prédio", "para a festa dos Santos Populares", "para pagar as obras no elevador"], "richtig": 2},
+    {"frage": "O que podem fazer os vizinhos que não vão à reunião?", "optionen": ["telefonar ao administrador", "enviar perguntas por e-mail", "deixar um recado na porta"], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Danke für die Einladung! Sehr gerne.", "loesungen": ["Obrigado pelo convite! Com todo o gosto.", "Obrigado pelo convite! Com muito gosto.", "Obrigada pelo convite! Com todo o gosto."]},
+   {"de": "Leider werde ich nicht kommen können.", "loesungen": ["Infelizmente não vou poder ir.", "Infelizmente não vou poder vir."]},
+   {"de": "Kannst du mir einen Gefallen tun? (tu)", "loesungen": ["Podes fazer-me um favor?", "Fazes-me um favor?"]},
+   {"de": "Ich habe niemanden gesehen.", "loesungen": ["Não vi ninguém."]},
+   {"de": "Dieses Geschenk ist für dich.", "loesungen": ["Este presente é para ti.", "Esta prenda é para ti."]},
+   {"de": "Ich habe wegen des Lärms nicht geschlafen.", "loesungen": ["Não dormi por causa do barulho."]}
+  ],
+  "sprechen": [
+   {"pt": "Deixe-me apresentar-me: sou o Stefan, do terceiro esquerdo.", "de": "Darf ich mich vorstellen: Ich bin Stefan aus dem dritten Stock links."},
+   {"pt": "Liguei para te pedir um favor.", "de": "Ich habe angerufen, um dich um einen Gefallen zu bitten."},
+   {"pt": "Obrigado pela ajuda com as plantas!", "de": "Danke für die Hilfe mit den Pflanzen!"},
+   {"pt": "Nunca disse nada a ninguém.", "de": "Ich habe nie jemandem etwas gesagt."},
+   {"pt": "Desculpe incomodar, mas a música está muito alta.", "de": "Entschuldigen Sie die Störung, aber die Musik ist sehr laut."}
+  ]
+ }
+}

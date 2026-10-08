@@ -1,0 +1,658 @@
+{
+ "id": "A2-04",
+ "level": "A2",
+ "titel": "O trabalho – Beruf und Kollegen",
+ "beschreibung": "Büro, Kollegen, Besprechungen und berufliche E-Mails: Komparativ (mais/menos … do que, tão … como, melhor/pior/maior/menor), Superlativ (o mais …, -íssimo) und Pflichten mit ter de, dever und é preciso.",
+ "vokabeln": [
+  {"id": "o-escritorio", "pt": "o escritório", "de": "das Büro", "emoji": "🏢", "beispiel_pt": "Trabalho num escritório no centro de Lagos.", "beispiel_de": "Ich arbeite in einem Büro im Zentrum von Lagos."},
+  {"id": "a-secretaria", "pt": "a secretária", "de": "der Schreibtisch (auch: die Sekretärin)", "emoji": "🪑", "beispiel_pt": "O portátil está em cima da secretária.", "beispiel_de": "Der Laptop liegt auf dem Schreibtisch.", "hinweis": "Falscher Freund: im Büro meistens der Schreibtisch!"},
+  {"id": "o-computador-portatil", "pt": "o computador portátil", "de": "der Laptop", "emoji": "💻", "beispiel_pt": "Trabalho sempre com o meu computador portátil.", "beispiel_de": "Ich arbeite immer mit meinem Laptop.", "hinweis": "kurz: o portátil; Plural: os computadores portáteis", "alternativen": ["o portátil"]},
+  {"id": "a-impressora", "pt": "a impressora", "de": "der Drucker", "emoji": "🖨️", "beispiel_pt": "A impressora não tem papel.", "beispiel_de": "Der Drucker hat kein Papier."},
+  {"id": "a-pasta", "pt": "a pasta", "de": "die Mappe / der Ordner", "emoji": "📁", "beispiel_pt": "Os documentos estão na pasta azul.", "beispiel_de": "Die Unterlagen sind in der blauen Mappe.", "hinweis": "auch der Ordner am Computer; Nudeln heißen a massa"},
+  {"id": "a-sala-de-reunioes", "pt": "a sala de reuniões", "de": "der Besprechungsraum", "emoji": "👥", "beispiel_pt": "O cliente está à espera na sala de reuniões.", "beispiel_de": "Der Kunde wartet im Besprechungsraum."},
+  {"id": "o-chefe", "pt": "o chefe", "de": "der Chef / Vorgesetzte", "emoji": "👔", "beispiel_pt": "O chefe chega às dez.", "beispiel_de": "Der Chef kommt um zehn.", "hinweis": "die Chefin = a chefe", "alternativen": ["a chefe"]},
+
+  {"id": "trabalhador", "pt": "trabalhador", "de": "fleißig", "emoji": "🐝", "beispiel_pt": "A Marta é muito trabalhadora.", "beispiel_de": "Marta ist sehr fleißig.", "alternativen": ["trabalhadora"]},
+  {"id": "preguicoso", "pt": "preguiçoso", "de": "faul", "emoji": "🦥", "beispiel_pt": "Não sou preguiçoso, estou cansado!", "beispiel_de": "Ich bin nicht faul, ich bin müde!", "alternativen": ["preguiçosa"]},
+  {"id": "organizado", "pt": "organizado", "de": "organisiert / ordentlich", "emoji": "🗂️", "beispiel_pt": "O Paulo não é muito organizado.", "beispiel_de": "Paulo ist nicht sehr organisiert.", "alternativen": ["organizada"]},
+  {"id": "pontual", "pt": "pontual", "de": "pünktlich", "emoji": "⏰", "beispiel_pt": "A Marta é sempre pontual.", "beispiel_de": "Marta ist immer pünktlich.", "hinweis": "Plural: pontuais"},
+  {"id": "competente", "pt": "competente", "de": "kompetent / fähig", "emoji": "🎯", "beispiel_pt": "É uma consultora muito competente.", "beispiel_de": "Sie ist eine sehr kompetente Beraterin."},
+  {"id": "exigente", "pt": "exigente", "de": "anspruchsvoll / streng", "emoji": "🧐", "beispiel_pt": "O cliente é muito exigente.", "beispiel_de": "Der Kunde ist sehr anspruchsvoll."},
+  {"id": "mais-do-que", "pt": "mais … do que", "de": "mehr … als / …er als", "emoji": "📈", "beispiel_pt": "Ela é mais organizada do que eu.", "beispiel_de": "Sie ist organisierter als ich.", "hinweis": "auch kürzer: mais … que"},
+  {"id": "menos-do-que", "pt": "menos … do que", "de": "weniger … als", "emoji": "📉", "beispiel_pt": "Hoje há menos trabalho do que ontem.", "beispiel_de": "Heute gibt es weniger Arbeit als gestern."},
+
+  {"id": "tao-como", "pt": "tão … como", "de": "so … wie", "emoji": "🟰", "beispiel_pt": "Ela é tão pontual como tu.", "beispiel_de": "Sie ist so pünktlich wie du."},
+  {"id": "tanto-como", "pt": "tanto … como", "de": "so viel … wie", "emoji": "⚖️", "beispiel_pt": "Tenho tanto trabalho como tu.", "beispiel_de": "Ich habe so viel Arbeit wie du.", "hinweis": "tanto / tanta / tantos / tantas – passt sich dem Nomen an"},
+  {"id": "experiente", "pt": "experiente", "de": "erfahren", "emoji": "🎓", "beispiel_pt": "O Rui é um chefe muito experiente.", "beispiel_de": "Rui ist ein sehr erfahrener Chef."},
+  {"id": "calmo", "pt": "calmo", "de": "ruhig / gelassen", "emoji": "😌", "beispiel_pt": "A Ana está sempre calma.", "beispiel_de": "Ana ist immer gelassen.", "alternativen": ["calma"]},
+  {"id": "stressado", "pt": "stressado", "de": "gestresst", "emoji": "😵", "beispiel_pt": "Estou muito stressado esta semana.", "beispiel_de": "Ich bin diese Woche sehr gestresst.", "alternativen": ["stressada"]},
+  {"id": "o-salario", "pt": "o salário", "de": "das Gehalt", "emoji": "💶", "beispiel_pt": "O salário é pago no fim do mês.", "beispiel_de": "Das Gehalt wird am Monatsende gezahlt.", "hinweis": "auch: o ordenado"},
+  {"id": "as-horas-extra", "pt": "as horas extra", "de": "die Überstunden", "emoji": "⌛", "beispiel_pt": "Esta semana fiz muitas horas extra.", "beispiel_de": "Diese Woche habe ich viele Überstunden gemacht.", "hinweis": "formell: horas extraordinárias"},
+
+  {"id": "melhor", "pt": "melhor", "de": "besser", "emoji": "🥇", "beispiel_pt": "Este café é melhor do que o outro.", "beispiel_de": "Dieser Kaffee ist besser als der andere.", "hinweis": "bom / bem → melhor"},
+  {"id": "pior", "pt": "pior", "de": "schlechter / schlimmer", "emoji": "👎", "beispiel_pt": "Hoje o trânsito está pior do que ontem.", "beispiel_de": "Heute ist der Verkehr schlimmer als gestern.", "hinweis": "mau / mal → pior"},
+  {"id": "maior", "pt": "maior", "de": "größer", "emoji": "🐘", "beispiel_pt": "A nossa equipa é maior este ano.", "beispiel_de": "Unser Team ist dieses Jahr größer."},
+  {"id": "menor", "pt": "menor", "de": "kleiner / geringer", "emoji": "🐭", "beispiel_pt": "O risco é menor.", "beispiel_de": "Das Risiko ist geringer.", "hinweis": "Im Alltag sagt man in Portugal oft „mais pequeno“."},
+  {"id": "o-resultado", "pt": "o resultado", "de": "das Ergebnis", "emoji": "📊", "beispiel_pt": "Os resultados são muito bons.", "beispiel_de": "Die Ergebnisse sind sehr gut."},
+  {"id": "as-vendas", "pt": "as vendas", "de": "der Verkauf / die Umsätze", "emoji": "🛒", "beispiel_pt": "As vendas subiram dez por cento.", "beispiel_de": "Der Umsatz ist um zehn Prozent gestiegen."},
+  {"id": "o-lucro", "pt": "o lucro", "de": "der Gewinn", "emoji": "💰", "beispiel_pt": "O lucro deste ano é maior.", "beispiel_de": "Der Gewinn ist dieses Jahr höher."},
+  {"id": "a-concorrencia", "pt": "a concorrência", "de": "die Konkurrenz", "emoji": "🏁", "beispiel_pt": "A concorrência é muito forte no Algarve.", "beispiel_de": "Die Konkurrenz an der Algarve ist sehr stark."},
+
+  {"id": "o-mais", "pt": "o mais …", "de": "der/die/das …ste", "emoji": "🏆", "beispiel_pt": "É o projeto mais importante do ano.", "beispiel_de": "Es ist das wichtigste Projekt des Jahres.", "hinweis": "Artikel + Nomen + mais + Adjektiv + de"},
+  {"id": "facilimo", "pt": "facílimo", "de": "kinderleicht / äußerst leicht", "emoji": "🍰", "beispiel_pt": "Este programa é facílimo.", "beispiel_de": "Dieses Programm ist kinderleicht.", "hinweis": "fácil → facílimo"},
+  {"id": "dificilimo", "pt": "dificílimo", "de": "äußerst schwierig", "emoji": "🧗", "beispiel_pt": "O exame foi dificílimo.", "beispiel_de": "Die Prüfung war äußerst schwierig.", "hinweis": "difícil → dificílimo"},
+  {"id": "muitissimo", "pt": "muitíssimo", "de": "sehr, sehr / äußerst", "emoji": "💯", "beispiel_pt": "Muitíssimo obrigado!", "beispiel_de": "Vielen, vielen Dank!"},
+  {"id": "importante", "pt": "importante", "de": "wichtig", "emoji": "⭐", "beispiel_pt": "Amanhã tenho uma reunião importante.", "beispiel_de": "Morgen habe ich eine wichtige Besprechung."},
+  {"id": "eficiente", "pt": "eficiente", "de": "effizient", "emoji": "🚀", "beispiel_pt": "A nova impressora é mais eficiente.", "beispiel_de": "Der neue Drucker ist effizienter."},
+  {"id": "o-projeto", "pt": "o projeto", "de": "das Projekt", "emoji": "📐", "beispiel_pt": "O projeto começa em janeiro.", "beispiel_de": "Das Projekt beginnt im Januar.", "hinweis": "Neue Rechtschreibung: projeto (früher projecto)"},
+
+  {"id": "e-preciso", "pt": "é preciso", "de": "man muss / es ist nötig", "emoji": "☝️", "beispiel_pt": "É preciso cumprir o prazo.", "beispiel_de": "Man muss die Frist einhalten."},
+  {"id": "a-tarefa", "pt": "a tarefa", "de": "die Aufgabe", "emoji": "📌", "beispiel_pt": "Hoje tenho muitas tarefas.", "beispiel_de": "Heute habe ich viele Aufgaben."},
+  {"id": "entregar", "pt": "entregar", "de": "abgeben / liefern", "emoji": "📤", "beispiel_pt": "Tenho de entregar o relatório até sexta.", "beispiel_de": "Ich muss den Bericht bis Freitag abgeben."},
+  {"id": "cumprir", "pt": "cumprir", "de": "einhalten / erfüllen", "emoji": "✔️", "beispiel_pt": "Cumprimos sempre os prazos.", "beispiel_de": "Wir halten die Fristen immer ein."},
+  {"id": "o-relatorio", "pt": "o relatório", "de": "der Bericht", "emoji": "📄", "beispiel_pt": "O relatório tem vinte páginas.", "beispiel_de": "Der Bericht hat zwanzig Seiten."},
+  {"id": "a-responsabilidade", "pt": "a responsabilidade", "de": "die Verantwortung", "emoji": "🏋️", "beispiel_pt": "A responsabilidade é minha.", "beispiel_de": "Die Verantwortung liegt bei mir."},
+  {"id": "terminar", "pt": "terminar", "de": "beenden / fertigstellen", "emoji": "🔚", "beispiel_pt": "Ainda não terminei o relatório.", "beispiel_de": "Ich habe den Bericht noch nicht fertig."},
+
+  {"id": "a-ordem-de-trabalhos", "pt": "a ordem de trabalhos", "de": "die Tagesordnung", "emoji": "🗒️", "beispiel_pt": "O que está na ordem de trabalhos?", "beispiel_de": "Was steht auf der Tagesordnung?"},
+  {"id": "adiar", "pt": "adiar", "de": "verschieben (auf später)", "emoji": "⏭️", "beispiel_pt": "Vamos adiar a reunião para segunda.", "beispiel_de": "Wir verschieben die Besprechung auf Montag.", "hinweis": "adiar para = verschieben auf"},
+  {"id": "a-proposta", "pt": "a proposta", "de": "das Angebot / der Vorschlag", "emoji": "💡", "beispiel_pt": "Enviámos a proposta ao cliente.", "beispiel_de": "Wir haben dem Kunden das Angebot geschickt."},
+  {"id": "a-apresentacao", "pt": "a apresentação", "de": "die Präsentation", "emoji": "📽️", "beispiel_pt": "A apresentação correu muito bem.", "beispiel_de": "Die Präsentation ist sehr gut gelaufen."},
+  {"id": "a-ata", "pt": "a ata", "de": "das Protokoll (einer Sitzung)", "emoji": "🖊️", "beispiel_pt": "Quem escreve a ata?", "beispiel_de": "Wer schreibt das Protokoll?", "hinweis": "Neue Rechtschreibung: ata (früher acta)"},
+  {"id": "concordar", "pt": "concordar", "de": "einverstanden sein / zustimmen", "emoji": "👌", "beispiel_pt": "Concordo com a Marta.", "beispiel_de": "Ich bin mit Marta einer Meinung.", "hinweis": "concordar com = einverstanden sein mit"},
+  {"id": "discutir", "pt": "discutir", "de": "besprechen / diskutieren", "emoji": "💬", "beispiel_pt": "Temos de discutir o orçamento.", "beispiel_de": "Wir müssen das Budget besprechen.", "hinweis": "kann auch „streiten“ heißen"},
+  {"id": "a-decisao", "pt": "a decisão", "de": "die Entscheidung", "emoji": "🔨", "beispiel_pt": "Temos de tomar uma decisão.", "beispiel_de": "Wir müssen eine Entscheidung treffen.", "hinweis": "tomar uma decisão = eine Entscheidung treffen"},
+
+  {"id": "caro-email", "pt": "Caro …", "de": "Lieber … / Sehr geehrter … (E-Mail)", "emoji": "✉️", "beispiel_pt": "Caro Sr. Silva,", "beispiel_de": "Sehr geehrter Herr Silva,", "hinweis": "an eine Frau: Cara …; Titel sind üblich: Cara Dra. Costa", "alternativen": ["Cara …"]},
+  {"id": "com-os-melhores-cumprimentos", "pt": "Com os melhores cumprimentos", "de": "Mit freundlichen Grüßen", "emoji": "🙏", "beispiel_pt": "Com os melhores cumprimentos, Stefan Krenn", "beispiel_de": "Mit freundlichen Grüßen, Stefan Krenn"},
+  {"id": "em-anexo-envio", "pt": "Em anexo envio …", "de": "Anbei sende ich …", "emoji": "📎", "beispiel_pt": "Em anexo envio a proposta.", "beispiel_de": "Anbei sende ich das Angebot."},
+  {"id": "o-assunto", "pt": "o assunto", "de": "der Betreff / die Angelegenheit", "emoji": "🏷️", "beispiel_pt": "Qual é o assunto do e-mail?", "beispiel_de": "Was ist der Betreff der E-Mail?"},
+  {"id": "reencaminhar", "pt": "reencaminhar", "de": "weiterleiten", "emoji": "↪️", "beispiel_pt": "Pode reencaminhar-me o e-mail?", "beispiel_de": "Können Sie mir die E-Mail weiterleiten?"},
+  {"id": "fico-a-aguardar", "pt": "Fico a aguardar …", "de": "Ich freue mich auf … / Ich erwarte …", "emoji": "🕰️", "beispiel_pt": "Fico a aguardar a sua resposta.", "beispiel_de": "Ich freue mich auf Ihre Antwort."},
+  {"id": "a-chamada", "pt": "a chamada", "de": "der Anruf", "emoji": "📲", "beispiel_pt": "Tenho uma chamada às três.", "beispiel_de": "Ich habe um drei einen Anruf.", "hinweis": "uma chamada perdida = ein verpasster Anruf"},
+  {"id": "nao-se-encontra", "pt": "Não se encontra.", "de": "Er/Sie ist nicht da. (formell)", "emoji": "🚫", "beispiel_pt": "De momento, a Dra. Costa não se encontra.", "beispiel_de": "Frau Dr. Costa ist im Moment nicht da."}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-04-L01",
+   "typ": "neu",
+   "titel": "Arbeitsplatz und Büro",
+   "vokabeln": ["o-escritorio", "a-secretaria", "o-computador-portatil", "a-impressora", "a-pasta", "a-sala-de-reunioes", "o-chefe"],
+   "grammatik": {
+    "titel": "Falsche Freunde und Plural im Büro",
+    "erklaerung": [
+     "<b>a secretária</b> ist im Büro meist der <b>Schreibtisch</b>! Die Sekretärin heißt zwar auch so – der Zusammenhang entscheidet: <i>O portátil está em cima da secretária.</i>",
+     "<b>a pasta</b> = Mappe oder Ordner (auch am Computer) – keine Nudeln (<i>a massa</i>).",
+     "Plural bei Nomen + Adjektiv: beide bekommen ein Plural-Ende: <i>o computador portátil → os computador<b>es</b> portát<b>eis</b></i> (-il → -eis).",
+     "Bei Nomen + de + Nomen ändert sich nur das erste Wort: <i>a sala de reuniões → as sala<b>s</b> de reuniões</i>.",
+     "Ort: <b>no</b> escritório (em + o), <b>num</b> escritório (em + um), <b>na</b> sala de reuniões."
+    ],
+    "vergleich": "Der deutsche „Sekretär“ ist auch ein Möbelstück – genau so denkt das Portugiesische: <i>a secretária</i> = Schreibtisch. Englisch „portable“ hilft bei <i>portátil</i>.",
+    "beispiele": [
+     {"pt": "A minha secretária fica ao lado da janela.", "de": "Mein Schreibtisch steht neben dem Fenster."},
+     {"pt": "Temos três computadores portáteis novos.", "de": "Wir haben drei neue Laptops."},
+     {"pt": "O chefe está na sala de reuniões.", "de": "Der Chef ist im Besprechungsraum."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O portátil está em cima da ___.", "loesungen": ["secretária"], "de": "Der Laptop liegt auf dem Schreibtisch.", "kategorie": "Wortschatz"},
+     {"typ": "luecke", "satz": "Temos dois computadores ___. (portátil)", "loesungen": ["portáteis"], "de": "Wir haben zwei Laptops.", "erklaerung": "-il → -eis: portátil → portáteis.", "kategorie": "Plural"},
+     {"typ": "luecke", "satz": "Trabalho ___ escritório no centro de Lagos.", "loesungen": ["num"], "de": "Ich arbeite in einem Büro im Zentrum von Lagos.", "erklaerung": "em + um = num.", "kategorie": "Präpositionen"},
+     {"typ": "auswahl", "frage": "„O portátil está em cima da secretária.“ – Was ist secretária hier?", "optionen": ["die Sekretärin", "der Schreibtisch", "der Drucker"], "richtig": 1, "kategorie": "Falsche Freunde"},
+     {"typ": "auswahl", "frage": "Plural von „a sala de reuniões“:", "optionen": ["as salas de reuniões", "as sala de reuniões", "as salas de reuniãos"], "richtig": 0, "kategorie": "Plural"},
+     {"typ": "uebersetzen", "de": "Der Drucker hat kein Papier.", "loesungen": ["A impressora não tem papel.", "A impressora está sem papel."]},
+     {"typ": "uebersetzen", "de": "Der Chef ist im Besprechungsraum.", "loesungen": ["O chefe está na sala de reuniões."]},
+     {"typ": "satzbau", "de": "Die Mappe liegt auf dem Schreibtisch.", "loesung": "A pasta está em cima da secretária."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O primeiro dia – der erste Tag",
+    "situation": "Stefan mietet einen Arbeitsplatz in einem Büro in Lagos. Die Kollegin Marta zeigt ihm alles.",
+    "zeilen": [
+     {"sprecher": "Marta", "stimme": "f", "pt": "Bem-vindo, Stefan! Esta é a tua secretária, ao lado da janela.", "de": "Willkommen, Stefan! Das ist dein Schreibtisch, neben dem Fenster."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo! E onde está a impressora?", "de": "Super! Und wo ist der Drucker?"},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Está no corredor, ao lado da sala de reuniões.", "de": "Im Flur, neben dem Besprechungsraum."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E qual é a senha do wi-fi? Quero ligar o meu portátil.", "de": "Und wie lautet das WLAN-Passwort? Ich möchte meinen Laptop verbinden."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Está num papel na pasta verde. Ah, e o chefe chega às dez. Quer falar contigo.", "de": "Es steht auf einem Zettel in der grünen Mappe. Ah, und der Chef kommt um zehn. Er möchte mit dir sprechen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. Obrigado, Marta!", "de": "Abgemacht. Danke, Marta!"}
+    ],
+    "fragen": [
+     {"frage": "Wo steht Stefans Schreibtisch?", "optionen": ["neben der Tür", "neben dem Fenster", "im Besprechungsraum"], "richtig": 1},
+     {"frage": "Wo ist der Drucker?", "optionen": ["im Flur", "in der Küche", "beim Chef"], "richtig": 0},
+     {"frage": "Wann kommt der Chef?", "optionen": ["um neun", "um elf", "um zehn"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Trabalho num escritório em Lagos.", "de": "Ich arbeite in einem Büro in Lagos."},
+     {"pt": "A minha secretária fica ao lado da janela.", "de": "Mein Schreibtisch steht neben dem Fenster."},
+     {"pt": "A impressora não tem papel.", "de": "Der Drucker hat kein Papier."},
+     {"pt": "O chefe está na sala de reuniões.", "de": "Der Chef ist im Besprechungsraum."},
+     {"pt": "Os documentos estão na pasta azul.", "de": "Die Unterlagen sind in der blauen Mappe."}
+    ]
+   },
+   "saetze": [
+    {"id": "trabalho-num-escritorio", "pt": "Trabalho num escritório em Lagos.", "de": "Ich arbeite in einem Büro in Lagos."},
+    {"id": "portatil-na-secretaria", "pt": "O portátil está em cima da secretária.", "de": "Der Laptop liegt auf dem Schreibtisch."},
+    {"id": "chefe-sala-reunioes", "pt": "O chefe está na sala de reuniões.", "de": "Der Chef ist im Besprechungsraum."}
+   ]
+  },
+  {
+   "id": "A2-04-L02",
+   "typ": "neu",
+   "titel": "Kollegen beschreiben: mais/menos … do que",
+   "vokabeln": ["trabalhador", "preguicoso", "organizado", "pontual", "competente", "exigente", "mais-do-que", "menos-do-que"],
+   "grammatik": {
+    "titel": "Komparativ: mais … do que / menos … do que",
+    "erklaerung": [
+     "Vergleich mit <b>mais</b> (mehr) oder <b>menos</b> (weniger) + Adjektiv + <b>do que</b>: <i>A Marta é mais organizada do que o Paulo.</i>",
+     "Statt <i>do que</i> geht auch nur <b>que</b>: <i>mais pontual que eu</i>. <i>do que</i> ist häufiger.",
+     "Das Adjektiv passt sich an: <i>Ela é mais trabalhador<b>a</b>. Eles são menos pontua<b>is</b>.</i>",
+     "Nach <i>do que</i> stehen die normalen Personalpronomen: <i>do que <b>eu</b>, do que <b>tu</b>, do que <b>ele</b></i>.",
+     "Auch mit Verben: <i>Ele trabalha mais do que eu.</i> – mit Nomen: <i>Tenho menos tempo do que tu.</i>"
+    ],
+    "vergleich": "Deutsch „als“ = <i>do que</i> – nicht <i>como</i> (so wie „größer wie“ im Deutschen auch falsch ist). Englisch: more … than = <i>mais … do que</i>, less … than = <i>menos … do que</i>.",
+    "beispiele": [
+     {"pt": "A Marta é mais organizada do que o Paulo.", "de": "Marta ist organisierter als Paulo."},
+     {"pt": "O Paulo é menos pontual do que ela.", "de": "Paulo ist weniger pünktlich als sie."},
+     {"pt": "O chefe trabalha mais do que todos nós.", "de": "Der Chef arbeitet mehr als wir alle."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A Marta é mais organizada ___ o Paulo.", "loesungen": ["do que", "que"], "de": "Marta ist organisierter als Paulo.", "kategorie": "Komparativ"},
+     {"typ": "luecke", "satz": "O Paulo é ___ pontual do que a Marta. (weniger)", "loesungen": ["menos"], "de": "Paulo ist weniger pünktlich als Marta.", "kategorie": "Komparativ"},
+     {"typ": "luecke", "satz": "As minhas colegas são mais ___ do que eu. (trabalhador)", "loesungen": ["trabalhadoras"], "de": "Meine Kolleginnen sind fleißiger als ich.", "erklaerung": "weiblich Plural: trabalhador → trabalhadoras.", "kategorie": "Adjektiv-Angleichung"},
+     {"typ": "auswahl", "frage": "„Er arbeitet mehr als ich.“", "optionen": ["Ele trabalha mais como eu.", "Ele trabalha mais do que eu.", "Ele trabalha mais do que mim."], "richtig": 1, "erklaerung": "als = do que; danach eu (nicht mim).", "kategorie": "Komparativ"},
+     {"typ": "auswahl", "frage": "„Die Chefin ist anspruchsvoller als der Chef.“", "optionen": ["A chefe é mais exigente do que o chefe.", "A chefe é exigente mais do que o chefe.", "A chefe é mais exigenta do que o chefe."], "richtig": 0, "erklaerung": "Adjektive auf -e sind männlich und weiblich gleich: exigente.", "kategorie": "Komparativ"},
+     {"typ": "uebersetzen", "de": "Pedro ist fauler als Rita.", "loesungen": ["O Pedro é mais preguiçoso do que a Rita.", "O Pedro é mais preguiçoso que a Rita."]},
+     {"typ": "uebersetzen", "de": "Ich bin weniger organisiert als du. (tu)", "loesungen": ["Sou menos organizado do que tu.", "Eu sou menos organizado do que tu.", "Sou menos organizado que tu.", "Eu sou menos organizado que tu.", "Sou menos organizada do que tu.", "Sou menos organizada que tu."]},
+     {"typ": "satzbau", "de": "Der neue Kollege ist kompetenter als der alte.", "loesung": "O colega novo é mais competente do que o antigo."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Os novos colegas – die neuen Kollegen",
+    "situation": "Ana fragt Stefan abends nach seinen neuen Kollegen.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então, como são os teus novos colegas?", "de": "Na, wie sind deine neuen Kollegen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A Marta é muito simpática e é mais organizada do que eu!", "de": "Marta ist sehr nett und organisierter als ich!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Isso não é difícil!", "de": "Das ist nicht schwer!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois não. O Paulo é mais novo e muito competente, mas é menos pontual. Chega sempre às dez.", "de": "Stimmt. Paulo ist jünger und sehr kompetent, aber weniger pünktlich. Er kommt immer um zehn."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E o chefe?", "de": "Und der Chef?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O chefe é exigente, mas é justo e trabalha mais do que todos.", "de": "Der Chef ist anspruchsvoll, aber fair, und er arbeitet mehr als alle anderen."}
+    ],
+    "fragen": [
+     {"frage": "Wer ist organisierter als Stefan?", "optionen": ["Ana", "Marta", "Paulo"], "richtig": 1},
+     {"frage": "Was ist Paulos Schwäche?", "optionen": ["Er ist faul.", "Er ist unfreundlich.", "Er ist unpünktlich."], "richtig": 2},
+     {"frage": "Was sagt Stefan über den Chef?", "optionen": ["Er arbeitet mehr als alle.", "Er ist faul.", "Er kommt immer spät."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Freund Pedro fragt nach deinen Kollegen.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então, gostas dos teus colegas?", "de": "Na, magst du deine Kollegen?"},
+     {"ich": true, "aufgabe": "Sag: Ja! Marta ist sehr fleißig.", "loesungen": ["Sim! A Marta é muito trabalhadora.", "Gosto! A Marta é muito trabalhadora.", "Gosto muito! A Marta é muito trabalhadora.", "Sim, a Marta é muito trabalhadora."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E o Paulo?", "de": "Und Paulo?"},
+     {"ich": true, "aufgabe": "Sag: Paulo ist weniger organisiert als Marta.", "loesungen": ["O Paulo é menos organizado do que a Marta.", "O Paulo é menos organizado que a Marta.", "É menos organizado do que a Marta.", "É menos organizado que a Marta."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E tu? És mais pontual do que ele?", "de": "Und du? Bist du pünktlicher als er?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich bin pünktlicher als er.", "loesungen": ["Sim, sou mais pontual do que ele.", "Sou, sou mais pontual do que ele.", "Sim, sou mais pontual que ele.", "Sou mais pontual do que ele."]}
+    ]
+   },
+   "saetze": [
+    {"id": "mais-organizada-do-que", "pt": "A Marta é mais organizada do que o Paulo.", "de": "Marta ist organisierter als Paulo."},
+    {"id": "menos-pontual", "pt": "O Paulo é menos pontual do que ela.", "de": "Paulo ist weniger pünktlich als sie."},
+    {"id": "trabalha-mais-do-que-eu", "pt": "Ele trabalha mais do que eu.", "de": "Er arbeitet mehr als ich."}
+   ]
+  },
+  {
+   "id": "A2-04-L03",
+   "typ": "neu",
+   "titel": "Gleich viel: tão … como, tanto … como",
+   "vokabeln": ["tao-como", "tanto-como", "experiente", "calmo", "stressado", "o-salario", "as-horas-extra"],
+   "grammatik": {
+    "titel": "Gleichheit: tão … como / tanto … como",
+    "erklaerung": [
+     "Bei Adjektiven und Adverbien: <b>tão</b> + Adjektiv + <b>como</b>: <i>A Marta é tão experiente como o Paulo.</i>",
+     "Bei Nomen: <b>tanto / tanta / tantos / tantas</b> + Nomen + <b>como</b> – passt sich dem Nomen an: <i>Tenho tant<b>o</b> trabalho como tu. Faço tant<b>as</b> horas extra como ele.</i>",
+     "Bei Verben: Verb + <b>tanto como</b>: <i>Ele trabalha tanto como eu.</i>",
+     "Verneint heißt es „nicht so … wie“: <i>Não sou tão calmo como a Ana.</i>",
+     "In Portugal ist <i>como</i> am üblichsten; <i>tão … quanto</i> hört man seltener."
+    ],
+    "vergleich": "„so … wie“ = <i>tão … como</i>; „so viel(e) … wie“ = <i>tanto(s) … como</i>. Englisch: as … as / as much (many) … as.",
+    "beispiele": [
+     {"pt": "O Paulo é tão experiente como a Marta.", "de": "Paulo ist so erfahren wie Marta."},
+     {"pt": "Este mês fiz tantas horas extra como tu.", "de": "Diesen Monat habe ich so viele Überstunden gemacht wie du."},
+     {"pt": "Não estou tão stressado como antes.", "de": "Ich bin nicht so gestresst wie früher."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O Paulo é ___ calmo como a Marta.", "loesungen": ["tão"], "de": "Paulo ist so ruhig wie Marta.", "kategorie": "Komparativ"},
+     {"typ": "luecke", "satz": "Tenho ___ trabalho como tu.", "loesungen": ["tanto"], "de": "Ich habe so viel Arbeit wie du.", "kategorie": "Komparativ"},
+     {"typ": "luecke", "satz": "Ela faz ___ horas extra como eu.", "loesungen": ["tantas"], "de": "Sie macht so viele Überstunden wie ich.", "erklaerung": "as horas – weiblich Plural → tantas.", "kategorie": "Komparativ"},
+     {"typ": "luecke", "satz": "O salário dele não é tão bom ___ o meu.", "loesungen": ["como"], "de": "Sein Gehalt ist nicht so gut wie meins.", "kategorie": "Komparativ"},
+     {"typ": "auswahl", "frage": "„Er arbeitet so viel wie ich.“", "optionen": ["Ele trabalha tão como eu.", "Ele trabalha tanto como eu.", "Ele trabalha tanto que eu."], "richtig": 1, "erklaerung": "Nach einem Verb: tanto como.", "kategorie": "Komparativ"},
+     {"typ": "auswahl", "frage": "„Ich bin nicht so gestresst wie du.“", "optionen": ["Não estou tão stressado como tu.", "Não estou tanto stressado como tu.", "Não estou tão stressado do que tu."], "richtig": 0, "erklaerung": "Adjektiv → tão … como. Gestresst ist ein Zustand → estar.", "kategorie": "Komparativ"},
+     {"typ": "uebersetzen", "de": "Marta ist so erfahren wie der Chef.", "loesungen": ["A Marta é tão experiente como o chefe.", "A Marta é tão experiente quanto o chefe."]},
+     {"typ": "uebersetzen", "de": "Wir haben so viele Kunden wie letztes Jahr.", "loesungen": ["Temos tantos clientes como o ano passado.", "Temos tantos clientes como no ano passado."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Muito trabalho – viel Arbeit",
+    "situation": "Stefan und Pedro treffen sich nach der Arbeit im Café.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Estás com cara de cansado. Muito trabalho?", "de": "Du siehst müde aus. Viel Arbeit?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muito! Esta semana fiz tantas horas extra como a Marta – mais de dez!", "de": "Sehr viel! Diese Woche habe ich so viele Überstunden gemacht wie Marta – mehr als zehn!"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Ao menos o salário é bom?", "de": "Ist wenigstens das Gehalt gut?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sou consultor, não tenho salário fixo! Mas os clientes pagam bem.", "de": "Ich bin Berater, ich habe kein festes Gehalt! Aber die Kunden zahlen gut."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E estás muito stressado?", "de": "Und bist du sehr gestresst?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Um pouco. Não sou tão calmo como a Ana – ela nunca fica stressada.", "de": "Ein bisschen. Ich bin nicht so gelassen wie Ana – sie wird nie gestresst."}
+    ],
+    "fragen": [
+     {"frage": "Wie viele Überstunden hat Stefan diese Woche gemacht?", "optionen": ["keine", "mehr als zehn", "zwei"], "richtig": 1},
+     {"frage": "Warum hat Stefan kein festes Gehalt?", "optionen": ["Er ist Berater.", "Er ist arbeitslos.", "Er ist in Rente."], "richtig": 0},
+     {"frage": "Wer ist gelassener als Stefan?", "optionen": ["Pedro", "Marta", "Ana"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Vergleiche auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich habe so viel Arbeit wie du. (tu)", "loesungen": ["Tenho tanto trabalho como tu.", "Eu tenho tanto trabalho como tu."]},
+     {"de": "Paulo ist so pünktlich wie Marta.", "loesungen": ["O Paulo é tão pontual como a Marta.", "O Paulo é tão pontual quanto a Marta."]},
+     {"de": "Ich bin nicht so ruhig wie Ana.", "loesungen": ["Não sou tão calmo como a Ana.", "Eu não sou tão calmo como a Ana.", "Não sou tão calma como a Ana."]},
+     {"de": "Sie macht so viele Überstunden wie ich.", "loesungen": ["Ela faz tantas horas extra como eu."]},
+     {"de": "Mein Gehalt ist nicht so hoch wie seins.", "loesungen": ["O meu salário não é tão alto como o dele.", "O meu ordenado não é tão alto como o dele."]}
+    ]
+   },
+   "saetze": [
+    {"id": "tao-experiente-como", "pt": "O Paulo é tão experiente como a Marta.", "de": "Paulo ist so erfahren wie Marta."},
+    {"id": "tanto-trabalho-como", "pt": "Tenho tanto trabalho como tu.", "de": "Ich habe so viel Arbeit wie du."},
+    {"id": "nao-tao-calmo", "pt": "Não sou tão calmo como a Ana.", "de": "Ich bin nicht so gelassen wie Ana."}
+   ]
+  },
+  {
+   "id": "A2-04-L04",
+   "typ": "neu",
+   "titel": "melhor, pior, maior, menor",
+   "vokabeln": ["melhor", "pior", "maior", "menor", "o-resultado", "as-vendas", "o-lucro", "a-concorrencia"],
+   "grammatik": {
+    "titel": "Unregelmäßiger Komparativ",
+    "erklaerung": [
+     "Vier unregelmäßige Formen: <b>bom → melhor</b>, <b>mau → pior</b>, <b>grande → maior</b>, <b>pequeno → menor</b>.",
+     "Nie „mais bom“ oder „mais grande“: <i>Este resultado é melhor do que o do ano passado.</i>",
+     "Typisch Portugal: <b>mais pequeno</b> ist völlig normal und im Alltag häufiger als <i>menor</i>: <i>O escritório novo é mais pequeno.</i> <i>menor</i> eher bei Zahlen und Abstraktem: <i>um lucro menor</i>.",
+     "Auch bei Adverbien: <b>bem → melhor</b>, <b>mal → pior</b>: <i>Ele fala português melhor do que eu.</i>",
+     "Plural: <i>melhor<b>es</b>, pior<b>es</b>, maior<b>es</b>, menor<b>es</b></i>. Verstärkt: <i>muito melhor</i>, <i>cada vez pior</i> (immer schlechter)."
+    ],
+    "vergleich": "Wie im Deutschen (gut → besser) und Englischen (good → better, bad → worse): die häufigsten Adjektive sind unregelmäßig. „viel besser“ = <i>muito melhor</i>.",
+    "beispiele": [
+     {"pt": "As vendas estão muito melhores este ano.", "de": "Die Verkäufe laufen dieses Jahr viel besser."},
+     {"pt": "A concorrência é maior do que antes.", "de": "Die Konkurrenz ist größer als früher."},
+     {"pt": "O resultado de março foi pior.", "de": "Das Ergebnis im März war schlechter."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Este ano as vendas estão ___ do que no ano passado. (bom)", "loesungen": ["melhores"], "de": "Dieses Jahr laufen die Verkäufe besser als letztes Jahr.", "erklaerung": "as vendas ist Plural → melhores.", "kategorie": "Komparativ"},
+     {"typ": "luecke", "satz": "O resultado deste mês é ___ do que o do mês passado. (mau)", "loesungen": ["pior"], "de": "Das Ergebnis dieses Monats ist schlechter als das des letzten Monats.", "kategorie": "Komparativ"},
+     {"typ": "luecke", "satz": "A nossa empresa é ___ do que a concorrência. (grande)", "loesungen": ["maior"], "de": "Unsere Firma ist größer als die Konkurrenz.", "kategorie": "Komparativ"},
+     {"typ": "luecke", "satz": "Este ano o lucro foi ___. (pequeno)", "loesungen": ["menor", "mais pequeno"], "de": "Dieses Jahr war der Gewinn kleiner.", "kategorie": "Komparativ"},
+     {"typ": "auswahl", "frage": "„Unser Büro ist kleiner.“ – Was sagt man in Portugal im Alltag?", "optionen": ["O nosso escritório é mais pequeno.", "O nosso escritório é mais menor.", "O nosso escritório é pequenor."], "richtig": 0, "erklaerung": "In Portugal ist „mais pequeno“ ganz normal. „mais menor“ ist doppelt gemoppelt.", "kategorie": "Komparativ"},
+     {"typ": "auswahl", "frage": "„Er spricht besser Portugiesisch als ich.“", "optionen": ["Ele fala português mais bem do que eu.", "Ele fala português melhor do que eu.", "Ele fala português mais bom do que eu."], "richtig": 1, "erklaerung": "bem → melhor (auch als Adverb).", "kategorie": "Komparativ"},
+     {"typ": "uebersetzen", "de": "Die Konkurrenz ist größer als letztes Jahr.", "loesungen": ["A concorrência é maior do que no ano passado.", "A concorrência é maior do que o ano passado.", "A concorrência está maior do que no ano passado.", "A concorrência é maior que no ano passado."]},
+     {"typ": "satzbau", "de": "Die Ergebnisse sind viel besser.", "loesung": "Os resultados são muito melhores."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Os resultados – die Ergebnisse",
+    "situation": "Der Chef Rui stellt im Team-Meeting die Zahlen vor.",
+    "zeilen": [
+     {"sprecher": "Rui", "stimme": "m", "pt": "Bom dia a todos. Tenho boas notícias: as vendas estão muito melhores do que no ano passado.", "de": "Guten Morgen allerseits. Ich habe gute Nachrichten: Die Verkäufe sind viel besser als letztes Jahr."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Ótimo! E o lucro?", "de": "Super! Und der Gewinn?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "O lucro também é maior: mais quinze por cento.", "de": "Der Gewinn ist auch höher: fünfzehn Prozent mehr."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a concorrência?", "de": "Und die Konkurrenz?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "A concorrência está mais forte, mas os resultados deles são piores do que os nossos.", "de": "Die Konkurrenz ist stärker geworden, aber ihre Ergebnisse sind schlechter als unsere."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Então este ano é melhor em tudo!", "de": "Dann ist dieses Jahr in allem besser!"}
+    ],
+    "fragen": [
+     {"frage": "Wie laufen die Verkäufe?", "optionen": ["schlechter als letztes Jahr", "viel besser als letztes Jahr", "gleich wie letztes Jahr"], "richtig": 1},
+     {"frage": "Um wie viel ist der Gewinn gestiegen?", "optionen": ["um 5 %", "um 50 %", "um 15 %"], "richtig": 2},
+     {"frage": "Was gilt für die Konkurrenz?", "optionen": ["Sie ist stärker, hat aber schlechtere Ergebnisse.", "Sie ist schwächer geworden.", "Sie hat bessere Ergebnisse."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "As vendas estão muito melhores.", "de": "Die Verkäufe sind viel besser."},
+     {"pt": "O lucro é maior este ano.", "de": "Der Gewinn ist dieses Jahr höher."},
+     {"pt": "O resultado foi pior do que esperávamos.", "de": "Das Ergebnis war schlechter, als wir erwartet hatten."},
+     {"pt": "O escritório novo é mais pequeno.", "de": "Das neue Büro ist kleiner."},
+     {"pt": "A concorrência é cada vez maior.", "de": "Die Konkurrenz wird immer größer."}
+    ]
+   },
+   "saetze": [
+    {"id": "vendas-muito-melhores", "pt": "As vendas estão muito melhores.", "de": "Die Verkäufe sind viel besser."},
+    {"id": "lucro-maior", "pt": "O lucro é maior do que no ano passado.", "de": "Der Gewinn ist höher als letztes Jahr."},
+    {"id": "escritorio-mais-pequeno", "pt": "O escritório novo é mais pequeno.", "de": "Das neue Büro ist kleiner."}
+   ]
+  },
+  {
+   "id": "A2-04-L05",
+   "typ": "neu",
+   "titel": "Der, die, das Beste: Superlativ",
+   "vokabeln": ["o-mais", "facilimo", "dificilimo", "muitissimo", "importante", "eficiente", "o-projeto"],
+   "grammatik": {
+    "titel": "Superlativ: o mais … / -íssimo",
+    "erklaerung": [
+     "Relativer Superlativ: <b>o/a/os/as</b> (+ Nomen) + <b>mais/menos</b> + Adjektiv (+ <b>de</b>): <i>A Marta é a colega mais eficiente da equipa.</i>",
+     "Der Artikel steht nur einmal: <i>o projeto mais importante</i> – nicht „o projeto o mais importante“.",
+     "Unregelmäßig: <b>o melhor, o pior, o maior, o menor</b>: <i>É o melhor projeto do ano.</i>",
+     "Absoluter Superlativ mit <b>-íssimo</b> (= äußerst): <i>importante → importantíssimo, caro → caríssimo, muito → muitíssimo</i>. Der Endvokal fällt weg.",
+     "Besondere Formen: <i>fácil → <b>facílimo</b>, difícil → <b>dificílimo</b>, bom → <b>ótimo</b>, mau → <b>péssimo</b></i>."
+    ],
+    "vergleich": "„der wichtigste … in der Firma“ = <i>o … mais importante <b>da</b> empresa</i> – mit <i>de</i>, nicht <i>em</i> (wie englisch „the best <b>in</b>“, aber anders gebaut). <i>-íssimo</i> kennt man aus dem Italienischen: „bellissimo“.",
+    "beispiele": [
+     {"pt": "É o projeto mais importante do ano.", "de": "Es ist das wichtigste Projekt des Jahres."},
+     {"pt": "A Marta é a pessoa mais eficiente da equipa.", "de": "Marta ist die effizienteste Person im Team."},
+     {"pt": "O novo programa é facílimo.", "de": "Das neue Programm ist kinderleicht."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "É o projeto mais importante ___ empresa.", "loesungen": ["da"], "de": "Es ist das wichtigste Projekt der Firma.", "erklaerung": "Beim Superlativ: de + a = da.", "kategorie": "Superlativ"},
+     {"typ": "luecke", "satz": "Este exercício é ___. (fácil, sehr sehr)", "loesungen": ["facílimo"], "de": "Diese Übung ist kinderleicht.", "kategorie": "Superlativ"},
+     {"typ": "luecke", "satz": "A reunião foi ___. (importante, sehr sehr)", "loesungen": ["importantíssima"], "de": "Die Besprechung war äußerst wichtig.", "erklaerung": "a reunião ist weiblich → importantíssima.", "kategorie": "Superlativ"},
+     {"typ": "luecke", "satz": "A Marta é a ___ colega da equipa. (bom)", "loesungen": ["melhor"], "de": "Marta ist die beste Kollegin im Team.", "kategorie": "Superlativ"},
+     {"typ": "auswahl", "frage": "„Das ist das schwierigste Projekt.“", "optionen": ["É o projeto o mais difícil.", "É o projeto mais difícil.", "É o mais projeto difícil."], "richtig": 1, "erklaerung": "Der Artikel steht nur einmal: o projeto mais difícil.", "kategorie": "Superlativ"},
+     {"typ": "auswahl", "frage": "„äußerst teuer“", "optionen": ["caríssimo", "caroíssimo", "muito caríssimo"], "richtig": 0, "kategorie": "Superlativ"},
+     {"typ": "uebersetzen", "de": "Er ist der effizienteste Kollege im Büro.", "loesungen": ["É o colega mais eficiente do escritório.", "Ele é o colega mais eficiente do escritório."]},
+     {"typ": "uebersetzen", "de": "Vielen, vielen Dank! (Mann)", "loesungen": ["Muitíssimo obrigado!", "Muitíssimo obrigado."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "O projeto mais importante – das wichtigste Projekt",
+    "situation": "Marta und Stefan sprechen über einen neuen Auftrag.",
+    "zeilen": [
+     {"sprecher": "Marta", "stimme": "f", "pt": "Stefan, já viste o novo projeto do hotel em Portimão?", "de": "Stefan, hast du das neue Projekt für das Hotel in Portimão schon gesehen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já. É o projeto mais importante do ano para nós.", "de": "Ja. Es ist für uns das wichtigste Projekt des Jahres."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "E o mais difícil também! O cliente é exigentíssimo.", "de": "Und auch das schwierigste! Der Kunde ist äußerst anspruchsvoll."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois é. Mas tu és a pessoa mais eficiente da equipa. Para ti é facílimo!", "de": "Stimmt. Aber du bist die effizienteste Person im Team. Für dich ist das kinderleicht!"},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Muitíssimo obrigada! Mas o prazo é curtíssimo.", "de": "Vielen, vielen Dank! Aber die Frist ist extrem kurz."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então vamos começar já!", "de": "Dann fangen wir sofort an!"}
+    ],
+    "fragen": [
+     {"frage": "Für wen ist das Projekt?", "optionen": ["für ein Hotel in Portimão", "für ein Restaurant in Lagos", "für eine Bank in Faro"], "richtig": 0},
+     {"frage": "Wie ist der Kunde?", "optionen": ["sehr freundlich", "äußerst anspruchsvoll", "sehr reich"], "richtig": 1},
+     {"frage": "Was ist das Problem?", "optionen": ["Das Budget ist klein.", "Der Kunde zahlt nicht.", "Die Frist ist sehr kurz."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Kollege Paulo fragt dich um Rat.",
+    "zeilen": [
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Qual é o melhor restaurante de Lagos para almoçar com clientes?", "de": "Welches ist das beste Restaurant in Lagos für ein Mittagessen mit Kunden?"},
+     {"ich": true, "aufgabe": "Sag: Das beste ist das Restaurant an der Marina.", "loesungen": ["O melhor é o restaurante da marina.", "O melhor é o restaurante na marina.", "O melhor é o restaurante junto à marina."]},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "É caro?", "de": "Ist es teuer?"},
+     {"ich": true, "aufgabe": "Sag: Ja, es ist sehr, sehr teuer, aber das Essen ist super.", "loesungen": ["Sim, é caríssimo, mas a comida é ótima.", "É caríssimo, mas a comida é ótima.", "Sim, é caríssimo, mas a comida é excelente.", "É caríssimo, mas a comida é excelente."]},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "E o projeto do hotel? Como está?", "de": "Und das Hotelprojekt? Wie läuft es?"},
+     {"ich": true, "aufgabe": "Sag: Es ist das schwierigste Projekt des Jahres.", "loesungen": ["É o projeto mais difícil do ano.", "É o projeto mais difícil do ano!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "projeto-mais-importante", "pt": "É o projeto mais importante do ano.", "de": "Es ist das wichtigste Projekt des Jahres."},
+    {"id": "pessoa-mais-eficiente", "pt": "Ela é a pessoa mais eficiente da equipa.", "de": "Sie ist die effizienteste Person im Team."},
+    {"id": "muitissimo-obrigado", "pt": "Muitíssimo obrigado!", "de": "Vielen, vielen Dank!"}
+   ]
+  },
+  {
+   "id": "A2-04-L06",
+   "typ": "neu",
+   "titel": "Aufgaben und Pflichten",
+   "vokabeln": ["e-preciso", "a-tarefa", "entregar", "cumprir", "o-relatorio", "a-responsabilidade", "terminar"],
+   "grammatik": {
+    "titel": "ter de, dever, é preciso",
+    "erklaerung": [
+     "<b>ter de</b> + Infinitiv = müssen (Pflicht von außen): <i>Tenho de entregar o relatório até sexta.</i> Umgangssprachlich auch <i>ter que</i>.",
+     "<b>dever</b> + Infinitiv = sollen / sollte (Rat, Erwartung): <i>Deves descansar mais.</i> Auch Vermutung: <i>Ele deve estar em reunião.</i> (Er ist wohl in einer Besprechung.)",
+     "<b>é preciso</b> + Infinitiv = man muss / es ist nötig (unpersönlich): <i>É preciso cumprir o prazo.</i>",
+     "Vorsicht bei der Verneinung: <i>Não tens de vir.</i> = Du musst nicht kommen. – <i>Não deves vir.</i> = Du solltest nicht kommen.",
+     "Vergangenheit kennst du schon: <i>Tive de trabalhar até tarde.</i> (Ich musste bis spät arbeiten.)"
+    ],
+    "vergleich": "„müssen“ = <i>ter de</i>, „sollen“ = <i>dever</i>. Falle: „Du musst nicht“ ist <i>não tens de</i> – <i>não deves</i> heißt „du solltest nicht“. Im Englischen ist es genauso: you don’t have to ≠ you shouldn’t.",
+    "beispiele": [
+     {"pt": "Tenho de terminar o relatório hoje.", "de": "Ich muss den Bericht heute fertig machen."},
+     {"pt": "É preciso cumprir o prazo.", "de": "Man muss die Frist einhalten."},
+     {"pt": "Não deves trabalhar ao fim de semana.", "de": "Du solltest am Wochenende nicht arbeiten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ de entregar o relatório hoje. (ter)", "loesungen": ["tenho"], "de": "Ich muss den Bericht heute abgeben.", "kategorie": "ter de"},
+     {"typ": "luecke", "satz": "É ___ terminar a tarefa até amanhã.", "loesungen": ["preciso"], "de": "Man muss die Aufgabe bis morgen erledigen.", "kategorie": "ter de"},
+     {"typ": "luecke", "satz": "O chefe ___ estar em reunião. (dever – Vermutung)", "loesungen": ["deve"], "de": "Der Chef ist wohl in einer Besprechung.", "kategorie": "dever"},
+     {"typ": "auswahl", "frage": "„Du musst nicht kommen.“ (tu)", "optionen": ["Não deves vir.", "Não tens de vir.", "Não tens vir."], "richtig": 1, "erklaerung": "„nicht müssen“ = não ter de. „Não deves vir“ = Du solltest nicht kommen.", "kategorie": "ter de"},
+     {"typ": "auswahl", "frage": "„Sie sollten sich mehr ausruhen.“ (formell)", "optionen": ["Deve descansar mais.", "Tem descansar mais.", "É preciso descansa mais."], "richtig": 0, "kategorie": "dever"},
+     {"typ": "uebersetzen", "de": "Wir müssen die Frist einhalten.", "loesungen": ["Temos de cumprir o prazo.", "Temos que cumprir o prazo.", "É preciso cumprir o prazo."]},
+     {"typ": "uebersetzen", "de": "Das ist meine Verantwortung.", "loesungen": ["É a minha responsabilidade.", "Isso é a minha responsabilidade.", "Isto é a minha responsabilidade.", "É responsabilidade minha.", "Isso é responsabilidade minha."]},
+     {"typ": "satzbau", "de": "Ich muss den Bericht bis Freitag abgeben.", "loesung": "Tenho de entregar o relatório até sexta-feira."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O prazo – die Frist",
+    "situation": "Der Chef Rui kommt an Stefans Schreibtisch.",
+    "zeilen": [
+     {"sprecher": "Rui", "stimme": "m", "pt": "Stefan, o relatório para o hotel tem de estar pronto até sexta.", "de": "Stefan, der Bericht für das Hotel muss bis Freitag fertig sein."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Até sexta? É muito pouco tempo. Ainda tenho de terminar a análise.", "de": "Bis Freitag? Das ist sehr wenig Zeit. Ich muss die Analyse noch fertig machen."},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Eu sei, mas é preciso cumprir o prazo. O cliente é exigentíssimo.", "de": "Ich weiß, aber die Frist muss eingehalten werden. Der Kunde ist äußerst anspruchsvoll."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. A Marta pode ajudar-me com os números?", "de": "In Ordnung. Kann Marta mir mit den Zahlen helfen?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Pode, mas a responsabilidade é tua. E não deves trabalhar outra vez até à meia-noite!", "de": "Ja, aber die Verantwortung liegt bei dir. Und du solltest nicht wieder bis Mitternacht arbeiten!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Prometo que não!", "de": "Versprochen!"}
+    ],
+    "fragen": [
+     {"frage": "Bis wann muss der Bericht fertig sein?", "optionen": ["bis Montag", "bis Freitag", "bis morgen"], "richtig": 1},
+     {"frage": "Was muss Stefan noch fertig machen?", "optionen": ["die Analyse", "die Präsentation", "das Protokoll"], "richtig": 0},
+     {"frage": "Was sagt der Chef am Ende?", "optionen": ["Marta ist verantwortlich.", "Die Frist wird verlängert.", "Stefan soll nicht wieder bis Mitternacht arbeiten."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich muss heute den Bericht abgeben.", "loesungen": ["Tenho de entregar o relatório hoje.", "Hoje tenho de entregar o relatório.", "Tenho que entregar o relatório hoje.", "Hoje tenho que entregar o relatório."]},
+     {"de": "Man muss die Frist einhalten.", "loesungen": ["É preciso cumprir o prazo."]},
+     {"de": "Du solltest weniger arbeiten. (tu)", "loesungen": ["Deves trabalhar menos."]},
+     {"de": "Sie müssen nicht warten. (formell)", "loesungen": ["Não tem de esperar.", "Não tem que esperar.", "O senhor não tem de esperar.", "A senhora não tem de esperar.", "Não precisa de esperar."]},
+     {"de": "Er ist wohl im Büro.", "loesungen": ["Ele deve estar no escritório.", "Deve estar no escritório."]}
+    ]
+   },
+   "saetze": [
+    {"id": "tenho-de-entregar", "pt": "Tenho de entregar o relatório até sexta.", "de": "Ich muss den Bericht bis Freitag abgeben."},
+    {"id": "e-preciso-cumprir", "pt": "É preciso cumprir o prazo.", "de": "Man muss die Frist einhalten."},
+    {"id": "deve-estar-em-reuniao", "pt": "Ele deve estar em reunião.", "de": "Er ist wohl in einer Besprechung."}
+   ]
+  },
+  {
+   "id": "A2-04-L07",
+   "typ": "neu",
+   "titel": "Besprechungen",
+   "vokabeln": ["a-ordem-de-trabalhos", "adiar", "a-proposta", "a-apresentacao", "a-ata", "concordar", "discutir", "a-decisao"],
+   "grammatik": {
+    "titel": "Vorschlagen, zustimmen, verschieben",
+    "erklaerung": [
+     "Vorschlagen: <b>Proponho</b> + Infinitiv: <i>Proponho adiar a reunião.</i> – höflicher: <b>Podíamos</b> + Infinitiv (wir könnten): <i>Podíamos discutir isso amanhã.</i> – <b>Que tal</b> …? <i>Que tal sexta-feira?</i>",
+     "Zustimmen und widersprechen: <i>Concordo.</i> – <i>Não concordo.</i> – <i>Concordo <b>com</b> a proposta / <b>com</b> o Rui.</i>",
+     "Verschieben: <b>adiar</b> + <b>para</b>: <i>Vamos adiar a decisão para a próxima semana.</i>",
+     "Mit Pronomen (aus A2-03): <i>A apresentação? Podíamos adiá-la.</i>",
+     "Vergleiche bleiben wichtig: <i>A proposta A é mais barata, mas a B é melhor.</i>"
+    ],
+    "vergleich": "„einverstanden sein mit“ = <i>concordar com</i>; „verschieben auf“ = <i>adiar para</i>. Englisch: agree with, postpone to. „Das Protokoll“ einer Sitzung ist <i>a ata</i> – <i>o protocolo</i> ist eher eine Vereinbarung oder das diplomatische Protokoll.",
+    "beispiele": [
+     {"pt": "Proponho adiar a apresentação para segunda.", "de": "Ich schlage vor, die Präsentation auf Montag zu verschieben."},
+     {"pt": "Concordo com a proposta da Marta.", "de": "Ich bin mit Martas Vorschlag einverstanden."},
+     {"pt": "Hoje temos de tomar uma decisão.", "de": "Heute müssen wir eine Entscheidung treffen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Concordo ___ a proposta.", "loesungen": ["com"], "de": "Ich bin mit dem Vorschlag einverstanden.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Vamos adiar a reunião ___ segunda-feira.", "loesungen": ["para"], "de": "Wir verschieben die Besprechung auf Montag.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "___ discutir isso amanhã. (wir könnten)", "loesungen": ["Podíamos"], "de": "Wir könnten das morgen besprechen.", "kategorie": "Vorschläge"},
+     {"typ": "auswahl", "frage": "„Ich bin nicht einverstanden.“", "optionen": ["Não estou concorde.", "Não acordo.", "Não concordo."], "richtig": 2, "kategorie": "Vorschläge"},
+     {"typ": "auswahl", "frage": "„Wer schreibt das Protokoll?“", "optionen": ["Quem escreve a ata?", "Quem escreve o protocolo?", "Quem escreve a acta?"], "richtig": 0, "erklaerung": "Sitzungsprotokoll = a ata (neue Rechtschreibung, früher acta).", "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Was steht auf der Tagesordnung?", "loesungen": ["O que está na ordem de trabalhos?", "O que é que está na ordem de trabalhos?", "O que há na ordem de trabalhos?"]},
+     {"typ": "uebersetzen", "de": "Wir müssen heute eine Entscheidung treffen.", "loesungen": ["Temos de tomar uma decisão hoje.", "Temos que tomar uma decisão hoje.", "Hoje temos de tomar uma decisão.", "Hoje temos que tomar uma decisão."]},
+     {"typ": "satzbau", "de": "Ich schlage vor, die Präsentation zu verschieben.", "loesung": "Proponho adiar a apresentação."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A reunião de segunda – die Montagsbesprechung",
+    "situation": "Rui, Marta und Stefan im Besprechungsraum.",
+    "zeilen": [
+     {"sprecher": "Rui", "stimme": "m", "pt": "Bom dia. Na ordem de trabalhos temos dois pontos: a proposta para o hotel e a apresentação de quinta.", "de": "Guten Morgen. Auf der Tagesordnung stehen zwei Punkte: das Angebot für das Hotel und die Präsentation am Donnerstag."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Sobre a proposta: a versão A é mais barata, mas a versão B é melhor para o cliente.", "de": "Zum Angebot: Version A ist günstiger, aber Version B ist besser für den Kunden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Concordo com a Marta. Proponho enviar a versão B.", "de": "Ich stimme Marta zu. Ich schlage vor, Version B zu schicken."},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Está bem, está decidido. E a apresentação?", "de": "Gut, dann ist das entschieden. Und die Präsentation?"},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Ainda não está pronta. Podíamos adiá-la para a próxima semana?", "de": "Sie ist noch nicht fertig. Könnten wir sie auf nächste Woche verschieben?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Pode ser. Stefan, escreves tu a ata?", "de": "Einverstanden. Stefan, schreibst du das Protokoll?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Escrevo, sim.", "de": "Ja, mache ich."}
+    ],
+    "fragen": [
+     {"frage": "Wie viele Punkte stehen auf der Tagesordnung?", "optionen": ["einer", "zwei", "drei"], "richtig": 1},
+     {"frage": "Welche Version schicken sie dem Kunden?", "optionen": ["Version B", "Version A", "beide"], "richtig": 0},
+     {"frage": "Wer schreibt das Protokoll?", "optionen": ["Marta", "Rui", "Stefan"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Besprechung mit dem Chef über das Angebot eines Lieferanten.",
+    "zeilen": [
+     {"sprecher": "Rui", "stimme": "m", "pt": "Então, o que acham da proposta do fornecedor?", "de": "Also, was haltet ihr vom Angebot des Lieferanten?"},
+     {"ich": true, "aufgabe": "Sag: Ich bin einverstanden, aber es ist sehr teuer.", "loesungen": ["Concordo, mas é muito cara.", "Eu concordo, mas é muito cara.", "Concordo, mas é caríssima.", "Concordo, mas a proposta é muito cara."]},
+     {"sprecher": "Rui", "stimme": "m", "pt": "E quando podemos discutir o orçamento?", "de": "Und wann können wir das Budget besprechen?"},
+     {"ich": true, "aufgabe": "Sag: Wir könnten das am Donnerstag besprechen.", "loesungen": ["Podíamos discutir isso na quinta.", "Podíamos discutir isso na quinta-feira.", "Podíamos discuti-lo na quinta.", "Podíamos discuti-lo na quinta-feira.", "Podíamos discutir isto na quinta.", "Podíamos discutir isto na quinta-feira."]},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Na quinta tenho outra reunião.", "de": "Am Donnerstag habe ich eine andere Besprechung."},
+     {"ich": true, "aufgabe": "Sag: Dann schlage ich vor, die Entscheidung auf nächste Woche zu verschieben.", "loesungen": ["Então proponho adiar a decisão para a próxima semana.", "Então proponho adiar a decisão para a semana que vem.", "Proponho adiar a decisão para a próxima semana.", "Proponho adiar a decisão para a semana que vem."]}
+    ]
+   },
+   "saetze": [
+    {"id": "proponho-adiar", "pt": "Proponho adiar a reunião para segunda.", "de": "Ich schlage vor, die Besprechung auf Montag zu verschieben."},
+    {"id": "concordo-com", "pt": "Concordo com a proposta.", "de": "Ich bin mit dem Vorschlag einverstanden."},
+    {"id": "ordem-de-trabalhos", "pt": "O que está na ordem de trabalhos?", "de": "Was steht auf der Tagesordnung?"}
+   ]
+  },
+  {
+   "id": "A2-04-L08",
+   "typ": "neu",
+   "titel": "Berufliche E-Mails und Telefonate",
+   "vokabeln": ["caro-email", "com-os-melhores-cumprimentos", "em-anexo-envio", "o-assunto", "reencaminhar", "fico-a-aguardar", "a-chamada", "nao-se-encontra"],
+   "grammatik": {
+    "titel": "Formelle E-Mails und Telefonate",
+    "erklaerung": [
+     "Anrede: <b>Caro</b> Sr. Silva, / <b>Cara</b> Dra. Costa, (höflich, üblich). Sehr formell: <b>Exmo. Senhor</b> / <b>Exma. Senhora</b>. Titel sind in Portugal wichtig: <i>Dr., Dra., Eng.</i>",
+     "Einstieg: <i>Na sequência da nossa conversa …</i> (Im Anschluss an unser Gespräch …) – <i>Em anexo envio …</i> (Anbei sende ich …).",
+     "Schluss: <i>Fico a aguardar a sua resposta.</i> – <i>Com os melhores cumprimentos,</i> (Mit freundlichen Grüßen).",
+     "Am Telefon: <i>Queria falar com a Dra. Costa, por favor.</i> – <i>De momento não se encontra. Quer deixar recado?</i> (nach <i>não</i> steht <i>se</i> vor dem Verb).",
+     "Formell schreibt man in der 3. Person ohne Pronomen: <i>Pode enviar-me …?</i> – nie <i>você</i>."
+    ],
+    "vergleich": "„Sehr geehrter Herr …“ = <i>Exmo. Senhor</i>; im Geschäftsalltag reicht <i>Caro Sr. …</i>. „Mit freundlichen Grüßen“ = <i>Com os melhores cumprimentos</i> (kürzer: <i>Cumprimentos</i>). Doktortitel bekommt in Portugal fast jeder mit Uni-Abschluss: <i>Dr. / Dra.</i>",
+    "beispiele": [
+     {"pt": "Cara Dra. Costa, em anexo envio a proposta.", "de": "Sehr geehrte Frau Dr. Costa, anbei sende ich das Angebot."},
+     {"pt": "Fico a aguardar a sua resposta.", "de": "Ich freue mich auf Ihre Antwort."},
+     {"pt": "De momento não se encontra. Quer deixar recado?", "de": "Im Moment ist sie nicht da. Möchten Sie eine Nachricht hinterlassen?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ Sr. Silva,", "loesungen": ["Caro"], "de": "Sehr geehrter Herr Silva, (E-Mail-Anrede)", "kategorie": "Briefformeln"},
+     {"typ": "luecke", "satz": "Em ___ envio a proposta.", "loesungen": ["anexo"], "de": "Anbei sende ich das Angebot.", "kategorie": "Briefformeln"},
+     {"typ": "luecke", "satz": "Fico a ___ a sua resposta.", "loesungen": ["aguardar"], "de": "Ich freue mich auf Ihre Antwort.", "kategorie": "Briefformeln"},
+     {"typ": "auswahl", "frage": "„Mit freundlichen Grüßen“", "optionen": ["Com amigáveis saudações", "Com os melhores cumprimentos", "Muitos beijinhos"], "richtig": 1, "kategorie": "Briefformeln"},
+     {"typ": "auswahl", "frage": "„Sie ist im Moment nicht da.“ (Telefon, formell)", "optionen": ["De momento não se encontra.", "De momento não encontra-se.", "De momento se não encontra."], "richtig": 0, "erklaerung": "Nach não steht se vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Anbei sende ich den Bericht.", "loesungen": ["Em anexo envio o relatório.", "Envio em anexo o relatório.", "Envio o relatório em anexo."]},
+     {"typ": "uebersetzen", "de": "Können Sie mir die E-Mail weiterleiten?", "loesungen": ["Pode reencaminhar-me o e-mail?", "Pode-me reencaminhar o e-mail?", "Podia reencaminhar-me o e-mail?"]},
+     {"typ": "satzbau", "de": "Der Betreff der E-Mail ist die Besprechung am Montag.", "loesung": "O assunto do e-mail é a reunião de segunda-feira."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um telefonema – ein Anruf",
+    "situation": "Stefan ruft beim Hotel in Portimão an.",
+    "zeilen": [
+     {"sprecher": "Joana", "stimme": "f", "pt": "Hotel Mar Azul, bom dia. Fala a Joana.", "de": "Hotel Mar Azul, guten Tag. Sie sprechen mit Joana."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Fala o Stefan Krenn, consultor. Queria falar com a Dra. Costa, por favor.", "de": "Guten Tag. Hier spricht Stefan Krenn, Berater. Ich möchte bitte Frau Dr. Costa sprechen."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "De momento não se encontra, está numa reunião. Quer deixar recado?", "de": "Sie ist im Moment nicht da, sie ist in einer Besprechung. Möchten Sie eine Nachricht hinterlassen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim. Ontem enviei a proposta por e-mail, mas ainda não recebi resposta.", "de": "Ja. Gestern habe ich das Angebot per E-Mail geschickt, aber noch keine Antwort bekommen."},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Vou verificar. Qual é o assunto do e-mail?", "de": "Ich schaue nach. Was ist der Betreff der E-Mail?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "„Proposta – projeto Portimão“. Pode dizer à Dra. Costa que liguei?", "de": "„Angebot – Projekt Portimão“. Können Sie Frau Dr. Costa sagen, dass ich angerufen habe?"},
+     {"sprecher": "Joana", "stimme": "f", "pt": "Com certeza. Ela volta às três.", "de": "Selbstverständlich. Sie ist um drei zurück."}
+    ],
+    "fragen": [
+     {"frage": "Mit wem möchte Stefan sprechen?", "optionen": ["mit Joana", "mit Frau Dr. Costa", "mit dem Hoteldirektor"], "richtig": 1},
+     {"frage": "Warum kann sie nicht ans Telefon?", "optionen": ["Sie ist in einer Besprechung.", "Sie ist im Urlaub.", "Sie ist krank."], "richtig": 0},
+     {"frage": "Wann ist sie zurück?", "optionen": ["um zwei", "um vier", "um drei"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib eine kurze geschäftliche E-Mail – Zeile für Zeile.",
+    "aufgaben": [
+     {"de": "Sehr geehrte Frau Dr. Costa, (geschäftlich, üblich)", "loesungen": ["Cara Dra. Costa,", "Cara Dra. Costa", "Cara Doutora Costa,", "Cara Doutora Costa"]},
+     {"de": "Anbei sende ich den Kostenvoranschlag.", "loesungen": ["Em anexo envio o orçamento.", "Envio em anexo o orçamento.", "Envio o orçamento em anexo."]},
+     {"de": "Das Angebot ist günstiger als das letzte.", "loesungen": ["A proposta é mais barata do que a última.", "A proposta é mais barata que a última.", "A proposta é mais barata do que a anterior.", "A proposta é mais barata que a anterior."]},
+     {"de": "Ich freue mich auf Ihre Antwort.", "loesungen": ["Fico a aguardar a sua resposta."]},
+     {"de": "Mit freundlichen Grüßen", "loesungen": ["Com os melhores cumprimentos", "Com os melhores cumprimentos,", "Cumprimentos", "Cumprimentos,"]}
+    ]
+   },
+   "saetze": [
+    {"id": "em-anexo-envio-proposta", "pt": "Em anexo envio a proposta.", "de": "Anbei sende ich das Angebot."},
+    {"id": "fico-a-aguardar-resposta", "pt": "Fico a aguardar a sua resposta.", "de": "Ich freue mich auf Ihre Antwort."},
+    {"id": "queria-falar-com", "pt": "Queria falar com a Dra. Costa, por favor.", "de": "Ich möchte bitte Frau Dr. Costa sprechen."}
+   ]
+  },
+  {"id": "A2-04-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-04-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "O novo emprego do Pedro – Pedros neue Stelle",
+   "situation": "Stefan und Pedro treffen sich auf ein Bier.",
+   "zeilen": [
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Então, Pedro, como é o novo emprego?", "de": "Na, Pedro, wie ist die neue Stelle?"},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "É muito melhor do que o antigo! O escritório é maior e os colegas são muito simpáticos.", "de": "Viel besser als die alte! Das Büro ist größer und die Kollegen sind sehr nett."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E o salário?", "de": "Und das Gehalt?"},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "O salário é tão bom como antes, mas faço menos horas extra.", "de": "Das Gehalt ist so gut wie vorher, aber ich mache weniger Überstunden."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E a chefe?", "de": "Und die Chefin?"},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "É exigente. Temos de entregar um relatório todas as semanas. Mas é a chefe mais justa que já tive.", "de": "Sie ist anspruchsvoll. Wir müssen jede Woche einen Bericht abgeben. Aber sie ist die fairste Chefin, die ich je hatte."}
+   ],
+   "fragen": [
+    {"frage": "Wie ist das neue Büro?", "optionen": ["kleiner", "größer", "gleich groß"], "richtig": 1},
+    {"frage": "Wie ist das Gehalt?", "optionen": ["besser als vorher", "schlechter als vorher", "genauso gut wie vorher"], "richtig": 2},
+    {"frage": "Was ist jetzt besser für Pedro?", "optionen": ["Er macht weniger Überstunden.", "Er hat mehr Urlaub.", "Er arbeitet von zu Hause."], "richtig": 0},
+    {"frage": "Was muss Pedro jede Woche machen?", "optionen": ["eine Präsentation halten", "einen Bericht abgeben", "das Protokoll schreiben"], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Um e-mail do hotel – eine E-Mail vom Hotel",
+   "situation": "Frau Dr. Costa antwortet auf Stefans Angebot.",
+   "text": [
+    "Caro Sr. Krenn,",
+    "muito obrigada pela sua proposta. Recebemos três propostas e comparámo-las com atenção: a sua não é a mais barata, mas é a mais completa e a mais clara.",
+    "Antes da decisão final, é preciso discutir alguns pontos. Proponho uma reunião na próxima terça-feira, às 15h00, no nosso escritório em Portimão.",
+    "Em anexo envio a ordem de trabalhos.",
+    "Fico a aguardar a sua confirmação.",
+    "Com os melhores cumprimentos,",
+    "Helena Costa"
+   ],
+   "fragen": [
+    {"frage": "Wie viele Angebote hat das Hotel bekommen?", "optionen": ["zwei", "drei", "vier"], "richtig": 1},
+    {"frage": "Wie ist Stefans Angebot?", "optionen": ["das billigste", "das teuerste", "das vollständigste und klarste"], "richtig": 2},
+    {"frage": "Wann ist die Besprechung?", "optionen": ["nächsten Dienstag um 15 Uhr", "nächsten Donnerstag um 15 Uhr", "morgen um 10 Uhr"], "richtig": 0},
+    {"frage": "Was liegt der E-Mail bei?", "optionen": ["der Vertrag", "die Tagesordnung", "die Rechnung"], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Marta ist organisierter als Paulo.", "loesungen": ["A Marta é mais organizada do que o Paulo.", "A Marta é mais organizada que o Paulo."]},
+   {"de": "Ich habe so viel Arbeit wie du. (tu)", "loesungen": ["Tenho tanto trabalho como tu.", "Eu tenho tanto trabalho como tu."]},
+   {"de": "Dieses Jahr sind die Ergebnisse besser.", "loesungen": ["Este ano os resultados são melhores.", "Os resultados são melhores este ano.", "Este ano os resultados estão melhores.", "Os resultados estão melhores este ano."]},
+   {"de": "Es ist das wichtigste Projekt der Firma.", "loesungen": ["É o projeto mais importante da empresa."]},
+   {"de": "Wir müssen den Bericht bis Freitag abgeben.", "loesungen": ["Temos de entregar o relatório até sexta.", "Temos de entregar o relatório até sexta-feira.", "Temos que entregar o relatório até sexta.", "Temos que entregar o relatório até sexta-feira."]},
+   {"de": "Anbei sende ich die Tagesordnung.", "loesungen": ["Em anexo envio a ordem de trabalhos.", "Envio em anexo a ordem de trabalhos.", "Envio a ordem de trabalhos em anexo."]}
+  ],
+  "sprechen": [
+   {"pt": "A minha secretária fica ao lado da janela.", "de": "Mein Schreibtisch steht neben dem Fenster."},
+   {"pt": "O Paulo é menos pontual do que a Marta.", "de": "Paulo ist weniger pünktlich als Marta."},
+   {"pt": "As vendas estão muito melhores.", "de": "Die Verkäufe sind viel besser."},
+   {"pt": "É preciso cumprir o prazo.", "de": "Man muss die Frist einhalten."},
+   {"pt": "Fico a aguardar a sua resposta.", "de": "Ich freue mich auf Ihre Antwort."}
+  ]
+ }
+}

@@ -1,0 +1,653 @@
+{
+ "id": "A2-03",
+ "level": "A2",
+ "titel": "Reparações em casa – Handwerker",
+ "beschreibung": "Schäden im Haus beschreiben, Handwerker anrufen, Kostenvoranschläge verstehen und beim Vermieter nachhaken: direkte Objektpronomen o/a/os/as mit Enklise (Vi-o) und Proklise (Não o vi), -lo/-la nach Infinitiv und -no/-na nach Nasal.",
+ "vokabeln": [
+  {"id": "a-fuga-de-agua", "pt": "a fuga de água", "de": "das Wasserleck", "emoji": "🌊", "beispiel_pt": "Há uma fuga de água na cozinha.", "beispiel_de": "In der Küche gibt es ein Wasserleck."},
+  {"id": "entupido", "pt": "entupido", "de": "verstopft", "emoji": "🚽", "beispiel_pt": "O lava-loiça está entupido.", "beispiel_de": "Die Spüle ist verstopft.", "hinweis": "o lava-loiça = die Spüle, a sanita = die Toilette", "alternativen": ["entupida"]},
+  {"id": "a-humidade", "pt": "a humidade", "de": "die Feuchtigkeit", "emoji": "💦", "beispiel_pt": "Há muita humidade no quarto.", "beispiel_de": "Im Schlafzimmer ist es sehr feucht.", "hinweis": "In Portugal mit h: humidade"},
+  {"id": "o-bolor", "pt": "o bolor", "de": "der Schimmel", "emoji": "🦠", "beispiel_pt": "Por causa da humidade, há bolor na parede.", "beispiel_de": "Wegen der Feuchtigkeit ist Schimmel an der Wand."},
+  {"id": "partido", "pt": "partido", "de": "zerbrochen / kaputt (Glas, Geschirr)", "emoji": "💔", "beispiel_pt": "O vidro da janela está partido.", "beispiel_de": "Die Fensterscheibe ist zerbrochen.", "hinweis": "partir = zerbrechen; Geräte sind dagegen avariado", "alternativen": ["partida"]},
+  {"id": "a-torneira", "pt": "a torneira", "de": "der Wasserhahn", "emoji": "🚰", "beispiel_pt": "A torneira da casa de banho não fecha bem.", "beispiel_de": "Der Wasserhahn im Bad schließt nicht richtig."},
+  {"id": "pingar", "pt": "pingar", "de": "tropfen", "emoji": "💧", "beispiel_pt": "A torneira está sempre a pingar.", "beispiel_de": "Der Wasserhahn tropft ständig."},
+  {"id": "o-cano", "pt": "o cano", "de": "das (Wasser-)Rohr", "emoji": "🔩", "beispiel_pt": "A fuga é no cano debaixo do lavatório.", "beispiel_de": "Das Leck ist im Rohr unter dem Waschbecken.", "hinweis": "o lavatório = das Waschbecken"},
+
+  {"id": "o-canalizador", "pt": "o canalizador", "de": "der Installateur / Klempner", "emoji": "🔧", "beispiel_pt": "O canalizador vem amanhã de manhã.", "beispiel_de": "Der Installateur kommt morgen Vormittag.", "hinweis": "a canalizadora; in Brasilien sagt man encanador", "alternativen": ["a canalizadora"]},
+  {"id": "o-eletricista", "pt": "o eletricista", "de": "der Elektriker", "emoji": "⚡", "beispiel_pt": "Chamámos um eletricista.", "beispiel_de": "Wir haben einen Elektriker gerufen.", "hinweis": "die Elektrikerin = a eletricista (gleiche Form)", "alternativen": ["a eletricista"]},
+  {"id": "o-pintor", "pt": "o pintor", "de": "der Maler / Anstreicher", "emoji": "🖌️", "beispiel_pt": "O pintor vai pintar a sala.", "beispiel_de": "Der Maler wird das Wohnzimmer streichen.", "alternativen": ["a pintora"]},
+  {"id": "o-pedreiro", "pt": "o pedreiro", "de": "der Maurer / Bauarbeiter", "emoji": "🧱", "beispiel_pt": "O pedreiro arranjou a parede da varanda.", "beispiel_de": "Der Maurer hat die Wand am Balkon repariert."},
+  {"id": "o-tecnico", "pt": "o técnico", "de": "der Techniker / Servicetechniker", "emoji": "🧑‍🔧", "beispiel_pt": "O técnico do ar condicionado chega às dez.", "beispiel_de": "Der Techniker für die Klimaanlage kommt um zehn.", "alternativen": ["a técnica"]},
+  {"id": "o-serralheiro", "pt": "o serralheiro", "de": "der Schlosser / Schlüsseldienst", "emoji": "🗝️", "beispiel_pt": "Perdi a chave e tive de chamar um serralheiro.", "beispiel_de": "Ich habe den Schlüssel verloren und musste den Schlüsseldienst rufen."},
+  {"id": "a-avaria", "pt": "a avaria", "de": "der Defekt / die Panne", "emoji": "⚠️", "beispiel_pt": "Há uma avaria no esquentador.", "beispiel_de": "Der Boiler hat einen Defekt.", "hinweis": "avariado = kaputt (Gerät)"},
+  {"id": "arranjar", "pt": "arranjar", "de": "reparieren / besorgen", "emoji": "🛠️", "beispiel_pt": "O canalizador arranjou a torneira.", "beispiel_de": "Der Installateur hat den Wasserhahn repariert.", "hinweis": "In Portugal das übliche Wort für „reparieren“; auch: besorgen (arranjar um emprego)"},
+
+  {"id": "a-lampada", "pt": "a lâmpada", "de": "die Glühbirne", "emoji": "💡", "beispiel_pt": "A lâmpada da cozinha fundiu-se.", "beispiel_de": "Die Glühbirne in der Küche ist durchgebrannt."},
+  {"id": "o-interruptor", "pt": "o interruptor", "de": "der Lichtschalter", "emoji": "🎚️", "beispiel_pt": "O interruptor do corredor não funciona.", "beispiel_de": "Der Lichtschalter im Flur funktioniert nicht."},
+  {"id": "a-tomada", "pt": "a tomada", "de": "die Steckdose", "emoji": "🔌", "beispiel_pt": "A tomada da sala está avariada.", "beispiel_de": "Die Steckdose im Wohnzimmer ist kaputt."},
+  {"id": "o-quadro-eletrico", "pt": "o quadro elétrico", "de": "der Sicherungskasten", "emoji": "🗄️", "beispiel_pt": "Foi-se a luz. Vou ver o quadro elétrico.", "beispiel_de": "Der Strom ist weg. Ich schaue im Sicherungskasten nach.", "hinweis": "Foi-se a luz. = Der Strom ist ausgefallen."},
+  {"id": "verificar", "pt": "verificar", "de": "überprüfen", "emoji": "🔍", "beispiel_pt": "O eletricista verificou as tomadas.", "beispiel_de": "Der Elektriker hat die Steckdosen überprüft.", "hinweis": "eu verifiquei (c → qu)"},
+  {"id": "desligar", "pt": "desligar", "de": "ausschalten / auflegen", "emoji": "📴", "beispiel_pt": "Desliguei a luz antes de mudar a lâmpada.", "beispiel_de": "Ich habe das Licht ausgeschaltet, bevor ich die Glühbirne gewechselt habe.", "hinweis": "ligar = einschalten / anrufen; eu desliguei (g → gu)"},
+
+  {"id": "ja", "pt": "já", "de": "schon / bereits", "emoji": "✅", "beispiel_pt": "A torneira? Já a arranjei.", "beispiel_de": "Der Wasserhahn? Den habe ich schon repariert.", "hinweis": "Nach já steht das Pronomen vor dem Verb."},
+  {"id": "ainda-nao", "pt": "ainda não", "de": "noch nicht", "emoji": "⏳", "beispiel_pt": "O técnico? Ainda não o vi.", "beispiel_de": "Den Techniker? Den habe ich noch nicht gesehen."},
+  {"id": "a-fechadura", "pt": "a fechadura", "de": "das (Tür-)Schloss", "emoji": "🔒", "beispiel_pt": "A fechadura da porta está estragada.", "beispiel_de": "Das Türschloss ist kaputt."},
+  {"id": "o-estore", "pt": "o estore", "de": "der Rollladen", "emoji": "🪟", "beispiel_pt": "O estore do quarto não sobe.", "beispiel_de": "Der Rollladen im Schlafzimmer geht nicht hoch.", "hinweis": "In Portugal hat fast jedes Fenster estores."},
+  {"id": "encravado", "pt": "encravado", "de": "verklemmt / blockiert", "emoji": "🗜️", "beispiel_pt": "A janela está encravada.", "beispiel_de": "Das Fenster klemmt.", "alternativen": ["encravada"]},
+  {"id": "estragado", "pt": "estragado", "de": "kaputt / beschädigt / verdorben", "emoji": "🥀", "beispiel_pt": "O leite está estragado.", "beispiel_de": "Die Milch ist schlecht.", "hinweis": "auch für Lebensmittel: verdorben", "alternativen": ["estragada"]},
+  {"id": "o-teto", "pt": "o teto", "de": "die (Zimmer-)Decke", "emoji": "⬆️", "beispiel_pt": "Há uma mancha de humidade no teto.", "beispiel_de": "An der Decke ist ein Feuchtigkeitsfleck.", "hinweis": "Neue Rechtschreibung: teto (früher tecto)"},
+
+  {"id": "chamar", "pt": "chamar", "de": "rufen / holen", "emoji": "📣", "beispiel_pt": "Temos de chamar o canalizador.", "beispiel_de": "Wir müssen den Installateur rufen.", "hinweis": "chamar + o → chamá-lo"},
+  {"id": "pintar", "pt": "pintar", "de": "streichen / malen", "emoji": "🎨", "beispiel_pt": "Vamos pintar a sala de branco.", "beispiel_de": "Wir streichen das Wohnzimmer weiß."},
+  {"id": "limpar", "pt": "limpar", "de": "putzen / reinigen", "emoji": "🧽", "beispiel_pt": "Tenho de limpar o bolor da parede.", "beispiel_de": "Ich muss den Schimmel von der Wand entfernen."},
+  {"id": "substituir", "pt": "substituir", "de": "ersetzen / austauschen", "emoji": "🔁", "beispiel_pt": "Temos de substituir o cano.", "beispiel_de": "Wir müssen das Rohr austauschen.", "hinweis": "substituir + o → substituí-lo (mit Akzent)"},
+  {"id": "instalar", "pt": "instalar", "de": "installieren / einbauen", "emoji": "🪛", "beispiel_pt": "O técnico vai instalar o esquentador novo.", "beispiel_de": "Der Techniker wird den neuen Boiler einbauen."},
+  {"id": "montar", "pt": "montar", "de": "montieren / aufbauen", "emoji": "🧰", "beispiel_pt": "O Stefan montou o armário sozinho.", "beispiel_de": "Stefan hat den Schrank allein aufgebaut."},
+  {"id": "a-tinta", "pt": "a tinta", "de": "die (Wand-)Farbe", "emoji": "🪣", "beispiel_pt": "Comprámos duas latas de tinta branca.", "beispiel_de": "Wir haben zwei Eimer weiße Farbe gekauft."},
+
+  {"id": "o-orcamento", "pt": "o orçamento", "de": "der Kostenvoranschlag", "emoji": "📋", "beispiel_pt": "Pode fazer-me um orçamento?", "beispiel_de": "Können Sie mir einen Kostenvoranschlag machen?", "hinweis": "auch: das Budget"},
+  {"id": "a-mao-de-obra", "pt": "a mão de obra", "de": "die Arbeitskosten / der Arbeitslohn", "emoji": "👷", "beispiel_pt": "A mão de obra custa trinta euros à hora.", "beispiel_de": "Die Arbeitszeit kostet dreißig Euro pro Stunde."},
+  {"id": "o-iva", "pt": "o IVA", "de": "die Mehrwertsteuer", "emoji": "🧾", "beispiel_pt": "O preço já inclui IVA?", "beispiel_de": "Ist die Mehrwertsteuer im Preis schon enthalten?", "hinweis": "Imposto sobre o Valor Acrescentado – Normalsatz 23 %"},
+  {"id": "o-material", "pt": "o material", "de": "das Material", "emoji": "📦", "beispiel_pt": "O material não está incluído no preço.", "beispiel_de": "Das Material ist nicht im Preis enthalten."},
+  {"id": "a-peca", "pt": "a peça", "de": "das (Ersatz-)Teil", "emoji": "⚙️", "beispiel_pt": "Tenho de encomendar a peça.", "beispiel_de": "Ich muss das Ersatzteil bestellen."},
+  {"id": "incluido", "pt": "incluído", "de": "inbegriffen / enthalten", "emoji": "➕", "beispiel_pt": "O IVA está incluído?", "beispiel_de": "Ist die Mehrwertsteuer inbegriffen?", "alternativen": ["incluída"]},
+  {"id": "o-recibo", "pt": "o recibo", "de": "die Quittung", "emoji": "🗒️", "beispiel_pt": "Pode passar-me um recibo?", "beispiel_de": "Können Sie mir eine Quittung ausstellen?", "hinweis": "passar recibo / passar fatura = ausstellen"},
+  {"id": "a-deslocacao", "pt": "a deslocação", "de": "die Anfahrt (Anfahrtskosten)", "emoji": "🚐", "beispiel_pt": "A deslocação custa vinte euros.", "beispiel_de": "Die Anfahrt kostet zwanzig Euro."},
+
+  {"id": "estou", "pt": "Estou?", "de": "Hallo? (beim Abheben am Telefon)", "emoji": "☎️", "beispiel_pt": "Estou? Quem fala?", "beispiel_de": "Hallo? Wer spricht?", "hinweis": "auch: Estou sim? – nur in Portugal"},
+  {"id": "fala", "pt": "Fala …", "de": "Hier spricht …", "emoji": "🗣️", "beispiel_pt": "Bom dia, fala o Stefan Krenn.", "beispiel_de": "Guten Tag, hier spricht Stefan Krenn.", "hinweis": "auch: É o Stefan. / Daqui fala o Stefan."},
+  {"id": "atender", "pt": "atender", "de": "(ans Telefon) rangehen / abheben", "emoji": "📞", "beispiel_pt": "O canalizador não atende o telemóvel.", "beispiel_de": "Der Installateur geht nicht ans Handy."},
+  {"id": "o-recado", "pt": "o recado", "de": "die Nachricht (für jemanden)", "emoji": "📝", "beispiel_pt": "Quer deixar recado?", "beispiel_de": "Möchten Sie eine Nachricht hinterlassen?"},
+  {"id": "combinar", "pt": "combinar", "de": "vereinbaren / ausmachen", "emoji": "🤝", "beispiel_pt": "Combinámos para quinta-feira às nove.", "beispiel_de": "Wir haben Donnerstag um neun vereinbart."},
+  {"id": "disponivel", "pt": "disponível", "de": "verfügbar / frei (Zeit)", "emoji": "📆", "beispiel_pt": "Está disponível amanhã de manhã?", "beispiel_de": "Haben Sie morgen Vormittag Zeit?"},
+  {"id": "quando-pode-vir", "pt": "Quando pode vir?", "de": "Wann können Sie kommen?", "emoji": "🕒", "beispiel_pt": "Quando é que pode cá vir ver a avaria?", "beispiel_de": "Wann können Sie vorbeikommen und sich den Defekt anschauen?", "hinweis": "cá = hierher (zu mir)"},
+  {"id": "dar-um-salto", "pt": "dar um salto", "de": "kurz vorbeikommen / vorbeischauen", "emoji": "🦘", "beispiel_pt": "Amanhã posso dar aí um salto.", "beispiel_de": "Morgen kann ich kurz bei Ihnen vorbeikommen.", "hinweis": "umgangssprachlich, sehr häufig: dar um salto a / dar aí um salto"},
+
+  {"id": "resolver", "pt": "resolver", "de": "lösen / erledigen", "emoji": "🧩", "beispiel_pt": "Temos de resolver isto esta semana.", "beispiel_de": "Wir müssen das diese Woche lösen."},
+  {"id": "o-problema", "pt": "o problema", "de": "das Problem", "emoji": "❗", "beispiel_pt": "O problema continua.", "beispiel_de": "Das Problem besteht weiterhin.", "hinweis": "männlich trotz -a: o problema"},
+  {"id": "o-inquilino", "pt": "o inquilino", "de": "der Mieter", "emoji": "🏠", "beispiel_pt": "Sou inquilino, não sou o dono da casa.", "beispiel_de": "Ich bin Mieter, nicht der Eigentümer des Hauses.", "alternativen": ["a inquilina"]},
+  {"id": "prometer", "pt": "prometer", "de": "versprechen", "emoji": "🤞", "beispiel_pt": "O senhorio prometeu arranjá-lo.", "beispiel_de": "Der Vermieter hat versprochen, es zu reparieren."},
+  {"id": "insistir", "pt": "insistir", "de": "darauf bestehen / nachhaken", "emoji": "👉", "beispiel_pt": "Tenho de insistir com o senhorio.", "beispiel_de": "Ich muss beim Vermieter nachhaken."},
+  {"id": "outra-vez", "pt": "outra vez", "de": "schon wieder / noch einmal", "emoji": "🔂", "beispiel_pt": "A torneira está outra vez a pingar.", "beispiel_de": "Der Wasserhahn tropft schon wieder."},
+  {"id": "a-obrigacao", "pt": "a obrigação", "de": "die Pflicht", "emoji": "📜", "beispiel_pt": "Arranjar o esquentador é obrigação do senhorio.", "beispiel_de": "Den Boiler zu reparieren ist Pflicht des Vermieters."}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-03-L01",
+   "typ": "neu",
+   "titel": "Probleme im Haus",
+   "vokabeln": ["a-fuga-de-agua", "entupido", "a-humidade", "o-bolor", "partido", "a-torneira", "pingar", "o-cano"],
+   "grammatik": {
+    "titel": "Schäden beschreiben: estar, estar a + Infinitiv, há",
+    "erklaerung": [
+     "Zustände nach einem Schaden beschreibt man mit <b>estar</b> + Adjektiv/Partizip: <i>O lava-loiça está entupido. O vidro está partido. A máquina está avariada.</i>",
+     "Das Adjektiv richtet sich nach dem Nomen: <i>o cano está entupid<b>o</b> – a sanita está entupid<b>a</b> – os vidros estão partid<b>os</b></i>.",
+     "Was gerade passiert: <b>estar a</b> + Infinitiv: <i>A torneira está a pingar.</i> (nie „pingando“).",
+     "Dass etwas da ist: <b>há</b>: <i>Há uma fuga de água. Há bolor na parede.</i>"
+    ],
+    "vergleich": "Deutsch sagt „Die Spüle ist verstopft“ mit „sein“ – Portugiesisch nimmt <i>estar</i>, weil es ein (hoffentlich) vorübergehender Zustand ist. <i>partido</i> = zerbrochen (Glas, Teller), <i>avariado</i> = kaputt (Gerät).",
+    "beispiele": [
+     {"pt": "A torneira da cozinha está a pingar.", "de": "Der Wasserhahn in der Küche tropft."},
+     {"pt": "Há uma fuga de água na casa de banho.", "de": "Im Bad gibt es ein Wasserleck."},
+     {"pt": "O vidro da varanda está partido.", "de": "Die Glasscheibe am Balkon ist zerbrochen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A sanita está ___. (entupido)", "loesungen": ["entupida"], "de": "Die Toilette ist verstopft.", "erklaerung": "a sanita ist weiblich → entupida.", "kategorie": "Adjektiv-Angleichung"},
+     {"typ": "luecke", "satz": "A torneira está ___ pingar.", "loesungen": ["a"], "de": "Der Wasserhahn tropft (gerade).", "kategorie": "estar a + Infinitiv"},
+     {"typ": "luecke", "satz": "___ muita humidade no quarto.", "loesungen": ["Há"], "de": "Im Schlafzimmer ist es sehr feucht.", "kategorie": "haver"},
+     {"typ": "luecke", "satz": "Os vidros estão ___. (partido)", "loesungen": ["partidos"], "de": "Die Scheiben sind zerbrochen.", "kategorie": "Adjektiv-Angleichung"},
+     {"typ": "auswahl", "frage": "„Die Waschmaschine ist kaputt.“", "optionen": ["A máquina de lavar é avariada.", "A máquina de lavar está partida.", "A máquina de lavar está avariada."], "richtig": 2, "erklaerung": "Geräte sind avariado – mit estar. partido nur für zerbrochene Dinge.", "kategorie": "ser/estar"},
+     {"typ": "uebersetzen", "de": "In der Küche gibt es ein Wasserleck.", "loesungen": ["Há uma fuga de água na cozinha.", "Na cozinha há uma fuga de água."]},
+     {"typ": "uebersetzen", "de": "An der Wand ist Schimmel.", "loesungen": ["Há bolor na parede.", "Na parede há bolor.", "A parede tem bolor."]},
+     {"typ": "satzbau", "de": "Das Rohr unter dem Waschbecken tropft.", "loesung": "O cano debaixo do lavatório está a pingar."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Temos um problema! – Wir haben ein Problem!",
+    "situation": "Ana ruft Stefan im Büro an.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, temos um problema. Há uma fuga de água na casa de banho!", "de": "Stefan, wir haben ein Problem. Im Bad gibt es ein Wasserleck!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Onde é a fuga?", "de": "Im Ernst? Wo ist das Leck?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "No cano debaixo do lavatório. O chão está todo molhado.", "de": "Im Rohr unter dem Waschbecken. Der Boden ist ganz nass."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a torneira?", "de": "Und der Wasserhahn?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "A torneira também está a pingar. E a sanita está entupida.", "de": "Der Wasserhahn tropft auch. Und die Toilette ist verstopft."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que azar! Vou já para casa.", "de": "So ein Pech! Ich komme sofort nach Hause."}
+    ],
+    "fragen": [
+     {"frage": "Wo ist das Wasserleck?", "optionen": ["in der Küche", "im Bad", "auf dem Balkon"], "richtig": 1},
+     {"frage": "Was ist mit der Toilette?", "optionen": ["Sie ist verstopft.", "Sie tropft.", "Sie ist zerbrochen."], "richtig": 0},
+     {"frage": "Was macht Stefan?", "optionen": ["Er ruft den Vermieter an.", "Er bleibt im Büro.", "Er fährt sofort nach Hause."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Há uma fuga de água na cozinha.", "de": "In der Küche gibt es ein Wasserleck."},
+     {"pt": "O lava-loiça está entupido.", "de": "Die Spüle ist verstopft."},
+     {"pt": "A torneira está a pingar.", "de": "Der Wasserhahn tropft."},
+     {"pt": "Há muita humidade no quarto.", "de": "Im Schlafzimmer ist es sehr feucht."},
+     {"pt": "O vidro da janela está partido.", "de": "Die Fensterscheibe ist zerbrochen."}
+    ]
+   },
+   "saetze": [
+    {"id": "ha-fuga-de-agua", "pt": "Há uma fuga de água na casa de banho.", "de": "Im Bad gibt es ein Wasserleck."},
+    {"id": "torneira-a-pingar", "pt": "A torneira está a pingar.", "de": "Der Wasserhahn tropft."},
+    {"id": "lava-loica-entupido", "pt": "O lava-loiça está entupido.", "de": "Die Spüle ist verstopft."}
+   ]
+  },
+  {
+   "id": "A2-03-L02",
+   "typ": "neu",
+   "titel": "Handwerker",
+   "vokabeln": ["o-canalizador", "o-eletricista", "o-pintor", "o-pedreiro", "o-tecnico", "o-serralheiro", "a-avaria", "arranjar"],
+   "grammatik": {
+    "titel": "precisar de + Handwerker; Berufe männlich und weiblich",
+    "erklaerung": [
+     "<b>precisar de</b> + Nomen oder Infinitiv: <i>Preciso de um canalizador. Preciso de chamar um eletricista.</i> Mit Artikel verschmilzt <b>de</b>: <i>Preciso <b>do</b> número dele</i> (de + o).",
+     "Berufe auf <b>-or</b> bekommen <b>-ora</b>: o pint<b>or</b> → a pint<b>ora</b>, o canalizad<b>or</b> → a canalizad<b>ora</b>.",
+     "Berufe auf <b>-ista</b> bleiben gleich, nur der Artikel ändert sich: <b>o</b> eletricista – <b>a</b> eletricista. Auf <b>-o</b> → <b>-a</b>: o técnico → a técnica.",
+     "<b>arranjar</b> ist in Portugal das Alltagswort für „reparieren“: <i>O canalizador arranjou a torneira.</i> Es heißt auch „besorgen“: <i>Arranjei um bom eletricista.</i>"
+    ],
+    "vergleich": "Wie „Elektriker – Elektrikerin“, nur einfacher: bei <i>-ista</i> ändert sich gar nichts. <i>O técnico</i> ist der Servicetechniker für Geräte (Klimaanlage, Boiler, Waschmaschine).",
+    "beispiele": [
+     {"pt": "Preciso urgentemente de um canalizador.", "de": "Ich brauche dringend einen Installateur."},
+     {"pt": "A eletricista vem amanhã de manhã.", "de": "Die Elektrikerin kommt morgen Vormittag."},
+     {"pt": "O técnico arranjou o esquentador.", "de": "Der Techniker hat den Boiler repariert."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Preciso ___ um eletricista.", "loesungen": ["de"], "de": "Ich brauche einen Elektriker.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "A Rita é ___. (pintor)", "loesungen": ["pintora"], "de": "Rita ist Malerin.", "kategorie": "Genus"},
+     {"typ": "auswahl", "frage": "Die Toilette ist verstopft. Wen rufst du?", "optionen": ["o pintor", "o eletricista", "o canalizador"], "richtig": 2, "kategorie": "Wortschatz"},
+     {"typ": "auswahl", "frage": "Die Tür ist zu und du hast keinen Schlüssel. Wen rufst du?", "optionen": ["o serralheiro", "o pedreiro", "o técnico"], "richtig": 0, "kategorie": "Wortschatz"},
+     {"typ": "luecke", "satz": "O canalizador ___ a torneira ontem. (arranjar)", "loesungen": ["arranjou"], "de": "Der Installateur hat gestern den Wasserhahn repariert.", "kategorie": "Perfeito"},
+     {"typ": "luecke", "satz": "Precisamos ___ número do técnico.", "loesungen": ["do"], "de": "Wir brauchen die Nummer des Technikers.", "erklaerung": "precisar de + o número → precisar do número.", "kategorie": "Präpositionen"},
+     {"typ": "uebersetzen", "de": "Ich brauche einen Elektriker.", "loesungen": ["Preciso de um eletricista."]},
+     {"typ": "uebersetzen", "de": "Der Techniker hat den Boiler repariert.", "loesungen": ["O técnico arranjou o esquentador.", "O técnico reparou o esquentador.", "O técnico consertou o esquentador."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Conheces um bom canalizador? – Kennst du einen guten Installateur?",
+    "situation": "Stefan fragt seinen Nachbarn João um Rat.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "João, conheces um bom canalizador? Temos uma fuga de água.", "de": "João, kennst du einen guten Installateur? Wir haben ein Wasserleck."},
+     {"sprecher": "João", "stimme": "m", "pt": "Conheço, o senhor Carlos. O ano passado arranjou a minha cozinha.", "de": "Ja, Herrn Carlos. Letztes Jahr hat er meine Küche repariert."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E é caro?", "de": "Und ist er teuer?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Não, é bastante barato e trabalha muito bem. Mas às vezes chega atrasado.", "de": "Nein, er ist ziemlich günstig und arbeitet sehr gut. Aber manchmal kommt er zu spät."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E um eletricista? A tomada da sala também não funciona.", "de": "Und ein Elektriker? Die Steckdose im Wohnzimmer funktioniert auch nicht."},
+     {"sprecher": "João", "stimme": "m", "pt": "Para isso há a Sofia. É eletricista e mora aqui na rua.", "de": "Dafür gibt es Sofia. Sie ist Elektrikerin und wohnt hier in der Straße."}
+    ],
+    "fragen": [
+     {"frage": "Was ist Herr Carlos von Beruf?", "optionen": ["Elektriker", "Maler", "Installateur"], "richtig": 2},
+     {"frage": "Was ist sein Nachteil?", "optionen": ["Er ist teuer.", "Er kommt manchmal zu spät.", "Er arbeitet schlecht."], "richtig": 1},
+     {"frage": "Wer ist Sofia?", "optionen": ["eine Elektrikerin aus der Straße", "Joãos Schwester", "eine Malerin aus Faro"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich brauche einen Installateur.", "loesungen": ["Preciso de um canalizador."]},
+     {"de": "Kennst du einen guten Elektriker? (tu)", "loesungen": ["Conheces um bom eletricista?", "Conheces algum bom eletricista?"]},
+     {"de": "Die Malerin kommt am Montag.", "loesungen": ["A pintora vem na segunda.", "A pintora vem na segunda-feira.", "A pintora chega na segunda.", "A pintora chega na segunda-feira."]},
+     {"de": "Der Installateur hat den Wasserhahn repariert.", "loesungen": ["O canalizador arranjou a torneira.", "O canalizador reparou a torneira.", "O canalizador consertou a torneira."]},
+     {"de": "Der Boiler hat einen Defekt.", "loesungen": ["Há uma avaria no esquentador.", "O esquentador tem uma avaria."]}
+    ]
+   },
+   "saetze": [
+    {"id": "preciso-de-canalizador", "pt": "Preciso de um canalizador.", "de": "Ich brauche einen Installateur."},
+    {"id": "conheces-bom-eletricista", "pt": "Conheces um bom eletricista?", "de": "Kennst du einen guten Elektriker?"},
+    {"id": "tecnico-arranjou", "pt": "O técnico arranjou o esquentador.", "de": "Der Techniker hat den Boiler repariert."}
+   ]
+  },
+  {
+   "id": "A2-03-L03",
+   "typ": "neu",
+   "titel": "o, a, os, as nach dem Verb",
+   "vokabeln": ["a-lampada", "o-interruptor", "a-tomada", "o-quadro-eletrico", "verificar", "desligar"],
+   "grammatik": {
+    "titel": "Direkte Objektpronomen o, a, os, as (Enklise)",
+    "erklaerung": [
+     "Statt das Nomen zu wiederholen, nimmt man ein Pronomen: <b>o</b> (ihn/es), <b>a</b> (sie/es), <b>os</b> (sie, männl. Pl.), <b>as</b> (sie, weibl. Pl.). Es richtet sich nach dem <b>portugiesischen</b> Geschlecht: <i>a lâmpada → a</i>, <i>o interruptor → o</i>.",
+     "Im normalen Aussagesatz steht das Pronomen <b>hinter</b> dem Verb, mit Bindestrich (Enklise): <i>Vi-o.</i> – Ich habe ihn gesehen. <i>Mudei-a.</i> – Ich habe sie gewechselt.",
+     "Auch in Ja/Nein-Fragen: <i>Mudaste-a?</i> – Hast du sie gewechselt?",
+     "<b>o / a</b> heißt auch „Sie“ (höflich): <i>Conheço-o de algum lado.</i> – Ich kenne Sie (Mann) von irgendwoher.",
+     "Ein Satz beginnt in Portugal <b>nie</b> mit dem Pronomen: nicht „O vi“, sondern <i>Vi-o</i>."
+    ],
+    "vergleich": "Deutsch: „Ich habe <b>ihn</b> gesehen“ – Englisch: „I saw <b>him</b>“ – Portugiesisch: <i>Vi-<b>o</b></i>. Wie im Englischen kommt das Pronomen nach dem Verb, nur mit Bindestrich angehängt. Achtung: das deutsche Geschlecht hilft nicht – „die Glühbirne“ ist <i>a lâmpada</i>, aber „der Schalter“ ist <i>o interruptor</i>.",
+    "beispiele": [
+     {"pt": "A lâmpada fundiu-se. Mudei-a ontem.", "de": "Die Glühbirne ist durchgebrannt. Ich habe sie gestern gewechselt."},
+     {"pt": "O eletricista? Vi-o hoje de manhã.", "de": "Der Elektriker? Den habe ich heute Morgen gesehen."},
+     {"pt": "As tomadas? O técnico verificou-as.", "de": "Die Steckdosen? Die hat der Techniker überprüft."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A lâmpada? Mudei-___ ontem.", "loesungen": ["a"], "de": "Die Glühbirne? Die habe ich gestern gewechselt.", "kategorie": "Objektpronomen"},
+     {"typ": "luecke", "satz": "O interruptor? O eletricista arranjou-___.", "loesungen": ["o"], "de": "Der Schalter? Den hat der Elektriker repariert.", "kategorie": "Objektpronomen"},
+     {"typ": "luecke", "satz": "As tomadas? Verifiquei-___ todas.", "loesungen": ["as"], "de": "Die Steckdosen? Die habe ich alle überprüft.", "erklaerung": "as tomadas → as. Schreibung: verificar → verifiquei.", "kategorie": "Objektpronomen"},
+     {"typ": "luecke", "satz": "Os canos? O canalizador mudou-___.", "loesungen": ["os"], "de": "Die Rohre? Die hat der Installateur gewechselt.", "kategorie": "Objektpronomen"},
+     {"typ": "auswahl", "frage": "„Ich habe ihn (den Elektriker) gestern gesehen.“", "optionen": ["O vi ontem.", "Vi-o ontem.", "Vi ele ontem."], "richtig": 1, "erklaerung": "Im Aussagesatz steht o hinter dem Verb. „Vi ele“ ist brasilianische Umgangssprache.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Desliguei-o.“ – Was wurde ausgeschaltet?", "optionen": ["a luz", "as luzes", "o ar condicionado"], "richtig": 2, "erklaerung": "o = männlich Singular: o ar condicionado.", "kategorie": "Objektpronomen"},
+     {"typ": "uebersetzen", "de": "Ich habe sie (die Steckdose) überprüft.", "loesungen": ["Verifiquei-a."]},
+     {"typ": "satzbau", "de": "Der Elektriker hat den Sicherungskasten überprüft und ihn repariert.", "loesung": "O eletricista verificou o quadro elétrico e arranjou-o."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Foi-se a luz! – Der Strom ist weg!",
+    "situation": "Abends zu Hause in Lagos.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan! Foi-se a luz na cozinha!", "de": "Stefan! In der Küche ist der Strom weg!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Calma, vou ver o quadro elétrico.", "de": "Ruhig, ich schaue im Sicherungskasten nach."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pronto, já há luz. Mas a lâmpada da cozinha fundiu-se.", "de": "So, der Strom ist wieder da. Aber die Glühbirne in der Küche ist durchgebrannt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Temos alguma lâmpada nova?", "de": "Haben wir eine neue Glühbirne?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Temos. Comprei-a a semana passada. Mudo-a agora.", "de": "Ja. Ich habe sie letzte Woche gekauft. Ich wechsle sie jetzt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E a tomada ao lado do fogão? Também não funciona.", "de": "Und die Steckdose neben dem Herd? Die funktioniert auch nicht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso é trabalho para o eletricista. Chamo-o amanhã.", "de": "Das ist Arbeit für den Elektriker. Ich rufe ihn morgen."}
+    ],
+    "fragen": [
+     {"frage": "Wo ist der Strom ausgefallen?", "optionen": ["im Wohnzimmer", "in der Küche", "im Bad"], "richtig": 1},
+     {"frage": "Wann hat Stefan die Glühbirne gekauft?", "optionen": ["gestern", "heute", "letzte Woche"], "richtig": 2},
+     {"frage": "Was macht Stefan wegen der Steckdose?", "optionen": ["Er ruft morgen den Elektriker.", "Er repariert sie selbst.", "Er wechselt sie sofort."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ana fragt, was im Haus schon erledigt ist. Antworte mit Pronomen.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Mudaste a lâmpada da casa de banho?", "de": "Hast du die Glühbirne im Bad gewechselt?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich habe sie heute gewechselt.", "loesungen": ["Sim, mudei-a hoje.", "Mudei-a hoje.", "Mudei. Mudei-a hoje.", "Sim, mudei-a hoje de manhã."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E o interruptor do quarto?", "de": "Und der Lichtschalter im Schlafzimmer?"},
+     {"ich": true, "aufgabe": "Sag: Den hat der Elektriker repariert.", "loesungen": ["O eletricista arranjou-o.", "Arranjou-o o eletricista.", "O eletricista reparou-o.", "O eletricista consertou-o."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E viste o técnico do ar condicionado?", "de": "Und hast du den Techniker für die Klimaanlage gesehen?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich habe ihn heute Morgen gesehen.", "loesungen": ["Sim, vi-o hoje de manhã.", "Vi-o hoje de manhã.", "Sim, vi-o esta manhã.", "Vi-o esta manhã."]}
+    ]
+   },
+   "saetze": [
+    {"id": "mudei-a-ontem", "pt": "A lâmpada? Mudei-a ontem.", "de": "Die Glühbirne? Die habe ich gestern gewechselt."},
+    {"id": "vi-o-de-manha", "pt": "Vi-o hoje de manhã.", "de": "Ich habe ihn heute Morgen gesehen."},
+    {"id": "chamo-o-amanha", "pt": "Chamo-o amanhã.", "de": "Ich rufe ihn morgen."}
+   ]
+  },
+  {
+   "id": "A2-03-L04",
+   "typ": "neu",
+   "titel": "Não o vi – das Pronomen rückt nach vorn",
+   "vokabeln": ["ja", "ainda-nao", "a-fechadura", "o-estore", "encravado", "estragado", "o-teto"],
+   "grammatik": {
+    "titel": "Proklise nach não, já, também und Fragewörtern",
+    "erklaerung": [
+     "Bestimmte Wörter ziehen das Pronomen <b>vor</b> das Verb (Proklise): <b>não</b>, <b>já</b>, <b>ainda</b>, <b>também</b>, <b>nunca</b>, <b>sempre</b>, <b>só</b>.",
+     "<i>Vi-o.</i> → <i>Não <b>o</b> vi.</i> – <i>Arranjei-a.</i> → <i>Já <b>a</b> arranjei.</i> – <i>Chamei-os.</i> → <i>Também <b>os</b> chamei.</i>",
+     "Ebenso nach <b>Fragewörtern</b> (quem, quando, onde, porque …) und nach <b>que</b>: <i>Quem <b>o</b> partiu? Acho que <b>a</b> perdi.</i>",
+     "Bei Proklise gibt es <b>keinen</b> Bindestrich.",
+     "Ja/Nein-Fragen ohne Fragewort behalten die Enklise: <i>Arranjaste-o?</i> – aber: <i>Não o arranjaste?</i>"
+    ],
+    "vergleich": "Merkhilfe: <i>não, já, também, ainda</i> sind „Magnete“ – sie ziehen das Pronomen nach vorne. Im Deutschen gibt es nichts Vergleichbares, hier hilft nur Üben: <i>Vi-o – Não o vi – Já o vi – Também o vi.</i>",
+    "beispiele": [
+     {"pt": "A chave? Não a encontro.", "de": "Der Schlüssel? Ich finde ihn nicht."},
+     {"pt": "O estore? Já o arranjei.", "de": "Der Rollladen? Den habe ich schon repariert."},
+     {"pt": "Quem partiu o vidro? Não sei quem o partiu.", "de": "Wer hat die Scheibe zerbrochen? Ich weiß nicht, wer sie zerbrochen hat."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A fechadura? Já ___ arranjei.", "loesungen": ["a"], "de": "Das Schloss? Das habe ich schon repariert.", "erklaerung": "a fechadura ist weiblich → a; nach já steht es vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "O estore? Ainda não ___ arranjaram.", "loesungen": ["o"], "de": "Der Rollladen? Den haben sie noch nicht repariert.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Ich habe ihn nicht gesehen.“", "optionen": ["Não vi-o.", "Não o vi.", "O não vi."], "richtig": 1, "erklaerung": "Nach não steht das Pronomen vor dem Verb – ohne Bindestrich.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Ich habe sie (die Schlüssel) auch gefunden.“", "optionen": ["Também as encontrei.", "Também encontrei-as.", "Também os encontrei."], "richtig": 0, "erklaerung": "também zieht das Pronomen nach vorn; as chaves → as.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist richtig?", "optionen": ["Quando arranjou-o?", "O quando arranjou?", "Quando o arranjou?"], "richtig": 2, "erklaerung": "Nach Fragewörtern steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Ich habe ihn (den Rollladen) schon repariert.", "loesungen": ["Já o arranjei.", "Já o reparei.", "Já o consertei."]},
+     {"typ": "uebersetzen", "de": "Wer hat sie (die Scheibe) zerbrochen?", "loesungen": ["Quem a partiu?", "Quem é que a partiu?"]},
+     {"typ": "satzbau", "de": "Ich glaube, dass ich ihn verloren habe.", "loesung": "Acho que o perdi."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Onde está a chave? – Wo ist der Schlüssel?",
+    "situation": "João schaut über den Gartenzaun.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Bom dia, Stefan! Já arranjaste o estore do quarto?", "de": "Guten Morgen, Stefan! Hast du den Rollladen im Schlafzimmer schon repariert?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ainda não o arranjei. Está encravado há uma semana.", "de": "Noch nicht. Er klemmt seit einer Woche."},
+     {"sprecher": "João", "stimme": "m", "pt": "E a fechadura da garagem?", "de": "Und das Garagenschloss?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Essa já a arranjei. Mas agora não encontro a chave!", "de": "Das habe ich schon repariert. Aber jetzt finde ich den Schlüssel nicht!"},
+     {"sprecher": "João", "stimme": "m", "pt": "Não a deixaste no carro?", "de": "Hast du ihn nicht im Auto gelassen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Também a procurei lá, mas não a vi.", "de": "Dort habe ich ihn auch gesucht, aber ich habe ihn nicht gesehen."}
+    ],
+    "fragen": [
+     {"frage": "Seit wann klemmt der Rollladen?", "optionen": ["seit gestern", "seit einer Woche", "seit einem Monat"], "richtig": 1},
+     {"frage": "Was hat Stefan schon repariert?", "optionen": ["den Rollladen", "das Garagenschloss", "das Fenster"], "richtig": 1},
+     {"frage": "Was ist jetzt das Problem?", "optionen": ["Er findet den Schlüssel nicht.", "Das Auto ist kaputt.", "Die Garage ist nass."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach. Achte darauf, wo das Pronomen steht.",
+    "saetze": [
+     {"pt": "Não o vi.", "de": "Ich habe ihn nicht gesehen."},
+     {"pt": "Já a arranjei.", "de": "Ich habe sie schon repariert."},
+     {"pt": "Ainda não o arranjaram.", "de": "Sie haben ihn noch nicht repariert."},
+     {"pt": "Também os chamei.", "de": "Ich habe sie auch gerufen."},
+     {"pt": "Quem o partiu?", "de": "Wer hat ihn zerbrochen?"}
+    ]
+   },
+   "saetze": [
+    {"id": "nao-o-vi", "pt": "Não o vi.", "de": "Ich habe ihn nicht gesehen."},
+    {"id": "ja-a-arranjei", "pt": "Já a arranjei.", "de": "Ich habe sie schon repariert."},
+    {"id": "estore-encravado", "pt": "O estore está encravado.", "de": "Der Rollladen klemmt."}
+   ]
+  },
+  {
+   "id": "A2-03-L05",
+   "typ": "neu",
+   "titel": "Vou chamá-lo: -lo, -la nach dem Infinitiv",
+   "vokabeln": ["chamar", "pintar", "limpar", "substituir", "instalar", "montar", "a-tinta"],
+   "grammatik": {
+    "titel": "-lo, -la, -los, -las",
+    "erklaerung": [
+     "Nach einem <b>Infinitiv</b> fällt das <b>-r</b> weg, und das Pronomen wird zu <b>-lo, -la, -los, -las</b>: <i>chamar + o → chamá-lo</i>.",
+     "Der Vokal davor bekommt einen Akzent: <b>-ar → -á-lo</b> (pintá-la), <b>-er → -ê-lo</b> (fazê-lo), <b>-ir → -i-lo</b> (abri-lo, ohne Akzent), <b>pôr → pô-lo</b>. Merke: <i>substituir → substituí-lo</i>.",
+     "Typisch nach <b>vou, tenho de, posso, quero</b>: <i>Vou chamá-lo. Temos de pintá-la.</i>",
+     "Dasselbe nach <b>-s</b> und <b>-z</b>: <i>fiz + o → fi-lo</i>, <i>montámos + o → montámo-lo</i>.",
+     "Mit <b>não</b> davor gehen beide Stellungen: <i>Não vou chamá-lo.</i> = <i>Não o vou chamar.</i>"
+    ],
+    "vergleich": "Das ist reine Aussprache: „chamar-o“ wäre schwer zu sprechen, darum <i>chamá-lo</i>. Im Deutschen heißt es einfach „ihn rufen“. Im gesprochenen Portugiesisch hörst du auch <i>Vou-o chamar</i> – beides ist richtig.",
+    "beispiele": [
+     {"pt": "O canalizador? Vou chamá-lo amanhã.", "de": "Der Installateur? Den rufe ich morgen."},
+     {"pt": "A sala está feia. Temos de pintá-la.", "de": "Das Wohnzimmer ist hässlich. Wir müssen es streichen."},
+     {"pt": "O armário? Vamos montá-lo no sábado.", "de": "Der Schrank? Den bauen wir am Samstag auf."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O canalizador? Vou ___ amanhã. (chamar + o)", "loesungen": ["chamá-lo"], "de": "Der Installateur? Den rufe ich morgen.", "kategorie": "-lo/-la"},
+     {"typ": "luecke", "satz": "A sala? Temos de ___ de branco. (pintar + a)", "loesungen": ["pintá-la"], "de": "Das Wohnzimmer? Das müssen wir weiß streichen.", "kategorie": "-lo/-la"},
+     {"typ": "luecke", "satz": "O cano está velho. É preciso ___. (substituir + o)", "loesungen": ["substituí-lo"], "de": "Das Rohr ist alt. Man muss es austauschen.", "erklaerung": "substituir → substituí-lo, mit Akzent auf dem i.", "kategorie": "-lo/-la"},
+     {"typ": "auswahl", "frage": "„Ich muss sie (die Küche) putzen.“", "optionen": ["Tenho de limpar-a.", "Tenho de limpá-la.", "Tenho de limpa-a."], "richtig": 1, "erklaerung": "Nach dem Infinitiv: -r fällt weg → limpá-la.", "kategorie": "-lo/-la"},
+     {"typ": "auswahl", "frage": "fazer + o =", "optionen": ["fazé-lo", "faze-o", "fazê-lo"], "richtig": 2, "erklaerung": "-er → -ê-lo mit Zirkumflex.", "kategorie": "-lo/-la"},
+     {"typ": "uebersetzen", "de": "Ich werde ihn (den Boiler) morgen einbauen.", "loesungen": ["Vou instalá-lo amanhã.", "Amanhã vou instalá-lo.", "Vou-o instalar amanhã."]},
+     {"typ": "satzbau", "de": "Wir wollen sie (die Wand) nicht streichen.", "loesung": "Não queremos pintá-la."},
+     {"typ": "diktat", "pt": "Vou chamá-lo amanhã de manhã."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Pintar a sala – das Wohnzimmer streichen",
+    "situation": "Ana und Stefan planen das Wochenende.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, a parede da sala tem bolor outra vez.", "de": "Stefan, die Wand im Wohnzimmer hat schon wieder Schimmel."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois tem. Primeiro temos de limpá-la bem.", "de": "Stimmt. Zuerst müssen wir sie gut sauber machen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E depois? Chamamos o pintor?", "de": "Und dann? Rufen wir den Maler?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não é preciso. Eu posso pintá-la. Já comprei a tinta.", "de": "Nicht nötig. Ich kann sie streichen. Ich habe die Farbe schon gekauft."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E o armário novo? Quando vais montá-lo?", "de": "Und der neue Schrank? Wann baust du ihn auf?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vou montá-lo no domingo. Prometo!", "de": "Ich baue ihn am Sonntag auf. Versprochen!"}
+    ],
+    "fragen": [
+     {"frage": "Was ist an der Wand?", "optionen": ["ein Riss", "Schimmel", "ein Loch"], "richtig": 1},
+     {"frage": "Wer streicht die Wand?", "optionen": ["der Maler", "Ana", "Stefan"], "richtig": 2},
+     {"frage": "Wann baut Stefan den Schrank auf?", "optionen": ["am Samstag", "am Sonntag", "heute"], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch – mit Pronomen.",
+    "aufgaben": [
+     {"de": "Ich werde ihn (den Installateur) rufen.", "loesungen": ["Vou chamá-lo.", "Vou-o chamar."]},
+     {"de": "Wir müssen sie (die Wand) streichen.", "loesungen": ["Temos de pintá-la.", "Temos que pintá-la.", "Temos de a pintar.", "Temos que a pintar."]},
+     {"de": "Kannst du sie (die Küche) putzen? (tu)", "loesungen": ["Podes limpá-la?", "Podes limpar a cozinha?"]},
+     {"de": "Der Techniker will ihn (den Boiler) austauschen.", "loesungen": ["O técnico quer substituí-lo.", "O técnico quer substituir o esquentador."]},
+     {"de": "Ich habe es gemacht.", "loesungen": ["Fi-lo.", "Eu fi-lo."]}
+    ]
+   },
+   "saetze": [
+    {"id": "vou-chama-lo", "pt": "Vou chamá-lo amanhã.", "de": "Ich rufe ihn morgen."},
+    {"id": "temos-de-pinta-la", "pt": "Temos de pintá-la.", "de": "Wir müssen sie streichen."},
+    {"id": "vamos-monta-lo", "pt": "Vamos montá-lo no sábado.", "de": "Wir bauen ihn am Samstag auf."}
+   ]
+  },
+  {
+   "id": "A2-03-L06",
+   "typ": "neu",
+   "titel": "Kostenvoranschlag und Preis",
+   "vokabeln": ["o-orcamento", "a-mao-de-obra", "o-iva", "o-material", "a-peca", "incluido", "o-recibo", "a-deslocacao"],
+   "grammatik": {
+    "titel": "-no, -na nach Nasal; Preise angeben",
+    "erklaerung": [
+     "Endet das Verb auf einen Nasallaut (<b>-m, -ão, -õe</b>), wird o/a zu <b>-no, -na, -nos, -nas</b>: <i>fazem + o → fazem-no</i>.",
+     "Sehr häufig mit der sie-Form: <i>Enviam-no por e-mail.</i> (Sie schicken ihn per E-Mail.) <i>Arranjaram-na ontem.</i> (Sie haben sie gestern repariert.)",
+     "Auch nach <i>põe</i> und <i>dão</i>: <i>Ele põe-na sempre aqui.</i> (Er legt sie immer hierhin.)",
+     "Mit não, já usw. gilt wieder die Proklise: <i>Não o fazem hoje. Já a enviaram.</i>",
+     "Preise: <i>O orçamento é de 300 euros, mais IVA.</i> – <i>A mão de obra está incluída?</i> – Rechnung mit Steuernummer: <i>fatura com NIF</i>."
+    ],
+    "vergleich": "Kein deutsches Gegenstück – reine Ausspracheregel. Vorsicht: <i>-nos</i> sieht aus wie „uns“. Der Zusammenhang hilft: <i>As peças? Trazem-nas amanhã.</i> = Die Teile? Die bringen sie morgen.",
+    "beispiele": [
+     {"pt": "O orçamento? Enviam-no amanhã por e-mail.", "de": "Der Kostenvoranschlag? Den schicken sie morgen per E-Mail."},
+     {"pt": "A peça? Encomendaram-na ontem.", "de": "Das Ersatzteil? Das haben sie gestern bestellt."},
+     {"pt": "São duzentos e cinquenta euros, mais IVA.", "de": "Das sind 250 Euro plus Mehrwertsteuer."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O orçamento? Fazem-___ hoje.", "loesungen": ["no"], "de": "Der Kostenvoranschlag? Den machen sie heute.", "kategorie": "-no/-na"},
+     {"typ": "luecke", "satz": "A fatura? Enviam-___ por e-mail.", "loesungen": ["na"], "de": "Die Rechnung? Die schicken sie per E-Mail.", "kategorie": "-no/-na"},
+     {"typ": "luecke", "satz": "As peças? Os técnicos trazem-___ amanhã.", "loesungen": ["nas"], "de": "Die Teile? Die bringen die Techniker morgen.", "kategorie": "-no/-na"},
+     {"typ": "auswahl", "frage": "„Sie haben ihn (den Boiler) gestern repariert.“ (eles)", "optionen": ["Arranjaram-o ontem.", "Arranjaram-lo ontem.", "Arranjaram-no ontem."], "richtig": 2, "erklaerung": "arranjaram endet auf -m → -no.", "kategorie": "-no/-na"},
+     {"typ": "auswahl", "frage": "„Ist die Mehrwertsteuer inbegriffen?“", "optionen": ["O IVA está incluído?", "O IVA é incluído?", "A IVA está incluída?"], "richtig": 0, "erklaerung": "o IVA ist männlich; Zustand → estar incluído.", "kategorie": "ser/estar"},
+     {"typ": "uebersetzen", "de": "Können Sie mir einen Kostenvoranschlag machen?", "loesungen": ["Pode fazer-me um orçamento?", "Podia fazer-me um orçamento?", "Pode-me fazer um orçamento?"]},
+     {"typ": "uebersetzen", "de": "Ich hätte gerne eine Rechnung mit Steuernummer.", "loesungen": ["Queria fatura com NIF.", "Queria uma fatura com NIF.", "Queria a fatura com NIF.", "Queria fatura com número de contribuinte.", "Queria uma fatura com número de contribuinte.", "Queria a fatura com número de contribuinte."]},
+     {"typ": "satzbau", "de": "Die Anfahrt kostet 25 Euro plus Mehrwertsteuer.", "loesung": "A deslocação custa 25 euros mais IVA."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O orçamento – der Kostenvoranschlag",
+    "situation": "Der Installateur Carlos hat sich das Leck angesehen.",
+    "zeilen": [
+     {"sprecher": "Carlos", "stimme": "m", "pt": "Pronto, já vi o problema. É preciso substituir o cano e a torneira.", "de": "So, ich habe das Problem gesehen. Das Rohr und der Wasserhahn müssen ausgetauscht werden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quanto vai custar, mais ou menos?", "de": "Was wird das ungefähr kosten?"},
+     {"sprecher": "Carlos", "stimme": "m", "pt": "A peça custa quarenta euros. A mão de obra são duas horas, a trinta euros à hora.", "de": "Das Teil kostet vierzig Euro. Die Arbeit sind zwei Stunden zu dreißig Euro pro Stunde."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a deslocação?", "de": "Und die Anfahrt?"},
+     {"sprecher": "Carlos", "stimme": "m", "pt": "A deslocação são vinte euros. Tudo junto, cento e vinte euros mais IVA.", "de": "Die Anfahrt sind zwanzig Euro. Alles zusammen hundertzwanzig Euro plus Mehrwertsteuer."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. Pode mandar-me o orçamento por escrito? E depois queria fatura com NIF.", "de": "In Ordnung. Können Sie mir den Kostenvoranschlag schriftlich schicken? Und danach hätte ich gerne eine Rechnung mit Steuernummer."},
+     {"sprecher": "Carlos", "stimme": "m", "pt": "Com certeza. Mando-o hoje à noite por e-mail.", "de": "Selbstverständlich. Ich schicke ihn heute Abend per E-Mail."}
+    ],
+    "fragen": [
+     {"frage": "Wie viel kostet das Ersatzteil?", "optionen": ["20 Euro", "30 Euro", "40 Euro"], "richtig": 2},
+     {"frage": "Wie viel kostet alles ohne Mehrwertsteuer?", "optionen": ["120 Euro", "100 Euro", "140 Euro"], "richtig": 0},
+     {"frage": "Wie schickt Carlos den Kostenvoranschlag?", "optionen": ["per Post", "per E-Mail", "per SMS"], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Pode fazer-me um orçamento?", "de": "Können Sie mir einen Kostenvoranschlag machen?"},
+     {"pt": "O IVA está incluído?", "de": "Ist die Mehrwertsteuer inbegriffen?"},
+     {"pt": "Quanto custa a mão de obra?", "de": "Was kostet die Arbeitszeit?"},
+     {"pt": "A deslocação está incluída?", "de": "Ist die Anfahrt inbegriffen?"},
+     {"pt": "Queria fatura com NIF, se faz favor.", "de": "Ich hätte gerne eine Rechnung mit Steuernummer, bitte."}
+    ]
+   },
+   "saetze": [
+    {"id": "pode-fazer-orcamento", "pt": "Pode fazer-me um orçamento?", "de": "Können Sie mir einen Kostenvoranschlag machen?"},
+    {"id": "iva-incluido", "pt": "O IVA está incluído?", "de": "Ist die Mehrwertsteuer inbegriffen?"},
+    {"id": "enviam-no-por-email", "pt": "Enviam-no amanhã por e-mail.", "de": "Sie schicken ihn morgen per E-Mail."}
+   ]
+  },
+  {
+   "id": "A2-03-L07",
+   "typ": "neu",
+   "titel": "Telefonat und Termin mit dem Handwerker",
+   "vokabeln": ["estou", "fala", "atender", "o-recado", "combinar", "disponivel", "quando-pode-vir", "dar-um-salto"],
+   "grammatik": {
+    "titel": "Pronomen bei Modalverben; o/a = Sie",
+    "erklaerung": [
+     "Bei <b>poder, querer, ter de, ir</b> + Infinitiv hängt das Pronomen meist am Infinitiv: <i>Posso arranjá-la amanhã.</i>",
+     "Mit <b>não</b> oder einem Fragewort gibt es zwei richtige Stellungen: <i>Não <b>a</b> posso arranjar hoje.</i> = <i>Não posso arranjá-<b>la</b> hoje.</i> Falsch ist das Pronomen allein zwischen den Verben ohne Bindestrich („não posso a arranjar“).",
+     "<b>o / a</b> = „Sie“ (höflich): <i>Posso contactá-lo amanhã?</i> (zu einem Mann) – <i>Espero-a às dez.</i> (zu einer Frau).",
+     "Am Telefon: <i>Estou?</i> (Hallo?) – <i>Fala o Stefan Krenn.</i> / <i>É o Stefan.</i> – <i>Quer deixar recado?</i> – <i>Quando é que pode cá vir?</i>"
+    ],
+    "vergleich": "Deutsch: „Ich kann <b>sie</b> morgen reparieren“ – das Pronomen steht beim Modalverb. Portugiesisch hängt es lieber an den Infinitiv: <i>Posso arranjá-<b>la</b> amanhã.</i> Und „Alô?“ ist brasilianisch – in Portugal heißt es <i>Estou?</i>",
+    "beispiele": [
+     {"pt": "Estou? Bom dia, fala o Stefan Krenn.", "de": "Hallo? Guten Tag, hier spricht Stefan Krenn."},
+     {"pt": "Hoje não o posso fazer, mas amanhã posso.", "de": "Heute kann ich es nicht machen, aber morgen kann ich."},
+     {"pt": "Posso contactá-lo amanhã de manhã?", "de": "Kann ich Sie morgen Vormittag kontaktieren?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A avaria? Posso ___ amanhã. (ver + a)", "loesungen": ["vê-la"], "de": "Den Defekt? Den kann ich mir morgen ansehen.", "erklaerung": "ver → vê-la (Zirkumflex auf dem e).", "kategorie": "-lo/-la"},
+     {"typ": "luecke", "satz": "Hoje não ___ posso arranjar. (o)", "loesungen": ["o"], "de": "Heute kann ich ihn nicht reparieren.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "Das Telefon klingelt. Was sagst du in Portugal?", "optionen": ["Alô?", "Fala?", "Estou?"], "richtig": 2, "erklaerung": "„Alô?“ ist brasilianisch; in Portugal: Estou? oder Estou sim?", "kategorie": "Telefon"},
+     {"typ": "auswahl", "frage": "„Ich kann ihn heute nicht reparieren.“ – Welcher Satz ist korrekt?", "optionen": ["Não posso o arranjar hoje.", "Não posso arranjá-lo hoje.", "Não posso arranjar-o hoje."], "richtig": 1, "erklaerung": "Entweder Não o posso arranjar oder Não posso arranjá-lo.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Quando é que pode ___ vir?", "loesungen": ["cá"], "de": "Wann können Sie (zu mir) kommen?", "kategorie": "Telefon"},
+     {"typ": "uebersetzen", "de": "Hier spricht Stefan Krenn.", "loesungen": ["Fala o Stefan Krenn.", "Fala Stefan Krenn.", "É o Stefan Krenn.", "Daqui fala o Stefan Krenn.", "Daqui fala Stefan Krenn."]},
+     {"typ": "uebersetzen", "de": "Möchten Sie eine Nachricht hinterlassen?", "loesungen": ["Quer deixar recado?", "Quer deixar um recado?", "Quer deixar mensagem?", "Quer deixar uma mensagem?"]},
+     {"typ": "satzbau", "de": "Wir haben Donnerstag um neun vereinbart.", "loesung": "Combinámos para quinta-feira às nove."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A tomada da sala – die Steckdose im Wohnzimmer",
+    "situation": "Stefan ruft die Elektrikerin Sofia an.",
+    "zeilen": [
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Estou?", "de": "Hallo?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia, fala o Stefan Krenn, vizinho do João. A tomada da sala não funciona.", "de": "Guten Tag, hier spricht Stefan Krenn, der Nachbar von João. Die Steckdose im Wohnzimmer funktioniert nicht."},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Ah, sim. Hoje não posso, tenho muito trabalho. Mas amanhã posso dar aí um salto.", "de": "Ah ja. Heute kann ich nicht, ich habe viel Arbeit. Aber morgen kann ich kurz bei Ihnen vorbeikommen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Amanhã de manhã estou disponível. A que horas pode cá vir?", "de": "Morgen Vormittag habe ich Zeit. Um wie viel Uhr können Sie kommen?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Às dez pode ser?", "de": "Geht es um zehn?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. Então espero-a às dez.", "de": "Abgemacht. Dann erwarte ich Sie um zehn."},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Até amanhã!", "de": "Bis morgen!"}
+    ],
+    "fragen": [
+     {"frage": "Warum ruft Stefan an?", "optionen": ["Die Steckdose funktioniert nicht.", "Der Wasserhahn tropft.", "Er braucht einen Maler."], "richtig": 0},
+     {"frage": "Warum kommt Sofia nicht heute?", "optionen": ["Sie ist krank.", "Sie hat viel Arbeit.", "Sie hat kein Auto."], "richtig": 1},
+     {"frage": "Wann kommt Sofia?", "optionen": ["heute um zehn", "übermorgen", "morgen um zehn"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Deine Klimaanlage ist kaputt. Du rufst beim Kundendienst an.",
+    "zeilen": [
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Assistência técnica, bom dia. Diga.", "de": "Kundendienst, guten Tag. Bitte?"},
+     {"ich": true, "aufgabe": "Sag: Guten Tag, hier spricht Stefan Krenn. Meine Klimaanlage ist kaputt.", "loesungen": ["Bom dia, fala o Stefan Krenn. O meu ar condicionado está avariado.", "Bom dia, fala Stefan Krenn. O meu ar condicionado está avariado.", "Bom dia, é o Stefan Krenn. O meu ar condicionado está avariado.", "Bom dia, fala o Stefan Krenn. O ar condicionado está avariado.", "Bom dia, fala Stefan Krenn. O ar condicionado está avariado."]},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "O técnico pode passar aí na quinta à tarde. Está disponível?", "de": "Der Techniker kann am Donnerstagnachmittag bei Ihnen vorbeikommen. Haben Sie Zeit?"},
+     {"ich": true, "aufgabe": "Sag: Am Donnerstag kann ich nicht. Kann er am Freitag kommen?", "loesungen": ["Na quinta não posso. Pode vir na sexta?", "Na quinta-feira não posso. Pode vir na sexta-feira?", "Na quinta não posso. Ele pode vir na sexta?", "Na quinta-feira não posso. Ele pode vir na sexta-feira?", "Quinta não posso. Pode vir na sexta?"]},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Na sexta às nove e meia. Pode ser?", "de": "Am Freitag um halb zehn. Passt das?"},
+     {"ich": true, "aufgabe": "Sag: Abgemacht. Ich erwarte ihn um halb zehn.", "loesungen": ["Combinado. Espero-o às nove e meia.", "Está bem. Espero-o às nove e meia.", "Combinado. Fico à espera dele às nove e meia.", "Está bem. Fico à espera dele às nove e meia."]}
+    ]
+   },
+   "saetze": [
+    {"id": "estou-fala-stefan", "pt": "Estou? Bom dia, fala o Stefan Krenn.", "de": "Hallo? Guten Tag, hier spricht Stefan Krenn."},
+    {"id": "quando-pode-ca-vir", "pt": "Quando é que pode cá vir?", "de": "Wann können Sie vorbeikommen?"},
+    {"id": "nao-o-posso-fazer", "pt": "Hoje não o posso fazer, mas amanhã posso.", "de": "Heute kann ich es nicht machen, aber morgen schon."}
+   ]
+  },
+  {
+   "id": "A2-03-L08",
+   "typ": "neu",
+   "titel": "Beim Vermieter nachhaken",
+   "vokabeln": ["resolver", "o-problema", "o-inquilino", "prometer", "insistir", "outra-vez", "a-obrigacao"],
+   "grammatik": {
+    "titel": "Überblick: Wo steht das Pronomen?",
+    "erklaerung": [
+     "<b>Enklise</b> (hinter dem Verb) im normalen Aussagesatz und in Ja/Nein-Fragen: <i>Arranjaram-no. Viste-a?</i>",
+     "<b>Proklise</b> (vor dem Verb) nach <b>não, já, ainda, também, nunca, sempre, só</b>, nach Fragewörtern und nach <b>que</b>: <i>Ainda não o arranjaram. Ele diz que o resolve amanhã.</i>",
+     "Formen: nach <b>-r, -s, -z</b> → <b>-lo/-la</b> (arranjá-lo, fi-lo); nach Nasal → <b>-no/-na</b> (prometeram-no); sonst <b>o/a/os/as</b>.",
+     "Zum Nachhaken: <i>outra vez</i> (schon wieder), <i>ainda não</i> (noch nicht), <i>já … duas vezes</i> (schon zweimal), <i>É obrigação do senhorio.</i>"
+    ],
+    "vergleich": "Die wichtigste Regel für Deutschsprachige: Satzanfang mit Verb → Pronomen dahinter (<i>Vi-o</i>). Steht <i>não, já</i> oder <i>que</i> davor → Pronomen davor (<i>Não o vi</i>).",
+    "beispiele": [
+     {"pt": "A humidade? Ainda não a resolveram.", "de": "Die Feuchtigkeit? Die haben sie noch nicht in den Griff bekommen."},
+     {"pt": "O senhorio prometeu arranjá-lo esta semana.", "de": "Der Vermieter hat versprochen, es diese Woche zu reparieren."},
+     {"pt": "Já o contactei duas vezes, mas ele nunca atende.", "de": "Ich habe ihn schon zweimal kontaktiert, aber er geht nie ran."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O esquentador? Ainda não ___ arranjaram.", "loesungen": ["o"], "de": "Der Boiler? Den haben sie noch nicht repariert.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "O senhorio prometeu ___ esta semana. (arranjar + o)", "loesungen": ["arranjá-lo"], "de": "Der Vermieter hat versprochen, ihn diese Woche zu reparieren.", "kategorie": "-lo/-la"},
+     {"typ": "luecke", "satz": "Os canos? Substituíram-___ ontem.", "loesungen": ["nos"], "de": "Die Rohre? Die haben sie gestern ausgetauscht.", "erklaerung": "substituíram endet auf -m → -nos.", "kategorie": "-no/-na"},
+     {"typ": "auswahl", "frage": "„Er sagt, dass er es morgen löst.“", "optionen": ["Diz que resolve-o amanhã.", "Diz que o resolve amanhã.", "Diz que resolvê-lo amanhã."], "richtig": 1, "erklaerung": "Nach que steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Der Wasserhahn tropft schon wieder.“", "optionen": ["A torneira está a pingar uma vez.", "A torneira está outra vez a pingar.", "A torneira outra está a pingar."], "richtig": 1, "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Sie haben ihn noch nicht repariert.", "loesungen": ["Ainda não o arranjaram.", "Ainda não o repararam.", "Ainda não o consertaram."]},
+     {"typ": "uebersetzen", "de": "Ich bin Mieter, nicht der Eigentümer.", "loesungen": ["Sou inquilino, não sou o dono.", "Sou inquilino, não o dono.", "Eu sou inquilino, não sou o dono.", "Sou o inquilino, não o dono.", "Sou o inquilino, não sou o dono.", "Sou inquilino, não sou o proprietário.", "Sou inquilino, não o proprietário."]},
+     {"typ": "satzbau", "de": "Die Reparatur ist Pflicht des Vermieters.", "loesung": "A reparação é obrigação do senhorio."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O senhorio – der Vermieter",
+    "situation": "Stefan ruft seinen Vermieter, Herrn Fernandes, an.",
+    "zeilen": [
+     {"sprecher": "Sr. Fernandes", "stimme": "m", "pt": "Estou?", "de": "Hallo?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde, senhor Fernandes. Fala o Stefan, o inquilino da Rua do Castelo.", "de": "Guten Tag, Herr Fernandes. Hier spricht Stefan, der Mieter aus der Rua do Castelo."},
+     {"sprecher": "Sr. Fernandes", "stimme": "m", "pt": "Ah, boa tarde. Diga.", "de": "Ah, guten Tag. Bitte?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Há três semanas que temos humidade no quarto. O senhor prometeu chamar um pedreiro, mas ainda não o chamou.", "de": "Seit drei Wochen haben wir Feuchtigkeit im Schlafzimmer. Sie haben versprochen, einen Maurer zu rufen, aber Sie haben ihn noch nicht gerufen."},
+     {"sprecher": "Sr. Fernandes", "stimme": "m", "pt": "Pois, peço desculpa. O pedreiro está muito ocupado.", "de": "Ja, entschuldigen Sie. Der Maurer ist sehr beschäftigt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Compreendo, mas já há bolor na parede. É obrigação do senhorio resolver o problema.", "de": "Ich verstehe, aber an der Wand ist schon Schimmel. Es ist Pflicht des Vermieters, das Problem zu lösen."},
+     {"sprecher": "Sr. Fernandes", "stimme": "m", "pt": "Tem razão. Amanhã trato disso, prometo.", "de": "Sie haben recht. Morgen kümmere ich mich darum, versprochen."}
+    ],
+    "fragen": [
+     {"frage": "Seit wann gibt es das Problem?", "optionen": ["seit drei Tagen", "seit drei Wochen", "seit drei Monaten"], "richtig": 1},
+     {"frage": "Was hat der Vermieter versprochen?", "optionen": ["einen Maurer zu rufen", "die Miete zu senken", "einen Maler zu schicken"], "richtig": 0},
+     {"frage": "Was sagt Stefan über die Reparatur?", "optionen": ["Er macht sie selbst.", "Der Maurer muss sie bezahlen.", "Sie ist Pflicht des Vermieters."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib eine kurze Nachricht an deinen Vermieter (formell).",
+    "aufgaben": [
+     {"de": "Der Boiler ist schon wieder kaputt.", "loesungen": ["O esquentador está outra vez avariado.", "O esquentador está avariado outra vez."]},
+     {"de": "Sie haben versprochen, ihn zu reparieren.", "loesungen": ["O senhor prometeu arranjá-lo.", "Prometeu arranjá-lo.", "O senhor prometeu repará-lo.", "Prometeu repará-lo."]},
+     {"de": "Aber Sie haben ihn noch nicht repariert.", "loesungen": ["Mas ainda não o arranjou.", "Mas o senhor ainda não o arranjou.", "Mas ainda não o reparou.", "Mas o senhor ainda não o reparou."]},
+     {"de": "Wir müssen das Problem diese Woche lösen.", "loesungen": ["Temos de resolver o problema esta semana.", "Temos que resolver o problema esta semana.", "Precisamos de resolver o problema esta semana."]},
+     {"de": "Wann können Sie es lösen?", "loesungen": ["Quando o pode resolver?", "Quando pode resolvê-lo?", "Quando é que o pode resolver?", "Quando é que pode resolvê-lo?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "ainda-nao-o-arranjaram", "pt": "Ainda não o arranjaram.", "de": "Sie haben ihn noch nicht repariert."},
+    {"id": "prometeu-arranja-lo", "pt": "O senhor prometeu arranjá-lo.", "de": "Sie haben versprochen, es zu reparieren."},
+    {"id": "obrigacao-do-senhorio", "pt": "É obrigação do senhorio resolver o problema.", "de": "Es ist Pflicht des Vermieters, das Problem zu lösen."}
+   ]
+  },
+  {"id": "A2-03-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-03-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Uma semana de avarias – eine Woche voller Defekte",
+   "situation": "Rita trifft Ana auf dem Markt.",
+   "zeilen": [
+    {"sprecher": "Rita", "stimme": "f", "pt": "Olá, Ana! Então, já arranjaram a casa de banho?", "de": "Hallo Ana! Na, habt ihr das Bad schon repariert?"},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Já. O canalizador veio na terça e substituiu o cano. Mas agora temos outra avaria: o esquentador!", "de": "Ja. Der Installateur kam am Dienstag und hat das Rohr ausgetauscht. Aber jetzt haben wir einen anderen Defekt: den Boiler!"},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Que azar! E já chamaram o técnico?", "de": "So ein Pech! Und habt ihr den Techniker schon gerufen?"},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Já o chamámos, mas só pode vir na sexta. Até lá tomamos duche frio.", "de": "Ja, aber er kann erst am Freitag kommen. Bis dahin duschen wir kalt."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "E o canalizador? Foi caro?", "de": "Und der Installateur? War er teuer?"},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Cento e cinquenta euros com IVA. Mas ainda não recebi a fatura.", "de": "Hundertfünfzig Euro mit Mehrwertsteuer. Aber die Rechnung habe ich noch nicht bekommen."}
+   ],
+   "fragen": [
+    {"frage": "Was hat der Installateur gemacht?", "optionen": ["den Boiler repariert", "das Rohr ausgetauscht", "die Toilette gereinigt"], "richtig": 1},
+    {"frage": "Welchen neuen Defekt gibt es?", "optionen": ["Der Boiler ist kaputt.", "Die Steckdose ist kaputt.", "Der Rollladen klemmt."], "richtig": 0},
+    {"frage": "Wann kommt der Techniker?", "optionen": ["am Dienstag", "morgen", "am Freitag"], "richtig": 2},
+    {"frage": "Was hat Ana noch nicht bekommen?", "optionen": ["den Kostenvoranschlag", "die Rechnung", "das Ersatzteil"], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Um e-mail para o senhorio – eine E-Mail an den Vermieter",
+   "situation": "Stefan schreibt seinem Vermieter.",
+   "text": [
+    "Caro senhor Fernandes,",
+    "escrevo por causa da humidade no quarto. Há três semanas, o pedreiro veio cá e viu o problema. Prometeu fazer um orçamento, mas ainda não o enviou.",
+    "Entretanto há mais bolor na parede e agora o estore da janela também está encravado.",
+    "Já liguei duas vezes ao pedreiro, mas ele não atende. Pode contactá-lo, por favor? É urgente.",
+    "Com os melhores cumprimentos,",
+    "Stefan Krenn"
+   ],
+   "fragen": [
+    {"frage": "Was hat der Maurer versprochen?", "optionen": ["einen Kostenvoranschlag", "die Wand zu streichen", "den Rollladen zu reparieren"], "richtig": 0},
+    {"frage": "Was ist außerdem kaputt?", "optionen": ["die Fensterscheibe", "der Rollladen", "die Tür"], "richtig": 1},
+    {"frage": "Warum erreicht Stefan den Maurer nicht?", "optionen": ["Er hat seine Nummer nicht.", "Der Maurer ist im Urlaub.", "Der Maurer geht nicht ans Telefon."], "richtig": 2},
+    {"frage": "Worum bittet Stefan den Vermieter?", "optionen": ["den Maurer zu kontaktieren", "die Miete zu senken", "selbst vorbeizukommen"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Im Bad gibt es ein Wasserleck.", "loesungen": ["Há uma fuga de água na casa de banho.", "Na casa de banho há uma fuga de água."]},
+   {"de": "Ich habe ihn gestern gesehen.", "loesungen": ["Vi-o ontem.", "Ontem vi-o."]},
+   {"de": "Ich habe sie (die Glühbirne) noch nicht gewechselt.", "loesungen": ["Ainda não a mudei.", "Ainda não a troquei."]},
+   {"de": "Ich werde ihn morgen rufen.", "loesungen": ["Vou chamá-lo amanhã.", "Amanhã vou chamá-lo.", "Vou-o chamar amanhã."]},
+   {"de": "Können Sie mir einen Kostenvoranschlag schicken?", "loesungen": ["Pode enviar-me um orçamento?", "Pode mandar-me um orçamento?", "Podia enviar-me um orçamento?", "Podia mandar-me um orçamento?", "Pode-me enviar um orçamento?", "Pode-me mandar um orçamento?"]},
+   {"de": "Ist die Mehrwertsteuer inbegriffen?", "loesungen": ["O IVA está incluído?", "Está incluído o IVA?", "O preço inclui IVA?"]}
+  ],
+  "sprechen": [
+   {"pt": "A torneira está a pingar.", "de": "Der Wasserhahn tropft."},
+   {"pt": "Já o arranjei.", "de": "Ich habe ihn schon repariert."},
+   {"pt": "Não a vi.", "de": "Ich habe sie nicht gesehen."},
+   {"pt": "Vou chamá-lo amanhã.", "de": "Ich rufe ihn morgen."},
+   {"pt": "Ainda não o arranjaram.", "de": "Sie haben ihn noch nicht repariert."}
+  ]
+ }
+}

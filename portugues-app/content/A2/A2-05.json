@@ -1,0 +1,655 @@
+{
+ "id": "A2-05",
+ "level": "A2",
+ "titel": "No restaurante – Essen gehen",
+ "beschreibung": "Im Restaurant reservieren, bestellen, Sonderwünsche äußern, reklamieren und bezahlen: formeller Imperativ (prove, faça, diga, traga) und Höflichkeitsformen (gostava de, gostaria de, podia).",
+ "vokabeln": [
+  {"id": "a-reserva", "pt": "a reserva", "de": "die Reservierung", "emoji": "📋", "beispiel_pt": "Tenho uma reserva para as oito.", "beispiel_de": "Ich habe eine Reservierung für acht Uhr."},
+  {"id": "reservar", "pt": "reservar", "de": "reservieren", "emoji": "📞", "beispiel_pt": "Queria reservar uma mesa para sábado.", "beispiel_de": "Ich möchte einen Tisch für Samstag reservieren."},
+  {"id": "para-quantas-pessoas", "pt": "Para quantas pessoas?", "de": "Für wie viele Personen?", "emoji": "👥", "beispiel_pt": "Para quantas pessoas é a reserva?", "beispiel_de": "Für wie viele Personen ist die Reservierung?"},
+  {"id": "em-nome-de", "pt": "em nome de", "de": "auf den Namen", "emoji": "🏷️", "beispiel_pt": "A mesa está reservada em nome de Krenn.", "beispiel_de": "Der Tisch ist auf den Namen Krenn reserviert.", "hinweis": "Frage: Em nome de quem?"},
+  {"id": "tem-mesa-para", "pt": "Tem mesa para …?", "de": "Haben Sie einen Tisch für …?", "emoji": "🍽️", "beispiel_pt": "Tem mesa para quatro pessoas?", "beispiel_de": "Haben Sie einen Tisch für vier Personen?"},
+  {"id": "cheio", "pt": "cheio", "de": "voll", "emoji": "🈵", "beispiel_pt": "Hoje está tudo cheio.", "beispiel_de": "Heute ist alles voll.", "hinweis": "Estamos cheios. = Wir sind ausgebucht."},
+  {"id": "junto-a-janela", "pt": "junto à janela", "de": "am Fenster", "emoji": "🪟", "beispiel_pt": "Preferimos uma mesa junto à janela.", "beispiel_de": "Wir hätten lieber einen Tisch am Fenster."},
+
+  {"id": "o-prato-do-dia", "pt": "o prato do dia", "de": "das Tagesgericht", "emoji": "🍲", "beispiel_pt": "Qual é o prato do dia?", "beispiel_de": "Was ist das Tagesgericht?"},
+  {"id": "a-entrada", "pt": "a entrada", "de": "die Vorspeise", "emoji": "🥗", "beispiel_pt": "De entrada, queremos uma salada de polvo.", "beispiel_de": "Als Vorspeise möchten wir einen Oktopussalat.", "hinweis": "auch: der Eingang / der Eintritt"},
+  {"id": "o-prato-principal", "pt": "o prato principal", "de": "das Hauptgericht", "emoji": "🍛", "beispiel_pt": "Como prato principal, prefiro carne.", "beispiel_de": "Als Hauptgericht nehme ich lieber Fleisch."},
+  {"id": "o-couvert", "pt": "o couvert", "de": "das Gedeck (Brot, Butter, Oliven …)", "emoji": "🫒", "beispiel_pt": "O couvert não está incluído no preço.", "beispiel_de": "Das Gedeck ist nicht im Preis inbegriffen.", "hinweis": "Wird ungefragt gebracht und nur berechnet, wenn man davon isst."},
+  {"id": "a-dose", "pt": "a dose", "de": "die Portion", "emoji": "🍽️", "beispiel_pt": "Uma dose dá para duas pessoas.", "beispiel_de": "Eine Portion reicht für zwei Personen."},
+  {"id": "a-meia-dose", "pt": "a meia dose", "de": "die halbe Portion", "emoji": "🥄", "beispiel_pt": "Tem meia dose de bacalhau à Brás?", "beispiel_de": "Haben Sie eine halbe Portion Bacalhau à Brás?"},
+  {"id": "o-acompanhamento", "pt": "o acompanhamento", "de": "die Beilage", "emoji": "🍚", "beispiel_pt": "Qual é o acompanhamento? – Arroz e salada.", "beispiel_de": "Was ist die Beilage? – Reis und Salat."},
+  {"id": "o-caldo-verde", "pt": "o caldo verde", "de": "die Grünkohlsuppe", "emoji": "🥬", "beispiel_pt": "O caldo verde é uma sopa de couve com chouriço.", "beispiel_de": "Caldo verde ist eine Kohlsuppe mit Paprikawurst."},
+
+  {"id": "gostava-de", "pt": "gostava de", "de": "ich hätte gern / ich würde gern", "emoji": "🙏", "beispiel_pt": "Gostava de reservar uma mesa.", "beispiel_de": "Ich würde gern einen Tisch reservieren.", "hinweis": "Im Alltag in Portugal üblicher als gostaria de."},
+  {"id": "gostaria-de", "pt": "gostaria de", "de": "ich würde gern (sehr höflich)", "emoji": "🎩", "beispiel_pt": "Gostaria de ver a carta de vinhos.", "beispiel_de": "Ich würde gern die Weinkarte sehen."},
+  {"id": "podia-trazer-me", "pt": "Podia trazer-me …?", "de": "Könnten Sie mir … bringen?", "emoji": "🤲", "beispiel_pt": "Podia trazer-me mais pão?", "beispiel_de": "Könnten Sie mir noch Brot bringen?"},
+  {"id": "o-que-me-recomenda", "pt": "O que me recomenda?", "de": "Was empfehlen Sie mir?", "emoji": "💡", "beispiel_pt": "O que me recomenda hoje?", "beispiel_de": "Was empfehlen Sie mir heute?"},
+  {"id": "a-especialidade-da-casa", "pt": "a especialidade da casa", "de": "die Spezialität des Hauses", "emoji": "⭐", "beispiel_pt": "A especialidade da casa é a cataplana.", "beispiel_de": "Die Spezialität des Hauses ist die Cataplana."},
+  {"id": "o-pedido", "pt": "o pedido", "de": "die Bestellung", "emoji": "📝", "beispiel_pt": "Ainda não fizemos o pedido.", "beispiel_de": "Wir haben noch nicht bestellt."},
+  {"id": "vou-querer", "pt": "Vou querer …", "de": "Ich nehme …", "emoji": "🗣️", "beispiel_pt": "Vou querer o prato do dia.", "beispiel_de": "Ich nehme das Tagesgericht.", "hinweis": "So bestellt man in Portugal sehr oft."},
+
+  {"id": "provar", "pt": "provar", "de": "probieren / kosten", "emoji": "😋", "beispiel_pt": "Prove o nosso vinho da casa!", "beispiel_de": "Probieren Sie unseren Hauswein!", "hinweis": "formeller Imperativ: prove"},
+  {"id": "experimentar", "pt": "experimentar", "de": "ausprobieren", "emoji": "🆕", "beispiel_pt": "Experimente o polvo, é ótimo!", "beispiel_de": "Probieren Sie den Oktopus, der ist super!", "hinweis": "formeller Imperativ: experimente"},
+  {"id": "escolher", "pt": "escolher", "de": "wählen / aussuchen", "emoji": "👉", "beispiel_pt": "Escolha uma sobremesa.", "beispiel_de": "Suchen Sie sich einen Nachtisch aus.", "hinweis": "eu escolho → escolha"},
+  {"id": "recomendar", "pt": "recomendar", "de": "empfehlen", "emoji": "👍", "beispiel_pt": "Recomendo o peixe grelhado.", "beispiel_de": "Ich empfehle den gegrillten Fisch."},
+  {"id": "aguardar", "pt": "aguardar", "de": "warten (formell)", "emoji": "⏳", "beispiel_pt": "Aguarde um momento, se faz favor.", "beispiel_de": "Warten Sie bitte einen Moment."},
+  {"id": "siga-me", "pt": "Siga-me.", "de": "Folgen Sie mir.", "emoji": "🚶", "beispiel_pt": "Siga-me, a sua mesa é ali.", "beispiel_de": "Folgen Sie mir, Ihr Tisch ist dort.", "hinweis": "seguir: eu sigo → siga"},
+  {"id": "bom-apetite", "pt": "Bom apetite!", "de": "Guten Appetit!", "emoji": "🍴", "beispiel_pt": "Aqui está. Bom apetite!", "beispiel_de": "Bitte sehr. Guten Appetit!"},
+
+  {"id": "faca-favor", "pt": "faça favor", "de": "bitte sehr / bitte schön", "emoji": "🤝", "beispiel_pt": "Faça favor, a sua mesa está pronta.", "beispiel_de": "Bitte sehr, Ihr Tisch ist fertig.", "hinweis": "Beim Hereinbitten oder Überreichen; Plural: façam favor"},
+  {"id": "diga-me", "pt": "Diga-me …", "de": "Sagen Sie mir …", "emoji": "💬", "beispiel_pt": "Diga-me uma coisa: o polvo é fresco?", "beispiel_de": "Sagen Sie mir eins: Ist der Oktopus frisch?"},
+  {"id": "traga-me", "pt": "Traga-me …", "de": "Bringen Sie mir …", "emoji": "🫴", "beispiel_pt": "Traga-me a conta, se faz favor.", "beispiel_de": "Bringen Sie mir bitte die Rechnung.", "hinweis": "trazer: eu trago → traga"},
+  {"id": "ponha", "pt": "ponha", "de": "stellen / legen Sie (pôr)", "emoji": "📥", "beispiel_pt": "Ponha mais uma cadeira aqui, se faz favor.", "beispiel_de": "Stellen Sie bitte noch einen Stuhl hierher.", "hinweis": "pôr: eu ponho → ponha"},
+  {"id": "venha", "pt": "venha", "de": "kommen Sie (vir)", "emoji": "👋", "beispiel_pt": "Venha visitar-nos outra vez!", "beispiel_de": "Besuchen Sie uns wieder!", "hinweis": "vir: eu venho → venha"},
+  {"id": "seja-bem-vindo", "pt": "Seja bem-vindo!", "de": "Herzlich willkommen!", "emoji": "🎉", "beispiel_pt": "Seja bem-vindo ao nosso restaurante!", "beispiel_de": "Willkommen in unserem Restaurant!", "hinweis": "zu einer Frau: Seja bem-vinda! – Plural: Sejam bem-vindos!"},
+  {"id": "va", "pt": "vá", "de": "gehen Sie (ir)", "emoji": "➡️", "beispiel_pt": "Vá até ao fim do corredor.", "beispiel_de": "Gehen Sie bis zum Ende des Flurs."},
+  {"id": "queira", "pt": "queira + Infinitiv", "de": "wollen Sie bitte … (sehr formell)", "emoji": "🧐", "beispiel_pt": "Queira sentar-se, por favor.", "beispiel_de": "Nehmen Sie bitte Platz."},
+
+  {"id": "grelhado", "pt": "grelhado", "de": "gegrillt", "emoji": "🔥", "beispiel_pt": "Vou querer as sardinhas grelhadas.", "beispiel_de": "Ich nehme die gegrillten Sardinen."},
+  {"id": "assado", "pt": "assado", "de": "gebraten (im Ofen)", "emoji": "🍗", "beispiel_pt": "Ao domingo há cabrito assado.", "beispiel_de": "Am Sonntag gibt es Zicklein aus dem Ofen."},
+  {"id": "cozido", "pt": "cozido", "de": "gekocht", "emoji": "🫕", "beispiel_pt": "Prefiro o bacalhau cozido com grão.", "beispiel_de": "Ich nehme lieber den gekochten Kabeljau mit Kichererbsen.", "hinweis": "o cozido à portuguesa = deftiger Eintopf mit Fleisch und Gemüse"},
+  {"id": "frito", "pt": "frito", "de": "frittiert / gebacken", "emoji": "🍟", "beispiel_pt": "As batatas fritas são caseiras.", "beispiel_de": "Die Pommes sind hausgemacht."},
+  {"id": "salgado", "pt": "salgado", "de": "salzig", "emoji": "🧂", "beispiel_pt": "A sopa está um pouco salgada.", "beispiel_de": "Die Suppe ist ein bisschen salzig."},
+  {"id": "picante", "pt": "picante", "de": "scharf", "emoji": "🌶️", "beispiel_pt": "O frango piri-piri é muito picante?", "beispiel_de": "Ist das Piri-Piri-Hähnchen sehr scharf?"},
+  {"id": "mal-passado", "pt": "mal passado", "de": "blutig (englisch)", "emoji": "🥩", "beispiel_pt": "Quero o bife mal passado.", "beispiel_de": "Ich möchte das Steak blutig.", "hinweis": "bem passado = durchgebraten"},
+  {"id": "ao-ponto", "pt": "ao ponto", "de": "medium (Steak)", "emoji": "🎯", "beispiel_pt": "Como quer o bife? – Ao ponto, se faz favor.", "beispiel_de": "Wie möchten Sie das Steak? – Medium, bitte."},
+
+  {"id": "sem-gluten", "pt": "sem glúten", "de": "glutenfrei", "emoji": "🌾", "beispiel_pt": "Têm pão sem glúten?", "beispiel_de": "Haben Sie glutenfreies Brot?"},
+  {"id": "os-frutos-secos", "pt": "os frutos secos", "de": "die Nüsse", "emoji": "🥜", "beispiel_pt": "Tenho alergia a frutos secos.", "beispiel_de": "Ich bin allergisch gegen Nüsse."},
+  {"id": "vegetariano", "pt": "vegetariano", "de": "vegetarisch / der Vegetarier", "emoji": "🥦", "beispiel_pt": "Há algum prato vegetariano?", "beispiel_de": "Gibt es ein vegetarisches Gericht?"},
+  {"id": "frio", "pt": "frio", "de": "kalt", "emoji": "🧊", "beispiel_pt": "Desculpe, mas a sopa está fria.", "beispiel_de": "Entschuldigung, aber die Suppe ist kalt.", "hinweis": "Gegenteil: quente (warm/heiß)"},
+  {"id": "cru", "pt": "cru", "de": "roh", "emoji": "🐟", "beispiel_pt": "O peixe está cru por dentro.", "beispiel_de": "Der Fisch ist innen roh.", "hinweis": "weiblich: crua"},
+  {"id": "aquecer", "pt": "aquecer", "de": "aufwärmen / heiß machen", "emoji": "♨️", "beispiel_pt": "Podia aquecer a sopa, se faz favor?", "beispiel_de": "Könnten Sie bitte die Suppe aufwärmen?"},
+  {"id": "nao-foi-isto-que-pedi", "pt": "Não foi isto que pedi.", "de": "Das habe ich nicht bestellt.", "emoji": "❌", "beispiel_pt": "Desculpe, mas não foi isto que pedi.", "beispiel_de": "Entschuldigung, aber das habe ich nicht bestellt."},
+
+  {"id": "a-gorjeta", "pt": "a gorjeta", "de": "das Trinkgeld", "emoji": "💶", "beispiel_pt": "Deixámos cinco euros de gorjeta.", "beispiel_de": "Wir haben fünf Euro Trinkgeld gegeben."},
+  {"id": "dividir-a-conta", "pt": "dividir a conta", "de": "die Rechnung teilen", "emoji": "➗", "beispiel_pt": "Podemos dividir a conta?", "beispiel_de": "Können wir die Rechnung teilen?"},
+  {"id": "em-separado", "pt": "em separado", "de": "getrennt", "emoji": "✂️", "beispiel_pt": "Pode ser em separado, se faz favor?", "beispiel_de": "Geht es getrennt, bitte?"},
+  {"id": "fique-com-o-troco", "pt": "Fique com o troco.", "de": "Stimmt so. (Behalten Sie den Rest.)", "emoji": "🪙", "beispiel_pt": "Obrigado, fique com o troco.", "beispiel_de": "Danke, stimmt so."},
+  {"id": "estava-tudo-otimo", "pt": "Estava tudo ótimo.", "de": "Es war alles ausgezeichnet.", "emoji": "🌟", "beispiel_pt": "Estava tudo ótimo, obrigado!", "beispiel_de": "Es war alles ausgezeichnet, danke!", "hinweis": "Antwort auf: Estava tudo bem?"},
+  {"id": "delicioso", "pt": "delicioso", "de": "köstlich", "emoji": "🤤", "beispiel_pt": "O arroz de marisco estava delicioso.", "beispiel_de": "Der Reis mit Meeresfrüchten war köstlich."},
+  {"id": "o-servico", "pt": "o serviço", "de": "der Service / die Bedienung", "emoji": "🛎️", "beispiel_pt": "O serviço está incluído?", "beispiel_de": "Ist die Bedienung inbegriffen?"},
+  {"id": "o-cozinheiro", "pt": "o cozinheiro", "de": "der Koch", "emoji": "👨‍🍳", "beispiel_pt": "Os meus parabéns ao cozinheiro!", "beispiel_de": "Mein Kompliment an den Koch!"}
+ ],
+ "lektionen": [
+  {
+   "id": "A2-05-L01",
+   "typ": "neu",
+   "titel": "Einen Tisch reservieren",
+   "vokabeln": ["a-reserva", "reservar", "para-quantas-pessoas", "em-nome-de", "tem-mesa-para", "cheio", "junto-a-janela"],
+   "grammatik": {
+    "titel": "Reservieren: para, em nome de, cheio",
+    "erklaerung": [
+     "<b>para</b> + Personen, Uhrzeit oder Tag: <i>uma mesa para quatro</i>, <i>para as oito</i>, <i>para sábado</i>.",
+     "Die typischen Rückfragen: <i>Para quantas pessoas?</i> – <i>Para que horas?</i> – <i>Em nome de quem?</i>",
+     "Zum Reservieren reicht das bekannte <b>queria</b>: <i>Queria reservar uma mesa.</i> Weitere Höflichkeitsformen folgen in Lektion 3.",
+     "<b>cheio</b> passt sich an und steht mit <b>estar</b>: <i>O restaurante está cheio. A esplanada está cheia.</i> – <i>Estamos cheios.</i> = Wir sind ausgebucht."
+    ],
+    "vergleich": "Deutsch „für acht Uhr“, „auf den Namen Krenn“ – Portugiesisch <i>para as oito</i>, <i>em nome de Krenn</i>. Englisch „a table for four“ = <i>uma mesa para quatro</i>.",
+    "beispiele": [
+     {"pt": "Queria reservar uma mesa para quatro pessoas.", "de": "Ich möchte einen Tisch für vier Personen reservieren."},
+     {"pt": "Tenho uma reserva em nome de Krenn.", "de": "Ich habe eine Reservierung auf den Namen Krenn."},
+     {"pt": "Hoje a esplanada está cheia.", "de": "Heute ist die Terrasse voll."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Queria reservar uma mesa ___ quatro pessoas.", "loesungen": ["para"], "de": "Ich möchte einen Tisch für vier Personen reservieren.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Para ___ pessoas?", "loesungen": ["quantas"], "de": "Für wie viele Personen?", "erklaerung": "pessoa ist weiblich → quantas.", "kategorie": "Fragewörter"},
+     {"typ": "luecke", "satz": "A reserva está em ___ de Krenn.", "loesungen": ["nome"], "de": "Die Reservierung läuft auf den Namen Krenn."},
+     {"typ": "auswahl", "frage": "„für acht Uhr“", "optionen": ["por as oito", "para as oito", "em as oito"], "richtig": 1, "kategorie": "Präpositionen"},
+     {"typ": "auswahl", "frage": "„Die Terrasse ist voll.“", "optionen": ["A esplanada está cheio.", "A esplanada é cheia.", "A esplanada está cheia."], "richtig": 2, "erklaerung": "esplanada ist weiblich → cheia; vorübergehender Zustand → estar.", "kategorie": "ser/estar"},
+     {"typ": "uebersetzen", "de": "Haben Sie einen Tisch für zwei?", "loesungen": ["Tem mesa para dois?", "Tem uma mesa para dois?", "Tem mesa para duas pessoas?", "Tem uma mesa para duas pessoas?"]},
+     {"typ": "uebersetzen", "de": "Ich habe eine Reservierung auf den Namen Krenn.", "loesungen": ["Tenho uma reserva em nome de Krenn.", "Tenho uma reserva em nome de Stefan Krenn."]},
+     {"typ": "satzbau", "de": "Wir hätten gern einen Tisch am Fenster.", "loesung": "Queríamos uma mesa junto à janela."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma reserva por telefone – eine Reservierung am Telefon",
+    "situation": "Stefan ruft im Restaurant O Farol in Lagos an.",
+    "zeilen": [
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Restaurante O Farol, boa tarde.", "de": "Restaurant O Farol, guten Tag."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Queria reservar uma mesa para sábado à noite.", "de": "Guten Tag. Ich möchte einen Tisch für Samstagabend reservieren."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Com certeza. Para quantas pessoas?", "de": "Selbstverständlich. Für wie viele Personen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Para quatro. Tem mesa na esplanada?", "de": "Für vier. Haben Sie einen Tisch auf der Terrasse?"},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "A esplanada já está cheia, mas tenho uma mesa junto à janela. Para que horas?", "de": "Die Terrasse ist schon voll, aber ich habe einen Tisch am Fenster. Für wie viel Uhr?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Para as oito e meia. Em nome de Krenn, se faz favor.", "de": "Für halb neun. Auf den Namen Krenn, bitte."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Está reservado. Até sábado, obrigada!", "de": "Ist reserviert. Bis Samstag, danke!"}
+    ],
+    "fragen": [
+     {"frage": "Für wann reserviert Stefan?", "optionen": ["für Samstagabend", "für Sonntagmittag", "für Freitagabend"], "richtig": 0},
+     {"frage": "Warum bekommt er keinen Tisch auf der Terrasse?", "optionen": ["Es regnet.", "Sie ist schon voll.", "Sie ist geschlossen."], "richtig": 1},
+     {"frage": "Um wie viel Uhr kommen sie?", "optionen": ["um acht", "um neun", "um halb neun"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Queria reservar uma mesa para sábado.", "de": "Ich möchte einen Tisch für Samstag reservieren."},
+     {"pt": "Para quantas pessoas?", "de": "Für wie viele Personen?"},
+     {"pt": "Tem mesa para quatro?", "de": "Haben Sie einen Tisch für vier?"},
+     {"pt": "Tenho uma reserva em nome de Krenn.", "de": "Ich habe eine Reservierung auf den Namen Krenn."},
+     {"pt": "Preferimos uma mesa junto à janela.", "de": "Wir hätten lieber einen Tisch am Fenster."}
+    ]
+   },
+   "saetze": [
+    {"id": "reservar-mesa-sabado", "pt": "Queria reservar uma mesa para sábado.", "de": "Ich möchte einen Tisch für Samstag reservieren."},
+    {"id": "reserva-em-nome-de", "pt": "Tenho uma reserva em nome de Krenn.", "de": "Ich habe eine Reservierung auf den Namen Krenn."},
+    {"id": "esplanada-cheia", "pt": "A esplanada já está cheia.", "de": "Die Terrasse ist schon voll."}
+   ]
+  },
+  {
+   "id": "A2-05-L02",
+   "typ": "neu",
+   "titel": "Was gibt es? Gerichte und Portionen",
+   "vokabeln": ["o-prato-do-dia", "a-entrada", "o-prato-principal", "o-couvert", "a-dose", "a-meia-dose", "o-acompanhamento", "o-caldo-verde"],
+   "grammatik": {
+    "titel": "Gänge benennen: de entrada, como prato principal",
+    "erklaerung": [
+     "Die Gänge mit <b>de</b> oder <b>como</b>: <i>De entrada, uma sopa. Como prato principal, o bacalhau. De sobremesa, um pudim.</i>",
+     "<b>uma dose</b> = eine (oft große) Portion, <b>meia dose</b> = eine halbe Portion. In vielen Tascas reicht eine Dose für zwei Personen.",
+     "<b>o couvert</b>: Brot, Butter, Oliven oder Paté kommen ungefragt auf den Tisch und kosten nur etwas, wenn man davon isst. Nicht gewünscht? <i>Pode levar, obrigado.</i>",
+     "Nach dem Inhalt fragen: <i>O que é …?</i> (Was ist …?) – <i>O que leva …?</i> (Was ist drin?)"
+    ],
+    "vergleich": "Deutsch „als Vorspeise“ = <i>de entrada</i> oder <i>como entrada</i>; Englisch „starter / main course“ = <i>entrada / prato principal</i>. Achtung: <i>a entrada</i> heißt auch „Eingang“ und „Eintritt“.",
+    "beispiele": [
+     {"pt": "De entrada, queremos uma sopa de peixe.", "de": "Als Vorspeise möchten wir eine Fischsuppe."},
+     {"pt": "Uma dose de arroz de pato dá para dois.", "de": "Eine Portion Entenreis reicht für zwei."},
+     {"pt": "O que leva o prato do dia?", "de": "Was ist im Tagesgericht drin?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ entrada, queremos uma sopa.", "loesungen": ["De", "Como"], "de": "Als Vorspeise möchten wir eine Suppe.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Qual é o prato do ___?", "loesungen": ["dia"], "de": "Was ist das Tagesgericht?"},
+     {"typ": "auswahl", "frage": "„eine halbe Portion“", "optionen": ["meia dose", "meio dose", "dose meio"], "richtig": 0, "erklaerung": "dose ist weiblich → meia.", "kategorie": "Adjektive"},
+     {"typ": "auswahl", "frage": "Was ist „o couvert“?", "optionen": ["das Tagesgericht", "Brot, Butter, Oliven als Gedeck", "das Trinkgeld"], "richtig": 1},
+     {"typ": "luecke", "satz": "O que ___ o arroz de pato?", "loesungen": ["leva"], "de": "Was ist im Entenreis drin?", "erklaerung": "levar = als Zutat enthalten."},
+     {"typ": "uebersetzen", "de": "Was ist das Tagesgericht?", "loesungen": ["Qual é o prato do dia?", "O que é o prato do dia?"]},
+     {"typ": "uebersetzen", "de": "Eine Portion reicht für zwei Personen.", "loesungen": ["Uma dose dá para duas pessoas.", "Uma dose chega para duas pessoas.", "Uma dose dá para dois.", "Uma dose chega para dois."]},
+     {"typ": "satzbau", "de": "Wir nehmen den Fisch als Hauptgericht.", "loesung": "Queremos o peixe como prato principal."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Numa tasca – in einer Tasca",
+    "situation": "Stefan und Ana essen in einer kleinen Tasca in der Altstadt von Lagos.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Boa noite. Hoje o prato do dia é arroz de polvo.", "de": "Guten Abend. Heute ist das Tagesgericht Oktopusreis."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E qual é a sopa?", "de": "Und welche Suppe gibt es?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Temos sopa de peixe e caldo verde.", "de": "Wir haben Fischsuppe und Caldo verde."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Uma dose de arroz de polvo dá para dois?", "de": "Reicht eine Portion Oktopusreis für zwei?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Dá, sim. É uma dose grande. Também há meia dose.", "de": "Ja, das reicht. Es ist eine große Portion. Es gibt auch eine halbe Portion."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então uma dose para os dois e, de entrada, dois caldos verdes.", "de": "Dann eine Portion für uns beide und als Vorspeise zweimal Caldo verde."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E pode levar o couvert, obrigado.", "de": "Und das Gedeck können Sie mitnehmen, danke."}
+    ],
+    "fragen": [
+     {"frage": "Was ist das Tagesgericht?", "optionen": ["Oktopusreis", "Fischsuppe", "Kabeljau"], "richtig": 0},
+     {"frage": "Wie viel Oktopusreis bestellen sie?", "optionen": ["zwei halbe Portionen", "eine Portion für beide", "zwei Portionen"], "richtig": 1},
+     {"frage": "Was lässt Stefan zurückgehen?", "optionen": ["die Suppe", "den Wein", "das Gedeck (o couvert)"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist allein in einem Restaurant in Portimão und bestellst.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Boa tarde. Já escolheu?", "de": "Guten Tag. Haben Sie schon gewählt?"},
+     {"ich": true, "aufgabe": "Frag: Was ist das Tagesgericht?", "loesungen": ["Qual é o prato do dia?", "O que é o prato do dia?", "Qual é o prato do dia, se faz favor?", "Qual é o prato do dia, por favor?"]},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Hoje temos bacalhau com natas.", "de": "Heute haben wir Kabeljau mit Sahne."},
+     {"ich": true, "aufgabe": "Frag: Gibt es eine halbe Portion?", "loesungen": ["Há meia dose?", "Tem meia dose?", "Há meia dose, se faz favor?", "Tem meia dose, se faz favor?"]},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Há, sim. E de entrada?", "de": "Ja, gibt es. Und als Vorspeise?"},
+     {"ich": true, "aufgabe": "Sag: Als Vorspeise eine Suppe, bitte.", "loesungen": ["De entrada, uma sopa, se faz favor.", "De entrada, uma sopa, por favor.", "Uma sopa, se faz favor.", "Uma sopa, por favor."]}
+    ]
+   },
+   "saetze": [
+    {"id": "qual-e-prato-do-dia", "pt": "Qual é o prato do dia?", "de": "Was ist das Tagesgericht?"},
+    {"id": "dose-da-para-dois", "pt": "Uma dose dá para duas pessoas.", "de": "Eine Portion reicht für zwei Personen."},
+    {"id": "de-entrada-sopa", "pt": "De entrada, queremos uma sopa de peixe.", "de": "Als Vorspeise möchten wir eine Fischsuppe."}
+   ]
+  },
+  {
+   "id": "A2-05-L03",
+   "typ": "neu",
+   "titel": "Höflich bestellen: gostava de, podia",
+   "vokabeln": ["gostava-de", "gostaria-de", "podia-trazer-me", "o-que-me-recomenda", "a-especialidade-da-casa", "o-pedido", "vou-querer"],
+   "grammatik": {
+    "titel": "Höflichkeitsformen: gostava de, gostaria de, queria, podia",
+    "erklaerung": [
+     "Statt <i>quero</i> (ich will) klingt eine „Vergangenheitsform“ viel höflicher – wie im Deutschen „ich hätte gern“: <b>queria</b>, <b>gostava de</b>, <b>podia</b>.",
+     "<b>gostava de</b> + Infinitiv – im Alltag in Portugal am häufigsten: <i>Gostava de provar o vinho da casa.</i>",
+     "<b>gostaria de</b> – etwas formeller, z. B. am Telefon oder schriftlich: <i>Gostaria de fazer uma reserva.</i>",
+     "<b>podia</b> + Infinitiv = „könnten Sie …?“ – höflicher als <i>pode</i>: <i>Podia trazer-<b>me</b> a ementa? Podia trazer-<b>nos</b> água?</i>",
+     "Beim Bestellen ganz normal: <b>Vou querer …</b> (ich nehme …) oder <b>Para mim, …</b>"
+    ],
+    "vergleich": "Deutsch „ich hätte gern / könnten Sie“ = <i>gostava de / podia</i>; Englisch „I would like / could you“. Achtung: <i>gostava</i> sieht aus wie „ich mochte“, ist hier aber reine Höflichkeit.",
+    "beispiele": [
+     {"pt": "Gostava de reservar uma mesa para hoje.", "de": "Ich würde gern einen Tisch für heute reservieren."},
+     {"pt": "Podia trazer-nos a carta de vinhos?", "de": "Könnten Sie uns die Weinkarte bringen?"},
+     {"pt": "O que nos recomenda?", "de": "Was empfehlen Sie uns?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ de reservar uma mesa para hoje.", "loesungen": ["Gostava", "Gostaria"], "de": "Ich würde gern einen Tisch für heute reservieren.", "kategorie": "Höflichkeit"},
+     {"typ": "luecke", "satz": "___ trazer-me mais pão?", "loesungen": ["Podia", "Pode"], "de": "Könnten Sie mir noch Brot bringen?", "erklaerung": "Podia ist höflicher als pode.", "kategorie": "Höflichkeit"},
+     {"typ": "luecke", "satz": "Para ___, o prato do dia.", "loesungen": ["mim"], "de": "Für mich das Tagesgericht."},
+     {"typ": "auswahl", "frage": "Was klingt im Restaurant am höflichsten?", "optionen": ["Quero a conta.", "Dá-me a conta.", "Podia trazer-me a conta?"], "richtig": 2, "kategorie": "Höflichkeit"},
+     {"typ": "auswahl", "frage": "„Was empfehlen Sie mir?“", "optionen": ["O que me recomenda?", "O que recomenda-me?", "Que recomenda-me?"], "richtig": 0, "erklaerung": "Nach dem Fragewort o que steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Ich nehme das Tagesgericht.", "loesungen": ["Vou querer o prato do dia.", "Para mim, o prato do dia.", "Queria o prato do dia.", "Quero o prato do dia."]},
+     {"typ": "uebersetzen", "de": "Könnten Sie uns die Weinkarte bringen?", "loesungen": ["Podia trazer-nos a carta de vinhos?", "Pode trazer-nos a carta de vinhos?", "Podia trazer-nos a carta dos vinhos?"]},
+     {"typ": "satzbau", "de": "Ich würde gern die Spezialität des Hauses probieren.", "loesung": "Gostava de provar a especialidade da casa."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um almoço de negócios – ein Geschäftsessen",
+    "situation": "Stefan isst mit seinem Kunden, Senhor Lopes, in Alvor zu Mittag.",
+    "zeilen": [
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Boa tarde. Já escolheram?", "de": "Guten Tag. Haben Sie schon gewählt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ainda não. O que nos recomenda?", "de": "Noch nicht. Was empfehlen Sie uns?"},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "A especialidade da casa é a cataplana de marisco. É para duas pessoas.", "de": "Die Spezialität des Hauses ist die Cataplana mit Meeresfrüchten. Sie ist für zwei Personen."},
+     {"sprecher": "Senhor Lopes", "stimme": "m", "pt": "Eu gostava de provar a cataplana. E o Stefan?", "de": "Ich würde gern die Cataplana probieren. Und Sie, Stefan?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo, então vamos querer a cataplana para dois.", "de": "Sehr gut, dann nehmen wir die Cataplana für zwei."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E podia trazer-nos uma garrafa de vinho branco da casa?", "de": "Und könnten Sie uns eine Flasche weißen Hauswein bringen?"},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Com certeza. Vou já tratar do pedido.", "de": "Selbstverständlich. Ich kümmere mich gleich um die Bestellung."}
+    ],
+    "fragen": [
+     {"frage": "Was empfiehlt die Kellnerin?", "optionen": ["Fischsuppe", "die Cataplana mit Meeresfrüchten", "gegrillte Sardinen"], "richtig": 1},
+     {"frage": "Für wie viele Personen ist die Cataplana?", "optionen": ["für zwei", "für eine", "für vier"], "richtig": 0},
+     {"frage": "Was bestellt Stefan zu trinken?", "optionen": ["Bier", "Wasser", "weißen Hauswein"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch – höflich!",
+    "aufgaben": [
+     {"de": "Ich würde gern einen Tisch für heute Abend reservieren.", "loesungen": ["Gostava de reservar uma mesa para hoje à noite.", "Gostaria de reservar uma mesa para hoje à noite.", "Queria reservar uma mesa para hoje à noite."]},
+     {"de": "Was empfehlen Sie mir?", "loesungen": ["O que me recomenda?", "O que é que me recomenda?"]},
+     {"de": "Könnten Sie mir ein Glas Wasser bringen?", "loesungen": ["Podia trazer-me um copo de água?", "Pode trazer-me um copo de água?", "Podia trazer-me um copo de água, se faz favor?", "Podia trazer-me um copo de água, por favor?"]},
+     {"de": "Ich nehme die Spezialität des Hauses.", "loesungen": ["Vou querer a especialidade da casa.", "Para mim, a especialidade da casa.", "Queria a especialidade da casa."]},
+     {"de": "Wir haben noch nicht bestellt.", "loesungen": ["Ainda não fizemos o pedido.", "Ainda não pedimos."]}
+    ]
+   },
+   "saetze": [
+    {"id": "gostava-de-provar", "pt": "Gostava de provar a especialidade da casa.", "de": "Ich würde gern die Spezialität des Hauses probieren."},
+    {"id": "podia-trazer-nos", "pt": "Podia trazer-nos a carta de vinhos?", "de": "Könnten Sie uns die Weinkarte bringen?"},
+    {"id": "vou-querer-prato-do-dia", "pt": "Vou querer o prato do dia.", "de": "Ich nehme das Tagesgericht."}
+   ]
+  },
+  {
+   "id": "A2-05-L04",
+   "typ": "neu",
+   "titel": "Probieren Sie! Formeller Imperativ (regelmäßig)",
+   "vokabeln": ["provar", "experimentar", "escolher", "recomendar", "aguardar", "siga-me", "bom-apetite"],
+   "grammatik": {
+    "titel": "Der formelle Imperativ: prove, escolha, siga",
+    "erklaerung": [
+     "Der <b>formelle Imperativ</b> (für o senhor / a senhora) wird aus der <b>eu-Form</b> des Präsens gebildet: -o weg, dann die Endung „tauschen“.",
+     "<b>-ar → -e</b>: provar → eu provo → <b>prove</b>; experimentar → <b>experimente</b>; sentar → <b>sente</b>.",
+     "<b>-er / -ir → -a</b>: escolher → eu escolho → <b>escolha</b>; seguir → eu sigo → <b>siga</b>.",
+     "Mehrere Personen (os senhores / vocês): <b>-em / -am</b>: <i>provem, experimentem, escolham, sigam</i>.",
+     "Pronomen hängen sich hinten an: <i>Sente-se. Siga-me.</i> Verneint stehen sie davor: <i>Não se preocupe.</i> Schreibung: fi<b>c</b>ar → fi<b>qu</b>e, pa<b>g</b>ar → pa<b>gu</b>e."
+    ],
+    "vergleich": "Deutsch „Probieren Sie!“ braucht das „Sie“; Portugiesisch zeigt die höfliche Form allein durch die Endung: <i>Prove!</i> – wie englisch „Try the fish!“ = <i>Experimente o peixe!</i>",
+    "beispiele": [
+     {"pt": "Prove o nosso vinho da casa.", "de": "Probieren Sie unseren Hauswein."},
+     {"pt": "Escolham uma mesa, por favor.", "de": "Suchen Sie sich bitte einen Tisch aus."},
+     {"pt": "Sente-se e aguarde um momento.", "de": "Setzen Sie sich und warten Sie einen Moment."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ o polvo, é ótimo! (provar)", "loesungen": ["Prove"], "de": "Probieren Sie den Oktopus, der ist super!", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ uma sobremesa. (escolher)", "loesungen": ["Escolha"], "de": "Suchen Sie sich einen Nachtisch aus.", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ o nosso vinho! (experimentar)", "loesungen": ["Experimente"], "de": "Probieren Sie unseren Wein!", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ um momento, se faz favor. (aguardar)", "loesungen": ["Aguarde"], "de": "Warten Sie bitte einen Moment.", "kategorie": "Imperativ"},
+     {"typ": "auswahl", "frage": "Formeller Imperativ von pagar:", "optionen": ["paga", "pague", "pagui"], "richtig": 1, "erklaerung": "Vor e wird g zu gu: pague.", "kategorie": "Rechtschreibung"},
+     {"typ": "auswahl", "frage": "Zu zwei Gästen: „Folgen Sie mir!“", "optionen": ["Siga-me!", "Segue-me!", "Sigam-me!"], "richtig": 2, "erklaerung": "Mehrere Personen: -am (sigam).", "kategorie": "Imperativ"},
+     {"typ": "uebersetzen", "de": "Setzen Sie sich, bitte.", "loesungen": ["Sente-se, por favor.", "Sente-se, se faz favor.", "Por favor, sente-se.", "Sente-se, faz favor."]},
+     {"typ": "satzbau", "de": "Probieren Sie die Spezialität des Hauses.", "loesung": "Prove a especialidade da casa."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Sigam-me! – Folgen Sie mir!",
+    "situation": "Stefan und Ana kommen in einem Restaurant in Sagres an.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Boa noite! Sigam-me, a vossa mesa é ali, junto à janela.", "de": "Guten Abend! Folgen Sie mir, Ihr Tisch ist dort am Fenster."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Obrigada. Que vista bonita!", "de": "Danke. Was für eine schöne Aussicht!"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Sentem-se, por favor. Aguardem um momento, vou buscar a ementa.", "de": "Setzen Sie sich bitte. Warten Sie einen Moment, ich hole die Speisekarte."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Hoje recomendo o peixe grelhado. Experimentem também o nosso vinho branco.", "de": "Heute empfehle ich den gegrillten Fisch. Probieren Sie auch unseren Weißwein."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. E de sobremesa?", "de": "Sehr gut. Und als Nachtisch?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Provem o bolo de alfarroba. É típico do Algarve.", "de": "Probieren Sie den Johannisbrotkuchen. Der ist typisch für die Algarve."}
+    ],
+    "fragen": [
+     {"frage": "Wo ist ihr Tisch?", "optionen": ["auf der Terrasse", "am Fenster", "an der Bar"], "richtig": 1},
+     {"frage": "Was empfiehlt der Kellner als Hauptgericht?", "optionen": ["gegrillten Fisch", "Steak", "Suppe"], "richtig": 0},
+     {"frage": "Was ist typisch für die Algarve?", "optionen": ["der Weißwein", "das Brot", "der Johannisbrotkuchen"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Kunde, Senhor Lopes, ist bei dir zu Hause zum Abendessen. Du sprichst ihn formell an.",
+    "zeilen": [
+     {"sprecher": "Senhor Lopes", "stimme": "m", "pt": "Boa noite, Stefan! Que casa bonita!", "de": "Guten Abend, Stefan! Was für ein schönes Haus!"},
+     {"ich": true, "aufgabe": "Sag: Danke! Setzen Sie sich, bitte.", "loesungen": ["Obrigado! Sente-se, por favor.", "Obrigado! Sente-se, se faz favor.", "Obrigado. Sente-se, por favor.", "Obrigado! Por favor, sente-se."]},
+     {"sprecher": "Senhor Lopes", "stimme": "m", "pt": "Obrigado. Hum, cheira muito bem!", "de": "Danke. Hm, das riecht sehr gut!"},
+     {"ich": true, "aufgabe": "Sag: Probieren Sie diesen Wein aus dem Alentejo.", "loesungen": ["Prove este vinho do Alentejo.", "Experimente este vinho do Alentejo."]},
+     {"sprecher": "Senhor Lopes", "stimme": "m", "pt": "Muito bom! E o que é isto?", "de": "Sehr gut! Und was ist das?"},
+     {"ich": true, "aufgabe": "Sag: Das ist Käse aus Serpa. Probieren Sie!", "loesungen": ["É queijo de Serpa. Prove!", "É queijo de Serpa. Experimente!", "Isto é queijo de Serpa. Prove!", "Isto é queijo de Serpa. Experimente!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "prove-vinho-da-casa", "pt": "Prove o nosso vinho da casa.", "de": "Probieren Sie unseren Hauswein."},
+    {"id": "sente-se-aguarde", "pt": "Sente-se e aguarde um momento.", "de": "Setzen Sie sich und warten Sie einen Moment."},
+    {"id": "sigam-me", "pt": "Sigam-me, a vossa mesa é ali.", "de": "Folgen Sie mir, Ihr Tisch ist dort."}
+   ]
+  },
+  {
+   "id": "A2-05-L05",
+   "typ": "neu",
+   "titel": "Faça favor! Formeller Imperativ (unregelmäßig)",
+   "vokabeln": ["faca-favor", "diga-me", "traga-me", "ponha", "venha", "seja-bem-vindo", "va", "queira"],
+   "grammatik": {
+    "titel": "Unregelmäßige Imperative: faça, diga, traga, seja, vá",
+    "erklaerung": [
+     "Viele „unregelmäßige“ Formen folgen derselben Regel – man muss nur die eu-Form kennen: fazer → eu <b>faço</b> → <b>faça</b>; dizer → <b>digo</b> → <b>diga</b>; pôr → <b>ponho</b> → <b>ponha</b>; trazer → <b>trago</b> → <b>traga</b>; vir → <b>venho</b> → <b>venha</b>; pedir → <b>peço</b> → <b>peça</b>.",
+     "Wirklich unregelmäßig sind nur wenige: ser → <b>seja</b>, estar → <b>esteja</b>, ir → <b>vá</b>, dar → <b>dê</b>, saber → <b>saiba</b>, querer → <b>queira</b>.",
+     "Feste Wendungen: <i>Faça favor.</i> (bitte sehr – beim Hereinbitten oder Überreichen), <i>Seja bem-vindo!</i>, <i>Queira sentar-se.</i> (sehr formell). Plural: <i>façam, digam, tragam, sejam, vão</i>.",
+     "Mit Pronomen: <i>Traga-<b>me</b> a conta. Diga-<b>nos</b>, o que há hoje?</i>"
+    ],
+    "vergleich": "Wie englisch „Bring me the bill“ – Portugiesisch <i>Traga-me a conta</i>: das Pronomen hängt mit Bindestrich am Verb. Deutsch braucht wieder das „Sie“: „Bringen Sie mir …“.",
+    "beispiele": [
+     {"pt": "Faça favor, a sua mesa está pronta.", "de": "Bitte sehr, Ihr Tisch ist fertig."},
+     {"pt": "Traga-me a conta, se faz favor.", "de": "Bringen Sie mir bitte die Rechnung."},
+     {"pt": "Sejam bem-vindos ao Algarve!", "de": "Herzlich willkommen an der Algarve!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___-me a conta, se faz favor. (trazer)", "loesungen": ["Traga"], "de": "Bringen Sie mir bitte die Rechnung.", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ favor, a sua mesa está pronta. (fazer)", "loesungen": ["Faça"], "de": "Bitte sehr, Ihr Tisch ist fertig.", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ bem-vindos! (ser, Plural)", "loesungen": ["Sejam"], "de": "Herzlich willkommen!", "kategorie": "Imperativ"},
+     {"typ": "luecke", "satz": "___ até ao fim do corredor. (ir)", "loesungen": ["Vá"], "de": "Gehen Sie bis zum Ende des Flurs.", "kategorie": "Imperativ"},
+     {"typ": "auswahl", "frage": "Formeller Imperativ von pôr:", "optionen": ["põe", "ponha", "pona"], "richtig": 1, "erklaerung": "eu ponho → ponha.", "kategorie": "Imperativ"},
+     {"typ": "auswahl", "frage": "„Besuchen Sie uns wieder!“ (vir)", "optionen": ["Vem visitar-nos outra vez!", "Vai visitar-nos outra vez!", "Venha visitar-nos outra vez!"], "richtig": 2, "erklaerung": "vir: eu venho → venha. Vem ist die tu-Form.", "kategorie": "Imperativ"},
+     {"typ": "uebersetzen", "de": "Sagen Sie mir, ist der Fisch frisch?", "loesungen": ["Diga-me, o peixe é fresco?", "Diga-me: o peixe é fresco?", "Diga-me, o peixe está fresco?", "Diga-me: o peixe está fresco?"]},
+     {"typ": "satzbau", "de": "Stellen Sie bitte noch einen Stuhl hierher.", "loesung": "Ponha mais uma cadeira aqui, por favor."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na casa da Dona Fátima – bei Dona Fátima",
+    "situation": "Stefan und Ana kommen in ein kleines Familienrestaurant in Luz.",
+    "zeilen": [
+     {"sprecher": "Dona Fátima", "stimme": "f", "pt": "Boa noite! Sejam bem-vindos! Façam favor de entrar.", "de": "Guten Abend! Herzlich willkommen! Kommen Sie bitte herein."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa noite! Temos uma reserva em nome de Krenn.", "de": "Guten Abend! Wir haben eine Reservierung auf den Namen Krenn."},
+     {"sprecher": "Dona Fátima", "stimme": "f", "pt": "Ah, sim. Venham comigo. Querem ficar na esplanada?", "de": "Ah ja. Kommen Sie mit. Möchten Sie auf der Terrasse sitzen?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Sim, obrigada. Diga-nos, qual é o prato do dia?", "de": "Ja, danke. Sagen Sie uns, was ist das Tagesgericht?"},
+     {"sprecher": "Dona Fátima", "stimme": "f", "pt": "Hoje é carne de porco à alentejana. Peçam uma dose, dá bem para os dois.", "de": "Heute gibt es Schweinefleisch nach Alentejo-Art. Bestellen Sie eine Portion, die reicht gut für zwei."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então traga-nos uma dose e uma garrafa de água, se faz favor.", "de": "Dann bringen Sie uns bitte eine Portion und eine Flasche Wasser."}
+    ],
+    "fragen": [
+     {"frage": "Wo sitzen Stefan und Ana?", "optionen": ["drinnen", "auf der Terrasse", "an der Bar"], "richtig": 1},
+     {"frage": "Was ist das Tagesgericht?", "optionen": ["Schweinefleisch nach Alentejo-Art", "Oktopus", "Kabeljau"], "richtig": 0},
+     {"frage": "Wie viele Portionen bestellen sie?", "optionen": ["zwei", "eine halbe", "eine"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Faça favor, a sua mesa está pronta.", "de": "Bitte sehr, Ihr Tisch ist fertig."},
+     {"pt": "Traga-me a conta, se faz favor.", "de": "Bringen Sie mir bitte die Rechnung."},
+     {"pt": "Diga-me, o que há hoje?", "de": "Sagen Sie mir, was gibt es heute?"},
+     {"pt": "Sejam bem-vindos!", "de": "Herzlich willkommen!"},
+     {"pt": "Venha visitar-nos outra vez!", "de": "Besuchen Sie uns wieder!"}
+    ]
+   },
+   "saetze": [
+    {"id": "faca-favor-mesa", "pt": "Faça favor, a sua mesa está pronta.", "de": "Bitte sehr, Ihr Tisch ist fertig."},
+    {"id": "traga-me-a-conta", "pt": "Traga-me a conta, se faz favor.", "de": "Bringen Sie mir bitte die Rechnung."},
+    {"id": "sejam-bem-vindos", "pt": "Sejam bem-vindos ao Algarve!", "de": "Herzlich willkommen an der Algarve!"}
+   ]
+  },
+  {
+   "id": "A2-05-L06",
+   "typ": "neu",
+   "titel": "Gegrillt oder gekocht? Zubereitung und Geschmack",
+   "vokabeln": ["grelhado", "assado", "cozido", "frito", "salgado", "picante", "mal-passado", "ao-ponto"],
+   "grammatik": {
+    "titel": "Wie ist das Essen? Adjektive anpassen, ser oder estar",
+    "erklaerung": [
+     "<b>grelhado, assado, cozido, frito</b> sind Partizipien und passen sich wie Adjektive an: <i>o peixe grelhad<b>o</b>, as sardinhas grelhad<b>as</b>, as batatas frit<b>as</b></i>.",
+     "Wie schmeckt es gerade? → <b>estar</b>: <i>A sopa está salgada. O bife está frio.</i> Wie ist ein Gericht grundsätzlich? → <b>ser</b>: <i>O piri-piri é picante.</i>",
+     "Zu viel: <b>demasiado</b> oder <b>muito</b>: <i>Está demasiado salgado.</i>",
+     "Steak: <b>mal passado</b> (blutig), <b>ao ponto</b> (medium), <b>bem passado</b> (durchgebraten). Die Frage: <i>Como quer o bife?</i>"
+    ],
+    "vergleich": "Deutsch „Die Suppe ist versalzen“ – Portugiesisch mit estar, weil es um diesen Teller geht: <i>A sopa está salgada.</i> Englisch „rare / medium / well done“ = <i>mal passado / ao ponto / bem passado</i>.",
+    "beispiele": [
+     {"pt": "Queria as sardinhas grelhadas com salada.", "de": "Ich hätte gern die gegrillten Sardinen mit Salat."},
+     {"pt": "Como quer o bife? – Mal passado.", "de": "Wie möchten Sie das Steak? – Blutig."},
+     {"pt": "Hoje a sopa está um pouco salgada.", "de": "Heute ist die Suppe ein bisschen salzig."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Queria as sardinhas ___. (grelhado)", "loesungen": ["grelhadas"], "de": "Ich hätte gern die gegrillten Sardinen.", "kategorie": "Adjektive"},
+     {"typ": "luecke", "satz": "As batatas ___ são caseiras. (frito)", "loesungen": ["fritas"], "de": "Die Pommes sind hausgemacht.", "kategorie": "Adjektive"},
+     {"typ": "luecke", "satz": "Hoje a sopa ___ muito salgada.", "loesungen": ["está"], "de": "Heute ist die Suppe sehr salzig.", "erklaerung": "Geschmack in diesem Moment → estar.", "kategorie": "ser/estar"},
+     {"typ": "auswahl", "frage": "„Das Steak medium, bitte.“", "optionen": ["O bife bem passado, por favor.", "O bife ao ponto, por favor.", "O bife mal passado, por favor."], "richtig": 1},
+     {"typ": "auswahl", "frage": "„Zicklein aus dem Ofen“", "optionen": ["cabrito cozido", "cabrito frito", "cabrito assado"], "richtig": 2},
+     {"typ": "uebersetzen", "de": "Der Fisch ist zu salzig.", "loesungen": ["O peixe está demasiado salgado.", "O peixe está muito salgado."]},
+     {"typ": "uebersetzen", "de": "Ich hätte gern das Steak blutig.", "loesungen": ["Queria o bife mal passado.", "Queria o bife mal passado, se faz favor.", "Vou querer o bife mal passado."]},
+     {"typ": "satzbau", "de": "Das gegrillte Hähnchen ist sehr scharf.", "loesung": "O frango grelhado é muito picante."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Frango da Guia – Hähnchen aus Guia",
+    "situation": "Stefan und Pedro essen in einer Churrasqueira in Guia, dem Ort des berühmten Piri-Piri-Hähnchens.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Aqui na Guia o frango piri-piri é o melhor do Algarve!", "de": "Hier in Guia ist das Piri-Piri-Hähnchen das beste der Algarve!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É muito picante?", "de": "Ist es sehr scharf?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Depende. Podes pedir com pouco piri-piri.", "de": "Kommt drauf an. Du kannst es mit wenig Piri-Piri bestellen."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Então, meus senhores, o que vai ser?", "de": "Also, meine Herren, was darf es sein?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Para mim, meio frango com pouco picante e batatas fritas.", "de": "Für mich ein halbes Hähnchen, wenig scharf, und Pommes."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Eu vou querer um bife ao ponto e uma salada mista.", "de": "Ich nehme ein Steak medium und einen gemischten Salat."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Muito bem. As batatas são fritas na hora, demoram dez minutos.", "de": "Sehr gut. Die Pommes werden frisch frittiert, das dauert zehn Minuten."}
+    ],
+    "fragen": [
+     {"frage": "Wofür ist Guia bekannt?", "optionen": ["für Piri-Piri-Hähnchen", "für Sardinen", "für Oktopus"], "richtig": 0},
+     {"frage": "Wie möchte Stefan sein Hähnchen?", "optionen": ["sehr scharf", "wenig scharf", "ohne Salz"], "richtig": 1},
+     {"frage": "Wie möchte Pedro sein Steak?", "optionen": ["blutig", "durchgebraten", "medium"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Schreib die Sätze auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich hätte gern die gegrillten Sardinen.", "loesungen": ["Queria as sardinhas grelhadas.", "Vou querer as sardinhas grelhadas."]},
+     {"de": "Ist das Hähnchen sehr scharf?", "loesungen": ["O frango é muito picante?", "O frango está muito picante?"]},
+     {"de": "Das Steak medium, bitte.", "loesungen": ["O bife ao ponto, se faz favor.", "O bife ao ponto, por favor."]},
+     {"de": "Die Suppe ist ein bisschen salzig.", "loesungen": ["A sopa está um pouco salgada.", "A sopa está um bocado salgada.", "A sopa está um bocadinho salgada."]},
+     {"de": "Ich esse lieber gekochten Fisch.", "loesungen": ["Prefiro peixe cozido.", "Prefiro o peixe cozido."]}
+    ]
+   },
+   "saetze": [
+    {"id": "como-quer-o-bife", "pt": "Como quer o bife? – Ao ponto, se faz favor.", "de": "Wie möchten Sie das Steak? – Medium, bitte."},
+    {"id": "sardinhas-grelhadas", "pt": "Queria as sardinhas grelhadas com salada.", "de": "Ich hätte gern die gegrillten Sardinen mit Salat."},
+    {"id": "e-muito-picante", "pt": "O frango piri-piri é muito picante?", "de": "Ist das Piri-Piri-Hähnchen sehr scharf?"}
+   ]
+  },
+  {
+   "id": "A2-05-L07",
+   "typ": "neu",
+   "titel": "Sonderwünsche und Probleme",
+   "vokabeln": ["sem-gluten", "os-frutos-secos", "vegetariano", "frio", "cru", "aquecer", "nao-foi-isto-que-pedi"],
+   "grammatik": {
+    "titel": "Sonderwünsche äußern und höflich reklamieren",
+    "erklaerung": [
+     "Sonderwünsche mit <b>sem</b> und <b>com</b>: <i>sem glúten, sem cebola, com pouco sal</i>.",
+     "Allergien: <b>Tenho alergia a</b> … oder <b>Sou alérgico/alérgica a</b> … (a + o = <b>ao</b>): <i>Tenho alergia ao marisco. Sou alérgica a frutos secos.</i>",
+     "Höflich reklamieren: <b>Desculpe, mas …</b> + Problem mit <b>estar</b>: <i>A sopa está fria. O peixe está cru.</i>",
+     "Falsches Gericht: <i>Não foi isto que pedi.</i> (pedir → eu <b>pedi</b> = ich habe bestellt). Eine Lösung erbitten mit <b>podia</b>: <i>Podia aquecer a sopa?</i>"
+    ],
+    "vergleich": "Deutsch „allergisch gegen“, Englisch „allergic to“ – Portugiesisch mit <i>a</i>: <i>alérgico a</i>. Und wie im Deutschen beginnt eine höfliche Beschwerde mit einer Entschuldigung: <i>Desculpe, mas …</i>",
+    "beispiele": [
+     {"pt": "Desculpe, mas a sopa está fria.", "de": "Entschuldigung, aber die Suppe ist kalt."},
+     {"pt": "Sou alérgico a frutos secos.", "de": "Ich bin allergisch gegen Nüsse."},
+     {"pt": "Há algum prato vegetariano?", "de": "Gibt es ein vegetarisches Gericht?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Tenho alergia ___ marisco.", "loesungen": ["ao"], "de": "Ich bin allergisch gegen Meeresfrüchte.", "erklaerung": "a + o = ao.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Há pão ___ glúten?", "loesungen": ["sem"], "de": "Gibt es glutenfreies Brot?", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Desculpe, mas a sopa está ___. (kalt)", "loesungen": ["fria"], "de": "Entschuldigung, aber die Suppe ist kalt.", "erklaerung": "sopa ist weiblich → fria.", "kategorie": "Adjektive"},
+     {"typ": "auswahl", "frage": "„Das habe ich nicht bestellt.“", "optionen": ["Não foi isto que pedi.", "Não foi isto que peço.", "Não foi isto que pedir."], "richtig": 0, "kategorie": "Perfeito"},
+     {"typ": "auswahl", "frage": "„Gibt es ein vegetarisches Gericht?“", "optionen": ["Há algum prato vegetal?", "Há algum prato vegetariano?", "Há algum prato vegetarianos?"], "richtig": 1},
+     {"typ": "uebersetzen", "de": "Ich bin allergisch gegen Nüsse.", "loesungen": ["Tenho alergia a frutos secos.", "Tenho alergia aos frutos secos.", "Sou alérgico a frutos secos.", "Sou alérgica a frutos secos."]},
+     {"typ": "uebersetzen", "de": "Könnten Sie die Suppe aufwärmen?", "loesungen": ["Podia aquecer a sopa?", "Pode aquecer a sopa?", "Podia aquecer a sopa, se faz favor?", "Podia aquecer a sopa, por favor?"]},
+     {"typ": "satzbau", "de": "Entschuldigung, aber der Fisch ist innen roh.", "loesung": "Desculpe, mas o peixe está cru por dentro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um engano – eine Verwechslung",
+    "situation": "Ana fragt nach glutenfreiem Essen, später kommt Stefans Gericht.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Desculpe, têm pratos sem glúten?", "de": "Entschuldigung, haben Sie glutenfreie Gerichte?"},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Temos, sim. O peixe grelhado e as saladas não têm glúten.", "de": "Ja, haben wir. Der gegrillte Fisch und die Salate sind glutenfrei."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ótimo. E o molho? Tenho alergia a frutos secos.", "de": "Super. Und die Soße? Ich bin allergisch gegen Nüsse."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Não se preocupe, o molho não leva frutos secos.", "de": "Keine Sorge, in der Soße sind keine Nüsse."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpe, mas não foi isto que pedi. Pedi o polvo, não as lulas.", "de": "Entschuldigung, aber das habe ich nicht bestellt. Ich habe den Oktopus bestellt, nicht die Kalmare."},
+     {"sprecher": "Empregada", "stimme": "f", "pt": "Peço imensa desculpa! Vou já trocar.", "de": "Das tut mir sehr leid! Ich tausche es sofort um."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não faz mal. Obrigado!", "de": "Macht nichts. Danke!"}
+    ],
+    "fragen": [
+     {"frage": "Was ist glutenfrei?", "optionen": ["das Brot und die Suppe", "der gegrillte Fisch und die Salate", "nur der Nachtisch"], "richtig": 1},
+     {"frage": "Wogegen ist Ana allergisch?", "optionen": ["gegen Nüsse", "gegen Meeresfrüchte", "gegen Milch"], "richtig": 0},
+     {"frage": "Was hatte Stefan bestellt?", "optionen": ["Kalmare (lulas)", "Sardinen", "Oktopus (polvo)"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Mit deinem Essen stimmt etwas nicht. Du sprichst den Kellner an.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Está tudo bem?", "de": "Ist alles in Ordnung?"},
+     {"ich": true, "aufgabe": "Sag: Entschuldigung, aber die Suppe ist kalt.", "loesungen": ["Desculpe, mas a sopa está fria.", "Desculpe, a sopa está fria."]},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Oh, peço desculpa! Levo já para aquecer.", "de": "Oh, Entschuldigung! Ich nehme sie gleich zum Aufwärmen mit."},
+     {"ich": true, "aufgabe": "Sag: Und das habe ich nicht bestellt. Ich habe den Fisch bestellt.", "loesungen": ["E não foi isto que pedi. Pedi o peixe.", "E não foi isto que eu pedi. Eu pedi o peixe.", "E isto não foi o que pedi. Pedi o peixe."]},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Tem toda a razão. Desculpe o engano.", "de": "Sie haben völlig recht. Entschuldigen Sie die Verwechslung."},
+     {"ich": true, "aufgabe": "Sag: Macht nichts. Ist der Fisch glutenfrei?", "loesungen": ["Não faz mal. O peixe é sem glúten?", "Não faz mal. O peixe não tem glúten?", "Não faz mal. O peixe tem glúten?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "sopa-esta-fria", "pt": "Desculpe, mas a sopa está fria.", "de": "Entschuldigung, aber die Suppe ist kalt."},
+    {"id": "alergia-frutos-secos", "pt": "Tenho alergia a frutos secos.", "de": "Ich bin allergisch gegen Nüsse."},
+    {"id": "nao-foi-isto-pedi", "pt": "Não foi isto que pedi.", "de": "Das habe ich nicht bestellt."}
+   ]
+  },
+  {
+   "id": "A2-05-L08",
+   "typ": "neu",
+   "titel": "Bezahlen, Trinkgeld und Lob",
+   "vokabeln": ["a-gorjeta", "dividir-a-conta", "em-separado", "fique-com-o-troco", "estava-tudo-otimo", "delicioso", "o-servico", "o-cozinheiro"],
+   "grammatik": {
+    "titel": "Bezahlen und loben: Estava tudo ótimo",
+    "erklaerung": [
+     "Rechnung verlangen: <i>A conta, se faz favor.</i> oder höflicher: <i>Podia trazer-nos a conta?</i>",
+     "Getrennt zahlen: <b>em separado</b> oder <b>dividir a conta</b>: <i>Pode ser em separado? Vamos dividir a conta a meias.</i> (a meias = halbe-halbe)",
+     "Das Essen loben: <b>estava</b> (Vergangenheit von estar) beschreibt, wie es war: <i>Estava tudo ótimo. O peixe estava delicioso.</i> Die Frage des Kellners: <i>Estava tudo bem?</i>",
+     "<b>a gorjeta</b> ist in Portugal freiwillig; üblich sind etwa 5–10 %. <i>Fique com o troco.</i> = Stimmt so. – wieder ein formeller Imperativ: ficar → eu fico → <b>fique</b>."
+    ],
+    "vergleich": "Deutsch „Stimmt so!“ = <i>Fique com o troco</i> (wörtlich „Behalten Sie das Wechselgeld“). Englisch „Keep the change“ ist fast wörtlich gleich.",
+    "beispiele": [
+     {"pt": "Estava tudo ótimo, obrigado!", "de": "Es war alles ausgezeichnet, danke!"},
+     {"pt": "Podemos pagar em separado?", "de": "Können wir getrennt zahlen?"},
+     {"pt": "Aqui tem. Fique com o troco.", "de": "Bitte sehr. Stimmt so."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Estava tudo ___, obrigado!", "loesungen": ["ótimo", "muito bom", "bom", "bem", "delicioso"], "de": "Es war alles ausgezeichnet, danke!"},
+     {"typ": "luecke", "satz": "O bacalhau ___ delicioso.", "loesungen": ["estava"], "de": "Der Kabeljau war köstlich.", "kategorie": "Vergangenheit"},
+     {"typ": "luecke", "satz": "___ com o troco.", "loesungen": ["Fique"], "de": "Stimmt so.", "erklaerung": "ficar → eu fico → fique (c wird vor e zu qu).", "kategorie": "Imperativ"},
+     {"typ": "auswahl", "frage": "„Können wir getrennt zahlen?“", "optionen": ["Podemos pagar separados?", "Podemos pagar em separado?", "Podemos pagar à separado?"], "richtig": 1},
+     {"typ": "auswahl", "frage": "Wie viel Trinkgeld ist in Portugal üblich?", "optionen": ["gar keins, das ist unhöflich", "mindestens 20 %", "etwa 5–10 %, freiwillig"], "richtig": 2, "kategorie": "Landeskunde"},
+     {"typ": "uebersetzen", "de": "Die Rechnung, bitte.", "loesungen": ["A conta, se faz favor.", "A conta, por favor.", "A conta, faz favor."]},
+     {"typ": "uebersetzen", "de": "Können wir die Rechnung teilen?", "loesungen": ["Podemos dividir a conta?", "Pode dividir a conta?", "Podia dividir a conta?"]},
+     {"typ": "satzbau", "de": "Mein Kompliment an den Koch!", "loesung": "Os meus parabéns ao cozinheiro!"},
+     {"typ": "diktat", "pt": "Estava tudo ótimo, obrigado."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A conta, se faz favor – die Rechnung, bitte",
+    "situation": "Stefan und Rita sind nach einem Abendessen in Lagos fertig.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Estava tudo bem?", "de": "War alles in Ordnung?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estava tudo ótimo! O arroz de marisco estava delicioso.", "de": "Es war alles ausgezeichnet! Der Reis mit Meeresfrüchten war köstlich."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Os meus parabéns ao cozinheiro!", "de": "Mein Kompliment an den Koch!"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Muito obrigado, vou dizer-lhe. Desejam café?", "de": "Vielen Dank, ich sage es ihm. Möchten Sie Kaffee?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Dois cafés e a conta, se faz favor. Podemos pagar em separado?", "de": "Zwei Kaffee und die Rechnung, bitte. Können wir getrennt zahlen?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Com certeza. São trinta e oito euros cada um.", "de": "Selbstverständlich. Das macht achtunddreißig Euro pro Person."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Aqui tem quarenta. Fique com o troco.", "de": "Hier sind vierzig. Stimmt so."}
+    ],
+    "fragen": [
+     {"frage": "Was war köstlich?", "optionen": ["der Reis mit Meeresfrüchten", "der Fisch", "der Nachtisch"], "richtig": 0},
+     {"frage": "Wie zahlen sie?", "optionen": ["Stefan zahlt alles.", "getrennt", "Rita zahlt alles."], "richtig": 1},
+     {"frage": "Wie viel Trinkgeld gibt Stefan?", "optionen": ["fünf Euro", "gar keins", "zwei Euro"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "A conta, se faz favor.", "de": "Die Rechnung, bitte."},
+     {"pt": "Podemos dividir a conta?", "de": "Können wir die Rechnung teilen?"},
+     {"pt": "Estava tudo ótimo, obrigado!", "de": "Es war alles ausgezeichnet, danke!"},
+     {"pt": "O peixe estava delicioso.", "de": "Der Fisch war köstlich."},
+     {"pt": "Fique com o troco.", "de": "Stimmt so."}
+    ]
+   },
+   "saetze": [
+    {"id": "elogio-estava-tudo-otimo", "pt": "Estava tudo ótimo, obrigado!", "de": "Es war alles ausgezeichnet, danke!"},
+    {"id": "pagar-em-separado", "pt": "Podemos pagar em separado?", "de": "Können wir getrennt zahlen?"},
+    {"id": "aqui-tem-fique-troco", "pt": "Aqui tem. Fique com o troco.", "de": "Bitte sehr. Stimmt so."}
+   ]
+  },
+  {"id": "A2-05-L09", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "A2-05-L10", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Um jantar com amigos – ein Abendessen mit Freunden",
+   "situation": "Stefan, Ana, Pedro und Rita essen in einem Restaurant in Lagos.",
+   "zeilen": [
+    {"sprecher": "Empregada", "stimme": "f", "pt": "Boa noite, sejam bem-vindos! Têm reserva?", "de": "Guten Abend, herzlich willkommen! Haben Sie reserviert?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Temos, em nome de Krenn. Para quatro pessoas.", "de": "Ja, auf den Namen Krenn. Für vier Personen."},
+    {"sprecher": "Empregada", "stimme": "f", "pt": "Façam favor, sigam-me. Hoje recomendo o polvo à lagareiro.", "de": "Bitte sehr, folgen Sie mir. Heute empfehle ich den Oktopus nach Ölmüller-Art."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Eu gostava de provar o polvo. E podia trazer-nos meia dose de amêijoas, de entrada?", "de": "Ich würde gern den Oktopus probieren. Und könnten Sie uns als Vorspeise eine halbe Portion Venusmuscheln bringen?"},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "Para mim, um bife mal passado, sem molho, se faz favor.", "de": "Für mich ein Steak, blutig, ohne Soße, bitte."},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "Desculpe, mas o bife está bem passado. Não foi isto que pedi.", "de": "Entschuldigung, aber das Steak ist durchgebraten. Das habe ich nicht bestellt."},
+    {"sprecher": "Empregada", "stimme": "f", "pt": "Peço desculpa! Vou já trocar.", "de": "Entschuldigung! Ich tausche es sofort um."}
+   ],
+   "fragen": [
+    {"frage": "Auf welchen Namen ist der Tisch reserviert?", "optionen": ["Pedro", "Krenn", "Rita"], "richtig": 1},
+    {"frage": "Was empfiehlt die Kellnerin?", "optionen": ["Oktopus", "Kabeljau", "Sardinen"], "richtig": 0},
+    {"frage": "Was bestellt Rita als Vorspeise?", "optionen": ["eine Suppe", "einen Salat", "eine halbe Portion Venusmuscheln"], "richtig": 2},
+    {"frage": "Was ist Pedros Problem?", "optionen": ["Das Steak ist kalt.", "Das Steak ist durchgebraten statt blutig.", "Es gibt keine Soße."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Uma opinião sobre O Farol – eine Bewertung",
+   "situation": "Ein Gast schreibt eine Bewertung über das Restaurant O Farol in Lagos.",
+   "text": [
+    "Jantámos ontem no restaurante O Farol, em Lagos. Reservámos uma mesa na esplanada para seis pessoas.",
+    "De entrada, comemos o couvert – pão, azeitonas e manteiga – e uma sopa de peixe. Como prato principal, quase todos escolheram o peixe do dia, grelhado. Estava delicioso!",
+    "O único problema: o arroz de marisco demorou quase uma hora e chegou frio. O empregado pediu desculpa e não o pôs na conta.",
+    "O serviço foi muito simpático e os preços são justos: pagámos vinte e cinco euros por pessoa. Recomendo!"
+   ],
+   "fragen": [
+    {"frage": "Wo saßen die Gäste?", "optionen": ["auf der Terrasse", "am Fenster", "drinnen an der Bar"], "richtig": 0},
+    {"frage": "Wie war der Fisch zubereitet?", "optionen": ["frittiert", "gekocht", "gegrillt"], "richtig": 2},
+    {"frage": "Was war das Problem?", "optionen": ["Der Fisch war roh.", "Der Reis kam spät und kalt.", "Die Rechnung war falsch."], "richtig": 1},
+    {"frage": "Wie viel haben sie pro Person bezahlt?", "optionen": ["25 Euro", "15 Euro", "35 Euro"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich möchte einen Tisch für vier Personen reservieren.", "loesungen": ["Queria reservar uma mesa para quatro pessoas.", "Gostava de reservar uma mesa para quatro pessoas.", "Gostaria de reservar uma mesa para quatro pessoas.", "Queria reservar uma mesa para quatro."]},
+   {"de": "Was ist das Tagesgericht?", "loesungen": ["Qual é o prato do dia?", "O que é o prato do dia?"]},
+   {"de": "Könnten Sie mir die Rechnung bringen?", "loesungen": ["Podia trazer-me a conta?", "Pode trazer-me a conta?"]},
+   {"de": "Probieren Sie den Fisch! (formell)", "loesungen": ["Prove o peixe!", "Experimente o peixe!"]},
+   {"de": "Entschuldigung, aber die Suppe ist kalt.", "loesungen": ["Desculpe, mas a sopa está fria.", "Desculpe, a sopa está fria."]},
+   {"de": "Es war alles ausgezeichnet.", "loesungen": ["Estava tudo ótimo.", "Estava tudo muito bom.", "Estava tudo delicioso."]}
+  ],
+  "sprechen": [
+   {"pt": "Tem mesa para dois?", "de": "Haben Sie einen Tisch für zwei?"},
+   {"pt": "Gostava de provar a especialidade da casa.", "de": "Ich würde gern die Spezialität des Hauses probieren."},
+   {"pt": "Traga-me a conta, se faz favor.", "de": "Bringen Sie mir bitte die Rechnung."},
+   {"pt": "Quero o bife mal passado.", "de": "Ich möchte das Steak blutig."},
+   {"pt": "Estava tudo ótimo. Fique com o troco.", "de": "Es war alles ausgezeichnet. Stimmt so."}
+  ]
+ }
+}
