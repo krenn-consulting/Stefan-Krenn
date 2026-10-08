@@ -49,6 +49,8 @@ def test_se_als_bindewort_ist_kein_brasilianismus():
     assert meldet("Me diga uma coisa.")
     assert not meldet("Se precisar de alguma coisa, diga.")
     assert not meldet("Se calhar chove amanhã.")
+    assert not meldet("Se eu tivesse tempo, viajava.")
+    assert not meldet("Se o senhor quiser, pode vir.")
     assert not meldet("Se faz favor.")
 
 

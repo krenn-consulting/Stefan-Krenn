@@ -1,0 +1,107 @@
+{
+ "id": "B1-15",
+ "level": "B1",
+ "titel": "Teste final B1 – Abschlusstest B1 (Format DEPLE)",
+ "beschreibung": "Der Level-Test über alle B1-Einheiten im Stil der DEPLE-Prüfung, in zwei Teilen: zuerst Hören, Lesen, Wortschatz & Grammatik, dann Schreiben und Sprechen. Bestanden ab 80 %.",
+ "vokabeln": [],
+ "lektionen": [
+  {"id": "B1-15-L01", "typ": "leveltest", "titel": "Level-Test B1 – Teil 1: Hören, Lesen, Grammatik", "bloecke": ["hoeren", "lesen", "grammatik"]},
+  {"id": "B1-15-L02", "typ": "leveltest", "titel": "Level-Test B1 – Teil 2: Schreiben und Sprechen", "bloecke": ["schreiben", "sprechen"]}
+ ],
+ "test": {
+  "hoeren": [
+   {
+    "titel": "Notícias da região – Regionalnachrichten",
+    "situation": "Uma notícia da rádio local.",
+    "zeilen": [
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Boa tarde. Começamos com a falta de água no Algarve: as barragens da região estão abaixo de metade da sua capacidade.", "de": "Guten Tag. Wir beginnen mit dem Wassermangel an der Algarve: Die Stauseen der Region sind unter der Hälfte ihrer Kapazität."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "As câmaras municipais pedem aos habitantes que reduzam o consumo e anunciaram que os jardins públicos vão ser regados apenas à noite.", "de": "Die Gemeinden bitten die Bewohner, den Verbrauch zu senken, und haben angekündigt, dass öffentliche Gärten nur noch nachts bewässert werden."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Segundo um responsável da região, se não chover nos próximos meses, poderão ser necessárias medidas mais duras para a agricultura.", "de": "Laut einem Verantwortlichen der Region könnten, falls es in den nächsten Monaten nicht regnet, härtere Maßnahmen für die Landwirtschaft nötig sein."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Ainda assim, a época turística correu bem: o número de visitantes foi superior ao do ano passado.", "de": "Trotzdem verlief die Tourismussaison gut: Die Zahl der Besucher lag über der des Vorjahres."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Por fim, o festival de música de Lagos realiza-se este fim de semana, com entrada gratuita para residentes.", "de": "Zum Schluss: Das Musikfestival von Lagos findet an diesem Wochenende statt, mit freiem Eintritt für Einwohner."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o principal problema referido na notícia?", "optionen": ["o excesso de turistas", "a falta de água", "os incêndios"], "richtig": 1},
+     {"frage": "O que pedem as câmaras municipais?", "optionen": ["que os habitantes reduzam o consumo de água", "que os turistas fiquem em casa", "que se plantem mais árvores"], "richtig": 0},
+     {"frage": "O que pode acontecer se não chover?", "optionen": ["O festival será cancelado.", "As escolas vão fechar.", "Poderá haver medidas mais duras para a agricultura."], "richtig": 2},
+     {"frage": "Como correu a época turística?", "optionen": ["Correu pior do que no ano passado.", "Teve mais visitantes do que no ano passado.", "Foi igual ao ano passado."], "richtig": 1}
+    ]
+   },
+   {
+    "titel": "Uma reunião difícil – eine schwierige Besprechung",
+    "situation": "O Stefan fala com uma cliente sobre um atraso no projeto.",
+    "zeilen": [
+     {"sprecher": "Cliente", "stimme": "f", "pt": "Stefan, sinceramente, esperava que o relatório estivesse pronto na semana passada.", "de": "Stefan, ehrlich gesagt hatte ich erwartet, dass der Bericht letzte Woche fertig ist."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tem toda a razão e peço desculpa. Embora a equipa tenha trabalhado muito, faltavam-nos os dados das vendas.", "de": "Sie haben völlig recht, und ich entschuldige mich. Obwohl das Team viel gearbeitet hat, fehlten uns die Verkaufsdaten."},
+     {"sprecher": "Cliente", "stimme": "f", "pt": "Mas esses dados foram enviados há quinze dias.", "de": "Aber diese Daten wurden vor zwei Wochen geschickt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Chegaram incompletos. Assim que recebermos o resto, terminamos em dois dias.", "de": "Sie kamen unvollständig an. Sobald wir den Rest bekommen, sind wir in zwei Tagen fertig."},
+     {"sprecher": "Cliente", "stimme": "f", "pt": "Está bem. Vou pedir à contabilidade que os envie hoje. É importante termos tudo antes da reunião com a administração.", "de": "In Ordnung. Ich bitte die Buchhaltung, sie heute zu schicken. Es ist wichtig, dass wir alles vor der Sitzung mit der Geschäftsführung haben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. Se houver alguma dúvida, ligo-lhe logo.", "de": "Abgemacht. Falls es eine Frage gibt, rufe ich Sie sofort an."}
+    ],
+    "fragen": [
+     {"frage": "Porque está a cliente insatisfeita?", "optionen": ["O relatório está atrasado.", "O preço é demasiado alto.", "O Stefan faltou à reunião."], "richtig": 0},
+     {"frage": "Segundo o Stefan, qual foi o problema?", "optionen": ["A equipa estava doente.", "Os dados chegaram incompletos.", "O computador avariou."], "richtig": 1},
+     {"frage": "Quanto tempo precisa o Stefan depois de receber os dados?", "optionen": ["quinze dias", "uma semana", "dois dias"], "richtig": 2},
+     {"frage": "O que vai fazer a cliente?", "optionen": ["pedir à contabilidade que envie os dados", "cancelar o contrato", "marcar outra reunião"], "richtig": 0}
+    ]
+   }
+  ],
+  "lesen": [
+   {
+    "titel": "Carta de reclamação – Beschwerdebrief",
+    "situation": "Uma carta enviada a uma empresa de telecomunicações.",
+    "text": [
+     "Exmos. Senhores,",
+     "Venho por este meio apresentar reclamação relativamente à fatura do mês de setembro, na qual me foram cobrados serviços que nunca pedi.",
+     "Apesar de ter contactado a vossa linha de apoio três vezes, o problema continua por resolver. Em cada chamada prometeram-me que a situação seria corrigida no prazo de uma semana.",
+     "Solicito, assim, a devolução do valor cobrado indevidamente e o cancelamento imediato dos serviços em causa. Caso não obtenha resposta no prazo de quinze dias, recorrerei ao Livro de Reclamações e a uma associação de defesa do consumidor.",
+     "Sem outro assunto de momento, apresento os meus melhores cumprimentos.",
+     "Stefan Krenn"
+    ],
+    "fragen": [
+     {"frage": "Qual é o motivo da reclamação?", "optionen": ["serviços cobrados que não foram pedidos", "uma avaria na internet", "um técnico que não apareceu"], "richtig": 0},
+     {"frage": "O que fez o Stefan antes de escrever?", "optionen": ["Foi à loja.", "Ligou três vezes para a linha de apoio.", "Escreveu no Livro de Reclamações."], "richtig": 1},
+     {"frage": "O que pede o Stefan?", "optionen": ["um desconto no próximo mês", "um novo contrato", "a devolução do dinheiro e o cancelamento dos serviços"], "richtig": 2},
+     {"frage": "O que fará se não tiver resposta em quinze dias?", "optionen": ["Mudará de operador sem avisar.", "Recorrerá ao Livro de Reclamações e a uma associação de consumidores.", "Pagará a fatura."], "richtig": 1}
+    ]
+   },
+   {
+    "titel": "Fórum: viver no Algarve o ano inteiro? – Forumsbeitrag",
+    "situation": "Uma opinião publicada num fórum de residentes estrangeiros.",
+    "text": [
+     "Moro em Tavira há seis anos e, se me perguntassem hoje se voltaria a tomar a mesma decisão, diria que sim, sem hesitar.",
+     "É verdade que o inverno é mais calmo e que muitos restaurantes fecham. No entanto, é precisamente nessa altura que se conhecem melhor os vizinhos e se vive a vila de outra forma.",
+     "O que mais me custou foi a burocracia: para tratar da residência e do IRS tive de ter muita paciência. Aconselho quem chegar agora a aprender português o mais cedo possível; as pessoas apreciam o esforço, mesmo que se cometam erros.",
+     "Duvido que encontre noutro lugar a mesma qualidade de vida, embora as casas estejam cada vez mais caras."
+    ],
+    "fragen": [
+     {"frage": "O autor voltaria a mudar-se para o Algarve?", "optionen": ["Não, arrependeu-se.", "Sim, sem hesitar.", "Talvez, se as casas fossem mais baratas."], "richtig": 1},
+     {"frage": "Segundo o autor, o que tem de bom o inverno?", "optionen": ["Conhece-se melhor os vizinhos.", "Há mais festivais.", "Os restaurantes são mais baratos."], "richtig": 0},
+     {"frage": "O que foi mais difícil para ele?", "optionen": ["o clima", "a língua", "a burocracia"], "richtig": 2},
+     {"frage": "Que conselho dá aos recém-chegados?", "optionen": ["comprar casa logo", "aprender português o mais cedo possível", "viver só no verão"], "richtig": 1}
+    ]
+   }
+  ],
+  "schreiben": [
+   {"de": "Ich hoffe, dass es dir gut geht.", "loesungen": ["Espero que estejas bem.", "Espero que estejas bom.", "Espero que estejas boa."]},
+   {"de": "Ich glaube nicht, dass das eine gute Idee ist.", "loesungen": ["Não acho que seja uma boa ideia.", "Não creio que seja uma boa ideia.", "Não acredito que seja uma boa ideia."]},
+   {"de": "Ich suche eine Wohnung, die einen Balkon hat.", "loesungen": ["Procuro um apartamento que tenha varanda.", "Procuro uma casa que tenha varanda.", "Procuro um apartamento que tenha uma varanda.", "Estou à procura de um apartamento que tenha varanda."]},
+   {"de": "Es ist besser, wenn wir morgen anfangen. (infinitivo pessoal)", "loesungen": ["É melhor começarmos amanhã.", "É melhor começarmos já amanhã."]},
+   {"de": "Wenn ich mehr Zeit hätte, würde ich mehr reisen.", "loesungen": ["Se eu tivesse mais tempo, viajaria mais.", "Se tivesse mais tempo, viajaria mais.", "Se eu tivesse mais tempo, viajava mais.", "Se tivesse mais tempo, viajava mais."]},
+   {"de": "Sobald ich die Ergebnisse habe, rufe ich Sie an.", "loesungen": ["Assim que tiver os resultados, ligo-lhe.", "Logo que tiver os resultados, ligo-lhe.", "Quando tiver os resultados, ligo-lhe.", "Assim que tiver os resultados, telefono-lhe."]},
+   {"de": "Sie sagte, dass sie müde sei. (indirekte Rede)", "loesungen": ["Ela disse que estava cansada.", "Disse que estava cansada."]},
+   {"de": "Obwohl es regnet, gehen wir spazieren.", "loesungen": ["Embora esteja a chover, vamos passear.", "Embora chova, vamos passear.", "Apesar de estar a chover, vamos passear."]},
+   {"de": "Hier verkauft man Fisch. (unpersönliches se)", "loesungen": ["Aqui vende-se peixe.", "Vende-se peixe aqui."]}
+  ],
+  "sprechen": [
+   {"pt": "Espero que corra tudo bem com o vosso projeto.", "de": "Ich hoffe, dass mit eurem Projekt alles gut läuft."},
+   {"pt": "Na minha opinião, é importante que todos poupem água.", "de": "Meiner Meinung nach ist es wichtig, dass alle Wasser sparen."},
+   {"pt": "O contrato foi assinado ontem no notário.", "de": "Der Vertrag wurde gestern beim Notar unterschrieben."},
+   {"pt": "Antes de começarmos, gostava de agradecer a vossa presença.", "de": "Bevor wir beginnen, möchte ich mich für eure Anwesenheit bedanken."},
+   {"pt": "Se precisar de alguma coisa, não hesite em contactar-me.", "de": "Wenn Sie etwas brauchen, zögern Sie nicht, mich zu kontaktieren."},
+   {"pt": "Embora tenha sido difícil, valeu a pena.", "de": "Obwohl es schwierig war, hat es sich gelohnt."},
+   {"pt": "Já lho disse várias vezes, mas ele não se lembra.", "de": "Ich habe es ihm schon mehrmals gesagt, aber er erinnert sich nicht."},
+   {"pt": "A minha empresa ajuda pequenas empresas a crescerem de forma sustentável.", "de": "Meine Firma hilft kleinen Unternehmen, nachhaltig zu wachsen."}
+  ]
+ }
+}
