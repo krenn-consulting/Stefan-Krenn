@@ -1,0 +1,108 @@
+{
+ "id": "A2-13",
+ "level": "A2",
+ "titel": "Teste final A2 – Abschlusstest A2 (Format CIPLE)",
+ "beschreibung": "Der Level-Test über alle A2-Einheiten im Stil der CIPLE-Prüfung, in zwei Teilen: zuerst Hören, Lesen, Wortschatz & Grammatik, dann Schreiben und Sprechen. Bestanden ab 80 %.",
+ "vokabeln": [],
+ "lektionen": [
+  {"id": "A2-13-L01", "typ": "leveltest", "titel": "Level-Test A2 – Teil 1: Hören, Lesen, Grammatik", "bloecke": ["hoeren", "lesen", "grammatik"]},
+  {"id": "A2-13-L02", "typ": "leveltest", "titel": "Level-Test A2 – Teil 2: Schreiben und Sprechen", "bloecke": ["schreiben", "sprechen"]}
+ ],
+ "test": {
+  "hoeren": [
+   {
+    "titel": "Uma chamada para o canalizador – Anruf beim Installateur",
+    "situation": "Stefan ruft wegen eines Wasserschadens an.",
+    "zeilen": [
+     {"sprecher": "Canalizador", "stimme": "m", "pt": "Estou, sim? Daqui fala o Rui Canalizações.", "de": "Hallo? Hier ist Rui Canalizações."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Tenho uma fuga de água na casa de banho. Já tinha fechado a água, mas continua a pingar.", "de": "Guten Tag. Ich habe ein Wasserleck im Bad. Ich hatte das Wasser schon abgedreht, aber es tropft weiter."},
+     {"sprecher": "Canalizador", "stimme": "m", "pt": "Hoje não consigo, tenho muito trabalho. Posso passar aí amanhã de manhã, por volta das nove.", "de": "Heute schaffe ich es nicht, ich habe viel Arbeit. Ich kann morgen früh gegen neun vorbeikommen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. E pode fazer-me um orçamento antes?", "de": "In Ordnung. Und können Sie mir vorher einen Kostenvoranschlag machen?"},
+     {"sprecher": "Canalizador", "stimme": "m", "pt": "Claro. A deslocação custa vinte euros; o resto digo-lhe quando vir o problema.", "de": "Natürlich. Die Anfahrt kostet zwanzig Euro; den Rest sage ich Ihnen, wenn ich das Problem sehe."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perfeito. A morada é Rua das Flores, oito. Até amanhã!", "de": "Perfekt. Die Adresse ist Rua das Flores 8. Bis morgen!"}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema do Stefan?", "optionen": ["A luz não funciona.", "Há uma fuga de água na casa de banho.", "O frigorífico está avariado."], "richtig": 1},
+     {"frage": "Quando vem o canalizador?", "optionen": ["hoje à tarde", "amanhã à noite", "amanhã por volta das nove"], "richtig": 2},
+     {"frage": "Quanto custa a deslocação?", "optionen": ["vinte euros", "nove euros", "oito euros"], "richtig": 0},
+     {"frage": "O que é que o Stefan já tinha feito?", "optionen": ["Tinha chamado outro canalizador.", "Tinha fechado a água.", "Tinha comprado uma peça nova."], "richtig": 1}
+    ]
+   },
+   {
+    "titel": "Na estação de Faro – am Bahnhof von Faro",
+    "situation": "Eine Durchsage und ein kurzes Gespräch am Schalter.",
+    "zeilen": [
+     {"sprecher": "Altifalante", "stimme": "f", "pt": "Atenção, por favor. O Intercidades com destino a Lisboa, previsto para as catorze e dez, vai partir com um atraso de vinte minutos.", "de": "Achtung, bitte. Der Intercidades nach Lissabon, planmäßig um 14:10 Uhr, fährt mit zwanzig Minuten Verspätung ab."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Boa tarde. Ouvi que o comboio para Lisboa está atrasado. Vamos perder a ligação para o Porto?", "de": "Guten Tag. Ich habe gehört, dass der Zug nach Lissabon Verspätung hat. Verpassen wir den Anschluss nach Porto?"},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Não se preocupe. Se perderem a ligação, podem apanhar o Alfa Pendular seguinte sem pagar mais nada.", "de": "Keine Sorge. Wenn Sie den Anschluss verpassen, können Sie den nächsten Alfa Pendular nehmen, ohne etwas zu bezahlen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ainda bem! E de que linha parte o comboio?", "de": "Zum Glück! Und von welchem Gleis fährt der Zug?"},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Da linha dois. Boa viagem!", "de": "Von Gleis zwei. Gute Reise!"}
+    ],
+    "fragen": [
+     {"frage": "Para onde vai o Intercidades?", "optionen": ["para o Porto", "para Lisboa", "para Lagos"], "richtig": 1},
+     {"frage": "Quanto tempo de atraso tem o comboio?", "optionen": ["vinte minutos", "dez minutos", "duas horas"], "richtig": 0},
+     {"frage": "O que acontece se perderem a ligação?", "optionen": ["Têm de comprar outro bilhete.", "Têm de dormir em Lisboa.", "Podem apanhar o comboio seguinte sem pagar."], "richtig": 2},
+     {"frage": "De que linha parte o comboio?", "optionen": ["da linha um", "da linha dois", "da linha catorze"], "richtig": 1}
+    ]
+   }
+  ],
+  "lesen": [
+   {
+    "titel": "Aviso do condomínio – Mitteilung der Hausverwaltung",
+    "situation": "Ein Zettel im Eingang des Wohnhauses.",
+    "text": [
+     "Caros condóminos,",
+     "Informamos que na próxima terça-feira, dia 14, entre as 9h e as 13h, não haverá água no prédio por causa de obras na canalização.",
+     "Pedimos que não deixem as torneiras abertas. O elevador também vai estar parado durante a manhã.",
+     "A reunião anual de condomínio será no dia 20, às 19h, na sala do rés-do-chão. Na ordem de trabalhos: a pintura da fachada e o barulho no prédio à noite.",
+     "Obrigado pela compreensão. A administração."
+    ],
+    "fragen": [
+     {"frage": "Porque é que não vai haver água na terça-feira?", "optionen": ["por causa de obras na canalização", "porque há uma seca", "porque a conta não foi paga"], "richtig": 0},
+     {"frage": "O que é que também não vai funcionar?", "optionen": ["a luz", "o elevador", "a internet"], "richtig": 1},
+     {"frage": "Onde é a reunião de condomínio?", "optionen": ["no café da esquina", "na Câmara Municipal", "na sala do rés-do-chão"], "richtig": 2},
+     {"frage": "Que temas vão discutir?", "optionen": ["a pintura e o barulho", "a piscina e o jardim", "o preço da água"], "richtig": 0}
+    ]
+   },
+   {
+    "titel": "Um e-mail de trabalho – eine geschäftliche E-Mail",
+    "situation": "Eine Kundin schreibt an Stefan.",
+    "text": [
+     "Caro Dr. Stefan Krenn,",
+     "Muito obrigada pela reunião de ontem. A sua proposta pareceu-nos muito interessante, mas o orçamento é mais alto do que esperávamos.",
+     "Seria possível reduzir o preço em dez por cento se o projeto começar já em janeiro?",
+     "Em anexo envio o calendário que tínhamos discutido. Gostaríamos de ter uma resposta até sexta-feira.",
+     "Com os melhores cumprimentos,",
+     "Marta Silva"
+    ],
+    "fragen": [
+     {"frage": "O que achou a Marta da proposta?", "optionen": ["Achou-a aborrecida.", "Achou-a interessante, mas cara.", "Não a leu."], "richtig": 1},
+     {"frage": "O que pede a Marta?", "optionen": ["um desconto de dez por cento", "uma nova reunião", "mais tempo para pagar"], "richtig": 0},
+     {"frage": "Quando deve o projeto começar?", "optionen": ["em março", "na sexta-feira", "em janeiro"], "richtig": 2},
+     {"frage": "Até quando quer ela uma resposta?", "optionen": ["até sexta-feira", "até janeiro", "até amanhã"], "richtig": 0}
+    ]
+   }
+  ],
+  "schreiben": [
+   {"de": "Als ich ein Kind war, wohnte ich in Wien.", "loesungen": ["Quando eu era criança, morava em Viena.", "Quando era criança, morava em Viena.", "Quando eu era pequeno, morava em Viena.", "Quando era pequeno, morava em Viena.", "Quando eu era criança, vivia em Viena.", "Quando era pequeno, vivia em Viena."]},
+   {"de": "Ich bin 2024 nach Portugal gekommen.", "loesungen": ["Vim para Portugal em 2024.", "Vim para Portugal em dois mil e vinte e quatro."]},
+   {"de": "Der Installateur? Ich habe ihn noch nicht angerufen.", "loesungen": ["O canalizador? Ainda não lhe liguei.", "O canalizador? Ainda não o chamei.", "O canalizador? Ainda não liguei para ele."]},
+   {"de": "Dieses Restaurant ist besser als das andere.", "loesungen": ["Este restaurante é melhor do que o outro.", "Este restaurante é melhor que o outro."]},
+   {"de": "Setzen Sie sich, bitte! (formell)", "loesungen": ["Sente-se, por favor!", "Sente-se, se faz favor!", "Faz favor de se sentar!"]},
+   {"de": "Nächste Woche werden wir nach Porto fahren.", "loesungen": ["Para a semana vamos ao Porto.", "Na próxima semana vamos ao Porto.", "Para a semana iremos ao Porto.", "Na próxima semana iremos ao Porto."]},
+   {"de": "Ich möchte diese Hose umtauschen.", "loesungen": ["Queria trocar estas calças.", "Gostava de trocar estas calças.", "Gostaria de trocar estas calças."]},
+   {"de": "Ich habe niemanden gesehen.", "loesungen": ["Não vi ninguém."]},
+   {"de": "Meiner Meinung nach ist das Leben hier ruhiger.", "loesungen": ["Na minha opinião, a vida aqui é mais calma.", "Na minha opinião a vida aqui é mais tranquila.", "Na minha opinião, a vida aqui é mais tranquila.", "Acho que a vida aqui é mais calma."]}
+  ],
+  "sprechen": [
+   {"pt": "Nasci em Viena e vim para Portugal há dois anos.", "de": "Ich bin in Wien geboren und vor zwei Jahren nach Portugal gekommen."},
+   {"pt": "Antigamente trabalhava muito; agora tenho mais tempo.", "de": "Früher habe ich viel gearbeitet; jetzt habe ich mehr Zeit."},
+   {"pt": "Tenho uma avaria na cozinha. Pode vir vê-la amanhã?", "de": "Ich habe einen Defekt in der Küche. Können Sie morgen kommen und ihn ansehen?"},
+   {"pt": "Queria reservar uma mesa para quatro pessoas, para sábado à noite.", "de": "Ich möchte einen Tisch für vier Personen reservieren, für Samstagabend."},
+   {"pt": "Comprei este casaco, mas fica-me apertado. Posso trocá-lo?", "de": "Ich habe diese Jacke gekauft, aber sie ist mir zu eng. Kann ich sie umtauschen?"},
+   {"pt": "Desculpe, o comboio para Lisboa parte de que linha?", "de": "Entschuldigung, von welchem Gleis fährt der Zug nach Lissabon?"},
+   {"pt": "Obrigado pelo convite! Vamos com muito gosto.", "de": "Danke für die Einladung! Wir kommen sehr gern."},
+   {"pt": "Na minha opinião, viver no Algarve tem muitas vantagens.", "de": "Meiner Meinung nach hat das Leben an der Algarve viele Vorteile."}
+  ]
+ }
+}
