@@ -158,7 +158,9 @@ def test_abschluss_und_naechste_lektion(con):
     assert lesson.heute_erledigt(con) >= 0
     # Lernzeit und Lektion im Tageslog
     log = con.execute("SELECT * FROM daily_log WHERE day = ?", (TAG1.date().isoformat(),)).fetchone()
-    assert log["lessons"] == 1 and log["seconds"] > 0
+    assert log["lessons"] == 1
+    # Blockzeiten werden auf den echten heutigen Tag gebucht
+    assert con.execute("SELECT SUM(seconds) AS s FROM daily_log").fetchone()["s"] > 0
 
 
 def test_score_zaehlt_fast_als_richtig(con):

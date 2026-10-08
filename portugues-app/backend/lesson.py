@@ -236,11 +236,18 @@ def heute_eingefuehrt(con: sqlite3.Connection, now: datetime) -> int:
 
 
 def wortschatz_schritte(lesson: dict, rng: random.Random) -> list[dict]:
-    """Erst jedes neue Wort vorstellen, dann alle aktiv abrufen (gemischt)."""
+    """Erst jedes neue Wort vorstellen, dann alle aktiv abrufen (gemischt).
+
+    Wörter mit "passiv": true (ab B1) werden nur gezeigt – zum Verstehen –,
+    aber nicht abgefragt und nicht in die Wiederholung aufgenommen.
+    """
     vorstellen, abrufen = [], []
     for vid in lesson.get("vokabeln", []):
         item_id = content.vocab_item_id(lesson["unit_id"], vid)
         item = content.item(item_id)
+        if item.get("passiv"):
+            vorstellen.append(_vokabel_schritt(item_id, item, "Zum Verstehen"))
+            continue
         vorstellen.append(_vokabel_schritt(item_id, item))
         abrufen.append(_de_pt_schritt(item_id, item, "vocab"))
     rng.shuffle(abrufen)
@@ -262,6 +269,8 @@ def grammatik_schritte(con: sqlite3.Connection, lesson: dict, rng: random.Random
     if not g:
         return []
     schritte = [{"typ": "info", "titel": g["titel"], "absaetze": g.get("erklaerung", []),
+                 # ab B1: Erklärung auf Portugiesisch, Deutsch zum Aufklappen
+                 "absaetze_de": g.get("erklaerung_de", []),
                  "vergleich": g.get("vergleich", ""), "beispiele": g.get("beispiele", [])}]
     for i, u in enumerate(g.get("uebungen", [])):
         ref = {"item_id": f"{lesson['id']}:g:{i}", "kind": "uebung", "kategorie": u.get("kategorie", "")}

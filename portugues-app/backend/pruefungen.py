@@ -73,7 +73,9 @@ def _grammatik_aus_pool(pool, anzahl: int, rng: random.Random, hinweis: bool = F
 
 
 def _vokabel_ids(units: list[dict]) -> list[str]:
-    return [content.vocab_item_id(u["id"], v["id"]) for u in units for v in u.get("vokabeln", [])]
+    """Aktiv zu lernende Wörter (passive Wörter werden nicht abgefragt)."""
+    return [content.vocab_item_id(u["id"], v["id"]) for u in units for v in u.get("vokabeln", [])
+            if not v.get("passiv")]
 
 
 def _hoer_schritte(dialog: dict, ref_basis: str, rng: random.Random, diktate: int = 1) -> list[dict]:

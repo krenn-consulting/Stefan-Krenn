@@ -152,21 +152,68 @@ def pruefe_einheit(unit: dict) -> list[str]:
     return probleme
 
 
+def _normal(pt: str) -> str:
+    return pt.strip().lower().rstrip(".!?")
+
+
+def doppelte_woerter(units: list[dict]) -> list[str]:
+    """Wörter, die schon in einer früheren Einheit vorkommen (würden doppelte Karten erzeugen)."""
+    gesehen, probleme = {}, []
+    for unit in units:
+        for v in unit.get("vokabeln", []):
+            schluessel = _normal(v.get("pt", ""))
+            if schluessel in gesehen and gesehen[schluessel] != unit["id"]:
+                probleme.append(f"{unit['id']}: Vokabel „{v.get('pt')}“ gibt es schon in {gesehen[schluessel]}")
+            gesehen.setdefault(schluessel, unit["id"])
+    return probleme
+
+
 def pruefe_alle() -> list[str]:
     content.reload()
     probleme = []
     lektions_ids = []
-    for unit in content.load_units():
+    units = content.load_units()
+    for unit in units:
         probleme += pruefe_einheit(unit)
         lektions_ids += [l.get("id") for l in unit.get("lektionen", [])]
     doppelt = {i for i in lektions_ids if lektions_ids.count(i) > 1}
     if doppelt:
         probleme.append(f"Doppelte Lektions-IDs: {sorted(doppelt)}")
+    probleme += doppelte_woerter(units)
+    return probleme
+
+
+def pruefe_dateien(pfade: list[str]) -> list[str]:
+    """Nur die angegebenen Dateien prüfen (plus doppelte Wörter gegenüber allen anderen Einheiten)."""
+    import json
+    from pathlib import Path
+    probleme, eigene = [], []
+    for pfad in pfade:
+        try:
+            unit = json.loads(Path(pfad).read_text(encoding="utf-8"))
+        except (OSError, ValueError) as e:
+            probleme.append(f"{pfad}: kein gültiges JSON ({e})")
+            continue
+        unit.setdefault("level", Path(pfad).parent.name)
+        probleme += pruefe_einheit(unit)
+        eigene.append(unit)
+    andere = []
+    for level in content.LEVELS:
+        for p in sorted((content.CONTENT_DIR / level).glob("*.json")):
+            if any(Path(x).resolve() == p.resolve() for x in pfade):
+                continue
+            try:
+                andere.append(json.loads(p.read_text(encoding="utf-8")))
+            except ValueError:
+                pass
+    reihenfolge = sorted(andere + eigene, key=lambda u: (content.LEVELS.index(u.get("level", "A1")), u["id"]))
+    ids = {u["id"] for u in eigene}
+    probleme += [p for p in doppelte_woerter(reihenfolge) if p.split(":")[0] in ids]
     return probleme
 
 
 if __name__ == "__main__":
-    gefunden = pruefe_alle()
+    gefunden = pruefe_dateien(sys.argv[1:]) if len(sys.argv) > 1 else pruefe_alle()
     for p in gefunden:
         print("⚠️ ", p)
     print("✅ Alle Inhalte in Ordnung." if not gefunden else f"{len(gefunden)} Problem(e) gefunden.")

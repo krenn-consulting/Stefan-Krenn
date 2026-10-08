@@ -56,3 +56,23 @@ def test_a1_komplett():
     assert len(content.lessons_in_level("A1")) == content.PLANNED_LESSONS["A1"]
     typen = [content.lesson(l)["typ"] for l in content.lesson_order() if l.startswith("A1-")]
     assert typen.count("test") == 12 and typen.count("leveltest") == 2
+
+
+def test_doppelte_woerter_werden_erkannt():
+    a = {"id": "X1-01", "vokabeln": [{"id": "a", "pt": "o carro"}]}
+    b = {"id": "X1-02", "vokabeln": [{"id": "b", "pt": "O carro"}, {"id": "c", "pt": "a mota"}]}
+    probleme = inhalt_check.doppelte_woerter([a, b])
+    assert probleme == ["X1-02: Vokabel „O carro“ gibt es schon in X1-01"]
+
+
+def test_passive_woerter_nur_gezeigt(monkeypatch):
+    import random
+    from backend import lesson
+    original = content.item
+    passiv = "A1-01:v:bom-dia"
+    monkeypatch.setattr(content, "item",
+                        lambda i: {**original(i), "passiv": True} if i == passiv else original(i))
+    schritte = lesson.wortschatz_schritte(content.lesson("A1-01-L01"), random.Random(1))
+    gezeigt = [s for s in schritte if s["typ"] == "vokabel" and s["item_id"] == passiv]
+    abgefragt = [s for s in schritte if s.get("ref", {}).get("item_id") == passiv]
+    assert gezeigt and gezeigt[0]["titel"] == "Zum Verstehen" and not abgefragt

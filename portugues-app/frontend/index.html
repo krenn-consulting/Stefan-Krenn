@@ -124,6 +124,10 @@
                   <div class="info">
                     <h2 x-text="schritt.titel"></h2>
                     <template x-for="a in schritt.absaetze"><p x-html="a"></p></template>
+                    <details class="auf-deutsch" x-show="schritt.absaetze_de && schritt.absaetze_de.length">
+                      <summary>Auf Deutsch erklären</summary>
+                      <template x-for="a in (schritt.absaetze_de || [])"><p x-html="a"></p></template>
+                    </details>
                     <p class="vergleich" x-show="schritt.vergleich"><span>🇩🇪 🇬🇧</span> <span x-html="schritt.vergleich"></span></p>
                     <ul class="beispiele">
                       <template x-for="b in schritt.beispiele">
