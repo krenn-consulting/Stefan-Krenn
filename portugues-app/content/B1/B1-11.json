@@ -1,0 +1,879 @@
+{
+ "id": "B1-11",
+ "level": "B1",
+ "titel": "Tecnologia e media",
+ "beschreibung": "Über Handy, Apps, Homeoffice, Internetsicherheit, soziale Netzwerke, Nachrichten, Streaming und den Technik-Support sprechen – mit Verben mit fester Präposition (depender de, pensar em, contar com, assistir a), dem Gerundium als Nebensatz und der Partizipialkonstruktion (feito isto, terminada a reunião).",
+ "vokabeln": [
+  {"id": "a-aplicacao", "pt": "a aplicação", "de": "die App / die Anwendung", "emoji": "📱", "beispiel_pt": "Descarreguei a aplicação do banco.", "beispiel_de": "Ich habe die App der Bank heruntergeladen.", "hinweis": "Umgangssprachlich auch: a app.", "alternativen": ["a app"]},
+  {"id": "descarregar", "pt": "descarregar", "de": "herunterladen", "emoji": "⬇️", "beispiel_pt": "Pode descarregar o formulário no site da Câmara.", "beispiel_de": "Sie können das Formular auf der Website der Gemeinde herunterladen.", "hinweis": "pt-PT: descarregar (BR: baixar). Auch: fazer o download."},
+  {"id": "atualizar", "pt": "atualizar", "de": "aktualisieren", "emoji": "🔄", "beispiel_pt": "O telemóvel pede-me para atualizar o sistema.", "beispiel_de": "Das Handy fordert mich auf, das System zu aktualisieren.", "hinweis": "a atualização = das Update"},
+  {"id": "a-bateria", "pt": "a bateria", "de": "der Akku / die Batterie", "emoji": "🔋", "beispiel_pt": "A bateria está quase a acabar.", "beispiel_de": "Der Akku ist fast leer."},
+  {"id": "apagar", "pt": "apagar", "de": "löschen (auch: Licht ausmachen)", "emoji": "🗑️", "beispiel_pt": "Apaguei as mensagens antigas.", "beispiel_de": "Ich habe die alten Nachrichten gelöscht."},
+  {"id": "as-definicoes", "pt": "as definições", "de": "die Einstellungen", "emoji": "⚙️", "beispiel_pt": "Vai às definições e muda o idioma.", "beispiel_de": "Geh in die Einstellungen und ändere die Sprache.", "passiv": true},
+  {"id": "a-notificacao", "pt": "a notificação", "de": "die Benachrichtigung", "emoji": "🔔", "beispiel_pt": "Recebo demasiadas notificações.", "beispiel_de": "Ich bekomme zu viele Benachrichtigungen.", "passiv": true},
+
+  {"id": "depender-de", "pt": "depender de", "de": "abhängen von", "emoji": "🔗", "beispiel_pt": "Hoje em dia, dependemos muito da tecnologia.", "beispiel_de": "Heutzutage hängen wir sehr von der Technik ab.", "hinweis": "de + a = da, de + o = do"},
+  {"id": "desistir-de", "pt": "desistir de", "de": "aufgeben / verzichten auf", "emoji": "🏳️", "beispiel_pt": "Desisti das redes sociais durante um mês.", "beispiel_de": "Ich habe einen Monat lang auf soziale Netzwerke verzichtet."},
+  {"id": "prescindir-de", "pt": "prescindir de", "de": "verzichten auf", "emoji": "🤷", "beispiel_pt": "Não consigo prescindir do telemóvel no trabalho.", "beispiel_de": "Bei der Arbeit kann ich nicht auf das Handy verzichten.", "passiv": true},
+  {"id": "acabar-de", "pt": "acabar de + Infinitiv", "de": "gerade (eben) etwas getan haben", "emoji": "⏱️", "beispiel_pt": "Acabei de receber a tua mensagem.", "beispiel_de": "Ich habe gerade deine Nachricht bekommen.", "hinweis": "acabar = beenden; acabar de fazer = gerade getan haben", "alternativen": ["acabar de"]},
+  {"id": "dar-conta-de", "pt": "dar conta de", "de": "(be)merken", "emoji": "💡", "beispiel_pt": "Não dei conta das horas.", "beispiel_de": "Ich habe nicht gemerkt, wie die Zeit vergeht."},
+  {"id": "viciado", "pt": "viciado", "de": "süchtig", "emoji": "🎰", "beispiel_pt": "O meu sobrinho está viciado em jogos.", "beispiel_de": "Mein Neffe ist spielsüchtig.", "hinweis": "viciado em = süchtig nach (mit em!)", "alternativen": ["viciada"]},
+  {"id": "o-vicio", "pt": "o vício", "de": "die Sucht / das Laster", "emoji": "🌀", "beispiel_pt": "O telemóvel tornou-se um vício.", "beispiel_de": "Das Handy ist zur Sucht geworden.", "passiv": true},
+  {"id": "o-tempo-de-ecra", "pt": "o tempo de ecrã", "de": "die Bildschirmzeit", "emoji": "⌛", "beispiel_pt": "O meu tempo de ecrã é de cinco horas por dia.", "beispiel_de": "Meine Bildschirmzeit beträgt fünf Stunden pro Tag.", "passiv": true},
+  {"id": "abusar-de", "pt": "abusar de", "de": "übermäßig nutzen / missbrauchen", "emoji": "⚠️", "beispiel_pt": "Não abuses do telemóvel antes de dormir.", "beispiel_de": "Benutz das Handy vor dem Schlafen nicht zu viel.", "passiv": true},
+
+  {"id": "pensar-em", "pt": "pensar em", "de": "denken an", "emoji": "💭", "beispiel_pt": "Em que estás a pensar?", "beispiel_de": "Woran denkst du gerade?", "hinweis": "pensar em = denken an; pensar + Infinitiv = vorhaben"},
+  {"id": "concentrar-se-em", "pt": "concentrar-se em", "de": "sich konzentrieren auf", "emoji": "🎧", "beispiel_pt": "Em casa, concentro-me melhor no trabalho.", "beispiel_de": "Zu Hause kann ich mich besser auf die Arbeit konzentrieren."},
+  {"id": "acreditar-em", "pt": "acreditar em", "de": "glauben (an)", "emoji": "🙏", "beispiel_pt": "Não acredites em tudo o que lês na internet.", "beispiel_de": "Glaub nicht alles, was du im Internet liest."},
+  {"id": "reparar-em", "pt": "reparar em", "de": "bemerken / achten auf", "emoji": "👁️", "beispiel_pt": "Reparaste no novo logótipo da empresa?", "beispiel_de": "Ist dir das neue Logo der Firma aufgefallen?", "hinweis": "Achtung: reparar (ohne em) = reparieren"},
+  {"id": "apostar-em", "pt": "apostar em", "de": "setzen auf", "emoji": "🎯", "beispiel_pt": "A empresa aposta no teletrabalho.", "beispiel_de": "Die Firma setzt auf Homeoffice.", "passiv": true},
+  {"id": "o-teletrabalho", "pt": "o teletrabalho", "de": "das Homeoffice / die Telearbeit", "emoji": "🏠", "beispiel_pt": "Faço teletrabalho três dias por semana.", "beispiel_de": "Ich arbeite drei Tage pro Woche im Homeoffice."},
+
+  {"id": "sonhar-com", "pt": "sonhar com", "de": "träumen von", "emoji": "😴", "beispiel_pt": "Esta noite sonhei com o meu avô.", "beispiel_de": "Heute Nacht habe ich von meinem Großvater geträumt.", "hinweis": "sonhar com – nicht „de“!"},
+  {"id": "dar-com", "pt": "dar com", "de": "(zufällig) finden / stoßen auf", "emoji": "🔍", "beispiel_pt": "Dei com uma fotografia antiga na internet.", "beispiel_de": "Ich bin im Internet auf ein altes Foto gestoßen.", "passiv": true},
+  {"id": "assistir-a", "pt": "assistir a", "de": "zuschauen / teilnehmen an", "emoji": "👀", "beispiel_pt": "Assisti à reunião por videochamada.", "beispiel_de": "Ich habe per Videoanruf an der Besprechung teilgenommen.", "hinweis": "a + o = ao, a + a = à: assistir ao jogo, assistir à aula"},
+  {"id": "ensinar", "pt": "ensinar", "de": "beibringen / unterrichten", "emoji": "👩‍🏫", "beispiel_pt": "Ensinei a minha sogra a usar o WhatsApp.", "beispiel_de": "Ich habe meiner Schwiegermutter beigebracht, WhatsApp zu benutzen.", "hinweis": "ensinar alguém a fazer algo"},
+  {"id": "acostumar-se-a", "pt": "acostumar-se a", "de": "sich gewöhnen an", "emoji": "🔁", "beispiel_pt": "Ainda não me acostumei ao telemóvel novo.", "beispiel_de": "Ich habe mich noch nicht an das neue Handy gewöhnt.", "hinweis": "= habituar-se a", "passiv": true},
+  {"id": "a-mensagem-de-voz", "pt": "a mensagem de voz", "de": "die Sprachnachricht", "emoji": "🗣️", "beispiel_pt": "A minha sogra só manda mensagens de voz.", "beispiel_de": "Meine Schwiegermutter schickt nur Sprachnachrichten."},
+  {"id": "o-grupo", "pt": "o grupo", "de": "die Gruppe (auch: Chatgruppe)", "emoji": "👨‍👩‍👧", "beispiel_pt": "Criei um grupo da família no WhatsApp.", "beispiel_de": "Ich habe eine Familiengruppe auf WhatsApp erstellt.", "passiv": true},
+
+  {"id": "a-burla", "pt": "a burla", "de": "der Betrug (die Masche)", "emoji": "🎣", "beispiel_pt": "Cuidado, esta mensagem é uma burla!", "beispiel_de": "Vorsicht, diese Nachricht ist Betrug!", "hinweis": "Phishing heißt offiziell a fraude informática; im Alltag sagt man meist burla."},
+  {"id": "o-burlao", "pt": "o burlão", "de": "der Betrüger", "emoji": "🦹", "beispiel_pt": "Os burlões fingem ser do banco.", "beispiel_de": "Die Betrüger geben sich als Bank aus.", "hinweis": "Plural: os burlões", "passiv": true},
+  {"id": "a-fraude-informatica", "pt": "a fraude informática", "de": "der Computerbetrug (z. B. Phishing)", "emoji": "💻", "beispiel_pt": "O meu vizinho foi vítima de fraude informática.", "beispiel_de": "Mein Nachbar wurde Opfer von Computerbetrug.", "passiv": true},
+  {"id": "desconfiar-de", "pt": "desconfiar de", "de": "misstrauen", "emoji": "🤨", "beispiel_pt": "Desconfie de mensagens com erros de português.", "beispiel_de": "Misstrauen Sie Nachrichten mit Sprachfehlern."},
+  {"id": "clicar", "pt": "clicar", "de": "klicken", "emoji": "🖱️", "beispiel_pt": "Nunca cliques em ligações suspeitas.", "beispiel_de": "Klick nie auf verdächtige Links.", "hinweis": "clicar em; a ligação = der Link (auch: o link)"},
+  {"id": "o-codigo-de-verificacao", "pt": "o código de verificação", "de": "der Bestätigungscode", "emoji": "🔢", "beispiel_pt": "Nunca dê o código de verificação a ninguém.", "beispiel_de": "Geben Sie den Bestätigungscode niemals weiter."},
+  {"id": "os-dados-pessoais", "pt": "os dados pessoais", "de": "die persönlichen Daten", "emoji": "🪪", "beispiel_pt": "O banco nunca pede os dados pessoais por SMS.", "beispiel_de": "Die Bank fragt nie per SMS nach persönlichen Daten."},
+  {"id": "suspeito", "pt": "suspeito", "de": "verdächtig", "emoji": "🚩", "beispiel_pt": "Recebi um e-mail muito suspeito.", "beispiel_de": "Ich habe eine sehr verdächtige E-Mail bekommen.", "alternativen": ["suspeita"], "passiv": true},
+  {"id": "o-pirata-informatico", "pt": "o pirata informático", "de": "der Hacker", "emoji": "🏴‍☠️", "beispiel_pt": "Um pirata informático entrou no sistema da empresa.", "beispiel_de": "Ein Hacker ist in das System der Firma eingedrungen.", "alternativen": ["o hacker"], "passiv": true},
+
+  {"id": "as-redes-sociais", "pt": "as redes sociais", "de": "die sozialen Netzwerke", "emoji": "🌐", "beispiel_pt": "Passo pouco tempo nas redes sociais.", "beispiel_de": "Ich verbringe wenig Zeit in den sozialen Netzwerken."},
+  {"id": "por-gosto", "pt": "pôr gosto", "de": "liken", "emoji": "👍", "beispiel_pt": "Puseste gosto na minha fotografia?", "beispiel_de": "Hast du mein Foto geliked?", "hinweis": "o gosto = das Like"},
+  {"id": "publicar", "pt": "publicar", "de": "veröffentlichen / posten", "emoji": "📝", "beispiel_pt": "Publiquei uma fotografia da praia.", "beispiel_de": "Ich habe ein Foto vom Strand gepostet.", "hinweis": "-car → -quei: publiquei"},
+  {"id": "comentar", "pt": "comentar", "de": "kommentieren", "emoji": "💬", "beispiel_pt": "Muitas pessoas comentaram a publicação.", "beispiel_de": "Viele Leute haben den Beitrag kommentiert."},
+  {"id": "o-seguidor", "pt": "o seguidor", "de": "der Follower", "emoji": "👥", "beispiel_pt": "A página da empresa já tem mil seguidores.", "beispiel_de": "Die Seite der Firma hat schon tausend Follower.", "passiv": true},
+  {"id": "a-privacidade", "pt": "a privacidade", "de": "die Privatsphäre / der Datenschutz", "emoji": "🔒", "beispiel_pt": "Mudei as definições de privacidade.", "beispiel_de": "Ich habe die Datenschutzeinstellungen geändert."},
+  {"id": "as-noticias-falsas", "pt": "as notícias falsas", "de": "die Fake News", "emoji": "📰", "beispiel_pt": "As notícias falsas espalham-se muito depressa.", "beispiel_de": "Fake News verbreiten sich sehr schnell.", "hinweis": "espalhar-se = sich verbreiten"},
+  {"id": "a-publicacao", "pt": "a publicação", "de": "der Beitrag / der Post", "emoji": "🖼️", "beispiel_pt": "A tua publicação teve muitos gostos.", "beispiel_de": "Dein Beitrag hat viele Likes bekommen.", "hinweis": "pt-PT: a publicação; umgangssprachlich auch o post", "passiv": true},
+  {"id": "bloquear", "pt": "bloquear", "de": "blockieren / sperren", "emoji": "🚫", "beispiel_pt": "Bloqueei um contacto que me enviava publicidade.", "beispiel_de": "Ich habe einen Kontakt blockiert, der mir Werbung geschickt hat.", "passiv": true},
+
+  {"id": "o-jornal", "pt": "o jornal", "de": "die Zeitung", "emoji": "🗞️", "beispiel_pt": "Leio o jornal no telemóvel todas as manhãs.", "beispiel_de": "Ich lese jeden Morgen die Zeitung auf dem Handy."},
+  {"id": "o-jornalista", "pt": "o jornalista", "de": "der Journalist", "emoji": "✍️", "beispiel_pt": "A jornalista entrevistou o presidente da Câmara.", "beispiel_de": "Die Journalistin hat den Bürgermeister interviewt.", "alternativen": ["a jornalista"]},
+  {"id": "o-artigo", "pt": "o artigo", "de": "der Artikel", "emoji": "📄", "beispiel_pt": "Li um artigo interessante sobre inteligência artificial.", "beispiel_de": "Ich habe einen interessanten Artikel über künstliche Intelligenz gelesen."},
+  {"id": "estar-a-par-de", "pt": "estar a par de", "de": "auf dem Laufenden sein über", "emoji": "📡", "beispiel_pt": "Gosto de estar a par das notícias da terra.", "beispiel_de": "Ich bin gern über die Nachrichten aus dem Ort auf dem Laufenden."},
+  {"id": "a-fonte", "pt": "a fonte", "de": "die Quelle", "emoji": "🔎", "beispiel_pt": "Qual é a fonte desta notícia?", "beispiel_de": "Was ist die Quelle dieser Nachricht?", "hinweis": "a fonte = auch der Brunnen", "passiv": true},
+  {"id": "a-manchete", "pt": "a manchete", "de": "die Schlagzeile", "emoji": "📢", "beispiel_pt": "A manchete de hoje fala da seca no Algarve.", "beispiel_de": "Die heutige Schlagzeile handelt von der Dürre an der Algarve.", "passiv": true},
+  {"id": "a-imprensa", "pt": "a imprensa", "de": "die Presse", "emoji": "🏛️", "beispiel_pt": "A imprensa local escreveu sobre o festival.", "beispiel_de": "Die Lokalpresse hat über das Festival geschrieben.", "passiv": true},
+  {"id": "fiavel", "pt": "fiável", "de": "zuverlässig / vertrauenswürdig", "emoji": "✅", "beispiel_pt": "Este site não é fiável.", "beispiel_de": "Diese Website ist nicht vertrauenswürdig.", "hinweis": "Plural: fiáveis", "passiv": true},
+
+  {"id": "configurar", "pt": "configurar", "de": "einrichten / konfigurieren", "emoji": "🛠️", "beispiel_pt": "Demorei uma hora a configurar o portátil novo.", "beispiel_de": "Ich habe eine Stunde gebraucht, um den neuen Laptop einzurichten."},
+  {"id": "o-utilizador", "pt": "o utilizador", "de": "der Benutzer", "emoji": "👤", "beispiel_pt": "Escreva o nome de utilizador e a palavra-passe.", "beispiel_de": "Geben Sie den Benutzernamen und das Passwort ein.", "hinweis": "pt-PT: utilizador (BR: usuário)", "passiv": true},
+  {"id": "o-ficheiro", "pt": "o ficheiro", "de": "die Datei", "emoji": "📁", "beispiel_pt": "Envio-te o ficheiro por e-mail.", "beispiel_de": "Ich schicke dir die Datei per E-Mail.", "hinweis": "pt-PT: o ficheiro (BR: o arquivo)"},
+  {"id": "a-copia-de-seguranca", "pt": "a cópia de segurança", "de": "die Sicherungskopie / das Backup", "emoji": "💽", "beispiel_pt": "Faço uma cópia de segurança todas as semanas.", "beispiel_de": "Ich mache jede Woche ein Backup."},
+  {"id": "a-nuvem", "pt": "a nuvem", "de": "die Cloud (eigentlich: die Wolke)", "emoji": "☁️", "beispiel_pt": "Guardo as fotografias na nuvem.", "beispiel_de": "Ich speichere die Fotos in der Cloud.", "passiv": true},
+  {"id": "o-teclado", "pt": "o teclado", "de": "die Tastatur", "emoji": "⌨️", "beispiel_pt": "O teclado português tem uma tecla para o ç.", "beispiel_de": "Die portugiesische Tastatur hat eine Taste für das ç."},
+  {"id": "o-rato", "pt": "o rato", "de": "die Maus (Computer und Tier)", "emoji": "🐭", "beispiel_pt": "O rato precisa de pilhas novas.", "beispiel_de": "Die Maus braucht neue Batterien.", "hinweis": "pt-PT: o rato (BR: o mouse)"},
+  {"id": "a-pen", "pt": "a pen", "de": "der USB-Stick", "emoji": "🔌", "beispiel_pt": "Passa os ficheiros para uma pen.", "beispiel_de": "Kopier die Dateien auf einen USB-Stick.", "hinweis": "pt-PT: a pen (ausgesprochen wie Englisch „pen“)", "passiv": true},
+  {"id": "iniciar-sessao", "pt": "iniciar sessão", "de": "sich anmelden / einloggen", "emoji": "🔑", "beispiel_pt": "Para iniciar sessão, precisa do código.", "beispiel_de": "Um sich anzumelden, brauchen Sie den Code.", "hinweis": "terminar sessão = sich abmelden", "passiv": true},
+
+  {"id": "a-serie", "pt": "a série", "de": "die Serie", "emoji": "🎬", "beispiel_pt": "Estamos a ver uma série portuguesa.", "beispiel_de": "Wir schauen gerade eine portugiesische Serie."},
+  {"id": "o-episodio", "pt": "o episódio", "de": "die Folge / die Episode", "emoji": "🎞️", "beispiel_pt": "Ontem vimos três episódios seguidos.", "beispiel_de": "Gestern haben wir drei Folgen hintereinander geschaut."},
+  {"id": "o-canal", "pt": "o canal", "de": "der Sender / der Kanal", "emoji": "📺", "beispiel_pt": "Em que canal dá o jogo?", "beispiel_de": "Auf welchem Sender läuft das Spiel?", "hinweis": "dar na televisão = im Fernsehen laufen. Plural: os canais", "passiv": true},
+  {"id": "as-legendas", "pt": "as legendas", "de": "die Untertitel", "emoji": "🔤", "beispiel_pt": "Vejo os filmes com legendas em português.", "beispiel_de": "Ich schaue Filme mit portugiesischen Untertiteln.", "hinweis": "In Portugal werden Filme fast nie synchronisiert – man sieht sie im Original mit Untertiteln."},
+  {"id": "o-comando", "pt": "o comando", "de": "die Fernbedienung", "emoji": "🎛️", "beispiel_pt": "Onde está o comando da televisão?", "beispiel_de": "Wo ist die Fernbedienung vom Fernseher?", "hinweis": "pt-PT: o comando (BR: o controle remoto)"},
+  {"id": "o-telejornal", "pt": "o telejornal", "de": "die Fernsehnachrichten", "emoji": "🗣️", "beispiel_pt": "Vemos o telejornal das oito.", "beispiel_de": "Wir schauen die Nachrichten um acht."},
+  {"id": "em-direto", "pt": "em direto", "de": "live", "emoji": "🔴", "beispiel_pt": "O jogo vai ser transmitido em direto.", "beispiel_de": "Das Spiel wird live übertragen."},
+  {"id": "o-podcast", "pt": "o podcast", "de": "der Podcast", "emoji": "🎧", "beispiel_pt": "Ouço um podcast em português todas as manhãs.", "beispiel_de": "Ich höre jeden Morgen einen Podcast auf Portugiesisch."},
+  {"id": "o-apresentador", "pt": "o apresentador", "de": "der Moderator", "emoji": "🎙️", "beispiel_pt": "O apresentador do telejornal fala muito depressa.", "beispiel_de": "Der Nachrichtensprecher spricht sehr schnell.", "alternativen": ["a apresentadora"], "passiv": true},
+  {"id": "a-plataforma-de-streaming", "pt": "a plataforma de streaming", "de": "die Streamingplattform", "emoji": "🍿", "beispiel_pt": "Já pagamos três plataformas de streaming.", "beispiel_de": "Wir zahlen schon für drei Streamingplattformen.", "passiv": true},
+
+  {"id": "o-apoio-ao-cliente", "pt": "o apoio ao cliente", "de": "der Kundendienst / Kundensupport", "emoji": "☎️", "beispiel_pt": "Liguei para o apoio ao cliente.", "beispiel_de": "Ich habe beim Kundendienst angerufen."},
+  {"id": "dar-erro", "pt": "dar erro", "de": "eine Fehlermeldung bringen / nicht funktionieren", "emoji": "❌", "beispiel_pt": "A aplicação dá erro sempre que a abro.", "beispiel_de": "Die App zeigt jedes Mal einen Fehler, wenn ich sie öffne."},
+  {"id": "a-mensagem-de-erro", "pt": "a mensagem de erro", "de": "die Fehlermeldung", "emoji": "🛑", "beispiel_pt": "Aparece uma mensagem de erro no ecrã.", "beispiel_de": "Auf dem Bildschirm erscheint eine Fehlermeldung."},
+  {"id": "falhar", "pt": "falhar", "de": "ausfallen / versagen", "emoji": "📶", "beispiel_pt": "A internet falha todas as noites.", "beispiel_de": "Das Internet fällt jeden Abend aus."},
+  {"id": "ir-se-abaixo", "pt": "ir-se abaixo", "de": "abstürzen / ausfallen", "emoji": "💥", "beispiel_pt": "O sistema foi-se abaixo durante a reunião.", "beispiel_de": "Das System ist während der Besprechung abgestürzt.", "hinweis": "Präsens: vai-se abaixo", "passiv": true},
+  {"id": "a-reparacao", "pt": "a reparação", "de": "die Reparatur", "emoji": "🧰", "beispiel_pt": "A reparação demora duas semanas.", "beispiel_de": "Die Reparatur dauert zwei Wochen."},
+  {"id": "o-numero-de-serie", "pt": "o número de série", "de": "die Seriennummer", "emoji": "🏷️", "beispiel_pt": "O número de série está na parte de trás do portátil.", "beispiel_de": "Die Seriennummer steht auf der Rückseite des Laptops.", "passiv": true},
+  {"id": "repor-as-definicoes-de-fabrica", "pt": "repor as definições de fábrica", "de": "auf Werkseinstellungen zurücksetzen", "emoji": "♻️", "beispiel_pt": "Caso nada resulte, pode repor as definições de fábrica.", "beispiel_de": "Falls nichts hilft, können Sie auf die Werkseinstellungen zurücksetzen.", "hinweis": "resultar = funktionieren, klappen", "passiv": true},
+  {"id": "o-assistente", "pt": "o assistente", "de": "der Mitarbeiter (an der Hotline) / der Assistent", "emoji": "👩‍💼", "beispiel_pt": "O assistente pediu-me o número de série.", "beispiel_de": "Der Mitarbeiter hat mich nach der Seriennummer gefragt.", "alternativen": ["a assistente"], "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-11-L01",
+   "typ": "neu",
+   "titel": "Das Handy und die Apps",
+   "vokabeln": ["a-aplicacao", "descarregar", "atualizar", "a-bateria", "apagar", "as-definicoes", "a-notificacao"],
+   "grammatik": {
+    "titel": "Verbos com preposição fixa – visão geral",
+    "erklaerung": [
+     "Muitos verbos portugueses têm uma <b>preposição fixa</b>: <i>precisar <b>de</b>, gostar <b>de</b>, pensar <b>em</b>, contar <b>com</b>, assistir <b>a</b></i>. A preposição faz parte do verbo – aprenda-os sempre juntos.",
+     "A preposição fica antes de um <b>nome</b> e também antes de um <b>infinitivo</b>: <i>Preciso <b>de</b> um carregador.</i> – <i>Preciso <b>de</b> atualizar a aplicação.</i>",
+     "Com o artigo ou com um demonstrativo, a preposição junta-se: de + o = <b>do</b>, de + a = <b>da</b>, de + este = <b>deste</b>, de + isso = <b>disso</b>, em + o = <b>no</b>, em + a = <b>na</b>. <i>Gosto <b>da</b> aplicação nova.</i>",
+     "Muitas vezes a preposição não corresponde ao alemão: <i>precisar <b>de</b> alguma coisa</i> = etwas brauchen, <i>esquecer-se <b>de</b></i> = vergessen. Nestas unidades vamos ver os verbos com <b>de</b>, <b>em</b>, <b>com</b> e <b>a</b>."
+    ],
+    "erklaerung_de": [
+     "Viele portugiesische Verben haben eine <b>feste Präposition</b>: <i>precisar <b>de</b>, gostar <b>de</b>, pensar <b>em</b>, contar <b>com</b>, assistir <b>a</b></i>. Die Präposition gehört zum Verb – lerne sie immer zusammen.",
+     "Die Präposition steht vor einem <b>Nomen</b> und auch vor einem <b>Infinitiv</b>: <i>Preciso <b>de</b> um carregador.</i> – Ich brauche ein Ladegerät. <i>Preciso <b>de</b> atualizar a aplicação.</i> – Ich muss die App aktualisieren.",
+     "Mit Artikel oder Demonstrativpronomen verschmilzt die Präposition: de + o = <b>do</b>, de + a = <b>da</b>, de + este = <b>deste</b>, de + isso = <b>disso</b>, em + o = <b>no</b>, em + a = <b>na</b>. <i>Gosto <b>da</b> aplicação nova.</i> – Mir gefällt die neue App.",
+     "Oft passt die Präposition nicht zum Deutschen: <i>precisar <b>de</b> alguma coisa</i> = etwas brauchen, <i>esquecer-se <b>de</b></i> = vergessen. In dieser Einheit übst du die Verben mit <b>de</b>, <b>em</b>, <b>com</b> und <b>a</b>."
+    ],
+    "vergleich": "Feste Präpositionen gibt es auch im Deutschen („denken an“, „warten auf“) – aber sie passen selten 1:1: „denken an“ = <i>pensar em</i>, „sich verlassen auf“ = <i>contar com</i>. Und „brauchen“ hat im Deutschen gar keine Präposition, <i>precisar de</i> schon.",
+    "beispiele": [
+     {"pt": "Preciso de atualizar a aplicação do banco.", "de": "Ich muss die Banking-App aktualisieren."},
+     {"pt": "Gosto muito deste ecrã: é grande e nítido.", "de": "Dieses Display gefällt mir sehr: Es ist groß und scharf."},
+     {"pt": "A bateria do meu telemóvel já não dura nada.", "de": "Der Akku meines Handys hält gar nicht mehr."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Preciso ___ descarregar a aplicação da Câmara.", "loesungen": ["de"], "de": "Ich muss die App der Gemeinde herunterladen.", "erklaerung": "precisar de – auch vor einem Infinitiv.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Gosto muito ___ aplicação nova. (de + a)", "loesungen": ["da"], "de": "Die neue App gefällt mir sehr.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "O ecrã está partido. Tenho de tratar ___ amanhã. (de + isso)", "loesungen": ["disso"], "de": "Das Display ist kaputt. Ich muss mich morgen darum kümmern.", "erklaerung": "de + isso = disso", "kategorie": "Verb + Präposition"},
+     {"typ": "auswahl", "frage": "„Ich brauche einen neuen Akku.“", "optionen": ["Preciso uma bateria nova.", "Preciso de uma bateria nova.", "Preciso para uma bateria nova."], "richtig": 1, "erklaerung": "precisar braucht immer de.", "kategorie": "Verb + Präposition"},
+     {"typ": "auswahl", "frage": "„Ich habe vergessen, das Dokument zu speichern.“", "optionen": ["Esqueci-me de guardar o documento.", "Esqueci-me guardar o documento.", "Esqueci-me a guardar o documento."], "richtig": 0, "erklaerung": "esquecer-se de + Infinitiv.", "kategorie": "Verb + Präposition"},
+     {"typ": "uebersetzen", "de": "Ich habe die alte App gelöscht.", "loesungen": ["Apaguei a aplicação antiga.", "Apaguei a app antiga.", "Eu apaguei a aplicação antiga.", "Apaguei a antiga aplicação."]},
+     {"typ": "satzbau", "de": "Geh in die Einstellungen und schalte die Benachrichtigungen aus.", "loesung": "Vai às definições e desliga as notificações."},
+     {"typ": "diktat", "pt": "A bateria do meu telemóvel dura pouco."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O telemóvel cheio – das volle Handy",
+    "situation": "O Stefan não consegue descarregar uma aplicação. O amigo Pedro ajuda-o num café em Lagos.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então, Stefan? Estás com cara de poucos amigos.", "de": "Na, Stefan? Du schaust ja ziemlich grimmig."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É este telemóvel. A bateria dura pouco e não consigo descarregar a aplicação para pagar o estacionamento.", "de": "Es ist dieses Handy. Der Akku hält nicht lange und ich kann die App zum Parken-Bezahlen nicht herunterladen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Deixa ver… Pois, não tens espaço. Tens milhares de fotografias e vídeos.", "de": "Lass mal sehen … Klar, du hast keinen Speicherplatz. Du hast Tausende Fotos und Videos."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Mas não quero apagar as fotografias!", "de": "Aber ich will die Fotos nicht löschen!"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Não precisas de as apagar. Passa-as para o computador e depois apaga-as do telemóvel.", "de": "Du musst sie nicht löschen. Kopier sie auf den Computer und lösch sie danach vom Handy."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa ideia. E a bateria?", "de": "Gute Idee. Und der Akku?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Vai às definições e desliga as notificações das aplicações que não usas. E atualiza o sistema – as atualizações resolvem muitos problemas.", "de": "Geh in die Einstellungen und schalte die Benachrichtigungen der Apps aus, die du nicht benutzt. Und aktualisiere das System – Updates lösen viele Probleme."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado, Pedro. Não sei o que fazia sem ti.", "de": "Danke, Pedro. Ich weiß nicht, was ich ohne dich machen würde."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan não consegue descarregar a aplicação?", "optionen": ["Porque não tem rede.", "Porque não tem espaço no telemóvel.", "Porque a bateria acabou."], "richtig": 1},
+     {"frage": "O que sugere o Pedro para as fotografias?", "optionen": ["Passá-las para o computador.", "Apagá-las todas.", "Enviá-las à Ana."], "richtig": 0},
+     {"frage": "O que deve o Stefan fazer nas definições?", "optionen": ["Mudar a palavra-passe.", "Ligar os dados móveis.", "Desligar as notificações de algumas aplicações."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Preciso de descarregar esta aplicação.", "de": "Ich muss diese App herunterladen."},
+     {"pt": "O telemóvel pede-me para atualizar o sistema.", "de": "Das Handy fordert mich auf, das System zu aktualisieren."},
+     {"pt": "A bateria está quase a acabar.", "de": "Der Akku ist fast leer."},
+     {"pt": "Não te esqueças de guardar o documento.", "de": "Vergiss nicht, das Dokument zu speichern."},
+     {"pt": "Recebo demasiadas notificações.", "de": "Ich bekomme zu viele Benachrichtigungen."}
+    ]
+   },
+   "saetze": [
+    {"id": "preciso-atualizar-app", "pt": "Preciso de atualizar a aplicação.", "de": "Ich muss die App aktualisieren."},
+    {"id": "nao-tenho-espaco-telemovel", "pt": "Não tenho espaço no telemóvel.", "de": "Ich habe keinen Speicherplatz auf dem Handy."},
+    {"id": "ecra-partido", "pt": "O ecrã do meu telemóvel está partido.", "de": "Das Display meines Handys ist kaputt."}
+   ]
+  },
+  {
+   "id": "B1-11-L02",
+   "typ": "neu",
+   "titel": "Handysucht? Verben mit de",
+   "vokabeln": ["depender-de", "desistir-de", "prescindir-de", "acabar-de", "dar-conta-de", "viciado", "o-vicio", "o-tempo-de-ecra", "abusar-de"],
+   "grammatik": {
+    "titel": "Verbos com <i>de</i>",
+    "erklaerung": [
+     "Com <b>de</b>: <i>depender de, desistir de, esquecer-se de, lembrar-se de, gostar de, precisar de, dar conta de, abusar de, prescindir de, deixar de, acabar de</i>.",
+     "<b>acabar de</b> + infinitivo = uma ação que aconteceu há muito pouco tempo: <i>Acabei de receber a mensagem.</i> <b>deixar de</b> + infinitivo = parar de fazer: <i>Deixei de usar o Facebook.</i>",
+     "<b>esquecer-se de</b> e <b>lembrar-se de</b> são pronominais: <i>Esqueci-<b>me</b> <b>da</b> palavra-passe.</i> Sem pronome, <i>esquecer</i> não leva preposição: <i>Esqueci a palavra-passe.</i> As duas formas estão certas – mas nunca: <i>Esqueci-me a palavra-passe</i>.",
+     "Com pronomes: de + ele = <b>dele</b>, de + ela = <b>dela</b>, de + isso = <b>disso</b>: <i>O Pedro não vive sem o telemóvel – depende totalmente <b>dele</b>.</i>"
+    ],
+    "erklaerung_de": [
+     "Mit <b>de</b>: <i>depender de</i> (abhängen von), <i>desistir de</i> (aufgeben), <i>esquecer-se de</i> (vergessen), <i>lembrar-se de</i> (sich erinnern), <i>gostar de</i> (mögen), <i>precisar de</i> (brauchen), <i>dar conta de</i> (merken), <i>abusar de</i> (übertreiben mit), <i>prescindir de</i> (verzichten auf), <i>deixar de</i> (aufhören), <i>acabar de</i> (gerade getan haben).",
+     "<b>acabar de</b> + Infinitiv = etwas ist gerade eben passiert: <i>Acabei de receber a mensagem.</i> – Ich habe die Nachricht gerade bekommen. <b>deixar de</b> + Infinitiv = mit etwas aufhören: <i>Deixei de usar o Facebook.</i>",
+     "<b>esquecer-se de</b> und <b>lembrar-se de</b> sind reflexiv: <i>Esqueci-<b>me</b> <b>da</b> palavra-passe.</i> Ohne Pronomen steht <i>esquecer</i> ohne Präposition: <i>Esqueci a palavra-passe.</i> Beides ist richtig – aber nie gemischt: <i>Esqueci-me a palavra-passe</i> ist falsch.",
+     "Mit Pronomen: de + ele = <b>dele</b>, de + ela = <b>dela</b>, de + isso = <b>disso</b>: <i>Pedro lebt nicht ohne Handy – er hängt total davon ab (depende totalmente <b>dele</b>).</i>"
+    ],
+    "vergleich": "„Ich habe gerade gegessen.“ – Das Deutsche braucht ein Adverb („gerade“), das Portugiesische ein Verb: <i>Acabei de comer.</i> Ähnlich Englisch „I have just eaten“. Achtung: <i>Acabei o trabalho.</i> (ohne de) heißt „Ich habe die Arbeit beendet.“",
+    "beispiele": [
+     {"pt": "Hoje em dia, dependemos demasiado do telemóvel.", "de": "Heutzutage hängen wir zu sehr vom Handy ab."},
+     {"pt": "Acabei de ver o meu tempo de ecrã: cinco horas!", "de": "Ich habe gerade meine Bildschirmzeit angeschaut: fünf Stunden!"},
+     {"pt": "Não dei conta das horas e esqueci-me do jantar.", "de": "Ich habe die Zeit vergessen und das Abendessen vergessen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Hoje em dia, dependemos muito ___ telemóvel.", "loesungen": ["do"], "de": "Heutzutage hängen wir sehr vom Handy ab.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Esqueci-me ___ carregador no escritório.", "loesungen": ["do"], "de": "Ich habe das Ladegerät im Büro vergessen.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Acabei ___ ler a tua mensagem.", "loesungen": ["de"], "de": "Ich habe gerade deine Nachricht gelesen.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "O Pedro desistiu ___ jogo: era um vício.", "loesungen": ["do"], "de": "Pedro hat mit dem Spiel aufgehört: Es war eine Sucht.", "kategorie": "Verb + Präposition"},
+     {"typ": "auswahl", "frage": "„Ich habe gerade gegessen.“", "optionen": ["Deixei de comer.", "Acabei comer.", "Acabei de comer."], "richtig": 2, "erklaerung": "acabar de + Infinitiv = gerade getan haben. „Deixei de comer“ = Ich habe aufgehört zu essen.", "kategorie": "Verb + Präposition"},
+     {"typ": "auswahl", "frage": "Qual é a frase <b>errada</b>?", "optionen": ["Esqueci a palavra-passe.", "Esqueci-me a palavra-passe.", "Esqueci-me da palavra-passe."], "richtig": 1, "erklaerung": "Mit „-me“ braucht esquecer immer de: Esqueci-me da palavra-passe.", "kategorie": "Verb + Präposition"},
+     {"typ": "uebersetzen", "de": "Ich habe aufgehört, das Handy im Bett zu benutzen.", "loesungen": ["Deixei de usar o telemóvel na cama.", "Eu deixei de usar o telemóvel na cama.", "Deixei de utilizar o telemóvel na cama."], "kategorie": "Verb + Präposition"},
+     {"typ": "satzbau", "de": "Ich habe nicht gemerkt, wie die Zeit vergeht.", "loesung": "Não dei conta das horas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Outra vez ao telemóvel! – Schon wieder am Handy!",
+    "situation": "É meia-noite. A Ana encontra o Stefan no sofá, com o telemóvel na mão.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, outra vez agarrado ao telemóvel? Já viste que horas são?", "de": "Stefan, schon wieder am Handy? Hast du gesehen, wie spät es ist?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpa, acabei de receber um e-mail de um cliente. Tenho de lhe responder.", "de": "Entschuldige, ich habe gerade eine E-Mail von einem Kunden bekommen. Ich muss ihm antworten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "À meia-noite? Tu dependes demasiado desse telemóvel.", "de": "Um Mitternacht? Du hängst viel zu sehr an diesem Handy."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tens razão. Ontem o meu tempo de ecrã foi de seis horas. Nem dei conta.", "de": "Du hast recht. Gestern war meine Bildschirmzeit sechs Stunden. Ich habe es nicht einmal gemerkt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Seis horas! Isso já é um vício. Porque não deixas o telemóvel na sala à noite?", "de": "Sechs Stunden! Das ist schon eine Sucht. Warum lässt du das Handy abends nicht im Wohnzimmer?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E se me esquecer de pôr o despertador?", "de": "Und wenn ich vergesse, den Wecker zu stellen?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Compramos um despertador a sério, como antigamente.", "de": "Wir kaufen einen richtigen Wecker, wie früher."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem, está bem. Não desisto do telemóvel, mas a partir de hoje desligo-o depois das dez.", "de": "Schon gut, schon gut. Ich verzichte nicht aufs Handy, aber ab heute schalte ich es nach zehn aus."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan está ao telemóvel?", "optionen": ["Está a jogar.", "Está a ver as notícias.", "Recebeu um e-mail de um cliente."], "richtig": 2},
+     {"frage": "Quanto tempo passou o Stefan no telemóvel ontem?", "optionen": ["Seis horas.", "Duas horas.", "Dez horas."], "richtig": 0},
+     {"frage": "O que decide o Stefan no fim?", "optionen": ["Deixar o telemóvel no escritório.", "Desligar o telemóvel depois das dez.", "Comprar um telemóvel novo."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "O seu amigo Pedro acha que passa demasiado tempo no telemóvel. Dê-lhe conselhos (tu).",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Stefan, acho que estou viciado no telemóvel. Passo horas nas redes sociais.", "de": "Stefan, ich glaube, ich bin handysüchtig. Ich verbringe Stunden in den sozialen Netzwerken."},
+     {"ich": true, "aufgabe": "Sag: Du musst aufhören, das Handy im Bett zu benutzen.", "loesungen": ["Tens de deixar de usar o telemóvel na cama.", "Tens que deixar de usar o telemóvel na cama.", "Deves deixar de usar o telemóvel na cama.", "Tens de deixar de usar o telemóvel na cama!", "Tens que deixar de usar o telemóvel na cama!"]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Já tentei, mas não consigo. Ao fim de cinco minutos, pego outra vez nele.", "de": "Hab ich schon versucht, aber ich schaffe es nicht. Nach fünf Minuten nehme ich es wieder in die Hand."},
+     {"ich": true, "aufgabe": "Sag: Ich habe gerade eine App heruntergeladen, die die Bildschirmzeit kontrolliert.", "loesungen": ["Acabei de descarregar uma aplicação que controla o tempo de ecrã.", "Acabei de descarregar uma app que controla o tempo de ecrã.", "Eu acabei de descarregar uma aplicação que controla o tempo de ecrã."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "A sério? E funciona?", "de": "Echt? Und funktioniert das?"},
+     {"ich": true, "aufgabe": "Sag: Das hängt von dir ab.", "loesungen": ["Depende de ti.", "Depende de ti!", "Isso depende de ti.", "Isso depende de ti!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "acabei-de-receber", "pt": "Acabei de receber a tua mensagem.", "de": "Ich habe gerade deine Nachricht bekommen."},
+    {"id": "esqueci-me-do-carregador", "pt": "Esqueci-me do carregador em casa.", "de": "Ich habe das Ladegerät zu Hause vergessen."},
+    {"id": "nao-dei-conta-das-horas", "pt": "Não dei conta das horas.", "de": "Ich habe nicht gemerkt, wie die Zeit vergeht."}
+   ]
+  },
+  {
+   "id": "B1-11-L03",
+   "typ": "neu",
+   "titel": "Homeoffice und Videoanrufe: Verben mit em",
+   "vokabeln": ["pensar-em", "concentrar-se-em", "acreditar-em", "reparar-em", "apostar-em", "o-teletrabalho"],
+   "grammatik": {
+    "titel": "Verbos com <i>em</i>",
+    "erklaerung": [
+     "Com <b>em</b>: <i>pensar em, confiar em, acreditar em, reparar em, concentrar-se em, insistir em, apostar em, hesitar em</i>.",
+     "Contrações: em + o = <b>no</b>, em + a = <b>na</b>, em + um = <b>num</b>, em + uma = <b>numa</b>, em + isso = <b>nisso</b>, em + ele = <b>nele</b>, em + ela = <b>nela</b>. <i>Confio <b>na</b> minha equipa. Penso <b>nisso</b> amanhã.</i>",
+     "<b>pensar em</b> = ter alguém ou alguma coisa na cabeça: <i>Penso muito <b>em</b> ti.</i> Sem <b>em</b>, <i>pensar</i> + infinitivo = tencionar: <i>Penso mudar de operadora.</i>",
+     "<b>insistir em</b> e <b>hesitar em</b> usam-se muitas vezes com infinitivo: <i>O cliente insiste <b>em</b> fazer a reunião por videochamada.</i> Atenção: <b>reparar em</b> = notar; <b>reparar</b> sem preposição = arranjar."
+    ],
+    "erklaerung_de": [
+     "Mit <b>em</b>: <i>pensar em</i> (denken an), <i>confiar em</i> (vertrauen), <i>acreditar em</i> (glauben an), <i>reparar em</i> (bemerken), <i>concentrar-se em</i> (sich konzentrieren auf), <i>insistir em</i> (bestehen auf), <i>apostar em</i> (setzen auf), <i>hesitar em</i> (zögern).",
+     "Verschmelzungen: em + o = <b>no</b>, em + a = <b>na</b>, em + um = <b>num</b>, em + uma = <b>numa</b>, em + isso = <b>nisso</b>, em + ele = <b>nele</b>, em + ela = <b>nela</b>. <i>Confio <b>na</b> minha equipa.</i> – Ich vertraue meinem Team. <i>Penso <b>nisso</b> amanhã.</i> – Ich denke morgen darüber nach.",
+     "<b>pensar em</b> = an jemanden/etwas denken: <i>Penso muito <b>em</b> ti.</i> Ohne <b>em</b> heißt <i>pensar</i> + Infinitiv „vorhaben“: <i>Penso mudar de operadora.</i> – Ich habe vor, den Anbieter zu wechseln.",
+     "<b>insistir em</b> und <b>hesitar em</b> stehen oft mit Infinitiv: <i>O cliente insiste <b>em</b> fazer a reunião por videochamada.</i> – Der Kunde besteht darauf, das Meeting per Video zu machen. Achtung: <b>reparar em</b> = bemerken; <b>reparar</b> ohne Präposition = reparieren."
+    ],
+    "vergleich": "„vertrauen“ und „glauben“ stehen im Deutschen mit Dativ oder „an“: „Ich vertraue dir.“ – <i>Confio em ti.</i>; „Ich glaube an dich.“ / „Ich glaube dir.“ – <i>Acredito em ti.</i> Im Portugiesischen steht in beiden Fällen <i>em</i>.",
+    "beispiele": [
+     {"pt": "Confio na minha equipa, mesmo em teletrabalho.", "de": "Ich vertraue meinem Team, auch im Homeoffice."},
+     {"pt": "Reparaste que a tua câmara está desligada?", "de": "Hast du bemerkt, dass deine Kamera aus ist?"},
+     {"pt": "A administração insiste em fazer todas as reuniões por videochamada.", "de": "Die Geschäftsleitung besteht darauf, alle Besprechungen per Videoanruf zu machen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Estou a pensar ___ férias. (em + as)", "loesungen": ["nas"], "de": "Ich denke an den Urlaub.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Não confio ___ lojas online desconhecidas.", "loesungen": ["em"], "de": "Ich vertraue unbekannten Onlineshops nicht.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Reparaste ___ mensagem do cliente? (em + a)", "loesungen": ["na"], "de": "Hast du die Nachricht des Kunden bemerkt?", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "O chefe insiste ___ fazer as reuniões às oito da manhã.", "loesungen": ["em"], "de": "Der Chef besteht darauf, die Besprechungen um acht Uhr morgens zu machen.", "kategorie": "Verb + Präposition"},
+     {"typ": "auswahl", "frage": "„Ich vertraue dir.“", "optionen": ["Confio-te.", "Confio em ti.", "Confio a ti."], "richtig": 1, "kategorie": "Verb + Präposition"},
+     {"typ": "auswahl", "frage": "„Denk nicht mehr daran!“", "optionen": ["Não penses mais nisso!", "Não penses mais disso!", "Não pensas mais nisso!"], "richtig": 0, "erklaerung": "pensar em + isso = nisso; verneinter Imperativ: não penses.", "kategorie": "Verb + Präposition"},
+     {"typ": "uebersetzen", "de": "Ich arbeite zwei Tage pro Woche im Homeoffice.", "loesungen": ["Faço teletrabalho dois dias por semana.", "Estou em teletrabalho dois dias por semana.", "Trabalho em teletrabalho dois dias por semana.", "Trabalho a partir de casa dois dias por semana.", "Trabalho em casa dois dias por semana.", "Dois dias por semana, faço teletrabalho."]},
+     {"typ": "satzbau", "de": "Glaub nicht alles, was du im Internet liest.", "loesung": "Não acredites em tudo o que lês na internet."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma videochamada com uma cliente – ein Videoanruf mit einer Kundin",
+    "situation": "O Stefan tem uma videochamada com a Dra. Marta Sousa, diretora de uma empresa de Faro.",
+    "zeilen": [
+     {"sprecher": "Marta", "stimme": "f", "pt": "Bom dia, Stefan. Consegue ouvir-me? Não o vejo.", "de": "Guten Morgen, Stefan. Können Sie mich hören? Ich sehe Sie nicht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia, Dra. Marta. Ouço-a muito bem. Acho que é a minha câmara… Pronto, já está.", "de": "Guten Morgen, Frau Dr. Sousa. Ich höre Sie sehr gut. Ich glaube, es ist meine Kamera … So, jetzt geht's."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Agora sim. Então, pensei na sua proposta durante o fim de semana.", "de": "Jetzt ja. Also, ich habe am Wochenende über Ihr Angebot nachgedacht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E qual é a sua opinião?", "de": "Und was meinen Sie?"},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Confio no seu trabalho, mas a administração insiste em reduzir os custos.", "de": "Ich vertraue Ihrer Arbeit, aber die Geschäftsleitung besteht darauf, die Kosten zu senken."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Compreendo. Podemos fazer as reuniões semanais por videochamada. Assim poupam nas deslocações.", "de": "Verstehe. Wir können die wöchentlichen Besprechungen per Videoanruf machen. So sparen Sie die Anfahrtskosten."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Boa ideia. Desde a pandemia, apostamos muito no teletrabalho. Fico a aguardar a nova proposta.", "de": "Gute Idee. Seit der Pandemie setzen wir stark auf Homeoffice. Ich warte auf das neue Angebot."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Envio-a ainda hoje por e-mail.", "de": "Ich schicke es Ihnen noch heute per E-Mail."}
+    ],
+    "fragen": [
+     {"frage": "Qual era o problema no início da videochamada?", "optionen": ["O microfone não funcionava.", "A câmara do Stefan não estava a funcionar.", "A internet falhou."], "richtig": 1},
+     {"frage": "O que quer a administração da empresa?", "optionen": ["Reduzir os custos.", "Contratar mais pessoas.", "Mudar de escritório."], "richtig": 0},
+     {"frage": "O que propõe o Stefan?", "optionen": ["Visitar a empresa todas as semanas.", "Baixar o preço para metade.", "Fazer as reuniões semanais por videochamada."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich denke oft an dich.", "loesungen": ["Penso muito em ti.", "Penso muitas vezes em ti.", "Muitas vezes penso em ti.", "Penso frequentemente em ti.", "Penso imenso em ti."]},
+     {"de": "Wir vertrauen unserem Team.", "loesungen": ["Confiamos na nossa equipa.", "Nós confiamos na nossa equipa."]},
+     {"de": "Ist dir die neue Kamera aufgefallen? (tu)", "loesungen": ["Reparaste na câmara nova?", "Reparaste na nova câmara?", "Já reparaste na câmara nova?", "Já reparaste na nova câmara?"]},
+     {"de": "Die Firma setzt auf Homeoffice.", "loesungen": ["A empresa aposta no teletrabalho."]},
+     {"de": "Glaub ihm nicht! (tu)", "loesungen": ["Não acredites nele!", "Não acredites nele."]}
+    ]
+   },
+   "saetze": [
+    {"id": "consegue-ouvir-me", "pt": "Consegue ouvir-me? Não o vejo.", "de": "Können Sie mich hören? Ich sehe Sie nicht."},
+    {"id": "tens-microfone-desligado", "pt": "Tens o microfone desligado.", "de": "Dein Mikrofon ist aus."},
+    {"id": "confio-no-seu-trabalho", "pt": "Confio no seu trabalho.", "de": "Ich vertraue Ihrer Arbeit."}
+   ]
+  },
+  {
+   "id": "B1-11-L04",
+   "typ": "neu",
+   "titel": "Die Schwiegermutter und WhatsApp: Verben mit com und a",
+   "vokabeln": ["sonhar-com", "dar-com", "assistir-a", "ensinar", "acostumar-se-a", "a-mensagem-de-voz", "o-grupo"],
+   "grammatik": {
+    "titel": "Verbos com <i>com</i> e com <i>a</i>",
+    "erklaerung": [
+     "Com <b>com</b>: <i>sonhar com, contar com, preocupar-se com, dar com, falar com, casar com, ter cuidado com</i>. <i>Sonhei <b>com</b> o trabalho.</i> (nunca: sonhar de)",
+     "Com <b>a</b>: <i>assistir a, habituar-se a, acostumar-se a, começar a, ensinar alguém a, aprender a, ajudar alguém a</i>. <i>Ensinei a minha sogra <b>a</b> usar o telemóvel.</i>",
+     "Contrações com <b>a</b>: a + o = <b>ao</b>, a + a = <b>à</b>, a + os = <b>aos</b>, a + as = <b>às</b>. <i>Assisti <b>à</b> reunião. Ainda não me acostumei <b>ao</b> telemóvel novo.</i>",
+     "<b>assistir a</b> = ver um espetáculo ou participar: <i>assistir a um jogo, a uma aula</i>. <b>dar com</b> = encontrar por acaso: <i>Dei com o meu nome num site estranho.</i>"
+    ],
+    "erklaerung_de": [
+     "Mit <b>com</b>: <i>sonhar com</i> (träumen von), <i>contar com</i> (rechnen mit, sich verlassen auf), <i>preocupar-se com</i> (sich Sorgen machen um), <i>dar com</i> (stoßen auf), <i>falar com</i> (sprechen mit), <i>casar com</i> (heiraten), <i>ter cuidado com</i> (aufpassen auf). <i>Sonhei <b>com</b> o trabalho.</i> – Ich habe von der Arbeit geträumt (nie: sonhar de).",
+     "Mit <b>a</b>: <i>assistir a</i> (zuschauen, teilnehmen), <i>habituar-se a / acostumar-se a</i> (sich gewöhnen an), <i>começar a</i> (anfangen), <i>ensinar alguém a</i> (jdm. beibringen), <i>aprender a</i> (lernen), <i>ajudar alguém a</i> (jdm. helfen). <i>Ensinei a minha sogra <b>a</b> usar o telemóvel.</i>",
+     "Verschmelzungen mit <b>a</b>: a + o = <b>ao</b>, a + a = <b>à</b>, a + os = <b>aos</b>, a + as = <b>às</b>. <i>Assisti <b>à</b> reunião.</i> – Ich habe an der Besprechung teilgenommen. <i>Ainda não me acostumei <b>ao</b> telemóvel novo.</i>",
+     "<b>assistir a</b> = sich etwas ansehen oder dabei sein: <i>assistir a um jogo, a uma aula</i>. <b>dar com</b> = zufällig finden: <i>Dei com o meu nome num site estranho.</i> – Ich bin auf einer seltsamen Website auf meinen Namen gestoßen."
+    ],
+    "vergleich": "„träumen <b>von</b>“ = <i>sonhar <b>com</b></i>, „sich verlassen <b>auf</b>“ = <i>contar <b>com</b></i>, „sich gewöhnen <b>an</b>“ = <i>habituar-se <b>a</b></i>. Achtung bei „jdm. etwas beibringen“: Die Person steht ohne Präposition, die Tätigkeit mit <i>a</i>: <i>Ensinei <b>a</b> Ana <b>a</b> nadar.</i> – das erste <i>a</i> ist hier der Artikel!",
+    "beispiele": [
+     {"pt": "Podes contar com a minha ajuda no domingo.", "de": "Du kannst am Sonntag auf meine Hilfe zählen."},
+     {"pt": "A minha sogra ainda não se acostumou ao telemóvel novo.", "de": "Meine Schwiegermutter hat sich noch nicht an das neue Handy gewöhnt."},
+     {"pt": "Ontem assistimos ao jogo em casa do João.", "de": "Gestern haben wir das Spiel bei João geschaut."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Esta noite sonhei ___ o meu antigo chefe.", "loesungen": ["com"], "de": "Heute Nacht habe ich von meinem ehemaligen Chef geträumt.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Posso contar ___ a tua ajuda?", "loesungen": ["com"], "de": "Kann ich auf deine Hilfe zählen?", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Ontem assistimos ___ concerto na televisão. (a + o)", "loesungen": ["ao"], "de": "Gestern haben wir uns das Konzert im Fernsehen angeschaut.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Ainda não me acostumei ___ teclado novo.", "loesungen": ["ao"], "de": "Ich habe mich noch nicht an die neue Tastatur gewöhnt.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Ensinei a minha sogra ___ mandar mensagens de voz.", "loesungen": ["a"], "de": "Ich habe meiner Schwiegermutter beigebracht, Sprachnachrichten zu schicken.", "kategorie": "Verb + Präposition"},
+     {"typ": "auswahl", "frage": "„Ich habe von dir geträumt.“", "optionen": ["Sonhei de ti.", "Sonhei contigo.", "Sonhei em ti."], "richtig": 1, "erklaerung": "sonhar com; com + ti = contigo.", "kategorie": "Verb + Präposition"},
+     {"typ": "uebersetzen", "de": "Kann ich auf dich zählen? (tu)", "loesungen": ["Posso contar contigo?"], "kategorie": "Verb + Präposition"},
+     {"typ": "satzbau", "de": "Ich habe per Videoanruf an der Besprechung teilgenommen.", "loesung": "Assisti à reunião por videochamada."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A mãe da Ana e o telemóvel novo – Anas Mutter und das neue Handy",
+    "situation": "A D. Graça, mãe da Ana, tem um telemóvel novo e liga à filha.",
+    "zeilen": [
+     {"sprecher": "D. Graça", "stimme": "f", "pt": "Ana, filha, este telemóvel não para de apitar! O que é isto?", "de": "Ana, Kind, dieses Handy hört nicht auf zu piepen! Was ist das?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "São as notificações do grupo da família, mãe. A tia Fernanda manda fotografias o dia todo.", "de": "Das sind die Benachrichtigungen der Familiengruppe, Mama. Tante Fernanda schickt den ganzen Tag Fotos."},
+     {"sprecher": "D. Graça", "stimme": "f", "pt": "Ai, não me acostumo a isto. O outro telemóvel era tão mais fácil…", "de": "Ach, daran gewöhne ich mich nicht. Das andere Handy war so viel einfacher …"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Tem paciência, mãe. No domingo vou aí e ensino-te a silenciar o grupo.", "de": "Hab Geduld, Mama. Am Sonntag komme ich vorbei und zeige dir, wie man die Gruppe stummschaltet."},
+     {"sprecher": "D. Graça", "stimme": "f", "pt": "Está bem. E como é que mando aquelas mensagens de voz que tu mandas?", "de": "Na gut. Und wie schicke ich diese Sprachnachrichten, die du schickst?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Carregas no microfone e falas. Quando acabares, largas o botão.", "de": "Du drückst auf das Mikrofon und sprichst. Wenn du fertig bist, lässt du den Knopf los."},
+     {"sprecher": "D. Graça", "stimme": "f", "pt": "Que maravilha! Assim já não preciso de escrever. Então, conto contigo no domingo?", "de": "Wunderbar! Dann muss ich nicht mehr schreiben. Also, ich rechne am Sonntag mit dir?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Claro, mãe. Conta comigo!", "de": "Klar, Mama. Du kannst auf mich zählen!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o telemóvel da D. Graça apita tanto?", "optionen": ["Por causa das notificações do grupo da família.", "Porque a bateria está fraca.", "Porque tem uma avaria."], "richtig": 0},
+     {"frage": "O que vai a Ana fazer no domingo?", "optionen": ["Comprar outro telemóvel à mãe.", "Ensinar a mãe a silenciar o grupo.", "Apagar o grupo da família."], "richtig": 1},
+     {"frage": "Porque é que a D. Graça gosta das mensagens de voz?", "optionen": ["Porque são grátis.", "Porque a tia Fernanda gosta delas.", "Porque assim não precisa de escrever."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Podes contar comigo.", "de": "Du kannst auf mich zählen."},
+     {"pt": "Esta noite sonhei com o trabalho.", "de": "Heute Nacht habe ich von der Arbeit geträumt."},
+     {"pt": "Assisti à reunião por videochamada.", "de": "Ich habe per Videoanruf an der Besprechung teilgenommen."},
+     {"pt": "Ensinei a minha sogra a mandar mensagens de voz.", "de": "Ich habe meiner Schwiegermutter beigebracht, Sprachnachrichten zu schicken."},
+     {"pt": "É preciso ter paciência com a tecnologia.", "de": "Mit der Technik muss man Geduld haben."}
+    ]
+   },
+   "saetze": [
+    {"id": "podes-contar-comigo", "pt": "Podes contar comigo.", "de": "Du kannst auf mich zählen."},
+    {"id": "ainda-nao-me-acostumei", "pt": "Ainda não me acostumei ao telemóvel novo.", "de": "Ich habe mich noch nicht an das neue Handy gewöhnt."},
+    {"id": "ensino-te-a-usar", "pt": "Eu ensino-te a usar a aplicação.", "de": "Ich bringe dir bei, wie man die App benutzt."}
+   ]
+  },
+  {
+   "id": "B1-11-L05",
+   "typ": "neu",
+   "titel": "Sicher im Internet: Präposition + Pronomen",
+   "vokabeln": ["a-burla", "o-burlao", "a-fraude-informatica", "desconfiar-de", "clicar", "o-codigo-de-verificacao", "os-dados-pessoais", "suspeito", "o-pirata-informatico"],
+   "grammatik": {
+    "titel": "Preposição + pronome: <i>de mim, em ti, comigo, dele</i>",
+    "erklaerung": [
+     "Depois de uma preposição usamos <b>mim</b> e <b>ti</b> (não <i>eu</i> e <i>tu</i>): <i>Depende <b>de mim</b>. Confio <b>em ti</b>. Isto é <b>para mim</b>?</i>",
+     "Com <b>com</b> há formas especiais: <b>comigo, contigo, connosco, convosco</b>. <i>Podes contar <b>comigo</b>. Vens <b>connosco</b>?</i>",
+     "Com <i>ele, ela, eles, elas</i>, as preposições <b>de</b> e <b>em</b> juntam-se: <b>dele, dela, deles, delas, nele, nela, neles, nelas</b>. <i>Desconfio <b>dele</b>. Não cliques <b>nela</b>.</i> Mas: <i>com ele, para ela, sem eles</i>.",
+     "No registo formal diz-se normalmente <i>do senhor / da senhora</i>, <i>com o senhor / com a senhora</i>: <i>Posso contar com o senhor?</i> Também existe <b>consigo</b>: <i>Posso falar consigo?</i>"
+    ],
+    "erklaerung_de": [
+     "Nach einer Präposition stehen <b>mim</b> und <b>ti</b> (nicht <i>eu</i> und <i>tu</i>): <i>Depende <b>de mim</b>.</i> – Es hängt von mir ab. <i>Confio <b>em ti</b>.</i> – Ich vertraue dir. <i>Isto é <b>para mim</b>?</i> – Ist das für mich?",
+     "Mit <b>com</b> gibt es eigene Formen: <b>comigo</b> (mit mir), <b>contigo</b> (mit dir), <b>connosco</b> (mit uns), <b>convosco</b> (mit euch). <i>Podes contar <b>comigo</b>.</i> – Du kannst auf mich zählen.",
+     "Mit <i>ele, ela, eles, elas</i> verschmelzen <b>de</b> und <b>em</b>: <b>dele, dela, deles, delas, nele, nela, neles, nelas</b>. <i>Desconfio <b>dele</b>.</i> – Ich misstraue ihm. <i>Não cliques <b>nela</b>.</i> – Klick nicht darauf (auf den Link). Aber: <i>com ele, para ela, sem eles</i>.",
+     "Formell sagt man meist <i>do senhor / da senhora</i>, <i>com o senhor / com a senhora</i>: <i>Posso contar com o senhor?</i> Es gibt auch <b>consigo</b> (mit Ihnen): <i>Posso falar consigo?</i>"
+    ],
+    "vergleich": "Wie im Deutschen ändert sich das Pronomen nach der Präposition („mit mir“, „an dich“). Achtung: <i>com</i> + <i>mim</i> wird zu <i>comigo</i> – nie „com mim“. In Brasilien hört man auch <i>pra mim</i> und <i>com nós</i>; in Portugal: <i>para mim</i>, <i>connosco</i>.",
+    "beispiele": [
+     {"pt": "Recebi um SMS do „banco“, mas desconfiei dele logo.", "de": "Ich habe eine SMS von der „Bank“ bekommen, aber ihr sofort misstraut."},
+     {"pt": "Se tiver dúvidas, fale connosco antes de clicar.", "de": "Wenn Sie Zweifel haben, sprechen Sie mit uns, bevor Sie klicken."},
+     {"pt": "O código de verificação é só para ti – não o dês a ninguém.", "de": "Der Bestätigungscode ist nur für dich – gib ihn niemandem."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Não te preocupes, podes contar ___. (com + eu)", "loesungen": ["comigo"], "de": "Mach dir keine Sorgen, du kannst auf mich zählen.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Esta ligação é suspeita. Não cliques ___. (em + ela)", "loesungen": ["nela"], "de": "Dieser Link ist verdächtig. Klick nicht darauf.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Aquele senhor ao telefone diz que é do banco, mas eu desconfio ___. (de + ele)", "loesungen": ["dele"], "de": "Der Herr am Telefon sagt, er sei von der Bank, aber ich misstraue ihm.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Este código é para ___? (eu)", "loesungen": ["mim"], "de": "Ist dieser Code für mich?", "erklaerung": "Nach Präposition: mim, nicht eu.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Kommst du mit uns?“", "optionen": ["Vens com nós?", "Vens connosco?", "Vens com nos?"], "richtig": 1, "erklaerung": "com + nós = connosco (pt-PT mit zwei n).", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Das hängt von dir ab.“", "optionen": ["Depende de tu.", "Depende dele.", "Depende de ti."], "richtig": 2, "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Klick nicht auf diesen Link! (tu)", "loesungen": ["Não cliques nesta ligação!", "Não cliques nesta ligação.", "Não cliques neste link!", "Não cliques neste link.", "Não cliques nessa ligação!", "Não cliques nessa ligação.", "Não cliques nesse link!", "Não cliques nesse link."]},
+     {"typ": "satzbau", "de": "Die Bank fragt nie per SMS nach den persönlichen Daten.", "loesung": "O banco nunca pede os dados pessoais por SMS."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Notícia: nova vaga de burlas por SMS – Neue Betrugswelle per SMS",
+    "situation": "Uma notícia na rádio local.",
+    "zeilen": [
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Boa tarde. A polícia alerta para uma nova vaga de burlas por SMS.", "de": "Guten Tag. Die Polizei warnt vor einer neuen Betrugswelle per SMS."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Os burlões enviam mensagens em nome dos correios, dizendo que há uma encomenda à espera de pagamento.", "de": "Die Betrüger verschicken Nachrichten im Namen der Post und behaupten, ein Paket warte auf Bezahlung."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "A mensagem tem uma ligação para uma página falsa, muito parecida com a verdadeira.", "de": "Die Nachricht enthält einen Link zu einer gefälschten Seite, die der echten sehr ähnlich sieht."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Quem clica na ligação tem de introduzir os dados pessoais e os dados do cartão.", "de": "Wer auf den Link klickt, muss seine persönlichen Daten und die Kartendaten eingeben."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Só no último mês, mais de dois mil portugueses foram vítimas desta fraude informática.", "de": "Allein im letzten Monat wurden mehr als zweitausend Portugiesen Opfer dieses Computerbetrugs."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "A polícia lembra que nem os correios nem os bancos pedem dados pessoais ou códigos por SMS.", "de": "Die Polizei erinnert daran, dass weder die Post noch die Banken per SMS nach persönlichen Daten oder Codes fragen."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Em caso de dúvida, não clique em nada e contacte diretamente a empresa.", "de": "Im Zweifelsfall klicken Sie auf nichts und wenden Sie sich direkt an das Unternehmen."}
+    ],
+    "fragen": [
+     {"frage": "Em nome de quem enviam os burlões as mensagens?", "optionen": ["Em nome do banco.", "Em nome dos correios.", "Em nome das Finanças."], "richtig": 1},
+     {"frage": "O que acontece a quem clica na ligação?", "optionen": ["Tem de introduzir os dados pessoais e do cartão.", "Recebe uma encomenda grátis.", "Fica sem rede no telemóvel."], "richtig": 0},
+     {"frage": "O que aconselha a polícia em caso de dúvida?", "optionen": ["Responder à mensagem.", "Ligar para o 112.", "Não clicar em nada e contactar a empresa."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "O vizinho João recebeu uma mensagem estranha. Ajude-o (tu).",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Stefan, recebi uma mensagem do banco. Dizem que a minha conta está bloqueada e pedem-me o código.", "de": "Stefan, ich habe eine Nachricht von der Bank bekommen. Sie schreiben, mein Konto sei gesperrt, und verlangen den Code."},
+     {"ich": true, "aufgabe": "Sag: Vorsicht, das ist Betrug! Klick auf nichts.", "loesungen": ["Cuidado, isso é uma burla! Não cliques em nada.", "Cuidado, isso é uma burla. Não cliques em nada.", "Cuidado, é uma burla! Não cliques em nada.", "Cuidado, é uma burla. Não cliques em nada.", "Cuidado, isso é uma burla! Não cliques em nada!", "Cuidado, é uma burla! Não cliques em nada!"]},
+     {"sprecher": "João", "stimme": "m", "pt": "Tens a certeza? Parece mesmo do banco…", "de": "Bist du sicher? Es sieht wirklich nach der Bank aus …"},
+     {"ich": true, "aufgabe": "Sag: Die Bank fragt nie nach dem Bestätigungscode. Misstrau dieser Nachricht.", "loesungen": ["O banco nunca pede o código de verificação. Desconfia desta mensagem.", "O banco nunca pede o código de verificação. Desconfia dessa mensagem.", "O banco nunca pede o código de verificação. Desconfia desta mensagem!", "O banco nunca pede o código de verificação. Desconfia dessa mensagem!"]},
+     {"sprecher": "João", "stimme": "m", "pt": "Então, o que é que faço?", "de": "Und was mache ich jetzt?"},
+     {"ich": true, "aufgabe": "Sag: Ruf direkt bei der Bank an. Ich komme mit dir.", "loesungen": ["Liga diretamente para o banco. Eu vou contigo.", "Liga diretamente para o banco. Vou contigo.", "Liga diretamente ao banco. Eu vou contigo.", "Liga diretamente ao banco. Vou contigo.", "Liga para o banco diretamente. Eu vou contigo.", "Liga para o banco diretamente. Vou contigo."]}
+    ]
+   },
+   "saetze": [
+    {"id": "isso-e-uma-burla", "pt": "Cuidado, isso é uma burla!", "de": "Vorsicht, das ist Betrug!"},
+    {"id": "nunca-des-o-codigo", "pt": "Nunca dês o código de verificação a ninguém.", "de": "Gib den Bestätigungscode niemals jemandem."},
+    {"id": "desconfio-desta-mensagem", "pt": "Desconfio desta mensagem.", "de": "Ich traue dieser Nachricht nicht."}
+   ]
+  },
+  {
+   "id": "B1-11-L06",
+   "typ": "neu",
+   "titel": "Soziale Netzwerke: Präposition vor Frage- und Relativwort",
+   "vokabeln": ["as-redes-sociais", "por-gosto", "publicar", "comentar", "o-seguidor", "a-privacidade", "as-noticias-falsas", "a-publicacao", "bloquear"],
+   "grammatik": {
+    "titel": "A preposição vai à frente: <i>Com quem? – a pessoa com quem…</i>",
+    "erklaerung": [
+     "Em português, a preposição do verbo vai para o <b>início</b> da pergunta: <i><b>De</b> que precisas?</i> <i><b>Em</b> que estás a pensar?</i> <i><b>Com</b> quem falaste?</i> Nunca fica no fim da frase, como em inglês.",
+     "O mesmo acontece nas orações relativas: <i>a aplicação <b>de que</b> te falei</i>, <i>a amiga <b>com quem</b> partilhei a fotografia</i>, <i>o grupo <b>em que</b> publiquei a notícia</i>.",
+     "Para pessoas usa-se <b>quem</b> depois da preposição: <i>a pessoa <b>de quem</b> gosto</i>. Para coisas usa-se <b>que</b> ou, num registo mais formal, <b>o qual / a qual</b>: <i>a rede social <b>na qual</b> tenho mais seguidores</i>.",
+     "Na língua falada, a preposição às vezes desaparece (<i>a aplicação que te falei</i>), mas na escrita é melhor mantê-la."
+    ],
+    "erklaerung_de": [
+     "Im Portugiesischen wandert die Präposition des Verbs an den <b>Anfang</b> der Frage: <i><b>De</b> que precisas?</i> – Was brauchst du? <i><b>Em</b> que estás a pensar?</i> – Woran denkst du? <i><b>Com</b> quem falaste?</i> – Mit wem hast du gesprochen? Sie steht nie am Satzende wie im Englischen.",
+     "Genauso in Relativsätzen: <i>a aplicação <b>de que</b> te falei</i> – die App, von der ich dir erzählt habe; <i>a amiga <b>com quem</b> partilhei a fotografia</i> – die Freundin, mit der ich das Foto geteilt habe; <i>o grupo <b>em que</b> publiquei a notícia</i> – die Gruppe, in der ich die Nachricht gepostet habe.",
+     "Für Personen steht nach der Präposition <b>quem</b>: <i>a pessoa <b>de quem</b> gosto</i> – die Person, die ich mag. Für Sachen <b>que</b> oder, formeller, <b>o qual / a qual</b>: <i>a rede social <b>na qual</b> tenho mais seguidores</i>.",
+     "In der gesprochenen Sprache fällt die Präposition manchmal weg (<i>a aplicação que te falei</i>), schriftlich solltest du sie aber behalten."
+    ],
+    "vergleich": "Wie im Deutschen: „<b>Mit</b> wem hast du gesprochen?“, „die App, <b>von</b> der ich dir erzählt habe“. Im Englischen darf die Präposition hinten stehen („Who did you talk <b>to</b>?“, „the app I told you <b>about</b>“) – im Portugiesischen nie.",
+    "beispiele": [
+     {"pt": "Com quem partilhaste a fotografia da festa?", "de": "Mit wem hast du das Foto von der Party geteilt?"},
+     {"pt": "Esta é a aplicação de que te falei.", "de": "Das ist die App, von der ich dir erzählt habe."},
+     {"pt": "O grupo em que publiquei o anúncio tem cinco mil membros.", "de": "Die Gruppe, in der ich die Anzeige gepostet habe, hat fünftausend Mitglieder."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ que estás a pensar?", "loesungen": ["Em"], "de": "Woran denkst du gerade?", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "___ quem falaste ontem ao telefone?", "loesungen": ["Com"], "de": "Mit wem hast du gestern telefoniert?", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Esta é a aplicação ___ que te falei.", "loesungen": ["de"], "de": "Das ist die App, von der ich dir erzählt habe.", "kategorie": "Relativsatz"},
+     {"typ": "luecke", "satz": "A Rita é a amiga com ___ partilhei as fotografias.", "loesungen": ["quem"], "de": "Rita ist die Freundin, mit der ich die Fotos geteilt habe.", "erklaerung": "Person nach Präposition: quem.", "kategorie": "Relativsatz"},
+     {"typ": "auswahl", "frage": "„die Gruppe, in der ich die Nachricht gepostet habe“", "optionen": ["o grupo que publiquei a notícia", "o grupo em que publiquei a notícia", "o grupo que publiquei a notícia nele"], "richtig": 1, "kategorie": "Relativsatz"},
+     {"typ": "auswahl", "frage": "„Was brauchst du?“ (schriftlich korrekt)", "optionen": ["De que precisas?", "Que precisas de?", "Precisas que?"], "richtig": 0, "kategorie": "Verb + Präposition"},
+     {"typ": "uebersetzen", "de": "Mit wem hast du das Foto geteilt? (tu)", "loesungen": ["Com quem partilhaste a fotografia?", "Com quem é que partilhaste a fotografia?", "Com quem partilhaste a foto?", "Com quem é que partilhaste a foto?"], "kategorie": "Verb + Präposition"},
+     {"typ": "satzbau", "de": "Das ist die Nachricht, von der alle sprechen.", "loesung": "Esta é a notícia de que toda a gente fala."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A página da empresa – die Firmenseite",
+    "situation": "A Rita trabalha em marketing. O Stefan pede-lhe conselhos sobre as redes sociais.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, vi a página nova da tua empresa. Quem é que a fez?", "de": "Stefan, ich habe die neue Seite deiner Firma gesehen. Wer hat sie gemacht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Fui eu. Mas só tenho cinquenta seguidores. O que é que me falta, na tua opinião?", "de": "Ich selbst. Aber ich habe nur fünfzig Follower. Was fehlt mir deiner Meinung nach?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Tens de publicar com regularidade. E não publiques só sobre trabalho: as pessoas gostam de histórias.", "de": "Du musst regelmäßig posten. Und poste nicht nur über die Arbeit: Die Leute mögen Geschichten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Histórias? Sobre o quê?", "de": "Geschichten? Worüber?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Sobre a tua vida no Algarve, os clientes com quem trabalhas, os problemas que resolves…", "de": "Über dein Leben an der Algarve, die Kunden, mit denen du arbeitest, die Probleme, die du löst …"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a privacidade? Não quero mostrar tudo.", "de": "Und die Privatsphäre? Ich will nicht alles zeigen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Claro que não. Fotografias da família, por exemplo, não. Mas responde sempre aos comentários – isso é muito importante.", "de": "Natürlich nicht. Familienfotos zum Beispiel nicht. Aber antworte immer auf die Kommentare – das ist sehr wichtig."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. Esta noite publico a primeira história – e tu pões gosto, está bem?", "de": "Abgemacht. Heute Abend poste ich die erste Geschichte – und du likst sie, ja?"}
+    ],
+    "fragen": [
+     {"frage": "Quantos seguidores tem a página do Stefan?", "optionen": ["Quinhentos.", "Cinquenta.", "Cinco mil."], "richtig": 1},
+     {"frage": "Segundo a Rita, sobre o que deve o Stefan publicar?", "optionen": ["Só sobre os preços.", "Sobre a família.", "Histórias sobre a vida e o trabalho."], "richtig": 2},
+     {"frage": "O que é muito importante, segundo a Rita?", "optionen": ["Responder aos comentários.", "Publicar todos os dias às oito.", "Comprar seguidores."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Hast du meinen Beitrag kommentiert? (tu)", "loesungen": ["Comentaste a minha publicação?", "Já comentaste a minha publicação?"]},
+     {"de": "Ich poste keine Fotos von meiner Familie.", "loesungen": ["Não publico fotografias da minha família.", "Não publico fotos da minha família.", "Eu não publico fotografias da minha família.", "Eu não publico fotos da minha família."]},
+     {"de": "Fake News verbreiten sich sehr schnell.", "loesungen": ["As notícias falsas espalham-se muito depressa.", "As notícias falsas espalham-se muito rapidamente.", "As notícias falsas espalham-se muito rápido."]},
+     {"de": "Mit wem sprichst du gerade? (tu)", "loesungen": ["Com quem estás a falar?", "Com quem é que estás a falar?"]},
+     {"de": "Das ist die Freundin, von der ich dir erzählt habe.", "loesungen": ["Esta é a amiga de quem te falei.", "É esta a amiga de quem te falei.", "Esta é a amiga de quem eu te falei."]}
+    ]
+   },
+   "saetze": [
+    {"id": "com-quem-partilhaste", "pt": "Com quem partilhaste isto?", "de": "Mit wem hast du das geteilt?"},
+    {"id": "aplicacao-de-que-te-falei", "pt": "Esta é a aplicação de que te falei.", "de": "Das ist die App, von der ich dir erzählt habe."},
+    {"id": "mudei-definicoes-privacidade", "pt": "Mudei as definições de privacidade.", "de": "Ich habe die Datenschutzeinstellungen geändert."}
+   ]
+  },
+  {
+   "id": "B1-11-L07",
+   "typ": "neu",
+   "titel": "Zeitung und Nachrichten: das Gerundium als Nebensatz",
+   "vokabeln": ["o-jornal", "o-jornalista", "o-artigo", "estar-a-par-de", "a-fonte", "a-manchete", "a-imprensa", "fiavel"],
+   "grammatik": {
+    "titel": "O gerúndio em vez de uma oração: <i>Chegando a casa, …</i>",
+    "erklaerung": [
+     "Forma: tira-se o <b>-r</b> do infinitivo e junta-se <b>-ndo</b>: fala<b>ndo</b>, sabe<b>ndo</b>, abri<b>ndo</b>, po<b>ndo</b>. O gerúndio nunca muda.",
+     "Em Portugal, o gerúndio usa-se sobretudo para <b>substituir uma oração</b>, muitas vezes no início da frase. Tempo: <i><b>Chegando</b> a casa, liguei o computador.</i> (= Quando cheguei…) Causa: <i><b>Sabendo</b> que era uma burla, não respondi.</i> (= Como sabia…) Condição: <i><b>Usando</b> esta aplicação, poupas tempo.</i> (= Se usares…)",
+     "Também aparece depois da oração principal, para uma ação ao mesmo tempo ou uma consequência – sobretudo nos jornais: <i>O ministro falou aos jornalistas, <b>explicando</b> as novas regras.</i>",
+     "Atenção: para uma ação em curso diz-se <b>estar a</b> + infinitivo: <i>Estou a ler o jornal.</i> Nunca <i>estar</i> + gerúndio (no Alentejo e no Algarve ouve-se às vezes na língua falada). O gerúndio composto indica uma ação anterior: <i><b>Tendo lido</b> o artigo, percebi o problema.</i>"
+    ],
+    "erklaerung_de": [
+     "Bildung: Vom Infinitiv das <b>-r</b> weg, <b>-ndo</b> dazu: fala<b>ndo</b>, sabe<b>ndo</b>, abri<b>ndo</b>, po<b>ndo</b>. Das Gerundium ist unveränderlich.",
+     "In Portugal ersetzt das Gerundium vor allem einen <b>Nebensatz</b>, oft am Satzanfang. Zeit: <i><b>Chegando</b> a casa, liguei o computador.</i> – Als ich nach Hause kam, schaltete ich den Computer ein. Grund: <i><b>Sabendo</b> que era uma burla, não respondi.</i> – Da ich wusste, dass es Betrug war, antwortete ich nicht. Bedingung: <i><b>Usando</b> esta aplicação, poupas tempo.</i> – Wenn du diese App benutzt, sparst du Zeit.",
+     "Es steht auch nach dem Hauptsatz für eine gleichzeitige Handlung oder eine Folge – vor allem in Zeitungen: <i>O ministro falou aos jornalistas, <b>explicando</b> as novas regras.</i> – Der Minister sprach mit den Journalisten und erklärte die neuen Regeln.",
+     "Achtung: Für „gerade dabei sein“ gilt <b>estar a</b> + Infinitiv: <i>Estou a ler o jornal.</i> Nie <i>estar</i> + Gerundium (im Alentejo und an der Algarve hört man es umgangssprachlich). Das zusammengesetzte Gerundium drückt Vorzeitigkeit aus: <i><b>Tendo lido</b> o artigo, percebi o problema.</i> – Nachdem ich den Artikel gelesen hatte, verstand ich das Problem."
+    ],
+    "vergleich": "Das Deutsche braucht dafür meist einen Nebensatz („Als ich nach Hause kam, …“, „Da ich wusste, …“). Das portugiesische Gerundium ist kürzer – ähnlich wie das englische „Arriving home, I …“. Für „ich lese gerade“ heißt es in Portugal aber immer <i>estou a ler</i>.",
+    "beispiele": [
+     {"pt": "Lendo o jornal no telemóvel, soube da greve dos comboios.", "de": "Als ich die Zeitung auf dem Handy las, erfuhr ich vom Bahnstreik."},
+     {"pt": "Não sendo a fonte fiável, não partilhei o artigo.", "de": "Da die Quelle nicht vertrauenswürdig war, habe ich den Artikel nicht geteilt."},
+     {"pt": "Fazendo uma assinatura digital, pode ler todos os artigos.", "de": "Wenn Sie ein Digitalabo abschließen, können Sie alle Artikel lesen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ o jornal, soube da notícia. (ler)", "loesungen": ["Lendo"], "de": "Als ich die Zeitung las, erfuhr ich von der Nachricht.", "kategorie": "Gerundium"},
+     {"typ": "luecke", "satz": "___ que a fonte não era fiável, não partilhei o artigo. (saber)", "loesungen": ["Sabendo"], "de": "Da ich wusste, dass die Quelle nicht zuverlässig war, habe ich den Artikel nicht geteilt.", "kategorie": "Gerundium"},
+     {"typ": "luecke", "satz": "___ esta aplicação, estás sempre a par das notícias. (usar)", "loesungen": ["Usando"], "de": "Wenn du diese App benutzt, bist du immer über die Nachrichten auf dem Laufenden.", "kategorie": "Gerundium"},
+     {"typ": "auswahl", "frage": "„Ich lese gerade einen Artikel.“ (pt-PT)", "optionen": ["Estou lendo um artigo.", "Lendo um artigo.", "Estou a ler um artigo."], "richtig": 2, "erklaerung": "In Portugal: estar a + Infinitiv. „Estou lendo“ ist brasilianisch.", "kategorie": "Gerundium"},
+     {"typ": "auswahl", "frage": "„Chegando a casa, liguei a televisão.“ bedeutet:", "optionen": ["Als ich nach Hause kam, schaltete ich den Fernseher ein.", "Ich komme gerade nach Hause und schalte den Fernseher ein.", "Bevor ich nach Hause kam, schaltete ich den Fernseher ein."], "richtig": 0, "kategorie": "Gerundium"},
+     {"typ": "uebersetzen", "de": "Da ich wusste, dass es Betrug war, habe ich nicht geantwortet. (mit Gerundium)", "loesungen": ["Sabendo que era uma burla, não respondi.", "Sabendo que era burla, não respondi.", "Sabendo que aquilo era uma burla, não respondi.", "Sabendo que era uma fraude, não respondi."], "kategorie": "Gerundium"},
+     {"typ": "uebersetzen", "de": "Wenn du diese App benutzt, sparst du Zeit. (mit Gerundium)", "loesungen": ["Usando esta aplicação, poupas tempo.", "Usando esta app, poupas tempo.", "Utilizando esta aplicação, poupas tempo.", "Utilizando esta app, poupas tempo."], "kategorie": "Gerundium"},
+     {"typ": "satzbau", "de": "Nachdem ich den Artikel gelesen hatte, verstand ich das Problem.", "loesung": "Tendo lido o artigo, percebi o problema."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Os portugueses e as notícias – die Portugiesen und die Nachrichten",
+    "situation": "Uma notícia sobre um estudo, lida na rádio.",
+    "zeilen": [
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Os portugueses leem cada vez mais notícias no telemóvel, revela um estudo publicado esta semana.", "de": "Die Portugiesen lesen immer mehr Nachrichten auf dem Handy, zeigt eine diese Woche veröffentlichte Studie."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Segundo o estudo, sete em cada dez portugueses ficam a par da atualidade através das redes sociais.", "de": "Laut der Studie informieren sich sieben von zehn Portugiesen über die sozialen Netzwerke über das aktuelle Geschehen."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Lendo apenas as manchetes, muitos leitores nem chegam a abrir o artigo.", "de": "Da sie nur die Schlagzeilen lesen, öffnen viele Leser den Artikel gar nicht erst."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Os jornais tradicionais continuam a perder leitores, apostando agora nas assinaturas digitais.", "de": "Die traditionellen Zeitungen verlieren weiter Leser und setzen jetzt auf Digitalabos."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Os investigadores alertam para as notícias falsas, lembrando que é importante verificar sempre a fonte.", "de": "Die Forscher warnen vor Fake News und erinnern daran, dass man immer die Quelle prüfen sollte."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Sendo a imprensa regional a mais fiável para muitos leitores, o estudo recomenda mais apoio aos jornais locais.", "de": "Da die Regionalpresse für viele Leser am vertrauenswürdigsten ist, empfiehlt die Studie mehr Unterstützung für Lokalzeitungen."}
+    ],
+    "fragen": [
+     {"frage": "Onde leem os portugueses cada vez mais notícias?", "optionen": ["No telemóvel.", "Nos jornais de papel.", "Na televisão."], "richtig": 0},
+     {"frage": "O que fazem muitos leitores, segundo o estudo?", "optionen": ["Leem os artigos até ao fim.", "Leem só as manchetes.", "Pagam várias assinaturas."], "richtig": 1},
+     {"frage": "Segundo os investigadores, o que é importante?", "optionen": ["Ler só jornais estrangeiros.", "Desligar o telemóvel à noite.", "Verificar sempre a fonte."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Leio o jornal no telemóvel todas as manhãs.", "de": "Ich lese jeden Morgen die Zeitung auf dem Handy."},
+     {"pt": "Chegando a casa, liguei o computador.", "de": "Als ich nach Hause kam, schaltete ich den Computer ein."},
+     {"pt": "Sabendo que era uma burla, não respondi.", "de": "Da ich wusste, dass es Betrug war, habe ich nicht geantwortet."},
+     {"pt": "Gosto de estar a par das notícias da terra.", "de": "Ich bin gern über die Nachrichten aus dem Ort auf dem Laufenden."},
+     {"pt": "Qual é a fonte desta notícia?", "de": "Was ist die Quelle dieser Nachricht?"}
+    ]
+   },
+   "saetze": [
+    {"id": "chegando-a-casa", "pt": "Chegando a casa, liguei o computador.", "de": "Als ich nach Hause kam, schaltete ich den Computer ein."},
+    {"id": "estar-a-par-noticias", "pt": "Gosto de estar a par das notícias.", "de": "Ich bin gern über die Nachrichten auf dem Laufenden."},
+    {"id": "qual-e-a-fonte", "pt": "Qual é a fonte desta notícia?", "de": "Was ist die Quelle dieser Nachricht?"}
+   ]
+  },
+  {
+   "id": "B1-11-L08",
+   "typ": "neu",
+   "titel": "Den neuen Laptop einrichten: die Partizipialkonstruktion",
+   "vokabeln": ["configurar", "o-utilizador", "o-ficheiro", "a-copia-de-seguranca", "a-nuvem", "o-teclado", "o-rato", "a-pen", "iniciar-sessao"],
+   "grammatik": {
+    "titel": "O particípio absoluto: <i>Feito isto, … / Terminada a reunião, …</i>",
+    "erklaerung": [
+     "Com o <b>particípio passado</b> podemos encurtar uma oração de tempo: <i><b>Terminada</b> a reunião, fomos almoçar.</i> (= Depois de a reunião terminar… / Quando a reunião terminou…)",
+     "O particípio vem <b>primeiro</b> e concorda com o nome em género e número: <i>instalad<b>o</b> o programa</i>, <i>instalad<b>a</b> a aplicação</i>, <i>guardad<b>os</b> os ficheiros</i>, <i>feit<b>as</b> as cópias</i>.",
+     "Particípios irregulares frequentes: <i>feito, dito, visto, escrito, posto, aberto, aceite, entregue, pago, gasto</i>. Expressões fixas: <b>Feito isto</b>, … / <b>Dito isto</b>, … / <b>Posto isto</b>, …",
+     "É típico de instruções, notícias e textos escritos. Na conversa diz-se mais <i>Depois de instalar a aplicação, …</i> Também se usa <b>uma vez</b> + particípio: <i>Uma vez configurado o portátil, já pode trabalhar.</i>"
+    ],
+    "erklaerung_de": [
+     "Mit dem <b>Partizip Perfekt</b> kann man einen Temporalsatz verkürzen: <i><b>Terminada</b> a reunião, fomos almoçar.</i> – Nach (dem Ende) der Besprechung gingen wir essen.",
+     "Das Partizip steht <b>vorne</b> und richtet sich in Genus und Zahl nach dem folgenden Nomen: <i>instalad<b>o</b> o programa</i>, <i>instalad<b>a</b> a aplicação</i>, <i>guardad<b>os</b> os ficheiros</i>, <i>feit<b>as</b> as cópias</i>.",
+     "Häufige unregelmäßige Partizipien: <i>feito, dito, visto, escrito, posto, aberto, aceite, entregue, pago, gasto</i>. Feste Wendungen: <b>Feito isto</b>, … (Danach …) / <b>Dito isto</b>, … (Damit gesagt …) / <b>Posto isto</b>, … (Dies vorausgeschickt …)",
+     "Typisch für Anleitungen, Nachrichten und geschriebene Texte. Im Gespräch sagt man eher <i>Depois de instalar a aplicação, …</i> Auch üblich: <b>uma vez</b> + Partizip: <i>Uma vez configurado o portátil, já pode trabalhar.</i> – Sobald der Laptop eingerichtet ist, können Sie arbeiten."
+    ],
+    "vergleich": "Im Deutschen gibt es das nur in festen Wendungen („Gesagt, getan.“, „Kaum angekommen, …“). Im Portugiesischen ist die Konstruktion lebendig. Achtung: Das Partizip richtet sich nach dem Nomen dahinter – <i>terminad<b>a</b> a reunião</i>, <i>feit<b>os</b> os testes</i> – nicht nach dem Subjekt des Hauptsatzes.",
+    "beispiele": [
+     {"pt": "Instalada a aplicação, inicie sessão com o seu nome de utilizador.", "de": "Nachdem die App installiert ist, melden Sie sich mit Ihrem Benutzernamen an."},
+     {"pt": "Guardados os ficheiros, pode desligar o computador.", "de": "Sobald die Dateien gespeichert sind, können Sie den Computer ausschalten."},
+     {"pt": "Feito isto, faça uma cópia de segurança na nuvem.", "de": "Danach machen Sie eine Sicherungskopie in der Cloud."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ a reunião, fomos almoçar. (terminar)", "loesungen": ["Terminada"], "de": "Nach der Besprechung gingen wir zu Mittag essen.", "erklaerung": "a reunião ist feminin → terminada.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "___ os ficheiros, pode desligar o computador. (guardar)", "loesungen": ["Guardados"], "de": "Sobald die Dateien gespeichert sind, können Sie den Computer ausschalten.", "erklaerung": "os ficheiros: maskulin Plural → guardados.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "___ isto, reinicie o portátil. (fazer)", "loesungen": ["Feito"], "de": "Danach starten Sie den Laptop neu.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "___ a aplicação, escolha o idioma. (instalar)", "loesungen": ["Instalada"], "de": "Nachdem die App installiert ist, wählen Sie die Sprache.", "kategorie": "Partizip"},
+     {"typ": "auswahl", "frage": "„Nachdem die Kopien gemacht waren, …“", "optionen": ["Feito as cópias, …", "Feitas as cópias, …", "Fazendo as cópias, …"], "richtig": 1, "erklaerung": "as cópias: feminin Plural → feitas.", "kategorie": "Partizip"},
+     {"typ": "auswahl", "frage": "„Feito isto, …“ bedeutet:", "optionen": ["Wenn ich das mache, …", "Während ich das mache, …", "Danach / Wenn das erledigt ist, …"], "richtig": 2, "kategorie": "Partizip"},
+     {"typ": "uebersetzen", "de": "Sobald der Laptop eingerichtet ist, können Sie arbeiten. (uma vez + Partizip)", "loesungen": ["Uma vez configurado o portátil, pode trabalhar.", "Uma vez configurado o portátil, já pode trabalhar.", "Uma vez configurado o computador, pode trabalhar.", "Uma vez configurado o computador, já pode trabalhar.", "Uma vez configurado o computador portátil, pode trabalhar.", "Uma vez configurado o computador portátil, já pode trabalhar."], "kategorie": "Partizip"},
+     {"typ": "satzbau", "de": "Danach machen Sie eine Sicherungskopie in der Cloud.", "loesung": "Feito isto, faça uma cópia de segurança na nuvem."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Configurar o portátil em cinco passos – den Laptop in fünf Schritten einrichten",
+    "situation": "O Stefan comprou um portátil novo e ouve as instruções de um vídeo.",
+    "zeilen": [
+     {"sprecher": "Técnico", "stimme": "m", "pt": "Bem-vindo ao seu novo portátil. Vamos configurá-lo em cinco passos.", "de": "Willkommen bei Ihrem neuen Laptop. Wir richten ihn in fünf Schritten ein."},
+     {"sprecher": "Técnico", "stimme": "m", "pt": "Primeiro, escolha o idioma e o teclado: português, teclado português.", "de": "Wählen Sie zuerst Sprache und Tastatur: Portugiesisch, portugiesische Tastatur."},
+     {"sprecher": "Técnico", "stimme": "m", "pt": "Escolhido o idioma, ligue-se à rede Wi-Fi e escreva a palavra-passe.", "de": "Nachdem Sie die Sprache gewählt haben, verbinden Sie sich mit dem WLAN und geben das Passwort ein."},
+     {"sprecher": "Técnico", "stimme": "m", "pt": "Feito isto, crie um nome de utilizador e inicie sessão.", "de": "Danach legen Sie einen Benutzernamen an und melden sich an."},
+     {"sprecher": "Técnico", "stimme": "m", "pt": "Uma vez iniciada a sessão, o sistema vai procurar atualizações. Não desligue o computador!", "de": "Sobald Sie angemeldet sind, sucht das System nach Updates. Schalten Sie den Computer nicht aus!"},
+     {"sprecher": "Técnico", "stimme": "m", "pt": "Instaladas as atualizações, ative a cópia de segurança na nuvem.", "de": "Wenn die Updates installiert sind, aktivieren Sie die Sicherung in der Cloud."},
+     {"sprecher": "Técnico", "stimme": "m", "pt": "Terminada a configuração, já pode trabalhar. Os seus ficheiros ficam guardados automaticamente.", "de": "Wenn die Einrichtung abgeschlossen ist, können Sie arbeiten. Ihre Dateien werden automatisch gespeichert."}
+    ],
+    "fragen": [
+     {"frage": "O que se escolhe primeiro?", "optionen": ["O nome de utilizador.", "O idioma e o teclado.", "A rede Wi-Fi."], "richtig": 1},
+     {"frage": "O que não se deve fazer durante as atualizações?", "optionen": ["Desligar o computador.", "Iniciar sessão.", "Escrever a palavra-passe."], "richtig": 0},
+     {"frage": "O que se ativa depois das atualizações?", "optionen": ["As notificações.", "O microfone.", "A cópia de segurança na nuvem."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Nach der Besprechung sind wir zu Mittag essen gegangen. (Terminada …)", "loesungen": ["Terminada a reunião, fomos almoçar."]},
+     {"de": "Danach starten Sie den Computer neu. (Feito isto …)", "loesungen": ["Feito isto, reinicie o computador.", "Feito isto, reinicie o portátil.", "Feito isto, reinicie o computador portátil."]},
+     {"de": "Ich schicke dir die Datei per E-Mail.", "loesungen": ["Envio-te o ficheiro por e-mail.", "Mando-te o ficheiro por e-mail.", "Vou enviar-te o ficheiro por e-mail.", "Vou mandar-te o ficheiro por e-mail."]},
+     {"de": "Ich mache jede Woche ein Backup.", "loesungen": ["Faço uma cópia de segurança todas as semanas.", "Todas as semanas faço uma cópia de segurança.", "Faço cópias de segurança todas as semanas."]},
+     {"de": "Die Maus funktioniert nicht, aber die Tastatur schon.", "loesungen": ["O rato não funciona, mas o teclado sim.", "O rato não funciona, mas o teclado funciona.", "O rato não está a funcionar, mas o teclado sim.", "O rato não está a funcionar, mas o teclado está."]}
+    ]
+   },
+   "saetze": [
+    {"id": "feito-isto-reinicie", "pt": "Feito isto, reinicie o computador.", "de": "Danach starten Sie den Computer neu."},
+    {"id": "terminada-a-reuniao", "pt": "Terminada a reunião, fomos almoçar.", "de": "Nach der Besprechung gingen wir zu Mittag essen."},
+    {"id": "envio-te-o-ficheiro", "pt": "Envio-te o ficheiro por e-mail.", "de": "Ich schicke dir die Datei per E-Mail."}
+   ]
+  },
+  {
+   "id": "B1-11-L09",
+   "typ": "neu",
+   "titel": "Fernsehen, Streaming und Podcasts: ao + Infinitiv",
+   "vokabeln": ["a-serie", "o-episodio", "o-canal", "as-legendas", "o-comando", "o-telejornal", "em-direto", "o-podcast", "o-apresentador", "a-plataforma-de-streaming"],
+   "grammatik": {
+    "titel": "<i>Ao</i> + infinitivo, gerúndio ou <i>a</i> + infinitivo?",
+    "erklaerung": [
+     "Para dizer <b>no momento em que</b>, o português de Portugal usa muito <b>ao</b> + infinitivo: <i><b>Ao chegar</b> a casa, liguei a televisão.</i> = <i>Quando cheguei a casa…</i> = <i>Chegando a casa…</i>",
+     "<b>ao</b> + infinitivo é a forma mais natural na conversa; o gerúndio é mais escrito. Quando o sujeito é outro, usa-se o infinitivo pessoal: <i><b>Ao chegarmos</b>, o jogo já tinha começado.</i>",
+     "Depois de <i>ver</i> e <i>ouvir</i>, e com <i>passar</i> (tempo) e <i>ficar</i>, usa-se <b>a</b> + infinitivo: <i>Vi o Pedro <b>a sair</b>. Passámos a noite <b>a ver</b> séries. Fiquei <b>a ouvir</b> o podcast.</i>",
+     "Resumo: <i>estou a ver</i> (agora) · <i>ao ver</i> (no momento em que) · <i>vendo</i> (escrito: quando, como, se) · <i>passei o dia a ver</i> (durante)."
+    ],
+    "erklaerung_de": [
+     "Für „in dem Moment, als …“ benutzt das europäische Portugiesisch sehr oft <b>ao</b> + Infinitiv: <i><b>Ao chegar</b> a casa, liguei a televisão.</i> – Als ich nach Hause kam, schaltete ich den Fernseher ein.",
+     "<b>ao</b> + Infinitiv ist im Gespräch am natürlichsten; das Gerundium klingt eher schriftlich. Bei eigenem Subjekt steht der persönliche Infinitiv: <i><b>Ao chegarmos</b>, o jogo já tinha começado.</i> – Als wir ankamen, hatte das Spiel schon begonnen.",
+     "Nach <i>ver</i> und <i>ouvir</i> sowie mit <i>passar</i> (Zeit verbringen) und <i>ficar</i> steht <b>a</b> + Infinitiv: <i>Vi o Pedro <b>a sair</b>.</i> – Ich sah Pedro hinausgehen. <i>Passámos a noite <b>a ver</b> séries.</i> – Wir haben den ganzen Abend Serien geschaut. <i>Fiquei <b>a ouvir</b> o podcast.</i>",
+     "Zusammenfassung: <i>estou a ver</i> (gerade) · <i>ao ver</i> (in dem Moment, als / beim …) · <i>vendo</i> (schriftlich: als, da, wenn) · <i>passei o dia a ver</i> (den ganzen Tag lang)."
+    ],
+    "vergleich": "<i>ao</i> + Infinitiv entspricht oft dem deutschen „beim“ + substantiviertem Infinitiv: <i>ao ver televisão</i> = „beim Fernsehen“. „Wir haben den Abend mit Serienschauen verbracht“ = <i>Passámos a noite a ver séries</i> – in Brasilien würde man hier das Gerundium nehmen.",
+    "beispiele": [
+     {"pt": "Ao ver o telejornal, soube da seca no Algarve.", "de": "Beim Anschauen der Nachrichten erfuhr ich von der Dürre an der Algarve."},
+     {"pt": "Passámos o domingo a ver a série nova.", "de": "Wir haben den Sonntag mit der neuen Serie verbracht."},
+     {"pt": "Ouço podcasts ao conduzir para o escritório.", "de": "Auf der Fahrt ins Büro höre ich Podcasts."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ chegar a casa, liguei a televisão.", "loesungen": ["Ao"], "de": "Als ich nach Hause kam, schaltete ich den Fernseher ein.", "kategorie": "ao + Infinitiv"},
+     {"typ": "luecke", "satz": "Passámos o domingo ___ ver a série nova.", "loesungen": ["a"], "de": "Wir haben den Sonntag damit verbracht, die neue Serie zu schauen.", "kategorie": "ao + Infinitiv"},
+     {"typ": "luecke", "satz": "Ouvi a Ana ___ falar ao telefone com a mãe.", "loesungen": ["a"], "de": "Ich hörte Ana mit ihrer Mutter telefonieren.", "kategorie": "ao + Infinitiv"},
+     {"typ": "luecke", "satz": "Ao ___ o telejornal, soube da notícia. (ver)", "loesungen": ["ver"], "de": "Beim Anschauen der Nachrichten erfuhr ich die Neuigkeit.", "kategorie": "ao + Infinitiv"},
+     {"typ": "auswahl", "frage": "„Wir haben den ganzen Abend Serien geschaut.“", "optionen": ["Passámos a noite vendo séries.", "Passámos a noite a ver séries.", "Passámos a noite ao ver séries."], "richtig": 1, "erklaerung": "passar o tempo a + Infinitiv (pt-PT).", "kategorie": "ao + Infinitiv"},
+     {"typ": "auswahl", "frage": "„Als wir ankamen, hatte das Spiel schon begonnen.“", "optionen": ["Ao chegarmos, o jogo já tinha começado.", "Ao chegar nós, o jogo já começou.", "A chegarmos, o jogo já tinha começado."], "richtig": 0, "erklaerung": "ao + persönlicher Infinitiv (chegarmos).", "kategorie": "Infinitivo pessoal"},
+     {"typ": "uebersetzen", "de": "Beim Fernsehen schlafe ich immer ein.", "loesungen": ["Ao ver televisão, adormeço sempre.", "Adormeço sempre ao ver televisão.", "Adormeço sempre a ver televisão.", "Ao ver televisão, eu adormeço sempre."], "kategorie": "ao + Infinitiv"},
+     {"typ": "satzbau", "de": "Ich höre jeden Morgen einen Podcast auf Portugiesisch.", "loesung": "Ouço um podcast em português todas as manhãs."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O que vemos hoje? – Was schauen wir heute?",
+    "situation": "Domingo à noite, em casa. A Ana e o Stefan decidem o que vão ver.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "O que vemos hoje? Já saiu o episódio novo daquela série portuguesa.", "de": "Was schauen wir heute? Die neue Folge dieser portugiesischen Serie ist schon draußen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pode ser, mas com legendas em português, se faz favor. Os atores falam muito depressa.", "de": "Gern, aber bitte mit portugiesischen Untertiteln. Die Schauspieler sprechen sehr schnell."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Combinado. Onde está o comando?", "de": "Abgemacht. Wo ist die Fernbedienung?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estava no sofá… Ah, aqui está. Ao sentar-me, caiu para o chão.", "de": "Sie lag auf dem Sofa … Ah, hier ist sie. Als ich mich hingesetzt habe, ist sie auf den Boden gefallen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Antes da série, vemos o telejornal? Quero saber como está a situação da seca.", "de": "Schauen wir vor der Serie die Nachrichten? Ich will wissen, wie es mit der Dürre aussieht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. Hoje de manhã, ao ir para o escritório, ouvi um podcast sobre isso. Parece que vai haver restrições de água.", "de": "In Ordnung. Heute Morgen habe ich auf dem Weg ins Büro einen Podcast darüber gehört. Anscheinend wird es Wasserbeschränkungen geben."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "A sério? Então vamos ver. E depois, dois episódios e cama!", "de": "Echt? Dann schauen wir mal. Und danach zwei Folgen und ab ins Bett!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Só dois? Da última vez passámos a noite toda a ver a série…", "de": "Nur zwei? Letztes Mal haben wir die ganze Nacht die Serie geschaut …"}
+    ],
+    "fragen": [
+     {"frage": "Como quer o Stefan ver a série?", "optionen": ["Com legendas em português.", "Em direto.", "Sem legendas."], "richtig": 0},
+     {"frage": "Onde ouviu o Stefan falar da seca?", "optionen": ["No telejornal.", "Num podcast, a caminho do escritório.", "No jornal da região."], "richtig": 1},
+     {"frage": "O que aconteceu da última vez?", "optionen": ["Adormeceram no sofá.", "Perderam o comando.", "Passaram a noite toda a ver a série."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Em que canal dá o jogo?", "de": "Auf welchem Sender läuft das Spiel?"},
+     {"pt": "Vejo as séries com legendas em português.", "de": "Ich schaue die Serien mit portugiesischen Untertiteln."},
+     {"pt": "Ao chegar a casa, liguei a televisão.", "de": "Als ich nach Hause kam, schaltete ich den Fernseher ein."},
+     {"pt": "Passámos a noite a ver séries.", "de": "Wir haben den Abend mit Serienschauen verbracht."},
+     {"pt": "O jogo vai ser transmitido em direto.", "de": "Das Spiel wird live übertragen."}
+    ]
+   },
+   "saetze": [
+    {"id": "em-que-canal-da", "pt": "Em que canal dá o jogo?", "de": "Auf welchem Sender läuft das Spiel?"},
+    {"id": "onde-esta-o-comando", "pt": "Onde está o comando?", "de": "Wo ist die Fernbedienung?"},
+    {"id": "passamos-a-noite-a-ver", "pt": "Passámos a noite a ver séries.", "de": "Wir haben den Abend mit Serienschauen verbracht."}
+   ]
+  },
+  {
+   "id": "B1-11-L10",
+   "typ": "neu",
+   "titel": "Beim Technik-Support anrufen",
+   "vokabeln": ["o-apoio-ao-cliente", "dar-erro", "a-mensagem-de-erro", "falhar", "ir-se-abaixo", "a-reparacao", "o-numero-de-serie", "repor-as-definicoes-de-fabrica", "o-assistente"],
+   "grammatik": {
+    "titel": "Problemas técnicos: <i>deixar de, voltar a, continuar a, começar a, acabar de</i>",
+    "erklaerung": [
+     "Para descrever um problema técnico usamos verbos com preposição + infinitivo: <b>começar a</b>, <b>continuar a</b>, <b>voltar a</b>, <b>deixar de</b>, <b>acabar de</b>.",
+     "<i>O portátil <b>deixou de</b> funcionar.</i> – <i>A aplicação <b>voltou a</b> dar erro.</i> – <i><b>Acabei de</b> reiniciar o router.</i> – <i>A internet <b>continua a</b> falhar.</i> – <i>O ecrã <b>começou a</b> piscar.</i>",
+     "<b>voltar a</b> + infinitivo substitui <i>outra vez</i>: <i>Voltei a ligar.</i> = <i>Liguei outra vez.</i> <b>continuar a</b> + infinitivo = ainda: <i>Continua a não funcionar.</i>",
+     "O pronome pode ir para o primeiro verbo ou para o infinitivo: <i>Voltei a ligá-lo.</i> / <i>Voltei-o a ligar.</i> Depois de <i>não</i> ou <i>já</i>, vem antes do primeiro verbo: <i>Não o consigo ligar. Já o voltei a ligar.</i>"
+    ],
+    "erklaerung_de": [
+     "Um ein technisches Problem zu beschreiben, nimmt man Verben mit Präposition + Infinitiv: <b>começar a</b> (anfangen), <b>continuar a</b> (weiterhin / immer noch), <b>voltar a</b> (wieder), <b>deixar de</b> (nicht mehr), <b>acabar de</b> (gerade).",
+     "<i>O portátil <b>deixou de</b> funcionar.</i> – Der Laptop funktioniert nicht mehr. <i>A aplicação <b>voltou a</b> dar erro.</i> – Die App zeigt wieder einen Fehler. <i><b>Acabei de</b> reiniciar o router.</i> – Ich habe gerade den Router neu gestartet. <i>A internet <b>continua a</b> falhar.</i> – Das Internet fällt immer noch aus. <i>O ecrã <b>começou a</b> piscar.</i> – Der Bildschirm hat angefangen zu flackern.",
+     "<b>voltar a</b> + Infinitiv ersetzt <i>outra vez</i>: <i>Voltei a ligar.</i> = <i>Liguei outra vez.</i> – Ich habe noch einmal angerufen. <b>continuar a</b> + Infinitiv = immer noch: <i>Continua a não funcionar.</i> – Es funktioniert immer noch nicht.",
+     "Das Pronomen kann beim ersten Verb oder beim Infinitiv stehen: <i>Voltei a ligá-lo.</i> / <i>Voltei-o a ligar.</i> Nach <i>não</i> oder <i>já</i> steht es vor dem ersten Verb: <i>Não o consigo ligar.</i> – Ich kriege ihn nicht an. <i>Já o voltei a ligar.</i>"
+    ],
+    "vergleich": "Wo das Deutsche Adverbien benutzt („wieder“, „immer noch“, „nicht mehr“, „gerade“), nimmt das Portugiesische Verben: <i>voltar a</i> = wieder, <i>continuar a</i> = immer noch, <i>deixar de</i> = nicht mehr, <i>acabar de</i> = gerade.",
+    "beispiele": [
+     {"pt": "O meu portátil deixou de ligar esta manhã.", "de": "Mein Laptop geht seit heute Morgen nicht mehr an."},
+     {"pt": "Já reiniciei o router, mas a internet continua a falhar.", "de": "Ich habe den Router schon neu gestartet, aber das Internet fällt immer noch aus."},
+     {"pt": "Repus as definições de fábrica e a aplicação voltou a dar erro.", "de": "Ich habe auf Werkseinstellungen zurückgesetzt, und die App zeigt wieder einen Fehler."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O meu portátil deixou ___ funcionar.", "loesungen": ["de"], "de": "Mein Laptop funktioniert nicht mehr.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "A aplicação voltou ___ dar erro.", "loesungen": ["a"], "de": "Die App zeigt wieder einen Fehler.", "kategorie": "Verb + Präposition"},
+     {"typ": "luecke", "satz": "Já reiniciei o router, mas a internet continua ___ falhar.", "loesungen": ["a"], "de": "Ich habe den Router schon neu gestartet, aber das Internet fällt immer noch aus.", "kategorie": "Verb + Präposition"},
+     {"typ": "auswahl", "frage": "„Der Bildschirm ist wieder schwarz geworden.“", "optionen": ["O ecrã acabou de ficar preto.", "O ecrã deixou de ficar preto.", "O ecrã voltou a ficar preto."], "richtig": 2, "erklaerung": "wieder = voltar a + Infinitiv.", "kategorie": "Verb + Präposition"},
+     {"typ": "auswahl", "frage": "„Es funktioniert immer noch nicht.“", "optionen": ["Continua a não funcionar.", "Volta a não funcionar.", "Deixa de funcionar."], "richtig": 0, "kategorie": "Verb + Präposition"},
+     {"typ": "uebersetzen", "de": "Ich habe gerade den Computer neu gestartet.", "loesungen": ["Acabei de reiniciar o computador.", "Acabei de reiniciar o portátil.", "Eu acabei de reiniciar o computador."], "kategorie": "Verb + Präposition"},
+     {"typ": "uebersetzen", "de": "Das Handy lädt nicht mehr.", "loesungen": ["O telemóvel deixou de carregar.", "O telemóvel já não carrega."], "kategorie": "Verb + Präposition"},
+     {"typ": "satzbau", "de": "Ich kriege ihn nicht an.", "loesung": "Não o consigo ligar."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma chamada para o apoio ao cliente – ein Anruf beim Kundendienst",
+    "situation": "O portátil novo do Stefan tem um problema. Ele liga para o apoio ao cliente da loja.",
+    "zeilen": [
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Apoio ao cliente, bom dia. Fala a Sónia. Em que posso ajudar?", "de": "Kundendienst, guten Morgen. Hier spricht Sónia. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Comprei um portátil na vossa loja há três meses e ontem deixou de funcionar.", "de": "Guten Morgen. Ich habe vor drei Monaten in Ihrem Geschäft einen Laptop gekauft, und gestern hat er aufgehört zu funktionieren."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Lamento. Pode descrever o problema?", "de": "Das tut mir leid. Können Sie das Problem beschreiben?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ao ligá-lo, aparece uma mensagem de erro e depois o sistema vai-se abaixo. Já o reiniciei várias vezes, mas continua a acontecer.", "de": "Wenn ich ihn einschalte, erscheint eine Fehlermeldung und dann stürzt das System ab. Ich habe ihn schon mehrmals neu gestartet, aber es passiert immer noch."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Já experimentou repor as definições de fábrica?", "de": "Haben Sie schon versucht, auf Werkseinstellungen zurückzusetzen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já, ontem à noite. Funcionou uma hora e depois voltou a dar erro.", "de": "Ja, gestern Abend. Er hat eine Stunde funktioniert und dann kam wieder der Fehler."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Nesse caso, o portátil tem de ir para reparação. Está dentro da garantia, por isso não paga nada. Pode dar-me o número de série?", "de": "In diesem Fall muss der Laptop in die Reparatur. Er ist noch in der Garantie, Sie zahlen also nichts. Können Sie mir die Seriennummer geben?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro, um momento… E quanto tempo demora a reparação?", "de": "Natürlich, einen Moment … Und wie lange dauert die Reparatur?"},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Normalmente, duas semanas. Terminada a reparação, enviamos-lhe um e-mail.", "de": "Normalerweise zwei Wochen. Wenn die Reparatur fertig ist, schicken wir Ihnen eine E-Mail."}
+    ],
+    "fragen": [
+     {"frage": "Quando comprou o Stefan o portátil?", "optionen": ["Há três semanas.", "Há três meses.", "Há um ano."], "richtig": 1},
+     {"frage": "O que aconteceu depois de repor as definições de fábrica?", "optionen": ["O portátil funcionou bem durante dias.", "O ecrã partiu-se.", "Funcionou uma hora e voltou a dar erro."], "richtig": 2},
+     {"frage": "Quanto paga o Stefan pela reparação?", "optionen": ["Nada, porque está dentro da garantia.", "Metade do preço.", "Cinquenta euros."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "A internet em sua casa não funciona. Ligue para o apoio ao cliente da operadora.",
+    "zeilen": [
+     {"sprecher": "Assistente", "stimme": "m", "pt": "Apoio ao cliente, boa tarde. Em que posso ajudar?", "de": "Kundendienst, guten Tag. Wie kann ich helfen?"},
+     {"ich": true, "aufgabe": "Sag: Guten Tag. Mein Internet funktioniert seit gestern nicht mehr.", "loesungen": ["Boa tarde. A minha internet deixou de funcionar ontem.", "Boa tarde. A internet deixou de funcionar ontem.", "Boa tarde. A minha internet não funciona desde ontem.", "Boa tarde. A internet não funciona desde ontem.", "Boa tarde. Desde ontem a minha internet não funciona.", "Boa tarde. Desde ontem a internet não funciona."]},
+     {"sprecher": "Assistente", "stimme": "m", "pt": "Já experimentou desligar o router e voltar a ligá-lo?", "de": "Haben Sie schon versucht, den Router aus- und wieder einzuschalten?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich habe ihn gerade neu gestartet, aber es funktioniert immer noch nicht.", "loesungen": ["Sim, acabei de o reiniciar, mas continua a não funcionar.", "Sim, acabei de reiniciá-lo, mas continua a não funcionar.", "Já, acabei de o reiniciar, mas continua a não funcionar.", "Já, acabei de reiniciá-lo, mas continua a não funcionar.", "Sim, acabei de reiniciar o router, mas continua a não funcionar.", "Já, acabei de reiniciar o router, mas continua a não funcionar."]},
+     {"sprecher": "Assistente", "stimme": "m", "pt": "Então vou enviar-lhe um técnico. Pode ser amanhã de manhã?", "de": "Dann schicke ich Ihnen einen Techniker. Passt es morgen Vormittag?"},
+     {"ich": true, "aufgabe": "Sag: Ja, das passt. Um wie viel Uhr kommt der Techniker?", "loesungen": ["Sim, pode ser. A que horas vem o técnico?", "Sim, pode ser. A que horas é que vem o técnico?", "Sim, pode ser. A que horas chega o técnico?", "Pode ser. A que horas vem o técnico?", "Sim, dá jeito. A que horas vem o técnico?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "portatil-deixou-de-funcionar", "pt": "O meu portátil deixou de funcionar.", "de": "Mein Laptop funktioniert nicht mehr."},
+    {"id": "voltou-a-dar-erro", "pt": "A aplicação voltou a dar erro.", "de": "Die App zeigt wieder einen Fehler."},
+    {"id": "continua-a-nao-funcionar", "pt": "Continua a não funcionar.", "de": "Es funktioniert immer noch nicht."}
+   ]
+  },
+  {"id": "B1-11-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-11-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "A bicicleta que nunca chegou – das Fahrrad, das nie ankam",
+   "situation": "A Rita conta ao Stefan o que lhe aconteceu.",
+   "zeilen": [
+    {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, nem imaginas o que me aconteceu. Fui vítima de uma burla!", "de": "Stefan, du glaubst nicht, was mir passiert ist. Ich bin auf einen Betrug hereingefallen!"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Como foi?", "de": "Echt? Wie ist das passiert?"},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Vi um anúncio nas redes sociais: uma bicicleta ótima, muito barata. Confiei no vendedor e paguei por MB Way.", "de": "Ich habe in den sozialen Netzwerken eine Anzeige gesehen: ein tolles Fahrrad, sehr billig. Ich habe dem Verkäufer vertraut und mit MB Way bezahlt."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E a bicicleta nunca chegou…", "de": "Und das Fahrrad ist nie angekommen …"},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Pois não. Recebido o dinheiro, o vendedor bloqueou-me. Nem dei conta de que a página era falsa.", "de": "Genau. Als er das Geld hatte, hat mich der Verkäufer blockiert. Ich habe nicht einmal gemerkt, dass die Seite gefälscht war."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Que azar! Já foste à polícia?", "de": "So ein Pech! Warst du schon bei der Polizei?"},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Fui ontem. Feita a queixa, disseram-me que é muito difícil recuperar o dinheiro.", "de": "Gestern. Nachdem ich Anzeige erstattet hatte, sagten sie mir, dass es sehr schwierig ist, das Geld zurückzubekommen."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Lamento muito. Da próxima vez, desconfia de preços tão baixos – e podes sempre contar comigo para ver o anúncio primeiro.", "de": "Das tut mir sehr leid. Misstrau nächstes Mal so niedrigen Preisen – und du kannst immer auf mich zählen, um die Anzeige vorher anzuschauen."}
+   ],
+   "fragen": [
+    {"frage": "O que queria a Rita comprar?", "optionen": ["Um telemóvel.", "Uma bicicleta.", "Um portátil."], "richtig": 1},
+    {"frage": "Como pagou a Rita?", "optionen": ["Por MB Way.", "Em dinheiro.", "Com cartão de crédito."], "richtig": 0},
+    {"frage": "O que fez o vendedor depois de receber o dinheiro?", "optionen": ["Enviou a bicicleta.", "Telefonou à Rita.", "Bloqueou a Rita."], "richtig": 2},
+    {"frage": "O que disseram à Rita na polícia?", "optionen": ["Que vão encontrar o burlão amanhã.", "Que é muito difícil recuperar o dinheiro.", "Que o banco devolve o dinheiro."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Lagos, capital dos nómadas digitais? – Lagos, Hauptstadt der digitalen Nomaden?",
+   "situation": "Um artigo num jornal regional.",
+   "text": [
+    "Lagos, capital dos nómadas digitais?",
+    "Com sol quase todo o ano e boa ligação à internet, Lagos atrai cada vez mais estrangeiros que trabalham à distância. Só este ano, abriram na cidade três novos espaços de cowork.",
+    "Chegando de países como a Alemanha, os Países Baixos ou os Estados Unidos, estes profissionais dependem apenas de um portátil e de uma boa rede Wi-Fi.",
+    "Para os cafés e restaurantes, é uma boa notícia. «Desde que eles chegaram, o inverno deixou de ser tão calmo», diz o dono de um café no centro histórico.",
+    "Nem todos estão contentes. Os moradores queixam-se das rendas: muitos apartamentos passaram a ser alugados a estrangeiros, por preços que os portugueses não conseguem pagar.",
+    "Terminado o primeiro estudo sobre o tema, a Câmara Municipal pensa em criar regras novas para o alojamento. A decisão deve ser conhecida no início do próximo ano."
+   ],
+   "fragen": [
+    {"frage": "Porque é que Lagos atrai trabalhadores estrangeiros?", "optionen": ["Por causa do sol e da boa ligação à internet.", "Porque as rendas são baratas.", "Porque a Câmara paga os escritórios."], "richtig": 0},
+    {"frage": "De que precisam estes profissionais para trabalhar?", "optionen": ["De um escritório no centro.", "Só de um portátil e de uma boa rede Wi-Fi.", "De um carro."], "richtig": 1},
+    {"frage": "De que se queixam os moradores?", "optionen": ["Do barulho nos cafés.", "Da falta de internet.", "Das rendas altas."], "richtig": 2},
+    {"frage": "O que pensa fazer a Câmara Municipal?", "optionen": ["Fechar os espaços de cowork.", "Criar regras novas para o alojamento.", "Proibir o teletrabalho."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich habe gerade die App aktualisiert.", "loesungen": ["Acabei de atualizar a aplicação.", "Acabei de atualizar a app."]},
+   {"de": "Du kannst auf mich zählen.", "loesungen": ["Podes contar comigo.", "Podes contar comigo!"]},
+   {"de": "Misstrau Nachrichten, die nach dem Code fragen. (tu)", "loesungen": ["Desconfia de mensagens que pedem o código.", "Desconfia das mensagens que pedem o código.", "Desconfia de mensagens que te pedem o código.", "Desconfia das mensagens que te pedem o código."]},
+   {"de": "Mit wem hast du gesprochen? (tu)", "loesungen": ["Com quem falaste?", "Com quem é que falaste?"]},
+   {"de": "Nach der Besprechung habe ich die Datei geschickt. (Terminada …)", "loesungen": ["Terminada a reunião, enviei o ficheiro.", "Terminada a reunião, mandei o ficheiro."]},
+   {"de": "Der Laptop funktioniert nicht mehr.", "loesungen": ["O portátil deixou de funcionar.", "O computador deixou de funcionar.", "O computador portátil deixou de funcionar.", "O portátil já não funciona.", "O computador já não funciona."]}
+  ],
+  "sprechen": [
+   {"pt": "Preciso de atualizar a aplicação do banco.", "de": "Ich muss die Banking-App aktualisieren."},
+   {"pt": "Não confio em lojas online desconhecidas.", "de": "Ich vertraue unbekannten Onlineshops nicht."},
+   {"pt": "Chegando a casa, liguei o computador.", "de": "Als ich nach Hause kam, schaltete ich den Computer ein."},
+   {"pt": "Feito isto, faça uma cópia de segurança.", "de": "Danach machen Sie eine Sicherungskopie."},
+   {"pt": "A internet continua a falhar.", "de": "Das Internet fällt immer noch aus."}
+  ]
+ }
+}

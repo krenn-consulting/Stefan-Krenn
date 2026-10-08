@@ -1,0 +1,894 @@
+{
+ "id": "B1-07",
+ "level": "B1",
+ "titel": "Saúde em detalhe – Arzt und Versicherung",
+ "beschreibung": "Symptome genau beschreiben, Vorgeschichte und Untersuchungen, Operation, Krankenhaus, Medikamente, private Krankenversicherung und Physiotherapie – mit dem typisch europäisch-portugiesischen Futuro do conjuntivo (quando puder, se precisar, assim que souber, quem quiser).",
+ "vokabeln": [
+  {"id": "o-rastreio", "pt": "o rastreio", "de": "die Vorsorgeuntersuchung / das Screening", "emoji": "🔎", "beispiel_pt": "Recebi uma carta para o rastreio do cancro do cólon.", "beispiel_de": "Ich habe einen Brief für die Darmkrebs-Vorsorge bekommen.", "hinweis": "pt-PT: o cancro = der Krebs (BR: o câncer)"},
+  {"id": "a-consulta-de-rotina", "pt": "a consulta de rotina", "de": "die Routineuntersuchung", "emoji": "🗓️", "beispiel_pt": "Marquei uma consulta de rotina para março.", "beispiel_de": "Ich habe für März eine Routineuntersuchung ausgemacht."},
+  {"id": "o-check-up", "pt": "o check-up", "de": "der Gesundheitscheck", "emoji": "✅", "beispiel_pt": "Faço um check-up completo todos os anos.", "beispiel_de": "Ich mache jedes Jahr einen kompletten Gesundheitscheck.", "passiv": true},
+  {"id": "o-colesterol", "pt": "o colesterol", "de": "das Cholesterin", "emoji": "🧈", "beispiel_pt": "Tenho o colesterol um pouco alto.", "beispiel_de": "Mein Cholesterin ist etwas hoch."},
+  {"id": "a-glicemia", "pt": "a glicemia", "de": "der Blutzucker(wert)", "emoji": "🩸", "beispiel_pt": "A glicemia em jejum está normal.", "beispiel_de": "Der Nüchternblutzucker ist normal.", "hinweis": "umgangssprachlich: o açúcar no sangue", "passiv": true},
+  {"id": "o-reforco", "pt": "o reforço", "de": "die Auffrischung(simpfung)", "emoji": "💉", "beispiel_pt": "Está na altura de fazer o reforço da vacina do tétano.", "beispiel_de": "Es ist Zeit für die Tetanus-Auffrischung.", "passiv": true},
+  {"id": "o-lembrete", "pt": "o lembrete", "de": "die Erinnerung (Nachricht)", "emoji": "🔔", "beispiel_pt": "Dois dias antes, recebo um lembrete por SMS.", "beispiel_de": "Zwei Tage vorher bekomme ich eine Erinnerung per SMS."},
+  {"id": "a-vacina", "pt": "a vacina", "de": "die Impfung / der Impfstoff", "emoji": "🩹", "beispiel_pt": "Já levou a vacina da gripe este ano?", "beispiel_de": "Haben Sie sich dieses Jahr schon gegen Grippe impfen lassen?", "hinweis": "levar/tomar a vacina = sich impfen lassen"},
+  {"id": "quando-chegar-a-altura", "pt": "quando chegar a altura", "de": "wenn es so weit ist", "emoji": "⏰", "beispiel_pt": "Quando chegar a altura, o centro de saúde avisa-o.", "beispiel_de": "Wenn es so weit ist, benachrichtigt Sie das Gesundheitszentrum.", "hinweis": "chegar → (quando) chegar: futuro do conjuntivo"},
+
+  {"id": "a-falta-de-ar", "pt": "a falta de ar", "de": "die Atemnot / Kurzatmigkeit", "emoji": "😮‍💨", "beispiel_pt": "Quando subo as escadas, fico com falta de ar.", "beispiel_de": "Wenn ich die Treppe hinaufgehe, bekomme ich keine Luft."},
+  {"id": "o-formigueiro", "pt": "o formigueiro", "de": "das Kribbeln", "emoji": "🐜", "beispiel_pt": "Sinto um formigueiro na mão esquerda.", "beispiel_de": "Ich spüre ein Kribbeln in der linken Hand.", "hinweis": "eigentlich: der Ameisenhaufen (a formiga = die Ameise)"},
+  {"id": "a-dormencia", "pt": "a dormência", "de": "das Taubheitsgefühl", "emoji": "🫥", "beispiel_pt": "De manhã tenho dormência nos dedos.", "beispiel_de": "Morgens habe ich ein Taubheitsgefühl in den Fingern.", "hinweis": "Adjektiv: dormente (taub)", "passiv": true},
+  {"id": "a-comichao", "pt": "a comichão", "de": "der Juckreiz", "emoji": "🤚", "beispiel_pt": "Tenho comichão nos braços desde ontem.", "beispiel_de": "Meine Arme jucken seit gestern.", "hinweis": "dar comichão = jucken (BR: a coceira)"},
+  {"id": "o-ardor", "pt": "o ardor", "de": "das Brennen", "emoji": "🔥", "beispiel_pt": "Sinto um ardor no estômago depois de comer.", "beispiel_de": "Nach dem Essen spüre ich ein Brennen im Magen.", "passiv": true},
+  {"id": "latejante", "pt": "latejante", "de": "pochend / pulsierend", "emoji": "💥", "beispiel_pt": "É uma dor latejante do lado direito da cabeça.", "beispiel_de": "Es ist ein pochender Schmerz auf der rechten Kopfseite.", "passiv": true},
+  {"id": "inchado", "pt": "inchado", "de": "geschwollen", "emoji": "🎈", "beispiel_pt": "Tenho o pulso inchado.", "beispiel_de": "Mein Handgelenk ist geschwollen.", "hinweis": "o pulso = das Handgelenk (auch: der Puls)", "alternativen": ["inchada"]},
+  {"id": "o-sintoma", "pt": "o sintoma", "de": "das Symptom", "emoji": "📋", "beispiel_pt": "Que sintomas tem?", "beispiel_de": "Welche Symptome haben Sie?"},
+  {"id": "descrever", "pt": "descrever", "de": "beschreiben", "emoji": "✍️", "beispiel_pt": "Descreva a dor com pormenor, por favor.", "beispiel_de": "Beschreiben Sie den Schmerz bitte genau.", "hinweis": "com pormenor = genau, ausführlich (auch: em detalhe)"},
+  {"id": "quando-puder", "pt": "quando puder", "de": "wenn Sie können / sobald es geht", "emoji": "🕐", "beispiel_pt": "Ligue-me quando puder.", "beispiel_de": "Rufen Sie mich an, wenn Sie können.", "hinweis": "poder → puderam → (quando) puder"},
+
+  {"id": "os-antecedentes-familiares", "pt": "os antecedentes familiares", "de": "die Vorerkrankungen in der Familie", "emoji": "👪", "beispiel_pt": "Há antecedentes familiares de diabetes?", "beispiel_de": "Gibt es in der Familie Fälle von Diabetes?", "passiv": true},
+  {"id": "a-doenca-cronica", "pt": "a doença crónica", "de": "die chronische Krankheit", "emoji": "🔁", "beispiel_pt": "Tem alguma doença crónica?", "beispiel_de": "Haben Sie eine chronische Krankheit?", "hinweis": "pt-PT: crónico (BR: crônico)"},
+  {"id": "a-diabetes", "pt": "a diabetes", "de": "der Diabetes / die Zuckerkrankheit", "emoji": "🍬", "beispiel_pt": "A minha mãe tem diabetes.", "beispiel_de": "Meine Mutter hat Diabetes.", "hinweis": "weiblich: a diabetes; ser diabético = Diabetiker sein"},
+  {"id": "a-asma", "pt": "a asma", "de": "das Asthma", "emoji": "🫁", "beispiel_pt": "A Rita tem asma e anda sempre com a bomba.", "beispiel_de": "Rita hat Asthma und hat immer ihr Spray dabei.", "hinweis": "a bomba (da asma) = das Asthmaspray", "passiv": true},
+  {"id": "hereditario", "pt": "hereditário", "de": "erblich", "emoji": "🧬", "beispiel_pt": "O colesterol alto pode ser hereditário.", "beispiel_de": "Hohes Cholesterin kann erblich sein.", "alternativen": ["hereditária"], "passiv": true},
+  {"id": "o-historial-clinico", "pt": "o historial clínico", "de": "die Krankengeschichte", "emoji": "🗂️", "beispiel_pt": "O médico consultou o meu historial clínico.", "beispiel_de": "Der Arzt hat meine Krankengeschichte angesehen.", "hinweis": "auch: a história clínica", "passiv": true},
+  {"id": "a-medicacao-habitual", "pt": "a medicação habitual", "de": "die Dauermedikation", "emoji": "💊", "beispiel_pt": "Qual é a sua medicação habitual?", "beispiel_de": "Welche Medikamente nehmen Sie regelmäßig?"},
+  {"id": "ser-alergico-a", "pt": "ser alérgico a", "de": "allergisch sein gegen", "emoji": "🤧", "beispiel_pt": "Sou alérgico à penicilina.", "beispiel_de": "Ich bin allergisch gegen Penicillin.", "hinweis": "a + a = à: alérgico à penicilina, ao pólen", "alternativen": ["ser alérgica a"]},
+  {"id": "se-precisar", "pt": "se precisar", "de": "falls Sie (etwas) brauchen", "emoji": "🆘", "beispiel_pt": "Se precisar de alguma coisa, chame a enfermeira.", "beispiel_de": "Wenn Sie etwas brauchen, rufen Sie die Krankenschwester.", "hinweis": "precisar de + Nomen; tu: se precisares"},
+
+  {"id": "a-ecografia", "pt": "a ecografia", "de": "der Ultraschall", "emoji": "🖥️", "beispiel_pt": "A médica pediu-me uma ecografia ao abdómen.", "beispiel_de": "Die Ärztin hat einen Bauchultraschall angeordnet.", "hinweis": "pt-PT: abdómen (BR: abdômen); pedir um exame = eine Untersuchung anordnen"},
+  {"id": "a-radiografia", "pt": "a radiografia", "de": "die Röntgenaufnahme", "emoji": "🩻", "beispiel_pt": "Fiz uma radiografia ao tórax.", "beispiel_de": "Ich habe eine Röntgenaufnahme vom Brustkorb gemacht.", "hinweis": "umgangssprachlich: o raio-X (o RX)", "alternativen": ["o raio-X"]},
+  {"id": "a-ressonancia-magnetica", "pt": "a ressonância magnética", "de": "die Magnetresonanztomographie (MRT)", "emoji": "🧲", "beispiel_pt": "A ressonância magnética demora meia hora.", "beispiel_de": "Die MRT dauert eine halbe Stunde.", "passiv": true},
+  {"id": "a-tac", "pt": "a TAC", "de": "die Computertomographie (CT)", "emoji": "🌀", "beispiel_pt": "Vai fazer uma TAC à cabeça.", "beispiel_de": "Sie bekommen eine CT vom Kopf.", "hinweis": "TAC = tomografia axial computorizada", "passiv": true},
+  {"id": "a-colheita-de-sangue", "pt": "a colheita de sangue", "de": "die Blutabnahme", "emoji": "🧫", "beispiel_pt": "A colheita de sangue é das oito às dez.", "beispiel_de": "Blutabnahme ist von acht bis zehn.", "passiv": true},
+  {"id": "o-exame", "pt": "o exame", "de": "die Untersuchung", "emoji": "🔬", "beispiel_pt": "O exame não dói nada.", "beispiel_de": "Die Untersuchung tut überhaupt nicht weh.", "hinweis": "auch: die Prüfung"},
+  {"id": "o-diagnostico", "pt": "o diagnóstico", "de": "die Diagnose", "emoji": "🗒️", "beispiel_pt": "Assim que tiver o diagnóstico, ligo-lhe.", "beispiel_de": "Sobald ich die Diagnose habe, rufe ich Sie an."},
+  {"id": "assim-que", "pt": "assim que", "de": "sobald", "emoji": "⚡", "beispiel_pt": "Assim que souber alguma coisa, digo-te.", "beispiel_de": "Sobald ich etwas weiß, sage ich es dir.", "hinweis": "+ futuro do conjuntivo, wenn es um die Zukunft geht"},
+  {"id": "logo-que", "pt": "logo que", "de": "sobald (etwas formeller)", "emoji": "🏁", "beispiel_pt": "Logo que o relatório estiver pronto, enviamos-lhe um e-mail.", "beispiel_de": "Sobald der Befund fertig ist, schicken wir Ihnen eine E-Mail."},
+
+  {"id": "o-internamento", "pt": "o internamento", "de": "der stationäre Aufenthalt", "emoji": "🏥", "beispiel_pt": "O internamento durou três dias.", "beispiel_de": "Der Krankenhausaufenthalt dauerte drei Tage.", "passiv": true},
+  {"id": "ficar-internado", "pt": "ficar internado", "de": "stationär aufgenommen werden", "emoji": "🛏️", "beispiel_pt": "O João ficou internado no hospital de Portimão.", "beispiel_de": "João ist im Krankenhaus in Portimão stationär aufgenommen worden.", "hinweis": "estar internado = im Krankenhaus liegen", "alternativen": ["ficar internada"]},
+  {"id": "o-quarto-individual", "pt": "o quarto individual", "de": "das Einzelzimmer", "emoji": "🚪", "beispiel_pt": "O seguro paga um quarto individual.", "beispiel_de": "Die Versicherung zahlt ein Einzelzimmer.", "passiv": true},
+  {"id": "o-acompanhante", "pt": "o acompanhante", "de": "die Begleitperson", "emoji": "🧑‍🤝‍🧑", "beispiel_pt": "Pode ficar um acompanhante durante a noite.", "beispiel_de": "Eine Begleitperson darf über Nacht bleiben.", "alternativen": ["a acompanhante"], "passiv": true},
+  {"id": "o-horario-das-visitas", "pt": "o horário das visitas", "de": "die Besuchszeiten", "emoji": "🕑", "beispiel_pt": "O horário das visitas é das duas às oito.", "beispiel_de": "Die Besuchszeiten sind von zwei bis acht."},
+  {"id": "ter-alta", "pt": "ter alta", "de": "(aus dem Krankenhaus) entlassen werden", "emoji": "🚶", "beispiel_pt": "Tem alta na sexta-feira, se tudo correr bem.", "beispiel_de": "Er wird am Freitag entlassen, wenn alles gut geht.", "hinweis": "dar alta a alguém = jemanden entlassen; a alta = die Entlassung"},
+  {"id": "a-enfermaria", "pt": "a enfermaria", "de": "der Krankensaal / die Station", "emoji": "🛌", "beispiel_pt": "Na enfermaria há seis camas.", "beispiel_de": "Im Krankensaal stehen sechs Betten.", "passiv": true},
+  {"id": "quem-quiser", "pt": "quem quiser", "de": "wer will", "emoji": "🙋", "beispiel_pt": "Quem quiser pode ficar como acompanhante.", "beispiel_de": "Wer will, kann als Begleitperson bleiben."},
+  {"id": "como-quiser", "pt": "como quiser", "de": "wie Sie wollen", "emoji": "🤷", "beispiel_pt": "Faça como quiser.", "beispiel_de": "Machen Sie es, wie Sie wollen.", "hinweis": "tu: como quiseres"},
+  {"id": "onde-quiser", "pt": "onde quiser", "de": "wo(hin) Sie wollen", "emoji": "📍", "beispiel_pt": "Sente-se onde quiser.", "beispiel_de": "Setzen Sie sich, wohin Sie wollen."},
+
+  {"id": "a-cirurgia", "pt": "a cirurgia", "de": "die Operation", "emoji": "😷", "beispiel_pt": "A cirurgia correu muito bem.", "beispiel_de": "Die Operation ist sehr gut verlaufen.", "hinweis": "auch: a operação"},
+  {"id": "o-cirurgiao", "pt": "o cirurgião", "de": "der Chirurg", "emoji": "👨‍⚕️", "beispiel_pt": "O cirurgião explicou-me tudo antes da operação.", "beispiel_de": "Der Chirurg hat mir vor der Operation alles erklärt.", "alternativen": ["a cirurgiã"], "passiv": true},
+  {"id": "ser-operado-a", "pt": "ser operado a", "de": "operiert werden an", "emoji": "🦵", "beispiel_pt": "Vou ser operado ao joelho.", "beispiel_de": "Ich werde am Knie operiert.", "hinweis": "pt-PT: operado ao joelho / à anca (am Knie / an der Hüfte); o joelho = das Knie", "alternativen": ["ser operada a"]},
+  {"id": "o-bloco-operatorio", "pt": "o bloco operatório", "de": "der OP-Saal / OP-Bereich", "emoji": "💡", "beispiel_pt": "A Ana esperou enquanto eu estava no bloco operatório.", "beispiel_de": "Ana hat gewartet, während ich im OP war.", "passiv": true},
+  {"id": "o-pos-operatorio", "pt": "o pós-operatório", "de": "die Zeit nach der Operation", "emoji": "🩹", "beispiel_pt": "O pós-operatório foi mais duro do que eu esperava.", "beispiel_de": "Die Zeit nach der OP war härter, als ich erwartet hatte.", "passiv": true},
+  {"id": "tirar-os-pontos", "pt": "tirar os pontos", "de": "die Fäden ziehen", "emoji": "🧵", "beispiel_pt": "Tiramos os pontos daqui a dez dias.", "beispiel_de": "Wir ziehen die Fäden in zehn Tagen.", "hinweis": "os pontos = die Stiche/Fäden; levar pontos = genäht werden"},
+  {"id": "a-cicatriz", "pt": "a cicatriz", "de": "die Narbe", "emoji": "➖", "beispiel_pt": "Ficou só uma pequena cicatriz.", "beispiel_de": "Es ist nur eine kleine Narbe geblieben.", "passiv": true},
+  {"id": "a-recuperacao", "pt": "a recuperação", "de": "die Genesung / Erholung", "emoji": "🌱", "beispiel_pt": "A recuperação demora uns dois meses.", "beispiel_de": "Die Genesung dauert etwa zwei Monate."},
+  {"id": "enquanto-estiver", "pt": "enquanto estiver", "de": "solange (Sie/ich) … sind/bin", "emoji": "⌛", "beispiel_pt": "Enquanto estiver com os pontos, não vá à praia.", "beispiel_de": "Solange Sie die Fäden haben, gehen Sie nicht an den Strand.", "hinweis": "enquanto + futuro do conjuntivo für die Zukunft"},
+  {"id": "sempre-que", "pt": "sempre que", "de": "jedes Mal, wenn / immer wenn", "emoji": "🔂", "beispiel_pt": "Sempre que tiver dores, tome um analgésico.", "beispiel_de": "Jedes Mal, wenn Sie Schmerzen haben, nehmen Sie ein Schmerzmittel."},
+
+  {"id": "o-efeito-secundario", "pt": "o efeito secundário", "de": "die Nebenwirkung", "emoji": "❗", "beispiel_pt": "Este medicamento tem poucos efeitos secundários.", "beispiel_de": "Dieses Medikament hat wenige Nebenwirkungen."},
+  {"id": "o-folheto-informativo", "pt": "o folheto informativo", "de": "der Beipackzettel", "emoji": "📜", "beispiel_pt": "Leia o folheto informativo antes de tomar o medicamento.", "beispiel_de": "Lesen Sie vor der Einnahme den Beipackzettel.", "hinweis": "umgangssprachlich auch: a bula", "passiv": true},
+  {"id": "a-posologia", "pt": "a posologia", "de": "die Dosierung", "emoji": "⚖️", "beispiel_pt": "A posologia está escrita na caixa.", "beispiel_de": "Die Dosierung steht auf der Packung.", "passiv": true},
+  {"id": "em-sos", "pt": "em SOS", "de": "bei Bedarf", "emoji": "🚨", "beispiel_pt": "Tome este comprimido só em SOS.", "beispiel_de": "Nehmen Sie diese Tablette nur bei Bedarf.", "hinweis": "Typisch für Rezepte in Portugal: „em SOS“ = nur wenn nötig"},
+  {"id": "suspender", "pt": "suspender", "de": "absetzen (Medikament) / unterbrechen", "emoji": "⏸️", "beispiel_pt": "Não suspenda o antibiótico sem falar com o médico.", "beispiel_de": "Setzen Sie das Antibiotikum nicht ohne Rücksprache mit dem Arzt ab.", "passiv": true},
+  {"id": "a-toma", "pt": "a toma", "de": "die Einnahme (einer Dosis)", "emoji": "🥛", "beispiel_pt": "São três tomas por dia, às refeições.", "beispiel_de": "Es sind drei Einnahmen pro Tag, zu den Mahlzeiten.", "passiv": true},
+  {"id": "o-generico", "pt": "o genérico", "de": "das Generikum", "emoji": "💲", "beispiel_pt": "O genérico é mais barato e tem o mesmo efeito.", "beispiel_de": "Das Generikum ist billiger und wirkt genauso."},
+  {"id": "o-anti-inflamatorio", "pt": "o anti-inflamatório", "de": "der Entzündungshemmer", "emoji": "🧯", "beispiel_pt": "Tome o anti-inflamatório depois das refeições.", "beispiel_de": "Nehmen Sie den Entzündungshemmer nach dem Essen."},
+  {"id": "o-analgesico", "pt": "o analgésico", "de": "das Schmerzmittel", "emoji": "😌", "beispiel_pt": "Se tiver dores, tome um analgésico.", "beispiel_de": "Wenn Sie Schmerzen haben, nehmen Sie ein Schmerzmittel."},
+
+  {"id": "a-franquia", "pt": "a franquia", "de": "die Selbstbeteiligung (Franchise)", "emoji": "💰", "beispiel_pt": "O meu seguro tem uma franquia de cem euros por ano.", "beispiel_de": "Meine Versicherung hat eine Selbstbeteiligung von hundert Euro pro Jahr.", "hinweis": "Unterschied: a franquia = Betrag, den man selbst trägt, bevor die Versicherung zahlt; o copagamento = Zuzahlung pro Leistung"},
+  {"id": "a-rede-convencionada", "pt": "a rede convencionada", "de": "das Vertragsnetz (der Versicherung)", "emoji": "🕸️", "beispiel_pt": "Este hospital pertence à rede convencionada.", "beispiel_de": "Dieses Krankenhaus gehört zum Vertragsnetz."},
+  {"id": "o-prestador", "pt": "o prestador", "de": "der Leistungserbringer (Arzt, Klinik)", "emoji": "🏢", "beispiel_pt": "Procure um prestador na aplicação do seguro.", "beispiel_de": "Suchen Sie einen Leistungserbringer in der App der Versicherung.", "passiv": true},
+  {"id": "o-plafond", "pt": "o plafond", "de": "die Höchstgrenze (Deckungssumme)", "emoji": "📊", "beispiel_pt": "O plafond anual para consultas é de mil euros.", "beispiel_de": "Die jährliche Höchstgrenze für Arztbesuche beträgt tausend Euro.", "hinweis": "Aussprache wie im Französischen", "passiv": true},
+  {"id": "o-periodo-de-carencia", "pt": "o período de carência", "de": "die Wartezeit (Versicherung)", "emoji": "⏱️", "beispiel_pt": "Para cirurgias há um período de carência de um ano.", "beispiel_de": "Für Operationen gibt es eine Wartezeit von einem Jahr.", "passiv": true},
+  {"id": "a-cobertura", "pt": "a cobertura", "de": "die Deckung / der Versicherungsschutz", "emoji": "☂️", "beispiel_pt": "A cobertura inclui internamento e cirurgia.", "beispiel_de": "Der Versicherungsschutz umfasst Krankenhausaufenthalt und Operation."},
+  {"id": "a-doenca-pre-existente", "pt": "a doença pré-existente", "de": "die Vorerkrankung", "emoji": "📁", "beispiel_pt": "As doenças pré-existentes não estão cobertas.", "beispiel_de": "Vorerkrankungen sind nicht gedeckt.", "passiv": true},
+  {"id": "o-premio-do-seguro", "pt": "o prémio do seguro", "de": "die Versicherungsprämie", "emoji": "🧾", "beispiel_pt": "O prémio do seguro é de trinta e oito euros por mês.", "beispiel_de": "Die Versicherungsprämie beträgt achtunddreißig Euro im Monat.", "hinweis": "o prémio allein = auch der Preis (Gewinn); pt-PT: prémio (BR: prêmio)", "passiv": true},
+  {"id": "aderir-a", "pt": "aderir a", "de": "beitreten / (Versicherung) abschließen", "emoji": "🖊️", "beispiel_pt": "Aderi ao seguro de saúde da empresa.", "beispiel_de": "Ich bin der Krankenversicherung der Firma beigetreten.", "hinweis": "eu adiro, tu aderes, ele adere"},
+  {"id": "estar-coberto", "pt": "estar coberto", "de": "gedeckt sein", "emoji": "🛡️", "beispiel_pt": "Isto está coberto pelo seguro?", "beispiel_de": "Ist das von der Versicherung gedeckt?", "alternativen": ["estar coberta"]},
+
+  {"id": "a-fisioterapia", "pt": "a fisioterapia", "de": "die Physiotherapie", "emoji": "🤸", "beispiel_pt": "Faço fisioterapia duas vezes por semana.", "beispiel_de": "Ich mache zweimal pro Woche Physiotherapie."},
+  {"id": "o-fisioterapeuta", "pt": "o fisioterapeuta", "de": "der Physiotherapeut", "emoji": "💆", "beispiel_pt": "A fisioterapeuta mostrou-me uns exercícios.", "beispiel_de": "Die Physiotherapeutin hat mir ein paar Übungen gezeigt.", "alternativen": ["a fisioterapeuta"]},
+  {"id": "a-sessao", "pt": "a sessão", "de": "die Sitzung / Behandlung", "emoji": "🔟", "beispiel_pt": "Ainda tenho mais quatro sessões.", "beispiel_de": "Ich habe noch vier Sitzungen."},
+  {"id": "a-reabilitacao", "pt": "a reabilitação", "de": "die Rehabilitation", "emoji": "♿", "beispiel_pt": "A reabilitação depois da cirurgia é muito importante.", "beispiel_de": "Die Reha nach der Operation ist sehr wichtig.", "passiv": true},
+  {"id": "os-alongamentos", "pt": "os alongamentos", "de": "die Dehnübungen", "emoji": "🧘", "beispiel_pt": "Faça os alongamentos de manhã e à noite.", "beispiel_de": "Machen Sie die Dehnübungen morgens und abends."},
+  {"id": "a-lesao", "pt": "a lesão", "de": "die Verletzung", "emoji": "🤕", "beispiel_pt": "O Pedro teve uma lesão no ombro a jogar ténis.", "beispiel_de": "Pedro hat sich beim Tennisspielen an der Schulter verletzt.", "hinweis": "o ombro = die Schulter; lesionar-se = sich verletzen"},
+  {"id": "a-postura", "pt": "a postura", "de": "die (Körper-)Haltung", "emoji": "🧍", "beispiel_pt": "Cuidado com a postura quando está ao computador.", "beispiel_de": "Achten Sie auf Ihre Haltung am Computer.", "passiv": true},
+  {"id": "a-coluna", "pt": "a coluna", "de": "die Wirbelsäule", "emoji": "🦴", "beispiel_pt": "Tenho problemas de coluna.", "beispiel_de": "Ich habe Probleme mit der Wirbelsäule.", "passiv": true},
+  {"id": "fortalecer", "pt": "fortalecer", "de": "stärken / kräftigen", "emoji": "💪", "beispiel_pt": "Estes exercícios fortalecem os músculos da perna.", "beispiel_de": "Diese Übungen kräftigen die Beinmuskulatur."},
+
+  {"id": "se-deus-quiser", "pt": "se Deus quiser", "de": "so Gott will", "emoji": "🙏", "beispiel_pt": "Se Deus quiser, no verão já estou bom.", "beispiel_de": "So Gott will, bin ich im Sommer wieder gesund.", "hinweis": "Sehr häufig in Portugal, auch bei nicht religiösen Menschen."},
+  {"id": "o-que-for-preciso", "pt": "o que for preciso", "de": "was (auch immer) nötig ist", "emoji": "🧰", "beispiel_pt": "Faço o que for preciso para recuperar.", "beispiel_de": "Ich tue, was nötig ist, um wieder gesund zu werden."},
+  {"id": "venha-o-que-vier", "pt": "venha o que vier", "de": "komme, was wolle", "emoji": "🌊", "beispiel_pt": "Venha o que vier, não volto a fumar.", "beispiel_de": "Komme, was wolle, ich fange nicht wieder mit dem Rauchen an.", "passiv": true},
+  {"id": "seja-como-for", "pt": "seja como for", "de": "wie auch immer / jedenfalls", "emoji": "🔀", "beispiel_pt": "Seja como for, tem de fazer a fisioterapia.", "beispiel_de": "Wie auch immer, Sie müssen die Physiotherapie machen."},
+  {"id": "se-for-caso-disso", "pt": "se for caso disso", "de": "gegebenenfalls / falls nötig", "emoji": "📌", "beispiel_pt": "O médico encaminha-o para um especialista, se for caso disso.", "beispiel_de": "Der Arzt überweist Sie gegebenenfalls an einen Facharzt.", "hinweis": "formell, typisch für Briefe und Formulare", "passiv": true},
+  {"id": "a-prevencao", "pt": "a prevenção", "de": "die Vorbeugung / Prävention", "emoji": "🧴", "beispiel_pt": "A prevenção é o melhor remédio.", "beispiel_de": "Vorbeugen ist die beste Medizin.", "passiv": true},
+  {"id": "o-bem-estar", "pt": "o bem-estar", "de": "das Wohlbefinden", "emoji": "😊", "beispiel_pt": "O exercício é importante para o bem-estar.", "beispiel_de": "Bewegung ist wichtig für das Wohlbefinden."},
+  {"id": "a-recaida", "pt": "a recaída", "de": "der Rückfall", "emoji": "↩️", "beispiel_pt": "Descanse mais uns dias para evitar uma recaída.", "beispiel_de": "Ruhen Sie sich noch ein paar Tage aus, um einen Rückfall zu vermeiden.", "passiv": true},
+  {"id": "estar-como-novo", "pt": "estar como novo", "de": "wieder wie neu sein", "emoji": "🌟", "beispiel_pt": "Daqui a um mês estás como novo!", "beispiel_de": "In einem Monat bist du wieder wie neu!", "alternativen": ["estar como nova"]}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-07-L01",
+   "typ": "neu",
+   "titel": "Vorsorge & Termine: Futuro do conjuntivo – regelmäßige Formen",
+   "vokabeln": ["o-rastreio", "a-consulta-de-rotina", "o-check-up", "o-colesterol", "a-glicemia", "o-reforco", "o-lembrete", "a-vacina", "quando-chegar-a-altura"],
+   "grammatik": {
+    "titel": "O futuro do conjuntivo – verbos regulares",
+    "erklaerung": [
+     "O <b>futuro do conjuntivo</b> usa-se para falar de um momento ou de uma condição <b>no futuro</b> que ainda não é certa: <i>Quando <b>chegar</b> a altura, ligo-lhe.</i> No português europeu é muito frequente – na conversa, nas cartas e nos formulários.",
+     "Formação: pegue na forma <b>eles</b> do pretérito perfeito e tire <b>-ram</b>: fala<b>ram</b> → <i>falar</i>, recebe<b>ram</b> → <i>receber</i>, abri<b>ram</b> → <i>abrir</i>. Depois junte as terminações: <b>–, -es, –, -mos, -em</b>.",
+     "<i>quando eu marcar, quando tu marcar<b>es</b>, quando ele marcar, quando nós marcar<b>mos</b>, quando eles marcar<b>em</b></i>. Nos verbos regulares, as formas <i>eu</i> e <i>ele</i> são iguais ao infinitivo!",
+     "Na oração principal fica o presente, o futuro ou o imperativo: <i>Quando receber a carta, <b>marque</b> o rastreio.</i> · <i>Quando chegarmos a Lagos, <b>ligamos</b> à médica.</i>"
+    ],
+    "erklaerung_de": [
+     "Den <b>Futuro do conjuntivo</b> (Konjunktiv Futur) verwendet man für einen Zeitpunkt oder eine Bedingung <b>in der Zukunft</b>, die noch nicht sicher ist: <i>Quando <b>chegar</b> a altura, ligo-lhe.</i> – Wenn es so weit ist, rufe ich Sie an. Im europäischen Portugiesisch ist er sehr häufig – im Gespräch, in Briefen und Formularen.",
+     "Bildung: Nimm die <b>eles</b>-Form des Pretérito perfeito und streich <b>-ram</b>: fala<b>ram</b> → <i>falar</i>, recebe<b>ram</b> → <i>receber</i>, abri<b>ram</b> → <i>abrir</i>. Dann kommen die Endungen dazu: <b>–, -es, –, -mos, -em</b>.",
+     "<i>quando eu marcar, quando tu marcar<b>es</b>, quando ele marcar, quando nós marcar<b>mos</b>, quando eles marcar<b>em</b></i>. Bei regelmäßigen Verben sehen die eu- und ele-Form genauso aus wie der Infinitiv!",
+     "Im Hauptsatz steht Präsens, Futur oder Imperativ: <i>Quando receber a carta, <b>marque</b> o rastreio.</i> – Wenn Sie den Brief bekommen, vereinbaren Sie die Vorsorge. · <i>Quando chegarmos a Lagos, <b>ligamos</b> à médica.</i> – Wenn wir in Lagos ankommen, rufen wir die Ärztin an."
+    ],
+    "vergleich": "Deutsch und Englisch stehen nach „wenn/sobald“ bzw. „when/if“ einfach im Präsens: „Wenn ich den Brief bekomme …“ / „When I get the letter …“. Das Portugiesische markiert die offene Zukunft mit einer eigenen Form: <i>Quando receber a carta …</i> – <i>Quando recebo</i> hieße „Immer wenn ich bekomme …“.",
+    "beispiele": [
+     {"pt": "Quando chegar a altura, o centro de saúde envia-lhe uma carta.", "de": "Wenn es so weit ist, schickt Ihnen das Gesundheitszentrum einen Brief."},
+     {"pt": "Quando falares com a médica, pergunta pelo colesterol.", "de": "Wenn du mit der Ärztin sprichst, frag nach dem Cholesterin."},
+     {"pt": "Se desmarcarem a consulta, avisam-nos por SMS.", "de": "Wenn sie den Termin absagen, benachrichtigen sie uns per SMS."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quando ___ a carta do centro de saúde, marque o rastreio. (receber, formell)", "loesungen": ["receber"], "de": "Wenn Sie den Brief vom Gesundheitszentrum bekommen, vereinbaren Sie die Vorsorge.", "erklaerung": "receberam → receber: Die eu-/ele-Form sieht aus wie der Infinitiv.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Quando ___ com a médica, pergunta pela glicemia. (falar, tu)", "loesungen": ["falares"], "de": "Wenn du mit der Ärztin sprichst, frag nach dem Blutzucker.", "erklaerung": "tu-Form: Infinitiv + -es → falares.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Se eles ___ a consulta, avisam-nos. (desmarcar)", "loesungen": ["desmarcarem"], "de": "Wenn sie den Termin absagen, sagen sie uns Bescheid.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "Welche Form ist der futuro do conjuntivo von „ligar“ (eu)?", "optionen": ["ligue", "ligar", "liguei"], "richtig": 1, "erklaerung": "ligaram → ligar. „ligue“ ist Imperativ/Presente do conjuntivo, „liguei“ Perfeito.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Wenn du das Ergebnis bekommst, ruf mich an.“", "optionen": ["Quando recebes o resultado, liga-me.", "Quando receberes o resultado, liga-me.", "Quando receber o resultado, liga-me."], "richtig": 1, "erklaerung": "Zukunft → futuro do conjuntivo; tu-Form mit -es. „Quando recebes“ hieße „immer wenn du bekommst“.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Wenn es so weit ist, schicke ich Ihnen eine Erinnerung.", "loesungen": ["Quando chegar a altura, envio-lhe um lembrete.", "Quando chegar a altura, mando-lhe um lembrete.", "Quando chegar a altura, vou enviar-lhe um lembrete.", "Quando chegar a altura, vou mandar-lhe um lembrete.", "Quando chegar a altura, envio-lhe um lembrete!"], "kategorie": "Futuro do conjuntivo"},
+     {"typ": "satzbau", "de": "Wenn wir in Lagos ankommen, rufen wir die Ärztin an.", "loesung": "Quando chegarmos a Lagos, ligamos à médica."},
+     {"typ": "diktat", "pt": "Quando chegar a altura, o centro de saúde avisa-o."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Marcar uma consulta de rotina – einen Routinetermin ausmachen",
+    "situation": "Stefan hat einen Brief für eine Vorsorgeuntersuchung bekommen und ruft im Gesundheitszentrum an.",
+    "zeilen": [
+     {"sprecher": "Administrativa", "stimme": "f", "pt": "Centro de Saúde de Lagos, bom dia. Em que posso ajudar?", "de": "Gesundheitszentrum Lagos, guten Morgen. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Recebi uma carta para o rastreio do cancro do cólon e queria marcar também uma consulta de rotina.", "de": "Guten Morgen. Ich habe einen Brief für die Darmkrebs-Vorsorge bekommen und möchte auch einen Routinetermin ausmachen."},
+     {"sprecher": "Administrativa", "stimme": "f", "pt": "Com certeza. O kit do rastreio já está disponível. Quando passar por cá, levante-o na receção.", "de": "Selbstverständlich. Das Test-Set für die Vorsorge liegt schon bereit. Wenn Sie vorbeikommen, holen Sie es am Empfang ab."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. E a consulta com a minha médica de família? Pode ser no início de março?", "de": "Super. Und der Termin bei meiner Hausärztin? Geht Anfang März?"},
+     {"sprecher": "Administrativa", "stimme": "f", "pt": "Dia cinco de março, às dez e meia. Dois dias antes, enviamos-lhe um lembrete por SMS.", "de": "Am fünften März um halb elf. Zwei Tage vorher schicken wir Ihnen eine Erinnerung per SMS."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E se nesse dia surgir algum imprevisto?", "de": "Und wenn an dem Tag etwas dazwischenkommt?"},
+     {"sprecher": "Administrativa", "stimme": "f", "pt": "Nesse caso, desmarque com vinte e quatro horas de antecedência. Basta responder à mensagem.", "de": "Dann sagen Sie bitte 24 Stunden vorher ab. Es reicht, auf die Nachricht zu antworten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. Muito obrigado!", "de": "Abgemacht. Vielen Dank!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan liga para o centro de saúde?", "optionen": ["Porque está com febre.", "Por causa do rastreio e de uma consulta de rotina.", "Para pedir uma baixa médica."], "richtig": 1},
+     {"frage": "Quando recebe o Stefan o lembrete?", "optionen": ["No próprio dia.", "Uma semana antes.", "Dois dias antes."], "richtig": 2},
+     {"frage": "O que deve fazer se não puder ir à consulta?", "optionen": ["Desmarcar com vinte e quatro horas de antecedência.", "Ir às urgências.", "Ligar para o SNS 24."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Queria marcar uma consulta de rotina.", "de": "Ich möchte einen Routinetermin ausmachen."},
+     {"pt": "Quando chegar a altura, o centro de saúde avisa-o.", "de": "Wenn es so weit ist, benachrichtigt Sie das Gesundheitszentrum."},
+     {"pt": "Recebi um lembrete por SMS.", "de": "Ich habe eine Erinnerung per SMS bekommen."},
+     {"pt": "Tenho o colesterol um pouco alto.", "de": "Mein Cholesterin ist etwas hoch."},
+     {"pt": "Preciso de desmarcar a consulta de amanhã.", "de": "Ich muss den Termin von morgen absagen."}
+    ]
+   },
+   "saetze": [
+    {"id": "marcar-consulta-rotina", "pt": "Queria marcar uma consulta de rotina.", "de": "Ich möchte einen Routinetermin ausmachen."},
+    {"id": "quando-chegar-altura-aviso", "pt": "Quando chegar a altura, o centro de saúde avisa-o.", "de": "Wenn es so weit ist, benachrichtigt Sie das Gesundheitszentrum."},
+    {"id": "desmarcar-consulta-amanha", "pt": "Preciso de desmarcar a consulta de amanhã.", "de": "Ich muss den Termin von morgen absagen."}
+   ]
+  },
+  {
+   "id": "B1-07-L02",
+   "typ": "neu",
+   "titel": "Symptome genau beschreiben: unregelmäßige Formen",
+   "vokabeln": ["a-falta-de-ar", "o-formigueiro", "a-dormencia", "a-comichao", "o-ardor", "latejante", "inchado", "o-sintoma", "descrever", "quando-puder"],
+   "grammatik": {
+    "titel": "O futuro do conjuntivo – verbos irregulares",
+    "erklaerung": [
+     "Os verbos irregulares seguem a <b>mesma regra</b>: forma <i>eles</i> do pretérito perfeito menos <b>-ram</b>. Como o perfeito é irregular, o futuro do conjuntivo também é.",
+     "ser/ir: fo<b>ram</b> → <i>for</i> · ter: tive<b>ram</b> → <i>tiver</i> · estar: estive<b>ram</b> → <i>estiver</i> · fazer: fize<b>ram</b> → <i>fizer</i> · poder: puderam → <i>puder</i> · saber: souberam → <i>souber</i> · querer: quiseram → <i>quiser</i> · dizer: disseram → <i>disser</i> · dar: deram → <i>der</i> · haver: houveram → <i>houver</i> · pôr: puseram → <i>puser</i>.",
+     "Atenção à armadilha: <b>vir</b> (kommen): vieram → <i>vier</i> · <b>ver</b> (sehen): viram → <i>vir</i>. <i>Quando vier à consulta…</i> (vir) – <i>Quando vir o resultado…</i> (ver).",
+     "As terminações são as mesmas: <i>se tiver, se tiveres, se tivermos, se tiverem</i> · <i>quando puder, quando puderes, quando pudermos, quando puderem</i>."
+    ],
+    "erklaerung_de": [
+     "Unregelmäßige Verben folgen <b>derselben Regel</b>: eles-Form des Pretérito perfeito minus <b>-ram</b>. Weil das Perfeito unregelmäßig ist, ist es auch der Futuro do conjuntivo.",
+     "ser/ir: fo<b>ram</b> → <i>for</i> · ter: tive<b>ram</b> → <i>tiver</i> · estar: estive<b>ram</b> → <i>estiver</i> · fazer: fize<b>ram</b> → <i>fizer</i> · poder: puderam → <i>puder</i> · saber: souberam → <i>souber</i> · querer: quiseram → <i>quiser</i> · dizer: disseram → <i>disser</i> · dar: deram → <i>der</i> · haver: houveram → <i>houver</i> · pôr: puseram → <i>puser</i>.",
+     "Achtung Falle: <b>vir</b> (kommen): vieram → <i>vier</i> · <b>ver</b> (sehen): viram → <i>vir</i>. <i>Quando vier à consulta …</i> (wenn Sie kommen) – <i>Quando vir o resultado …</i> (wenn Sie das Ergebnis sehen).",
+     "Die Endungen sind dieselben: <i>se tiver, se tiveres, se tivermos, se tiverem</i> · <i>quando puder, quando puderes, quando pudermos, quando puderem</i>."
+    ],
+    "vergleich": "Im Deutschen bleibt es beim Präsens: „Wenn Sie können …“, „Wenn Sie Fieber haben …“. Im Portugiesischen merkst du dir am besten die eles-Form des Perfeito – daraus leitest du alles ab: <i>tiveram → tiver, puderam → puder</i>.",
+    "beispiele": [
+     {"pt": "Quando puder, descreva-me os sintomas com pormenor.", "de": "Wenn Sie können, beschreiben Sie mir die Symptome genau."},
+     {"pt": "Se tiver falta de ar, ligue logo para o 112.", "de": "Wenn Sie Atemnot haben, rufen Sie sofort die 112 an."},
+     {"pt": "Quando vir o resultado, a médica liga-lhe.", "de": "Wenn die Ärztin das Ergebnis sieht, ruft sie Sie an."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quando ___ febre, tome um paracetamol. (ter, formell)", "loesungen": ["tiver"], "de": "Wenn Sie Fieber haben, nehmen Sie ein Paracetamol.", "erklaerung": "tiveram → tiver.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Se a dor ___ muito forte, vá às urgências. (ser)", "loesungen": ["for"], "de": "Wenn der Schmerz sehr stark ist, gehen Sie in die Notaufnahme.", "erklaerung": "ser und ir: foram → for.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Quando ___ ao centro de saúde, traga as análises. (vir, formell)", "loesungen": ["vier"], "de": "Wenn Sie ins Gesundheitszentrum kommen, bringen Sie die Laborwerte mit.", "erklaerung": "vir (kommen): vieram → vier.", "kategorie": "vir/ver"},
+     {"typ": "luecke", "satz": "Assim que ___ o resultado, ligo-te. (ver, eu)", "loesungen": ["vir"], "de": "Sobald ich das Ergebnis sehe, rufe ich dich an.", "erklaerung": "ver (sehen): viram → vir. Nicht verwechseln mit vir (kommen)!", "kategorie": "vir/ver"},
+     {"typ": "luecke", "satz": "Quando os médicos ___ alguma coisa, avisam-nos. (saber)", "loesungen": ["souberem"], "de": "Wenn die Ärzte etwas wissen, sagen sie uns Bescheid.", "erklaerung": "souberam → souber + -em.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Wenn Sie können, beschreiben Sie das Symptom genau.“", "optionen": ["Quando pode, descreva o sintoma com pormenor.", "Quando puder, descreva o sintoma com pormenor.", "Quando poder, descreva o sintoma com pormenor."], "richtig": 1, "erklaerung": "poder → puderam → puder. „poder“ ist nur der Infinitiv.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Wenn Sie Juckreiz haben, kratzen Sie sich nicht.", "loesungen": ["Se tiver comichão, não se coce.", "Quando tiver comichão, não se coce.", "Se tiver comichão, não coce.", "Quando tiver comichão, não coce."], "kategorie": "Futuro do conjuntivo"},
+     {"typ": "satzbau", "de": "Wenn es Ihnen besser geht, kommen Sie wieder vorbei.", "loesung": "Quando estiver melhor, volte cá."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Descrever os sintomas – Symptome beschreiben",
+    "situation": "Stefan ist bei seiner Hausärztin, Dra. Marques, weil seine Hand seit einer Woche kribbelt.",
+    "zeilen": [
+     {"sprecher": "Médica", "stimme": "f", "pt": "Então, senhor Stefan, descreva-me os sintomas com calma.", "de": "Also, Herr Stefan, beschreiben Sie mir die Symptome in Ruhe."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Há uma semana que sinto um formigueiro na mão esquerda, sobretudo de manhã.", "de": "Seit einer Woche spüre ich ein Kribbeln in der linken Hand, vor allem morgens."},
+     {"sprecher": "Médica", "stimme": "f", "pt": "É só formigueiro ou também sente dormência nos dedos?", "de": "Ist es nur ein Kribbeln oder spüren Sie auch ein Taubheitsgefühl in den Fingern?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Às vezes fico com os dedos dormentes. E à noite tenho uma dor latejante no pulso.", "de": "Manchmal werden die Finger taub. Und nachts habe ich einen pochenden Schmerz im Handgelenk."},
+     {"sprecher": "Médica", "stimme": "f", "pt": "Deixe-me ver… Sim, o pulso está um pouco inchado. Trabalha muito ao computador?", "de": "Lassen Sie mich sehen … Ja, das Handgelenk ist etwas geschwollen. Arbeiten Sie viel am Computer?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muitas horas por dia, infelizmente.", "de": "Leider viele Stunden am Tag."},
+     {"sprecher": "Médica", "stimme": "f", "pt": "Pode ser uma inflamação. Vou pedir-lhe uma ecografia. Quando tiver o resultado, volte cá.", "de": "Das kann eine Entzündung sein. Ich ordne einen Ultraschall an. Wenn Sie das Ergebnis haben, kommen Sie wieder."},
+     {"sprecher": "Médica", "stimme": "f", "pt": "E se a dor for muito forte, tome um anti-inflamatório, mas só durante três dias.", "de": "Und wenn der Schmerz sehr stark ist, nehmen Sie einen Entzündungshemmer, aber nur drei Tage lang."}
+    ],
+    "fragen": [
+     {"frage": "Onde sente o Stefan o formigueiro?", "optionen": ["No pé direito.", "Na mão esquerda.", "Nas costas."], "richtig": 1},
+     {"frage": "Quando é que o Stefan tem dor no pulso?", "optionen": ["À noite.", "De manhã.", "Depois do almoço."], "richtig": 0},
+     {"frage": "O que deve o Stefan fazer quando tiver o resultado?", "optionen": ["Ligar para o SNS 24.", "Ir às urgências.", "Voltar à médica."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Está no médico e descreve os seus sintomas. – Du bist beim Arzt und beschreibst deine Symptome.",
+    "zeilen": [
+     {"sprecher": "Médico", "stimme": "m", "pt": "Boa tarde. Diga-me, o que sente?", "de": "Guten Tag. Sagen Sie mir, was fehlt Ihnen?"},
+     {"ich": true, "aufgabe": "Diga que tem comichão nos braços há três dias. – Sag, dass deine Arme seit drei Tagen jucken.", "loesungen": ["Tenho comichão nos braços há três dias.", "Há três dias que tenho comichão nos braços.", "Tenho comichão nos braços desde há três dias.", "Há três dias que tenho comichão nos braços."]},
+     {"sprecher": "Médico", "stimme": "m", "pt": "Tem mais algum sintoma? Febre, falta de ar?", "de": "Haben Sie noch andere Symptome? Fieber, Atemnot?"},
+     {"ich": true, "aufgabe": "Diga que não, mas que sente um ardor na pele. – Sag nein, aber du spürst ein Brennen auf der Haut.", "loesungen": ["Não, mas sinto um ardor na pele.", "Não, mas tenho um ardor na pele.", "Não. Mas sinto um ardor na pele."]},
+     {"sprecher": "Médico", "stimme": "m", "pt": "Pode ser uma alergia. Tome este comprimido uma vez por dia.", "de": "Das kann eine Allergie sein. Nehmen Sie diese Tablette einmal am Tag."},
+     {"ich": true, "aufgabe": "Pergunte: E se piorar? – Frag: Und wenn es schlimmer wird?", "loesungen": ["E se piorar?", "E se piorar, o que faço?", "E se ficar pior?", "E se piorar, o que devo fazer?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "descreva-sintomas", "pt": "Quando puder, descreva-me os sintomas com pormenor.", "de": "Wenn Sie können, beschreiben Sie mir die Symptome genau."},
+    {"id": "formigueiro-mao", "pt": "Sinto um formigueiro na mão esquerda.", "de": "Ich spüre ein Kribbeln in der linken Hand."},
+    {"id": "falta-de-ar-112", "pt": "Se tiver falta de ar, ligue logo para o 112.", "de": "Wenn Sie Atemnot haben, rufen Sie sofort die 112 an."}
+   ]
+  },
+  {
+   "id": "B1-07-L03",
+   "typ": "neu",
+   "titel": "Vorgeschichte & Anamnese: se + futuro do conjuntivo",
+   "vokabeln": ["os-antecedentes-familiares", "a-doenca-cronica", "a-diabetes", "a-asma", "hereditario", "o-historial-clinico", "a-medicacao-habitual", "ser-alergico-a", "se-precisar"],
+   "grammatik": {
+    "titel": "Se + futuro do conjuntivo – condições possíveis",
+    "erklaerung": [
+     "Com <b>se</b> + futuro do conjuntivo falamos de uma condição <b>possível no futuro</b>: <i>Se precisar de alguma coisa, chame a enfermeira.</i>",
+     "Estrutura típica: <b>se + futuro do conjuntivo</b> → presente, futuro ou imperativo. <i>Se tiver dúvidas, pergunte.</i> · <i>Se fizer a dieta, o colesterol vai baixar.</i>",
+     "Para um facto que já se sabe, usa-se o indicativo: <i>Se é diabético, porque come tantos doces?</i> (já sabemos que é). Para algo incerto no futuro: <i>Se for diabético, vai precisar de medicação.</i>",
+     "Nos formulários médicos aparece muito: <i>Se sofrer de alguma doença crónica, indique qual.</i> · <i>Se tomar medicação habitual, traga a lista.</i>"
+    ],
+    "erklaerung_de": [
+     "Mit <b>se</b> + Futuro do conjuntivo spricht man über eine <b>mögliche Bedingung in der Zukunft</b>: <i>Se precisar de alguma coisa, chame a enfermeira.</i> – Wenn Sie etwas brauchen, rufen Sie die Krankenschwester.",
+     "Typischer Aufbau: <b>se + Futuro do conjuntivo</b> → Präsens, Futur oder Imperativ. <i>Se tiver dúvidas, pergunte.</i> – Wenn Sie Fragen haben, fragen Sie. · <i>Se fizer a dieta, o colesterol vai baixar.</i> – Wenn Sie die Diät machen, wird das Cholesterin sinken.",
+     "Bei einer bereits bekannten Tatsache steht der Indikativ: <i>Se é diabético, porque come tantos doces?</i> (wir wissen, dass er es ist). Bei etwas Ungewissem in der Zukunft: <i>Se for diabético, vai precisar de medicação.</i>",
+     "In medizinischen Formularen kommt das ständig vor: <i>Se sofrer de alguma doença crónica, indique qual.</i> – Falls Sie an einer chronischen Krankheit leiden, geben Sie an, welcher. · <i>Se tomar medicação habitual, traga a lista.</i>"
+    ],
+    "vergleich": "Deutsch: „Falls/Wenn Sie Hilfe brauchen …“ – Präsens. Englisch: „If you need help …“. Portugiesisch: <i>Se precisar de ajuda …</i> – für eine offene Zukunft nie <i>se precisa</i>.",
+    "beispiele": [
+     {"pt": "Se precisar de alguma coisa, chame a enfermeira.", "de": "Wenn Sie etwas brauchen, rufen Sie die Krankenschwester."},
+     {"pt": "Se for alérgico a algum medicamento, diga ao médico.", "de": "Falls Sie gegen ein Medikament allergisch sind, sagen Sie es dem Arzt."},
+     {"pt": "Se as análises mostrarem alterações, repetimos daqui a três meses.", "de": "Wenn die Laborwerte Auffälligkeiten zeigen, wiederholen wir sie in drei Monaten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se ___ alguma doença crónica, indique qual. (ter, formell)", "loesungen": ["tiver"], "de": "Falls Sie eine chronische Krankheit haben, geben Sie an, welche.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Se ___ alérgico a algum medicamento, diga ao médico. (ser, formell)", "loesungen": ["for"], "de": "Falls Sie gegen ein Medikament allergisch sind, sagen Sie es dem Arzt.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Se tu ___ a lista da medicação, envia-me uma foto. (fazer)", "loesungen": ["fizeres"], "de": "Wenn du die Medikamentenliste machst, schick mir ein Foto.", "erklaerung": "fizeram → fizer + -es → fizeres.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Se as análises ___ alterações, repetimos daqui a três meses. (mostrar)", "loesungen": ["mostrarem"], "de": "Wenn die Laborwerte Auffälligkeiten zeigen, wiederholen wir sie in drei Monaten.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Wenn Sie morgen Fieber haben, kommen Sie nicht.“", "optionen": ["Se tem febre amanhã, não venha.", "Se tiver febre amanhã, não venha.", "Se tivesse febre amanhã, não venha."], "richtig": 1, "erklaerung": "Offene Bedingung in der Zukunft → se + futuro do conjuntivo.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist korrekt?", "optionen": ["Se precisares de alguma coisa, liga-me.", "Se precisas de alguma coisa amanhã, liga-me.", "Se precisaste de alguma coisa, liga-me."], "richtig": 0, "kategorie": "Futuro do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Wenn Sie etwas brauchen, rufen Sie mich an.", "loesungen": ["Se precisar de alguma coisa, ligue-me.", "Se precisar de alguma coisa, telefone-me.", "Ligue-me se precisar de alguma coisa.", "Telefone-me se precisar de alguma coisa.", "Se precisar de alguma coisa, ligue-me!"], "kategorie": "Futuro do conjuntivo"},
+     {"typ": "satzbau", "de": "Wenn Sie regelmäßig Medikamente nehmen, bringen Sie die Liste mit.", "loesung": "Se tomar medicação habitual, traga a lista."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O historial clínico – die Krankengeschichte",
+    "situation": "Vor einer Facharztkonsultation stellt ein Krankenpfleger Stefan Fragen zu seiner Vorgeschichte.",
+    "zeilen": [
+     {"sprecher": "Enfermeiro", "stimme": "m", "pt": "Antes da consulta, vou fazer-lhe algumas perguntas para o seu historial clínico.", "de": "Vor dem Termin stelle ich Ihnen ein paar Fragen für Ihre Krankengeschichte."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Com certeza, esteja à vontade.", "de": "Selbstverständlich, nur zu."},
+     {"sprecher": "Enfermeiro", "stimme": "m", "pt": "Tem alguma doença crónica? Diabetes, asma, tensão alta?", "de": "Haben Sie eine chronische Krankheit? Diabetes, Asthma, Bluthochdruck?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, nenhuma. Mas tenho o colesterol um pouco alto.", "de": "Nein, keine. Aber mein Cholesterin ist etwas hoch."},
+     {"sprecher": "Enfermeiro", "stimme": "m", "pt": "E na família? Há antecedentes de doenças cardíacas?", "de": "Und in der Familie? Gibt es Herzkrankheiten?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O meu pai teve um enfarte aos setenta anos. E a minha mãe tem diabetes.", "de": "Mein Vater hatte mit siebzig einen Herzinfarkt. Und meine Mutter hat Diabetes."},
+     {"sprecher": "Enfermeiro", "stimme": "m", "pt": "Toma alguma medicação habitual? É alérgico a algum medicamento?", "de": "Nehmen Sie regelmäßig Medikamente? Sind Sie gegen ein Medikament allergisch?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tomo um comprimido para o colesterol. E sou alérgico à penicilina.", "de": "Ich nehme eine Tablette gegen das Cholesterin. Und ich bin allergisch gegen Penicillin."},
+     {"sprecher": "Enfermeiro", "stimme": "m", "pt": "Muito bem, fica registado. Diga ao médico se se lembrar de mais alguma coisa.", "de": "Sehr gut, ist notiert. Sagen Sie es dem Arzt, falls Ihnen noch etwas einfällt."}
+    ],
+    "fragen": [
+     {"frage": "Que doença tem a mãe do Stefan?", "optionen": ["Asma.", "Diabetes.", "Tensão alta."], "richtig": 1},
+     {"frage": "A que é alérgico o Stefan?", "optionen": ["À penicilina.", "Ao pólen.", "Ao marisco."], "richtig": 0},
+     {"frage": "Que medicação toma o Stefan?", "optionen": ["Nenhuma.", "Um anti-inflamatório.", "Um comprimido para o colesterol."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português (formal). – Schreib auf Portugiesisch (formell).",
+    "aufgaben": [
+     {"de": "Ich bin allergisch gegen Penicillin.", "loesungen": ["Sou alérgico à penicilina.", "Sou alérgica à penicilina."]},
+     {"de": "Meine Mutter hat Diabetes.", "loesungen": ["A minha mãe tem diabetes.", "A minha mãe é diabética."]},
+     {"de": "Haben Sie eine chronische Krankheit?", "loesungen": ["Tem alguma doença crónica?", "Tem uma doença crónica?", "O senhor tem alguma doença crónica?", "A senhora tem alguma doença crónica?"]},
+     {"de": "Wenn Sie etwas brauchen, rufen Sie die Krankenschwester.", "loesungen": ["Se precisar de alguma coisa, chame a enfermeira.", "Chame a enfermeira se precisar de alguma coisa.", "Se precisar de alguma coisa, chame o enfermeiro."]},
+     {"de": "Falls Sie Fragen haben, fragen Sie den Arzt.", "loesungen": ["Se tiver dúvidas, pergunte ao médico.", "Se tiver perguntas, pergunte ao médico.", "Se tiver alguma dúvida, pergunte ao médico.", "Pergunte ao médico se tiver dúvidas."]}
+    ]
+   },
+   "saetze": [
+    {"id": "sou-alergico-penicilina", "pt": "Sou alérgico à penicilina.", "de": "Ich bin allergisch gegen Penicillin."},
+    {"id": "se-precisar-enfermeira", "pt": "Se precisar de alguma coisa, chame a enfermeira.", "de": "Wenn Sie etwas brauchen, rufen Sie die Krankenschwester."},
+    {"id": "tem-doenca-cronica", "pt": "Tem alguma doença crónica?", "de": "Haben Sie eine chronische Krankheit?"}
+   ]
+  },
+  {
+   "id": "B1-07-L04",
+   "typ": "neu",
+   "titel": "Untersuchungen: quando, assim que, logo que",
+   "vokabeln": ["a-ecografia", "a-radiografia", "a-ressonancia-magnetica", "a-tac", "a-colheita-de-sangue", "o-exame", "o-diagnostico", "assim-que", "logo-que"],
+   "grammatik": {
+    "titel": "Quando, assim que, logo que + futuro do conjuntivo",
+    "erklaerung": [
+     "Depois de conjunções de tempo que apontam para o <b>futuro</b>, usa-se o futuro do conjuntivo: <b>quando</b>, <b>assim que</b> e <b>logo que</b> (sobald), <b>depois que</b> (nachdem).",
+     "<i>Assim que tiver os resultados, marque nova consulta.</i> · <i>Logo que o médico vir a ecografia, liga-lhe.</i>",
+     "Atenção: quando se fala de <b>hábitos</b> ou do <b>passado</b>, não há conjuntivo: <i>Quando faço análises, vou sempre em jejum.</i> (hábito) · <i>Quando fiz a TAC, estava nervoso.</i> (passado).",
+     "<i>Logo que</i> é um pouco mais formal do que <i>assim que</i>. Na conversa, o mais comum é <i>assim que</i>."
+    ],
+    "erklaerung_de": [
+     "Nach Zeitkonjunktionen, die in die <b>Zukunft</b> zeigen, steht der Futuro do conjuntivo: <b>quando</b> (wenn), <b>assim que</b> und <b>logo que</b> (sobald), <b>depois que</b> (nachdem).",
+     "<i>Assim que tiver os resultados, marque nova consulta.</i> – Sobald Sie die Ergebnisse haben, machen Sie einen neuen Termin. · <i>Logo que o médico vir a ecografia, liga-lhe.</i> – Sobald der Arzt den Ultraschall sieht, ruft er Sie an.",
+     "Achtung: Bei <b>Gewohnheiten</b> oder in der <b>Vergangenheit</b> gibt es keinen Konjunktiv: <i>Quando faço análises, vou sempre em jejum.</i> (Gewohnheit) · <i>Quando fiz a TAC, estava nervoso.</i> (Vergangenheit: als).",
+     "<i>Logo que</i> ist etwas förmlicher als <i>assim que</i>. Im Gespräch hört man meist <i>assim que</i>."
+    ],
+    "vergleich": "Deutsch unterscheidet „wenn“ (Zukunft/Gewohnheit) und „als“ (einmalig in der Vergangenheit). Portugiesisch hat für alles <i>quando</i>, zeigt den Unterschied aber am Verb: <i>quando tiver</i> (Zukunft) – <i>quando tenho</i> (Gewohnheit) – <i>quando tive</i> (Vergangenheit).",
+    "beispiele": [
+     {"pt": "Assim que tiver o diagnóstico, ligo-lhe.", "de": "Sobald ich die Diagnose habe, rufe ich Sie an."},
+     {"pt": "Quando vier à colheita de sangue, venha em jejum.", "de": "Wenn Sie zur Blutabnahme kommen, kommen Sie nüchtern."},
+     {"pt": "Quando fiz a ressonância magnética, estava muito nervoso.", "de": "Als ich die MRT gemacht habe, war ich sehr nervös."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Assim que ___ os resultados, ligo-lhe. (ter, eu)", "loesungen": ["tiver"], "de": "Sobald ich die Ergebnisse habe, rufe ich Sie an.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Quando ___ uma ecografia, bebo sempre muita água antes. (fazer, eu)", "loesungen": ["faço"], "de": "Wenn ich einen Ultraschall mache, trinke ich vorher immer viel Wasser.", "erklaerung": "„sempre“ zeigt eine Gewohnheit → Presente do indicativo.", "kategorie": "Gewohnheit/Zukunft"},
+     {"typ": "luecke", "satz": "Quando ___ a ressonância magnética, tire os objetos de metal. (fazer, formell)", "loesungen": ["fizer"], "de": "Wenn Sie die MRT machen, legen Sie die Metallgegenstände ab.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Logo que o relatório ___ pronto, enviamos-lhe um e-mail. (estar)", "loesungen": ["estiver"], "de": "Sobald der Befund fertig ist, schicken wir Ihnen eine E-Mail.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Als ich die Röntgenaufnahme gemacht habe, …“", "optionen": ["Quando fizer a radiografia, …", "Quando fiz a radiografia, …", "Quando faço a radiografia, …"], "richtig": 1, "erklaerung": "Einmaliges Ereignis in der Vergangenheit → Pretérito perfeito.", "kategorie": "Gewohnheit/Zukunft"},
+     {"typ": "auswahl", "frage": "„Sobald der Arzt das Ergebnis sieht, …“", "optionen": ["Assim que o médico vir o resultado, …", "Assim que o médico vier o resultado, …", "Assim que o médico ver o resultado, …"], "richtig": 0, "erklaerung": "ver (sehen) → vir. „vier“ kommt von vir (kommen).", "kategorie": "vir/ver"},
+     {"typ": "uebersetzen", "de": "Sobald ich die Diagnose habe, rufe ich dich an.", "loesungen": ["Assim que tiver o diagnóstico, ligo-te.", "Logo que tiver o diagnóstico, ligo-te.", "Assim que eu tiver o diagnóstico, ligo-te.", "Assim que tiver o diagnóstico, telefono-te.", "Quando tiver o diagnóstico, ligo-te."], "kategorie": "Futuro do conjuntivo"},
+     {"typ": "satzbau", "de": "Wenn Sie zur Blutabnahme kommen, kommen Sie nüchtern.", "loesung": "Quando vier à colheita de sangue, venha em jejum."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na clínica de imagiologia – in der Röntgenpraxis",
+    "situation": "Stefan kommt mit der Überweisung seiner Ärztin in eine Röntgen- und Ultraschallpraxis.",
+    "zeilen": [
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Bom dia. Tem a requisição do seu médico?", "de": "Guten Morgen. Haben Sie den Überweisungsschein Ihres Arztes?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tenho, sim. É para uma ecografia ao pulso e uma radiografia ao tórax.", "de": "Ja. Es geht um einen Ultraschall vom Handgelenk und eine Röntgenaufnahme vom Brustkorb."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Muito bem. Primeiro faz a radiografia e depois a ecografia. Quando o chamarem, entre na sala três.", "de": "Sehr gut. Zuerst machen Sie das Röntgen und dann den Ultraschall. Wenn man Sie aufruft, gehen Sie in Raum drei."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E quando é que tenho os resultados?", "de": "Und wann habe ich die Ergebnisse?"},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "As imagens ficam prontas hoje, mas o relatório demora uns três dias. Assim que estiver pronto, enviamos-lhe um e-mail.", "de": "Die Bilder sind heute fertig, aber der Befund dauert etwa drei Tage. Sobald er fertig ist, schicken wir Ihnen eine E-Mail."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tenho de vir cá buscá-lo?", "de": "Muss ich ihn hier abholen?"},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Não é preciso. A sua médica também o recebe, logo que o radiologista o assinar.", "de": "Nicht nötig. Ihre Ärztin bekommt ihn auch, sobald der Radiologe ihn unterschreibt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perfeito. Obrigado!", "de": "Perfekt. Danke!"}
+    ],
+    "fragen": [
+     {"frage": "Que exames vai fazer o Stefan?", "optionen": ["Uma TAC e uma ressonância.", "Uma radiografia e uma ecografia.", "Uma colheita de sangue."], "richtig": 1},
+     {"frage": "Quanto tempo demora o relatório?", "optionen": ["Fica pronto hoje.", "Uma semana.", "Uns três dias."], "richtig": 2},
+     {"frage": "Como é que o Stefan sabe que o relatório está pronto?", "optionen": ["Recebe um e-mail.", "Recebe uma carta.", "Liga para a clínica."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "A médica pediu-me uma ecografia.", "de": "Die Ärztin hat einen Ultraschall angeordnet."},
+     {"pt": "Assim que tiver o diagnóstico, ligo-lhe.", "de": "Sobald ich die Diagnose habe, rufe ich Sie an."},
+     {"pt": "Quando vier à colheita de sangue, venha em jejum.", "de": "Wenn Sie zur Blutabnahme kommen, kommen Sie nüchtern."},
+     {"pt": "O exame não dói nada.", "de": "Die Untersuchung tut überhaupt nicht weh."},
+     {"pt": "Logo que o relatório estiver pronto, enviamos-lhe um e-mail.", "de": "Sobald der Befund fertig ist, schicken wir Ihnen eine E-Mail."}
+    ]
+   },
+   "saetze": [
+    {"id": "assim-que-diagnostico", "pt": "Assim que tiver o diagnóstico, ligo-lhe.", "de": "Sobald ich die Diagnose habe, rufe ich Sie an."},
+    {"id": "quando-tenho-resultados", "pt": "Quando é que tenho os resultados?", "de": "Wann habe ich die Ergebnisse?"},
+    {"id": "medica-pediu-ecografia", "pt": "A médica pediu-me uma ecografia.", "de": "Die Ärztin hat einen Ultraschall angeordnet."}
+   ]
+  },
+  {
+   "id": "B1-07-L05",
+   "typ": "neu",
+   "titel": "Im Krankenhaus: quem, como, onde quiser",
+   "vokabeln": ["o-internamento", "ficar-internado", "o-quarto-individual", "o-acompanhante", "o-horario-das-visitas", "ter-alta", "a-enfermaria", "quem-quiser", "como-quiser", "onde-quiser"],
+   "grammatik": {
+    "titel": "Quem, como, onde, o que + futuro do conjuntivo",
+    "erklaerung": [
+     "Também se usa o futuro do conjuntivo depois de <b>quem, como, onde, o que, tudo o que</b>, quando a pessoa, o modo ou o lugar ainda <b>não estão definidos</b>: <i>Quem quiser visitar o doente pode vir entre as duas e as oito.</i>",
+     "<i>Faça como quiser.</i> · <i>Sente-se onde quiser.</i> · <i>Pode comer o que quiser.</i> · <i>Traga tudo o que precisar.</i>",
+     "Muitas vezes, a oração principal está no imperativo ou tem <i>poder</i>: <i>Fale com quem estiver de serviço.</i> · <i>Pode trazer o que ele quiser.</i>",
+     "Compare: <i>Quem quer um chá?</i> (pergunta direta, presente) – <i>Quem quiser um chá, sirva-se.</i> (qualquer pessoa, futuro)."
+    ],
+    "erklaerung_de": [
+     "Der Futuro do conjuntivo steht auch nach <b>quem, como, onde, o que, tudo o que</b>, wenn Person, Art und Weise oder Ort noch <b>nicht feststehen</b>: <i>Quem quiser visitar o doente pode vir entre as duas e as oito.</i> – Wer den Patienten besuchen will, kann zwischen zwei und acht kommen.",
+     "<i>Faça como quiser.</i> – Machen Sie es, wie Sie wollen. · <i>Sente-se onde quiser.</i> – Setzen Sie sich, wohin Sie wollen. · <i>Pode comer o que quiser.</i> – Sie können essen, was Sie wollen. · <i>Traga tudo o que precisar.</i> – Bringen Sie alles mit, was Sie brauchen.",
+     "Oft steht der Hauptsatz im Imperativ oder mit <i>poder</i>: <i>Fale com quem estiver de serviço.</i> – Sprechen Sie mit dem, der Dienst hat. · <i>Pode trazer o que ele quiser.</i> – Sie können mitbringen, was er möchte.",
+     "Vergleich: <i>Quem quer um chá?</i> (direkte Frage, Präsens) – <i>Quem quiser um chá, sirva-se.</i> (wer auch immer, Zukunft)."
+    ],
+    "vergleich": "Deutsch: „Wer will, kann …“, „wie Sie wollen“ – Präsens. Englisch: „whoever wants …“, „however you like“. Portugiesisch braucht hier den Futuro do conjuntivo: <i>quem quiser, como quiser, onde quiser</i>.",
+    "beispiele": [
+     {"pt": "Quem quiser pode ficar como acompanhante durante a noite.", "de": "Wer will, kann über Nacht als Begleitperson bleiben."},
+     {"pt": "Pode trazer de casa o que precisar: pijama, livros, o carregador.", "de": "Sie können von zu Hause mitbringen, was Sie brauchen: Pyjama, Bücher, das Ladegerät."},
+     {"pt": "Fale com a enfermeira que estiver de serviço.", "de": "Sprechen Sie mit der Krankenschwester, die Dienst hat."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quem ___ ficar como acompanhante tem de falar com a enfermeira. (querer)", "loesungen": ["quiser"], "de": "Wer als Begleitperson bleiben will, muss mit der Krankenschwester sprechen.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Pode trazer de casa o que ___. (precisar, formell)", "loesungen": ["precisar"], "de": "Sie können von zu Hause mitbringen, was Sie brauchen.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Sentem-se onde ___. (querer, eles)", "loesungen": ["quiserem"], "de": "Setzen Sie sich, wohin Sie wollen. (mehrere Personen)", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Fale com quem ___ de serviço na enfermaria. (estar)", "loesungen": ["estiver"], "de": "Sprechen Sie mit dem, der auf der Station Dienst hat.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Wer Fragen hat, wendet sich an die Rezeption.“", "optionen": ["Quem tem dúvidas, dirija-se à receção.", "Quem tiver dúvidas, dirija-se à receção.", "Quem tivesse dúvidas, dirija-se à receção."], "richtig": 1, "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Quem quer um chá?“ – Warum steht hier das Presente?", "optionen": ["Weil es eine direkte Frage ist.", "Weil „chá“ männlich ist.", "Das ist falsch, es muss „quiser“ heißen."], "richtig": 0, "erklaerung": "Direkte Fragen stehen im Indikativ. „Quem quiser“ heißt „wer auch immer will“.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Machen Sie es, wie Sie wollen.", "loesungen": ["Faça como quiser.", "Faça como quiser!", "Faça como entender."], "kategorie": "Futuro do conjuntivo"},
+     {"typ": "satzbau", "de": "Wer will, kann in einem Einzelzimmer bleiben.", "loesung": "Quem quiser pode ficar num quarto individual."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O internamento – der Krankenhausaufenthalt",
+    "situation": "Stefan wird am Knie operiert. Eine Krankenschwester erklärt Ana die Regeln der Station.",
+    "zeilen": [
+     {"sprecher": "Enfermeira", "stimme": "f", "pt": "Bom dia. O seu marido vai ficar internado três dias, no quarto doze.", "de": "Guten Morgen. Ihr Mann bleibt drei Tage stationär, in Zimmer zwölf."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "É um quarto individual?", "de": "Ist das ein Einzelzimmer?"},
+     {"sprecher": "Enfermeira", "stimme": "f", "pt": "É, sim, o seguro cobre. E a senhora pode ficar como acompanhante, se quiser.", "de": "Ja, die Versicherung übernimmt es. Und Sie können als Begleitperson bleiben, wenn Sie möchten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E qual é o horário das visitas?", "de": "Und wann sind die Besuchszeiten?"},
+     {"sprecher": "Enfermeira", "stimme": "f", "pt": "Das duas às oito. Quem quiser vir fora desse horário tem de falar connosco primeiro.", "de": "Von zwei bis acht. Wer außerhalb dieser Zeiten kommen will, muss zuerst mit uns sprechen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Posso trazer-lhe comida de casa?", "de": "Darf ich ihm Essen von zu Hause mitbringen?"},
+     {"sprecher": "Enfermeira", "stimme": "f", "pt": "Durante os primeiros dois dias, não. Depois, pode trazer o que ele quiser.", "de": "In den ersten zwei Tagen nicht. Danach können Sie mitbringen, was er möchte."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E quando é que ele tem alta?", "de": "Und wann wird er entlassen?"},
+     {"sprecher": "Enfermeira", "stimme": "f", "pt": "Na sexta-feira, se tudo correr bem.", "de": "Am Freitag, wenn alles gut geht."}
+    ],
+    "fragen": [
+     {"frage": "Quantos dias vai o Stefan ficar internado?", "optionen": ["Três dias.", "Uma semana.", "Um dia."], "richtig": 0},
+     {"frage": "Qual é o horário das visitas?", "optionen": ["Das dez às oito.", "Das duas às oito.", "Das duas às seis."], "richtig": 1},
+     {"frage": "Quando tem o Stefan alta, se tudo correr bem?", "optionen": ["Na quinta-feira.", "No sábado.", "Na sexta-feira."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ligue para o hospital e pergunte pelo seu vizinho João. – Ruf im Krankenhaus an und frag nach deinem Nachbarn João.",
+    "zeilen": [
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Hospital de Lagos, boa tarde.", "de": "Krankenhaus Lagos, guten Tag."},
+     {"ich": true, "aufgabe": "Diga que o seu vizinho, João Silva, está internado, e pergunte qual é o horário das visitas. – Sag, dass dein Nachbar João Silva stationär liegt, und frag nach den Besuchszeiten.", "loesungen": ["Boa tarde. O meu vizinho, João Silva, está internado. Qual é o horário das visitas?", "Boa tarde. O meu vizinho João Silva está internado. Qual é o horário das visitas?", "Boa tarde. O meu vizinho, o João Silva, está internado. Qual é o horário das visitas?", "Boa tarde, o meu vizinho João Silva está internado. Qual é o horário das visitas?"]},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Das duas às oito. Mas só podem estar duas pessoas de cada vez.", "de": "Von zwei bis acht. Aber es dürfen nur zwei Personen gleichzeitig da sein."},
+     {"ich": true, "aufgabe": "Pergunte se pode levar-lhe alguma coisa para comer. – Frag, ob du ihm etwas zu essen mitbringen darfst.", "loesungen": ["Posso levar-lhe alguma coisa para comer?", "Posso levar-lhe alguma coisa de comer?", "Posso trazer-lhe alguma coisa para comer?", "Posso levar-lhe comida?"]},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Pergunte primeiro à enfermeira de serviço. Ela diz-lhe o que pode levar.", "de": "Fragen Sie zuerst die diensthabende Krankenschwester. Sie sagt Ihnen, was Sie mitbringen dürfen."},
+     {"ich": true, "aufgabe": "Pergunte quando é que ele tem alta. – Frag, wann er entlassen wird.", "loesungen": ["E quando é que ele tem alta?", "E quando tem ele alta?", "Quando é que ele tem alta?", "E quando é que lhe dão alta?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "quem-quiser-acompanhante", "pt": "Quem quiser pode ficar como acompanhante.", "de": "Wer will, kann als Begleitperson bleiben."},
+    {"id": "qual-horario-visitas", "pt": "Qual é o horário das visitas?", "de": "Wann sind die Besuchszeiten?"},
+    {"id": "quando-tem-alta", "pt": "Quando é que ele tem alta?", "de": "Wann wird er entlassen?"}
+   ]
+  },
+  {
+   "id": "B1-07-L06",
+   "typ": "neu",
+   "titel": "Die Operation: enquanto & sempre que",
+   "vokabeln": ["a-cirurgia", "o-cirurgiao", "ser-operado-a", "o-bloco-operatorio", "o-pos-operatorio", "tirar-os-pontos", "a-cicatriz", "a-recuperacao", "enquanto-estiver", "sempre-que"],
+   "grammatik": {
+    "titel": "Enquanto e sempre que + futuro do conjuntivo",
+    "erklaerung": [
+     "<b>Enquanto</b> + futuro do conjuntivo = durante todo o tempo em que algo acontecer no futuro: <i>Enquanto estiver com os pontos, não pode tomar banho de mar.</i>",
+     "<b>Sempre que</b> + futuro do conjuntivo = cada vez que algo acontecer: <i>Sempre que tiver dores, tome um analgésico.</i>",
+     "<b>Enquanto não</b> + futuro do conjuntivo = até que: <i>Enquanto não tiver alta, fica no hospital.</i>",
+     "Para hábitos e para o passado usa-se o indicativo: <i>Sempre que vou ao hospital, fico nervoso.</i> · <i>Enquanto esperava, li uma revista.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>Enquanto</b> + Futuro do conjuntivo = die ganze Zeit, in der etwas in der Zukunft andauert (solange): <i>Enquanto estiver com os pontos, não pode tomar banho de mar.</i> – Solange Sie die Fäden haben, dürfen Sie nicht im Meer baden.",
+     "<b>Sempre que</b> + Futuro do conjuntivo = jedes Mal, wenn etwas passiert: <i>Sempre que tiver dores, tome um analgésico.</i> – Jedes Mal, wenn Sie Schmerzen haben, nehmen Sie ein Schmerzmittel.",
+     "<b>Enquanto não</b> + Futuro do conjuntivo = solange nicht / bis: <i>Enquanto não tiver alta, fica no hospital.</i> – Solange Sie nicht entlassen sind, bleiben Sie im Krankenhaus.",
+     "Bei Gewohnheiten und in der Vergangenheit steht der Indikativ: <i>Sempre que vou ao hospital, fico nervoso.</i> – Immer wenn ich ins Krankenhaus gehe, werde ich nervös. · <i>Enquanto esperava, li uma revista.</i> – Während ich wartete, las ich eine Zeitschrift."
+    ],
+    "vergleich": "Deutsch: „Solange Sie die Fäden haben …“, „Jedes Mal, wenn …“ – Präsens. Portugiesisch: <i>Enquanto tiver os pontos …</i>, <i>Sempre que sentir dores …</i> – Futuro do conjuntivo, weil es um die Zukunft geht.",
+    "beispiele": [
+     {"pt": "Enquanto estiver com os pontos, não molhe o joelho.", "de": "Solange Sie die Fäden haben, machen Sie das Knie nicht nass."},
+     {"pt": "Sempre que sentir dores, tome um analgésico.", "de": "Jedes Mal, wenn Sie Schmerzen haben, nehmen Sie ein Schmerzmittel."},
+     {"pt": "Enquanto não tiveres alta, eu fico contigo.", "de": "Solange du nicht entlassen bist, bleibe ich bei dir."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Enquanto ___ os pontos, não pode ir à praia. (ter, formell)", "loesungen": ["tiver"], "de": "Solange Sie die Fäden haben, dürfen Sie nicht an den Strand.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Sempre que ___ dores, tome um analgésico. (sentir, formell)", "loesungen": ["sentir"], "de": "Jedes Mal, wenn Sie Schmerzen haben, nehmen Sie ein Schmerzmittel.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Enquanto não ___ alta, a Ana fica comigo no hospital. (ter, eu)", "loesungen": ["tiver"], "de": "Solange ich nicht entlassen bin, bleibt Ana bei mir im Krankenhaus.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Sempre que ___ ao hospital, fico nervoso. (ir, eu – Gewohnheit)", "loesungen": ["vou"], "de": "Immer wenn ich ins Krankenhaus gehe, werde ich nervös.", "erklaerung": "Gewohnheit → Presente do indicativo.", "kategorie": "Gewohnheit/Zukunft"},
+     {"typ": "auswahl", "frage": "„Solange Sie im Krankenhaus sind, …“", "optionen": ["Enquanto estiver no hospital, …", "Enquanto está no hospital, …", "Enquanto estar no hospital, …"], "richtig": 0, "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Während ich im OP war, hat Ana gewartet.“", "optionen": ["Enquanto eu estiver no bloco operatório, a Ana esperou.", "Enquanto eu estava no bloco operatório, a Ana esperou.", "Enquanto eu estou no bloco operatório, a Ana esperou."], "richtig": 1, "erklaerung": "Vergangenheit → Imperfeito, kein Konjunktiv.", "kategorie": "Gewohnheit/Zukunft"},
+     {"typ": "uebersetzen", "de": "Jedes Mal, wenn Sie Fieber haben, rufen Sie das Krankenhaus an.", "loesungen": ["Sempre que tiver febre, ligue para o hospital.", "Sempre que tiver febre, telefone para o hospital.", "Ligue para o hospital sempre que tiver febre.", "Sempre que tiver febre, ligue ao hospital."], "kategorie": "Futuro do conjuntivo"},
+     {"typ": "satzbau", "de": "Während ich im OP bin, wartet Ana im Wartezimmer.", "loesung": "Enquanto eu estiver no bloco operatório, a Ana espera na sala de espera."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A conversa com o cirurgião – das Gespräch mit dem Chirurgen",
+    "situation": "Die MRT hat einen Meniskusriss gezeigt. Der Chirurg erklärt Stefan die Operation.",
+    "zeilen": [
+     {"sprecher": "Cirurgião", "stimme": "m", "pt": "Senhor Stefan, a ressonância confirma: tem uma rotura no menisco. Vamos ter de operar.", "de": "Herr Stefan, die MRT bestätigt es: Sie haben einen Meniskusriss. Wir müssen operieren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É uma cirurgia complicada?", "de": "Ist das eine komplizierte Operation?"},
+     {"sprecher": "Cirurgião", "stimme": "m", "pt": "Não. É uma artroscopia: faço só dois pequenos cortes. Fica com duas cicatrizes muito pequenas.", "de": "Nein. Es ist eine Arthroskopie: Ich mache nur zwei kleine Schnitte. Es bleiben zwei sehr kleine Narben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E vou estar a dormir?", "de": "Und werde ich schlafen?"},
+     {"sprecher": "Cirurgião", "stimme": "m", "pt": "Não é preciso. Fazemos uma anestesia só nas pernas: fica acordado, mas não sente nada.", "de": "Das ist nicht nötig. Wir betäuben nur die Beine: Sie bleiben wach, spüren aber nichts."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a recuperação? Quanto tempo demora?", "de": "Und die Genesung? Wie lange dauert sie?"},
+     {"sprecher": "Cirurgião", "stimme": "m", "pt": "Tiramos os pontos ao fim de dez dias. Enquanto tiver os pontos, não molhe o joelho. Depois começa a fisioterapia.", "de": "Die Fäden ziehen wir nach zehn Tagen. Solange Sie die Fäden haben, machen Sie das Knie nicht nass. Danach beginnt die Physiotherapie."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E quando posso voltar a jogar ténis?", "de": "Und wann kann ich wieder Tennis spielen?"},
+     {"sprecher": "Cirurgião", "stimme": "m", "pt": "Daqui a uns dois meses, se a recuperação correr bem.", "de": "In etwa zwei Monaten, wenn die Genesung gut verläuft."}
+    ],
+    "fragen": [
+     {"frage": "Que problema tem o Stefan?", "optionen": ["Uma rotura no menisco.", "Uma lesão no ombro.", "Um problema de coluna."], "richtig": 0},
+     {"frage": "O que não deve fazer enquanto tiver os pontos?", "optionen": ["Andar.", "Comer.", "Molhar o joelho."], "richtig": 2},
+     {"frage": "Quando pode o Stefan voltar a jogar ténis?", "optionen": ["Daqui a dez dias.", "Daqui a uns dois meses.", "Nunca mais."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich werde am Knie operiert.", "loesungen": ["Vou ser operado ao joelho.", "Vou ser operada ao joelho.", "Sou operado ao joelho.", "Vou ser operado ao joelho em breve."]},
+     {"de": "Die Operation ist sehr gut verlaufen.", "loesungen": ["A cirurgia correu muito bem.", "A operação correu muito bem."]},
+     {"de": "Solange Sie die Fäden haben, gehen Sie nicht ins Meer.", "loesungen": ["Enquanto tiver os pontos, não vá ao mar.", "Enquanto estiver com os pontos, não vá ao mar.", "Enquanto tiver os pontos, não entre no mar.", "Enquanto tiver os pontos, não tome banho de mar.", "Enquanto estiver com os pontos, não tome banho de mar.", "Enquanto estiver com os pontos, não entre no mar."]},
+     {"de": "Jedes Mal, wenn Sie Schmerzen haben, nehmen Sie ein Schmerzmittel.", "loesungen": ["Sempre que tiver dores, tome um analgésico.", "Sempre que sentir dores, tome um analgésico.", "Tome um analgésico sempre que tiver dores."]},
+     {"de": "Wann werden die Fäden gezogen?", "loesungen": ["Quando é que tiram os pontos?", "Quando tiram os pontos?", "Quando é que me tiram os pontos?", "Quando é que vão tirar os pontos?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "vou-ser-operado-joelho", "pt": "Vou ser operado ao joelho.", "de": "Ich werde am Knie operiert."},
+    {"id": "enquanto-pontos-nao-molhe", "pt": "Enquanto estiver com os pontos, não molhe o joelho.", "de": "Solange Sie die Fäden haben, machen Sie das Knie nicht nass."},
+    {"id": "sempre-que-dores", "pt": "Sempre que tiver dores, tome um analgésico.", "de": "Jedes Mal, wenn Sie Schmerzen haben, nehmen Sie ein Schmerzmittel."}
+   ]
+  },
+  {
+   "id": "B1-07-L07",
+   "typ": "neu",
+   "titel": "Medikamente: futuro do conjuntivo oder infinitivo pessoal?",
+   "vokabeln": ["o-efeito-secundario", "o-folheto-informativo", "a-posologia", "em-sos", "suspender", "a-toma", "o-generico", "o-anti-inflamatorio", "o-analgesico"],
+   "grammatik": {
+    "titel": "Futuro do conjuntivo ou infinitivo pessoal?",
+    "erklaerung": [
+     "Nos verbos regulares, o futuro do conjuntivo e o infinitivo pessoal têm as <b>mesmas formas</b>: <i>quando tomar, tomares, tomarmos, tomarem</i> = <i>para tomar, tomares, tomarmos, tomarem</i>.",
+     "A diferença vê-se nos verbos irregulares: <i>depois de <b>fazermos</b> as análises</i> (infinitivo pessoal) – <i>quando <b>fizermos</b> as análises</i> (futuro do conjuntivo).",
+     "Regra prática: <b>preposição</b> (para, depois de, antes de, até, sem) + infinitivo · <b>conjunção</b> (quando, se, assim que, enquanto, sempre que) + futuro do conjuntivo. <i>Antes de ter alta…</i> – <i>Quando tiver alta…</i>",
+     "<i>Para estar bem amanhã, durma oito horas.</i> – <i>Se estiver bem amanhã, não precisa de vir.</i>"
+    ],
+    "erklaerung_de": [
+     "Bei regelmäßigen Verben haben Futuro do conjuntivo und Infinitivo pessoal <b>dieselben Formen</b>: <i>quando tomar, tomares, tomarmos, tomarem</i> = <i>para tomar, tomares, tomarmos, tomarem</i>.",
+     "Den Unterschied sieht man bei unregelmäßigen Verben: <i>depois de <b>fazermos</b> as análises</i> (nachdem wir … gemacht haben – Infinitivo pessoal) – <i>quando <b>fizermos</b> as análises</i> (wenn wir … machen – Futuro do conjuntivo).",
+     "Faustregel: <b>Präposition</b> (para, depois de, antes de, até, sem) + Infinitiv · <b>Konjunktion</b> (quando, se, assim que, enquanto, sempre que) + Futuro do conjuntivo. <i>Antes de ter alta …</i> – Bevor Sie entlassen werden … · <i>Quando tiver alta …</i> – Wenn Sie entlassen werden …",
+     "<i>Para estar bem amanhã, durma oito horas.</i> – Um morgen fit zu sein, schlafen Sie acht Stunden. · <i>Se estiver bem amanhã, não precisa de vir.</i> – Wenn es Ihnen morgen gut geht, müssen Sie nicht kommen."
+    ],
+    "vergleich": "Im Deutschen hilft derselbe Unterschied: „nach dem Essen / bevor Sie gehen“ (Präposition + Nomen/Infinitivkonstruktion) gegenüber „wenn Sie gegessen haben“ (Konjunktion + Nebensatz). Portugiesisch: <i>depois de comer</i> – <i>quando acabar de comer</i>.",
+    "beispiele": [
+     {"pt": "Leia o folheto informativo antes de tomar o medicamento.", "de": "Lesen Sie den Beipackzettel, bevor Sie das Medikament nehmen."},
+     {"pt": "Se tiver efeitos secundários, suspenda o medicamento e ligue-me.", "de": "Wenn Sie Nebenwirkungen haben, setzen Sie das Medikament ab und rufen Sie mich an."},
+     {"pt": "Depois de fazermos as análises, voltamos a falar.", "de": "Nachdem wir die Laborwerte gemacht haben, sprechen wir wieder."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Antes de ___ alta, fale com o médico. (ter)", "loesungen": ["ter"], "de": "Bevor Sie entlassen werden, sprechen Sie mit dem Arzt.", "erklaerung": "Nach der Präposition „antes de“ steht der Infinitiv.", "kategorie": "Infinitiv/Konjunktiv"},
+     {"typ": "luecke", "satz": "Quando ___ alta, vá à farmácia buscar os medicamentos. (ter, formell)", "loesungen": ["tiver"], "de": "Wenn Sie entlassen werden, holen Sie die Medikamente in der Apotheke.", "erklaerung": "Nach der Konjunktion „quando“ (Zukunft) steht der Futuro do conjuntivo.", "kategorie": "Infinitiv/Konjunktiv"},
+     {"typ": "luecke", "satz": "Para ___ melhor, tome o anti-inflamatório com comida. (estar)", "loesungen": ["estar"], "de": "Damit es Ihnen besser geht, nehmen Sie den Entzündungshemmer mit Essen.", "kategorie": "Infinitiv/Konjunktiv"},
+     {"typ": "luecke", "satz": "Se ___ efeitos secundários, suspenda o medicamento. (ter, formell)", "loesungen": ["tiver"], "de": "Wenn Sie Nebenwirkungen haben, setzen Sie das Medikament ab.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Depois de ___ as análises, voltamos a falar. (fazer, nós)", "loesungen": ["fazermos"], "de": "Nachdem wir die Laborwerte gemacht haben, sprechen wir wieder.", "erklaerung": "„depois de“ ist eine Präposition → Infinitivo pessoal: fazermos (nicht fizermos).", "kategorie": "Infinitiv/Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Wenn wir das Ergebnis wissen, …“", "optionen": ["Quando sabermos o resultado, …", "Quando soubermos o resultado, …", "Quando saibamos o resultado, …"], "richtig": 1, "erklaerung": "quando + Zukunft → Futuro do conjuntivo: souberam → soubermos.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Wenn Sie Nebenwirkungen haben, rufen Sie mich an.", "loesungen": ["Se tiver efeitos secundários, ligue-me.", "Se tiver efeitos secundários, telefone-me.", "Ligue-me se tiver efeitos secundários.", "Quando tiver efeitos secundários, ligue-me."], "kategorie": "Futuro do conjuntivo"},
+     {"typ": "satzbau", "de": "Lesen Sie den Beipackzettel, bevor Sie das Medikament nehmen.", "loesung": "Leia o folheto informativo antes de tomar o medicamento."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na farmácia – in der Apotheke",
+    "situation": "Nach der Operation holt Stefan seine Medikamente in der Apotheke.",
+    "zeilen": [
+     {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Boa tarde. Tem a receita?", "de": "Guten Tag. Haben Sie das Rezept?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tenho o código da receita no telemóvel. É a receita do hospital.", "de": "Ich habe den Rezeptcode auf dem Handy. Es ist das Rezept vom Krankenhaus."},
+     {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Muito bem. Para o anti-inflamatório temos o genérico, que é mais barato. Pode ser?", "de": "Sehr gut. Für den Entzündungshemmer haben wir das Generikum, das billiger ist. Ist das in Ordnung?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pode, claro. Como é que o tomo?", "de": "Klar. Wie nehme ich ihn?"},
+     {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Um comprimido de doze em doze horas, depois das refeições. Não o tome em jejum.", "de": "Eine Tablette alle zwölf Stunden, nach dem Essen. Nehmen Sie sie nicht auf nüchternen Magen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o analgésico?", "de": "Und das Schmerzmittel?"},
+     {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Esse é só em SOS, se tiver dores fortes. No máximo, três tomas por dia.", "de": "Das nur bei Bedarf, wenn Sie starke Schmerzen haben. Höchstens dreimal am Tag."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tem efeitos secundários?", "de": "Hat es Nebenwirkungen?"},
+     {"sprecher": "Farmacêutica", "stimme": "f", "pt": "Às vezes dá sono. Por isso, enquanto o estiver a tomar, não conduza.", "de": "Manchmal macht es müde. Deshalb fahren Sie nicht Auto, solange Sie es nehmen."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan leva o genérico?", "optionen": ["Porque é mais barato.", "Porque é mais forte.", "Porque o médico mandou."], "richtig": 0},
+     {"frage": "Quando deve tomar o analgésico?", "optionen": ["Todas as manhãs.", "Só se tiver dores fortes.", "De doze em doze horas."], "richtig": 1},
+     {"frage": "O que não deve fazer enquanto toma o analgésico?", "optionen": ["Comer.", "Dormir.", "Conduzir."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Tem o genérico deste medicamento?", "de": "Haben Sie das Generikum zu diesem Medikament?"},
+     {"pt": "Tome o analgésico só em SOS.", "de": "Nehmen Sie das Schmerzmittel nur bei Bedarf."},
+     {"pt": "Este medicamento tem efeitos secundários?", "de": "Hat dieses Medikament Nebenwirkungen?"},
+     {"pt": "Leia o folheto informativo antes de tomar o medicamento.", "de": "Lesen Sie den Beipackzettel, bevor Sie das Medikament nehmen."},
+     {"pt": "Enquanto o estiver a tomar, não conduza.", "de": "Solange Sie es nehmen, fahren Sie nicht Auto."}
+    ]
+   },
+   "saetze": [
+    {"id": "tem-o-generico", "pt": "Tem o genérico deste medicamento?", "de": "Haben Sie das Generikum zu diesem Medikament?"},
+    {"id": "efeitos-secundarios-pergunta", "pt": "Este medicamento tem efeitos secundários?", "de": "Hat dieses Medikament Nebenwirkungen?"},
+    {"id": "analgesico-em-sos", "pt": "Tome o analgésico só em SOS.", "de": "Nehmen Sie das Schmerzmittel nur bei Bedarf."}
+   ]
+  },
+  {
+   "id": "B1-07-L08",
+   "typ": "neu",
+   "titel": "Private Krankenversicherung: se tiver oder se tivesse?",
+   "vokabeln": ["a-franquia", "a-rede-convencionada", "o-prestador", "o-plafond", "o-periodo-de-carencia", "a-cobertura", "a-doenca-pre-existente", "o-premio-do-seguro", "aderir-a", "estar-coberto"],
+   "grammatik": {
+    "titel": "Se + futuro do conjuntivo ou se + imperfeito do conjuntivo?",
+    "erklaerung": [
+     "<b>Se + futuro do conjuntivo</b>: a condição é <b>real e possível</b>. <i>Se for a um médico da rede convencionada, paga só o copagamento.</i>",
+     "<b>Se + imperfeito do conjuntivo</b> (+ condicional ou imperfeito): a condição é <b>hipotética</b> ou pouco provável. <i>Se tivesse um seguro melhor, ia a um hospital privado.</i>",
+     "Os contratos de seguro estão cheios de futuro do conjuntivo: <i>Se o tratamento for feito fora da rede, a seguradora reembolsa 80 %.</i> · <i>Se a pessoa segura tiver uma doença pré-existente, …</i>",
+     "Compare: <i>Se tiver tempo, vou.</i> (é possível) – <i>Se tivesse tempo, ia.</i> (mas não tenho)."
+    ],
+    "erklaerung_de": [
+     "<b>Se + Futuro do conjuntivo</b>: Die Bedingung ist <b>real und möglich</b>. <i>Se for a um médico da rede convencionada, paga só o copagamento.</i> – Wenn Sie zu einem Arzt im Vertragsnetz gehen, zahlen Sie nur den Eigenanteil.",
+     "<b>Se + Imperfeito do conjuntivo</b> (+ Konditional oder Imperfeito): Die Bedingung ist <b>hypothetisch</b> oder unwahrscheinlich. <i>Se tivesse um seguro melhor, ia a um hospital privado.</i> – Wenn ich eine bessere Versicherung hätte, würde ich in ein Privatkrankenhaus gehen.",
+     "Versicherungsverträge sind voll vom Futuro do conjuntivo: <i>Se o tratamento for feito fora da rede, a seguradora reembolsa 80 %.</i> – Wird die Behandlung außerhalb des Netzes durchgeführt, erstattet die Versicherung 80 %. · <i>Se a pessoa segura tiver uma doença pré-existente, …</i> – Hat die versicherte Person eine Vorerkrankung, …",
+     "Vergleich: <i>Se tiver tempo, vou.</i> (Wenn ich Zeit habe, gehe ich – möglich) – <i>Se tivesse tempo, ia.</i> (Wenn ich Zeit hätte, würde ich gehen – habe ich aber nicht)."
+    ],
+    "vergleich": "Deutsch: „Wenn ich Zeit habe, gehe ich.“ – „Wenn ich Zeit hätte, würde ich gehen.“ Das Portugiesische macht genau denselben Unterschied: <i>se tiver</i> ↔ <i>se tivesse</i>.",
+    "beispiele": [
+     {"pt": "Se escolher um médico da rede convencionada, paga apenas vinte euros.", "de": "Wenn Sie einen Arzt aus dem Vertragsnetz wählen, zahlen Sie nur zwanzig Euro."},
+     {"pt": "Se tivesse aderido ao seguro mais cedo, a cirurgia já estava coberta.", "de": "Wenn ich der Versicherung früher beigetreten wäre, wäre die Operation schon gedeckt."},
+     {"pt": "Isto está coberto pelo seguro ou tenho de pagar a franquia?", "de": "Ist das von der Versicherung gedeckt oder muss ich die Selbstbeteiligung zahlen?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se ___ a um hospital da rede convencionada, paga só quinze euros. (ir, formell)", "loesungen": ["for"], "de": "Wenn Sie in ein Krankenhaus des Vertragsnetzes gehen, zahlen Sie nur fünfzehn Euro.", "kategorie": "se tiver/se tivesse"},
+     {"typ": "luecke", "satz": "Se ___ um seguro melhor, não pagava tanto. (ter, eu)", "loesungen": ["tivesse"], "de": "Wenn ich eine bessere Versicherung hätte, würde ich nicht so viel zahlen.", "erklaerung": "Hypothetisch (habe ich aber nicht) → Imperfeito do conjuntivo.", "kategorie": "se tiver/se tivesse"},
+     {"typ": "luecke", "satz": "Se a consulta ___ fora da rede, a seguradora reembolsa oitenta por cento. (ser)", "loesungen": ["for"], "de": "Wenn der Termin außerhalb des Netzes ist, erstattet die Versicherung achtzig Prozent.", "kategorie": "se tiver/se tivesse"},
+     {"typ": "luecke", "satz": "Se ___ ao seguro este mês, o período de carência acaba em outubro do próximo ano. (aderir, nós)", "loesungen": ["aderirmos"], "de": "Wenn wir diesen Monat der Versicherung beitreten, endet die Wartezeit im Oktober nächsten Jahres.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist hypothetisch (irreal)?", "optionen": ["Se tiver tempo, vou ao ginásio.", "Se tivesse tempo, ia ao ginásio.", "Quando tiver tempo, vou ao ginásio."], "richtig": 1, "kategorie": "se tiver/se tivesse"},
+     {"typ": "auswahl", "frage": "„Falls die Behandlung nicht gedeckt ist, zahlen Sie die ganze Rechnung.“", "optionen": ["Se o tratamento não estiver coberto, paga a conta toda.", "Se o tratamento não estivesse coberto, paga a conta toda.", "Se o tratamento não estar coberto, paga a conta toda."], "richtig": 0, "erklaerung": "Reale Möglichkeit → se + futuro do conjuntivo (estiveram → estiver).", "kategorie": "se tiver/se tivesse"},
+     {"typ": "uebersetzen", "de": "Ist das von der Versicherung gedeckt?", "loesungen": ["Isto está coberto pelo seguro?", "Isso está coberto pelo seguro?", "Está coberto pelo seguro?", "Isto é coberto pelo seguro?"]},
+     {"typ": "satzbau", "de": "Wenn Sie einen Arzt außerhalb des Netzes wählen, zahlen Sie mehr.", "loesung": "Se escolher um médico fora da rede, paga mais."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Escolher um seguro de saúde – eine Krankenversicherung auswählen",
+    "situation": "Stefan lässt sich von einer Versicherungsmaklerin in Lagos einen privaten Krankenversicherungsplan erklären.",
+    "zeilen": [
+     {"sprecher": "Mediadora", "stimme": "f", "pt": "Este plano custa trinta e oito euros por mês. É o prémio mensal.", "de": "Dieser Tarif kostet achtunddreißig Euro im Monat. Das ist die Monatsprämie."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o que é que inclui?", "de": "Und was ist enthalten?"},
+     {"sprecher": "Mediadora", "stimme": "f", "pt": "Consultas, análises, exames e internamento. Se for a um médico da rede convencionada, paga um copagamento de vinte euros por consulta.", "de": "Arzttermine, Laboruntersuchungen, andere Untersuchungen und Krankenhausaufenthalt. Wenn Sie zu einem Arzt im Vertragsnetz gehen, zahlen Sie zwanzig Euro Eigenanteil pro Termin."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E se eu preferir um médico fora da rede?", "de": "Und wenn ich einen Arzt außerhalb des Netzes bevorzuge?"},
+     {"sprecher": "Mediadora", "stimme": "f", "pt": "Aí paga a consulta e pede o reembolso. Mas atenção: há uma franquia anual de cem euros.", "de": "Dann zahlen Sie den Termin und beantragen die Erstattung. Aber Achtung: Es gibt eine jährliche Selbstbeteiligung von hundert Euro."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Posso usar o seguro logo a partir do primeiro dia?", "de": "Kann ich die Versicherung gleich ab dem ersten Tag nutzen?"},
+     {"sprecher": "Mediadora", "stimme": "f", "pt": "Para consultas, sim. Para cirurgias, há um período de carência de um ano. E as doenças pré-existentes não estão cobertas.", "de": "Für Arzttermine ja. Für Operationen gibt es eine Wartezeit von einem Jahr. Und Vorerkrankungen sind nicht gedeckt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Hum… Se tivesse aderido o ano passado, a operação ao joelho já estava coberta.", "de": "Hm … Wenn ich letztes Jahr beigetreten wäre, wäre die Knie-OP schon gedeckt."}
+    ],
+    "fragen": [
+     {"frage": "Quanto custa o prémio mensal?", "optionen": ["Vinte euros.", "Cem euros.", "Trinta e oito euros."], "richtig": 2},
+     {"frage": "Quanto paga o Stefan num médico da rede convencionada?", "optionen": ["Nada.", "Um copagamento de vinte euros.", "A consulta toda."], "richtig": 1},
+     {"frage": "O que não está coberto pelo seguro?", "optionen": ["As doenças pré-existentes.", "As análises.", "As consultas."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ligue para a sua seguradora por causa da operação. – Ruf deine Versicherung wegen der Operation an.",
+    "zeilen": [
+     {"sprecher": "Assistente", "stimme": "m", "pt": "Linha de apoio ao cliente, bom dia. Em que posso ajudar?", "de": "Kundenservice, guten Morgen. Wie kann ich helfen?"},
+     {"ich": true, "aufgabe": "Diga que vai ser operado ao joelho e pergunte se a cirurgia está coberta. – Sag, dass du am Knie operiert wirst, und frag, ob die Operation gedeckt ist.", "loesungen": ["Vou ser operado ao joelho. A cirurgia está coberta?", "Vou ser operado ao joelho. A cirurgia está coberta pelo seguro?", "Tenho de ser operado ao joelho. A cirurgia está coberta?", "Vou ser operado ao joelho. A operação está coberta?", "Vou ser operado ao joelho. A operação está coberta pelo seguro?"]},
+     {"sprecher": "Assistente", "stimme": "m", "pt": "Deixe-me ver a sua apólice… Sim, está coberta: o período de carência já terminou.", "de": "Lassen Sie mich Ihre Police ansehen … Ja, sie ist gedeckt: Die Wartezeit ist schon vorbei."},
+     {"ich": true, "aufgabe": "Pergunte: E se escolher um hospital da rede convencionada? – Frag: Und wenn ich ein Krankenhaus aus dem Vertragsnetz wähle?", "loesungen": ["E se escolher um hospital da rede convencionada?", "E se eu escolher um hospital da rede convencionada?", "E se escolher um hospital da rede?", "E se for a um hospital da rede convencionada?"]},
+     {"sprecher": "Assistente", "stimme": "m", "pt": "Nesse caso, paga apenas a franquia de cem euros. O resto fica a nosso cargo.", "de": "In dem Fall zahlen Sie nur die Selbstbeteiligung von hundert Euro. Den Rest übernehmen wir."},
+     {"ich": true, "aufgabe": "Agradeça e diga que, se tiver mais dúvidas, volta a ligar. – Bedank dich und sag, dass du wieder anrufst, wenn du weitere Fragen hast.", "loesungen": ["Obrigado. Se tiver mais dúvidas, volto a ligar.", "Muito obrigado. Se tiver mais dúvidas, volto a ligar.", "Obrigado. Se tiver mais perguntas, volto a ligar.", "Obrigado. Se tiver mais dúvidas, ligo outra vez.", "Obrigada. Se tiver mais dúvidas, volto a ligar."]}
+    ]
+   },
+   "saetze": [
+    {"id": "isto-esta-coberto", "pt": "Isto está coberto pelo seguro?", "de": "Ist das von der Versicherung gedeckt?"},
+    {"id": "se-for-rede-convencionada", "pt": "Se for a um médico da rede convencionada, paga só o copagamento.", "de": "Wenn Sie zu einem Arzt im Vertragsnetz gehen, zahlen Sie nur den Eigenanteil."},
+    {"id": "qual-e-a-franquia", "pt": "Qual é o valor da franquia?", "de": "Wie hoch ist die Selbstbeteiligung?"}
+   ]
+  },
+  {
+   "id": "B1-07-L09",
+   "typ": "neu",
+   "titel": "Physiotherapie & Reha: quando tiver feito",
+   "vokabeln": ["a-fisioterapia", "o-fisioterapeuta", "a-sessao", "a-reabilitacao", "os-alongamentos", "a-lesao", "a-postura", "a-coluna", "fortalecer"],
+   "grammatik": {
+    "titel": "O futuro do conjuntivo composto (tiver feito)",
+    "erklaerung": [
+     "O <b>futuro do conjuntivo composto</b> forma-se com <b>tiver + particípio</b>: <i>quando tiver acabado, se tiverem feito, assim que tivermos recebido</i>.",
+     "Usa-se para uma ação que vai estar <b>concluída</b> antes de outra no futuro: <i>Quando tiver feito as dez sessões, volte à consulta.</i>",
+     "Muitas vezes, o tempo simples também serve: <i>Quando fizer as dez sessões…</i> O composto sublinha que a ação já <b>terminou</b>. É frequente na língua formal e escrita.",
+     "Particípios irregulares que aparecem muito: <i>feito, dito, visto, escrito, posto, aberto, vindo</i>."
+    ],
+    "erklaerung_de": [
+     "Der <b>Futuro do conjuntivo composto</b> wird mit <b>tiver + Partizip</b> gebildet: <i>quando tiver acabado, se tiverem feito, assim que tivermos recebido</i>.",
+     "Man verwendet ihn für eine Handlung, die vor einer anderen in der Zukunft <b>abgeschlossen</b> sein wird: <i>Quando tiver feito as dez sessões, volte à consulta.</i> – Wenn Sie die zehn Sitzungen gemacht haben, kommen Sie wieder in die Sprechstunde.",
+     "Oft geht auch die einfache Form: <i>Quando fizer as dez sessões …</i> Die zusammengesetzte Form betont, dass die Handlung schon <b>abgeschlossen</b> ist. Sie ist in der formellen und geschriebenen Sprache häufig.",
+     "Häufige unregelmäßige Partizipien: <i>feito, dito, visto, escrito, posto, aberto, vindo</i>."
+    ],
+    "vergleich": "Deutsch: „Wenn Sie die zehn Sitzungen gemacht haben, …“ – Perfekt nach „wenn“. Portugiesisch: <i>Quando tiver feito …</i> – wörtlich etwa „wenn Sie gemacht haben werden“. Achtung: <i>tem feito</i> (Perfeito composto) heißt „hat in letzter Zeit gemacht“ – etwas ganz anderes!",
+    "beispiele": [
+     {"pt": "Quando tiver feito as dez sessões, volte à consulta.", "de": "Wenn Sie die zehn Sitzungen gemacht haben, kommen Sie wieder in die Sprechstunde."},
+     {"pt": "Assim que tivermos recebido o relatório, enviamos-lhe uma cópia.", "de": "Sobald wir den Bericht erhalten haben, schicken wir Ihnen eine Kopie."},
+     {"pt": "Quando tiver acabado a fisioterapia, volto a jogar ténis.", "de": "Wenn ich die Physiotherapie beendet habe, spiele ich wieder Tennis."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quando ___ acabado as sessões, volte à consulta. (ter, formell)", "loesungen": ["tiver"], "de": "Wenn Sie die Sitzungen beendet haben, kommen Sie wieder in die Sprechstunde.", "kategorie": "Futuro composto"},
+     {"typ": "luecke", "satz": "Assim que tivermos ___ o relatório, enviamos-lhe uma cópia. (receber)", "loesungen": ["recebido"], "de": "Sobald wir den Bericht erhalten haben, schicken wir Ihnen eine Kopie.", "kategorie": "Futuro composto"},
+     {"typ": "luecke", "satz": "Quando tiveres ___ os alongamentos, põe gelo no joelho. (fazer)", "loesungen": ["feito"], "de": "Wenn du die Dehnübungen gemacht hast, leg Eis aufs Knie.", "erklaerung": "fazer → feito (unregelmäßig).", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "Se a médica já tiver ___ a credencial, pode marcar a fisioterapia. (escrever)", "loesungen": ["escrito"], "de": "Wenn die Ärztin die Überweisung schon geschrieben hat, können Sie die Physiotherapie ausmachen.", "erklaerung": "escrever → escrito (unregelmäßig).", "kategorie": "Partizip"},
+     {"typ": "auswahl", "frage": "„Wenn Sie die Übungen gemacht haben, …“", "optionen": ["Quando tiver feito os exercícios, …", "Quando tivesse feito os exercícios, …", "Quando tem feito os exercícios, …"], "richtig": 0, "erklaerung": "„tem feito“ ist der Perfeito composto („in letzter Zeit gemacht“), „tivesse feito“ ist irreal.", "kategorie": "Futuro composto"},
+     {"typ": "auswahl", "frage": "Welches Partizip passt? „Quando tiver ___ o vídeo dos exercícios, …“ (ver)", "optionen": ["vido", "visto", "vindo"], "richtig": 1, "erklaerung": "ver → visto; vindo kommt von vir.", "kategorie": "Partizip"},
+     {"typ": "uebersetzen", "de": "Wenn Sie zehn Sitzungen gemacht haben, kommen Sie wieder in die Sprechstunde.", "loesungen": ["Quando tiver feito dez sessões, volte à consulta.", "Quando tiver feito as dez sessões, volte à consulta.", "Quando fizer dez sessões, volte à consulta.", "Quando fizer as dez sessões, volte à consulta.", "Quando tiver feito dez sessões, volte cá."], "kategorie": "Futuro composto"},
+     {"typ": "satzbau", "de": "Wenn ich die Physiotherapie beendet habe, spiele ich wieder Tennis.", "loesung": "Quando tiver acabado a fisioterapia, volto a jogar ténis."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na fisioterapia – in der Physiotherapie",
+    "situation": "Stefan ist bei seiner sechsten Physiotherapiesitzung nach der Knieoperation.",
+    "zeilen": [
+     {"sprecher": "Fisioterapeuta", "stimme": "f", "pt": "Então, como está o joelho hoje?", "de": "Na, wie geht es dem Knie heute?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Melhor. Já consigo subir as escadas sem dores.", "de": "Besser. Ich kann schon ohne Schmerzen die Treppe hinaufgehen."},
+     {"sprecher": "Fisioterapeuta", "stimme": "f", "pt": "Ótimo. Hoje vamos fazer exercícios para fortalecer a perna. Deite-se aqui, por favor.", "de": "Super. Heute machen wir Übungen, um das Bein zu kräftigen. Legen Sie sich bitte hierher."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quantas sessões é que ainda tenho?", "de": "Wie viele Sitzungen habe ich noch?"},
+     {"sprecher": "Fisioterapeuta", "stimme": "f", "pt": "Faltam quatro. Quando tiver feito as dez, o médico vê se precisa de mais.", "de": "Es fehlen noch vier. Wenn Sie die zehn gemacht haben, schaut der Arzt, ob Sie mehr brauchen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E em casa, o que devo fazer?", "de": "Und was soll ich zu Hause machen?"},
+     {"sprecher": "Fisioterapeuta", "stimme": "f", "pt": "Os alongamentos que lhe mostrei, duas vezes por dia. E cuidado com a postura quando estiver ao computador.", "de": "Die Dehnübungen, die ich Ihnen gezeigt habe, zweimal am Tag. Und achten Sie auf Ihre Haltung, wenn Sie am Computer sitzen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Prometo que vou fazê-los todos os dias!", "de": "Ich verspreche, dass ich sie jeden Tag mache!"}
+    ],
+    "fragen": [
+     {"frage": "Como está o joelho do Stefan?", "optionen": ["Pior.", "Melhor.", "Igual."], "richtig": 1},
+     {"frage": "Quantas sessões faltam?", "optionen": ["Quatro.", "Dez.", "Seis."], "richtig": 0},
+     {"frage": "O que deve o Stefan fazer em casa?", "optionen": ["Descansar sem se mexer.", "Ir ao ginásio todos os dias.", "Os alongamentos, duas vezes por dia."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich mache zweimal pro Woche Physiotherapie.", "loesungen": ["Faço fisioterapia duas vezes por semana.", "Faço fisioterapia duas vezes na semana.", "Ando a fazer fisioterapia duas vezes por semana."]},
+     {"de": "Ich habe noch vier Sitzungen.", "loesungen": ["Ainda tenho quatro sessões.", "Tenho mais quatro sessões.", "Ainda tenho mais quatro sessões.", "Faltam-me quatro sessões."]},
+     {"de": "Pedro hat eine Verletzung an der Schulter.", "loesungen": ["O Pedro tem uma lesão no ombro.", "O Pedro tem uma lesão do ombro."]},
+     {"de": "Diese Übungen kräftigen das Bein.", "loesungen": ["Estes exercícios fortalecem a perna.", "Estes exercícios fortalecem os músculos da perna."]},
+     {"de": "Wenn ich die Physiotherapie beendet habe, spiele ich wieder Tennis.", "loesungen": ["Quando tiver acabado a fisioterapia, volto a jogar ténis.", "Quando tiver terminado a fisioterapia, volto a jogar ténis.", "Quando acabar a fisioterapia, volto a jogar ténis.", "Quando terminar a fisioterapia, volto a jogar ténis.", "Quando tiver acabado a fisioterapia, vou voltar a jogar ténis."]}
+    ]
+   },
+   "saetze": [
+    {"id": "faco-fisioterapia", "pt": "Faço fisioterapia duas vezes por semana.", "de": "Ich mache zweimal pro Woche Physiotherapie."},
+    {"id": "quando-tiver-feito-sessoes", "pt": "Quando tiver feito as dez sessões, volte à consulta.", "de": "Wenn Sie die zehn Sitzungen gemacht haben, kommen Sie wieder in die Sprechstunde."},
+    {"id": "cuidado-postura", "pt": "Cuidado com a postura quando estiver ao computador.", "de": "Achten Sie auf Ihre Haltung, wenn Sie am Computer sitzen."}
+   ]
+  },
+  {
+   "id": "B1-07-L10",
+   "typ": "neu",
+   "titel": "Feste Wendungen & Bilanz: se Deus quiser",
+   "vokabeln": ["se-deus-quiser", "o-que-for-preciso", "venha-o-que-vier", "seja-como-for", "se-for-caso-disso", "a-prevencao", "o-bem-estar", "a-recaida", "estar-como-novo"],
+   "grammatik": {
+    "titel": "Expressões fixas com o futuro do conjuntivo",
+    "erklaerung": [
+     "Há expressões muito comuns com o futuro do conjuntivo: <i>se Deus quiser</i>, <i>o que for preciso</i>, <i>se for caso disso</i> (formal), <i>como for melhor para si</i>.",
+     "Com repetição: o primeiro verbo no presente do conjuntivo, o segundo no futuro: <i>venha o que vier</i>, <i>seja como for</i>, <i>haja o que houver</i>, <i>custe o que custar</i>.",
+     "Também com <b>conforme</b> (je nachdem): <i>Conforme o médico disser, fazemos mais ou menos sessões.</i>",
+     "Resumo: futuro do conjuntivo depois de <b>se, quando, assim que, logo que, enquanto, sempre que, conforme, como, onde, quem, o que</b> – sempre que se fala de algo <b>futuro e incerto</b>."
+    ],
+    "erklaerung_de": [
+     "Es gibt sehr häufige Wendungen mit dem Futuro do conjuntivo: <i>se Deus quiser</i> (so Gott will), <i>o que for preciso</i> (was nötig ist), <i>se for caso disso</i> (gegebenenfalls, formell), <i>como for melhor para si</i> (wie es für Sie am besten ist).",
+     "Mit Wiederholung: das erste Verb im Presente do conjuntivo, das zweite im Futuro: <i>venha o que vier</i> (komme, was wolle), <i>seja como for</i> (wie auch immer), <i>haja o que houver</i> (was auch passiert), <i>custe o que custar</i> (koste es, was es wolle).",
+     "Auch nach <b>conforme</b> (je nachdem): <i>Conforme o médico disser, fazemos mais ou menos sessões.</i> – Je nachdem, was der Arzt sagt, machen wir mehr oder weniger Sitzungen.",
+     "Zusammenfassung: Futuro do conjuntivo nach <b>se, quando, assim que, logo que, enquanto, sempre que, conforme, como, onde, quem, o que</b> – immer, wenn es um etwas <b>Zukünftiges und Ungewisses</b> geht."
+    ],
+    "vergleich": "Das Deutsche hat für solche Formeln oft noch den alten Konjunktiv: „komme, was wolle“, „koste es, was es wolle“, „so Gott will“. Auch im Portugiesischen sind es feste Wendungen – lerne sie als Ganzes.",
+    "beispiele": [
+     {"pt": "Se Deus quiser, no verão já estou como novo.", "de": "So Gott will, bin ich im Sommer wieder wie neu."},
+     {"pt": "Faço o que for preciso para evitar uma recaída.", "de": "Ich tue, was nötig ist, um einen Rückfall zu vermeiden."},
+     {"pt": "Seja como for, a prevenção é o melhor remédio.", "de": "Wie auch immer, Vorbeugen ist die beste Medizin."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Para a recuperação, faço o que ___ preciso. (ser)", "loesungen": ["for"], "de": "Für die Genesung tue ich, was nötig ist.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Daqui a um mês, se Deus ___, estou como novo. (querer)", "loesungen": ["quiser"], "de": "In einem Monat bin ich, so Gott will, wieder wie neu.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Venha o que ___, não volto a fumar. (vir)", "loesungen": ["vier"], "de": "Komme, was wolle, ich rauche nicht wieder.", "erklaerung": "vir → vieram → vier.", "kategorie": "vir/ver"},
+     {"typ": "luecke", "satz": "Seja como ___, temos de marcar a consulta. (ser)", "loesungen": ["for"], "de": "Wie auch immer, wir müssen den Termin ausmachen.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Conforme o médico ___, fazemos mais ou menos sessões. (dizer)", "loesungen": ["disser"], "de": "Je nachdem, was der Arzt sagt, machen wir mehr oder weniger Sitzungen.", "erklaerung": "disseram → disser.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "Was bedeutet „se for caso disso“?", "optionen": ["gegebenenfalls / falls nötig", "auf jeden Fall", "wie immer"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "So Gott will, bin ich bald wieder wie neu.", "loesungen": ["Se Deus quiser, em breve estou como novo.", "Se Deus quiser, daqui a pouco estou como novo.", "Se Deus quiser, em breve vou estar como novo.", "Se Deus quiser, em breve fico como novo.", "Se Deus quiser, em breve estou como nova."], "kategorie": "Futuro do conjuntivo"},
+     {"typ": "satzbau", "de": "Ich werde alles tun, was nötig ist.", "loesung": "Vou fazer tudo o que for preciso."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um post no fórum – ein Forumsbeitrag",
+    "situation": "Stefan schreibt im Forum „Viver no Algarve“ über seine Knieoperation. Hör dir seinen Beitrag an.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Olá a todos! Há dois meses fui operado ao joelho num hospital privado em Portimão e queria partilhar a minha experiência.", "de": "Hallo zusammen! Vor zwei Monaten wurde ich in einem Privatkrankenhaus in Portimão am Knie operiert und möchte meine Erfahrung teilen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A cirurgia correu muito bem e só fiquei internado dois dias. O seguro cobriu quase tudo: paguei apenas a franquia.", "de": "Die Operation ist sehr gut verlaufen und ich lag nur zwei Tage im Krankenhaus. Die Versicherung hat fast alles übernommen: Ich habe nur die Selbstbeteiligung gezahlt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O pós-operatório foi mais duro do que eu esperava. Durante as primeiras semanas, precisei de muletas.", "de": "Die Zeit nach der OP war härter, als ich erwartet hatte. In den ersten Wochen brauchte ich Krücken."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Agora faço fisioterapia duas vezes por semana. A fisioterapeuta é ótima e já quase não tenho dores.", "de": "Jetzt mache ich zweimal pro Woche Physiotherapie. Die Physiotherapeutin ist super und ich habe kaum noch Schmerzen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O meu conselho: se tiverem de ser operados, perguntem tudo antes e façam o que for preciso na reabilitação.", "de": "Mein Rat: Wenn ihr operiert werden müsst, fragt vorher alles und tut in der Reha, was nötig ist."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E sobretudo, não tenham pressa: o corpo precisa de tempo. Se Deus quiser, no verão já estou como novo!", "de": "Und vor allem: Habt keine Eile, der Körper braucht Zeit. So Gott will, bin ich im Sommer wieder wie neu!"}
+    ],
+    "fragen": [
+     {"frage": "Onde foi o Stefan operado?", "optionen": ["Num hospital público em Faro.", "Num hospital privado em Portimão.", "Num hospital em Lisboa."], "richtig": 1},
+     {"frage": "Quanto pagou o Stefan pela cirurgia?", "optionen": ["Só a franquia.", "Nada.", "A cirurgia toda."], "richtig": 0},
+     {"frage": "Qual é o conselho do Stefan?", "optionen": ["Evitar a fisioterapia.", "Não fazer seguro de saúde.", "Fazer o que for preciso na reabilitação e não ter pressa."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "O seu amigo Pedro pergunta pelo seu joelho. – Dein Freund Pedro fragt nach deinem Knie.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então, Stefan, como vai esse joelho?", "de": "Na, Stefan, was macht das Knie?"},
+     {"ich": true, "aufgabe": "Diga: Muito melhor, obrigado. Ainda faço fisioterapia. – Sag: Viel besser, danke. Ich mache noch Physiotherapie.", "loesungen": ["Muito melhor, obrigado. Ainda faço fisioterapia.", "Muito melhor, obrigado. Ainda estou a fazer fisioterapia.", "Está muito melhor, obrigado. Ainda faço fisioterapia.", "Muito melhor, obrigado. Ainda ando a fazer fisioterapia."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E quando voltas ao ténis? Estamos com saudades tuas no clube!", "de": "Und wann kommst du zurück zum Tennis? Wir vermissen dich im Klub!"},
+     {"ich": true, "aufgabe": "Diga: Se Deus quiser, no verão – se o médico deixar. – Sag: So Gott will, im Sommer – wenn der Arzt es erlaubt.", "loesungen": ["Se Deus quiser, no verão, se o médico deixar.", "Se Deus quiser, no verão, se o médico autorizar.", "Se Deus quiser, no verão – se o médico deixar.", "Se Deus quiser, no verão, se o médico permitir."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Bem, faz o que for preciso. Não tenhas pressa!", "de": "Na ja, tu, was nötig ist. Hab keine Eile!"},
+     {"ich": true, "aufgabe": "Diga: Não te preocupes. Quando voltar a jogar, convido-te para jantar. – Sag: Keine Sorge. Wenn ich wieder spiele, lade ich dich zum Abendessen ein.", "loesungen": ["Não te preocupes. Quando voltar a jogar, convido-te para jantar.", "Não te preocupes. Quando voltar a jogar, convido-te para um jantar.", "Não te preocupes! Quando voltar a jogar, convido-te para jantar.", "Não te preocupes. Quando eu voltar a jogar, convido-te para jantar."]}
+    ]
+   },
+   "saetze": [
+    {"id": "se-deus-quiser-como-novo", "pt": "Se Deus quiser, no verão já estou como novo.", "de": "So Gott will, bin ich im Sommer wieder wie neu."},
+    {"id": "faco-o-que-for-preciso", "pt": "Faço o que for preciso para recuperar.", "de": "Ich tue, was nötig ist, um wieder gesund zu werden."},
+    {"id": "seja-como-for-prevencao", "pt": "Seja como for, a prevenção é o melhor remédio.", "de": "Wie auch immer, Vorbeugen ist die beste Medizin."}
+   ]
+  },
+  {"id": "B1-07-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-07-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Uma mensagem da clínica – eine Nachricht von der Klinik",
+   "situation": "Stefan hört eine Nachricht auf seiner Mailbox ab.",
+   "zeilen": [
+    {"sprecher": "Rececionista", "stimme": "f", "pt": "Bom dia, senhor Stefan. Fala a Marta, da Clínica do Mar, em Lagos.", "de": "Guten Morgen, Herr Stefan. Hier spricht Marta von der Clínica do Mar in Lagos."},
+    {"sprecher": "Rececionista", "stimme": "f", "pt": "Os resultados da sua ressonância magnética já chegaram. O doutor Ramos quer vê-lo antes de decidir sobre a cirurgia.", "de": "Die Ergebnisse Ihrer MRT sind da. Dr. Ramos möchte Sie sehen, bevor er über die Operation entscheidet."},
+    {"sprecher": "Rececionista", "stimme": "f", "pt": "Temos vaga na quinta-feira às onze ou na sexta às quatro e meia. Quando ouvir esta mensagem, ligue-nos, por favor.", "de": "Wir haben am Donnerstag um elf oder am Freitag um halb fünf einen Termin frei. Wenn Sie diese Nachricht hören, rufen Sie uns bitte an."},
+    {"sprecher": "Rececionista", "stimme": "f", "pt": "Também pode marcar pela aplicação, se preferir.", "de": "Sie können auch über die App buchen, wenn Ihnen das lieber ist."},
+    {"sprecher": "Rececionista", "stimme": "f", "pt": "Não se esqueça de trazer o cartão do seguro: a clínica pertence à rede convencionada e só paga o copagamento.", "de": "Vergessen Sie nicht, die Versicherungskarte mitzubringen: Die Klinik gehört zum Vertragsnetz und Sie zahlen nur den Eigenanteil."},
+    {"sprecher": "Rececionista", "stimme": "f", "pt": "Estamos cá das nove às sete, se tiver alguma dúvida. Bom dia!", "de": "Wir sind von neun bis sieben da, falls Sie Fragen haben. Schönen Tag!"}
+   ],
+   "fragen": [
+    {"frage": "Porque é que a clínica liga ao Stefan?", "optionen": ["Porque os resultados da ressonância chegaram.", "Porque a cirurgia foi cancelada.", "Porque ele não pagou a consulta."], "richtig": 0},
+    {"frage": "Em que dias há vaga?", "optionen": ["Segunda e terça.", "Quinta e sexta.", "Só no sábado."], "richtig": 1},
+    {"frage": "O que deve o Stefan levar?", "optionen": ["A receita.", "As análises.", "O cartão do seguro."], "richtig": 2},
+    {"frage": "Quanto vai pagar pela consulta?", "optionen": ["Nada.", "Só o copagamento.", "A consulta toda."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Indicações pós-operatórias – Hinweise nach der Operation",
+   "situation": "Ein Merkblatt, das Stefan bei der Entlassung bekommt.",
+   "text": [
+    "Clínica do Mar – Indicações para depois da cirurgia ao joelho",
+    "Durante as primeiras 48 horas, mantenha a perna elevada e aplique gelo três vezes por dia.",
+    "Enquanto tiver os pontos, não molhe o penso. Os pontos são retirados ao fim de 10 a 12 dias, no centro de saúde ou na clínica.",
+    "Tome o anti-inflamatório de 12 em 12 horas, depois das refeições. O analgésico deve ser tomado apenas em SOS.",
+    "Contacte-nos de imediato se tiver febre acima de 38 °C, se o joelho ficar muito inchado ou se sentir uma dor latejante que não passa.",
+    "Assim que puder apoiar o pé sem dor, comece os exercícios de fisioterapia indicados. Quem quiser pode fazer as sessões na nossa clínica."
+   ],
+   "fragen": [
+    {"frage": "O que deve o doente fazer nas primeiras 48 horas?", "optionen": ["Fazer fisioterapia.", "Manter a perna elevada e pôr gelo.", "Tirar os pontos."], "richtig": 1},
+    {"frage": "Quando são retirados os pontos?", "optionen": ["Ao fim de 10 a 12 dias.", "Ao fim de 48 horas.", "Depois da fisioterapia."], "richtig": 0},
+    {"frage": "Quando deve contactar a clínica de imediato?", "optionen": ["Quando acabar o analgésico.", "Quando tiver fome.", "Se tiver febre acima de 38 °C."], "richtig": 2},
+    {"frage": "Quando começa os exercícios de fisioterapia?", "optionen": ["No dia seguinte à cirurgia.", "Assim que puder apoiar o pé sem dor.", "Só depois de tirar os pontos."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Wenn ich die Ergebnisse habe, rufe ich Sie an.", "loesungen": ["Quando tiver os resultados, ligo-lhe.", "Assim que tiver os resultados, ligo-lhe.", "Quando tiver os resultados, telefono-lhe.", "Quando eu tiver os resultados, ligo-lhe.", "Logo que tiver os resultados, ligo-lhe."]},
+   {"de": "Wenn Sie etwas brauchen, rufen Sie die Krankenschwester.", "loesungen": ["Se precisar de alguma coisa, chame a enfermeira.", "Chame a enfermeira se precisar de alguma coisa.", "Se precisar de alguma coisa, chame o enfermeiro."]},
+   {"de": "Wer will, kann in einem Einzelzimmer bleiben.", "loesungen": ["Quem quiser pode ficar num quarto individual.", "Quem quiser, pode ficar num quarto individual.", "Quem quiser pode ficar num quarto individual."]},
+   {"de": "Solange Sie die Fäden haben, gehen Sie nicht ins Meer.", "loesungen": ["Enquanto tiver os pontos, não vá ao mar.", "Enquanto estiver com os pontos, não vá ao mar.", "Enquanto tiver os pontos, não entre no mar.", "Enquanto tiver os pontos, não tome banho de mar.", "Enquanto estiver com os pontos, não tome banho de mar."]},
+   {"de": "Ist die Operation von der Versicherung gedeckt?", "loesungen": ["A cirurgia está coberta pelo seguro?", "A operação está coberta pelo seguro?", "A cirurgia é coberta pelo seguro?"]},
+   {"de": "Sobald ich es weiß, sage ich es dir.", "loesungen": ["Assim que souber, digo-te.", "Logo que souber, digo-te.", "Assim que eu souber, digo-te.", "Quando souber, digo-te."]}
+  ],
+  "sprechen": [
+   {"pt": "Quando puder, descreva-me os sintomas.", "de": "Wenn Sie können, beschreiben Sie mir die Symptome."},
+   {"pt": "Sou alérgico à penicilina.", "de": "Ich bin allergisch gegen Penicillin."},
+   {"pt": "Assim que tiver o diagnóstico, ligo-lhe.", "de": "Sobald ich die Diagnose habe, rufe ich Sie an."},
+   {"pt": "Isto está coberto pelo seguro?", "de": "Ist das von der Versicherung gedeckt?"},
+   {"pt": "Se Deus quiser, no verão já estou como novo.", "de": "So Gott will, bin ich im Sommer wieder wie neu."}
+  ]
+ }
+}

@@ -1,0 +1,887 @@
+{
+ "id": "B1-09",
+ "level": "B1",
+ "titel": "Cultura – Fado, Gastronomie und Feste",
+ "beschreibung": "Portugiesische Kultur erleben – Fado, regionale Küche, Feste, Azulejos und Kunsthandwerk, Literatur und Musik – und selbst ein Fest organisieren. Grammatik: kombinierte Objektpronomen (dá-mo, dei-lho, já lho disse, não ma deu) und die Mesoklise erkennen (dar-lhe-ei, far-se-á).",
+ "vokabeln": [
+  {"id": "o-fado", "pt": "o fado", "de": "der Fado", "emoji": "🎶", "beispiel_pt": "O fado é Património Imaterial da Humanidade desde 2011.", "beispiel_de": "Der Fado ist seit 2011 immaterielles Kulturerbe der Menschheit.", "hinweis": "Von lateinisch fatum = Schicksal. Zwei Traditionen: Lisboa (Alfama, Mouraria) und Coimbra (Studenten, nur Männer)."},
+  {"id": "o-fadista", "pt": "o fadista", "de": "der Fadosänger / die Fadosängerin", "emoji": "🎤", "beispiel_pt": "A fadista cantou de olhos fechados.", "beispiel_de": "Die Fadosängerin sang mit geschlossenen Augen.", "alternativen": ["a fadista"]},
+  {"id": "a-guitarra-portuguesa", "pt": "a guitarra portuguesa", "de": "die portugiesische Gitarre", "emoji": "🪕", "beispiel_pt": "A guitarra portuguesa tem doze cordas.", "beispiel_de": "Die portugiesische Gitarre hat zwölf Saiten.", "hinweis": "Birnenförmig, sechs Doppelsaiten – sie spielt im Fado die Melodie."},
+  {"id": "a-viola", "pt": "a viola", "de": "die (klassische) Gitarre", "emoji": "🎸", "passiv": true, "beispiel_pt": "No fado, a viola acompanha a guitarra portuguesa.", "beispiel_de": "Im Fado begleitet die klassische Gitarre die portugiesische Gitarre.", "hinweis": "In Portugal heißt die „normale“ Gitarre meist viola; guitarra ist im Fado die portugiesische Gitarre."},
+  {"id": "a-saudade", "pt": "a saudade", "de": "die Saudade (wehmütige Sehnsucht)", "emoji": "🌊", "beispiel_pt": "O fado canta a saudade de quem partiu.", "beispiel_de": "Der Fado besingt die Sehnsucht nach denen, die fortgegangen sind.", "hinweis": "Kaum übersetzbar: Sehnsucht + Wehmut + Erinnerung. Im Alltag: ter saudades de alguém."},
+  {"id": "a-casa-de-fados", "pt": "a casa de fados", "de": "das Fadolokal", "emoji": "🏮", "beispiel_pt": "Jantámos numa casa de fados em Alfama.", "beispiel_de": "Wir haben in einem Fadolokal in der Alfama zu Abend gegessen."},
+  {"id": "o-xaile", "pt": "o xaile", "de": "das Umschlagtuch", "emoji": "🧣", "passiv": true, "beispiel_pt": "A fadista usava um xaile preto.", "beispiel_de": "Die Fadosängerin trug ein schwarzes Umschlagtuch.", "hinweis": "Das schwarze Tuch ist ein Symbol des Fado – berühmt durch Amália Rodrigues."},
+  {"id": "comovente", "pt": "comovente", "de": "bewegend / ergreifend", "emoji": "🥹", "beispiel_pt": "Foi uma noite muito comovente.", "beispiel_de": "Es war ein sehr bewegender Abend.", "hinweis": "comover-se = gerührt sein"},
+  {"id": "ficar-arrepiado", "pt": "ficar arrepiado", "de": "Gänsehaut bekommen", "emoji": "😮", "beispiel_pt": "Quando ela cantou, fiquei arrepiado.", "beispiel_de": "Als sie sang, bekam ich Gänsehaut.", "alternativen": ["ficar arrepiada"]},
+
+  {"id": "a-cataplana", "pt": "a cataplana", "de": "die Cataplana (Kupfertopf / Schmorgericht)", "emoji": "🥘", "beispiel_pt": "Pedimos uma cataplana de marisco para dois.", "beispiel_de": "Wir haben eine Meeresfrüchte-Cataplana für zwei bestellt.", "hinweis": "Muschelförmiger Kupfertopf aus dem Algarve – und das Gericht, das darin gekocht wird."},
+  {"id": "o-xerem", "pt": "o xerém", "de": "der Xerém (Maisbrei)", "emoji": "🌽", "passiv": true, "beispiel_pt": "O xerém com conquilhas é um prato muito antigo do Algarve.", "beispiel_de": "Xerém mit Sandmuscheln ist ein sehr altes Gericht der Algarve.", "hinweis": "as conquilhas = kleine Sandmuscheln"},
+  {"id": "o-dom-rodrigo", "pt": "o Dom Rodrigo", "de": "der Dom Rodrigo (Süßigkeit aus Eierfäden und Mandeln)", "emoji": "🍬", "passiv": true, "beispiel_pt": "O Dom Rodrigo vem embrulhado em papel colorido.", "beispiel_de": "Der Dom Rodrigo ist in buntes Papier eingewickelt.", "hinweis": "Klostersüßigkeit aus dem Algarve: fios de ovos (Eierfäden), Mandeln, Zucker."},
+  {"id": "os-doces-conventuais", "pt": "os doces conventuais", "de": "die Klostersüßigkeiten", "emoji": "⛪", "passiv": true, "beispiel_pt": "Os doces conventuais levam muitas gemas de ovo.", "beispiel_de": "In Klostersüßigkeiten kommen viele Eigelb.", "hinweis": "Die Nonnen verwendeten das Eigelb, das übrig blieb – das Eiweiß diente zum Stärken der Wäsche."},
+  {"id": "a-amendoa", "pt": "a amêndoa", "de": "die Mandel", "emoji": "🌰", "beispiel_pt": "Os doces do Algarve são feitos com amêndoa e figo.", "beispiel_de": "Die Süßigkeiten der Algarve werden aus Mandeln und Feigen gemacht.", "hinweis": "a amendoeira = der Mandelbaum (blüht im Jänner und Februar)"},
+  {"id": "o-figo", "pt": "o figo", "de": "die Feige", "emoji": "🟣", "beispiel_pt": "A vizinha deu-nos figos do quintal.", "beispiel_de": "Die Nachbarin hat uns Feigen aus dem Garten geschenkt.", "hinweis": "a figueira = der Feigenbaum; os figos secos = getrocknete Feigen"},
+  {"id": "o-polvo", "pt": "o polvo", "de": "der Oktopus / die Krake", "emoji": "🐙", "beispiel_pt": "Santa Luzia, perto de Tavira, é a capital do polvo.", "beispiel_de": "Santa Luzia bei Tavira ist die Hauptstadt des Oktopus.", "hinweis": "polvo à lagareiro = Oktopus aus dem Ofen mit viel Olivenöl"},
+  {"id": "o-prato-tipico", "pt": "o prato típico", "de": "das typische Gericht", "emoji": "🍽️", "beispiel_pt": "Qual é o prato típico desta região?", "beispiel_de": "Was ist das typische Gericht dieser Region?"},
+  {"id": "o-leitao", "pt": "o leitão", "de": "das Spanferkel", "emoji": "🐖", "passiv": true, "beispiel_pt": "Na Bairrada come-se leitão assado.", "beispiel_de": "In der Bairrada isst man Spanferkel aus dem Ofen."},
+
+  {"id": "o-segredo", "pt": "o segredo", "de": "das Geheimnis", "emoji": "🤫", "beispiel_pt": "Qual é o segredo deste bolo?", "beispiel_de": "Was ist das Geheimnis dieses Kuchens?", "hinweis": "guardar segredo = ein Geheimnis bewahren"},
+  {"id": "o-livro-de-receitas", "pt": "o livro de receitas", "de": "das Kochbuch", "emoji": "📒", "beispiel_pt": "A Ana herdou o livro de receitas da avó.", "beispiel_de": "Ana hat das Kochbuch ihrer Großmutter geerbt."},
+  {"id": "passar", "pt": "passar", "de": "(herüber)reichen", "emoji": "🫴", "beispiel_pt": "Passas-me o sal? – Passo-to já.", "beispiel_de": "Reichst du mir das Salz? – Ich reiche es dir sofort.", "hinweis": "passar hat viele Bedeutungen: vorbeigehen, verbringen, bestehen (Prüfung), reichen …"},
+  {"id": "a-lembranca", "pt": "a lembrança", "de": "das Andenken / kleine Mitbringsel", "emoji": "🎁", "beispiel_pt": "Trouxe-te uma lembrança de Viena.", "beispiel_de": "Ich habe dir ein kleines Andenken aus Wien mitgebracht."},
+  {"id": "guardar", "pt": "guardar", "de": "aufbewahren / aufheben", "emoji": "🗄️", "beispiel_pt": "Guardo as receitas da minha mãe numa caixa.", "beispiel_de": "Ich bewahre die Rezepte meiner Mutter in einer Schachtel auf."},
+  {"id": "o-truque", "pt": "o truque", "de": "der Trick / Kniff", "emoji": "🪄", "beispiel_pt": "O truque é cozinhar em lume brando.", "beispiel_de": "Der Trick ist, auf kleiner Flamme zu kochen.", "hinweis": "em lume brando = auf kleiner Flamme"},
+  {"id": "herdar", "pt": "herdar", "de": "erben", "emoji": "📜", "passiv": true, "beispiel_pt": "Herdei esta cataplana da minha avó.", "beispiel_de": "Diese Cataplana habe ich von meiner Großmutter geerbt."},
+  {"id": "o-tacho", "pt": "o tacho", "de": "der Kochtopf", "emoji": "🍲", "passiv": true, "beispiel_pt": "Põe o tacho ao lume.", "beispiel_de": "Stell den Topf auf den Herd.", "hinweis": "auch: a panela; ao lume = auf den Herd / aufs Feuer"},
+  {"id": "a-colher-de-pau", "pt": "a colher de pau", "de": "der Holzkochlöffel", "emoji": "🥄", "passiv": true, "beispiel_pt": "Mexe o molho com a colher de pau.", "beispiel_de": "Rühr die Soße mit dem Holzlöffel um."},
+
+  {"id": "o-espetaculo", "pt": "o espetáculo", "de": "die Vorstellung / Show", "emoji": "🎭", "beispiel_pt": "O espetáculo começa às nove em ponto.", "beispiel_de": "Die Vorstellung beginnt pünktlich um neun.", "hinweis": "Neue Rechtschreibung: espetáculo (ohne c)"},
+  {"id": "esgotado", "pt": "esgotado", "de": "ausverkauft / erschöpft", "emoji": "🚫", "beispiel_pt": "Os bilhetes para sábado estão esgotados.", "beispiel_de": "Die Karten für Samstag sind ausverkauft.", "alternativen": ["esgotada"], "hinweis": "Estou esgotado = Ich bin völlig erschöpft."},
+  {"id": "a-primeira-fila", "pt": "a primeira fila", "de": "die erste Reihe", "emoji": "1️⃣", "beispiel_pt": "Sentámo-nos na primeira fila.", "beispiel_de": "Wir haben uns in die erste Reihe gesetzt."},
+  {"id": "a-plateia", "pt": "a plateia", "de": "das Parkett / das Publikum", "emoji": "💺", "passiv": true, "beispiel_pt": "Tenho dois lugares na plateia, ao centro.", "beispiel_de": "Ich habe zwei Plätze im Parkett, in der Mitte."},
+  {"id": "o-camarim", "pt": "o camarim", "de": "die Künstlergarderobe", "emoji": "🚪", "passiv": true, "beispiel_pt": "Depois do concerto, fomos ao camarim.", "beispiel_de": "Nach dem Konzert sind wir in die Garderobe gegangen."},
+  {"id": "o-autografo", "pt": "o autógrafo", "de": "das Autogramm", "emoji": "✍️", "passiv": true, "beispiel_pt": "A fadista deu-me um autógrafo.", "beispiel_de": "Die Fadosängerin hat mir ein Autogramm gegeben."},
+  {"id": "o-cartaz", "pt": "o cartaz", "de": "das Plakat / das Programm (Line-up)", "emoji": "🪧", "beispiel_pt": "O cartaz do festival deste ano é ótimo.", "beispiel_de": "Das Line-up des Festivals ist heuer super.", "hinweis": "Plural: os cartazes; estar em cartaz = auf dem Spielplan stehen"},
+  {"id": "a-estreia", "pt": "a estreia", "de": "die Premiere", "emoji": "🌟", "passiv": true, "beispiel_pt": "A estreia do filme é na sexta-feira.", "beispiel_de": "Die Premiere des Films ist am Freitag."},
+
+  {"id": "o-boato", "pt": "o boato", "de": "das Gerücht", "emoji": "🗯️", "beispiel_pt": "Isso é só um boato.", "beispiel_de": "Das ist nur ein Gerücht."},
+  {"id": "espalhar", "pt": "espalhar", "de": "verbreiten", "emoji": "📢", "beispiel_pt": "Quem espalhou esse boato?", "beispiel_de": "Wer hat dieses Gerücht verbreitet?"},
+  {"id": "desmentir", "pt": "desmentir", "de": "dementieren / richtigstellen", "emoji": "🙅", "passiv": true, "beispiel_pt": "A câmara desmentiu a notícia.", "beispiel_de": "Das Rathaus hat die Nachricht dementiert.", "hinweis": "eu desminto, ele desmente"},
+  {"id": "esconder", "pt": "esconder", "de": "verstecken / verheimlichen", "emoji": "🙈", "beispiel_pt": "Não te escondo nada.", "beispiel_de": "Ich verheimliche dir nichts."},
+  {"id": "juro", "pt": "Juro!", "de": "Ich schwöre!", "emoji": "✋", "beispiel_pt": "Não contei a ninguém, juro!", "beispiel_de": "Ich habe es niemandem erzählt, ich schwöre!", "hinweis": "jurar = schwören"},
+  {"id": "coscuvilhar", "pt": "coscuvilhar", "de": "tratschen", "emoji": "🗣️", "passiv": true, "beispiel_pt": "No café da aldeia coscuvilha-se muito.", "beispiel_de": "Im Dorfcafé wird viel getratscht.", "hinweis": "a coscuvilhice = der Tratsch; coscuvilheiro = tratschsüchtig"},
+  {"id": "as-escondidas", "pt": "às escondidas", "de": "heimlich", "emoji": "🕵️", "passiv": true, "beispiel_pt": "Comeu o bolo às escondidas.", "beispiel_de": "Er hat den Kuchen heimlich gegessen."},
+  {"id": "de-proposito", "pt": "de propósito", "de": "absichtlich", "emoji": "🎯", "beispiel_pt": "Desculpa, não foi de propósito.", "beispiel_de": "Entschuldige, das war keine Absicht."},
+
+  {"id": "realizar-se", "pt": "realizar-se", "de": "stattfinden", "emoji": "📅", "beispiel_pt": "O festival realiza-se em agosto.", "beispiel_de": "Das Festival findet im August statt.", "hinweis": "Formell: realizar-se-á = wird stattfinden"},
+  {"id": "decorrer", "pt": "decorrer", "de": "stattfinden / (ab)laufen", "emoji": "⏱️", "beispiel_pt": "As inscrições decorrem até ao fim do mês.", "beispiel_de": "Die Anmeldungen laufen bis Monatsende.", "hinweis": "Como decorreu? = Wie ist es verlaufen?"},
+  {"id": "a-edicao", "pt": "a edição", "de": "die Ausgabe (eines Festivals)", "emoji": "🔢", "passiv": true, "beispiel_pt": "Esta é a vigésima edição do festival.", "beispiel_de": "Das ist die zwanzigste Ausgabe des Festivals."},
+  {"id": "o-recinto", "pt": "o recinto", "de": "das (Veranstaltungs-)Gelände", "emoji": "🎪", "passiv": true, "beispiel_pt": "O recinto abre às sete da tarde.", "beispiel_de": "Das Gelände öffnet um sieben Uhr abends."},
+  {"id": "a-abertura", "pt": "a abertura", "de": "die Eröffnung", "emoji": "🎀", "beispiel_pt": "A abertura das festas é na quinta-feira.", "beispiel_de": "Die Eröffnung des Festes ist am Donnerstag."},
+  {"id": "o-encerramento", "pt": "o encerramento", "de": "der Abschluss / die Schließung", "emoji": "🏁", "passiv": true, "beispiel_pt": "No encerramento haverá fogo de artifício.", "beispiel_de": "Zum Abschluss wird es ein Feuerwerk geben."},
+  {"id": "a-entrada-livre", "pt": "a entrada livre", "de": "freier Eintritt", "emoji": "🆓", "beispiel_pt": "Os concertos têm entrada livre.", "beispiel_de": "Bei den Konzerten ist der Eintritt frei.", "alternativen": ["a entrada gratuita"]},
+  {"id": "o-municipio", "pt": "o município", "de": "die Gemeinde", "emoji": "🏛️", "passiv": true, "beispiel_pt": "O município de Lagos organiza as festas.", "beispiel_de": "Die Gemeinde Lagos organisiert das Fest.", "hinweis": "o concelho = der Gemeindebezirk; a câmara municipal = die Gemeindeverwaltung"},
+  {"id": "divulgar", "pt": "divulgar", "de": "bekannt geben / verbreiten", "emoji": "📣", "passiv": true, "beispiel_pt": "O programa vai ser divulgado amanhã.", "beispiel_de": "Das Programm wird morgen bekannt gegeben."},
+
+  {"id": "o-carnaval", "pt": "o Carnaval", "de": "der Fasching / Karneval", "emoji": "🎭", "beispiel_pt": "O Carnaval de Loulé é um dos mais antigos do país.", "beispiel_de": "Der Karneval von Loulé ist einer der ältesten des Landes."},
+  {"id": "o-desfile", "pt": "o desfile", "de": "der Umzug / die Parade", "emoji": "🎺", "beispiel_pt": "O desfile passa pela avenida principal.", "beispiel_de": "Der Umzug zieht über die Hauptstraße.", "hinweis": "Beim Karneval sagt man auch o corso."},
+  {"id": "o-carro-alegorico", "pt": "o carro alegórico", "de": "der Faschingswagen / Festwagen", "emoji": "🚚", "passiv": true, "beispiel_pt": "Os carros alegóricos gozam com os políticos.", "beispiel_de": "Die Faschingswagen machen sich über die Politiker lustig.", "hinweis": "gozar com alguém = sich über jemanden lustig machen"},
+  {"id": "mascarar-se", "pt": "mascarar-se", "de": "sich verkleiden", "emoji": "🥸", "beispiel_pt": "Este ano mascarei-me de pirata.", "beispiel_de": "Heuer habe ich mich als Pirat verkleidet.", "hinweis": "o disfarce = das Kostüm"},
+  {"id": "a-consoada", "pt": "a Consoada", "de": "das Festessen am Heiligen Abend", "emoji": "🎄", "beispiel_pt": "Na Consoada come-se bacalhau com couves.", "beispiel_de": "Am Heiligen Abend isst man Stockfisch mit Kohl.", "hinweis": "a noite de Consoada = der Heilige Abend (24. Dezember)"},
+  {"id": "o-bolo-rei", "pt": "o bolo-rei", "de": "der Königskuchen", "emoji": "👑", "beispiel_pt": "Quem encontrar a fava no bolo-rei paga o próximo.", "beispiel_de": "Wer die Bohne im Königskuchen findet, zahlt den nächsten.", "hinweis": "Kranzkuchen mit kandierten Früchten – von Weihnachten bis zum Dreikönigstag (Dia de Reis, 6. Jänner)."},
+  {"id": "as-filhos", "pt": "as filhós", "de": "die Weihnachtskrapfen", "emoji": "🍩", "passiv": true, "beispiel_pt": "A minha sogra faz filhós todos os natais.", "beispiel_de": "Meine Schwiegermutter macht jedes Weihnachten Krapfen.", "hinweis": "Singular: a filhó; regional auch as filhoses. Dazu gibt es rabanadas (eine Art „armer Ritter“)."},
+  {"id": "a-missa-do-galo", "pt": "a missa do galo", "de": "die Christmette", "emoji": "🔔", "passiv": true, "beispiel_pt": "À meia-noite vamos à missa do galo.", "beispiel_de": "Um Mitternacht gehen wir zur Christmette."},
+  {"id": "o-fogo-de-artificio", "pt": "o fogo de artifício", "de": "das Feuerwerk", "emoji": "🎆", "beispiel_pt": "Vimos o fogo de artifício na praia.", "beispiel_de": "Wir haben das Feuerwerk am Strand gesehen."},
+  {"id": "a-passagem-de-ano", "pt": "a passagem de ano", "de": "Silvester / der Jahreswechsel", "emoji": "🥂", "beispiel_pt": "Onde vão passar a passagem de ano?", "beispiel_de": "Wo verbringt ihr Silvester?", "hinweis": "À meia-noite comem-se doze passas, uma por cada desejo."},
+
+  {"id": "o-azulejo", "pt": "o azulejo", "de": "die (bemalte) Fliese / der Azulejo", "emoji": "🟦", "beispiel_pt": "A fachada da igreja é coberta de azulejos.", "beispiel_de": "Die Fassade der Kirche ist mit Azulejos bedeckt.", "hinweis": "Das Wort kommt aus dem Arabischen (az-zulayj = kleiner polierter Stein)."},
+  {"id": "o-painel-de-azulejos", "pt": "o painel de azulejos", "de": "das Fliesenbild", "emoji": "🖼️", "passiv": true, "beispiel_pt": "Na estação há um painel de azulejos enorme.", "beispiel_de": "Im Bahnhof gibt es ein riesiges Fliesenbild."},
+  {"id": "a-olaria", "pt": "a olaria", "de": "die Töpferei", "emoji": "🏺", "passiv": true, "beispiel_pt": "Em Porches há uma olaria muito conhecida.", "beispiel_de": "In Porches gibt es eine sehr bekannte Töpferei.", "hinweis": "o oleiro = der Töpfer"},
+  {"id": "o-barro", "pt": "o barro", "de": "der Ton / Lehm", "emoji": "🟫", "beispiel_pt": "Comprámos uma jarra de barro.", "beispiel_de": "Wir haben eine Tonvase gekauft."},
+  {"id": "feito-a-mao", "pt": "feito à mão", "de": "handgemacht", "emoji": "🖐️", "beispiel_pt": "Tudo nesta loja é feito à mão.", "beispiel_de": "Alles in diesem Geschäft ist handgemacht.", "alternativen": ["feita à mão"], "hinweis": "pintado à mão = handbemalt"},
+  {"id": "o-artesao", "pt": "o artesão", "de": "der Kunsthandwerker", "emoji": "🧑‍🎨", "passiv": true, "beispiel_pt": "Os artesãos vendem as peças na feira.", "beispiel_de": "Die Kunsthandwerker verkaufen ihre Stücke auf dem Markt.", "alternativen": ["a artesã"], "hinweis": "Plural: os artesãos; weiblich: a artesã"},
+  {"id": "a-chamine", "pt": "a chaminé", "de": "der Schornstein / Kamin", "emoji": "🏠", "passiv": true, "beispiel_pt": "As chaminés algarvias parecem de renda.", "beispiel_de": "Die Algarve-Schornsteine sehen aus wie aus Spitze.", "hinweis": "Typisch Algarve: weiße, durchbrochene Ziergeschornsteine."},
+  {"id": "a-renda-de-bilros", "pt": "a renda de bilros", "de": "die Klöppelspitze", "emoji": "🧵", "passiv": true, "beispiel_pt": "Em Vila do Conde ainda se faz renda de bilros.", "beispiel_de": "In Vila do Conde wird noch Klöppelspitze gemacht.", "hinweis": "Achtung: a renda allein heißt meist „die Miete“."},
+  {"id": "o-tapete-de-arraiolos", "pt": "o tapete de Arraiolos", "de": "der Arraiolos-Teppich (handgestickt)", "emoji": "🧶", "passiv": true, "beispiel_pt": "O tapete de Arraiolos da sala tem cem anos.", "beispiel_de": "Der Arraiolos-Teppich im Wohnzimmer ist hundert Jahre alt.", "hinweis": "Handgestickte Wollteppiche aus dem Alentejo."},
+
+  {"id": "o-romance", "pt": "o romance", "de": "der Roman", "emoji": "📕", "beispiel_pt": "Estou a ler um romance do Saramago.", "beispiel_de": "Ich lese gerade einen Roman von Saramago.", "hinweis": "Falscher Freund: romance = Roman (nicht nur Liebesgeschichte)."},
+  {"id": "o-escritor", "pt": "o escritor", "de": "der Schriftsteller", "emoji": "✒️", "beispiel_pt": "O Saramago é um escritor português muito traduzido.", "beispiel_de": "Saramago ist ein viel übersetzter portugiesischer Schriftsteller.", "alternativen": ["a escritora"]},
+  {"id": "o-poeta", "pt": "o poeta", "de": "der Dichter", "emoji": "🪶", "beispiel_pt": "Fernando Pessoa é o poeta mais famoso de Portugal.", "beispiel_de": "Fernando Pessoa ist der berühmteste Dichter Portugals.", "alternativen": ["a poetisa", "a poeta"]},
+  {"id": "a-poesia", "pt": "a poesia", "de": "die Dichtung / Lyrik", "emoji": "📜", "beispiel_pt": "Prefiro poesia a romances.", "beispiel_de": "Ich mag Lyrik lieber als Romane.", "hinweis": "o poema = das Gedicht"},
+  {"id": "a-obra", "pt": "a obra", "de": "das Werk", "emoji": "📚", "beispiel_pt": "A obra de Camões é estudada em todas as escolas.", "beispiel_de": "Das Werk von Camões wird in allen Schulen gelesen.", "hinweis": "Plural as obras auch: die Bauarbeiten"},
+  {"id": "a-banda", "pt": "a banda", "de": "die Band / die Musikkapelle", "emoji": "🥁", "beispiel_pt": "A banda filarmónica toca nas festas da aldeia.", "beispiel_de": "Die Blaskapelle spielt bei den Dorffesten."},
+  {"id": "o-heteronimo", "pt": "o heterónimo", "de": "das Heteronym (erfundener Dichter mit eigenem Stil)", "emoji": "🎭", "passiv": true, "beispiel_pt": "Álvaro de Campos é um heterónimo de Pessoa.", "beispiel_de": "Álvaro de Campos ist ein Heteronym von Pessoa."},
+  {"id": "o-premio-nobel", "pt": "o Prémio Nobel", "de": "der Nobelpreis", "emoji": "🏅", "passiv": true, "beispiel_pt": "O Saramago ganhou o Prémio Nobel da Literatura em 1998.", "beispiel_de": "Saramago gewann 1998 den Literaturnobelpreis.", "hinweis": "pt-PT: prémio (mit é)"},
+  {"id": "o-cantautor", "pt": "o cantautor", "de": "der Liedermacher", "emoji": "🎙️", "passiv": true, "beispiel_pt": "O Zeca Afonso foi um grande cantautor.", "beispiel_de": "Zeca Afonso war ein großer Liedermacher.", "hinweis": "Sein „Grândola, Vila Morena“ war 1974 das Signal für die Nelkenrevolution."},
+
+  {"id": "a-lista-de-convidados", "pt": "a lista de convidados", "de": "die Gästeliste", "emoji": "📋", "beispiel_pt": "Já fizeste a lista de convidados?", "beispiel_de": "Hast du die Gästeliste schon gemacht?"},
+  {"id": "o-convidado", "pt": "o convidado", "de": "der Gast", "emoji": "🧑‍🤝‍🧑", "beispiel_pt": "Os convidados chegam às oito.", "beispiel_de": "Die Gäste kommen um acht.", "alternativen": ["a convidada"], "hinweis": "Estás convidado! = Du bist eingeladen!"},
+  {"id": "a-decoracao", "pt": "a decoração", "de": "die Dekoration", "emoji": "🎈", "beispiel_pt": "A Rita trata da decoração.", "beispiel_de": "Rita kümmert sich um die Dekoration."},
+  {"id": "o-petisco", "pt": "o petisco", "de": "der Happen / das Häppchen (Tapas)", "emoji": "🍢", "beispiel_pt": "Vamos servir petiscos em vez de jantar.", "beispiel_de": "Wir servieren Häppchen statt eines Abendessens.", "hinweis": "petiscar = eine Kleinigkeit essen; uma tasca = eine einfache Kneipe"},
+  {"id": "encarregar-se-de", "pt": "encarregar-se de", "de": "sich kümmern um / übernehmen", "emoji": "🙋", "beispiel_pt": "Eu encarrego-me da música.", "beispiel_de": "Ich kümmere mich um die Musik."},
+  {"id": "contar-com", "pt": "contar com", "de": "rechnen mit / zählen auf", "emoji": "🫶", "beispiel_pt": "Posso contar contigo no sábado?", "beispiel_de": "Kann ich am Samstag auf dich zählen?", "hinweis": "Conta comigo! = Du kannst auf mich zählen!"},
+  {"id": "a-musica-ao-vivo", "pt": "a música ao vivo", "de": "die Livemusik", "emoji": "🎷", "beispiel_pt": "Na festa vai haver música ao vivo.", "beispiel_de": "Auf dem Fest wird es Livemusik geben."},
+  {"id": "dividir-as-despesas", "pt": "dividir as despesas", "de": "die Kosten teilen", "emoji": "➗", "beispiel_pt": "Dividimos as despesas entre todos.", "beispiel_de": "Wir teilen die Kosten unter allen auf."},
+  {"id": "o-aluguer", "pt": "o aluguer", "de": "die Miete / der Verleih (von Dingen)", "emoji": "🏷️", "passiv": true, "beispiel_pt": "O aluguer das mesas custa cinquenta euros.", "beispiel_de": "Die Miete für die Tische kostet fünfzig Euro.", "hinweis": "pt-PT: aluguer (BR: aluguel)"},
+  {"id": "o-anfitriao", "pt": "o anfitrião", "de": "der Gastgeber", "emoji": "🏡", "passiv": true, "beispiel_pt": "O anfitrião recebeu-nos à porta.", "beispiel_de": "Der Gastgeber hat uns an der Tür empfangen.", "alternativen": ["a anfitriã"]}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-09-L01",
+   "typ": "neu",
+   "titel": "O fado – Saudade aus Lissabon",
+   "vokabeln": ["o-fado", "o-fadista", "a-guitarra-portuguesa", "a-viola", "a-saudade", "a-casa-de-fados", "o-xaile", "comovente", "ficar-arrepiado"],
+   "grammatik": {
+    "titel": "Revisão: pronomes de complemento direto e indireto",
+    "erklaerung": [
+     "Para combinar pronomes, é preciso dominar primeiro os dois tipos. <b>Complemento direto</b> (o quê? quem?): <i>o, a, os, as</i>. <i>Ouvi o fado.</i> → <i>Ouvi-<b>o</b>.</i>",
+     "<b>Complemento indireto</b> (a quem?): <i>me, te, lhe, nos, vos, lhes</i>. <i>Escrevi à fadista.</i> → <i>Escrevi-<b>lhe</b>.</i>",
+     "Depois de <b>-r, -s, -z</b>, o/a passa a <b>lo/la</b> e a consoante cai: <i>vou ouvir + o</i> → <i>vou ouvi-<b>lo</b></i>; <i>aprender + a</i> → <i>aprendê-<b>la</b></i>; <i>ouvimos + os</i> → <i>ouvimo-<b>los</b></i>. Depois de som nasal (<b>-m, -ão, -õe</b>) passa a <b>no/na</b>: <i>cantam + a</i> → <i>cantam-<b>na</b></i>.",
+     "Nesta unidade vamos juntar os dois pronomes numa só palavra: <i>Dei-lhe o bilhete.</i> + <i>Dei-o.</i> → <i>Dei-<b>lho</b>.</i>"
+    ],
+    "erklaerung_de": [
+     "Um Pronomen kombinieren zu können, muss man zuerst beide Arten sicher beherrschen. <b>Direktes Objekt</b> (Akkusativ – wen/was?): <i>o, a, os, as</i>. <i>Ouvi o fado.</i> → <i>Ouvi-<b>o</b>.</i> – Ich habe ihn gehört.",
+     "<b>Indirektes Objekt</b> (Dativ – wem?): <i>me, te, lhe, nos, vos, lhes</i>. <i>Escrevi à fadista.</i> → <i>Escrevi-<b>lhe</b>.</i> – Ich habe ihr geschrieben.",
+     "Nach <b>-r, -s, -z</b> wird o/a zu <b>lo/la</b>, und der Konsonant fällt weg: <i>vou ouvi-<b>lo</b></i>, <i>aprendê-<b>la</b></i> (Akzent!), <i>ouvimo-<b>los</b></i>. Nach Nasal (<b>-m, -ão, -õe</b>) wird es zu <b>no/na</b>: <i>cantam-<b>na</b></i>.",
+     "In dieser Einheit verschmelzen beide Pronomen zu einem Wort: <i>Dei-lhe o bilhete</i> + <i>Dei-o</i> → <i>Dei-<b>lho</b></i> – Ich habe es ihm gegeben."
+    ],
+    "vergleich": "Im Deutschen stehen zwei Pronomen nebeneinander: „Ich gebe es ihm.“ Im Portugiesischen hängen sie am Verb und verschmelzen sogar zu einem Wort: <i>Dou-lho.</i> Zuerst aber die Einzelteile: <i>o</i> = ihn/es, <i>lhe</i> = ihm/ihr/Ihnen.",
+    "beispiele": [
+     {"pt": "Conheces a Mariza? – Conheço-a, adoro a voz dela.", "de": "Kennst du Mariza? – Ja, ich liebe ihre Stimme."},
+     {"pt": "O Camané canta hoje em Alfama. Vamos ouvi-lo ao vivo!", "de": "Camané singt heute in der Alfama. Hören wir ihn uns live an!"},
+     {"pt": "Ofereci-lhe um xaile preto.", "de": "Ich habe ihr ein schwarzes Umschlagtuch geschenkt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Conheces a Amália Rodrigues? – Conheço-___ dos discos do meu pai.", "loesungen": ["a"], "de": "Kennst du Amália Rodrigues? – Ich kenne sie von den Platten meines Vaters.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "O fado de Coimbra? Nunca ___ ouvi.", "loesungen": ["o"], "de": "Den Fado aus Coimbra? Den habe ich nie gehört.", "erklaerung": "Nach nunca steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Esta canção é linda. Vou aprendê-___!", "loesungen": ["la"], "de": "Dieses Lied ist wunderschön. Ich werde es lernen!", "erklaerung": "aprender + a → aprendê-la: Das -r fällt weg, aus a wird la, und das e bekommt einen Zirkumflex.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Os fadistas? Ouvimo-___ ontem em Alfama.", "loesungen": ["los"], "de": "Die Fadosänger? Wir haben sie gestern in der Alfama gehört.", "erklaerung": "ouvimos + os → ouvimo-los: Das -s fällt weg.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "Escrevi uma mensagem à fadista. – Welche Form ersetzt „à fadista“?", "optionen": ["Escrevi-a uma mensagem.", "Escrevi-lhe uma mensagem.", "Escrevi-la uma mensagem."], "richtig": 1, "erklaerung": "„a quem?“ → indirektes Objekt → lhe.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Sie singen es jeden Abend.“ (o fado)", "optionen": ["Cantam-o todas as noites.", "Cantam-lo todas as noites.", "Cantam-no todas as noites."], "richtig": 2, "erklaerung": "Nach Nasal (-am) wird o zu no.", "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Ich habe ihn (den Fado) zum ersten Mal in Lissabon gehört.", "loesungen": ["Ouvi-o pela primeira vez em Lisboa.", "Ouvi-o em Lisboa pela primeira vez.", "Ouvi-o pela primeira vez em Lisboa."], "kategorie": "Pronomen"},
+     {"typ": "satzbau", "de": "Ich habe ihr ein schwarzes Umschlagtuch geschenkt.", "loesung": "Ofereci-lhe um xaile preto."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma noite em Alfama – ein Abend in der Alfama",
+    "situation": "Pedro hat Stefan und Ana in ein Fadolokal in Lissabon eingeladen.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Chegámos! Esta casa de fados é pequena, mas aqui ouve-se o melhor fado de Lisboa.", "de": "Wir sind da! Dieses Fadolokal ist klein, aber hier hört man den besten Fado Lissabons."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Que ambiente! Velas nas mesas e uma guitarra portuguesa na parede.", "de": "Was für eine Stimmung! Kerzen auf den Tischen und eine portugiesische Gitarre an der Wand."},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Boa noite. Peço-lhes só uma coisa: durante o fado, silêncio absoluto. Nada de conversas.", "de": "Guten Abend. Ich bitte Sie nur um eines: Während des Fados absolute Stille. Keine Gespräche."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro. E quem canta hoje?", "de": "Natürlich. Und wer singt heute?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "A Joana, uma fadista jovem aqui do bairro. Vão ouvi-la daqui a cinco minutos.", "de": "Joana, eine junge Fadosängerin hier aus dem Viertel. Sie werden sie in fünf Minuten hören."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Fiquei arrepiada. Não percebi todas as palavras, mas senti a saudade.", "de": "Ich habe Gänsehaut bekommen. Ich habe nicht alle Worte verstanden, aber ich habe die Saudade gespürt."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "É isso o fado: não é preciso percebê-lo, é preciso senti-lo.", "de": "Das ist Fado: Man muss ihn nicht verstehen, man muss ihn fühlen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Foi uma das noites mais comoventes da minha vida.", "de": "Es war einer der bewegendsten Abende meines Lebens."}
+    ],
+    "fragen": [
+     {"frage": "Como é a casa de fados?", "optionen": ["Grande e barulhenta.", "Pequena, com velas nas mesas.", "Moderna, com música eletrónica."], "richtig": 1},
+     {"frage": "O que pede o empregado?", "optionen": ["Que paguem já.", "Que cantem também.", "Que façam silêncio durante o fado."], "richtig": 2},
+     {"frage": "Segundo o Pedro, o fado…", "optionen": ["não é preciso percebê-lo, é preciso senti-lo.", "é só para turistas.", "é muito difícil de cantar."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Jantámos numa casa de fados em Alfama.", "de": "Wir haben in einem Fadolokal in der Alfama zu Abend gegessen."},
+     {"pt": "A guitarra portuguesa tem doze cordas.", "de": "Die portugiesische Gitarre hat zwölf Saiten."},
+     {"pt": "Quando ela cantou, fiquei arrepiado.", "de": "Als sie sang, bekam ich Gänsehaut."},
+     {"pt": "O fado canta a saudade.", "de": "Der Fado besingt die Saudade."},
+     {"pt": "Foi uma noite muito comovente.", "de": "Es war ein sehr bewegender Abend."}
+    ]
+   },
+   "saetze": [
+    {"id": "jantar-casa-de-fados", "pt": "Jantámos numa casa de fados em Alfama.", "de": "Wir haben in einem Fadolokal in der Alfama zu Abend gegessen."},
+    {"id": "fiquei-arrepiado-fado", "pt": "Quando ela cantou, fiquei arrepiado.", "de": "Als sie sang, bekam ich Gänsehaut."},
+    {"id": "vamos-ouvi-lo-ao-vivo", "pt": "Vamos ouvi-lo ao vivo!", "de": "Hören wir ihn uns live an!"}
+   ]
+  },
+  {
+   "id": "B1-09-L02",
+   "typ": "neu",
+   "titel": "Sabores de Portugal – regionale Küche",
+   "vokabeln": ["a-cataplana", "o-xerem", "o-dom-rodrigo", "os-doces-conventuais", "a-amendoa", "o-figo", "o-polvo", "o-prato-tipico", "o-leitao"],
+   "grammatik": {
+    "titel": "Pronomes combinados: me + o = mo",
+    "erklaerung": [
+     "Quando há um complemento indireto e um direto, os dois pronomes juntam-se: primeiro o <b>indireto</b>, depois o <b>direto</b>. <i>A Rita deu-me a receita.</i> → <i>A Rita deu-<b>ma</b>.</i>",
+     "Com <b>me</b>: me + o = <b>mo</b>, me + a = <b>ma</b>, me + os = <b>mos</b>, me + as = <b>mas</b>. Com <b>te</b>: <b>to, ta, tos, tas</b>.",
+     "Numa frase afirmativa, o par de pronomes fica depois do verbo, com hífen: <i>Dá-<b>mo</b>!</i> (o prato) · <i>O empregado recomendou-<b>mo</b>.</i> (o polvo)",
+     "Atenção: <i>mas</i> (me + as) escreve-se como a conjunção <i>mas</i> (aber). O hífen mostra a diferença: <i>Os figos? A vizinha deu-<b>mos</b>. As amêndoas? Deu-<b>mas</b> também.</i>"
+    ],
+    "erklaerung_de": [
+     "Wenn ein indirektes (Dativ) und ein direktes Objekt (Akkusativ) zusammenkommen, verschmelzen die Pronomen: zuerst das <b>indirekte</b>, dann das <b>direkte</b>. <i>A Rita deu-<b>ma</b>.</i> – Rita hat es (das Rezept) mir gegeben.",
+     "Mit <b>me</b>: mo, ma, mos, mas. Mit <b>te</b>: to, ta, tos, tas. Das o/a richtet sich nach der Sache (o prato → mo, a receita → ma).",
+     "Im bejahten Satz steht das Paar hinter dem Verb, mit Bindestrich: <i>Dá-<b>mo</b>!</i> – Gib es mir! · <i>O empregado recomendou-<b>mo</b>.</i> – Der Kellner hat ihn mir empfohlen.",
+     "Vorsicht: <i>mas</i> (= me + as) sieht aus wie <i>mas</i> (aber). Der Bindestrich verrät den Unterschied: <i>Deu-<b>mas</b>.</i> – Er hat sie mir gegeben."
+    ],
+    "vergleich": "Deutsch: „Gib es mir!“ – Akkusativ vor Dativ, zwei Wörter. Portugiesisch: <i>Dá-mo!</i> – Dativ (me) zuerst, und beides verschmilzt. Englisch braucht sogar eine Präposition: „Give it to me!“",
+    "beispiele": [
+     {"pt": "Gostei muito da cataplana. Dás-me a receita? – Dou-ta, claro!", "de": "Die Cataplana hat mir sehr geschmeckt. Gibst du mir das Rezept? – Klar, ich gebe es dir!"},
+     {"pt": "O empregado recomendou-me o polvo e trouxe-mo logo.", "de": "Der Kellner hat mir den Oktopus empfohlen und ihn mir gleich gebracht."},
+     {"pt": "Os figos secos? A vizinha deu-mos ontem.", "de": "Die getrockneten Feigen? Die Nachbarin hat sie mir gestern geschenkt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A receita do xerém? A Rita deu-___ ontem.", "loesungen": ["ma"], "de": "Das Rezept für Xerém? Rita hat es mir gestern gegeben.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "O Dom Rodrigo? A dona Fátima ofereceu-___ no Natal.", "loesungen": ["mo"], "de": "Den Dom Rodrigo? Frau Fátima hat ihn mir zu Weihnachten geschenkt.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "Os figos? A vizinha deu-___ do quintal dela.", "loesungen": ["mos"], "de": "Die Feigen? Die Nachbarin hat sie mir aus ihrem Garten gegeben.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "As amêndoas? Eu dou-___ amanhã.", "loesungen": ["tas"], "de": "Die Mandeln? Ich gebe sie dir morgen.", "erklaerung": "te + as = tas.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "auswahl", "frage": "„Gib es mir!“ (o prato, tu)", "optionen": ["Dá-mo!", "Dá-me-o!", "Dá-o-me!"], "richtig": 0, "erklaerung": "me + o verschmelzen immer zu mo.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "auswahl", "frage": "„Os doces? Deu-mas.“ bedeutet:", "optionen": ["Er hat aber gegeben.", "Er hat sie mir gegeben.", "Er hat mich gegeben."], "richtig": 1, "erklaerung": "deu-mas = deu + me + as (as = die Süßigkeiten).", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "uebersetzen", "de": "Das Rezept? Meine Schwiegermutter hat es mir gegeben.", "loesungen": ["A receita? A minha sogra deu-ma.", "A receita? Deu-ma a minha sogra.", "A minha sogra deu-ma."], "kategorie": "Kombinierte Pronomen"},
+     {"typ": "satzbau", "de": "Der Kellner hat ihn mir empfohlen. (o polvo)", "loesung": "O empregado recomendou-mo."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Almoço em Santa Luzia – Mittagessen in Santa Luzia",
+    "situation": "Stefan und Ana essen in einem Restaurant bei Tavira.",
+    "zeilen": [
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Boa tarde. Hoje recomendo o polvo – estamos em Santa Luzia, a capital do polvo!", "de": "Guten Tag. Heute empfehle ich den Oktopus – wir sind in Santa Luzia, der Hauptstadt des Oktopus!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. E qual é o prato típico mais antigo do Algarve?", "de": "Super. Und was ist das älteste typische Gericht der Algarve?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "Talvez o xerém: farinha de milho com conquilhas. A minha avó fazia-o todos os domingos.", "de": "Vielleicht der Xerém: Maismehl mit Sandmuscheln. Meine Großmutter hat ihn jeden Sonntag gemacht."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então traga-nos um polvo à lagareiro e um xerém para provar.", "de": "Dann bringen Sie uns einen Oktopus à lagareiro und einen Xerém zum Probieren."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Hum, o xerém está divinal! A cozinheira dá-me a receita?", "de": "Mmh, der Xerém ist himmlisch! Gibt mir die Köchin das Rezept?"},
+     {"sprecher": "Empregado", "stimme": "m", "pt": "É segredo de família… mas vou perguntar-lhe. E de sobremesa? Temos Dom Rodrigo, um doce conventual de amêndoa e ovos.", "de": "Das ist ein Familiengeheimnis … aber ich frage sie. Und als Nachspeise? Wir haben Dom Rodrigo, eine Klostersüßigkeit aus Mandeln und Eiern."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Dois, se faz favor. E mais dois para levar.", "de": "Zwei, bitte. Und noch zwei zum Mitnehmen."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que Santa Luzia é famosa?", "optionen": ["Pelo polvo.", "Pelos doces.", "Pelo xerém."], "richtig": 0},
+     {"frage": "O que é o xerém?", "optionen": ["Um doce de amêndoa.", "Farinha de milho com conquilhas.", "Um peixe grelhado."], "richtig": 1},
+     {"frage": "O que pede o Stefan no fim?", "optionen": ["A receita do xerém.", "A conta.", "Dois Dom Rodrigos e mais dois para levar."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Die Frau deines Nachbarn João, Dona Fátima, hat dir ihren Mandelkuchen angeboten. Du sprichst sie formell an.",
+    "zeilen": [
+     {"sprecher": "Fátima", "stimme": "f", "pt": "Então, provou o meu bolo de amêndoa? Gostou?", "de": "Na, haben Sie meinen Mandelkuchen probiert? Hat er Ihnen geschmeckt?"},
+     {"ich": true, "aufgabe": "Sag: Sehr! Geben Sie mir das Rezept?", "loesungen": ["Gostei muito! Dá-me a receita?", "Muito! Dá-me a receita?", "Gostei imenso! Dá-me a receita?", "Gostei muito! Pode dar-me a receita?", "Muito! Pode dar-me a receita?"]},
+     {"sprecher": "Fátima", "stimme": "f", "pt": "Claro que dou! Mas é segredo de família, hein?", "de": "Natürlich gebe ich es Ihnen! Aber es ist ein Familiengeheimnis, ja?"},
+     {"ich": true, "aufgabe": "Sag: Ich verspreche es! Ich erzähle es niemandem.", "loesungen": ["Prometo! Não o conto a ninguém.", "Prometo! Não conto a ninguém.", "Prometo, não o conto a ninguém.", "Prometo! Não digo a ninguém.", "Prometo! Não o digo a ninguém."]},
+     {"sprecher": "Fátima", "stimme": "f", "pt": "Então amanhã escrevo-a num papel.", "de": "Dann schreibe ich es Ihnen morgen auf einen Zettel."},
+     {"ich": true, "aufgabe": "Sag: Danke! Schicken Sie es mir lieber per Nachricht.", "loesungen": ["Obrigado! Mande-ma antes por mensagem.", "Obrigado! Mande-ma por mensagem.", "Obrigado! Envie-ma antes por mensagem.", "Obrigado! Envie-ma por mensagem.", "Obrigado! Mande-ma antes por mensagem, por favor."]}
+    ]
+   },
+   "saetze": [
+    {"id": "da-me-a-receita", "pt": "Dás-me a receita? – Dou-ta, claro!", "de": "Gibst du mir das Rezept? – Klar, ich gebe es dir!"},
+    {"id": "qual-prato-tipico", "pt": "Qual é o prato típico desta região?", "de": "Was ist das typische Gericht dieser Region?"},
+    {"id": "recomendou-mo", "pt": "O empregado recomendou-me o polvo e trouxe-mo logo.", "de": "Der Kellner hat mir den Oktopus empfohlen und ihn mir gleich gebracht."}
+   ]
+  },
+  {
+   "id": "B1-09-L03",
+   "typ": "neu",
+   "titel": "Rezepte, Geheimnisse und Erbstücke: mo, to, ta",
+   "vokabeln": ["o-segredo", "o-livro-de-receitas", "passar", "a-lembranca", "guardar", "o-truque", "herdar", "o-tacho", "a-colher-de-pau"],
+   "grammatik": {
+    "titel": "me e te + o/a: perguntas e respostas",
+    "erklaerung": [
+     "Numa pergunta com <b>me</b>, a resposta usa <b>te</b> (e vice-versa): <i>Emprestas-me o livro?</i> – <i>Empresto-<b>to</b>.</i> · <i>Passas-me o sal?</i> – <i>Passo-<b>to</b>.</i>",
+     "O pronome direto concorda com a coisa: <i>o livro</i> → <b>mo/to</b>, <i>a receita</i> → <b>ma/ta</b>, <i>os tachos</i> → <b>mos/tos</b>, <i>as colheres</i> → <b>mas/tas</b>.",
+     "Com infinitivo, o par vai normalmente para o fim: <i>Posso mostrar-<b>to</b>.</i> · <i>Vou dar-<b>ta</b> amanhã.</i> Também se ouve <i>Vou-<b>ta</b> dar.</i>",
+     "Na fala, muitos portugueses simplificam e omitem o complemento direto: <i>Emprestas-me? – Empresto.</i> É natural – mas é importante reconhecer as formas completas."
+    ],
+    "erklaerung_de": [
+     "Fragt jemand mit <b>me</b> (mir), antwortest du mit <b>te</b> (dir) – und umgekehrt: <i>Emprestas-me o livro?</i> – <i>Empresto-<b>to</b>.</i> (Leihst du mir das Buch? – Ich leihe es dir.)",
+     "Das direkte Pronomen richtet sich nach der Sache: o livro → mo/to, a receita → ma/ta, os tachos → mos/tos, as colheres → mas/tas.",
+     "Mit Infinitiv hängt das Paar meist am Ende: <i>Posso mostrar-<b>to</b>.</i> (Ich kann es dir zeigen.) Man hört auch <i>Vou-<b>ta</b> dar.</i>",
+     "In der Umgangssprache lassen viele das direkte Objekt weg: <i>Emprestas-me? – Empresto.</i> Das ist natürlich – aber die vollen Formen musst du erkennen."
+    ],
+    "vergleich": "Wie im Deutschen dreht man die Perspektive: „Leihst du es mir? – Ich leihe es dir.“ → <i>Emprestas-mo? – Empresto-to.</i>",
+    "beispiele": [
+     {"pt": "Emprestas-me o teu livro de receitas? – Empresto-to, mas guarda-o bem!", "de": "Leihst du mir dein Kochbuch? – Ich leihe es dir, aber pass gut darauf auf!"},
+     {"pt": "Qual é o segredo deste arroz? – Conto-to se prometeres não o contar a ninguém.", "de": "Was ist das Geheimnis dieses Reises? – Ich erzähle es dir, wenn du versprichst, es niemandem zu erzählen."},
+     {"pt": "A cataplana da avó? Vou mostrar-ta no domingo.", "de": "Omas Cataplana? Ich zeige sie dir am Sonntag."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Emprestas-me o tacho? – Claro, empresto-___.", "loesungen": ["to"], "de": "Leihst du mir den Topf? – Klar, ich leihe ihn dir.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "Passas-me a colher de pau? – Passo-___ já.", "loesungen": ["ta"], "de": "Reichst du mir den Holzlöffel? – Ich reiche ihn dir sofort.", "erklaerung": "a colher ist feminin → ta.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "Mostras-me as fotografias da festa? – Mostro-___ logo à noite.", "loesungen": ["tas"], "de": "Zeigst du mir die Fotos vom Fest? – Ich zeige sie dir heute Abend.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "Devolves-me os livros amanhã? – Sim, devolvo-___ amanhã.", "loesungen": ["tos"], "de": "Gibst du mir die Bücher morgen zurück? – Ja, ich gebe sie dir morgen zurück.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "auswahl", "frage": "„Ich zeige es dir morgen.“ (a lembrança)", "optionen": ["Vou mostrar-ta amanhã.", "Vou mostrar-to amanhã.", "Vou mostrar-te-a amanhã."], "richtig": 0, "erklaerung": "a lembrança ist feminin: te + a = ta.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "auswahl", "frage": "Welche Antwort passt? – „Contas-me o segredo?“", "optionen": ["Conto-mo.", "Conto-to.", "Conto-lho."], "richtig": 1, "erklaerung": "Frage mit me (mir) → Antwort mit te (dir): to.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "uebersetzen", "de": "Ich gebe es dir morgen zurück. (o livro)", "loesungen": ["Devolvo-to amanhã.", "Amanhã devolvo-to.", "Vou devolver-to amanhã.", "Amanhã vou devolver-to."], "kategorie": "Kombinierte Pronomen"},
+     {"typ": "satzbau", "de": "Ich kann sie dir am Sonntag zeigen. (a cataplana)", "loesung": "Posso mostrar-ta no domingo."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A cataplana da avó – Omas Cataplana",
+    "situation": "Rita besucht Ana in der Küche.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Que cataplana tão bonita! É nova?", "de": "Was für eine schöne Cataplana! Ist sie neu?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não, era da minha avó. Herdei-a no ano passado, com o livro de receitas dela.", "de": "Nein, sie gehörte meiner Großmutter. Ich habe sie letztes Jahr geerbt, zusammen mit ihrem Kochbuch."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Que sorte! E o livro, emprestas-mo um dia? Quero copiar a receita da cataplana de amêijoas.", "de": "Was für ein Glück! Und das Buch, leihst du es mir mal? Ich möchte das Rezept für die Muschel-Cataplana abschreiben."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Empresto-to, mas guarda-o bem: tem receitas de 1950!", "de": "Ich leihe es dir, aber pass gut darauf auf: Es hat Rezepte von 1950!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Prometo. E qual era o truque da tua avó?", "de": "Versprochen. Und was war der Trick deiner Großmutter?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Conto-to, mas não digas a ninguém: um bocadinho de medronho no fim.", "de": "Ich erzähle es dir, aber sag es niemandem: ein kleines bisschen Medronho zum Schluss."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Medronho?! Não acredito! Passas-me a colher? Quero provar o molho.", "de": "Medronho?! Das glaube ich nicht! Reichst du mir den Löffel? Ich möchte die Soße kosten."}
+    ],
+    "fragen": [
+     {"frage": "De quem era a cataplana?", "optionen": ["Da mãe da Rita.", "Da avó da Ana.", "De uma loja de Loulé."], "richtig": 1},
+     {"frage": "O que quer a Rita?", "optionen": ["Que a Ana lhe empreste o livro de receitas.", "Comprar uma cataplana.", "Aprender a fazer bolos."], "richtig": 0},
+     {"frage": "Qual era o truque da avó?", "optionen": ["Muito alho.", "Vinho branco.", "Um pouco de medronho no fim."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português com pronomes combinados. – Schreib auf Portugiesisch, mit kombinierten Pronomen.",
+    "aufgaben": [
+     {"de": "Gib es mir! (o livro, tu)", "loesungen": ["Dá-mo!", "Dá-mo."]},
+     {"de": "Sie hat es mir gezeigt. (a fotografia)", "loesungen": ["Mostrou-ma.", "Ela mostrou-ma."]},
+     {"de": "Ich leihe sie dir. (os tachos)", "loesungen": ["Empresto-tos.", "Eu empresto-tos."]},
+     {"de": "Er hat sie mir geschenkt. (as amêndoas)", "loesungen": ["Ofereceu-mas.", "Ele ofereceu-mas.", "Deu-mas.", "Ele deu-mas."]},
+     {"de": "Ich erzähle es dir morgen. (o segredo)", "loesungen": ["Conto-to amanhã.", "Amanhã conto-to.", "Vou contar-to amanhã.", "Amanhã vou contar-to."]}
+    ]
+   },
+   "saetze": [
+    {"id": "empresto-to", "pt": "Empresto-to, mas guarda-o bem!", "de": "Ich leihe es dir, aber pass gut darauf auf!"},
+    {"id": "passas-me-o-sal", "pt": "Passas-me o sal? – Passo-to já.", "de": "Reichst du mir das Salz? – Ich reiche es dir sofort."},
+    {"id": "qual-e-o-segredo", "pt": "Qual é o segredo deste bolo?", "de": "Was ist das Geheimnis dieses Kuchens?"}
+   ]
+  },
+  {
+   "id": "B1-09-L04",
+   "typ": "neu",
+   "titel": "Karten für die Fadista: lho, lha, no-lo",
+   "vokabeln": ["o-espetaculo", "esgotado", "a-primeira-fila", "a-plateia", "o-camarim", "o-autografo", "o-cartaz", "a-estreia"],
+   "grammatik": {
+    "titel": "lhe + o = lho; nos + o = no-lo",
+    "erklaerung": [
+     "Com <b>lhe</b> e <b>lhes</b>: lhe + o = <b>lho</b>, lhe + a = <b>lha</b>, lhe + os = <b>lhos</b>, lhe + as = <b>lhas</b>. <i>Dei o bilhete ao Pedro.</i> → <i>Dei-<b>lho</b>.</i>",
+     "<b>lho</b> serve para <i>lhe</i> e para <i>lhes</i>: <i>Dei-lho</i> pode ser „a ele“, „a ela“, „ao senhor“ ou „a eles“. O contexto esclarece.",
+     "Com <b>nos</b> e <b>vos</b>, o pronome direto passa a <b>lo/la/los/las</b>: <i>no-lo, no-la, vo-lo, vo-la</i>. <i>O empregado trouxe-<b>no-la</b>.</i> (a conta) São formas raras na fala, mas aparecem na escrita.",
+     "Como <i>lhe</i> também significa „ao senhor / à senhora“, <i>lho</i> é muito usado no atendimento: <i>Eu envio-<b>lho</b> já por e-mail.</i>"
+    ],
+    "erklaerung_de": [
+     "Mit <b>lhe/lhes</b>: lho, lha, lhos, lhas. <i>Dei-<b>lho</b>.</i> – Ich habe es ihm gegeben.",
+     "<b>lho</b> steht für „ihm“, „ihr“, „Ihnen“ und auch „ihnen“ (Plural). Was gemeint ist, zeigt der Zusammenhang.",
+     "Mit <b>nos/vos</b> wird das direkte Pronomen zu lo/la/los/las: <i>no-lo, no-la, vo-lo, vo-la</i>. <i>O empregado trouxe-<b>no-la</b>.</i> – Der Kellner hat sie (die Rechnung) uns gebracht. Im Gespräch selten, in Texten häufig.",
+     "Weil <i>lhe</i> auch „Ihnen“ heißt, hörst du <i>lho</i> oft im Kundenkontakt: <i>Eu envio-<b>lho</b> já.</i> – Ich schicke es Ihnen sofort."
+    ],
+    "vergleich": "„Ich habe es ihm gegeben“ – im Portugiesischen ein Verb mit einem Anhängsel: <i>Dei-lho.</i> Englisch: „I gave it to him.“ Achtung: <i>lho</i> unterscheidet nicht zwischen ihm, ihr, Ihnen und ihnen.",
+    "beispiele": [
+     {"pt": "Comprei dois bilhetes para a Rita e o Pedro e dei-lhos ontem.", "de": "Ich habe zwei Karten für Rita und Pedro gekauft und sie ihnen gestern gegeben."},
+     {"pt": "A fadista pediu a guitarra ao músico e ele passou-lha.", "de": "Die Fadosängerin bat den Musiker um die Gitarre, und er reichte sie ihr."},
+     {"pt": "Quer o programa? Eu dou-lho já.", "de": "Möchten Sie das Programm? Ich gebe es Ihnen sofort."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O João queria ver o cartaz, por isso mostrei-___.", "loesungen": ["lho"], "de": "João wollte das Plakat sehen, deshalb habe ich es ihm gezeigt.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "A Ana pediu-me a fotografia e eu enviei-___.", "loesungen": ["lha"], "de": "Ana hat mich um das Foto gebeten, und ich habe es ihr geschickt.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "Os senhores querem os bilhetes? Eu dou-___ já.", "loesungen": ["lhos"], "de": "Möchten Sie die Karten? Ich gebe sie Ihnen sofort.", "erklaerung": "lhes + os = lhos (gleiche Form wie bei lhe).", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "Os vizinhos precisavam das cadeiras e eu emprestei-___.", "loesungen": ["lhas"], "de": "Die Nachbarn brauchten die Stühle, und ich habe sie ihnen geliehen.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "auswahl", "frage": "„Der Kellner hat sie (die Rechnung) uns gebracht.“", "optionen": ["O empregado trouxe-nos-a.", "O empregado trouxe-no-la.", "O empregado trouxe-lha."], "richtig": 1, "erklaerung": "nos + a = no-la: Nach nos/vos wird a zu la.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "auswahl", "frage": "„Dei-lho.“ kann bedeuten:", "optionen": ["Ich habe es ihm / ihr / Ihnen / ihnen gegeben.", "Ich habe ihn gegeben.", "Ich habe es mir gegeben."], "richtig": 0, "kategorie": "Kombinierte Pronomen"},
+     {"typ": "uebersetzen", "de": "Er hat es ihr in der Garderobe gegeben. (o autógrafo)", "loesungen": ["Deu-lho no camarim.", "Ele deu-lho no camarim."], "kategorie": "Kombinierte Pronomen"},
+     {"typ": "satzbau", "de": "Ich bringe es Ihnen sofort. (o programa)", "loesung": "Trago-lho já."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Bilhetes para a Carminho – Karten für Carminho",
+    "situation": "Stefan ruft beim Theater in Faro an.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Teatro das Figuras, boa tarde.", "de": "Teatro das Figuras, guten Tag."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Queria dois bilhetes para o espetáculo da Carminho no sábado.", "de": "Guten Tag. Ich hätte gern zwei Karten für Carminhos Konzert am Samstag."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Lamento, sábado está esgotado. Mas há uma segunda sessão no domingo.", "de": "Tut mir leid, Samstag ist ausverkauft. Aber es gibt eine zweite Vorstellung am Sonntag."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Domingo serve. Ainda há lugares na primeira fila?", "de": "Sonntag passt. Gibt es noch Plätze in der ersten Reihe?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Na primeira fila, não. Tenho dois lugares na quinta fila da plateia, ao centro.", "de": "In der ersten Reihe nicht. Ich habe zwei Plätze in der fünften Reihe im Parkett, in der Mitte."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perfeito. Pode enviar-mos por e-mail?", "de": "Perfekt. Können Sie sie mir per E-Mail schicken?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Envio-lhos já. O espetáculo começa às nove em ponto e tem um intervalo de vinte minutos.", "de": "Ich schicke sie Ihnen sofort. Die Vorstellung beginnt pünktlich um neun und hat eine Pause von zwanzig Minuten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muito obrigado. São uma prenda para a minha mulher – vou dar-lhos no jantar de aniversário.", "de": "Vielen Dank. Sie sind ein Geschenk für meine Frau – ich gebe sie ihr beim Geburtstagsessen."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan não pode ir no sábado?", "optionen": ["Porque tem um jantar.", "Porque o espetáculo está esgotado.", "Porque não há intervalo."], "richtig": 1},
+     {"frage": "Onde ficam os lugares?", "optionen": ["Na quinta fila da plateia.", "Na primeira fila.", "Ao lado do camarim."], "richtig": 0},
+     {"frage": "Para quem são os bilhetes?", "optionen": ["Para o Pedro e a Rita.", "Para o João.", "Para a mulher do Stefan."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Dei-lho ontem.", "de": "Ich habe es ihm gestern gegeben."},
+     {"pt": "O espetáculo está esgotado.", "de": "Die Vorstellung ist ausverkauft."},
+     {"pt": "Envio-lhos já por e-mail.", "de": "Ich schicke sie Ihnen sofort per E-Mail."},
+     {"pt": "A fadista deu-me um autógrafo no camarim.", "de": "Die Fadosängerin hat mir in der Garderobe ein Autogramm gegeben."},
+     {"pt": "No intervalo bebemos um copo de vinho.", "de": "In der Pause haben wir ein Glas Wein getrunken."}
+    ]
+   },
+   "saetze": [
+    {"id": "dei-lho-ontem", "pt": "Dei-lho ontem.", "de": "Ich habe es ihm gestern gegeben."},
+    {"id": "sabado-esgotado", "pt": "Lamento, sábado está esgotado.", "de": "Tut mir leid, Samstag ist ausverkauft."},
+    {"id": "pode-enviar-mos", "pt": "Pode enviar-mos por e-mail?", "de": "Können Sie sie mir per E-Mail schicken?"}
+   ]
+  },
+  {
+   "id": "B1-09-L05",
+   "typ": "neu",
+   "titel": "Gerüchte im Dorf: Não mo disse, já lho contei",
+   "vokabeln": ["o-boato", "espalhar", "desmentir", "esconder", "juro", "coscuvilhar", "as-escondidas", "de-proposito"],
+   "grammatik": {
+    "titel": "A posição: não mo deu, já lho disse, quem to contou?",
+    "erklaerung": [
+     "As palavras que puxam o pronome para antes do verbo também puxam os pronomes combinados: <b>não, nunca, já, ainda, também, só, sempre</b>, as palavras interrogativas (<b>quem, onde, porque…</b>) e <b>que</b>. <i>Não <b>mo</b> deu.</i> · <i>Já <b>lho</b> disse.</i>",
+     "Perguntas com palavra interrogativa: <i>Quem <b>to</b> disse?</i> Perguntas sem palavra interrogativa mantêm o pronome depois do verbo: <i>Deste-<b>lho</b>?</i>",
+     "Orações subordinadas (com <i>que, quando, se…</i>): <i>Acho que <b>ma</b> escondeu.</i> · <i>Quando <b>mo</b> devolveres, avisa.</i>",
+     "Com <b>não</b> + verbo + infinitivo há duas possibilidades: <i>Não <b>to</b> posso dizer.</i> = <i>Não posso dizer-<b>to</b>.</i> E no imperativo negativo: <i>Não <b>lho</b> digas!</i>"
+    ],
+    "erklaerung_de": [
+     "Dieselben Wörter, die ein einzelnes Pronomen vor das Verb ziehen, ziehen auch das Pronomenpaar nach vorn: <b>não, nunca, já, ainda, também, só, sempre</b>, Fragewörter und <b>que</b>. <i>Não <b>mo</b> deu.</i> – Er hat es mir nicht gegeben. <i>Já <b>lho</b> disse.</i> – Ich habe es ihm schon gesagt.",
+     "Fragen mit Fragewort: <i>Quem <b>to</b> disse?</i> – Wer hat es dir gesagt? Ja/Nein-Fragen behalten die normale Stellung: <i>Deste-<b>lho</b>?</i> – Hast du es ihm gegeben?",
+     "Nebensätze (mit que, quando, se …): <i>Acho que <b>ma</b> escondeu.</i> – Ich glaube, er hat sie mir versteckt. <i>Quando <b>mo</b> devolveres, avisa.</i> – Wenn du es mir zurückgibst, sag Bescheid.",
+     "Bei <b>não</b> + Modalverb + Infinitiv gibt es zwei Möglichkeiten: <i>Não <b>to</b> posso dizer</i> = <i>Não posso dizer-<b>to</b></i>. Verneinter Imperativ: <i>Não <b>lho</b> digas!</i> – Sag es ihm nicht!"
+    ],
+    "vergleich": "Im Deutschen ändert „nicht“ die Stellung der Pronomen kaum: „Er hat es mir nicht gegeben.“ Im Portugiesischen springt das ganze Paar vor das Verb: <i>Não mo deu.</i> Merksatz: <b>não / já / quem + mo + Verb</b>.",
+    "beispiele": [
+     {"pt": "Emprestei-lhe o livro e ainda não mo devolveu.", "de": "Ich habe ihm das Buch geliehen, und er hat es mir noch nicht zurückgegeben."},
+     {"pt": "Já lho disse mil vezes: é só um boato!", "de": "Ich habe es ihm schon tausendmal gesagt: Das ist nur ein Gerücht!"},
+     {"pt": "Quem to contou? – Foi o João, mas não lho digas!", "de": "Wer hat es dir erzählt? – Es war João, aber sag es ihm nicht!"}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Er hat es mir nicht gesagt.“", "optionen": ["Não disse-mo.", "Não mo disse.", "Não me o disse."], "richtig": 1, "erklaerung": "Nach não steht das Pronomenpaar vor dem Verb – und me + o verschmelzen.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Já ___ disse: não é verdade! (lhe + o)", "loesungen": ["lho"], "de": "Ich habe es ihm schon gesagt: Es ist nicht wahr!", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Quem ___ contou? (te + o)", "loesungen": ["to"], "de": "Wer hat es dir erzählt?", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "A minha caneta? O Pedro ainda não ___ devolveu.", "loesungen": ["ma"], "de": "Mein Kugelschreiber? Pedro hat ihn mir noch nicht zurückgegeben.", "erklaerung": "a caneta ist feminin: me + a = ma, vor dem Verb wegen não.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Ich glaube, dass sie es ihm erzählt hat.“", "optionen": ["Acho que contou-lho.", "Acho que lhe o contou.", "Acho que lho contou."], "richtig": 2, "erklaerung": "Nach que steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Ich habe es Ihnen schon gesagt.", "loesungen": ["Já lho disse.", "Eu já lho disse."], "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Erzähl es ihm nicht! (tu, o segredo)", "loesungen": ["Não lho contes!", "Não lho contes.", "Não lho digas!", "Não lho digas."], "kategorie": "Pronomenstellung"},
+     {"typ": "diktat", "pt": "Já lho disse mil vezes: é só um boato."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um boato em Lagos – ein Gerücht in Lagos",
+    "situation": "Der Nachbar João hat im Café etwas über Stefan gehört.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Stefan, é verdade que vais abrir um restaurante em Lagos?", "de": "Stefan, stimmt es, dass du in Lagos ein Restaurant aufmachst?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Um restaurante? Eu? Quem to disse?", "de": "Ein Restaurant? Ich? Wer hat dir das gesagt?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Ouvi no café. A dona Lurdes contou-mo esta manhã, mas pediu-me segredo.", "de": "Ich habe es im Café gehört. Frau Lurdes hat es mir heute Morgen erzählt, aber sie hat mich gebeten, es geheim zu halten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É só um boato! Eu disse-lhe que gostava de cozinhar, mais nada.", "de": "Das ist nur ein Gerücht! Ich habe ihr gesagt, dass ich gern koche, sonst nichts."},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois, a Lurdes coscuvilha muito e espalha tudo pela vila.", "de": "Tja, Lurdes tratscht viel und verbreitet alles im ganzen Ort."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então desmente-o tu, por favor. A mim ela não me ouve.", "de": "Dann stell du es bitte richtig. Auf mich hört sie nicht."},
+     {"sprecher": "João", "stimme": "m", "pt": "Desminto, desminto. Mas não lhe digas que fui eu que to contei!", "de": "Mach ich, mach ich. Aber sag ihr nicht, dass ich es dir erzählt habe!"}
+    ],
+    "fragen": [
+     {"frage": "Quem contou o boato ao João?", "optionen": ["A dona Lurdes.", "A Ana.", "O Stefan."], "richtig": 0},
+     {"frage": "O que disse o Stefan à Lurdes?", "optionen": ["Que queria abrir um restaurante.", "Que gostava de cozinhar.", "Que ia mudar de casa."], "richtig": 1},
+     {"frage": "O que pede o João no fim?", "optionen": ["Que o Stefan pague o café.", "Que o Stefan fale com a Lurdes.", "Que o Stefan não diga à Lurdes quem lhe contou."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Freund Pedro fragt nach Dingen, die er dir geliehen hat (tu).",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Olha, ainda tens o meu livro do Saramago?", "de": "Sag mal, hast du noch mein Saramago-Buch?"},
+     {"ich": true, "aufgabe": "Sag: Nein, ich habe es dir schon zurückgegeben!", "loesungen": ["Não, já to devolvi!", "Não, já to devolvi.", "Não, eu já to devolvi!", "Já to devolvi!"]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "A sério? E o disco da Mariza?", "de": "Echt? Und die Mariza-CD?"},
+     {"ich": true, "aufgabe": "Sag: Die habe ich dir noch nicht zurückgegeben. Ana hat sie.", "loesungen": ["Esse ainda não to devolvi. Está com a Ana.", "Ainda não to devolvi. Está com a Ana.", "Esse ainda não to devolvi, está com a Ana.", "Ainda não to devolvi, está com a Ana.", "Ainda não to devolvi. Tem-no a Ana.", "Ainda não to devolvi. A Ana tem-no."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Está bem. E quem te disse que eu gostava de fado?", "de": "Na gut. Und wer hat dir gesagt, dass ich Fado mag?"},
+     {"ich": true, "aufgabe": "Sag: Rita hat es mir erzählt.", "loesungen": ["A Rita contou-mo.", "Foi a Rita que mo contou.", "Contou-mo a Rita.", "A Rita disse-mo.", "Foi a Rita que mo disse.", "Disse-mo a Rita.", "Foi a Rita."]}
+    ]
+   },
+   "saetze": [
+    {"id": "quem-to-disse", "pt": "Quem to disse?", "de": "Wer hat es dir gesagt?"},
+    {"id": "ainda-nao-mo-devolveu", "pt": "Ainda não mo devolveu.", "de": "Er hat es mir noch nicht zurückgegeben."},
+    {"id": "e-so-um-boato", "pt": "É só um boato!", "de": "Das ist nur ein Gerücht!"}
+   ]
+  },
+  {
+   "id": "B1-09-L06",
+   "typ": "neu",
+   "titel": "Offizielle Ankündigungen: die Mesoklise erkennen",
+   "vokabeln": ["realizar-se", "decorrer", "a-edicao", "o-recinto", "a-abertura", "o-encerramento", "a-entrada-livre", "o-municipio", "divulgar"],
+   "grammatik": {
+    "titel": "Mesóclise: reconhecer dar-lhe-ei, far-se-á",
+    "erklaerung": [
+     "No <b>futuro</b> e no <b>condicional</b>, a língua escrita formal coloca o pronome <b>dentro</b> do verbo: infinitivo + pronome + terminação. <i>darei + lhe</i> → <i>dar-<b>lhe</b>-ei</i>; <i>realizará + se</i> → <i>realizar-<b>se</b>-á</i>. Chama-se <b>mesóclise</b>.",
+     "Os verbos irregulares usam o radical curto: <i>fazer</i> → <i>far-se-á</i>, <i>dizer</i> → <i>dir-lhe-ei</i>, <i>trazer</i> → <i>trar-lhe-emos</i>. Com o/a: <i>fá-lo-ei</i> (= vou fazê-lo).",
+     "Aparece em avisos oficiais, cartas formais, notícias e literatura. Na fala, os portugueses dizem quase sempre <i>Vou dar-lhe…</i> ou usam o presente: <i>Dou-lhe amanhã.</i>",
+     "Quando há <b>não, já, que, quem…</b>, não há mesóclise – o pronome vai para antes do verbo: <i>Não <b>se</b> realizará.</i> · <i>Diz que <b>se</b> realizará em agosto.</i>"
+    ],
+    "erklaerung_de": [
+     "Im <b>Futur</b> und im <b>Konditional</b> setzt die formelle Schriftsprache das Pronomen <b>mitten</b> ins Verb: Infinitiv + Pronomen + Endung. <i>dar-<b>lhe</b>-ei</i> = ich werde ihm geben; <i>realizar-<b>se</b>-á</i> = wird stattfinden. Das heißt <b>Mesoklise</b>.",
+     "Unregelmäßige Verben benutzen den kurzen Stamm: fazer → <i>far-se-á</i>, dizer → <i>dir-lhe-ei</i>, trazer → <i>trar-lhe-emos</i>. Mit o/a: <i>fá-lo-ei</i> = ich werde es tun.",
+     "Du findest sie in amtlichen Mitteilungen, Geschäftsbriefen, Nachrichten und Literatur. Gesprochen sagt man fast immer <i>Vou dar-lhe …</i> oder einfach Präsens: <i>Dou-lhe amanhã.</i> Du musst die Mesoklise also nur <b>erkennen</b>.",
+     "Steht <b>não, já, que, quem …</b> davor, gibt es keine Mesoklise – das Pronomen rückt vor das Verb: <i>Não se realizará.</i> – Es wird nicht stattfinden."
+    ],
+    "vergleich": "Im Deutschen gibt es nichts Vergleichbares: Das Pronomen steckt mitten im Verb – <i>dar-lhe-ei</i> ≈ „geben-ihm-werde ich“. Es klingt gehoben wie im Deutschen „Wir werden Ihnen umgehend Bescheid geben“ im Amtsbrief.",
+    "beispiele": [
+     {"pt": "O Festival do Marisco realizar-se-á em agosto, em Olhão.", "de": "Das Meeresfrüchtefestival wird im August in Olhão stattfinden."},
+     {"pt": "A entrada far-se-á pela porta sul do recinto.", "de": "Der Einlass erfolgt über das Südtor des Geländes."},
+     {"pt": "Dar-lhe-emos uma resposta dentro de dez dias.", "de": "Wir werden Ihnen innerhalb von zehn Tagen eine Antwort geben."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„O concerto realizar-se-á no sábado.“ bedeutet:", "optionen": ["Das Konzert hat am Samstag stattgefunden.", "Das Konzert wird am Samstag stattfinden.", "Das Konzert würde am Samstag stattfinden."], "richtig": 1, "kategorie": "Mesoklise"},
+     {"typ": "auswahl", "frage": "„Dir-lhe-ei a verdade.“ – Wie sagt man das im Alltag?", "optionen": ["Vou dizer-lhe a verdade.", "Disse-lhe a verdade.", "Diga-lhe a verdade."], "richtig": 0, "kategorie": "Mesoklise"},
+     {"typ": "auswahl", "frage": "Welche Form ist Konditional („würde“)?", "optionen": ["far-se-á", "fez-se", "far-se-ia"], "richtig": 2, "erklaerung": "-á = Futur, -ia = Konditional.", "kategorie": "Mesoklise"},
+     {"typ": "luecke", "satz": "Formell: Dar-lhe-emos uma resposta. → Alltag: ___ dar-lhe uma resposta.", "loesungen": ["Vamos"], "de": "Wir werden Ihnen eine Antwort geben.", "kategorie": "Mesoklise"},
+     {"typ": "luecke", "satz": "Formell: O festival realizar-se-á em agosto. → Alltag (Präsens): O festival ___ em agosto.", "loesungen": ["realiza-se"], "de": "Das Festival findet im August statt.", "kategorie": "Mesoklise"},
+     {"typ": "auswahl", "frage": "Was ist der Infinitiv von „trar-lhe-emos“?", "optionen": ["trazer", "tratar", "tirar"], "richtig": 0, "erklaerung": "trazer hat im Futur den Stamm trar-: trarei, trarás …", "kategorie": "Mesoklise"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist richtig?", "optionen": ["Não realizar-se-á.", "Não se realizará.", "Não realizará-se."], "richtig": 1, "erklaerung": "Nach não steht das Pronomen vor dem Verb – keine Mesoklise.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Das Festival wird im August stattfinden.", "loesungen": ["O festival vai realizar-se em agosto.", "O festival realiza-se em agosto.", "O festival realizar-se-á em agosto.", "O festival vai-se realizar em agosto.", "O festival vai decorrer em agosto.", "O festival decorrerá em agosto.", "O festival decorre em agosto.", "O festival vai ser em agosto."], "kategorie": "Mesoklise"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Notícias regionais – Regionalnachrichten",
+    "situation": "Eine Meldung im Radio über das Meeresfrüchtefestival in Olhão.",
+    "zeilen": [
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Boa tarde. Começamos com o Festival do Marisco de Olhão, que regressa este verão para mais uma edição.", "de": "Guten Tag. Wir beginnen mit dem Meeresfrüchtefestival von Olhão, das diesen Sommer in eine weitere Runde geht."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "O festival realizar-se-á de dez a quinze de agosto, no recinto junto à Ria Formosa.", "de": "Das Festival findet vom zehnten bis fünfzehnten August auf dem Gelände an der Ria Formosa statt."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Segundo o município, a abertura far-se-á com um desfile da banda filarmónica pela baixa da cidade.", "de": "Laut Gemeinde wird die Eröffnung mit einem Umzug der Blaskapelle durch die Innenstadt gefeiert."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Haverá concertos todas as noites e, como sempre, as cataplanas e os pratos de marisco serão as estrelas.", "de": "Es wird jeden Abend Konzerte geben, und wie immer werden die Cataplanas und Meeresfrüchtegerichte die Stars sein."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Os bilhetes custam dez euros, mas a entrada será livre para crianças até aos doze anos.", "de": "Die Karten kosten zehn Euro, aber für Kinder bis zwölf Jahre ist der Eintritt frei."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "O programa completo divulgar-se-á na próxima semana, no site da câmara municipal.", "de": "Das vollständige Programm wird nächste Woche auf der Website der Gemeinde bekannt gegeben."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "O encerramento, no dia quinze, terá fogo de artifício sobre a ria.", "de": "Zum Abschluss am fünfzehnten gibt es ein Feuerwerk über der Lagune."}
+    ],
+    "fragen": [
+     {"frage": "Onde se realizará o festival?", "optionen": ["Num recinto junto à Ria Formosa.", "No centro de Faro.", "Na praia de Lagos."], "richtig": 0},
+     {"frage": "Quem tem entrada livre?", "optionen": ["Os reformados.", "As crianças até aos doze anos.", "Todos os visitantes."], "richtig": 1},
+     {"frage": "Quando será divulgado o programa completo?", "optionen": ["Hoje à noite.", "No dia da abertura.", "Na próxima semana."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português do dia a dia (sem mesóclise). – Schreib in normaler Alltagssprache.",
+    "aufgaben": [
+     {"de": "Das Konzert wird am Samstag stattfinden.", "loesungen": ["O concerto vai realizar-se no sábado.", "O concerto realiza-se no sábado.", "O concerto vai ser no sábado.", "O concerto é no sábado.", "O concerto vai-se realizar no sábado.", "O concerto realizar-se-á no sábado."]},
+     {"de": "Wir werden Ihnen morgen antworten.", "loesungen": ["Vamos responder-lhe amanhã.", "Amanhã vamos responder-lhe.", "Respondemos-lhe amanhã.", "Amanhã respondemos-lhe.", "Vamos-lhe responder amanhã.", "Responder-lhe-emos amanhã."]},
+     {"de": "Die Eröffnung ist um 18 Uhr.", "loesungen": ["A abertura é às dezoito horas.", "A abertura é às 18 horas.", "A abertura é às seis da tarde.", "A abertura é às 18h."]},
+     {"de": "Der Eintritt ist frei.", "loesungen": ["A entrada é livre.", "A entrada é gratuita."]},
+     {"de": "Ich werde es ihm sagen.", "loesungen": ["Vou dizer-lho.", "Digo-lho.", "Vou-lho dizer.", "Eu digo-lho.", "Eu vou dizer-lho.", "Dir-lho-ei."]}
+    ]
+   },
+   "saetze": [
+    {"id": "festival-realiza-se-agosto", "pt": "O festival realiza-se em agosto.", "de": "Das Festival findet im August statt."},
+    {"id": "entrada-e-livre", "pt": "Os concertos têm entrada livre.", "de": "Bei den Konzerten ist der Eintritt frei."},
+    {"id": "dar-lhe-emos-resposta", "pt": "Dar-lhe-emos uma resposta dentro de dez dias.", "de": "Wir werden Ihnen innerhalb von zehn Tagen eine Antwort geben."}
+   ]
+  },
+  {
+   "id": "B1-09-L07",
+   "typ": "neu",
+   "titel": "Feste: Carnaval de Loulé, Consoada und Silvester",
+   "vokabeln": ["o-carnaval", "o-desfile", "o-carro-alegorico", "mascarar-se", "a-consoada", "o-bolo-rei", "as-filhos", "a-missa-do-galo", "o-fogo-de-artificio", "a-passagem-de-ano"],
+   "grammatik": {
+    "titel": "Pronomes combinados com poder, querer, ir + infinitivo",
+    "erklaerung": [
+     "Com <b>poder, querer, ir, ter de</b> + infinitivo, o par de pronomes junta-se normalmente ao infinitivo: <i>Posso dar-<b>lho</b>?</i> · <i>Quero mostrar-<b>tas</b>.</i> · <i>Tens de explicar-<b>mo</b>.</i>",
+     "Também é possível juntá-lo ao primeiro verbo: <i>Posso-<b>lho</b> dar?</i> · <i>Vou-<b>ta</b> mostrar.</i> As duas formas são corretas.",
+     "Com <b>não</b> (ou já, só, quem…) o par pode ir para antes do primeiro verbo: <i>Não <b>lho</b> posso dar.</i> = <i>Não posso dar-<b>lho</b>.</i>",
+     "Regra de ouro: primeiro o indireto, depois o direto – e tudo junto: <i>oferecer-lhe + o bolo-rei</i> → <i>oferecer-<b>lho</b></i>."
+    ],
+    "erklaerung_de": [
+     "Mit <b>poder, querer, ir, ter de</b> + Infinitiv hängt das Pronomenpaar meist am Infinitiv: <i>Posso dar-<b>lho</b>?</i> – Darf ich es ihm/Ihnen geben? <i>Quero mostrar-<b>tas</b>.</i> – Ich will sie dir zeigen.",
+     "Es darf auch am ersten Verb hängen: <i>Posso-lho dar?</i> · <i>Vou-ta mostrar.</i> Beides ist richtig.",
+     "Mit <b>não</b> (oder já, só, quem …) kann das Paar vor das erste Verb rücken: <i>Não lho posso dar</i> = <i>Não posso dar-lho</i> – Ich kann es ihm nicht geben.",
+     "Goldene Regel: zuerst das indirekte, dann das direkte Pronomen – und alles in einem Wort: <i>oferecer-<b>lho</b></i>."
+    ],
+    "vergleich": "Im Deutschen steht das Pronomen nach dem Modalverb: „Ich kann es dir geben.“ Im Portugiesischen hängt es meist am Infinitiv: <i>Posso dar-to.</i>",
+    "beispiele": [
+     {"pt": "O bolo-rei é para os vizinhos. Posso levar-lho hoje?", "de": "Der Königskuchen ist für die Nachbarn. Kann ich ihn ihnen heute bringen?"},
+     {"pt": "Comprei um presente para a Ana, mas só lho posso dar na Consoada.", "de": "Ich habe ein Geschenk für Ana gekauft, aber ich kann es ihr erst am Heiligen Abend geben."},
+     {"pt": "As fotografias do Carnaval? Quero mostrar-tas!", "de": "Die Faschingsfotos? Ich will sie dir zeigen!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O presente é para a Ana. Vou dar-___ na Consoada.", "loesungen": ["lho"], "de": "Das Geschenk ist für Ana. Ich gebe es ihr am Heiligen Abend.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "As fotografias do desfile? Quero mostrar-___! (a ti)", "loesungen": ["tas"], "de": "Die Fotos vom Umzug? Ich will sie dir zeigen!", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "O meu disfarce de pirata? Não ___ posso emprestar, desculpa. (a ti)", "loesungen": ["to"], "de": "Mein Piratenkostüm? Ich kann es dir nicht leihen, tut mir leid.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "A receita das filhós? A Fátima prometeu enviar-___ amanhã. (a mim)", "loesungen": ["ma"], "de": "Das Rezept für die Krapfen? Fátima hat versprochen, es mir morgen zu schicken.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "auswahl", "frage": "„Ich kann es dir nicht leihen.“ – Welche Form ist FALSCH?", "optionen": ["Não to posso emprestar.", "Não posso emprestar-to.", "Não posso to emprestar."], "richtig": 2, "erklaerung": "Das Paar steht entweder vor dem ersten Verb (nach não) oder hängt am Infinitiv – nicht frei dazwischen.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Darf ich es Ihnen zeigen?“ (o programa)", "optionen": ["Posso mostrar-lho?", "Posso mostrar-mo?", "Posso lhe mostrar-o?"], "richtig": 0, "kategorie": "Kombinierte Pronomen"},
+     {"typ": "uebersetzen", "de": "Ich will sie dir zeigen. (as fotografias)", "loesungen": ["Quero mostrar-tas.", "Quero-tas mostrar.", "Eu quero mostrar-tas."], "kategorie": "Kombinierte Pronomen"},
+     {"typ": "satzbau", "de": "Wir können ihn ihnen am Heiligen Abend geben. (o bolo-rei)", "loesung": "Podemos dar-lho na Consoada."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Festas do ano – Feste im Jahreslauf",
+    "situation": "Rita erzählt Stefan, wie man in Portugal feiert.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, este ano vens ao Carnaval de Loulé? É um dos mais antigos do país.", "de": "Stefan, kommst du heuer zum Karneval nach Loulé? Er ist einer der ältesten des Landes."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vou! Na Áustria chamamos-lhe Fasching. Há desfile?", "de": "Ja! In Österreich sagen wir Fasching dazu. Gibt es einen Umzug?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Há um corso enorme, com carros alegóricos que gozam com os políticos. E toda a gente se mascara.", "de": "Es gibt einen riesigen Umzug mit Wagen, die sich über die Politiker lustig machen. Und alle verkleiden sich."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. E no Natal, o que é que vocês fazem?", "de": "Super. Und was macht ihr zu Weihnachten?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Na Consoada, no dia vinte e quatro, jantamos bacalhau com couves. Depois há filhós, rabanadas e, claro, o bolo-rei.", "de": "Am Heiligen Abend, dem 24., essen wir Stockfisch mit Kohl. Danach gibt es Krapfen, „arme Ritter“ und natürlich den Königskuchen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E atenção: quem encontrar a fava no bolo-rei tem de comprar o próximo!", "de": "Und Achtung: Wer die Bohne im Königskuchen findet, muss den nächsten kaufen!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E na passagem de ano?", "de": "Und zu Silvester?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Fogo de artifício na praia e doze passas à meia-noite, uma por cada desejo.", "de": "Feuerwerk am Strand und zwölf Rosinen um Mitternacht, eine für jeden Wunsch."}
+    ],
+    "fragen": [
+     {"frage": "Como é o desfile de Carnaval em Loulé?", "optionen": ["Tem carros alegóricos que gozam com os políticos.", "É só para crianças.", "É uma procissão religiosa."], "richtig": 0},
+     {"frage": "O que se come na Consoada?", "optionen": ["Peru assado.", "Bacalhau com couves.", "Cataplana de marisco."], "richtig": 1},
+     {"frage": "O que acontece a quem encontrar a fava?", "optionen": ["Ganha um prémio.", "Pode pedir um desejo.", "Tem de comprar o próximo bolo-rei."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Na Consoada come-se bacalhau com couves.", "de": "Am Heiligen Abend isst man Stockfisch mit Kohl."},
+     {"pt": "Este ano mascarei-me de pirata.", "de": "Heuer habe ich mich als Pirat verkleidet."},
+     {"pt": "Quem encontrar a fava paga o próximo bolo-rei.", "de": "Wer die Bohne findet, zahlt den nächsten Königskuchen."},
+     {"pt": "Vimos o fogo de artifício na praia.", "de": "Wir haben das Feuerwerk am Strand gesehen."},
+     {"pt": "Só lho posso dar na Consoada.", "de": "Ich kann es ihr erst am Heiligen Abend geben."}
+    ]
+   },
+   "saetze": [
+    {"id": "consoada-bacalhau", "pt": "Na Consoada come-se bacalhau com couves.", "de": "Am Heiligen Abend isst man Stockfisch mit Kohl."},
+    {"id": "posso-levar-lho", "pt": "Posso levar-lho hoje?", "de": "Kann ich es ihm / ihr / Ihnen heute bringen?"},
+    {"id": "onde-passagem-de-ano", "pt": "Onde vão passar a passagem de ano?", "de": "Wo verbringt ihr Silvester?"}
+   ]
+  },
+  {
+   "id": "B1-09-L08",
+   "typ": "neu",
+   "titel": "Azulejos und Kunsthandwerk: Embrulhe-mo, por favor!",
+   "vokabeln": ["o-azulejo", "o-painel-de-azulejos", "a-olaria", "o-barro", "feito-a-mao", "o-artesao", "a-chamine", "a-renda-de-bilros", "o-tapete-de-arraiolos"],
+   "grammatik": {
+    "titel": "Pronomes combinados com o imperativo",
+    "erklaerung": [
+     "<b>Imperativo afirmativo</b>: o par de pronomes vai depois do verbo, com hífen. Formal: <i>Embrulhe-<b>mo</b>, por favor.</i> · <i>Dê-<b>mo</b>!</i> Com tu: <i>Mostra-<b>ma</b>!</i> · <i>Dá-<b>mo</b>!</i>",
+     "<b>Imperativo negativo</b>: o par vai para antes do verbo. Formal: <i>Não <b>mo</b> embrulhe.</i> Com tu (conjuntivo): <i>Não <b>ma</b> mostres!</i> · <i>Não <b>mo</b> dês!</i>",
+     "Com <b>lhe</b> (= ao senhor / à senhora ou a ele / a ela): <i>Explique-<b>lho</b>.</i> – Explique-o a ele. Na loja ouve-se muito: <i>Eu embrulho-<b>lho</b> já.</i>",
+     "O acento do imperativo mantém-se: <i>dá</i> → <i>Dá-mo!</i>; <i>dê</i> → <i>Dê-mo!</i>"
+    ],
+    "erklaerung_de": [
+     "<b>Bejahter Imperativ</b>: Das Paar steht hinter dem Verb. Formell: <i>Embrulhe-<b>mo</b>, por favor.</i> – Packen Sie es mir bitte ein. Mit tu: <i>Mostra-<b>ma</b>!</i> – Zeig sie mir!",
+     "<b>Verneinter Imperativ</b>: Das Paar rückt vor das Verb. Formell: <i>Não <b>mo</b> embrulhe.</i> Mit tu (Konjunktivform): <i>Não <b>ma</b> mostres!</i> – Zeig sie mir nicht!",
+     "Mit <b>lhe</b> (Ihnen, ihm, ihr): <i>Explique-<b>lho</b>.</i> – Erklären Sie es ihm. Im Geschäft hörst du oft: <i>Eu embrulho-<b>lho</b> já.</i> – Ich packe es Ihnen gleich ein.",
+     "Der Akzent bleibt: <i>Dá-mo!</i> (tu) – <i>Dê-mo!</i> (formell)."
+    ],
+    "vergleich": "Deutsch: „Packen Sie es mir bitte ein!“ – Portugiesisch: <i>Embrulhe-mo, por favor!</i> Verneint: „Packen Sie es nicht ein!“ – <i>Não mo embrulhe!</i> Das Pronomenpaar wandert vor das Verb.",
+    "beispiele": [
+     {"pt": "Este painel de azulejos é lindo. Embrulhe-mo bem, por favor.", "de": "Dieses Fliesenbild ist wunderschön. Packen Sie es mir bitte gut ein."},
+     {"pt": "Não mo envie pelo correio, levo-o no carro.", "de": "Schicken Sie es mir nicht mit der Post, ich nehme es im Auto mit."},
+     {"pt": "Tens a fatura da olaria? Mostra-ma, por favor.", "de": "Hast du die Rechnung von der Töpferei? Zeig sie mir bitte."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Gosto deste prato pintado à mão. Embrulhe-___, se faz favor.", "loesungen": ["mo"], "de": "Mir gefällt dieser handbemalte Teller. Packen Sie ihn mir bitte ein.", "kategorie": "Imperativ + Pronomen"},
+     {"typ": "luecke", "satz": "A fatura? Não ___ envie por e-mail, prefiro em papel.", "loesungen": ["ma"], "de": "Die Rechnung? Schicken Sie sie mir nicht per E-Mail, ich hätte sie lieber auf Papier.", "kategorie": "Imperativ + Pronomen"},
+     {"typ": "luecke", "satz": "Os azulejos que compraste? Mostra-___! (a mim)", "loesungen": ["mos"], "de": "Die Azulejos, die du gekauft hast? Zeig sie mir!", "kategorie": "Imperativ + Pronomen"},
+     {"typ": "luecke", "satz": "A senhora leva o tapete? Eu embrulho-___ já.", "loesungen": ["lho"], "de": "Nehmen Sie den Teppich? Ich packe ihn Ihnen gleich ein.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "auswahl", "frage": "„Zeig sie mir nicht!“ (as fotografias, tu)", "optionen": ["Não mas mostres!", "Não mostres-mas!", "Não mas mostra!"], "richtig": 0, "erklaerung": "Verneinter tu-Imperativ = Konjunktiv (mostres), das Paar steht davor.", "kategorie": "Imperativ + Pronomen"},
+     {"typ": "auswahl", "frage": "„Geben Sie es mir!“ (formell)", "optionen": ["Dá-mo!", "Dê-mo!", "Dê-me-o!"], "richtig": 1, "erklaerung": "Formell: dê. Dá-mo ist die tu-Form.", "kategorie": "Imperativ + Pronomen"},
+     {"typ": "uebersetzen", "de": "Erklären Sie es mir bitte. (o processo)", "loesungen": ["Explique-mo, por favor.", "Explique-mo, se faz favor.", "Por favor, explique-mo."], "kategorie": "Imperativ + Pronomen"},
+     {"typ": "satzbau", "de": "Schick sie mir nicht mit der Post! (os pratos, tu)", "loesung": "Não mos mandes pelo correio!"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na olaria de Porches – in der Töpferei von Porches",
+    "situation": "Stefan und Ana besuchen eine Töpferei an der Algarve.",
+    "zeilen": [
+     {"sprecher": "Artesã", "stimme": "f", "pt": "Bom dia! Estejam à vontade. Tudo o que veem aqui é feito à mão, aqui mesmo na olaria.", "de": "Guten Morgen! Schauen Sie sich in Ruhe um. Alles, was Sie hier sehen, ist handgemacht, direkt hier in der Töpferei."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Que pratos tão bonitos! São de barro?", "de": "Guten Morgen. Was für schöne Teller! Sind die aus Ton?"},
+     {"sprecher": "Artesã", "stimme": "f", "pt": "São. Moldamos o barro, cozemos as peças no forno e depois pintamo-las à mão, com as cores do Algarve.", "de": "Ja. Wir formen den Ton, brennen die Stücke im Ofen und bemalen sie dann von Hand, in den Farben der Algarve."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E aqueles azulejos azuis e brancos? São antigos?", "de": "Und die blau-weißen Azulejos dort? Sind die alt?"},
+     {"sprecher": "Artesã", "stimme": "f", "pt": "Não, são cópias de azulejos do século XVIII. Também faço painéis por encomenda, com a imagem que quiserem.", "de": "Nein, das sind Kopien von Azulejos aus dem 18. Jahrhundert. Ich mache auch Fliesenbilder auf Bestellung, mit dem Motiv, das Sie möchten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que ideia! Podia fazer-nos um painel com uma chaminé algarvia para a entrada de casa?", "de": "Was für eine Idee! Könnten Sie uns ein Fliesenbild mit einem Algarve-Schornstein für den Hauseingang machen?"},
+     {"sprecher": "Artesã", "stimme": "f", "pt": "Posso, claro. Mandem-me uma fotografia da casa e eu faço-lhes um esboço.", "de": "Natürlich. Schicken Sie mir ein Foto vom Haus, und ich mache Ihnen einen Entwurf."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E este prato grande? Embrulhe-mo, por favor. É uma prenda para a minha mãe.", "de": "Und dieser große Teller? Packen Sie ihn mir bitte ein. Er ist ein Geschenk für meine Mutter."}
+    ],
+    "fragen": [
+     {"frage": "Como são feitas as peças?", "optionen": ["Numa fábrica, à máquina.", "À mão, na própria olaria.", "São importadas."], "richtig": 1},
+     {"frage": "Os azulejos azuis e brancos são…", "optionen": ["cópias de azulejos antigos.", "originais do século XVIII.", "de cortiça."], "richtig": 0},
+     {"frage": "O que quer o Stefan?", "optionen": ["Um tapete de Arraiolos.", "Um prato grande para a mãe.", "Um painel de azulejos com uma chaminé algarvia."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du kaufst in einem Kunsthandwerksladen in Lagos einen Azulejo (formell).",
+    "zeilen": [
+     {"sprecher": "Vendedor", "stimme": "m", "pt": "Boa tarde. Posso ajudar?", "de": "Guten Tag. Kann ich helfen?"},
+     {"ich": true, "aufgabe": "Sag ja und bitte ihn, dir den Azulejo dort zu zeigen.", "loesungen": ["Sim. Pode mostrar-me aquele azulejo, por favor?", "Sim. Mostre-me aquele azulejo, por favor.", "Sim, pode mostrar-me aquele azulejo, por favor?", "Sim, mostre-me aquele azulejo, por favor.", "Sim. Pode mostrar-me esse azulejo, por favor?", "Sim, mostre-me esse azulejo, se faz favor."]},
+     {"sprecher": "Vendedor", "stimme": "m", "pt": "Este? É pintado à mão. Custa vinte e cinco euros.", "de": "Diesen? Er ist handbemalt. Er kostet fünfundzwanzig Euro."},
+     {"ich": true, "aufgabe": "Sag: Ich nehme ihn. Packen Sie ihn mir bitte ein.", "loesungen": ["Levo-o. Embrulhe-mo, por favor.", "Levo-o. Embrulhe-mo, se faz favor.", "Fico com ele. Embrulhe-mo, por favor.", "Levo-o. Pode embrulhar-mo, por favor?", "Fico com ele. Pode embrulhar-mo, por favor?"]},
+     {"sprecher": "Vendedor", "stimme": "m", "pt": "Com certeza. Quer fatura com número de contribuinte?", "de": "Selbstverständlich. Möchten Sie eine Rechnung mit Steuernummer?"},
+     {"ich": true, "aufgabe": "Sag: Ja, bitte. Schicken Sie sie mir per E-Mail.", "loesungen": ["Sim, por favor. Envie-ma por e-mail.", "Quero, sim. Envie-ma por e-mail, por favor.", "Sim, por favor. Mande-ma por e-mail.", "Sim, se faz favor. Envie-ma por e-mail.", "Sim, por favor. Pode enviar-ma por e-mail?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "embrulhe-mo", "pt": "Embrulhe-mo, por favor.", "de": "Packen Sie es mir bitte ein."},
+    {"id": "tudo-feito-a-mao", "pt": "Tudo nesta loja é feito à mão.", "de": "Alles in diesem Geschäft ist handgemacht."},
+    {"id": "nao-mo-envie", "pt": "Não mo envie pelo correio, levo-o no carro.", "de": "Schicken Sie es mir nicht mit der Post, ich nehme es im Auto mit."}
+   ]
+  },
+  {
+   "id": "B1-09-L09",
+   "typ": "neu",
+   "titel": "Literatur und Musik heute",
+   "vokabeln": ["o-romance", "o-escritor", "o-poeta", "a-poesia", "a-obra", "a-banda", "o-heteronimo", "o-premio-nobel", "o-cantautor"],
+   "grammatik": {
+    "titel": "Mesóclise no condicional – e como se diz na fala",
+    "erklaerung": [
+     "No <b>condicional</b>, a mesóclise funciona da mesma forma: infinitivo + pronome + terminação (<i>-ia, -ias, -ia, -íamos, -iam</i>). <i>diria + se</i> → <i>dir-<b>se</b>-ia</i> (dir-se-ia = man würde sagen); <i>tornaria + se</i> → <i>tornar-<b>se</b>-ia</i>.",
+     "Aparece muito em textos sobre literatura e história, como „futuro no passado“: <i>Em 1998, Saramago tornar-se-ia o primeiro escritor de língua portuguesa com o Prémio Nobel.</i>",
+     "Também existe com pronomes combinados: <i>dar-lho-ia</i> = daria + lhe + o; <i>dir-to-ei</i> = direi + te + o.",
+     "Na fala, o condicional é muitas vezes substituído pelo <b>imperfeito</b>: <i>Se pudesse, dava-lho.</i> (= dar-lho-ia) · <i>Se tivesse tempo, lia mais.</i>"
+    ],
+    "erklaerung_de": [
+     "Im <b>Konditional</b> funktioniert die Mesoklise genauso: Infinitiv + Pronomen + Endung (-ia …). <i>dir-<b>se</b>-ia</i> = man würde sagen; <i>tornar-<b>se</b>-ia</i> = würde werden.",
+     "In Texten über Literatur und Geschichte drückt sie oft eine „Zukunft in der Vergangenheit“ aus: <i>Em 1998, Saramago tornar-se-ia …</i> – 1998 sollte Saramago … werden.",
+     "Auch mit Pronomenpaar: <i>dar-lho-ia</i> = ich würde es ihm geben; <i>dir-to-ei</i> = ich werde es dir sagen.",
+     "Gesprochen ersetzt man den Konditional oft durch das <b>Imperfeito</b>: <i>Se pudesse, dava-lho.</i> – Wenn ich könnte, würde ich es ihm geben. <i>Se tivesse tempo, lia mais.</i> – Wenn ich Zeit hätte, würde ich mehr lesen."
+    ],
+    "vergleich": "„würde“ + Pronomen: „Man würde sagen …“ – geschrieben <i>dir-se-ia</i>. Im Gespräch klingt das Imperfeito natürlicher: <i>Dava-lho</i> = „Ich würde es ihm geben“, so wie man im Deutschen statt „ich gäbe“ lieber „ich würde geben“ sagt.",
+    "beispiele": [
+     {"pt": "Em 1998, Saramago tornar-se-ia o primeiro escritor de língua portuguesa com o Prémio Nobel.", "de": "1998 sollte Saramago der erste portugiesischsprachige Schriftsteller mit dem Nobelpreis werden."},
+     {"pt": "Dir-se-ia que Pessoa era quatro poetas diferentes.", "de": "Man könnte sagen, Pessoa war vier verschiedene Dichter."},
+     {"pt": "Se tivesse o livro, dava-to.", "de": "Wenn ich das Buch hätte, würde ich es dir geben."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Dir-se-ia que …“ bedeutet:", "optionen": ["Man sagte, dass …", "Man würde sagen, dass …", "Man wird sagen, dass …"], "richtig": 1, "kategorie": "Mesoklise"},
+     {"typ": "auswahl", "frage": "„tornar-se-ia“ ist …", "optionen": ["Konditional", "Futur", "Perfeito"], "richtig": 0, "erklaerung": "Endung -ia = Konditional.", "kategorie": "Mesoklise"},
+     {"typ": "auswahl", "frage": "„Dar-lho-ia, se pudesse.“ – in der Alltagssprache:", "optionen": ["Dei-lho, se pudesse.", "Dou-lho, se pudesse.", "Dava-lho, se pudesse."], "richtig": 2, "erklaerung": "Im Gespräch ersetzt das Imperfeito den Konditional.", "kategorie": "Konditional"},
+     {"typ": "luecke", "satz": "Se tivesse tempo, ___ mais romances. (ler, Imperfeito)", "loesungen": ["lia"], "de": "Wenn ich Zeit hätte, würde ich mehr Romane lesen.", "kategorie": "Konditional"},
+     {"typ": "luecke", "satz": "Se encontrasse o livro de poesia, ___-to. (dar, Imperfeito)", "loesungen": ["dava"], "de": "Wenn ich den Gedichtband fände, würde ich ihn dir geben.", "kategorie": "Konditional"},
+     {"typ": "auswahl", "frage": "Wie sagt man „far-se-ia“ in der Alltagssprache?", "optionen": ["fazia-se", "fez-se", "faz-se"], "richtig": 0, "kategorie": "Mesoklise"},
+     {"typ": "uebersetzen", "de": "Ich würde es dir leihen, aber ich habe es nicht. (o livro)", "loesungen": ["Emprestava-to, mas não o tenho.", "Eu emprestava-to, mas não o tenho.", "Emprestava-to, mas não tenho.", "Emprestar-to-ia, mas não o tenho."], "kategorie": "Kombinierte Pronomen"},
+     {"typ": "diktat", "pt": "Fernando Pessoa escreveu com vários heterónimos."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Livros e música – Bücher und Musik",
+    "situation": "Rita sieht Stefan mit einem Buch auf der Terrasse.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Estás a ler o quê, Stefan?", "de": "Was liest du denn, Stefan?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Um romance do Saramago, o «Memorial do Convento». É difícil: as frases são enormes e os diálogos não têm travessões!", "de": "Einen Roman von Saramago, „Das Memorial“. Er ist schwierig: Die Sätze sind riesig, und die Dialoge haben keine Gedankenstriche!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "É o estilo dele. Eu prefiro poesia: o Fernando Pessoa é o meu poeta preferido.", "de": "Das ist sein Stil. Ich mag lieber Lyrik: Fernando Pessoa ist mein Lieblingsdichter."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O Pessoa não é aquele que escrevia com vários nomes?", "de": "Ist Pessoa nicht der, der unter mehreren Namen geschrieben hat?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Sim, os heterónimos: Alberto Caeiro, Ricardo Reis, Álvaro de Campos… cada um com a sua obra e a sua vida.", "de": "Ja, die Heteronyme: Alberto Caeiro, Ricardo Reis, Álvaro de Campos … jeder mit seinem eigenen Werk und seinem eigenen Leben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E de música portuguesa atual, o que me recomendas?", "de": "Und was empfiehlst du mir an aktueller portugiesischer Musik?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ouve a Carminho e o António Zambujo. E no verão há festivais por todo o lado – o MEO Sudoeste, no Alentejo, não fica longe.", "de": "Hör dir Carminho und António Zambujo an. Und im Sommer gibt es überall Festivals – das MEO Sudoeste im Alentejo ist nicht weit."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. Então empresta-me um disco do Zambujo e eu empresto-te o Saramago!", "de": "Abgemacht. Dann leih mir eine CD von Zambujo, und ich leihe dir den Saramago!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o livro é difícil para o Stefan?", "optionen": ["É muito curto.", "As frases são enormes e os diálogos não têm travessões.", "Está escrito em latim."], "richtig": 1},
+     {"frage": "O que são os heterónimos de Pessoa?", "optionen": ["Poetas diferentes que ele criou, cada um com a sua obra.", "Os seus filhos.", "Os seus livros de receitas."], "richtig": 0},
+     {"frage": "Onde fica o festival MEO Sudoeste?", "optionen": ["Em Lisboa.", "No Porto.", "No Alentejo."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich lese gerade einen Roman von Saramago.", "loesungen": ["Estou a ler um romance do Saramago.", "Estou a ler um romance de Saramago.", "Ando a ler um romance do Saramago.", "Ando a ler um romance de Saramago."]},
+     {"de": "Mein Lieblingsdichter ist Fernando Pessoa.", "loesungen": ["O meu poeta preferido é o Fernando Pessoa.", "O meu poeta preferido é Fernando Pessoa.", "O meu poeta favorito é o Fernando Pessoa.", "O meu poeta favorito é Fernando Pessoa."]},
+     {"de": "Was empfiehlst du mir? (tu)", "loesungen": ["O que me recomendas?", "O que é que me recomendas?"]},
+     {"de": "Ich würde es dir leihen. (o livro, Alltagssprache)", "loesungen": ["Emprestava-to.", "Eu emprestava-to."]},
+     {"de": "Im Sommer gibt es überall Festivals.", "loesungen": ["No verão há festivais por todo o lado.", "No verão há festivais em todo o lado.", "Há festivais por todo o lado no verão.", "Há festivais em todo o lado no verão."]}
+    ]
+   },
+   "saetze": [
+    {"id": "estou-a-ler-romance", "pt": "Estou a ler um romance do Saramago.", "de": "Ich lese gerade einen Roman von Saramago."},
+    {"id": "poeta-preferido", "pt": "O Fernando Pessoa é o meu poeta preferido.", "de": "Fernando Pessoa ist mein Lieblingsdichter."},
+    {"id": "se-pudesse-dava-lho", "pt": "Se pudesse, dava-lho.", "de": "Wenn ich könnte, würde ich es ihm geben."}
+   ]
+  },
+  {
+   "id": "B1-09-L10",
+   "typ": "neu",
+   "titel": "Ein Fest organisieren",
+   "vokabeln": ["a-lista-de-convidados", "o-convidado", "a-decoracao", "o-petisco", "encarregar-se-de", "contar-com", "a-musica-ao-vivo", "dividir-as-despesas", "o-aluguer", "o-anfitriao"],
+   "grammatik": {
+    "titel": "Revisão: pronomes combinados na organização de uma festa",
+    "erklaerung": [
+     "Resumo – indireto + direto numa só palavra: <b>mo, ma, mos, mas</b> · <b>to, ta, tos, tas</b> · <b>lho, lha, lhos, lhas</b> · <b>no-lo, no-la, no-los, no-las</b> · <b>vo-lo, vo-la…</b>",
+     "Posição: depois do verbo (<i>Dou-lho.</i>); antes do verbo depois de <b>não, já, quem, que…</b> (<i>Não lho dou.</i>); com infinitivo, normalmente no fim (<i>Vou dar-lho.</i>).",
+     "Na fala, muitas vezes só fica um pronome ou nenhum: <i>Quem traz as cadeiras? – Trago eu.</i> · <i>O João empresta-nos.</i> Numa resposta cuidada usam-se os dois: <i>O João empresta-<b>no-las</b>.</i>",
+     "Expressões úteis para organizar: <b>encarregar-se de</b> (<i>Eu encarrego-me da música.</i>), <b>tratar de</b> (<i>Quem trata dos petiscos?</i>), <b>contar com</b> (<i>Conto contigo!</i>)."
+    ],
+    "erklaerung_de": [
+     "Überblick – indirekt + direkt in einem Wort: mo, ma, mos, mas · to, ta, tos, tas · lho, lha, lhos, lhas · no-lo, no-la, no-los, no-las · vo-lo, vo-la …",
+     "Stellung: hinter dem Verb (<i>Dou-lho.</i>); vor dem Verb nach <b>não, já, quem, que …</b> (<i>Não lho dou.</i>); mit Infinitiv meist am Ende (<i>Vou dar-lho.</i>).",
+     "Im Gespräch bleibt oft nur ein Pronomen oder gar keins: <i>Quem traz as cadeiras? – Trago eu.</i> (Wer bringt die Stühle? – Ich.) In einer sorgfältigen Antwort stehen beide: <i>O João empresta-<b>no-las</b>.</i> – João leiht sie uns.",
+     "Nützlich fürs Organisieren: <b>encarregar-se de</b> (sich kümmern um), <b>tratar de</b> (erledigen), <b>contar com</b> (rechnen mit): <i>Conto contigo!</i> – Ich zähle auf dich!"
+    ],
+    "vergleich": "„Wer kümmert sich darum?“ – <i>Quem trata disso?</i> / <i>Quem se encarrega disso?</i> Das deutsche „darum“ entspricht <i>disso</i> (de + isso): Die Präposition des Verbs (tratar <b>de</b>, encarregar-se <b>de</b>) muss immer mit.",
+    "beispiele": [
+     {"pt": "Eu encarrego-me da decoração e a Ana trata dos petiscos.", "de": "Ich kümmere mich um die Dekoration, und Ana macht die Häppchen."},
+     {"pt": "As mesas? O João empresta-no-las.", "de": "Die Tische? João leiht sie uns."},
+     {"pt": "Conto contigo para a música ao vivo!", "de": "Ich zähle bei der Livemusik auf dich!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ da lista de convidados. (encarregar-se, eu)", "loesungen": ["encarrego-me"], "de": "Ich kümmere mich um die Gästeliste.", "kategorie": "Reflexive Verben"},
+     {"typ": "luecke", "satz": "Os copos? O Pedro empresta-___. (a nós)", "loesungen": ["no-los"], "de": "Die Gläser? Pedro leiht sie uns.", "erklaerung": "nos + os = no-los.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "A guitarra? Eu levo-___ no sábado. (a ti)", "loesungen": ["ta"], "de": "Die Gitarre? Ich bringe sie dir am Samstag.", "kategorie": "Kombinierte Pronomen"},
+     {"typ": "luecke", "satz": "Que flores tão bonitas! Quem ___ trouxe? (te + as)", "loesungen": ["tas"], "de": "Was für schöne Blumen! Wer hat sie dir gebracht?", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Wir zählen auf euch!“", "optionen": ["Contamos com vocês!", "Contamos a vocês!", "Contamos vocês!"], "richtig": 0, "kategorie": "Präpositionen"},
+     {"typ": "auswahl", "frage": "„Hast du es ihr schon gesagt?“ (die Überraschungsparty)", "optionen": ["Já disseste-lho?", "Já lho disseste?", "Já lhe o disseste?"], "richtig": 1, "erklaerung": "Nach já steht das Paar vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Wer kümmert sich um die Musik?", "loesungen": ["Quem trata da música?", "Quem se encarrega da música?", "Quem é que trata da música?", "Quem é que se encarrega da música?"], "kategorie": "Präpositionen"},
+     {"typ": "satzbau", "de": "Wir teilen die Kosten unter allen auf.", "loesung": "Dividimos as despesas entre todos."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A festa no quintal – das Gartenfest",
+    "situation": "Stefan, Ana, Pedro und Rita planen ein Sommerfest bei Stefan und Ana.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então, a festa é no sábado, dia doze. Já temos a lista de convidados: somos trinta.", "de": "Also, das Fest ist am Samstag, dem Zwölften. Die Gästeliste steht schon: Wir sind dreißig."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Trinta! E onde se sentam? Vocês não têm mesas suficientes.", "de": "Dreißig! Und wo sitzen die alle? Ihr habt nicht genug Tische."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O João tem mesas e cadeiras da associação. Já lhas pedi e ele empresta-no-las.", "de": "João hat Tische und Stühle vom Verein. Ich habe ihn schon darum gebeten, und er leiht sie uns."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ótimo. Eu encarrego-me da decoração: luzes no quintal e flores nas mesas.", "de": "Super. Ich kümmere mich um die Dekoration: Lichter im Garten und Blumen auf den Tischen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E os petiscos? Pensei em amêijoas, chouriço assado e salada de polvo.", "de": "Und die Häppchen? Ich dachte an Venusmuscheln, gegrillte Chouriço-Wurst und Oktopussalat."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Deixem isso comigo – o meu primo tem um restaurante. Peço-lhe um preço especial.", "de": "Überlasst das mir – mein Cousin hat ein Restaurant. Ich bitte ihn um einen Sonderpreis."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a música ao vivo? Conto com a tua guitarra, Pedro!", "de": "Und die Livemusik? Ich zähle auf deine Gitarre, Pedro!"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Contas, contas. Mas as despesas dividimos entre todos, está bem?", "de": "Klar, kannst du. Aber die Kosten teilen wir unter allen auf, okay?"}
+    ],
+    "fragen": [
+     {"frage": "Quantas pessoas vêm à festa?", "optionen": ["Doze.", "Trinta.", "Cinquenta."], "richtig": 1},
+     {"frage": "Quem empresta as mesas e as cadeiras?", "optionen": ["O João.", "O primo do Pedro.", "A Rita."], "richtig": 0},
+     {"frage": "De que se encarrega a Rita?", "optionen": ["Dos petiscos.", "Da música.", "Da decoração."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du rufst deinen Nachbarn João an, um Tische für das Fest auszuleihen (tu).",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Estou? Olá, Stefan! Diz.", "de": "Hallo? Hallo Stefan! Was gibt's?"},
+     {"ich": true, "aufgabe": "Sag: Hallo João! Wir machen am Samstag ein Fest. Kannst du uns die Tische leihen?", "loesungen": ["Olá, João! Vamos fazer uma festa no sábado. Podes emprestar-nos as mesas?", "Olá, João! No sábado vamos fazer uma festa. Podes emprestar-nos as mesas?", "Olá, João! Vamos dar uma festa no sábado. Podes emprestar-nos as mesas?", "Olá, João! Vamos fazer uma festa no sábado. Emprestas-nos as mesas?", "Olá, João! Fazemos uma festa no sábado. Podes emprestar-nos as mesas?"]},
+     {"sprecher": "João", "stimme": "m", "pt": "Claro! Empresto-vo-las com todo o gosto. Quando é que precisam delas?", "de": "Klar! Ich leihe sie euch sehr gern. Wann braucht ihr sie?"},
+     {"ich": true, "aufgabe": "Sag: Am Freitagnachmittag. Ich hole sie mit dem Auto ab.", "loesungen": ["Na sexta à tarde. Vou buscá-las de carro.", "Na sexta-feira à tarde. Vou buscá-las de carro.", "Na sexta à tarde. Eu vou buscá-las de carro.", "Na sexta à tarde. Vou buscá-las com o carro.", "Na sexta-feira à tarde. Vou buscá-las com o carro."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Combinado. E posso levar alguma coisa?", "de": "Abgemacht. Und kann ich etwas mitbringen?"},
+     {"ich": true, "aufgabe": "Sag: Du bist eingeladen! Bring nur gute Laune mit.", "loesungen": ["Estás convidado! Traz só boa disposição.", "Estás convidado! Traz só a boa disposição.", "Estás convidado! Traz apenas boa disposição.", "Estás convidado! Só tens de trazer boa disposição."]}
+    ]
+   },
+   "saetze": [
+    {"id": "encarrego-me-da-decoracao", "pt": "Eu encarrego-me da decoração.", "de": "Ich kümmere mich um die Dekoration."},
+    {"id": "conto-contigo", "pt": "Conto contigo para a música ao vivo!", "de": "Ich zähle bei der Livemusik auf dich!"},
+    {"id": "dividimos-as-despesas", "pt": "Dividimos as despesas entre todos.", "de": "Wir teilen die Kosten unter allen auf."}
+   ]
+  },
+  {"id": "B1-09-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-09-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "No Museu do Azulejo – im Azulejo-Museum",
+   "situation": "Stefan und Ana machen in Lissabon eine Führung durch das Nationale Azulejo-Museum.",
+   "zeilen": [
+    {"sprecher": "Guia", "stimme": "f", "pt": "Bem-vindos ao Museu Nacional do Azulejo. Este edifício era um convento do século XVI.", "de": "Willkommen im Nationalen Azulejo-Museum. Dieses Gebäude war ein Kloster aus dem 16. Jahrhundert."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Os doces conventuais também nasceram em conventos como este?", "de": "Sind die Klostersüßigkeiten auch in Klöstern wie diesem entstanden?"},
+    {"sprecher": "Guia", "stimme": "f", "pt": "Muitos, sim. As freiras usavam as gemas que sobravam, porque as claras serviam para engomar a roupa.", "de": "Viele, ja. Die Nonnen verwendeten das übrige Eigelb, weil man das Eiweiß zum Stärken der Wäsche brauchte."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "E porque é que há tantos azulejos azuis e brancos?", "de": "Und warum gibt es so viele blau-weiße Azulejos?"},
+    {"sprecher": "Guia", "stimme": "f", "pt": "No século XVII, a porcelana chinesa estava na moda, e os artesãos portugueses copiaram as cores.", "de": "Im 17. Jahrhundert war chinesisches Porzellan in Mode, und die portugiesischen Kunsthandwerker übernahmen die Farben."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Posso tirar uma fotografia ao painel grande de Lisboa?", "de": "Darf ich das große Lissabon-Fliesenbild fotografieren?"},
+    {"sprecher": "Guia", "stimme": "f", "pt": "Pode, mas sem flash. O painel mostra Lisboa antes do terramoto de 1755. Se quiserem, no fim mostro-vo-lo em pormenor.", "de": "Ja, aber ohne Blitz. Das Bild zeigt Lissabon vor dem Erdbeben von 1755. Wenn Sie möchten, zeige ich es Ihnen am Ende im Detail."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Sim, mostre-no-lo, por favor! E depois vamos jantar a uma casa de fados.", "de": "Ja, zeigen Sie es uns bitte! Und danach gehen wir in einem Fadolokal essen."}
+   ],
+   "fragen": [
+    {"frage": "O que era o edifício do museu?", "optionen": ["Um palácio.", "Um convento.", "Uma escola."], "richtig": 1},
+    {"frage": "Porque é que muitos azulejos são azuis e brancos?", "optionen": ["Por causa da moda da porcelana chinesa.", "Porque era mais barato.", "Por causa da cor do mar."], "richtig": 0},
+    {"frage": "Como se pode fotografar o painel?", "optionen": ["Não se pode.", "Só com autorização.", "Sem flash."], "richtig": 2},
+    {"frage": "O que mostra o painel grande?", "optionen": ["O Algarve no século XX.", "Lisboa antes do terramoto de 1755.", "Uma casa de fados."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Festas da Cidade – Aviso do município",
+   "situation": "Eine Mitteilung der Gemeinde Lagos zum Stadtfest.",
+   "text": [
+    "Festas da Cidade de Lagos – Aviso",
+    "As Festas da Cidade realizar-se-ão de 25 a 28 de julho, na Praça do Infante e na marginal.",
+    "A abertura far-se-á na quinta-feira, às 21h00, com um desfile da banda filarmónica e dos ranchos folclóricos do concelho.",
+    "Todas as noites haverá música ao vivo: na sexta-feira, fado com guitarra portuguesa; no sábado, o concerto de uma banda jovem do Algarve.",
+    "Na feira de artesanato poderá encontrar azulejos pintados à mão, peças de olaria e de cortiça e os tradicionais doces de amêndoa e figo.",
+    "O encerramento, no domingo à meia-noite, terá fogo de artifício sobre a baía. A entrada é livre em todos os espetáculos.",
+    "Os visitantes que vierem de carro deverão usar os parques de estacionamento fora do centro histórico."
+   ],
+   "fragen": [
+    {"frage": "Onde se realizam as festas?", "optionen": ["No estádio municipal.", "Na Praça do Infante e na marginal.", "No Teatro das Figuras."], "richtig": 1},
+    {"frage": "O que há na sexta-feira à noite?", "optionen": ["Fado.", "Fogo de artifício.", "O desfile de abertura."], "richtig": 0},
+    {"frage": "O que se pode comprar na feira de artesanato?", "optionen": ["Roupa e sapatos.", "Peixe fresco.", "Azulejos, olaria, cortiça e doces."], "richtig": 2},
+    {"frage": "Quanto custa a entrada nos espetáculos?", "optionen": ["Dez euros.", "É gratuita.", "Só as crianças não pagam."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Das Rezept? Meine Nachbarin hat es mir gegeben.", "loesungen": ["A receita? A minha vizinha deu-ma.", "A receita? Deu-ma a minha vizinha.", "A minha vizinha deu-ma."]},
+   {"de": "Ich habe es ihm schon gesagt.", "loesungen": ["Já lho disse.", "Eu já lho disse."]},
+   {"de": "Er hat es mir noch nicht zurückgegeben.", "loesungen": ["Ainda não mo devolveu.", "Ele ainda não mo devolveu."]},
+   {"de": "Packen Sie es mir bitte ein!", "loesungen": ["Embrulhe-mo, por favor!", "Embrulhe-mo, por favor.", "Embrulhe-mo, se faz favor.", "Por favor, embrulhe-mo."]},
+   {"de": "Ich kann sie dir morgen leihen. (os pratos)", "loesungen": ["Posso emprestar-tos amanhã.", "Amanhã posso emprestar-tos.", "Posso-tos emprestar amanhã."]},
+   {"de": "Das Fest wird im August stattfinden.", "loesungen": ["A festa vai realizar-se em agosto.", "A festa realiza-se em agosto.", "A festa realizar-se-á em agosto.", "A festa vai ser em agosto.", "A festa é em agosto.", "A festa vai-se realizar em agosto."]}
+  ],
+  "sprechen": [
+   {"pt": "O fado canta a saudade.", "de": "Der Fado besingt die Saudade."},
+   {"pt": "Quando ela cantou, fiquei arrepiado.", "de": "Als sie sang, bekam ich Gänsehaut."},
+   {"pt": "Dás-me a receita? – Dou-ta, claro!", "de": "Gibst du mir das Rezept? – Klar, ich gebe es dir!"},
+   {"pt": "Já lho disse: é só um boato.", "de": "Ich habe es ihm schon gesagt: Das ist nur ein Gerücht."},
+   {"pt": "Eu encarrego-me da decoração.", "de": "Ich kümmere mich um die Dekoration."}
+  ]
+ }
+}

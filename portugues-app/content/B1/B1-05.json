@@ -1,0 +1,886 @@
+{
+ "id": "B1-05",
+ "level": "B1",
+ "titel": "Trabalho e negócios I – E-Mails und Meetings",
+ "beschreibung": "Im Berufsalltag auf Portugiesisch bestehen – formelle E-Mails schreiben, Besprechungen und Videokonferenzen leiten, ein Angebot präsentieren, Termine verschieben und Kontakte knüpfen – mit dem typisch europäisch-portugiesischen Infinitivo pessoal (para fazermos, antes de saíres, é melhor eles saberem).",
+ "vokabeln": [
+  {"id": "o-socio", "pt": "o sócio", "de": "der Geschäftspartner / Teilhaber", "emoji": "🤝", "beispiel_pt": "O meu sócio e eu fundámos a empresa há cinco anos.", "beispiel_de": "Mein Geschäftspartner und ich haben die Firma vor fünf Jahren gegründet.", "alternativen": ["a sócia"]},
+  {"id": "o-negocio", "pt": "o negócio", "de": "das Geschäft", "emoji": "💼", "beispiel_pt": "O negócio está a correr bem este ano.", "beispiel_de": "Das Geschäft läuft dieses Jahr gut.", "hinweis": "os negócios = die Geschäfte; uma viagem de negócios = eine Geschäftsreise"},
+  {"id": "a-equipa", "pt": "a equipa", "de": "das Team", "emoji": "👥", "beispiel_pt": "É importante a equipa saber o que se passa.", "beispiel_de": "Es ist wichtig, dass das Team weiß, was los ist.", "hinweis": "pt-PT: a equipa (BR: a equipe)"},
+  {"id": "o-fornecedor", "pt": "o fornecedor", "de": "der Lieferant", "emoji": "🚚", "beispiel_pt": "Temos de falar com o fornecedor antes de fazermos a encomenda.", "beispiel_de": "Wir müssen mit dem Lieferanten sprechen, bevor wir die Bestellung aufgeben."},
+  {"id": "o-colaborador", "pt": "o colaborador", "de": "der Mitarbeiter", "emoji": "🧑‍💼", "beispiel_pt": "A nossa empresa tem doze colaboradores.", "beispiel_de": "Unsere Firma hat zwölf Mitarbeiter.", "hinweis": "In Firmen üblicher und höflicher als „o empregado“; auch: o funcionário.", "alternativen": ["a colaboradora"]},
+  {"id": "o-departamento", "pt": "o departamento", "de": "die Abteilung", "emoji": "🏢", "beispiel_pt": "Vou reencaminhar o e-mail para o departamento financeiro.", "beispiel_de": "Ich leite die E-Mail an die Finanzabteilung weiter."},
+  {"id": "a-faturacao", "pt": "a faturação", "de": "der Umsatz", "emoji": "📊", "beispiel_pt": "A faturação cresceu dez por cento este ano.", "beispiel_de": "Der Umsatz ist dieses Jahr um zehn Prozent gestiegen.", "hinweis": "faturar = Umsatz machen / in Rechnung stellen", "passiv": true},
+  {"id": "a-sede", "pt": "a sede", "de": "der Firmensitz / die Zentrale", "emoji": "🏛️", "beispiel_pt": "A sede da empresa fica em Lisboa.", "beispiel_de": "Der Firmensitz ist in Lissabon.", "hinweis": "Achtung: ter sede = Durst haben. Sitz mit offenem e, Durst mit geschlossenem e.", "passiv": true},
+  {"id": "o-cargo", "pt": "o cargo", "de": "die Position / das Amt", "emoji": "🪪", "beispiel_pt": "Que cargo ocupa na empresa?", "beispiel_de": "Welche Position haben Sie in der Firma?", "passiv": true},
+
+  {"id": "garantir", "pt": "garantir", "de": "garantieren / sicherstellen", "emoji": "🛡️", "beispiel_pt": "Para garantirmos a qualidade, testamos tudo duas vezes.", "beispiel_de": "Um die Qualität sicherzustellen, testen wir alles zweimal."},
+  {"id": "esclarecer", "pt": "esclarecer", "de": "klären / erläutern", "emoji": "💡", "beispiel_pt": "Liguei-lhe para esclarecermos algumas questões.", "beispiel_de": "Ich habe ihn angerufen, damit wir einige Fragen klären."},
+  {"id": "avancar", "pt": "avançar (com)", "de": "vorankommen / weitermachen (mit)", "emoji": "⏩", "beispiel_pt": "Podemos avançar com o projeto?", "beispiel_de": "Können wir mit dem Projekt weitermachen?", "alternativen": ["avançar"]},
+  {"id": "a-duvida", "pt": "a dúvida", "de": "die (offene) Frage / der Zweifel", "emoji": "❓", "beispiel_pt": "Tem alguma dúvida sobre o contrato?", "beispiel_de": "Haben Sie eine Frage zum Vertrag?", "hinweis": "Im Beruf meist „offene Frage“: tirar uma dúvida = eine Frage klären"},
+  {"id": "o-acordo", "pt": "o acordo", "de": "die Vereinbarung / Einigung", "emoji": "✍️", "beispiel_pt": "Chegámos a acordo com o cliente.", "beispiel_de": "Wir haben uns mit dem Kunden geeinigt.", "hinweis": "chegar a acordo = sich einigen; De acordo! = Einverstanden!"},
+  {"id": "a-tempo", "pt": "a tempo", "de": "rechtzeitig", "emoji": "⏰", "beispiel_pt": "Trabalhámos no sábado para entregarmos tudo a tempo.", "beispiel_de": "Wir haben am Samstag gearbeitet, damit wir alles rechtzeitig liefern."},
+  {"id": "a-margem", "pt": "a margem", "de": "die (Gewinn-)Marge", "emoji": "📈", "beispiel_pt": "A margem deste produto é muito pequena.", "beispiel_de": "Die Marge bei diesem Produkt ist sehr klein.", "passiv": true},
+  {"id": "a-rentabilidade", "pt": "a rentabilidade", "de": "die Rentabilität", "emoji": "💹", "beispiel_pt": "Precisamos de melhorar a rentabilidade do negócio.", "beispiel_de": "Wir müssen die Rentabilität des Geschäfts verbessern.", "passiv": true},
+  {"id": "assegurar", "pt": "assegurar", "de": "sicherstellen / gewährleisten", "emoji": "🔒", "beispiel_pt": "A Inês assegura o apoio ao cliente.", "beispiel_de": "Inês kümmert sich um den Kundensupport.", "passiv": true},
+
+  {"id": "rever", "pt": "rever", "de": "durchsehen / überarbeiten", "emoji": "🔍", "beispiel_pt": "Antes de enviarmos a proposta, temos de a rever.", "beispiel_de": "Bevor wir den Vorschlag schicken, müssen wir ihn überarbeiten.", "hinweis": "Wie ver: revejo, revês, revê … – Partizip: revisto. Auch: wiedersehen."},
+  {"id": "aprovar", "pt": "aprovar", "de": "genehmigen / freigeben", "emoji": "✅", "beispiel_pt": "O cliente já aprovou o orçamento.", "beispiel_de": "Der Kunde hat den Kostenvoranschlag schon genehmigt."},
+  {"id": "confirmar", "pt": "confirmar", "de": "bestätigen", "emoji": "☑️", "beispiel_pt": "Pode confirmar a hora da reunião?", "beispiel_de": "Können Sie die Uhrzeit der Besprechung bestätigen?"},
+  {"id": "corrigir", "pt": "corrigir", "de": "korrigieren", "emoji": "✏️", "beispiel_pt": "Depois de corrigires o texto, envia-o à Ana.", "beispiel_de": "Nachdem du den Text korrigiert hast, schick ihn an Ana.", "hinweis": "eu corrijo (g → j vor o)"},
+  {"id": "a-versao-final", "pt": "a versão final", "de": "die Endfassung", "emoji": "📄", "beispiel_pt": "Envio-lhe a versão final até sexta-feira.", "beispiel_de": "Ich schicke Ihnen die Endfassung bis Freitag."},
+  {"id": "o-rascunho", "pt": "o rascunho", "de": "der Entwurf", "emoji": "📝", "beispiel_pt": "Isto ainda é só um rascunho.", "beispiel_de": "Das ist erst ein Entwurf.", "passiv": true},
+  {"id": "a-assinatura", "pt": "a assinatura", "de": "die Unterschrift", "emoji": "🖊️", "beispiel_pt": "Só falta a assinatura do diretor.", "beispiel_de": "Es fehlt nur noch die Unterschrift des Direktors.", "hinweis": "auch: das Abonnement", "passiv": true},
+  {"id": "validar", "pt": "validar", "de": "prüfen und freigeben", "emoji": "🔏", "beispiel_pt": "O departamento jurídico tem de validar o contrato.", "beispiel_de": "Die Rechtsabteilung muss den Vertrag prüfen und freigeben.", "passiv": true},
+  {"id": "sem-falta", "pt": "sem falta", "de": "ganz bestimmt / ohne Verzug", "emoji": "📌", "beispiel_pt": "Envio-lhe o documento amanhã, sem falta.", "beispiel_de": "Ich schicke Ihnen das Dokument morgen, ganz bestimmt.", "passiv": true},
+
+  {"id": "e-melhor", "pt": "é melhor", "de": "es ist besser", "emoji": "👍", "beispiel_pt": "É melhor falarmos com o cliente hoje.", "beispiel_de": "Es ist besser, wenn wir heute mit dem Kunden sprechen."},
+  {"id": "a-prioridade", "pt": "a prioridade", "de": "die Priorität", "emoji": "🥇", "beispiel_pt": "A nossa prioridade é o cliente.", "beispiel_de": "Unsere Priorität ist der Kunde."},
+  {"id": "definir", "pt": "definir", "de": "festlegen / definieren", "emoji": "🎯", "beispiel_pt": "Temos de definir os objetivos para o próximo ano.", "beispiel_de": "Wir müssen die Ziele für das nächste Jahr festlegen."},
+  {"id": "a-estrategia", "pt": "a estratégia", "de": "die Strategie", "emoji": "♟️", "beispiel_pt": "É importante a equipa perceber a estratégia.", "beispiel_de": "Es ist wichtig, dass das Team die Strategie versteht."},
+  {"id": "o-risco", "pt": "o risco", "de": "das Risiko", "emoji": "⚠️", "beispiel_pt": "Há o risco de perdermos o cliente.", "beispiel_de": "Es besteht das Risiko, dass wir den Kunden verlieren.", "hinweis": "correr o risco de = Gefahr laufen"},
+  {"id": "e-fundamental", "pt": "é fundamental", "de": "es ist unerlässlich", "emoji": "🧱", "beispiel_pt": "É fundamental todos conhecerem o plano.", "beispiel_de": "Es ist unerlässlich, dass alle den Plan kennen.", "passiv": true},
+  {"id": "e-essencial", "pt": "é essencial", "de": "es ist wesentlich", "emoji": "🔑", "beispiel_pt": "É essencial os prazos serem realistas.", "beispiel_de": "Es ist wesentlich, dass die Fristen realistisch sind.", "passiv": true},
+  {"id": "o-cronograma", "pt": "o cronograma", "de": "der Zeitplan", "emoji": "🗓️", "beispiel_pt": "O cronograma do projeto está atrasado.", "beispiel_de": "Der Zeitplan des Projekts ist im Verzug.", "passiv": true},
+
+  {"id": "exmo-senhor", "pt": "Exmo. Senhor", "de": "Sehr geehrter Herr", "emoji": "✉️", "beispiel_pt": "Exmo. Senhor Dr. Costa,", "beispiel_de": "Sehr geehrter Herr Dr. Costa,", "hinweis": "Exmo./Exma. = Excelentíssimo/a – an eine Frau: Exma. Senhora. Weniger steif: Caro … / Cara …", "alternativen": ["Exma. Senhora", "Excelentíssimo Senhor"]},
+  {"id": "venho-por-este-meio", "pt": "Venho por este meio …", "de": "Hiermit möchte ich …", "emoji": "📨", "beispiel_pt": "Venho por este meio pedir um orçamento.", "beispiel_de": "Hiermit bitte ich um einen Kostenvoranschlag.", "hinweis": "Typischer erster Satz in formellen Briefen; danach folgt ein Infinitiv."},
+  {"id": "na-sequencia-de", "pt": "na sequência de", "de": "im Anschluss an / bezugnehmend auf", "emoji": "🔗", "beispiel_pt": "Na sequência da nossa conversa, envio-lhe a proposta.", "beispiel_de": "Im Anschluss an unser Gespräch schicke ich Ihnen den Vorschlag."},
+  {"id": "agradeco-desde-ja", "pt": "Agradeço desde já …", "de": "Vielen Dank im Voraus …", "emoji": "🙏", "beispiel_pt": "Agradeço desde já a sua atenção.", "beispiel_de": "Vielen Dank im Voraus für Ihre Aufmerksamkeit."},
+  {"id": "a-resposta", "pt": "a resposta", "de": "die Antwort", "emoji": "💬", "beispiel_pt": "Obrigado pela resposta tão rápida.", "beispiel_de": "Danke für die so schnelle Antwort."},
+  {"id": "cumprimentos", "pt": "Cumprimentos", "de": "Grüße (E-Mail-Schluss)", "emoji": "👋", "beispiel_pt": "Cumprimentos, Stefan", "beispiel_de": "Grüße, Stefan", "hinweis": "kurz und neutral; formeller: Com os melhores cumprimentos"},
+  {"id": "por-em-copia", "pt": "pôr em cópia", "de": "in CC setzen", "emoji": "📧", "beispiel_pt": "Vou pôr a Ana em cópia.", "beispiel_de": "Ich setze Ana in CC."},
+  {"id": "atenciosamente", "pt": "Atenciosamente", "de": "Hochachtungsvoll (sehr formeller Briefschluss)", "emoji": "🖋️", "beispiel_pt": "Atenciosamente, Stefan", "beispiel_de": "Hochachtungsvoll, Stefan", "hinweis": "Sehr formell; im Geschäftsalltag üblicher: Com os melhores cumprimentos", "passiv": true},
+  {"id": "sem-outro-assunto", "pt": "Sem outro assunto de momento, …", "de": "Ohne weiteres Anliegen verbleibe ich … (Schlussformel)", "emoji": "📪", "beispiel_pt": "Sem outro assunto de momento, apresento os meus melhores cumprimentos.", "beispiel_de": "Ohne weiteres Anliegen verbleibe ich mit freundlichen Grüßen.", "passiv": true},
+  {"id": "solicitar", "pt": "solicitar", "de": "anfordern / ersuchen (formell)", "emoji": "📥", "beispiel_pt": "Solicitamos o envio da fatura até ao fim do mês.", "beispiel_de": "Wir bitten um Zusendung der Rechnung bis Monatsende.", "passiv": true},
+
+  {"id": "o-ponto-de-situacao", "pt": "o ponto de situação", "de": "der Zwischenstand / Lagebericht", "emoji": "📍", "beispiel_pt": "Vamos fazer um ponto de situação do projeto.", "beispiel_de": "Machen wir einen Zwischenstand zum Projekt."},
+  {"id": "os-proximos-passos", "pt": "os próximos passos", "de": "die nächsten Schritte", "emoji": "👣", "beispiel_pt": "Antes de terminarmos, vamos ver os próximos passos.", "beispiel_de": "Bevor wir schließen, sehen wir uns die nächsten Schritte an."},
+  {"id": "tomar-nota", "pt": "tomar nota (de)", "de": "notieren / sich etwas aufschreiben", "emoji": "🗒️", "beispiel_pt": "Tomei nota de tudo.", "beispiel_de": "Ich habe mir alles notiert.", "alternativen": ["tomar nota"]},
+  {"id": "passar-a-palavra-a", "pt": "passar a palavra a", "de": "das Wort übergeben an", "emoji": "🎤", "beispiel_pt": "Passo agora a palavra à Inês.", "beispiel_de": "Ich übergebe jetzt das Wort an Inês."},
+  {"id": "em-suma", "pt": "em suma", "de": "kurz gesagt / zusammengefasst", "emoji": "🧾", "beispiel_pt": "Em suma: o projeto está a correr bem.", "beispiel_de": "Zusammengefasst: Das Projekt läuft gut."},
+  {"id": "o-intervalo", "pt": "o intervalo", "de": "die Pause", "emoji": "☕", "beispiel_pt": "Fazemos um intervalo de dez minutos?", "beispiel_de": "Machen wir zehn Minuten Pause?"},
+  {"id": "fazer-o-balanco", "pt": "fazer o balanço (de)", "de": "Bilanz ziehen", "emoji": "⚖️", "beispiel_pt": "No fim do ano, fazemos o balanço.", "beispiel_de": "Am Jahresende ziehen wir Bilanz.", "alternativen": ["fazer o balanço"], "passiv": true},
+  {"id": "redigir", "pt": "redigir", "de": "verfassen (schriftlich)", "emoji": "⌨️", "beispiel_pt": "Quem redige a ata hoje?", "beispiel_de": "Wer verfasst heute das Protokoll?", "hinweis": "eu redijo (g → j vor o)", "passiv": true},
+  {"id": "dar-seguimento-a", "pt": "dar seguimento a", "de": "weiterverfolgen / sich (weiter) kümmern um", "emoji": "➡️", "beispiel_pt": "Vou dar seguimento ao seu pedido.", "beispiel_de": "Ich kümmere mich weiter um Ihre Anfrage.", "passiv": true},
+
+  {"id": "a-videochamada", "pt": "a videochamada", "de": "der Videoanruf / die Videokonferenz", "emoji": "💻", "beispiel_pt": "Fazemos a reunião por videochamada?", "beispiel_de": "Machen wir die Besprechung per Videoanruf?"},
+  {"id": "o-microfone", "pt": "o microfone", "de": "das Mikrofon", "emoji": "🎙️", "beispiel_pt": "O seu microfone está desligado.", "beispiel_de": "Ihr Mikrofon ist ausgeschaltet."},
+  {"id": "a-camara", "pt": "a câmara", "de": "die Kamera", "emoji": "📷", "beispiel_pt": "Liguem as câmaras, por favor.", "beispiel_de": "Schaltet bitte die Kameras ein.", "hinweis": "pt-PT: a câmara (BR: a câmera); ligar / desligar a câmara"},
+  {"id": "o-ecra", "pt": "o ecrã", "de": "der Bildschirm", "emoji": "🖥️", "beispiel_pt": "O ecrã do meu portátil é pequeno.", "beispiel_de": "Der Bildschirm meines Laptops ist klein.", "hinweis": "pt-PT: o ecrã (Plural: os ecrãs)"},
+  {"id": "partilhar-o-ecra", "pt": "partilhar o ecrã", "de": "den Bildschirm teilen", "emoji": "🔁", "beispiel_pt": "Vou partilhar o ecrã para verem a apresentação.", "beispiel_de": "Ich teile den Bildschirm, damit ihr die Präsentation seht.", "hinweis": "pt-PT: partilhar (BR: compartilhar)"},
+  {"id": "entrar-na-reuniao", "pt": "entrar na reunião", "de": "der Besprechung beitreten", "emoji": "🚪", "beispiel_pt": "Ainda não consegui entrar na reunião.", "beispiel_de": "Ich habe es noch nicht geschafft, der Besprechung beizutreten."},
+  {"id": "ir-abaixo", "pt": "ir abaixo", "de": "abbrechen / ausfallen (Verbindung, Netz)", "emoji": "📉", "beispiel_pt": "Desculpem, a ligação foi abaixo.", "beispiel_de": "Entschuldigung, die Verbindung ist abgebrochen.", "passiv": true},
+  {"id": "silenciar", "pt": "silenciar", "de": "stumm schalten", "emoji": "🔇", "beispiel_pt": "Por favor, silenciem os microfones.", "beispiel_de": "Bitte schaltet die Mikrofone stumm.", "passiv": true},
+  {"id": "congelar", "pt": "congelar", "de": "einfrieren / hängen bleiben (Bild)", "emoji": "🧊", "beispiel_pt": "A imagem congelou.", "beispiel_de": "Das Bild ist hängen geblieben.", "passiv": true},
+
+  {"id": "apresentar", "pt": "apresentar", "de": "präsentieren / vorstellen", "emoji": "📽️", "beispiel_pt": "Amanhã vou apresentar a nossa proposta ao cliente.", "beispiel_de": "Morgen präsentiere ich dem Kunden unseren Vorschlag."},
+  {"id": "o-investimento", "pt": "o investimento", "de": "die Investition", "emoji": "💰", "beispiel_pt": "Qual é o investimento total?", "beispiel_de": "Wie hoch ist die Gesamtinvestition?"},
+  {"id": "negociar", "pt": "negociar", "de": "verhandeln", "emoji": "🗣️", "beispiel_pt": "Podemos negociar o preço?", "beispiel_de": "Können wir über den Preis verhandeln?"},
+  {"id": "a-medida", "pt": "à medida", "de": "maßgeschneidert", "emoji": "📐", "beispiel_pt": "Oferecemos soluções à medida de cada cliente.", "beispiel_de": "Wir bieten maßgeschneiderte Lösungen für jeden Kunden.", "hinweis": "feito à medida = nach Maß angefertigt"},
+  {"id": "as-condicoes-de-pagamento", "pt": "as condições de pagamento", "de": "die Zahlungsbedingungen", "emoji": "🧾", "beispiel_pt": "As condições de pagamento estão na proposta.", "beispiel_de": "Die Zahlungsbedingungen stehen im Angebot.", "passiv": true},
+  {"id": "o-valor-acrescentado", "pt": "o valor acrescentado", "de": "der Mehrwert", "emoji": "➕", "beispiel_pt": "Qual é o valor acrescentado do vosso serviço?", "beispiel_de": "Was ist der Mehrwert eurer Dienstleistung?", "hinweis": "IVA = Imposto sobre o Valor Acrescentado (Mehrwertsteuer)", "passiv": true},
+  {"id": "a-mais-valia", "pt": "a mais-valia", "de": "der Vorteil / Gewinn (Mehrwert)", "emoji": "🌟", "beispiel_pt": "A experiência da nossa equipa é uma mais-valia.", "beispiel_de": "Die Erfahrung unseres Teams ist ein echter Vorteil.", "passiv": true},
+  {"id": "o-retorno", "pt": "o retorno", "de": "die Rendite / der Rückfluss", "emoji": "↩️", "beispiel_pt": "O retorno do investimento chega em menos de um ano.", "beispiel_de": "Die Investition rechnet sich in weniger als einem Jahr.", "passiv": true},
+
+  {"id": "remarcar", "pt": "remarcar", "de": "(einen Termin) verlegen / neu ansetzen", "emoji": "🔄", "beispiel_pt": "Podemos remarcar a reunião para quinta-feira?", "beispiel_de": "Können wir die Besprechung auf Donnerstag verlegen?"},
+  {"id": "desmarcar", "pt": "desmarcar", "de": "(einen Termin) absagen", "emoji": "❌", "beispiel_pt": "Tive de desmarcar o dentista.", "beispiel_de": "Ich musste den Zahnarzttermin absagen."},
+  {"id": "a-agenda", "pt": "a agenda", "de": "der Terminkalender", "emoji": "📒", "beispiel_pt": "Deixe-me ver a minha agenda.", "beispiel_de": "Lassen Sie mich in meinen Kalender schauen."},
+  {"id": "o-imprevisto", "pt": "o imprevisto", "de": "das unvorhergesehene Ereignis", "emoji": "🌪️", "beispiel_pt": "Desculpe, tive um imprevisto.", "beispiel_de": "Entschuldigung, mir ist etwas dazwischengekommen."},
+  {"id": "a-disponibilidade", "pt": "a disponibilidade", "de": "die Verfügbarkeit / freie Zeit", "emoji": "🕐", "beispiel_pt": "Qual é a sua disponibilidade na próxima semana?", "beispiel_de": "Wann haben Sie nächste Woche Zeit?"},
+  {"id": "cancelar", "pt": "cancelar", "de": "absagen / stornieren", "emoji": "🚫", "beispiel_pt": "O cliente cancelou a encomenda.", "beispiel_de": "Der Kunde hat die Bestellung storniert."},
+  {"id": "o-incomodo", "pt": "o incómodo", "de": "die Unannehmlichkeit", "emoji": "😬", "beispiel_pt": "Pedimos desculpa pelo incómodo.", "beispiel_de": "Wir entschuldigen uns für die Unannehmlichkeiten.", "passiv": true},
+  {"id": "antecipar", "pt": "antecipar", "de": "vorverlegen / vorziehen", "emoji": "⏪", "beispiel_pt": "Podemos antecipar a reunião para as nove?", "beispiel_de": "Können wir die Besprechung auf neun Uhr vorziehen?", "passiv": true},
+
+  {"id": "o-cartao-de-visita", "pt": "o cartão de visita", "de": "die Visitenkarte", "emoji": "📇", "beispiel_pt": "Posso dar-lhe o meu cartão de visita?", "beispiel_de": "Darf ich Ihnen meine Visitenkarte geben?"},
+  {"id": "o-contacto", "pt": "o contacto", "de": "der Kontakt", "emoji": "📱", "beispiel_pt": "Pode deixar-me o seu contacto?", "beispiel_de": "Können Sie mir Ihre Kontaktdaten dalassen?", "hinweis": "pt-PT: contacto (mit c); os contactos = die Kontaktdaten"},
+  {"id": "o-evento", "pt": "o evento", "de": "die Veranstaltung", "emoji": "🎟️", "beispiel_pt": "Conheci a Carla num evento em Faro.", "beispiel_de": "Ich habe Carla bei einer Veranstaltung in Faro kennengelernt."},
+  {"id": "o-setor", "pt": "o setor", "de": "die Branche / der Sektor", "emoji": "🏭", "beispiel_pt": "Em que setor trabalha?", "beispiel_de": "In welcher Branche arbeiten Sie?"},
+  {"id": "manter-o-contacto", "pt": "manter o contacto", "de": "in Kontakt bleiben", "emoji": "🤙", "beispiel_pt": "Foi um prazer. Vamos manter o contacto!", "beispiel_de": "Es war mir ein Vergnügen. Bleiben wir in Kontakt!"},
+  {"id": "a-conferencia", "pt": "a conferência", "de": "die Konferenz / Tagung", "emoji": "🏟️", "beispiel_pt": "Na próxima semana vou a uma conferência sobre turismo.", "beispiel_de": "Nächste Woche fahre ich zu einer Tourismuskonferenz.", "passiv": true},
+  {"id": "o-ramo", "pt": "o ramo", "de": "die Branche (umgangssprachlich)", "emoji": "🌿", "beispiel_pt": "Trabalho no ramo da hotelaria.", "beispiel_de": "Ich arbeite in der Hotelbranche.", "passiv": true},
+  {"id": "o-almoco-de-negocios", "pt": "o almoço de negócios", "de": "das Geschäftsessen (mittags)", "emoji": "🍽️", "beispiel_pt": "Tenho um almoço de negócios ao meio-dia.", "beispiel_de": "Ich habe mittags ein Geschäftsessen.", "passiv": true},
+  {"id": "dedicar-se-a", "pt": "dedicar-se a", "de": "sich widmen / tätig sein in", "emoji": "🎯", "beispiel_pt": "A empresa dedica-se ao turismo rural.", "beispiel_de": "Die Firma ist im ländlichen Tourismus tätig.", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-05-L01",
+   "typ": "neu",
+   "titel": "Der Infinitivo pessoal: die Formen",
+   "vokabeln": ["o-socio", "o-negocio", "a-equipa", "o-fornecedor", "o-colaborador", "o-departamento", "a-faturacao", "a-sede", "o-cargo"],
+   "grammatik": {
+    "titel": "O infinitivo pessoal – as formas",
+    "erklaerung": [
+     "O português europeu tem uma forma muito especial: o <b>infinitivo pessoal</b>. É um infinitivo com terminação de pessoa: <i>para nós <b>fazermos</b></i>, <i>antes de eles <b>chegarem</b></i>.",
+     "Formação: infinitivo + terminação. <b>eu</b> falar · <b>tu</b> falar<b>es</b> · <b>ele/ela/você</b> falar · <b>nós</b> falar<b>mos</b> · <b>eles/elas/vocês</b> falar<b>em</b>. (<i>vós falardes</i> quase não se usa.)",
+     "Não há verbos irregulares! Parte-se sempre do infinitivo: <i>ser → sermos</i>, <i>ter → terem</i>, <i>ir → irmos</i>, <i>fazer → fazeres</i>, <i>pôr → pormos</i>.",
+     "Usa-se sobretudo quando o infinitivo tem um <b>sujeito próprio</b>, diferente do verbo principal, ou para deixar claro quem faz a ação: <i>O meu sócio pediu para <b>enviarmos</b> os números.</i>"
+    ],
+    "erklaerung_de": [
+     "Das europäische Portugiesisch hat eine ganz besondere Form: den <b>persönlichen Infinitiv</b>. Das ist ein Infinitiv mit Personenendung: <i>para nós <b>fazermos</b></i> (damit wir machen), <i>antes de eles <b>chegarem</b></i> (bevor sie ankommen).",
+     "Bildung: Infinitiv + Endung. <b>eu</b> falar · <b>tu</b> falar<b>es</b> · <b>ele/ela/você</b> falar · <b>nós</b> falar<b>mos</b> · <b>eles/elas/vocês</b> falar<b>em</b>. (<i>vós falardes</i> wird kaum benutzt.)",
+     "Es gibt keine unregelmäßigen Verben! Man geht immer vom Infinitiv aus: <i>ser → sermos</i>, <i>ter → terem</i>, <i>ir → irmos</i>, <i>fazer → fazeres</i>, <i>pôr → pormos</i>.",
+     "Man benutzt ihn vor allem, wenn der Infinitiv ein <b>eigenes Subjekt</b> hat, das sich vom Hauptverb unterscheidet, oder um klarzumachen, wer handelt: <i>Mein Partner hat gebeten, dass wir die Zahlen schicken.</i>"
+    ],
+    "vergleich": "Deutsch und Englisch kennen keinen „gebeugten Infinitiv“. Wir brauchen einen Nebensatz: „damit wir …“, „bevor sie …“. Portugiesisch spart sich den Nebensatz: <i>antes de saírem</i> = „bevor sie gehen“. Im europäischen Portugiesisch hörst du diese Form im Alltag ständig.",
+    "beispiele": [
+     {"pt": "É melhor falarmos com o fornecedor hoje.", "de": "Es ist besser, wenn wir heute mit dem Lieferanten sprechen."},
+     {"pt": "O meu sócio pediu para enviarmos os números até sexta-feira.", "de": "Mein Geschäftspartner hat gebeten, dass wir die Zahlen bis Freitag schicken."},
+     {"pt": "Antes de saíres, fecha a porta do escritório.", "de": "Bevor du gehst, schließ die Bürotür."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Para ___ a tempo, temos de sair já. (chegar, nós)", "loesungen": ["chegarmos"], "de": "Damit wir rechtzeitig ankommen, müssen wir sofort los.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "É melhor tu ___ com o departamento financeiro. (falar)", "loesungen": ["falares"], "de": "Es ist besser, wenn du mit der Finanzabteilung sprichst.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Antes de eles ___ a proposta, vamos rever os números. (receber)", "loesungen": ["receberem"], "de": "Bevor sie den Vorschlag bekommen, sehen wir die Zahlen noch einmal durch.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "É importante ___ pacientes com o fornecedor. (ser, nós)", "loesungen": ["sermos"], "de": "Es ist wichtig, dass wir mit dem Lieferanten geduldig sind.", "erklaerung": "Kein unregelmäßiges Verb im infinitivo pessoal: ser → sermos.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "Welche Form ist richtig? „para vocês ___“ (fazer)", "optionen": ["fazem", "façam", "fazerem"], "richtig": 2, "erklaerung": "Infinitivo pessoal = Infinitiv + -em. Nicht vom Präsens ausgehen!", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„damit wir gehen“ (ir)", "optionen": ["para vamos", "para irmos", "para iremos"], "richtig": 1, "erklaerung": "ir → irmos: Infinitiv + -mos.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "uebersetzen", "de": "Es ist besser, wenn wir heute mit dem Team sprechen.", "loesungen": ["É melhor falarmos hoje com a equipa.", "É melhor falarmos com a equipa hoje.", "Hoje é melhor falarmos com a equipa.", "É melhor nós falarmos com a equipa hoje.", "É melhor nós falarmos hoje com a equipa.", "É melhor que falemos com a equipa hoje."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "satzbau", "de": "Mein Partner hat gebeten, dass wir die Zahlen schicken.", "loesung": "O meu sócio pediu para enviarmos os números."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma nova colaboradora – eine neue Mitarbeiterin",
+    "situation": "Stefan spricht mit seinem Geschäftspartner Miguel über eine neue Mitarbeiterin.",
+    "zeilen": [
+     {"sprecher": "Miguel", "stimme": "m", "pt": "Stefan, a Inês começa na segunda-feira. É melhor prepararmos tudo hoje.", "de": "Stefan, Inês fängt am Montag an. Es ist besser, wenn wir heute alles vorbereiten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Concordo. Ela vai trabalhar no departamento de vendas, certo?", "de": "Einverstanden. Sie wird in der Verkaufsabteilung arbeiten, oder?"},
+     {"sprecher": "Miguel", "stimme": "m", "pt": "Sim, mas primeiro passa uma semana com a equipa toda, para conhecer bem o negócio.", "de": "Ja, aber zuerst verbringt sie eine Woche mit dem ganzen Team, um das Geschäft gut kennenzulernen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa ideia. E é importante ela falar logo no início com os nossos fornecedores.", "de": "Gute Idee. Und es ist wichtig, dass sie gleich am Anfang mit unseren Lieferanten spricht."},
+     {"sprecher": "Miguel", "stimme": "m", "pt": "Tens razão. Antes de ela chegar, eu trato do computador e do e-mail.", "de": "Du hast recht. Bevor sie kommt, kümmere ich mich um den Computer und die E-Mail."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perfeito. E na segunda almoçamos os três, para ela se sentir em casa.", "de": "Perfekt. Und am Montag essen wir zu dritt zu Mittag, damit sie sich wie zu Hause fühlt."},
+     {"sprecher": "Miguel", "stimme": "m", "pt": "Combinado! Eu reservo uma mesa no restaurante do costume.", "de": "Abgemacht! Ich reserviere einen Tisch im üblichen Restaurant."}
+    ],
+    "fragen": [
+     {"frage": "Quando começa a Inês?", "optionen": ["Hoje.", "Na segunda-feira.", "Na sexta-feira."], "richtig": 1},
+     {"frage": "Em que departamento vai trabalhar?", "optionen": ["No departamento de vendas.", "No departamento financeiro.", "No departamento jurídico."], "richtig": 0},
+     {"frage": "Porque é que vão almoçar os três?", "optionen": ["Para falarem com um fornecedor.", "Para discutirem o salário.", "Para a Inês se sentir em casa."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "O meu sócio e eu temos uma pequena empresa.", "de": "Mein Geschäftspartner und ich haben eine kleine Firma."},
+     {"pt": "A nossa equipa tem cinco colaboradores.", "de": "Unser Team hat fünf Mitarbeiter."},
+     {"pt": "É melhor falarmos com o fornecedor.", "de": "Es ist besser, wenn wir mit dem Lieferanten sprechen."},
+     {"pt": "Antes de saíres, liga-me.", "de": "Bevor du gehst, ruf mich an."},
+     {"pt": "Para chegarmos a tempo, temos de sair já.", "de": "Damit wir rechtzeitig ankommen, müssen wir sofort los."}
+    ]
+   },
+   "saetze": [
+    {"id": "e-melhor-falarmos", "pt": "É melhor falarmos com o fornecedor hoje.", "de": "Es ist besser, wenn wir heute mit dem Lieferanten sprechen."},
+    {"id": "antes-de-saires", "pt": "Antes de saíres, fecha a porta do escritório.", "de": "Bevor du gehst, schließ die Bürotür."},
+    {"id": "socio-pediu-enviarmos", "pt": "O meu sócio pediu para enviarmos os números.", "de": "Mein Partner hat gebeten, dass wir die Zahlen schicken."}
+   ]
+  },
+  {
+   "id": "B1-05-L02",
+   "typ": "neu",
+   "titel": "Para + infinitivo pessoal: damit wir …",
+   "vokabeln": ["garantir", "esclarecer", "avancar", "a-duvida", "o-acordo", "a-tempo", "a-margem", "a-rentabilidade", "assegurar"],
+   "grammatik": {
+    "titel": "Para + infinitivo pessoal",
+    "erklaerung": [
+     "<b>Para</b> + infinitivo exprime uma finalidade. Se o sujeito é o mesmo do verbo principal, basta o infinitivo simples: <i>Liguei <b>para esclarecer</b> a dúvida.</i>",
+     "Se o sujeito é <b>outro</b>, usamos o infinitivo pessoal: <i>Enviei-vos o relatório <b>para o lerem</b>.</i> · <i>Envio-lhe os números <b>para o senhor decidir</b>.</i>",
+     "Muitas vezes o infinitivo pessoal aparece também com o mesmo sujeito, para dar ênfase: <i>Trabalhámos no sábado <b>para entregarmos</b> tudo a tempo.</i> As duas formas estão certas.",
+     "Alternativa mais formal: <b>para que</b> + conjuntivo: <i>para que o leiam</i>. No dia a dia, o infinitivo pessoal é muito mais frequente."
+    ],
+    "erklaerung_de": [
+     "<b>Para</b> + Infinitiv drückt einen Zweck aus. Ist das Subjekt dasselbe wie beim Hauptverb, genügt der einfache Infinitiv: <i>Ich habe angerufen, <b>um die Frage zu klären</b>.</i>",
+     "Ist das Subjekt ein <b>anderes</b>, benutzen wir den persönlichen Infinitiv: <i>Ich habe euch den Bericht geschickt, <b>damit ihr ihn lest</b>.</i> · <i>Ich schicke Ihnen die Zahlen, <b>damit Sie entscheiden</b>.</i>",
+     "Oft steht der persönliche Infinitiv auch bei gleichem Subjekt, zur Betonung: <i>Wir haben am Samstag gearbeitet, <b>um alles rechtzeitig zu liefern</b>.</i> Beide Formen sind richtig.",
+     "Formellere Alternative: <b>para que</b> + Konjunktiv: <i>para que o leiam</i>. Im Alltag ist der persönliche Infinitiv viel häufiger."
+    ],
+    "vergleich": "Deutsch unterscheidet „um … zu“ (gleiches Subjekt) und „damit“ (anderes Subjekt). Portugiesisch genauso – nur mit Endung: <i>para esclarecer</i> = um zu klären · <i>para esclarecermos</i> = damit wir klären · <i>para esclarecerem</i> = damit sie/ihr klären/klärt.",
+    "beispiele": [
+     {"pt": "Liguei ao cliente para esclarecermos as últimas dúvidas.", "de": "Ich habe den Kunden angerufen, damit wir die letzten Fragen klären."},
+     {"pt": "Mandei-vos o contrato para o lerem antes da reunião.", "de": "Ich habe euch den Vertrag geschickt, damit ihr ihn vor der Besprechung lest."},
+     {"pt": "Temos de trabalhar no sábado para entregarmos tudo a tempo.", "de": "Wir müssen am Samstag arbeiten, damit wir alles rechtzeitig liefern."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Envio-lhe os números para o senhor ___ uma decisão. (tomar)", "loesungen": ["tomar"], "de": "Ich schicke Ihnen die Zahlen, damit Sie eine Entscheidung treffen.", "erklaerung": "3. Person Singular: keine Endung – die Form ist gleich dem Infinitiv.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Liguei-te para ___ a dúvida juntos. (esclarecer, nós)", "loesungen": ["esclarecermos"], "de": "Ich habe dich angerufen, damit wir die Frage gemeinsam klären.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Mandei-lhes o contrato para o ___ com calma. (ler, eles)", "loesungen": ["lerem"], "de": "Ich habe ihnen den Vertrag geschickt, damit sie ihn in Ruhe lesen.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Precisamos de um acordo para ___ com o projeto. (avançar, nós)", "loesungen": ["avançarmos", "avançar"], "de": "Wir brauchen eine Einigung, um mit dem Projekt weiterzumachen.", "erklaerung": "Gleiches Subjekt (nós): avançar und avançarmos sind beide richtig.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Ich schicke dir die Datei, damit du sie überprüfst.“", "optionen": ["Envio-te o ficheiro para tu o verificar.", "Envio-te o ficheiro para o verificares.", "Envio-te o ficheiro para que o verificas."], "richtig": 1, "erklaerung": "tu → verificares. Nach „para que“ bräuchte man den Konjunktiv (verifiques).", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "Was bedeutet „para garantirmos a qualidade“?", "optionen": ["damit sie die Qualität sicherstellen", "wir haben die Qualität sichergestellt", "damit wir die Qualität sicherstellen"], "richtig": 2, "kategorie": "Infinitivo pessoal"},
+     {"typ": "uebersetzen", "de": "Wir arbeiten am Samstag, damit wir alles rechtzeitig liefern.", "loesungen": ["Trabalhamos no sábado para entregarmos tudo a tempo.", "Trabalhamos no sábado para entregar tudo a tempo.", "Vamos trabalhar no sábado para entregarmos tudo a tempo.", "Vamos trabalhar no sábado para entregar tudo a tempo.", "No sábado trabalhamos para entregarmos tudo a tempo.", "Trabalhamos no sábado para que entreguemos tudo a tempo."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "satzbau", "de": "Ich habe dir den Vertrag geschickt, damit du ihn vor der Besprechung liest.", "loesung": "Enviei-te o contrato para o leres antes da reunião."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Duas dúvidas sobre o contrato – zwei Fragen zum Vertrag",
+    "situation": "Stefan telefoniert mit Dona Teresa Lopes, einer Kundin aus Lissabon.",
+    "zeilen": [
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Bom dia, Stefan. Liguei-lhe para esclarecermos duas dúvidas sobre o contrato.", "de": "Guten Morgen, Stefan. Ich rufe an, damit wir zwei Fragen zum Vertrag klären."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia, Dona Teresa. Com todo o gosto. Diga.", "de": "Guten Morgen, Frau Teresa. Sehr gern. Bitte."},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Primeiro, o prazo: é possível entregarem o projeto até ao fim de março?", "de": "Erstens die Frist: Ist es möglich, dass Sie das Projekt bis Ende März liefern?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É apertado, mas é possível. Para garantirmos a qualidade, precisamos das vossas informações até ao dia dez.", "de": "Es ist knapp, aber möglich. Um die Qualität sicherzustellen, brauchen wir Ihre Informationen bis zum Zehnten."},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Isso não é problema. E o preço? A administração pediu-me para negociar um desconto.", "de": "Das ist kein Problem. Und der Preis? Die Geschäftsleitung hat mich gebeten, einen Rabatt auszuhandeln."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Posso fazer cinco por cento, mas só com a assinatura do contrato esta semana.", "de": "Ich kann fünf Prozent geben, aber nur, wenn der Vertrag diese Woche unterschrieben wird."},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Ótimo, temos acordo! Envie-me a versão final para eu a assinar amanhã.", "de": "Sehr gut, wir sind uns einig! Schicken Sie mir die Endfassung, damit ich sie morgen unterschreibe."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Envio ainda hoje. Muito obrigado!", "de": "Ich schicke sie noch heute. Vielen Dank!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a Dona Teresa liga?", "optionen": ["Para marcar uma reunião.", "Para esclarecer dúvidas sobre o contrato.", "Para cancelar o projeto."], "richtig": 1},
+     {"frage": "Até quando precisa o Stefan das informações?", "optionen": ["Até ao fim de março.", "Até amanhã.", "Até ao dia dez."], "richtig": 2},
+     {"frage": "Qual é o desconto?", "optionen": ["Cinco por cento.", "Dez por cento.", "Quinze por cento."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Kollege Rui fragt dich nach dem Projekt. Antworte mit para + infinitivo pessoal.",
+    "zeilen": [
+     {"sprecher": "Rui", "stimme": "m", "pt": "Stefan, porque é que enviaste o relatório ao cliente tão cedo?", "de": "Stefan, warum hast du den Bericht so früh an den Kunden geschickt?"},
+     {"ich": true, "aufgabe": "Diga: Damit sie Zeit haben, ihn zu lesen.", "loesungen": ["Para eles terem tempo de o ler.", "Para terem tempo de o ler.", "Para eles terem tempo para o ler.", "Para terem tempo para o ler.", "Para eles terem tempo de ler.", "Para terem tempo de ler.", "Para eles terem tempo de lê-lo.", "Para terem tempo de lê-lo."]},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Faz sentido. E a reunião de amanhã?", "de": "Das ergibt Sinn. Und die Besprechung morgen?"},
+     {"ich": true, "aufgabe": "Diga: Es ist besser, wenn wir die Präsentation heute vorbereiten.", "loesungen": ["É melhor prepararmos a apresentação hoje.", "É melhor prepararmos hoje a apresentação.", "Hoje é melhor prepararmos a apresentação.", "É melhor nós prepararmos a apresentação hoje.", "É melhor que preparemos a apresentação hoje."]},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Está bem. E ligo ao Miguel?", "de": "Na gut. Und rufe ich Miguel an?"},
+     {"ich": true, "aufgabe": "Diga: Ja, ruf ihn an, damit er auch kommt.", "loesungen": ["Sim, liga-lhe para ele vir também.", "Sim, liga-lhe para ele também vir.", "Sim, telefona-lhe para ele vir também.", "Sim, liga-lhe para que ele venha também.", "Sim, liga ao Miguel para ele vir também.", "Sim, liga-lhe para vir também."]}
+    ]
+   },
+   "saetze": [
+    {"id": "liguei-para-esclarecermos", "pt": "Liguei-lhe para esclarecermos algumas dúvidas.", "de": "Ich habe Sie angerufen, damit wir einige Fragen klären."},
+    {"id": "mandei-para-o-lerem", "pt": "Mandei-lhes o contrato para o lerem com calma.", "de": "Ich habe ihnen den Vertrag geschickt, damit sie ihn in Ruhe lesen."},
+    {"id": "para-entregarmos-a-tempo", "pt": "Temos de trabalhar no sábado para entregarmos tudo a tempo.", "de": "Wir müssen am Samstag arbeiten, damit wir alles rechtzeitig liefern."}
+   ]
+  },
+  {
+   "id": "B1-05-L03",
+   "typ": "neu",
+   "titel": "Antes de, depois de, até, sem",
+   "vokabeln": ["rever", "aprovar", "confirmar", "corrigir", "a-versao-final", "o-rascunho", "a-assinatura", "validar", "sem-falta"],
+   "grammatik": {
+    "titel": "Antes de, depois de, até, sem + infinitivo pessoal",
+    "erklaerung": [
+     "Depois de <b>antes de, depois de, até, sem</b> e <b>em vez de</b>, o português usa o infinitivo – e, com sujeito próprio, o infinitivo pessoal: <i>antes de <b>saíres</b></i>, <i>depois de <b>chegarem</b></i>, <i>sem <b>sabermos</b></i>.",
+     "Em alemão, aqui temos uma oração com conjunção (bevor, nachdem, bis, ohne dass). Em português, fica tudo mais curto: <i>Espera <b>até eu voltar</b>.</i>",
+     "Na escrita, antes do sujeito do infinitivo não se faz a contração: <i>antes <b>de o</b> cliente aprovar</i>. Na fala, ouve-se muitas vezes <i>antes do cliente aprovar</i>.",
+     "Para uma ação já terminada, usa-se o <b>infinitivo composto</b> (ter + particípio): <i>depois de <b>termos revisto</b> o texto</i>."
+    ],
+    "erklaerung_de": [
+     "Nach <b>antes de, depois de, até, sem</b> und <b>em vez de</b> benutzt das Portugiesische den Infinitiv – und mit eigenem Subjekt den persönlichen Infinitiv: <i>antes de <b>saíres</b></i> (bevor du gehst), <i>depois de <b>chegarem</b></i> (nachdem sie angekommen sind), <i>sem <b>sabermos</b></i> (ohne dass wir es wissen).",
+     "Im Deutschen steht hier ein Nebensatz mit Konjunktion (bevor, nachdem, bis, ohne dass). Im Portugiesischen ist alles kürzer: <i>Espera <b>até eu voltar</b>.</i> – Warte, bis ich zurückkomme.",
+     "Schriftlich wird vor dem Subjekt des Infinitivs nicht zusammengezogen: <i>antes <b>de o</b> cliente aprovar</i>. Mündlich hört man oft <i>antes do cliente aprovar</i>.",
+     "Für eine schon abgeschlossene Handlung nimmt man den <b>zusammengesetzten Infinitiv</b> (ter + Partizip): <i>depois de <b>termos revisto</b> o texto</i> – nachdem wir den Text überarbeitet hatten."
+    ],
+    "vergleich": "„Bevor du gehst“ → <i>antes de saíres</i> · „Nachdem sie angekommen sind“ → <i>depois de chegarem</i> · „ohne dass wir es wissen“ → <i>sem sabermos</i>. Kein „que“, kein Konjunktiv – nur der gebeugte Infinitiv.",
+    "beispiele": [
+     {"pt": "Antes de enviarmos a proposta, temos de a rever.", "de": "Bevor wir den Vorschlag schicken, müssen wir ihn überarbeiten."},
+     {"pt": "Depois de o cliente aprovar o orçamento, começamos.", "de": "Nachdem der Kunde den Kostenvoranschlag genehmigt hat, fangen wir an."},
+     {"pt": "Não assines nada sem lermos o contrato juntos.", "de": "Unterschreib nichts, ohne dass wir den Vertrag gemeinsam gelesen haben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Antes de ___ a proposta, revê os números. (enviar, tu)", "loesungen": ["enviares"], "de": "Bevor du den Vorschlag schickst, sieh die Zahlen durch.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Depois de ___ o rascunho, mandamos a versão final. (corrigir, nós)", "loesungen": ["corrigirmos"], "de": "Nachdem wir den Entwurf korrigiert haben, schicken wir die Endfassung.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Esperamos até o cliente ___ o orçamento. (aprovar)", "loesungen": ["aprovar"], "de": "Wir warten, bis der Kunde den Kostenvoranschlag genehmigt.", "erklaerung": "3. Person Singular = Infinitiv ohne Endung.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Não podemos começar sem eles ___ o contrato. (assinar)", "loesungen": ["assinarem"], "de": "Wir können nicht anfangen, ohne dass sie den Vertrag unterschreiben.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Bevor ihr geht, bestätigt bitte die Besprechung.“", "optionen": ["Antes que saem, confirmem a reunião, por favor.", "Antes de sair vocês, confirmam a reunião, por favor.", "Antes de saírem, confirmem a reunião, por favor."], "richtig": 2, "erklaerung": "antes de + infinitivo pessoal: saírem (mit Akzent, wie saíres, saírem).", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "Schriftsprache (formell): Welche Variante ist korrekt?", "optionen": ["antes de o diretor assinar", "antes do diretor assinar", "antes de diretor assinar"], "richtig": 0, "erklaerung": "Schriftlich keine Kontraktion vor dem Subjekt des Infinitivs. Mündlich hört man oft „antes do diretor assinar“.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "uebersetzen", "de": "Warte, bis ich zurückkomme! (tu)", "loesungen": ["Espera até eu voltar!", "Espera até eu voltar.", "Espera até eu chegar!", "Espera até eu chegar.", "Espera até eu regressar!", "Espera até eu regressar."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "diktat", "pt": "Depois de revermos o texto, enviamos a versão final."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A proposta para o hotel – das Angebot für das Hotel",
+    "situation": "Stefan und seine Mitarbeiterin Inês sehen ein Angebot durch, bevor es verschickt wird.",
+    "zeilen": [
+     {"sprecher": "Inês", "stimme": "f", "pt": "Stefan, já posso enviar a proposta ao hotel?", "de": "Stefan, kann ich das Angebot schon an das Hotel schicken?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ainda não. Antes de a enviarmos, quero revê-la mais uma vez.", "de": "Noch nicht. Bevor wir es schicken, will ich es noch einmal durchsehen."},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Mas o cliente pediu a versão final até hoje à tarde.", "de": "Aber der Kunde wollte die Endfassung bis heute Nachmittag."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Eu sei. Dá-me meia hora. Depois de eu corrigir os números, mandas-lhe o documento.", "de": "Ich weiß. Gib mir eine halbe Stunde. Nachdem ich die Zahlen korrigiert habe, schickst du ihm das Dokument."},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Está bem. E é preciso a assinatura do Miguel?", "de": "Gut. Und braucht es Miguels Unterschrift?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim. Não podemos enviar nada sem ele aprovar o preço.", "de": "Ja. Wir können nichts schicken, ohne dass er den Preis freigibt."},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Então ligo-lhe já, antes de ele sair para o almoço.", "de": "Dann rufe ich ihn sofort an, bevor er in die Mittagspause geht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. E pede-lhe para confirmar por e-mail.", "de": "Sehr gut. Und bitte ihn, es per E-Mail zu bestätigen."}
+    ],
+    "fragen": [
+     {"frage": "O que quer o Stefan fazer antes de enviar a proposta?", "optionen": ["Ligar ao hotel.", "Almoçar.", "Revê-la mais uma vez."], "richtig": 2},
+     {"frage": "O que tem de fazer o Miguel?", "optionen": ["Aprovar o preço.", "Escrever a proposta.", "Ir ao hotel."], "richtig": 0},
+     {"frage": "Quando vai a Inês ligar ao Miguel?", "optionen": ["Amanhã de manhã.", "Já, antes de ele sair para o almoço.", "Depois do almoço."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Bevor wir den Vorschlag schicken, müssen wir ihn überarbeiten.", "loesungen": ["Antes de enviarmos a proposta, temos de a rever.", "Antes de enviarmos a proposta, temos de revê-la.", "Antes de enviarmos a proposta, temos que a rever.", "Antes de enviarmos a proposta, temos que revê-la.", "Antes de mandarmos a proposta, temos de a rever.", "Antes de mandarmos a proposta, temos de revê-la."]},
+     {"de": "Nachdem der Kunde den Kostenvoranschlag genehmigt hat, fangen wir an.", "loesungen": ["Depois de o cliente aprovar o orçamento, começamos.", "Depois do cliente aprovar o orçamento, começamos.", "Começamos depois de o cliente aprovar o orçamento.", "Começamos depois do cliente aprovar o orçamento.", "Depois de o cliente ter aprovado o orçamento, começamos.", "Depois do cliente ter aprovado o orçamento, começamos."]},
+     {"de": "Unterschreib nichts, ohne den Vertrag zu lesen!", "loesungen": ["Não assines nada sem ler o contrato!", "Não assines nada sem ler o contrato.", "Não assines nada sem leres o contrato!", "Não assines nada sem leres o contrato."]},
+     {"de": "Ich schicke Ihnen die Endfassung morgen, ganz bestimmt.", "loesungen": ["Envio-lhe a versão final amanhã, sem falta.", "Amanhã envio-lhe a versão final, sem falta.", "Envio-lhe amanhã a versão final, sem falta.", "Mando-lhe a versão final amanhã, sem falta.", "Amanhã mando-lhe a versão final, sem falta."]}
+    ]
+   },
+   "saetze": [
+    {"id": "antes-de-enviarmos", "pt": "Antes de enviarmos a proposta, temos de a rever.", "de": "Bevor wir den Vorschlag schicken, müssen wir ihn überarbeiten."},
+    {"id": "depois-de-o-cliente-aprovar", "pt": "Depois de o cliente aprovar o orçamento, começamos.", "de": "Nachdem der Kunde den Kostenvoranschlag genehmigt hat, fangen wir an."},
+    {"id": "espera-ate-eu-voltar", "pt": "Espera até eu voltar.", "de": "Warte, bis ich zurückkomme."}
+   ]
+  },
+  {
+   "id": "B1-05-L04",
+   "typ": "neu",
+   "titel": "É melhor eles saberem: Prioritäten setzen",
+   "vokabeln": ["e-melhor", "a-prioridade", "definir", "a-estrategia", "o-risco", "e-fundamental", "e-essencial", "o-cronograma"],
+   "grammatik": {
+    "titel": "É importante / é melhor + infinitivo pessoal",
+    "erklaerung": [
+     "Com expressões impessoais como <b>é melhor, é importante, é fundamental, é preciso, convém</b>, o infinitivo simples dá uma regra geral: <i>É importante definir objetivos.</i>",
+     "Se queremos dizer <b>quem</b> deve fazer, usamos o infinitivo pessoal: <i>É importante <b>definirmos</b> objetivos.</i> · <i>É melhor <b>eles saberem</b> já.</i>",
+     "Também é possível usar <b>que + conjuntivo</b>: <i>É melhor que eles saibam já.</i> O sentido é o mesmo; o infinitivo pessoal é mais leve e muito comum na fala.",
+     "O sujeito pode vir antes do infinitivo: <i>É fundamental <b>a equipa perceber</b> a estratégia.</i>"
+    ],
+    "erklaerung_de": [
+     "Mit unpersönlichen Ausdrücken wie <b>é melhor, é importante, é fundamental, é preciso, convém</b> drückt der einfache Infinitiv eine allgemeine Regel aus: <i>Es ist wichtig, Ziele festzulegen.</i>",
+     "Wenn wir sagen wollen, <b>wer</b> etwas tun soll, nehmen wir den persönlichen Infinitiv: <i>Es ist wichtig, dass <b>wir</b> Ziele festlegen.</i> · <i>Es ist besser, wenn <b>sie</b> es gleich wissen.</i>",
+     "Man kann auch <b>que + Konjunktiv</b> verwenden: <i>É melhor que eles saibam já.</i> Die Bedeutung ist gleich; der persönliche Infinitiv ist leichter und im Gespräch sehr üblich.",
+     "Das Subjekt kann vor dem Infinitiv stehen: <i>Es ist unerlässlich, dass <b>das Team</b> die Strategie versteht.</i>"
+    ],
+    "vergleich": "Deutsch: „Es ist besser, wenn wir …“ / „…, dass wir …“. Portugiesisch braucht weder „wenn“ noch „dass“: <i>É melhor irmos.</i> – „Es ist besser, wenn wir gehen.“ Englisch ist ähnlich knapp: „It's better for us to go.“",
+    "beispiele": [
+     {"pt": "É melhor falarmos com o cliente antes de sexta-feira.", "de": "Es ist besser, wenn wir vor Freitag mit dem Kunden sprechen."},
+     {"pt": "É fundamental a equipa perceber a nossa estratégia.", "de": "Es ist unerlässlich, dass das Team unsere Strategie versteht."},
+     {"pt": "Convém definirmos as prioridades para o próximo trimestre.", "de": "Es empfiehlt sich, dass wir die Prioritäten für das nächste Quartal festlegen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "É melhor ___ já, antes do trânsito. (sair, nós)", "loesungen": ["sairmos"], "de": "Es ist besser, wenn wir jetzt gleich losfahren, vor dem Verkehr.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "É importante tu ___ os riscos ao cliente. (explicar)", "loesungen": ["explicares"], "de": "Es ist wichtig, dass du dem Kunden die Risiken erklärst.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "É fundamental os colaboradores ___ a estratégia. (conhecer)", "loesungen": ["conhecerem"], "de": "Es ist unerlässlich, dass die Mitarbeiter die Strategie kennen.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Es ist besser, wenn sie es gleich wissen.“", "optionen": ["É melhor eles sabem já.", "É melhor eles saber já.", "É melhor eles saberem já."], "richtig": 2, "erklaerung": "Subjekt eles → saberem.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "Welcher Satz bedeutet dasselbe wie „É importante definirmos prioridades.“?", "optionen": ["É importante que definimos prioridades.", "É importante que definamos prioridades.", "É importante definir as prioridades deles."], "richtig": 1, "erklaerung": "que + Konjunktiv (definamos) = infinitivo pessoal (definirmos).", "kategorie": "Infinitivo pessoal"},
+     {"typ": "uebersetzen", "de": "Es ist besser, wenn wir das Risiko vermeiden.", "loesungen": ["É melhor evitarmos o risco.", "É melhor nós evitarmos o risco.", "É melhor que evitemos o risco."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "uebersetzen", "de": "Es ist wichtig, dass das Team die Prioritäten kennt.", "loesungen": ["É importante a equipa conhecer as prioridades.", "É importante que a equipa conheça as prioridades.", "É importante a equipa saber as prioridades.", "É importante a equipa saber quais são as prioridades."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "satzbau", "de": "Es empfiehlt sich, dass wir den Zeitplan heute festlegen.", "loesung": "Convém definirmos o cronograma hoje."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A estratégia para o próximo ano – die Strategie fürs nächste Jahr",
+    "situation": "Stefan und sein Geschäftspartner Miguel planen das kommende Jahr.",
+    "zeilen": [
+     {"sprecher": "Miguel", "stimme": "m", "pt": "Stefan, temos de definir a estratégia para o próximo ano. Qual é a tua prioridade?", "de": "Stefan, wir müssen die Strategie fürs nächste Jahr festlegen. Was ist deine Priorität?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Para mim, é fundamental conquistarmos clientes no Algarve, sobretudo hotéis.", "de": "Für mich ist es entscheidend, dass wir Kunden an der Algarve gewinnen, vor allem Hotels."},
+     {"sprecher": "Miguel", "stimme": "m", "pt": "Concordo, mas há um risco: somos só quatro na equipa.", "de": "Einverstanden, aber es gibt ein Risiko: Wir sind nur vier im Team."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Por isso é melhor contratarmos mais uma pessoa já em janeiro.", "de": "Deshalb ist es besser, wenn wir schon im Januar noch eine Person einstellen."},
+     {"sprecher": "Miguel", "stimme": "m", "pt": "E o dinheiro? Convém falarmos primeiro com o banco.", "de": "Und das Geld? Es empfiehlt sich, dass wir zuerst mit der Bank sprechen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tens razão. É importante os números estarem claros antes da reunião.", "de": "Du hast recht. Es ist wichtig, dass die Zahlen vor dem Termin klar sind."},
+     {"sprecher": "Miguel", "stimme": "m", "pt": "Então eu preparo o cronograma e tu falas com o banco. Combinado?", "de": "Dann bereite ich den Zeitplan vor und du sprichst mit der Bank. Abgemacht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado.", "de": "Abgemacht."}
+    ],
+    "fragen": [
+     {"frage": "Qual é a prioridade do Stefan?", "optionen": ["Abrir um escritório em Lisboa.", "Conquistar clientes no Algarve.", "Vender a empresa."], "richtig": 1},
+     {"frage": "Qual é o risco, segundo o Miguel?", "optionen": ["A equipa é pequena.", "Os hotéis não pagam.", "O banco está fechado."], "richtig": 0},
+     {"frage": "O que vai o Miguel preparar?", "optionen": ["A reunião com o banco.", "Um contrato.", "O cronograma."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "É melhor falarmos com o cliente hoje.", "de": "Es ist besser, wenn wir heute mit dem Kunden sprechen."},
+     {"pt": "A nossa prioridade é o cliente.", "de": "Unsere Priorität ist der Kunde."},
+     {"pt": "É fundamental a equipa perceber a estratégia.", "de": "Es ist unerlässlich, dass das Team die Strategie versteht."},
+     {"pt": "Há o risco de perdermos o prazo.", "de": "Es besteht das Risiko, dass wir die Frist verpassen."},
+     {"pt": "Convém definirmos os objetivos por escrito.", "de": "Es empfiehlt sich, dass wir die Ziele schriftlich festlegen."}
+    ]
+   },
+   "saetze": [
+    {"id": "e-melhor-eles-saberem", "pt": "É melhor eles saberem já.", "de": "Es ist besser, wenn sie es gleich wissen."},
+    {"id": "fundamental-equipa-perceber", "pt": "É fundamental a equipa perceber a nossa estratégia.", "de": "Es ist unerlässlich, dass das Team unsere Strategie versteht."},
+    {"id": "risco-de-perdermos", "pt": "Há o risco de perdermos o cliente.", "de": "Es besteht das Risiko, dass wir den Kunden verlieren."}
+   ]
+  },
+  {
+   "id": "B1-05-L05",
+   "typ": "neu",
+   "titel": "Die formelle E-Mail",
+   "vokabeln": ["exmo-senhor", "venho-por-este-meio", "na-sequencia-de", "agradeco-desde-ja", "a-resposta", "cumprimentos", "por-em-copia", "atenciosamente", "sem-outro-assunto", "solicitar"],
+   "grammatik": {
+    "titel": "Na escrita formal: por + infinitivo (composto) e pedir para",
+    "erklaerung": [
+     "Nos e-mails formais, o infinitivo pessoal aparece em muitas fórmulas: <i>Obrigado por nos <b>terem</b> contactado.</i> · <i>Pedimos-lhes para <b>confirmarem</b> a receção.</i>",
+     "<b>Por + infinitivo</b> indica a razão de um agradecimento ou de um pedido de desculpa. Para uma ação passada, usa-se o <b>infinitivo composto</b> (ter + particípio): <i>Peço desculpa por não <b>ter respondido</b> antes.</i> · <i>Agradecemos por nos <b>terem enviado</b> a fatura.</i>",
+     "<b>Pedir (a alguém) para</b> + infinitivo pessoal: <i>Pedimos-lhes para <b>confirmarem</b> a receção deste e-mail.</i> Mais formal: <i>Solicitamos que confirmem …</i>",
+     "<b>Venho por este meio</b> + infinitivo: <i>Venho por este meio solicitar uma proposta.</i> Aqui o sujeito é o mesmo (eu), por isso o infinitivo não muda."
+    ],
+    "erklaerung_de": [
+     "In formellen E-Mails steckt der persönliche Infinitiv in vielen festen Formeln: <i>Danke, dass Sie (Pl.) uns kontaktiert haben.</i> · <i>Wir bitten Sie, den Empfang zu bestätigen.</i>",
+     "<b>Por + Infinitiv</b> gibt den Grund für einen Dank oder eine Entschuldigung an. Für eine vergangene Handlung nimmt man den <b>zusammengesetzten Infinitiv</b> (ter + Partizip): <i>Entschuldigen Sie, dass ich nicht früher geantwortet habe.</i> · <i>Danke, dass Sie uns die Rechnung geschickt haben.</i>",
+     "<b>Pedir (a alguém) para</b> + persönlicher Infinitiv: <i>Wir bitten Sie, den Empfang dieser E-Mail zu bestätigen.</i> Formeller: <i>Solicitamos que confirmem …</i>",
+     "<b>Venho por este meio</b> + Infinitiv = „Hiermit …“: <i>Hiermit bitte ich um ein Angebot.</i> Das Subjekt ist dasselbe (ich), deshalb bleibt der Infinitiv unverändert."
+    ],
+    "vergleich": "Deutsch: „Danke, dass Sie uns kontaktiert haben.“ – Portugiesisch: <i>Obrigado por nos ter contactado</i> (an eine Person) / <i>por nos terem contactado</i> (an mehrere). Kein „dass“-Satz, sondern por + Infinitiv.",
+    "beispiele": [
+     {"pt": "Venho por este meio solicitar um orçamento para o novo site.", "de": "Hiermit bitte ich um einen Kostenvoranschlag für die neue Website."},
+     {"pt": "Peço desculpa por não ter respondido mais cedo.", "de": "Entschuldigen Sie, dass ich nicht früher geantwortet habe."},
+     {"pt": "Obrigado por nos terem enviado a proposta tão rapidamente.", "de": "Danke, dass Sie uns das Angebot so schnell geschickt haben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Obrigado por me ___ respondido tão depressa. (ter, o senhor)", "loesungen": ["ter"], "de": "Danke, dass Sie mir so schnell geantwortet haben.", "erklaerung": "Formell an eine Person = 3. Person Singular → ter.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Agradecemos por nos ___ enviado a fatura. (ter, os senhores)", "loesungen": ["terem"], "de": "Danke, dass Sie uns die Rechnung geschickt haben.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Pedimos-lhes para ___ a receção deste e-mail. (confirmar)", "loesungen": ["confirmarem"], "de": "Wir bitten Sie, den Empfang dieser E-Mail zu bestätigen.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "___ por este meio solicitar uma reunião.", "loesungen": ["Venho"], "de": "Hiermit bitte ich um einen Termin.", "kategorie": "Formelle Sprache"},
+     {"typ": "auswahl", "frage": "Welcher Briefanfang ist formell?", "optionen": ["Olá, Sr. Costa!", "Exmo. Senhor Dr. Costa,", "Querido Costa,"], "richtig": 1, "kategorie": "Formelle Sprache"},
+     {"typ": "auswahl", "frage": "„Fico a aguardar a sua resposta.“ bedeutet:", "optionen": ["Ich warte auf Ihre Antwort.", "Ich antworte Ihnen bald.", "Ich habe Ihre Antwort erhalten."], "richtig": 0, "kategorie": "Formelle Sprache"},
+     {"typ": "uebersetzen", "de": "Entschuldigen Sie, dass ich nicht früher geantwortet habe.", "loesungen": ["Peço desculpa por não ter respondido mais cedo.", "Peço desculpa por não ter respondido antes.", "Desculpe não ter respondido mais cedo.", "Desculpe por não ter respondido mais cedo.", "Desculpe não ter respondido antes.", "Peço desculpa por não lhe ter respondido mais cedo.", "Peço desculpa por não lhe ter respondido antes."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "satzbau", "de": "Im Anschluss an unser Gespräch schicke ich Ihnen den Vorschlag.", "loesung": "Na sequência da nossa conversa, envio-lhe a proposta."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um e-mail formal – eine formelle E-Mail",
+    "situation": "Stefan liest Ana die E-Mail vor, die er an einen Hotelkunden schicken will.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Exmo. Senhor Eng.º Rodrigues,", "de": "Sehr geehrter Herr Ing. Rodrigues,"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Na sequência da nossa conversa telefónica de ontem, venho por este meio enviar-lhe a nossa proposta para o projeto do hotel.", "de": "Im Anschluss an unser gestriges Telefonat sende ich Ihnen hiermit unser Angebot für das Hotelprojekt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Em anexo envio também o cronograma. Para podermos começar no dia um de novembro, precisamos da vossa aprovação até ao dia vinte de outubro.", "de": "Im Anhang schicke ich auch den Zeitplan. Damit wir am 1. November beginnen können, brauchen wir Ihre Zustimmung bis zum 20. Oktober."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Peço desculpa por não ter enviado o documento mais cedo: quisemos rever todos os números antes de o enviarmos.", "de": "Entschuldigen Sie, dass ich das Dokument nicht früher geschickt habe: Wir wollten alle Zahlen noch einmal prüfen, bevor wir es abschicken."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Caso tenha alguma dúvida, estou disponível para falarmos por telefone ou por videochamada.", "de": "Falls Sie Fragen haben, stehe ich für ein Gespräch am Telefon oder per Video zur Verfügung."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Agradeço desde já a sua atenção e fico a aguardar a sua resposta.", "de": "Vielen Dank im Voraus für Ihre Aufmerksamkeit; ich freue mich auf Ihre Antwort."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Com os melhores cumprimentos, Stefan.", "de": "Mit freundlichen Grüßen, Stefan."}
+    ],
+    "fragen": [
+     {"frage": "O que envia o Stefan?", "optionen": ["Uma fatura.", "Uma reclamação.", "Uma proposta para o projeto do hotel."], "richtig": 2},
+     {"frage": "Até quando precisa da aprovação?", "optionen": ["Até ao dia vinte de outubro.", "Até ao dia um de novembro.", "Até amanhã."], "richtig": 0},
+     {"frage": "Porque é que o documento chega mais tarde?", "optionen": ["Porque o Stefan esteve doente.", "Porque quiseram rever todos os números.", "Porque o cliente não ligou."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português (formal). – Schreib auf Portugiesisch (formell).",
+    "aufgaben": [
+     {"de": "Hiermit bitte ich um einen Kostenvoranschlag.", "loesungen": ["Venho por este meio pedir um orçamento.", "Venho por este meio solicitar um orçamento.", "Venho por este meio pedir-lhe um orçamento.", "Venho por este meio solicitar-lhe um orçamento."]},
+     {"de": "Vielen Dank im Voraus für Ihre Aufmerksamkeit.", "loesungen": ["Agradeço desde já a sua atenção.", "Agradeço desde já a vossa atenção.", "Desde já agradeço a sua atenção.", "Agradecemos desde já a sua atenção."]},
+     {"de": "Ich warte auf Ihre Antwort.", "loesungen": ["Fico a aguardar a sua resposta.", "Fico a aguardar a vossa resposta.", "Fico a aguardar resposta.", "Aguardo a sua resposta.", "Fico à espera da sua resposta."]},
+     {"de": "Ich setze Ana in CC.", "loesungen": ["Ponho a Ana em cópia.", "Vou pôr a Ana em cópia.", "Coloco a Ana em cópia.", "Ponho a Ana em cc."]},
+     {"de": "Danke, dass Sie (Pl.) uns kontaktiert haben.", "loesungen": ["Obrigado por nos terem contactado.", "Agradeço por nos terem contactado.", "Agradecemos por nos terem contactado.", "Muito obrigado por nos terem contactado."]}
+    ]
+   },
+   "saetze": [
+    {"id": "venho-por-este-meio-solicitar", "pt": "Venho por este meio solicitar um orçamento.", "de": "Hiermit bitte ich um einen Kostenvoranschlag."},
+    {"id": "peco-desculpa-nao-ter-respondido", "pt": "Peço desculpa por não ter respondido mais cedo.", "de": "Entschuldigen Sie, dass ich nicht früher geantwortet habe."},
+    {"id": "obrigado-por-terem", "pt": "Obrigado por nos terem enviado a proposta.", "de": "Danke, dass Sie uns das Angebot geschickt haben."}
+   ]
+  },
+  {
+   "id": "B1-05-L06",
+   "typ": "neu",
+   "titel": "Eine Besprechung leiten",
+   "vokabeln": ["o-ponto-de-situacao", "os-proximos-passos", "tomar-nota", "passar-a-palavra-a", "em-suma", "o-intervalo", "fazer-o-balanco", "redigir", "dar-seguimento-a"],
+   "grammatik": {
+    "titel": "Ao + infinitivo (pessoal)",
+    "erklaerung": [
+     "<b>Ao</b> + infinitivo significa „quando / no momento em que“: <i><b>Ao entrar</b> na sala, cumprimentei toda a gente.</i>",
+     "Com outro sujeito, ou para deixar claro quem faz a ação, usamos o infinitivo pessoal: <i><b>Ao analisarmos</b> os números, vimos o problema.</i> · <i><b>Ao chegarem</b>, os clientes recebem a ordem de trabalhos.</i>",
+     "Expressões úteis para conduzir uma reunião: <i>Antes de começarmos, …</i> · <i>Passo a palavra à Inês.</i> · <i>Antes de terminarmos, vamos ver os próximos passos.</i> · <i>Em suma, …</i>",
+     "<b>Até</b> + infinitivo pessoal marca o fim de uma ação: <i>Ficamos aqui <b>até chegarmos</b> a acordo.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>Ao</b> + Infinitiv bedeutet „als / in dem Moment, wo“: <i>Als ich den Raum betrat, habe ich alle begrüßt.</i>",
+     "Mit anderem Subjekt oder um klarzumachen, wer handelt, nehmen wir den persönlichen Infinitiv: <i>Als wir die Zahlen analysierten, sahen wir das Problem.</i> · <i>Wenn die Kunden ankommen, bekommen sie die Tagesordnung.</i>",
+     "Nützliche Wendungen, um eine Besprechung zu leiten: <i>Bevor wir anfangen, …</i> · <i>Ich übergebe das Wort an Inês.</i> · <i>Bevor wir schließen, sehen wir uns die nächsten Schritte an.</i> · <i>Zusammengefasst …</i>",
+     "<b>Até</b> + persönlicher Infinitiv markiert das Ende einer Handlung: <i>Wir bleiben hier, bis wir uns einig sind.</i>"
+    ],
+    "vergleich": "„Als wir die Zahlen analysierten …“ → <i>Ao analisarmos os números …</i> Das Englische kennt eine ähnliche Kurzform: „On analysing the figures …“ – nur ohne Personenendung.",
+    "beispiele": [
+     {"pt": "Antes de começarmos, quero fazer um ponto de situação.", "de": "Bevor wir anfangen, möchte ich einen Zwischenstand geben."},
+     {"pt": "Ao analisarmos as vendas, vimos que o terceiro trimestre foi fraco.", "de": "Als wir die Verkäufe analysierten, sahen wir, dass das dritte Quartal schwach war."},
+     {"pt": "Passo agora a palavra à Inês para nos apresentar os próximos passos.", "de": "Ich übergebe jetzt das Wort an Inês, damit sie uns die nächsten Schritte vorstellt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Ao ___ na sala, os clientes recebem a ordem de trabalhos. (entrar)", "loesungen": ["entrarem"], "de": "Wenn die Kunden den Raum betreten, bekommen sie die Tagesordnung.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Antes de ___, quero agradecer a presença de todos. (começar, nós)", "loesungen": ["começarmos"], "de": "Bevor wir anfangen, möchte ich allen für ihr Kommen danken.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Ao ___ os números, vimos o problema. (analisar, nós)", "loesungen": ["analisarmos"], "de": "Als wir die Zahlen analysierten, sahen wir das Problem.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Ficamos aqui até ___ a acordo. (chegar, nós)", "loesungen": ["chegarmos"], "de": "Wir bleiben hier, bis wir uns einig sind.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Passo a palavra ao Rui.“ bedeutet:", "optionen": ["Ich gebe Rui mein Wort.", "Ich übergebe das Wort an Rui.", "Ich spreche mit Rui."], "richtig": 1, "kategorie": "Besprechung"},
+     {"typ": "auswahl", "frage": "Womit fasst man am Ende einer Besprechung zusammen?", "optionen": ["Antes de começarmos, …", "Ao entrarmos, …", "Em suma, …"], "richtig": 2, "kategorie": "Besprechung"},
+     {"typ": "uebersetzen", "de": "Bevor wir schließen, sehen wir uns die nächsten Schritte an.", "loesungen": ["Antes de terminarmos, vamos ver os próximos passos.", "Antes de acabarmos, vamos ver os próximos passos.", "Antes de terminarmos, vemos os próximos passos.", "Antes de fecharmos, vamos ver os próximos passos.", "Antes de terminar, vamos ver os próximos passos.", "Antes de terminarmos, vejamos os próximos passos."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "satzbau", "de": "Ich mache mir Notizen und schicke euch das Protokoll.", "loesung": "Eu tomo nota e envio-vos a ata."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A reunião de segunda-feira – die Montagsbesprechung",
+    "situation": "Stefan leitet die wöchentliche Teambesprechung mit Inês und Rui.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia a todos. Antes de começarmos, alguém tem alguma questão sobre a ordem de trabalhos?", "de": "Guten Morgen zusammen. Bevor wir anfangen: Hat jemand eine Frage zur Tagesordnung?"},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Não, está tudo claro.", "de": "Nein, alles klar."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então vamos ao primeiro ponto: o ponto de situação do projeto do hotel. Rui, passo-te a palavra.", "de": "Dann zum ersten Punkt: der Zwischenstand beim Hotelprojekt. Rui, ich übergebe dir das Wort."},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Obrigado. Ao analisarmos o cronograma, vimos que estamos uma semana atrasados.", "de": "Danke. Als wir den Zeitplan analysiert haben, haben wir gesehen, dass wir eine Woche im Rückstand sind."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Porquê? O que se passou?", "de": "Warum? Was ist passiert?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "O fornecedor ainda não entregou o software. Vou ligar-lhe hoje à tarde.", "de": "Der Lieferant hat die Software noch nicht geliefert. Ich rufe ihn heute Nachmittag an."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. Em suma: o Rui fala com o fornecedor e a Inês redige a ata. Antes de terminarmos, mais alguma questão?", "de": "Gut. Zusammengefasst: Rui spricht mit dem Lieferanten und Inês schreibt das Protokoll. Bevor wir schließen, noch Fragen?"},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Não. Eu envio a ata a todos até ao fim do dia.", "de": "Nein. Ich schicke das Protokoll bis zum Ende des Tages an alle."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o primeiro ponto da ordem de trabalhos?", "optionen": ["O orçamento do próximo ano.", "Um novo cliente.", "O ponto de situação do projeto do hotel."], "richtig": 2},
+     {"frage": "Qual é o problema?", "optionen": ["O projeto está uma semana atrasado.", "O cliente cancelou.", "A Inês está doente."], "richtig": 0},
+     {"frage": "Quem redige a ata?", "optionen": ["O Rui.", "A Inês.", "O Stefan."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du leitest eine Besprechung mit Inês und Rui.",
+    "zeilen": [
+     {"sprecher": "Inês", "stimme": "f", "pt": "Bom dia, Stefan. Estamos todos?", "de": "Guten Morgen, Stefan. Sind wir vollzählig?"},
+     {"ich": true, "aufgabe": "Sag: Ja. Bevor wir anfangen: Wer schreibt das Protokoll?", "loesungen": ["Sim. Antes de começarmos: quem faz a ata?", "Sim. Antes de começarmos, quem faz a ata?", "Sim. Antes de começarmos: quem escreve a ata?", "Sim. Antes de começarmos, quem escreve a ata?", "Sim. Antes de começarmos: quem redige a ata?", "Sim. Antes de começarmos, quem redige a ata?"]},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Faço eu. E qual é o primeiro ponto?", "de": "Mache ich. Und was ist der erste Punkt?"},
+     {"ich": true, "aufgabe": "Sag: Zuerst ein Zwischenstand. Rui, ich übergebe dir das Wort.", "loesungen": ["Primeiro, um ponto de situação. Rui, passo-te a palavra.", "Primeiro um ponto de situação. Rui, passo-te a palavra.", "Primeiro, o ponto de situação. Rui, passo-te a palavra.", "Primeiro, um ponto de situação. Rui, passo-te a palavra!"]},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Obrigado. Está tudo a correr bem, só o fornecedor está atrasado.", "de": "Danke. Alles läuft gut, nur der Lieferant ist im Verzug."},
+     {"ich": true, "aufgabe": "Sag: Zusammengefasst: Rui ruft den Lieferanten an. Nächste Besprechung am Montag.", "loesungen": ["Em suma: o Rui liga ao fornecedor. Próxima reunião na segunda-feira.", "Em suma, o Rui liga ao fornecedor. Próxima reunião na segunda-feira.", "Em suma: o Rui liga ao fornecedor. A próxima reunião é na segunda-feira.", "Em suma, o Rui liga ao fornecedor. A próxima reunião é na segunda-feira.", "Em suma: o Rui liga ao fornecedor. A próxima reunião é na segunda.", "Em suma, o Rui liga ao fornecedor. Próxima reunião na segunda."]}
+    ]
+   },
+   "saetze": [
+    {"id": "antes-de-comecarmos", "pt": "Antes de começarmos, quero fazer um ponto de situação.", "de": "Bevor wir anfangen, möchte ich einen Zwischenstand geben."},
+    {"id": "passo-a-palavra", "pt": "Passo agora a palavra à Inês.", "de": "Ich übergebe jetzt das Wort an Inês."},
+    {"id": "ao-analisarmos", "pt": "Ao analisarmos os números, vimos o problema.", "de": "Als wir die Zahlen analysierten, sahen wir das Problem."}
+   ]
+  },
+  {
+   "id": "B1-05-L07",
+   "typ": "neu",
+   "titel": "Die Videokonferenz",
+   "vokabeln": ["a-videochamada", "o-microfone", "a-camara", "o-ecra", "partilhar-o-ecra", "entrar-na-reuniao", "ir-abaixo", "silenciar", "congelar"],
+   "grammatik": {
+    "titel": "Infinitivo pessoal ou conjuntivo?",
+    "erklaerung": [
+     "Muitas frases podem ser ditas de duas maneiras: com <b>que + conjuntivo</b> ou com o <b>infinitivo pessoal</b>. O sentido é o mesmo.",
+     "<i>para que me ouçam</i> = <i>para me <b>ouvirem</b></i> · <i>antes que a ligação vá abaixo</i> = <i>antes de a ligação <b>ir</b> abaixo</i> · <i>é melhor que desliguemos a câmara</i> = <i>é melhor <b>desligarmos</b> a câmara</i>.",
+     "Na fala, os portugueses preferem claramente o infinitivo pessoal: é mais curto e não precisa das formas do conjuntivo.",
+     "Atenção: depois de verbos de vontade como <b>querer, desejar, esperar</b>, com sujeitos diferentes, usa-se o conjuntivo: <i>Quero que partilhes o ecrã.</i> (e não <i>quero partilhares</i>)."
+    ],
+    "erklaerung_de": [
+     "Viele Sätze lassen sich auf zwei Arten sagen: mit <b>que + Konjunktiv</b> oder mit dem <b>persönlichen Infinitiv</b>. Die Bedeutung ist gleich.",
+     "<i>para que me ouçam</i> = <i>para me <b>ouvirem</b></i> (damit ihr mich hört) · <i>antes que a ligação vá abaixo</i> = <i>antes de a ligação <b>ir</b> abaixo</i> (bevor die Verbindung abbricht) · <i>é melhor que desliguemos a câmara</i> = <i>é melhor <b>desligarmos</b> a câmara</i>.",
+     "Im Gespräch bevorzugen Portugiesen klar den persönlichen Infinitiv: Er ist kürzer und braucht keine Konjunktivformen.",
+     "Achtung: Nach Verben des Wollens wie <b>querer, desejar, esperar</b> mit verschiedenen Subjekten steht der Konjunktiv: <i>Ich möchte, dass du den Bildschirm teilst.</i> = <i>Quero que partilhes o ecrã.</i> (nicht <i>quero partilhares</i>)."
+    ],
+    "vergleich": "Wie im Deutschen „damit ihr mich hört“ – nur hängt das Portugiesische die Person direkt an den Infinitiv: <i>para me ouvirem</i>. Den Konjunktiv (<i>para que me ouçam</i>) brauchst du vor allem beim Schreiben.",
+    "beispiele": [
+     {"pt": "Liguem as câmaras para nos vermos todos.", "de": "Schaltet die Kameras ein, damit wir uns alle sehen."},
+     {"pt": "É melhor desligares o microfone quando não estás a falar.", "de": "Es ist besser, wenn du das Mikrofon ausschaltest, wenn du nicht sprichst."},
+     {"pt": "Vou partilhar o ecrã para verem a apresentação.", "de": "Ich teile den Bildschirm, damit ihr die Präsentation seht."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Vou partilhar o ecrã para vocês ___ os números. (ver)", "loesungen": ["verem"], "de": "Ich teile den Bildschirm, damit ihr die Zahlen seht.", "erklaerung": "ver → verem (vom Infinitiv aus, nicht vom Präsens „veem“).", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "É melhor ___ a câmara, a ligação está fraca. (desligar, tu)", "loesungen": ["desligares"], "de": "Es ist besser, wenn du die Kamera ausschaltest, die Verbindung ist schwach.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Quero que ___ o ecrã, por favor. (partilhar, tu)", "loesungen": ["partilhes"], "de": "Ich möchte, dass du bitte den Bildschirm teilst.", "erklaerung": "Nach „querer que“ mit anderem Subjekt: Konjunktiv.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "Was bedeutet dasselbe wie „para que me ouçam“?", "optionen": ["para me ouvem", "para ouvir-me", "para me ouvirem"], "richtig": 2, "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Ich möchte, dass du den Bildschirm teilst.“", "optionen": ["Quero partilhares o ecrã.", "Quero que partilhes o ecrã.", "Quero que partilhas o ecrã."], "richtig": 1, "erklaerung": "querer + anderes Subjekt → que + Konjunktiv (partilhes).", "kategorie": "Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Schaltet die Kameras ein, damit wir uns sehen.", "loesungen": ["Liguem as câmaras para nos vermos.", "Liguem as câmaras para nos vermos!", "Liguem as câmaras para nos vermos todos.", "Liguem as câmaras para que nos vejamos."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "uebersetzen", "de": "Entschuldigung, die Verbindung ist abgebrochen.", "loesungen": ["Desculpem, a ligação foi abaixo.", "Desculpe, a ligação foi abaixo.", "Desculpa, a ligação foi abaixo.", "Desculpem, a ligação caiu.", "Desculpe, a ligação caiu."]},
+     {"typ": "diktat", "pt": "É melhor desligares o microfone quando não estás a falar."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma videochamada com Lisboa – ein Videoanruf mit Lissabon",
+    "situation": "Videokonferenz mit Dona Teresa und ihrem Kollegen Paulo aus Lissabon.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia! Ouvem-me bem?", "de": "Guten Morgen! Hören Sie mich gut?"},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Ouço bem, mas não o vejo. A sua câmara está desligada.", "de": "Ich höre Sie gut, aber ich sehe Sie nicht. Ihre Kamera ist aus."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ah, desculpem. Pronto, já está. E o Paulo, já entrou na reunião?", "de": "Ah, Entschuldigung. So, jetzt. Und Paulo, ist er schon in der Besprechung?"},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Estou aqui, mas a imagem está sempre a congelar. Podem repetir?", "de": "Ich bin da, aber das Bild friert ständig ein. Können Sie das wiederholen?"},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Paulo, é melhor desligar a câmara, para a ligação ficar mais estável.", "de": "Paulo, es ist besser, Sie schalten die Kamera aus, damit die Verbindung stabiler wird."},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Boa ideia. Pronto, assim já os ouço melhor.", "de": "Gute Idee. So, jetzt höre ich Sie besser."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. Vou partilhar o ecrã para verem a proposta. Conseguem ver?", "de": "Sehr gut. Ich teile den Bildschirm, damit Sie das Angebot sehen. Können Sie es sehen?"},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Sim, perfeitamente. Pode começar.", "de": "Ja, einwandfrei. Sie können anfangen."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o primeiro problema do Stefan?", "optionen": ["O microfone não funciona.", "A câmara está desligada.", "Não tem internet."], "richtig": 1},
+     {"frage": "O que deve o Paulo fazer?", "optionen": ["Desligar a câmara.", "Mudar de computador.", "Sair da reunião."], "richtig": 0},
+     {"frage": "Porque é que o Stefan partilha o ecrã?", "optionen": ["Para mostrar uma fotografia.", "Para a Teresa assinar o contrato.", "Para eles verem a proposta."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Ouvem-me bem?", "de": "Hört ihr mich gut? / Hören Sie mich gut?"},
+     {"pt": "Desculpem, a ligação foi abaixo.", "de": "Entschuldigung, die Verbindung ist abgebrochen."},
+     {"pt": "Vou partilhar o ecrã para verem a apresentação.", "de": "Ich teile den Bildschirm, damit ihr die Präsentation seht."},
+     {"pt": "É melhor desligares o microfone.", "de": "Es ist besser, wenn du das Mikrofon ausschaltest."},
+     {"pt": "Liguem as câmaras para nos vermos todos.", "de": "Schaltet die Kameras ein, damit wir uns alle sehen."}
+    ]
+   },
+   "saetze": [
+    {"id": "ouvem-me-bem", "pt": "Ouvem-me bem?", "de": "Hört ihr mich gut?"},
+    {"id": "partilhar-ecra-para-verem", "pt": "Vou partilhar o ecrã para verem a apresentação.", "de": "Ich teile den Bildschirm, damit ihr die Präsentation seht."},
+    {"id": "ligacao-foi-abaixo", "pt": "Desculpem, a ligação foi abaixo.", "de": "Entschuldigung, die Verbindung ist abgebrochen."}
+   ]
+  },
+  {
+   "id": "B1-05-L08",
+   "typ": "neu",
+   "titel": "Ein Angebot präsentieren",
+   "vokabeln": ["apresentar", "o-investimento", "negociar", "a-medida", "as-condicoes-de-pagamento", "o-valor-acrescentado", "a-mais-valia", "o-retorno"],
+   "grammatik": {
+    "titel": "O sujeito do infinitivo pessoal",
+    "erklaerung": [
+     "O sujeito do infinitivo pessoal pode estar expresso. Normalmente vem <b>antes</b> do infinitivo: <i>para <b>os nossos clientes</b> pouparem tempo</i>, <i>sem <b>o senhor</b> ter de mudar nada</i>.",
+     "Com o sujeito expresso, a terminação continua obrigatória: <i>para os clientes poupar<b>em</b></i> (e não <i>para os clientes poupar</i>).",
+     "Na 1.ª e na 3.ª pessoa do singular, a forma é igual ao infinitivo: <i>para eu explicar</i>, <i>para a empresa crescer</i>. Por isso, muitas vezes usamos o pronome para ficar claro: <i>para <b>eu</b> perceber melhor</i>.",
+     "Depois de preposição, os pronomes átonos costumam ficar <b>antes</b> do infinitivo: <i>para <b>lhes</b> apresentarmos</i>, <i>sem <b>o</b> conhecerem</i>."
+    ],
+    "erklaerung_de": [
+     "Das Subjekt des persönlichen Infinitivs kann ausgedrückt werden. Meist steht es <b>vor</b> dem Infinitiv: <i>damit <b>unsere Kunden</b> Zeit sparen</i>, <i>ohne dass <b>Sie</b> etwas ändern müssen</i>.",
+     "Auch mit ausgedrücktem Subjekt ist die Endung Pflicht: <i>para os clientes poupar<b>em</b></i> (nicht <i>para os clientes poupar</i>).",
+     "In der 1. und 3. Person Singular ist die Form gleich dem Infinitiv: <i>para eu explicar</i>, <i>para a empresa crescer</i>. Deshalb setzt man oft das Pronomen dazu, damit es klar ist: <i>damit <b>ich</b> es besser verstehe</i>.",
+     "Nach einer Präposition stehen die unbetonten Pronomen meist <b>vor</b> dem Infinitiv: <i>para <b>lhes</b> apresentarmos</i> (um ihnen vorzustellen), <i>sem <b>o</b> conhecerem</i> (ohne ihn zu kennen)."
+    ],
+    "vergleich": "„damit unsere Kunden Zeit sparen“ → <i>para os nossos clientes pouparem tempo</i>. Die Wortstellung ist fast wie im Deutschen; nur wird „damit“ zu <i>para</i> und das Verb bekommt die Endung.",
+    "beispiele": [
+     {"pt": "Esta solução é feita à medida, para os seus colaboradores pouparem tempo.", "de": "Diese Lösung ist maßgeschneidert, damit Ihre Mitarbeiter Zeit sparen."},
+     {"pt": "Para eu perceber melhor: qual é o vosso orçamento?", "de": "Damit ich es besser verstehe: Wie hoch ist Ihr Budget?"},
+     {"pt": "Proponho uma reunião para lhes apresentarmos a solução.", "de": "Ich schlage ein Treffen vor, damit wir Ihnen die Lösung vorstellen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Criámos esta solução para os seus colaboradores ___ tempo. (poupar)", "loesungen": ["pouparem"], "de": "Wir haben diese Lösung entwickelt, damit Ihre Mitarbeiter Zeit sparen.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Para eu ___ melhor: qual é o vosso orçamento? (perceber)", "loesungen": ["perceber"], "de": "Damit ich es besser verstehe: Wie hoch ist Ihr Budget?", "erklaerung": "eu → keine Endung.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Sem os senhores ___ de mudar nada, o sistema funciona. (ter)", "loesungen": ["terem"], "de": "Ohne dass Sie etwas ändern müssen, funktioniert das System.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Proponho uma reunião para lhes ___ a proposta. (apresentar, nós)", "loesungen": ["apresentarmos"], "de": "Ich schlage ein Treffen vor, damit wir Ihnen das Angebot vorstellen.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„damit Ihre Firma wächst“", "optionen": ["para a sua empresa crescerem", "para a sua empresa crescer", "para que a sua empresa cresce"], "richtig": 1, "erklaerung": "a empresa = 3. Person Singular → crescer.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "Was bedeutet „uma solução à medida“?", "optionen": ["eine maßgeschneiderte Lösung", "eine halbe Lösung", "eine teure Lösung"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Wir haben eine Lösung, damit Ihre Mitarbeiter Zeit sparen.", "loesungen": ["Temos uma solução para os seus colaboradores pouparem tempo.", "Temos uma solução para os vossos colaboradores pouparem tempo.", "Temos uma solução para que os seus colaboradores poupem tempo.", "Temos uma solução para os seus funcionários pouparem tempo."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "satzbau", "de": "Können wir über die Zahlungsbedingungen verhandeln?", "loesung": "Podemos negociar as condições de pagamento?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "A apresentação no hotel – die Präsentation im Hotel",
+    "situation": "Stefan präsentiert der Hoteldirektorin Helena Matos sein Angebot.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Senhora Diretora, obrigado por me receber. Vou apresentar-lhe a nossa solução em cinco minutos.", "de": "Frau Direktorin, danke, dass Sie mich empfangen. Ich stelle Ihnen unsere Lösung in fünf Minuten vor."},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Muito bem. Estou a ouvir.", "de": "Sehr gut. Ich höre."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Hoje, a sua equipa perde muito tempo com as reservas. O nosso sistema é feito à medida, para os seus colaboradores pouparem duas horas por dia.", "de": "Heute verliert Ihr Team viel Zeit mit den Reservierungen. Unser System ist maßgeschneidert, damit Ihre Mitarbeiter zwei Stunden pro Tag sparen."},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Parece interessante. Mas qual é o investimento?", "de": "Klingt interessant. Aber wie hoch ist die Investition?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "São doze mil euros, e o retorno chega em menos de um ano.", "de": "Es sind zwölftausend Euro, und die Investition rechnet sich in weniger als einem Jahr."},
+     {"sprecher": "Helena", "stimme": "f", "pt": "É bastante. Podemos negociar as condições de pagamento?", "de": "Das ist ziemlich viel. Können wir über die Zahlungsbedingungen verhandeln?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro. Podemos dividir em três prestações, sem a senhora ter de pagar juros.", "de": "Natürlich. Wir können es in drei Raten aufteilen, ohne dass Sie Zinsen zahlen müssen."},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Ótimo. Envie-me a proposta por escrito, para eu a mostrar à administração.", "de": "Sehr gut. Schicken Sie mir das Angebot schriftlich, damit ich es der Geschäftsleitung zeige."}
+    ],
+    "fragen": [
+     {"frage": "Quanto tempo poupam os colaboradores por dia?", "optionen": ["Duas horas.", "Meia hora.", "Cinco horas."], "richtig": 0},
+     {"frage": "Quanto custa o sistema?", "optionen": ["Dois mil euros.", "Vinte mil euros.", "Doze mil euros."], "richtig": 2},
+     {"frage": "O que vai a diretora fazer com a proposta?", "optionen": ["Assiná-la logo.", "Mostrá-la à administração.", "Enviá-la ao banco."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du präsentierst Herrn Ferreira, dem Besitzer eines Restaurants, dein Angebot.",
+    "zeilen": [
+     {"sprecher": "Sr. Ferreira", "stimme": "m", "pt": "Então, senhor Stefan, o que é que nos propõe?", "de": "Also, Herr Stefan, was schlagen Sie uns vor?"},
+     {"ich": true, "aufgabe": "Sag: Eine maßgeschneiderte Lösung, damit Ihr Team Zeit spart.", "loesungen": ["Uma solução à medida, para a sua equipa poupar tempo.", "Uma solução à medida para a sua equipa poupar tempo.", "Proponho uma solução à medida, para a sua equipa poupar tempo.", "Uma solução à medida, para que a sua equipa poupe tempo.", "Uma solução à medida, para a vossa equipa poupar tempo."]},
+     {"sprecher": "Sr. Ferreira", "stimme": "m", "pt": "E qual é o investimento?", "de": "Und wie hoch ist die Investition?"},
+     {"ich": true, "aufgabe": "Sag: Achttausend Euro. Wir können über die Zahlungsbedingungen verhandeln.", "loesungen": ["Oito mil euros. Podemos negociar as condições de pagamento.", "São oito mil euros. Podemos negociar as condições de pagamento.", "O investimento é de oito mil euros. Podemos negociar as condições de pagamento."]},
+     {"sprecher": "Sr. Ferreira", "stimme": "m", "pt": "Interessante. Pode enviar-me tudo por escrito?", "de": "Interessant. Können Sie mir alles schriftlich schicken?"},
+     {"ich": true, "aufgabe": "Sag: Natürlich. Ich schicke Ihnen heute alles, damit Sie es mit Ihrem Partner besprechen.", "loesungen": ["Claro. Envio-lhe tudo hoje, para o discutir com o seu sócio.", "Claro. Envio-lhe tudo hoje, para o senhor discutir com o seu sócio.", "Com certeza. Envio-lhe tudo hoje, para o discutir com o seu sócio.", "Com certeza. Envio-lhe tudo hoje, para o senhor discutir com o seu sócio.", "Claro. Hoje envio-lhe tudo, para o discutir com o seu sócio.", "Claro. Envio-lhe tudo hoje para discutir com o seu sócio."]}
+    ]
+   },
+   "saetze": [
+    {"id": "solucao-a-medida", "pt": "É uma solução à medida, para os seus colaboradores pouparem tempo.", "de": "Es ist eine maßgeschneiderte Lösung, damit Ihre Mitarbeiter Zeit sparen."},
+    {"id": "negociar-condicoes", "pt": "Podemos negociar as condições de pagamento?", "de": "Können wir über die Zahlungsbedingungen verhandeln?"},
+    {"id": "para-eu-perceber", "pt": "Para eu perceber melhor: qual é o vosso orçamento?", "de": "Damit ich es besser verstehe: Wie hoch ist Ihr Budget?"}
+   ]
+  },
+  {
+   "id": "B1-05-L09",
+   "typ": "neu",
+   "titel": "Termine verschieben und absagen",
+   "vokabeln": ["remarcar", "desmarcar", "a-agenda", "o-imprevisto", "a-disponibilidade", "cancelar", "o-incomodo", "antecipar"],
+   "grammatik": {
+    "titel": "Lamento, é pena, peço desculpa + infinitivo pessoal",
+    "erklaerung": [
+     "Para reagir a um facto, usamos <b>lamento, é pena, peço desculpa por</b> + infinitivo: <i>Lamento não <b>poder</b> ir.</i>",
+     "Se o sujeito é outro (ou plural), usamos o infinitivo pessoal: <i>Lamento <b>termos</b> de adiar a reunião.</i> · <i>É pena não nos <b>podermos</b> encontrar esta semana.</i>",
+     "Com <b>não</b>, o pronome vai para antes do verbo: <i>não <b>nos</b> podermos encontrar</i>, <i>não <b>lhe</b> termos dito nada</i>.",
+     "Para propor outra data: <i>Seria possível <b>remarcarmos</b> para quinta-feira?</i> É uma pergunta educada e muito usada ao telefone."
+    ],
+    "erklaerung_de": [
+     "Um auf eine Tatsache zu reagieren, nehmen wir <b>lamento, é pena, peço desculpa por</b> + Infinitiv: <i>Es tut mir leid, dass ich nicht kommen kann.</i>",
+     "Ist das Subjekt ein anderes (oder Plural), nehmen wir den persönlichen Infinitiv: <i>Es tut mir leid, dass wir die Besprechung verschieben müssen.</i> · <i>Schade, dass wir uns diese Woche nicht treffen können.</i>",
+     "Mit <b>não</b> rückt das Pronomen vor das Verb: <i>não <b>nos</b> podermos encontrar</i>, <i>não <b>lhe</b> termos dito nada</i>.",
+     "Um einen anderen Termin vorzuschlagen: <i>Wäre es möglich, dass wir auf Donnerstag verlegen?</i> Eine höfliche Frage, die man am Telefon sehr oft hört."
+    ],
+    "vergleich": "„Leider müssen wir das Treffen verschieben.“ → <i>Lamento termos de adiar a reunião.</i> Deutsch braucht „leider“ oder einen „dass“-Satz – Portugiesisch hängt den Infinitiv direkt an.",
+    "beispiele": [
+     {"pt": "Lamento termos de desmarcar a reunião de amanhã.", "de": "Es tut mir leid, dass wir die Besprechung von morgen absagen müssen."},
+     {"pt": "É pena não nos podermos encontrar esta semana.", "de": "Schade, dass wir uns diese Woche nicht treffen können."},
+     {"pt": "Seria possível remarcarmos para quinta-feira à tarde?", "de": "Wäre es möglich, auf Donnerstagnachmittag zu verlegen?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Lamento ___ de adiar a reunião. (ter, nós)", "loesungen": ["termos"], "de": "Es tut mir leid, dass wir die Besprechung verschieben müssen.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "É pena não nos ___ ver esta semana. (poder, nós)", "loesungen": ["podermos"], "de": "Schade, dass wir uns diese Woche nicht sehen können.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Seria possível ___ para segunda-feira? (remarcar, nós)", "loesungen": ["remarcarmos"], "de": "Wäre es möglich, auf Montag zu verlegen?", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Peço desculpa por não o ___ avisado mais cedo. (ter, eu)", "loesungen": ["ter"], "de": "Entschuldigen Sie, dass ich Sie nicht früher benachrichtigt habe.", "erklaerung": "eu → ter (ohne Endung).", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Schade, dass wir uns nicht sehen können.“", "optionen": ["É pena não podermos-nos ver.", "É pena nós não pode ver.", "É pena não nos podermos ver."], "richtig": 2, "erklaerung": "Nach não steht das Pronomen vor dem Verb.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„desmarcar“ bedeutet:", "optionen": ["einen Termin vereinbaren", "einen Termin absagen", "einen Termin verlegen"], "richtig": 1, "erklaerung": "marcar = vereinbaren, remarcar = verlegen, desmarcar = absagen."},
+     {"typ": "uebersetzen", "de": "Es tut mir leid, dass wir die Besprechung verschieben müssen.", "loesungen": ["Lamento termos de adiar a reunião.", "Lamento termos que adiar a reunião.", "Lamento termos de remarcar a reunião.", "Lamento que tenhamos de adiar a reunião.", "Peço desculpa por termos de adiar a reunião."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "satzbau", "de": "Leider ist mir bei der Arbeit etwas dazwischengekommen.", "loesung": "Infelizmente tive um imprevisto no trabalho."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Remarcar uma reunião – einen Termin verlegen",
+    "situation": "Stefan ruft im Büro von Herrn Ferreira an, um einen Termin zu verlegen.",
+    "zeilen": [
+     {"sprecher": "Secretária", "stimme": "f", "pt": "Restaurante Ferreira, bom dia.", "de": "Restaurant Ferreira, guten Morgen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Fala o Stefan, o consultor. Tenho uma reunião marcada com o senhor Ferreira amanhã às dez.", "de": "Guten Morgen. Hier spricht Stefan, der Berater. Ich habe morgen um zehn einen Termin mit Herrn Ferreira."},
+     {"sprecher": "Secretária", "stimme": "f", "pt": "Sim, tenho aqui na agenda. Em que posso ajudar?", "de": "Ja, ich habe es hier im Kalender. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Infelizmente tive um imprevisto. Lamento ter de desmarcar. Seria possível remarcarmos para quinta-feira?", "de": "Leider ist mir etwas dazwischengekommen. Es tut mir leid, dass ich absagen muss. Wäre es möglich, auf Donnerstag zu verlegen?"},
+     {"sprecher": "Secretária", "stimme": "f", "pt": "Deixe-me ver a disponibilidade dele… Quinta não dá, mas sexta às três da tarde está livre.", "de": "Lassen Sie mich schauen, wann er Zeit hat … Donnerstag geht nicht, aber Freitag um drei Uhr nachmittags ist frei."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sexta às três é perfeito. Peço desculpa pelo incómodo.", "de": "Freitag um drei ist perfekt. Entschuldigen Sie die Umstände."},
+     {"sprecher": "Secretária", "stimme": "f", "pt": "Não há problema. Fica então marcado para sexta-feira, às quinze horas.", "de": "Kein Problem. Dann ist es für Freitag um fünfzehn Uhr eingetragen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muito obrigado. Bom dia!", "de": "Vielen Dank. Einen schönen Tag!"}
+    ],
+    "fragen": [
+     {"frage": "Quando era a reunião?", "optionen": ["Hoje às três.", "Na quinta-feira.", "Amanhã às dez."], "richtig": 2},
+     {"frage": "Porque é que o Stefan liga?", "optionen": ["Para remarcar a reunião.", "Para cancelar o contrato.", "Para pedir um orçamento."], "richtig": 0},
+     {"frage": "Quando fica a nova reunião?", "optionen": ["Na quinta-feira às dez.", "Na sexta-feira às três da tarde.", "Na segunda-feira de manhã."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Leider muss ich die Besprechung absagen.", "loesungen": ["Infelizmente tenho de desmarcar a reunião.", "Infelizmente, tenho de desmarcar a reunião.", "Infelizmente tenho que desmarcar a reunião.", "Infelizmente tenho de cancelar a reunião.", "Infelizmente, tenho de cancelar a reunião.", "Lamento, mas tenho de desmarcar a reunião.", "Lamento ter de desmarcar a reunião."]},
+     {"de": "Wäre es möglich, dass wir auf Donnerstag verlegen?", "loesungen": ["Seria possível remarcarmos para quinta-feira?", "Seria possível remarcarmos para quinta?", "Seria possível passarmos para quinta-feira?", "Seria possível passarmos a reunião para quinta-feira?", "Seria possível adiarmos para quinta-feira?", "Seria possível adiarmos para quinta?"]},
+     {"de": "Entschuldigen Sie die Umstände.", "loesungen": ["Peço desculpa pelo incómodo.", "Pedimos desculpa pelo incómodo.", "Desculpe o incómodo.", "Desculpe pelo incómodo."]},
+     {"de": "Wann haben Sie nächste Woche Zeit?", "loesungen": ["Qual é a sua disponibilidade na próxima semana?", "Quando tem disponibilidade na próxima semana?", "Quando é que tem disponibilidade na próxima semana?", "Quando está disponível na próxima semana?", "Quando é que está disponível na próxima semana?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "lamento-termos-de-adiar", "pt": "Lamento termos de adiar a reunião.", "de": "Es tut mir leid, dass wir die Besprechung verschieben müssen."},
+    {"id": "seria-possivel-remarcarmos", "pt": "Seria possível remarcarmos para quinta-feira?", "de": "Wäre es möglich, auf Donnerstag zu verlegen?"},
+    {"id": "desculpa-pelo-incomodo", "pt": "Peço desculpa pelo incómodo.", "de": "Entschuldigen Sie die Umstände."}
+   ]
+  },
+  {
+   "id": "B1-05-L10",
+   "typ": "neu",
+   "titel": "Networking und Small Talk",
+   "vokabeln": ["o-cartao-de-visita", "o-contacto", "o-evento", "o-setor", "manter-o-contacto", "a-conferencia", "o-ramo", "o-almoco-de-negocios", "dedicar-se-a"],
+   "grammatik": {
+    "titel": "Quando NÃO se flexiona o infinitivo",
+    "erklaerung": [
+     "Depois de verbos auxiliares e modais (<b>poder, dever, querer, ir, conseguir, ter de, começar a, acabar de</b>), o infinitivo <b>nunca</b> se flexiona: <i>Podemos falar.</i> (e não <i>podemos falarmos</i>).",
+     "Também não se flexiona quando o sujeito é o mesmo e já está claro, com verbos como <b>gostar de, tentar, decidir</b>: <i>Gostámos muito de conhecer a vossa empresa.</i>",
+     "Flexiona-se quando o infinitivo tem sujeito próprio, sobretudo depois de <b>preposições</b> e <b>expressões impessoais</b>: <i>Foi um prazer <b>conhecermo-nos</b>.</i> · <i>Antes de <b>irem</b>, deixem-me o vosso contacto.</i>",
+     "Atenção ao pronome: <b>-mos</b> + <b>nos</b> → o <b>s</b> cai: <i>conhecermos + nos → conhecermo-nos</i>, <i>vermos + nos → vermo-nos</i>."
+    ],
+    "erklaerung_de": [
+     "Nach Hilfs- und Modalverben (<b>poder, dever, querer, ir, conseguir, ter de, começar a, acabar de</b>) wird der Infinitiv <b>nie</b> gebeugt: <i>Podemos falar.</i> (nicht <i>podemos falarmos</i>).",
+     "Ebenfalls ungebeugt bleibt er, wenn das Subjekt dasselbe ist und schon klar ist, z. B. bei <b>gostar de, tentar, decidir</b>: <i>Wir haben uns sehr gefreut, Ihre Firma kennenzulernen.</i>",
+     "Gebeugt wird er, wenn der Infinitiv ein eigenes Subjekt hat, vor allem nach <b>Präpositionen</b> und <b>unpersönlichen Ausdrücken</b>: <i>Es war schön, dass wir uns kennengelernt haben.</i> · <i>Bevor ihr geht, gebt mir eure Kontaktdaten.</i>",
+     "Achtung beim Pronomen: <b>-mos</b> + <b>nos</b> → das <b>s</b> fällt weg: <i>conhecermos + nos → conhecermo-nos</i>, <i>vermos + nos → vermo-nos</i>."
+    ],
+    "vergleich": "Deutsch: „Wir können uns treffen“ – auch hier bleibt der Infinitiv unverändert. Typischer Lernerfehler: alles beugen wollen. Merke: Modalverb + Infinitiv = immer ungebeugt.",
+    "beispiele": [
+     {"pt": "Foi um prazer conhecermo-nos. Vamos manter o contacto!", "de": "Es war schön, Sie kennenzulernen. Bleiben wir in Kontakt!"},
+     {"pt": "Podemos trocar cartões de visita?", "de": "Können wir Visitenkarten austauschen?"},
+     {"pt": "Antes de irem embora, deixem-me o vosso contacto.", "de": "Bevor ihr geht, lasst mir eure Kontaktdaten da."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Podemos ___ cartões de visita? (trocar)", "loesungen": ["trocar"], "de": "Können wir Visitenkarten austauschen?", "erklaerung": "Nach poder: nie gebeugt.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Foi um prazer ___! (conhecer-se, nós)", "loesungen": ["conhecermo-nos"], "de": "Es war schön, uns kennenzulernen!", "erklaerung": "conhecermos + nos → conhecermo-nos (das s fällt weg).", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Antes de ___ embora, deixem-me o vosso contacto. (ir, vocês)", "loesungen": ["irem"], "de": "Bevor ihr geht, lasst mir eure Kontaktdaten da.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Queremos ___ o contacto convosco. (manter)", "loesungen": ["manter"], "de": "Wir möchten mit euch in Kontakt bleiben.", "erklaerung": "Nach querer (gleiches Subjekt): ungebeugt.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist richtig?", "optionen": ["Devemos falarmos com eles.", "Devemos falar com eles.", "Devemos que falar com eles."], "richtig": 1, "erklaerung": "Nach dever bleibt der Infinitiv ungebeugt.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Wir sollten in Kontakt bleiben.“", "optionen": ["Devíamos mantermos o contacto.", "Devíamos de mantermos o contacto.", "Devíamos manter o contacto."], "richtig": 2, "kategorie": "Infinitivo pessoal"},
+     {"typ": "uebersetzen", "de": "Es war mir ein Vergnügen, Sie kennenzulernen. (an einen Herrn)", "loesungen": ["Foi um prazer conhecê-lo.", "Foi um prazer conhecer o senhor.", "Foi um grande prazer conhecê-lo.", "Muito prazer em conhecê-lo."]},
+     {"typ": "uebersetzen", "de": "In welcher Branche arbeiten Sie?", "loesungen": ["Em que setor trabalha?", "Em que setor é que trabalha?", "Em que ramo trabalha?", "Em que ramo é que trabalha?", "Trabalha em que setor?"]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um evento em Faro – eine Veranstaltung in Faro",
+    "situation": "Bei einem Unternehmertreffen in Faro lernt Stefan Carla Mendes kennen.",
+    "zeilen": [
+     {"sprecher": "Carla", "stimme": "f", "pt": "Boa noite. Acho que ainda não nos conhecemos. Sou a Carla Mendes.", "de": "Guten Abend. Ich glaube, wir kennen uns noch nicht. Ich bin Carla Mendes."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muito prazer, Carla. Stefan. Sou consultor e vivo em Lagos.", "de": "Sehr erfreut, Carla. Stefan. Ich bin Berater und lebe in Lagos."},
+     {"sprecher": "Carla", "stimme": "f", "pt": "Ah, que bom! E em que setor trabalha?", "de": "Ah, schön! Und in welcher Branche arbeiten Sie?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ajudo empresas do turismo a organizarem os seus processos. E a Carla?", "de": "Ich helfe Tourismusfirmen, ihre Abläufe zu organisieren. Und Sie, Carla?"},
+     {"sprecher": "Carla", "stimme": "f", "pt": "Tenho uma pequena empresa de eventos. Organizamos conferências e casamentos.", "de": "Ich habe eine kleine Eventfirma. Wir organisieren Konferenzen und Hochzeiten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Interessante! Se calhar podemos trabalhar juntos. Tem um cartão de visita?", "de": "Interessant! Vielleicht können wir zusammenarbeiten. Haben Sie eine Visitenkarte?"},
+     {"sprecher": "Carla", "stimme": "f", "pt": "Tenho, aqui está. Foi um prazer conhecermo-nos. Vamos manter o contacto!", "de": "Ja, hier bitte. Es war schön, Sie kennenzulernen. Bleiben wir in Kontakt!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Com certeza. Ligo-lhe na próxima semana para marcarmos um almoço.", "de": "Auf jeden Fall. Ich rufe Sie nächste Woche an, damit wir ein Mittagessen ausmachen."}
+    ],
+    "fragen": [
+     {"frage": "Onde vive o Stefan?", "optionen": ["Em Faro.", "Em Lisboa.", "Em Lagos."], "richtig": 2},
+     {"frage": "O que faz a empresa da Carla?", "optionen": ["Organiza eventos.", "Vende casas.", "Tem restaurantes."], "richtig": 0},
+     {"frage": "O que vai o Stefan fazer na próxima semana?", "optionen": ["Enviar uma proposta.", "Ligar à Carla para marcarem um almoço.", "Ir a uma conferência."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Bei einem Unternehmerabend spricht dich Nuno Alves an.",
+    "zeilen": [
+     {"sprecher": "Nuno", "stimme": "m", "pt": "Boa noite! Ainda não nos conhecemos, pois não? Nuno Alves, muito prazer.", "de": "Guten Abend! Wir kennen uns noch nicht, oder? Nuno Alves, sehr erfreut."},
+     {"ich": true, "aufgabe": "Sag: Sehr erfreut. Ich heiße Stefan und bin Berater.", "loesungen": ["Muito prazer. Chamo-me Stefan e sou consultor.", "Muito prazer, chamo-me Stefan e sou consultor.", "Prazer. Chamo-me Stefan e sou consultor.", "Muito prazer. Sou o Stefan e sou consultor.", "Igualmente. Chamo-me Stefan e sou consultor."]},
+     {"sprecher": "Nuno", "stimme": "m", "pt": "Consultor? Em que setor?", "de": "Berater? In welcher Branche?"},
+     {"ich": true, "aufgabe": "Sag: Ich helfe Tourismusfirmen, ihre Abläufe zu organisieren.", "loesungen": ["Ajudo empresas do turismo a organizarem os seus processos.", "Ajudo empresas do turismo a organizar os seus processos.", "Ajudo empresas de turismo a organizarem os seus processos.", "Ajudo empresas de turismo a organizar os seus processos.", "Ajudo empresas do turismo a organizarem os processos.", "Ajudo empresas do turismo a organizar os processos."]},
+     {"sprecher": "Nuno", "stimme": "m", "pt": "Muito interessante. Tem um cartão de visita?", "de": "Sehr interessant. Haben Sie eine Visitenkarte?"},
+     {"ich": true, "aufgabe": "Sag: Ja, hier bitte. Es war schön, uns kennenzulernen.", "loesungen": ["Sim, aqui está. Foi um prazer conhecermo-nos.", "Tenho, aqui está. Foi um prazer conhecermo-nos.", "Sim, aqui tem. Foi um prazer conhecermo-nos.", "Tenho, aqui tem. Foi um prazer conhecermo-nos.", "Sim, faz favor. Foi um prazer conhecermo-nos."]}
+    ]
+   },
+   "saetze": [
+    {"id": "foi-um-prazer-conhecermo-nos", "pt": "Foi um prazer conhecermo-nos.", "de": "Es war schön, uns kennenzulernen."},
+    {"id": "vamos-manter-o-contacto", "pt": "Vamos manter o contacto!", "de": "Bleiben wir in Kontakt!"},
+    {"id": "em-que-setor-trabalha", "pt": "Em que setor trabalha?", "de": "In welcher Branche arbeiten Sie?"}
+   ]
+  },
+  {"id": "B1-05-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-05-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "O hotel quer adiar – das Hotel will verschieben",
+   "situation": "Stefan und Miguel besprechen eine E-Mail eines Hotelkunden.",
+   "zeilen": [
+    {"sprecher": "Miguel", "stimme": "m", "pt": "Stefan, recebeste o e-mail do hotel? Querem adiar a reunião para a próxima semana.", "de": "Stefan, hast du die E-Mail vom Hotel bekommen? Sie wollen die Besprechung auf nächste Woche verschieben."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Recebi. Lamento termos de esperar mais, mas é melhor aceitarmos.", "de": "Ja. Schade, dass wir länger warten müssen, aber es ist besser, wenn wir zustimmen."},
+    {"sprecher": "Miguel", "stimme": "m", "pt": "Concordo. Mas antes de respondermos, convém falarmos com a Inês. Ela tem a agenda da equipa.", "de": "Einverstanden. Aber bevor wir antworten, sollten wir mit Inês sprechen. Sie hat den Teamkalender."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Tens razão. E o orçamento? Já o aprovaram?", "de": "Du hast recht. Und der Kostenvoranschlag? Haben sie ihn schon genehmigt?"},
+    {"sprecher": "Miguel", "stimme": "m", "pt": "Ainda não. Pediram para lhes enviarmos uma versão mais curta da proposta.", "de": "Noch nicht. Sie haben gebeten, dass wir ihnen eine kürzere Fassung des Angebots schicken."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. Eu revejo o documento hoje, para tu o enviares amanhã de manhã.", "de": "In Ordnung. Ich überarbeite das Dokument heute, damit du es morgen früh schickst."},
+    {"sprecher": "Miguel", "stimme": "m", "pt": "Perfeito. E a reunião? Fazemos por videochamada?", "de": "Perfekt. Und die Besprechung? Machen wir sie per Video?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, é melhor. Assim ninguém tem de ir a Lisboa.", "de": "Ja, das ist besser. So muss niemand nach Lissabon fahren."}
+   ],
+   "fragen": [
+    {"frage": "O que quer o hotel?", "optionen": ["Cancelar o projeto.", "Adiar a reunião.", "Um desconto."], "richtig": 1},
+    {"frage": "Com quem devem falar antes de responder?", "optionen": ["Com a Inês.", "Com o diretor do hotel.", "Com o banco."], "richtig": 0},
+    {"frage": "O que pediu o hotel?", "optionen": ["Uma fatura.", "Um novo cronograma.", "Uma versão mais curta da proposta."], "richtig": 2},
+    {"frage": "Como vai ser a reunião?", "optionen": ["Em Lisboa.", "Por videochamada.", "Em Lagos."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Um e-mail do hotel – eine E-Mail vom Hotel",
+   "situation": "Stefan bekommt eine E-Mail von einem Hotel in Albufeira.",
+   "text": [
+    "Assunto: Proposta de consultoria – pedido de esclarecimento",
+    "Exmo. Senhor Stefan,",
+    "Na sequência da sua apresentação da semana passada, venho por este meio agradecer-lhe a visita e o tempo que dedicou à nossa equipa.",
+    "A administração analisou a proposta com interesse. Antes de tomarmos uma decisão, gostaríamos de esclarecer dois pontos: o cronograma e as condições de pagamento.",
+    "Seria possível marcarmos uma videochamada na próxima semana? Sugiro terça-feira, às 10h00, ou quinta-feira, às 15h00.",
+    "Peço-lhe também para nos enviar a versão final do orçamento antes da chamada, para os nossos sócios a poderem ler com calma.",
+    "Agradeço desde já a sua atenção e fico a aguardar a sua resposta.",
+    "Com os melhores cumprimentos, Helena Matos – Diretora-Geral"
+   ],
+   "fragen": [
+    {"frage": "Porque é que a Helena escreve?", "optionen": ["Para cancelar o projeto.", "Para esclarecer alguns pontos antes de decidirem.", "Para pedir desculpa."], "richtig": 1},
+    {"frage": "Que pontos quer esclarecer?", "optionen": ["O cronograma e as condições de pagamento.", "O salário da equipa.", "A morada do hotel."], "richtig": 0},
+    {"frage": "O que propõe a Helena?", "optionen": ["Uma visita a Lagos.", "Um almoço de negócios.", "Uma videochamada na próxima semana."], "richtig": 2},
+    {"frage": "Porque quer receber o orçamento antes da chamada?", "optionen": ["Para o assinar logo.", "Para os sócios o lerem com calma.", "Para o enviar ao banco."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Es ist besser, wenn wir heute mit dem Kunden sprechen.", "loesungen": ["É melhor falarmos hoje com o cliente.", "É melhor falarmos com o cliente hoje.", "Hoje é melhor falarmos com o cliente.", "É melhor nós falarmos com o cliente hoje.", "É melhor que falemos com o cliente hoje."]},
+   {"de": "Bevor du gehst, ruf mich an.", "loesungen": ["Antes de saíres, liga-me.", "Antes de saíres, telefona-me.", "Liga-me antes de saíres.", "Antes de ires embora, liga-me.", "Liga-me antes de ires embora.", "Antes de te ires embora, liga-me."]},
+   {"de": "Ich habe euch den Vertrag geschickt, damit ihr ihn lest.", "loesungen": ["Enviei-vos o contrato para o lerem.", "Mandei-vos o contrato para o lerem.", "Enviei-vos o contrato para vocês o lerem.", "Mandei-vos o contrato para vocês o lerem."]},
+   {"de": "Entschuldigen Sie, dass ich nicht früher geantwortet habe.", "loesungen": ["Peço desculpa por não ter respondido mais cedo.", "Peço desculpa por não ter respondido antes.", "Desculpe não ter respondido mais cedo.", "Desculpe por não ter respondido mais cedo.", "Peço desculpa por não lhe ter respondido mais cedo."]},
+   {"de": "Es tut mir leid, dass wir die Besprechung verschieben müssen.", "loesungen": ["Lamento termos de adiar a reunião.", "Lamento termos que adiar a reunião.", "Lamento termos de remarcar a reunião.", "Lamento que tenhamos de adiar a reunião."]},
+   {"de": "Es war schön, uns kennenzulernen.", "loesungen": ["Foi um prazer conhecermo-nos.", "Foi um prazer conhecermo-nos!"]}
+  ],
+  "sprechen": [
+   {"pt": "Venho por este meio solicitar um orçamento.", "de": "Hiermit bitte ich um einen Kostenvoranschlag."},
+   {"pt": "Antes de começarmos, quero fazer um ponto de situação.", "de": "Bevor wir anfangen, möchte ich einen Zwischenstand geben."},
+   {"pt": "Vou partilhar o ecrã para verem a proposta.", "de": "Ich teile den Bildschirm, damit ihr das Angebot seht."},
+   {"pt": "Seria possível remarcarmos para quinta-feira?", "de": "Wäre es möglich, auf Donnerstag zu verlegen?"},
+   {"pt": "Foi um prazer conhecermo-nos. Vamos manter o contacto!", "de": "Es war schön, uns kennenzulernen. Bleiben wir in Kontakt!"}
+  ]
+ }
+}

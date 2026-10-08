@@ -1,0 +1,892 @@
+{
+ "id": "B1-03",
+ "level": "B1",
+ "titel": "Burocracia – Ämter und Steuern",
+ "beschreibung": "Sich in der portugiesischen Bürokratie zurechtfinden – AIMA, Câmara, Segurança Social (NISS), IRS, Portal das Finanças, Chave Móvel Digital und Vollmacht – und die Amtssprache verstehen: Passiv mit ser + Partizip, Zustand mit estar und ficar, se-Passiv auf Schildern und in Anzeigen.",
+ "vokabeln": [
+  {"id": "a-aima", "pt": "a AIMA", "de": "die Migrations- und Aufenthaltsbehörde (AIMA)", "emoji": "🛂", "beispiel_pt": "A AIMA substituiu o SEF em 2023.", "beispiel_de": "Die AIMA hat 2023 den SEF abgelöst.", "hinweis": "Agência para a Integração, Migrações e Asilo – zuständig vor allem für Aufenthaltstitel von Nicht-EU-Bürgern."},
+  {"id": "a-seguranca-social", "pt": "a Segurança Social", "de": "die Sozialversicherung", "emoji": "🏛️", "beispiel_pt": "A Segurança Social trata das pensões e dos subsídios.", "beispiel_de": "Die Sozialversicherung kümmert sich um Renten und Zuschüsse."},
+  {"id": "a-autorizacao-de-residencia", "pt": "a autorização de residência", "de": "die Aufenthaltsgenehmigung", "emoji": "🪪", "beispiel_pt": "Os cidadãos de fora da UE precisam de uma autorização de residência.", "beispiel_de": "Bürger von außerhalb der EU brauchen eine Aufenthaltsgenehmigung."},
+  {"id": "o-certificado-de-registo", "pt": "o certificado de registo de cidadão da UE", "de": "die Anmeldebescheinigung für EU-Bürger", "emoji": "📜", "beispiel_pt": "Pedi o certificado de registo de cidadão da UE na câmara municipal.", "beispiel_de": "Ich habe die Anmeldebescheinigung für EU-Bürger bei der Gemeinde beantragt.", "hinweis": "Für EU-Bürger, die länger als drei Monate bleiben; ausgestellt von der Câmara Municipal. Umgangssprachlich oft „certificado de residência“.", "alternativen": ["o certificado de registo"]},
+  {"id": "o-cidadao", "pt": "o cidadão", "de": "der Bürger / Staatsbürger", "emoji": "🧑", "beispiel_pt": "Sou cidadão austríaco, portanto sou cidadão da UE.", "beispiel_de": "Ich bin österreichischer Staatsbürger, also EU-Bürger.", "hinweis": "Plural: os cidadãos; weiblich: a cidadã", "alternativen": ["a cidadã"]},
+  {"id": "o-estrangeiro", "pt": "o estrangeiro", "de": "der Ausländer / das Ausland", "emoji": "🌍", "beispiel_pt": "Muitos estrangeiros vivem no Algarve.", "beispiel_de": "Viele Ausländer leben an der Algarve.", "hinweis": "no estrangeiro = im Ausland", "alternativen": ["a estrangeira"]},
+  {"id": "o-funcionario", "pt": "o funcionário", "de": "der Angestellte / Beamte", "emoji": "👔", "beispiel_pt": "O funcionário da câmara foi muito simpático.", "beispiel_de": "Der Angestellte der Gemeinde war sehr freundlich.", "alternativen": ["a funcionária"]},
+  {"id": "a-reparticao", "pt": "a repartição", "de": "die Dienststelle / das Amt", "emoji": "🏢", "beispiel_pt": "A repartição de Finanças fica perto do mercado.", "beispiel_de": "Das Finanzamt liegt in der Nähe des Markts.", "passiv": true},
+  {"id": "o-servico-publico", "pt": "o serviço público", "de": "die öffentliche Dienststelle / der öffentliche Dienst", "emoji": "🏤", "beispiel_pt": "Os serviços públicos estão fechados ao fim de semana.", "beispiel_de": "Die öffentlichen Dienststellen sind am Wochenende geschlossen.", "passiv": true},
+
+  {"id": "o-niss", "pt": "o NISS", "de": "die Sozialversicherungsnummer", "emoji": "🔢", "beispiel_pt": "Para trabalhar em Portugal, preciso de NISS.", "beispiel_de": "Um in Portugal zu arbeiten, brauche ich eine Sozialversicherungsnummer.", "hinweis": "Número de Identificação da Segurança Social – nicht verwechseln mit dem NIF (Steuernummer)."},
+  {"id": "a-inscricao", "pt": "a inscrição", "de": "die Anmeldung / Eintragung", "emoji": "📝", "beispiel_pt": "A inscrição na Segurança Social é obrigatória para quem trabalha.", "beispiel_de": "Die Anmeldung bei der Sozialversicherung ist für Erwerbstätige Pflicht."},
+  {"id": "inscrever-se", "pt": "inscrever-se", "de": "sich anmelden / sich eintragen", "emoji": "✍️", "beispiel_pt": "Inscrevi-me como trabalhador independente.", "beispiel_de": "Ich habe mich als Selbstständiger angemeldet.", "hinweis": "inscrever-se em = sich anmelden bei; Partizip: inscrito"},
+  {"id": "o-trabalhador-independente", "pt": "o trabalhador independente", "de": "der Selbstständige", "emoji": "💼", "beispiel_pt": "Sou trabalhador independente desde março.", "beispiel_de": "Ich bin seit März selbstständig.", "hinweis": "Gegenteil: trabalhador por conta de outrem (Angestellter)"},
+  {"id": "os-descontos", "pt": "os descontos", "de": "die (Sozial-)Abgaben vom Lohn", "emoji": "💸", "beispiel_pt": "A empresa faz os descontos para a Segurança Social.", "beispiel_de": "Die Firma führt die Abgaben an die Sozialversicherung ab.", "hinweis": "fazer descontos = Beiträge zahlen; im Geschäft ist o desconto der Rabatt."},
+  {"id": "o-requerimento", "pt": "o requerimento", "de": "der (formelle) Antrag", "emoji": "📄", "beispiel_pt": "O requerimento tem de ser assinado.", "beispiel_de": "Der Antrag muss unterschrieben werden.", "hinweis": "o pedido = Antrag/Bitte allgemein; o requerimento = formeller schriftlicher Antrag", "passiv": true},
+  {"id": "o-empregador", "pt": "o empregador", "de": "der Arbeitgeber", "emoji": "🏭", "beispiel_pt": "O empregador também paga uma parte.", "beispiel_de": "Der Arbeitgeber zahlt auch einen Teil.", "passiv": true},
+  {"id": "a-contribuicao", "pt": "a contribuição", "de": "der Beitrag (Sozialversicherung)", "emoji": "🪙", "beispiel_pt": "As contribuições são pagas todos os meses.", "beispiel_de": "Die Beiträge werden jeden Monat bezahlt.", "passiv": true},
+  {"id": "atribuir", "pt": "atribuir", "de": "zuteilen / vergeben", "emoji": "🎫", "beispiel_pt": "O NISS é atribuído pela Segurança Social.", "beispiel_de": "Die Sozialversicherungsnummer wird von der Sozialversicherung vergeben.", "passiv": true},
+
+  {"id": "aprovado", "pt": "aprovado", "de": "genehmigt / bewilligt", "emoji": "✅", "beispiel_pt": "O meu pedido foi aprovado ontem.", "beispiel_de": "Mein Antrag wurde gestern genehmigt.", "hinweis": "von aprovar (genehmigen)", "alternativen": ["aprovada"]},
+  {"id": "emitir", "pt": "emitir", "de": "ausstellen", "emoji": "🖨️", "beispiel_pt": "A câmara emite o certificado de registo.", "beispiel_de": "Die Gemeinde stellt die Anmeldebescheinigung aus."},
+  {"id": "analisar", "pt": "analisar", "de": "prüfen / bearbeiten", "emoji": "🔍", "beispiel_pt": "O seu processo está a ser analisado.", "beispiel_de": "Ihr Vorgang wird gerade bearbeitet."},
+  {"id": "o-processo", "pt": "o processo", "de": "der Vorgang / die Akte / das Verfahren", "emoji": "🗂️", "beispiel_pt": "Qual é o número do processo?", "beispiel_de": "Wie lautet die Vorgangsnummer?"},
+  {"id": "notificar", "pt": "notificar", "de": "(amtlich) benachrichtigen / zustellen", "emoji": "📨", "beispiel_pt": "Fui notificado pelas Finanças.", "beispiel_de": "Ich habe einen Bescheid vom Finanzamt bekommen.", "hinweis": "a notificação = der Bescheid / die amtliche Mitteilung"},
+  {"id": "na-hora", "pt": "na hora", "de": "sofort / auf der Stelle", "emoji": "⚡", "beispiel_pt": "O certificado foi emitido na hora.", "beispiel_de": "Die Bescheinigung wurde sofort ausgestellt."},
+  {"id": "indeferir", "pt": "indeferir", "de": "(einen Antrag) ablehnen", "emoji": "❌", "beispiel_pt": "O requerimento foi indeferido por falta de documentos.", "beispiel_de": "Der Antrag wurde wegen fehlender Unterlagen abgelehnt.", "hinweis": "Amtssprache; das Gegenteil ist deferir (bewilligen).", "passiv": true},
+  {"id": "o-titulo-de-residencia", "pt": "o título de residência", "de": "der Aufenthaltstitel", "emoji": "💳", "beispiel_pt": "O título de residência é emitido pela AIMA.", "beispiel_de": "Der Aufenthaltstitel wird von der AIMA ausgestellt.", "passiv": true},
+  {"id": "o-despacho", "pt": "o despacho", "de": "die (amtliche) Entscheidung / Verfügung", "emoji": "🏷️", "beispiel_pt": "Ainda estamos à espera do despacho.", "beispiel_de": "Wir warten noch auf die Entscheidung.", "passiv": true},
+
+  {"id": "pago", "pt": "pago", "de": "bezahlt", "emoji": "💶", "beispiel_pt": "A fatura já está paga.", "beispiel_de": "Die Rechnung ist schon bezahlt.", "hinweis": "Partizip von pagar – in Portugal fast immer pago, auch mit ter (tinha pago).", "alternativen": ["paga"]},
+  {"id": "entregue", "pt": "entregue", "de": "abgegeben / zugestellt", "emoji": "📬", "beispiel_pt": "A declaração já está entregue.", "beispiel_de": "Die Erklärung ist schon abgegeben.", "hinweis": "entregar → entregue (mit ser/estar); Plural: entregues"},
+  {"id": "aceite", "pt": "aceite", "de": "angenommen / akzeptiert", "emoji": "🤝", "beispiel_pt": "A candidatura foi aceite.", "beispiel_de": "Die Bewerbung wurde angenommen.", "hinweis": "pt-PT: aceite (gleich für m/f; Plural aceites) – in Brasilien „aceito“."},
+  {"id": "concluido", "pt": "concluído", "de": "abgeschlossen", "emoji": "🏁", "beispiel_pt": "O processo está concluído.", "beispiel_de": "Der Vorgang ist abgeschlossen.", "alternativen": ["concluída"]},
+  {"id": "pendente", "pt": "pendente", "de": "offen / anhängig", "emoji": "⏸️", "beispiel_pt": "O meu pedido ainda está pendente.", "beispiel_de": "Mein Antrag ist noch offen."},
+  {"id": "atualizado", "pt": "atualizado", "de": "aktualisiert / auf dem neuesten Stand", "emoji": "🔄", "beispiel_pt": "A minha morada está atualizada no sistema.", "beispiel_de": "Meine Adresse ist im System aktualisiert.", "alternativen": ["atualizada"], "passiv": true},
+  {"id": "em-atraso", "pt": "em atraso", "de": "im Rückstand / überfällig", "emoji": "⏰", "beispiel_pt": "Há uma contribuição em atraso.", "beispiel_de": "Ein Beitrag ist im Rückstand.", "passiv": true},
+  {"id": "suspenso", "pt": "suspenso", "de": "ausgesetzt / gesperrt", "emoji": "⛔", "beispiel_pt": "O processo está suspenso por falta de um documento.", "beispiel_de": "Der Vorgang ist wegen eines fehlenden Dokuments ausgesetzt.", "alternativen": ["suspensa"], "passiv": true},
+  {"id": "regularizado", "pt": "regularizado", "de": "in Ordnung gebracht / geregelt", "emoji": "✔️", "beispiel_pt": "A minha situação contributiva está regularizada.", "beispiel_de": "Meine Beitragssituation ist in Ordnung.", "alternativen": ["regularizada"], "passiv": true},
+
+  {"id": "vende-se", "pt": "Vende-se", "de": "Zu verkaufen", "emoji": "🏷️", "beispiel_pt": "Vende-se moradia com piscina.", "beispiel_de": "Einfamilienhaus mit Pool zu verkaufen.", "hinweis": "Mehrere Dinge: Vendem-se"},
+  {"id": "aluga-se", "pt": "Aluga-se", "de": "Zu vermieten", "emoji": "🔑", "beispiel_pt": "Aluga-se quarto perto da praia.", "beispiel_de": "Zimmer in Strandnähe zu vermieten.", "hinweis": "Bei Wohnungen liest man oft auch „Arrenda-se“."},
+  {"id": "aceitam-se-cartoes", "pt": "Aceitam-se cartões", "de": "Karten werden akzeptiert", "emoji": "💳", "beispiel_pt": "Aceitam-se cartões a partir de cinco euros.", "beispiel_de": "Kartenzahlung ab fünf Euro."},
+  {"id": "precisa-se-de", "pt": "Precisa-se de …", "de": "… gesucht", "emoji": "📢", "beispiel_pt": "Precisa-se de empregado de mesa.", "beispiel_de": "Kellner gesucht.", "hinweis": "Mit Präposition (de) bleibt das Verb im Singular: Precisa-se de cozinheiros."},
+  {"id": "fala-se-ingles", "pt": "Fala-se inglês", "de": "Hier spricht man Englisch", "emoji": "🗣️", "beispiel_pt": "Nesta loja fala-se inglês e alemão.", "beispiel_de": "In diesem Geschäft spricht man Englisch und Deutsch.", "passiv": true},
+  {"id": "o-letreiro", "pt": "o letreiro", "de": "das Schild / die Aufschrift", "emoji": "🪧", "beispiel_pt": "O letreiro na porta diz „Fechado para férias“.", "beispiel_de": "Auf dem Schild an der Tür steht „Betriebsurlaub“.", "passiv": true},
+  {"id": "o-cheque", "pt": "o cheque", "de": "der Scheck", "emoji": "🧾", "beispiel_pt": "Não se aceitam cheques.", "beispiel_de": "Schecks werden nicht angenommen.", "passiv": true},
+  {"id": "fazem-se-arranjos", "pt": "Fazem-se arranjos", "de": "Reparaturen / Änderungen (werden gemacht)", "emoji": "🧵", "beispiel_pt": "Fazem-se arranjos de costura.", "beispiel_de": "Änderungsschneiderei.", "passiv": true},
+  {"id": "reserva-se-o-direito-de-admissao", "pt": "Reserva-se o direito de admissão", "de": "Einlass vorbehalten", "emoji": "🚪", "beispiel_pt": "À porta da discoteca lê-se: „Reserva-se o direito de admissão“.", "beispiel_de": "An der Tür der Disco steht: „Einlass vorbehalten“.", "passiv": true},
+
+  {"id": "o-irs", "pt": "o IRS", "de": "die Einkommensteuer", "emoji": "🧮", "beispiel_pt": "Este ano entreguei o IRS sozinho.", "beispiel_de": "Dieses Jahr habe ich die Einkommensteuererklärung allein abgegeben.", "hinweis": "Imposto sobre o Rendimento das Pessoas Singulares; „entregar o IRS“ = die Steuererklärung abgeben"},
+  {"id": "a-declaracao", "pt": "a declaração", "de": "die Erklärung (z. B. Steuererklärung)", "emoji": "📑", "beispiel_pt": "A declaração de IRS é entregue no Portal das Finanças.", "beispiel_de": "Die Einkommensteuererklärung wird im Finanzportal abgegeben."},
+  {"id": "o-imposto", "pt": "o imposto", "de": "die Steuer", "emoji": "🏦", "beispiel_pt": "Em Portugal pagam-se muitos impostos.", "beispiel_de": "In Portugal zahlt man viele Steuern."},
+  {"id": "o-rendimento", "pt": "o rendimento", "de": "das Einkommen / die Einkünfte", "emoji": "📈", "beispiel_pt": "Tenho rendimentos em Portugal e na Áustria.", "beispiel_de": "Ich habe Einkünfte in Portugal und in Österreich."},
+  {"id": "declarar", "pt": "declarar", "de": "angeben / erklären (Steuer)", "emoji": "🗒️", "beispiel_pt": "Todos os rendimentos têm de ser declarados.", "beispiel_de": "Alle Einkünfte müssen angegeben werden."},
+  {"id": "as-despesas", "pt": "as despesas", "de": "die Ausgaben / Kosten", "emoji": "🧾", "beispiel_pt": "Guardo as faturas das despesas de saúde.", "beispiel_de": "Ich hebe die Rechnungen für Gesundheitsausgaben auf.", "hinweis": "Singular: a despesa"},
+  {"id": "deduzir", "pt": "deduzir", "de": "absetzen / abziehen", "emoji": "➖", "beispiel_pt": "Algumas despesas podem ser deduzidas no IRS.", "beispiel_de": "Manche Ausgaben können bei der Einkommensteuer abgesetzt werden.", "hinweis": "a dedução = der Abzug"},
+  {"id": "o-escalao", "pt": "o escalão", "de": "die (Steuer-)Stufe", "emoji": "📊", "beispiel_pt": "Com o aumento, fiquei num escalão mais alto.", "beispiel_de": "Mit der Gehaltserhöhung bin ich in eine höhere Steuerstufe gekommen.", "passiv": true},
+  {"id": "a-nota-de-liquidacao", "pt": "a nota de liquidação", "de": "der Steuerbescheid", "emoji": "📩", "beispiel_pt": "A nota de liquidação já está disponível no portal.", "beispiel_de": "Der Steuerbescheid ist schon im Portal abrufbar.", "passiv": true},
+  {"id": "o-e-fatura", "pt": "o e-fatura", "de": "das Rechnungsportal e-fatura", "emoji": "🖥️", "beispiel_pt": "Antes de entregar o IRS, confirme as faturas no e-fatura.", "beispiel_de": "Bestätigen Sie vor der Steuererklärung die Rechnungen im e-fatura.", "hinweis": "Dort landen alle Rechnungen mit deinem NIF.", "passiv": true},
+
+  {"id": "a-certidao", "pt": "a certidão", "de": "die (amtliche) Bescheinigung / Urkunde", "emoji": "📃", "beispiel_pt": "Preciso de uma certidão de nascimento.", "beispiel_de": "Ich brauche eine Geburtsurkunde."},
+  {"id": "autenticar", "pt": "autenticar", "de": "beglaubigen", "emoji": "🖋️", "beispiel_pt": "A fotocópia tem de ser autenticada.", "beispiel_de": "Die Fotokopie muss beglaubigt werden."},
+  {"id": "a-copia-autenticada", "pt": "a cópia autenticada", "de": "die beglaubigte Kopie", "emoji": "📋", "beispiel_pt": "Traga uma cópia autenticada do passaporte.", "beispiel_de": "Bringen Sie eine beglaubigte Kopie des Reisepasses mit."},
+  {"id": "o-original", "pt": "o original", "de": "das Original", "emoji": "🗞️", "beispiel_pt": "Não entregue o original, só a cópia.", "beispiel_de": "Geben Sie nicht das Original ab, nur die Kopie."},
+  {"id": "necessario", "pt": "necessário", "de": "notwendig / erforderlich", "emoji": "❗", "beispiel_pt": "Quais são os documentos necessários?", "beispiel_de": "Welche Unterlagen sind erforderlich?", "alternativen": ["necessária"]},
+  {"id": "agendar", "pt": "agendar", "de": "(einen Termin) vereinbaren / buchen", "emoji": "📆", "beispiel_pt": "Agendei o atendimento pela internet.", "beispiel_de": "Ich habe den Termin übers Internet gebucht.", "hinweis": "Amtssprache für marcar; o agendamento = die Terminbuchung"},
+  {"id": "a-apostila", "pt": "a apostila", "de": "die Apostille", "emoji": "🔏", "beispiel_pt": "A certidão austríaca precisa de apostila.", "beispiel_de": "Die österreichische Urkunde braucht eine Apostille.", "passiv": true},
+  {"id": "a-traducao-certificada", "pt": "a tradução certificada", "de": "die beglaubigte Übersetzung", "emoji": "🌐", "beispiel_pt": "Os documentos em alemão podem precisar de tradução certificada.", "beispiel_de": "Deutschsprachige Dokumente brauchen eventuell eine beglaubigte Übersetzung.", "passiv": true},
+  {"id": "comparecer", "pt": "comparecer", "de": "erscheinen (zu einem Termin)", "emoji": "🚶", "beispiel_pt": "Deve comparecer no dia marcado com os documentos originais.", "beispiel_de": "Sie müssen am vereinbarten Tag mit den Originaldokumenten erscheinen.", "passiv": true},
+
+  {"id": "o-portal-das-financas", "pt": "o Portal das Finanças", "de": "das Online-Portal der Finanzverwaltung", "emoji": "💻", "beispiel_pt": "No Portal das Finanças vejo tudo sobre os meus impostos.", "beispiel_de": "Im Finanzportal sehe ich alles über meine Steuern."},
+  {"id": "a-chave-movel-digital", "pt": "a Chave Móvel Digital", "de": "die staatliche Handy-Signatur (Chave Móvel Digital)", "emoji": "📱", "beispiel_pt": "Entro no portal com a Chave Móvel Digital.", "beispiel_de": "Ich logge mich mit der Chave Móvel Digital im Portal ein.", "hinweis": "Login und digitale Unterschrift mit Handynummer, PIN und Sicherheitscode – ähnlich der österreichischen ID Austria."},
+  {"id": "a-autenticacao", "pt": "a autenticação", "de": "die Anmeldung / Authentifizierung (online)", "emoji": "🔓", "beispiel_pt": "A autenticação é feita com a Chave Móvel Digital.", "beispiel_de": "Die Anmeldung erfolgt mit der Chave Móvel Digital.", "hinweis": "sich einloggen = iniciar sessão; sich abmelden = terminar sessão"},
+  {"id": "submeter", "pt": "submeter", "de": "einreichen / absenden", "emoji": "📤", "beispiel_pt": "Submeti a declaração ontem à noite.", "beispiel_de": "Ich habe die Erklärung gestern Abend eingereicht."},
+  {"id": "ativar", "pt": "ativar", "de": "aktivieren", "emoji": "🟢", "beispiel_pt": "Ativei a Chave Móvel Digital na Loja do Cidadão.", "beispiel_de": "Ich habe die Chave Móvel Digital im Bürgerservice aktiviert."},
+  {"id": "o-comprovativo", "pt": "o comprovativo", "de": "der Nachweis / Beleg", "emoji": "🧾", "beispiel_pt": "Descarregue o comprovativo em PDF.", "beispiel_de": "Laden Sie den Nachweis als PDF herunter.", "hinweis": "o comprovativo de entrega = die Abgabebestätigung; descarregar = herunterladen"},
+  {"id": "a-area-reservada", "pt": "a área reservada", "de": "der persönliche (geschützte) Bereich", "emoji": "🔐", "beispiel_pt": "Na área reservada pode consultar as suas notificações.", "beispiel_de": "Im persönlichen Bereich können Sie Ihre Bescheide einsehen.", "passiv": true},
+  {"id": "o-cartao-de-cidadao", "pt": "o cartão de cidadão", "de": "der portugiesische Personalausweis", "emoji": "🆔", "beispiel_pt": "A Ana entra no portal com o cartão de cidadão.", "beispiel_de": "Ana loggt sich mit ihrem Personalausweis im Portal ein.", "passiv": true},
+  {"id": "o-leitor-de-cartoes", "pt": "o leitor de cartões", "de": "das Kartenlesegerät", "emoji": "🖲️", "beispiel_pt": "Sem leitor de cartões, uso a Chave Móvel Digital.", "beispiel_de": "Ohne Kartenlesegerät benutze ich die Chave Móvel Digital.", "passiv": true},
+
+  {"id": "a-demora", "pt": "a demora", "de": "die Verzögerung / lange Wartezeit", "emoji": "🐢", "beispiel_pt": "Peço desculpa pela demora.", "beispiel_de": "Entschuldigen Sie die Verzögerung."},
+  {"id": "a-queixa", "pt": "a queixa", "de": "die Beschwerde / Klage", "emoji": "😤", "beispiel_pt": "Fiz uma queixa por escrito.", "beispiel_de": "Ich habe mich schriftlich beschwert.", "hinweis": "fazer queixa = sich beschweren / Anzeige erstatten"},
+  {"id": "a-falta-de", "pt": "a falta de", "de": "der Mangel an", "emoji": "🕳️", "beispiel_pt": "Há falta de funcionários.", "beispiel_de": "Es fehlt an Personal.", "hinweis": "por falta de = mangels / wegen fehlender …"},
+  {"id": "esgotar-se", "pt": "esgotar-se", "de": "ausgehen / vergriffen sein", "emoji": "🎟️", "beispiel_pt": "As senhas esgotaram-se às nove.", "beispiel_de": "Um neun waren die Wartenummern schon weg.", "hinweis": "Partizip: esgotado – As senhas estão esgotadas."},
+  {"id": "a-espera", "pt": "a espera", "de": "das Warten / die Wartezeit", "emoji": "🧘", "beispiel_pt": "A espera foi de quatro horas.", "beispiel_de": "Die Wartezeit betrug vier Stunden.", "hinweis": "estar à espera = warten"},
+  {"id": "o-utente", "pt": "o utente", "de": "der Nutzer / Bürger (einer Dienststelle)", "emoji": "🧍", "beispiel_pt": "Os utentes queixam-se da demora.", "beispiel_de": "Die Bürger beschweren sich über die lange Wartezeit.", "hinweis": "Amtssprache für Kunden öffentlicher Dienste und Patienten (o número de utente)."},
+  {"id": "inadmissivel", "pt": "inadmissível", "de": "unzulässig / unerhört", "emoji": "😠", "beispiel_pt": "É inadmissível esperar quatro horas.", "beispiel_de": "Es ist unerhört, vier Stunden zu warten.", "passiv": true},
+  {"id": "o-provedor-de-justica", "pt": "o Provedor de Justiça", "de": "der Ombudsmann / Bürgerbeauftragte", "emoji": "⚖️", "beispiel_pt": "Pode apresentar queixa ao Provedor de Justiça.", "beispiel_de": "Sie können sich beim Bürgerbeauftragten beschweren.", "hinweis": "Seit einigen Jahren ist es eine Frau: a Provedora de Justiça.", "passiv": true},
+  {"id": "sobrelotado", "pt": "sobrelotado", "de": "überfüllt", "emoji": "👥", "beispiel_pt": "O serviço está sobrelotado.", "beispiel_de": "Die Dienststelle ist überfüllt.", "alternativen": ["sobrelotada"], "passiv": true},
+
+  {"id": "a-procuracao", "pt": "a procuração", "de": "die Vollmacht", "emoji": "📜", "beispiel_pt": "Dei uma procuração ao meu advogado.", "beispiel_de": "Ich habe meinem Anwalt eine Vollmacht erteilt.", "hinweis": "passar uma procuração = eine Vollmacht ausstellen"},
+  {"id": "o-representante-fiscal", "pt": "o representante fiscal", "de": "der Steuervertreter", "emoji": "👨‍💼", "beispiel_pt": "Quem não é residente pode precisar de um representante fiscal.", "beispiel_de": "Wer nicht ansässig ist, braucht unter Umständen einen Steuervertreter."},
+  {"id": "o-contabilista", "pt": "o contabilista", "de": "der Buchhalter / Steuerberater", "emoji": "📒", "beispiel_pt": "O meu contabilista trata do IRS.", "beispiel_de": "Mein Steuerberater kümmert sich um die Einkommensteuer.", "alternativen": ["a contabilista"]},
+  {"id": "o-advogado", "pt": "o advogado", "de": "der Rechtsanwalt", "emoji": "👨‍⚖️", "beispiel_pt": "Vou falar com um advogado.", "beispiel_de": "Ich werde mit einem Anwalt sprechen.", "alternativen": ["a advogada"]},
+  {"id": "representar", "pt": "representar", "de": "vertreten", "emoji": "🔁", "beispiel_pt": "A minha mulher pode representar-me nas Finanças.", "beispiel_de": "Meine Frau kann mich beim Finanzamt vertreten."},
+  {"id": "o-procurador", "pt": "o procurador", "de": "der Bevollmächtigte", "emoji": "🧑‍💼", "beispiel_pt": "O procurador pode assinar por mim.", "beispiel_de": "Der Bevollmächtigte kann für mich unterschreiben.", "passiv": true},
+  {"id": "o-solicitador", "pt": "o solicitador", "de": "der Solicitador (Rechtsbeistand)", "emoji": "📚", "beispiel_pt": "O solicitador tratou do registo da casa.", "beispiel_de": "Der Solicitador hat die Eintragung des Hauses erledigt.", "hinweis": "Juristischer Beruf in Portugal: erledigt u. a. Registrierungen, Beglaubigungen und Behördengänge.", "passiv": true},
+  {"id": "delegar", "pt": "delegar", "de": "übertragen / delegieren", "emoji": "➡️", "beispiel_pt": "Deleguei a burocracia no meu contabilista.", "beispiel_de": "Ich habe die Bürokratie meinem Steuerberater übertragen.", "hinweis": "delegar algo em alguém", "passiv": true},
+  {"id": "o-imt", "pt": "o IMT", "de": "die Grunderwerbsteuer", "emoji": "🏠", "beispiel_pt": "O IMT é pago antes da escritura.", "beispiel_de": "Die Grunderwerbsteuer wird vor dem Kaufvertrag beim Notar bezahlt.", "hinweis": "Wird einmal beim Immobilienkauf fällig; die jährliche Grundsteuer heißt IMI.", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-03-L01",
+   "typ": "neu",
+   "titel": "Welches Amt wofür?",
+   "vokabeln": ["a-aima", "a-seguranca-social", "a-autorizacao-de-residencia", "o-certificado-de-registo", "o-cidadao", "o-estrangeiro", "o-funcionario", "a-reparticao", "o-servico-publico"],
+   "grammatik": {
+    "titel": "O particípio passado – das Partizip",
+    "erklaerung": [
+     "O <b>particípio passado</b> forma-se assim: verbos em <b>-ar</b> → <b>-ado</b> (aprovar → aprov<b>ado</b>); verbos em <b>-er</b> e <b>-ir</b> → <b>-ido</b> (receber → receb<b>ido</b>, emitir → emit<b>ido</b>).",
+     "Alguns particípios são irregulares: fazer → <b>feito</b>, dizer → <b>dito</b>, escrever → <b>escrito</b>, ver → <b>visto</b>, pôr → <b>posto</b>, abrir → <b>aberto</b>, vir → <b>vindo</b>.",
+     "Como adjetivo, o particípio vem depois do nome e concorda em género e número: <i>o documento assinad<b>o</b></i>, <i>a certidão emitid<b>a</b></i>, <i>os formulários preenchid<b>os</b></i>, <i>as cópias feit<b>as</b></i>.",
+     "Na burocracia, o particípio está em todo o lado: <i>formulário preenchido e assinado</i>, <i>serviço encerrado</i>, <i>pedido recebido</i>."
+    ],
+    "erklaerung_de": [
+     "Das <b>Partizip Perfekt</b> bildet man so: Verben auf <b>-ar</b> → <b>-ado</b> (aprovar → aprov<b>ado</b>); Verben auf <b>-er</b> und <b>-ir</b> → <b>-ido</b> (receber → receb<b>ido</b>, emitir → emit<b>ido</b>).",
+     "Einige Partizipien sind unregelmäßig: fazer → <b>feito</b>, dizer → <b>dito</b>, escrever → <b>escrito</b>, ver → <b>visto</b>, pôr → <b>posto</b>, abrir → <b>aberto</b>, vir → <b>vindo</b>.",
+     "Als Adjektiv steht das Partizip hinter dem Nomen und passt sich in Geschlecht und Zahl an: <i>o documento assinad<b>o</b></i> (das unterschriebene Dokument), <i>a certidão emitid<b>a</b></i>, <i>os formulários preenchid<b>os</b></i>, <i>as cópias feit<b>as</b></i>.",
+     "In der Bürokratie begegnet dir das Partizip überall: <i>formulário preenchido e assinado</i> (Formular ausgefüllt und unterschrieben), <i>serviço encerrado</i> (Dienststelle geschlossen), <i>pedido recebido</i> (Antrag eingegangen)."
+    ],
+    "vergleich": "Wie im Deutschen („der unterschriebene Antrag“) kann das Partizip ein Adjektiv sein – im Portugiesischen steht es aber hinter dem Nomen und passt sich an: <i>a carta assinada, os papéis assinados</i>.",
+    "beispiele": [
+     {"pt": "Entreguei o formulário preenchido e assinado.", "de": "Ich habe das ausgefüllte und unterschriebene Formular abgegeben."},
+     {"pt": "A certidão emitida pela câmara está em cima da mesa.", "de": "Die von der Gemeinde ausgestellte Bescheinigung liegt auf dem Tisch."},
+     {"pt": "Os documentos escritos em alemão precisam de tradução.", "de": "Die auf Deutsch verfassten Dokumente brauchen eine Übersetzung."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O requerimento ___ está na pasta azul. (assinar)", "loesungen": ["assinado"], "de": "Der unterschriebene Antrag liegt in der blauen Mappe.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "As fotocópias ___ estão aqui. (fazer)", "loesungen": ["feitas"], "de": "Die gemachten Fotokopien sind hier.", "erklaerung": "fazer → feito; weiblich Plural: feitas.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "Tenho aqui a carta ___ pela AIMA. (escrever)", "loesungen": ["escrita"], "de": "Ich habe hier den von der AIMA geschriebenen Brief.", "kategorie": "Partizip"},
+     {"typ": "auswahl", "frage": "„die ausgestellte Bescheinigung“", "optionen": ["a certidão emitido", "a certidão emitida", "a emitida certidão"], "richtig": 1, "erklaerung": "Das Partizip steht hinter dem Nomen und ist weiblich wie a certidão.", "kategorie": "Partizip"},
+     {"typ": "auswahl", "frage": "Qual é o particípio de „ver“?", "optionen": ["vido", "visto", "veido"], "richtig": 1, "kategorie": "Partizip"},
+     {"typ": "uebersetzen", "de": "Hier ist das ausgefüllte Formular.", "loesungen": ["Aqui está o formulário preenchido.", "Está aqui o formulário preenchido.", "Aqui tem o formulário preenchido."]},
+     {"typ": "uebersetzen", "de": "Ich bin EU-Bürger und wohne in Lagos.", "loesungen": ["Sou cidadão da UE e moro em Lagos.", "Sou cidadão da União Europeia e moro em Lagos.", "Sou cidadão da UE e vivo em Lagos.", "Sou cidadão da União Europeia e vivo em Lagos."]},
+     {"typ": "satzbau", "de": "Viele Ausländer leben an der Algarve.", "loesung": "Muitos estrangeiros vivem no Algarve."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Por onde começo? – Wo fange ich an?",
+    "situation": "Heike, eine Deutsche, ist gerade nach Lagos gezogen und fragt Stefan im Café um Rat.",
+    "zeilen": [
+     {"sprecher": "Heike", "stimme": "f", "pt": "Stefan, acabei de chegar a Lagos. Por onde começo com a burocracia?", "de": "Stefan, ich bin gerade in Lagos angekommen. Wo fange ich mit der Bürokratie an?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Primeiro o NIF, nas Finanças. Sem NIF não se faz nada em Portugal.", "de": "Zuerst die Steuernummer beim Finanzamt. Ohne NIF geht in Portugal gar nichts."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "E tenho de ir à AIMA?", "de": "Und muss ich zur AIMA?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, a AIMA é sobretudo para cidadãos de fora da UE. Como és alemã, vais à câmara municipal pedir o certificado de registo de cidadão da UE.", "de": "Nein, die AIMA ist vor allem für Bürger von außerhalb der EU. Da du Deutsche bist, gehst du zur Gemeinde und beantragst die Anmeldebescheinigung für EU-Bürger."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "E se quiser trabalhar cá?", "de": "Und wenn ich hier arbeiten möchte?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então também tens de te inscrever na Segurança Social para teres o NISS.", "de": "Dann musst du dich auch bei der Sozialversicherung anmelden, um die Sozialversicherungsnummer zu bekommen."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "Tanta coisa! E os funcionários falam inglês?", "de": "So viel! Und sprechen die Beamten Englisch?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Alguns sim, mas com um pouco de português tudo corre melhor. E leva sempre fotocópias de tudo!", "de": "Manche schon, aber mit ein bisschen Portugiesisch läuft alles besser. Und nimm immer Fotokopien von allem mit!"}
+    ],
+    "fragen": [
+     {"frage": "O que deve a Heike tratar primeiro?", "optionen": ["O NIF.", "O NISS.", "O certificado de registo."], "richtig": 0},
+     {"frage": "Porque é que a Heike não precisa de ir à AIMA?", "optionen": ["Porque já tem NIF.", "Porque é cidadã da UE.", "Porque não quer trabalhar."], "richtig": 1},
+     {"frage": "Que conselho dá o Stefan no fim?", "optionen": ["Falar só inglês.", "Ir à câmara de manhã cedo.", "Levar fotocópias de tudo."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Sou cidadão da UE e moro em Lagos.", "de": "Ich bin EU-Bürger und wohne in Lagos."},
+     {"pt": "Queria pedir o certificado de registo de cidadão da UE.", "de": "Ich möchte die Anmeldebescheinigung für EU-Bürger beantragen."},
+     {"pt": "A AIMA é para cidadãos de fora da UE.", "de": "Die AIMA ist für Bürger von außerhalb der EU."},
+     {"pt": "Entreguei o formulário preenchido e assinado.", "de": "Ich habe das ausgefüllte und unterschriebene Formular abgegeben."},
+     {"pt": "O funcionário foi muito simpático.", "de": "Der Beamte war sehr freundlich."}
+    ]
+   },
+   "saetze": [
+    {"id": "sou-cidadao-ue", "pt": "Sou cidadão da UE e moro em Lagos.", "de": "Ich bin EU-Bürger und wohne in Lagos."},
+    {"id": "pedir-certificado-registo", "pt": "Queria pedir o certificado de registo de cidadão da UE.", "de": "Ich möchte die Anmeldebescheinigung für EU-Bürger beantragen."},
+    {"id": "formulario-preenchido-assinado", "pt": "Aqui está o formulário preenchido e assinado.", "de": "Hier ist das ausgefüllte und unterschriebene Formular."}
+   ]
+  },
+  {
+   "id": "B1-03-L02",
+   "typ": "neu",
+   "titel": "Die Sozialversicherungsnummer (NISS) beantragen",
+   "vokabeln": ["o-niss", "a-inscricao", "inscrever-se", "o-trabalhador-independente", "os-descontos", "o-requerimento", "o-empregador", "a-contribuicao", "atribuir"],
+   "grammatik": {
+    "titel": "A voz passiva: ser + particípio (presente)",
+    "erklaerung": [
+     "Na <b>voz passiva</b>, o importante é a ação, não quem a faz: <i>A Segurança Social <b>atribui</b> o NISS.</i> (ativa) → <i>O NISS <b>é atribuído</b> pela Segurança Social.</i> (passiva)",
+     "Forma-se com <b>ser</b> + <b>particípio</b>. O particípio concorda com o sujeito: <i>o número é atribuíd<b>o</b></i>, <i>a inscrição é feit<b>a</b></i>, <i>os descontos são feit<b>os</b></i>, <i>as contribuições são pag<b>as</b></i>.",
+     "Quem faz a ação (o agente) aparece com <b>por</b> + artigo: <b>pelo</b>, <b>pela</b>, <b>pelos</b>, <b>pelas</b>. Muitas vezes não se diz: <i>A inscrição é feita online.</i>",
+     "A passiva com <b>ser</b> é típica de textos oficiais, cartas e sites. Na conversa, os portugueses preferem a ativa ou o <i>se</i>: <i>Faz-se online.</i>"
+    ],
+    "erklaerung_de": [
+     "Im <b>Passiv</b> ist die Handlung wichtig, nicht wer sie ausführt: <i>A Segurança Social <b>atribui</b> o NISS.</i> (Aktiv) → <i>O NISS <b>é atribuído</b> pela Segurança Social.</i> (Passiv: Die Nummer wird von der Sozialversicherung vergeben.)",
+     "Man bildet es mit <b>ser</b> + <b>Partizip</b>. Das Partizip richtet sich nach dem Subjekt: <i>o número é atribuíd<b>o</b></i>, <i>a inscrição é feit<b>a</b></i>, <i>os descontos são feit<b>os</b></i>, <i>as contribuições são pag<b>as</b></i>.",
+     "Wer die Handlung ausführt, steht mit <b>por</b> + Artikel: <b>pelo</b>, <b>pela</b>, <b>pelos</b>, <b>pelas</b> („von“). Oft fällt das weg: <i>A inscrição é feita online.</i> – Die Anmeldung wird online erledigt.",
+     "Das Passiv mit <b>ser</b> ist typisch für Amtstexte, Briefe und Webseiten. Im Gespräch nehmen Portugiesen lieber das Aktiv oder <i>se</i>: <i>Faz-se online.</i> – Das macht man online."
+    ],
+    "vergleich": "Deutsch: „werden“ + Partizip (Die Nummer wird vergeben). Portugiesisch nimmt dafür <i>ser</i>. „von“ = <i>por</i> (pelo/pela) – wie englisch „by“.",
+    "beispiele": [
+     {"pt": "O NISS é atribuído pela Segurança Social.", "de": "Die Sozialversicherungsnummer wird von der Sozialversicherung vergeben."},
+     {"pt": "A inscrição é feita online ou presencialmente.", "de": "Die Anmeldung wird online oder persönlich erledigt."},
+     {"pt": "As contribuições são pagas todos os meses.", "de": "Die Beiträge werden jeden Monat bezahlt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O NISS ___ atribuído pela Segurança Social.", "loesungen": ["é"], "de": "Die Sozialversicherungsnummer wird von der Sozialversicherung vergeben.", "kategorie": "Passiv ser"},
+     {"typ": "luecke", "satz": "As contribuições são ___ todos os meses. (pagar)", "loesungen": ["pagas"], "de": "Die Beiträge werden jeden Monat bezahlt.", "erklaerung": "pagar → pago; weiblich Plural: pagas.", "kategorie": "Passiv ser"},
+     {"typ": "luecke", "satz": "Os descontos são feitos ___ empregador.", "loesungen": ["pelo"], "de": "Die Abgaben werden vom Arbeitgeber abgeführt.", "erklaerung": "por + o = pelo", "kategorie": "por + Artikel"},
+     {"typ": "luecke", "satz": "O requerimento é analisado ___ Segurança Social.", "loesungen": ["pela"], "de": "Der Antrag wird von der Sozialversicherung geprüft.", "erklaerung": "por + a = pela", "kategorie": "por + Artikel"},
+     {"typ": "auswahl", "frage": "„Die Anmeldung wird online gemacht.“", "optionen": ["A inscrição está feita online.", "A inscrição é feita online.", "A inscrição é feito online."], "richtig": 1, "erklaerung": "Vorgang → ser; das Partizip passt sich an (a inscrição → feita).", "kategorie": "Passiv ser"},
+     {"typ": "uebersetzen", "de": "Die Formulare werden vom Arbeitgeber ausgefüllt.", "loesungen": ["Os formulários são preenchidos pelo empregador."]},
+     {"typ": "uebersetzen", "de": "Ich bin selbstständig.", "loesungen": ["Sou trabalhador independente.", "Eu sou trabalhador independente.", "Trabalho por conta própria."]},
+     {"typ": "satzbau", "de": "Der Antrag wird von einem Beamten geprüft.", "loesung": "O requerimento é analisado por um funcionário."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na Segurança Social – bei der Sozialversicherung",
+    "situation": "Stefan beantragt in Portimão seine Sozialversicherungsnummer.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Bom dia. Em que posso ajudar?", "de": "Guten Morgen. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Queria pedir o NISS. Vou começar a trabalhar como trabalhador independente.", "de": "Guten Morgen. Ich möchte die Sozialversicherungsnummer beantragen. Ich fange an, selbstständig zu arbeiten."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Muito bem. Trouxe o documento de identificação e o NIF?", "de": "Sehr gut. Haben Sie Ihren Ausweis und die Steuernummer mitgebracht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Trouxe, estão aqui. Quanto tempo demora?", "de": "Ja, hier sind sie. Wie lange dauert es?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "O pedido é registado hoje e o número é enviado por correio ou por e-mail.", "de": "Der Antrag wird heute erfasst und die Nummer wird per Post oder per E-Mail geschickt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a inscrição como independente? Também é feita aqui?", "de": "Und die Anmeldung als Selbstständiger? Wird die auch hier gemacht?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Pode ser feita aqui ou online, na Segurança Social Direta. As contribuições são pagas todos os meses.", "de": "Sie kann hier oder online über die Segurança Social Direta erledigt werden. Die Beiträge werden jeden Monat bezahlt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perfeito, obrigado pela ajuda.", "de": "Perfekt, danke für die Hilfe."}
+    ],
+    "fragen": [
+     {"frage": "O que é que o Stefan quer pedir?", "optionen": ["O NIF.", "O NISS.", "Uma autorização de residência."], "richtig": 1},
+     {"frage": "Como é enviado o número?", "optionen": ["Por correio ou por e-mail.", "Por SMS.", "Não é enviado: ele recebe-o na hora."], "richtig": 0},
+     {"frage": "Com que frequência são pagas as contribuições?", "optionen": ["Todos os anos.", "Todos os trimestres.", "Todos os meses."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du meldest dich am Schalter der Segurança Social an.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Bom dia. Diga, faz favor.", "de": "Guten Morgen. Bitte schön."},
+     {"ich": true, "aufgabe": "Diga que quer inscrever-se na Segurança Social.", "loesungen": ["Bom dia. Queria inscrever-me na Segurança Social.", "Bom dia. Queria fazer a inscrição na Segurança Social.", "Bom dia. Gostava de me inscrever na Segurança Social.", "Bom dia. Gostava de inscrever-me na Segurança Social.", "Queria inscrever-me na Segurança Social.", "Bom dia. Queria inscrever-me na Segurança Social, por favor."]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "É trabalhador por conta de outrem ou independente?", "de": "Sind Sie angestellt oder selbstständig?"},
+     {"ich": true, "aufgabe": "Diga que é trabalhador independente.", "loesungen": ["Sou trabalhador independente.", "Sou independente.", "Trabalho por conta própria.", "Sou trabalhador por conta própria."]},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Então preencha este requerimento e assine aqui em baixo.", "de": "Dann füllen Sie diesen Antrag aus und unterschreiben Sie hier unten."},
+     {"ich": true, "aufgabe": "Pergunte onde é entregue o formulário (Passiv).", "loesungen": ["Onde é entregue o formulário?", "Onde é que o formulário é entregue?", "O formulário é entregue onde?", "Onde é entregue o requerimento?", "Onde é que o requerimento é entregue?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "queria-pedir-niss", "pt": "Queria pedir o NISS.", "de": "Ich möchte die Sozialversicherungsnummer beantragen."},
+    {"id": "niss-atribuido", "pt": "O NISS é atribuído pela Segurança Social.", "de": "Die Sozialversicherungsnummer wird von der Sozialversicherung vergeben."},
+    {"id": "sou-independente", "pt": "Sou trabalhador independente.", "de": "Ich bin selbstständig."}
+   ]
+  },
+  {
+   "id": "B1-03-L03",
+   "typ": "neu",
+   "titel": "Genehmigt oder abgelehnt? Passiv in der Vergangenheit",
+   "vokabeln": ["aprovado", "emitir", "analisar", "o-processo", "notificar", "na-hora", "indeferir", "o-titulo-de-residencia", "o-despacho"],
+   "grammatik": {
+    "titel": "A passiva no passado e no futuro",
+    "erklaerung": [
+     "Na passiva, só o verbo <b>ser</b> muda de tempo; o particípio fica: <i>O pedido <b>é</b> aprovado</i> (presente) → <i>O pedido <b>foi</b> aprovado</i> (pretérito perfeito) → <i>O pedido <b>vai ser</b> / <b>será</b> aprovado</i> (futuro).",
+     "Pretérito perfeito de ser: fui, foste, <b>foi</b>, fomos, <b>foram</b>. Exemplo: <i>Os documentos <b>foram</b> enviados ontem.</i>",
+     "Para uma ação que está a acontecer agora: <b>estar a ser</b> + particípio: <i>O seu processo <b>está a ser analisado</b>.</i>",
+     "O agente também aparece com <b>por</b>: <i>O certificado foi emitido <b>pela</b> câmara.</i>"
+    ],
+    "erklaerung_de": [
+     "Im Passiv ändert nur <b>ser</b> die Zeit; das Partizip bleibt: <i>O pedido <b>é</b> aprovado</i> (wird genehmigt) → <i>O pedido <b>foi</b> aprovado</i> (wurde genehmigt) → <i>O pedido <b>vai ser</b> / <b>será</b> aprovado</i> (wird genehmigt werden).",
+     "Pretérito perfeito von ser: fui, foste, <b>foi</b>, fomos, <b>foram</b>. Beispiel: <i>Os documentos <b>foram</b> enviados ontem.</i> – Die Unterlagen wurden gestern verschickt.",
+     "Für einen Vorgang, der gerade läuft: <b>estar a ser</b> + Partizip: <i>O seu processo <b>está a ser analisado</b>.</i> – Ihr Vorgang wird gerade bearbeitet.",
+     "Wer handelt, steht wieder mit <b>por</b>: <i>O certificado foi emitido <b>pela</b> câmara.</i> – Die Bescheinigung wurde von der Gemeinde ausgestellt."
+    ],
+    "vergleich": "Deutsch: „wurde genehmigt“ oder „ist genehmigt worden“ – Portugiesisch einfach <i>foi aprovado</i>. „wird gerade bearbeitet“ = <i>está a ser analisado</i> (nie Gerundium!).",
+    "beispiele": [
+     {"pt": "O meu pedido foi aprovado na semana passada.", "de": "Mein Antrag wurde letzte Woche genehmigt."},
+     {"pt": "O certificado foi emitido na hora.", "de": "Die Bescheinigung wurde sofort ausgestellt."},
+     {"pt": "O seu processo está a ser analisado.", "de": "Ihr Vorgang wird gerade bearbeitet."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O meu pedido ___ aprovado ontem.", "loesungen": ["foi"], "de": "Mein Antrag wurde gestern genehmigt.", "kategorie": "Passiv Vergangenheit"},
+     {"typ": "luecke", "satz": "Os certificados foram ___ pela câmara. (emitir)", "loesungen": ["emitidos"], "de": "Die Bescheinigungen wurden von der Gemeinde ausgestellt.", "kategorie": "Passiv Vergangenheit"},
+     {"typ": "luecke", "satz": "O seu processo está a ___ analisado.", "loesungen": ["ser"], "de": "Ihr Vorgang wird gerade bearbeitet.", "erklaerung": "Laufender Vorgang: estar a ser + Partizip.", "kategorie": "Passiv"},
+     {"typ": "luecke", "satz": "A decisão vai ___ enviada por carta.", "loesungen": ["ser"], "de": "Die Entscheidung wird per Brief geschickt werden.", "kategorie": "Passiv Futur"},
+     {"typ": "auswahl", "frage": "„Der Antrag wurde abgelehnt.“", "optionen": ["O requerimento foi indeferido.", "O requerimento foi indeferida.", "O requerimento era indeferindo."], "richtig": 0, "erklaerung": "o requerimento ist männlich → indeferido.", "kategorie": "Passiv Vergangenheit"},
+     {"typ": "auswahl", "frage": "O que significa „O seu processo está a ser analisado“?", "optionen": ["Ihr Vorgang ist abgeschlossen.", "Ihr Vorgang wird gerade bearbeitet.", "Ihr Vorgang wurde abgelehnt."], "richtig": 1, "kategorie": "Passiv"},
+     {"typ": "uebersetzen", "de": "Die Bescheinigung wurde sofort ausgestellt.", "loesungen": ["O certificado foi emitido na hora.", "A certidão foi emitida na hora.", "O certificado foi logo emitido.", "A certidão foi logo emitida."]},
+     {"typ": "satzbau", "de": "Ich habe einen Bescheid von der AIMA bekommen.", "loesung": "Recebi uma notificação da AIMA."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Finalmente aprovado! – Endlich genehmigt!",
+    "situation": "Rita erzählt Stefan vom Aufenthaltsantrag ihrer brasilianischen Kollegin Júlia.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Lembras-te da Júlia, a minha colega brasileira? O pedido dela foi finalmente aprovado!", "de": "Erinnerst du dich an Júlia, meine brasilianische Kollegin? Ihr Antrag wurde endlich genehmigt!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Quanto tempo esperou?", "de": "Wirklich? Wie lange hat sie gewartet?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Mais de um ano. O processo esteve parado muitos meses.", "de": "Über ein Jahr. Der Vorgang lag viele Monate still."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E porquê tanta demora?", "de": "Und warum hat es so lange gedauert?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "A AIMA tem muitos processos pendentes. E o primeiro pedido foi indeferido por falta de um documento.", "de": "Die AIMA hat sehr viele offene Vorgänge. Und der erste Antrag wurde wegen eines fehlenden Dokuments abgelehnt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que azar! E depois?", "de": "So ein Pech! Und dann?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ela entregou o documento, o processo foi analisado outra vez e na semana passada recebeu a notificação: aprovado!", "de": "Sie hat das Dokument nachgereicht, der Vorgang wurde noch einmal geprüft und letzte Woche hat sie den Bescheid bekommen: genehmigt!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o título de residência? Já foi emitido?", "de": "Und der Aufenthaltstitel? Wurde der schon ausgestellt?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ainda não. Vai ser enviado por correio nas próximas semanas.", "de": "Noch nicht. Er wird in den nächsten Wochen per Post geschickt."}
+    ],
+    "fragen": [
+     {"frage": "Quem é a Júlia?", "optionen": ["Uma vizinha do Stefan.", "Uma colega da Rita.", "Uma funcionária da AIMA."], "richtig": 1},
+     {"frage": "Porque é que o primeiro pedido foi indeferido?", "optionen": ["Por falta de um documento.", "Porque ela não pagou a taxa.", "Porque chegou tarde."], "richtig": 0},
+     {"frage": "Como vai ser enviado o título de residência?", "optionen": ["Por e-mail.", "Pela Rita.", "Por correio."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva as frases em português.",
+    "aufgaben": [
+     {"de": "Mein Antrag wurde genehmigt.", "loesungen": ["O meu pedido foi aprovado.", "O meu requerimento foi aprovado."]},
+     {"de": "Die Bescheinigung wurde von der Gemeinde ausgestellt.", "loesungen": ["O certificado foi emitido pela câmara.", "O certificado foi emitido pela câmara municipal.", "A certidão foi emitida pela câmara.", "A certidão foi emitida pela câmara municipal."]},
+     {"de": "Ihr Vorgang wird gerade bearbeitet.", "loesungen": ["O seu processo está a ser analisado.", "O processo está a ser analisado."]},
+     {"de": "Der Aufenthaltstitel wird per Post geschickt werden.", "loesungen": ["O título de residência vai ser enviado por correio.", "O título de residência será enviado por correio."]},
+     {"de": "Der Antrag wurde abgelehnt.", "loesungen": ["O requerimento foi indeferido.", "O pedido foi indeferido.", "O pedido foi recusado.", "O requerimento foi recusado."]}
+    ]
+   },
+   "saetze": [
+    {"id": "pedido-foi-aprovado", "pt": "O meu pedido foi aprovado.", "de": "Mein Antrag wurde genehmigt."},
+    {"id": "processo-a-ser-analisado", "pt": "O seu processo está a ser analisado.", "de": "Ihr Vorgang wird gerade bearbeitet."},
+    {"id": "vai-ser-enviado", "pt": "Vai ser enviado por correio.", "de": "Es wird per Post geschickt werden."}
+   ]
+  },
+  {
+   "id": "B1-03-L04",
+   "typ": "neu",
+   "titel": "Erledigt oder offen? estar + Partizip",
+   "vokabeln": ["pago", "entregue", "aceite", "concluido", "pendente", "atualizado", "em-atraso", "suspenso", "regularizado"],
+   "grammatik": {
+    "titel": "ser + particípio (ação) e estar + particípio (estado)",
+    "erklaerung": [
+     "<b>ser</b> + particípio descreve a <b>ação</b>: <i>A fatura <b>foi paga</b> ontem.</i>",
+     "<b>estar</b> + particípio descreve o <b>estado</b>, o resultado: <i>A fatura <b>está paga</b>.</i>",
+     "Alguns verbos têm um particípio curto, que se usa com <b>ser</b> e <b>estar</b>: <b>pago</b> (pagar), <b>entregue</b> (entregar), <b>aceite</b> (aceitar), <b>impresso</b> (imprimir).",
+     "Perguntas úteis: <i>O processo já está concluído? A minha morada está atualizada? Está tudo tratado?</i>"
+    ],
+    "erklaerung_de": [
+     "<b>ser</b> + Partizip beschreibt den <b>Vorgang</b>: <i>A fatura <b>foi paga</b> ontem.</i> – Die Rechnung wurde gestern bezahlt.",
+     "<b>estar</b> + Partizip beschreibt den <b>Zustand</b>, das Ergebnis: <i>A fatura <b>está paga</b>.</i> – Die Rechnung ist bezahlt.",
+     "Einige Verben haben ein kurzes Partizip, das man mit <b>ser</b> und <b>estar</b> benutzt: <b>pago</b> (pagar), <b>entregue</b> (entregar), <b>aceite</b> (aceitar), <b>impresso</b> (imprimir).",
+     "Nützliche Fragen: <i>O processo já está concluído?</i> (Ist der Vorgang schon abgeschlossen?) <i>A minha morada está atualizada?</i> (Ist meine Adresse aktualisiert?) <i>Está tudo tratado?</i> (Ist alles erledigt?)"
+    ],
+    "vergleich": "Deutsch unterscheidet genauso: „wird bezahlt“ (Vorgang) – „ist bezahlt“ (Zustand). Achtung: „ist bezahlt“ heißt <i>está pago</i>, nicht <i>é pago</i> – <i>é pago</i> bedeutet „wird bezahlt“.",
+    "beispiele": [
+     {"pt": "A declaração já está entregue.", "de": "Die Erklärung ist schon abgegeben."},
+     {"pt": "O meu pedido ainda está pendente.", "de": "Mein Antrag ist noch offen."},
+     {"pt": "A sua situação está regularizada.", "de": "Ihre Situation ist in Ordnung gebracht."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Die Rechnung ist schon bezahlt.“", "optionen": ["A fatura já é paga.", "A fatura já está paga.", "A fatura já está pagada."], "richtig": 1, "erklaerung": "Zustand → estar; mit estar die Kurzform pago/paga.", "kategorie": "ser/estar + Partizip"},
+     {"typ": "luecke", "satz": "A declaração já ___ entregue.", "loesungen": ["está"], "de": "Die Erklärung ist schon abgegeben.", "kategorie": "ser/estar + Partizip"},
+     {"typ": "luecke", "satz": "A candidatura foi ___. (aceitar)", "loesungen": ["aceite"], "de": "Die Bewerbung wurde angenommen.", "erklaerung": "pt-PT: aceite – gleiche Form für männlich und weiblich.", "kategorie": "Partizip"},
+     {"typ": "luecke", "satz": "As repartições ___ fechadas ao sábado.", "loesungen": ["estão"], "de": "Die Ämter sind samstags geschlossen.", "kategorie": "ser/estar + Partizip"},
+     {"typ": "luecke", "satz": "O processo ___ concluído na semana passada.", "loesungen": ["foi"], "de": "Der Vorgang wurde letzte Woche abgeschlossen.", "erklaerung": "Zeitpunkt in der Vergangenheit → Vorgang: foi concluído.", "kategorie": "ser/estar + Partizip"},
+     {"typ": "auswahl", "frage": "„Mein Antrag ist noch offen.“", "optionen": ["O meu pedido ainda é pendente.", "O meu pedido ainda está pendente.", "O meu pedido ainda está a pender."], "richtig": 1, "kategorie": "ser/estar"},
+     {"typ": "uebersetzen", "de": "Meine Adresse ist nicht aktualisiert.", "loesungen": ["A minha morada não está atualizada.", "A morada não está atualizada."]},
+     {"typ": "satzbau", "de": "Die Formulare sind schon unterschrieben.", "loesung": "Os formulários já estão assinados."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma contribuição em atraso – ein offener Beitrag",
+    "situation": "Stefan ruft bei der Hotline der Segurança Social an.",
+    "zeilen": [
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Segurança Social, bom dia. Em que posso ajudar?", "de": "Sozialversicherung, guten Morgen. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Queria saber o estado do meu processo de inscrição.", "de": "Guten Morgen. Ich möchte wissen, wie es um meine Anmeldung steht."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Diga-me o seu NISS, por favor… Obrigada. A sua inscrição está concluída, mas há uma contribuição em atraso.", "de": "Nennen Sie mir bitte Ihre Sozialversicherungsnummer … Danke. Ihre Anmeldung ist abgeschlossen, aber ein Beitrag ist im Rückstand."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Em atraso? Mas eu paguei tudo!", "de": "Im Rückstand? Aber ich habe alles bezahlt!"},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Aqui o pagamento de março aparece como pendente. Talvez ainda não esteja registado no sistema.", "de": "Hier wird die Zahlung für März als offen angezeigt. Vielleicht ist sie noch nicht im System erfasst."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Eu tenho o comprovativo. A transferência foi feita no dia dez.", "de": "Ich habe den Beleg. Die Überweisung wurde am Zehnten gemacht."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Então envie-nos o comprovativo pela Segurança Social Direta. Depois disso, a sua situação fica regularizada.", "de": "Dann schicken Sie uns den Beleg über die Segurança Social Direta. Danach ist Ihre Situation in Ordnung."}
+    ],
+    "fragen": [
+     {"frage": "O que quer saber o Stefan?", "optionen": ["O número do NISS.", "O estado do processo.", "O horário de atendimento."], "richtig": 1},
+     {"frage": "Qual é o problema?", "optionen": ["A inscrição está suspensa.", "A morada não está atualizada.", "Uma contribuição aparece em atraso."], "richtig": 2},
+     {"frage": "O que deve o Stefan fazer?", "optionen": ["Enviar o comprovativo online.", "Ir ao balcão.", "Pagar outra vez."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "A fatura já está paga.", "de": "Die Rechnung ist schon bezahlt."},
+     {"pt": "A declaração já está entregue.", "de": "Die Erklärung ist schon abgegeben."},
+     {"pt": "O meu pedido ainda está pendente.", "de": "Mein Antrag ist noch offen."},
+     {"pt": "O processo já está concluído?", "de": "Ist der Vorgang schon abgeschlossen?"},
+     {"pt": "A transferência foi feita no dia dez.", "de": "Die Überweisung wurde am Zehnten gemacht."}
+    ]
+   },
+   "saetze": [
+    {"id": "fatura-esta-paga", "pt": "A fatura já está paga.", "de": "Die Rechnung ist schon bezahlt."},
+    {"id": "pedido-pendente", "pt": "O meu pedido ainda está pendente.", "de": "Mein Antrag ist noch offen."},
+    {"id": "processo-concluido", "pt": "O processo já está concluído?", "de": "Ist der Vorgang schon abgeschlossen?"}
+   ]
+  },
+  {
+   "id": "B1-03-L05",
+   "typ": "neu",
+   "titel": "Schilder und Anzeigen: Vende-se",
+   "vokabeln": ["vende-se", "aluga-se", "aceitam-se-cartoes", "precisa-se-de", "fala-se-ingles", "o-letreiro", "o-cheque", "fazem-se-arranjos", "reserva-se-o-direito-de-admissao"],
+   "grammatik": {
+    "titel": "A passiva com se: Vende-se, Aceitam-se cartões",
+    "erklaerung": [
+     "Em anúncios e letreiros usa-se muito a <b>passiva com se</b>: verbo na 3.ª pessoa + <b>se</b>. <i>Vende-se casa. Aluga-se quarto.</i>",
+     "O verbo concorda com o nome: <i>Vend<b>e</b>-se uma casa</i> – <i>Vend<b>em</b>-se casas</i>; <i>Aceit<b>am</b>-se cartões</i>.",
+     "Com preposição, o verbo fica sempre no singular: <i>Precisa-se <b>de</b> cozinheiros.</i>",
+     "No início da frase, o <i>se</i> vem depois do verbo (<i>Fala-se inglês</i>); depois de <b>não</b> vem antes (<i>Não se aceitam cheques</i>)."
+    ],
+    "erklaerung_de": [
+     "In Anzeigen und auf Schildern steht sehr oft das <b>se-Passiv</b>: Verb in der 3. Person + <b>se</b>. <i>Vende-se casa.</i> (Haus zu verkaufen.) <i>Aluga-se quarto.</i> (Zimmer zu vermieten.)",
+     "Das Verb richtet sich nach dem Nomen: <i>Vend<b>e</b>-se uma casa</i> – <i>Vend<b>em</b>-se casas</i>; <i>Aceit<b>am</b>-se cartões</i> (Karten werden akzeptiert).",
+     "Mit Präposition bleibt das Verb immer im Singular: <i>Precisa-se <b>de</b> cozinheiros.</i> – Köche gesucht.",
+     "Am Satzanfang steht <i>se</i> hinter dem Verb (<i>Fala-se inglês</i>); nach <b>não</b> davor (<i>Não se aceitam cheques</i> – Schecks werden nicht angenommen)."
+    ],
+    "vergleich": "Deutsch sagt „Zu verkaufen“, „Karten werden akzeptiert“ oder „Man spricht Englisch“ – Portugiesisch braucht nur Verb + <i>se</i>. In Brasilien sieht man „Se vende“ – in Portugal steht <i>se</i> nie am Satzanfang.",
+    "beispiele": [
+     {"pt": "Vendem-se dois apartamentos T2.", "de": "Zwei Dreizimmerwohnungen zu verkaufen."},
+     {"pt": "Precisa-se de empregados de mesa para o verão.", "de": "Kellner für den Sommer gesucht."},
+     {"pt": "Não se aceitam cheques.", "de": "Schecks werden nicht angenommen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ casas. (vender)", "loesungen": ["Vendem-se"], "de": "Häuser zu verkaufen.", "erklaerung": "casas ist Plural → vendem-se.", "kategorie": "se-Passiv"},
+     {"typ": "luecke", "satz": "___ cartões de crédito. (aceitar)", "loesungen": ["Aceitam-se"], "de": "Kreditkarten werden akzeptiert.", "kategorie": "se-Passiv"},
+     {"typ": "luecke", "satz": "Precisa-se ___ cozinheiro.", "loesungen": ["de"], "de": "Koch gesucht.", "kategorie": "se-Passiv"},
+     {"typ": "auswahl", "frage": "„Zimmer zu vermieten“", "optionen": ["Se aluga quarto.", "Aluga-se quarto.", "Alugam-se quarto."], "richtig": 1, "erklaerung": "Kein se am Satzanfang; ein Zimmer → Singular.", "kategorie": "se-Passiv"},
+     {"typ": "auswahl", "frage": "„Köche gesucht“", "optionen": ["Precisam-se de cozinheiros.", "Precisa-se de cozinheiros.", "Precisa-se cozinheiros."], "richtig": 1, "erklaerung": "Mit der Präposition de bleibt das Verb im Singular.", "kategorie": "se-Passiv"},
+     {"typ": "luecke", "satz": "Não ___ aceitam cheques.", "loesungen": ["se"], "de": "Schecks werden nicht angenommen.", "erklaerung": "Nach não steht das se vor dem Verb.", "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Hier spricht man Deutsch.", "loesungen": ["Aqui fala-se alemão.", "Fala-se alemão aqui.", "Aqui fala-se alemão!"]},
+     {"typ": "satzbau", "de": "Wohnung mit Garage zu verkaufen.", "loesung": "Vende-se apartamento com garagem."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um passeio por Lagos – ein Spaziergang durch Lagos",
+    "situation": "Ana und Stefan gehen durch die Altstadt und lesen Schilder.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Olha, Stefan, ali diz „Vende-se“. É aquela casa amarela de que tu gostavas tanto!", "de": "Schau, Stefan, dort steht „Zu verkaufen“. Das ist das gelbe Haus, das dir so gut gefallen hat!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não acredito! E aquele letreiro, „Precisa-se de empregada“, é do café?", "de": "Nicht zu glauben! Und das Schild da, „Bedienung gesucht“, ist das vom Café?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "É. O dono anda à procura de alguém para o verão.", "de": "Ja. Der Besitzer sucht jemanden für den Sommer."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vamos lá beber um café. Aceitam-se cartões?", "de": "Gehen wir dort einen Kaffee trinken. Nehmen die Karten?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Acho que sim, mas só a partir de cinco euros. Está escrito na porta.", "de": "Ich glaube schon, aber erst ab fünf Euro. Das steht an der Tür."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E aquela loja? „Fazem-se arranjos de costura.“ Posso levar lá as minhas calças.", "de": "Und der Laden da? „Änderungsschneiderei.“ Da kann ich meine Hose hinbringen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Boa ideia! E olha: „Fala-se inglês e francês“. Mas tu já falas português!", "de": "Gute Idee! Und schau: „Wir sprechen Englisch und Französisch“. Aber du sprichst ja schon Portugiesisch!"}
+    ],
+    "fragen": [
+     {"frage": "O que está à venda?", "optionen": ["Uma casa amarela.", "Um café.", "Uma loja de costura."], "richtig": 0},
+     {"frage": "De que precisa o café?", "optionen": ["De um cozinheiro.", "De uma empregada.", "De cartões novos."], "richtig": 1},
+     {"frage": "O que pode o Stefan fazer na loja?", "optionen": ["Comprar calças novas.", "Pagar com cheque.", "Mandar arranjar as calças."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Nachbar João will sein Boot verkaufen und bittet dich um Hilfe bei der Anzeige.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Stefan, quero vender o meu barco. O que escrevo no anúncio?", "de": "Stefan, ich will mein Boot verkaufen. Was schreibe ich in die Anzeige?"},
+     {"ich": true, "aufgabe": "Sag: Boot zu verkaufen. (se-Passiv)", "loesungen": ["Vende-se barco.", "Vende-se um barco.", "Escreve: vende-se barco.", "Escreve: Vende-se barco."]},
+     {"sprecher": "João", "stimme": "m", "pt": "E também aceito cartões. Como digo isso?", "de": "Und ich nehme auch Karten. Wie sage ich das?"},
+     {"ich": true, "aufgabe": "Sag: Karten werden akzeptiert. (se-Passiv)", "loesungen": ["Aceitam-se cartões.", "Escreve: aceitam-se cartões.", "Escreve: Aceitam-se cartões."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Ótimo. E ainda preciso de um ajudante para o verão.", "de": "Super. Und ich brauche noch einen Helfer für den Sommer."},
+     {"ich": true, "aufgabe": "Sag: Dann schreib: Helfer gesucht.", "loesungen": ["Então escreve: precisa-se de ajudante.", "Então escreve: Precisa-se de ajudante.", "Então escreve: precisa-se de um ajudante.", "Então escreve: Precisa-se de um ajudante.", "Precisa-se de ajudante.", "Precisa-se de um ajudante."]}
+    ]
+   },
+   "saetze": [
+    {"id": "vende-se-casa", "pt": "Vende-se casa com garagem.", "de": "Haus mit Garage zu verkaufen."},
+    {"id": "aceitam-se-cartoes-frase", "pt": "Aceitam-se cartões.", "de": "Karten werden akzeptiert."},
+    {"id": "precisa-se-empregados", "pt": "Precisa-se de empregados de mesa.", "de": "Kellner gesucht."}
+   ]
+  },
+  {
+   "id": "B1-03-L06",
+   "typ": "neu",
+   "titel": "Die Einkommensteuererklärung (IRS)",
+   "vokabeln": ["o-irs", "a-declaracao", "o-imposto", "o-rendimento", "declarar", "as-despesas", "deduzir", "o-escalao", "a-nota-de-liquidacao", "o-e-fatura"],
+   "grammatik": {
+    "titel": "Passiva com ter de / poder e com pronomes",
+    "erklaerung": [
+     "Com <b>ter de</b>, <b>poder</b> e <b>dever</b> + <b>ser</b> + particípio: <i>A declaração <b>tem de ser entregue</b> dentro do prazo. A declaração <b>pode ser feita</b> online.</i>",
+     "Com pronomes, a regra de sempre: no início da frase, o pronome vai depois do verbo: <i><b>Foi-me</b> enviada uma notificação.</i>",
+     "Depois de <b>não</b>, <b>já</b>, <b>ainda</b>, <b>que</b>, o pronome vem antes: <i>O reembolso <b>já me</b> foi pago. O valor <b>que me</b> foi devolvido…</i>",
+     "Muitas vezes o sujeito vem no fim, e o particípio concorda com ele: <i>Foram-me pedid<b>os</b> dois <b>documentos</b>.</i>"
+    ],
+    "erklaerung_de": [
+     "Mit <b>ter de</b>, <b>poder</b> und <b>dever</b> + <b>ser</b> + Partizip: <i>A declaração <b>tem de ser entregue</b> dentro do prazo.</i> (Die Erklärung muss fristgerecht abgegeben werden.) <i>A declaração <b>pode ser feita</b> online.</i> (… kann online gemacht werden.)",
+     "Mit Pronomen gilt die bekannte Regel: Am Satzanfang steht das Pronomen hinter dem Verb: <i><b>Foi-me</b> enviada uma notificação.</i> – Mir wurde ein Bescheid geschickt.",
+     "Nach <b>não</b>, <b>já</b>, <b>ainda</b>, <b>que</b> steht es davor: <i>O reembolso <b>já me</b> foi pago.</i> (Die Rückerstattung wurde mir schon ausgezahlt.) <i>O valor <b>que me</b> foi devolvido …</i> (Der Betrag, der mir zurückerstattet wurde …)",
+     "Oft steht das Subjekt am Ende, und das Partizip richtet sich danach: <i>Foram-me pedid<b>os</b> dois <b>documentos</b>.</i> – Man hat zwei Dokumente von mir verlangt."
+    ],
+    "vergleich": "Deutsch: „Die Erklärung muss abgegeben werden.“ = <i>A declaração tem de ser entregue.</i> Die Reihenfolge Modalverb – ser – Partizip entspricht „muss … werden“, nur ohne Satzklammer: alles steht zusammen.",
+    "beispiele": [
+     {"pt": "A declaração de IRS tem de ser entregue dentro do prazo.", "de": "Die Einkommensteuererklärung muss fristgerecht abgegeben werden."},
+     {"pt": "Foi-me enviada uma nota de liquidação.", "de": "Mir wurde ein Steuerbescheid geschickt."},
+     {"pt": "Este ano o reembolso já me foi pago.", "de": "Dieses Jahr wurde mir die Rückerstattung schon ausgezahlt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A declaração tem de ___ entregue dentro do prazo.", "loesungen": ["ser"], "de": "Die Erklärung muss fristgerecht abgegeben werden.", "kategorie": "Passiv + Modalverb"},
+     {"typ": "luecke", "satz": "Algumas despesas podem ser ___. (deduzir)", "loesungen": ["deduzidas"], "de": "Manche Ausgaben können abgesetzt werden.", "kategorie": "Passiv + Modalverb"},
+     {"typ": "auswahl", "frage": "„Mir wurde ein Bescheid geschickt.“", "optionen": ["Me foi enviada uma notificação.", "Foi-me enviada uma notificação.", "Foi enviada-me uma notificação."], "richtig": 1, "erklaerung": "Am Satzanfang nie ein Pronomen: Foi-me …", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Die Rückerstattung wurde mir schon ausgezahlt.“", "optionen": ["O reembolso já foi-me pago.", "O reembolso já me foi pago.", "O reembolso me já foi pago."], "richtig": 1, "erklaerung": "Nach já steht das Pronomen vor dem Verb.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Todos os rendimentos têm de ser ___. (declarar)", "loesungen": ["declarados"], "de": "Alle Einkünfte müssen angegeben werden.", "kategorie": "Passiv + Modalverb"},
+     {"typ": "uebersetzen", "de": "Die Steuererklärung kann online gemacht werden.", "loesungen": ["A declaração pode ser feita online.", "A declaração de IRS pode ser feita online.", "A declaração do IRS pode ser feita online.", "A declaração pode ser entregue online.", "A declaração de IRS pode ser entregue online."]},
+     {"typ": "uebersetzen", "de": "Ich habe Einkünfte in Österreich und in Portugal.", "loesungen": ["Tenho rendimentos na Áustria e em Portugal.", "Tenho rendimentos em Portugal e na Áustria."]},
+     {"typ": "satzbau", "de": "Man hat zwei Dokumente von mir verlangt.", "loesung": "Foram-me pedidos dois documentos."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O meu primeiro IRS – meine erste Steuererklärung",
+    "situation": "Ein Beitrag im Forum „Estrangeiros no Algarve“, vorgelesen.",
+    "zeilen": [
+     {"sprecher": "Markus", "stimme": "m", "pt": "Olá a todos! Este ano fiz a minha primeira declaração de IRS em Portugal e quero partilhar a experiência.", "de": "Hallo zusammen! Dieses Jahr habe ich meine erste Einkommensteuererklärung in Portugal gemacht und möchte meine Erfahrung teilen."},
+     {"sprecher": "Markus", "stimme": "m", "pt": "Entrei no Portal das Finanças e vi que muitos dados já estavam preenchidos.", "de": "Ich habe mich im Finanzportal eingeloggt und gesehen, dass viele Daten schon ausgefüllt waren."},
+     {"sprecher": "Markus", "stimme": "m", "pt": "Mas atenção: os rendimentos do estrangeiro têm de ser declarados à mão, num anexo próprio.", "de": "Aber Achtung: Die Einkünfte aus dem Ausland müssen von Hand in einer eigenen Anlage angegeben werden."},
+     {"sprecher": "Markus", "stimme": "m", "pt": "Antes de submeter, confirmei as faturas no e-fatura, porque algumas despesas podem ser deduzidas.", "de": "Vor dem Absenden habe ich die Rechnungen im e-fatura bestätigt, weil man manche Ausgaben absetzen kann."},
+     {"sprecher": "Markus", "stimme": "m", "pt": "Duas semanas depois, foi-me enviada a nota de liquidação: um reembolso de trezentos euros!", "de": "Zwei Wochen später wurde mir der Steuerbescheid geschickt: eine Rückerstattung von dreihundert Euro!"},
+     {"sprecher": "Markus", "stimme": "m", "pt": "O meu conselho: confirmem o prazo no portal e não deixem tudo para o último dia.", "de": "Mein Tipp: Prüft die Frist im Portal und lasst nicht alles bis zum letzten Tag liegen."}
+    ],
+    "fragen": [
+     {"frage": "Onde fez o Markus a declaração?", "optionen": ["No Portal das Finanças.", "Na câmara municipal.", "No escritório de um contabilista."], "richtig": 0},
+     {"frage": "O que tem de ser declarado à mão?", "optionen": ["As despesas de saúde.", "Os rendimentos do estrangeiro.", "O NIF."], "richtig": 1},
+     {"frage": "Qual foi o resultado?", "optionen": ["Teve de pagar trezentos euros.", "Ainda não sabe.", "Recebeu um reembolso."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva as frases em português.",
+    "aufgaben": [
+     {"de": "Die Erklärung muss fristgerecht abgegeben werden.", "loesungen": ["A declaração tem de ser entregue dentro do prazo.", "A declaração tem que ser entregue dentro do prazo.", "A declaração deve ser entregue dentro do prazo."]},
+     {"de": "Gesundheitsausgaben können abgesetzt werden.", "loesungen": ["As despesas de saúde podem ser deduzidas."]},
+     {"de": "Mir wurde ein Steuerbescheid geschickt.", "loesungen": ["Foi-me enviada uma nota de liquidação.", "Foi-me enviada a nota de liquidação.", "Enviaram-me uma nota de liquidação.", "Enviaram-me a nota de liquidação."]},
+     {"de": "Wann bekomme ich die Rückerstattung?", "loesungen": ["Quando recebo o reembolso?", "Quando é que recebo o reembolso?", "Quando vou receber o reembolso?", "Quando é que vou receber o reembolso?"]},
+     {"de": "Alle Einkünfte müssen angegeben werden.", "loesungen": ["Todos os rendimentos têm de ser declarados.", "Todos os rendimentos têm que ser declarados.", "Todos os rendimentos devem ser declarados."]}
+    ]
+   },
+   "saetze": [
+    {"id": "declaracao-dentro-prazo", "pt": "A declaração tem de ser entregue dentro do prazo.", "de": "Die Erklärung muss fristgerecht abgegeben werden."},
+    {"id": "foi-me-enviada", "pt": "Foi-me enviada uma nota de liquidação.", "de": "Mir wurde ein Steuerbescheid geschickt."},
+    {"id": "tenho-rendimentos", "pt": "Tenho rendimentos em Portugal e na Áustria.", "de": "Ich habe Einkünfte in Portugal und in Österreich."}
+   ]
+  },
+  {
+   "id": "B1-03-L07",
+   "typ": "neu",
+   "titel": "Termine und Unterlagen",
+   "vokabeln": ["a-certidao", "autenticar", "a-copia-autenticada", "o-original", "necessario", "agendar", "a-apostila", "a-traducao-certificada", "comparecer"],
+   "grammatik": {
+    "titel": "Dois particípios: entregado ou entregue?",
+    "erklaerung": [
+     "Alguns verbos têm <b>dois particípios</b>: um regular (-ado/-ido) e um curto: entregar → entreg<b>ado</b> / <b>entregue</b>; aceitar → aceit<b>ado</b> / <b>aceite</b>; imprimir → imprim<b>ido</b> / <b>impresso</b>.",
+     "Com <b>ser</b> e <b>estar</b> usa-se a forma curta: <i>Os documentos foram <b>entregues</b>. A cópia está <b>impressa</b>. A proposta foi <b>aceite</b>.</i>",
+     "Com <b>ter</b> (tempos compostos) usa-se normalmente a forma regular: <i>Já tinha <b>entregado</b> os papéis. Ela tinha <b>aceitado</b> a proposta.</i>",
+     "<b>pagar</b>, <b>gastar</b> e <b>ganhar</b> usam quase sempre a forma curta, também com ter: <i>Já tinha <b>pago</b> a taxa. Tinha <b>gasto</b> muito em fotocópias.</i>"
+    ],
+    "erklaerung_de": [
+     "Einige Verben haben <b>zwei Partizipien</b>: ein regelmäßiges (-ado/-ido) und ein kurzes: entregar → entreg<b>ado</b> / <b>entregue</b>; aceitar → aceit<b>ado</b> / <b>aceite</b>; imprimir → imprim<b>ido</b> / <b>impresso</b>.",
+     "Mit <b>ser</b> und <b>estar</b> nimmt man die kurze Form: <i>Os documentos foram <b>entregues</b>.</i> (Die Unterlagen wurden abgegeben.) <i>A cópia está <b>impressa</b>.</i> (Die Kopie ist ausgedruckt.) <i>A proposta foi <b>aceite</b>.</i>",
+     "Mit <b>ter</b> (zusammengesetzte Zeiten) nimmt man meist die regelmäßige Form: <i>Já tinha <b>entregado</b> os papéis.</i> (Ich hatte die Papiere schon abgegeben.)",
+     "<b>pagar</b>, <b>gastar</b> und <b>ganhar</b> nehmen fast immer die kurze Form, auch mit ter: <i>Já tinha <b>pago</b> a taxa.</i> (Ich hatte die Gebühr schon bezahlt.) <i>Tinha <b>gasto</b> muito em fotocópias.</i>"
+    ],
+    "vergleich": "So etwas gibt es im Deutschen nicht. Faustregel: <i>ter</i> + lang (<i>tinha entregado</i>), <i>ser/estar</i> + kurz (<i>foi entregue</i>) – außer <i>pago, gasto, ganho</i>, die praktisch immer kurz sind.",
+    "beispiele": [
+     {"pt": "Os documentos originais foram entregues ontem.", "de": "Die Originaldokumente wurden gestern abgegeben."},
+     {"pt": "A cópia já está impressa e autenticada.", "de": "Die Kopie ist schon ausgedruckt und beglaubigt."},
+     {"pt": "Eu já tinha pago a taxa antes do atendimento.", "de": "Ich hatte die Gebühr schon vor dem Termin bezahlt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Os documentos foram ___ ontem. (entregar)", "loesungen": ["entregues"], "de": "Die Unterlagen wurden gestern abgegeben.", "erklaerung": "Mit ser die Kurzform; Plural: entregues.", "kategorie": "doppeltes Partizip"},
+     {"typ": "luecke", "satz": "A cópia já está ___. (imprimir)", "loesungen": ["impressa"], "de": "Die Kopie ist schon ausgedruckt.", "kategorie": "doppeltes Partizip"},
+     {"typ": "luecke", "satz": "Eu já tinha ___ a taxa. (pagar)", "loesungen": ["pago", "pagado"], "de": "Ich hatte die Gebühr schon bezahlt.", "erklaerung": "In Portugal sagt man fast immer „tinha pago“.", "kategorie": "doppeltes Partizip"},
+     {"typ": "auswahl", "frage": "„Die Kopie muss beglaubigt werden.“", "optionen": ["A cópia tem de ser autenticada.", "A cópia tem de estar autenticando.", "A cópia tem de ser autenticado."], "richtig": 0, "kategorie": "Passiv + Modalverb"},
+     {"typ": "auswahl", "frage": "Qual é a forma certa? „A proposta foi ___.“", "optionen": ["aceitada", "aceite", "aceito"], "richtig": 1, "erklaerung": "Mit ser: aceite (pt-PT). „aceito“ ist brasilianisch.", "kategorie": "doppeltes Partizip"},
+     {"typ": "uebersetzen", "de": "Welche Unterlagen sind erforderlich?", "loesungen": ["Quais são os documentos necessários?", "Que documentos são necessários?", "Quais os documentos necessários?"]},
+     {"typ": "uebersetzen", "de": "Bringen Sie das Original und eine beglaubigte Kopie mit.", "loesungen": ["Traga o original e uma cópia autenticada.", "Traga o original e uma cópia autenticada, por favor."]},
+     {"typ": "satzbau", "de": "Ich habe den Termin übers Internet gebucht.", "loesung": "Agendei o atendimento pela internet."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Que documentos são necessários? – Welche Unterlagen braucht man?",
+    "situation": "Heike ruft bei der Câmara Municipal in Lagos an, um einen Termin zu vereinbaren.",
+    "zeilen": [
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Câmara Municipal de Lagos, bom dia.", "de": "Gemeinde Lagos, guten Morgen."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "Bom dia. Queria agendar um atendimento para pedir o certificado de registo de cidadão da UE.", "de": "Guten Morgen. Ich möchte einen Termin für die Anmeldebescheinigung für EU-Bürger vereinbaren."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Com certeza. Pode ser na próxima terça-feira, às dez e meia?", "de": "Selbstverständlich. Passt Ihnen nächsten Dienstag um halb elf?"},
+     {"sprecher": "Heike", "stimme": "f", "pt": "Pode. Quais são os documentos necessários?", "de": "Ja. Welche Unterlagen sind erforderlich?"},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "O documento de identificação, o NIF e um comprovativo de morada. Traga sempre os originais.", "de": "Ihr Ausweis, die Steuernummer und ein Wohnsitznachweis. Bringen Sie immer die Originale mit."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "E os documentos em alemão? Precisam de tradução?", "de": "Und die Dokumente auf Deutsch? Brauchen die eine Übersetzung?"},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Depende. Para alguns documentos pode ser pedida uma tradução certificada.", "de": "Kommt darauf an. Für manche Dokumente kann eine beglaubigte Übersetzung verlangt werden."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "E há alguma taxa a pagar?", "de": "Und muss man eine Gebühr bezahlen?"},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Há uma pequena taxa, que é paga no próprio dia. E tem de comparecer pessoalmente.", "de": "Es gibt eine kleine Gebühr, die am selben Tag bezahlt wird. Und Sie müssen persönlich erscheinen."}
+    ],
+    "fragen": [
+     {"frage": "Para quando fica o atendimento?", "optionen": ["Para terça-feira às dez e meia.", "Para hoje à tarde.", "Para sexta-feira às dez."], "richtig": 0},
+     {"frage": "Que documentos tem a Heike de levar?", "optionen": ["Só o passaporte.", "Identificação, NIF e comprovativo de morada.", "Uma certidão de nascimento com apostila."], "richtig": 1},
+     {"frage": "Quando é paga a taxa?", "optionen": ["Por transferência, antes do atendimento.", "Não há taxa.", "No próprio dia."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Quais são os documentos necessários?", "de": "Welche Unterlagen sind erforderlich?"},
+     {"pt": "Queria agendar um atendimento.", "de": "Ich möchte einen Termin vereinbaren."},
+     {"pt": "Traga o original e uma cópia autenticada.", "de": "Bringen Sie das Original und eine beglaubigte Kopie mit."},
+     {"pt": "Os documentos foram entregues ontem.", "de": "Die Unterlagen wurden gestern abgegeben."},
+     {"pt": "Preciso de uma certidão de nascimento.", "de": "Ich brauche eine Geburtsurkunde."}
+    ]
+   },
+   "saetze": [
+    {"id": "documentos-necessarios", "pt": "Quais são os documentos necessários?", "de": "Welche Unterlagen sind erforderlich?"},
+    {"id": "agendar-atendimento", "pt": "Queria agendar um atendimento.", "de": "Ich möchte einen Termin vereinbaren."},
+    {"id": "copia-autenticada", "pt": "Traga o original e uma cópia autenticada.", "de": "Bringen Sie das Original und eine beglaubigte Kopie mit."}
+   ]
+  },
+  {
+   "id": "B1-03-L08",
+   "typ": "neu",
+   "titel": "Online-Portale und Chave Móvel Digital",
+   "vokabeln": ["o-portal-das-financas", "a-chave-movel-digital", "a-autenticacao", "submeter", "ativar", "o-comprovativo", "a-area-reservada", "o-cartao-de-cidadao", "o-leitor-de-cartoes"],
+   "grammatik": {
+    "titel": "ficar + particípio: o resultado",
+    "erklaerung": [
+     "<b>ficar</b> + particípio exprime uma mudança de estado, o resultado final: <i>Depois de submeter, a declaração <b>fica registada</b>.</i>",
+     "No passado: <i>O problema <b>ficou resolvido</b>. A conta <b>ficou bloqueada</b>.</i>",
+     "Também com pessoas e sentimentos: <i>Fiquei preocupado com a carta. Ficámos surpreendidos.</i>",
+     "Comparação: <i>A conta <b>foi</b> ativada</i> (ação) – <i>A conta <b>está</b> ativada</i> (estado) – <i>A conta <b>ficou</b> ativada</i> (resultado: antes não estava, agora está)."
+    ],
+    "erklaerung_de": [
+     "<b>ficar</b> + Partizip drückt eine Zustandsänderung, das Endergebnis aus: <i>Depois de submeter, a declaração <b>fica registada</b>.</i> – Nach dem Absenden ist die Erklärung erfasst.",
+     "In der Vergangenheit: <i>O problema <b>ficou resolvido</b>.</i> (Das Problem war dann gelöst.) <i>A conta <b>ficou bloqueada</b>.</i> (Das Konto wurde gesperrt.)",
+     "Auch bei Personen und Gefühlen: <i>Fiquei preocupado com a carta.</i> (Der Brief hat mich beunruhigt.) <i>Ficámos surpreendidos.</i> (Wir waren überrascht.)",
+     "Vergleich: <i>A conta <b>foi</b> ativada</i> (Vorgang) – <i>A conta <b>está</b> ativada</i> (Zustand) – <i>A conta <b>ficou</b> ativada</i> (Ergebnis: vorher nicht, jetzt schon)."
+    ],
+    "vergleich": "Ähnlich wie deutsch „Damit ist das erledigt“ oder englisch „it got blocked“. <i>ficar</i> betont den Wechsel: vorher nicht, jetzt schon.",
+    "beispiele": [
+     {"pt": "Depois de submeter, a declaração fica registada no sistema.", "de": "Nach dem Absenden ist die Erklärung im System erfasst."},
+     {"pt": "Ativei a Chave Móvel Digital e a conta ficou logo ativada.", "de": "Ich habe die Chave Móvel Digital aktiviert, und das Konto war sofort freigeschaltet."},
+     {"pt": "A minha conta ficou bloqueada depois de três tentativas.", "de": "Mein Konto wurde nach drei Versuchen gesperrt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Depois de três tentativas, a conta ___ bloqueada. (ficar, pretérito)", "loesungen": ["ficou"], "de": "Nach drei Versuchen wurde das Konto gesperrt.", "kategorie": "ficar + Partizip"},
+     {"typ": "luecke", "satz": "A declaração fica ___ no sistema. (registar)", "loesungen": ["registada"], "de": "Die Erklärung wird im System erfasst.", "erklaerung": "pt-PT: registar → registada (BR: registrada).", "kategorie": "ficar + Partizip"},
+     {"typ": "auswahl", "frage": "„Das Problem war dann gelöst.“", "optionen": ["O problema ficou resolvido.", "O problema fica a resolver.", "O problema foi resolvendo."], "richtig": 0, "kategorie": "ficar + Partizip"},
+     {"typ": "luecke", "satz": "Nós ___ muito preocupados com a carta das Finanças. (ficar, pretérito)", "loesungen": ["ficámos"], "de": "Der Brief vom Finanzamt hat uns große Sorgen gemacht.", "erklaerung": "pt-PT: ficámos (Vergangenheit) mit Akzent.", "kategorie": "ficar + Partizip"},
+     {"typ": "auswahl", "frage": "Qual das frases descreve um estado?", "optionen": ["A conta foi ativada ontem.", "A conta está ativada.", "A conta vai ser ativada."], "richtig": 1, "kategorie": "ser/estar/ficar"},
+     {"typ": "uebersetzen", "de": "Ich kann mich nicht einloggen.", "loesungen": ["Não consigo iniciar sessão.", "Não consigo entrar.", "Não consigo fazer login."]},
+     {"typ": "uebersetzen", "de": "Laden Sie den Nachweis herunter.", "loesungen": ["Descarregue o comprovativo.", "Descarregue o comprovativo, por favor.", "Faça o download do comprovativo."]},
+     {"typ": "satzbau", "de": "Ich habe die Erklärung gestern Abend eingereicht.", "loesung": "Submeti a declaração ontem à noite."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Esqueci-me da senha – ich habe mein Passwort vergessen",
+    "situation": "Stefan sitzt am Computer und Ana hilft ihm.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ana, não consigo iniciar sessão no Portal das Finanças. Esqueci-me da senha.", "de": "Ana, ich kann mich nicht im Finanzportal einloggen. Ich habe mein Passwort vergessen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Porque é que não usas a Chave Móvel Digital? É muito mais fácil.", "de": "Warum nimmst du nicht die Chave Móvel Digital? Das ist viel einfacher."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já a ativei na Loja do Cidadão, mas nunca a usei.", "de": "Ich habe sie im Bürgerservice schon aktiviert, aber nie benutzt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então escolhe „Chave Móvel Digital“ e escreve o número de telemóvel e o PIN.", "de": "Dann wähl „Chave Móvel Digital“ und gib die Handynummer und die PIN ein."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pronto… Recebi um código por SMS.", "de": "So … Ich habe einen Code per SMS bekommen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Escreve o código e já está! Ficaste dentro da tua área reservada.", "de": "Gib den Code ein, und fertig! Jetzt bist du in deinem persönlichen Bereich."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo! E há aqui uma notificação nova.", "de": "Super! Und hier ist ein neuer Bescheid."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Abre-a e descarrega o PDF. Depois vemos juntos o que é.", "de": "Mach ihn auf und lade das PDF herunter. Dann schauen wir zusammen, was es ist."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema do Stefan?", "optionen": ["Esqueceu-se da senha.", "Perdeu o telemóvel.", "Não tem NIF."], "richtig": 0},
+     {"frage": "Onde ativou o Stefan a Chave Móvel Digital?", "optionen": ["Nas Finanças.", "Na Loja do Cidadão.", "Na câmara municipal."], "richtig": 1},
+     {"frage": "O que encontra o Stefan na área reservada?", "optionen": ["Um reembolso.", "Uma senha nova.", "Uma notificação nova."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du rufst bei der Hotline an, weil du nicht ins Portal kommst.",
+    "zeilen": [
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Linha de apoio, bom dia. Qual é o problema?", "de": "Hotline, guten Morgen. Was ist das Problem?"},
+     {"ich": true, "aufgabe": "Diga que não consegue iniciar sessão no Portal das Finanças.", "loesungen": ["Não consigo iniciar sessão no Portal das Finanças.", "Não consigo entrar no Portal das Finanças.", "Bom dia. Não consigo iniciar sessão no Portal das Finanças.", "Bom dia. Não consigo entrar no Portal das Finanças."]},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Já tentou com a Chave Móvel Digital?", "de": "Haben Sie es schon mit der Chave Móvel Digital versucht?"},
+     {"ich": true, "aufgabe": "Sag: Ja, aber mein Konto wurde gesperrt. (ficar)", "loesungen": ["Sim, mas a minha conta ficou bloqueada.", "Já, mas a minha conta ficou bloqueada.", "Sim, mas a conta ficou bloqueada.", "Já tentei, mas a minha conta ficou bloqueada.", "Já tentei, mas a conta ficou bloqueada."]},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Não há problema. Vou enviar-lhe um código de desbloqueio por SMS.", "de": "Kein Problem. Ich schicke Ihnen einen Entsperrcode per SMS."},
+     {"ich": true, "aufgabe": "Pergunte se depois já pode submeter a declaração.", "loesungen": ["E depois já posso submeter a declaração?", "E depois posso submeter a declaração?", "E a seguir já posso submeter a declaração?", "E a seguir posso submeter a declaração?", "Depois já posso submeter a declaração?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "nao-consigo-iniciar-sessao", "pt": "Não consigo iniciar sessão no Portal das Finanças.", "de": "Ich kann mich nicht im Finanzportal einloggen."},
+    {"id": "conta-ficou-bloqueada", "pt": "A minha conta ficou bloqueada.", "de": "Mein Konto wurde gesperrt."},
+    {"id": "submeti-declaracao", "pt": "Submeti a declaração ontem à noite.", "de": "Ich habe die Erklärung gestern Abend eingereicht."}
+   ]
+  },
+  {
+   "id": "B1-03-L09",
+   "typ": "neu",
+   "titel": "Warten und sich beschweren",
+   "vokabeln": ["a-demora", "a-queixa", "a-falta-de", "esgotar-se", "a-espera", "o-utente", "inadmissivel", "o-provedor-de-justica", "sobrelotado"],
+   "grammatik": {
+    "titel": "Disseram-me que… – a 3.ª pessoa do plural impessoal",
+    "erklaerung": [
+     "Quando não sabemos (ou não interessa) quem fez a ação, na conversa usa-se muito a <b>3.ª pessoa do plural</b>, sem sujeito: <i><b>Disseram-me</b> que tinha de voltar amanhã.</i>",
+     "É mais coloquial do que a passiva: <i>Foi-me dito que…</i> (formal) = <i>Disseram-me que…</i> (normal).",
+     "Muito útil para queixas: <i>Mandaram-me para outro balcão. Pediram-me mais um documento. Ainda não me responderam.</i>",
+     "Pronomes: depois do verbo na frase afirmativa (<i>Disseram-me</i>), antes do verbo depois de <b>não</b>, <b>ainda não</b>, <b>nunca</b> (<i>Nunca me explicaram nada.</i>)."
+    ],
+    "erklaerung_de": [
+     "Wenn man nicht weiß (oder es egal ist), wer etwas getan hat, nimmt man im Gespräch oft die <b>3. Person Plural</b> ohne Subjekt: <i><b>Disseram-me</b> que tinha de voltar amanhã.</i> – Man hat mir gesagt, ich müsse morgen wiederkommen.",
+     "Das ist umgangssprachlicher als das Passiv: <i>Foi-me dito que …</i> (förmlich) = <i>Disseram-me que …</i> (normal).",
+     "Sehr nützlich für Beschwerden: <i>Mandaram-me para outro balcão.</i> (Man hat mich an einen anderen Schalter geschickt.) <i>Pediram-me mais um documento.</i> (Man hat noch ein Dokument verlangt.) <i>Ainda não me responderam.</i> (Man hat mir noch nicht geantwortet.)",
+     "Pronomen: im bejahten Satz hinter dem Verb (<i>Disseram-me</i>), nach <b>não</b>, <b>ainda não</b>, <b>nunca</b> davor (<i>Nunca me explicaram nada.</i> – Niemand hat mir je etwas erklärt.)."
+    ],
+    "vergleich": "Deutsch nimmt „man“ (Man hat mir gesagt …), Englisch „they“ (They told me …). Portugiesisch macht es wie das Englische, nur ohne Pronomen: <i>Disseram-me …</i>",
+    "beispiele": [
+     {"pt": "Disseram-me que o sistema estava em baixo.", "de": "Man hat mir gesagt, dass das System ausgefallen war."},
+     {"pt": "Mandaram-me para outro balcão.", "de": "Man hat mich an einen anderen Schalter geschickt."},
+     {"pt": "Ainda não me responderam ao e-mail.", "de": "Man hat mir noch nicht auf die E-Mail geantwortet."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ que tinha de voltar amanhã. (dizer + me)", "loesungen": ["Disseram-me"], "de": "Man hat mir gesagt, dass ich morgen wiederkommen muss.", "kategorie": "3. Person Plural"},
+     {"typ": "luecke", "satz": "Ainda não ___ responderam.", "loesungen": ["me"], "de": "Man hat mir noch nicht geantwortet.", "erklaerung": "Nach ainda não steht das Pronomen vor dem Verb.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Man hat mich an einen anderen Schalter geschickt.“", "optionen": ["Me mandaram para outro balcão.", "Mandaram-me para outro balcão.", "Mandou-se-me para outro balcão."], "richtig": 1, "erklaerung": "Kein Pronomen am Satzanfang (brasilianisch: Me mandaram).", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Foi-me dito que …“ (formal) corresponde a:", "optionen": ["Disseram-me que …", "Digo-lhe que …", "Dizem-me que …"], "richtig": 0, "kategorie": "3. Person Plural"},
+     {"typ": "luecke", "satz": "Há ___ de funcionários neste serviço.", "loesungen": ["falta"], "de": "In dieser Dienststelle fehlt es an Personal.", "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Ich warte schon seit drei Stunden.", "loesungen": ["Estou à espera há três horas.", "Já estou à espera há três horas.", "Espero há três horas.", "Estou à espera há três horas!"]},
+     {"typ": "uebersetzen", "de": "Die Wartenummern sind schon vergeben.", "loesungen": ["As senhas já estão esgotadas.", "As senhas estão esgotadas.", "Já não há senhas."]},
+     {"typ": "satzbau", "de": "Ich möchte eine schriftliche Beschwerde einreichen.", "loesung": "Queria apresentar uma queixa por escrito."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Longas filas nas Finanças – lange Schlangen beim Finanzamt",
+    "situation": "Eine kurze Radiomeldung aus dem Regionalprogramm.",
+    "zeilen": [
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Longas filas nos serviços públicos do Algarve.", "de": "Lange Schlangen in den Ämtern der Algarve."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Esta manhã, dezenas de pessoas esperaram mais de quatro horas à porta da repartição de Finanças de Portimão.", "de": "Heute Morgen haben Dutzende Menschen über vier Stunden vor dem Finanzamt in Portimão gewartet."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Muitas chegaram antes das sete, mas às nove as senhas já estavam esgotadas.", "de": "Viele kamen vor sieben Uhr, aber um neun waren die Wartenummern schon vergeben."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Os utentes queixam-se da falta de funcionários e da demora no atendimento.", "de": "Die Bürger beschweren sich über Personalmangel und lange Bearbeitungszeiten."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "„É inadmissível. Disseram-me para voltar amanhã, mas eu trabalho!“, contou uma senhora.", "de": "„Das ist unerhört. Man hat mir gesagt, ich soll morgen wiederkommen, aber ich arbeite!“, erzählte eine Frau."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "O serviço lamenta a situação e recomenda o agendamento online.", "de": "Die Dienststelle bedauert die Situation und empfiehlt die Online-Terminbuchung."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Quem quiser apresentar queixa pode usar o Livro de Reclamações ou contactar o Provedor de Justiça.", "de": "Wer sich beschweren möchte, kann das Beschwerdebuch benutzen oder sich an die Bürgerbeauftragte wenden."}
+    ],
+    "fragen": [
+     {"frage": "Quanto tempo esperaram as pessoas?", "optionen": ["Mais de quatro horas.", "Uma hora.", "Dois dias."], "richtig": 0},
+     {"frage": "De que se queixam os utentes?", "optionen": ["Do preço das senhas.", "Da falta de funcionários.", "Do horário de verão."], "richtig": 1},
+     {"frage": "O que recomenda o serviço?", "optionen": ["Chegar às sete da manhã.", "Fazer queixa ao Provedor.", "Agendar o atendimento online."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva as frases em português.",
+    "aufgaben": [
+     {"de": "Man hat mir gesagt, dass ich morgen wiederkommen muss.", "loesungen": ["Disseram-me que tinha de voltar amanhã.", "Disseram-me que tenho de voltar amanhã.", "Disseram-me que tinha que voltar amanhã.", "Disseram-me que tenho que voltar amanhã."]},
+     {"de": "Es fehlt an Personal.", "loesungen": ["Há falta de funcionários.", "Há falta de pessoal."]},
+     {"de": "Entschuldigen Sie die Verzögerung.", "loesungen": ["Desculpe a demora.", "Peço desculpa pela demora.", "Desculpe pela demora."]},
+     {"de": "Ich habe die Geduld verloren.", "loesungen": ["Perdi a paciência.", "Já perdi a paciência."]},
+     {"de": "Man hat mir noch nicht geantwortet.", "loesungen": ["Ainda não me responderam.", "Ainda ninguém me respondeu."]}
+    ]
+   },
+   "saetze": [
+    {"id": "disseram-me-voltar", "pt": "Disseram-me que tinha de voltar amanhã.", "de": "Man hat mir gesagt, ich müsse morgen wiederkommen."},
+    {"id": "estou-a-espera-ha", "pt": "Estou à espera há três horas.", "de": "Ich warte schon seit drei Stunden."},
+    {"id": "queixa-por-escrito", "pt": "Queria apresentar uma queixa por escrito.", "de": "Ich möchte eine schriftliche Beschwerde einreichen."}
+   ]
+  },
+  {
+   "id": "B1-03-L10",
+   "typ": "neu",
+   "titel": "Vollmacht und Steuervertreter",
+   "vokabeln": ["a-procuracao", "o-representante-fiscal", "o-contabilista", "o-advogado", "representar", "o-procurador", "o-solicitador", "delegar", "o-imt"],
+   "grammatik": {
+    "titel": "Da ativa para a passiva – resumo",
+    "erklaerung": [
+     "Para passar da ativa para a passiva: o <b>objeto</b> passa a sujeito, o verbo fica <b>ser</b> (no mesmo tempo) + particípio, e o sujeito da ativa passa a agente com <b>por</b>.",
+     "<i>O advogado <b>assina</b> o contrato.</i> → <i>O contrato <b>é assinado</b> pelo advogado.</i> · <i>assinou</i> → <i><b>foi</b> assinado</i> · <i>vai assinar</i> → <i><b>vai ser</b> assinado</i>.",
+     "Com procuração, outra pessoa age em seu nome: <i>Os documentos podem ser assinados pelo procurador. Fiz-me representar pela minha mulher.</i>",
+     "Resumo: <b>ser</b> + part. = ação · <b>estar</b> + part. = estado · <b>ficar</b> + part. = resultado · <b>verbo + se</b> = anúncios e regras (<i>Vende-se</i>)."
+    ],
+    "erklaerung_de": [
+     "Vom Aktiv ins Passiv: Das <b>Objekt</b> wird zum Subjekt, das Verb wird zu <b>ser</b> (in derselben Zeit) + Partizip, und das bisherige Subjekt wird mit <b>por</b> angeschlossen.",
+     "<i>O advogado <b>assina</b> o contrato.</i> (Der Anwalt unterschreibt den Vertrag.) → <i>O contrato <b>é assinado</b> pelo advogado.</i> · <i>assinou</i> → <i><b>foi</b> assinado</i> · <i>vai assinar</i> → <i><b>vai ser</b> assinado</i>.",
+     "Mit Vollmacht handelt eine andere Person in deinem Namen: <i>Os documentos podem ser assinados pelo procurador.</i> (Die Dokumente können vom Bevollmächtigten unterschrieben werden.) <i>Fiz-me representar pela minha mulher.</i> (Ich habe mich von meiner Frau vertreten lassen.)",
+     "Zusammenfassung: <b>ser</b> + Partizip = Vorgang · <b>estar</b> + Partizip = Zustand · <b>ficar</b> + Partizip = Ergebnis · <b>Verb + se</b> = Anzeigen und Regeln (<i>Vende-se</i>)."
+    ],
+    "vergleich": "Wie im Deutschen: „Der Anwalt unterschreibt den Vertrag.“ → „Der Vertrag wird vom Anwalt unterschrieben.“ Nur heißt das Hilfsverb <i>ser</i> statt „werden“, und die Zeit steckt allein in <i>ser</i>.",
+    "beispiele": [
+     {"pt": "A procuração foi assinada no escritório da advogada.", "de": "Die Vollmacht wurde in der Kanzlei der Anwältin unterschrieben."},
+     {"pt": "O meu IRS é entregue pelo contabilista.", "de": "Meine Einkommensteuererklärung wird vom Steuerberater abgegeben."},
+     {"pt": "Fiz-me representar pela minha mulher nas Finanças.", "de": "Ich habe mich beim Finanzamt von meiner Frau vertreten lassen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O contabilista entrega a declaração. → A declaração ___ entregue pelo contabilista.", "loesungen": ["é"], "de": "Die Erklärung wird vom Steuerberater abgegeben.", "kategorie": "Aktiv → Passiv"},
+     {"typ": "luecke", "satz": "A advogada assinou a procuração. → A procuração foi ___ pela advogada.", "loesungen": ["assinada"], "de": "Die Vollmacht wurde von der Anwältin unterschrieben.", "kategorie": "Aktiv → Passiv"},
+     {"typ": "luecke", "satz": "A Ana vai entregar os documentos. → Os documentos vão ser ___ pela Ana.", "loesungen": ["entregues"], "de": "Die Unterlagen werden von Ana abgegeben werden.", "erklaerung": "Mit ser die Kurzform: entregue → Plural entregues.", "kategorie": "Aktiv → Passiv"},
+     {"typ": "auswahl", "frage": "Passiva de „O funcionário emitiu as certidões.“", "optionen": ["As certidões foram emitidas pelo funcionário.", "As certidões foi emitida pelo funcionário.", "As certidões estão emitindo pelo funcionário."], "richtig": 0, "kategorie": "Aktiv → Passiv"},
+     {"typ": "auswahl", "frage": "Que construção se usa num letreiro?", "optionen": ["É vendida casa.", "Vende-se casa.", "Está vendida casa."], "richtig": 1, "kategorie": "se-Passiv"},
+     {"typ": "uebersetzen", "de": "Ich habe meinem Anwalt eine Vollmacht erteilt.", "loesungen": ["Dei uma procuração ao meu advogado.", "Passei uma procuração ao meu advogado.", "Dei procuração ao meu advogado."]},
+     {"typ": "uebersetzen", "de": "Mein Steuerberater kümmert sich um die Einkommensteuer.", "loesungen": ["O meu contabilista trata do IRS.", "O meu contabilista trata do meu IRS."]},
+     {"typ": "satzbau", "de": "Meine Frau kann mich beim Finanzamt vertreten.", "loesung": "A minha mulher pode representar-me nas Finanças."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No escritório da advogada – in der Anwaltskanzlei",
+    "situation": "Stefan ist zwei Monate in Österreich und bespricht mit seiner Anwältin eine Vollmacht.",
+    "zeilen": [
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Então, Senhor Stefan, vai estar dois meses na Áustria?", "de": "Also, Herr Stefan, Sie sind zwei Monate in Österreich?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vou, mas tenho vários assuntos pendentes nas Finanças e na Segurança Social.", "de": "Ja, aber ich habe noch einige offene Angelegenheiten beim Finanzamt und bei der Sozialversicherung."},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Não há problema. Pode passar-me uma procuração e eu represento-o.", "de": "Kein Problem. Sie können mir eine Vollmacht erteilen, und ich vertrete Sie."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a procuração tem de ser feita aqui em Portugal?", "de": "Und muss die Vollmacht hier in Portugal ausgestellt werden?"},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Pode ser feita aqui no meu escritório. Só precisa de trazer o passaporte e o NIF.", "de": "Das kann hier in meiner Kanzlei gemacht werden. Sie müssen nur den Reisepass und die Steuernummer mitbringen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E se houver documentos para assinar?", "de": "Und wenn es Dokumente zu unterschreiben gibt?"},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Com a procuração, podem ser assinados por mim em seu nome.", "de": "Mit der Vollmacht kann ich sie in Ihrem Namen unterschreiben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o IRS? Também pode ser entregue por si?", "de": "Und die Einkommensteuererklärung? Kann die auch von Ihnen abgegeben werden?"},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Quanto ao IRS, é melhor deixá-lo com o seu contabilista. Ele conhece bem a sua situação.", "de": "Was die Einkommensteuer angeht, überlassen Sie die besser Ihrem Steuerberater. Er kennt Ihre Situation gut."}
+    ],
+    "fragen": [
+     {"frage": "Porque precisa o Stefan de uma procuração?", "optionen": ["Porque vai estar fora dois meses.", "Porque vai comprar casa.", "Porque não tem NIF."], "richtig": 0},
+     {"frage": "Onde pode ser feita a procuração?", "optionen": ["Só na Áustria.", "No escritório da advogada.", "Na Segurança Social."], "richtig": 1},
+     {"frage": "Quem deve tratar do IRS?", "optionen": ["A advogada.", "A mulher do Stefan.", "O contabilista."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du besprichst mit einem Steuerberater, ob er deine Steuererklärung übernimmt.",
+    "zeilen": [
+     {"sprecher": "Contabilista", "stimme": "m", "pt": "Bom dia, Senhor Stefan. Em que posso ajudar?", "de": "Guten Morgen, Herr Stefan. Wie kann ich helfen?"},
+     {"ich": true, "aufgabe": "Pergunte se ele pode tratar do seu IRS.", "loesungen": ["Pode tratar do meu IRS?", "Pode tratar do meu IRS, por favor?", "Podia tratar do meu IRS?", "Bom dia. Pode tratar do meu IRS?", "Bom dia. Podia tratar do meu IRS?"]},
+     {"sprecher": "Contabilista", "stimme": "m", "pt": "Com certeza. Tem rendimentos no estrangeiro?", "de": "Selbstverständlich. Haben Sie Einkünfte im Ausland?"},
+     {"ich": true, "aufgabe": "Diga que sim, que tem rendimentos na Áustria.", "loesungen": ["Sim, tenho rendimentos na Áustria.", "Tenho, tenho rendimentos na Áustria.", "Tenho rendimentos na Áustria.", "Sim, tenho rendimentos na Áustria também."]},
+     {"sprecher": "Contabilista", "stimme": "m", "pt": "Então preciso de acesso ao Portal das Finanças. Pode passar-me uma procuração?", "de": "Dann brauche ich Zugang zum Finanzportal. Können Sie mir eine Vollmacht erteilen?"},
+     {"ich": true, "aufgabe": "Sag: Natürlich. Wo wird die Vollmacht unterschrieben? (Passiv)", "loesungen": ["Claro. Onde é assinada a procuração?", "Claro. Onde é que a procuração é assinada?", "Com certeza. Onde é assinada a procuração?", "Com certeza. Onde é que a procuração é assinada?", "Claro. A procuração é assinada onde?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "dei-procuracao", "pt": "Dei uma procuração ao meu advogado.", "de": "Ich habe meinem Anwalt eine Vollmacht erteilt."},
+    {"id": "contabilista-trata-irs", "pt": "O meu contabilista trata do IRS.", "de": "Mein Steuerberater kümmert sich um die Einkommensteuer."},
+    {"id": "representar-me-financas", "pt": "A minha mulher pode representar-me nas Finanças.", "de": "Meine Frau kann mich beim Finanzamt vertreten."}
+   ]
+  },
+  {"id": "B1-03-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-03-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Uma carta das Finanças – ein Brief vom Finanzamt",
+   "situation": "Stefan geht mit einem Brief zum Schalter des Finanzamts.",
+   "zeilen": [
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Bom dia, senha cento e doze? Faça favor.", "de": "Guten Morgen, Nummer hundertzwölf? Bitte schön."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Foi-me enviada esta carta na semana passada e não percebo bem o que é.", "de": "Guten Morgen. Mir wurde letzte Woche dieser Brief geschickt, und ich verstehe nicht ganz, worum es geht."},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Deixe-me ver… É a nota de cobrança do IMI, o imposto sobre a sua casa. É pago todos os anos.", "de": "Lassen Sie mich sehen … Das ist die Zahlungsaufforderung für die IMI, die Steuer auf Ihr Haus. Sie wird jedes Jahr bezahlt."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Mas eu comprei a casa há pouco tempo e já paguei o IMT antes da escritura!", "de": "Aber ich habe das Haus erst vor kurzem gekauft und schon vor dem Notartermin die Grunderwerbsteuer bezahlt!"},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Pois, mas são impostos diferentes. O IMT é pago uma vez, na compra. O IMI é cobrado todos os anos.", "de": "Ja, aber das sind verschiedene Steuern. Die IMT zahlt man einmal, beim Kauf. Die IMI wird jedes Jahr erhoben."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Entendo. E posso pagar aqui?", "de": "Verstehe. Und kann ich hier bezahlen?"},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Pode pagar aqui, no multibanco ou no Portal das Finanças. A referência está na carta.", "de": "Sie können hier bezahlen, am Geldautomaten oder im Finanzportal. Die Referenz steht im Brief."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E se não pagar a tempo?", "de": "Und wenn ich nicht rechtzeitig zahle?"},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Então a sua situação fica por regularizar e pode ter de pagar juros. Não deixe passar o prazo!", "de": "Dann ist Ihre Situation nicht in Ordnung, und Sie müssen eventuell Zinsen zahlen. Lassen Sie die Frist nicht verstreichen!"}
+   ],
+   "fragen": [
+    {"frage": "Que carta recebeu o Stefan?", "optionen": ["A nota de cobrança do IMI.", "A nota de liquidação do IRS.", "Uma notificação da AIMA."], "richtig": 0},
+    {"frage": "Quando é pago o IMT?", "optionen": ["Todos os anos.", "Uma vez, na compra da casa.", "Todos os meses."], "richtig": 1},
+    {"frage": "Onde pode o Stefan pagar?", "optionen": ["Só no balcão.", "Só na câmara municipal.", "No balcão, no multibanco ou no portal."], "richtig": 2},
+    {"frage": "O que pode acontecer se não pagar a tempo?", "optionen": ["Pode ter de pagar juros.", "A casa é vendida.", "Nada."], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Uma notificação – ein Bescheid",
+   "situation": "Stefan findet in seinem persönlichen Bereich der Segurança Social Direta diese Nachricht.",
+   "text": [
+    "Assunto: Pedido de inscrição – processo n.º 2025/48213",
+    "Exmo. Senhor Stefan Krenn,",
+    "Informamos que o seu pedido de inscrição como trabalhador independente foi analisado pelos nossos serviços.",
+    "Verificou-se que falta a cópia do documento de identificação. Por este motivo, o seu processo está suspenso.",
+    "O documento em falta deve ser submetido na sua área reservada da Segurança Social Direta, no prazo de dez dias úteis.",
+    "Caso o documento não seja enviado dentro do prazo, o pedido será indeferido.",
+    "Com os melhores cumprimentos,",
+    "Os Serviços da Segurança Social"
+   ],
+   "fragen": [
+    {"frage": "Qual é o assunto da carta?", "optionen": ["Um pedido de inscrição.", "Uma dívida de IRS.", "Um pedido de reembolso."], "richtig": 0},
+    {"frage": "Porque é que o processo está suspenso?", "optionen": ["Porque o Stefan não pagou.", "Porque falta a cópia de um documento.", "Porque o NISS está errado."], "richtig": 1},
+    {"frage": "Onde deve o Stefan enviar o documento?", "optionen": ["Por correio.", "No balcão de Faro.", "Na área reservada da Segurança Social Direta."], "richtig": 2},
+    {"frage": "O que acontece se o documento não for enviado a tempo?", "optionen": ["O pedido é indeferido.", "O Stefan recebe uma multa.", "O Stefan tem de pagar juros."], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Mein Antrag wurde genehmigt.", "loesungen": ["O meu pedido foi aprovado.", "O meu requerimento foi aprovado."]},
+   {"de": "Die Erklärung muss online eingereicht werden.", "loesungen": ["A declaração tem de ser submetida online.", "A declaração tem que ser submetida online.", "A declaração tem de ser entregue online.", "A declaração tem que ser entregue online.", "A declaração deve ser submetida online."]},
+   {"de": "Die Rechnung ist schon bezahlt.", "loesungen": ["A fatura já está paga."]},
+   {"de": "Haus zu verkaufen.", "loesungen": ["Vende-se casa.", "Vende-se uma casa."]},
+   {"de": "Man hat mir gesagt, dass mein Vorgang noch offen ist.", "loesungen": ["Disseram-me que o meu processo ainda está pendente.", "Disseram-me que o processo ainda está pendente.", "Disseram-me que o meu processo ainda estava pendente.", "Disseram-me que o processo ainda estava pendente."]},
+   {"de": "Ich habe meinem Steuerberater eine Vollmacht erteilt.", "loesungen": ["Dei uma procuração ao meu contabilista.", "Passei uma procuração ao meu contabilista.", "Dei procuração ao meu contabilista."]}
+  ],
+  "sprechen": [
+   {"pt": "Queria pedir o certificado de registo de cidadão da UE.", "de": "Ich möchte die Anmeldebescheinigung für EU-Bürger beantragen."},
+   {"pt": "O meu processo está a ser analisado.", "de": "Mein Vorgang wird gerade bearbeitet."},
+   {"pt": "Quais são os documentos necessários?", "de": "Welche Unterlagen sind erforderlich?"},
+   {"pt": "Não consigo iniciar sessão no Portal das Finanças.", "de": "Ich kann mich nicht im Finanzportal einloggen."},
+   {"pt": "Disseram-me que tinha de voltar amanhã.", "de": "Man hat mir gesagt, ich müsse morgen wiederkommen."}
+  ]
+ }
+}

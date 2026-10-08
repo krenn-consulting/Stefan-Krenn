@@ -1,0 +1,880 @@
+{
+ "id": "B1-01",
+ "level": "B1",
+ "titel": "Desejos e sentimentos – Wünsche und Gefühle",
+ "beschreibung": "Gefühle benennen, Wünsche und Glückwünsche formulieren, Ratschläge geben und Mitgefühl zeigen: der Presente do conjuntivo – regelmäßige und unregelmäßige Formen – nach espero que, quero que, Gefühlsausdrücken und oxalá.",
+ "vokabeln": [
+  {"id": "o-sentimento", "pt": "o sentimento", "de": "das Gefühl", "emoji": "💭", "beispiel_pt": "É difícil falar dos meus sentimentos em português.", "beispiel_de": "Es ist schwer, auf Portugiesisch über meine Gefühle zu sprechen.", "passiv": true},
+  {"id": "sentir-se", "pt": "sentir-se", "de": "sich fühlen", "emoji": "🙂", "beispiel_pt": "Hoje sinto-me muito melhor.", "beispiel_de": "Heute fühle ich mich viel besser.", "hinweis": "sinto-me, sentes-te, sente-se – mit não: Não me sinto bem."},
+  {"id": "aliviado", "pt": "aliviado", "de": "erleichtert", "emoji": "😮‍💨", "beispiel_pt": "Fiquei aliviado quando recebi a notícia.", "beispiel_de": "Ich war erleichtert, als ich die Nachricht bekam.", "alternativen": ["aliviada"]},
+  {"id": "desiludido", "pt": "desiludido", "de": "enttäuscht", "emoji": "😞", "beispiel_pt": "A Ana ficou desiludida com o resultado.", "beispiel_de": "Ana war vom Ergebnis enttäuscht.", "hinweis": "desiludir = enttäuschen", "alternativen": ["desiludida"]},
+  {"id": "zangado", "pt": "zangado", "de": "verärgert / böse", "emoji": "😠", "beispiel_pt": "O João está zangado comigo.", "beispiel_de": "João ist böse auf mich.", "hinweis": "estar zangado com alguém = böse auf jemanden sein", "alternativen": ["zangada"]},
+  {"id": "ansioso", "pt": "ansioso", "de": "unruhig / gespannt", "emoji": "😬", "beispiel_pt": "Estou ansioso por conhecer a tua família.", "beispiel_de": "Ich kann es kaum erwarten, deine Familie kennenzulernen.", "hinweis": "ansioso por + Infinitiv = gespannt darauf, … zu", "alternativen": ["ansiosa"], "passiv": true},
+  {"id": "a-alegria", "pt": "a alegria", "de": "die Freude", "emoji": "😊", "beispiel_pt": "Que alegria ver-te!", "beispiel_de": "Was für eine Freude, dich zu sehen!"},
+  {"id": "a-tristeza", "pt": "a tristeza", "de": "die Traurigkeit", "emoji": "😢", "beispiel_pt": "Senti uma grande tristeza quando ele partiu.", "beispiel_de": "Ich war sehr traurig, als er abgereist ist.", "passiv": true},
+  {"id": "emocionado", "pt": "emocionado", "de": "gerührt / bewegt", "emoji": "🥹", "beispiel_pt": "Fiquei muito emocionado com o discurso.", "beispiel_de": "Ich war von der Rede sehr gerührt.", "alternativen": ["emocionada"], "passiv": true},
+
+  {"id": "desejar", "pt": "desejar", "de": "wünschen", "emoji": "✨", "beispiel_pt": "Desejo-te um bom fim de semana.", "beispiel_de": "Ich wünsche dir ein schönes Wochenende."},
+  {"id": "esperar-que", "pt": "esperar que", "de": "hoffen, dass", "emoji": "🤞", "beispiel_pt": "Espero que gostes do presente.", "beispiel_de": "Ich hoffe, dass dir das Geschenk gefällt.", "hinweis": "esperar que + Konjunktiv. esperar allein = warten oder hoffen."},
+  {"id": "a-esperanca", "pt": "a esperança", "de": "die Hoffnung", "emoji": "🌱", "beispiel_pt": "Tenho esperança de que tudo corra bem.", "beispiel_de": "Ich habe Hoffnung, dass alles gut geht.", "passiv": true},
+  {"id": "aproveitar", "pt": "aproveitar", "de": "nutzen / genießen", "emoji": "🌞", "beispiel_pt": "Aproveita bem as férias!", "beispiel_de": "Genieß den Urlaub!", "hinweis": "aproveitar para + Infinitiv = die Gelegenheit nutzen, um …"},
+  {"id": "festejar", "pt": "festejar", "de": "feiern", "emoji": "🥳", "beispiel_pt": "Vamos festejar o teu aniversário no sábado.", "beispiel_de": "Wir feiern deinen Geburtstag am Samstag."},
+  {"id": "acalmar-se", "pt": "acalmar-se", "de": "sich beruhigen", "emoji": "😌", "beispiel_pt": "Espero que ele se acalme.", "beispiel_de": "Ich hoffe, dass er sich beruhigt.", "hinweis": "Acalma-te! = Beruhig dich!"},
+  {"id": "encontrar", "pt": "encontrar", "de": "finden / treffen", "emoji": "🔍", "beispiel_pt": "Espero que encontres casa depressa.", "beispiel_de": "Ich hoffe, dass du schnell eine Wohnung findest."},
+  {"id": "o-desejo", "pt": "o desejo", "de": "der Wunsch", "emoji": "🌠", "beispiel_pt": "O meu desejo é ficar a viver aqui para sempre.", "beispiel_de": "Mein Wunsch ist, für immer hier zu leben.", "passiv": true},
+  {"id": "animar", "pt": "animar", "de": "aufmuntern", "emoji": "🎈", "beispiel_pt": "O Pedro ligou para me animar.", "beispiel_de": "Pedro hat angerufen, um mich aufzumuntern.", "passiv": true},
+
+  {"id": "descontrair", "pt": "descontrair", "de": "(sich) entspannen", "emoji": "🧘", "beispiel_pt": "Espero que descontraias neste fim de semana.", "beispiel_de": "Ich hoffe, dass du dich an diesem Wochenende entspannst.", "hinweis": "Typisch pt-PT; in Brasilien eher relaxar.", "passiv": true},
+  {"id": "resultar", "pt": "resultar", "de": "klappen / funktionieren", "emoji": "✅", "beispiel_pt": "Espero que o plano resulte.", "beispiel_de": "Ich hoffe, dass der Plan klappt."},
+  {"id": "surpreender", "pt": "surpreender", "de": "überraschen", "emoji": "😲", "beispiel_pt": "Quero surpreender a Ana no aniversário dela.", "beispiel_de": "Ich will Ana an ihrem Geburtstag überraschen.", "passiv": true},
+  {"id": "a-surpresa", "pt": "a surpresa", "de": "die Überraschung", "emoji": "🎁", "beispiel_pt": "Que surpresa!", "beispiel_de": "Was für eine Überraschung!"},
+  {"id": "merecer", "pt": "merecer", "de": "verdienen", "emoji": "🏅", "beispiel_pt": "Mereces umas boas férias.", "beispiel_de": "Du verdienst einen schönen Urlaub.", "hinweis": "eu mereço → que eu mereça"},
+  {"id": "sofrer", "pt": "sofrer", "de": "leiden", "emoji": "💔", "beispiel_pt": "Não quero que sofras.", "beispiel_de": "Ich will nicht, dass du leidest.", "passiv": true},
+  {"id": "esquecer-se-de", "pt": "esquecer-se de", "de": "vergessen", "emoji": "🤦", "beispiel_pt": "Espero que não te esqueças da chave.", "beispiel_de": "Ich hoffe, du vergisst den Schlüssel nicht.", "hinweis": "Esqueci-me da chave. – Konjunktiv: que eu me esqueça"},
+  {"id": "partilhar", "pt": "partilhar", "de": "teilen", "emoji": "🍰", "beispiel_pt": "Gosto de partilhar as boas notícias com os amigos.", "beispiel_de": "Ich teile gute Nachrichten gern mit Freunden.", "passiv": true},
+  {"id": "o-receio", "pt": "o receio", "de": "die Befürchtung", "emoji": "😟", "beispiel_pt": "Tenho receio de que chova no casamento.", "beispiel_de": "Ich befürchte, dass es bei der Hochzeit regnet.", "passiv": true},
+
+  {"id": "seja", "pt": "seja", "de": "(dass) ich/er/sie/es sei – Konjunktiv von ser", "emoji": "🔹", "beispiel_pt": "Espero que seja uma boa notícia.", "beispiel_de": "Ich hoffe, dass es eine gute Nachricht ist.", "hinweis": "que eu seja, tu sejas, ele seja, nós sejamos, eles sejam"},
+  {"id": "esteja", "pt": "esteja", "de": "(dass) ich/er/sie/es sei – Konjunktiv von estar", "emoji": "🔸", "beispiel_pt": "Espero que estejas bem.", "beispiel_de": "Ich hoffe, dass es dir gut geht.", "hinweis": "que eu esteja, tu estejas, ele esteja, nós estejamos, eles estejam"},
+  {"id": "saiba", "pt": "saiba", "de": "(dass) ich/er/sie wisse – Konjunktiv von saber", "emoji": "🧠", "beispiel_pt": "Quero que saibas a verdade.", "beispiel_de": "Ich will, dass du die Wahrheit weißt.", "hinweis": "Que eu saiba, … = Soweit ich weiß, …"},
+  {"id": "haja", "pt": "haja", "de": "(dass) es … gibt – Konjunktiv von haver", "emoji": "🌐", "beispiel_pt": "Espero que haja lugar para todos.", "beispiel_de": "Ich hoffe, dass es Platz für alle gibt."},
+  {"id": "de-dar", "pt": "dê", "de": "(dass) ich/er/sie gebe – Konjunktiv von dar", "emoji": "🎀", "beispiel_pt": "Espero que o médico lhe dê boas notícias.", "beispiel_de": "Ich hoffe, dass der Arzt ihm gute Nachrichten gibt.", "hinweis": "que eu dê, tu dês, ele dê, nós demos, eles deem"},
+  {"id": "possa", "pt": "possa", "de": "(dass) ich/er/sie könne – Konjunktiv von poder", "emoji": "🙌", "beispiel_pt": "Espero que possas vir ao jantar.", "beispiel_de": "Ich hoffe, dass du zum Abendessen kommen kannst.", "hinweis": "eu posso → que eu possa"},
+  {"id": "a-saude", "pt": "a saúde", "de": "die Gesundheit", "emoji": "🍎", "beispiel_pt": "Haja saúde!", "beispiel_de": "Hauptsache gesund!", "hinweis": "Saúde! = Prost! / Gesundheit! (beim Niesen)"},
+  {"id": "a-paciencia", "pt": "a paciência", "de": "die Geduld", "emoji": "⏳", "beispiel_pt": "Tem paciência, isto leva tempo.", "beispiel_de": "Hab Geduld, das braucht Zeit."},
+  {"id": "a-coragem", "pt": "a coragem", "de": "der Mut", "emoji": "🦁", "beispiel_pt": "Espero que tenhas coragem para falar com ele.", "beispiel_de": "Ich hoffe, dass du den Mut hast, mit ihm zu sprechen.", "passiv": true},
+
+  {"id": "querer-que", "pt": "querer que", "de": "wollen, dass", "emoji": "🫵", "beispiel_pt": "Quero que venhas jantar connosco.", "beispiel_de": "Ich will, dass du mit uns zu Abend isst.", "hinweis": "Gleiches Subjekt: Quero ir. – Verschiedene Subjekte: Quero que vás."},
+  {"id": "preferir-que", "pt": "preferir que", "de": "lieber haben, dass", "emoji": "⚖️", "beispiel_pt": "Prefiro que me ligues à noite.", "beispiel_de": "Mir ist lieber, du rufst mich abends an."},
+  {"id": "pedir-que", "pt": "pedir que", "de": "bitten, dass", "emoji": "🙏", "beispiel_pt": "Peço-lhe que espere um momento.", "beispiel_de": "Ich bitte Sie, einen Moment zu warten.", "hinweis": "Im Alltag oft auch: pedir para + Infinitiv"},
+  {"id": "a-vontade", "pt": "a vontade", "de": "der Wille / die Lust", "emoji": "💡", "beispiel_pt": "Tenho vontade de ir à praia.", "beispiel_de": "Ich habe Lust, an den Strand zu gehen.", "hinweis": "Esteja à vontade! = Fühlen Sie sich wie zu Hause!"},
+  {"id": "exigir", "pt": "exigir", "de": "verlangen / fordern", "emoji": "☝️", "beispiel_pt": "O senhorio exige que paguemos até dia oito.", "beispiel_de": "Der Vermieter verlangt, dass wir bis zum Achten zahlen.", "hinweis": "eu exijo → que eu exija", "passiv": true},
+  {"id": "permitir", "pt": "permitir", "de": "erlauben", "emoji": "🟢", "beispiel_pt": "A escola não permite que os alunos usem o telemóvel.", "beispiel_de": "Die Schule erlaubt nicht, dass die Schüler das Handy benutzen.", "passiv": true},
+  {"id": "importar-se", "pt": "importar-se", "de": "etwas dagegen haben", "emoji": "🤷", "beispiel_pt": "Importa-se que eu abra a janela?", "beispiel_de": "Haben Sie etwas dagegen, wenn ich das Fenster öffne?", "hinweis": "Não me importo. = Das macht mir nichts aus.", "passiv": true},
+  {"id": "deixar", "pt": "deixar", "de": "lassen / erlauben", "emoji": "🚪", "beispiel_pt": "Deixa-me ajudar-te!", "beispiel_de": "Lass mich dir helfen!", "hinweis": "deixar alguém + Infinitiv"},
+  {"id": "a-ajuda", "pt": "a ajuda", "de": "die Hilfe", "emoji": "🆘", "beispiel_pt": "Obrigado pela ajuda!", "beispiel_de": "Danke für die Hilfe!"},
+
+  {"id": "fico-contente-que", "pt": "fico contente que", "de": "ich freue mich, dass", "emoji": "😀", "beispiel_pt": "Fico contente que estejas cá.", "beispiel_de": "Ich freue mich, dass du da bist.", "hinweis": "Gleiches Subjekt: Fico contente por estar cá."},
+  {"id": "e-pena-que", "pt": "é pena que", "de": "schade, dass", "emoji": "😕", "beispiel_pt": "É pena que não possas vir.", "beispiel_de": "Schade, dass du nicht kommen kannst.", "hinweis": "Auch: Que pena que …!"},
+  {"id": "lamentar", "pt": "lamentar", "de": "bedauern", "emoji": "😔", "beispiel_pt": "Lamento que tenham de partir tão cedo.", "beispiel_de": "Ich bedauere, dass ihr so früh abreisen müsst."},
+  {"id": "ter-medo-que", "pt": "ter medo que", "de": "Angst haben, dass", "emoji": "😨", "beispiel_pt": "Tenho medo que o voo se atrase.", "beispiel_de": "Ich habe Angst, dass der Flug Verspätung hat.", "hinweis": "Auch: ter medo de que", "alternativen": ["ter medo de que"]},
+  {"id": "gostar-que", "pt": "gostar que", "de": "es mögen, wenn / dass", "emoji": "💕", "beispiel_pt": "Gosto que me digas a verdade.", "beispiel_de": "Ich mag es, wenn du mir die Wahrheit sagst."},
+  {"id": "e-bom-que", "pt": "é bom que", "de": "es ist gut, dass", "emoji": "👌", "beispiel_pt": "É bom que estejas aqui.", "beispiel_de": "Es ist gut, dass du hier bist."},
+  {"id": "irritar", "pt": "irritar", "de": "ärgern / nerven", "emoji": "😤", "beispiel_pt": "Irrita-me que ele chegue sempre atrasado.", "beispiel_de": "Es ärgert mich, dass er immer zu spät kommt.", "passiv": true},
+  {"id": "estranhar", "pt": "estranhar", "de": "sich wundern / komisch finden", "emoji": "🤨", "beispiel_pt": "Estranho que o João não esteja em casa.", "beispiel_de": "Es wundert mich, dass João nicht zu Hause ist.", "passiv": true},
+  {"id": "admirar-se", "pt": "admirar-se", "de": "staunen / sich wundern", "emoji": "😮", "beispiel_pt": "Admirei-me de ver tanta gente na praia em janeiro.", "beispiel_de": "Ich habe gestaunt, im Januar so viele Leute am Strand zu sehen.", "hinweis": "Não me admira que … + Konjunktiv = Es wundert mich nicht, dass …", "passiv": true},
+
+  {"id": "aconselhar", "pt": "aconselhar", "de": "raten / beraten", "emoji": "🧭", "beispiel_pt": "Aconselho-te a falar com um advogado.", "beispiel_de": "Ich rate dir, mit einem Anwalt zu sprechen.", "hinweis": "aconselhar alguém a + Infinitiv"},
+  {"id": "o-conselho", "pt": "o conselho", "de": "der Rat(schlag)", "emoji": "🗝️", "beispiel_pt": "Posso dar-te um conselho?", "beispiel_de": "Darf ich dir einen Rat geben?"},
+  {"id": "sugerir", "pt": "sugerir", "de": "vorschlagen", "emoji": "💬", "beispiel_pt": "Sugiro que façamos uma pausa.", "beispiel_de": "Ich schlage vor, dass wir eine Pause machen.", "hinweis": "eu sugiro, ele sugere – sugerir que + Konjunktiv"},
+  {"id": "e-melhor-que", "pt": "é melhor que", "de": "es ist besser, dass", "emoji": "👉", "beispiel_pt": "É melhor que vás ao médico.", "beispiel_de": "Du gehst besser zum Arzt.", "hinweis": "Ohne bestimmte Person: É melhor ir já."},
+  {"id": "convem", "pt": "convém", "de": "es empfiehlt sich / es ist ratsam", "emoji": "📌", "beispiel_pt": "Convém que marque mesa com antecedência.", "beispiel_de": "Es empfiehlt sich, dass Sie im Voraus einen Tisch reservieren.", "passiv": true},
+  {"id": "desabafar", "pt": "desabafar", "de": "sich aussprechen / Dampf ablassen", "emoji": "🗯️", "beispiel_pt": "Precisava de desabafar com alguém.", "beispiel_de": "Ich musste mich bei jemandem aussprechen.", "passiv": true},
+  {"id": "a-solucao", "pt": "a solução", "de": "die Lösung", "emoji": "🔑", "beispiel_pt": "Há de haver uma solução.", "beispiel_de": "Es wird schon eine Lösung geben."},
+  {"id": "convencer", "pt": "convencer", "de": "überzeugen / überreden", "emoji": "🎯", "beispiel_pt": "Quero convencer o Pedro a vir connosco.", "beispiel_de": "Ich will Pedro überreden, mitzukommen.", "passiv": true},
+  {"id": "arriscar", "pt": "arriscar", "de": "riskieren / wagen", "emoji": "🎲", "beispiel_pt": "Se calhar é melhor não arriscar.", "beispiel_de": "Vielleicht ist es besser, nichts zu riskieren.", "passiv": true},
+
+  {"id": "oxala", "pt": "oxalá", "de": "hoffentlich", "emoji": "🌈", "beispiel_pt": "Oxalá faça sol amanhã!", "beispiel_de": "Hoffentlich scheint morgen die Sonne!", "hinweis": "Aus dem Arabischen; immer mit Konjunktiv."},
+  {"id": "que-corra-tudo-bem", "pt": "Que corra tudo bem!", "de": "Alles Gute! (Möge alles gut gehen!)", "emoji": "🍀", "beispiel_pt": "Amanhã tens a entrevista? Que corra tudo bem!", "beispiel_de": "Morgen hast du das Vorstellungsgespräch? Alles Gute!"},
+  {"id": "que-sejam-muito-felizes", "pt": "Que sejam muito felizes!", "de": "Werdet sehr glücklich!", "emoji": "💒", "beispiel_pt": "Parabéns aos noivos! Que sejam muito felizes!", "beispiel_de": "Glückwunsch an das Brautpaar! Werdet sehr glücklich!"},
+  {"id": "boa-sorte", "pt": "Boa sorte!", "de": "Viel Glück!", "emoji": "🤞", "beispiel_pt": "Boa sorte para o exame!", "beispiel_de": "Viel Glück bei der Prüfung!"},
+  {"id": "felicidades", "pt": "Felicidades!", "de": "Alles Gute! / Viel Glück!", "emoji": "🎊", "beispiel_pt": "Felicidades para o novo emprego!", "beispiel_de": "Alles Gute für den neuen Job!", "passiv": true},
+  {"id": "forca", "pt": "Força!", "de": "Nur Mut! / Du schaffst das!", "emoji": "💪", "beispiel_pt": "Força, Ana! Tu consegues!", "beispiel_de": "Nur Mut, Ana! Du schaffst das!"},
+  {"id": "os-votos", "pt": "os votos", "de": "die (Glück-)Wünsche", "emoji": "💌", "beispiel_pt": "Votos de um feliz Natal e de um bom ano novo!", "beispiel_de": "Frohe Weihnachten und ein gutes neues Jahr!", "hinweis": "Schriftlich und formell: Votos de rápidas melhoras.", "passiv": true},
+  {"id": "os-noivos", "pt": "os noivos", "de": "das Brautpaar / die Verlobten", "emoji": "👰", "beispiel_pt": "Os noivos chegaram à igreja às quatro.", "beispiel_de": "Das Brautpaar kam um vier an der Kirche an.", "hinweis": "o noivo = der Bräutigam / Verlobte, a noiva = die Braut / Verlobte", "passiv": true},
+  {"id": "boa-viagem", "pt": "Boa viagem!", "de": "Gute Reise!", "emoji": "🧳", "beispiel_pt": "Boa viagem e manda notícias!", "beispiel_de": "Gute Reise und melde dich!"},
+
+  {"id": "a-amizade", "pt": "a amizade", "de": "die Freundschaft", "emoji": "🤗", "beispiel_pt": "A nossa amizade é muito importante para mim.", "beispiel_de": "Unsere Freundschaft ist mir sehr wichtig."},
+  {"id": "confiar-em", "pt": "confiar em", "de": "vertrauen", "emoji": "🫂", "beispiel_pt": "Confio muito no João.", "beispiel_de": "Ich vertraue João sehr."},
+  {"id": "a-confianca", "pt": "a confiança", "de": "das Vertrauen", "emoji": "🔐", "beispiel_pt": "A confiança é a base de uma amizade.", "beispiel_de": "Vertrauen ist die Grundlage einer Freundschaft.", "passiv": true},
+  {"id": "zangar-se-com", "pt": "zangar-se com", "de": "sich streiten mit / böse werden auf", "emoji": "💢", "beispiel_pt": "Zanguei-me com o meu irmão.", "beispiel_de": "Ich habe mich mit meinem Bruder gestritten.", "hinweis": "Não te zangues! = Sei nicht böse!"},
+  {"id": "fazer-as-pazes", "pt": "fazer as pazes", "de": "sich versöhnen", "emoji": "🕊️", "beispiel_pt": "Espero que façam as pazes depressa.", "beispiel_de": "Ich hoffe, dass sie sich schnell versöhnen."},
+  {"id": "o-casal", "pt": "o casal", "de": "das Paar", "emoji": "💑", "beispiel_pt": "O João e a mulher são um casal muito simpático.", "beispiel_de": "João und seine Frau sind ein sehr nettes Paar.", "passiv": true},
+  {"id": "namorar", "pt": "namorar", "de": "zusammen sein (Paar)", "emoji": "💘", "beispiel_pt": "Eles namoram há três anos.", "beispiel_de": "Sie sind seit drei Jahren zusammen.", "hinweis": "o namorado / a namorada", "passiv": true},
+  {"id": "apoiar", "pt": "apoiar", "de": "unterstützen", "emoji": "🫶", "beispiel_pt": "Os amigos apoiaram-nos muito na mudança.", "beispiel_de": "Die Freunde haben uns beim Umzug sehr unterstützt."},
+  {"id": "a-relacao", "pt": "a relação", "de": "die Beziehung", "emoji": "💞", "beispiel_pt": "Eles têm uma ótima relação.", "beispiel_de": "Sie haben eine super Beziehung.", "passiv": true},
+
+  {"id": "lamento-muito", "pt": "Lamento muito.", "de": "Es tut mir sehr leid.", "emoji": "🖤", "beispiel_pt": "Lamento muito o que aconteceu.", "beispiel_de": "Es tut mir sehr leid, was passiert ist.", "hinweis": "Auch: Tenho muita pena. – Desculpe ist nur eine Entschuldigung."},
+  {"id": "os-meus-pesames", "pt": "Os meus pêsames.", "de": "Mein Beileid.", "emoji": "🕯️", "beispiel_pt": "Soube da morte do teu pai. Os meus pêsames.", "beispiel_de": "Ich habe vom Tod deines Vaters erfahren. Mein Beileid.", "hinweis": "Auch: Os meus sentimentos."},
+  {"id": "falecer", "pt": "falecer", "de": "versterben", "emoji": "🥀", "beispiel_pt": "A avó do João faleceu ontem.", "beispiel_de": "Joãos Großmutter ist gestern verstorben.", "hinweis": "Höflicher als morrer.", "passiv": true},
+  {"id": "o-funeral", "pt": "o funeral", "de": "die Beerdigung", "emoji": "⚱️", "beispiel_pt": "O funeral é amanhã às onze.", "beispiel_de": "Die Beerdigung ist morgen um elf.", "hinweis": "o velório = die Totenwache am Vorabend", "passiv": true},
+  {"id": "coitado", "pt": "coitado", "de": "der/die Arme", "emoji": "🥺", "beispiel_pt": "Coitado do João! Está muito triste.", "beispiel_de": "Der arme João! Er ist sehr traurig.", "alternativen": ["coitada"]},
+  {"id": "conta-comigo", "pt": "Conta comigo.", "de": "Du kannst auf mich zählen.", "emoji": "🤝", "beispiel_pt": "Precisas de ajuda? Conta comigo.", "beispiel_de": "Brauchst du Hilfe? Du kannst auf mich zählen.", "hinweis": "Formell: Conte comigo. / Pode contar comigo."},
+  {"id": "que-chatice", "pt": "Que chatice!", "de": "Wie ärgerlich! / So ein Mist!", "emoji": "😩", "beispiel_pt": "Perdeste o voo? Que chatice!", "beispiel_de": "Du hast den Flug verpasst? So ein Mist!"},
+  {"id": "nao-ha-de-ser-nada", "pt": "Não há de ser nada.", "de": "Das wird schon nichts Schlimmes sein.", "emoji": "🌤️", "beispiel_pt": "Não te preocupes, não há de ser nada.", "beispiel_de": "Mach dir keine Sorgen, es wird schon nichts Schlimmes sein.", "passiv": true},
+  {"id": "a-perda", "pt": "a perda", "de": "der Verlust", "emoji": "🍂", "beispiel_pt": "Lamento muito a sua perda.", "beispiel_de": "Ihr Verlust tut mir sehr leid.", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-01-L01",
+   "typ": "neu",
+   "titel": "Sentimentos – Gefühle benennen",
+   "vokabeln": ["o-sentimento", "sentir-se", "aliviado", "desiludido", "zangado", "ansioso", "a-alegria", "a-tristeza", "emocionado"],
+   "grammatik": {
+    "titel": "Sentimentos: estar, ficar e sentir-se",
+    "erklaerung": [
+     "Para falar de sentimentos usamos <b>estar</b> (o estado de agora), <b>ficar</b> (a reação a alguma coisa) e <b>sentir-se</b>: <i>Estou cansado. Fiquei aliviado. Sinto-me bem.</i>",
+     "<b>ficar</b> + adjetivo mostra uma mudança de estado, muitas vezes no passado: <i>Quando ouvi a notícia, fiquei muito contente.</i>",
+     "<b>sentir-se</b> é reflexo: <i>sinto-me, sentes-te, sente-se, sentimo-nos, sentem-se</i>. Depois de <i>não</i>, o pronome vai para a frente: <i>Não me sinto bem.</i>",
+     "Com <b>estar com</b> + nome: <i>estar com medo, estar com saudades, estar com pressa</i>. Nas próximas lições: sentimentos e desejos + <b>que</b> + conjuntivo."
+    ],
+    "erklaerung_de": [
+     "Für Gefühle benutzt man <b>estar</b> (Zustand jetzt), <b>ficar</b> (Reaktion auf etwas) und <b>sentir-se</b> (sich fühlen): <i>Estou cansado. Fiquei aliviado. Sinto-me bem.</i>",
+     "<b>ficar</b> + Adjektiv zeigt eine Veränderung, oft in der Vergangenheit: <i>Quando ouvi a notícia, fiquei muito contente.</i> – Als ich die Nachricht hörte, habe ich mich sehr gefreut.",
+     "<b>sentir-se</b> ist reflexiv: <i>sinto-me, sentes-te, sente-se, sentimo-nos, sentem-se</i>. Nach <i>não</i> steht das Pronomen vorn: <i>Não me sinto bem.</i>",
+     "Mit <b>estar com</b> + Nomen: <i>estar com medo</i> (Angst haben), <i>estar com saudades</i> (Sehnsucht haben), <i>estar com pressa</i> (es eilig haben). In den nächsten Lektionen: Gefühle und Wünsche + <b>que</b> + Konjunktiv."
+    ],
+    "vergleich": "Deutsch sagt „ich war erleichtert, als …“ – Portugiesisch unterscheidet: <i>estou</i> (Zustand jetzt) und <i>fiquei</i> (Reaktion, „ich wurde“). „Ich war erleichtert, als …“ = <i>Fiquei aliviado quando …</i> – nicht <i>estive</i>.",
+    "beispiele": [
+     {"pt": "Fiquei muito aliviado com o resultado das análises.", "de": "Ich war über das Ergebnis der Blutuntersuchung sehr erleichtert."},
+     {"pt": "A Ana está zangada comigo porque me esqueci do jantar.", "de": "Ana ist böse auf mich, weil ich das Abendessen vergessen habe."},
+     {"pt": "Hoje não me sinto muito bem.", "de": "Heute fühle ich mich nicht sehr gut."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quando ouvi a notícia, ___ muito contente. (ficar)", "loesungen": ["fiquei"], "de": "Als ich die Nachricht hörte, habe ich mich sehr gefreut.", "kategorie": "ficar/estar"},
+     {"typ": "luecke", "satz": "Hoje ___ muito melhor. (sentir-se, eu)", "loesungen": ["sinto-me"], "de": "Heute fühle ich mich viel besser.", "erklaerung": "Hauptsatz ohne Auslöser: Pronomen hinter dem Verb – sinto-me.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Não ___ sinto bem.", "loesungen": ["me"], "de": "Ich fühle mich nicht gut.", "erklaerung": "Nach não steht das Pronomen vor dem Verb.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Ich war enttäuscht, als ich das Ergebnis sah.“", "optionen": ["Estive desiludido quando vi o resultado.", "Fiquei desiludido quando vi o resultado.", "Era desiludido quando vi o resultado."], "richtig": 1, "erklaerung": "Reaktion auf etwas: ficar → fiquei.", "kategorie": "ficar/estar"},
+     {"typ": "auswahl", "frage": "Qual é o contrário de «a alegria»?", "optionen": ["a sorte", "a tristeza", "a viagem"], "richtig": 1},
+     {"typ": "uebersetzen", "de": "João ist böse auf mich.", "loesungen": ["O João está zangado comigo."]},
+     {"typ": "uebersetzen", "de": "Ich war sehr gerührt.", "loesungen": ["Fiquei muito emocionado.", "Fiquei muito emocionada.", "Estava muito emocionado.", "Estava muito emocionada."], "kategorie": "ficar/estar"},
+     {"typ": "satzbau", "de": "Sie fühlt sich heute nicht gut.", "loesung": "Ela não se sente bem hoje."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma boa notícia – eine gute Nachricht",
+    "situation": "Ana kommt nach Hause. Sie hatte heute ein Vorstellungsgespräch.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então, Ana? Como correu a entrevista?", "de": "Na, Ana? Wie ist das Vorstellungsgespräch gelaufen?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Nem sei bem. Estava tão nervosa que quase não dormi esta noite.", "de": "Ich weiß es gar nicht so genau. Ich war so nervös, dass ich heute Nacht kaum geschlafen habe."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E agora, como te sentes?", "de": "Und jetzt, wie fühlst du dich?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Agora sinto-me aliviada. Ligaram-me há meia hora: fiquei com o lugar!", "de": "Jetzt bin ich erleichtert. Sie haben mich vor einer halben Stunde angerufen: Ich habe die Stelle!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Que alegria! Estou tão orgulhoso de ti!", "de": "Wirklich? Was für eine Freude! Ich bin so stolz auf dich!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Fiquei tão emocionada que comecei a chorar no carro.", "de": "Ich war so gerührt, dass ich im Auto angefangen habe zu weinen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isto merece um jantar especial. Vamos festejar!", "de": "Das verdient ein besonderes Abendessen. Lass uns feiern!"}
+    ],
+    "fragen": [
+     {"frage": "Como estava a Ana antes da entrevista?", "optionen": ["Calma.", "Zangada.", "Muito nervosa."], "richtig": 2},
+     {"frage": "Como se sente a Ana agora?", "optionen": ["Aliviada.", "Desiludida.", "Cansada."], "richtig": 0},
+     {"frage": "O que propõe o Stefan?", "optionen": ["Ir dormir cedo.", "Festejar com um jantar.", "Ligar à família."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Fiquei muito aliviado.", "de": "Ich war sehr erleichtert."},
+     {"pt": "Hoje não me sinto muito bem.", "de": "Heute fühle ich mich nicht sehr gut."},
+     {"pt": "A Ana está zangada comigo.", "de": "Ana ist böse auf mich."},
+     {"pt": "Que alegria ver-te!", "de": "Was für eine Freude, dich zu sehen!"},
+     {"pt": "Fiquei desiludido com o resultado.", "de": "Ich war vom Ergebnis enttäuscht."}
+    ]
+   },
+   "saetze": [
+    {"id": "fiquei-aliviado", "pt": "Fiquei muito aliviado com o resultado.", "de": "Ich war über das Ergebnis sehr erleichtert."},
+    {"id": "nao-me-sinto-bem", "pt": "Hoje não me sinto muito bem.", "de": "Heute fühle ich mich nicht sehr gut."},
+    {"id": "que-alegria-ver-te", "pt": "Que alegria ver-te!", "de": "Was für eine Freude, dich zu sehen!"}
+   ]
+  },
+  {
+   "id": "B1-01-L02",
+   "typ": "neu",
+   "titel": "Espero que gostes – Konjunktiv der Verben auf -ar",
+   "vokabeln": ["desejar", "esperar-que", "a-esperanca", "aproveitar", "festejar", "acalmar-se", "encontrar", "o-desejo", "animar"],
+   "grammatik": {
+    "titel": "Presente do conjuntivo: verbos em -ar",
+    "erklaerung": [
+     "O <b>conjuntivo</b> é o modo do desejo, do sentimento e da dúvida. Aparece quase sempre depois de <b>que</b>: <i>Espero que gostes.</i>",
+     "Formação: forma <b>eu</b> do presente, sem o <b>-o</b>, + terminações com <b>e</b>: falar → fal<b>o</b> → que eu fal<b>e</b>, tu fal<b>es</b>, ele fal<b>e</b>, nós fal<b>emos</b>, eles fal<b>em</b>.",
+     "Os verbos em -ar trocam o <b>a</b> pelo <b>e</b>: <i>ele gosta → que ele goste; nós ajudamos → que nós ajudemos</i>.",
+     "Atenção à ortografia: fi<b>c</b>ar → fi<b>qu</b>e, che<b>g</b>ar → che<b>gu</b>e, come<b>ç</b>ar → come<b>c</b>e, pa<b>g</b>ar → pa<b>gu</b>e."
+    ],
+    "erklaerung_de": [
+     "Der <b>Konjunktiv</b> ist der Modus des Wunsches, des Gefühls und des Zweifels. Er steht fast immer nach <b>que</b> (dass): <i>Espero que gostes.</i> – Ich hoffe, es gefällt dir.",
+     "Bildung: <b>eu</b>-Form des Präsens ohne <b>-o</b> + Endungen mit <b>e</b>: falar → fal<b>o</b> → que eu fal<b>e</b>, tu fal<b>es</b>, ele fal<b>e</b>, nós fal<b>emos</b>, eles fal<b>em</b>.",
+     "Die -ar-Verben tauschen das <b>a</b> gegen ein <b>e</b>: <i>ele gosta → que ele goste; nós ajudamos → que nós ajudemos</i>.",
+     "Achtung Rechtschreibung: fi<b>c</b>ar → fi<b>qu</b>e, che<b>g</b>ar → che<b>gu</b>e, come<b>ç</b>ar → come<b>c</b>e, pa<b>g</b>ar → pa<b>gu</b>e – damit die Aussprache gleich bleibt."
+    ],
+    "vergleich": "Das Deutsche hat einen Konjunktiv („er sei“), benutzt ihn aber fast nur in der indirekten Rede. Nach „ich hoffe, dass“ steht im Deutschen der Indikativ – im Portugiesischen <b>immer</b> der Konjunktiv: <i>Espero que gostes</i> (wörtlich: „dass du mögest“). Englisch: „I hope you like it.“",
+    "beispiele": [
+     {"pt": "Espero que gostes do presente.", "de": "Ich hoffe, dass dir das Geschenk gefällt."},
+     {"pt": "Espero que o João nos ajude com a mudança.", "de": "Ich hoffe, dass João uns beim Umzug hilft."},
+     {"pt": "Espero que cheguem bem a casa.", "de": "Ich hoffe, ihr kommt gut nach Hause."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Espero que tu ___ do jantar. (gostar)", "loesungen": ["gostes"], "de": "Ich hoffe, dass dir das Abendessen schmeckt.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Espero que eles ___ a horas. (chegar)", "loesungen": ["cheguem"], "de": "Ich hoffe, dass sie pünktlich ankommen.", "erklaerung": "chegar → chegue: das u hält das g hart.", "kategorie": "Rechtschreibung"},
+     {"typ": "luecke", "satz": "Espero que vocês ___ bem as férias. (aproveitar)", "loesungen": ["aproveitem"], "de": "Ich hoffe, dass ihr den Urlaub genießt.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Espero que o Pedro se ___. (acalmar)", "loesungen": ["acalme"], "de": "Ich hoffe, dass Pedro sich beruhigt.", "erklaerung": "Nach que steht das Pronomen vor dem Verb: que se acalme.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Espero que nós ___ uma solução. (encontrar)", "loesungen": ["encontremos"], "de": "Ich hoffe, dass wir eine Lösung finden.", "kategorie": "Conjuntivo"},
+     {"typ": "auswahl", "frage": "„Ich hoffe, dass du eine Wohnung findest.“", "optionen": ["Espero que encontras casa.", "Espero que encontres casa.", "Espero encontrar casa."], "richtig": 1, "erklaerung": "Verschiedene Subjekte (ich – du): que + Konjunktiv. „Espero encontrar“ = ich hoffe, (selbst) eine zu finden.", "kategorie": "Conjuntivo"},
+     {"typ": "uebersetzen", "de": "Ich wünsche dir ein schönes Wochenende.", "loesungen": ["Desejo-te um bom fim de semana.", "Desejo-te um ótimo fim de semana.", "Desejo-te um fim de semana ótimo."], "kategorie": "Pronomen"},
+     {"typ": "satzbau", "de": "Ich hoffe, dass Ana mit Pedro spricht.", "loesung": "Espero que a Ana fale com o Pedro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma mensagem de voz – eine Sprachnachricht",
+    "situation": "Anas Mutter Teresa hinterlässt Stefan eine Sprachnachricht.",
+    "zeilen": [
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Olá, Stefan! É a Teresa, a mãe da Ana.", "de": "Hallo Stefan! Hier ist Teresa, Anas Mutter."},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Ligo-te hoje porque amanhã fazes anos e vou estar o dia todo fora.", "de": "Ich rufe dich heute an, weil du morgen Geburtstag hast und ich den ganzen Tag unterwegs bin."},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Desejo-te um feliz aniversário! Espero que festejes com os amigos e que aproveites bem o dia.", "de": "Ich wünsche dir alles Gute zum Geburtstag! Ich hoffe, du feierst mit Freunden und genießt den Tag."},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "A Ana contou-me que estás a trabalhar muito. Espero que descanses um bocadinho no fim de semana.", "de": "Ana hat mir erzählt, dass du viel arbeitest. Ich hoffe, dass du dich am Wochenende ein bisschen ausruhst."},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Ah, mandei-te o presente pelo correio. Espero que chegue a tempo e que gostes!", "de": "Ach, ich habe dir das Geschenk mit der Post geschickt. Ich hoffe, es kommt rechtzeitig an und gefällt dir!"},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Um beijinho grande e até breve!", "de": "Ein dickes Küsschen und bis bald!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a Teresa liga ao Stefan?", "optionen": ["Porque precisa de ajuda.", "Porque vai visitá-los.", "Porque ele faz anos amanhã."], "richtig": 2},
+     {"frage": "O que espera a Teresa?", "optionen": ["Que o Stefan descanse no fim de semana.", "Que o Stefan trabalhe mais.", "Que o Stefan vá a Lisboa."], "richtig": 0},
+     {"frage": "Como vai chegar o presente?", "optionen": ["A Ana vai buscá-lo.", "Pelo correio.", "A Teresa entrega-o amanhã."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Freund Pedro fängt nächste Woche einen neuen Job an. Wünsch ihm alles Gute (tu).",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Sabes que na segunda começo no novo emprego?", "de": "Weißt du, dass ich am Montag im neuen Job anfange?"},
+     {"ich": true, "aufgabe": "Diga que espera que ele goste do novo emprego.", "loesungen": ["Espero que gostes do novo emprego.", "Espero que gostes do novo emprego!", "Espero que gostes do emprego novo.", "Espero que gostes.", "Que bom! Espero que gostes do novo emprego."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Obrigado! Estou um bocado nervoso. A equipa é grande.", "de": "Danke! Ich bin ein bisschen nervös. Das Team ist groß."},
+     {"ich": true, "aufgabe": "Diga que espera que os colegas o ajudem.", "loesungen": ["Espero que os colegas te ajudem.", "Espero que os teus colegas te ajudem.", "Espero que os colegas te ajudem muito.", "Espero que os novos colegas te ajudem."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E antes disso ainda tenho uma semana de férias!", "de": "Und davor habe ich noch eine Woche Urlaub!"},
+     {"ich": true, "aufgabe": "Diga que espera que ele aproveite bem a semana.", "loesungen": ["Espero que aproveites bem a semana.", "Espero que aproveites bem a semana!", "Espero que aproveites bem.", "Espero que aproveites a semana."]}
+    ]
+   },
+   "saetze": [
+    {"id": "espero-que-gostes", "pt": "Espero que gostes do presente.", "de": "Ich hoffe, dass dir das Geschenk gefällt."},
+    {"id": "desejo-te-bom-fds", "pt": "Desejo-te um bom fim de semana.", "de": "Ich wünsche dir ein schönes Wochenende."},
+    {"id": "espero-que-cheguem-bem", "pt": "Espero que cheguem bem a casa.", "de": "Ich hoffe, ihr kommt gut nach Hause."}
+   ]
+  },
+  {
+   "id": "B1-01-L03",
+   "typ": "neu",
+   "titel": "Espero que resulte – Konjunktiv der Verben auf -er und -ir",
+   "vokabeln": ["descontrair", "resultar", "surpreender", "a-surpresa", "merecer", "sofrer", "esquecer-se-de", "partilhar", "o-receio"],
+   "grammatik": {
+    "titel": "Presente do conjuntivo: verbos em -er e -ir",
+    "erklaerung": [
+     "Os verbos em <b>-er</b> e <b>-ir</b> recebem terminações com <b>a</b>: comer → com<b>o</b> → que eu com<b>a</b>, tu com<b>as</b>, ele com<b>a</b>, nós com<b>amos</b>, eles com<b>am</b>. Partir → que eu part<b>a</b>, tu part<b>as</b> …",
+     "A base é sempre a forma <b>eu</b> do presente. Por isso, as irregularidades do <i>eu</i> passam para todas as pessoas: ou<b>ç</b>o → que eu ou<b>ç</b>a; pe<b>ç</b>o → pe<b>ç</b>a; d<b>u</b>rmo → d<b>u</b>rma; per<b>c</b>o → per<b>c</b>a.",
+     "Também assim: ver → vejo → que eu <b>veja</b>; dizer → digo → <b>diga</b>; vir → venho → <b>venha</b>; sair → saio → <b>saia</b>; conhecer → conheço → <b>conheça</b>.",
+     "Com verbos reflexos, o pronome fica antes do verbo, porque <b>que</b> puxa o pronome: <i>Espero que não te esqueças.</i>"
+    ],
+    "erklaerung_de": [
+     "Die Verben auf <b>-er</b> und <b>-ir</b> bekommen Endungen mit <b>a</b>: comer → com<b>o</b> → que eu com<b>a</b>, tu com<b>as</b>, ele com<b>a</b>, nós com<b>amos</b>, eles com<b>am</b>. Partir → que eu part<b>a</b>, tu part<b>as</b> …",
+     "Grundlage ist immer die <b>eu</b>-Form des Präsens. Deshalb gehen die Unregelmäßigkeiten der eu-Form in alle Personen über: ou<b>ç</b>o → que eu ou<b>ç</b>a; pe<b>ç</b>o → pe<b>ç</b>a; d<b>u</b>rmo → d<b>u</b>rma; per<b>c</b>o → per<b>c</b>a.",
+     "Genauso: ver → vejo → que eu <b>veja</b>; dizer → digo → <b>diga</b>; vir → venho → <b>venha</b>; sair → saio → <b>saia</b>; conhecer → conheço → <b>conheça</b>.",
+     "Bei reflexiven Verben steht das Pronomen vor dem Verb, weil <b>que</b> es nach vorn zieht: <i>Espero que não te esqueças.</i> – Ich hoffe, du vergisst es nicht."
+    ],
+    "vergleich": "Merk dir das „Kreuz“: -ar-Verben bekommen im Konjunktiv ein <b>e</b> (fale), -er/-ir-Verben ein <b>a</b> (coma, parta). Viele Formen kennst du schon vom formellen Imperativ: <i>Diga! Venha! Ouça!</i> – das sind dieselben Formen.",
+    "beispiele": [
+     {"pt": "Espero que o plano resulte.", "de": "Ich hoffe, dass der Plan klappt."},
+     {"pt": "Espero que durmas bem.", "de": "Ich hoffe, du schläfst gut."},
+     {"pt": "Espero que não te esqueças da chave.", "de": "Ich hoffe, du vergisst den Schlüssel nicht."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Espero que tu ___ bem esta noite. (dormir)", "loesungen": ["durmas"], "de": "Ich hoffe, du schläfst heute Nacht gut.", "erklaerung": "eu durmo → que tu durmas.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Espero que o Pedro ___ ao jantar. (vir)", "loesungen": ["venha"], "de": "Ich hoffe, dass Pedro zum Abendessen kommt.", "erklaerung": "eu venho → que ele venha.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Espero que eles ___ o caminho. (conhecer)", "loesungen": ["conheçam"], "de": "Ich hoffe, dass sie den Weg kennen.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Espero que vocês não se ___ dos bilhetes. (esquecer)", "loesungen": ["esqueçam"], "de": "Ich hoffe, dass ihr die Tickets nicht vergesst.", "erklaerung": "eu esqueço → que eles se esqueçam; das Pronomen steht vor dem Verb.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Espero que ela me ___ a verdade. (dizer)", "loesungen": ["diga"], "de": "Ich hoffe, dass sie mir die Wahrheit sagt.", "kategorie": "Conjuntivo"},
+     {"typ": "auswahl", "frage": "Espero que tu ___ o jogo amanhã. (ver)", "optionen": ["vês", "veja", "vejas"], "richtig": 2, "erklaerung": "eu vejo → que tu vejas. „veja“ ist die Form für eu/ele/formell.", "kategorie": "Conjuntivo"},
+     {"typ": "uebersetzen", "de": "Ich hoffe, dass der Plan klappt.", "loesungen": ["Espero que o plano resulte.", "Espero que o plano funcione."]},
+     {"typ": "satzbau", "de": "Ich hoffe, dass ihr euch am Wochenende entspannt.", "loesung": "Espero que descontraiam no fim de semana."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O jantar surpresa – das Überraschungsessen",
+    "situation": "Stefan plant mit Rita ein Überraschungsessen zu Anas Geburtstag.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então, Stefan, está tudo pronto para o jantar surpresa?", "de": "Na, Stefan, ist alles bereit für das Überraschungsessen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quase. Reservei uma mesa no restaurante do porto. Espero que a Ana não descubra nada!", "de": "Fast. Ich habe einen Tisch im Restaurant am Hafen reserviert. Ich hoffe, Ana merkt nichts!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Não te preocupes, eu não digo nada. E quem vem?", "de": "Keine Sorge, ich sage nichts. Und wer kommt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tu, o Pedro, o João e a mulher. Espero que o João venha a horas, ele chega sempre atrasado.", "de": "Du, Pedro, João und seine Frau. Ich hoffe, João kommt pünktlich, er kommt immer zu spät."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Eu ligo-lhe. E o presente?", "de": "Ich rufe ihn an. Und das Geschenk?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Comprei uma viagem aos Açores. Espero que ela goste – merece umas boas férias.", "de": "Ich habe eine Reise auf die Azoren gekauft. Ich hoffe, sie freut sich – sie verdient einen schönen Urlaub."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Vai adorar! Espero só que ninguém se esqueça de que é surpresa.", "de": "Sie wird es lieben! Ich hoffe nur, dass niemand vergisst, dass es eine Überraschung ist."}
+    ],
+    "fragen": [
+     {"frage": "Onde vai ser o jantar?", "optionen": ["Em casa do Stefan.", "No restaurante do porto.", "Em casa da Rita."], "richtig": 1},
+     {"frage": "Qual é o problema do João?", "optionen": ["Chega sempre atrasado.", "Não gosta de surpresas.", "Está doente."], "richtig": 0},
+     {"frage": "Qual é o presente para a Ana?", "optionen": ["Um jantar.", "Um livro.", "Uma viagem aos Açores."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich hoffe, du schläfst gut.", "loesungen": ["Espero que durmas bem."]},
+     {"de": "Ich hoffe, dass Pedro zum Abendessen kommt.", "loesungen": ["Espero que o Pedro venha ao jantar.", "Espero que o Pedro venha jantar."]},
+     {"de": "Ich hoffe, dass ihr den Schlüssel nicht vergesst.", "loesungen": ["Espero que não se esqueçam da chave.", "Espero que vocês não se esqueçam da chave."]},
+     {"de": "Du verdienst einen schönen Urlaub.", "loesungen": ["Mereces umas boas férias.", "Tu mereces umas boas férias.", "Mereces umas férias ótimas."]},
+     {"de": "Was für eine Überraschung!", "loesungen": ["Que surpresa!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "espero-que-resulte", "pt": "Espero que o plano resulte.", "de": "Ich hoffe, dass der Plan klappt."},
+    {"id": "espero-que-durmas-bem", "pt": "Espero que durmas bem.", "de": "Ich hoffe, du schläfst gut."},
+    {"id": "mereces-umas-ferias", "pt": "Mereces umas boas férias.", "de": "Du verdienst einen schönen Urlaub."}
+   ]
+  },
+  {
+   "id": "B1-01-L04",
+   "typ": "neu",
+   "titel": "Espero que estejas bem – unregelmäßige Formen",
+   "vokabeln": ["seja", "esteja", "saiba", "haja", "de-dar", "possa", "a-saude", "a-paciencia", "a-coragem"],
+   "grammatik": {
+    "titel": "Presente do conjuntivo: formas irregulares",
+    "erklaerung": [
+     "Sete verbos não seguem a regra da forma <i>eu</i>: <b>ser</b> → seja, <b>estar</b> → esteja, <b>ir</b> → vá, <b>haver</b> → haja, <b>saber</b> → saiba, <b>querer</b> → queira, <b>dar</b> → dê.",
+     "Conjugação: <i>seja, sejas, seja, sejamos, sejam</i> · <i>esteja, estejas, esteja, estejamos, estejam</i> · <i>vá, vás, vá, vamos, vão</i> · <i>dê, dês, dê, demos, deem</i>.",
+     "Muito frequentes, mas regulares a partir do <i>eu</i>: ter → tenho → <b>tenha</b>; fazer → faço → <b>faça</b>; poder → posso → <b>possa</b>; pôr → ponho → <b>ponha</b>.",
+     "Expressões fixas: <i>Haja saúde!</i> (o mais importante é a saúde), <i>Seja como for</i> (de qualquer maneira), <i>Que eu saiba</i> (pelo que eu sei)."
+    ],
+    "erklaerung_de": [
+     "Sieben Verben folgen nicht der eu-Form-Regel: <b>ser</b> → seja, <b>estar</b> → esteja, <b>ir</b> → vá, <b>haver</b> → haja, <b>saber</b> → saiba, <b>querer</b> → queira, <b>dar</b> → dê.",
+     "Konjugation: <i>seja, sejas, seja, sejamos, sejam</i> · <i>esteja, estejas, esteja, estejamos, estejam</i> · <i>vá, vás, vá, vamos, vão</i> · <i>dê, dês, dê, demos, deem</i>.",
+     "Sehr häufig, aber regelmäßig aus der eu-Form gebildet: ter → tenho → <b>tenha</b>; fazer → faço → <b>faça</b>; poder → posso → <b>possa</b>; pôr → ponho → <b>ponha</b>.",
+     "Feste Wendungen: <i>Haja saúde!</i> (Hauptsache gesund!), <i>Seja como for</i> (wie auch immer), <i>Que eu saiba</i> (soweit ich weiß)."
+    ],
+    "vergleich": "Auch im Deutschen hat „sein“ einen eigenen Konjunktiv: „er <b>sei</b>“ – genau wie <i>seja</i>. Und wie im Deutschen sind die häufigsten Verben die unregelmäßigsten.",
+    "beispiele": [
+     {"pt": "Espero que estejas bem.", "de": "Ich hoffe, dass es dir gut geht."},
+     {"pt": "Espero que haja lugar para todos.", "de": "Ich hoffe, dass es Platz für alle gibt."},
+     {"pt": "Que eu saiba, a festa é no sábado.", "de": "Soweit ich weiß, ist die Party am Samstag."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Espero que a viagem ___ boa. (ser)", "loesungen": ["seja"], "de": "Ich hoffe, dass die Reise gut wird.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Espero que vocês ___ bem. (estar)", "loesungen": ["estejam"], "de": "Ich hoffe, dass es euch gut geht.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Espero que tu ___ ao médico amanhã. (ir)", "loesungen": ["vás"], "de": "Ich hoffe, dass du morgen zum Arzt gehst.", "erklaerung": "ir → que eu vá, tu vás, ele vá.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Espero que ___ bilhetes para o concerto. (haver)", "loesungen": ["haja"], "de": "Ich hoffe, dass es Karten für das Konzert gibt.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Quero que tu ___ a verdade. (saber)", "loesungen": ["saibas"], "de": "Ich will, dass du die Wahrheit weißt.", "kategorie": "Conjuntivo"},
+     {"typ": "auswahl", "frage": "„Ich hoffe, dass du Geduld hast.“ (tu)", "optionen": ["Espero que tens paciência.", "Espero que tenhas paciência.", "Espero que tenha paciência."], "richtig": 1, "erklaerung": "eu tenho → que tu tenhas. „tenha“ wäre die Form für ele oder formell (o senhor/a senhora).", "kategorie": "Conjuntivo"},
+     {"typ": "uebersetzen", "de": "Ich hoffe, dass du kommen kannst.", "loesungen": ["Espero que possas vir.", "Espero que tu possas vir."]},
+     {"typ": "satzbau", "de": "Ich hoffe, dass der Arzt ihm gute Nachrichten gibt.", "loesung": "Espero que o médico lhe dê boas notícias."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O pai do João – Joãos Vater",
+    "situation": "Stefan trifft seinen Nachbarn João auf der Straße.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Olá, Stefan. Desculpa, hoje não posso ir ao café. O meu pai vai ser operado amanhã.", "de": "Hallo Stefan. Entschuldige, heute kann ich nicht ins Café gehen. Mein Vater wird morgen operiert."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Espero que não seja nada grave.", "de": "Wirklich? Ich hoffe, es ist nichts Ernstes."},
+     {"sprecher": "João", "stimme": "m", "pt": "Não é muito grave, é ao joelho. Mas ele já tem oitenta anos.", "de": "Nicht sehr ernst, es ist am Knie. Aber er ist schon achtzig."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Espero que corra tudo bem e que ele esteja em casa depressa.", "de": "Ich hoffe, dass alles gut geht und er bald wieder zu Hause ist."},
+     {"sprecher": "João", "stimme": "m", "pt": "Obrigado. O médico diz que daqui a três dias pode voltar para casa.", "de": "Danke. Der Arzt sagt, dass er in drei Tagen nach Hause kann."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. Precisas de alguma coisa? Posso levar-te ao hospital.", "de": "Super. Brauchst du etwas? Ich kann dich ins Krankenhaus fahren."},
+     {"sprecher": "João", "stimme": "m", "pt": "Não é preciso, a minha irmã vai comigo. Mas obrigado. Haja saúde, não é?", "de": "Nicht nötig, meine Schwester kommt mit. Aber danke. Hauptsache gesund, nicht wahr?"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o João não pode ir ao café?", "optionen": ["Porque está doente.", "Porque o pai vai ser operado.", "Porque tem de trabalhar."], "richtig": 1},
+     {"frage": "Quando é que o pai pode voltar para casa?", "optionen": ["Daqui a três dias.", "Amanhã.", "Daqui a uma semana."], "richtig": 0},
+     {"frage": "Quem vai com o João ao hospital?", "optionen": ["O Stefan.", "A mulher.", "A irmã."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Espero que estejas bem.", "de": "Ich hoffe, dass es dir gut geht."},
+     {"pt": "Espero que não seja nada grave.", "de": "Ich hoffe, es ist nichts Ernstes."},
+     {"pt": "Quero que saibas a verdade.", "de": "Ich will, dass du die Wahrheit weißt."},
+     {"pt": "Espero que possas vir ao jantar.", "de": "Ich hoffe, dass du zum Abendessen kommen kannst."},
+     {"pt": "Haja saúde!", "de": "Hauptsache gesund!"}
+    ]
+   },
+   "saetze": [
+    {"id": "espero-que-estejas-bem", "pt": "Espero que estejas bem.", "de": "Ich hoffe, dass es dir gut geht."},
+    {"id": "espero-nao-seja-grave", "pt": "Espero que não seja nada grave.", "de": "Ich hoffe, es ist nichts Ernstes."},
+    {"id": "que-eu-saiba", "pt": "Que eu saiba, a festa é no sábado.", "de": "Soweit ich weiß, ist die Party am Samstag."}
+   ]
+  },
+  {
+   "id": "B1-01-L05",
+   "typ": "neu",
+   "titel": "Quero que venhas – Wunsch und Wille",
+   "vokabeln": ["querer-que", "preferir-que", "pedir-que", "a-vontade", "exigir", "permitir", "importar-se", "deixar", "a-ajuda"],
+   "grammatik": {
+    "titel": "Conjuntivo depois de verbos de desejo e vontade",
+    "erklaerung": [
+     "Depois de verbos que exprimem <b>desejo ou vontade</b> – <i>esperar, querer, preferir, desejar, pedir, exigir, permitir</i> – usamos <b>que + conjuntivo</b>: <i>Quero que venhas.</i>",
+     "Regra importante: só há conjuntivo quando os <b>sujeitos são diferentes</b>. Com o mesmo sujeito, usamos o infinitivo: <i>Quero ir</i> (eu – eu) / <i>Quero que tu vás</i> (eu – tu).",
+     "<b>pedir</b>: <i>Peço-lhe que espere.</i> No dia a dia também se diz <i>pedir para</i> + infinitivo: <i>Pedi-lhe para esperar.</i>",
+     "Pergunta muito educada: <i>Importa-se que eu abra a janela?</i> – Resposta: <i>Não me importo nada. / Esteja à vontade.</i>"
+    ],
+    "erklaerung_de": [
+     "Nach Verben des <b>Wunsches oder Willens</b> – <i>esperar, querer, preferir, desejar, pedir, exigir, permitir</i> – steht <b>que + Konjunktiv</b>: <i>Quero que venhas.</i> – Ich will, dass du kommst.",
+     "Wichtige Regel: Konjunktiv nur bei <b>verschiedenen Subjekten</b>. Bei gleichem Subjekt steht der Infinitiv: <i>Quero ir</i> (ich – ich) / <i>Quero que tu vás</i> (ich – du).",
+     "<b>pedir</b>: <i>Peço-lhe que espere.</i> – Ich bitte Sie zu warten. Im Alltag sagt man auch <i>pedir para</i> + Infinitiv: <i>Pedi-lhe para esperar.</i>",
+     "Sehr höfliche Frage: <i>Importa-se que eu abra a janela?</i> – Haben Sie etwas dagegen, wenn ich das Fenster öffne? Antwort: <i>Não me importo nada. / Esteja à vontade.</i>"
+    ],
+    "vergleich": "Englisch: „I want you to come“ – Portugiesisch geht wie das Deutsche mit „dass“: <i>Quero <b>que</b> venhas</i> (Ich will, dass du kommst). Eine Konstruktion wie im Englischen gibt es nicht.",
+    "beispiele": [
+     {"pt": "Quero que venhas jantar connosco no sábado.", "de": "Ich will, dass du am Samstag mit uns zu Abend isst."},
+     {"pt": "Prefiro que me ligues depois das seis.", "de": "Mir ist lieber, du rufst mich nach sechs an."},
+     {"pt": "Importa-se que eu feche a janela?", "de": "Haben Sie etwas dagegen, wenn ich das Fenster schließe?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quero que tu ___ connosco. (vir)", "loesungen": ["venhas"], "de": "Ich will, dass du mit uns kommst.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "A Ana prefere que nós ___ em casa. (jantar)", "loesungen": ["jantemos"], "de": "Ana ist es lieber, dass wir zu Hause zu Abend essen.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Peço-lhe que ___ um momento. (esperar)", "loesungen": ["espere"], "de": "Ich bitte Sie, einen Moment zu warten.", "kategorie": "Conjuntivo"},
+     {"typ": "auswahl", "frage": "„Ich möchte nach Lissabon fahren.“", "optionen": ["Quero que vá a Lisboa.", "Quero ir a Lisboa.", "Quero que vou a Lisboa."], "richtig": 1, "erklaerung": "Gleiches Subjekt (ich – ich): Infinitiv, kein que.", "kategorie": "Konjunktiv/Infinitiv"},
+     {"typ": "auswahl", "frage": "„Ich will, dass du nach Lissabon fährst.“", "optionen": ["Quero que vás a Lisboa.", "Quero-te ir a Lisboa.", "Quero que vais a Lisboa."], "richtig": 0, "erklaerung": "Verschiedene Subjekte: que + Konjunktiv (vás).", "kategorie": "Konjunktiv/Infinitiv"},
+     {"typ": "luecke", "satz": "O senhorio exige que ___ a renda até dia oito. (nós, pagar)", "loesungen": ["paguemos"], "de": "Der Vermieter verlangt, dass wir die Miete bis zum Achten zahlen.", "erklaerung": "pagar → pague: mit u, damit das g hart bleibt.", "kategorie": "Rechtschreibung"},
+     {"typ": "uebersetzen", "de": "Haben Sie etwas dagegen, wenn ich das Fenster öffne?", "loesungen": ["Importa-se que eu abra a janela?", "Importa-se que abra a janela?", "O senhor importa-se que eu abra a janela?", "A senhora importa-se que eu abra a janela?"]},
+     {"typ": "satzbau", "de": "Lass mich dir helfen!", "loesung": "Deixa-me ajudar-te!"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Visita de Viena – Besuch aus Wien",
+    "situation": "Stefans Mutter kommt nächste Woche zu Besuch. Stefan und Ana planen.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "A tua mãe chega na quinta, não é? Queres que eu a vá buscar ao aeroporto?", "de": "Deine Mutter kommt am Donnerstag, oder? Soll ich sie vom Flughafen abholen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, prefiro que fiques em casa. Eu vou buscá-la a Faro.", "de": "Nein, mir ist lieber, du bleibst zu Hause. Ich hole sie in Faro ab."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Está bem. E onde é que ela dorme? Quero que ela se sinta à vontade.", "de": "Gut. Und wo schläft sie? Ich will, dass sie sich wohlfühlt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "No quarto de hóspedes. Já pedi ao João para nos emprestar um colchão.", "de": "Im Gästezimmer. Ich habe João schon gebeten, uns eine Matratze zu leihen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ótimo. E o que é que ela quer fazer cá?", "de": "Super. Und was will sie hier machen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quer conhecer a Rota Vicentina. E quer que a levemos a comer marisco a Olhão.", "de": "Sie will die Rota Vicentina kennenlernen. Und sie will, dass wir sie zum Meeresfrüchteessen nach Olhão mitnehmen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então temos de reservar mesa. Espero que ela goste do Algarve!", "de": "Dann müssen wir einen Tisch reservieren. Ich hoffe, ihr gefällt die Algarve!"}
+    ],
+    "fragen": [
+     {"frage": "Quem vai buscar a mãe do Stefan ao aeroporto?", "optionen": ["O Stefan.", "A Ana.", "O João."], "richtig": 0},
+     {"frage": "O que é que o João vai emprestar?", "optionen": ["Uma cama.", "Um colchão.", "Um carro."], "richtig": 1},
+     {"frage": "O que é que a mãe quer?", "optionen": ["Ficar num hotel.", "Ir a Lisboa.", "Que a levem a comer marisco."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Im Zug nach Lissabon sitzt du neben einer älteren Dame. Es ist sehr warm.",
+    "zeilen": [
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Que calor está hoje neste comboio!", "de": "Wie heiß es heute in diesem Zug ist!"},
+     {"ich": true, "aufgabe": "Pergunte educadamente se ela se importa que abra a janela.", "loesungen": ["Importa-se que eu abra a janela?", "Importa-se que abra a janela?", "A senhora importa-se que eu abra a janela?", "A senhora importa-se que abra a janela?", "Importa-se que eu abra a janela, se faz favor?", "Importa-se que eu abra a janela, por favor?"]},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Não me importo nada, esteja à vontade. O senhor vai para Lisboa?", "de": "Das macht mir gar nichts aus, bitte sehr. Fahren Sie nach Lissabon?"},
+     {"ich": true, "aufgabe": "Sag: Ja, meine Frau will, dass ich ihre Mutter besuche.", "loesungen": ["Sim, a minha mulher quer que eu visite a mãe dela.", "Vou, a minha mulher quer que eu visite a mãe dela.", "Sim, a minha mulher quer que visite a mãe dela.", "Sim. A minha mulher quer que eu visite a mãe dela.", "Vou. A minha mulher quer que eu visite a mãe dela."]},
+     {"sprecher": "Senhora", "stimme": "f", "pt": "Que simpático! E ela não vem consigo?", "de": "Wie nett! Und sie kommt nicht mit?"},
+     {"ich": true, "aufgabe": "Sag: Nein, sie bleibt lieber mit dem Hund zu Hause.", "loesungen": ["Não, ela prefere ficar em casa com o cão.", "Não, prefere ficar em casa com o cão.", "Ela prefere ficar em casa com o cão.", "Não, ela prefere ficar com o cão em casa."]}
+    ]
+   },
+   "saetze": [
+    {"id": "quero-que-venhas", "pt": "Quero que venhas jantar connosco.", "de": "Ich will, dass du mit uns zu Abend isst."},
+    {"id": "prefiro-que-me-ligues", "pt": "Prefiro que me ligues depois das seis.", "de": "Mir ist lieber, du rufst mich nach sechs an."},
+    {"id": "importa-se-que-abra", "pt": "Importa-se que eu abra a janela?", "de": "Haben Sie etwas dagegen, wenn ich das Fenster öffne?"}
+   ]
+  },
+  {
+   "id": "B1-01-L06",
+   "typ": "neu",
+   "titel": "É pena que não venhas – Gefühle + que",
+   "vokabeln": ["fico-contente-que", "e-pena-que", "lamentar", "ter-medo-que", "gostar-que", "e-bom-que", "irritar", "estranhar", "admirar-se"],
+   "grammatik": {
+    "titel": "Conjuntivo depois de sentimentos",
+    "erklaerung": [
+     "Depois de expressões de <b>sentimento</b> usamos também <b>que + conjuntivo</b>: <i>Fico contente que estejas aqui. É pena que não possas vir. Tenho medo que chova.</i>",
+     "Expressões frequentes: <i>fico contente/feliz que, gosto que, lamento que, tenho medo que, é pena que, é bom que, irrita-me que, estranho que</i>.",
+     "Mesmo sujeito → <b>infinitivo</b>: <i>Fico contente <b>por</b> estar aqui. Tenho medo <b>de</b> perder o avião. Lamento não poder ir.</i>",
+     "Atenção: o conjuntivo mostra a nossa reação, mesmo quando o facto é verdade: <i>É pena que <b>esteja</b> a chover</i> (e está mesmo a chover!)."
+    ],
+    "erklaerung_de": [
+     "Auch nach <b>Gefühlsausdrücken</b> steht <b>que + Konjunktiv</b>: <i>Fico contente que estejas aqui.</i> (Ich freue mich, dass du hier bist.) <i>É pena que não possas vir.</i> (Schade, dass du nicht kommen kannst.) <i>Tenho medo que chova.</i> (Ich fürchte, dass es regnet.)",
+     "Häufige Ausdrücke: <i>fico contente/feliz que, gosto que, lamento que, tenho medo que, é pena que, é bom que, irrita-me que, estranho que</i>.",
+     "Gleiches Subjekt → <b>Infinitiv</b>: <i>Fico contente <b>por</b> estar aqui. Tenho medo <b>de</b> perder o avião. Lamento não poder ir.</i>",
+     "Achtung: Der Konjunktiv zeigt unsere Reaktion – auch wenn die Sache wahr ist: <i>É pena que <b>esteja</b> a chover</i> (und es regnet wirklich!)."
+    ],
+    "vergleich": "Deutsch: „Schade, dass es regnet“ – mit Indikativ. Portugiesisch braucht den Konjunktiv, obwohl es wirklich regnet: <i>É pena que esteja a chover.</i> Entscheidend ist die Gefühlsreaktion, nicht ob etwas wahr ist.",
+    "beispiele": [
+     {"pt": "Fico muito contente que estejas cá.", "de": "Ich freue mich sehr, dass du da bist."},
+     {"pt": "É pena que não possas vir à festa.", "de": "Schade, dass du nicht zur Party kommen kannst."},
+     {"pt": "Tenho medo que o voo se atrase.", "de": "Ich habe Angst, dass der Flug Verspätung hat."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "É pena que o Pedro não ___ vir. (poder)", "loesungen": ["possa"], "de": "Schade, dass Pedro nicht kommen kann.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Fico contente que vocês ___ bem. (estar)", "loesungen": ["estejam"], "de": "Ich freue mich, dass es euch gut geht.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Tenho medo que ___ amanhã. (chover)", "loesungen": ["chova"], "de": "Ich habe Angst, dass es morgen regnet.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Gosto que me ___ a verdade. (tu, dizer)", "loesungen": ["digas"], "de": "Ich mag es, wenn du mir die Wahrheit sagst.", "kategorie": "Conjuntivo"},
+     {"typ": "auswahl", "frage": "„Es tut mir leid, dass ich nicht kommen kann.“", "optionen": ["Lamento que não posso ir.", "Lamento não poder ir.", "Lamento que não possa ir."], "richtig": 1, "erklaerung": "Gleiches Subjekt (ich bedauere – ich kann nicht): Infinitiv. „Lamento que não possa ir“ hieße: dass er/sie/Sie nicht kann.", "kategorie": "Konjunktiv/Infinitiv"},
+     {"typ": "auswahl", "frage": "Indicativo ou conjuntivo? É pena que ___ a chover.", "optionen": ["está", "esteja", "estar"], "richtig": 1, "erklaerung": "Nach é pena que immer Konjunktiv – auch wenn es wirklich regnet.", "kategorie": "Conjuntivo"},
+     {"typ": "uebersetzen", "de": "Es ist gut, dass du hier bist.", "loesungen": ["É bom que estejas aqui.", "É bom que estejas cá.", "É bom que tu estejas aqui."]},
+     {"typ": "satzbau", "de": "Es ärgert mich, dass er immer zu spät kommt.", "loesung": "Irrita-me que ele chegue sempre atrasado."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A caminhada em Monchique – die Wanderung in Monchique",
+    "situation": "Rita und Ana haben für Samstag eine Wanderung geplant.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ana, viste a previsão do tempo? Dizem que vai chover no sábado.", "de": "Ana, hast du die Wettervorhersage gesehen? Sie sagen, dass es am Samstag regnet."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não acredito! É pena que chova logo no fim de semana da caminhada.", "de": "Das gibt's doch nicht! Schade, dass es ausgerechnet am Wochenende der Wanderung regnet."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Pois é. E o Pedro também não pode vir no sábado, tem de trabalhar.", "de": "Ja, genau. Und Pedro kann am Samstag auch nicht mitkommen, er muss arbeiten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Que pena! Gosto muito que ele venha connosco, é sempre tão divertido.", "de": "Wie schade! Ich mag es sehr, wenn er mitkommt, er ist immer so lustig."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E tenho medo que os trilhos fiquem perigosos com a chuva.", "de": "Und ich habe Angst, dass die Wege bei Regen gefährlich werden."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então vamos no domingo! Segundo a previsão, vai estar sol.", "de": "Dann gehen wir am Sonntag! Laut Vorhersage scheint dann die Sonne."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Boa ideia. E é bom que o Pedro possa vir no domingo. Fico contente que haja uma solução!", "de": "Gute Idee. Und es ist gut, dass Pedro am Sonntag kommen kann. Ich freue mich, dass es eine Lösung gibt!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a Rita está preocupada?", "optionen": ["Porque perdeu o telemóvel.", "Porque vai chover no sábado.", "Porque o Pedro está doente."], "richtig": 1},
+     {"frage": "Porque é que o Pedro não pode ir no sábado?", "optionen": ["Porque tem de trabalhar.", "Porque está cansado.", "Porque não gosta de caminhadas."], "richtig": 0},
+     {"frage": "Qual é a solução?", "optionen": ["Ir ao cinema.", "Ficar em casa.", "Fazer a caminhada no domingo."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Schade, dass du nicht kommen kannst.", "loesungen": ["É pena que não possas vir.", "Que pena que não possas vir.", "É pena não poderes vir."]},
+     {"de": "Ich freue mich, dass ihr hier seid.", "loesungen": ["Fico contente que estejam aqui.", "Fico contente que estejam cá.", "Fico feliz que estejam aqui.", "Fico feliz que estejam cá.", "Fico contente que vocês estejam aqui.", "Fico contente que vocês estejam cá."]},
+     {"de": "Ich habe Angst, dass der Flug Verspätung hat.", "loesungen": ["Tenho medo que o voo se atrase.", "Tenho medo de que o voo se atrase.", "Tenho medo que o voo tenha atraso.", "Tenho medo de que o voo tenha atraso."]},
+     {"de": "Es tut mir leid, dass ich nicht kommen kann.", "loesungen": ["Lamento não poder ir.", "Lamento não poder vir.", "Lamento, mas não posso ir.", "Lamento, mas não posso vir."]},
+     {"de": "Es wundert mich, dass João nicht zu Hause ist.", "loesungen": ["Estranho que o João não esteja em casa.", "Admira-me que o João não esteja em casa."]}
+    ]
+   },
+   "saetze": [
+    {"id": "fico-contente-estejas-ca", "pt": "Fico muito contente que estejas cá.", "de": "Ich freue mich sehr, dass du da bist."},
+    {"id": "e-pena-nao-possas-vir", "pt": "É pena que não possas vir à festa.", "de": "Schade, dass du nicht zur Party kommen kannst."},
+    {"id": "tenho-medo-voo-atrase", "pt": "Tenho medo que o voo se atrase.", "de": "Ich habe Angst, dass der Flug Verspätung hat."}
+   ]
+  },
+  {
+   "id": "B1-01-L07",
+   "typ": "neu",
+   "titel": "Aconselho-te a … – Ratschläge geben",
+   "vokabeln": ["aconselhar", "o-conselho", "sugerir", "e-melhor-que", "convem", "desabafar", "a-solucao", "convencer", "arriscar"],
+   "grammatik": {
+    "titel": "Dar conselhos: aconselhar a, sugerir que, é melhor que",
+    "erklaerung": [
+     "<b>aconselhar alguém a</b> + infinitivo: <i>Aconselho-te a falar com ele.</i> Formal: <i>Aconselho-o a marcar uma consulta.</i>",
+     "<b>sugerir que</b> / <b>recomendar que</b> + conjuntivo: <i>Sugiro que façamos uma pausa. Recomendo que reserve mesa.</i> Atenção: <i>eu sugiro</i>, mas <i>ele sugere</i>.",
+     "<b>é melhor que</b> / <b>convém que</b> + conjuntivo quando falamos de uma pessoa concreta: <i>É melhor que vás ao médico.</i> Sem pessoa concreta → infinitivo: <i>É melhor ir já.</i>",
+     "Conselhos mais suaves: <i>Se calhar era melhor …</i> / <i>No teu lugar, falava com ele.</i> (No dia a dia, o imperfeito substitui muitas vezes o condicional.)"
+    ],
+    "erklaerung_de": [
+     "<b>aconselhar alguém a</b> + Infinitiv: <i>Aconselho-te a falar com ele.</i> – Ich rate dir, mit ihm zu sprechen. Formell: <i>Aconselho-o a marcar uma consulta.</i>",
+     "<b>sugerir que</b> / <b>recomendar que</b> + Konjunktiv: <i>Sugiro que façamos uma pausa.</i> (Ich schlage vor, dass wir eine Pause machen.) Achtung: <i>eu sugiro</i>, aber <i>ele sugere</i>.",
+     "<b>é melhor que</b> / <b>convém que</b> + Konjunktiv, wenn es um eine bestimmte Person geht: <i>É melhor que vás ao médico.</i> Ohne bestimmte Person → Infinitiv: <i>É melhor ir já.</i>",
+     "Sanftere Ratschläge: <i>Se calhar era melhor …</i> (Vielleicht wäre es besser …) / <i>No teu lugar, falava com ele.</i> (An deiner Stelle würde ich mit ihm reden.) Im Alltag ersetzt das Imperfeito oft das Konditional."
+    ],
+    "vergleich": "„Ich rate dir, … zu …“ = <i>Aconselho-<b>te a</b> …</i> – das „zu“ wird zu <b>a</b>. „Du gehst besser zum Arzt“ wird umgebaut: <i>É melhor que vás ao médico</i> (wörtlich: Es ist besser, dass du gehst).",
+    "beispiele": [
+     {"pt": "Aconselho-te a falar com um advogado.", "de": "Ich rate dir, mit einem Anwalt zu sprechen."},
+     {"pt": "Sugiro que façamos uma pausa.", "de": "Ich schlage vor, dass wir eine Pause machen."},
+     {"pt": "É melhor que vás ao médico.", "de": "Du gehst besser zum Arzt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Aconselho-te ___ descansar mais.", "loesungen": ["a"], "de": "Ich rate dir, dich mehr auszuruhen.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Sugiro que nós ___ uma pausa. (fazer)", "loesungen": ["façamos"], "de": "Ich schlage vor, dass wir eine Pause machen.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "É melhor que tu ___ ao médico. (ir)", "loesungen": ["vás"], "de": "Du gehst besser zum Arzt.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Convém que o senhor ___ mesa com antecedência. (marcar)", "loesungen": ["marque"], "de": "Es empfiehlt sich, dass Sie im Voraus einen Tisch reservieren.", "erklaerung": "marcar → marque (c wird vor e zu qu).", "kategorie": "Rechtschreibung"},
+     {"typ": "auswahl", "frage": "„Ich schlage vor, dass wir den Zug nehmen.“", "optionen": ["Sugiro que apanhamos o comboio.", "Sugiro que apanhemos o comboio.", "Sugiro apanhar nós o comboio."], "richtig": 1, "kategorie": "Conjuntivo"},
+     {"typ": "auswahl", "frage": "„Es ist besser, sofort zu gehen.“ (allgemein)", "optionen": ["É melhor ir já.", "É melhor que vá já.", "É melhor que ir já."], "richtig": 0, "erklaerung": "Keine bestimmte Person: Infinitiv ohne que.", "kategorie": "Konjunktiv/Infinitiv"},
+     {"typ": "uebersetzen", "de": "Ich rate Ihnen, einen Arzttermin zu vereinbaren. (zu einem Mann)", "loesungen": ["Aconselho-o a marcar uma consulta.", "Aconselho-o a marcar uma consulta médica.", "Aconselho o senhor a marcar uma consulta."], "kategorie": "Pronomen"},
+     {"typ": "satzbau", "de": "An deiner Stelle würde ich mit ihm sprechen.", "loesung": "No teu lugar, falava com ele."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Problemas no trabalho – Ärger bei der Arbeit",
+    "situation": "Pedro ist gestresst. Er trifft Stefan auf der Esplanade.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Estou farto, Stefan. O meu chefe exige que eu trabalhe todos os sábados.", "de": "Ich habe genug, Stefan. Mein Chef verlangt, dass ich jeden Samstag arbeite."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Todos os sábados? Isso não é normal. Já falaste com ele?", "de": "Jeden Samstag? Das ist nicht normal. Hast du schon mit ihm gesprochen?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Ainda não. Tenho medo que ele se zangue.", "de": "Noch nicht. Ich habe Angst, dass er wütend wird."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Posso dar-te um conselho? Aconselho-te a falar com ele com calma, mas já esta semana.", "de": "Darf ich dir einen Rat geben? Ich rate dir, ruhig mit ihm zu sprechen, aber noch diese Woche."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Pois, mas acho que ele não vai aceitar.", "de": "Ja, aber ich glaube, er wird das nicht akzeptieren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então sugiro que procures outro emprego. Mereces melhor.", "de": "Dann schlage ich vor, dass du dir einen anderen Job suchst. Du verdienst Besseres."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Tens razão. Obrigado, Stefan. Precisava mesmo de desabafar.", "de": "Du hast recht. Danke, Stefan. Ich musste mich wirklich mal aussprechen."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema do Pedro?", "optionen": ["Ganha pouco.", "Não gosta dos colegas.", "O chefe quer que ele trabalhe aos sábados."], "richtig": 2},
+     {"frage": "Porque é que o Pedro ainda não falou com o chefe?", "optionen": ["Porque o chefe está de férias.", "Porque tem medo que ele se zangue.", "Porque não tem tempo."], "richtig": 1},
+     {"frage": "O que sugere o Stefan no fim?", "optionen": ["Procurar outro emprego.", "Ir de férias.", "Trabalhar mais."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Deine Kollegin Marta ist seit Tagen müde und gestresst. Gib ihr Ratschläge (tu).",
+    "zeilen": [
+     {"sprecher": "Marta", "stimme": "f", "pt": "Ando tão cansada… Durmo mal e tenho dores de cabeça todos os dias.", "de": "Ich bin so müde … Ich schlafe schlecht und habe jeden Tag Kopfschmerzen."},
+     {"ich": true, "aufgabe": "Sag: Darf ich dir einen Rat geben? Geh besser zum Arzt.", "loesungen": ["Posso dar-te um conselho? É melhor que vás ao médico.", "Posso dar-te um conselho? É melhor ires ao médico.", "Posso-te dar um conselho? É melhor que vás ao médico.", "Posso dar-te um conselho? Aconselho-te a ir ao médico."]},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Já sei, já sei. Mas tenho tanto trabalho…", "de": "Ich weiß, ich weiß. Aber ich habe so viel Arbeit …"},
+     {"ich": true, "aufgabe": "Sag: Ich rate dir, ein paar Tage freizunehmen.", "loesungen": ["Aconselho-te a tirar uns dias de folga.", "Aconselho-te a tirar uns dias de férias.", "Aconselho-te a tirar uns dias.", "Aconselho-te a tirar alguns dias de folga.", "Aconselho-te a tirar alguns dias de férias."]},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Achas? E o que faço nesses dias?", "de": "Meinst du? Und was mache ich an diesen Tagen?"},
+     {"ich": true, "aufgabe": "Sag: Ich schlage vor, dass du an den Strand gehst und dich entspannst.", "loesungen": ["Sugiro que vás à praia e descontraias.", "Sugiro que vás à praia e que descontraias.", "Sugiro que vás para a praia e descontraias."]}
+    ]
+   },
+   "saetze": [
+    {"id": "aconselho-te-a-falar", "pt": "Aconselho-te a falar com ele.", "de": "Ich rate dir, mit ihm zu sprechen."},
+    {"id": "sugiro-que-facamos-pausa", "pt": "Sugiro que façamos uma pausa.", "de": "Ich schlage vor, dass wir eine Pause machen."},
+    {"id": "e-melhor-que-vas-medico", "pt": "É melhor que vás ao médico.", "de": "Du gehst besser zum Arzt."}
+   ]
+  },
+  {
+   "id": "B1-01-L08",
+   "typ": "neu",
+   "titel": "Oxalá! – Glückwünsche",
+   "vokabeln": ["oxala", "que-corra-tudo-bem", "que-sejam-muito-felizes", "boa-sorte", "felicidades", "forca", "os-votos", "os-noivos", "boa-viagem"],
+   "grammatik": {
+    "titel": "Oxalá, Que … ! e talvez",
+    "erklaerung": [
+     "<b>Oxalá</b> + conjuntivo exprime um desejo forte: <i>Oxalá faça sol amanhã!</i> A palavra vem do árabe e quer dizer «se Deus quiser».",
+     "Muitos votos começam só com <b>Que</b> + conjuntivo (o verbo <i>espero</i> fica escondido): <i>Que corra tudo bem! Que sejam muito felizes! Que te divirtas!</i>",
+     "Para pessoas que tratamos por <i>o senhor/a senhora</i>: <i>Que corra tudo bem com a operação! Que tenha uma boa viagem!</i>",
+     "<b>Talvez</b> + conjuntivo quando vem antes do verbo: <i>Talvez venha amanhã.</i> (Mais sobre isto na próxima unidade.)"
+    ],
+    "erklaerung_de": [
+     "<b>Oxalá</b> + Konjunktiv drückt einen starken Wunsch aus: <i>Oxalá faça sol amanhã!</i> – Hoffentlich scheint morgen die Sonne! Das Wort kommt aus dem Arabischen und bedeutet „so Gott will“.",
+     "Viele Wünsche beginnen nur mit <b>Que</b> + Konjunktiv (das <i>espero</i> ist versteckt): <i>Que corra tudo bem!</i> (Alles Gute!) <i>Que sejam muito felizes!</i> (Werdet sehr glücklich!) <i>Que te divirtas!</i> (Viel Spaß!)",
+     "Für Personen, die man mit <i>o senhor/a senhora</i> anspricht: <i>Que corra tudo bem com a operação! Que tenha uma boa viagem!</i>",
+     "<b>Talvez</b> (vielleicht) + Konjunktiv, wenn es vor dem Verb steht: <i>Talvez venha amanhã.</i> (Mehr dazu in der nächsten Einheit.)"
+    ],
+    "vergleich": "Deutsch kennt das auch: „Möge es gut gehen!“ – klingt aber altmodisch. Im Portugiesischen ist <i>Que corra tudo bem!</i> völlig alltäglich, wie „Alles Gute!“. Englisch: „May you be very happy!“",
+    "beispiele": [
+     {"pt": "Oxalá faça sol no sábado!", "de": "Hoffentlich scheint am Samstag die Sonne!"},
+     {"pt": "Que sejam muito felizes!", "de": "Werdet sehr glücklich!"},
+     {"pt": "Que corra tudo bem amanhã!", "de": "Alles Gute für morgen!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Oxalá ___ sol amanhã! (fazer)", "loesungen": ["faça"], "de": "Hoffentlich scheint morgen die Sonne!", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Que ___ muito felizes! (vocês, ser)", "loesungen": ["sejam"], "de": "Werdet sehr glücklich!", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Que ___ tudo bem na entrevista! (correr)", "loesungen": ["corra"], "de": "Alles Gute für das Vorstellungsgespräch!", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Oxalá o comboio não ___ atraso! (ter)", "loesungen": ["tenha"], "de": "Hoffentlich hat der Zug keine Verspätung!", "kategorie": "Conjuntivo"},
+     {"typ": "auswahl", "frage": "O que se diz aos noivos?", "optionen": ["Os meus pêsames!", "Boa viagem!", "Que sejam muito felizes!"], "richtig": 2},
+     {"typ": "auswahl", "frage": "„Vielleicht kommt er morgen.“", "optionen": ["Talvez vem amanhã.", "Talvez venha amanhã.", "Talvez vir amanhã."], "richtig": 1, "erklaerung": "talvez vor dem Verb → Konjunktiv.", "kategorie": "Conjuntivo"},
+     {"typ": "uebersetzen", "de": "Viel Glück für das Vorstellungsgespräch!", "loesungen": ["Boa sorte para a entrevista!", "Boa sorte na entrevista!", "Boa sorte com a entrevista!"]},
+     {"typ": "satzbau", "de": "Hoffentlich regnet es am Samstag nicht!", "loesung": "Oxalá não chova no sábado!"}
+    ]
+   },
+   "hoeren": {
+    "titel": "No casamento – auf der Hochzeit",
+    "situation": "Hochzeit von Pedros Schwester Sofia und Miguel. Stefan und Ana gratulieren dem Brautpaar.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Parabéns, Sofia! Parabéns, Miguel! Que sejam muito felizes!", "de": "Herzlichen Glückwunsch, Sofia! Glückwunsch, Miguel! Werdet sehr glücklich!"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Obrigada, Stefan! Ainda bem que vieram!", "de": "Danke, Stefan! Wie schön, dass ihr gekommen seid!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "A cerimónia foi linda. Fiquei tão emocionada!", "de": "Die Trauung war wunderschön. Ich war so gerührt!"},
+     {"sprecher": "Miguel", "stimme": "m", "pt": "E tivemos sorte com o tempo. Ontem choveu tanto!", "de": "Und wir hatten Glück mit dem Wetter. Gestern hat es so viel geregnet!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Pois foi. E quando partem para a lua de mel?", "de": "Allerdings. Und wann fahrt ihr in die Flitterwochen?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Amanhã de manhã. Vamos para Cabo Verde.", "de": "Morgen früh. Wir fliegen nach Kap Verde."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que maravilha! Boa viagem e que descansem muito!", "de": "Wie wunderbar! Gute Reise und erholt euch gut!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E oxalá não chova lá!", "de": "Und hoffentlich regnet es dort nicht!"}
+    ],
+    "fragen": [
+     {"frage": "Quem se casou?", "optionen": ["A Rita e o Pedro.", "A Sofia e o Miguel.", "A Ana e o Stefan."], "richtig": 1},
+     {"frage": "Como esteve o tempo no dia do casamento?", "optionen": ["Esteve bom.", "Choveu muito.", "Esteve muito vento."], "richtig": 0},
+     {"frage": "Para onde vão os noivos?", "optionen": ["Para os Açores.", "Para a Madeira.", "Para Cabo Verde."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Que sejam muito felizes!", "de": "Werdet sehr glücklich!"},
+     {"pt": "Que corra tudo bem amanhã!", "de": "Alles Gute für morgen!"},
+     {"pt": "Oxalá faça sol no sábado!", "de": "Hoffentlich scheint am Samstag die Sonne!"},
+     {"pt": "Boa sorte para a entrevista!", "de": "Viel Glück für das Vorstellungsgespräch!"},
+     {"pt": "Força! Tu consegues!", "de": "Nur Mut! Du schaffst das!"}
+    ]
+   },
+   "saetze": [
+    {"id": "que-sejam-felizes", "pt": "Que sejam muito felizes!", "de": "Werdet sehr glücklich!"},
+    {"id": "que-corra-bem-amanha", "pt": "Que corra tudo bem amanhã!", "de": "Alles Gute für morgen!"},
+    {"id": "oxala-faca-sol", "pt": "Oxalá faça sol no sábado!", "de": "Hoffentlich scheint am Samstag die Sonne!"}
+   ]
+  },
+  {
+   "id": "B1-01-L09",
+   "typ": "neu",
+   "titel": "Amizade – Freundschaft und Beziehungen",
+   "vokabeln": ["a-amizade", "confiar-em", "a-confianca", "zangar-se-com", "fazer-as-pazes", "o-casal", "namorar", "apoiar", "a-relacao"],
+   "grammatik": {
+    "titel": "Os pronomes com o conjuntivo",
+    "erklaerung": [
+     "Depois de <b>que</b>, o pronome vai <b>antes</b> do verbo (próclise): <i>Espero que <b>te</b> sintas melhor. Quero que <b>me</b> digas a verdade.</i>",
+     "Compare: <i>Ele zanga-se.</i> (frase principal, ênclise) – <i>Tenho medo que ele <b>se</b> zangue.</i> (próclise)",
+     "Verbos recíprocos com <b>se</b>: <i>Eles dão-se bem.</i> → <i>Espero que se deem bem.</i> – <i>Fizeram as pazes.</i> → <i>Espero que façam as pazes.</i>",
+     "O mesmo com <b>não</b> e com <b>talvez</b>: <i>Espero que não se zanguem. Talvez lhe ligue amanhã.</i> O imperativo negativo também usa o conjuntivo: <i>Não te zangues!</i>"
+    ],
+    "erklaerung_de": [
+     "Nach <b>que</b> steht das Pronomen <b>vor</b> dem Verb (Proklise): <i>Espero que <b>te</b> sintas melhor.</i> (Ich hoffe, es geht dir besser.) <i>Quero que <b>me</b> digas a verdade.</i>",
+     "Vergleiche: <i>Ele zanga-se.</i> (Hauptsatz, Enklise) – <i>Tenho medo que ele <b>se</b> zangue.</i> (Proklise)",
+     "Wechselseitige Verben mit <b>se</b>: <i>Eles dão-se bem.</i> → <i>Espero que se deem bem.</i> – <i>Fizeram as pazes.</i> → <i>Espero que façam as pazes.</i>",
+     "Genauso nach <b>não</b> und <b>talvez</b>: <i>Espero que não se zanguem. Talvez lhe ligue amanhã.</i> Auch der verneinte Imperativ ist ein Konjunktiv: <i>Não te zangues!</i> – Sei nicht böse!"
+    ],
+    "vergleich": "Im Deutschen wandert das Pronomen im Nebensatz auch: „Er ärgert sich.“ – „…, dass er <b>sich</b> ärgert.“ Im Portugiesischen genauso: <i>zanga-se</i> → <i>que se zangue</i>.",
+    "beispiele": [
+     {"pt": "Espero que te sintas melhor.", "de": "Ich hoffe, es geht dir besser."},
+     {"pt": "Espero que façam as pazes depressa.", "de": "Ich hoffe, dass sie sich schnell versöhnen."},
+     {"pt": "Não quero que te zangues comigo.", "de": "Ich will nicht, dass du böse auf mich bist."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Espero que ___ sintas melhor amanhã.", "loesungen": ["te"], "de": "Ich hoffe, es geht dir morgen besser.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Quero que tu ___ digas a verdade.", "loesungen": ["me"], "de": "Ich will, dass du mir die Wahrheit sagst.", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Ich hoffe, dass sie sich gut verstehen.“", "optionen": ["Espero que deem-se bem.", "Espero que se deem bem.", "Espero que se dão bem."], "richtig": 1, "erklaerung": "Nach que: Pronomen vorn und Konjunktiv (deem).", "kategorie": "Pronomen"},
+     {"typ": "auswahl", "frage": "„Sei nicht böse auf mich!“", "optionen": ["Não te zangues comigo!", "Não zangues-te comigo!", "Não te zangas comigo!"], "richtig": 0, "erklaerung": "Verneinter Imperativ = Konjunktiv; nach não steht das Pronomen vorn.", "kategorie": "Pronomen"},
+     {"typ": "luecke", "satz": "Tenho medo que o João se ___ com o Pedro. (zangar)", "loesungen": ["zangue"], "de": "Ich habe Angst, dass João sich mit Pedro streitet.", "erklaerung": "zangar → zangue (mit u, damit das g hart bleibt).", "kategorie": "Rechtschreibung"},
+     {"typ": "uebersetzen", "de": "Ich vertraue meinen Freunden sehr.", "loesungen": ["Confio muito nos meus amigos.", "Eu confio muito nos meus amigos."]},
+     {"typ": "uebersetzen", "de": "Ich hoffe, dass ihr euch versöhnt.", "loesungen": ["Espero que façam as pazes.", "Espero que vocês façam as pazes."]},
+     {"typ": "satzbau", "de": "Sie sind seit drei Jahren zusammen.", "loesung": "Eles namoram há três anos."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma zanga entre amigas – Streit unter Freundinnen",
+    "situation": "Rita erzählt Stefan, dass sie sich mit ihrer besten Freundin Inês gestritten hat.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, posso desabafar contigo? Zanguei-me com a Inês, a minha melhor amiga.", "de": "Stefan, kann ich mich bei dir aussprechen? Ich habe mich mit Inês gestritten, meiner besten Freundin."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Mas vocês são amigas há tantos anos! O que aconteceu?", "de": "Wirklich? Aber ihr seid doch schon so viele Jahre befreundet! Was ist passiert?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ela contou um segredo meu a outra pessoa. E eu confiava tanto nela!", "de": "Sie hat ein Geheimnis von mir jemand anderem erzählt. Und ich habe ihr so vertraut!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Percebo. A confiança é muito importante numa amizade.", "de": "Verstehe. Vertrauen ist in einer Freundschaft sehr wichtig."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Pois é. Agora ela quer que eu lhe ligue, mas eu ainda estou zangada.", "de": "Eben. Jetzt will sie, dass ich sie anrufe, aber ich bin noch böse."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É normal. Mas a vossa amizade é especial. Espero que façam as pazes.", "de": "Das ist normal. Aber eure Freundschaft ist etwas Besonderes. Ich hoffe, dass ihr euch versöhnt."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Eu também. Talvez lhe ligue no fim de semana.", "de": "Ich auch. Vielleicht rufe ich sie am Wochenende an."}
+    ],
+    "fragen": [
+     {"frage": "Com quem se zangou a Rita?", "optionen": ["Com o Pedro.", "Com a irmã.", "Com a Inês."], "richtig": 2},
+     {"frage": "O que fez a Inês?", "optionen": ["Esqueceu-se do aniversário da Rita.", "Contou um segredo da Rita.", "Não lhe devolveu o dinheiro."], "richtig": 1},
+     {"frage": "O que é que a Rita talvez faça?", "optionen": ["Ligar à Inês no fim de semana.", "Escrever-lhe uma carta.", "Não falar mais com ela."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich hoffe, es geht dir besser. (sentir-se, tu)", "loesungen": ["Espero que te sintas melhor."]},
+     {"de": "Ich will nicht, dass du böse auf mich bist.", "loesungen": ["Não quero que te zangues comigo.", "Não quero que estejas zangado comigo.", "Não quero que estejas zangada comigo."]},
+     {"de": "Meine Freunde haben mich sehr unterstützt.", "loesungen": ["Os meus amigos apoiaram-me muito."]},
+     {"de": "João und seine Frau sind ein sehr nettes Paar.", "loesungen": ["O João e a mulher são um casal muito simpático.", "O João e a mulher dele são um casal muito simpático.", "O João e a sua mulher são um casal muito simpático."]},
+     {"de": "Ich hoffe, dass sie sich versöhnen.", "loesungen": ["Espero que façam as pazes.", "Espero que eles façam as pazes.", "Espero que elas façam as pazes."]}
+    ]
+   },
+   "saetze": [
+    {"id": "espero-te-sintas-melhor", "pt": "Espero que te sintas melhor.", "de": "Ich hoffe, es geht dir besser."},
+    {"id": "espero-facam-as-pazes", "pt": "Espero que façam as pazes depressa.", "de": "Ich hoffe, dass sie sich schnell versöhnen."},
+    {"id": "nao-te-zangues", "pt": "Não te zangues comigo!", "de": "Sei nicht böse auf mich!"}
+   ]
+  },
+  {
+   "id": "B1-01-L10",
+   "typ": "neu",
+   "titel": "Lamento muito – Mitgefühl ausdrücken",
+   "vokabeln": ["lamento-muito", "os-meus-pesames", "falecer", "o-funeral", "coitado", "conta-comigo", "que-chatice", "nao-ha-de-ser-nada", "a-perda"],
+   "grammatik": {
+    "titel": "Indicativo ou conjuntivo? Factos e sentimentos",
+    "erklaerung": [
+     "Depois de verbos como <b>saber, ver, dizer, ter a certeza</b> – que apresentam <b>factos</b> – usamos o <b>indicativo</b>: <i>Sei que estás triste. Vejo que estás cansado.</i>",
+     "Depois de <b>desejo e sentimento</b> usamos o <b>conjuntivo</b>: <i>Lamento que estejas triste. Espero que fiques melhor.</i>",
+     "<b>lamentar</b>: <i>Lamento muito.</i> (sozinho) – <i>Lamento a tua perda.</i> (+ nome) – <i>Lamento que …</i> (+ conjuntivo) – <i>Lamento não poder ir.</i> (+ infinitivo).",
+     "Frases para dar os pêsames: <i>Os meus pêsames. / Os meus sentimentos. / Lamento muito a sua perda. / Conte comigo.</i>"
+    ],
+    "erklaerung_de": [
+     "Nach Verben wie <b>saber, ver, dizer, ter a certeza</b> – die <b>Tatsachen</b> ausdrücken – steht der <b>Indikativ</b>: <i>Sei que estás triste.</i> (Ich weiß, dass du traurig bist.) <i>Vejo que estás cansado.</i>",
+     "Nach <b>Wunsch und Gefühl</b> steht der <b>Konjunktiv</b>: <i>Lamento que estejas triste.</i> (Es tut mir leid, dass du traurig bist.) <i>Espero que fiques melhor.</i>",
+     "<b>lamentar</b>: <i>Lamento muito.</i> (allein) – <i>Lamento a tua perda.</i> (+ Nomen) – <i>Lamento que …</i> (+ Konjunktiv) – <i>Lamento não poder ir.</i> (+ Infinitiv).",
+     "Sätze für Beileidsbekundungen: <i>Os meus pêsames. / Os meus sentimentos.</i> (Mein Beileid.) <i>Lamento muito a sua perda.</i> (Ihr Verlust tut mir sehr leid.) <i>Conte comigo.</i> (Sie können auf mich zählen.)"
+    ],
+    "vergleich": "„Mein Beileid“ = <i>Os meus pêsames</i> (wörtlich etwa: „meine Bedrückung“). „Es tut mir leid“ heißt <i>Lamento</i> oder <i>Tenho muita pena</i>; <i>Desculpe</i> ist nur eine Entschuldigung („Verzeihung“).",
+    "beispiele": [
+     {"pt": "Sei que estás triste, mas não estás sozinho.", "de": "Ich weiß, dass du traurig bist, aber du bist nicht allein."},
+     {"pt": "Lamento que estejas a passar por isto.", "de": "Es tut mir leid, dass du das durchmachen musst."},
+     {"pt": "Lamento muito a sua perda.", "de": "Ihr Verlust tut mir sehr leid."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Sei que tu ___ cansado.", "optionen": ["estejas", "estás", "estar"], "richtig": 1, "erklaerung": "saber drückt eine Tatsache aus → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Lamento que tu ___ doente.", "optionen": ["estás", "estar", "estejas"], "richtig": 2, "erklaerung": "Gefühl (lamentar) → Konjunktiv.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Vejo que ___ muito trabalho. (tu, ter)", "loesungen": ["tens"], "de": "Ich sehe, dass du viel Arbeit hast.", "erklaerung": "ver = Tatsache → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Espero que ___ melhor depressa. (tu, ficar)", "loesungen": ["fiques"], "de": "Ich hoffe, dass es dir bald besser geht.", "erklaerung": "ficar → fique (c wird vor e zu qu).", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "É pena que a tua avó ___ tão longe. (morar)", "loesungen": ["more"], "de": "Schade, dass deine Großmutter so weit weg wohnt.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Mein Beileid.", "loesungen": ["Os meus pêsames.", "Os meus sentimentos."]},
+     {"typ": "uebersetzen", "de": "Es tut mir sehr leid, was passiert ist.", "loesungen": ["Lamento muito o que aconteceu.", "Tenho muita pena do que aconteceu."]},
+     {"typ": "satzbau", "de": "Ich weiß, dass du traurig bist.", "loesung": "Sei que estás triste."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma notícia triste – eine traurige Nachricht",
+    "situation": "Stefan trifft seinen Nachbarn João, der sehr traurig aussieht.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Olá, Stefan. Desculpa, hoje não estou com cabeça para conversas.", "de": "Hallo Stefan. Entschuldige, heute ist mir nicht nach Reden zumute."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O que se passa, João? Estás com uma cara tão triste.", "de": "Was ist los, João? Du siehst so traurig aus."},
+     {"sprecher": "João", "stimme": "m", "pt": "O meu tio Manuel faleceu ontem à noite. Era como um segundo pai para mim.", "de": "Mein Onkel Manuel ist gestern Abend gestorben. Er war wie ein zweiter Vater für mich."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Lamento muito, João. Os meus pêsames. Sei que eram muito próximos.", "de": "Das tut mir sehr leid, João. Mein Beileid. Ich weiß, dass ihr euch sehr nahestandet."},
+     {"sprecher": "João", "stimme": "m", "pt": "Obrigado. O funeral é amanhã, em Silves.", "de": "Danke. Die Beerdigung ist morgen in Silves."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Queres que te leve lá de carro? Assim não tens de conduzir.", "de": "Soll ich dich mit dem Auto hinbringen? Dann musst du nicht selbst fahren."},
+     {"sprecher": "João", "stimme": "m", "pt": "Era uma grande ajuda, obrigado. Que bom ter amigos assim.", "de": "Das wäre eine große Hilfe, danke. Wie gut, solche Freunde zu haben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Conta comigo, João. E diz à tua família que lamentamos muito.", "de": "Du kannst auf mich zählen, João. Und sag deiner Familie, dass es uns sehr leid tut."}
+    ],
+    "fragen": [
+     {"frage": "Quem faleceu?", "optionen": ["O pai do João.", "O tio do João.", "O vizinho do João."], "richtig": 1},
+     {"frage": "Onde é o funeral?", "optionen": ["Em Silves.", "Em Lagos.", "Em Faro."], "richtig": 0},
+     {"frage": "O que oferece o Stefan?", "optionen": ["Fazer o jantar.", "Ir buscar a família.", "Levar o João de carro ao funeral."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Deine ältere Nachbarin Dona Rosa erzählt dir, dass ihr Mann im Krankenhaus ist (formell).",
+    "zeilen": [
+     {"sprecher": "Dona Rosa", "stimme": "f", "pt": "Bom dia, senhor Stefan. Já soube? O meu marido está no hospital desde sábado.", "de": "Guten Morgen, Herr Stefan. Haben Sie es schon gehört? Mein Mann ist seit Samstag im Krankenhaus."},
+     {"ich": true, "aufgabe": "Sag: Das tut mir sehr leid. Was ist passiert?", "loesungen": ["Lamento muito. O que aconteceu?", "Lamento muito! O que aconteceu?", "Lamento muito. O que é que aconteceu?", "Lamento muito! O que é que aconteceu?", "Tenho muita pena. O que aconteceu?", "Tenho muita pena. O que é que aconteceu?"]},
+     {"sprecher": "Dona Rosa", "stimme": "f", "pt": "Teve um problema no coração. Mas os médicos dizem que já está a melhorar.", "de": "Er hatte ein Problem mit dem Herzen. Aber die Ärzte sagen, dass es ihm schon besser geht."},
+     {"ich": true, "aufgabe": "Sag: Ich hoffe, dass er bald nach Hause kommen kann.", "loesungen": ["Espero que ele possa vir para casa em breve.", "Espero que possa vir para casa em breve.", "Espero que ele possa voltar para casa em breve.", "Espero que possa voltar para casa em breve.", "Espero que ele possa voltar para casa depressa.", "Espero que possa voltar para casa depressa.", "Espero que ele volte para casa em breve.", "Espero que volte para casa em breve.", "Espero que ele volte depressa para casa.", "Espero que ele possa ir para casa em breve."]},
+     {"sprecher": "Dona Rosa", "stimme": "f", "pt": "Obrigada. Estou sozinha em casa e às vezes custa.", "de": "Danke. Ich bin allein zu Hause, und manchmal ist es schwer."},
+     {"ich": true, "aufgabe": "Sag: Sie können auf mich zählen, Dona Rosa.", "loesungen": ["Conte comigo, Dona Rosa.", "Pode contar comigo, Dona Rosa.", "Conte comigo.", "Pode contar comigo.", "A senhora pode contar comigo.", "Conte comigo, D. Rosa.", "Pode contar comigo, D. Rosa."]}
+    ]
+   },
+   "saetze": [
+    {"id": "lamento-o-que-aconteceu", "pt": "Lamento muito o que aconteceu.", "de": "Es tut mir sehr leid, was passiert ist."},
+    {"id": "os-meus-pesames-frase", "pt": "Lamento muito. Os meus pêsames.", "de": "Es tut mir sehr leid. Mein Beileid."},
+    {"id": "sei-que-estas-triste", "pt": "Sei que estás triste, mas não estás sozinho.", "de": "Ich weiß, dass du traurig bist, aber du bist nicht allein."}
+   ]
+  },
+  {"id": "B1-01-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-01-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Um telefonema de Lisboa – ein Anruf aus Lissabon",
+   "situation": "Ana telefoniert mit ihrer Mutter Teresa.",
+   "zeilen": [
+    {"sprecher": "Teresa", "stimme": "f", "pt": "Olá, filha! Então, como estás? E o Stefan?", "de": "Hallo, mein Schatz! Na, wie geht's dir? Und Stefan?"},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Estamos bem, mãe. O Stefan anda cansado, mas fico contente que o trabalho lhe esteja a correr bem.", "de": "Uns geht's gut, Mama. Stefan ist müde, aber ich freue mich, dass es bei seiner Arbeit gut läuft."},
+    {"sprecher": "Teresa", "stimme": "f", "pt": "Ainda bem. Olha, queria pedir-te uma coisa: quero que venham passar o Natal a Lisboa.", "de": "Zum Glück. Hör mal, ich wollte dich um etwas bitten: Ich möchte, dass ihr Weihnachten in Lissabon verbringt."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Gostava muito, mas é pena que o Stefan tenha de trabalhar até dia vinte e três.", "de": "Sehr gern, aber leider muss Stefan bis zum 23. arbeiten."},
+    {"sprecher": "Teresa", "stimme": "f", "pt": "Não faz mal, venham no dia vinte e quatro. O importante é estarmos todos juntos.", "de": "Macht nichts, kommt am 24. Wichtig ist, dass wir alle zusammen sind."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Está bem, vou falar com ele. Mas tenho medo que haja muito trânsito na autoestrada.", "de": "Gut, ich rede mit ihm. Aber ich fürchte, dass es auf der Autobahn viel Verkehr gibt."},
+    {"sprecher": "Teresa", "stimme": "f", "pt": "Então venham de comboio! Espero que digam que sim, filha.", "de": "Dann kommt mit dem Zug! Ich hoffe, ihr sagt ja, mein Schatz."}
+   ],
+   "fragen": [
+    {"frage": "Como está a correr o trabalho do Stefan?", "optionen": ["Está a correr bem.", "Está a correr mal.", "Ele mudou de emprego."], "richtig": 0},
+    {"frage": "O que quer a Teresa?", "optionen": ["Que a Ana a visite no verão.", "Que passem o Natal em Lisboa.", "Que o Stefan trabalhe menos."], "richtig": 1},
+    {"frage": "Qual é o problema?", "optionen": ["A Ana está doente.", "Não há comboios.", "O Stefan trabalha até dia 23."], "richtig": 2},
+    {"frage": "O que propõe a Teresa por causa do trânsito?", "optionen": ["Que venham de avião.", "Que venham de comboio.", "Que fiquem em casa."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Uma despedida – ein Abschied",
+   "situation": "Ana schreibt ihrer Freundin Rita, die für eine neue Stelle nach Porto zieht.",
+   "text": [
+    "Querida Rita,",
+    "Então é verdade: vais mesmo para o Porto! Fico muito contente com o teu novo emprego, mas é pena que vás para tão longe.",
+    "Espero que a mudança corra bem e que encontres depressa uma casa bonita. Oxalá os teus novos colegas sejam tão simpáticos como tu!",
+    "O Stefan pede que nos mandes fotografias da casa nova. E nós queremos que venhas cá passar o verão – o quarto de hóspedes é teu.",
+    "Sei que no início vais ter saudades do mar e do sol. Mas o Porto também tem mar, não é?",
+    "Força, amiga! Conta connosco para tudo. Beijinhos e muitas felicidades, Ana"
+   ],
+   "fragen": [
+    {"frage": "Porque é que a Rita vai para o Porto?", "optionen": ["Por causa da família.", "Por causa de um novo emprego.", "Para estudar."], "richtig": 1},
+    {"frage": "O que pede o Stefan?", "optionen": ["Que a Rita mande fotografias da casa.", "Que a Rita ligue todos os dias.", "Que a Rita venha no Natal."], "richtig": 0},
+    {"frage": "Quando é que a Ana quer que a Rita os visite?", "optionen": ["No Natal.", "Na Páscoa.", "No verão."], "richtig": 2},
+    {"frage": "De que é que a Rita vai ter saudades, segundo a Ana?", "optionen": ["Da comida.", "Do mar e do sol.", "Dos colegas."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich hoffe, dass es dir gut geht.", "loesungen": ["Espero que estejas bem.", "Espero que estejas boa.", "Espero que estejas bom."]},
+   {"de": "Ich will, dass du die Wahrheit weißt.", "loesungen": ["Quero que saibas a verdade."]},
+   {"de": "Schade, dass ihr nicht kommen könnt.", "loesungen": ["É pena que não possam vir.", "Que pena que não possam vir.", "É pena que vocês não possam vir.", "É pena não poderem vir."]},
+   {"de": "Ich rate dir, mit ihm zu sprechen.", "loesungen": ["Aconselho-te a falar com ele."]},
+   {"de": "Werdet sehr glücklich!", "loesungen": ["Que sejam muito felizes!", "Que sejam muito felizes."]},
+   {"de": "Es tut mir sehr leid, dass du krank bist.", "loesungen": ["Lamento muito que estejas doente.", "Tenho muita pena que estejas doente.", "Lamento muito que estejas doente!"]}
+  ],
+  "sprechen": [
+   {"pt": "Espero que gostes do presente.", "de": "Ich hoffe, dass dir das Geschenk gefällt."},
+   {"pt": "Fico contente que estejas cá.", "de": "Ich freue mich, dass du da bist."},
+   {"pt": "Oxalá faça sol no sábado!", "de": "Hoffentlich scheint am Samstag die Sonne!"},
+   {"pt": "É melhor que vás ao médico.", "de": "Du gehst besser zum Arzt."},
+   {"pt": "Lamento muito. Os meus pêsames.", "de": "Es tut mir sehr leid. Mein Beileid."}
+  ]
+ }
+}
