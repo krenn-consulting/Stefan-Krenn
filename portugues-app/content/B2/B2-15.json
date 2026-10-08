@@ -1,0 +1,106 @@
+{
+ "id": "B2-15",
+ "level": "B2",
+ "titel": "Teste final B2 – Abschlusstest B2 (Format DIPLE)",
+ "beschreibung": "Der Level-Test über alle B2-Einheiten im Stil der DIPLE-Prüfung, in zwei Teilen: zuerst Hören, Lesen, Wortschatz & Grammatik, dann Schreiben und Sprechen. Bestanden ab 80 %.",
+ "vokabeln": [],
+ "lektionen": [
+  {"id": "B2-15-L01", "typ": "leveltest", "titel": "Level-Test B2 – Teil 1: Hören, Lesen, Grammatik", "bloecke": ["hoeren", "lesen", "grammatik"]},
+  {"id": "B2-15-L02", "typ": "leveltest", "titel": "Level-Test B2 – Teil 2: Schreiben und Sprechen", "bloecke": ["schreiben", "sprechen"]}
+ ],
+ "test": {
+  "hoeren": [
+   {
+    "titel": "Debate na rádio: o alojamento local",
+    "situation": "Dois convidados discutem as regras para o alojamento local num programa de rádio.",
+    "zeilen": [
+     {"sprecher": "Moderador", "stimme": "m", "pt": "Boa noite. Hoje discutimos se as câmaras devem limitar novas licenças de alojamento local. Dra. Inês Rocha, qual é a sua posição?", "de": "Guten Abend. Heute diskutieren wir, ob die Gemeinden neue Lizenzen für Ferienwohnungen begrenzen sollen. Frau Dr. Inês Rocha, wie ist Ihre Position?"},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Parece-me inevitável. Se não tivéssemos tido tanto crescimento descontrolado, os jovens não teriam sido empurrados para fora dos centros históricos.", "de": "Es scheint mir unvermeidlich. Hätten wir nicht so viel unkontrolliertes Wachstum gehabt, wären die jungen Leute nicht aus den Altstädten verdrängt worden."},
+     {"sprecher": "Moderador", "stimme": "m", "pt": "Senhor Nuno Faria, representa os proprietários. Concorda?", "de": "Herr Nuno Faria, Sie vertreten die Eigentümer. Stimmen Sie zu?"},
+     {"sprecher": "Nuno", "stimme": "m", "pt": "Em parte. Admito que haja zonas saturadas, mas não podemos esquecer que muitas famílias dependem deste rendimento. Proibir pura e simplesmente seria um erro.", "de": "Teilweise. Ich gebe zu, dass es überlastete Zonen gibt, aber wir dürfen nicht vergessen, dass viele Familien von diesem Einkommen abhängen. Ein schlichtes Verbot wäre ein Fehler."},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Ninguém fala em proibir. O que defendo é que as licenças sejam atribuídas consoante a situação de cada bairro.", "de": "Niemand spricht von Verbieten. Ich trete dafür ein, dass die Lizenzen je nach Lage des jeweiligen Viertels vergeben werden."},
+     {"sprecher": "Nuno", "stimme": "m", "pt": "Nesse caso, estamos mais de acordo do que parece. Desde que as regras sejam claras e estáveis.", "de": "Dann sind wir uns einiger, als es scheint. Solange die Regeln klar und beständig sind."},
+     {"sprecher": "Moderador", "stimme": "m", "pt": "Ou seja, o problema não é a regulação em si, mas a forma como é aplicada. Fica a reflexão. Obrigado a ambos.", "de": "Das heißt, das Problem ist nicht die Regulierung an sich, sondern wie sie angewendet wird. Darüber lässt sich nachdenken. Danke Ihnen beiden."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o tema do debate?", "optionen": ["o aumento dos impostos sobre as casas", "a limitação de novas licenças de alojamento local", "a construção de novos hotéis"], "richtig": 1},
+     {"frage": "Segundo a Dra. Inês, qual foi a consequência do crescimento descontrolado?", "optionen": ["Os jovens saíram dos centros históricos.", "Os turistas deixaram de vir.", "As rendas desceram."], "richtig": 0},
+     {"frage": "Qual é a posição de Nuno Faria?", "optionen": ["É totalmente contra qualquer regra.", "Defende a proibição total.", "Aceita regras, desde que sejam claras e estáveis."], "richtig": 2},
+     {"frage": "Como resume o moderador a discussão?", "optionen": ["O problema é a aplicação das regras, não a regulação em si.", "Os dois convidados discordam em tudo.", "A regulação deve ser abolida."], "richtig": 0}
+    ]
+   },
+   {
+    "titel": "Mensagem de voz de um advogado",
+    "situation": "O Stefan ouve uma mensagem deixada pela sua advogada.",
+    "zeilen": [
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Bom dia, Sr. Krenn, fala a Dra. Marta Leal. Liguei-lhe a propósito da escritura da casa de Silves.", "de": "Guten Tag, Herr Krenn, hier ist Frau Dr. Marta Leal. Ich rufe wegen der Beurkundung des Hauses in Silves an."},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "O vendedor ainda não entregou a certidão de licença de utilização. Caso não a apresente até sexta-feira, teremos de adiar a escritura.", "de": "Der Verkäufer hat die Nutzungsgenehmigung noch nicht vorgelegt. Falls er sie nicht bis Freitag vorlegt, müssen wir die Beurkundung verschieben."},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Convém lembrar que, nos termos do contrato-promessa, um atraso da parte dele lhe dá direito à devolução do sinal em dobro.", "de": "Es sei daran erinnert, dass Ihnen laut Vorvertrag bei einer Verzögerung seinerseits die doppelte Anzahlung zusteht."},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Não creio que chegue a esse ponto, mas achei por bem informá-lo. Ligue-me quando puder. Obrigada.", "de": "Ich glaube nicht, dass es so weit kommt, aber ich hielt es für richtig, Sie zu informieren. Rufen Sie mich an, wenn Sie können. Danke."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a advogada ligou?", "optionen": ["por causa do IRS", "por causa da escritura da casa", "para marcar uma reunião no tribunal"], "richtig": 1},
+     {"frage": "Que documento falta?", "optionen": ["a certidão de licença de utilização", "o passaporte do Stefan", "o comprovativo de pagamento"], "richtig": 0},
+     {"frage": "O que acontece se o documento não chegar até sexta?", "optionen": ["O Stefan perde o sinal.", "O contrato é anulado.", "A escritura terá de ser adiada."], "richtig": 2},
+     {"frage": "Segundo o contrato-promessa, a que tem o Stefan direito se o atraso for do vendedor?", "optionen": ["a um desconto de 10 %", "à devolução do sinal em dobro", "a nada"], "richtig": 1}
+    ]
+   }
+  ],
+  "lesen": [
+   {
+    "titel": "Editorial: o interior esquecido",
+    "situation": "Excerto de um editorial de um jornal nacional.",
+    "text": [
+     "Há décadas que se fala da desertificação do interior como de uma fatalidade. Contudo, as fatalidades raramente o são: resultam, quase sempre, de escolhas políticas.",
+     "Enquanto o litoral concentrou investimento, emprego e serviços, as aldeias do interior foram perdendo escolas, centros de saúde e, por fim, habitantes. Não admira, pois, que os jovens tenham partido.",
+     "É certo que o teletrabalho abriu uma janela de oportunidade. No entanto, de pouco serve uma boa ligação à internet se não houver transportes, habitação acessível nem cuidados de saúde por perto.",
+     "Se os sucessivos governos tivessem apostado de forma consistente na descentralização, o país seria hoje menos desigual. Ainda vamos a tempo, desde que haja vontade política e, sobretudo, continuidade."
+    ],
+    "fragen": [
+     {"frage": "Segundo o editorial, a desertificação do interior é…", "optionen": ["uma fatalidade inevitável", "o resultado de escolhas políticas", "um fenómeno recente"], "richtig": 1},
+     {"frage": "O que perderam as aldeias, segundo o texto?", "optionen": ["escolas, centros de saúde e habitantes", "apenas turistas", "o acesso à internet"], "richtig": 0},
+     {"frage": "Qual é a posição do autor sobre o teletrabalho?", "optionen": ["Resolve o problema por si só.", "É prejudicial para o interior.", "É uma oportunidade, mas insuficiente sem outros serviços."], "richtig": 2},
+     {"frage": "Que condição põe o autor para ainda se ir a tempo?", "optionen": ["que haja vontade política e continuidade", "que se construam mais autoestradas", "que o litoral pague mais impostos"], "richtig": 0}
+    ]
+   },
+   {
+    "titel": "Regulamento – Condomínio do Edifício Mar Azul (excerto)",
+    "situation": "Excerto do regulamento interno de um prédio.",
+    "text": [
+     "Artigo 5.º – Utilização das partes comuns",
+     "1. É vedada a utilização das partes comuns para fins diferentes daqueles a que se destinam, nomeadamente o depósito de objetos nos patamares e corredores.",
+     "2. A piscina pode ser utilizada entre as 9h e as 21h, sendo obrigatório o duche prévio. Os menores de 12 anos só poderão utilizá-la acompanhados por um adulto.",
+     "3. As obras nas frações que produzam ruído só poderão ser realizadas nos dias úteis, entre as 9h e as 18h, devendo a administração ser informada com, pelo menos, oito dias de antecedência.",
+     "4. O incumprimento do presente artigo poderá dar lugar à aplicação de uma sanção pecuniária, a deliberar em assembleia de condóminos."
+    ],
+    "fragen": [
+     {"frage": "O que é proibido nas partes comuns?", "optionen": ["usar o elevador à noite", "deixar objetos nos patamares e corredores", "receber visitas"], "richtig": 1},
+     {"frage": "Quem pode usar a piscina sem adulto?", "optionen": ["qualquer pessoa com mais de 12 anos", "apenas os proprietários", "crianças de qualquer idade"], "richtig": 0},
+     {"frage": "Quando se podem fazer obras ruidosas?", "optionen": ["ao fim de semana, de manhã", "a qualquer hora, com autorização", "nos dias úteis, das 9h às 18h, avisando com oito dias de antecedência"], "richtig": 2},
+     {"frage": "Quem decide a sanção em caso de incumprimento?", "optionen": ["a Câmara Municipal", "a assembleia de condóminos", "o porteiro"], "richtig": 1}
+    ]
+   }
+  ],
+  "schreiben": [
+   {"de": "Ich bezweifle, dass er den Vertrag schon unterschrieben hat.", "loesungen": ["Duvido que ele já tenha assinado o contrato.", "Duvido que já tenha assinado o contrato."]},
+   {"de": "Hätte ich das gewusst, wäre ich früher gekommen.", "loesungen": ["Se eu tivesse sabido, teria vindo mais cedo.", "Se tivesse sabido, teria vindo mais cedo.", "Se eu soubesse, teria vindo mais cedo.", "Se tivesse sabido isso, teria vindo mais cedo.", "Se eu tivesse sabido isso, teria vindo mais cedo."]},
+   {"de": "Falls Sie Fragen haben, stehe ich Ihnen gern zur Verfügung.", "loesungen": ["Caso tenha alguma dúvida, estou ao seu dispor.", "Caso tenha dúvidas, estou à sua disposição.", "Caso tenha alguma dúvida, estou à sua disposição.", "Caso tenha questões, estou ao seu dispor."]},
+   {"de": "Obwohl die Wirtschaft gewachsen ist, sind die Löhne niedrig geblieben.", "loesungen": ["Embora a economia tenha crescido, os salários continuaram baixos.", "Embora a economia tenha crescido, os salários mantiveram-se baixos.", "Apesar de a economia ter crescido, os salários continuaram baixos."]},
+   {"de": "Das heißt, wir müssen die Strategie überdenken.", "loesungen": ["Ou seja, temos de repensar a estratégia.", "Ou seja, temos de rever a estratégia.", "Ou seja, temos que repensar a estratégia."]},
+   {"de": "Das Gesetz wurde letztes Jahr vom Parlament verabschiedet.", "loesungen": ["A lei foi aprovada pelo Parlamento no ano passado.", "A lei foi aprovada no ano passado pelo Parlamento.", "A lei foi aprovada pela Assembleia da República no ano passado."]},
+   {"de": "Es wäre wünschenswert, dass alle Parteien zusammenarbeiten.", "loesungen": ["Seria desejável que todos os partidos colaborassem.", "Seria desejável que todos os partidos trabalhassem em conjunto.", "Seria desejável que todas as partes colaborassem."]},
+   {"de": "Ich habe ihn gebeten, mir den Bericht bis Freitag zu schicken.", "loesungen": ["Pedi-lhe que me enviasse o relatório até sexta-feira.", "Pedi-lhe para me enviar o relatório até sexta-feira.", "Pedi-lhe que me mandasse o relatório até sexta-feira."]},
+   {"de": "Er wurde misstrauisch. (Redewendung mit „pulga“)", "loesungen": ["Ele ficou com a pulga atrás da orelha.", "Ficou com a pulga atrás da orelha."]}
+  ],
+  "sprechen": [
+   {"pt": "Se tivesse sabido do problema, teria agido de outra forma.", "de": "Hätte ich von dem Problem gewusst, hätte ich anders gehandelt."},
+   {"pt": "Venho por este meio solicitar a revisão do processo.", "de": "Hiermit bitte ich um Überprüfung des Verfahrens."},
+   {"pt": "Admito que tenha razão, mas permita-me discordar num ponto.", "de": "Ich gebe zu, dass Sie recht haben könnten, aber erlauben Sie mir, in einem Punkt zu widersprechen."},
+   {"pt": "Por um lado, o turismo cria emprego; por outro, encarece a habitação.", "de": "Einerseits schafft der Tourismus Arbeitsplätze, andererseits verteuert er den Wohnraum."},
+   {"pt": "Caso o vendedor não cumpra o prazo, o contrato poderá ser resolvido.", "de": "Falls der Verkäufer die Frist nicht einhält, kann der Vertrag aufgelöst werden."},
+   {"pt": "O gráfico mostra uma subida acentuada das vendas no segundo trimestre.", "de": "Die Grafik zeigt einen deutlichen Anstieg der Verkäufe im zweiten Quartal."},
+   {"pt": "Não há nada a fazer: é chover no molhado.", "de": "Da ist nichts zu machen: Das ist vergebliche Mühe."},
+   {"pt": "Em suma, as vantagens superam claramente os inconvenientes.", "de": "Zusammenfassend überwiegen die Vorteile deutlich die Nachteile."}
+  ]
+ }
+}
