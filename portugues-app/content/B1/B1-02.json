@@ -1,0 +1,884 @@
+{
+ "id": "B1-02",
+ "level": "B1",
+ "titel": "Opiniões e debates – Meinungen und Diskussionen",
+ "beschreibung": "Die eigene Meinung sagen, zweifeln, widersprechen und argumentieren: Indikativ nach acho que und tenho a certeza de que – Konjunktiv nach não acho que, duvido que, talvez und unpersönlichen Ausdrücken (é importante/preciso/provável/possível que); Konnektoren und eine Diskussion über den Tourismus an der Algarve.",
+ "vokabeln": [
+  {"id": "a-opiniao", "pt": "a opinião", "de": "die Meinung", "emoji": "💬", "beispiel_pt": "Qual é a tua opinião sobre isto?", "beispiel_de": "Was ist deine Meinung dazu?", "hinweis": "Na minha opinião, … = Meiner Meinung nach, … – Plural: as opiniões"},
+  {"id": "o-ponto-de-vista", "pt": "o ponto de vista", "de": "der Standpunkt / die Sichtweise", "emoji": "👁️", "beispiel_pt": "Do meu ponto de vista, o projeto é bom.", "beispiel_de": "Aus meiner Sicht ist das Projekt gut."},
+  {"id": "ter-a-certeza-de-que", "pt": "ter a certeza de que", "de": "sicher sein, dass", "emoji": "✔️", "beispiel_pt": "Tenho a certeza de que ele vem.", "beispiel_de": "Ich bin sicher, dass er kommt.", "hinweis": "+ Indikativ. Im Alltag oft ohne de: Tenho a certeza que …", "alternativen": ["ter a certeza que"]},
+  {"id": "acreditar-que", "pt": "acreditar que", "de": "glauben, dass", "emoji": "🌟", "beispiel_pt": "Acredito que a situação vai melhorar.", "beispiel_de": "Ich glaube, dass sich die Lage bessern wird.", "hinweis": "Bejaht + Indikativ; verneint (não acredito que) + Konjunktiv."},
+  {"id": "estar-convencido-de-que", "pt": "estar convencido de que", "de": "überzeugt sein, dass", "emoji": "💯", "beispiel_pt": "Estou convencido de que é a melhor solução.", "beispiel_de": "Ich bin überzeugt, dass es die beste Lösung ist.", "alternativen": ["estar convencida de que"], "passiv": true},
+  {"id": "considerar", "pt": "considerar", "de": "halten für / der Ansicht sein", "emoji": "🧐", "beispiel_pt": "Considero esta decisão muito importante.", "beispiel_de": "Ich halte diese Entscheidung für sehr wichtig.", "hinweis": "considerar que + Indikativ = der Ansicht sein, dass", "passiv": true},
+  {"id": "defender", "pt": "defender", "de": "vertreten / verteidigen", "emoji": "🛡️", "beispiel_pt": "O Pedro defende sempre a mesma posição.", "beispiel_de": "Pedro vertritt immer denselben Standpunkt.", "hinweis": "defender uma ideia = eine Idee vertreten"},
+  {"id": "a-posicao", "pt": "a posição", "de": "die Position / die Haltung", "emoji": "📍", "beispiel_pt": "Qual é a posição do governo sobre o assunto?", "beispiel_de": "Welche Haltung hat die Regierung zu dem Thema?", "passiv": true},
+  {"id": "a-questao", "pt": "a questão", "de": "die Frage / das (Streit-)Thema", "emoji": "❓", "beispiel_pt": "É uma questão complicada.", "beispiel_de": "Das ist eine komplizierte Frage.", "hinweis": "a questão = Thema, Problem; a pergunta = Frage, die man jemandem stellt", "passiv": true},
+  {"id": "pessoalmente", "pt": "pessoalmente", "de": "persönlich", "emoji": "🙋", "beispiel_pt": "Pessoalmente, acho que é uma boa ideia.", "beispiel_de": "Ich persönlich finde, dass es eine gute Idee ist."},
+
+  {"id": "nao-acho-que", "pt": "não acho que", "de": "ich glaube nicht, dass / ich finde nicht, dass", "emoji": "🙅", "beispiel_pt": "Não acho que seja boa ideia.", "beispiel_de": "Ich glaube nicht, dass das eine gute Idee ist.", "hinweis": "+ Konjunktiv (acho que + Indikativ)"},
+  {"id": "nao-penso-que", "pt": "não penso que", "de": "ich denke nicht, dass", "emoji": "💭", "beispiel_pt": "Não penso que ele tenha tempo esta semana.", "beispiel_de": "Ich denke nicht, dass er diese Woche Zeit hat.", "hinweis": "+ Konjunktiv"},
+  {"id": "nao-me-parece-que", "pt": "não me parece que", "de": "ich glaube kaum, dass / es scheint mir nicht, dass", "emoji": "🤨", "beispiel_pt": "Não me parece que vá chover.", "beispiel_de": "Ich glaube kaum, dass es regnen wird.", "hinweis": "+ Konjunktiv (parece-me que + Indikativ)"},
+  {"id": "nao-creio-que", "pt": "não creio que", "de": "ich glaube nicht, dass (gehoben)", "emoji": "📜", "beispiel_pt": "Não creio que seja possível.", "beispiel_de": "Ich glaube nicht, dass das möglich ist.", "hinweis": "crer = glauben (gehoben): creio, crês, crê, cremos, creem", "passiv": true},
+  {"id": "exagerar", "pt": "exagerar", "de": "übertreiben", "emoji": "🎭", "beispiel_pt": "Não exageres! Não é assim tão grave.", "beispiel_de": "Übertreib nicht! So schlimm ist es nicht."},
+  {"id": "o-exagero", "pt": "o exagero", "de": "die Übertreibung / zu viel", "emoji": "📢", "beispiel_pt": "Pagar seis euros por um café é um exagero!", "beispiel_de": "Sechs Euro für einen Kaffee zu zahlen ist übertrieben!", "passiv": true},
+  {"id": "justo", "pt": "justo", "de": "gerecht / fair", "emoji": "⚖️", "beispiel_pt": "Não acho que seja justo.", "beispiel_de": "Ich finde das nicht fair.", "alternativen": ["justa"]},
+  {"id": "injusto", "pt": "injusto", "de": "ungerecht / unfair", "emoji": "🚫", "beispiel_pt": "A decisão do árbitro foi injusta.", "beispiel_de": "Die Entscheidung des Schiedsrichters war ungerecht.", "alternativen": ["injusta"], "passiv": true},
+  {"id": "mudar-de-opiniao", "pt": "mudar de opinião", "de": "seine Meinung ändern", "emoji": "🔄", "beispiel_pt": "Depois da conversa, mudei de opinião.", "beispiel_de": "Nach dem Gespräch habe ich meine Meinung geändert.", "hinweis": "Ohne Artikel: mudar de casa, mudar de emprego, mudar de opinião"},
+
+  {"id": "duvidar", "pt": "duvidar", "de": "zweifeln / bezweifeln", "emoji": "🤔", "beispiel_pt": "Ninguém duvida da tua boa vontade.", "beispiel_de": "Niemand zweifelt an deinem guten Willen.", "hinweis": "duvidar de alguma coisa – Duvido! = Das bezweifle ich!"},
+  {"id": "duvido-que", "pt": "duvido que", "de": "ich bezweifle, dass", "emoji": "🧐", "beispiel_pt": "Duvido que ele chegue a horas.", "beispiel_de": "Ich bezweifle, dass er pünktlich kommt.", "hinweis": "Immer + Konjunktiv. Auch: duvido de que", "alternativen": ["duvido de que"]},
+  {"id": "nao-acredito-que", "pt": "não acredito que", "de": "ich glaube nicht, dass / ich kann nicht glauben, dass", "emoji": "😳", "beispiel_pt": "Não acredito que o restaurante feche.", "beispiel_de": "Ich glaube nicht, dass das Restaurant schließt.", "hinweis": "Não acredito! allein = Das gibt's doch nicht!"},
+  {"id": "negar", "pt": "negar", "de": "bestreiten / leugnen", "emoji": "🙊", "beispiel_pt": "O presidente da câmara nega que haja problemas.", "beispiel_de": "Der Bürgermeister bestreitet, dass es Probleme gibt.", "hinweis": "negar que + Konjunktiv", "passiv": true},
+  {"id": "e-mentira-que", "pt": "é mentira que", "de": "es ist gelogen / es stimmt nicht, dass", "emoji": "🤥", "beispiel_pt": "É mentira que os portugueses jantem sempre às dez.", "beispiel_de": "Es stimmt nicht, dass die Portugiesen immer um zehn zu Abend essen.", "hinweis": "a mentira = die Lüge; mentir = lügen", "passiv": true},
+  {"id": "verdadeiro", "pt": "verdadeiro", "de": "wahr / echt", "emoji": "💎", "beispiel_pt": "Esta história é verdadeira.", "beispiel_de": "Diese Geschichte ist wahr.", "alternativen": ["verdadeira"], "passiv": true},
+  {"id": "a-prova", "pt": "a prova", "de": "der Beweis / die Prüfung", "emoji": "🔎", "beispiel_pt": "Precisamos de provas antes de decidir.", "beispiel_de": "Wir brauchen Beweise, bevor wir entscheiden.", "hinweis": "Auch: a prova de condução = die Fahrprüfung", "passiv": true},
+  {"id": "suspeitar", "pt": "suspeitar", "de": "vermuten / verdächtigen", "emoji": "🕵️", "beispiel_pt": "Suspeito que há um problema com a ligação.", "beispiel_de": "Ich vermute, dass es ein Problem mit der Verbindung gibt.", "passiv": true},
+  {"id": "e-impossivel-que", "pt": "é impossível que", "de": "es ist unmöglich, dass", "emoji": "⛔", "beispiel_pt": "É impossível que já sejam onze horas!", "beispiel_de": "Es kann doch nicht schon elf Uhr sein!", "hinweis": "+ Konjunktiv"},
+
+  {"id": "talvez", "pt": "talvez", "de": "vielleicht", "emoji": "🤷", "beispiel_pt": "Talvez chova amanhã.", "beispiel_de": "Vielleicht regnet es morgen.", "hinweis": "Vor dem Verb + Konjunktiv. Se calhar … + Indikativ."},
+  {"id": "pode-ser-que", "pt": "pode ser que", "de": "es kann sein, dass", "emoji": "🎲", "beispiel_pt": "Pode ser que o Pedro venha connosco.", "beispiel_de": "Es kann sein, dass Pedro mit uns kommt.", "hinweis": "+ Konjunktiv. Allein: Pode ser. = Kann sein."},
+  {"id": "quem-sabe", "pt": "Quem sabe?", "de": "Wer weiß?", "emoji": "🔮", "beispiel_pt": "Talvez nos mudemos para os Açores. Quem sabe?", "beispiel_de": "Vielleicht ziehen wir auf die Azoren. Wer weiß?"},
+  {"id": "possivelmente", "pt": "possivelmente", "de": "möglicherweise", "emoji": "🌫️", "beispiel_pt": "Possivelmente chegamos mais tarde.", "beispiel_de": "Möglicherweise kommen wir später an.", "hinweis": "+ Indikativ", "passiv": true},
+  {"id": "eventualmente", "pt": "eventualmente", "de": "eventuell / gegebenenfalls", "emoji": "🔀", "beispiel_pt": "Eventualmente, podemos mudar a reunião para sexta.", "beispiel_de": "Eventuell können wir das Meeting auf Freitag verlegen.", "hinweis": "Nicht wie engl. eventually (= schließlich) – das heißt finalmente.", "passiv": true},
+  {"id": "a-hipotese", "pt": "a hipótese", "de": "die Möglichkeit / die Annahme", "emoji": "🧩", "beispiel_pt": "Há a hipótese de o voo ser cancelado.", "beispiel_de": "Es besteht die Möglichkeit, dass der Flug gestrichen wird.", "hinweis": "Em hipótese nenhuma! = Auf keinen Fall!", "passiv": true},
+  {"id": "porventura", "pt": "porventura", "de": "vielleicht / etwa (gehoben)", "emoji": "🎩", "beispiel_pt": "Sabe, porventura, onde fica a farmácia?", "beispiel_de": "Wissen Sie vielleicht, wo die Apotheke ist?", "hinweis": "Gehoben, vor allem in Fragen.", "passiv": true},
+  {"id": "nunca-se-sabe", "pt": "Nunca se sabe.", "de": "Man weiß nie.", "emoji": "🌀", "beispiel_pt": "Leva o guarda-chuva. Nunca se sabe.", "beispiel_de": "Nimm den Regenschirm mit. Man weiß nie."},
+  {"id": "a-incerteza", "pt": "a incerteza", "de": "die Unsicherheit / die Ungewissheit", "emoji": "❔", "beispiel_pt": "Há muita incerteza sobre o futuro da empresa.", "beispiel_de": "Es gibt viel Ungewissheit über die Zukunft der Firma.", "passiv": true},
+
+  {"id": "e-importante-que", "pt": "é importante que", "de": "es ist wichtig, dass", "emoji": "❗", "beispiel_pt": "É importante que chegues a horas.", "beispiel_de": "Es ist wichtig, dass du pünktlich kommst.", "hinweis": "+ Konjunktiv. Allgemein ohne Person: É importante chegar a horas."},
+  {"id": "e-necessario-que", "pt": "é necessário que", "de": "es ist nötig, dass", "emoji": "🧰", "beispiel_pt": "É necessário que todos poupem água.", "beispiel_de": "Es ist nötig, dass alle Wasser sparen.", "hinweis": "Gleiche Bedeutung wie é preciso que"},
+  {"id": "e-urgente-que", "pt": "é urgente que", "de": "es ist dringend nötig, dass", "emoji": "🚨", "beispiel_pt": "É urgente que a câmara resolva o problema.", "beispiel_de": "Die Gemeinde muss das Problem dringend lösen."},
+  {"id": "basta-que", "pt": "basta que", "de": "es genügt, dass", "emoji": "👆", "beispiel_pt": "Basta que assine aqui.", "beispiel_de": "Es genügt, wenn Sie hier unterschreiben.", "hinweis": "Basta! = Genug!", "passiv": true},
+  {"id": "e-indispensavel-que", "pt": "é indispensável que", "de": "es ist unerlässlich, dass", "emoji": "🔩", "beispiel_pt": "É indispensável que traga o passaporte.", "beispiel_de": "Es ist unerlässlich, dass Sie den Reisepass mitbringen.", "passiv": true},
+  {"id": "tomar-medidas", "pt": "tomar medidas", "de": "Maßnahmen ergreifen", "emoji": "📋", "beispiel_pt": "O governo tem de tomar medidas contra a seca.", "beispiel_de": "Die Regierung muss Maßnahmen gegen die Dürre ergreifen.", "hinweis": "a medida = die Maßnahme (auch: das Maß)"},
+  {"id": "o-governo", "pt": "o governo", "de": "die Regierung", "emoji": "🏛️", "beispiel_pt": "O governo anunciou novas regras para o alojamento local.", "beispiel_de": "Die Regierung hat neue Regeln für Ferienwohnungen angekündigt."},
+  {"id": "as-autoridades", "pt": "as autoridades", "de": "die Behörden", "emoji": "👮", "beispiel_pt": "As autoridades pedem que ninguém vá à praia hoje.", "beispiel_de": "Die Behörden bitten darum, dass heute niemand an den Strand geht.", "passiv": true},
+  {"id": "a-lei", "pt": "a lei", "de": "das Gesetz", "emoji": "📕", "beispiel_pt": "A nova lei entra em vigor em janeiro.", "beispiel_de": "Das neue Gesetz tritt im Januar in Kraft.", "hinweis": "entrar em vigor = in Kraft treten"},
+
+  {"id": "e-provavel-que", "pt": "é provável que", "de": "es ist wahrscheinlich, dass", "emoji": "📈", "beispiel_pt": "É provável que chova no fim de semana.", "beispiel_de": "Es ist wahrscheinlich, dass es am Wochenende regnet.", "hinweis": "+ Konjunktiv (provavelmente + Indikativ)"},
+  {"id": "e-possivel-que", "pt": "é possível que", "de": "es ist möglich, dass", "emoji": "🔓", "beispiel_pt": "É possível que o João esteja doente.", "beispiel_de": "Es ist möglich, dass João krank ist.", "hinweis": "+ Konjunktiv"},
+  {"id": "e-improvavel-que", "pt": "é improvável que", "de": "es ist unwahrscheinlich, dass", "emoji": "📉", "beispiel_pt": "É improvável que os preços baixem.", "beispiel_de": "Es ist unwahrscheinlich, dass die Preise sinken.", "passiv": true},
+  {"id": "e-natural-que", "pt": "é natural que", "de": "es ist verständlich / natürlich, dass", "emoji": "🌿", "beispiel_pt": "É natural que estejas nervoso.", "beispiel_de": "Es ist verständlich, dass du nervös bist.", "hinweis": "Bewertung → Konjunktiv", "passiv": true},
+  {"id": "e-normal-que", "pt": "é normal que", "de": "es ist normal, dass", "emoji": "🟰", "beispiel_pt": "É normal que fiques cansado depois da viagem.", "beispiel_de": "Es ist normal, dass du nach der Reise müde bist.", "hinweis": "Bewertung → Konjunktiv"},
+  {"id": "e-obvio-que", "pt": "é óbvio que", "de": "es ist offensichtlich, dass", "emoji": "💡", "beispiel_pt": "É óbvio que ele está cansado.", "beispiel_de": "Es ist offensichtlich, dass er müde ist.", "hinweis": "Gewissheit → Indikativ!"},
+  {"id": "e-evidente-que", "pt": "é evidente que", "de": "es ist offenkundig, dass", "emoji": "🔦", "beispiel_pt": "É evidente que a cidade precisa de mais parques.", "beispiel_de": "Es ist offenkundig, dass die Stadt mehr Parks braucht.", "hinweis": "Gewissheit → Indikativ", "passiv": true},
+  {"id": "e-verdade-que", "pt": "é verdade que", "de": "es stimmt, dass", "emoji": "✅", "beispiel_pt": "É verdade que a casa é cara, mas é muito bonita.", "beispiel_de": "Es stimmt, dass das Haus teuer ist, aber es ist sehr schön.", "hinweis": "+ Indikativ – aber: não é verdade que + Konjunktiv"},
+  {"id": "nao-ha-duvida-de-que", "pt": "não há dúvida de que", "de": "es besteht kein Zweifel, dass", "emoji": "🎯", "beispiel_pt": "Não há dúvida de que o turismo é importante.", "beispiel_de": "Es besteht kein Zweifel, dass der Tourismus wichtig ist.", "hinweis": "Gewissheit → Indikativ", "passiv": true},
+
+  {"id": "em-primeiro-lugar", "pt": "em primeiro lugar", "de": "erstens / zuerst einmal", "emoji": "1️⃣", "beispiel_pt": "Em primeiro lugar, quero agradecer a todos.", "beispiel_de": "Zuerst einmal möchte ich allen danken."},
+  {"id": "em-segundo-lugar", "pt": "em segundo lugar", "de": "zweitens", "emoji": "2️⃣", "beispiel_pt": "Em segundo lugar, o preço é alto.", "beispiel_de": "Zweitens ist der Preis hoch.", "passiv": true},
+  {"id": "alem-disso", "pt": "além disso", "de": "außerdem", "emoji": "➕", "beispiel_pt": "A casa é grande. Além disso, tem jardim.", "beispiel_de": "Das Haus ist groß. Außerdem hat es einen Garten."},
+  {"id": "portanto", "pt": "portanto", "de": "also / deshalb", "emoji": "➡️", "beispiel_pt": "Está a chover; portanto, ficamos em casa.", "beispiel_de": "Es regnet; also bleiben wir zu Hause.", "hinweis": "Gleiche Bedeutung wie por isso"},
+  {"id": "no-entanto", "pt": "no entanto", "de": "jedoch / allerdings", "emoji": "↔️", "beispiel_pt": "O plano é bom. No entanto, é caro.", "beispiel_de": "Der Plan ist gut. Allerdings ist er teuer.", "hinweis": "Nicht verwechseln: entretanto = inzwischen"},
+  {"id": "ou-seja", "pt": "ou seja", "de": "das heißt / also", "emoji": "🔁", "beispiel_pt": "Volto no dia quinze, ou seja, daqui a duas semanas.", "beispiel_de": "Ich komme am Fünfzehnten zurück, das heißt in zwei Wochen."},
+  {"id": "alias", "pt": "aliás", "de": "übrigens / ja sogar", "emoji": "☝️", "beispiel_pt": "O restaurante é ótimo. Aliás, foi o João que mo recomendou.", "beispiel_de": "Das Restaurant ist toll. Übrigens hat João es mir empfohlen.", "passiv": true},
+  {"id": "por-fim", "pt": "por fim", "de": "schließlich / zum Schluss", "emoji": "🏁", "beispiel_pt": "Por fim, quero falar dos custos.", "beispiel_de": "Zum Schluss möchte ich über die Kosten sprechen."},
+  {"id": "em-conclusao", "pt": "em conclusão", "de": "abschließend / zusammenfassend", "emoji": "📝", "beispiel_pt": "Em conclusão, acho que o projeto vale a pena.", "beispiel_de": "Abschließend finde ich, dass sich das Projekt lohnt.", "passiv": true},
+
+  {"id": "nao-e-bem-assim", "pt": "Não é bem assim.", "de": "Ganz so ist es nicht.", "emoji": "🤏", "beispiel_pt": "Percebo a tua ideia, mas não é bem assim.", "beispiel_de": "Ich verstehe deine Idee, aber ganz so ist es nicht.", "hinweis": "Höfliche, sanfte Art zu widersprechen."},
+  {"id": "com-todo-o-respeito", "pt": "com todo o respeito", "de": "bei allem Respekt", "emoji": "🎩", "beispiel_pt": "Com todo o respeito, não concordo consigo.", "beispiel_de": "Bei allem Respekt, ich stimme Ihnen nicht zu.", "passiv": true},
+  {"id": "percebo-o-que-queres-dizer", "pt": "Percebo o que queres dizer.", "de": "Ich verstehe, was du meinst.", "emoji": "👂", "beispiel_pt": "Percebo o que queres dizer, mas tenho outra opinião.", "beispiel_de": "Ich verstehe, was du meinst, aber ich habe eine andere Meinung.", "hinweis": "querer dizer = meinen, bedeuten. Formell: Percebo o que quer dizer."},
+  {"id": "ate-certo-ponto", "pt": "até certo ponto", "de": "bis zu einem gewissen Punkt", "emoji": "📏", "beispiel_pt": "Tens razão até certo ponto.", "beispiel_de": "Du hast bis zu einem gewissen Punkt recht.", "passiv": true},
+  {"id": "pelo-contrario", "pt": "pelo contrário", "de": "im Gegenteil", "emoji": "🔃", "beispiel_pt": "Não estou cansado. Pelo contrário, estou cheio de energia!", "beispiel_de": "Ich bin nicht müde. Im Gegenteil, ich bin voller Energie!"},
+  {"id": "de-maneira-nenhuma", "pt": "De maneira nenhuma!", "de": "Auf keinen Fall!", "emoji": "🙅‍♂️", "beispiel_pt": "Vender a casa? De maneira nenhuma!", "beispiel_de": "Das Haus verkaufen? Auf keinen Fall!", "hinweis": "Auch: De modo nenhum!", "passiv": true},
+  {"id": "nem-por-isso", "pt": "Nem por isso.", "de": "Nicht wirklich. / Eigentlich nicht.", "emoji": "😐", "beispiel_pt": "Gostaste do filme? – Nem por isso.", "beispiel_de": "Hat dir der Film gefallen? – Nicht wirklich."},
+  {"id": "o-debate", "pt": "o debate", "de": "die Debatte", "emoji": "🎙️", "beispiel_pt": "Ontem houve um debate na televisão sobre a habitação.", "beispiel_de": "Gestern gab es im Fernsehen eine Debatte über das Wohnen.", "passiv": true},
+  {"id": "a-discussao", "pt": "a discussão", "de": "die Diskussion / der Streit", "emoji": "🗨️", "beispiel_pt": "Foi uma discussão interessante.", "beispiel_de": "Es war eine interessante Diskussion.", "hinweis": "Kann auch „Streit“ bedeuten: Tiveram uma discussão. = Sie haben sich gestritten."},
+
+  {"id": "o-turismo", "pt": "o turismo", "de": "der Tourismus", "emoji": "🏖️", "beispiel_pt": "O turismo é muito importante para o Algarve.", "beispiel_de": "Der Tourismus ist für die Algarve sehr wichtig."},
+  {"id": "o-turista", "pt": "o turista", "de": "der Tourist", "emoji": "📸", "beispiel_pt": "Em agosto, Lagos está cheia de turistas.", "beispiel_de": "Im August ist Lagos voller Touristen.", "hinweis": "o turista / a turista – gleiche Form"},
+  {"id": "a-habitacao", "pt": "a habitação", "de": "das Wohnen / der Wohnraum", "emoji": "🏘️", "beispiel_pt": "A habitação é o maior problema da região.", "beispiel_de": "Wohnraum ist das größte Problem der Region."},
+  {"id": "o-residente", "pt": "o residente", "de": "der Einwohner / der Ansässige", "emoji": "🏡", "beispiel_pt": "Os residentes pagam menos no estacionamento.", "beispiel_de": "Die Einwohner zahlen beim Parken weniger.", "hinweis": "Im Alltag oft: os moradores", "passiv": true},
+  {"id": "massificado", "pt": "massificado", "de": "Massen- / überlaufen", "emoji": "👥", "beispiel_pt": "Não quero um turismo massificado.", "beispiel_de": "Ich will keinen Massentourismus.", "alternativen": ["massificada"], "passiv": true},
+  {"id": "beneficiar", "pt": "beneficiar", "de": "profitieren / begünstigen", "emoji": "💶", "beispiel_pt": "Os restaurantes beneficiam muito do turismo.", "beispiel_de": "Die Restaurants profitieren sehr vom Tourismus.", "hinweis": "beneficiar de alguma coisa = von etwas profitieren"},
+  {"id": "prejudicar", "pt": "prejudicar", "de": "schaden / benachteiligen", "emoji": "⚠️", "beispiel_pt": "O barulho prejudica a qualidade de vida.", "beispiel_de": "Der Lärm schadet der Lebensqualität.", "hinweis": "Konjunktiv: que prejudique (c → qu)"},
+  {"id": "a-economia", "pt": "a economia", "de": "die Wirtschaft", "emoji": "📊", "beispiel_pt": "A economia da região depende do turismo.", "beispiel_de": "Die Wirtschaft der Region hängt vom Tourismus ab."},
+  {"id": "a-sustentabilidade", "pt": "a sustentabilidade", "de": "die Nachhaltigkeit", "emoji": "♻️", "beispiel_pt": "A sustentabilidade é um tema importante para os hotéis.", "beispiel_de": "Nachhaltigkeit ist ein wichtiges Thema für die Hotels.", "hinweis": "sustentável = nachhaltig", "passiv": true},
+  {"id": "sazonal", "pt": "sazonal", "de": "saisonal / saisonabhängig", "emoji": "🗓️", "beispiel_pt": "Muitos empregos no Algarve são sazonais.", "beispiel_de": "Viele Jobs an der Algarve sind saisonal.", "passiv": true},
+
+  {"id": "o-forum", "pt": "o fórum", "de": "das Forum", "emoji": "🖥️", "beispiel_pt": "Escrevi um comentário no fórum da cidade.", "beispiel_de": "Ich habe einen Kommentar im Forum der Stadt geschrieben.", "passiv": true},
+  {"id": "o-topico", "pt": "o tópico", "de": "der Thread / das Thema (im Forum)", "emoji": "🧵", "beispiel_pt": "Abri um tópico sobre as trotinetes elétricas.", "beispiel_de": "Ich habe einen Thread über die E-Scooter eröffnet.", "passiv": true},
+  {"id": "o-comentario", "pt": "o comentário", "de": "der Kommentar", "emoji": "💭", "beispiel_pt": "Obrigado pelo teu comentário!", "beispiel_de": "Danke für deinen Kommentar!"},
+  {"id": "polemico", "pt": "polémico", "de": "umstritten / kontrovers", "emoji": "🔥", "beispiel_pt": "É um tema muito polémico.", "beispiel_de": "Das ist ein sehr umstrittenes Thema.", "hinweis": "pt-PT mit é: polémico (BR: polêmico)", "alternativen": ["polémica"], "passiv": true},
+  {"id": "a-maioria", "pt": "a maioria", "de": "die Mehrheit", "emoji": "🙌", "beispiel_pt": "A maioria das pessoas concorda.", "beispiel_de": "Die Mehrheit der Leute stimmt zu."},
+  {"id": "a-minoria", "pt": "a minoria", "de": "die Minderheit", "emoji": "🤏", "beispiel_pt": "Só uma minoria é contra o projeto.", "beispiel_de": "Nur eine Minderheit ist gegen das Projekt.", "passiv": true},
+  {"id": "criticar", "pt": "criticar", "de": "kritisieren", "emoji": "👎", "beispiel_pt": "Muitos residentes criticam o novo hotel.", "beispiel_de": "Viele Einwohner kritisieren das neue Hotel.", "hinweis": "a crítica = die Kritik"},
+  {"id": "o-argumento", "pt": "o argumento", "de": "das Argument", "emoji": "🧠", "beispiel_pt": "É um bom argumento, mas não me convence.", "beispiel_de": "Das ist ein gutes Argument, aber es überzeugt mich nicht."},
+  {"id": "a-sondagem", "pt": "a sondagem", "de": "die Umfrage", "emoji": "🗳️", "beispiel_pt": "Segundo a sondagem, a maioria é a favor.", "beispiel_de": "Laut der Umfrage ist die Mehrheit dafür.", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-02-L01",
+   "typ": "neu",
+   "titel": "Na minha opinião – Meinung mit Indikativ",
+   "vokabeln": ["a-opiniao", "o-ponto-de-vista", "ter-a-certeza-de-que", "acreditar-que", "estar-convencido-de-que", "considerar", "defender", "a-posicao", "a-questao", "pessoalmente"],
+   "grammatik": {
+    "titel": "Dar a opinião: verbos de opinião + indicativo",
+    "erklaerung": [
+     "Para dar uma opinião usamos <b>achar que, pensar que, acreditar que, parecer-me que, considerar que</b>. Quando a frase é <b>afirmativa</b>, o verbo depois de <i>que</i> fica no <b>indicativo</b>: <i>Acho que <b>é</b> uma boa ideia.</i>",
+     "O mesmo com as expressões de certeza: <b>ter a certeza de que, estar convencido de que, saber que</b> + indicativo: <i>Tenho a certeza de que ele <b>vem</b>.</i>",
+     "Para falar do futuro, usamos o presente ou <b>ir</b> + infinitivo: <i>Acredito que a situação <b>vai melhorar</b>.</i>",
+     "Expressões úteis: <i>Na minha opinião, … / Do meu ponto de vista, … / A meu ver, … / Pessoalmente, …</i> Nas próximas lições: o que acontece quando dizemos <b>não acho que</b> …"
+    ],
+    "erklaerung_de": [
+     "Für die eigene Meinung benutzt man <b>achar que, pensar que, acreditar que, parecer-me que, considerar que</b>. Ist der Satz <b>bejaht</b>, steht das Verb nach <i>que</i> im <b>Indikativ</b>: <i>Acho que <b>é</b> uma boa ideia.</i> – Ich finde, das ist eine gute Idee.",
+     "Genauso bei Ausdrücken der Gewissheit: <b>ter a certeza de que, estar convencido de que, saber que</b> + Indikativ: <i>Tenho a certeza de que ele <b>vem</b>.</i> – Ich bin sicher, dass er kommt.",
+     "Für die Zukunft nimmt man das Präsens oder <b>ir</b> + Infinitiv: <i>Acredito que a situação <b>vai melhorar</b>.</i> – Ich glaube, die Lage wird sich bessern.",
+     "Nützliche Wendungen: <i>Na minha opinião, …</i> (Meiner Meinung nach) <i>/ Do meu ponto de vista, …</i> (Aus meiner Sicht) <i>/ A meu ver, …</i> (Meines Erachtens) <i>/ Pessoalmente, …</i> (Ich persönlich). In den nächsten Lektionen: Was passiert, wenn man <b>não acho que</b> sagt …"
+    ],
+    "vergleich": "Wie im Deutschen: „Ich glaube, dass es stimmt“ – <i>Acho que é verdade.</i> Bejahte Meinungsverben stehen mit Indikativ. <i>achar</i> ist im Alltag das häufigste Meinungsverb („finden, meinen“); <i>acreditar</i> heißt eigentlich „glauben (an)“ und klingt etwas stärker.",
+    "beispiele": [
+     {"pt": "Acho que o novo restaurante do porto é muito bom.", "de": "Ich finde, das neue Restaurant am Hafen ist sehr gut."},
+     {"pt": "Tenho a certeza de que o João vai concordar.", "de": "Ich bin sicher, dass João zustimmen wird."},
+     {"pt": "Pessoalmente, acredito que Lagos é um ótimo sítio para viver.", "de": "Ich persönlich glaube, dass Lagos ein toller Ort zum Leben ist."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Acho que o Pedro ___ razão. (ter)", "loesungen": ["tem"], "de": "Ich glaube, Pedro hat recht.", "erklaerung": "Bejahte Meinung → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Tenho a certeza de que ela ___ amanhã. (vir)", "loesungen": ["vem", "vai vir", "virá"], "de": "Ich bin sicher, dass sie morgen kommt.", "erklaerung": "Gewissheit → Indikativ: eu venho, ela vem.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Acredito que a economia ___ a melhorar.", "optionen": ["esteja", "está", "estar"], "richtig": 1, "erklaerung": "acreditar que (bejaht) → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Parece-me que o preço ___ um bocado alto. (ser)", "loesungen": ["é"], "de": "Mir scheint, der Preis ist ein bisschen hoch.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Meiner Meinung nach …“", "optionen": ["Na minha opinião, …", "No meu lado, …", "Pela minha posição, …"], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Ich bin sicher, dass Ana zustimmt.", "loesungen": ["Tenho a certeza de que a Ana concorda.", "Tenho a certeza que a Ana concorda.", "Tenho a certeza de que a Ana vai concordar.", "Tenho a certeza que a Ana vai concordar."], "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Was ist deine Meinung dazu?", "loesungen": ["Qual é a tua opinião sobre isto?", "Qual é a tua opinião sobre isso?", "Qual é a tua opinião?", "O que achas disto?", "O que achas disso?"]},
+     {"typ": "satzbau", "de": "Ich persönlich finde, dass es eine gute Idee ist.", "loesung": "Pessoalmente, acho que é uma boa ideia."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um carro novo? – ein neues Auto?",
+    "situation": "Stefan und Ana überlegen, ob sie ein Elektroauto kaufen sollen.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, o que achas do carro elétrico do João? Ele diz que é ótimo.", "de": "Stefan, was hältst du von Joãos Elektroauto? Er sagt, es ist super."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pessoalmente, acho que é uma boa opção para nós. Fazemos poucos quilómetros por dia.", "de": "Ich persönlich finde, dass es eine gute Option für uns ist. Wir fahren wenige Kilometer am Tag."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Também acho. E tenho a certeza de que poupamos muito em gasolina.", "de": "Finde ich auch. Und ich bin sicher, dass wir viel Benzin sparen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois. Mas, na minha opinião, o preço ainda é um bocado alto.", "de": "Ja. Aber meiner Meinung nach ist der Preis noch ein bisschen hoch."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "É verdade. Mas o João acredita que os preços vão baixar no próximo ano.", "de": "Das stimmt. Aber João glaubt, dass die Preise nächstes Jahr sinken werden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então, do meu ponto de vista, o melhor é esperar uns meses.", "de": "Dann ist es aus meiner Sicht das Beste, ein paar Monate zu warten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Parece-me bem. Entretanto, podemos pedir ao João para nos deixar experimentar o carro.", "de": "Klingt gut. Inzwischen können wir João bitten, uns das Auto ausprobieren zu lassen."}
+    ],
+    "fragen": [
+     {"frage": "O que acha o Stefan do carro elétrico?", "optionen": ["Que é uma boa opção para eles.", "Que é muito pequeno.", "Que é perigoso."], "richtig": 0},
+     {"frage": "Qual é o problema, segundo o Stefan?", "optionen": ["O carro é feio.", "O preço ainda é alto.", "Não há onde carregar o carro."], "richtig": 1},
+     {"frage": "O que decidem?", "optionen": ["Comprar o carro já.", "Comprar um carro a gasolina.", "Esperar uns meses."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Na minha opinião, é uma boa ideia.", "de": "Meiner Meinung nach ist das eine gute Idee."},
+     {"pt": "Tenho a certeza de que ele vem.", "de": "Ich bin sicher, dass er kommt."},
+     {"pt": "Do meu ponto de vista, o preço é alto.", "de": "Aus meiner Sicht ist der Preis hoch."},
+     {"pt": "Acredito que a situação vai melhorar.", "de": "Ich glaube, dass sich die Lage bessern wird."},
+     {"pt": "Qual é a tua opinião sobre isto?", "de": "Was ist deine Meinung dazu?"}
+    ]
+   },
+   "saetze": [
+    {"id": "na-minha-opiniao-boa-ideia", "pt": "Na minha opinião, é uma boa ideia.", "de": "Meiner Meinung nach ist das eine gute Idee."},
+    {"id": "tenho-a-certeza-que-vem", "pt": "Tenho a certeza de que ele vem.", "de": "Ich bin sicher, dass er kommt."},
+    {"id": "qual-e-a-tua-opiniao", "pt": "Qual é a tua opinião sobre isto?", "de": "Was ist deine Meinung dazu?"}
+   ]
+  },
+  {
+   "id": "B1-02-L02",
+   "typ": "neu",
+   "titel": "Não acho que seja justo – verneinte Meinung",
+   "vokabeln": ["nao-acho-que", "nao-penso-que", "nao-me-parece-que", "nao-creio-que", "exagerar", "o-exagero", "justo", "injusto", "mudar-de-opiniao"],
+   "grammatik": {
+    "titel": "Não acho que + conjuntivo",
+    "erklaerung": [
+     "Quando o verbo de opinião está na forma <b>negativa</b>, a ideia passa a ser uma <b>dúvida</b>. Por isso usamos o <b>conjuntivo</b>: <i>Acho que <b>é</b> justo.</i> → <i>Não acho que <b>seja</b> justo.</i>",
+     "O mesmo acontece com <b>não penso que, não me parece que, não creio que</b>: <i>Não me parece que ele <b>tenha</b> razão.</i>",
+     "Lembre-se das formas irregulares: <i>ser → seja, estar → esteja, ter → tenha, ir → vá, haver → haja, fazer → faça, poder → possa, saber → saiba</i>.",
+     "Nas perguntas (<i>Achas que …?</i>) usa-se normalmente o indicativo: <i>Achas que ele <b>vem</b>?</i>"
+    ],
+    "erklaerung_de": [
+     "Steht das Meinungsverb in der <b>Verneinung</b>, wird der Gedanke zu einem <b>Zweifel</b>. Deshalb folgt der <b>Konjunktiv</b>: <i>Acho que <b>é</b> justo.</i> (Ich finde es fair.) → <i>Não acho que <b>seja</b> justo.</i> (Ich finde es nicht fair.)",
+     "Genauso bei <b>não penso que, não me parece que, não creio que</b>: <i>Não me parece que ele <b>tenha</b> razão.</i> – Ich glaube kaum, dass er recht hat.",
+     "Denk an die unregelmäßigen Formen: <i>ser → seja, estar → esteja, ter → tenha, ir → vá, haver → haja, fazer → faça, poder → possa, saber → saiba</i>.",
+     "In Fragen (<i>Achas que …?</i> – Glaubst du, dass …?) steht normalerweise der Indikativ: <i>Achas que ele <b>vem</b>?</i>"
+    ],
+    "vergleich": "Im Deutschen bleibt das Verb gleich: „Ich glaube, dass es fair ist“ / „Ich glaube nicht, dass es fair ist“. Im Portugiesischen wechselt der Modus: <i>Acho que é justo</i> → <i>Não acho que seja justo</i>. Das <b>não</b> vor dem Meinungsverb ist das Signal für den Konjunktiv.",
+    "beispiele": [
+     {"pt": "Não acho que seja justo pagar tanto.", "de": "Ich finde es nicht fair, so viel zu zahlen."},
+     {"pt": "Não me parece que o Pedro esteja zangado.", "de": "Ich glaube kaum, dass Pedro böse ist."},
+     {"pt": "Não penso que eles tenham tempo esta semana.", "de": "Ich denke nicht, dass sie diese Woche Zeit haben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Não acho que ___ boa ideia. (ser)", "loesungen": ["seja"], "de": "Ich glaube nicht, dass das eine gute Idee ist.", "erklaerung": "Verneinte Meinung → Konjunktiv: ser → seja.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Não me parece que o João ___ em casa. (estar)", "loesungen": ["esteja"], "de": "Ich glaube kaum, dass João zu Hause ist.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Não penso que eles ___ dinheiro para isso. (ter)", "loesungen": ["tenham"], "de": "Ich denke nicht, dass sie Geld dafür haben.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Acho que tu ___ razão.", "optionen": ["tenhas", "tens", "ter"], "richtig": 1, "erklaerung": "Bejahte Meinung → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Não acho que tu ___ razão.", "optionen": ["tens", "tenhas", "tiveste"], "richtig": 1, "erklaerung": "Verneinte Meinung → Konjunktiv.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Não creio que ___ tempo para tudo. (haver)", "loesungen": ["haja"], "de": "Ich glaube nicht, dass es Zeit für alles gibt.", "erklaerung": "haver → haja.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Ich finde nicht, dass das fair ist.", "loesungen": ["Não acho que seja justo.", "Não acho que isso seja justo.", "Não acho que isto seja justo.", "Não penso que seja justo.", "Não penso que isso seja justo.", "Não me parece que seja justo.", "Não me parece que isso seja justo.", "Não creio que seja justo.", "Não acredito que seja justo."], "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "satzbau", "de": "Ich glaube nicht, dass er übertreibt.", "loesung": "Não acho que ele esteja a exagerar."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Parquímetros no centro – Parkuhren im Zentrum",
+    "situation": "Pedro und Stefan sprechen über neue Parkgebühren im Zentrum von Lagos.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Já viste? A câmara vai pôr parquímetros em todas as ruas do centro.", "de": "Hast du schon gesehen? Die Gemeinde stellt in allen Straßen im Zentrum Parkuhren auf."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vi. Não acho que seja má ideia. Há carros a mais no centro.", "de": "Hab ich gesehen. Ich finde nicht, dass es eine schlechte Idee ist. Es gibt zu viele Autos im Zentrum."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "A sério? Eu não acho que seja justo. Os moradores também vão ter de pagar!", "de": "Im Ernst? Ich finde das nicht fair. Die Anwohner werden auch zahlen müssen!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não me parece que seja assim. Li que os moradores recebem um cartão gratuito.", "de": "Ich glaube nicht, dass das so ist. Ich habe gelesen, dass die Anwohner eine kostenlose Karte bekommen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Hum, não sabia. Mas, mesmo assim, dois euros por hora é um exagero.", "de": "Hm, das wusste ich nicht. Aber trotzdem: zwei Euro pro Stunde ist übertrieben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso é verdade. Não penso que os turistas se importem, mas para quem trabalha cá é caro.", "de": "Das stimmt. Ich glaube nicht, dass es die Touristen stört, aber für die, die hier arbeiten, ist es teuer."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Pois. Vês? Afinal estás a mudar de opinião!", "de": "Eben. Siehst du? Du änderst ja doch deine Meinung!"}
+    ],
+    "fragen": [
+     {"frage": "O que vai fazer a câmara?", "optionen": ["Fechar o centro ao trânsito.", "Pôr parquímetros no centro.", "Construir um parque de estacionamento."], "richtig": 1},
+     {"frage": "O que recebem os moradores?", "optionen": ["Um cartão gratuito.", "Um desconto de dois euros.", "Nada."], "richtig": 0},
+     {"frage": "Quanto custa uma hora de estacionamento?", "optionen": ["Um euro.", "Cinco euros.", "Dois euros."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Deine Freundin Rita erzählt dir von einem neuen Hotelprojekt am Strand. Du bist skeptisch (tu).",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ouvi dizer que vão construir mais um hotel na praia. Isso é bom para Lagos, não é?", "de": "Ich habe gehört, dass sie noch ein Hotel am Strand bauen. Das ist gut für Lagos, oder?"},
+     {"ich": true, "aufgabe": "Diga que não acha que seja boa ideia.", "loesungen": ["Não acho que seja boa ideia.", "Não acho que seja uma boa ideia.", "Eu não acho que seja boa ideia.", "Eu não acho que seja uma boa ideia.", "Não acho que isso seja boa ideia.", "Não acho que isso seja uma boa ideia.", "Sinceramente, não acho que seja boa ideia."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Porquê? Vai trazer emprego.", "de": "Warum? Es wird Arbeitsplätze bringen."},
+     {"ich": true, "aufgabe": "Diga que não lhe parece que haja espaço para mais um hotel.", "loesungen": ["Não me parece que haja espaço para mais um hotel.", "Não me parece que haja espaço para outro hotel.", "Não me parece que haja lugar para mais um hotel.", "Não me parece que haja lugar para outro hotel.", "Mas não me parece que haja espaço para mais um hotel."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Se calhar tens razão. Mas não exageres, é só um hotel!", "de": "Vielleicht hast du recht. Aber übertreib nicht, es ist nur ein Hotel!"},
+     {"ich": true, "aufgabe": "Diga que não está a exagerar.", "loesungen": ["Não estou a exagerar.", "Não estou a exagerar!", "Eu não estou a exagerar.", "Eu não estou a exagerar!", "Mas não estou a exagerar!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "nao-acho-que-seja-justo", "pt": "Não acho que seja justo.", "de": "Ich finde das nicht fair."},
+    {"id": "nao-me-parece-que-tenha-razao", "pt": "Não me parece que ele tenha razão.", "de": "Ich glaube kaum, dass er recht hat."},
+    {"id": "mudei-de-opiniao", "pt": "Depois da conversa, mudei de opinião.", "de": "Nach dem Gespräch habe ich meine Meinung geändert."}
+   ]
+  },
+  {
+   "id": "B1-02-L03",
+   "typ": "neu",
+   "titel": "Duvido que – Zweifel ausdrücken",
+   "vokabeln": ["duvidar", "duvido-que", "nao-acredito-que", "negar", "e-mentira-que", "verdadeiro", "a-prova", "suspeitar", "e-impossivel-que"],
+   "grammatik": {
+    "titel": "Dúvida: duvidar que, não acreditar que, é impossível que",
+    "erklaerung": [
+     "Depois de expressões de <b>dúvida</b> usamos sempre o <b>conjuntivo</b>: <i>Duvido que ele <b>venha</b>. Não acredito que isso <b>seja</b> verdade.</i>",
+     "<b>duvidar</b> já tem um sentido negativo; por isso leva conjuntivo mesmo sem <i>não</i>. O mesmo com <b>negar que, é mentira que, é impossível que</b>: <i>Ele nega que <b>haja</b> problemas.</i>",
+     "Compare: <i>Acredito que <b>é</b> verdade.</i> (certeza → indicativo) – <i>Não acredito que <b>seja</b> verdade.</i> (dúvida → conjuntivo).",
+     "Na conversa: <i>Duvido! / Duvido muito.</i> – <i>Não acredito!</i> (surpresa) – <i>Isso é mentira!</i>"
+    ],
+    "erklaerung_de": [
+     "Nach Ausdrücken des <b>Zweifels</b> steht immer der <b>Konjunktiv</b>: <i>Duvido que ele <b>venha</b>.</i> (Ich bezweifle, dass er kommt.) <i>Não acredito que isso <b>seja</b> verdade.</i> (Ich glaube nicht, dass das stimmt.)",
+     "<b>duvidar</b> ist schon von sich aus „negativ“ – deshalb Konjunktiv auch ohne <i>não</i>. Ebenso nach <b>negar que</b> (bestreiten), <b>é mentira que</b> (es stimmt nicht, dass), <b>é impossível que</b>: <i>Ele nega que <b>haja</b> problemas.</i> – Er bestreitet, dass es Probleme gibt.",
+     "Vergleiche: <i>Acredito que <b>é</b> verdade.</i> (Gewissheit → Indikativ) – <i>Não acredito que <b>seja</b> verdade.</i> (Zweifel → Konjunktiv).",
+     "Im Gespräch: <i>Duvido! / Duvido muito.</i> (Das bezweifle ich stark.) – <i>Não acredito!</i> (Das gibt's doch nicht! – Überraschung) – <i>Isso é mentira!</i> (Das ist gelogen!)"
+    ],
+    "vergleich": "„Ich bezweifle, dass er kommt“ – <i>Duvido que ele venha</i>. Achtung: <i>Não acredito!</i> allein heißt meist „Das gibt's doch nicht!“ (Überraschung), nicht nur „Ich glaube das nicht“.",
+    "beispiele": [
+     {"pt": "Duvido que o João chegue a horas.", "de": "Ich bezweifle, dass João pünktlich kommt."},
+     {"pt": "Não acredito que a loja esteja fechada outra vez.", "de": "Ich kann nicht glauben, dass der Laden schon wieder geschlossen ist."},
+     {"pt": "É impossível que ele já saiba a notícia.", "de": "Es ist unmöglich, dass er die Nachricht schon kennt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Duvido que o autocarro ___ a horas. (chegar)", "loesungen": ["chegue"], "de": "Ich bezweifle, dass der Bus pünktlich kommt.", "erklaerung": "chegar → chegue (g wird vor e zu gu).", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Não acredito que eles ___ a verdade. (dizer)", "loesungen": ["digam"], "de": "Ich glaube nicht, dass sie die Wahrheit sagen.", "erklaerung": "eu digo → que eles digam.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "É impossível que ela ___ isso! (saber)", "loesungen": ["saiba"], "de": "Es ist unmöglich, dass sie das weiß!", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Acredito que ele ___ honesto.", "optionen": ["seja", "é", "ser"], "richtig": 1, "erklaerung": "acreditar que (bejaht) → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Duvido que ___ lugar no restaurante hoje.", "optionen": ["há", "haja", "havia"], "richtig": 1, "erklaerung": "duvidar → immer Konjunktiv: haver → haja.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "O vizinho nega que ___ barulho à noite. (fazer)", "loesungen": ["faça"], "de": "Der Nachbar bestreitet, dass er nachts Lärm macht.", "erklaerung": "eu faço → que ele faça.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Ich bezweifle, dass er kommt.", "loesungen": ["Duvido que ele venha.", "Duvido de que ele venha.", "Duvido que venha.", "Duvido muito que ele venha."], "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "satzbau", "de": "Ich kann nicht glauben, dass der Laden geschlossen ist.", "loesung": "Não acredito que a loja esteja fechada."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um boato – ein Gerücht",
+    "situation": "Ana hat von der Nachbarin Dona Rosa ein Gerücht über die Markthalle gehört.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, a Dona Rosa disse-me que vão fechar o mercado municipal para fazer um centro comercial.", "de": "Stefan, Dona Rosa hat mir gesagt, dass sie die Markthalle schließen, um ein Einkaufszentrum zu bauen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O quê? Não acredito que a câmara faça uma coisa dessas.", "de": "Was? Ich kann nicht glauben, dass die Gemeinde so etwas macht."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ela diz que ouviu na rádio local.", "de": "Sie sagt, sie hat es im Lokalradio gehört."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Duvido muito. O mercado é muito importante para os pescadores e para os agricultores da zona.", "de": "Das bezweifle ich stark. Der Markt ist sehr wichtig für die Fischer und die Bauern der Gegend."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Também me parece estranho. É impossível que ninguém proteste.", "de": "Mir kommt das auch komisch vor. Es ist unmöglich, dass niemand protestiert."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Olha, vou ver no site da câmara… Pois, aqui diz que vão só fazer obras no telhado.", "de": "Schau, ich sehe auf der Website der Gemeinde nach … Genau, hier steht, dass sie nur das Dach sanieren."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ah, então é mentira que vão fechar o mercado! A Dona Rosa exagera sempre.", "de": "Ah, dann stimmt es also nicht, dass sie den Markt schließen! Dona Rosa übertreibt immer."}
+    ],
+    "fragen": [
+     {"frage": "O que disse a Dona Rosa?", "optionen": ["Que o mercado vai fechar.", "Que o mercado vai abrir aos domingos.", "Que os pescadores estão em greve."], "richtig": 0},
+     {"frage": "Onde é que o Stefan procura a informação?", "optionen": ["Na rádio.", "No jornal.", "No site da câmara."], "richtig": 2},
+     {"frage": "O que vão fazer realmente?", "optionen": ["Um centro comercial.", "Obras no telhado.", "Um parque de estacionamento."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich bezweifle, dass der Bus pünktlich kommt.", "loesungen": ["Duvido que o autocarro chegue a horas.", "Duvido de que o autocarro chegue a horas.", "Duvido que o autocarro venha a horas."]},
+     {"de": "Ich glaube nicht, dass das wahr ist.", "loesungen": ["Não acredito que seja verdade.", "Não acredito que isso seja verdade.", "Não acho que seja verdade.", "Não acho que isso seja verdade.", "Não acredito que isso seja verdadeiro."]},
+     {"de": "Es ist unmöglich, dass er das weiß.", "loesungen": ["É impossível que ele saiba isso.", "É impossível que ele saiba.", "É impossível que saiba isso."]},
+     {"de": "Der Nachbar bestreitet, dass es ein Problem gibt.", "loesungen": ["O vizinho nega que haja um problema.", "O vizinho nega que haja problema.", "O vizinho nega que exista um problema."]},
+     {"de": "Das gibt's doch nicht!", "loesungen": ["Não acredito!", "Não acredito!!"]}
+    ]
+   },
+   "saetze": [
+    {"id": "duvido-que-chegue-a-horas", "pt": "Duvido que ele chegue a horas.", "de": "Ich bezweifle, dass er pünktlich kommt."},
+    {"id": "nao-acredito-que-seja-verdade", "pt": "Não acredito que isso seja verdade.", "de": "Ich glaube nicht, dass das wahr ist."},
+    {"id": "e-impossivel-que-saiba", "pt": "É impossível que ele já saiba.", "de": "Es ist unmöglich, dass er es schon weiß."}
+   ]
+  },
+  {
+   "id": "B1-02-L04",
+   "typ": "neu",
+   "titel": "Talvez – vielleicht",
+   "vokabeln": ["talvez", "pode-ser-que", "quem-sabe", "possivelmente", "eventualmente", "a-hipotese", "porventura", "nunca-se-sabe", "a-incerteza"],
+   "grammatik": {
+    "titel": "Talvez + conjuntivo, se calhar + indicativo",
+    "erklaerung": [
+     "<b>talvez</b> antes do verbo pede o <b>conjuntivo</b>, porque exprime uma possibilidade: <i>Talvez <b>chova</b> amanhã. Talvez ele <b>esteja</b> em casa.</i>",
+     "Se <b>talvez</b> vem depois do verbo, usa-se o indicativo: <i>Ele está em casa, talvez.</i> Mas isto é menos frequente.",
+     "<b>se calhar</b>, <b>provavelmente</b> e <b>possivelmente</b> – muito usados em Portugal – levam o <b>indicativo</b>: <i>Se calhar <b>chove</b> amanhã. Provavelmente ele <b>vem</b> mais tarde.</i>",
+     "<b>pode ser que</b> + conjuntivo: <i>Pode ser que o Pedro <b>venha</b> connosco.</i> Respostas curtas: <i>Talvez. / Pode ser. / Quem sabe? / Nunca se sabe.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>talvez</b> vor dem Verb verlangt den <b>Konjunktiv</b>, weil es eine Möglichkeit ausdrückt: <i>Talvez <b>chova</b> amanhã.</i> (Vielleicht regnet es morgen.) <i>Talvez ele <b>esteja</b> em casa.</i>",
+     "Steht <b>talvez</b> nach dem Verb, nimmt man den Indikativ: <i>Ele está em casa, talvez.</i> Das ist aber seltener.",
+     "<b>se calhar</b>, <b>provavelmente</b> und <b>possivelmente</b> – in Portugal sehr häufig – stehen mit <b>Indikativ</b>: <i>Se calhar <b>chove</b> amanhã. Provavelmente ele <b>vem</b> mais tarde.</i>",
+     "<b>pode ser que</b> (es kann sein, dass) + Konjunktiv: <i>Pode ser que o Pedro <b>venha</b> connosco.</i> Kurze Antworten: <i>Talvez. / Pode ser.</i> (Kann sein.) <i>/ Quem sabe?</i> (Wer weiß?) <i>/ Nunca se sabe.</i> (Man weiß nie.)"
+    ],
+    "vergleich": "Deutsch „vielleicht“ hat drei portugiesische Partner: <i>talvez</i> + Konjunktiv (Talvez venha), <i>se calhar</i> + Indikativ (Se calhar vem) und <i>pode ser que</i> + Konjunktiv. Im gesprochenen pt-PT ist <i>se calhar</i> sehr häufig – damit umgehst du den Konjunktiv ganz elegant.",
+    "beispiele": [
+     {"pt": "Talvez o João saiba a resposta.", "de": "Vielleicht weiß João die Antwort."},
+     {"pt": "Se calhar ele já está a dormir.", "de": "Vielleicht schläft er schon."},
+     {"pt": "Pode ser que amanhã faça sol.", "de": "Es kann sein, dass morgen die Sonne scheint."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Talvez ___ amanhã. (chover)", "loesungen": ["chova"], "de": "Vielleicht regnet es morgen.", "erklaerung": "talvez vor dem Verb → Konjunktiv.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Se calhar ele ___ mais tarde. (vir)", "loesungen": ["vem", "vai vir"], "de": "Vielleicht kommt er später.", "erklaerung": "se calhar → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Talvez a Ana ___ cansada.", "optionen": ["está", "esteja", "estar"], "richtig": 1, "erklaerung": "talvez + Konjunktiv.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Se calhar a loja ___ fechada.", "optionen": ["está", "esteja", "estar"], "richtig": 0, "erklaerung": "se calhar + Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Pode ser que o Pedro ___ ir connosco. (querer)", "loesungen": ["queira"], "de": "Es kann sein, dass Pedro mit uns gehen will.", "erklaerung": "querer → queira (unregelmäßig).", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Provavelmente eles ___ de comboio. (ir)", "loesungen": ["vão"], "de": "Wahrscheinlich fahren sie mit dem Zug.", "erklaerung": "provavelmente → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Vielleicht weiß João die Antwort.", "loesungen": ["Talvez o João saiba a resposta.", "Se calhar o João sabe a resposta.", "Pode ser que o João saiba a resposta.", "Provavelmente o João sabe a resposta."], "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Man weiß nie.“", "optionen": ["Nunca se sabe.", "Não se sabe nunca nada.", "Nunca sabemos nada."], "richtig": 0}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um passeio de barco – eine Bootsfahrt",
+    "situation": "Pedro und Stefan planen für Samstag eine Bootsfahrt, aber das Wetter ist unsicher.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então, sábado vamos à Ponta da Piedade de barco ou não?", "de": "Also, fahren wir am Samstag mit dem Boot zur Ponta da Piedade oder nicht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Talvez. O problema é o tempo. A previsão diz que pode ser que chova.", "de": "Vielleicht. Das Problem ist das Wetter. Laut Vorhersage kann es sein, dass es regnet."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Se calhar só chove de manhã. À tarde talvez faça sol.", "de": "Vielleicht regnet es nur am Vormittag. Am Nachmittag scheint vielleicht die Sonne."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pode ser. E a Rita vem?", "de": "Kann sein. Und kommt Rita?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Não sei. Talvez venha, mas está com muito trabalho. Quem sabe?", "de": "Weiß ich nicht. Vielleicht kommt sie, aber sie hat viel Arbeit. Wer weiß?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então fazemos assim: reservamos o barco para as três e, se estiver mau tempo, cancelamos.", "de": "Dann machen wir es so: Wir reservieren das Boot für drei Uhr, und wenn schlechtes Wetter ist, sagen wir ab."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Boa ideia. Com o tempo em março, nunca se sabe.", "de": "Gute Idee. Beim Wetter im März weiß man nie."}
+    ],
+    "fragen": [
+     {"frage": "Para onde querem ir?", "optionen": ["À Ponta da Piedade.", "A Sagres.", "A Faro."], "richtig": 0},
+     {"frage": "O que diz a previsão?", "optionen": ["Que vai fazer muito calor.", "Que pode chover.", "Que vai haver vento forte."], "richtig": 1},
+     {"frage": "Para que horas querem reservar o barco?", "optionen": ["Para as dez.", "Para o meio-dia.", "Para as três."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ana fragt dich nach den Plänen fürs Wochenende. Du bist dir noch nicht sicher (tu).",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Vamos a Lisboa no fim de semana?", "de": "Fahren wir am Wochenende nach Lissabon?"},
+     {"ich": true, "aufgabe": "Sag: Vielleicht. Es hängt von der Arbeit ab.", "loesungen": ["Talvez. Depende do trabalho.", "Talvez, depende do trabalho.", "Talvez. Depende do meu trabalho.", "Talvez, mas depende do trabalho.", "Pode ser. Depende do trabalho."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E achas que o Pedro também vem?", "de": "Und glaubst du, dass Pedro auch mitkommt?"},
+     {"ich": true, "aufgabe": "Sag: Es kann sein, dass er kommt.", "loesungen": ["Pode ser que ele venha.", "Pode ser que venha.", "Talvez venha.", "Talvez ele venha."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E o tempo? Vai estar bom?", "de": "Und das Wetter? Wird es schön?"},
+     {"ich": true, "aufgabe": "Sag: Vielleicht regnet es (mit se calhar). Man weiß nie.", "loesungen": ["Se calhar chove. Nunca se sabe.", "Se calhar vai chover. Nunca se sabe.", "Se calhar chove, nunca se sabe.", "Se calhar vai chover, nunca se sabe."]}
+    ]
+   },
+   "saetze": [
+    {"id": "talvez-chova-amanha", "pt": "Talvez chova amanhã.", "de": "Vielleicht regnet es morgen."},
+    {"id": "se-calhar-ja-esta-a-dormir", "pt": "Se calhar ele já está a dormir.", "de": "Vielleicht schläft er schon."},
+    {"id": "pode-ser-que-venha", "pt": "Pode ser que o Pedro venha connosco.", "de": "Es kann sein, dass Pedro mit uns kommt."}
+   ]
+  },
+  {
+   "id": "B1-02-L05",
+   "typ": "neu",
+   "titel": "É importante que – unpersönliche Ausdrücke",
+   "vokabeln": ["e-importante-que", "e-necessario-que", "e-urgente-que", "basta-que", "e-indispensavel-que", "tomar-medidas", "o-governo", "as-autoridades", "a-lei"],
+   "grammatik": {
+    "titel": "É importante / é preciso que + conjuntivo",
+    "erklaerung": [
+     "Depois de expressões impessoais de <b>necessidade</b> e <b>importância</b> usamos o <b>conjuntivo</b>: <i>É importante que <b>chegues</b> a horas. É preciso que o governo <b>tome</b> medidas.</i>",
+     "Se não falamos de uma pessoa concreta, usamos o <b>infinitivo</b>: <i>É importante chegar a horas. É preciso poupar água.</i>",
+     "Com uma pessoa concreta também se pode usar o <b>infinitivo pessoal</b>: <i>É importante <b>chegarmos</b> a horas.</i> = <i>É importante que <b>cheguemos</b> a horas.</i>",
+     "Mais expressões: <b>é necessário que, é urgente que, é indispensável que, basta que</b>: <i>Basta que <b>assine</b> aqui.</i>"
+    ],
+    "erklaerung_de": [
+     "Nach unpersönlichen Ausdrücken der <b>Notwendigkeit</b> und <b>Wichtigkeit</b> steht der <b>Konjunktiv</b>: <i>É importante que <b>chegues</b> a horas.</i> (Es ist wichtig, dass du pünktlich kommst.) <i>É preciso que o governo <b>tome</b> medidas.</i> (Die Regierung muss Maßnahmen ergreifen.)",
+     "Geht es um keine bestimmte Person, steht der <b>Infinitiv</b>: <i>É importante chegar a horas. É preciso poupar água.</i> (Man muss Wasser sparen.)",
+     "Mit bestimmter Person geht auch der <b>persönliche Infinitiv</b>: <i>É importante <b>chegarmos</b> a horas.</i> = <i>É importante que <b>cheguemos</b> a horas.</i> – Es ist wichtig, dass wir pünktlich kommen.",
+     "Weitere Ausdrücke: <b>é necessário que</b> (es ist nötig), <b>é urgente que</b> (es ist dringend nötig), <b>é indispensável que</b> (es ist unerlässlich), <b>basta que</b> (es genügt, dass): <i>Basta que <b>assine</b> aqui.</i> – Es genügt, wenn Sie hier unterschreiben."
+    ],
+    "vergleich": "Deutsch: „Es ist wichtig, dass du pünktlich kommst“ – Indikativ. Portugiesisch: <i>É importante que chegues a horas</i> – Konjunktiv. Ganz ohne Konjunktiv und sehr natürlich klingt oft auch: <i>Tens de chegar a horas.</i>",
+    "beispiele": [
+     {"pt": "É importante que todos poupem água no verão.", "de": "Es ist wichtig, dass alle im Sommer Wasser sparen."},
+     {"pt": "É preciso que o governo tome medidas.", "de": "Die Regierung muss Maßnahmen ergreifen."},
+     {"pt": "Basta que assine aqui, se faz favor.", "de": "Es genügt, wenn Sie hier unterschreiben, bitte."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "É importante que tu ___ a horas. (chegar)", "loesungen": ["chegues"], "de": "Es ist wichtig, dass du pünktlich kommst.", "erklaerung": "chegar → chegues (g wird vor e zu gu).", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "É preciso que o governo ___ medidas. (tomar)", "loesungen": ["tome"], "de": "Die Regierung muss Maßnahmen ergreifen.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "É necessário que nós ___ água. (poupar)", "loesungen": ["poupemos"], "de": "Es ist nötig, dass wir Wasser sparen.", "kategorie": "Conjuntivo"},
+     {"typ": "auswahl", "frage": "É importante ___ água no verão. (allgemein, ohne Person)", "optionen": ["poupar", "que poupe", "poupe"], "richtig": 0, "erklaerung": "Keine bestimmte Person → Infinitiv.", "kategorie": "Infinitiv/Konjunktiv"},
+     {"typ": "auswahl", "frage": "É urgente que a câmara ___ o problema.", "optionen": ["resolve", "resolva", "resolver"], "richtig": 1, "erklaerung": "é urgente que + Konjunktiv: resolver → resolva.", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "Basta que o senhor ___ aqui. (assinar)", "loesungen": ["assine"], "de": "Es genügt, wenn Sie hier unterschreiben.", "kategorie": "Conjuntivo"},
+     {"typ": "uebersetzen", "de": "Es ist wichtig, dass ihr kommt.", "loesungen": ["É importante que venham.", "É importante que vocês venham.", "É importante virem.", "É importante vocês virem."], "erklaerung": "eu venho → que vocês venham; oder persönlicher Infinitiv: virem.", "kategorie": "Conjuntivo"},
+     {"typ": "satzbau", "de": "Es ist nötig, dass die Regierung Maßnahmen ergreift.", "loesung": "É necessário que o governo tome medidas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Notícias: a seca no Algarve – Nachrichten: Dürre an der Algarve",
+    "situation": "Eine Meldung im Regionalradio über die Trockenheit an der Algarve.",
+    "zeilen": [
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Boa tarde. A seca no Algarve continua a preocupar as autoridades.", "de": "Guten Tag. Die Dürre an der Algarve bereitet den Behörden weiterhin Sorgen."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "As barragens da região estão com menos de vinte por cento da sua capacidade.", "de": "Die Stauseen der Region sind zu weniger als zwanzig Prozent gefüllt."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Segundo o ministro do Ambiente, é urgente que todos reduzam o consumo de água.", "de": "Laut dem Umweltminister ist es dringend nötig, dass alle den Wasserverbrauch senken."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "O governo vai tomar novas medidas a partir de junho: é proibido regar jardins e lavar carros durante o dia.", "de": "Die Regierung ergreift ab Juni neue Maßnahmen: Es ist verboten, tagsüber Gärten zu bewässern und Autos zu waschen."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Os agricultores dizem que é necessário que o Estado os ajude.", "de": "Die Landwirte sagen, dass der Staat ihnen helfen muss."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Para os hotéis e campos de golfe, a nova lei exige que usem água reciclada.", "de": "Von Hotels und Golfplätzen verlangt das neue Gesetz, dass sie aufbereitetes Wasser benutzen."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "A câmara de Lagos lembra: basta que cada pessoa poupe alguns litros por dia para fazer a diferença.", "de": "Die Gemeinde Lagos erinnert: Es genügt, wenn jeder ein paar Liter am Tag spart, um etwas zu bewirken."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema no Algarve?", "optionen": ["O trânsito.", "Os incêndios.", "A seca."], "richtig": 2},
+     {"frage": "O que é proibido durante o dia?", "optionen": ["Tomar banho no mar.", "Regar jardins e lavar carros.", "Encher piscinas."], "richtig": 1},
+     {"frage": "O que exige a nova lei aos hotéis e campos de golfe?", "optionen": ["Que fechem no verão.", "Que paguem mais impostos.", "Que usem água reciclada."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "É importante que chegues a horas.", "de": "Es ist wichtig, dass du pünktlich kommst."},
+     {"pt": "É preciso que o governo tome medidas.", "de": "Die Regierung muss Maßnahmen ergreifen."},
+     {"pt": "É necessário que todos poupem água.", "de": "Es ist nötig, dass alle Wasser sparen."},
+     {"pt": "Basta que assine aqui.", "de": "Es genügt, wenn Sie hier unterschreiben."},
+     {"pt": "A nova lei entra em vigor em janeiro.", "de": "Das neue Gesetz tritt im Januar in Kraft."}
+    ]
+   },
+   "saetze": [
+    {"id": "e-importante-que-chegues", "pt": "É importante que chegues a horas.", "de": "Es ist wichtig, dass du pünktlich kommst."},
+    {"id": "e-preciso-tomar-medidas", "pt": "É preciso que o governo tome medidas.", "de": "Die Regierung muss Maßnahmen ergreifen."},
+    {"id": "basta-que-assine", "pt": "Basta que assine aqui, se faz favor.", "de": "Es genügt, wenn Sie hier unterschreiben, bitte."}
+   ]
+  },
+  {
+   "id": "B1-02-L06",
+   "typ": "neu",
+   "titel": "É provável que … – É óbvio que … – Möglichkeit oder Gewissheit?",
+   "vokabeln": ["e-provavel-que", "e-possivel-que", "e-improvavel-que", "e-natural-que", "e-normal-que", "e-obvio-que", "e-evidente-que", "e-verdade-que", "nao-ha-duvida-de-que"],
+   "grammatik": {
+    "titel": "Probabilidade e avaliação (conjuntivo) vs. certeza (indicativo)",
+    "erklaerung": [
+     "Expressões de <b>probabilidade</b> e de <b>avaliação</b> levam o <b>conjuntivo</b>: <i>É provável que <b>chova</b>. É possível que ele <b>esteja</b> doente. É normal que <b>estejas</b> cansado.</i>",
+     "Expressões de <b>certeza</b> levam o <b>indicativo</b>: <i>é verdade que, é claro que, é óbvio que, é evidente que, não há dúvida de que</i>: <i>É óbvio que ele <b>está</b> cansado.</i>",
+     "Atenção à negação: uma certeza negada passa a ser dúvida → conjuntivo: <i>É verdade que <b>é</b> caro.</i> → <i>Não é verdade que <b>seja</b> caro.</i>",
+     "Regra prática: <b>certeza = indicativo</b>; <b>dúvida, possibilidade, avaliação = conjuntivo</b>."
+    ],
+    "erklaerung_de": [
+     "Ausdrücke der <b>Wahrscheinlichkeit</b> und <b>Bewertung</b> verlangen den <b>Konjunktiv</b>: <i>É provável que <b>chova</b>.</i> (Wahrscheinlich regnet es.) <i>É possível que ele <b>esteja</b> doente. É normal que <b>estejas</b> cansado.</i>",
+     "Ausdrücke der <b>Gewissheit</b> stehen mit <b>Indikativ</b>: <i>é verdade que</i> (es stimmt), <i>é claro que, é óbvio que, é evidente que, não há dúvida de que</i>: <i>É óbvio que ele <b>está</b> cansado.</i>",
+     "Achtung Verneinung: Eine verneinte Gewissheit wird zum Zweifel → Konjunktiv: <i>É verdade que <b>é</b> caro.</i> → <i>Não é verdade que <b>seja</b> caro.</i> – Es stimmt nicht, dass es teuer ist.",
+     "Faustregel: <b>Gewissheit = Indikativ</b>; <b>Zweifel, Möglichkeit, Bewertung = Konjunktiv</b>."
+    ],
+    "vergleich": "Im Deutschen ändert sich nichts: „Es ist wahrscheinlich, dass es regnet“ / „Es ist klar, dass es regnet“. Im Portugiesischen entscheidet die Sicherheit: <i>É provável que chova</i> (Konjunktiv) – <i>É claro que chove</i> (Indikativ).",
+    "beispiele": [
+     {"pt": "É provável que os preços subam outra vez.", "de": "Wahrscheinlich steigen die Preise wieder."},
+     {"pt": "É natural que estejas nervoso antes da reunião.", "de": "Es ist verständlich, dass du vor dem Meeting nervös bist."},
+     {"pt": "É óbvio que o turismo é importante para a região.", "de": "Es ist offensichtlich, dass der Tourismus für die Region wichtig ist."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "É provável que ___ muito trânsito hoje. (haver)", "loesungen": ["haja"], "de": "Wahrscheinlich gibt es heute viel Verkehr.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "É óbvio que o Pedro ___ razão. (ter)", "loesungen": ["tem"], "de": "Es ist offensichtlich, dass Pedro recht hat.", "erklaerung": "Gewissheit → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "É possível que a reunião ___ mais cedo.", "optionen": ["acaba", "acabe", "acabar"], "richtig": 1, "erklaerung": "Möglichkeit → Konjunktiv.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "É verdade que a casa ___ muito cara.", "optionen": ["é", "seja", "ser"], "richtig": 0, "erklaerung": "é verdade que → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Não é verdade que a casa ___ muito cara.", "optionen": ["é", "seja", "foi"], "richtig": 1, "erklaerung": "Verneinte Gewissheit → Konjunktiv.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "É normal que tu ___ cansado depois da viagem. (estar)", "loesungen": ["estejas"], "de": "Es ist normal, dass du nach der Reise müde bist.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Es ist wahrscheinlich, dass es morgen regnet.", "loesungen": ["É provável que chova amanhã.", "É provável que amanhã chova.", "É provável que vá chover amanhã.", "É provável que amanhã vá chover."], "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Es ist klar, dass er müde ist.", "loesungen": ["É claro que ele está cansado.", "É óbvio que ele está cansado.", "É evidente que ele está cansado.", "Claro que ele está cansado.", "É claro que está cansado.", "É óbvio que está cansado."], "kategorie": "Indikativ/Konjunktiv"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Casas caras – teure Häuser",
+    "situation": "Stefan und sein Nachbar João sehen eine Immobilienanzeige.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Viste o anúncio? Aquela casa ao pé da praia está à venda por oitocentos mil euros!", "de": "Hast du die Anzeige gesehen? Das Haus beim Strand steht für achthunderttausend Euro zum Verkauf!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É verdade que a casa é bonita, mas é óbvio que o preço é exagerado.", "de": "Es stimmt, dass das Haus schön ist, aber es ist offensichtlich, dass der Preis übertrieben ist."},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois. Mas é provável que alguém a compre. Há muitos estrangeiros com dinheiro.", "de": "Eben. Aber wahrscheinlich kauft es trotzdem jemand. Es gibt viele Ausländer mit Geld."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É possível que sim. Mas não é normal que os jovens daqui não consigam comprar casa.", "de": "Kann sein. Aber es ist nicht normal, dass die jungen Leute von hier keine Wohnung kaufen können."},
+     {"sprecher": "João", "stimme": "m", "pt": "Não há dúvida de que é um problema. O meu filho vive em Portimão porque aqui é tudo muito caro.", "de": "Es besteht kein Zweifel, dass das ein Problem ist. Mein Sohn wohnt in Portimão, weil hier alles sehr teuer ist."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É natural que as pessoas estejam preocupadas. E é improvável que os preços baixem tão cedo.", "de": "Es ist verständlich, dass die Leute besorgt sind. Und es ist unwahrscheinlich, dass die Preise so bald sinken."},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois é. Só se a câmara fizer alguma coisa.", "de": "Allerdings. Nur, wenn die Gemeinde etwas unternimmt."}
+    ],
+    "fragen": [
+     {"frage": "Quanto custa a casa?", "optionen": ["Oitenta mil euros.", "Oitocentos mil euros.", "Oito milhões de euros."], "richtig": 1},
+     {"frage": "Onde vive o filho do João?", "optionen": ["Em Lagos.", "Em Lisboa.", "Em Portimão."], "richtig": 2},
+     {"frage": "O que pensa o Stefan sobre os preços?", "optionen": ["Que é improvável que baixem em breve.", "Que vão baixar no próximo ano.", "Que são normais."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Es ist wahrscheinlich, dass die Preise steigen.", "loesungen": ["É provável que os preços subam.", "É provável que os preços aumentem.", "É provável que os preços vão subir."]},
+     {"de": "Es ist möglich, dass João krank ist.", "loesungen": ["É possível que o João esteja doente."]},
+     {"de": "Es ist offensichtlich, dass er müde ist.", "loesungen": ["É óbvio que ele está cansado.", "É evidente que ele está cansado.", "É óbvio que está cansado."]},
+     {"de": "Es stimmt nicht, dass das Haus teuer ist.", "loesungen": ["Não é verdade que a casa seja cara.", "É mentira que a casa seja cara."]},
+     {"de": "Es ist normal, dass du nervös bist.", "loesungen": ["É normal que estejas nervoso.", "É normal que estejas nervosa.", "É normal que tu estejas nervoso.", "É normal que tu estejas nervosa.", "É normal estares nervoso.", "É normal estares nervosa."]}
+    ]
+   },
+   "saetze": [
+    {"id": "e-provavel-que-chova", "pt": "É provável que chova no fim de semana.", "de": "Wahrscheinlich regnet es am Wochenende."},
+    {"id": "e-obvio-que-esta-cansado", "pt": "É óbvio que ele está cansado.", "de": "Es ist offensichtlich, dass er müde ist."},
+    {"id": "nao-e-verdade-que-seja-caro", "pt": "Não é verdade que seja caro.", "de": "Es stimmt nicht, dass es teuer ist."}
+   ]
+  },
+  {
+   "id": "B1-02-L07",
+   "typ": "neu",
+   "titel": "Em primeiro lugar … portanto – Argumente strukturieren",
+   "vokabeln": ["em-primeiro-lugar", "em-segundo-lugar", "alem-disso", "portanto", "no-entanto", "ou-seja", "alias", "por-fim", "em-conclusao"],
+   "grammatik": {
+    "titel": "Estruturar um argumento: conectores",
+    "erklaerung": [
+     "Para organizar as ideias: <b>em primeiro lugar</b> … <b>em segundo lugar</b> … <b>por fim</b> / <b>em conclusão</b> …",
+     "Para acrescentar uma ideia: <b>além disso</b>, <b>aliás</b>. Para fazer um contraste: <b>no entanto</b> (= mas, contudo).",
+     "Para tirar uma conclusão: <b>portanto</b> (= por isso). Para dizer a mesma coisa por outras palavras: <b>ou seja</b>.",
+     "Os conectores não mudam o modo do verbo – o que decide é a expressão principal: <i>Em primeiro lugar, acho que <b>é</b> caro. Além disso, não me parece que <b>seja</b> necessário.</i>"
+    ],
+    "erklaerung_de": [
+     "Um Gedanken zu ordnen: <b>em primeiro lugar</b> (erstens) … <b>em segundo lugar</b> (zweitens) … <b>por fim</b> (schließlich) / <b>em conclusão</b> (abschließend) …",
+     "Um etwas hinzuzufügen: <b>além disso</b> (außerdem), <b>aliás</b> (übrigens, ja sogar). Für einen Gegensatz: <b>no entanto</b> (jedoch, allerdings).",
+     "Für eine Schlussfolgerung: <b>portanto</b> (also, deshalb – wie por isso). Um dasselbe mit anderen Worten zu sagen: <b>ou seja</b> (das heißt).",
+     "Die Konnektoren ändern den Modus nicht – entscheidend ist der Hauptausdruck: <i>Em primeiro lugar, acho que <b>é</b> caro. Além disso, não me parece que <b>seja</b> necessário.</i>"
+    ],
+    "vergleich": "Wie im Deutschen „erstens … außerdem … deshalb … jedoch“. Achtung: <i>portanto</i> heißt „also/deshalb“ (nicht „trotzdem“), und <i>no entanto</i> heißt „jedoch“ – nicht „inzwischen“ (das ist <i>entretanto</i>).",
+    "beispiele": [
+     {"pt": "Em primeiro lugar, a casa é demasiado cara. Além disso, fica longe da praia.", "de": "Erstens ist das Haus zu teuer. Außerdem liegt es weit vom Strand weg."},
+     {"pt": "O comboio está atrasado; portanto, vamos chegar tarde.", "de": "Der Zug hat Verspätung; also kommen wir spät an."},
+     {"pt": "O plano é bom. No entanto, não temos dinheiro.", "de": "Der Plan ist gut. Allerdings haben wir kein Geld."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Está a chover; ___, vamos ficar em casa.", "optionen": ["portanto", "no entanto", "além disso"], "richtig": 0, "erklaerung": "Schlussfolgerung → portanto.", "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "O hotel é bonito. ___, é muito caro.", "optionen": ["Portanto", "No entanto", "Ou seja"], "richtig": 1, "erklaerung": "Gegensatz → no entanto.", "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "Volto no dia quinze, ___, daqui a duas semanas.", "optionen": ["portanto", "aliás", "ou seja"], "richtig": 2, "erklaerung": "Dasselbe mit anderen Worten → ou seja.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "Em primeiro lugar, o preço é alto. ___ disso, a casa precisa de obras.", "loesungen": ["Além"], "de": "Erstens ist der Preis hoch. Außerdem muss das Haus renoviert werden.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "Não acho que ___ boa ideia. Aliás, ninguém concorda. (ser)", "loesungen": ["seja"], "de": "Ich finde nicht, dass das eine gute Idee ist. Übrigens stimmt niemand zu.", "erklaerung": "Der Konnektor ändert nichts: não acho que → Konjunktiv.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Außerdem ist es zu teuer.", "loesungen": ["Além disso, é demasiado caro.", "Além disso, é caro demais.", "Além disso, é muito caro.", "Além disso, é demasiado cara.", "Além disso, é cara demais."], "kategorie": "Konnektoren"},
+     {"typ": "uebersetzen", "de": "Er ist krank; deshalb kommt er nicht.", "loesungen": ["Ele está doente; portanto, não vem.", "Ele está doente, portanto não vem.", "Está doente; portanto, não vem.", "Está doente, portanto não vem.", "Ele está doente; por isso, não vem.", "Ele está doente, por isso não vem.", "Está doente, por isso não vem.", "Ele está doente; portanto não vem."], "kategorie": "Konnektoren"},
+     {"typ": "diktat", "pt": "Em primeiro lugar, é preciso que todos participem."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A reunião de condomínio – die Eigentümerversammlung",
+    "situation": "In der Eigentümerversammlung schlägt Stefan Solarmodule auf dem Dach vor.",
+    "zeilen": [
+     {"sprecher": "Sr. Costa", "stimme": "m", "pt": "Bom, passamos ao ponto seguinte: os painéis solares no telhado. Senhor Stefan, faça favor.", "de": "Gut, wir kommen zum nächsten Punkt: die Solarmodule auf dem Dach. Herr Stefan, bitte."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado. Em primeiro lugar, acho que é um bom investimento: a eletricidade está cada vez mais cara.", "de": "Danke. Erstens halte ich es für eine gute Investition: Strom wird immer teurer."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Em segundo lugar, é importante que o prédio seja mais sustentável. Além disso, o Estado dá um apoio de quarenta por cento.", "de": "Zweitens ist es wichtig, dass das Gebäude nachhaltiger wird. Außerdem gibt der Staat einen Zuschuss von vierzig Prozent."},
+     {"sprecher": "Dona Rosa", "stimme": "f", "pt": "No entanto, alguém tem de pagar os outros sessenta por cento, não é?", "de": "Allerdings muss jemand die anderen sechzig Prozent bezahlen, oder?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro. Mas com a poupança recuperamos o dinheiro em seis anos. Ou seja, depois disso a energia é praticamente grátis.", "de": "Natürlich. Aber durch die Ersparnis haben wir das Geld in sechs Jahren wieder drin. Das heißt, danach ist die Energie praktisch gratis."},
+     {"sprecher": "Sr. Costa", "stimme": "m", "pt": "Aliás, o prédio aqui ao lado já tem painéis e estão muito satisfeitos.", "de": "Übrigens hat das Gebäude nebenan schon Module, und sie sind sehr zufrieden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Por fim, proponho que votemos hoje. Portanto: quem está a favor?", "de": "Zum Schluss schlage ich vor, dass wir heute abstimmen. Also: Wer ist dafür?"}
+    ],
+    "fragen": [
+     {"frage": "Qual é o primeiro argumento do Stefan?", "optionen": ["O telhado precisa de obras.", "É um bom investimento.", "Os vizinhos querem painéis."], "richtig": 1},
+     {"frage": "Quanto paga o Estado?", "optionen": ["Quarenta por cento.", "Sessenta por cento.", "Nada."], "richtig": 0},
+     {"frage": "Em quanto tempo recuperam o dinheiro?", "optionen": ["Em dois anos.", "Em dez anos.", "Em seis anos."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Em primeiro lugar, acho que é um bom investimento.", "de": "Erstens halte ich es für eine gute Investition."},
+     {"pt": "Além disso, o Estado dá um apoio.", "de": "Außerdem gibt der Staat einen Zuschuss."},
+     {"pt": "No entanto, alguém tem de pagar.", "de": "Allerdings muss jemand bezahlen."},
+     {"pt": "Ou seja, depois disso é grátis.", "de": "Das heißt, danach ist es gratis."},
+     {"pt": "Portanto, proponho que votemos hoje.", "de": "Deshalb schlage ich vor, dass wir heute abstimmen."}
+    ]
+   },
+   "saetze": [
+    {"id": "em-primeiro-lugar-investimento", "pt": "Em primeiro lugar, acho que é um bom investimento.", "de": "Erstens halte ich es für eine gute Investition."},
+    {"id": "alem-disso-fica-longe", "pt": "Além disso, fica longe da praia.", "de": "Außerdem liegt es weit vom Strand weg."},
+    {"id": "no-entanto-nao-temos-dinheiro", "pt": "O plano é bom. No entanto, não temos dinheiro.", "de": "Der Plan ist gut. Allerdings haben wir kein Geld."}
+   ]
+  },
+  {
+   "id": "B1-02-L08",
+   "typ": "neu",
+   "titel": "Não é bem assim – höflich widersprechen",
+   "vokabeln": ["nao-e-bem-assim", "com-todo-o-respeito", "percebo-o-que-queres-dizer", "ate-certo-ponto", "pelo-contrario", "de-maneira-nenhuma", "nem-por-isso", "o-debate", "a-discussao"],
+   "grammatik": {
+    "titel": "Discordar com educação: não é que / não digo que + conjuntivo",
+    "erklaerung": [
+     "Para discordar com educação, começamos por reconhecer a opinião do outro: <i>Percebo o que queres dizer, mas … / Tens razão até certo ponto, mas … / Com todo o respeito, …</i>",
+     "<b>Não é que</b> + conjuntivo suaviza uma crítica: <i>Não é que <b>seja</b> mau, mas é caro.</i>",
+     "<b>Não digo que</b> + conjuntivo: <i>Não digo que não <b>tenhas</b> razão, mas …</i> – Atenção: <i>Digo que tens razão.</i> (afirmativo → indicativo).",
+     "Respostas curtas: <i>Não é bem assim.</i> (suave) – <i>Nem por isso.</i> – <i>Pelo contrário!</i> – <i>De maneira nenhuma!</i> (forte)."
+    ],
+    "erklaerung_de": [
+     "Um höflich zu widersprechen, erkennt man zuerst die Meinung des anderen an: <i>Percebo o que queres dizer, mas …</i> (Ich verstehe, was du meinst, aber …) <i>/ Tens razão até certo ponto, mas …</i> (Du hast bis zu einem gewissen Punkt recht, aber …) <i>/ Com todo o respeito, …</i> (Bei allem Respekt …)",
+     "<b>Não é que</b> + Konjunktiv schwächt Kritik ab: <i>Não é que <b>seja</b> mau, mas é caro.</i> – Nicht, dass es schlecht wäre, aber es ist teuer.",
+     "<b>Não digo que</b> + Konjunktiv: <i>Não digo que não <b>tenhas</b> razão, mas …</i> – Ich sage nicht, dass du nicht recht hast, aber … Achtung: <i>Digo que tens razão.</i> (bejaht → Indikativ).",
+     "Kurze Antworten: <i>Não é bem assim.</i> (Ganz so ist es nicht – sanft) – <i>Nem por isso.</i> (Nicht wirklich.) – <i>Pelo contrário!</i> (Im Gegenteil!) – <i>De maneira nenhuma!</i> (Auf keinen Fall! – stark)."
+    ],
+    "vergleich": "Portugiesen widersprechen gern indirekt. Ein direktes „Nein, das ist falsch“ wirkt schnell unhöflich. <i>Não é bem assim</i> („Ganz so ist es nicht“) oder <i>Nem por isso</i> („Nicht wirklich“) klingen viel natürlicher. „Nicht, dass …“ = <i>Não é que …</i> + Konjunktiv – wie der deutsche Konjunktiv II in „Nicht, dass es schlecht wäre“.",
+    "beispiele": [
+     {"pt": "Percebo o que queres dizer, mas não é bem assim.", "de": "Ich verstehe, was du meinst, aber ganz so ist es nicht."},
+     {"pt": "Não é que o hotel seja mau, mas é muito caro.", "de": "Nicht, dass das Hotel schlecht wäre, aber es ist sehr teuer."},
+     {"pt": "Tens razão até certo ponto, mas há outros problemas.", "de": "Du hast bis zu einem gewissen Punkt recht, aber es gibt andere Probleme."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Não é que o restaurante ___ mau, mas é caro. (ser)", "loesungen": ["seja"], "de": "Nicht, dass das Restaurant schlecht wäre, aber es ist teuer.", "erklaerung": "não é que + Konjunktiv.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Não digo que não ___ razão, mas há outros problemas. (tu, ter)", "loesungen": ["tenhas"], "de": "Ich sage nicht, dass du nicht recht hast, aber es gibt andere Probleme.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Ganz so ist es nicht.“", "optionen": ["Não é bem assim.", "Não é assim bem.", "Não está bem assim."], "richtig": 0},
+     {"typ": "auswahl", "frage": "— O filme foi aborrecido? — ___ Gostei muito!", "optionen": ["Pelo contrário!", "Portanto!", "Até certo ponto!"], "richtig": 0},
+     {"typ": "auswahl", "frage": "— Gostaste do concerto? — ___ Esperava mais.", "optionen": ["De maneira nenhuma!", "Nem por isso.", "Pelo contrário!"], "richtig": 1, "erklaerung": "Nem por isso = nicht wirklich (sanft).", "kategorie": "Wendungen"},
+     {"typ": "luecke", "satz": "Não é que eu não ___ ir, mas estou muito cansado. (querer)", "loesungen": ["queira"], "de": "Nicht, dass ich nicht gehen wollte, aber ich bin sehr müde.", "erklaerung": "querer → queira.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Ich verstehe, was du meinst, aber ganz so ist es nicht.", "loesungen": ["Percebo o que queres dizer, mas não é bem assim.", "Percebo o que dizes, mas não é bem assim.", "Entendo o que queres dizer, mas não é bem assim.", "Eu percebo o que queres dizer, mas não é bem assim."]},
+     {"typ": "satzbau", "de": "Du hast bis zu einem gewissen Punkt recht.", "loesung": "Tens razão até certo ponto."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Qual é a melhor comida? – Welches Essen ist das beste?",
+    "situation": "Rita und Stefan diskutieren beim Abendessen – nicht ganz ernst – über portugiesisches und österreichisches Essen.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, sê sincero: a comida portuguesa é a melhor do mundo, não é?", "de": "Stefan, sei ehrlich: Das portugiesische Essen ist das beste der Welt, oder?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Percebo o que queres dizer, mas não é bem assim. A comida austríaca também é muito boa.", "de": "Ich verstehe, was du meinst, aber ganz so ist es nicht. Das österreichische Essen ist auch sehr gut."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "A sério? Não acho que haja nada melhor do que um bom peixe grelhado.", "de": "Im Ernst? Ich glaube nicht, dass es etwas Besseres gibt als einen guten gegrillten Fisch."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tens razão até certo ponto. O peixe aqui é fantástico. No entanto, ainda não provaste um bom Wiener Schnitzel.", "de": "Bis zu einem gewissen Punkt hast du recht. Der Fisch hier ist fantastisch. Allerdings hast du noch kein gutes Wiener Schnitzel probiert."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Não é que eu não goste de carne, mas acho a comida do norte da Europa um bocado pesada.", "de": "Nicht, dass ich kein Fleisch mag, aber ich finde das Essen aus Nordeuropa ein bisschen schwer."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pelo contrário! Em Viena há pratos muito leves. Vem lá comigo um dia e vais ver.", "de": "Im Gegenteil! In Wien gibt es sehr leichte Gerichte. Komm mal mit mir hin, dann wirst du sehen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Está bem, está bem. Mas, com todo o respeito, os vossos doces não chegam aos pastéis de nata!", "de": "Schon gut, schon gut. Aber bei allem Respekt: Eure Süßspeisen kommen nicht an die Pastéis de Nata heran!"}
+    ],
+    "fragen": [
+     {"frage": "O que acha a Rita da comida portuguesa?", "optionen": ["Que é a melhor do mundo.", "Que é muito pesada.", "Que é cara."], "richtig": 0},
+     {"frage": "O que acha a Rita da comida do norte da Europa?", "optionen": ["Que é muito leve.", "Que é um bocado pesada.", "Que é a melhor do mundo."], "richtig": 1},
+     {"frage": "O que propõe o Stefan?", "optionen": ["Jantar num restaurante austríaco.", "Fazer um bolo.", "Que a Rita vá com ele a Viena."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Nachbar João meint, Ausländer an der Algarve würden kein Portugiesisch lernen. Widersprich ihm höflich (tu).",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Os estrangeiros que vivem aqui não aprendem português. Só falam inglês.", "de": "Die Ausländer, die hier leben, lernen kein Portugiesisch. Sie sprechen nur Englisch."},
+     {"ich": true, "aufgabe": "Sag: Ich verstehe, was du meinst, aber ganz so ist es nicht.", "loesungen": ["Percebo o que queres dizer, mas não é bem assim.", "Percebo o que dizes, mas não é bem assim.", "Entendo o que queres dizer, mas não é bem assim.", "Eu percebo o que queres dizer, mas não é bem assim."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Ah, não? Tu és uma exceção, Stefan!", "de": "Ach nein? Du bist eine Ausnahme, Stefan!"},
+     {"ich": true, "aufgabe": "Sag: Im Gegenteil, viele Freunde von mir lernen auch.", "loesungen": ["Pelo contrário, muitos amigos meus também estão a aprender.", "Pelo contrário! Muitos amigos meus também estão a aprender.", "Pelo contrário, muitos dos meus amigos também estão a aprender.", "Pelo contrário, muitos amigos meus também aprendem.", "Pelo contrário, muitos dos meus amigos também aprendem."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Mas o português é muito difícil, não é?", "de": "Aber Portugiesisch ist sehr schwer, oder?"},
+     {"ich": true, "aufgabe": "Sag: Nicht wirklich. Nicht, dass es leicht wäre, aber es ist möglich.", "loesungen": ["Nem por isso. Não é que seja fácil, mas é possível.", "Nem por isso. Não é que seja fácil, mas é possível!", "Nem por isso, não é que seja fácil, mas é possível."]}
+    ]
+   },
+   "saetze": [
+    {"id": "percebo-mas-nao-e-bem-assim", "pt": "Percebo o que queres dizer, mas não é bem assim.", "de": "Ich verstehe, was du meinst, aber ganz so ist es nicht."},
+    {"id": "nao-e-que-seja-mau", "pt": "Não é que seja mau, mas é muito caro.", "de": "Nicht, dass es schlecht wäre, aber es ist sehr teuer."},
+    {"id": "tens-razao-ate-certo-ponto", "pt": "Tens razão até certo ponto.", "de": "Du hast bis zu einem gewissen Punkt recht."}
+   ]
+  },
+  {
+   "id": "B1-02-L09",
+   "typ": "neu",
+   "titel": "O turismo no Algarve – eine Diskussion",
+   "vokabeln": ["o-turismo", "o-turista", "a-habitacao", "o-residente", "massificado", "beneficiar", "prejudicar", "a-economia", "a-sustentabilidade", "sazonal"],
+   "grammatik": {
+    "titel": "Revisão: indicativo ou conjuntivo?",
+    "erklaerung": [
+     "<b>Indicativo</b> = afirmo um facto ou uma certeza: <i>acho que, penso que, tenho a certeza de que, sei que, é verdade que, é óbvio que</i> + indicativo.",
+     "<b>Conjuntivo</b> = dúvida, possibilidade, necessidade ou avaliação: <i>não acho que, duvido que, talvez, é possível que, é provável que, é importante que, é preciso que</i> + conjuntivo.",
+     "A mesma ideia, dois modos: <i>Acho que o turismo <b>prejudica</b> a região.</i> – <i>Não acho que o turismo <b>prejudique</b> a região.</i>",
+     "Dica: pergunte a si mesmo: «Estou a afirmar um facto?» Se sim → indicativo. Se não → conjuntivo."
+    ],
+    "erklaerung_de": [
+     "<b>Indikativ</b> = ich behaupte eine Tatsache oder Gewissheit: <i>acho que, penso que, tenho a certeza de que, sei que, é verdade que, é óbvio que</i> + Indikativ.",
+     "<b>Konjunktiv</b> = Zweifel, Möglichkeit, Notwendigkeit oder Bewertung: <i>não acho que, duvido que, talvez, é possível que, é provável que, é importante que, é preciso que</i> + Konjunktiv.",
+     "Derselbe Gedanke, zwei Modi: <i>Acho que o turismo <b>prejudica</b> a região.</i> (Ich finde, der Tourismus schadet der Region.) – <i>Não acho que o turismo <b>prejudique</b> a região.</i> (Ich finde nicht, dass er ihr schadet.)",
+     "Tipp: Frag dich: „Behaupte ich gerade eine Tatsache?“ Wenn ja → Indikativ. Wenn nein → Konjunktiv."
+    ],
+    "vergleich": "Im Deutschen hilft dir das Verb nicht weiter – im Portugiesischen ist die Frage immer: Behaupte ich etwas (Indikativ), oder halte ich es für unsicher, möglich, nötig oder bewerte ich es (Konjunktiv)? Achtung Rechtschreibung: prejudi<b>c</b>ar → prejudi<b>qu</b>e.",
+    "beispiele": [
+     {"pt": "Acho que o turismo é essencial para a economia do Algarve.", "de": "Ich finde, der Tourismus ist für die Wirtschaft der Algarve unverzichtbar."},
+     {"pt": "No entanto, não me parece que seja sustentável a longo prazo.", "de": "Allerdings glaube ich kaum, dass er langfristig nachhaltig ist."},
+     {"pt": "É importante que os residentes também beneficiem.", "de": "Es ist wichtig, dass auch die Einwohner profitieren."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Tenho a certeza de que o turismo ___ importante.", "optionen": ["seja", "é", "ser"], "richtig": 1, "erklaerung": "Gewissheit → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Duvido que este turismo ___ sustentável.", "optionen": ["é", "seja", "está"], "richtig": 1, "erklaerung": "Zweifel → Konjunktiv.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "É preciso que a câmara ___ casas para os residentes. (construir)", "loesungen": ["construa"], "de": "Die Gemeinde muss Wohnungen für die Einwohner bauen.", "erklaerung": "eu construo → que ela construa.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Acho que os turistas ___ muito dinheiro aqui. (gastar)", "loesungen": ["gastam"], "de": "Ich glaube, die Touristen geben hier viel Geld aus.", "erklaerung": "Bejahte Meinung → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Não acho que o turismo ___ a região. (prejudicar)", "loesungen": ["prejudique"], "de": "Ich finde nicht, dass der Tourismus der Region schadet.", "erklaerung": "Konjunktiv: c wird vor e zu qu – prejudique.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Talvez a época alta ___ mais curta este ano. (ser)", "loesungen": ["seja"], "de": "Vielleicht ist die Hochsaison dieses Jahr kürzer.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Es ist wichtig, dass auch die Einwohner profitieren.", "loesungen": ["É importante que os residentes também beneficiem.", "É importante que os moradores também beneficiem.", "É importante que também os residentes beneficiem.", "É importante que os residentes beneficiem também.", "É importante os residentes também beneficiarem."], "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Ich glaube nicht, dass der Tourismus der Wirtschaft schadet.", "loesungen": ["Não acho que o turismo prejudique a economia.", "Não penso que o turismo prejudique a economia.", "Não me parece que o turismo prejudique a economia.", "Não acredito que o turismo prejudique a economia.", "Não creio que o turismo prejudique a economia."], "kategorie": "Indikativ/Konjunktiv"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Turismo: bênção ou problema? – Segen oder Problem?",
+    "situation": "João, Rita und Stefan diskutieren im Café über den Tourismus an der Algarve.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "No verão já não se consegue viver em Lagos. Há turistas por todo o lado e não há lugar para estacionar.", "de": "Im Sommer kann man in Lagos nicht mehr leben. Überall sind Touristen, und es gibt keinen Parkplatz."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Mas, João, o turismo é a base da nossa economia. Sem turistas, metade das pessoas ficava sem trabalho.", "de": "Aber João, der Tourismus ist die Grundlage unserer Wirtschaft. Ohne Touristen wäre die Hälfte der Leute arbeitslos."},
+     {"sprecher": "João", "stimme": "m", "pt": "Não digo que não seja importante. Mas é um turismo massificado e muito sazonal: em agosto está tudo cheio, em janeiro está tudo fechado.", "de": "Ich sage nicht, dass er nicht wichtig ist. Aber es ist Massentourismus und sehr saisonal: Im August ist alles voll, im Januar alles geschlossen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Percebo os dois. Na minha opinião, o maior problema é a habitação. Com o alojamento local, as rendas subiram muito.", "de": "Ich verstehe euch beide. Meiner Meinung nach ist das größte Problem das Wohnen. Mit den Ferienwohnungen sind die Mieten stark gestiegen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "É verdade que as rendas subiram. No entanto, muitas famílias beneficiam do alojamento local.", "de": "Es stimmt, dass die Mieten gestiegen sind. Allerdings profitieren viele Familien von den Ferienwohnungen."},
+     {"sprecher": "João", "stimme": "m", "pt": "Algumas, sim. Mas duvido que os jovens daqui consigam pagar uma renda de mil euros.", "de": "Manche, ja. Aber ich bezweifle, dass die jungen Leute von hier eine Miete von tausend Euro zahlen können."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Por isso é importante que a câmara construa casas a preços acessíveis e que aposte num turismo mais sustentável.", "de": "Deshalb ist es wichtig, dass die Gemeinde Wohnungen zu erschwinglichen Preisen baut und auf einen nachhaltigeren Tourismus setzt."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Nisso estamos todos de acordo!", "de": "Darin sind wir uns alle einig!"}
+    ],
+    "fragen": [
+     {"frage": "De que se queixa o João?", "optionen": ["De que não há turistas no inverno.", "De que os restaurantes são caros.", "De que há turistas a mais no verão."], "richtig": 2},
+     {"frage": "Qual é o maior problema, segundo o Stefan?", "optionen": ["O estacionamento.", "A habitação.", "O barulho."], "richtig": 1},
+     {"frage": "O que deve fazer a câmara, segundo o Stefan?", "optionen": ["Construir casas a preços acessíveis.", "Proibir o alojamento local.", "Fechar as praias em agosto."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Der Tourismus ist für die Wirtschaft sehr wichtig.", "loesungen": ["O turismo é muito importante para a economia."]},
+     {"de": "Ich finde nicht, dass der Tourismus der Region schadet.", "loesungen": ["Não acho que o turismo prejudique a região.", "Não penso que o turismo prejudique a região.", "Não me parece que o turismo prejudique a região."]},
+     {"de": "Meiner Meinung nach ist das größte Problem das Wohnen.", "loesungen": ["Na minha opinião, o maior problema é a habitação.", "Na minha opinião o maior problema é a habitação.", "A meu ver, o maior problema é a habitação."]},
+     {"de": "Ich bezweifle, dass die jungen Leute die Miete zahlen können.", "loesungen": ["Duvido que os jovens consigam pagar a renda.", "Duvido que os jovens possam pagar a renda.", "Duvido de que os jovens consigam pagar a renda."]},
+     {"de": "Es ist wichtig, dass auch die Einwohner profitieren.", "loesungen": ["É importante que os residentes também beneficiem.", "É importante que os moradores também beneficiem.", "É importante os residentes também beneficiarem."]}
+    ]
+   },
+   "saetze": [
+    {"id": "turismo-base-da-economia", "pt": "O turismo é a base da nossa economia.", "de": "Der Tourismus ist die Grundlage unserer Wirtschaft."},
+    {"id": "maior-problema-habitacao", "pt": "Na minha opinião, o maior problema é a habitação.", "de": "Meiner Meinung nach ist das größte Problem das Wohnen."},
+    {"id": "importante-residentes-beneficiem", "pt": "É importante que os residentes também beneficiem.", "de": "Es ist wichtig, dass auch die Einwohner profitieren."}
+   ]
+  },
+  {
+   "id": "B1-02-L10",
+   "typ": "neu",
+   "titel": "No fórum – ein Forumsbeitrag",
+   "vokabeln": ["o-forum", "o-topico", "o-comentario", "polemico", "a-maioria", "a-minoria", "criticar", "o-argumento", "a-sondagem"],
+   "grammatik": {
+    "titel": "Escrever a opinião: infinitivo, infinitivo pessoal ou conjuntivo?",
+    "erklaerung": [
+     "Depois de <b>é importante, é preciso, é melhor</b> há três possibilidades. Sem pessoa concreta → <b>infinitivo</b>: <i>É importante proteger a costa.</i>",
+     "Com pessoa concreta → <b>que + conjuntivo</b>: <i>É importante que nós <b>protejamos</b> a costa.</i> – ou <b>infinitivo pessoal</b>: <i>É importante <b>protegermos</b> a costa.</i> Na escrita, o infinitivo pessoal é muito português e elegante.",
+     "Num texto de opinião: 1. apresentar o tema; 2. dar a opinião (<i>na minha opinião, acho que</i>); 3. dar argumentos (<i>em primeiro lugar, além disso, no entanto</i>); 4. concluir (<i>portanto, em conclusão</i>).",
+     "Para reagir a outros comentários: <i>Concordo plenamente com o comentário anterior. / Não me parece que o autor tenha razão. / Com todo o respeito, discordo.</i>"
+    ],
+    "erklaerung_de": [
+     "Nach <b>é importante, é preciso, é melhor</b> gibt es drei Möglichkeiten. Ohne bestimmte Person → <b>Infinitiv</b>: <i>É importante proteger a costa.</i> – Es ist wichtig, die Küste zu schützen.",
+     "Mit bestimmter Person → <b>que + Konjunktiv</b>: <i>É importante que nós <b>protejamos</b> a costa.</i> – oder <b>persönlicher Infinitiv</b>: <i>É importante <b>protegermos</b> a costa.</i> (Es ist wichtig, dass wir die Küste schützen.) Schriftlich wirkt der persönliche Infinitiv sehr portugiesisch und elegant.",
+     "Aufbau eines Meinungstexts: 1. Thema vorstellen; 2. Meinung sagen (<i>na minha opinião, acho que</i>); 3. Argumente bringen (<i>em primeiro lugar, além disso, no entanto</i>); 4. Schluss ziehen (<i>portanto, em conclusão</i>).",
+     "Auf andere Kommentare reagieren: <i>Concordo plenamente com o comentário anterior.</i> (Ich stimme dem vorigen Kommentar voll zu.) <i>/ Não me parece que o autor tenha razão.</i> (Ich glaube kaum, dass der Autor recht hat.) <i>/ Com todo o respeito, discordo.</i> (Bei allem Respekt, ich bin anderer Meinung.)"
+    ],
+    "vergleich": "Deutsche Forumsbeiträge sind oft sehr direkt („Das ist Unsinn“). Auf Portugiesisch überzeugt man eher, wenn man abschwächt: <i>Não me parece que …</i>, <i>Com todo o respeito, …</i>. Den persönlichen Infinitiv (<i>é importante protegermos</i>) gibt es im Deutschen nicht – er ist typisch für pt-PT. Rechtschreibung: prote<b>g</b>er → prote<b>j</b>o → que nós prote<b>j</b>amos.",
+    "beispiele": [
+     {"pt": "É importante protegermos a costa.", "de": "Es ist wichtig, dass wir die Küste schützen."},
+     {"pt": "É preciso que a câmara ouça os residentes.", "de": "Die Gemeinde muss die Einwohner anhören."},
+     {"pt": "A maioria dos comentários critica o novo projeto.", "de": "Die Mehrheit der Kommentare kritisiert das neue Projekt."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "É importante ___ a costa. (allgemein, ohne Person)", "optionen": ["proteger", "protejamos", "que proteger"], "richtig": 0, "erklaerung": "Keine bestimmte Person → Infinitiv.", "kategorie": "Infinitiv/Konjunktiv"},
+     {"typ": "luecke", "satz": "É importante que nós ___ a costa. (proteger)", "loesungen": ["protejamos"], "de": "Es ist wichtig, dass wir die Küste schützen.", "erklaerung": "eu protejo → que nós protejamos (g → j).", "kategorie": "Conjuntivo"},
+     {"typ": "luecke", "satz": "É preciso ___ mais. (nós, reciclar – infinitivo pessoal)", "loesungen": ["reciclarmos"], "de": "Wir müssen mehr recyceln.", "erklaerung": "Persönlicher Infinitiv: reciclar + -mos.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "É melhor que tu não ___ isso no fórum. (escrever)", "loesungen": ["escrevas"], "de": "Es ist besser, wenn du das nicht ins Forum schreibst.", "kategorie": "Conjuntivo"},
+     {"typ": "auswahl", "frage": "Segundo a sondagem, a maioria dos leitores ___ o projeto.", "optionen": ["critica", "critique", "criticar"], "richtig": 0, "erklaerung": "Eine Tatsache (laut Umfrage) → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Não me parece que o autor ___ razão. (ter)", "loesungen": ["tenha"], "de": "Ich glaube kaum, dass der Autor recht hat.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Ich stimme dem vorigen Kommentar voll zu.", "loesungen": ["Concordo plenamente com o comentário anterior.", "Concordo totalmente com o comentário anterior.", "Concordo completamente com o comentário anterior."]},
+     {"typ": "diktat", "pt": "Com todo o respeito, não acho que o autor tenha razão."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Fórum Lagos: um hotel na Praia da Luz? – ein Hotel an der Praia da Luz?",
+    "situation": "Im Online-Forum der Stadt wird über ein geplantes Hotel diskutiert. Die Beiträge werden vorgelesen.",
+    "zeilen": [
+     {"sprecher": "Marta_Lagos", "stimme": "f", "pt": "Li hoje que querem construir um hotel de cinco estrelas na Praia da Luz. Na minha opinião, é um erro: a praia já está cheia no verão.", "de": "Ich habe heute gelesen, dass sie an der Praia da Luz ein Fünf-Sterne-Hotel bauen wollen. Meiner Meinung nach ist das ein Fehler: Der Strand ist im Sommer schon voll."},
+     {"sprecher": "Rui_Algarve", "stimme": "m", "pt": "Com todo o respeito, Marta, não acho que tenhas razão. Em primeiro lugar, o hotel cria cem postos de trabalho. Além disso, fica aberto todo o ano.", "de": "Bei allem Respekt, Marta, ich glaube nicht, dass du recht hast. Erstens schafft das Hotel hundert Arbeitsplätze. Außerdem ist es das ganze Jahr geöffnet."},
+     {"sprecher": "Marta_Lagos", "stimme": "f", "pt": "Mas é importante pensarmos no ambiente. Duvido que haja água suficiente para mais um hotel com campo de golfe.", "de": "Aber wir müssen auch an die Umwelt denken. Ich bezweifle, dass es genug Wasser für noch ein Hotel mit Golfplatz gibt."},
+     {"sprecher": "StefanK", "stimme": "m", "pt": "Concordo com a Marta em parte. Não é que eu seja contra o turismo, mas é preciso que o projeto seja sustentável.", "de": "Ich stimme Marta teilweise zu. Nicht, dass ich gegen den Tourismus wäre, aber das Projekt muss nachhaltig sein."},
+     {"sprecher": "Rui_Algarve", "stimme": "m", "pt": "Segundo a sondagem do jornal, a maioria dos residentes é a favor. Só uma minoria critica o projeto.", "de": "Laut der Umfrage der Zeitung ist die Mehrheit der Einwohner dafür. Nur eine Minderheit kritisiert das Projekt."},
+     {"sprecher": "StefanK", "stimme": "m", "pt": "É verdade. Mas talvez a câmara possa organizar um debate público antes de decidir. Ou seja, ouvir todos.", "de": "Das stimmt. Aber vielleicht kann die Gemeinde vor der Entscheidung eine öffentliche Debatte organisieren. Das heißt, alle anhören."},
+     {"sprecher": "Marta_Lagos", "stimme": "f", "pt": "Excelente ideia, Stefan! Portanto, escrevemos à câmara?", "de": "Tolle Idee, Stefan! Also, schreiben wir an die Gemeinde?"}
+    ],
+    "fragen": [
+     {"frage": "O que querem construir na Praia da Luz?", "optionen": ["Um parque aquático.", "Um hotel de cinco estrelas.", "Um centro comercial."], "richtig": 1},
+     {"frage": "Qual é o primeiro argumento do Rui?", "optionen": ["O hotel cria postos de trabalho.", "O hotel é bonito.", "O hotel é barato."], "richtig": 0},
+     {"frage": "O que propõe o Stefan?", "optionen": ["Proibir o hotel.", "Construir mais casas.", "Um debate público antes de decidir."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du schreibst im Forum der Stadt einen Kommentar zu Ruis Beitrag. Reagiere höflich, aber klar.",
+    "zeilen": [
+     {"sprecher": "Rui_Algarve", "stimme": "m", "pt": "O novo hotel é a melhor coisa que pode acontecer a Lagos. Quem é contra, é contra o progresso!", "de": "Das neue Hotel ist das Beste, was Lagos passieren kann. Wer dagegen ist, ist gegen den Fortschritt!"},
+     {"ich": true, "aufgabe": "Schreib: Bei allem Respekt, ganz so ist es nicht.", "loesungen": ["Com todo o respeito, não é bem assim.", "Com todo o respeito, Rui, não é bem assim.", "Com todo o respeito: não é bem assim."]},
+     {"sprecher": "Rui_Algarve", "stimme": "m", "pt": "Então porquê? Explica lá.", "de": "Warum denn? Erklär mal."},
+     {"ich": true, "aufgabe": "Schreib: Erstens bezweifle ich, dass es genug Wasser gibt.", "loesungen": ["Em primeiro lugar, duvido que haja água suficiente.", "Em primeiro lugar, duvido que haja água que chegue.", "Em primeiro lugar, duvido de que haja água suficiente.", "Em primeiro lugar, duvido que haja suficiente água."]},
+     {"sprecher": "Rui_Algarve", "stimme": "m", "pt": "E o emprego? Não conta?", "de": "Und die Arbeitsplätze? Zählen die nicht?"},
+     {"ich": true, "aufgabe": "Schreib: Doch, aber es ist wichtig, dass das Projekt nachhaltig ist.", "loesungen": ["Conta, mas é importante que o projeto seja sustentável.", "Claro que conta, mas é importante que o projeto seja sustentável.", "Conta, sim, mas é importante que o projeto seja sustentável.", "Sim, mas é importante que o projeto seja sustentável."]}
+    ]
+   },
+   "saetze": [
+    {"id": "e-importante-protegermos", "pt": "É importante protegermos a costa.", "de": "Es ist wichtig, dass wir die Küste schützen."},
+    {"id": "concordo-comentario-anterior", "pt": "Concordo plenamente com o comentário anterior.", "de": "Ich stimme dem vorigen Kommentar voll zu."},
+    {"id": "com-todo-o-respeito-discordo", "pt": "Com todo o respeito, discordo.", "de": "Bei allem Respekt, ich bin anderer Meinung."}
+   ]
+  },
+  {"id": "B1-02-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-02-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Fórum da Manhã – ein Radio-Talk",
+   "situation": "In einer Radiosendung rufen Hörer an und diskutieren über die Vier-Tage-Woche.",
+   "zeilen": [
+    {"sprecher": "Locutor", "stimme": "m", "pt": "Bom dia, estamos de volta com o Fórum da Manhã. Hoje o tema é a semana de quatro dias. Temos em linha a Carla, de Portimão. Bom dia, Carla.", "de": "Guten Morgen, wir sind zurück mit dem Fórum da Manhã. Heute geht es um die Vier-Tage-Woche. Wir haben Carla aus Portimão in der Leitung. Guten Morgen, Carla."},
+    {"sprecher": "Carla", "stimme": "f", "pt": "Bom dia. Eu acho que é uma ótima ideia. As pessoas trabalham melhor quando descansam mais.", "de": "Guten Morgen. Ich finde, das ist eine tolle Idee. Die Leute arbeiten besser, wenn sie sich mehr ausruhen."},
+    {"sprecher": "Locutor", "stimme": "m", "pt": "E não tem medo de que as empresas percam dinheiro?", "de": "Und haben Sie keine Angst, dass die Firmen Geld verlieren?"},
+    {"sprecher": "Carla", "stimme": "f", "pt": "Não me parece que percam. Pelo contrário: é provável que as pessoas faltem menos ao trabalho.", "de": "Ich glaube kaum, dass sie welches verlieren. Im Gegenteil: Wahrscheinlich fehlen die Leute weniger bei der Arbeit."},
+    {"sprecher": "Locutor", "stimme": "m", "pt": "Obrigado, Carla. Agora temos o Manuel, de Lagos. Manuel, concorda?", "de": "Danke, Carla. Jetzt haben wir Manuel aus Lagos. Manuel, stimmen Sie zu?"},
+    {"sprecher": "Manuel", "stimme": "m", "pt": "Nem por isso. Tenho um restaurante e duvido que consiga pagar a mais empregados. Para as empresas pequenas, é muito difícil.", "de": "Nicht wirklich. Ich habe ein Restaurant und bezweifle, dass ich noch mehr Angestellte bezahlen kann. Für kleine Firmen ist das sehr schwierig."},
+    {"sprecher": "Locutor", "stimme": "m", "pt": "Portanto, acha que a lei deve ser diferente para as pequenas empresas?", "de": "Sie finden also, dass das Gesetz für kleine Firmen anders sein sollte?"},
+    {"sprecher": "Manuel", "stimme": "m", "pt": "Exatamente. É importante que o governo ouça também os pequenos empresários.", "de": "Genau. Es ist wichtig, dass die Regierung auch die kleinen Unternehmer anhört."}
+   ],
+   "fragen": [
+    {"frage": "Qual é o tema do programa?", "optionen": ["A semana de quatro dias.", "O salário mínimo.", "O turismo."], "richtig": 0},
+    {"frage": "Porque é que a Carla é a favor?", "optionen": ["Porque quer ganhar mais.", "Porque as pessoas trabalham melhor quando descansam.", "Porque tem um restaurante."], "richtig": 1},
+    {"frage": "O que tem o Manuel?", "optionen": ["Uma loja.", "Um hotel.", "Um restaurante."], "richtig": 2},
+    {"frage": "O que pede o Manuel ao governo?", "optionen": ["Que ouça os pequenos empresários.", "Que baixe os impostos.", "Que proíba a semana de quatro dias."], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "Trotinetes elétricas em Lagos – sim ou não?",
+   "situation": "Stefan schreibt einen Beitrag im Online-Forum der Stadt über E-Scooter.",
+   "text": [
+    "Olá a todos,",
+    "Há uns meses chegaram a Lagos as trotinetes elétricas de aluguer, e o tema tem sido muito polémico neste fórum. Queria deixar aqui a minha opinião.",
+    "Em primeiro lugar, acho que são uma boa alternativa ao carro para distâncias curtas. Além disso, não fazem barulho nem poluem.",
+    "No entanto, não me parece que o sistema funcione bem como está. Há trotinetes abandonadas no meio dos passeios, e isso é perigoso para os peões, sobretudo para os idosos.",
+    "Duvido que a solução seja proibi-las. Na minha opinião, é preciso que a câmara crie zonas próprias para as estacionar e que a polícia multe quem as deixa no passeio.",
+    "Portanto: sim às trotinetes, mas com regras. E vocês, o que acham?",
+    "Stefan K."
+   ],
+   "fragen": [
+    {"frage": "Qual é, em geral, a opinião do Stefan sobre as trotinetes?", "optionen": ["É totalmente contra.", "É a favor, mas com regras.", "Não tem opinião."], "richtig": 1},
+    {"frage": "Qual é o principal problema?", "optionen": ["São muito caras.", "Fazem muito barulho.", "Ficam abandonadas nos passeios."], "richtig": 2},
+    {"frage": "Para quem são perigosas, sobretudo?", "optionen": ["Para os idosos.", "Para os turistas.", "Para os condutores."], "richtig": 0},
+    {"frage": "O que propõe o Stefan?", "optionen": ["Proibir as trotinetes.", "Zonas para estacionar e multas.", "Baixar o preço do aluguer."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich glaube nicht, dass das eine gute Idee ist.", "loesungen": ["Não acho que seja boa ideia.", "Não acho que seja uma boa ideia.", "Não penso que seja boa ideia.", "Não penso que seja uma boa ideia.", "Não me parece que seja boa ideia.", "Não me parece que seja uma boa ideia.", "Não acho que isso seja boa ideia.", "Não acho que isso seja uma boa ideia."]},
+   {"de": "Ich bezweifle, dass er pünktlich kommt.", "loesungen": ["Duvido que ele chegue a horas.", "Duvido de que ele chegue a horas.", "Duvido que chegue a horas.", "Duvido que ele venha a horas."]},
+   {"de": "Vielleicht regnet es morgen.", "loesungen": ["Talvez chova amanhã.", "Se calhar chove amanhã.", "Se calhar amanhã chove.", "Talvez amanhã chova.", "Pode ser que chova amanhã.", "Se calhar vai chover amanhã."]},
+   {"de": "Es ist wichtig, dass du pünktlich kommst.", "loesungen": ["É importante que chegues a horas.", "É importante que tu chegues a horas.", "É importante chegares a horas.", "É importante que venhas a horas."]},
+   {"de": "Es ist offensichtlich, dass der Tourismus wichtig ist.", "loesungen": ["É óbvio que o turismo é importante.", "É evidente que o turismo é importante.", "É claro que o turismo é importante."]},
+   {"de": "Ich verstehe, was du meinst, aber ganz so ist es nicht.", "loesungen": ["Percebo o que queres dizer, mas não é bem assim.", "Percebo o que dizes, mas não é bem assim.", "Entendo o que queres dizer, mas não é bem assim."]}
+  ],
+  "sprechen": [
+   {"pt": "Na minha opinião, é uma boa ideia.", "de": "Meiner Meinung nach ist das eine gute Idee."},
+   {"pt": "Não acho que seja justo.", "de": "Ich finde das nicht fair."},
+   {"pt": "Talvez o João saiba a resposta.", "de": "Vielleicht weiß João die Antwort."},
+   {"pt": "É provável que chova no fim de semana.", "de": "Wahrscheinlich regnet es am Wochenende."},
+   {"pt": "Em primeiro lugar, o preço é alto. Além disso, fica longe.", "de": "Erstens ist der Preis hoch. Außerdem liegt es weit weg."}
+  ]
+ }
+}

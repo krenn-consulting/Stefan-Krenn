@@ -52,6 +52,8 @@ def test_se_als_bindewort_ist_kein_brasilianismus():
     assert not meldet("Se eu tivesse tempo, viajava.")
     assert not meldet("Se o senhor quiser, pode vir.")
     assert not meldet("Se faz favor.")
+    assert not meldet("Nos últimos anos mudou muito.")
+    assert meldet("Nos vemos amanhã.")
 
 
 def test_a1_komplett():
