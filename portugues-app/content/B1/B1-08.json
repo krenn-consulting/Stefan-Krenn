@@ -1,0 +1,887 @@
+{
+ "id": "B1-08",
+ "level": "B1",
+ "titel": "Histórias e relatos – Geschichten erzählen",
+ "beschreibung": "Erlebnisse lebendig erzählen, Anekdoten und Missverständnisse, eine Legende aus der Algarve – mit dem Mais-que-perfeito (tinha feito), der indirekten Rede (disse que estava / que tinha feito / que viria, perguntou se, pediu que) und Zeitkonnektoren (mal, entretanto, logo depois, afinal).",
+ "vokabeln": [
+  {"id": "a-historia", "pt": "a história", "de": "die Geschichte", "emoji": "📖", "beispiel_pt": "Conta-me a história toda!", "beispiel_de": "Erzähl mir die ganze Geschichte!", "hinweis": "contar uma história = eine Geschichte erzählen; a História = auch das Schulfach"},
+  {"id": "o-acontecimento", "pt": "o acontecimento", "de": "das Ereignis", "emoji": "🎆", "beispiel_pt": "Foi o grande acontecimento do verão em Lagos.", "beispiel_de": "Das war das große Ereignis des Sommers in Lagos.", "passiv": true},
+  {"id": "o-pormenor", "pt": "o pormenor", "de": "das Detail / die Einzelheit", "emoji": "🔍", "beispiel_pt": "Contou-nos tudo com muito pormenor.", "beispiel_de": "Er hat uns alles sehr ausführlich erzählt.", "hinweis": "pt-PT; BR eher: o detalhe. com pormenor = ausführlich"},
+  {"id": "o-relato", "pt": "o relato", "de": "der Bericht / die Schilderung", "emoji": "🗣️", "beispiel_pt": "O relato do Pedro era um pouco diferente.", "beispiel_de": "Pedros Schilderung war etwas anders.", "passiv": true},
+  {"id": "relatar", "pt": "relatar", "de": "berichten / schildern", "emoji": "📰", "beispiel_pt": "A testemunha relatou o que tinha visto.", "beispiel_de": "Der Zeuge schilderte, was er gesehen hatte.", "hinweis": "formeller als contar; a testemunha = der Zeuge / die Zeugin", "passiv": true},
+  {"id": "a-peripecia", "pt": "a peripécia", "de": "der Zwischenfall / das (kleine) Abenteuer", "emoji": "🎢", "beispiel_pt": "A viagem foi cheia de peripécias.", "beispiel_de": "Die Reise war voller Zwischenfälle.", "passiv": true},
+  {"id": "ao-principio", "pt": "ao princípio", "de": "anfangs / zuerst", "emoji": "🚦", "beispiel_pt": "Ao princípio, não percebi nada.", "beispiel_de": "Anfangs habe ich nichts verstanden.", "hinweis": "auch: no início"},
+  {"id": "no-final", "pt": "no final", "de": "am Ende / zum Schluss", "emoji": "🏁", "beispiel_pt": "No final, chegámos a casa às três da manhã.", "beispiel_de": "Am Ende kamen wir um drei Uhr morgens nach Hause.", "hinweis": "auch: por fim, no fim; pt-PT: chegámos (Perfeito) mit Akzent – chegamos = Präsens"},
+  {"id": "de-facto", "pt": "de facto", "de": "tatsächlich / in der Tat", "emoji": "✔️", "beispiel_pt": "De facto, foi o melhor dia das férias.", "beispiel_de": "Es war tatsächlich der beste Tag der Ferien.", "hinweis": "pt-PT: o facto (BR: o fato)"},
+
+  {"id": "descobrir", "pt": "descobrir", "de": "entdecken / herausfinden", "emoji": "💡", "beispiel_pt": "Só mais tarde descobri que tinha perdido a carteira.", "beispiel_de": "Erst später habe ich herausgefunden, dass ich die Brieftasche verloren hatte.", "hinweis": "Partizip: descoberto"},
+  {"id": "deixar-cair", "pt": "deixar cair", "de": "fallen lassen", "emoji": "🫳", "beispiel_pt": "Deixei cair o telemóvel na água.", "beispiel_de": "Ich habe das Handy ins Wasser fallen lassen."},
+  {"id": "trancar", "pt": "trancar", "de": "abschließen / verriegeln", "emoji": "🔒", "beispiel_pt": "Tranquei a porta e saí.", "beispiel_de": "Ich habe die Tür abgeschlossen und bin gegangen.", "hinweis": "auch: fechar à chave; eu tranquei (qu vor e)", "passiv": true},
+  {"id": "ficar-trancado-fora-de-casa", "pt": "ficar trancado fora de casa", "de": "sich aussperren", "emoji": "🚪", "beispiel_pt": "Ontem fiquei trancado fora de casa.", "beispiel_de": "Gestern habe ich mich ausgesperrt.", "alternativen": ["ficar trancada fora de casa"], "passiv": true},
+  {"id": "ate-entao", "pt": "até então", "de": "bis dahin", "emoji": "⏮️", "beispiel_pt": "Até então, nunca tinha tido problemas com a fechadura.", "beispiel_de": "Bis dahin hatte ich nie Probleme mit dem Schloss gehabt.", "passiv": true},
+  {"id": "pela-primeira-vez", "pt": "pela primeira vez", "de": "zum ersten Mal", "emoji": "1️⃣", "beispiel_pt": "Nesse dia, falei português ao telefone pela primeira vez.", "beispiel_de": "An diesem Tag habe ich zum ersten Mal am Telefon Portugiesisch gesprochen."},
+  {"id": "a-desculpa", "pt": "a desculpa", "de": "die Ausrede / die Entschuldigung", "emoji": "🙊", "beispiel_pt": "Isso não é uma boa desculpa.", "beispiel_de": "Das ist keine gute Ausrede.", "hinweis": "pedir desculpa = sich entschuldigen"},
+  {"id": "o-susto", "pt": "o susto", "de": "der Schreck", "emoji": "😱", "beispiel_pt": "Que susto! Pensei que tinha perdido as chaves.", "beispiel_de": "So ein Schreck! Ich dachte, ich hätte die Schlüssel verloren.", "hinweis": "apanhar um susto = sich erschrecken; pregar um susto a alguém = jemanden erschrecken"},
+  {"id": "a-chave-suplente", "pt": "a chave suplente", "de": "der Ersatzschlüssel", "emoji": "🗝️", "beispiel_pt": "Felizmente, o João tinha uma chave suplente.", "beispiel_de": "Zum Glück hatte João einen Ersatzschlüssel.", "passiv": true},
+
+  {"id": "afirmar", "pt": "afirmar", "de": "behaupten / erklären", "emoji": "🎙️", "beispiel_pt": "O presidente da junta afirmou que a obra estava quase pronta.", "beispiel_de": "Der Ortsvorsteher erklärte, der Bau sei fast fertig.", "hinweis": "a junta de freguesia = die Gemeindeverwaltung (Ortsteil)", "passiv": true},
+  {"id": "avisar", "pt": "avisar", "de": "Bescheid sagen / warnen", "emoji": "📢", "beispiel_pt": "Avisei a Ana que ia chegar tarde.", "beispiel_de": "Ich habe Ana Bescheid gesagt, dass ich spät komme.", "hinweis": "avisar alguém (de) que … = jemandem Bescheid sagen, dass …"},
+  {"id": "admitir", "pt": "admitir", "de": "zugeben", "emoji": "🙋", "beispiel_pt": "Ele admitiu que estava errado.", "beispiel_de": "Er gab zu, dass er sich geirrt hatte.", "hinweis": "estar errado = falschliegen"},
+  {"id": "acrescentar", "pt": "acrescentar", "de": "hinzufügen", "emoji": "➕", "beispiel_pt": "Disse que estava ocupado e acrescentou que não podia vir.", "beispiel_de": "Er sagte, er sei beschäftigt, und fügte hinzu, dass er nicht kommen könne.", "passiv": true},
+  {"id": "confessar", "pt": "confessar", "de": "gestehen", "emoji": "🤫", "beispiel_pt": "A Rita confessou que tinha medo de cães.", "beispiel_de": "Rita gestand, dass sie Angst vor Hunden habe.", "passiv": true},
+  {"id": "mencionar", "pt": "mencionar", "de": "erwähnen", "emoji": "💬", "beispiel_pt": "Ele não mencionou que era casado.", "beispiel_de": "Er hat nicht erwähnt, dass er verheiratet ist.", "passiv": true},
+  {"id": "nesse-dia", "pt": "nesse dia", "de": "an diesem Tag / an jenem Tag", "emoji": "📅", "beispiel_pt": "Disse que nesse dia não podia sair.", "beispiel_de": "Er sagte, an diesem Tag könne er nicht ausgehen.", "hinweis": "Indirekte Rede: hoje → nesse dia / naquele dia"},
+  {"id": "segundo-ele", "pt": "segundo ele", "de": "laut ihm / ihm zufolge", "emoji": "👉", "beispiel_pt": "Segundo ele, a reunião era às três.", "beispiel_de": "Laut ihm war das Meeting um drei.", "hinweis": "segundo a Ana / segundo o jornal = laut Ana / laut Zeitung"},
+  {"id": "repetir", "pt": "repetir", "de": "wiederholen", "emoji": "🔁", "beispiel_pt": "Pode repetir o que ele disse?", "beispiel_de": "Können Sie wiederholen, was er gesagt hat?", "hinweis": "eu repito, tu repetes, ele repete"},
+
+  {"id": "a-novidade", "pt": "a novidade", "de": "die Neuigkeit", "emoji": "🆕", "beispiel_pt": "Tenho uma novidade: a Rita mudou de emprego!", "beispiel_de": "Ich habe eine Neuigkeit: Rita hat den Job gewechselt!", "hinweis": "Há novidades? = Gibt's was Neues?"},
+  {"id": "pelos-vistos", "pt": "pelos vistos", "de": "anscheinend", "emoji": "👀", "beispiel_pt": "Pelos vistos, o Pedro já sabia de tudo.", "beispiel_de": "Anscheinend wusste Pedro schon alles."},
+  {"id": "ao-que-parece", "pt": "ao que parece", "de": "wie es scheint", "emoji": "🤔", "beispiel_pt": "Ao que parece, a loja da esquina fechou.", "beispiel_de": "Wie es scheint, hat der Laden an der Ecke zugemacht.", "passiv": true},
+  {"id": "ficar-noivo", "pt": "ficar noivo", "de": "sich verloben", "emoji": "💍", "beispiel_pt": "O filho do João ficou noivo no verão.", "beispiel_de": "Joãos Sohn hat sich im Sommer verlobt.", "hinweis": "o noivo / a noiva = der Verlobte, auch: Bräutigam / Braut", "alternativen": ["ficar noiva"]},
+  {"id": "despedir-se", "pt": "despedir-se", "de": "kündigen (selbst) / sich verabschieden", "emoji": "👋", "beispiel_pt": "A Rita despediu-se e vai abrir um negócio.", "beispiel_de": "Rita hat gekündigt und eröffnet ein Geschäft.", "hinweis": "despedir-se de alguém = sich von jemandem verabschieden; eu despeço-me"},
+  {"id": "ser-despedido", "pt": "ser despedido", "de": "entlassen werden", "emoji": "📦", "beispiel_pt": "O primo dela foi despedido sem aviso.", "beispiel_de": "Ihr Cousin wurde ohne Vorwarnung entlassen.", "alternativen": ["ser despedida"], "passiv": true},
+  {"id": "o-mexerico", "pt": "o mexerico", "de": "der Klatsch / das Gerede", "emoji": "🗯️", "beispiel_pt": "Não ligues aos mexericos da vizinhança.", "beispiel_de": "Gib nichts auf den Klatsch in der Nachbarschaft.", "hinweis": "meist Plural: os mexericos; coscuvilhar = tratschen", "passiv": true},
+  {"id": "surpreendido", "pt": "surpreendido", "de": "überrascht", "emoji": "😮", "beispiel_pt": "Fiquei muito surpreendido com a notícia.", "beispiel_de": "Die Nachricht hat mich sehr überrascht.", "alternativen": ["surpreendida"]},
+  {"id": "contaram-me-que", "pt": "contaram-me que …", "de": "man hat mir erzählt, dass …", "emoji": "👂", "beispiel_pt": "Contaram-me que o restaurante tinha mudado de dono.", "beispiel_de": "Man hat mir erzählt, dass das Restaurant den Besitzer gewechselt habe.", "hinweis": "3. Person Plural ohne Subjekt = „man“", "alternativen": ["contaram-me que"]},
+
+  {"id": "a-promessa", "pt": "a promessa", "de": "das Versprechen", "emoji": "🤞", "beispiel_pt": "Fez-me uma promessa e cumpriu-a.", "beispiel_de": "Er hat mir etwas versprochen und es gehalten.", "hinweis": "fazer uma promessa = etwas versprechen; prometer = versprechen"},
+  {"id": "cumprir-a-palavra", "pt": "cumprir a palavra", "de": "Wort halten", "emoji": "🤝", "beispiel_pt": "O canalizador cumpriu a palavra e veio no dia seguinte.", "beispiel_de": "Der Installateur hat Wort gehalten und kam am nächsten Tag.", "hinweis": "auch: cumprir a promessa"},
+  {"id": "faltar-a-palavra", "pt": "faltar à palavra", "de": "sein Wort brechen", "emoji": "💔", "beispiel_pt": "O empreiteiro faltou à palavra outra vez.", "beispiel_de": "Der Bauunternehmer hat schon wieder sein Wort gebrochen.", "passiv": true},
+  {"id": "comprometer-se-a", "pt": "comprometer-se a", "de": "sich verpflichten zu", "emoji": "✍️", "beispiel_pt": "A empresa comprometeu-se a acabar a obra em maio.", "beispiel_de": "Die Firma hat sich verpflichtet, den Bau im Mai abzuschließen.", "passiv": true},
+  {"id": "na-vespera", "pt": "na véspera", "de": "am Vortag / am Abend davor", "emoji": "🌙", "beispiel_pt": "Na véspera, ele tinha dito que viria às nove.", "beispiel_de": "Am Vortag hatte er gesagt, er würde um neun kommen.", "hinweis": "Indirekte Rede: ontem → na véspera / no dia anterior; a véspera de Natal = Heiligabend"},
+  {"id": "no-dia-anterior", "pt": "no dia anterior", "de": "am Tag davor", "emoji": "⬅️", "beispiel_pt": "Disse que tinha ligado no dia anterior.", "beispiel_de": "Er sagte, er habe am Tag davor angerufen.", "passiv": true},
+  {"id": "dali-a", "pt": "dali a", "de": "(von damals aus) in …", "emoji": "⏩", "beispiel_pt": "Disse que voltava dali a uma semana.", "beispiel_de": "Er sagte, er komme in einer Woche wieder.", "hinweis": "daqui a (von jetzt an) → dali a (von damals an)", "passiv": true},
+  {"id": "sem-duvida", "pt": "sem dúvida", "de": "zweifellos / auf jeden Fall", "emoji": "💯", "beispiel_pt": "Sem dúvida, foi a melhor solução.", "beispiel_de": "Das war zweifellos die beste Lösung."},
+
+  {"id": "perguntar-se", "pt": "perguntar se", "de": "fragen, ob", "emoji": "❓", "beispiel_pt": "Ela perguntou se eu falava português.", "beispiel_de": "Sie fragte, ob ich Portugiesisch spreche."},
+  {"id": "querer-saber", "pt": "querer saber", "de": "wissen wollen", "emoji": "🧐", "beispiel_pt": "O senhorio quis saber quando íamos sair.", "beispiel_de": "Der Vermieter wollte wissen, wann wir ausziehen würden.", "hinweis": "quis saber (Perfeito) = wollte wissen (einmalige Frage)"},
+  {"id": "pedir-para", "pt": "pedir para", "de": "bitten, (etwas) zu tun", "emoji": "🙏", "beispiel_pt": "A Ana pediu-me para comprar pão.", "beispiel_de": "Ana hat mich gebeten, Brot zu kaufen.", "hinweis": "pedir a alguém para + Infinitiv (Alltag) oder pedir que + Konjunktiv"},
+  {"id": "mandar", "pt": "mandar", "de": "anordnen / (an)befehlen / schicken", "emoji": "☝️", "beispiel_pt": "O médico mandou-me descansar.", "beispiel_de": "Der Arzt hat mir Ruhe verordnet.", "hinweis": "mandar + Infinitiv = anordnen / machen lassen; mandar uma mensagem = eine Nachricht schicken"},
+  {"id": "ordenar", "pt": "ordenar", "de": "befehlen", "emoji": "👮", "beispiel_pt": "O polícia ordenou que parássemos o carro.", "beispiel_de": "Der Polizist befahl uns, das Auto anzuhalten.", "passiv": true},
+  {"id": "proibir", "pt": "proibir", "de": "verbieten", "emoji": "🚫", "beispiel_pt": "A câmara proibiu o estacionamento nesta rua.", "beispiel_de": "Die Gemeinde hat das Parken in dieser Straße verboten.", "hinweis": "proibir alguém de + Infinitiv; É proibido fumar. = Rauchen verboten."},
+  {"id": "implorar", "pt": "implorar", "de": "anflehen", "emoji": "🥺", "beispiel_pt": "O miúdo implorou ao pai que o deixasse ir à praia.", "beispiel_de": "Der Junge flehte seinen Vater an, ihn an den Strand gehen zu lassen.", "passiv": true},
+  {"id": "lembrar-alguem-de", "pt": "lembrar alguém de", "de": "jemanden erinnern an", "emoji": "📝", "beispiel_pt": "Lembra-me de ligar ao João, por favor.", "beispiel_de": "Erinnere mich bitte daran, João anzurufen.", "hinweis": "lembrar-se de = sich erinnern an"},
+  {"id": "a-pressa", "pt": "à pressa", "de": "in Eile / hastig", "emoji": "🏃", "beispiel_pt": "Ele saiu à pressa e esqueceu-se do casaco.", "beispiel_de": "Er ging hastig weg und vergaß seine Jacke.", "hinweis": "estar com pressa = es eilig haben"},
+
+  {"id": "entretanto", "pt": "entretanto", "de": "inzwischen / unterdessen", "emoji": "⏳", "beispiel_pt": "Fui buscar o carro e, entretanto, a Ana pagou a conta.", "beispiel_de": "Ich habe das Auto geholt, und inzwischen hat Ana die Rechnung bezahlt.", "hinweis": "pt-PT meist zeitlich; in formellen Texten (und in Brasilien) auch „jedoch“"},
+  {"id": "mal-cheguei", "pt": "mal cheguei", "de": "kaum war ich angekommen", "emoji": "🏠", "beispiel_pt": "Mal cheguei a casa, começou a chover.", "beispiel_de": "Kaum war ich zu Hause, fing es an zu regnen.", "hinweis": "mal + Perfeito = kaum / sobald: mal soube, mal acabou"},
+  {"id": "logo-depois", "pt": "logo depois", "de": "gleich danach", "emoji": "⏭️", "beispiel_pt": "Ouvimos um barulho e, logo depois, a luz foi abaixo.", "beispiel_de": "Wir hörten ein Geräusch und gleich danach fiel der Strom aus.", "hinweis": "a luz foi abaixo = der Strom ist ausgefallen"},
+  {"id": "pouco-depois", "pt": "pouco depois", "de": "kurz darauf", "emoji": "🕐", "beispiel_pt": "Pouco depois, chegaram os bombeiros.", "beispiel_de": "Kurz darauf kam die Feuerwehr."},
+  {"id": "afinal", "pt": "afinal", "de": "also doch / letztendlich / eigentlich", "emoji": "🙃", "beispiel_pt": "Afinal, o restaurante estava aberto!", "beispiel_de": "Das Restaurant war also doch offen!", "hinweis": "Afinal, o que queres? = Was willst du eigentlich?"},
+  {"id": "ao-fim-de", "pt": "ao fim de", "de": "nach (einer Zeitspanne)", "emoji": "⌛", "beispiel_pt": "Ao fim de meia hora, o autocarro chegou.", "beispiel_de": "Nach einer halben Stunde kam der Bus."},
+  {"id": "desde-entao", "pt": "desde então", "de": "seitdem", "emoji": "🔛", "beispiel_pt": "Desde então, nunca mais lá fui.", "beispiel_de": "Seitdem bin ich nie wieder dort gewesen.", "passiv": true},
+  {"id": "nisto", "pt": "nisto", "de": "in diesem Moment / da", "emoji": "⚡", "beispiel_pt": "Estávamos a jantar e, nisto, tocou a campainha.", "beispiel_de": "Wir aßen gerade zu Abend, und da klingelte es.", "hinweis": "typisch für mündliches Erzählen", "passiv": true},
+  {"id": "quando-dei-por-mim", "pt": "quando dei por mim", "de": "ehe ich mich versah", "emoji": "😵", "beispiel_pt": "Quando dei por mim, já eram duas da manhã.", "beispiel_de": "Ehe ich mich versah, war es schon zwei Uhr morgens.", "hinweis": "dar por = bemerken", "passiv": true},
+
+  {"id": "a-anedota", "pt": "a anedota", "de": "der Witz", "emoji": "🃏", "beispiel_pt": "O Pedro conta sempre anedotas ao jantar.", "beispiel_de": "Pedro erzählt beim Abendessen immer Witze.", "hinweis": "Falscher Freund! Eine Anekdote = um episódio / uma história engraçada"},
+  {"id": "sabes-o-que-me-aconteceu", "pt": "Sabes o que me aconteceu?", "de": "Weißt du, was mir passiert ist?", "emoji": "🙋‍♂️", "beispiel_pt": "Sabes o que me aconteceu ontem no mercado?", "beispiel_de": "Weißt du, was mir gestern auf dem Markt passiert ist?", "hinweis": "formell: Sabe o que me aconteceu?"},
+  {"id": "nem-imaginas", "pt": "Nem imaginas!", "de": "Du ahnst es nicht! / Du glaubst es nicht!", "emoji": "🤯", "beispiel_pt": "Nem imaginas a vergonha que passei!", "beispiel_de": "Du kannst dir nicht vorstellen, wie peinlich mir das war!", "hinweis": "formell: Nem imagina!"},
+  {"id": "ainda-por-cima", "pt": "ainda por cima", "de": "obendrein / zu allem Überfluss", "emoji": "🔝", "beispiel_pt": "Perdi o comboio e, ainda por cima, começou a chover.", "beispiel_de": "Ich habe den Zug verpasst, und zu allem Überfluss fing es an zu regnen."},
+  {"id": "morrer-de-rir", "pt": "morrer de rir", "de": "sich totlachen", "emoji": "😂", "beispiel_pt": "Quando lhe contei, a Ana morreu de rir.", "beispiel_de": "Als ich es Ana erzählte, hat sie sich totgelacht.", "hinweis": "Morri de rir! = Ich habe mich totgelacht!"},
+  {"id": "a-gargalhada", "pt": "a gargalhada", "de": "das schallende Gelächter", "emoji": "🤣", "beispiel_pt": "A esplanada inteira deu uma gargalhada.", "beispiel_de": "Die ganze Terrasse brach in schallendes Gelächter aus.", "hinweis": "dar uma gargalhada = laut auflachen", "passiv": true},
+  {"id": "envergonhado", "pt": "envergonhado", "de": "verlegen / beschämt", "emoji": "😳", "beispiel_pt": "Fiquei tão envergonhado!", "beispiel_de": "Das war mir so peinlich!", "hinweis": "Que vergonha! = Wie peinlich!", "alternativen": ["envergonhada"]},
+  {"id": "corar", "pt": "corar", "de": "rot werden / erröten", "emoji": "🍅", "beispiel_pt": "Corei até às orelhas.", "beispiel_de": "Ich wurde rot bis über beide Ohren.", "passiv": true},
+  {"id": "o-desfecho", "pt": "o desfecho", "de": "der Ausgang (einer Geschichte)", "emoji": "🎬", "beispiel_pt": "A história teve um desfecho feliz.", "beispiel_de": "Die Geschichte ging gut aus.", "passiv": true},
+
+  {"id": "perceber-mal", "pt": "perceber mal", "de": "falsch verstehen", "emoji": "🙉", "beispiel_pt": "Desculpe, percebi mal o seu nome.", "beispiel_de": "Entschuldigung, ich habe Ihren Namen falsch verstanden."},
+  {"id": "enganar-se", "pt": "enganar-se", "de": "sich irren / sich vertun", "emoji": "🔀", "beispiel_pt": "Enganei-me no número.", "beispiel_de": "Ich habe mich verwählt.", "hinweis": "enganar-se em: no caminho, no dia, na morada"},
+  {"id": "o-engano", "pt": "o engano", "de": "das Versehen / der Irrtum", "emoji": "🤦", "beispiel_pt": "Foi engano, peço desculpa.", "beispiel_de": "Das war ein Versehen, entschuldigen Sie.", "hinweis": "por engano = aus Versehen"},
+  {"id": "a-confusao", "pt": "a confusão", "de": "das Durcheinander / die Verwechslung", "emoji": "🌀", "beispiel_pt": "Houve uma confusão com a reserva.", "beispiel_de": "Es gab ein Durcheinander mit der Reservierung."},
+  {"id": "levar-a-mal", "pt": "levar a mal", "de": "übel nehmen", "emoji": "😤", "beispiel_pt": "Não leves a mal, mas prefiro ficar em casa.", "beispiel_de": "Nimm es mir nicht übel, aber ich bleibe lieber zu Hause.", "hinweis": "formell: Não leve a mal."},
+  {"id": "o-equivoco", "pt": "o equívoco", "de": "der Irrtum / das Missverständnis", "emoji": "❔", "beispiel_pt": "Tudo não passou de um equívoco.", "beispiel_de": "Das Ganze war nur ein Irrtum.", "passiv": true},
+  {"id": "a-gafe", "pt": "a gafe", "de": "der Fauxpas", "emoji": "🙈", "beispiel_pt": "Cometi uma gafe enorme ao jantar.", "beispiel_de": "Ich habe beim Abendessen einen riesigen Fauxpas begangen.", "hinweis": "cometer uma gafe", "passiv": true},
+  {"id": "baralhar", "pt": "baralhar", "de": "durcheinanderbringen", "emoji": "🃏", "beispiel_pt": "Baralhei os nomes das duas irmãs.", "beispiel_de": "Ich habe die Namen der beiden Schwestern durcheinandergebracht.", "hinweis": "estar baralhado = verwirrt sein; o baralho = das Kartenspiel", "passiv": true},
+  {"id": "rir-se-de", "pt": "rir-se de", "de": "lachen über", "emoji": "😆", "beispiel_pt": "Rimo-nos muito da situação.", "beispiel_de": "Wir haben viel über die Situation gelacht.", "hinweis": "rir-se de alguém = jemanden auslachen; Perfeito: ri, riste, riu, rimos, riram"},
+
+  {"id": "a-lenda", "pt": "a lenda", "de": "die Legende / die Sage", "emoji": "📜", "beispiel_pt": "Há uma lenda bonita sobre as amendoeiras do Algarve.", "beispiel_de": "Es gibt eine schöne Legende über die Mandelbäume der Algarve.", "hinweis": "Conta a lenda que … = Die Legende erzählt, dass …"},
+  {"id": "era-uma-vez", "pt": "Era uma vez …", "de": "Es war einmal …", "emoji": "🏰", "beispiel_pt": "Era uma vez um rei que vivia em Silves.", "beispiel_de": "Es war einmal ein König, der in Silves lebte.", "alternativen": ["era uma vez"]},
+  {"id": "o-rei", "pt": "o rei", "de": "der König", "emoji": "👑", "beispiel_pt": "O rei mandou construir um palácio.", "beispiel_de": "Der König ließ einen Palast bauen.", "hinweis": "a rainha = die Königin"},
+  {"id": "a-princesa", "pt": "a princesa", "de": "die Prinzessin", "emoji": "👸", "beispiel_pt": "A princesa vinha de um país do Norte.", "beispiel_de": "Die Prinzessin kam aus einem Land im Norden.", "hinweis": "o príncipe = der Prinz", "passiv": true},
+  {"id": "o-mouro", "pt": "o mouro", "de": "der Maure", "emoji": "🕌", "beispiel_pt": "Os mouros viveram no Algarve durante mais de quinhentos anos.", "beispiel_de": "Die Mauren lebten mehr als fünfhundert Jahre in der Algarve.", "hinweis": "Al-Gharb (arabisch: „der Westen“) → Algarve", "passiv": true},
+  {"id": "a-neve", "pt": "a neve", "de": "der Schnee", "emoji": "❄️", "beispiel_pt": "A princesa tinha saudades da neve.", "beispiel_de": "Die Prinzessin vermisste den Schnee.", "hinweis": "nevar = schneien: Nunca neva em Lagos."},
+  {"id": "em-flor", "pt": "em flor", "de": "in Blüte / blühend", "emoji": "🌸", "beispiel_pt": "Em fevereiro, as amendoeiras estão em flor.", "beispiel_de": "Im Februar stehen die Mandelbäume in Blüte.", "hinweis": "a flor = die Blume / die Blüte", "passiv": true},
+  {"id": "plantar", "pt": "plantar", "de": "pflanzen", "emoji": "🌱", "beispiel_pt": "O rei mandou plantar milhares de amendoeiras.", "beispiel_de": "Der König ließ Tausende von Mandelbäumen pflanzen."},
+  {"id": "definhar", "pt": "definhar", "de": "dahinsiechen / verkümmern", "emoji": "🥀", "beispiel_pt": "A princesa começou a definhar de tristeza.", "beispiel_de": "Die Prinzessin begann vor Kummer dahinzusiechen.", "passiv": true},
+  {"id": "a-terra-natal", "pt": "a terra natal", "de": "die Heimat", "emoji": "🏔️", "beispiel_pt": "Nunca se esqueceu da sua terra natal.", "beispiel_de": "Sie vergaß ihre Heimat nie.", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-08-L01",
+   "typ": "neu",
+   "titel": "Ein Wochenende voller Zwischenfälle: Erzählzeiten wiederholen",
+   "vokabeln": ["a-historia", "o-acontecimento", "o-pormenor", "o-relato", "relatar", "a-peripecia", "ao-principio", "no-final", "de-facto"],
+   "grammatik": {
+    "titel": "Contar no passado: pretérito perfeito e imperfeito",
+    "erklaerung": [
+     "Numa história, o <b>imperfeito</b> descreve o cenário: o tempo, o lugar, as pessoas, o que estava a acontecer. <i>Era sábado, fazia calor e a praia estava cheia.</i>",
+     "O <b>pretérito perfeito</b> conta as ações que fazem avançar a história, uma depois da outra: <i>De repente, <b>ouvimos</b> um grito, <b>levantámo-nos</b> e <b>corremos</b> para a água.</i>",
+     "Ação em curso + ação nova: <i><b>Estava a tomar</b> banho quando a luz <b>foi</b> abaixo.</i> O imperfeito (ou <i>estava a</i> + infinitivo) é o pano de fundo; o perfeito é o que interrompe.",
+     "Para organizar a história: <i>ao princípio → depois / a seguir → de repente → por fim / no final</i>. Atenção ao acento: <i>chegámos, falámos</i> (perfeito) – <i>chegamos, falamos</i> (presente)."
+    ],
+    "erklaerung_de": [
+     "In einer Geschichte beschreibt das <b>Imperfeito</b> den Hintergrund: Wetter, Ort, Personen, was gerade geschah. <i>Era sábado, fazia calor e a praia estava cheia.</i> – Es war Samstag, es war heiß und der Strand war voll.",
+     "Das <b>Pretérito perfeito</b> erzählt die Handlungen, die die Geschichte vorantreiben, eine nach der anderen: <i>De repente, <b>ouvimos</b> um grito, <b>levantámo-nos</b> e <b>corremos</b> para a água.</i> – Plötzlich hörten wir einen Schrei, standen auf und liefen zum Wasser.",
+     "Laufende Handlung + neue Handlung: <i><b>Estava a tomar</b> banho quando a luz <b>foi</b> abaixo.</i> – Ich war gerade beim Duschen, als der Strom ausfiel. Das Imperfeito (oder <i>estava a</i> + Infinitiv) ist der Hintergrund, das Perfeito unterbricht.",
+     "Um die Geschichte zu gliedern: <i>ao princípio → depois / a seguir → de repente → por fim / no final</i> (anfangs → dann → plötzlich → schließlich / am Ende). Achtung Akzent: <i>chegámos, falámos</i> (Perfeito) – <i>chegamos, falamos</i> (Präsens)."
+    ],
+    "vergleich": "Im Deutschen erzählt man mündlich meist im Perfekt („Wir sind aufgestanden“), schriftlich im Präteritum – der Unterschied Hintergrund/Handlung zeigt sich nicht an der Verbform. Das Englische kennt ihn: „I was having a shower when the lights went out“ = <i>Estava a tomar banho quando a luz foi abaixo.</i>",
+    "beispiele": [
+     {"pt": "Ao princípio, estava tudo calmo e fazia sol.", "de": "Anfangs war alles ruhig und die Sonne schien."},
+     {"pt": "Estávamos a jantar quando o telefone tocou.", "de": "Wir aßen gerade zu Abend, als das Telefon klingelte."},
+     {"pt": "Por fim, chegámos a casa às três da manhã.", "de": "Schließlich kamen wir um drei Uhr morgens nach Hause."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Era domingo e ___ muito calor. (fazer)", "loesungen": ["fazia"], "de": "Es war Sonntag und es war sehr heiß.", "erklaerung": "Hintergrund/Wetter → Imperfeito.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "luecke", "satz": "Estávamos a jantar quando o telefone ___. (tocar)", "loesungen": ["tocou"], "de": "Wir aßen gerade zu Abend, als das Telefon klingelte.", "erklaerung": "Die neue, unterbrechende Handlung steht im Perfeito.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "luecke", "satz": "Ao princípio, a praia ___ vazia, mas depois chegou muita gente. (estar)", "loesungen": ["estava"], "de": "Anfangs war der Strand leer, aber dann kamen viele Leute.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "luecke", "satz": "Ontem nós ___ a Lagos às oito. (chegar, Perfeito)", "loesungen": ["chegámos"], "de": "Gestern sind wir um acht in Lagos angekommen.", "erklaerung": "pt-PT: Perfeito nós mit Akzent – chegámos. Ohne Akzent (chegamos) ist es Präsens.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "auswahl", "frage": "„Als ich klein war, wohnte ich in Graz.“", "optionen": ["Quando fui pequeno, morei em Graz.", "Quando era pequeno, morava em Graz.", "Quando era pequeno, morei em Graz."], "richtig": 1, "erklaerung": "Zustand und Gewohnheit in der Vergangenheit → beide Verben im Imperfeito.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "auswahl", "frage": "Chovia muito. De repente, ___ um barulho enorme.", "optionen": ["ouvíamos", "ouvimos", "tínhamos ouvido"], "richtig": 1, "erklaerung": "„De repente“ kündigt eine neue Handlung an → Perfeito.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "uebersetzen", "de": "Schließlich sind wir um drei Uhr morgens nach Hause gekommen.", "loesungen": ["Por fim, chegámos a casa às três da manhã.", "Por fim chegámos a casa às três da manhã.", "Finalmente, chegámos a casa às três da manhã.", "Por fim, chegámos a casa às três da madrugada.", "Por fim, voltámos para casa às três da manhã.", "Por fim, chegámos a casa às três horas da manhã."], "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "satzbau", "de": "Ich war gerade beim Duschen, als der Strom ausfiel.", "loesung": "Estava a tomar banho quando a luz foi abaixo."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um sábado cheio de peripécias – ein Samstag voller Zwischenfälle",
+    "situation": "Nachbar João fragt Stefan nach dem Bootsausflug vom Wochenende.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Então, Stefan, como foi o passeio de barco no sábado?", "de": "Na, Stefan, wie war der Bootsausflug am Samstag?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Nem te conto! Ao princípio, estava tudo perfeito: fazia sol e o mar estava calmo.", "de": "Frag nicht! Anfangs war alles perfekt: Die Sonne schien und das Meer war ruhig."},
+     {"sprecher": "João", "stimme": "m", "pt": "E depois?", "de": "Und dann?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A meio da tarde, o vento mudou e começaram a aparecer ondas enormes.", "de": "Am Nachmittag drehte der Wind und es kamen riesige Wellen auf."},
+     {"sprecher": "João", "stimme": "m", "pt": "A sério? E vocês, o que fizeram?", "de": "Echt? Und was habt ihr gemacht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O capitão decidiu voltar ao porto. A Ana estava toda enjoada, coitada.", "de": "Der Kapitän beschloss, in den Hafen zurückzufahren. Ana war ganz seekrank, die Arme."},
+     {"sprecher": "João", "stimme": "m", "pt": "Mas chegaram bem, não?", "de": "Aber ihr seid gut angekommen, oder?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Chegámos, sim. Por fim, jantámos no porto e rimo-nos de tudo. De facto, foi uma aventura!", "de": "Ja, sind wir. Zum Schluss haben wir am Hafen gegessen und über alles gelacht. Es war tatsächlich ein Abenteuer!"}
+    ],
+    "fragen": [
+     {"frage": "Como estava o tempo ao princípio?", "optionen": ["Chovia muito.", "Fazia sol e o mar estava calmo.", "Havia muito vento."], "richtig": 1},
+     {"frage": "O que aconteceu a meio da tarde?", "optionen": ["O vento mudou e apareceram ondas.", "O barco avariou.", "A Ana caiu à água."], "richtig": 0},
+     {"frage": "Como acabou o dia?", "optionen": ["Ficaram no barco a noite toda.", "Foram ao hospital.", "Jantaram no porto e riram-se de tudo."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Conta-me a história toda!", "de": "Erzähl mir die ganze Geschichte!"},
+     {"pt": "Ao princípio, estava tudo perfeito.", "de": "Anfangs war alles perfekt."},
+     {"pt": "Estávamos a jantar quando o telefone tocou.", "de": "Wir aßen gerade zu Abend, als das Telefon klingelte."},
+     {"pt": "Contou-nos tudo com muito pormenor.", "de": "Er hat uns alles sehr ausführlich erzählt."},
+     {"pt": "De facto, foi uma aventura!", "de": "Es war tatsächlich ein Abenteuer!"}
+    ]
+   },
+   "saetze": [
+    {"id": "conta-me-historia-toda", "pt": "Conta-me a história toda!", "de": "Erzähl mir die ganze Geschichte!"},
+    {"id": "ao-principio-estava-tudo-perfeito", "pt": "Ao princípio, estava tudo perfeito.", "de": "Anfangs war alles perfekt."},
+    {"id": "estavamos-a-jantar-quando", "pt": "Estávamos a jantar quando o telefone tocou.", "de": "Wir aßen gerade zu Abend, als das Telefon klingelte."}
+   ]
+  },
+  {
+   "id": "B1-08-L02",
+   "typ": "neu",
+   "titel": "Ausgesperrt! Das Plusquamperfekt (tinha feito)",
+   "vokabeln": ["descobrir", "deixar-cair", "trancar", "ficar-trancado-fora-de-casa", "ate-entao", "pela-primeira-vez", "a-desculpa", "o-susto", "a-chave-suplente"],
+   "grammatik": {
+    "titel": "O pretérito mais-que-perfeito composto",
+    "erklaerung": [
+     "O <b>mais-que-perfeito</b> fala de uma ação que aconteceu <b>antes</b> de outra ação no passado: <i>Quando cheguei a casa, percebi que <b>tinha deixado</b> as chaves no escritório.</i>",
+     "Formação: <b>ter</b> no imperfeito + <b>particípio passado</b>: <i>eu tinha falado, tu tinhas comido, ele tinha saído, nós tínhamos visto, eles tinham feito</i>. Na escrita formal também se usa <i>haver</i>: <i>ele havia dito</i>.",
+     "Particípios irregulares que já conhece: <i>feito, dito, visto, escrito, posto, vindo, aberto, descoberto</i>. O particípio não muda. O pronome fica junto de <i>ter</i>: <i>Tinha-<b>me</b> esquecido.</i> · <i>Já <b>o</b> tinha visto.</i>",
+     "Nos livros e nas lendas aparece também a forma simples: <i>fizera, dissera, chegara</i> (= tinha feito, tinha dito, tinha chegado). Basta reconhecê-la."
+    ],
+    "erklaerung_de": [
+     "Das <b>Mais-que-perfeito</b> (Plusquamperfekt) beschreibt eine Handlung, die <b>vor</b> einer anderen vergangenen Handlung geschah: <i>Quando cheguei a casa, percebi que <b>tinha deixado</b> as chaves no escritório.</i> – Als ich nach Hause kam, merkte ich, dass ich die Schlüssel im Büro gelassen hatte.",
+     "Bildung: <b>ter</b> im Imperfeito + <b>Partizip</b>: <i>eu tinha falado, tu tinhas comido, ele tinha saído, nós tínhamos visto, eles tinham feito</i>. In formellen Texten auch mit <i>haver</i>: <i>ele havia dito</i>.",
+     "Unregelmäßige Partizipien, die du schon kennst: <i>feito, dito, visto, escrito, posto, vindo, aberto, descoberto</i>. Das Partizip bleibt unverändert. Das Pronomen steht beim Hilfsverb <i>ter</i>: <i>Tinha-<b>me</b> esquecido.</i> (Ich hatte es vergessen.) · <i>Já <b>o</b> tinha visto.</i> (Ich hatte ihn schon gesehen.)",
+     "In Büchern und Legenden gibt es auch die einfache Form: <i>fizera, dissera, chegara</i> (= tinha feito, tinha dito, tinha chegado). Es reicht, sie zu erkennen."
+    ],
+    "vergleich": "Wie das deutsche Plusquamperfekt („ich hatte vergessen“) und das englische Past Perfect („I had forgotten“) – aber im Portugiesischen immer mit <i>ter</i>, auch bei Bewegungsverben: <i>tinha saído</i> = „war gegangen“, <i>tinha chegado</i> = „war angekommen“.",
+    "beispiele": [
+     {"pt": "Quando cheguei à porta, percebi que tinha deixado as chaves lá dentro.", "de": "Als ich an der Tür ankam, merkte ich, dass ich die Schlüssel drinnen gelassen hatte."},
+     {"pt": "Até então, nunca tinha ficado trancado fora de casa.", "de": "Bis dahin hatte ich mich noch nie ausgesperrt."},
+     {"pt": "O João já tinha saído, mas a Ana tinha uma chave suplente.", "de": "João war schon gegangen, aber Ana hatte einen Ersatzschlüssel."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quando cheguei à estação, o comboio já ___. (partir)", "loesungen": ["tinha partido"], "de": "Als ich am Bahnhof ankam, war der Zug schon abgefahren.", "erklaerung": "ter im Imperfeito + Partizip – auch bei „abfahren“ (dt. „war“).", "kategorie": "Mais-que-perfeito"},
+     {"typ": "luecke", "satz": "Nós nunca ___ uma coisa assim. (ver)", "loesungen": ["tínhamos visto"], "de": "Wir hatten so etwas noch nie gesehen.", "erklaerung": "tínhamos (mit Akzent) + unregelmäßiges Partizip visto.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "luecke", "satz": "Percebi que me ___ das chaves. (esquecer)", "loesungen": ["tinha esquecido"], "de": "Ich merkte, dass ich die Schlüssel vergessen hatte.", "erklaerung": "Nach „que“ steht das Pronomen vor dem Hilfsverb: que me tinha esquecido.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "auswahl", "frage": "„Ich hatte die Tür nicht abgeschlossen.“", "optionen": ["Não tranquei a porta.", "Não tinha trancado a porta.", "Não tinha trancada a porta."], "richtig": 1, "erklaerung": "Das Partizip nach ter bleibt immer auf -o: tinha trancado.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "auswahl", "frage": "„Ich hatte ihn schon gesehen.“", "optionen": ["Já tinha-o visto.", "Já o tinha visto.", "Já tinha visto-o."], "richtig": 1, "erklaerung": "„já“ zieht das Pronomen vor das Hilfsverb: Já o tinha visto.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "Was bedeutet „Ele dissera a verdade.“?", "optionen": ["Er sagt die Wahrheit.", "Er hatte die Wahrheit gesagt.", "Er würde die Wahrheit sagen."], "richtig": 1, "erklaerung": "dissera = einfaches Mais-que-perfeito (literarisch) = tinha dito.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "uebersetzen", "de": "Bis dahin hatte ich nie am Telefon Portugiesisch gesprochen.", "loesungen": ["Até então, nunca tinha falado português ao telefone.", "Até então nunca tinha falado português ao telefone.", "Até então, eu nunca tinha falado português ao telefone.", "Até aí, nunca tinha falado português ao telefone.", "Até então, nunca tinha falado ao telefone em português."], "kategorie": "Mais-que-perfeito"},
+     {"typ": "satzbau", "de": "Als ich nach Hause kam, war Ana schon gegangen.", "loesung": "Quando cheguei a casa, a Ana já tinha saído."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Fiquei trancado fora de casa! – Ausgesperrt!",
+    "situation": "Stefan ruft spätabends seinen Nachbarn João an.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "João, desculpa ligar a esta hora. Fiquei trancado fora de casa!", "de": "João, entschuldige, dass ich so spät anrufe. Ich habe mich ausgesperrt!"},
+     {"sprecher": "João", "stimme": "m", "pt": "Outra vez? O que aconteceu?", "de": "Schon wieder? Was ist passiert?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Fui jantar com uns clientes. Quando cheguei à porta, percebi que tinha deixado as chaves no escritório.", "de": "Ich war mit Kunden essen. Als ich an der Tür ankam, merkte ich, dass ich die Schlüssel im Büro gelassen hatte."},
+     {"sprecher": "João", "stimme": "m", "pt": "E a Ana? Não está em casa?", "de": "Und Ana? Ist sie nicht zu Hause?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não. Tinha ido a Lisboa visitar uma amiga e só volta amanhã.", "de": "Nein. Sie war nach Lissabon gefahren, um eine Freundin zu besuchen, und kommt erst morgen zurück."},
+     {"sprecher": "João", "stimme": "m", "pt": "Que susto deves ter apanhado! Olha, eu ainda tenho a vossa chave suplente.", "de": "Da hast du sicher einen Schreck bekommen! Schau, ich habe noch euren Ersatzschlüssel."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Já me tinha esquecido disso!", "de": "Echt? Das hatte ich ganz vergessen!"},
+     {"sprecher": "João", "stimme": "m", "pt": "Espera aí, vou já ter contigo.", "de": "Warte, ich komme gleich zu dir."}
+    ],
+    "fragen": [
+     {"frage": "Onde estavam as chaves do Stefan?", "optionen": ["No escritório.", "No carro.", "No restaurante."], "richtig": 0},
+     {"frage": "Porque é que a Ana não pode abrir a porta?", "optionen": ["Porque está a dormir.", "Porque tinha ido a Lisboa.", "Porque também perdeu as chaves."], "richtig": 1},
+     {"frage": "Como se resolve o problema?", "optionen": ["Chamam um serralheiro.", "O Stefan dorme num hotel.", "O João tem uma chave suplente."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Chegou atrasado ao escritório. Explique à sua colega porquê. – Du bist zu spät ins Büro gekommen. Erklär deiner Kollegin, warum.",
+    "zeilen": [
+     {"sprecher": "Colega", "stimme": "f", "pt": "Bom dia! Chegaste tarde hoje. O que se passou?", "de": "Guten Morgen! Du bist heute spät dran. Was ist passiert?"},
+     {"ich": true, "aufgabe": "Diga que, quando chegou à estação, o comboio já tinha partido. – Sag, dass der Zug schon abgefahren war, als du am Bahnhof ankamst.", "loesungen": ["Quando cheguei à estação, o comboio já tinha partido.", "Quando cheguei à estação, o comboio já tinha saído.", "Quando eu cheguei à estação, o comboio já tinha partido.", "O comboio já tinha partido quando cheguei à estação."]},
+     {"sprecher": "Colega", "stimme": "f", "pt": "Que azar! E não havia outro?", "de": "So ein Pech! Und gab es keinen anderen?"},
+     {"ich": true, "aufgabe": "Diga que o seguinte só saía meia hora depois. – Sag, dass der nächste erst eine halbe Stunde später fuhr.", "loesungen": ["O seguinte só saía meia hora depois.", "O próximo só saía meia hora depois.", "O seguinte só partia meia hora depois.", "O comboio seguinte só saía meia hora depois."]},
+     {"sprecher": "Colega", "stimme": "f", "pt": "Bem, o importante é que chegaste. A reunião ainda não começou.", "de": "Na ja, Hauptsache, du bist da. Das Meeting hat noch nicht angefangen."},
+     {"ich": true, "aufgabe": "Diga que pensava que já tinha começado. – Sag, dass du dachtest, es habe schon angefangen.", "loesungen": ["Pensava que já tinha começado.", "Eu pensava que já tinha começado.", "Achava que já tinha começado.", "Pensei que já tinha começado."]}
+    ]
+   },
+   "saetze": [
+    {"id": "tinha-deixado-as-chaves", "pt": "Percebi que tinha deixado as chaves no escritório.", "de": "Ich merkte, dass ich die Schlüssel im Büro gelassen hatte."},
+    {"id": "comboio-ja-tinha-partido", "pt": "Quando cheguei, o comboio já tinha partido.", "de": "Als ich ankam, war der Zug schon abgefahren."},
+    {"id": "ja-me-tinha-esquecido", "pt": "Já me tinha esquecido disso!", "de": "Das hatte ich ganz vergessen!"}
+   ]
+  },
+  {
+   "id": "B1-08-L03",
+   "typ": "neu",
+   "titel": "Er sagte, er sei müde: indirekte Rede (Präsens → Imperfeito)",
+   "vokabeln": ["afirmar", "avisar", "admitir", "acrescentar", "confessar", "mencionar", "nesse-dia", "segundo-ele", "repetir"],
+   "grammatik": {
+    "titel": "O discurso indireto (1): presente → imperfeito",
+    "erklaerung": [
+     "No <b>discurso direto</b> repetimos as palavras exatas: <i>O João disse: «Estou cansado.»</i> No <b>discurso indireto</b> contamos o que a pessoa disse: <i>O João disse que <b>estava</b> cansado.</i>",
+     "Se o verbo introdutor está no passado (<i>disse, explicou, admitiu, avisou</i>), o <b>presente</b> passa para o <b>imperfeito</b>: <i>«Tenho fome.» → Disse que tinha fome.</i> · <i>«Estou a trabalhar.» → Disse que estava a trabalhar.</i>",
+     "Mudam também as pessoas e os possessivos: <i>«<b>Eu</b> não gosto do <b>meu</b> trabalho.» → Ela disse que não gostava do trabalho <b>dela</b>.</i> E os lugares e o tempo: <i>aqui → ali / lá, hoje → nesse dia / naquele dia, agora → nessa altura, este → aquele</i>.",
+     "Se o verbo introdutor está no presente (<i>diz que</i>), o tempo não muda: <i>O João diz que está cansado.</i> A palavra <b>que</b> é obrigatória, e o pronome vem antes do verbo: <i>Disse que <b>me</b> ligava.</i>"
+    ],
+    "erklaerung_de": [
+     "In der <b>direkten Rede</b> wiederholt man die genauen Worte: <i>O João disse: «Estou cansado.»</i> In der <b>indirekten Rede</b> erzählt man, was jemand gesagt hat: <i>O João disse que <b>estava</b> cansado.</i> – João sagte, er sei müde.",
+     "Steht das einleitende Verb in der Vergangenheit (<i>disse, explicou, admitiu, avisou</i>), wird das <b>Präsens</b> zum <b>Imperfeito</b>: <i>«Tenho fome.» → Disse que tinha fome.</i> · <i>«Estou a trabalhar.» → Disse que estava a trabalhar.</i>",
+     "Auch Personen und Possessivpronomen ändern sich: <i>«<b>Eu</b> não gosto do <b>meu</b> trabalho.» → Ela disse que não gostava do trabalho <b>dela</b>.</i> Ebenso Orts- und Zeitangaben: <i>aqui → ali / lá, hoje → nesse dia / naquele dia, agora → nessa altura, este → aquele</i>.",
+     "Steht das einleitende Verb im Präsens (<i>diz que</i>), bleibt die Zeit gleich: <i>O João diz que está cansado.</i> Das Wort <b>que</b> ist Pflicht (im Deutschen kann „dass“ wegfallen), und das Pronomen steht vor dem Verb: <i>Disse que <b>me</b> ligava.</i>"
+    ],
+    "vergleich": "Im Deutschen steht in der indirekten Rede oft der Konjunktiv I („Er sagte, er sei müde“), umgangssprachlich auch der Indikativ („…, dass er müde ist“). Das Portugiesische kennt dafür keinen Konjunktiv, sondern verschiebt die Zeit – wie das Englische: „He said he was tired“ = <i>Disse que estava cansado.</i>",
+    "beispiele": [
+     {"pt": "O João disse que estava cansado e que ia para casa.", "de": "João sagte, er sei müde und gehe nach Hause."},
+     {"pt": "A Ana avisou que nesse dia não podia jantar connosco.", "de": "Ana sagte Bescheid, dass sie an diesem Tag nicht mit uns essen könne."},
+     {"pt": "Ele admitiu que não percebia nada de vinhos.", "de": "Er gab zu, dass er nichts von Wein verstehe."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "«Estou cansado.» → O João disse que ___ cansado.", "loesungen": ["estava"], "de": "João sagte, er sei müde.", "erklaerung": "Präsens → Imperfeito: estou → estava.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Tenho uma reunião.» → A Ana disse que ___ uma reunião.", "loesungen": ["tinha"], "de": "Ana sagte, sie habe ein Meeting.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Gosto muito de morar aqui.» → Ele disse que gostava muito de morar ___.", "loesungen": ["ali", "lá"], "de": "Er sagte, er wohne sehr gern dort.", "erklaerung": "Ortsangabe verschiebt sich: aqui → ali / lá.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Hoje não posso.» → Ela disse que ___ não podia.", "loesungen": ["nesse dia", "naquele dia"], "de": "Sie sagte, an diesem Tag könne sie nicht.", "erklaerung": "Zeitangabe verschiebt sich: hoje → nesse dia / naquele dia.", "kategorie": "Indirekte Rede"},
+     {"typ": "auswahl", "frage": "«Não gosto do meu trabalho», disse a Rita. → A Rita disse que …", "optionen": ["… não gosta do meu trabalho.", "… não gostava do trabalho dela.", "… não gostava do meu trabalho."], "richtig": 1, "erklaerung": "Zeit (gosto → gostava) und Possessiv (meu → dela) ändern sich.", "kategorie": "Indirekte Rede"},
+     {"typ": "auswahl", "frage": "O João diz: «Estou com pressa.» Was ist richtig?", "optionen": ["O João diz que estava com pressa.", "O João diz que está com pressa.", "O João diz que esteve com pressa."], "richtig": 1, "erklaerung": "Einleitendes Verb im Präsens (diz) → keine Zeitverschiebung.", "kategorie": "Indirekte Rede"},
+     {"typ": "uebersetzen", "de": "Er gab zu, dass er nichts verstand.", "loesungen": ["Admitiu que não percebia nada.", "Ele admitiu que não percebia nada.", "Admitiu que não entendia nada.", "Ele admitiu que não entendia nada."], "kategorie": "Indirekte Rede"},
+     {"typ": "satzbau", "de": "Ana sagte, sie arbeite gerade.", "loesung": "A Ana disse que estava a trabalhar."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Quem era ao telefone? – Wer war am Telefon?",
+    "situation": "Ana hat gerade mit ihrer Freundin Rita telefoniert und erzählt Stefan davon.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quem era ao telefone?", "de": "Wer war am Telefon?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Era a Rita. Disse que estava em Faro e que não podia vir ao jantar.", "de": "Das war Rita. Sie sagte, sie sei in Faro und könne nicht zum Abendessen kommen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que pena! E disse porquê?", "de": "Schade! Hat sie gesagt, warum?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Explicou que a mãe dela estava doente e que precisava de ajuda.", "de": "Sie erklärte, ihre Mutter sei krank und brauche Hilfe."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Coitada. E o Pedro? Vem ou não?", "de": "Die Arme. Und Pedro? Kommt er oder nicht?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ela disse que o Pedro andava muito ocupado, mas acrescentou que ele tinha saudades nossas.", "de": "Sie sagte, Pedro sei sehr beschäftigt, fügte aber hinzu, dass er uns vermisse."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então liga-lhe no fim de semana e combinamos outro dia.", "de": "Dann ruf sie am Wochenende an und wir machen einen anderen Tag aus."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Boa ideia. Ela também disse que queria muito conhecer a nossa varanda nova.", "de": "Gute Idee. Sie sagte auch, sie wolle unbedingt unseren neuen Balkon sehen."}
+    ],
+    "fragen": [
+     {"frage": "Onde estava a Rita?", "optionen": ["Em Lagos.", "Em Lisboa.", "Em Faro."], "richtig": 2},
+     {"frage": "Porque é que a Rita não pode vir ao jantar?", "optionen": ["Porque a mãe dela estava doente.", "Porque tinha de trabalhar.", "Porque estava zangada."], "richtig": 0},
+     {"frage": "O que disse a Rita sobre o Pedro?", "optionen": ["Que estava doente.", "Que andava ocupado, mas tinha saudades deles.", "Que já não queria vir."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português, em discurso indireto. – Schreib auf Portugiesisch, in indirekter Rede.",
+    "aufgaben": [
+     {"de": "Er sagte, er sei müde.", "loesungen": ["Ele disse que estava cansado.", "Disse que estava cansado."]},
+     {"de": "Sie sagte, an diesem Tag könne sie nicht.", "loesungen": ["Ela disse que nesse dia não podia.", "Disse que nesse dia não podia.", "Ela disse que naquele dia não podia.", "Disse que naquele dia não podia.", "Ela disse que não podia nesse dia.", "Disse que não podia nesse dia.", "Ela disse que não podia naquele dia.", "Disse que não podia naquele dia."]},
+     {"de": "Er gab zu, dass er Angst hatte.", "loesungen": ["Ele admitiu que tinha medo.", "Admitiu que tinha medo."]},
+     {"de": "Pedro hat mir Bescheid gesagt, dass er spät kommt.", "loesungen": ["O Pedro avisou-me que chegava tarde.", "O Pedro avisou-me de que chegava tarde.", "O Pedro avisou-me que ia chegar tarde.", "O Pedro avisou-me de que ia chegar tarde.", "O Pedro avisou-me que vinha tarde.", "O Pedro avisou-me que ia chegar atrasado."]},
+     {"de": "Laut ihr war das Restaurant geschlossen.", "loesungen": ["Segundo ela, o restaurante estava fechado.", "Segundo ela o restaurante estava fechado."]}
+    ]
+   },
+   "saetze": [
+    {"id": "disse-que-estava-cansado", "pt": "Ele disse que estava cansado.", "de": "Er sagte, er sei müde."},
+    {"id": "nesse-dia-nao-podia", "pt": "Ela disse que nesse dia não podia.", "de": "Sie sagte, an diesem Tag könne sie nicht."},
+    {"id": "segundo-ele-reuniao", "pt": "Segundo ele, a reunião era às três.", "de": "Laut ihm war das Meeting um drei."}
+   ]
+  },
+  {
+   "id": "B1-08-L04",
+   "typ": "neu",
+   "titel": "Neuigkeiten und Klatsch: indirekte Rede (Perfeito → Mais-que-perfeito)",
+   "vokabeln": ["a-novidade", "pelos-vistos", "ao-que-parece", "ficar-noivo", "despedir-se", "ser-despedido", "o-mexerico", "surpreendido", "contaram-me-que"],
+   "grammatik": {
+    "titel": "O discurso indireto (2): perfeito → mais-que-perfeito",
+    "erklaerung": [
+     "Quando alguém conta uma coisa que <b>já aconteceu</b>, o pretérito perfeito passa para o <b>mais-que-perfeito</b>: <i>«Mudei de emprego.» → A Rita disse que <b>tinha mudado</b> de emprego.</i>",
+     "O imperfeito e o mais-que-perfeito <b>não mudam</b>: <i>«Era muito caro.» → Disse que era muito caro.</i> · <i>«Já tinha visto o filme.» → Disse que já tinha visto o filme.</i>",
+     "As indicações de tempo mudam: <i>ontem → no dia anterior / na véspera</i>, <i>há dois dias → dois dias antes</i>, <i>a semana passada → na semana anterior</i>.",
+     "Para contar novidades sem dizer quem as contou: <i>Contaram-me que…, Ao que parece…, Pelos vistos…, Dizem que…</i> – muito úteis para os mexericos da vizinhança!"
+    ],
+    "erklaerung_de": [
+     "Erzählt jemand etwas, das <b>schon passiert ist</b>, wird das Perfeito zum <b>Mais-que-perfeito</b>: <i>«Mudei de emprego.» → A Rita disse que <b>tinha mudado</b> de emprego.</i> – Rita sagte, sie habe den Job gewechselt.",
+     "Imperfeito und Mais-que-perfeito <b>bleiben gleich</b>: <i>«Era muito caro.» → Disse que era muito caro.</i> · <i>«Já tinha visto o filme.» → Disse que já tinha visto o filme.</i>",
+     "Zeitangaben verschieben sich: <i>ontem → no dia anterior / na véspera</i> (gestern → am Tag davor), <i>há dois dias → dois dias antes</i> (vor zwei Tagen → zwei Tage vorher), <i>a semana passada → na semana anterior</i> (letzte Woche → in der Woche davor).",
+     "Um Neuigkeiten zu erzählen, ohne zu sagen, von wem sie stammen: <i>Contaram-me que…</i> (Man hat mir erzählt …), <i>Ao que parece…</i> (Wie es scheint …), <i>Pelos vistos…</i> (Anscheinend …), <i>Dizem que…</i> (Man sagt …) – sehr nützlich für den Nachbarschaftsklatsch!"
+    ],
+    "vergleich": "Deutsch: „Sie sagte, sie habe gekündigt / sie hätte gekündigt.“ Englisch: „She said she had quit.“ Das Portugiesische funktioniert wie das Englische: <i>Disse que se tinha despedido.</i> Nach <i>que</i> steht das Pronomen vor dem Hilfsverb.",
+    "beispiele": [
+     {"pt": "A Rita contou que se tinha despedido em março.", "de": "Rita erzählte, sie habe im März gekündigt."},
+     {"pt": "O João disse que o filho tinha ficado noivo no verão.", "de": "João sagte, sein Sohn habe sich im Sommer verlobt."},
+     {"pt": "Contaram-me que o restaurante da praça tinha mudado de dono.", "de": "Man hat mir erzählt, dass das Restaurant am Platz den Besitzer gewechselt habe."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "«Mudei de casa.» → O Pedro disse que ___ de casa.", "loesungen": ["tinha mudado"], "de": "Pedro sagte, er sei umgezogen.", "erklaerung": "Perfeito → Mais-que-perfeito: mudei → tinha mudado.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Vi o filme ontem.» → Ela disse que ___ o filme no dia anterior.", "loesungen": ["tinha visto"], "de": "Sie sagte, sie habe den Film am Tag davor gesehen.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Ontem choveu muito.» → Disse que ___ tinha chovido muito.", "loesungen": ["no dia anterior", "na véspera"], "de": "Er sagte, am Tag davor habe es viel geregnet.", "erklaerung": "ontem → no dia anterior / na véspera.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Despedi-me.» → A Rita contou que se ___.", "loesungen": ["tinha despedido"], "de": "Rita erzählte, sie habe gekündigt.", "erklaerung": "Nach „que“ wandert das Pronomen vor das Hilfsverb: que se tinha despedido.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "«Era muito caro.» → Ele disse que …", "optionen": ["… foi muito caro.", "… era muito caro.", "… tinha sido muito caro."], "richtig": 1, "erklaerung": "Das Imperfeito bleibt in der indirekten Rede unverändert.", "kategorie": "Indirekte Rede"},
+     {"typ": "auswahl", "frage": "„Sie sagte, sie habe sich verlobt.“", "optionen": ["Disse que tinha ficado noiva.", "Disse que fica noiva.", "Disse que ficaria noiva."], "richtig": 0, "kategorie": "Indirekte Rede"},
+     {"typ": "uebersetzen", "de": "Anscheinend hat Pedro gekündigt.", "loesungen": ["Pelos vistos, o Pedro despediu-se.", "Pelos vistos o Pedro despediu-se.", "Ao que parece, o Pedro despediu-se.", "Pelos vistos, o Pedro despediu-se do emprego.", "Ao que parece, o Pedro despediu-se do emprego.", "Pelos vistos, o Pedro demitiu-se."], "kategorie": "Indirekte Rede"},
+     {"typ": "satzbau", "de": "Man hat mir erzählt, dass das Café zugemacht hatte.", "loesung": "Contaram-me que o café tinha fechado."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Novidades do mercado – Neuigkeiten vom Markt",
+    "situation": "Ana kommt vom Markt zurück, wo sie die Nachbarin Dona Lurdes getroffen hat.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Tenho novidades! Encontrei a Dona Lurdes no mercado.", "de": "Ich habe Neuigkeiten! Ich habe Dona Lurdes auf dem Markt getroffen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ui, então vens cheia de mexericos!", "de": "Oh, dann kommst du voller Klatsch!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Alguns! Ela contou que a filha tinha ficado noiva de um rapaz de Tavira.", "de": "Ein bisschen! Sie erzählte, ihre Tochter habe sich mit einem jungen Mann aus Tavira verlobt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que bom! E que mais?", "de": "Wie schön! Und was noch?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Disse que o café da esquina tinha fechado na semana anterior. Pelos vistos, o dono reformou-se.", "de": "Sie sagte, das Café an der Ecke habe in der Woche davor zugemacht. Anscheinend ist der Besitzer in Rente gegangen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Fico surpreendido, estava sempre cheio.", "de": "Echt? Das überrascht mich, es war immer voll."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E ainda me disse que tinha visto o Pedro com um carro novo.", "de": "Und sie hat mir noch erzählt, sie habe Pedro mit einem neuen Auto gesehen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ao que parece, o negócio dele está a correr bem!", "de": "Wie es scheint, läuft sein Geschäft gut!"}
+    ],
+    "fragen": [
+     {"frage": "Onde encontrou a Ana a Dona Lurdes?", "optionen": ["No mercado.", "No café da esquina.", "Em Tavira."], "richtig": 0},
+     {"frage": "Porque fechou o café da esquina?", "optionen": ["Porque não tinha clientes.", "Porque o dono se reformou.", "Porque mudou de dono."], "richtig": 1},
+     {"frage": "O que viu a Dona Lurdes?", "optionen": ["A filha com um rapaz de Tavira.", "O Stefan no mercado.", "O Pedro com um carro novo."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Tenho uma novidade!", "de": "Ich habe eine Neuigkeit!"},
+     {"pt": "A Rita disse que se tinha despedido.", "de": "Rita sagte, sie habe gekündigt."},
+     {"pt": "Pelos vistos, o Pedro já sabia de tudo.", "de": "Anscheinend wusste Pedro schon alles."},
+     {"pt": "Contaram-me que o café tinha fechado.", "de": "Man hat mir erzählt, dass das Café zugemacht habe."},
+     {"pt": "Fiquei muito surpreendido com a notícia.", "de": "Die Nachricht hat mich sehr überrascht."}
+    ]
+   },
+   "saetze": [
+    {"id": "tenho-uma-novidade", "pt": "Tenho uma novidade!", "de": "Ich habe eine Neuigkeit!"},
+    {"id": "disse-que-se-tinha-despedido", "pt": "A Rita disse que se tinha despedido.", "de": "Rita sagte, sie habe gekündigt."},
+    {"id": "contaram-me-que-tinha-fechado", "pt": "Contaram-me que o café tinha fechado.", "de": "Man hat mir erzählt, dass das Café zugemacht habe."}
+   ]
+  },
+  {
+   "id": "B1-08-L05",
+   "typ": "neu",
+   "titel": "Versprochen ist versprochen: indirekte Rede (Futur → Konditional)",
+   "vokabeln": ["a-promessa", "cumprir-a-palavra", "faltar-a-palavra", "comprometer-se-a", "na-vespera", "no-dia-anterior", "dali-a", "sem-duvida"],
+   "grammatik": {
+    "titel": "O discurso indireto (3): futuro → condicional",
+    "erklaerung": [
+     "Promessas e planos: o <b>futuro</b> (ou <i>ir</i> + infinitivo) passa para o <b>condicional</b> ou para <i>ia</i> + infinitivo: <i>«Virei amanhã.» → Disse que <b>viria</b> no dia seguinte.</i> · <i>«Vou ligar.» → Disse que <b>ia</b> ligar.</i>",
+     "Na conversa, os portugueses usam muitas vezes o <b>imperfeito</b> no lugar do condicional: <i>Disse que <b>vinha</b> no dia seguinte.</i> · <i>Prometeu que <b>ligava</b>.</i> As três formas estão corretas.",
+     "O tempo também muda: <i>amanhã → no dia seguinte</i>, <i>ontem → na véspera / no dia anterior</i>, <i>daqui a uma semana → dali a uma semana</i>, <i>para a semana → na semana seguinte</i>. Quando o lugar muda, mudam também <i>vir → ir</i> e <i>trazer → levar</i>.",
+     "Depois de <i>que</i>, o pronome fica antes do verbo: <i>Prometeu que <b>me</b> ligaria.</i> · <i>Disse que <b>nos</b> enviava o orçamento.</i>"
+    ],
+    "erklaerung_de": [
+     "Versprechen und Pläne: Das <b>Futur</b> (oder <i>ir</i> + Infinitiv) wird zum <b>Konditional</b> oder zu <i>ia</i> + Infinitiv: <i>«Virei amanhã.» → Disse que <b>viria</b> no dia seguinte.</i> – Er sagte, er würde am nächsten Tag kommen. · <i>«Vou ligar.» → Disse que <b>ia</b> ligar.</i> – Er sagte, er würde anrufen.",
+     "Im Gespräch verwenden Portugiesen statt des Konditionals sehr oft das <b>Imperfeito</b>: <i>Disse que <b>vinha</b> no dia seguinte.</i> · <i>Prometeu que <b>ligava</b>.</i> Alle drei Formen sind richtig.",
+     "Auch die Zeitangaben ändern sich: <i>amanhã → no dia seguinte</i> (morgen → am nächsten Tag), <i>ontem → na véspera / no dia anterior</i> (gestern → am Vortag), <i>daqui a uma semana → dali a uma semana</i> (in einer Woche → eine Woche später), <i>para a semana → na semana seguinte</i>. Wenn sich der Ort ändert, werden auch <i>vir → ir</i> und <i>trazer → levar</i>.",
+     "Nach <i>que</i> steht das Pronomen vor dem Verb: <i>Prometeu que <b>me</b> ligaria.</i> – Er versprach, mich anzurufen. · <i>Disse que <b>nos</b> enviava o orçamento.</i> – Er sagte, er würde uns den Kostenvoranschlag schicken."
+    ],
+    "vergleich": "Deutsch: „Er sagte, er würde morgen kommen / er komme am nächsten Tag.“ Englisch: „He said he would come the next day.“ = <i>Disse que viria no dia seguinte.</i> Das portugiesische Imperfeito als „würde“-Ersatz (<i>disse que vinha</i>) hat im Deutschen keine Entsprechung – es ist aber die häufigste Form im Alltag.",
+    "beispiele": [
+     {"pt": "O empreiteiro prometeu que viria na segunda-feira.", "de": "Der Bauunternehmer versprach, am Montag zu kommen."},
+     {"pt": "O canalizador disse que vinha no dia seguinte, mas faltou à palavra.", "de": "Der Installateur sagte, er komme am nächsten Tag, aber er hielt sein Wort nicht."},
+     {"pt": "A Ana garantiu que voltava dali a uma semana.", "de": "Ana versicherte, sie komme eine Woche später zurück."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "«Virei amanhã.» → Ele disse que ___ no dia seguinte. (vir)", "loesungen": ["viria", "vinha"], "de": "Er sagte, er würde am nächsten Tag kommen.", "erklaerung": "Futur → Konditional (viria) oder, im Alltag, Imperfeito (vinha).", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Vou ligar-te.» → Prometeu que me ___ ligar.", "loesungen": ["ia"], "de": "Er versprach, mich anzurufen.", "erklaerung": "vou + Infinitiv → ia + Infinitiv.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Amanhã acabo a obra.» → Disse que acabava a obra ___.", "loesungen": ["no dia seguinte"], "de": "Er sagte, er würde den Bau am nächsten Tag abschließen.", "erklaerung": "amanhã → no dia seguinte.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Farei tudo para ajudar.» → Disse que ___ tudo para ajudar. (fazer, Konditional)", "loesungen": ["faria"], "de": "Er sagte, er würde alles tun, um zu helfen.", "erklaerung": "fazer → faria (wie farei: unregelmäßiger Stamm far-).", "kategorie": "Konditional"},
+     {"typ": "auswahl", "frage": "„Er versprach, eine Woche später zurückzukommen.“", "optionen": ["Prometeu que voltava daqui a uma semana.", "Prometeu que voltava dali a uma semana.", "Prometeu que voltará dali a uma semana."], "richtig": 1, "erklaerung": "Von damals aus gesehen: daqui a → dali a; Futur → Imperfeito/Konditional.", "kategorie": "Indirekte Rede"},
+     {"typ": "auswahl", "frage": "Welche Form hört man im Alltag am häufigsten? „Er sagte, er würde anrufen.“", "optionen": ["Disse que ligará.", "Disse que ligava.", "Disse que ligue."], "richtig": 1, "erklaerung": "Im gesprochenen pt-PT ersetzt das Imperfeito oft das Konditional: disse que ligava (= ligaria).", "kategorie": "Indirekte Rede"},
+     {"typ": "uebersetzen", "de": "Er hat sein Wort nicht gehalten.", "loesungen": ["Não cumpriu a palavra.", "Ele não cumpriu a palavra.", "Não cumpriu a sua palavra.", "Ele não cumpriu a sua palavra.", "Faltou à palavra.", "Ele faltou à palavra.", "Não cumpriu a promessa.", "Ele não cumpriu a promessa."], "kategorie": "Wortschatz"},
+     {"typ": "satzbau", "de": "Sie sagte, sie würde am nächsten Tag kommen.", "loesung": "Ela disse que viria no dia seguinte."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Promessas, promessas… – Versprechen, nichts als Versprechen",
+    "situation": "Stefan erzählt seinem Freund Pedro vom Umbau seines Badezimmers.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então, a casa de banho nova já está pronta?", "de": "Na, ist das neue Badezimmer schon fertig?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Qual quê! O empreiteiro prometeu que a obra ficava pronta em maio.", "de": "Von wegen! Der Bauunternehmer hat versprochen, dass der Umbau im Mai fertig wird."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E não ficou?", "de": "Und, ist er es nicht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Na sexta, ligou-me. Disse que tinha tido um problema com outro cliente e que vinha na segunda-feira seguinte.", "de": "Am Freitag rief er mich an. Er sagte, er habe ein Problem mit einem anderen Kunden gehabt und komme am darauffolgenden Montag."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Deixa-me adivinhar: não veio.", "de": "Lass mich raten: Er ist nicht gekommen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Exatamente. Faltou outra vez à palavra. Já é a terceira promessa.", "de": "Genau. Er hat schon wieder sein Wort gebrochen. Das ist schon das dritte Versprechen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Olha, o meu primo é pedreiro e cumpre sempre a palavra. Queres o contacto dele?", "de": "Hör mal, mein Cousin ist Maurer und hält immer Wort. Willst du seine Nummer?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sem dúvida! Manda-me o número dele, por favor.", "de": "Auf jeden Fall! Schick mir bitte seine Nummer."}
+    ],
+    "fragen": [
+     {"frage": "Quando devia ficar pronta a obra?", "optionen": ["Em março.", "Em maio.", "Na sexta-feira."], "richtig": 1},
+     {"frage": "O que disse o empreiteiro ao telefone?", "optionen": ["Que tinha tido um problema e vinha na segunda.", "Que a obra já estava pronta.", "Que precisava de mais dinheiro."], "richtig": 0},
+     {"frage": "O que propõe o Pedro?", "optionen": ["Ligar ao empreiteiro.", "Fazer a obra ele mesmo.", "Dar o contacto do primo, que é pedreiro."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "A Ana pergunta pelo canalizador. Conte-lhe o que ele disse. – Ana fragt nach dem Installateur. Erzähl ihr, was er gesagt hat.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "E o canalizador? O que é que ele te disse na semana passada?", "de": "Und der Installateur? Was hat er dir letzte Woche gesagt?"},
+     {"ich": true, "aufgabe": "Diga que ele prometeu que viria no dia seguinte, mas não veio. – Sag, er habe versprochen, am nächsten Tag zu kommen, sei aber nicht gekommen.", "loesungen": ["Prometeu que viria no dia seguinte, mas não veio.", "Ele prometeu que viria no dia seguinte, mas não veio.", "Prometeu que vinha no dia seguinte, mas não veio.", "Ele prometeu que vinha no dia seguinte, mas não veio.", "Prometeu que ia vir no dia seguinte, mas não veio.", "Ele prometeu que ia vir no dia seguinte, mas não veio."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Outra vez? E o orçamento?", "de": "Schon wieder? Und der Kostenvoranschlag?"},
+     {"ich": true, "aufgabe": "Diga que ele disse que o enviava por e-mail. – Sag, er habe gesagt, er schicke ihn per E-Mail.", "loesungen": ["Disse que o enviava por e-mail.", "Ele disse que o enviava por e-mail.", "Disse que o enviaria por e-mail.", "Ele disse que o enviaria por e-mail.", "Disse que o ia enviar por e-mail.", "Ele disse que o ia enviar por e-mail.", "Disse que ia enviá-lo por e-mail.", "Ele disse que ia enviá-lo por e-mail.", "Disse que o mandava por e-mail.", "Ele disse que o mandava por e-mail."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Bem, esperemos que desta vez cumpra a palavra.", "de": "Na ja, hoffen wir, dass er diesmal Wort hält."},
+     {"ich": true, "aufgabe": "Diga: Wenn er nicht kommt, suche ich einen anderen.", "loesungen": ["Se ele não vier, procuro outro.", "Se não vier, procuro outro.", "Se ele não vier, vou procurar outro.", "Se não vier, vou procurar outro.", "Se ele não vier, procuro outro canalizador.", "Se não vier, procuro outro canalizador."]}
+    ]
+   },
+   "saetze": [
+    {"id": "prometeu-que-viria", "pt": "Prometeu que viria no dia seguinte.", "de": "Er versprach, am nächsten Tag zu kommen."},
+    {"id": "faltou-a-palavra-outra-vez", "pt": "Faltou outra vez à palavra.", "de": "Er hat schon wieder sein Wort gebrochen."},
+    {"id": "disse-que-ligava", "pt": "Disse que me ligava dali a uma semana.", "de": "Er sagte, er würde mich eine Woche später anrufen."}
+   ]
+  },
+  {
+   "id": "B1-08-L06",
+   "typ": "neu",
+   "titel": "Sie fragte, ob …: Fragen und Bitten in der indirekten Rede",
+   "vokabeln": ["perguntar-se", "querer-saber", "pedir-para", "mandar", "ordenar", "proibir", "implorar", "lembrar-alguem-de", "a-pressa"],
+   "grammatik": {
+    "titel": "Perguntas e pedidos no discurso indireto",
+    "erklaerung": [
+     "Perguntas de sim/não: <b>perguntar se</b>: <i>«Fala português?» → Perguntou-me <b>se</b> eu falava português.</i>",
+     "Perguntas com palavra interrogativa: a palavra fica, e a ordem é a de uma frase normal, sem <i>é que</i>: <i>«Onde mora?» → Quis saber <b>onde</b> eu morava.</i> · <i>«Quando é que chegam?» → Perguntou <b>quando</b> chegávamos.</i>",
+     "Pedidos e ordens (imperativo): <b>pedir / dizer que</b> + <b>imperfeito do conjuntivo</b>: <i>«Liga-me!» → Pediu-me que lhe <b>ligasse</b>.</i> Na conversa é muito frequente <b>pedir / dizer para</b> + infinitivo: <i>Pediu-me para lhe ligar.</i> · <i>Disse-me para esperar.</i>",
+     "Imperfeito do conjuntivo: forma <i>eles</i> do perfeito − <b>-ram</b> + <b>-sse</b>: <i>ligaram → ligasse, fizeram → fizesse, vieram → viesse, esperaram → esperasse</i>. Com <i>mandar</i> e <i>proibir</i> usa-se muitas vezes o infinitivo: <i>O médico mandou-me descansar.</i> · <i>Proibiu-me de sair.</i>"
+    ],
+    "erklaerung_de": [
+     "Ja/Nein-Fragen: <b>perguntar se</b> (fragen, ob): <i>«Fala português?» → Perguntou-me <b>se</b> eu falava português.</i> – Sie fragte mich, ob ich Portugiesisch spreche.",
+     "Fragen mit Fragewort: Das Fragewort bleibt, die Wortstellung ist die eines normalen Satzes, ohne <i>é que</i>: <i>«Onde mora?» → Quis saber <b>onde</b> eu morava.</i> – Er wollte wissen, wo ich wohne. · <i>«Quando é que chegam?» → Perguntou <b>quando</b> chegávamos.</i>",
+     "Bitten und Aufforderungen (Imperativ): <b>pedir / dizer que</b> + <b>Imperfeito do conjuntivo</b>: <i>«Liga-me!» → Pediu-me que lhe <b>ligasse</b>.</i> – Sie bat mich, sie anzurufen. Im Gespräch sehr häufig: <b>pedir / dizer para</b> + Infinitiv: <i>Pediu-me para lhe ligar.</i> · <i>Disse-me para esperar.</i> (Er sagte mir, ich solle warten.)",
+     "Imperfeito do conjuntivo: eles-Form des Perfeito − <b>-ram</b> + <b>-sse</b>: <i>ligaram → ligasse, fizeram → fizesse, vieram → viesse, esperaram → esperasse</i>. Bei <i>mandar</i> und <i>proibir</i> steht oft der Infinitiv: <i>O médico mandou-me descansar.</i> (Der Arzt verordnete mir Ruhe.) · <i>Proibiu-me de sair.</i> (Er verbot mir auszugehen.)"
+    ],
+    "vergleich": "Deutsch: „Sie fragte, ob ich Portugiesisch spreche“ / „Sie bat mich, sie anzurufen.“ Englisch: „She asked if I spoke …“ / „She asked me to call her.“ <i>Pedir para</i> + Infinitiv entspricht genau dem deutschen „bitten, … zu“. Achtung: <i>perguntar</i> = fragen (eine Frage stellen), <i>pedir</i> = bitten (um etwas).",
+    "beispiele": [
+     {"pt": "O senhorio perguntou se estávamos contentes com a casa.", "de": "Der Vermieter fragte, ob wir mit dem Haus zufrieden seien."},
+     {"pt": "A Ana pediu-me que comprasse pão.", "de": "Ana bat mich, Brot zu kaufen."},
+     {"pt": "O médico mandou-me descansar uma semana.", "de": "Der Arzt hat mir eine Woche Ruhe verordnet."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "«Está cansado?» → Ela perguntou ___ eu estava cansado.", "loesungen": ["se"], "de": "Sie fragte, ob ich müde sei.", "erklaerung": "Ja/Nein-Frage → perguntar se.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Onde trabalhas?» → Ele quis saber onde eu ___. (trabalhar)", "loesungen": ["trabalhava"], "de": "Er wollte wissen, wo ich arbeite.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Fecha a janela!» → Pediu-me que ___ a janela. (fechar)", "loesungen": ["fechasse"], "de": "Sie bat mich, das Fenster zu schließen.", "erklaerung": "Imperativ → pedir que + Imperfeito do conjuntivo: fecharam → fechasse.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "«Espere aqui!» → O funcionário disse-me que ___ ali. (esperar)", "loesungen": ["esperasse"], "de": "Der Beamte sagte mir, ich solle dort warten.", "erklaerung": "esperaram → esperasse; aqui → ali.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "«Podes ajudar-me?» → O João perguntou-me …", "optionen": ["… se eu podia ajudá-lo.", "… que eu podia ajudá-lo.", "… se eu posso ajudar-me."], "richtig": 0, "erklaerung": "Ja/Nein-Frage → se; posso → podia; me → o (ajudá-lo).", "kategorie": "Indirekte Rede"},
+     {"typ": "auswahl", "frage": "„Er bat mich zu warten.“ – Welcher Satz ist richtig?", "optionen": ["Pediu-me de esperar.", "Perguntou-me para esperar.", "Pediu-me para esperar."], "richtig": 2, "erklaerung": "bitten = pedir (nicht perguntar); pedir para + Infinitiv.", "kategorie": "pedir/perguntar"},
+     {"typ": "uebersetzen", "de": "Der Vermieter wollte wissen, wann wir ankommen würden.", "loesungen": ["O senhorio quis saber quando chegávamos.", "O senhorio quis saber quando chegaríamos.", "O senhorio quis saber quando íamos chegar.", "O senhorio quis saber quando é que chegávamos.", "O senhorio quis saber a que horas chegávamos."], "kategorie": "Indirekte Rede"},
+     {"typ": "satzbau", "de": "Ana hat mich gebeten, Brot zu kaufen.", "loesung": "A Ana pediu-me para comprar pão."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Recados no escritório – Nachrichten im Büro",
+    "situation": "Stefan kommt aus einem Meeting. Seine Assistentin Sofia gibt ihm die Anrufe weiter.",
+    "zeilen": [
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Stefan, enquanto estavas na reunião, ligaram três pessoas.", "de": "Stefan, während du im Meeting warst, haben drei Leute angerufen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quem foi?", "de": "Wer denn?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Primeiro, um senhor do banco. Perguntou se podias passar lá amanhã de manhã.", "de": "Zuerst ein Herr von der Bank. Er fragte, ob du morgen Vormittag vorbeikommen könntest."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Amanhã de manhã? Pode ser. E depois?", "de": "Morgen Vormittag? Das geht. Und dann?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Depois ligou a Ana. Pediu-te para comprares pão quando vieres para casa.", "de": "Dann hat Ana angerufen. Sie hat dich gebeten, Brot zu kaufen, wenn du nach Hause kommst."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. E a terceira chamada?", "de": "Alles klar. Und der dritte Anruf?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Era um cliente de Faro, muito à pressa. Quis saber se o relatório já estava pronto e pediu que lhe mandasses uma cópia hoje.", "de": "Das war ein Kunde aus Faro, sehr in Eile. Er wollte wissen, ob der Bericht schon fertig sei, und bat dich, ihm heute eine Kopie zu schicken."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ui! Então é melhor começar já.", "de": "Oh! Dann fange ich besser gleich an."}
+    ],
+    "fragen": [
+     {"frage": "O que perguntou o senhor do banco?", "optionen": ["Se o Stefan podia passar lá amanhã de manhã.", "Se o Stefan queria abrir uma conta.", "Onde morava o Stefan."], "richtig": 0},
+     {"frage": "O que pediu a Ana?", "optionen": ["Que ligasse à mãe dela.", "Que comprasse pão.", "Que chegasse cedo."], "richtig": 1},
+     {"frage": "O que quis saber o cliente de Faro?", "optionen": ["Quando era a reunião.", "Quanto custava o relatório.", "Se o relatório já estava pronto."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português, em discurso indireto. – Schreib auf Portugiesisch, in indirekter Rede.",
+    "aufgaben": [
+     {"de": "Sie fragte mich, ob ich Portugiesisch spreche.", "loesungen": ["Perguntou-me se eu falava português.", "Ela perguntou-me se eu falava português.", "Perguntou-me se falava português.", "Ela perguntou-me se falava português."]},
+     {"de": "Er wollte wissen, wo ich wohne.", "loesungen": ["Quis saber onde eu morava.", "Ele quis saber onde eu morava.", "Quis saber onde morava.", "Ele quis saber onde morava."]},
+     {"de": "Ana hat mich gebeten, sie anzurufen.", "loesungen": ["A Ana pediu-me para lhe ligar.", "A Ana pediu-me que lhe ligasse.", "A Ana pediu-me para lhe telefonar.", "A Ana pediu-me que lhe telefonasse."]},
+     {"de": "Der Arzt hat mir gesagt, ich soll mich ausruhen.", "loesungen": ["O médico mandou-me descansar.", "O médico disse-me para descansar.", "O médico disse-me que descansasse.", "O médico pediu-me para descansar."]},
+     {"de": "Er bat uns zu warten.", "loesungen": ["Pediu-nos para esperar.", "Ele pediu-nos para esperar.", "Pediu-nos que esperássemos.", "Ele pediu-nos que esperássemos.", "Pediu-nos para esperarmos.", "Ele pediu-nos para esperarmos."]}
+    ]
+   },
+   "saetze": [
+    {"id": "perguntou-se-eu-falava", "pt": "Perguntou-me se eu falava português.", "de": "Sie fragte mich, ob ich Portugiesisch spreche."},
+    {"id": "pediu-me-para-ligar", "pt": "A Ana pediu-me para lhe ligar.", "de": "Ana hat mich gebeten, sie anzurufen."},
+    {"id": "lembra-me-de-ligar", "pt": "Lembra-me de ligar ao João, por favor.", "de": "Erinnere mich bitte daran, João anzurufen."}
+   ]
+  },
+  {
+   "id": "B1-08-L07",
+   "typ": "neu",
+   "titel": "Kaum, inzwischen, also doch: Zeitkonnektoren",
+   "vokabeln": ["entretanto", "mal-cheguei", "logo-depois", "pouco-depois", "afinal", "ao-fim-de", "desde-entao", "nisto", "quando-dei-por-mim"],
+   "grammatik": {
+    "titel": "Ligar as ações: conectores de tempo",
+    "erklaerung": [
+     "<b>Mal</b> + perfeito = logo que, assim que (no passado): <i><b>Mal</b> cheguei a casa, começou a chover.</i> · <i><b>Mal</b> soube a notícia, ligou-me.</i>",
+     "<b>Enquanto</b> + imperfeito = duas ações ao mesmo tempo: <i>Enquanto eu estacionava, a Ana foi comprar os bilhetes.</i> <b>Entretanto</b> = nesse meio-tempo: <i>Fui ao multibanco; entretanto, a Ana pediu os cafés.</i>",
+     "Sequência: <i><b>logo depois</b></i> (imediatamente a seguir), <i><b>pouco depois</b></i> (passado pouco tempo), <i><b>ao fim de</b> meia hora</i> (depois de meia hora), <i><b>desde então</b></i> (desde esse momento até hoje).",
+     "<b>Afinal</b> = ao contrário do que se pensava / no fim de contas: <i>Pensei que estava fechado, mas <b>afinal</b> estava aberto.</i> Ao contar oralmente ouve-se também <i>nisto</i> (nesse momento) e <i>quando dei por mim</i> (de repente percebi)."
+    ],
+    "erklaerung_de": [
+     "<b>Mal</b> + Perfeito = kaum / sobald (in der Vergangenheit): <i><b>Mal</b> cheguei a casa, começou a chover.</i> – Kaum war ich zu Hause, fing es an zu regnen. · <i><b>Mal</b> soube a notícia, ligou-me.</i> – Sobald er die Nachricht hörte, rief er mich an.",
+     "<b>Enquanto</b> + Imperfeito = zwei Handlungen gleichzeitig: <i>Enquanto eu estacionava, a Ana foi comprar os bilhetes.</i> – Während ich parkte, kaufte Ana die Karten. <b>Entretanto</b> = inzwischen: <i>Fui ao multibanco; entretanto, a Ana pediu os cafés.</i> – Ich ging zum Bankomaten; inzwischen bestellte Ana die Kaffees.",
+     "Abfolge: <i><b>logo depois</b></i> (gleich danach), <i><b>pouco depois</b></i> (kurz darauf), <i><b>ao fim de</b> meia hora</i> (nach einer halben Stunde), <i><b>desde então</b></i> (seitdem).",
+     "<b>Afinal</b> = anders als gedacht / letztendlich: <i>Pensei que estava fechado, mas <b>afinal</b> estava aberto.</i> – Ich dachte, es sei zu, aber es war doch offen. Beim mündlichen Erzählen hört man auch <i>nisto</i> (in dem Moment, da) und <i>quando dei por mim</i> (ehe ich mich versah)."
+    ],
+    "vergleich": "<i>Mal</i> + Perfeito entspricht „kaum (dass)“ / „sobald“: „Kaum war ich zu Hause, …“ – Englisch: „As soon as I got home …“. Achtung: Im Portugiesischen steht nach <i>mal</i> das einfache Perfeito, nicht das Plusquamperfekt. <i>Afinal</i> hat kein direktes Gegenstück – oft passt „also doch“ oder „eigentlich“. Im brasilianischen Portugiesisch bedeutet <i>entretanto</i> meist „jedoch“.",
+    "beispiele": [
+     {"pt": "Mal saímos de casa, começou a chover.", "de": "Kaum waren wir aus dem Haus, fing es an zu regnen."},
+     {"pt": "Esperei pelo autocarro e, ao fim de quarenta minutos, fui a pé.", "de": "Ich wartete auf den Bus und ging nach vierzig Minuten zu Fuß."},
+     {"pt": "Afinal, a reunião não era hoje, era amanhã!", "de": "Das Meeting war also doch nicht heute, sondern morgen!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ cheguei ao aeroporto, vi que o voo tinha sido cancelado.", "loesungen": ["Mal"], "de": "Kaum war ich am Flughafen, sah ich, dass der Flug gestrichen worden war.", "erklaerung": "mal + Perfeito = kaum / sobald.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "Fui buscar o carro e, ___, a Ana pagou a conta.", "loesungen": ["entretanto"], "de": "Ich holte das Auto, und inzwischen bezahlte Ana die Rechnung.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "Pensávamos que ia chover, mas ___ fez um dia lindo.", "loesungen": ["afinal"], "de": "Wir dachten, es würde regnen, aber es wurde doch ein herrlicher Tag.", "erklaerung": "afinal = anders als erwartet.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "Esperei pelo técnico e, ___ duas horas, ele finalmente chegou.", "loesungen": ["ao fim de"], "de": "Ich wartete auf den Techniker, und nach zwei Stunden kam er endlich.", "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "„Seitdem bin ich nie wieder dort gewesen.“", "optionen": ["Desde então, nunca mais lá fui.", "Desde que, nunca mais lá fui.", "Entretanto, nunca mais lá fui."], "richtig": 0, "erklaerung": "desde então = seitdem; desde que leitet einen Nebensatz ein.", "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "Was bedeutet „entretanto“ im europäischen Portugiesisch meistens?", "optionen": ["jedoch", "inzwischen / unterdessen", "endlich"], "richtig": 1, "erklaerung": "In pt-PT meist zeitlich; „jedoch“ eher in formellen Texten und in Brasilien.", "kategorie": "Konnektoren"},
+     {"typ": "uebersetzen", "de": "Kaum hatte ich den Brief gelesen, rief ich Ana an.", "loesungen": ["Mal li a carta, liguei à Ana.", "Mal li a carta, telefonei à Ana.", "Mal li a carta liguei à Ana.", "Mal acabei de ler a carta, liguei à Ana."], "erklaerung": "Nach mal steht das einfache Perfeito (li), nicht tinha lido.", "kategorie": "Konnektoren"},
+     {"typ": "diktat", "pt": "Pouco depois, chegaram os bombeiros."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma viagem atribulada – eine turbulente Reise",
+    "situation": "Ana erzählt ihrer Freundin Rita von der Abreise nach Wien.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então, a viagem a Viena correu bem?", "de": "Na, ist die Reise nach Wien gut gelaufen?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Nem por isso! Mal saímos de casa, o Stefan percebeu que se tinha esquecido da carteira.", "de": "Nicht wirklich! Kaum waren wir aus dem Haus, merkte Stefan, dass er seine Brieftasche vergessen hatte."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Não acredito! E voltaram para trás?", "de": "Nicht zu glauben! Und seid ihr umgekehrt?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Voltámos. Entretanto, começou a hora de ponta e apanhámos um trânsito horrível na Via do Infante.", "de": "Ja. Inzwischen hatte der Berufsverkehr angefangen, und wir standen auf der Via do Infante in einem fürchterlichen Stau."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E chegaram a tempo ao aeroporto?", "de": "Und seid ihr rechtzeitig am Flughafen angekommen?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "À justa! E logo depois do check-in, anunciaram que o voo estava atrasado duas horas.", "de": "Gerade so! Und gleich nach dem Check-in kündigten sie an, dass der Flug zwei Stunden Verspätung hatte."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Afinal, não precisavam de ter corrido tanto!", "de": "Ihr hättet euch also gar nicht so beeilen müssen!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Pois não! Ao fim de três horas no aeroporto, já nem me apetecia ir de férias.", "de": "Allerdings! Nach drei Stunden am Flughafen hatte ich nicht einmal mehr Lust auf Urlaub."}
+    ],
+    "fragen": [
+     {"frage": "O que aconteceu mal saíram de casa?", "optionen": ["O carro avariou.", "O Stefan percebeu que se tinha esquecido da carteira.", "Começou a chover."], "richtig": 1},
+     {"frage": "Como estava o trânsito?", "optionen": ["Horrível.", "Calmo.", "Não havia trânsito."], "richtig": 0},
+     {"frage": "Porque é que não precisavam de ter corrido tanto?", "optionen": ["Porque o voo foi cancelado.", "Porque chegaram muito cedo.", "Porque o voo estava atrasado duas horas."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Mal cheguei a casa, começou a chover.", "de": "Kaum war ich zu Hause, fing es an zu regnen."},
+     {"pt": "Entretanto, a Ana pagou a conta.", "de": "Inzwischen hat Ana die Rechnung bezahlt."},
+     {"pt": "Pouco depois, chegaram os bombeiros.", "de": "Kurz darauf kam die Feuerwehr."},
+     {"pt": "Afinal, o restaurante estava aberto!", "de": "Das Restaurant war also doch offen!"},
+     {"pt": "Quando dei por mim, já eram duas da manhã.", "de": "Ehe ich mich versah, war es schon zwei Uhr morgens."}
+    ]
+   },
+   "saetze": [
+    {"id": "mal-cheguei-a-casa", "pt": "Mal cheguei a casa, começou a chover.", "de": "Kaum war ich zu Hause, fing es an zu regnen."},
+    {"id": "afinal-estava-aberto", "pt": "Afinal, o restaurante estava aberto!", "de": "Das Restaurant war also doch offen!"},
+    {"id": "ao-fim-de-meia-hora", "pt": "Ao fim de meia hora, o autocarro chegou.", "de": "Nach einer halben Stunde kam der Bus."}
+   ]
+  },
+  {
+   "id": "B1-08-L08",
+   "typ": "neu",
+   "titel": "Weißt du, was mir passiert ist? Eine Anekdote erzählen",
+   "vokabeln": ["a-anedota", "sabes-o-que-me-aconteceu", "nem-imaginas", "ainda-por-cima", "morrer-de-rir", "a-gargalhada", "envergonhado", "corar", "o-desfecho"],
+   "grammatik": {
+    "titel": "Contar uma história engraçada: estrutura, ficar + adjetivo, tão … que",
+    "erklaerung": [
+     "Uma boa história tem quatro partes: a <b>introdução</b> (<i>Sabes o que me aconteceu ontem?</i>), o <b>cenário</b> no imperfeito (<i>Estava no mercado…</i>), a <b>ação</b> no perfeito (<i>De repente, a senhora disse…</i>) e o <b>desfecho</b> (<i>No fim, morremos todos de rir.</i>).",
+     "Para mostrar emoções usa-se <b>ficar</b> + adjetivo: <i>Fiquei envergonhado / surpreendido / furioso.</i> Para mostrar a consequência: <b>tão</b> + adjetivo + <b>que</b> e <b>tanto</b> + <b>que</b>: <i>Fiquei <b>tão</b> envergonhado <b>que</b> corei.</i> · <i>Rimo-nos <b>tanto que</b> nos doía a barriga.</i>",
+     "Quem ouve reage: <i>A sério? · Não acredito! · E depois? · E tu, o que fizeste? · Que vergonha!</i> Quem conta mantém o suspense: <i>Nem imaginas… · E ainda por cima… · E o melhor foi que…</i>",
+     "Na conversa, o <b>presente</b> também dá vida à história: <i>Estou eu no mercado e, de repente, aparece o João…</i>"
+    ],
+    "erklaerung_de": [
+     "Eine gute Geschichte hat vier Teile: die <b>Einleitung</b> (<i>Sabes o que me aconteceu ontem?</i> – Weißt du, was mir gestern passiert ist?), den <b>Hintergrund</b> im Imperfeito (<i>Estava no mercado…</i>), die <b>Handlung</b> im Perfeito (<i>De repente, a senhora disse…</i>) und den <b>Ausgang</b> (<i>No fim, morremos todos de rir.</i> – Am Ende haben wir uns alle totgelacht.).",
+     "Gefühle drückt man mit <b>ficar</b> + Adjektiv aus: <i>Fiquei envergonhado / surpreendido / furioso.</i> (Es war mir peinlich / Ich war überrascht / wütend.) Folgen mit <b>tão</b> + Adjektiv + <b>que</b> und <b>tanto</b> + <b>que</b>: <i>Fiquei <b>tão</b> envergonhado <b>que</b> corei.</i> – Es war mir so peinlich, dass ich rot wurde. · <i>Rimo-nos <b>tanto que</b> nos doía a barriga.</i> – Wir lachten so sehr, dass uns der Bauch wehtat.",
+     "Wer zuhört, reagiert: <i>A sério? · Não acredito! · E depois? · E tu, o que fizeste? · Que vergonha!</i> (Echt? · Nicht zu glauben! · Und dann? · Und was hast du gemacht? · Wie peinlich!) Wer erzählt, hält die Spannung: <i>Nem imaginas… · E ainda por cima… · E o melhor foi que…</i> (Du ahnst es nicht … · Und obendrein … · Und das Beste war …)",
+     "Im Gespräch macht auch das <b>Präsens</b> die Geschichte lebendig: <i>Estou eu no mercado e, de repente, aparece o João…</i> – Steh ich also auf dem Markt, und plötzlich taucht João auf …"
+    ],
+    "vergleich": "Auch im Deutschen erzählt man lebendig im Präsens („Steh ich da, und plötzlich kommt …“). <i>Tão … que</i> = „so …, dass“; <i>tanto … que</i> = „so sehr …, dass“. Falscher Freund: <i>a anedota</i> ist ein Witz, keine Anekdote!",
+    "beispiele": [
+     {"pt": "Sabes o que me aconteceu ontem na peixaria?", "de": "Weißt du, was mir gestern im Fischgeschäft passiert ist?"},
+     {"pt": "Fiquei tão envergonhado que corei até às orelhas.", "de": "Es war mir so peinlich, dass ich bis über beide Ohren rot wurde."},
+     {"pt": "E ainda por cima, a senhora era a mãe do meu cliente!", "de": "Und obendrein war die Dame die Mutter meines Kunden!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Fiquei ___ nervoso que não consegui falar.", "loesungen": ["tão"], "de": "Ich war so nervös, dass ich nicht sprechen konnte.", "erklaerung": "tão + Adjektiv + que = so …, dass.", "kategorie": "tão/tanto"},
+     {"typ": "luecke", "satz": "Rimo-nos ___ que nos doía a barriga.", "loesungen": ["tanto"], "de": "Wir lachten so sehr, dass uns der Bauch wehtat.", "erklaerung": "Nach einem Verb: tanto que = so sehr, dass.", "kategorie": "tão/tanto"},
+     {"typ": "luecke", "satz": "Quando percebi o erro, ___ muito envergonhado. (ficar, Perfeito)", "loesungen": ["fiquei"], "de": "Als ich den Fehler bemerkte, war es mir sehr peinlich.", "erklaerung": "Plötzliche Gefühlsreaktion → ficar im Perfeito.", "kategorie": "ficar + Adjektiv"},
+     {"typ": "luecke", "satz": "___ imaginas o que me aconteceu hoje!", "loesungen": ["Nem"], "de": "Du ahnst nicht, was mir heute passiert ist!", "kategorie": "Wortschatz"},
+     {"typ": "auswahl", "frage": "Was ist „a anedota“?", "optionen": ["eine Anekdote", "ein Witz", "eine Legende"], "richtig": 1, "erklaerung": "Falscher Freund: a anedota = der Witz. Eine Anekdote = uma história engraçada / um episódio.", "kategorie": "Falsche Freunde"},
+     {"typ": "auswahl", "frage": "Dein Freund erzählt eine Geschichte und hört mitten drin auf. Wie fragst du nach?", "optionen": ["E depois?", "Até logo!", "Pode ser."], "richtig": 0, "kategorie": "Reaktionen"},
+     {"typ": "uebersetzen", "de": "Ich habe den Bus verpasst, und obendrein hat es angefangen zu regnen.", "loesungen": ["Perdi o autocarro e, ainda por cima, começou a chover.", "Perdi o autocarro e ainda por cima começou a chover.", "Perdi o autocarro e, ainda por cima, começou a chover!"], "kategorie": "Wortschatz"},
+     {"typ": "satzbau", "de": "Als ich es Ana erzählte, hat sie sich totgelacht.", "loesung": "Quando contei à Ana, ela morreu de rir."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Ameixas na peixaria – Pflaumen im Fischgeschäft",
+    "situation": "Beim Abendessen erzählt Stefan Rita, was ihm im Fischgeschäft passiert ist.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sabes o que me aconteceu hoje na peixaria?", "de": "Weißt du, was mir heute im Fischgeschäft passiert ist?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Conta, conta!", "de": "Erzähl!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estava na fila e queria pedir meio quilo de amêijoas. Mas em vez de «amêijoas», disse «ameixas»!", "de": "Ich stand in der Schlange und wollte ein halbes Kilo Venusmuscheln bestellen. Aber statt „amêijoas“ habe ich „ameixas“ (Pflaumen) gesagt!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ameixas na peixaria? Não acredito!", "de": "Pflaumen im Fischgeschäft? Nicht zu glauben!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A peixeira olhou para mim muito séria e perguntou se eu queria as ameixas com ou sem caroço.", "de": "Die Fischverkäuferin sah mich ganz ernst an und fragte, ob ich die Pflaumen mit oder ohne Kern wolle."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E tu, o que fizeste?", "de": "Und was hast du gemacht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Fiquei tão envergonhado que corei até às orelhas. E ainda por cima, a peixaria inteira deu uma gargalhada!", "de": "Es war mir so peinlich, dass ich bis über beide Ohren rot wurde. Und obendrein brach das ganze Geschäft in Gelächter aus!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Coitado! Mas o desfecho até foi bom: agora nunca mais te esqueces da palavra!", "de": "Du Armer! Aber das Ende war eigentlich gut: Jetzt vergisst du das Wort nie wieder!"}
+    ],
+    "fragen": [
+     {"frage": "Onde estava o Stefan?", "optionen": ["Na frutaria.", "Na peixaria.", "No supermercado."], "richtig": 1},
+     {"frage": "Que erro fez o Stefan?", "optionen": ["Disse «ameixas» em vez de «amêijoas».", "Pediu um quilo em vez de meio quilo.", "Esqueceu-se da carteira."], "richtig": 0},
+     {"frage": "Como reagiram as pessoas na peixaria?", "optionen": ["Ninguém percebeu.", "Ficaram zangadas.", "Deram uma gargalhada."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Conte à Ana uma situação embaraçosa. – Erzähl Ana von einer peinlichen Situation.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Estás com uma cara… O que foi?", "de": "Du schaust ja drein … Was ist los?"},
+     {"ich": true, "aufgabe": "Pergunte: Weißt du, was mir heute passiert ist?", "loesungen": ["Sabes o que me aconteceu hoje?", "Sabes o que é que me aconteceu hoje?", "Nem imaginas o que me aconteceu hoje!", "Sabes o que me aconteceu hoje!"]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não faço ideia. Conta!", "de": "Keine Ahnung. Erzähl!"},
+     {"ich": true, "aufgabe": "Diga que confundiu a vizinha com a mãe do João. – Sag, dass du die Nachbarin mit Joãos Mutter verwechselt hast.", "loesungen": ["Confundi a vizinha com a mãe do João.", "Eu confundi a vizinha com a mãe do João.", "Baralhei a vizinha com a mãe do João."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ai, que vergonha! E ela?", "de": "Oje, wie peinlich! Und sie?"},
+     {"ich": true, "aufgabe": "Diga que ela morreu de rir e que você ficou tão envergonhado que corou. – Sag, dass sie sich totgelacht hat und es dir so peinlich war, dass du rot geworden bist.", "loesungen": ["Ela morreu de rir e eu fiquei tão envergonhado que corei.", "Ela morreu de rir e eu fiquei tão envergonhada que corei.", "Morreu de rir e eu fiquei tão envergonhado que corei.", "Morreu de rir e eu fiquei tão envergonhada que corei.", "Ela morreu de rir, e eu fiquei tão envergonhado que corei.", "Ela morreu de rir e fiquei tão envergonhado que corei."]}
+    ]
+   },
+   "saetze": [
+    {"id": "sabes-o-que-me-aconteceu-ontem", "pt": "Sabes o que me aconteceu ontem?", "de": "Weißt du, was mir gestern passiert ist?"},
+    {"id": "fiquei-tao-envergonhado", "pt": "Fiquei tão envergonhado que corei.", "de": "Es war mir so peinlich, dass ich rot wurde."},
+    {"id": "ainda-por-cima-chover", "pt": "E ainda por cima, começou a chover!", "de": "Und obendrein fing es an zu regnen!"}
+   ]
+  },
+  {
+   "id": "B1-08-L09",
+   "typ": "neu",
+   "titel": "Das war ein Missverständnis! Pensava que … / afinal …",
+   "vokabeln": ["perceber-mal", "enganar-se", "o-engano", "a-confusao", "levar-a-mal", "o-equivoco", "a-gafe", "baralhar", "rir-se-de"],
+   "grammatik": {
+    "titel": "Falar de mal-entendidos: pensava que…, enganar-se em, afinal",
+    "erklaerung": [
+     "Para dizer o que se pensava (e não era verdade) usa-se o <b>imperfeito</b>: <i><b>Pensava que</b> a reunião era às três.</i> · <i><b>Achava que</b> tinhas dito sábado.</i> Muitas vezes segue-se <b>afinal</b>: <i>…, mas afinal era às duas.</i>",
+     "<b>Enganar-se em</b> + nome: <i>Enganei-me <b>no</b> dia / <b>na</b> morada / <b>no</b> número.</i> O pronome vem depois do verbo (<i>Enganei-me</i>), mas antes com <i>não</i>: <i>Não <b>me</b> enganei.</i>",
+     "Para corrigir: <i>Eu disse que vinha às sete, não às onze.</i> · <i>Não era isso que eu queria dizer.</i> · <i>Acho que percebeste mal.</i> · <i>Foi engano.</i>",
+     "Para pedir desculpa e acalmar: <i>Não leves a mal!</i> (tu) · <i>Não leve a mal!</i> (formal) · <i>Foi uma confusão.</i> · <i>Já está esclarecido.</i>"
+    ],
+    "erklaerung_de": [
+     "Um zu sagen, was man (fälschlich) dachte, nimmt man das <b>Imperfeito</b>: <i><b>Pensava que</b> a reunião era às três.</i> – Ich dachte, das Meeting sei um drei. · <i><b>Achava que</b> tinhas dito sábado.</i> – Ich dachte, du hättest Samstag gesagt. Oft folgt <b>afinal</b>: <i>…, mas afinal era às duas.</i> – …, aber es war dann doch um zwei.",
+     "<b>Enganar-se em</b> + Nomen (sich irren in/bei): <i>Enganei-me <b>no</b> dia / <b>na</b> morada / <b>no</b> número.</i> (im Tag / in der Adresse / Ich habe mich verwählt.) Das Pronomen steht nach dem Verb (<i>Enganei-me</i>), nach <i>não</i> davor: <i>Não <b>me</b> enganei.</i>",
+     "Zum Richtigstellen: <i>Eu disse que vinha às sete, não às onze.</i> (Ich habe gesagt, ich komme um sieben, nicht um elf.) · <i>Não era isso que eu queria dizer.</i> (So habe ich das nicht gemeint.) · <i>Acho que percebeste mal.</i> (Ich glaube, du hast das falsch verstanden.) · <i>Foi engano.</i> (Das war ein Versehen.)",
+     "Zum Entschuldigen und Beruhigen: <i>Não leves a mal!</i> (tu) · <i>Não leve a mal!</i> (formell) – Nimm/Nehmen Sie es nicht übel! · <i>Foi uma confusão.</i> (Das war eine Verwechslung.) · <i>Já está esclarecido.</i> (Das ist jetzt geklärt.)"
+    ],
+    "vergleich": "Deutsch: „Ich dachte, das Meeting sei um drei.“ – Im Portugiesischen steht <i>pensava / achava</i> im Imperfeito (nicht <i>pensei</i>), weil es um eine andauernde Annahme geht. <i>Enganar-se no número</i> = „sich verwählen“, wörtlich „sich in der Nummer täuschen“. Englisch: „I got the wrong number.“",
+    "beispiele": [
+     {"pt": "Pensava que o jantar era no sábado, mas afinal era na sexta.", "de": "Ich dachte, das Abendessen sei am Samstag, aber es war doch am Freitag."},
+     {"pt": "Desculpe, enganei-me no número.", "de": "Entschuldigung, ich habe mich verwählt."},
+     {"pt": "Não leves a mal, mas acho que percebeste mal.", "de": "Nimm es mir nicht übel, aber ich glaube, du hast das falsch verstanden."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ que a loja abria às nove, mas afinal abre às dez. (pensar, eu)", "loesungen": ["Pensava"], "de": "Ich dachte, der Laden öffne um neun, aber er öffnet doch erst um zehn.", "erklaerung": "Falsche Annahme → Imperfeito: pensava.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "luecke", "satz": "Desculpe, enganei-me ___ número.", "loesungen": ["no"], "de": "Entschuldigung, ich habe mich verwählt.", "erklaerung": "enganar-se em + o = no.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Não ___ enganei: o senhor disse sexta-feira!", "loesungen": ["me"], "de": "Ich habe mich nicht geirrt: Sie haben Freitag gesagt!", "erklaerung": "Nach „não“ steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Não ___ a mal, mas prefiro ficar em casa. (levar, tu)", "loesungen": ["leves"], "de": "Nimm es mir nicht übel, aber ich bleibe lieber zu Hause.", "erklaerung": "Verneinter Imperativ (tu) = Presente do conjuntivo: não leves.", "kategorie": "Imperativ"},
+     {"typ": "auswahl", "frage": "„Ich dachte, du hättest Samstag gesagt.“", "optionen": ["Pensei que disseste sábado.", "Pensava que tinhas dito sábado.", "Penso que dizes sábado."], "richtig": 1, "erklaerung": "Andauernde Annahme → pensava; das Gesagte lag davor → tinhas dito.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "auswahl", "frage": "Was bedeutet „Foi engano.“?", "optionen": ["Das war ein Versehen.", "Das war Betrug.", "Das war eine Lüge."], "richtig": 0, "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Ich habe mich im Tag geirrt.", "loesungen": ["Enganei-me no dia.", "Eu enganei-me no dia."], "kategorie": "Pronomenstellung"},
+     {"typ": "satzbau", "de": "So habe ich das nicht gemeint.", "loesung": "Não era isso que eu queria dizer."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma reserva misteriosa – eine rätselhafte Reservierung",
+    "situation": "Stefan kommt mit Ana und zwei Freunden in ein Restaurant an der Marina von Lagos.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa noite. Tenho uma mesa reservada para quatro, em nome de Krenn.", "de": "Guten Abend. Ich habe einen Tisch für vier reserviert, auf den Namen Krenn."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Krenn… Peço desculpa, mas não encontro nada para hoje.", "de": "Krenn … Entschuldigung, aber ich finde nichts für heute."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não pode ser. Liguei na segunda-feira e disseram-me que estava tudo confirmado.", "de": "Das kann nicht sein. Ich habe am Montag angerufen, und man hat mir gesagt, alles sei bestätigt."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Tem a certeza de que ligou para aqui? Há outro restaurante com um nome parecido, aqui na marina: «O Pescador».", "de": "Sind Sie sicher, dass Sie hier angerufen haben? Es gibt hier an der Marina ein anderes Restaurant mit ähnlichem Namen: „O Pescador“."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "«O Pescador»? E este é…?", "de": "„O Pescador“? Und dieses hier ist …?"},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Este é «Os Pescadores». Acontece muitas vezes, não leve a mal.", "de": "Das hier ist „Os Pescadores“. Das passiert oft, nehmen Sie es nicht übel."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ai, que vergonha… Afinal, fui eu que me enganei no restaurante!", "de": "Oje, wie peinlich … Dann habe also ich mich im Restaurant geirrt!"},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Não faz mal! Olhe, ainda temos uma mesa livre na esplanada, se quiserem ficar.", "de": "Macht nichts! Schauen Sie, wir haben noch einen freien Tisch auf der Terrasse, wenn Sie bleiben möchten."}
+    ],
+    "fragen": [
+     {"frage": "Para quantas pessoas era a reserva?", "optionen": ["Duas.", "Quatro.", "Seis."], "richtig": 1},
+     {"frage": "Qual foi o problema?", "optionen": ["O restaurante estava fechado.", "A reserva era para outro dia.", "O Stefan enganou-se no restaurante."], "richtig": 2},
+     {"frage": "Como acaba a história?", "optionen": ["Oferecem-lhes uma mesa na esplanada.", "Vão para casa.", "Vão ao outro restaurante."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich dachte, das Abendessen sei am Samstag.", "loesungen": ["Pensava que o jantar era no sábado.", "Pensava que o jantar era sábado.", "Achava que o jantar era no sábado.", "Eu pensava que o jantar era no sábado.", "Pensei que o jantar era no sábado.", "Pensava que o jantar era ao sábado."]},
+     {"de": "Entschuldigung, ich habe mich verwählt.", "loesungen": ["Desculpe, enganei-me no número.", "Desculpa, enganei-me no número.", "Peço desculpa, enganei-me no número.", "Desculpe, enganei-me no número de telefone."]},
+     {"de": "Es gab ein Durcheinander mit der Reservierung.", "loesungen": ["Houve uma confusão com a reserva.", "Houve uma confusão na reserva."]},
+     {"de": "Nimm es mir nicht übel, aber ich bin müde.", "loesungen": ["Não leves a mal, mas estou cansado.", "Não leves a mal, mas estou cansada.", "Não me leves a mal, mas estou cansado.", "Não me leves a mal, mas estou cansada."]},
+     {"de": "Wir haben viel über die Situation gelacht.", "loesungen": ["Rimo-nos muito da situação.", "Rimos muito da situação.", "Nós rimo-nos muito da situação.", "Rimo-nos imenso da situação."]}
+    ]
+   },
+   "saetze": [
+    {"id": "pensava-que-afinal", "pt": "Pensava que era sábado, mas afinal era sexta.", "de": "Ich dachte, es sei Samstag, aber es war doch Freitag."},
+    {"id": "enganei-me-no-numero", "pt": "Desculpe, enganei-me no número.", "de": "Entschuldigung, ich habe mich verwählt."},
+    {"id": "nao-era-isso-que-queria-dizer", "pt": "Não era isso que eu queria dizer.", "de": "So habe ich das nicht gemeint."}
+   ]
+  },
+  {
+   "id": "B1-08-L10",
+   "typ": "neu",
+   "titel": "Die Legende der Mandelbäume: wie im Märchen erzählen",
+   "vokabeln": ["a-lenda", "era-uma-vez", "o-rei", "a-princesa", "o-mouro", "a-neve", "em-flor", "plantar", "definhar", "a-terra-natal"],
+   "grammatik": {
+    "titel": "A linguagem das lendas: era uma vez, mandar + infinitivo, mais-que-perfeito simples",
+    "erklaerung": [
+     "As lendas começam muitas vezes com <b>Era uma vez…</b> ou <b>Conta a lenda que…</b> O cenário está no imperfeito: <i>Era uma vez um rei mouro que vivia em Silves.</i>",
+     "<b>Mandar</b> + infinitivo = dar ordem para alguém fazer uma coisa: <i>O rei <b>mandou plantar</b> amendoeiras.</i> (= O rei deu ordem para plantarem amendoeiras.) · <i>Mandou chamar os médicos.</i>",
+     "Nos textos literários aparece o <b>mais-que-perfeito simples</b>: <i>tinha chegado → <b>chegara</b>, tinha feito → <b>fizera</b>, tinha visto → <b>vira</b>, tinha dito → <b>dissera</b></i>. Forma-se com a forma <i>eles</i> do perfeito: <b>-ram</b> → <b>-ra</b>. Só precisa de o reconhecer.",
+     "Quando recontamos uma lenda a falar, usamos o mais-que-perfeito composto e o discurso indireto: <i>A princesa nunca <b>tinha visto</b> o mar do Sul.</i> · <i>O velho explicou que a princesa <b>tinha saudades</b> da neve.</i>"
+    ],
+    "erklaerung_de": [
+     "Legenden beginnen oft mit <b>Era uma vez…</b> (Es war einmal …) oder <b>Conta a lenda que…</b> (Die Legende erzählt, dass …). Der Hintergrund steht im Imperfeito: <i>Era uma vez um rei mouro que vivia em Silves.</i> – Es war einmal ein maurischer König, der in Silves lebte.",
+     "<b>Mandar</b> + Infinitiv = etwas tun lassen / anordnen: <i>O rei <b>mandou plantar</b> amendoeiras.</i> – Der König ließ Mandelbäume pflanzen. · <i>Mandou chamar os médicos.</i> – Er ließ die Ärzte rufen.",
+     "In literarischen Texten erscheint das <b>einfache Mais-que-perfeito</b>: <i>tinha chegado → <b>chegara</b>, tinha feito → <b>fizera</b>, tinha visto → <b>vira</b>, tinha dito → <b>dissera</b></i>. Es wird von der eles-Form des Perfeito gebildet: <b>-ram</b> → <b>-ra</b>. Du musst es nur erkennen.",
+     "Erzählt man eine Legende mündlich nach, verwendet man das zusammengesetzte Mais-que-perfeito und die indirekte Rede: <i>A princesa nunca <b>tinha visto</b> o mar do Sul.</i> – Die Prinzessin hatte nie das Meer des Südens gesehen. · <i>O velho explicou que a princesa <b>tinha saudades</b> da neve.</i> – Der Alte erklärte, die Prinzessin sehne sich nach dem Schnee."
+    ],
+    "vergleich": "„Es war einmal …“ = <i>Era uma vez …</i> – mit Imperfeito, so wie im deutschen Märchen das Präteritum steht. <i>Mandar fazer</i> entspricht „machen lassen“: <i>Mandou construir um palácio</i> = „Er ließ einen Palast bauen“ (Englisch: „He had a palace built“).",
+    "beispiele": [
+     {"pt": "Era uma vez um rei mouro que vivia em Silves.", "de": "Es war einmal ein maurischer König, der in Silves lebte."},
+     {"pt": "O rei mandou plantar milhares de amendoeiras.", "de": "Der König ließ Tausende von Mandelbäumen pflanzen."},
+     {"pt": "Quando a princesa viu os campos brancos, pensou que nevara durante a noite.", "de": "Als die Prinzessin die weißen Felder sah, dachte sie, es habe in der Nacht geschneit."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ uma vez uma princesa de um país do Norte.", "loesungen": ["Era"], "de": "Es war einmal eine Prinzessin aus einem Land im Norden.", "kategorie": "Erzählen"},
+     {"typ": "luecke", "satz": "O rei ___ plantar amendoeiras à volta do castelo. (mandar, Perfeito)", "loesungen": ["mandou"], "de": "Der König ließ rund um die Burg Mandelbäume pflanzen.", "erklaerung": "mandar + Infinitiv = machen lassen.", "kategorie": "mandar + Infinitiv"},
+     {"typ": "luecke", "satz": "O velho explicou que a princesa ___ saudades da neve. (ter)", "loesungen": ["tinha"], "de": "Der Alte erklärte, die Prinzessin sehne sich nach dem Schnee.", "erklaerung": "Indirekte Rede: tem → tinha.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "dissera = tinha ___", "loesungen": ["dito"], "de": "dissera = hatte gesagt", "erklaerung": "Einfaches Mais-que-perfeito: disseram → dissera = tinha dito.", "kategorie": "Mais-que-perfeito"},
+     {"typ": "auswahl", "frage": "Was bedeutet „O rei chegara tarde.“?", "optionen": ["Der König wird spät ankommen.", "Der König war spät angekommen.", "Der König käme spät an."], "richtig": 1, "erklaerung": "chegara = tinha chegado (einfaches Mais-que-perfeito).", "kategorie": "Mais-que-perfeito"},
+     {"typ": "auswahl", "frage": "„Der König ließ die Ärzte rufen.“", "optionen": ["O rei mandou chamar os médicos.", "O rei deixou chamar os médicos.", "O rei chamou-se os médicos."], "richtig": 0, "erklaerung": "machen lassen / anordnen = mandar + Infinitiv; deixar = zulassen, erlauben.", "kategorie": "mandar + Infinitiv"},
+     {"typ": "uebersetzen", "de": "Es war einmal ein König, der in Silves lebte.", "loesungen": ["Era uma vez um rei que vivia em Silves.", "Era uma vez um rei que morava em Silves."], "kategorie": "Erzählen"},
+     {"typ": "satzbau", "de": "Im Februar stehen die Mandelbäume in Blüte.", "loesung": "Em fevereiro, as amendoeiras estão em flor."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A lenda das amendoeiras – die Legende der Mandelbäume",
+    "situation": "Eine Fremdenführerin in Silves erzählt (frei nacherzählt) die bekannteste Legende der Algarve.",
+    "zeilen": [
+     {"sprecher": "Guia", "stimme": "f", "pt": "Conta a lenda que, há muitos séculos, vivia em Silves um jovem rei mouro.", "de": "Die Legende erzählt, dass vor vielen Jahrhunderten in Silves ein junger maurischer König lebte."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "Um dia, entre os prisioneiros de uma batalha, estava uma princesa loura de um país do Norte, chamada Gilda.", "de": "Eines Tages war unter den Gefangenen einer Schlacht eine blonde Prinzessin aus einem Land im Norden namens Gilda."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "O rei apaixonou-se por ela, deu-lhe a liberdade e, pouco depois, casaram.", "de": "Der König verliebte sich in sie, schenkte ihr die Freiheit, und kurz darauf heirateten sie."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "Mas, ao fim de algum tempo, a princesa ficou triste e começou a definhar. Nenhum médico sabia porquê.", "de": "Doch nach einiger Zeit wurde die Prinzessin traurig und begann dahinzusiechen. Kein Arzt wusste, warum."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "Um dia, um velho prisioneiro, também do Norte, explicou ao rei que a princesa tinha saudades da neve da sua terra natal.", "de": "Eines Tages erklärte ein alter Gefangener, ebenfalls aus dem Norden, dem König, dass die Prinzessin sich nach dem Schnee ihrer Heimat sehne."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "Então, o rei mandou plantar milhares de amendoeiras à volta do castelo.", "de": "Da ließ der König Tausende von Mandelbäumen rund um die Burg pflanzen."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "No inverno seguinte, mandou abrir as janelas do palácio. Os campos estavam todos brancos, cobertos de flores.", "de": "Im folgenden Winter ließ er die Fenster des Palastes öffnen. Die Felder waren ganz weiß, mit Blüten bedeckt."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "Quando a princesa viu aquela paisagem, pensou que tinha nevado. Ficou curada e, desde então, as amendoeiras florescem todos os anos no Algarve.", "de": "Als die Prinzessin diese Landschaft sah, dachte sie, es habe geschneit. Sie wurde gesund, und seitdem blühen die Mandelbäume jedes Jahr in der Algarve."}
+    ],
+    "fragen": [
+     {"frage": "Onde vivia o rei?", "optionen": ["Em Lagos.", "Em Silves.", "Num país do Norte."], "richtig": 1},
+     {"frage": "Porque estava a princesa triste?", "optionen": ["Tinha saudades da neve.", "Não gostava do rei.", "Queria voltar a ser prisioneira."], "richtig": 0},
+     {"frage": "O que fez o rei?", "optionen": ["Levou a princesa para o Norte.", "Mandou chamar médicos estrangeiros.", "Mandou plantar amendoeiras."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Era uma vez um rei que vivia em Silves.", "de": "Es war einmal ein König, der in Silves lebte."},
+     {"pt": "A princesa tinha saudades da neve.", "de": "Die Prinzessin sehnte sich nach dem Schnee."},
+     {"pt": "O rei mandou plantar milhares de amendoeiras.", "de": "Der König ließ Tausende von Mandelbäumen pflanzen."},
+     {"pt": "Em fevereiro, as amendoeiras estão em flor.", "de": "Im Februar stehen die Mandelbäume in Blüte."},
+     {"pt": "Conta a lenda que a princesa pensou que tinha nevado.", "de": "Die Legende erzählt, dass die Prinzessin dachte, es habe geschneit."}
+    ]
+   },
+   "saetze": [
+    {"id": "era-uma-vez-um-rei", "pt": "Era uma vez um rei que vivia em Silves.", "de": "Es war einmal ein König, der in Silves lebte."},
+    {"id": "mandou-plantar-amendoeiras", "pt": "O rei mandou plantar milhares de amendoeiras.", "de": "Der König ließ Tausende von Mandelbäumen pflanzen."},
+    {"id": "amendoeiras-em-flor", "pt": "Em fevereiro, as amendoeiras estão em flor.", "de": "Im Februar stehen die Mandelbäume in Blüte."}
+   ]
+  },
+  {"id": "B1-08-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-08-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Uma mensagem da Rita – eine Nachricht von Rita",
+   "situation": "Ana hört eine Sprachnachricht ihrer Freundin Rita ab.",
+   "zeilen": [
+    {"sprecher": "Rita", "stimme": "f", "pt": "Olá, Ana, é a Rita. Tenho tantas novidades que nem sei por onde começar!", "de": "Hallo Ana, hier ist Rita. Ich habe so viele Neuigkeiten, dass ich gar nicht weiß, wo ich anfangen soll!"},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Ontem à noite, encontrei o Pedro no café. Disse-me que se tinha despedido e que ia abrir um restaurante em Portimão!", "de": "Gestern Abend habe ich Pedro im Café getroffen. Er sagte mir, er habe gekündigt und werde ein Restaurant in Portimão eröffnen!"},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Ao princípio, pensei que era uma anedota, mas afinal é verdade: já assinou o contrato.", "de": "Anfangs dachte ich, das sei ein Witz, aber es stimmt tatsächlich: Er hat den Vertrag schon unterschrieben."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Mal saí do café, liguei à minha mãe. Ela perguntou se o Pedro sabia cozinhar… Morri de rir!", "de": "Kaum war ich aus dem Café, rief ich meine Mutter an. Sie fragte, ob Pedro denn kochen könne … Ich habe mich totgelacht!"},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Ah, e o Pedro pediu-me que vos convidasse para a inauguração, no sábado, dia doze.", "de": "Ach, und Pedro hat mich gebeten, euch zur Eröffnung einzuladen, am Samstag, dem Zwölften."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Liga-me quando puderes, está bem? Beijinhos!", "de": "Ruf mich an, wenn du kannst, ja? Küsschen!"}
+   ],
+   "fragen": [
+    {"frage": "O que contou o Pedro à Rita?", "optionen": ["Que ia casar.", "Que se tinha despedido e ia abrir um restaurante.", "Que tinha mudado de casa."], "richtig": 1},
+    {"frage": "O que pensou a Rita ao princípio?", "optionen": ["Que era uma anedota.", "Que era uma ótima ideia.", "Que o Pedro estava doente."], "richtig": 0},
+    {"frage": "O que perguntou a mãe da Rita?", "optionen": ["Onde ficava o restaurante.", "Quando era a inauguração.", "Se o Pedro sabia cozinhar."], "richtig": 2},
+    {"frage": "O que pediu o Pedro?", "optionen": ["Que a Rita convidasse a Ana e o Stefan para a inauguração.", "Que a Ana lhe ligasse.", "Que o ajudassem no restaurante."], "richtig": 0}
+   ]
+  },
+  "lesen": {
+   "titel": "A minha maior gafe – mein größter Fauxpas",
+   "situation": "Ein Beitrag in einem Online-Forum für Ausländer in der Algarve.",
+   "text": [
+    "Fórum Estrangeiros no Algarve – Tema: «A minha maior gafe em português». Publicado por Markus_Tavira.",
+    "Vivo em Tavira há três anos. Quando cheguei, o meu português era muito básico, mas eu achava que já sabia o suficiente.",
+    "Um dia, a minha vizinha, a Dona Graça, convidou-me para jantar. Ao princípio, correu tudo bem. Mal nos sentámos à mesa, ela perguntou-me se eu gostava de bacalhau.",
+    "Quando provei o bacalhau, quis elogiar a comida. Em alemão, «exquisit» quer dizer «requintado», por isso disse, todo orgulhoso: «Está muito esquisito!»",
+    "A senhora ficou calada. Pouco depois, perguntou-me, um pouco ofendida, se a comida tinha algum problema. Só mais tarde descobri que «esquisito» significa «estranho»!",
+    "Afinal, tudo acabou bem: expliquei o mal-entendido, rimo-nos muito e, desde então, ela conta esta história a toda a gente. Moral da história: cuidado com os falsos amigos!"
+   ],
+   "fragen": [
+    {"frage": "Há quanto tempo vive o Markus em Tavira?", "optionen": ["Há um ano.", "Há três anos.", "Desde criança."], "richtig": 1},
+    {"frage": "O que queria o Markus dizer sobre o bacalhau?", "optionen": ["Que estava muito bom.", "Que estava salgado.", "Que não gostava de peixe."], "richtig": 0},
+    {"frage": "O que significa «esquisito» em português?", "optionen": ["Requintado.", "Delicioso.", "Estranho."], "richtig": 2},
+    {"frage": "Como acabou a história?", "optionen": ["A vizinha nunca mais o convidou.", "Riram-se muito e ela ainda conta a história.", "O Markus mudou de casa."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Sie sagte, sie müsse an diesem Tag arbeiten.", "loesungen": ["Ela disse que nesse dia tinha de trabalhar.", "Disse que nesse dia tinha de trabalhar.", "Ela disse que nesse dia tinha que trabalhar.", "Disse que nesse dia tinha que trabalhar.", "Ela disse que tinha de trabalhar nesse dia.", "Disse que tinha de trabalhar nesse dia.", "Ela disse que tinha que trabalhar nesse dia.", "Ela disse que naquele dia tinha de trabalhar.", "Ela disse que tinha de trabalhar naquele dia.", "Disse que tinha de trabalhar naquele dia."]},
+   {"de": "Als ich ankam, war der Zug schon abgefahren.", "loesungen": ["Quando cheguei, o comboio já tinha partido.", "Quando cheguei, o comboio já tinha saído.", "Quando eu cheguei, o comboio já tinha partido.", "Quando cheguei, o comboio já partira."]},
+   {"de": "Pedro hat versprochen, am nächsten Tag zu kommen.", "loesungen": ["O Pedro prometeu que viria no dia seguinte.", "O Pedro prometeu que vinha no dia seguinte.", "O Pedro prometeu que ia vir no dia seguinte.", "O Pedro prometeu vir no dia seguinte."]},
+   {"de": "Der Kellner fragte, ob wir eine Reservierung hätten.", "loesungen": ["O empregado perguntou se tínhamos reserva.", "O empregado perguntou se tínhamos uma reserva.", "O empregado de mesa perguntou se tínhamos reserva.", "O empregado de mesa perguntou se tínhamos uma reserva.", "O empregado perguntou-nos se tínhamos reserva.", "O empregado perguntou-nos se tínhamos uma reserva."]},
+   {"de": "Kaum war ich zu Hause, fing es an zu regnen.", "loesungen": ["Mal cheguei a casa, começou a chover.", "Mal cheguei a casa começou a chover."]},
+   {"de": "Ich dachte, das Restaurant sei geschlossen, aber es war doch offen.", "loesungen": ["Pensava que o restaurante estava fechado, mas afinal estava aberto.", "Achava que o restaurante estava fechado, mas afinal estava aberto.", "Eu pensava que o restaurante estava fechado, mas afinal estava aberto.", "Pensei que o restaurante estava fechado, mas afinal estava aberto."]}
+  ],
+  "sprechen": [
+   {"pt": "Sabes o que me aconteceu ontem?", "de": "Weißt du, was mir gestern passiert ist?"},
+   {"pt": "Ele disse que estava cansado e que vinha mais tarde.", "de": "Er sagte, er sei müde und komme später."},
+   {"pt": "Quando cheguei, a reunião já tinha começado.", "de": "Als ich ankam, hatte das Meeting schon angefangen."},
+   {"pt": "A Ana pediu-me que comprasse pão.", "de": "Ana hat mich gebeten, Brot zu kaufen."},
+   {"pt": "Pensava que era sábado, mas afinal era sexta.", "de": "Ich dachte, es sei Samstag, aber es war doch Freitag."}
+  ]
+ }
+}

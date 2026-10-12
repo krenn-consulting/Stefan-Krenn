@@ -1,0 +1,880 @@
+{
+ "id": "B1-06",
+ "level": "B1",
+ "titel": "Notícias – Nachrichten",
+ "beschreibung": "Nachrichten aus Politik, Wirtschaft, Gesellschaft, Sport und Kultur verstehen, Wetter- und Verkehrsmeldungen aus dem Algarve folgen und über eine Meldung diskutieren – mit dem Imperfeito do conjuntivo und dem Konditional (se eu tivesse tempo, ia …; gostava que viesses; como se fosse).",
+ "vokabeln": [
+  {"id": "o-noticiario", "pt": "o noticiário", "de": "die Nachrichtensendung / die Nachrichten", "emoji": "📻", "beispiel_pt": "Ouvi a notícia no noticiário das oito.", "beispiel_de": "Ich habe die Meldung in den Acht-Uhr-Nachrichten gehört.", "hinweis": "Im Radio und im Fernsehen; im Fernsehen sagt man auch o telejornal."},
+  {"id": "a-reportagem", "pt": "a reportagem", "de": "die Reportage / der Bericht", "emoji": "🎥", "beispiel_pt": "A televisão fez uma reportagem sobre a seca no Algarve.", "beispiel_de": "Das Fernsehen hat eine Reportage über die Dürre an der Algarve gemacht."},
+  {"id": "o-destaque", "pt": "o destaque", "de": "das Topthema / die Schlagzeile", "emoji": "📰", "beispiel_pt": "Estes são os destaques do noticiário desta noite.", "beispiel_de": "Das sind die Topthemen der heutigen Abendnachrichten.", "hinweis": "em destaque = im Mittelpunkt / hervorgehoben"},
+  {"id": "de-ultima-hora", "pt": "de última hora", "de": "brandaktuell / in letzter Minute", "emoji": "⚡", "beispiel_pt": "Temos uma notícia de última hora: a ponte está fechada.", "beispiel_de": "Wir haben eine Eilmeldung: Die Brücke ist gesperrt.", "hinweis": "uma notícia de última hora = eine Eilmeldung; uma mudança de última hora = eine Änderung in letzter Minute"},
+  {"id": "informar", "pt": "informar", "de": "informieren / mitteilen", "emoji": "ℹ️", "beispiel_pt": "A câmara informou que a estrada vai estar fechada.", "beispiel_de": "Die Gemeinde hat mitgeteilt, dass die Straße gesperrt sein wird.", "hinweis": "informar alguém de/sobre alguma coisa = jemanden über etwas informieren"},
+  {"id": "o-reporter", "pt": "o repórter", "de": "der Reporter", "emoji": "🎙️", "beispiel_pt": "O repórter estava em direto de Faro.", "beispiel_de": "Der Reporter war live aus Faro zugeschaltet.", "alternativen": ["a repórter"]},
+  {"id": "o-pivo", "pt": "o pivô", "de": "der Nachrichtensprecher / Moderator (TV)", "emoji": "👔", "beispiel_pt": "O pivô do telejornal leu a notícia com ar sério.", "beispiel_de": "Der Nachrichtensprecher hat die Meldung mit ernster Miene vorgelesen.", "hinweis": "pt-PT; BR: o âncora", "alternativen": ["a pivô"], "passiv": true},
+  {"id": "a-atualidade", "pt": "a atualidade", "de": "das aktuelle Geschehen", "emoji": "🌐", "beispiel_pt": "É um programa sobre a atualidade política.", "beispiel_de": "Das ist eine Sendung über das aktuelle politische Geschehen.", "passiv": true},
+  {"id": "o-comunicado", "pt": "o comunicado", "de": "die (offizielle) Mitteilung", "emoji": "📃", "beispiel_pt": "O ministério divulgou um comunicado esta manhã.", "beispiel_de": "Das Ministerium hat heute Morgen eine Mitteilung veröffentlicht.", "hinweis": "o comunicado de imprensa = die Pressemitteilung", "passiv": true},
+  {"id": "noticiar", "pt": "noticiar", "de": "(in den Nachrichten) berichten", "emoji": "🗞️", "beispiel_pt": "Todos os jornais noticiaram o acidente.", "beispiel_de": "Alle Zeitungen haben über den Unfall berichtet.", "passiv": true},
+
+  {"id": "o-primeiro-ministro", "pt": "o primeiro-ministro", "de": "der Premierminister (Regierungschef)", "emoji": "🏛️", "beispiel_pt": "O primeiro-ministro falou ao país ontem à noite.", "beispiel_de": "Der Premierminister hat sich gestern Abend an das Land gewandt.", "hinweis": "In Portugal führt der primeiro-ministro die Regierung (o governo); Staatsoberhaupt ist o Presidente da República.", "alternativen": ["a primeira-ministra"]},
+  {"id": "o-ministro", "pt": "o ministro", "de": "der Minister", "emoji": "👨‍💼", "beispiel_pt": "A ministra da Saúde visitou o hospital de Portimão.", "beispiel_de": "Die Gesundheitsministerin hat das Krankenhaus in Portimão besucht.", "hinweis": "o ministério = das Ministerium; o Ministério da Saúde = das Gesundheitsministerium", "alternativen": ["a ministra"]},
+  {"id": "as-eleicoes", "pt": "as eleições", "de": "die Wahlen", "emoji": "🗳️", "beispiel_pt": "As eleições autárquicas são no outono.", "beispiel_de": "Die Kommunalwahlen sind im Herbst.", "hinweis": "legislativas = Parlamentswahl; autárquicas = Kommunalwahl; presidenciais = Präsidentschaftswahl"},
+  {"id": "o-candidato", "pt": "o candidato", "de": "der Kandidat", "emoji": "✋", "beispiel_pt": "Há cinco candidatos à câmara de Lagos.", "beispiel_de": "Es gibt fünf Kandidaten für das Bürgermeisteramt in Lagos.", "hinweis": "candidatar-se a = kandidieren für", "alternativen": ["a candidata"]},
+  {"id": "o-partido", "pt": "o partido", "de": "die Partei", "emoji": "🏳️", "beispiel_pt": "Que partido ganhou as eleições?", "beispiel_de": "Welche Partei hat die Wahlen gewonnen?"},
+  {"id": "a-campanha-eleitoral", "pt": "a campanha eleitoral", "de": "der Wahlkampf", "emoji": "📊", "beispiel_pt": "Durante a campanha eleitoral, há cartazes em todas as rotundas.", "beispiel_de": "Im Wahlkampf hängen an allen Kreisverkehren Plakate.", "passiv": true},
+  {"id": "a-oposicao", "pt": "a oposição", "de": "die Opposition", "emoji": "⚔️", "beispiel_pt": "A oposição criticou o orçamento do Estado.", "beispiel_de": "Die Opposition hat den Staatshaushalt kritisiert.", "passiv": true},
+  {"id": "a-assembleia-da-republica", "pt": "a Assembleia da República", "de": "das portugiesische Parlament", "emoji": "🇵🇹", "beispiel_pt": "O debate na Assembleia da República durou seis horas.", "beispiel_de": "Die Debatte im Parlament dauerte sechs Stunden.", "hinweis": "Sitz: Palácio de São Bento in Lissabon", "passiv": true},
+  {"id": "o-deputado", "pt": "o deputado", "de": "der Abgeordnete", "emoji": "🧑‍⚖️", "beispiel_pt": "Os deputados aprovaram a nova lei.", "beispiel_de": "Die Abgeordneten haben das neue Gesetz verabschiedet.", "alternativen": ["a deputada"], "passiv": true},
+
+  {"id": "a-inflacao", "pt": "a inflação", "de": "die Inflation", "emoji": "📈", "beispiel_pt": "A inflação voltou a subir este mês.", "beispiel_de": "Die Inflation ist diesen Monat wieder gestiegen."},
+  {"id": "o-aumento", "pt": "o aumento", "de": "die Erhöhung / der Anstieg", "emoji": "⬆️", "beispiel_pt": "O aumento das rendas preocupa muitas famílias.", "beispiel_de": "Der Anstieg der Mieten macht vielen Familien Sorgen.", "hinweis": "aumentar = erhöhen / steigen"},
+  {"id": "o-desemprego", "pt": "o desemprego", "de": "die Arbeitslosigkeit", "emoji": "📉", "beispiel_pt": "No Algarve, o desemprego sobe no inverno.", "beispiel_de": "An der Algarve steigt die Arbeitslosigkeit im Winter.", "hinweis": "desempregado = arbeitslos"},
+  {"id": "o-salario-minimo", "pt": "o salário mínimo", "de": "der Mindestlohn", "emoji": "💶", "beispiel_pt": "Se o salário mínimo fosse mais alto, muita gente vivia melhor.", "beispiel_de": "Wenn der Mindestlohn höher wäre, würden viele Leute besser leben."},
+  {"id": "a-pensao", "pt": "a pensão", "de": "die Rente / Pension", "emoji": "👵", "beispiel_pt": "A minha vizinha vive só da pensão.", "beispiel_de": "Meine Nachbarin lebt nur von ihrer Rente.", "hinweis": "Auch: die Pension (einfaches Gästehaus). o reformado = der Rentner"},
+  {"id": "o-combustivel", "pt": "o combustível", "de": "der Treibstoff / Sprit", "emoji": "⛽", "beispiel_pt": "O preço dos combustíveis desceu esta semana.", "beispiel_de": "Der Spritpreis ist diese Woche gesunken."},
+  {"id": "a-descida", "pt": "a descida", "de": "die Senkung / der Rückgang", "emoji": "⬇️", "beispiel_pt": "O governo anunciou uma descida do IVA na eletricidade.", "beispiel_de": "Die Regierung hat eine Senkung der Mehrwertsteuer auf Strom angekündigt.", "hinweis": "Gegenteil: a subida", "passiv": true},
+  {"id": "o-poder-de-compra", "pt": "o poder de compra", "de": "die Kaufkraft", "emoji": "🛒", "beispiel_pt": "Com a inflação, as famílias perderam poder de compra.", "beispiel_de": "Durch die Inflation haben die Familien an Kaufkraft verloren.", "passiv": true},
+  {"id": "o-orcamento-do-estado", "pt": "o orçamento do Estado", "de": "der Staatshaushalt", "emoji": "🧮", "beispiel_pt": "O orçamento do Estado para o próximo ano foi aprovado ontem.", "beispiel_de": "Der Staatshaushalt für das nächste Jahr wurde gestern beschlossen.", "hinweis": "In den Nachrichten oft kurz: o OE", "passiv": true},
+
+  {"id": "a-manifestacao", "pt": "a manifestação", "de": "die Demonstration", "emoji": "📢", "beispiel_pt": "Houve uma manifestação em Lisboa pelo direito à habitação.", "beispiel_de": "In Lissabon gab es eine Demonstration für das Recht auf Wohnen.", "hinweis": "umgangssprachlich: a manif"},
+  {"id": "protestar", "pt": "protestar", "de": "protestieren", "emoji": "✊", "beispiel_pt": "Os moradores protestaram contra o novo hotel.", "beispiel_de": "Die Anwohner haben gegen das neue Hotel protestiert."},
+  {"id": "o-direito", "pt": "o direito", "de": "das Recht", "emoji": "⚖️", "beispiel_pt": "Todos têm direito a uma casa digna.", "beispiel_de": "Alle haben ein Recht auf eine menschenwürdige Wohnung.", "hinweis": "ter direito a = Anspruch haben auf; o Direito = Jura (Studienfach)"},
+  {"id": "acessivel", "pt": "acessível", "de": "bezahlbar / erschwinglich; zugänglich", "emoji": "🏘️", "beispiel_pt": "Faltam casas a preços acessíveis.", "beispiel_de": "Es fehlen Wohnungen zu bezahlbaren Preisen.", "hinweis": "a renda acessível = die leistbare Miete; auch: barrierefrei (acessível a cadeiras de rodas)"},
+  {"id": "o-apoio", "pt": "o apoio", "de": "die Unterstützung / Förderung", "emoji": "🫶", "beispiel_pt": "O governo vai dar um apoio às famílias com filhos.", "beispiel_de": "Die Regierung wird Familien mit Kindern eine Unterstützung zahlen.", "hinweis": "apoiar = unterstützen"},
+  {"id": "o-sindicato", "pt": "o sindicato", "de": "die Gewerkschaft", "emoji": "🪧", "beispiel_pt": "O sindicato dos professores marcou uma greve para sexta-feira.", "beispiel_de": "Die Lehrergewerkschaft hat für Freitag einen Streik angesetzt.", "passiv": true},
+  {"id": "reivindicar", "pt": "reivindicar", "de": "fordern (Rechte, Lohn)", "emoji": "📣", "beispiel_pt": "Os enfermeiros reivindicam melhores salários.", "beispiel_de": "Die Pflegekräfte fordern bessere Löhne.", "hinweis": "a reivindicação = die Forderung", "passiv": true},
+  {"id": "a-peticao", "pt": "a petição", "de": "die Petition", "emoji": "📝", "beispiel_pt": "Mais de dez mil pessoas assinaram a petição.", "beispiel_de": "Mehr als zehntausend Menschen haben die Petition unterschrieben.", "passiv": true},
+  {"id": "o-manifestante", "pt": "o manifestante", "de": "der Demonstrant", "emoji": "🙋", "beispiel_pt": "Os manifestantes encheram a Avenida da Liberdade.", "beispiel_de": "Die Demonstranten füllten die Avenida da Liberdade.", "alternativen": ["a manifestante"], "passiv": true},
+
+  {"id": "o-bombeiro", "pt": "o bombeiro", "de": "der Feuerwehrmann", "emoji": "🚒", "beispiel_pt": "Os bombeiros chegaram em dez minutos.", "beispiel_de": "Die Feuerwehr war in zehn Minuten da.", "hinweis": "os bombeiros = die Feuerwehr; in Portugal oft Freiwillige: os bombeiros voluntários", "alternativen": ["a bombeira"]},
+  {"id": "a-vitima", "pt": "a vítima", "de": "das Opfer", "emoji": "🆘", "beispiel_pt": "Felizmente, não houve vítimas.", "beispiel_de": "Zum Glück gab es keine Opfer.", "hinweis": "Immer feminin – auch für Männer: o homem foi a única vítima."},
+  {"id": "ferido", "pt": "ferido", "de": "verletzt", "emoji": "🤕", "beispiel_pt": "O condutor ficou ferido sem gravidade.", "beispiel_de": "Der Fahrer wurde leicht verletzt.", "hinweis": "um ferido = ein Verletzter; ferido ligeiro / grave = leicht / schwer verletzt", "alternativen": ["ferida"]},
+  {"id": "a-policia", "pt": "a polícia", "de": "die Polizei", "emoji": "🚓", "beispiel_pt": "A polícia fechou a rua durante duas horas.", "beispiel_de": "Die Polizei hat die Straße zwei Stunden lang gesperrt.", "hinweis": "pt-PT: o/a polícia = auch der Polizist / die Polizistin. PSP in den Städten, GNR auf dem Land und auf den Straßen."},
+  {"id": "a-testemunha", "pt": "a testemunha", "de": "der Zeuge / die Zeugin", "emoji": "👀", "beispiel_pt": "Segundo as testemunhas, o carro ia muito depressa.", "beispiel_de": "Laut den Zeugen fuhr das Auto sehr schnell.", "hinweis": "Immer feminin, auch für Männer."},
+  {"id": "o-assalto", "pt": "o assalto", "de": "der Überfall / Einbruch", "emoji": "🦹", "beispiel_pt": "Houve um assalto a uma bomba de gasolina em Portimão.", "beispiel_de": "In Portimão wurde eine Tankstelle überfallen.", "hinweis": "o assaltante = der Räuber / Einbrecher", "passiv": true},
+  {"id": "detido", "pt": "detido", "de": "festgenommen", "emoji": "🚔", "beispiel_pt": "Dois suspeitos foram detidos pela GNR.", "beispiel_de": "Zwei Verdächtige wurden von der GNR festgenommen.", "hinweis": "deter (wie ter) = festnehmen: a polícia deteve …", "alternativen": ["detida"], "passiv": true},
+  {"id": "evacuar", "pt": "evacuar", "de": "evakuieren / räumen", "emoji": "🏃", "beispiel_pt": "Os bombeiros evacuaram três casas por precaução.", "beispiel_de": "Die Feuerwehr hat vorsichtshalber drei Häuser geräumt.", "passiv": true},
+  {"id": "as-chamas", "pt": "as chamas", "de": "die Flammen", "emoji": "🔥", "beispiel_pt": "As chamas chegaram muito perto das casas.", "beispiel_de": "Die Flammen kamen den Häusern sehr nahe.", "passiv": true},
+
+  {"id": "a-trovoada", "pt": "a trovoada", "de": "das Gewitter", "emoji": "⛈️", "beispiel_pt": "Esta tarde há risco de trovoada no interior.", "beispiel_de": "Heute Nachmittag besteht im Landesinneren Gewittergefahr."},
+  {"id": "a-vaga-de-frio", "pt": "a vaga de frio", "de": "die Kältewelle", "emoji": "🥶", "beispiel_pt": "A vaga de frio vai durar até domingo.", "beispiel_de": "Die Kältewelle dauert bis Sonntag.", "hinweis": "Auch: a vaga de calor (= a onda de calor, Hitzewelle)"},
+  {"id": "a-previsao", "pt": "a previsão", "de": "die Vorhersage / Prognose", "emoji": "🌤️", "beispiel_pt": "A previsão para amanhã é de chuva.", "beispiel_de": "Für morgen ist Regen vorhergesagt.", "hinweis": "a previsão do tempo = der Wetterbericht"},
+  {"id": "o-engarrafamento", "pt": "o engarrafamento", "de": "der Stau", "emoji": "🚗", "beispiel_pt": "Há um engarrafamento de cinco quilómetros na A2.", "beispiel_de": "Auf der A2 gibt es fünf Kilometer Stau.", "hinweis": "auch: a fila de trânsito"},
+  {"id": "o-desvio", "pt": "o desvio", "de": "die Umleitung", "emoji": "↪️", "beispiel_pt": "Por causa das obras, há um desvio pela estrada municipal.", "beispiel_de": "Wegen der Bauarbeiten gibt es eine Umleitung über die Gemeindestraße."},
+  {"id": "cortado", "pt": "cortado", "de": "gesperrt (Straße)", "emoji": "🚧", "beispiel_pt": "A estrada está cortada por causa do incêndio.", "beispiel_de": "Die Straße ist wegen des Brandes gesperrt.", "hinweis": "cortar o trânsito = den Verkehr sperren; sonst: geschnitten", "alternativen": ["cortada"]},
+  {"id": "os-aguaceiros", "pt": "os aguaceiros", "de": "die Regenschauer", "emoji": "🌦️", "beispiel_pt": "Céu nublado, com aguaceiros fracos durante a manhã.", "beispiel_de": "Bewölkt, am Vormittag leichte Regenschauer.", "passiv": true},
+  {"id": "a-rajada", "pt": "a rajada (de vento)", "de": "die (Wind-)Böe", "emoji": "💨", "beispiel_pt": "Há rajadas de vento até oitenta quilómetros por hora.", "beispiel_de": "Es gibt Böen bis zu achtzig Kilometern pro Stunde.", "alternativen": ["a rajada"], "passiv": true},
+  {"id": "a-agitacao-maritima", "pt": "a agitação marítima", "de": "der Seegang", "emoji": "🌊", "beispiel_pt": "O aviso de agitação marítima é para toda a costa sul.", "beispiel_de": "Die Seegangswarnung gilt für die ganze Südküste.", "passiv": true},
+  {"id": "o-despiste", "pt": "o despiste", "de": "das Abkommen von der Fahrbahn (Unfall)", "emoji": "🛞", "beispiel_pt": "Um despiste na A22 provocou um ferido ligeiro.", "beispiel_de": "Ein Auto ist auf der A22 von der Fahrbahn abgekommen; eine Person wurde leicht verletzt.", "hinweis": "despistar-se = von der Straße abkommen", "passiv": true},
+
+  {"id": "o-presidente-da-camara", "pt": "o presidente da câmara", "de": "der Bürgermeister", "emoji": "🎖️", "beispiel_pt": "O presidente da câmara de Lagos inaugurou o novo parque.", "beispiel_de": "Der Bürgermeister von Lagos hat den neuen Park eröffnet.", "alternativen": ["a presidente da câmara"]},
+  {"id": "o-morador", "pt": "o morador", "de": "der Anwohner / Bewohner", "emoji": "🏡", "beispiel_pt": "Os moradores queixam-se do barulho.", "beispiel_de": "Die Anwohner beschweren sich über den Lärm.", "alternativen": ["a moradora"]},
+  {"id": "inaugurar", "pt": "inaugurar", "de": "eröffnen / einweihen", "emoji": "✂️", "beispiel_pt": "O novo mercado vai ser inaugurado em maio.", "beispiel_de": "Der neue Markt wird im Mai eröffnet."},
+  {"id": "estar-em-obras", "pt": "estar em obras", "de": "eine Baustelle sein / umgebaut werden", "emoji": "🏗️", "beispiel_pt": "A avenida está em obras até ao verão.", "beispiel_de": "Auf der Avenida wird bis zum Sommer gebaut.", "hinweis": "as obras = die Bauarbeiten"},
+  {"id": "a-falta-de-agua", "pt": "a falta de água", "de": "der Wassermangel", "emoji": "🚱", "beispiel_pt": "A falta de água é um problema sério no Algarve.", "beispiel_de": "Wassermangel ist an der Algarve ein ernstes Problem."},
+  {"id": "o-estacionamento", "pt": "o estacionamento", "de": "das Parken / die Parkmöglichkeit", "emoji": "🅿️", "beispiel_pt": "No verão é quase impossível encontrar estacionamento no centro.", "beispiel_de": "Im Sommer findet man im Zentrum kaum einen Parkplatz.", "hinweis": "o parque de estacionamento = der Parkplatz / das Parkhaus"},
+  {"id": "a-autarquia", "pt": "a autarquia", "de": "die Gemeinde(verwaltung)", "emoji": "🏢", "beispiel_pt": "A autarquia vai investir dois milhões na escola.", "beispiel_de": "Die Gemeinde investiert zwei Millionen in die Schule.", "hinweis": "Zeitungswort für die câmara; autárquico = kommunal", "passiv": true},
+  {"id": "o-abastecimento-de-agua", "pt": "o abastecimento de água", "de": "die Wasserversorgung", "emoji": "💧", "beispiel_pt": "O abastecimento de água vai ser interrompido amanhã de manhã.", "beispiel_de": "Die Wasserversorgung wird morgen Vormittag unterbrochen.", "passiv": true},
+  {"id": "a-requalificacao", "pt": "a requalificação", "de": "die Sanierung / Neugestaltung", "emoji": "🛠️", "beispiel_pt": "A requalificação da marginal custou três milhões de euros.", "beispiel_de": "Die Neugestaltung der Uferpromenade hat drei Millionen Euro gekostet.", "passiv": true},
+
+  {"id": "o-campeonato", "pt": "o campeonato", "de": "die Meisterschaft / Liga", "emoji": "🏆", "beispiel_pt": "Quem vai ganhar o campeonato este ano?", "beispiel_de": "Wer wird dieses Jahr Meister?"},
+  {"id": "o-golo", "pt": "o golo", "de": "das Tor (Treffer)", "emoji": "⚽", "beispiel_pt": "Que golo fantástico!", "beispiel_de": "Was für ein fantastisches Tor!", "hinweis": "pt-PT: o golo (BR: o gol); marcar um golo = ein Tor schießen; a baliza = das Tor (Gehäuse)"},
+  {"id": "o-adepto", "pt": "o adepto", "de": "der Fan / Anhänger", "emoji": "🧣", "beispiel_pt": "Os adeptos cantaram durante o jogo todo.", "beispiel_de": "Die Fans haben das ganze Spiel über gesungen.", "hinweis": "pt-PT: o adepto (BR: o torcedor); ser adepto do Benfica = Benfica-Fan sein", "alternativen": ["a adepta"]},
+  {"id": "o-treinador", "pt": "o treinador", "de": "der Trainer", "emoji": "📋", "beispiel_pt": "O treinador mudou três jogadores ao intervalo.", "beispiel_de": "Der Trainer hat in der Pause drei Spieler ausgewechselt.", "alternativen": ["a treinadora"]},
+  {"id": "empatar", "pt": "empatar", "de": "unentschieden spielen", "emoji": "🤝", "beispiel_pt": "O jogo acabou empatado: um a um.", "beispiel_de": "Das Spiel endete unentschieden: eins zu eins.", "hinweis": "o empate = das Unentschieden; empate a zero = 0:0"},
+  {"id": "a-vitoria", "pt": "a vitória", "de": "der Sieg", "emoji": "🥇", "beispiel_pt": "Foi uma vitória importante para a equipa.", "beispiel_de": "Das war ein wichtiger Sieg für die Mannschaft."},
+  {"id": "a-derrota", "pt": "a derrota", "de": "die Niederlage", "emoji": "😞", "beispiel_pt": "Depois da derrota, os adeptos estavam tristes.", "beispiel_de": "Nach der Niederlage waren die Fans traurig.", "passiv": true},
+  {"id": "o-arbitro", "pt": "o árbitro", "de": "der Schiedsrichter", "emoji": "🟨", "beispiel_pt": "O árbitro mostrou o cartão amarelo.", "beispiel_de": "Der Schiedsrichter hat die gelbe Karte gezeigt.", "passiv": true},
+  {"id": "a-grande-penalidade", "pt": "a grande penalidade", "de": "der Elfmeter", "emoji": "🥅", "beispiel_pt": "O árbitro marcou grande penalidade no último minuto.", "beispiel_de": "Der Schiedsrichter hat in der letzten Minute auf Elfmeter entschieden.", "hinweis": "umgangssprachlich: o penálti", "passiv": true},
+
+  {"id": "o-festival", "pt": "o festival", "de": "das Festival", "emoji": "🎪", "beispiel_pt": "No verão há um festival de música em quase todas as vilas.", "beispiel_de": "Im Sommer gibt es in fast jedem Städtchen ein Musikfestival."},
+  {"id": "o-premio", "pt": "o prémio", "de": "der Preis / die Auszeichnung", "emoji": "🏅", "beispiel_pt": "O filme ganhou um prémio em Berlim.", "beispiel_de": "Der Film hat in Berlin einen Preis gewonnen.", "hinweis": "pt-PT: prémio (BR: prêmio)"},
+  {"id": "o-palco", "pt": "o palco", "de": "die Bühne", "emoji": "🎭", "beispiel_pt": "A banda subiu ao palco às dez da noite.", "beispiel_de": "Die Band ist um zehn Uhr abends auf die Bühne gegangen."},
+  {"id": "atuar", "pt": "atuar", "de": "auftreten (Künstler)", "emoji": "🎤", "beispiel_pt": "A fadista vai atuar no Centro Cultural de Lagos.", "beispiel_de": "Die Fadosängerin tritt im Kulturzentrum von Lagos auf.", "hinweis": "auch: handeln (Temos de atuar já.)"},
+  {"id": "o-publico", "pt": "o público", "de": "das Publikum", "emoji": "👏", "beispiel_pt": "O público aplaudiu de pé.", "beispiel_de": "Das Publikum hat im Stehen applaudiert."},
+  {"id": "o-realizador", "pt": "o realizador", "de": "der (Film-)Regisseur", "emoji": "🎬", "beispiel_pt": "O realizador apresentou o filme no festival.", "beispiel_de": "Der Regisseur hat den Film beim Festival vorgestellt.", "hinweis": "pt-PT: realizador (BR: diretor)", "alternativen": ["a realizadora"], "passiv": true},
+  {"id": "a-digressao", "pt": "a digressão", "de": "die Tournee", "emoji": "🚌", "beispiel_pt": "A banda está em digressão pela Europa.", "beispiel_de": "Die Band ist auf Europatournee.", "hinweis": "pt-PT; BR: a turnê", "passiv": true},
+  {"id": "o-elenco", "pt": "o elenco", "de": "die Besetzung (Film, Theater)", "emoji": "🎞️", "beispiel_pt": "O elenco da peça é quase todo do Algarve.", "beispiel_de": "Die Besetzung des Stücks kommt fast ganz von der Algarve.", "passiv": true},
+  {"id": "a-critica", "pt": "a crítica", "de": "die Kritik / Rezension", "emoji": "✒️", "beispiel_pt": "A peça teve ótimas críticas.", "beispiel_de": "Das Stück hat ausgezeichnete Kritiken bekommen.", "hinweis": "o crítico = der Kritiker", "passiv": true},
+
+  {"id": "exagerado", "pt": "exagerado", "de": "übertrieben", "emoji": "🙄", "beispiel_pt": "Acho o título um pouco exagerado.", "beispiel_de": "Ich finde die Überschrift etwas übertrieben.", "hinweis": "exagerar = übertreiben", "alternativen": ["exagerada"]},
+  {"id": "preocupante", "pt": "preocupante", "de": "besorgniserregend", "emoji": "😟", "beispiel_pt": "Os números do desemprego são preocupantes.", "beispiel_de": "Die Arbeitslosenzahlen sind besorgniserregend."},
+  {"id": "chocante", "pt": "chocante", "de": "schockierend", "emoji": "😱", "beispiel_pt": "As imagens do incêndio são chocantes.", "beispiel_de": "Die Bilder vom Brand sind schockierend."},
+  {"id": "surpreendente", "pt": "surpreendente", "de": "überraschend", "emoji": "😮", "beispiel_pt": "O resultado das eleições foi surpreendente.", "beispiel_de": "Das Wahlergebnis war überraschend."},
+  {"id": "o-titulo", "pt": "o título", "de": "die Überschrift / der Titel", "emoji": "🔠", "beispiel_pt": "O título diz uma coisa, mas o artigo diz outra.", "beispiel_de": "Die Überschrift sagt das eine, der Artikel etwas anderes."},
+  {"id": "levar-a-serio", "pt": "levar a sério", "de": "ernst nehmen", "emoji": "🧐", "beispiel_pt": "Não levo estas notícias a sério.", "beispiel_de": "Ich nehme diese Nachrichten nicht ernst."},
+  {"id": "credivel", "pt": "credível", "de": "glaubwürdig", "emoji": "✔️", "beispiel_pt": "Esse site não é uma fonte credível.", "beispiel_de": "Diese Website ist keine glaubwürdige Quelle.", "hinweis": "pt-PT; in BR eher: confiável", "passiv": true},
+  {"id": "sensacionalista", "pt": "sensacionalista", "de": "reißerisch / sensationslüstern", "emoji": "🤯", "beispiel_pt": "Aquele jornal é muito sensacionalista.", "beispiel_de": "Diese Zeitung ist sehr reißerisch.", "passiv": true},
+  {"id": "por-em-causa", "pt": "pôr em causa", "de": "in Frage stellen", "emoji": "❔", "beispiel_pt": "Ninguém põe em causa os factos.", "beispiel_de": "Niemand stellt die Fakten in Frage.", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-06-L01",
+   "typ": "neu",
+   "titel": "Eine Nachrichtenmeldung verstehen – der Konditional",
+   "vokabeln": ["o-noticiario", "a-reportagem", "o-destaque", "de-ultima-hora", "informar", "o-reporter", "o-pivo", "a-atualidade", "o-comunicado", "noticiar"],
+   "grammatik": {
+    "titel": "O condicional – formas e usos",
+    "erklaerung": [
+     "O <b>condicional</b> exprime o que <i>aconteceria</i>: um desejo, uma hipótese ou um pedido delicado: <i>Eu <b>gostaria</b> de ver a reportagem.</i> <i><b>Poderia</b> repetir?</i>",
+     "Formação: infinitivo + <b>-ia, -ias, -ia, -íamos, -iam</b>: <i>falar<b>ia</b>, comer<b>ias</b>, ser<b>ia</b>, ir<b>íamos</b>, ter<b>iam</b></i>. Só três verbos são irregulares: <b>dizer → diria</b>, <b>fazer → faria</b>, <b>trazer → traria</b>.",
+     "Nas notícias, o condicional serve para dar uma informação <b>ainda não confirmada</b>: <i>Segundo o jornal, o governo <b>estaria</b> a preparar novas medidas.</i> Com o mesmo sentido, os jornalistas portugueses usam muito o futuro: <i>O incêndio <b>terá começado</b> numa casa abandonada.</i>",
+     "Na conversa do dia a dia, os portugueses preferem muitas vezes o <b>imperfeito</b>: <i>Eu <b>gostava</b> de ver o noticiário.</i> = <i>Eu <b>gostaria</b> …</i> · <i><b>Podia</b> repetir?</i> = <i><b>Poderia</b> repetir?</i> As duas formas estão corretas."
+    ],
+    "erklaerung_de": [
+     "Der <b>Konditional</b> drückt aus, was <i>geschehen würde</i>: einen Wunsch, eine Annahme oder eine höfliche Bitte: <i>Ich <b>würde</b> gern die Reportage sehen.</i> <i><b>Könnten</b> Sie das wiederholen?</i>",
+     "Bildung: Infinitiv + <b>-ia, -ias, -ia, -íamos, -iam</b>: <i>falar<b>ia</b>, comer<b>ias</b>, ser<b>ia</b>, ir<b>íamos</b>, ter<b>iam</b></i>. Nur drei Verben sind unregelmäßig: <b>dizer → diria</b>, <b>fazer → faria</b>, <b>trazer → traria</b>.",
+     "In den Nachrichten kennzeichnet der Konditional eine <b>noch nicht bestätigte</b> Information: <i>Laut der Zeitung <b>soll</b> die Regierung neue Maßnahmen vorbereiten.</i> Mit derselben Bedeutung verwenden portugiesische Journalisten oft das Futur: <i>Das Feuer <b>soll</b> in einem verlassenen Haus <b>ausgebrochen sein</b>.</i>",
+     "Im Alltag sagen Portugiesen statt des Konditionals oft das <b>Imperfeito</b>: <i>Eu <b>gostava</b> de ver o noticiário.</i> = <i>Eu <b>gostaria</b> …</i> · <i><b>Podia</b> repetir?</i> = <i><b>Poderia</b> repetir?</i> Beide Formen sind richtig."
+    ],
+    "vergleich": "Das Deutsche bildet den Konditional meist mit „würde“ + Infinitiv (Englisch: would). Portugiesisch braucht nur eine Endung: <i>faria</i> = „ich würde machen“. Der „Gerüchte-Konditional“ der Nachrichten (<i>o suspeito estaria …</i>) entspricht dem deutschen „soll“: „Der Verdächtige soll … sein.“",
+    "beispiele": [
+     {"pt": "Segundo o jornal, o governo estaria a preparar novas medidas.", "de": "Laut der Zeitung soll die Regierung neue Maßnahmen vorbereiten."},
+     {"pt": "Eu gostaria de ver a reportagem sobre a seca.", "de": "Ich würde gern die Reportage über die Dürre sehen."},
+     {"pt": "Podias aumentar o volume? Está a dar o noticiário.", "de": "Könntest du lauter machen? Gerade laufen die Nachrichten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Eu ___ de ver a reportagem. (gostar – condicional)", "loesungen": ["gostaria"], "de": "Ich würde gern die Reportage sehen.", "kategorie": "Condicional"},
+     {"typ": "luecke", "satz": "Nós ___ isso de outra maneira. (fazer – condicional)", "loesungen": ["faríamos"], "de": "Wir würden das anders machen.", "erklaerung": "fazer ist unregelmäßig: far- + íamos = faríamos.", "kategorie": "Condicional"},
+     {"typ": "luecke", "satz": "Segundo a polícia, o suspeito ___ cerca de trinta anos. (ter – condicional)", "loesungen": ["teria"], "de": "Laut Polizei soll der Verdächtige etwa dreißig Jahre alt sein.", "kategorie": "Condicional"},
+     {"typ": "luecke", "satz": "Eu não ___ isso ao meu chefe. (dizer – condicional)", "loesungen": ["diria"], "de": "Ich würde das meinem Chef nicht sagen.", "erklaerung": "dizer → diria (nicht *dizeria).", "kategorie": "Condicional"},
+     {"typ": "auswahl", "frage": "Welche Form ist der Konditional von „trazer“ (eles)?", "optionen": ["trazeriam", "trariam", "trouxeram"], "richtig": 1, "erklaerung": "trazer ist eines der drei unregelmäßigen Verben: trar- + iam.", "kategorie": "Condicional"},
+     {"typ": "auswahl", "frage": "Was bedeutet in einer Meldung: „O incêndio terá começado numa casa abandonada.“?", "optionen": ["Das Feuer wird in einem verlassenen Haus ausbrechen.", "Das Feuer soll in einem verlassenen Haus ausgebrochen sein.", "Das Feuer ist sicher in einem verlassenen Haus ausgebrochen."], "richtig": 1, "erklaerung": "In Nachrichten drückt das Futur (terá começado) eine Vermutung aus – wie das deutsche „soll“.", "kategorie": "Condicional"},
+     {"typ": "uebersetzen", "de": "Könnten Sie das bitte wiederholen?", "loesungen": ["Podia repetir, se faz favor?", "Podia repetir, por favor?", "Poderia repetir, se faz favor?", "Poderia repetir, por favor?", "Podia repetir isso, se faz favor?", "Poderia repetir isso, por favor?", "Podia repetir isso, por favor?", "Poderia repetir isso, se faz favor?", "Se faz favor, podia repetir?", "Por favor, podia repetir?"], "kategorie": "Condicional"},
+     {"typ": "satzbau", "de": "Laut der Zeitung soll die Regierung neue Maßnahmen vorbereiten.", "loesung": "Segundo o jornal, o governo estaria a preparar novas medidas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O noticiário das oito – die Acht-Uhr-Nachrichten",
+    "situation": "Stefan hört im Auto die Abendnachrichten eines Lokalradios.",
+    "zeilen": [
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Boa noite. São oito horas e estas são as notícias.", "de": "Guten Abend. Es ist acht Uhr, hier sind die Nachrichten."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Temos uma notícia de última hora: um incêndio perto de Aljezur obrigou duas famílias a sair de casa esta tarde.", "de": "Wir haben eine Eilmeldung: Ein Brand in der Nähe von Aljezur hat heute Nachmittag zwei Familien gezwungen, ihre Häuser zu verlassen."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Segundo o comunicado da Proteção Civil, o fogo terá começado numa casa abandonada. Não há feridos.", "de": "Laut der Mitteilung des Zivilschutzes soll das Feuer in einem verlassenen Haus ausgebrochen sein. Es gibt keine Verletzten."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Na atualidade política, o governo informou que o passe de comboio vai ficar mais barato a partir de janeiro.", "de": "Aus der Politik: Die Regierung hat mitgeteilt, dass die Zugmonatskarte ab Jänner billiger wird."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Boa noite. Segundo fontes do ministério, a medida custaria cerca de vinte milhões de euros por ano.", "de": "Guten Abend. Laut Quellen aus dem Ministerium soll die Maßnahme rund zwanzig Millionen Euro pro Jahr kosten."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "A oposição diz que seria melhor investir primeiro em mais comboios.", "de": "Die Opposition sagt, es wäre besser, zuerst in mehr Züge zu investieren."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "E agora, o tempo: amanhã teremos sol em todo o Algarve, com máximas de vinte e oito graus.", "de": "Und jetzt das Wetter: Morgen haben wir an der ganzen Algarve Sonne, mit Höchstwerten von achtundzwanzig Grad."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Voltamos às nove, com mais notícias. Boa noite.", "de": "Wir melden uns um neun Uhr mit weiteren Nachrichten. Guten Abend."}
+    ],
+    "fragen": [
+     {"frage": "Onde foi o incêndio?", "optionen": ["Perto de Lagos.", "Em Lisboa.", "Perto de Aljezur."], "richtig": 2},
+     {"frage": "O que se sabe sobre as vítimas?", "optionen": ["Não há feridos.", "Há dois feridos graves.", "Ainda não se sabe."], "richtig": 0},
+     {"frage": "O que vai ficar mais barato a partir de janeiro?", "optionen": ["A gasolina.", "O passe de comboio.", "A eletricidade."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Está a dar o noticiário das oito.", "de": "Gerade laufen die Acht-Uhr-Nachrichten."},
+     {"pt": "Temos uma notícia de última hora.", "de": "Wir haben eine Eilmeldung."},
+     {"pt": "Eu gostaria de ver a reportagem sobre a seca.", "de": "Ich würde gern die Reportage über die Dürre sehen."},
+     {"pt": "Segundo a rádio, o incêndio estaria controlado.", "de": "Laut Radio soll der Brand unter Kontrolle sein."},
+     {"pt": "Podia repetir, se faz favor?", "de": "Könnten Sie das bitte wiederholen?"}
+    ]
+   },
+   "saetze": [
+    {"id": "gostaria-de-ver", "pt": "Eu gostaria de ver o noticiário das oito.", "de": "Ich würde gern die Acht-Uhr-Nachrichten sehen."},
+    {"id": "segundo-o-jornal-estaria", "pt": "Segundo o jornal, o governo estaria a preparar novas medidas.", "de": "Laut der Zeitung soll die Regierung neue Maßnahmen vorbereiten."},
+    {"id": "podias-aumentar-o-volume", "pt": "Podias aumentar o volume? Está a dar o noticiário.", "de": "Könntest du lauter machen? Gerade laufen die Nachrichten."}
+   ]
+  },
+  {
+   "id": "B1-06-L02",
+   "typ": "neu",
+   "titel": "Politik – der Imperfeito do conjuntivo",
+   "vokabeln": ["o-primeiro-ministro", "o-ministro", "as-eleicoes", "o-candidato", "o-partido", "a-campanha-eleitoral", "a-oposicao", "a-assembleia-da-republica", "o-deputado"],
+   "grammatik": {
+    "titel": "O imperfeito do conjuntivo – as formas",
+    "erklaerung": [
+     "O <b>imperfeito do conjuntivo</b> é o conjuntivo das situações <b>hipotéticas</b> e do <b>passado</b>: <i>se eu <b>tivesse</b> tempo …</i>, <i>queria que tu <b>viesses</b></i>, <i>como se <b>fosse</b> fácil</i>.",
+     "Formação: parte-se da 3.ª pessoa do plural do <b>pretérito perfeito</b>, tira-se <b>-ram</b> e junta-se <b>-sse, -sses, -sse, -ssemos, -ssem</b>: <i>falaram → fala<b>sse</b></i>, <i>comeram → come<b>sse</b></i>, <i>partiram → parti<b>sse</b></i>.",
+     "Assim, os verbos irregulares ficam fáceis: <i>foram → <b>fosse</b></i> (ser e ir), <i>tiveram → <b>tivesse</b></i>, <i>estiveram → <b>estivesse</b></i>, <i>fizeram → <b>fizesse</b></i>, <i>puderam → <b>pudesse</b></i>, <i>disseram → <b>dissesse</b></i>, <i>quiseram → <b>quisesse</b></i>, <i>souberam → <b>soubesse</b></i>, <i>vieram → <b>viesse</b></i>, <i>deram → <b>desse</b></i>, <i>houve → <b>houvesse</b></i>.",
+     "Atenção ao acento na forma <b>nós</b>: <i>falá<b>ssemos</b>, comê<b>ssemos</b>, partí<b>ssemos</b>, fô<b>ssemos</b>, tivé<b>ssemos</b>, pudé<b>ssemos</b></i>."
+    ],
+    "erklaerung_de": [
+     "Der <b>Imperfeito do conjuntivo</b> ist der Konjunktiv für <b>hypothetische</b> Situationen und für die <b>Vergangenheit</b>: <i>wenn ich Zeit <b>hätte</b> …</i>, <i>ich wollte, dass du <b>kommst</b></i>, <i>als ob es leicht <b>wäre</b></i>.",
+     "Bildung: Man nimmt die 3. Person Plural des <b>Pretérito perfeito</b>, streicht <b>-ram</b> und hängt <b>-sse, -sses, -sse, -ssemos, -ssem</b> an: <i>falaram → fala<b>sse</b></i>, <i>comeram → come<b>sse</b></i>, <i>partiram → parti<b>sse</b></i>.",
+     "So werden auch die unregelmäßigen Verben einfach: <i>foram → <b>fosse</b></i> (ser und ir), <i>tiveram → <b>tivesse</b></i>, <i>estiveram → <b>estivesse</b></i>, <i>fizeram → <b>fizesse</b></i>, <i>puderam → <b>pudesse</b></i>, <i>disseram → <b>dissesse</b></i>, <i>quiseram → <b>quisesse</b></i>, <i>souberam → <b>soubesse</b></i>, <i>vieram → <b>viesse</b></i>, <i>deram → <b>desse</b></i>, <i>houve → <b>houvesse</b></i>.",
+     "Achtung auf den Akzent in der <b>nós</b>-Form: <i>falá<b>ssemos</b>, comê<b>ssemos</b>, partí<b>ssemos</b>, fô<b>ssemos</b>, tivé<b>ssemos</b>, pudé<b>ssemos</b></i>."
+    ],
+    "vergleich": "Entspricht dem deutschen Konjunktiv II (wäre, hätte, könnte, käme) – Englisch: „if I were“, „if I had“. Wie im Deutschen leitet man ihn von der Vergangenheit ab: „kam → käme“, ganz ähnlich wie <i>vieram → viesse</i>.",
+    "beispiele": [
+     {"pt": "Se eu pudesse votar nas legislativas, também votava.", "de": "Wenn ich bei der Parlamentswahl wählen dürfte, würde ich auch wählen."},
+     {"pt": "O ministro falou como se não houvesse crise.", "de": "Der Minister sprach, als gäbe es keine Krise."},
+     {"pt": "A oposição queria que o governo fizesse mais pela habitação.", "de": "Die Opposition wollte, dass die Regierung mehr für den Wohnraum tut."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se o governo ___ mais dinheiro, baixava os impostos. (ter)", "loesungen": ["tivesse"], "de": "Wenn die Regierung mehr Geld hätte, würde sie die Steuern senken.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Queria que vocês ___ votar. (ir)", "loesungen": ["fossem"], "de": "Ich wollte, dass ihr wählen geht.", "erklaerung": "ir und ser haben dieselbe Form: foram → fosse, fossem.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Se nós ___ a verdade, dizíamos. (saber)", "loesungen": ["soubéssemos"], "de": "Wenn wir die Wahrheit wüssten, würden wir sie sagen.", "erklaerung": "souberam → soube- + ssemos; in der nós-Form mit Akzent: soubéssemos.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "O ministro falou como se tudo ___ bem. (estar)", "loesungen": ["estivesse"], "de": "Der Minister sprach, als ob alles in Ordnung wäre.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "eles disseram → Imperfeito do conjuntivo (eu)?", "optionen": ["dizesse", "dissesse", "dissera"], "richtig": 1, "erklaerung": "Immer vom Pretérito perfeito ausgehen: disseram → disse- + sse.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "Welche Form ist richtig? „se nós ___“ (poder)", "optionen": ["pudéssemos", "podéssemos", "pudessemos"], "richtig": 0, "erklaerung": "puderam → pude- + ssemos, mit Akzent: pudéssemos.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Wenn ich Portugiese wäre, würde ich wählen.", "loesungen": ["Se eu fosse português, votava.", "Se eu fosse português, votaria.", "Se fosse português, votava.", "Se fosse português, votaria.", "Se eu fosse português, ia votar.", "Se fosse português, ia votar.", "Se eu fosse português, iria votar.", "Se fosse português, iria votar."], "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "satzbau", "de": "Die Opposition wollte, dass die Regierung mehr tut.", "loesung": "A oposição queria que o governo fizesse mais."}
+    ]
+   },
+   "hoeren": {
+    "titel": "As autárquicas – die Kommunalwahlen",
+    "situation": "Nachbar João fragt Stefan, ob er bei den Kommunalwahlen wählen geht.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Então, Stefan, já sabes em quem vais votar nas autárquicas?", "de": "Na, Stefan, weißt du schon, wen du bei den Kommunalwahlen wählst?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ainda não. Sabias que, como cidadão europeu, posso votar nas autárquicas, mas não nas legislativas?", "de": "Noch nicht. Wusstest du, dass ich als EU-Bürger bei den Kommunalwahlen wählen darf, aber nicht bei der Parlamentswahl?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois é. E se tu pudesses votar nas legislativas, em que partido votavas?", "de": "Stimmt. Und wenn du bei der Parlamentswahl wählen dürftest, welche Partei würdest du wählen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sinceramente, não sei. Se eu percebesse melhor os programas dos partidos, era mais fácil.", "de": "Ehrlich gesagt, ich weiß es nicht. Wenn ich die Programme der Parteien besser verstehen würde, wäre es leichter."},
+     {"sprecher": "João", "stimme": "m", "pt": "Ninguém percebe, homem! Segundo a última sondagem, metade das pessoas ainda não decidiu.", "de": "Die versteht doch niemand, Mann! Laut der letzten Umfrage hat sich die Hälfte der Leute noch nicht entschieden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A mim interessa-me mais a câmara de Lagos. Se houvesse mais estacionamento no centro, já era bom!", "de": "Mich interessiert die Gemeinde Lagos mehr. Wenn es im Zentrum mehr Parkplätze gäbe, wäre das schon gut!"},
+     {"sprecher": "João", "stimme": "m", "pt": "Isso é verdade. Olha, no domingo há um debate na rádio local. Ouvimos juntos?", "de": "Das stimmt. Schau, am Sonntag gibt es eine Debatte im Lokalradio. Hören wir sie gemeinsam?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. Vens cá a casa e a Ana faz um café.", "de": "Abgemacht. Du kommst zu uns, und Ana macht einen Kaffee."}
+    ],
+    "fragen": [
+     {"frage": "Em que eleições pode Stefan votar?", "optionen": ["Nas legislativas.", "Nas autárquicas.", "Em nenhumas."], "richtig": 1},
+     {"frage": "O que diz a última sondagem?", "optionen": ["Que metade das pessoas ainda não decidiu.", "Que o governo vai ganhar.", "Que ninguém vai votar."], "richtig": 0},
+     {"frage": "O que vão fazer no domingo?", "optionen": ["Votar.", "Ir a Lisboa.", "Ouvir um debate na rádio."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Deine Freundin Rita fragt dich, was du in Portugal ändern würdest. Antworte mit se + imperfeito do conjuntivo.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, se pudesses mudar uma coisa em Portugal, o que mudavas?", "de": "Stefan, wenn du eine Sache in Portugal ändern könntest, was würdest du ändern?"},
+     {"ich": true, "aufgabe": "Diga: Wenn ich könnte, würde ich die Bürokratie ändern.", "loesungen": ["Se pudesse, mudava a burocracia.", "Se eu pudesse, mudava a burocracia.", "Se pudesse, mudaria a burocracia.", "Se eu pudesse, mudaria a burocracia.", "Mudava a burocracia, se pudesse.", "Mudaria a burocracia, se pudesse."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ah, a burocracia! E se fosses ministro por um dia?", "de": "Ah, die Bürokratie! Und wenn du für einen Tag Minister wärst?"},
+     {"ich": true, "aufgabe": "Diga: Wenn ich Minister wäre, würde ich mehr Häuser bauen.", "loesungen": ["Se fosse ministro, construía mais casas.", "Se eu fosse ministro, construía mais casas.", "Se fosse ministro, construiria mais casas.", "Se eu fosse ministro, construiria mais casas.", "Se fosse ministro, ia construir mais casas.", "Se eu fosse ministro, ia construir mais casas."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Boa resposta! E vais votar nas autárquicas?", "de": "Gute Antwort! Und gehst du bei den Kommunalwahlen wählen?"},
+     {"ich": true, "aufgabe": "Diga: Ja. Ich möchte, dass die Gemeinde mehr für die Anwohner tut.", "loesungen": ["Vou. Queria que a câmara fizesse mais pelos moradores.", "Vou. Gostava que a câmara fizesse mais pelos moradores.", "Sim. Queria que a câmara fizesse mais pelos moradores.", "Sim. Gostava que a câmara fizesse mais pelos moradores.", "Sim, queria que a câmara fizesse mais pelos moradores.", "Sim, gostava que a câmara fizesse mais pelos moradores.", "Vou. Gostaria que a câmara fizesse mais pelos moradores.", "Sim. Gostaria que a câmara fizesse mais pelos moradores."]}
+    ]
+   },
+   "saetze": [
+    {"id": "se-eu-pudesse-votar", "pt": "Se eu pudesse votar, votava.", "de": "Wenn ich wählen dürfte, würde ich wählen."},
+    {"id": "como-se-nao-houvesse-crise", "pt": "O ministro falou como se não houvesse crise.", "de": "Der Minister sprach, als gäbe es keine Krise."},
+    {"id": "em-quem-vais-votar", "pt": "Em quem vais votar nas eleições?", "de": "Wen wählst du bei den Wahlen?"}
+   ]
+  },
+  {
+   "id": "B1-06-L03",
+   "typ": "neu",
+   "titel": "Wirtschaft – Se eu tivesse …, ia …",
+   "vokabeln": ["a-inflacao", "o-aumento", "o-desemprego", "o-salario-minimo", "a-pensao", "o-combustivel", "a-descida", "o-poder-de-compra", "o-orcamento-do-estado"],
+   "grammatik": {
+    "titel": "Se + imperfeito do conjuntivo: condições irreais",
+    "erklaerung": [
+     "Para falar de uma situação <b>irreal ou pouco provável</b> no presente ou no futuro, usa-se <b>se + imperfeito do conjuntivo</b> e, na outra parte da frase, o <b>condicional</b>: <i>Se os preços <b>descessem</b>, as pessoas <b>gastariam</b> mais.</i>",
+     "Na língua falada, em vez do condicional usa-se quase sempre o <b>imperfeito do indicativo</b> ou <b>ia + infinitivo</b>: <i>Se eu tivesse dinheiro, <b>comprava</b> uma casa.</i> / <i>… <b>ia comprar</b> uma casa.</i> / <i>… <b>compraria</b> uma casa.</i> As três formas estão corretas.",
+     "Compare: <i>Se o salário mínimo <b>subir</b>, …</i> (é possível, real – futuro do conjuntivo, que vais estudar em pormenor mais à frente) e <i>Se o salário mínimo <b>subisse</b>, …</i> (hipótese, pouco provável).",
+     "A ordem pode mudar: <i>As famílias viviam melhor <b>se</b> a inflação <b>baixasse</b>.</i> Com pronomes, na fala evita-se o condicional (<i>dar-lhe-ia</i>) e diz-se simplesmente <i><b>dava-lhe</b></i>."
+    ],
+    "erklaerung_de": [
+     "Für eine <b>irreale oder unwahrscheinliche</b> Situation in Gegenwart oder Zukunft verwendet man <b>se + Imperfeito do conjuntivo</b> und im anderen Satzteil den <b>Konditional</b>: <i>Wenn die Preise <b>sinken würden</b>, <b>würden</b> die Leute mehr <b>ausgeben</b>.</i>",
+     "In der gesprochenen Sprache steht statt des Konditionals fast immer das <b>Imperfeito do indicativo</b> oder <b>ia + Infinitiv</b>: <i>Se eu tivesse dinheiro, <b>comprava</b> uma casa.</i> / <i>… <b>ia comprar</b> uma casa.</i> / <i>… <b>compraria</b> uma casa.</i> Alle drei Formen sind richtig.",
+     "Vergleiche: <i>Se o salário mínimo <b>subir</b>, …</i> (möglich, real – Futuro do conjuntivo, das du später genauer lernst) und <i>Se o salário mínimo <b>subisse</b>, …</i> (Annahme, eher unwahrscheinlich).",
+     "Die Reihenfolge kann sich ändern: <i>As famílias viviam melhor <b>se</b> a inflação <b>baixasse</b>.</i> Mit Pronomen vermeidet man im Gespräch den Konditional (<i>dar-lhe-ia</i>) und sagt einfach <i><b>dava-lhe</b></i>."
+    ],
+    "vergleich": "Wie im Deutschen: „Wenn die Preise sinken würden (sänken), würden die Leute mehr ausgeben.“ Aber Achtung: Im Portugiesischen steht im se-Satz nie der Konditional! Nicht *se eu teria*, sondern <i>se eu tivesse</i> – genau wie im Englischen „if I had“, nicht „if I would have“.",
+    "beispiele": [
+     {"pt": "Se a gasolina fosse mais barata, eu ia mais vezes a Lisboa.", "de": "Wenn das Benzin billiger wäre, würde ich öfter nach Lissabon fahren."},
+     {"pt": "Se as taxas de juro descessem, muita gente comprava casa.", "de": "Wenn die Zinsen sinken würden, würden viele Leute ein Haus kaufen."},
+     {"pt": "O que farias se ganhasses o Euromilhões?", "de": "Was würdest du machen, wenn du bei Euromillions gewinnen würdest?"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se os preços ___, as pessoas gastavam mais. (descer)", "loesungen": ["descessem"], "de": "Wenn die Preise sinken würden, würden die Leute mehr ausgeben.", "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Se eu ___ mais tempo, lia o jornal todos os dias. (ter)", "loesungen": ["tivesse"], "de": "Wenn ich mehr Zeit hätte, würde ich jeden Tag Zeitung lesen.", "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Se a inflação baixasse, a vida ___ mais fácil. (ser – condicional)", "loesungen": ["seria"], "de": "Wenn die Inflation sinken würde, wäre das Leben leichter.", "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist richtig?", "optionen": ["Se eu teria dinheiro, comprava uma casa.", "Se eu tivesse dinheiro, comprava uma casa.", "Se eu tenho dinheiro, compraria uma casa."], "richtig": 1, "erklaerung": "Im se-Satz steht nie der Konditional, sondern der Imperfeito do conjuntivo: se eu tivesse.", "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Se o salário mínimo subisse …“ – was drückt der Satz aus?", "optionen": ["eine sichere Tatsache", "eine eher unwahrscheinliche Annahme", "etwas in der Vergangenheit"], "richtig": 1, "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Wenn der Sprit billiger wäre, würde ich öfter nach Spanien fahren.", "loesungen": ["Se o combustível fosse mais barato, ia mais vezes a Espanha.", "Se o combustível fosse mais barato, iria mais vezes a Espanha.", "Se o combustível fosse mais barato, eu ia mais vezes a Espanha.", "Se o combustível fosse mais barato, eu iria mais vezes a Espanha.", "Se a gasolina fosse mais barata, ia mais vezes a Espanha.", "Se a gasolina fosse mais barata, iria mais vezes a Espanha.", "Ia mais vezes a Espanha se o combustível fosse mais barato.", "Iria mais vezes a Espanha se o combustível fosse mais barato."], "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Was würdest du machen, wenn du arbeitslos wärst?", "loesungen": ["O que farias se estivesses desempregado?", "O que fazias se estivesses desempregado?", "O que é que farias se estivesses desempregado?", "O que é que fazias se estivesses desempregado?", "O que farias se ficasses desempregado?", "O que fazias se ficasses desempregado?", "Que farias se estivesses desempregado?"], "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "satzbau", "de": "Wenn die Zinsen sinken würden, würden viele Leute ein Haus kaufen.", "loesung": "Se as taxas de juro descessem, muita gente comprava casa."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Tudo mais caro – alles teurer",
+    "situation": "Ana und Stefan sprechen beim Frühstück über die Wirtschaftsnachrichten.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ouviste? A inflação voltou a subir. Agora está nos três por cento.", "de": "Hast du gehört? Die Inflation ist wieder gestiegen. Jetzt liegt sie bei drei Prozent."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ouvi no noticiário. E o combustível também está mais caro.", "de": "Ich habe es in den Nachrichten gehört. Und der Sprit ist auch teurer."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Se os preços continuassem assim, tínhamos de cortar nas férias.", "de": "Wenn die Preise so weiter steigen würden, müssten wir beim Urlaub sparen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Calma. O governo diz que vai haver um aumento do salário mínimo em janeiro.", "de": "Ruhig. Die Regierung sagt, dass es im Jänner eine Erhöhung des Mindestlohns geben wird."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Isso ajuda quem trabalha. Mas e os reformados? A pensão da Dona Lurdes, a nossa vizinha, é tão baixa…", "de": "Das hilft denen, die arbeiten. Aber was ist mit den Rentnern? Die Rente von Frau Lurdes, unserer Nachbarin, ist so niedrig …"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tens razão. Se eu fosse ministro, aumentava primeiro as pensões mais baixas.", "de": "Du hast recht. Wenn ich Minister wäre, würde ich zuerst die niedrigsten Renten erhöhen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Se tu fosses candidato, eu votava em ti!", "de": "Wenn du Kandidat wärst, würde ich dich wählen!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado, mas prefiro a minha empresa. Lá, ao menos, sou eu que decido!", "de": "Danke, aber ich bleibe lieber bei meiner Firma. Dort entscheide wenigstens ich!"}
+    ],
+    "fragen": [
+     {"frage": "Quanto está a inflação?", "optionen": ["Dois por cento.", "Três por cento.", "Cinco por cento."], "richtig": 1},
+     {"frage": "O que vai acontecer em janeiro?", "optionen": ["Um aumento do salário mínimo.", "Uma descida dos impostos.", "Eleições."], "richtig": 0},
+     {"frage": "O que faria Stefan se fosse ministro?", "optionen": ["Baixava o preço do combustível.", "Cortava nas férias.", "Aumentava primeiro as pensões mais baixas."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Wenn ich mehr Zeit hätte, würde ich jeden Tag Zeitung lesen.", "loesungen": ["Se eu tivesse mais tempo, lia o jornal todos os dias.", "Se tivesse mais tempo, lia o jornal todos os dias.", "Se eu tivesse mais tempo, leria o jornal todos os dias.", "Se tivesse mais tempo, leria o jornal todos os dias.", "Se eu tivesse mais tempo, ia ler o jornal todos os dias.", "Lia o jornal todos os dias se tivesse mais tempo."]},
+     {"de": "Wenn die Preise sinken würden, würden die Leute mehr ausgeben.", "loesungen": ["Se os preços descessem, as pessoas gastavam mais.", "Se os preços descessem, as pessoas gastariam mais.", "Se os preços baixassem, as pessoas gastavam mais.", "Se os preços baixassem, as pessoas gastariam mais.", "Se os preços descessem, as pessoas iam gastar mais.", "Se os preços baixassem, as pessoas iam gastar mais."]},
+     {"de": "Was würdest du machen, wenn du bei Euromillions gewinnen würdest?", "loesungen": ["O que farias se ganhasses o Euromilhões?", "O que fazias se ganhasses o Euromilhões?", "O que é que farias se ganhasses o Euromilhões?", "O que é que fazias se ganhasses o Euromilhões?", "Que farias se ganhasses o Euromilhões?"]},
+     {"de": "Wenn der Mindestlohn höher wäre, würden viele Leute besser leben.", "loesungen": ["Se o salário mínimo fosse mais alto, muita gente vivia melhor.", "Se o salário mínimo fosse mais alto, muita gente viveria melhor.", "Se o salário mínimo fosse mais alto, muitas pessoas viviam melhor.", "Se o salário mínimo fosse mais alto, muitas pessoas viveriam melhor.", "Se o salário mínimo fosse mais elevado, muita gente vivia melhor.", "Se o salário mínimo fosse mais elevado, muita gente viveria melhor."]}
+    ]
+   },
+   "saetze": [
+    {"id": "se-eu-tivesse-mais-tempo", "pt": "Se eu tivesse mais tempo, lia o jornal todos os dias.", "de": "Wenn ich mehr Zeit hätte, würde ich jeden Tag Zeitung lesen."},
+    {"id": "o-que-farias-se", "pt": "O que farias se ganhasses o Euromilhões?", "de": "Was würdest du machen, wenn du bei Euromillions gewinnen würdest?"},
+    {"id": "se-eu-fosse-ministro", "pt": "Se eu fosse ministro, aumentava as pensões mais baixas.", "de": "Wenn ich Minister wäre, würde ich die niedrigsten Renten erhöhen."}
+   ]
+  },
+  {
+   "id": "B1-06-L04",
+   "typ": "neu",
+   "titel": "Gesellschaft – gostava que / queria que",
+   "vokabeln": ["a-manifestacao", "protestar", "o-direito", "acessivel", "o-apoio", "o-sindicato", "reivindicar", "a-peticao", "o-manifestante"],
+   "grammatik": {
+    "titel": "Gostava que, queria que, preferia que + imperfeito do conjuntivo",
+    "erklaerung": [
+     "Quando o verbo principal está no <b>imperfeito</b> ou no <b>condicional</b> e pede conjuntivo, o verbo depois de <b>que</b> vai para o <b>imperfeito do conjuntivo</b>: <i>Quero que <b>venhas</b>.</i> → <i>Queria que <b>viesses</b>.</i>",
+     "Assim exprimimos desejos de forma <b>delicada</b> ou desejos pouco realistas: <i><b>Gostava que</b> o governo <b>construísse</b> mais casas.</i> · <i><b>Preferia que</b> não <b>fizessem</b> barulho.</i>",
+     "O mesmo acontece depois de pedidos e conselhos no passado: <i>O sindicato <b>pediu que</b> os trabalhadores <b>aderissem</b> à greve.</i> · <i>O médico <b>disse-me que descansasse</b>.</i>",
+     "Se o sujeito é o mesmo, usa-se o infinitivo: <i>Gostava de <b>ir</b> à manifestação.</i> (eu → eu) – mas <i>Gostava que <b>tu fosses</b> comigo.</i> (eu → tu)."
+    ],
+    "erklaerung_de": [
+     "Steht das Hauptverb im <b>Imperfeito</b> oder im <b>Konditional</b> und verlangt es den Konjunktiv, kommt das Verb nach <b>que</b> in den <b>Imperfeito do conjuntivo</b>: <i>Ich will, dass du <b>kommst</b>.</i> → <i>Ich möchte, dass du <b>kommst</b>.</i> (<i>Queria que <b>viesses</b>.</i>)",
+     "So drückt man Wünsche <b>höflich</b> aus – oder Wünsche, die eher unrealistisch sind: <i>Ich hätte gern, dass die Regierung mehr Wohnungen <b>baut</b>.</i> · <i>Mir wäre lieber, sie <b>würden</b> keinen Lärm <b>machen</b>.</i>",
+     "Genauso nach Bitten und Ratschlägen in der Vergangenheit: <i>Die Gewerkschaft <b>bat</b> die Arbeiter, sich dem Streik <b>anzuschließen</b>.</i> · <i>Der Arzt <b>sagte mir, ich solle mich ausruhen</b>.</i>",
+     "Bei gleichem Subjekt steht der Infinitiv: <i>Gostava de <b>ir</b> à manifestação.</i> (ich → ich) – aber <i>Gostava que <b>tu fosses</b> comigo.</i> (ich → du)."
+    ],
+    "vergleich": "Deutsch: „Ich hätte gern, dass …“ / „Ich wünschte, die Regierung würde mehr Wohnungen bauen.“ Portugiesisch braucht nach <i>gostava que / queria que</i> immer den Imperfeito do conjuntivo – auch wenn sich der Wunsch auf jetzt oder die Zukunft bezieht. Englisch: „I'd like the government to build …“.",
+    "beispiele": [
+     {"pt": "Gostava que o governo fizesse mais pela habitação.", "de": "Ich hätte gern, dass die Regierung mehr für den Wohnraum tut."},
+     {"pt": "Os manifestantes queriam que as rendas baixassem.", "de": "Die Demonstranten wollten, dass die Mieten sinken."},
+     {"pt": "Os organizadores pediram que todos assinassem a petição.", "de": "Die Organisatoren baten alle, die Petition zu unterschreiben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Gostava que tu ___ comigo à manifestação. (vir)", "loesungen": ["viesses"], "de": "Ich hätte gern, dass du mit mir zur Demo kommst.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Queria que o governo ___ mais apoio às famílias. (dar)", "loesungen": ["desse"], "de": "Ich möchte, dass die Regierung den Familien mehr Unterstützung gibt.", "erklaerung": "deram → de- + sse = desse.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Os moradores preferiam que a câmara não ___ o hotel. (aprovar)", "loesungen": ["aprovasse"], "de": "Den Anwohnern wäre lieber, die Gemeinde würde das Hotel nicht genehmigen.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "O sindicato pediu que todos ___ à greve. (aderir)", "loesungen": ["aderissem"], "de": "Die Gewerkschaft bat alle, sich dem Streik anzuschließen.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Ich würde gern zur Demo gehen.“ (gleiches Subjekt)", "optionen": ["Gostava que fosse à manifestação.", "Gostava de ir à manifestação.", "Gostava que ir à manifestação."], "richtig": 1, "erklaerung": "Gleiches Subjekt (ich – ich) → gostar de + Infinitiv.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "Quero que venhas. → Queria que ___.", "optionen": ["venhas", "vieste", "viesses"], "richtig": 2, "erklaerung": "Hauptverb im Imperfeito (queria) → Imperfeito do conjuntivo (viesses).", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Ich hätte gern, dass die Mieten sinken.", "loesungen": ["Gostava que as rendas baixassem.", "Gostava que as rendas descessem.", "Gostaria que as rendas baixassem.", "Gostaria que as rendas descessem.", "Queria que as rendas baixassem.", "Queria que as rendas descessem.", "Eu gostava que as rendas baixassem.", "Eu gostava que as rendas descessem."], "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "satzbau", "de": "Die Demonstranten wollten, dass die Regierung ihnen zuhört.", "loesung": "Os manifestantes queriam que o governo os ouvisse.", "erklaerung": "Nach que steht das Pronomen vor dem Verb: que o governo os ouvisse."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma manifestação em Faro – eine Demonstration in Faro",
+    "situation": "Pedro lädt Stefan zu einer Demonstration für bezahlbaren Wohnraum ein.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Stefan, no sábado há uma manifestação em Faro pelo direito à habitação. Vens?", "de": "Stefan, am Samstag gibt es in Faro eine Demonstration für das Recht auf Wohnen. Kommst du?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não sei, Pedro. Sou estrangeiro… Achas que posso ir?", "de": "Ich weiß nicht, Pedro. Ich bin Ausländer … Meinst du, ich kann hingehen?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Claro que podes! Tu também pagas renda. Gostava que viesse muita gente, para o governo nos ouvir.", "de": "Natürlich kannst du! Du zahlst ja auch Miete. Ich hätte gern, dass viele Leute kommen, damit die Regierung uns zuhört."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o que é que vocês reivindicam, exatamente?", "de": "Und was fordert ihr genau?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Queríamos que houvesse mais casas a preços acessíveis e mais apoio para os jovens.", "de": "Wir möchten, dass es mehr Wohnungen zu bezahlbaren Preisen und mehr Unterstützung für junge Leute gibt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Concordo. O filho do João tem trinta anos e ainda vive com os pais.", "de": "Da bin ich einverstanden. Joãos Sohn ist dreißig und wohnt immer noch bei den Eltern."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Pois. Também há uma petição online. Preferia que a assinasses antes de sábado.", "de": "Eben. Es gibt auch eine Online-Petition. Es wäre mir lieber, du unterschreibst sie vor Samstag."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Assino hoje à noite. E no sábado vou contigo – a Ana também quer ir.", "de": "Ich unterschreibe heute Abend. Und am Samstag gehe ich mit dir – Ana will auch mitkommen."}
+    ],
+    "fragen": [
+     {"frage": "Onde é a manifestação?", "optionen": ["Em Lagos.", "Em Faro.", "Em Lisboa."], "richtig": 1},
+     {"frage": "O que reivindicam os manifestantes?", "optionen": ["Mais casas a preços acessíveis.", "Salários mais altos para os professores.", "Menos turistas."], "richtig": 0},
+     {"frage": "O que pede Pedro a Stefan?", "optionen": ["Que escreva ao ministro.", "Que fale com o João.", "Que assine a petição antes de sábado."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Gostava que viesses comigo à manifestação.", "de": "Ich hätte gern, dass du mit mir zur Demo kommst."},
+     {"pt": "Queríamos que houvesse mais casas a preços acessíveis.", "de": "Wir möchten, dass es mehr Wohnungen zu bezahlbaren Preisen gibt."},
+     {"pt": "Todos têm direito a uma casa digna.", "de": "Alle haben ein Recht auf eine menschenwürdige Wohnung."},
+     {"pt": "O governo vai dar um apoio às famílias.", "de": "Die Regierung wird den Familien eine Unterstützung zahlen."},
+     {"pt": "Preferia que assinasses a petição hoje.", "de": "Es wäre mir lieber, du unterschreibst die Petition heute."}
+    ]
+   },
+   "saetze": [
+    {"id": "gostava-que-viesses", "pt": "Gostava que viesses comigo.", "de": "Ich hätte gern, dass du mitkommst."},
+    {"id": "queria-que-houvesse", "pt": "Queria que houvesse mais casas a preços acessíveis.", "de": "Ich möchte, dass es mehr Wohnungen zu bezahlbaren Preisen gibt."},
+    {"id": "preferia-que", "pt": "Preferia que não fizessem barulho.", "de": "Mir wäre lieber, sie würden keinen Lärm machen."}
+   ]
+  },
+  {
+   "id": "B1-06-L05",
+   "typ": "neu",
+   "titel": "Unfälle, Brände, Polizei – como se …",
+   "vokabeln": ["o-bombeiro", "a-vitima", "ferido", "a-policia", "a-testemunha", "o-assalto", "detido", "evacuar", "as-chamas"],
+   "grammatik": {
+    "titel": "Como se + imperfeito do conjuntivo",
+    "erklaerung": [
+     "<b>Como se</b> é sempre seguido do <b>imperfeito do conjuntivo</b>, seja qual for o tempo do verbo principal: <i>Ele fala como se <b>soubesse</b> tudo.</i> / <i>Ele falou como se <b>soubesse</b> tudo.</i>",
+     "Serve para comparar com uma situação <b>irreal</b>: <i>Com tanto fumo, era como se <b>fosse</b> noite.</i> · <i>A testemunha falava como se <b>tivesse</b> medo.</i>",
+     "Expressões muito usadas: <i>como se nada <b>fosse</b></i>, <i>como se <b>fosse</b> ontem</i>, <i>como se <b>estivesse</b> em casa</i>.",
+     "Nas notícias de ocorrências (acidentes, incêndios, assaltos), aparecem também o <b>condicional</b> e o <b>futuro</b> para informações não confirmadas: <i>O assaltante <b>terá fugido</b> de mota.</i>"
+    ],
+    "erklaerung_de": [
+     "Auf <b>como se</b> (= „als ob“) folgt immer der <b>Imperfeito do conjuntivo</b>, egal in welcher Zeit das Hauptverb steht: <i>Er spricht, als ob er alles <b>wüsste</b>.</i> / <i>Er sprach, als ob er alles <b>wüsste</b>.</i>",
+     "Man vergleicht damit mit einer <b>irrealen</b> Situation: <i>Bei so viel Rauch war es, als <b>wäre</b> es Nacht.</i> · <i>Die Zeugin sprach, als ob sie Angst <b>hätte</b>.</i>",
+     "Häufige Wendungen: <i>como se nada fosse</i> (als wäre nichts gewesen), <i>como se fosse ontem</i> (als wäre es gestern gewesen), <i>como se estivesse em casa</i> (als wäre man zu Hause).",
+     "In Meldungen über Unfälle, Brände und Überfälle findest du auch den <b>Konditional</b> und das <b>Futur</b> für unbestätigte Informationen: <i>Der Räuber <b>soll</b> mit einem Motorrad <b>geflüchtet sein</b>.</i>"
+    ],
+    "vergleich": "Deutsch: „als ob“ + Konjunktiv (als ob er alles wüsste) oder „als“ + Verb (als wüsste er alles). Englisch: „as if he knew“. Portugiesisch: immer <i>como se</i> + Imperfeito do conjuntivo – nie der Indikativ.",
+    "beispiele": [
+     {"pt": "O condutor saiu do carro como se nada fosse.", "de": "Der Fahrer stieg aus dem Auto, als wäre nichts gewesen."},
+     {"pt": "A testemunha falava como se tivesse medo.", "de": "Die Zeugin sprach, als ob sie Angst hätte."},
+     {"pt": "Com tanto fumo, era como se fosse noite.", "de": "Bei so viel Rauch war es, als wäre es Nacht."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Ele fala como se ___ tudo. (saber)", "loesungen": ["soubesse"], "de": "Er spricht, als ob er alles wüsste.", "kategorie": "Como se"},
+     {"typ": "luecke", "satz": "O assaltante entrou na loja como se ___ o dono. (ser)", "loesungen": ["fosse"], "de": "Der Räuber betrat das Geschäft, als wäre er der Besitzer.", "kategorie": "Como se"},
+     {"typ": "luecke", "satz": "Os bombeiros trabalharam como se não ___ cansados. (estar)", "loesungen": ["estivessem"], "de": "Die Feuerwehrleute arbeiteten, als ob sie nicht müde wären.", "kategorie": "Como se"},
+     {"typ": "luecke", "satz": "A vítima olhava para nós como se não ___ perceber. (conseguir)", "loesungen": ["conseguisse"], "de": "Das Opfer sah uns an, als könnte es nichts verstehen.", "kategorie": "Como se"},
+     {"typ": "auswahl", "frage": "„als ob ich zu Hause wäre“", "optionen": ["como se estou em casa", "como se estivesse em casa", "como se estaria em casa"], "richtig": 1, "erklaerung": "Nach como se steht immer der Imperfeito do conjuntivo – nie Präsens oder Konditional.", "kategorie": "Como se"},
+     {"typ": "auswahl", "frage": "Was bedeutet „como se nada fosse“?", "optionen": ["als wäre nichts gewesen", "weil nichts war", "obwohl nichts passiert ist"], "richtig": 0, "kategorie": "Como se"},
+     {"typ": "satzbau", "de": "Die Polizei hat zwei Verdächtige festgenommen.", "loesung": "A polícia deteve dois suspeitos."},
+     {"typ": "uebersetzen", "de": "Er sprach, als ob er Angst hätte.", "loesungen": ["Ele falava como se tivesse medo.", "Falava como se tivesse medo.", "Ele falou como se tivesse medo.", "Falou como se tivesse medo."], "kategorie": "Como se"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Incêndio na serra de Monchique – Brand in der Serra de Monchique",
+    "situation": "Eine Fernsehreportage über einen Waldbrand im Hinterland der Algarve.",
+    "zeilen": [
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Um incêndio na serra de Monchique obrigou esta tarde a evacuar duas aldeias. Vamos ao nosso repórter.", "de": "Ein Brand in der Serra de Monchique hat heute Nachmittag die Räumung von zwei Dörfern erzwungen. Wir schalten zu unserem Reporter."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Boa tarde. Estou junto ao quartel dos bombeiros. Mais de cento e cinquenta bombeiros estão no terreno, com a ajuda de três aviões.", "de": "Guten Tag. Ich bin bei der Feuerwache. Mehr als hundertfünfzig Feuerwehrleute sind im Einsatz, unterstützt von drei Flugzeugen."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "As chamas chegaram muito perto das casas, mas, segundo a Proteção Civil, não há vítimas.", "de": "Die Flammen kamen den Häusern sehr nahe, aber laut Zivilschutz gibt es keine Opfer."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Um bombeiro ficou ferido sem gravidade e foi levado para o hospital de Portimão.", "de": "Ein Feuerwehrmann wurde leicht verletzt und ins Krankenhaus von Portimão gebracht."},
+     {"sprecher": "Testemunha", "stimme": "f", "pt": "Foi horrível. Havia tanto fumo que era como se fosse noite às quatro da tarde.", "de": "Es war schrecklich. Es gab so viel Rauch, dass es um vier Uhr nachmittags war, als wäre es Nacht."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "A GNR cortou a estrada entre Monchique e Portimão. O incêndio terá começado com uma máquina agrícola.", "de": "Die GNR hat die Straße zwischen Monchique und Portimão gesperrt. Das Feuer soll durch eine landwirtschaftliche Maschine ausgelöst worden sein."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Obrigada. Voltaremos a este assunto ao longo da noite.", "de": "Danke. Wir kommen im Laufe des Abends auf dieses Thema zurück."}
+    ],
+    "fragen": [
+     {"frage": "Quantas aldeias foram evacuadas?", "optionen": ["Uma.", "Duas.", "Três."], "richtig": 1},
+     {"frage": "Quem ficou ferido?", "optionen": ["Uma moradora.", "Ninguém.", "Um bombeiro."], "richtig": 2},
+     {"frage": "Como descreve a testemunha o fumo?", "optionen": ["Era como se fosse noite.", "Era branco e fraco.", "Não viu fumo."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Es gab keine Opfer, aber es gibt zwei Leichtverletzte.", "loesungen": ["Não houve vítimas, mas há dois feridos ligeiros.", "Não há vítimas, mas há dois feridos ligeiros.", "Não houve vítimas, mas houve dois feridos ligeiros.", "Não houve vítimas, mas há dois feridos sem gravidade."]},
+     {"de": "Die Feuerwehr war in zehn Minuten da.", "loesungen": ["Os bombeiros chegaram em dez minutos.", "Os bombeiros chegaram dez minutos depois.", "Os bombeiros estavam lá em dez minutos.", "Os bombeiros chegaram passados dez minutos."]},
+     {"de": "Er tut so, als ob er nichts wüsste.", "loesungen": ["Ele age como se não soubesse nada.", "Age como se não soubesse nada.", "Ele comporta-se como se não soubesse nada.", "Comporta-se como se não soubesse nada.", "Ele porta-se como se não soubesse nada.", "Ele finge que não sabe nada.", "Finge que não sabe nada.", "Ele faz de conta que não sabe nada.", "Faz de conta que não sabe nada."]},
+     {"de": "Laut den Zeugen fuhr das Auto sehr schnell.", "loesungen": ["Segundo as testemunhas, o carro ia muito depressa.", "Segundo as testemunhas, o carro ia muito rápido.", "De acordo com as testemunhas, o carro ia muito depressa.", "Segundo as testemunhas, o carro andava muito depressa.", "Segundo as testemunhas, o carro seguia muito depressa."]}
+    ]
+   },
+   "saetze": [
+    {"id": "como-se-nada-fosse", "pt": "Saiu do carro como se nada fosse.", "de": "Er stieg aus dem Auto, als wäre nichts gewesen."},
+    {"id": "nao-houve-vitimas", "pt": "Felizmente, não houve vítimas.", "de": "Zum Glück gab es keine Opfer."},
+    {"id": "segundo-as-testemunhas", "pt": "Segundo as testemunhas, o carro ia muito depressa.", "de": "Laut den Zeugen fuhr das Auto sehr schnell."}
+   ]
+  },
+  {
+   "id": "B1-06-L06",
+   "typ": "neu",
+   "titel": "Wetter und Verkehr – Se eu fosse a ti …",
+   "vokabeln": ["a-trovoada", "a-vaga-de-frio", "a-previsao", "o-engarrafamento", "o-desvio", "cortado", "os-aguaceiros", "a-rajada", "a-agitacao-maritima", "o-despiste"],
+   "grammatik": {
+    "titel": "Dar conselhos: Se eu fosse a ti / a si …",
+    "erklaerung": [
+     "Para dar um conselho, os portugueses dizem muito <b>Se eu fosse a ti, …</b> (informal) ou <b>Se eu fosse a si, …</b> (formal), seguido do imperfeito ou do condicional: <i>Se eu fosse a ti, <b>levava</b> o guarda-chuva.</i>",
+     "Atenção: em português europeu diz-se <b>a ti / a si</b>. Também se pode dizer <i><b>No teu lugar</b>, não ia pela A22.</i> / <i><b>No seu lugar</b>, esperava até amanhã.</i>",
+     "Um conselho mais suave: <i><b>Era melhor</b> saíres mais cedo.</i> (infinitivo pessoal) ou <i><b>Era melhor que</b> saísses mais cedo.</i> (imperfeito do conjuntivo). E nas notícias: <i>Se a estrada não <b>estivesse</b> cortada, o trânsito <b>seria</b> normal.</i>"
+    ],
+    "erklaerung_de": [
+     "Um einen Rat zu geben, sagen Portugiesen sehr oft <b>Se eu fosse a ti, …</b> (informell) oder <b>Se eu fosse a si, …</b> (formell), gefolgt vom Imperfeito oder Konditional: <i>An deiner Stelle <b>würde</b> ich den Regenschirm <b>mitnehmen</b>.</i>",
+     "Achtung: Im europäischen Portugiesisch heißt es <b>a ti / a si</b>. Man kann auch sagen: <i><b>No teu lugar</b>, não ia pela A22.</i> (An deiner Stelle …) / <i><b>No seu lugar</b>, esperava até amanhã.</i> (An Ihrer Stelle …)",
+     "Ein sanfterer Rat: <i><b>Era melhor</b> saíres mais cedo.</i> (Infinitivo pessoal) oder <i><b>Era melhor que</b> saísses mais cedo.</i> (Imperfeito do conjuntivo) – „Es wäre besser, wenn du früher losfährst.“ Und in den Nachrichten: <i>Wenn die Straße nicht gesperrt wäre, wäre der Verkehr normal.</i>"
+    ],
+    "vergleich": "Deutsch: „An deiner Stelle würde ich …“ / „Wenn ich du wäre, …“. Wörtlich übersetzt wäre *se eu fosse tu* falsch – im europäischen Portugiesisch heißt es <i>se eu fosse a ti</i> (formell <i>a si</i>). Englisch: „If I were you, …“.",
+    "beispiele": [
+     {"pt": "Se eu fosse a ti, não ia pela A22 hoje. Há um engarrafamento enorme.", "de": "An deiner Stelle würde ich heute nicht über die A22 fahren. Es gibt einen riesigen Stau."},
+     {"pt": "Se eu fosse a si, esperava até a trovoada passar.", "de": "An Ihrer Stelle würde ich warten, bis das Gewitter vorbei ist."},
+     {"pt": "Era melhor saíres mais cedo por causa do desvio.", "de": "Es wäre besser, wenn du wegen der Umleitung früher losfährst."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Wenn ich du wäre …“ (pt-PT)", "optionen": ["Se eu fosse tu …", "Se eu fosse a ti …", "Se eu era a ti …"], "richtig": 1, "erklaerung": "Im europäischen Portugiesisch: se eu fosse a ti (formell: a si).", "kategorie": "Se eu fosse a ti"},
+     {"typ": "auswahl", "frage": "Formell, zu einem Kunden: „An Ihrer Stelle …“", "optionen": ["No seu lugar …", "No teu lugar …", "Na sua vez …"], "richtig": 0, "kategorie": "Se eu fosse a ti"},
+     {"typ": "luecke", "satz": "Se eu fosse a ti, ___ o guarda-chuva. (levar – imperfeito)", "loesungen": ["levava"], "de": "An deiner Stelle würde ich den Regenschirm mitnehmen.", "kategorie": "Se eu fosse a ti"},
+     {"typ": "luecke", "satz": "Se a estrada não ___ cortada, chegávamos a tempo. (estar)", "loesungen": ["estivesse"], "de": "Wenn die Straße nicht gesperrt wäre, würden wir rechtzeitig ankommen.", "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Era melhor que vocês ___ mais cedo. (sair)", "loesungen": ["saíssem"], "de": "Es wäre besser, wenn ihr früher losfahren würdet.", "erklaerung": "saíram → saí- + ssem = saíssem (mit Akzent).", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "uebersetzen", "de": "An Ihrer Stelle würde ich bis morgen warten.", "loesungen": ["Se eu fosse a si, esperava até amanhã.", "Se eu fosse a si, esperaria até amanhã.", "Se fosse a si, esperava até amanhã.", "Se fosse a si, esperaria até amanhã.", "No seu lugar, esperava até amanhã.", "No seu lugar, esperaria até amanhã.", "No seu lugar, eu esperava até amanhã.", "No seu lugar, eu esperaria até amanhã."], "kategorie": "Se eu fosse a ti"},
+     {"typ": "uebersetzen", "de": "Auf der Autobahn gibt es einen Stau.", "loesungen": ["Há um engarrafamento na autoestrada.", "Há fila na autoestrada.", "Há trânsito parado na autoestrada.", "Na autoestrada há um engarrafamento."]},
+     {"typ": "satzbau", "de": "An deiner Stelle würde ich heute nicht über die A22 fahren.", "loesung": "No teu lugar, eu não ia pela A22 hoje."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Trânsito e tempo – Verkehr und Wetter",
+    "situation": "Ein Lokalradio bringt am Morgen die Verkehrs- und Wettermeldungen.",
+    "zeilen": [
+     {"sprecher": "Locutora", "stimme": "f", "pt": "São sete e meia. Vamos ao trânsito.", "de": "Es ist halb acht. Zum Verkehr."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Na A22, um despiste perto de Loulé provocou um engarrafamento de quatro quilómetros no sentido Faro–Lagos.", "de": "Auf der A22 hat ein Unfall bei Loulé vier Kilometer Stau in Richtung Faro–Lagos verursacht."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "A estrada nacional 125 está cortada em Lagoa por causa das obras. Há um desvio pela estrada municipal.", "de": "Die Nationalstraße 125 ist in Lagoa wegen Bauarbeiten gesperrt. Es gibt eine Umleitung über die Gemeindestraße."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Se puder, evite a zona entre as oito e as nove.", "de": "Wenn möglich, meiden Sie den Bereich zwischen acht und neun Uhr."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Agora, o tempo. Há aviso amarelo para todo o Algarve por causa da trovoada.", "de": "Jetzt das Wetter. Für die ganze Algarve gilt wegen Gewittern die Warnstufe Gelb."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Esperam-se aguaceiros fortes e rajadas de vento até setenta quilómetros por hora. No mar, a agitação marítima vai aumentar.", "de": "Erwartet werden starke Regenschauer und Böen bis zu siebzig Kilometern pro Stunde. Auf dem Meer nimmt der Seegang zu."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Segundo a previsão, no fim de semana chega uma vaga de frio, com mínimas de quatro graus.", "de": "Laut Vorhersage kommt am Wochenende eine Kältewelle, mit Tiefstwerten von vier Grad."}
+    ],
+    "fragen": [
+     {"frage": "Onde aconteceu o despiste?", "optionen": ["Perto de Loulé.", "Em Lagoa.", "Em Faro."], "richtig": 0},
+     {"frage": "Porque é que a 125 está cortada?", "optionen": ["Por causa de um acidente.", "Por causa das obras.", "Por causa da trovoada."], "richtig": 1},
+     {"frage": "Como vai estar o tempo no fim de semana?", "optionen": ["Muito calor.", "Nevoeiro.", "Muito frio."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ana muss zum Flughafen Faro. Du hast die Verkehrsmeldungen gehört und gibst ihr Ratschläge.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, tenho de ir buscar a minha irmã ao aeroporto de Faro às nove. Vou pela A22?", "de": "Stefan, ich muss um neun meine Schwester vom Flughafen Faro abholen. Fahre ich über die A22?"},
+     {"ich": true, "aufgabe": "Diga: An deiner Stelle würde ich nicht über die A22 fahren. Es gibt einen Stau.", "loesungen": ["Se eu fosse a ti, não ia pela A22. Há um engarrafamento.", "Se eu fosse a ti, não iria pela A22. Há um engarrafamento.", "Se fosse a ti, não ia pela A22. Há um engarrafamento.", "Se fosse a ti, não iria pela A22. Há um engarrafamento.", "No teu lugar, não ia pela A22. Há um engarrafamento.", "No teu lugar, não iria pela A22. Há um engarrafamento.", "Se eu fosse a ti, não ia pela A22. Há fila.", "No teu lugar, eu não ia pela A22. Há um engarrafamento."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "A sério? E pela 125?", "de": "Echt? Und über die 125?"},
+     {"ich": true, "aufgabe": "Diga: Die 125 ist in Lagoa gesperrt. Es gibt eine Umleitung.", "loesungen": ["A 125 está cortada em Lagoa. Há um desvio.", "A 125 está cortada em Lagoa, há um desvio.", "A EN125 está cortada em Lagoa. Há um desvio.", "A estrada 125 está cortada em Lagoa. Há um desvio.", "A 125 está cortada em Lagoa. Tem um desvio."]},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Que chatice! E o tempo? Dizem que vem aí trovoada.", "de": "So ein Ärger! Und das Wetter? Es heißt, es kommt ein Gewitter."},
+     {"ich": true, "aufgabe": "Diga: Ja. Es wäre besser, wenn du früher losfährst.", "loesungen": ["Sim. Era melhor saíres mais cedo.", "Sim, era melhor saíres mais cedo.", "Sim. Era melhor que saísses mais cedo.", "Sim, era melhor que saísses mais cedo.", "Sim. Seria melhor saíres mais cedo.", "Sim, seria melhor saíres mais cedo.", "Sim. Seria melhor que saísses mais cedo.", "É verdade. Era melhor saíres mais cedo."]}
+    ]
+   },
+   "saetze": [
+    {"id": "se-eu-fosse-a-ti", "pt": "Se eu fosse a ti, levava o guarda-chuva.", "de": "An deiner Stelle würde ich den Regenschirm mitnehmen."},
+    {"id": "se-eu-fosse-a-si", "pt": "Se eu fosse a si, esperava até amanhã.", "de": "An Ihrer Stelle würde ich bis morgen warten."},
+    {"id": "era-melhor-saires", "pt": "Era melhor saíres mais cedo.", "de": "Es wäre besser, wenn du früher losfährst."}
+   ]
+  },
+  {
+   "id": "B1-06-L07",
+   "typ": "neu",
+   "titel": "Lokalnachrichten aus dem Algarve – era bom que …",
+   "vokabeln": ["o-presidente-da-camara", "o-morador", "inaugurar", "estar-em-obras", "a-falta-de-agua", "o-estacionamento", "a-autarquia", "o-abastecimento-de-agua", "a-requalificacao"],
+   "grammatik": {
+    "titel": "Era bom que, seria importante que … + imperfeito do conjuntivo",
+    "erklaerung": [
+     "As expressões impessoais (<i>é bom que, é importante que, é preciso que</i>) pedem conjuntivo. Quando estão no <b>imperfeito</b> ou no <b>condicional</b>, o verbo seguinte vai para o <b>imperfeito do conjuntivo</b>: <i>É bom que a câmara <b>faça</b> obras.</i> → <i><b>Era bom</b> que a câmara <b>fizesse</b> obras.</i>",
+     "Muito frequentes: <b>era bom que</b>, <b>era importante que</b>, <b>era preciso que</b>, <b>seria ótimo que</b>, <b>fazia falta que</b>: <i>Fazia falta que <b>houvesse</b> mais estacionamento.</i>",
+     "Assim, uma crítica fica mais suave e educada – ideal numa reunião de moradores ou num comentário no jornal local: <i>Seria importante que a autarquia <b>ouvisse</b> os moradores.</i>",
+     "Sem sujeito próprio, usa-se o infinitivo: <i>Era bom <b>poupar</b> água.</i> (em geral) · <i>Era bom <b>poupares</b> água.</i> (infinitivo pessoal: tu)."
+    ],
+    "erklaerung_de": [
+     "Unpersönliche Ausdrücke (<i>é bom que, é importante que, é preciso que</i>) verlangen den Konjunktiv. Stehen sie im <b>Imperfeito</b> oder <b>Konditional</b>, kommt das folgende Verb in den <b>Imperfeito do conjuntivo</b>: <i>Es ist gut, dass die Gemeinde baut.</i> → <i>Es <b>wäre</b> gut, wenn die Gemeinde bauen <b>würde</b>.</i>",
+     "Sehr häufig: <b>era bom que</b> (es wäre gut, wenn), <b>era importante que</b>, <b>era preciso que</b> (es müsste …), <b>seria ótimo que</b>, <b>fazia falta que</b> (es bräuchte …): <i>Es bräuchte mehr Parkplätze.</i>",
+     "So klingt Kritik sanfter und höflicher – ideal bei einer Anrainerversammlung oder in einem Kommentar in der Lokalzeitung: <i>Es wäre wichtig, dass die Gemeinde den Anwohnern <b>zuhört</b>.</i>",
+     "Ohne eigenes Subjekt steht der Infinitiv: <i>Era bom <b>poupar</b> água.</i> (allgemein) · <i>Era bom <b>poupares</b> água.</i> (Infinitivo pessoal: du)."
+    ],
+    "vergleich": "Deutsch: „Es wäre gut, wenn die Gemeinde mehr Parkplätze bauen würde.“ – Portugiesisch: <i>Era bom que a câmara construísse mais estacionamento.</i> Das „würde“ fällt weg, das Verb steht im Imperfeito do conjuntivo. Englisch: „It would be good if the council built …“.",
+    "beispiele": [
+     {"pt": "Era bom que a câmara construísse mais estacionamento no centro.", "de": "Es wäre gut, wenn die Gemeinde im Zentrum mehr Parkplätze bauen würde."},
+     {"pt": "Seria importante que toda a gente poupasse água este verão.", "de": "Es wäre wichtig, dass alle diesen Sommer Wasser sparen."},
+     {"pt": "Era preciso que as obras acabassem antes do verão.", "de": "Die Bauarbeiten müssten vor dem Sommer fertig werden."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Era bom que a câmara ___ mais árvores. (plantar)", "loesungen": ["plantasse"], "de": "Es wäre gut, wenn die Gemeinde mehr Bäume pflanzen würde.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Seria importante que todos ___ água. (poupar)", "loesungen": ["poupassem"], "de": "Es wäre wichtig, dass alle Wasser sparen.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Era preciso que as obras ___ antes de julho. (acabar)", "loesungen": ["acabassem"], "de": "Die Bauarbeiten müssten vor Juli fertig werden.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Fazia falta que ___ mais estacionamento no centro. (haver)", "loesungen": ["houvesse"], "de": "Es bräuchte mehr Parkplätze im Zentrum.", "erklaerung": "haver: houve → houvesse (immer Singular).", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "É bom que a câmara faça obras. → Era bom que a câmara ___ obras.", "optionen": ["faça", "fizesse", "fazia"], "richtig": 1, "erklaerung": "era bom que (Imperfeito) → Imperfeito do conjuntivo: fizesse.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Es wäre gut, Wasser zu sparen.“ (allgemein, ohne Person)", "optionen": ["Era bom que poupar água.", "Era bom poupar água.", "Era bom poupasse água."], "richtig": 1, "erklaerung": "Ohne eigenes Subjekt: Infinitiv ohne que.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Es wäre gut, wenn der Bürgermeister den Anwohnern zuhören würde.", "loesungen": ["Era bom que o presidente da câmara ouvisse os moradores.", "Seria bom que o presidente da câmara ouvisse os moradores.", "Era bom o presidente da câmara ouvir os moradores.", "Seria bom o presidente da câmara ouvir os moradores.", "Era bom que o presidente da câmara escutasse os moradores.", "Seria bom que o presidente da câmara escutasse os moradores."], "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "satzbau", "de": "Der neue Parkplatz wird im Mai eröffnet.", "loesung": "O novo parque de estacionamento vai ser inaugurado em maio."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Notícias da região – Nachrichten aus der Region",
+    "situation": "Das Lokalradio bringt die Nachrichten aus Lagos und Umgebung.",
+    "zeilen": [
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Bom dia. Começamos pelas notícias de Lagos.", "de": "Guten Morgen. Wir beginnen mit den Nachrichten aus Lagos."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "O presidente da câmara inaugurou ontem o novo parque de estacionamento junto à estação de comboios, com trezentos lugares.", "de": "Der Bürgermeister hat gestern den neuen Parkplatz beim Bahnhof mit dreihundert Stellplätzen eröffnet."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "A avenida marginal vai estar em obras até ao fim de maio. A requalificação custa cerca de dois milhões de euros.", "de": "Auf der Uferpromenade wird bis Ende Mai gebaut. Die Neugestaltung kostet rund zwei Millionen Euro."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Alguns comerciantes dizem que era importante que as obras acabassem antes da época alta.", "de": "Einige Geschäftsleute sagen, es wäre wichtig, dass die Bauarbeiten vor der Hochsaison fertig werden."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Em Silves, os moradores estão preocupados com a falta de água. Em algumas aldeias, o abastecimento de água foi interrompido durante a noite.", "de": "In Silves machen sich die Anwohner wegen des Wassermangels Sorgen. In einigen Dörfern wurde die Wasserversorgung in der Nacht unterbrochen."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "A autarquia pede que todos poupem água e proíbe a rega de jardins durante o dia.", "de": "Die Gemeinde bittet alle, Wasser zu sparen, und verbietet das Gießen von Gärten tagsüber."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Por fim, uma boa notícia: a praia de Dona Ana voltou a receber a Bandeira Azul.", "de": "Zum Schluss eine gute Nachricht: Der Strand Dona Ana hat wieder die Blaue Flagge erhalten."}
+    ],
+    "fragen": [
+     {"frage": "O que inaugurou o presidente da câmara?", "optionen": ["Um mercado.", "Um parque de estacionamento.", "Uma escola."], "richtig": 1},
+     {"frage": "O que querem alguns comerciantes?", "optionen": ["Que as obras acabem antes da época alta.", "Mais turistas no inverno.", "Uma nova praia."], "richtig": 0},
+     {"frage": "Qual é o problema em Silves?", "optionen": ["O trânsito.", "O barulho.", "A falta de água."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "O presidente da câmara inaugurou o novo mercado.", "de": "Der Bürgermeister hat den neuen Markt eröffnet."},
+     {"pt": "A avenida está em obras até ao verão.", "de": "Auf der Avenida wird bis zum Sommer gebaut."},
+     {"pt": "Era bom que a câmara ouvisse os moradores.", "de": "Es wäre gut, wenn die Gemeinde den Anwohnern zuhören würde."},
+     {"pt": "Seria importante que todos poupassem água.", "de": "Es wäre wichtig, dass alle Wasser sparen."},
+     {"pt": "Fazia falta que houvesse mais estacionamento no centro.", "de": "Es bräuchte mehr Parkplätze im Zentrum."}
+    ]
+   },
+   "saetze": [
+    {"id": "era-bom-que", "pt": "Era bom que a câmara ouvisse os moradores.", "de": "Es wäre gut, wenn die Gemeinde den Anwohnern zuhören würde."},
+    {"id": "seria-importante-que", "pt": "Seria importante que todos poupassem água.", "de": "Es wäre wichtig, dass alle Wasser sparen."},
+    {"id": "fazia-falta-que", "pt": "Fazia falta que houvesse mais estacionamento.", "de": "Es bräuchte mehr Parkplätze."}
+   ]
+  },
+  {
+   "id": "B1-06-L08",
+   "typ": "neu",
+   "titel": "Sport – ganhava statt ganharia",
+   "vokabeln": ["o-campeonato", "o-golo", "o-adepto", "o-treinador", "empatar", "a-vitoria", "a-derrota", "o-arbitro", "a-grande-penalidade"],
+   "grammatik": {
+    "titel": "Na fala: imperfeito em vez de condicional",
+    "erklaerung": [
+     "Na conversa, os portugueses usam muito o <b>imperfeito do indicativo</b> no lugar do condicional: <i>Se a equipa <b>jogasse</b> sempre assim, <b>ganhava</b> o campeonato.</i> (= ganharia)",
+     "Também se usa <b>ia + infinitivo</b>: <i>Se tivesse bilhetes, <b>ia ver</b> o jogo.</i> O condicional (<i>ganharia, iria</i>) soa mais formal e aparece mais na escrita e nas notícias.",
+     "Expressões típicas: <i><b>Se fosse eu</b> o treinador, mudava a equipa toda.</i> · <i><b>Nem que chovesse</b>, eu ia ao estádio.</i> (= mesmo que chovesse)"
+    ],
+    "erklaerung_de": [
+     "Im Gespräch verwenden Portugiesen statt des Konditionals sehr oft das <b>Imperfeito do indicativo</b>: <i>Wenn die Mannschaft immer so <b>spielen würde</b>, <b>würde</b> sie die Meisterschaft <b>gewinnen</b>.</i> (ganhava = ganharia)",
+     "Auch <b>ia + Infinitiv</b> ist üblich: <i>Wenn ich Karten hätte, <b>würde</b> ich das Spiel <b>anschauen gehen</b>.</i> Der Konditional (<i>ganharia, iria</i>) klingt formeller und kommt eher in geschriebenen Texten und in den Nachrichten vor.",
+     "Typische Wendungen: <i><b>Wenn ich</b> der Trainer <b>wäre</b>, würde ich die ganze Mannschaft umstellen.</i> · <i><b>Auch wenn es regnen würde</b>, würde ich ins Stadion gehen.</i> (nem que chovesse = mesmo que chovesse)"
+    ],
+    "vergleich": "Englisch braucht immer „would“; das gesprochene Portugiesisch spart sich den Konditional oft ganz: <i>ganhava</i> statt <i>ganharia</i>. Achtung: <i>ganhava</i> kann also „gewann (regelmäßig)“ oder „würde gewinnen“ bedeuten – der se-Satz mit Imperfeito do conjuntivo zeigt, was gemeint ist. Ähnlich im Deutschen: „Wenn er Zeit hätte, käme er“ = „würde er kommen“.",
+    "beispiele": [
+     {"pt": "Se marcássemos agora, ainda empatávamos o jogo.", "de": "Wenn wir jetzt ein Tor schießen würden, würden wir noch ein Unentschieden holen."},
+     {"pt": "Se tivesse bilhetes, ia ao estádio ver o jogo.", "de": "Wenn ich Karten hätte, würde ich ins Stadion gehen und das Spiel anschauen."},
+     {"pt": "Se fosse eu o treinador, mudava a equipa toda.", "de": "Wenn ich der Trainer wäre, würde ich die ganze Mannschaft umstellen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se eles jogassem sempre assim, ___ o campeonato. (ganhar – imperfeito)", "loesungen": ["ganhavam"], "de": "Wenn sie immer so spielen würden, würden sie die Meisterschaft gewinnen.", "kategorie": "Imperfeito em vez de condicional"},
+     {"typ": "luecke", "satz": "Se nós ___ agora, empatávamos o jogo. (marcar)", "loesungen": ["marcássemos"], "de": "Wenn wir jetzt ein Tor schießen würden, würden wir ausgleichen.", "erklaerung": "nós-Form mit Akzent: marcássemos.", "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Se eu ___ bilhetes, ia ao estádio. (ter)", "loesungen": ["tivesse"], "de": "Wenn ich Karten hätte, würde ich ins Stadion gehen.", "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Nem que ___, eu ia ver o jogo. (chover)", "loesungen": ["chovesse"], "de": "Auch wenn es regnen würde, würde ich das Spiel anschauen gehen.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "Welche Form ist umgangssprachlich und bedeutet hier „würde gewinnen“? „Se jogasse assim, ___ o jogo.“", "optionen": ["ganhou", "ganhava", "ganhe"], "richtig": 1, "erklaerung": "Im Gespräch ersetzt das Imperfeito (ganhava) den Konditional (ganharia).", "kategorie": "Imperfeito em vez de condicional"},
+     {"typ": "auswahl", "frage": "„Wenn ich der Trainer wäre …“", "optionen": ["Se fosse eu o treinador …", "Se era eu o treinador …", "Se seria eu o treinador …"], "richtig": 0, "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Wenn ich Karten hätte, würde ich ins Stadion gehen.", "loesungen": ["Se tivesse bilhetes, ia ao estádio.", "Se eu tivesse bilhetes, ia ao estádio.", "Se tivesse bilhetes, iria ao estádio.", "Se eu tivesse bilhetes, iria ao estádio.", "Ia ao estádio se tivesse bilhetes.", "Iria ao estádio se tivesse bilhetes."], "kategorie": "Se + imperfeito do conjuntivo"},
+     {"typ": "satzbau", "de": "Das Spiel endete unentschieden, eins zu eins.", "loesung": "O jogo acabou empatado, um a um."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O jogo no café – das Spiel im Café",
+    "situation": "Stefan und sein Nachbar João schauen im Café ein Fußballspiel.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Estamos a perder um a zero e faltam dez minutos. Se marcássemos agora, ainda empatávamos.", "de": "Wir liegen null zu eins zurück, und es sind noch zehn Minuten. Wenn wir jetzt ein Tor schießen würden, würden wir noch ausgleichen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O treinador devia pôr o número nove a jogar. Se fosse eu o treinador, mudava já.", "de": "Der Trainer sollte die Nummer neun bringen. Wenn ich der Trainer wäre, würde ich sofort wechseln."},
+     {"sprecher": "João", "stimme": "m", "pt": "Concordo. E o árbitro? Aquilo era grande penalidade!", "de": "Einverstanden. Und der Schiedsrichter? Das war doch ein Elfmeter!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Calma, João. Falas como se o árbitro fosse culpado de tudo.", "de": "Ruhig, João. Du redest, als wäre der Schiedsrichter an allem schuld."},
+     {"sprecher": "João", "stimme": "m", "pt": "Golo! Golo! Um a um! Viste aquilo?", "de": "Tor! Tor! Eins zu eins! Hast du das gesehen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que golo! Os adeptos estão loucos. Um empate não é uma vitória, mas é melhor do que uma derrota.", "de": "Was für ein Tor! Die Fans flippen aus. Ein Unentschieden ist kein Sieg, aber besser als eine Niederlage."},
+     {"sprecher": "João", "stimme": "m", "pt": "No domingo há outro jogo em casa. Se tivesse bilhetes, ia ao estádio contigo.", "de": "Am Sonntag gibt es noch ein Heimspiel. Wenn ich Karten hätte, würde ich mit dir ins Stadion gehen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Eu trato disso. O meu cliente é sócio do clube!", "de": "Darum kümmere ich mich. Mein Kunde ist Vereinsmitglied!"}
+    ],
+    "fragen": [
+     {"frage": "Como estava o jogo quando faltavam dez minutos?", "optionen": ["A equipa do João estava a ganhar.", "A equipa do João estava a perder um a zero.", "Estava empatado."], "richtig": 1},
+     {"frage": "O que faria Stefan se fosse o treinador?", "optionen": ["Punha o número nove a jogar.", "Falava com o árbitro.", "Ia para casa."], "richtig": 0},
+     {"frage": "Como acabou o jogo?", "optionen": ["Com uma vitória.", "Com uma derrota.", "Com um empate."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Pedro ruft dich nach dem Spiel an. Antworte mit se + imperfeito do conjuntivo und dem Imperfeito.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Stefan, viste o jogo ontem? Empatámos outra vez!", "de": "Stefan, hast du gestern das Spiel gesehen? Wieder unentschieden!"},
+     {"ich": true, "aufgabe": "Diga: Ja. Wenn der Trainer mutiger wäre, würden wir öfter gewinnen.", "loesungen": ["Vi. Se o treinador fosse mais corajoso, ganhávamos mais vezes.", "Sim. Se o treinador fosse mais corajoso, ganhávamos mais vezes.", "Sim, se o treinador fosse mais corajoso, ganhávamos mais vezes.", "Vi. Se o treinador fosse mais corajoso, ganharíamos mais vezes.", "Sim. Se o treinador fosse mais corajoso, ganharíamos mais vezes.", "Sim, se o treinador fosse mais corajoso, ganharíamos mais vezes.", "Vi. Se o treinador tivesse mais coragem, ganhávamos mais vezes.", "Sim. Se o treinador tivesse mais coragem, ganhávamos mais vezes.", "Vi. Se o treinador fosse mais corajoso, ganhávamos mais."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Pois é. No sábado jogam em Faro. Vamos?", "de": "Genau. Am Samstag spielen sie in Faro. Gehen wir hin?"},
+     {"ich": true, "aufgabe": "Diga: Wenn ich Zeit hätte, würde ich mitgehen, aber ich arbeite am Samstag.", "loesungen": ["Se tivesse tempo, ia contigo, mas trabalho no sábado.", "Se eu tivesse tempo, ia contigo, mas trabalho no sábado.", "Se tivesse tempo, iria contigo, mas trabalho no sábado.", "Se eu tivesse tempo, iria contigo, mas trabalho no sábado.", "Se tivesse tempo, ia contigo, mas no sábado trabalho.", "Se eu tivesse tempo, ia contigo, mas no sábado trabalho.", "Se tivesse tempo, ia, mas trabalho no sábado.", "Se eu tivesse tempo, ia, mas trabalho no sábado.", "Se tivesse tempo, ia contigo, mas tenho de trabalhar no sábado."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Que pena! Então vemos o próximo jogo no café do Zé?", "de": "Schade! Dann schauen wir das nächste Spiel im Café von Zé?"},
+     {"ich": true, "aufgabe": "Diga: Gute Idee! Auch wenn es regnen würde, würde ich hingehen.", "loesungen": ["Boa ideia! Nem que chovesse, eu ia.", "Boa ideia! Nem que chovesse, ia.", "Boa ideia! Mesmo que chovesse, eu ia.", "Boa ideia! Mesmo que chovesse, ia.", "Boa ideia! Nem que chovesse, eu iria.", "Boa ideia! Mesmo que chovesse, eu iria.", "Boa ideia! Nem que chovesse, eu ia lá.", "Boa ideia! Mesmo que chovesse, eu ia lá."]}
+    ]
+   },
+   "saetze": [
+    {"id": "se-marcassemos-agora", "pt": "Se marcássemos agora, ainda empatávamos.", "de": "Wenn wir jetzt ein Tor schießen würden, würden wir noch ausgleichen."},
+    {"id": "se-fosse-eu-o-treinador", "pt": "Se fosse eu o treinador, mudava a equipa toda.", "de": "Wenn ich der Trainer wäre, würde ich die ganze Mannschaft umstellen."},
+    {"id": "nem-que-chovesse", "pt": "Nem que chovesse, eu ia ao estádio.", "de": "Auch wenn es regnen würde, würde ich ins Stadion gehen."}
+   ]
+  },
+  {
+   "id": "B1-06-L09",
+   "typ": "neu",
+   "titel": "Kultur – Quem me dera …!",
+   "vokabeln": ["o-festival", "o-premio", "o-palco", "atuar", "o-publico", "o-realizador", "a-digressao", "o-elenco", "a-critica"],
+   "grammatik": {
+    "titel": "Quem me dera (que) … / Oxalá + imperfeito do conjuntivo",
+    "erklaerung": [
+     "<b>Quem me dera</b> exprime um desejo forte, muitas vezes difícil de realizar. Com o mesmo sujeito usa-se o infinitivo: <i>Quem me dera <b>ter</b> bilhetes para o concerto!</i>",
+     "Com outro sujeito: <b>quem me dera que</b> + <b>imperfeito do conjuntivo</b>: <i>Quem me dera que a banda <b>viesse</b> tocar a Lagos!</i>",
+     "<b>Oxalá</b> + presente do conjuntivo = desejo possível: <i>Oxalá <b>haja</b> bilhetes.</i> <b>Oxalá</b> + imperfeito do conjuntivo = desejo pouco provável: <i>Oxalá <b>houvesse</b> mais festivais no inverno!</i>",
+     "<b>Quem me dera!</b> sozinho é muito usado como resposta: – <i>Vais ao festival?</i> – <i>Quem me dera!</i>"
+    ],
+    "erklaerung_de": [
+     "<b>Quem me dera</b> drückt einen starken Wunsch aus, der oft schwer zu erfüllen ist. Bei gleichem Subjekt steht der Infinitiv: <i>Ich wünschte, ich <b>hätte</b> Karten für das Konzert!</i>",
+     "Bei anderem Subjekt: <b>quem me dera que</b> + <b>Imperfeito do conjuntivo</b>: <i>Ich wünschte, die Band <b>käme</b> nach Lagos und würde hier spielen!</i>",
+     "<b>Oxalá</b> + Presente do conjuntivo = möglicher Wunsch: <i>Hoffentlich <b>gibt</b> es Karten.</i> <b>Oxalá</b> + Imperfeito do conjuntivo = eher unwahrscheinlicher Wunsch: <i>Wenn es doch im Winter mehr Festivals <b>gäbe</b>!</i>",
+     "<b>Quem me dera!</b> allein ist eine sehr häufige Antwort: – <i>Gehst du zum Festival?</i> – <i>Schön wär's!</i>"
+    ],
+    "vergleich": "Deutsch: „Ich wünschte, die Band käme nach Lagos!“ / „Wenn die Band doch nach Lagos käme!“ – auch hier Konjunktiv II. Englisch: „I wish the band would come …“ / „If only …“. <i>Quem me dera</i> heißt wörtlich „wer gäbe mir“ – am besten als feste Wendung lernen.",
+    "beispiele": [
+     {"pt": "Quem me dera ter bilhetes para o festival!", "de": "Ich wünschte, ich hätte Karten für das Festival!"},
+     {"pt": "Quem me dera que a minha fadista preferida viesse cantar a Lagos!", "de": "Ich wünschte, meine Lieblings-Fadosängerin käme nach Lagos, um hier zu singen!"},
+     {"pt": "Oxalá houvesse mais concertos no inverno!", "de": "Wenn es doch im Winter mehr Konzerte gäbe!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quem me dera ___ ao festival! (ir – eu)", "loesungen": ["ir"], "de": "Ich wünschte, ich könnte zum Festival gehen!", "erklaerung": "Gleiches Subjekt → Infinitiv: quem me dera ir.", "kategorie": "Quem me dera"},
+     {"typ": "luecke", "satz": "Quem me dera que tu ___ comigo ao concerto! (vir)", "loesungen": ["viesses"], "de": "Ich wünschte, du kämst mit mir ins Konzert!", "kategorie": "Quem me dera"},
+     {"typ": "luecke", "satz": "Oxalá ___ mais cinemas no Algarve! (haver)", "loesungen": ["houvesse"], "de": "Wenn es doch an der Algarve mehr Kinos gäbe!", "kategorie": "Quem me dera"},
+     {"typ": "luecke", "satz": "Quem me dera que o filme ___ o prémio! (ganhar)", "loesungen": ["ganhasse"], "de": "Ich wünschte, der Film würde den Preis gewinnen!", "kategorie": "Quem me dera"},
+     {"typ": "auswahl", "frage": "„Schön wär's!“", "optionen": ["Oxalá!", "Quem me dera!", "Ainda bem!"], "richtig": 1, "erklaerung": "Oxalá! = Hoffentlich! · Ainda bem! = Zum Glück! · Quem me dera! = Schön wär's!", "kategorie": "Quem me dera"},
+     {"typ": "auswahl", "frage": "Welcher Wunsch klingt am unwahrscheinlichsten?", "optionen": ["Oxalá haja bilhetes.", "Espero que haja bilhetes.", "Oxalá houvesse bilhetes."], "richtig": 2, "erklaerung": "Oxalá + Imperfeito do conjuntivo = eher unrealistischer Wunsch.", "kategorie": "Quem me dera"},
+     {"typ": "uebersetzen", "de": "Ich wünschte, ich hätte mehr Zeit für Kultur!", "loesungen": ["Quem me dera ter mais tempo para a cultura!", "Quem me dera ter mais tempo para cultura!", "Quem me dera ter mais tempo para a cultura.", "Quem me dera ter mais tempo para cultura."], "kategorie": "Quem me dera"},
+     {"typ": "satzbau", "de": "Die Band ist auf Europatournee.", "loesung": "A banda está em digressão pela Europa."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A agenda cultural – der Veranstaltungskalender",
+    "situation": "Rita und Stefan schauen sich den Kulturkalender der Region an.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, já viste a agenda cultural deste mês? Há imensas coisas!", "de": "Stefan, hast du schon den Kulturkalender für diesen Monat gesehen? Es gibt jede Menge!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ainda não. O que é que há de bom?", "de": "Noch nicht. Was gibt es Gutes?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "No dia doze, há um concerto de fado no Centro Cultural. A fadista acabou de ganhar um prémio importante.", "de": "Am Zwölften gibt es ein Fadokonzert im Kulturzentrum. Die Sängerin hat gerade einen wichtigen Preis gewonnen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que bom! Quem me dera que ainda houvesse bilhetes…", "de": "Wie schön! Wenn es doch noch Karten gäbe …"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Há! Mas a bilheteira só abre amanhã às dez. E no fim do mês começa o festival de cinema.", "de": "Gibt es! Aber die Kasse öffnet erst morgen um zehn. Und Ende des Monats beginnt das Filmfestival."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O festival de cinema? A Ana adora. Quem me dera ter tempo para ver os filmes todos!", "de": "Das Filmfestival? Ana liebt es. Ich wünschte, ich hätte Zeit, alle Filme zu sehen!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Vai estar lá um realizador português muito conhecido. Os críticos dizem que o filme dele é o melhor do ano.", "de": "Ein sehr bekannter portugiesischer Regisseur wird dort sein. Die Kritiker sagen, sein Film ist der beste des Jahres."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então está decidido: fado no dia doze e cinema no fim do mês. Oxalá a Ana não tenha trabalho!", "de": "Dann ist es beschlossen: Fado am Zwölften und Kino Ende des Monats. Hoffentlich muss Ana nicht arbeiten!"}
+    ],
+    "fragen": [
+     {"frage": "O que há no dia doze?", "optionen": ["Um concerto de fado.", "O festival de cinema.", "Uma exposição."], "richtig": 0},
+     {"frage": "Quando abre a bilheteira?", "optionen": ["Hoje à noite.", "Amanhã às dez.", "No dia doze."], "richtig": 1},
+     {"frage": "O que dizem os críticos?", "optionen": ["Que o festival é caro.", "Que a fadista canta mal.", "Que o filme do realizador é o melhor do ano."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich wünschte, die Band käme nach Lagos!", "loesungen": ["Quem me dera que a banda viesse a Lagos!", "Quem me dera que a banda viesse a Lagos.", "Quem me dera que a banda viesse tocar a Lagos!", "Quem me dera que a banda viesse tocar a Lagos.", "Oxalá a banda viesse a Lagos!", "Oxalá a banda viesse tocar a Lagos!"]},
+     {"de": "Der Film hat in Berlin einen Preis gewonnen.", "loesungen": ["O filme ganhou um prémio em Berlim.", "O filme ganhou um prémio em Berlim!", "Em Berlim, o filme ganhou um prémio."]},
+     {"de": "Das Publikum hat im Stehen applaudiert.", "loesungen": ["O público aplaudiu de pé.", "O público bateu palmas de pé.", "O público aplaudiu de pé!"]},
+     {"de": "Schön wär's! Ich habe keine Karten.", "loesungen": ["Quem me dera! Não tenho bilhetes.", "Quem me dera! Eu não tenho bilhetes.", "Quem me dera! Não tenho bilhete.", "Quem me dera! Não tenho entradas."]}
+    ]
+   },
+   "saetze": [
+    {"id": "quem-me-dera-ter", "pt": "Quem me dera ter bilhetes para o festival!", "de": "Ich wünschte, ich hätte Karten für das Festival!"},
+    {"id": "quem-me-dera-que", "pt": "Quem me dera que viesses comigo ao concerto!", "de": "Ich wünschte, du kämst mit mir ins Konzert!"},
+    {"id": "oxala-houvesse", "pt": "Oxalá houvesse mais concertos no inverno!", "de": "Wenn es doch im Winter mehr Konzerte gäbe!"}
+   ]
+  },
+  {
+   "id": "B1-06-L10",
+   "typ": "neu",
+   "titel": "Über eine Nachricht diskutieren",
+   "vokabeln": ["exagerado", "preocupante", "chocante", "surpreendente", "o-titulo", "levar-a-serio", "credivel", "sensacionalista", "por-em-causa"],
+   "grammatik": {
+    "titel": "Não acreditei que fosse verdade – a concordância dos tempos",
+    "erklaerung": [
+     "Quando o verbo principal está num tempo do <b>passado</b> (pretérito perfeito ou imperfeito) e pede conjuntivo, usa-se o <b>imperfeito do conjuntivo</b>: <i>Não acredito que <b>seja</b> verdade.</i> → <i>Não acreditei que <b>fosse</b> verdade.</i>",
+     "Isto é muito útil para comentar notícias: <i>Achei estranho que ninguém <b>falasse</b> disso.</i> · <i>Duvidei que a notícia <b>fosse</b> verdadeira.</i> · <i>Era natural que as pessoas <b>estivessem</b> preocupadas.</i>",
+     "Para reagir a uma notícia: <i>Isso é exagerado.</i> · <i>É preocupante.</i> · <i>Não levo isso a sério.</i> · <i>O título diz outra coisa.</i> · <i>Se fosse verdade, já estava em todos os jornais.</i>"
+    ],
+    "erklaerung_de": [
+     "Steht das Hauptverb in einer <b>Vergangenheitszeit</b> (Pretérito perfeito oder Imperfeito) und verlangt es den Konjunktiv, verwendet man den <b>Imperfeito do conjuntivo</b>: <i>Ich glaube nicht, dass es wahr ist.</i> → <i>Ich habe nicht geglaubt, dass es wahr ist.</i> (<i>seja → fosse</i>)",
+     "Das ist sehr nützlich, um Nachrichten zu kommentieren: <i>Ich fand es seltsam, dass niemand darüber sprach.</i> · <i>Ich bezweifelte, dass die Meldung stimmte.</i> · <i>Es war verständlich, dass die Leute besorgt waren.</i>",
+     "So reagierst du auf eine Meldung: <i>Das ist übertrieben.</i> · <i>Das ist besorgniserregend.</i> · <i>Das nehme ich nicht ernst.</i> · <i>Die Überschrift sagt etwas anderes.</i> · <i>Wenn das stimmen würde, stünde es schon in allen Zeitungen.</i>"
+    ],
+    "vergleich": "Im Deutschen ändert sich nach einer Vergangenheit meist nichts („Ich glaubte nicht, dass es stimmt“). Im Portugiesischen muss die Zeit „mitwandern“: <i>não acredito que seja</i> → <i>não acreditei que fosse</i>. Das ähnelt dem Englischen: „I don't think it is true“ → „I didn't think it was true“.",
+    "beispiele": [
+     {"pt": "Não acreditei que a notícia fosse verdadeira.", "de": "Ich habe nicht geglaubt, dass die Meldung wahr ist."},
+     {"pt": "Achei estranho que o telejornal não falasse disso.", "de": "Ich fand es seltsam, dass die Fernsehnachrichten nicht darüber berichteten."},
+     {"pt": "Se fosse verdade, já estava em todos os jornais.", "de": "Wenn das stimmen würde, stünde es schon in allen Zeitungen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Não acreditei que ___ verdade. (ser)", "loesungen": ["fosse"], "de": "Ich habe nicht geglaubt, dass es wahr ist.", "kategorie": "Concordância dos tempos"},
+     {"typ": "luecke", "satz": "Achei estranho que ninguém ___ nada. (dizer)", "loesungen": ["dissesse"], "de": "Ich fand es seltsam, dass niemand etwas sagte.", "kategorie": "Concordância dos tempos"},
+     {"typ": "luecke", "satz": "Era normal que as pessoas ___ preocupadas. (estar)", "loesungen": ["estivessem"], "de": "Es war normal, dass die Leute besorgt waren.", "kategorie": "Concordância dos tempos"},
+     {"typ": "luecke", "satz": "Duvido que seja verdade. → Duvidei que ___ verdade.", "loesungen": ["fosse"], "de": "Ich bezweifelte, dass es wahr ist.", "kategorie": "Concordância dos tempos"},
+     {"typ": "auswahl", "frage": "Não acho que o título seja exagerado. → Não achei que o título ___ exagerado.", "optionen": ["seja", "fosse", "era"], "richtig": 1, "erklaerung": "Hauptsatz in der Vergangenheit (não achei) → Imperfeito do conjuntivo (fosse).", "kategorie": "Concordância dos tempos"},
+     {"typ": "auswahl", "frage": "„Das ist besorgniserregend.“", "optionen": ["Isso é preocupante.", "Isso é chocante.", "Isso é exagerado."], "richtig": 0},
+     {"typ": "satzbau", "de": "Ich nehme diese Nachrichten nicht ernst.", "loesung": "Não levo estas notícias a sério."},
+     {"typ": "uebersetzen", "de": "Wenn das stimmen würde, stünde es schon in allen Zeitungen.", "loesungen": ["Se fosse verdade, já estava em todos os jornais.", "Se fosse verdade, já estaria em todos os jornais.", "Se isso fosse verdade, já estava em todos os jornais.", "Se isso fosse verdade, já estaria em todos os jornais.", "Se fosse verdade, já vinha em todos os jornais.", "Se isso fosse verdade, já vinha em todos os jornais."], "kategorie": "Se + imperfeito do conjuntivo"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um título exagerado – eine übertriebene Schlagzeile",
+    "situation": "Ana zeigt Stefan auf dem Handy eine Schlagzeile, die gerade überall geteilt wird.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, olha este título: «Algarve vai proibir turistas nas praias em agosto». Isto é verdade?", "de": "Stefan, schau dir diese Schlagzeile an: „Algarve verbietet im August Touristen an den Stränden“. Stimmt das?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não acredito. Se fosse verdade, já estava em todos os jornais.", "de": "Das glaube ich nicht. Wenn das stimmen würde, stünde es schon in allen Zeitungen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Também achei estranho que o telejornal não falasse disso.", "de": "Ich fand es auch seltsam, dass die Fernsehnachrichten nicht darüber berichteten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Deixa-me ver o artigo… Pois. O título é exagerado. Afinal, é só uma praia em Albufeira, durante dois dias, por causa de umas obras.", "de": "Lass mich den Artikel sehen … Eben. Die Überschrift ist übertrieben. Es geht nur um einen Strand in Albufeira, für zwei Tage, wegen Bauarbeiten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "A sério? Que sensacionalista! E as pessoas partilham isto como se fosse uma notícia séria.", "de": "Echt? Wie reißerisch! Und die Leute teilen das, als wäre es eine ernsthafte Nachricht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É preocupante. Muita gente só lê o título e não verifica a fonte.", "de": "Das ist besorgniserregend. Viele lesen nur die Überschrift und prüfen die Quelle nicht."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Tens razão. Eu quase acreditei! Ainda bem que me mostraste o artigo.", "de": "Du hast recht. Ich hätte es fast geglaubt! Gut, dass du mir den Artikel gezeigt hast."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Por isso, antes de partilharmos alguma coisa, é melhor lermos o artigo todo.", "de": "Deshalb ist es besser, den ganzen Artikel zu lesen, bevor wir etwas teilen."}
+    ],
+    "fragen": [
+     {"frage": "O que dizia o título?", "optionen": ["Que o Algarve ia proibir turistas nas praias em agosto.", "Que as praias iam fechar por causa da seca.", "Que havia uma vaga de frio."], "richtig": 0},
+     {"frage": "O que diz realmente o artigo?", "optionen": ["Que todas as praias fecham em agosto.", "Que só uma praia fecha dois dias por causa de obras.", "Que os turistas têm de pagar para ir à praia."], "richtig": 1},
+     {"frage": "O que acha Stefan preocupante?", "optionen": ["Que haja muitos turistas.", "Que o telejornal seja aborrecido.", "Que muita gente só leia o título."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Nachbar João hat in den sozialen Netzwerken eine Meldung gelesen. Du bist skeptisch.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Stefan, li nas redes sociais que a câmara vai fechar o mercado de Lagos. Que achas?", "de": "Stefan, ich habe in den sozialen Netzwerken gelesen, dass die Gemeinde den Markt von Lagos schließen will. Was meinst du?"},
+     {"ich": true, "aufgabe": "Diga: Das glaube ich nicht. Wenn das stimmen würde, wäre es in den Nachrichten.", "loesungen": ["Não acredito. Se fosse verdade, estava no noticiário.", "Não acredito. Se fosse verdade, estaria no noticiário.", "Não acredito nisso. Se fosse verdade, estava no noticiário.", "Não acredito nisso. Se fosse verdade, estaria no noticiário.", "Não acredito. Se fosse verdade, estava nas notícias.", "Não acredito. Se fosse verdade, estaria nas notícias.", "Não acredito. Se isso fosse verdade, estava no noticiário.", "Não acredito. Se isso fosse verdade, estava nas notícias."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Mas muita gente partilhou… Até a minha irmã!", "de": "Aber viele haben es geteilt … Sogar meine Schwester!"},
+     {"ich": true, "aufgabe": "Diga: Ich fand es seltsam, dass niemand in Lagos darüber sprach.", "loesungen": ["Achei estranho que ninguém em Lagos falasse disso.", "Achei estranho que ninguém falasse disso em Lagos.", "Achei esquisito que ninguém em Lagos falasse disso.", "Achei esquisito que ninguém falasse disso em Lagos.", "Achei estranho ninguém em Lagos falar disso."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Lá isso é verdade. Então o que faço?", "de": "Das stimmt allerdings. Was soll ich also tun?"},
+     {"ich": true, "aufgabe": "Diga: Nimm diese Nachrichten nicht ernst. Überprüf immer die Quelle.", "loesungen": ["Não leves estas notícias a sério. Verifica sempre a fonte.", "Não leves essas notícias a sério. Verifica sempre a fonte.", "Não leves a sério estas notícias. Verifica sempre a fonte.", "Não leves a sério essas notícias. Verifica sempre a fonte.", "Não leves isso a sério. Verifica sempre a fonte.", "Não leves estas notícias a sério e verifica sempre a fonte."]}
+    ]
+   },
+   "saetze": [
+    {"id": "nao-acreditei-que-fosse", "pt": "Não acreditei que a notícia fosse verdadeira.", "de": "Ich habe nicht geglaubt, dass die Meldung wahr ist."},
+    {"id": "se-fosse-verdade", "pt": "Se fosse verdade, já estava em todos os jornais.", "de": "Wenn das stimmen würde, stünde es schon in allen Zeitungen."},
+    {"id": "achei-estranho-que", "pt": "Achei estranho que ninguém falasse disso.", "de": "Ich fand es seltsam, dass niemand darüber sprach."}
+   ]
+  },
+  {"id": "B1-06-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-06-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "As notícias da manhã – die Morgennachrichten",
+   "situation": "Rita und Stefan sprechen über die Nachrichten des Tages.",
+   "zeilen": [
+    {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, ouviste o noticiário esta manhã? A A22 esteve cortada duas horas por causa de um despiste.", "de": "Stefan, hast du heute Morgen die Nachrichten gehört? Die A22 war wegen eines Unfalls zwei Stunden gesperrt."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Ouvi, mas tarde demais. Fiquei uma hora no engarrafamento. Era bom que a rádio desse estas notícias mais cedo.", "de": "Ja, aber zu spät. Ich bin eine Stunde im Stau gestanden. Es wäre gut, wenn das Radio solche Meldungen früher bringen würde."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Houve feridos?", "de": "Gab es Verletzte?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Só um ferido ligeiro, felizmente. O condutor saiu do carro como se nada fosse.", "de": "Zum Glück nur einen Leichtverletzten. Der Fahrer ist aus dem Auto gestiegen, als wäre nichts gewesen."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Ainda bem! E viste a outra notícia? O governo quer aumentar o salário mínimo outra vez.", "de": "Zum Glück! Und hast du die andere Meldung gesehen? Die Regierung will den Mindestlohn wieder erhöhen."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Vi. Se os preços não subissem tanto, o aumento era uma ótima notícia.", "de": "Ja. Wenn die Preise nicht so stark steigen würden, wäre die Erhöhung eine tolle Nachricht."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Pois. Eu gostava que as rendas também descessem um pouco…", "de": "Eben. Ich hätte gern, dass auch die Mieten ein bisschen sinken …"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Quem me dera! Mas não acredito que isso aconteça tão cedo.", "de": "Schön wär's! Aber ich glaube nicht, dass das so bald passiert."}
+   ],
+   "fragen": [
+    {"frage": "Porque é que a A22 esteve cortada?", "optionen": ["Por causa de um despiste.", "Por causa de um incêndio.", "Por causa das obras."], "richtig": 0},
+    {"frage": "Quanto tempo ficou Stefan no engarrafamento?", "optionen": ["Dez minutos.", "Uma hora.", "Duas horas."], "richtig": 1},
+    {"frage": "Como ficou o condutor?", "optionen": ["Gravemente ferido.", "Desaparecido.", "Só ligeiramente ferido."], "richtig": 2},
+    {"frage": "O que gostava Rita que acontecesse?", "optionen": ["Que o salário mínimo baixasse.", "Que as rendas descessem um pouco.", "Que a A22 fechasse."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Lagos pede aos moradores que poupem água – Lagos bittet die Anwohner, Wasser zu sparen",
+   "situation": "Eine Meldung aus der Lokalzeitung.",
+   "text": [
+    "Lagos, 14 de julho – A Câmara Municipal de Lagos pediu ontem aos moradores e aos turistas que poupassem água durante o verão.",
+    "Segundo o comunicado da autarquia, as reservas de água do Algarve estão a menos de trinta por cento da sua capacidade, um valor preocupante para esta época do ano.",
+    "O presidente da câmara explicou que a rega de jardins vai ser proibida entre as oito da manhã e as oito da noite. «Era importante que todos percebessem que a situação é grave», disse.",
+    "Alguns moradores acham as medidas exageradas. «Os hotéis e os campos de golfe gastam muito mais água do que nós. Gostava que a câmara também falasse com eles», afirmou Rosa Martins, moradora no centro histórico.",
+    "A autarquia garante que vai reunir com o setor do turismo na próxima semana. Se não chover no outono, poderão ser necessárias medidas mais duras.",
+    "A futura central de dessalinização da região deverá resolver parte do problema, mas só dentro de alguns anos."
+   ],
+   "fragen": [
+    {"frage": "O que pediu a câmara?", "optionen": ["Que os moradores e os turistas poupassem água.", "Que os turistas não viessem.", "Que os hotéis fechassem."], "richtig": 0},
+    {"frage": "Porque é que a situação é preocupante?", "optionen": ["Porque há muitos incêndios.", "Porque as reservas de água estão a menos de trinta por cento.", "Porque a água ficou mais cara."], "richtig": 1},
+    {"frage": "O que gostava Rosa Martins?", "optionen": ["Que a rega fosse proibida todo o dia.", "Que a central de dessalinização abrisse amanhã.", "Que a câmara também falasse com os hotéis e os campos de golfe."], "richtig": 2},
+    {"frage": "O que pode acontecer se não chover no outono?", "optionen": ["Medidas mais duras.", "Novas eleições.", "Nada."], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Wenn ich mehr Zeit hätte, würde ich jeden Tag die Nachrichten sehen.", "loesungen": ["Se eu tivesse mais tempo, via o noticiário todos os dias.", "Se tivesse mais tempo, via o noticiário todos os dias.", "Se eu tivesse mais tempo, veria o noticiário todos os dias.", "Se tivesse mais tempo, veria o noticiário todos os dias.", "Se eu tivesse mais tempo, via as notícias todos os dias.", "Se tivesse mais tempo, via as notícias todos os dias.", "Se eu tivesse mais tempo, veria as notícias todos os dias.", "Se tivesse mais tempo, veria as notícias todos os dias.", "Se eu tivesse mais tempo, via o telejornal todos os dias.", "Se tivesse mais tempo, via o telejornal todos os dias."]},
+   {"de": "Ich hätte gern, dass die Regierung mehr für den Wohnraum tut.", "loesungen": ["Gostava que o governo fizesse mais pela habitação.", "Gostaria que o governo fizesse mais pela habitação.", "Queria que o governo fizesse mais pela habitação.", "Eu gostava que o governo fizesse mais pela habitação."]},
+   {"de": "Er spricht, als ob er alles wüsste.", "loesungen": ["Ele fala como se soubesse tudo.", "Fala como se soubesse tudo."]},
+   {"de": "An deiner Stelle würde ich die Quelle überprüfen.", "loesungen": ["Se eu fosse a ti, verificava a fonte.", "Se eu fosse a ti, verificaria a fonte.", "Se fosse a ti, verificava a fonte.", "Se fosse a ti, verificaria a fonte.", "No teu lugar, verificava a fonte.", "No teu lugar, verificaria a fonte.", "No teu lugar, eu verificava a fonte."]},
+   {"de": "Es wäre gut, wenn alle Wasser sparen würden.", "loesungen": ["Era bom que todos poupassem água.", "Seria bom que todos poupassem água.", "Era bom que toda a gente poupasse água.", "Seria bom que toda a gente poupasse água.", "Era bom todos pouparem água.", "Seria bom todos pouparem água."]},
+   {"de": "Ich habe nicht geglaubt, dass die Meldung wahr ist.", "loesungen": ["Não acreditei que a notícia fosse verdadeira.", "Não acreditei que a notícia fosse verdade.", "Eu não acreditei que a notícia fosse verdadeira.", "Eu não acreditei que a notícia fosse verdade."]}
+  ],
+  "sprechen": [
+   {"pt": "Segundo o jornal, o governo estaria a preparar novas medidas.", "de": "Laut der Zeitung soll die Regierung neue Maßnahmen vorbereiten."},
+   {"pt": "Se eu tivesse tempo, ia ao festival de cinema.", "de": "Wenn ich Zeit hätte, würde ich zum Filmfestival gehen."},
+   {"pt": "Gostava que a câmara ouvisse mais os moradores.", "de": "Ich hätte gern, dass die Gemeinde mehr auf die Anwohner hört."},
+   {"pt": "Se eu fosse a ti, não ia pela A22 hoje.", "de": "An deiner Stelle würde ich heute nicht über die A22 fahren."},
+   {"pt": "Não acreditei que a notícia fosse verdadeira.", "de": "Ich habe nicht geglaubt, dass die Meldung wahr ist."}
+  ]
+ }
+}

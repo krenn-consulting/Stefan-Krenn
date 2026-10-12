@@ -1,0 +1,888 @@
+{
+ "id": "B1-13",
+ "level": "B1",
+ "titel": "Lusofonia – Brasilien, Afrika und Portugal",
+ "beschreibung": "Die portugiesischsprachige Welt kennenlernen: brasilianische Aussprache, Wörter und Grammatik wiedererkennen (aber selbst pt-PT sprechen), Angola, Mosambik, Kap Verde und Timor, Musik und Literatur – und Akzente am Hören erkennen.",
+ "vokabeln": [
+  {"id": "a-lusofonia", "pt": "a lusofonia", "de": "die Lusophonie (portugiesischsprachige Welt)", "emoji": "🌍", "beispiel_pt": "A lusofonia une pessoas de quatro continentes.", "beispiel_de": "Die Lusophonie verbindet Menschen auf vier Kontinenten."},
+  {"id": "lusofono", "pt": "lusófono", "de": "portugiesischsprachig", "emoji": "🗺️", "beispiel_pt": "Angola é um país lusófono.", "beispiel_de": "Angola ist ein portugiesischsprachiges Land.", "alternativen": ["lusófona"]},
+  {"id": "a-cplp", "pt": "a CPLP", "de": "die Gemeinschaft der portugiesischsprachigen Länder", "emoji": "🤝", "beispiel_pt": "A CPLP tem nove Estados-membros.", "beispiel_de": "Die CPLP hat neun Mitgliedstaaten.", "hinweis": "Comunidade dos Países de Língua Portuguesa, gegründet 1996", "passiv": true},
+  {"id": "os-palop", "pt": "os PALOP", "de": "die afrikanischen Länder mit Amtssprache Portugiesisch", "emoji": "🌍", "beispiel_pt": "Angola e Moçambique fazem parte dos PALOP.", "beispiel_de": "Angola und Mosambik gehören zu den PALOP.", "hinweis": "Países Africanos de Língua Oficial Portuguesa", "passiv": true},
+  {"id": "a-lingua-oficial", "pt": "a língua oficial", "de": "die Amtssprache", "emoji": "🏛️", "beispiel_pt": "O português é a língua oficial de nove países.", "beispiel_de": "Portugiesisch ist Amtssprache in neun Ländern."},
+  {"id": "o-falante", "pt": "o falante", "de": "der Sprecher (einer Sprache)", "emoji": "🗣️", "beispiel_pt": "O português tem cerca de 260 milhões de falantes.", "beispiel_de": "Portugiesisch hat etwa 260 Millionen Sprecher.", "alternativen": ["a falante"]},
+  {"id": "a-lingua-materna", "pt": "a língua materna", "de": "die Muttersprache", "emoji": "👶", "beispiel_pt": "A minha língua materna é o alemão.", "beispiel_de": "Meine Muttersprache ist Deutsch."},
+  {"id": "a-comunidade", "pt": "a comunidade", "de": "die Gemeinschaft / Community", "emoji": "👥", "beispiel_pt": "Em Lisboa há uma grande comunidade cabo-verdiana.", "beispiel_de": "In Lissabon gibt es eine große kapverdische Community."},
+  {"id": "unir", "pt": "unir", "de": "verbinden / vereinen", "emoji": "🔗", "beispiel_pt": "A língua une povos muito diferentes.", "beispiel_de": "Die Sprache verbindet sehr unterschiedliche Völker."},
+  {"id": "espalhado", "pt": "espalhado", "de": "verstreut / verbreitet", "emoji": "🌐", "beispiel_pt": "Os falantes de português estão espalhados pelo mundo.", "beispiel_de": "Die Portugiesischsprecher sind über die ganze Welt verstreut.", "alternativen": ["espalhada"], "passiv": true},
+
+  {"id": "a-pronuncia", "pt": "a pronúncia", "de": "die Aussprache", "emoji": "👄", "beispiel_pt": "A pronúncia de Lisboa é muito fechada.", "beispiel_de": "Die Lissabonner Aussprache ist sehr geschlossen."},
+  {"id": "a-vogal", "pt": "a vogal", "de": "der Vokal", "emoji": "🅰️", "beispiel_pt": "Em Portugal, as vogais átonas quase não se ouvem.", "beispiel_de": "In Portugal hört man die unbetonten Vokale kaum.", "hinweis": "Plural: as vogais"},
+  {"id": "a-consoante", "pt": "a consoante", "de": "der Konsonant", "emoji": "🔤", "beispiel_pt": "Para um brasileiro, «telefone» parece só ter consoantes.", "beispiel_de": "Für einen Brasilianer scheint „telefone“ nur aus Konsonanten zu bestehen.", "passiv": true},
+  {"id": "a-silaba", "pt": "a sílaba", "de": "die Silbe", "emoji": "✂️", "beispiel_pt": "A palavra «pequeno» tem três sílabas.", "beispiel_de": "Das Wort „pequeno“ hat drei Silben.", "passiv": true},
+  {"id": "atono", "pt": "átono", "de": "unbetont", "emoji": "🔉", "beispiel_pt": "O primeiro «e» de «telefone» é átono.", "beispiel_de": "Das erste „e“ in „telefone“ ist unbetont.", "hinweis": "Gegenteil: tónico (betont)", "alternativen": ["átona"], "passiv": true},
+  {"id": "engolir", "pt": "engolir", "de": "(ver)schlucken", "emoji": "😮", "beispiel_pt": "Os portugueses engolem as vogais.", "beispiel_de": "Die Portugiesen verschlucken die Vokale.", "hinweis": "eu engulo, tu engoles, ele engole, eles engolem"},
+  {"id": "cantado", "pt": "cantado", "de": "melodisch / singend (Sprechweise)", "emoji": "🎶", "beispiel_pt": "O sotaque brasileiro é mais cantado.", "beispiel_de": "Der brasilianische Akzent ist melodischer.", "alternativen": ["cantada"]},
+  {"id": "distinguir", "pt": "distinguir", "de": "unterscheiden", "emoji": "🔍", "beispiel_pt": "Já distingo o sotaque do Norte e o do Sul.", "beispiel_de": "Ich kann den Akzent aus dem Norden und den aus dem Süden schon unterscheiden.", "hinweis": "eu distingo (ohne u), tu distingues"},
+  {"id": "a-entoacao", "pt": "a entoação", "de": "die Satzmelodie / Intonation", "emoji": "📈", "beispiel_pt": "A entoação das perguntas é diferente no Brasil.", "beispiel_de": "Die Satzmelodie der Fragen ist in Brasilien anders.", "passiv": true},
+
+  {"id": "a-variante", "pt": "a variante", "de": "die Variante / Sprachvarietät", "emoji": "🔀", "beispiel_pt": "Estou a aprender a variante europeia.", "beispiel_de": "Ich lerne die europäische Variante."},
+  {"id": "o-equivalente", "pt": "o equivalente", "de": "die Entsprechung", "emoji": "🟰", "beispiel_pt": "Qual é o equivalente brasileiro de «autocarro»?", "beispiel_de": "Was ist die brasilianische Entsprechung von „autocarro“?", "passiv": true},
+  {"id": "o-regionalismo", "pt": "o regionalismo", "de": "der Regionalausdruck", "emoji": "📍", "beispiel_pt": "Esta palavra é um regionalismo do Algarve.", "beispiel_de": "Dieses Wort ist ein Regionalausdruck aus der Algarve.", "passiv": true},
+  {"id": "o-mal-entendido", "pt": "o mal-entendido", "de": "das Missverständnis", "emoji": "😕", "beispiel_pt": "Houve um mal-entendido com uma colega brasileira.", "beispiel_de": "Es gab ein Missverständnis mit einer brasilianischen Kollegin."},
+  {"id": "confundir", "pt": "confundir", "de": "verwechseln / verwirren", "emoji": "🤯", "beispiel_pt": "Não confundas as duas variantes!", "beispiel_de": "Verwechsle die beiden Varianten nicht!"},
+  {"id": "o-sinonimo", "pt": "o sinónimo", "de": "das Synonym", "emoji": "♊", "beispiel_pt": "«Miúdo» é um sinónimo de «criança».", "beispiel_de": "„Miúdo“ ist ein Synonym für „Kind“.", "hinweis": "pt-PT mit ó: sinónimo (BR: sinônimo)", "passiv": true},
+  {"id": "querer-dizer", "pt": "querer dizer", "de": "bedeuten", "emoji": "💬", "beispiel_pt": "O que quer dizer «fixe»?", "beispiel_de": "Was bedeutet „fixe“?"},
+  {"id": "o-calao", "pt": "o calão", "de": "der Slang / die Umgangssprache", "emoji": "🤙", "beispiel_pt": "«Bué» é calão de Lisboa e quer dizer «muito».", "beispiel_de": "„Bué“ ist Lissabonner Slang und bedeutet „sehr / viel“.", "hinweis": "BR: gíria", "passiv": true},
+  {"id": "o-termo", "pt": "o termo", "de": "der Begriff / Fachausdruck", "emoji": "🏷️", "beispiel_pt": "Este termo usa-se mais em Portugal.", "beispiel_de": "Dieser Begriff wird eher in Portugal verwendet."},
+
+  {"id": "o-tratamento", "pt": "o tratamento", "de": "die Anrede(form)", "emoji": "🙋", "beispiel_pt": "Em Portugal, a forma de tratamento é muito importante.", "beispiel_de": "In Portugal ist die Anredeform sehr wichtig.", "hinweis": "auch: die Behandlung (beim Arzt)"},
+  {"id": "tratar-por-tu", "pt": "tratar por tu", "de": "duzen", "emoji": "👋", "beispiel_pt": "Podemos tratar-nos por tu?", "beispiel_de": "Können wir uns duzen?"},
+  {"id": "a-gente", "pt": "a gente", "de": "wir (umgangssprachlich)", "emoji": "👫", "beispiel_pt": "A gente vê-se amanhã!", "beispiel_de": "Wir sehen uns morgen!", "hinweis": "Verb in der 3. Person Singular: a gente vai, a gente fala"},
+  {"id": "soar", "pt": "soar", "de": "klingen", "emoji": "🔔", "beispiel_pt": "Essa palavra soa estranha em Portugal.", "beispiel_de": "Dieses Wort klingt in Portugal seltsam.", "hinweis": "eu soo, ele soa"},
+  {"id": "a-cortesia", "pt": "a cortesia", "de": "die Höflichkeit", "emoji": "🎩", "beispiel_pt": "Em Portugal, a cortesia começa pela forma de tratamento.", "beispiel_de": "In Portugal beginnt die Höflichkeit bei der Anrede.", "passiv": true},
+  {"id": "o-pronome", "pt": "o pronome", "de": "das Pronomen / Fürwort", "emoji": "👉", "beispiel_pt": "Em Portugal, o pronome vem muitas vezes depois do verbo.", "beispiel_de": "In Portugal steht das Pronomen oft nach dem Verb.", "passiv": true},
+  {"id": "a-formalidade", "pt": "a formalidade", "de": "die Förmlichkeit / Formalität", "emoji": "👔", "beispiel_pt": "Entre vizinhos, não é preciso tanta formalidade.", "beispiel_de": "Unter Nachbarn braucht es nicht so viel Förmlichkeit.", "passiv": true},
+  {"id": "a-vontade", "pt": "à vontade", "de": "ungezwungen / wie zu Hause", "emoji": "😌", "beispiel_pt": "Esteja à vontade!", "beispiel_de": "Fühlen Sie sich wie zu Hause!", "hinweis": "estar / ficar à vontade"},
+  {"id": "informal", "pt": "informal", "de": "informell / locker", "emoji": "👕", "beispiel_pt": "«A gente» é uma forma informal.", "beispiel_de": "„A gente“ ist eine lockere Form."},
+
+  {"id": "o-gerundio", "pt": "o gerúndio", "de": "das Gerundium (-ndo-Form)", "emoji": "🔁", "beispiel_pt": "O gerúndio usa-se muito no Brasil.", "beispiel_de": "Das Gerundium wird in Brasilien viel verwendet.", "passiv": true},
+  {"id": "a-construcao", "pt": "a construção", "de": "die Konstruktion / der Bau", "emoji": "🏗️", "beispiel_pt": "A construção «estar a + infinitivo» é típica de Portugal.", "beispiel_de": "Die Konstruktion „estar a + Infinitiv“ ist typisch für Portugal.", "passiv": true},
+  {"id": "a-norma", "pt": "a norma", "de": "die Norm", "emoji": "📏", "beispiel_pt": "Em Portugal, a norma é dizer «estou a fazer».", "beispiel_de": "In Portugal ist es die Norm, „estou a fazer“ zu sagen.", "passiv": true},
+  {"id": "coloquial", "pt": "coloquial", "de": "umgangssprachlich", "emoji": "💭", "beispiel_pt": "Esta expressão é muito coloquial.", "beispiel_de": "Dieser Ausdruck ist sehr umgangssprachlich."},
+  {"id": "corrente", "pt": "corrente", "de": "gebräuchlich / üblich", "emoji": "✅", "beispiel_pt": "É uma palavra corrente em Portugal.", "beispiel_de": "Das ist ein gebräuchliches Wort in Portugal.", "hinweis": "auch: a conta corrente (Girokonto)"},
+  {"id": "a-regra", "pt": "a regra", "de": "die Regel", "emoji": "📐", "beispiel_pt": "A regra é simples: o pronome vem depois do verbo.", "beispiel_de": "Die Regel ist einfach: Das Pronomen steht nach dem Verb."},
+  {"id": "a-excecao", "pt": "a exceção", "de": "die Ausnahme", "emoji": "⚠️", "beispiel_pt": "O Alentejo é uma exceção: lá usa-se o gerúndio.", "beispiel_de": "Der Alentejo ist eine Ausnahme: Dort verwendet man das Gerundium.", "hinweis": "AO90: exceção (früher excepção)"},
+  {"id": "habitual", "pt": "habitual", "de": "gewöhnlich / üblich", "emoji": "🔄", "beispiel_pt": "Como é habitual, o comboio chegou atrasado.", "beispiel_de": "Wie üblich kam der Zug zu spät."},
+  {"id": "o-uso", "pt": "o uso", "de": "der Gebrauch", "emoji": "🛠️", "beispiel_pt": "O uso do gerúndio é diferente nas duas variantes.", "beispiel_de": "Der Gebrauch des Gerundiums ist in den beiden Varianten verschieden.", "passiv": true},
+
+  {"id": "o-imigrante", "pt": "o imigrante", "de": "der Einwanderer", "emoji": "🧳", "beispiel_pt": "Muitos imigrantes brasileiros vivem em Lisboa.", "beispiel_de": "Viele brasilianische Einwanderer leben in Lissabon.", "alternativen": ["a imigrante"]},
+  {"id": "integrar-se", "pt": "integrar-se", "de": "sich integrieren", "emoji": "🧩", "beispiel_pt": "Integrei-me depressa graças aos vizinhos.", "beispiel_de": "Dank der Nachbarn habe ich mich schnell integriert."},
+  {"id": "sentir-se-em-casa", "pt": "sentir-se em casa", "de": "sich zu Hause fühlen", "emoji": "🏠", "beispiel_pt": "Ao fim de um ano, já me sentia em casa.", "beispiel_de": "Nach einem Jahr fühlte ich mich schon zu Hause."},
+  {"id": "o-choque-cultural", "pt": "o choque cultural", "de": "der Kulturschock", "emoji": "😵", "beispiel_pt": "O choque cultural foi pequeno.", "beispiel_de": "Der Kulturschock war gering.", "passiv": true},
+  {"id": "acolher", "pt": "acolher", "de": "aufnehmen / willkommen heißen", "emoji": "🤗", "beispiel_pt": "Os vizinhos acolheram-nos muito bem.", "beispiel_de": "Die Nachbarn haben uns sehr herzlich aufgenommen."},
+  {"id": "o-conterraneo", "pt": "o conterrâneo", "de": "der Landsmann", "emoji": "🏘️", "beispiel_pt": "Encontrei um conterrâneo austríaco em Lagos.", "beispiel_de": "Ich habe in Lagos einen österreichischen Landsmann getroffen.", "alternativen": ["a conterrânea"], "passiv": true},
+  {"id": "a-convivencia", "pt": "a convivência", "de": "das Zusammenleben", "emoji": "🏡", "beispiel_pt": "A convivência entre portugueses e brasileiros é, em geral, boa.", "beispiel_de": "Das Zusammenleben von Portugiesen und Brasilianern ist im Allgemeinen gut.", "passiv": true},
+  {"id": "fazer-se-entender", "pt": "fazer-se entender", "de": "sich verständlich machen", "emoji": "🗨️", "beispiel_pt": "Já consigo fazer-me entender em português.", "beispiel_de": "Ich kann mich schon auf Portugiesisch verständlich machen."},
+  {"id": "a-adaptacao", "pt": "a adaptação", "de": "die Anpassung / Eingewöhnung", "emoji": "🌱", "beispiel_pt": "A adaptação demorou alguns meses.", "beispiel_de": "Die Eingewöhnung hat einige Monate gedauert.", "passiv": true},
+
+  {"id": "a-independencia", "pt": "a independência", "de": "die Unabhängigkeit", "emoji": "🎌", "beispiel_pt": "Angola celebra a independência a 11 de novembro.", "beispiel_de": "Angola feiert seine Unabhängigkeit am 11. November."},
+  {"id": "a-colonia", "pt": "a colónia", "de": "die Kolonie", "emoji": "⚓", "beispiel_pt": "Moçambique foi uma colónia portuguesa.", "beispiel_de": "Mosambik war eine portugiesische Kolonie.", "hinweis": "pt-PT: colónia (BR: colônia)", "passiv": true},
+  {"id": "a-descolonizacao", "pt": "a descolonização", "de": "die Entkolonialisierung", "emoji": "📜", "beispiel_pt": "A descolonização começou depois do 25 de Abril.", "beispiel_de": "Die Entkolonialisierung begann nach dem 25. April (1974).", "passiv": true},
+  {"id": "o-retornado", "pt": "o retornado", "de": "der Rückkehrer (aus den Kolonien, 1974–76)", "emoji": "🛬", "beispiel_pt": "O pai do João veio de Angola como retornado em 1975.", "beispiel_de": "Joãos Vater kam 1975 als Rückkehrer aus Angola.", "passiv": true},
+  {"id": "a-heranca", "pt": "a herança", "de": "das Erbe", "emoji": "🏺", "beispiel_pt": "A língua é uma herança comum.", "beispiel_de": "Die Sprache ist ein gemeinsames Erbe."},
+  {"id": "o-petroleo", "pt": "o petróleo", "de": "das Erdöl", "emoji": "🛢️", "beispiel_pt": "Angola é um grande produtor de petróleo.", "beispiel_de": "Angola ist ein großer Erdölproduzent.", "passiv": true},
+  {"id": "a-kizomba", "pt": "a kizomba", "de": "die Kizomba (Tanz/Musik aus Angola)", "emoji": "💃", "beispiel_pt": "À sexta-feira vamos dançar kizomba.", "beispiel_de": "Am Freitag gehen wir Kizomba tanzen."},
+  {"id": "a-riqueza", "pt": "a riqueza", "de": "der Reichtum", "emoji": "💎", "beispiel_pt": "A riqueza cultural de Moçambique é enorme.", "beispiel_de": "Der kulturelle Reichtum Mosambiks ist enorm."},
+  {"id": "a-guerra-civil", "pt": "a guerra civil", "de": "der Bürgerkrieg", "emoji": "⚔️", "beispiel_pt": "A guerra civil em Angola acabou em 2002.", "beispiel_de": "Der Bürgerkrieg in Angola endete 2002.", "passiv": true},
+
+  {"id": "o-crioulo", "pt": "o crioulo", "de": "die Kreolsprache / das Kreol", "emoji": "🗯️", "beispiel_pt": "Em Cabo Verde, fala-se crioulo em casa.", "beispiel_de": "Auf den Kapverden spricht man zu Hause Kreol."},
+  {"id": "o-arquipelago", "pt": "o arquipélago", "de": "die Inselgruppe / der Archipel", "emoji": "🏝️", "beispiel_pt": "Cabo Verde é um arquipélago de dez ilhas.", "beispiel_de": "Kap Verde ist eine Inselgruppe aus zehn Inseln.", "passiv": true},
+  {"id": "a-morabeza", "pt": "a morabeza", "de": "die kapverdische Herzlichkeit / Gastfreundschaft", "emoji": "☀️", "beispiel_pt": "A morabeza é a alma de Cabo Verde.", "beispiel_de": "Die Morabeza ist die Seele Kap Verdes.", "passiv": true},
+  {"id": "a-diaspora", "pt": "a diáspora", "de": "die Diaspora", "emoji": "✈️", "beispiel_pt": "A diáspora cabo-verdiana é muito grande.", "beispiel_de": "Die kapverdische Diaspora ist sehr groß."},
+  {"id": "bilingue", "pt": "bilingue", "de": "zweisprachig", "emoji": "🔤", "beispiel_pt": "Os filhos da Rita são bilingues.", "beispiel_de": "Ritas Kinder sind zweisprachig.", "hinweis": "pt-PT ohne Trema: bilingue"},
+  {"id": "o-cacau", "pt": "o cacau", "de": "der Kakao", "emoji": "🍫", "beispiel_pt": "São Tomé é famoso pelo seu cacau.", "beispiel_de": "São Tomé ist für seinen Kakao berühmt.", "passiv": true},
+  {"id": "a-emigracao", "pt": "a emigração", "de": "die Auswanderung", "emoji": "🚢", "beispiel_pt": "A emigração faz parte da história portuguesa.", "beispiel_de": "Die Auswanderung gehört zur portugiesischen Geschichte."},
+  {"id": "a-mistura", "pt": "a mistura", "de": "die Mischung", "emoji": "🎨", "beispiel_pt": "A cultura cabo-verdiana é uma mistura de África e Europa.", "beispiel_de": "Die kapverdische Kultur ist eine Mischung aus Afrika und Europa."},
+  {"id": "o-territorio", "pt": "o território", "de": "das Gebiet / Territorium", "emoji": "🗾", "beispiel_pt": "Timor-Leste ocupa a parte oriental da ilha de Timor.", "beispiel_de": "Osttimor nimmt den östlichen Teil der Insel Timor ein.", "passiv": true},
+
+  {"id": "a-morna", "pt": "a morna", "de": "die Morna (Musik aus Kap Verde)", "emoji": "🎵", "beispiel_pt": "A morna é Património da Humanidade desde 2019.", "beispiel_de": "Die Morna ist seit 2019 Weltkulturerbe."},
+  {"id": "a-bossa-nova", "pt": "a bossa nova", "de": "der Bossa Nova", "emoji": "🎸", "beispiel_pt": "A bossa nova nasceu no Rio de Janeiro.", "beispiel_de": "Der Bossa Nova ist in Rio de Janeiro entstanden.", "passiv": true},
+  {"id": "o-romancista", "pt": "o romancista", "de": "der Romanautor", "emoji": "📚", "beispiel_pt": "Pepetela é um romancista angolano.", "beispiel_de": "Pepetela ist ein angolanischer Romanautor.", "alternativen": ["a romancista"], "passiv": true},
+  {"id": "o-poema", "pt": "o poema", "de": "das Gedicht", "emoji": "🖋️", "beispiel_pt": "Sei de cor um poema de Sophia de Mello Breyner.", "beispiel_de": "Ich kann ein Gedicht von Sophia de Mello Breyner auswendig.", "hinweis": "männlich, obwohl auf -a: o poema (wie o problema, o sistema)"},
+  {"id": "a-literatura", "pt": "a literatura", "de": "die Literatur", "emoji": "📕", "beispiel_pt": "A literatura africana de língua portuguesa é muito rica.", "beispiel_de": "Die afrikanische Literatur in portugiesischer Sprache ist sehr reich."},
+  {"id": "premiado", "pt": "premiado", "de": "preisgekrönt / ausgezeichnet", "emoji": "🏆", "beispiel_pt": "Mia Couto é um autor premiado: ganhou o Prémio Camões em 2013.", "beispiel_de": "Mia Couto ist ein preisgekrönter Autor: Er hat 2013 den Camões-Preis gewonnen.", "hinweis": "o prémio = der Preis (pt-PT mit é; BR: prêmio)", "alternativen": ["premiada"]},
+  {"id": "a-cronica", "pt": "a crónica", "de": "die Kolumne / Glosse", "emoji": "📰", "beispiel_pt": "Leio as crónicas dele no jornal ao domingo.", "beispiel_de": "Ich lese seine Kolumnen am Sonntag in der Zeitung.", "passiv": true},
+  {"id": "o-conto", "pt": "o conto", "de": "die Erzählung / Kurzgeschichte", "emoji": "📝", "beispiel_pt": "Os contos de Mia Couto são lindíssimos.", "beispiel_de": "Die Erzählungen von Mia Couto sind wunderschön."},
+  {"id": "o-cantor", "pt": "o cantor", "de": "der Sänger", "emoji": "🎤", "beispiel_pt": "Cesária Évora foi a cantora mais famosa de Cabo Verde.", "beispiel_de": "Cesária Évora war die berühmteste Sängerin Kap Verdes.", "alternativen": ["a cantora"]},
+  {"id": "o-autor", "pt": "o autor", "de": "der Autor", "emoji": "✍️", "beispiel_pt": "Quem é o autor deste livro?", "beispiel_de": "Wer ist der Autor dieses Buches?", "alternativen": ["a autora"]},
+
+  {"id": "arrastado", "pt": "arrastado", "de": "gedehnt / schleppend", "emoji": "🐢", "beispiel_pt": "Os alentejanos falam com um ritmo arrastado.", "beispiel_de": "Die Alentejaner sprechen in einem gedehnten Rhythmus.", "alternativen": ["arrastada"], "passiv": true},
+  {"id": "nitido", "pt": "nítido", "de": "deutlich / klar", "emoji": "🔎", "beispiel_pt": "Ela fala de forma muito nítida.", "beispiel_de": "Sie spricht sehr deutlich.", "alternativen": ["nítida"]},
+  {"id": "o-ritmo", "pt": "o ritmo", "de": "der Rhythmus", "emoji": "🥁", "beispiel_pt": "O ritmo do português do Brasil é diferente.", "beispiel_de": "Der Rhythmus des brasilianischen Portugiesisch ist anders."},
+  {"id": "imitar", "pt": "imitar", "de": "nachahmen / imitieren", "emoji": "🦜", "beispiel_pt": "Os miúdos imitam o sotaque das novelas.", "beispiel_de": "Die Kinder ahmen den Akzent aus den Telenovelas nach."},
+  {"id": "percetivel", "pt": "percetível", "de": "verständlich / wahrnehmbar", "emoji": "👂", "beispiel_pt": "O sotaque dele é pouco percetível.", "beispiel_de": "Sein Akzent ist kaum wahrnehmbar.", "hinweis": "AO90: percetível (früher perceptível)", "passiv": true},
+  {"id": "o-acento", "pt": "o acento", "de": "der Akzent (Schriftzeichen) / die Betonung", "emoji": "✏️", "beispiel_pt": "«Café» leva acento no «e».", "beispiel_de": "„Café“ hat einen Akzent auf dem „e“.", "hinweis": "Falscher Freund! Akzent beim Sprechen = o sotaque"},
+  {"id": "adivinhar", "pt": "adivinhar", "de": "(er)raten", "emoji": "🎲", "beispiel_pt": "Adivinha de onde ela é!", "beispiel_de": "Rate mal, woher sie kommt!"},
+  {"id": "o-lisboeta", "pt": "o lisboeta", "de": "der Lissabonner", "emoji": "🚋", "beispiel_pt": "Os lisboetas falam muito depressa.", "beispiel_de": "Die Lissabonner sprechen sehr schnell.", "alternativen": ["a lisboeta"], "passiv": true},
+  {"id": "o-nortenho", "pt": "o nortenho", "de": "der Nordportugiese", "emoji": "⛰️", "beispiel_pt": "Os nortenhos trocam muitas vezes o «v» pelo «b».", "beispiel_de": "Die Nordportugiesen vertauschen oft das „v“ mit dem „b“.", "alternativen": ["a nortenha"], "passiv": true},
+  {"id": "a-origem", "pt": "a origem", "de": "die Herkunft / der Ursprung", "emoji": "🧭", "beispiel_pt": "Pelo sotaque, é fácil adivinhar a origem dele.", "beispiel_de": "Am Akzent kann man leicht erraten, woher er kommt."}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-13-L01",
+   "typ": "neu",
+   "titel": "Die Lusophonie – eine Sprache, vier Kontinente",
+   "vokabeln": ["a-lusofonia", "lusofono", "a-cplp", "os-palop", "a-lingua-oficial", "o-falante", "a-lingua-materna", "a-comunidade", "unir", "espalhado"],
+   "grammatik": {
+    "titel": "Grandes números e proporções",
+    "erklaerung": [
+     "Para falar de estatísticas usamos <b>milhão / milhões + de</b>: <i>260 milhões <b>de</b> falantes</i>. <b>Mil</b> não leva <i>de</i> e não vai para o plural: <i>dez mil pessoas, duas mil casas</i>.",
+     "<b>Cerca de</b>, <b>mais de</b>, <b>menos de</b>, <b>quase</b> e <b>uns / umas</b> dão números aproximados: <i>Portugal tem pouco mais de dez milhões de habitantes.</i>",
+     "Com <b>a maioria de / a maior parte de</b> + plural, o verbo pode ficar no singular ou no plural: <i>A maioria dos falantes <b>vive</b> / <b>vivem</b> no Brasil.</i> As duas formas estão corretas.",
+     "Atenção: em Portugal, <b>mil milhões</b> = 10⁹ e <b>um bilião</b> = 10¹². No Brasil, <i>um bilhão</i> = mil milhões. Proporções: <i>metade, um terço, um quarto, oito em cada dez</i>."
+    ],
+    "erklaerung_de": [
+     "Für Statistiken braucht man <b>milhão / milhões + de</b>: <i>260 milhões <b>de</b> falantes</i>. <b>Mil</b> (tausend) hat kein <i>de</i> und keinen Plural: <i>dez mil pessoas, duas mil casas</i>.",
+     "<b>Cerca de</b> (etwa), <b>mais de</b> (mehr als), <b>menos de</b> (weniger als), <b>quase</b> (fast) und <b>uns / umas</b> (ungefähr) machen Zahlen ungefähr: <i>Portugal tem pouco mais de dez milhões de habitantes.</i>",
+     "Nach <b>a maioria de / a maior parte de</b> + Plural kann das Verb im Singular oder Plural stehen: <i>A maioria dos falantes vive / vivem no Brasil.</i> Beides ist richtig.",
+     "Achtung: In Portugal ist <b>mil milhões</b> = eine Milliarde (10⁹) und <b>um bilião</b> = eine Billion (10¹²). In Brasilien heißt die Milliarde <i>um bilhão</i>. Anteile: <i>metade</i> (Hälfte), <i>um terço</i> (Drittel), <i>um quarto</i> (Viertel), <i>oito em cada dez</i> (acht von zehn)."
+    ],
+    "vergleich": "Wie „Millionen von“: <i>milhões de</i>. Aber „tausend“ = <i>mil</i> – ohne <i>de</i>, ohne Plural. Und Vorsicht bei großen Zahlen: Portugal zählt wie Deutschland (Milliarde = <i>mil milhões</i>, Billion = <i>bilião</i>), Brasilien wie die USA.",
+    "beispiele": [
+     {"pt": "O português tem cerca de 260 milhões de falantes.", "de": "Portugiesisch hat etwa 260 Millionen Sprecher."},
+     {"pt": "A maioria dos falantes vive no Brasil.", "de": "Die Mehrheit der Sprecher lebt in Brasilien."},
+     {"pt": "Lagos tem cerca de trinta mil habitantes.", "de": "Lagos hat etwa dreißigtausend Einwohner."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O português é falado por mais de 250 milhões ___ pessoas.", "loesungen": ["de"], "de": "Portugiesisch wird von mehr als 250 Millionen Menschen gesprochen.", "kategorie": "Zahlen"},
+     {"typ": "luecke", "satz": "Lagos tem cerca de trinta ___ habitantes.", "loesungen": ["mil"], "de": "Lagos hat etwa dreißigtausend Einwohner.", "kategorie": "Zahlen"},
+     {"typ": "auswahl", "frage": "„eine Milliarde“ heißt in Portugal:", "optionen": ["um bilião", "mil milhões", "um milhão"], "richtig": 1, "erklaerung": "In Portugal ist um bilião = 10¹² (eine Billion). Nur in Brasilien ist um bilhão = eine Milliarde.", "kategorie": "Zahlen"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist korrekt?", "optionen": ["Dois mil pessoas falam crioulo.", "Duas mils de pessoas falam crioulo.", "Duas mil pessoas falam crioulo."], "richtig": 2, "erklaerung": "mil bleibt unverändert, aber dois/duas richtet sich nach dem Nomen: duas mil pessoas.", "kategorie": "Zahlen"},
+     {"typ": "luecke", "satz": "O português é a língua ___ de nove países.", "loesungen": ["oficial"], "de": "Portugiesisch ist die Amtssprache von neun Ländern."},
+     {"typ": "luecke", "satz": "A língua ___ pessoas de quatro continentes. (unir)", "loesungen": ["une"], "de": "Die Sprache verbindet Menschen auf vier Kontinenten.", "erklaerung": "unir: eu uno, tu unes, ele une, nós unimos, eles unem."},
+     {"typ": "uebersetzen", "de": "Die Mehrheit der Sprecher lebt in Brasilien.", "loesungen": ["A maioria dos falantes vive no Brasil.", "A maioria dos falantes vivem no Brasil.", "A maior parte dos falantes vive no Brasil.", "A maior parte dos falantes vivem no Brasil."], "kategorie": "Kongruenz"},
+     {"typ": "satzbau", "de": "Wir teilen dieselbe Sprache.", "loesung": "Partilhamos a mesma língua."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Notícia: o Dia Mundial da Língua Portuguesa – eine Radiomeldung",
+    "situation": "Eine Meldung im Radio am 5. Mai.",
+    "zeilen": [
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Hoje, 5 de maio, celebra-se o Dia Mundial da Língua Portuguesa.", "de": "Heute, am 5. Mai, wird der Welttag der portugiesischen Sprache gefeiert."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "A data foi criada pela UNESCO em 2019 e é festejada em todos os países da CPLP.", "de": "Der Tag wurde 2019 von der UNESCO eingeführt und wird in allen Ländern der CPLP gefeiert."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "O português tem hoje cerca de 260 milhões de falantes, espalhados por quatro continentes.", "de": "Portugiesisch hat heute etwa 260 Millionen Sprecher, verteilt auf vier Kontinente."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "É a língua mais falada no hemisfério sul.", "de": "Es ist die meistgesprochene Sprache der Südhalbkugel."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "A maioria dos falantes vive no Brasil, mas é em África que o número de falantes cresce mais depressa.", "de": "Die meisten Sprecher leben in Brasilien, aber in Afrika wächst ihre Zahl am schnellsten."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Em Lisboa, a festa inclui concertos, leituras de poesia e debates sobre o futuro da lusofonia.", "de": "In Lissabon gibt es zum Fest Konzerte, Lyriklesungen und Diskussionen über die Zukunft der Lusophonie."}
+    ],
+    "fragen": [
+     {"frage": "Quem criou o Dia Mundial da Língua Portuguesa?", "optionen": ["A CPLP.", "A UNESCO.", "O Governo português."], "richtig": 1},
+     {"frage": "Quantos falantes tem o português?", "optionen": ["Cerca de 260 milhões.", "Cerca de 26 milhões.", "Mais de mil milhões."], "richtig": 0},
+     {"frage": "O que há em Lisboa?", "optionen": ["Um congresso de professores.", "Uma feira do livro.", "Concertos, leituras de poesia e debates."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "O português tem cerca de 260 milhões de falantes.", "de": "Portugiesisch hat etwa 260 Millionen Sprecher."},
+     {"pt": "A minha língua materna é o alemão.", "de": "Meine Muttersprache ist Deutsch."},
+     {"pt": "Partilhamos a mesma língua.", "de": "Wir teilen dieselbe Sprache."},
+     {"pt": "Em Lisboa há uma grande comunidade cabo-verdiana.", "de": "In Lissabon gibt es eine große kapverdische Community."},
+     {"pt": "O português é a língua oficial de nove países.", "de": "Portugiesisch ist Amtssprache in neun Ländern."}
+    ]
+   },
+   "saetze": [
+    {"id": "milhoes-de-falantes", "pt": "O português tem cerca de 260 milhões de falantes.", "de": "Portugiesisch hat etwa 260 Millionen Sprecher."},
+    {"id": "maioria-dos-falantes", "pt": "A maioria dos falantes vive no Brasil.", "de": "Die Mehrheit der Sprecher lebt in Brasilien."},
+    {"id": "lingua-materna-alemao", "pt": "A minha língua materna é o alemão.", "de": "Meine Muttersprache ist Deutsch."}
+   ]
+  },
+  {
+   "id": "B1-13-L02",
+   "typ": "neu",
+   "titel": "Aussprache: Portugal und Brasilien",
+   "vokabeln": ["a-pronuncia", "a-vogal", "a-consoante", "a-silaba", "atono", "engolir", "cantado", "distinguir", "a-entoacao"],
+   "grammatik": {
+    "titel": "Pronúncia: Portugal e Brasil comparados",
+    "erklaerung": [
+     "Em Portugal, as <b>vogais átonas</b> quase desaparecem: <i>telefone</i> soa [tlfɔn], <i>pequeno</i> soa [pkenu]. No Brasil, todas as vogais se ouvem com clareza: [te-le-fô-ni]. Por isso se diz que o português europeu «engole» as vogais e que o brasileiro é mais «cantado».",
+     "O <b>-e final</b>: em Portugal quase não se ouve (<i>leite</i> ≈ [lɐjt]); no Brasil soa como <b>i</b> (<i>leite</i> ≈ «leitchi»).",
+     "<b>t</b> e <b>d</b> antes de <b>i</b>: em grande parte do Brasil soam «tch» e «dj» – <i>tia</i> ≈ «tchia», <i>dia</i> ≈ «djia». Em Portugal ficam sempre [t] e [d].",
+     "O <b>s</b> no fim da sílaba soa [ʃ] em Portugal (<i>os amigos</i> ≈ «uz amígusch»); no Brasil é geralmente [s], exceto no Rio de Janeiro. E o <b>l</b> final: em Portugal é um l escuro, no Brasil soa quase como <b>u</b> (<i>Brasil</i> ≈ «Brasiu»)."
+    ],
+    "erklaerung_de": [
+     "In Portugal verschwinden die <b>unbetonten Vokale</b> fast ganz: <i>telefone</i> klingt wie [tlfɔn], <i>pequeno</i> wie [pkenu]. In Brasilien hört man alle Vokale deutlich: [te-le-fô-ni]. Deshalb sagt man, das europäische Portugiesisch „verschluckt“ die Vokale und das brasilianische sei „melodischer“.",
+     "Das <b>-e am Wortende</b>: In Portugal hört man es kaum (<i>leite</i> ≈ „leit“); in Brasilien klingt es wie <b>i</b> (<i>leite</i> ≈ „leitschi“).",
+     "<b>t</b> und <b>d</b> vor <b>i</b>: In großen Teilen Brasiliens klingen sie wie „tsch“ und „dsch“ – <i>tia</i> ≈ „tschia“, <i>dia</i> ≈ „dschia“. In Portugal bleiben sie immer t und d.",
+     "Das <b>s</b> am Silbenende klingt in Portugal wie „sch“ (<i>os amigos</i> ≈ „us amígusch“); in Brasilien meist wie s – außer in Rio de Janeiro. Und das <b>l</b> am Ende: in Portugal ein dunkles l, in Brasilien fast ein <b>u</b> (<i>Brasil</i> ≈ „Brasiu“)."
+    ],
+    "vergleich": "Ein bisschen wie Österreichisch und Norddeutsch: dieselbe Sprache, aber eine ganz andere Melodie. Wer an Portugal gewöhnt ist, versteht Brasilianer meist leicht – umgekehrt ist es oft schwieriger, weil in Portugal die Vokale „verschluckt“ werden.",
+    "beispiele": [
+     {"pt": "Os brasileiros dizem que nós engolimos as vogais.", "de": "Die Brasilianer sagen, dass wir die Vokale verschlucken."},
+     {"pt": "O sotaque do Brasil é mais cantado.", "de": "Der brasilianische Akzent ist melodischer."},
+     {"pt": "No início não conseguia distinguir as palavras.", "de": "Am Anfang konnte ich die Wörter nicht unterscheiden."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Wie klingt „telefone“ typischerweise in Portugal?", "optionen": ["te-le-fô-ni (mit i am Ende)", "tlfɔn (Vokale fast verschluckt)", "te-le-fo-ne (alle Vokale deutlich)"], "richtig": 1, "kategorie": "Aussprache"},
+     {"typ": "auswahl", "frage": "In großen Teilen Brasiliens klingt „dia“ wie …", "optionen": ["„dia“ mit klarem d", "„zia“", "„dschia“"], "richtig": 2, "kategorie": "Aussprache"},
+     {"typ": "auswahl", "frage": "Wie klingt das s in „os amigos“ am Wortende in Portugal?", "optionen": ["wie „sch“", "wie ein scharfes s", "gar nicht"], "richtig": 0, "kategorie": "Aussprache"},
+     {"typ": "luecke", "satz": "Os portugueses ___ as vogais átonas. (engolir)", "loesungen": ["engolem"], "de": "Die Portugiesen verschlucken die unbetonten Vokale.", "erklaerung": "engolir: eu engulo, tu engoles, ele engole, nós engolimos, eles engolem.", "kategorie": "Verbformen"},
+     {"typ": "luecke", "satz": "Eu já ___ bem o sotaque do Norte e o do Sul. (distinguir)", "loesungen": ["distingo"], "de": "Ich unterscheide den Akzent des Nordens und den des Südens schon gut.", "erklaerung": "distinguir → eu distingo (gu vor o wird zu g).", "kategorie": "Verbformen"},
+     {"typ": "uebersetzen", "de": "Die brasilianische Aussprache ist melodischer.", "loesungen": ["A pronúncia brasileira é mais cantada.", "A pronúncia do Brasil é mais cantada."]},
+     {"typ": "uebersetzen", "de": "Ich kann die Wörter nicht unterscheiden.", "loesungen": ["Não consigo distinguir as palavras.", "Não sou capaz de distinguir as palavras."]},
+     {"typ": "satzbau", "de": "Im brasilianischen Portugiesisch hört man alle Vokale.", "loesung": "No português do Brasil ouvem-se todas as vogais."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Vocês engolem as vogais! – Ihr verschluckt die Vokale!",
+    "situation": "Stefan spricht mit Juliana, einer Brasilianerin, die in Lagos lebt.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Juliana, há quanto tempo vives em Portugal?", "de": "Juliana, wie lange lebst du schon in Portugal?"},
+     {"sprecher": "Juliana", "stimme": "f", "pt": "Há cinco anos. Quando cheguei, não percebia quase nada!", "de": "Seit fünf Jahren. Als ich ankam, habe ich fast nichts verstanden!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Mas é a mesma língua.", "de": "Wirklich? Aber es ist doch dieselbe Sprache."},
+     {"sprecher": "Juliana", "stimme": "f", "pt": "É, mas vocês engolem as vogais. Para mim, «telefone» parecia uma palavra só com consoantes.", "de": "Schon, aber ihr verschluckt die Vokale. Für mich klang „telefone“ wie ein Wort nur aus Konsonanten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois eu, no início, achava o português do Brasil mais fácil. As vogais ouvem-se todas.", "de": "Ich dagegen fand am Anfang das brasilianische Portugiesisch leichter. Man hört alle Vokale."},
+     {"sprecher": "Juliana", "stimme": "f", "pt": "Pois é! Os estrangeiros dizem muitas vezes que o nosso sotaque é mais cantado.", "de": "Genau! Ausländer sagen oft, dass unser Akzent melodischer ist."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E agora? Já percebes tudo?", "de": "Und jetzt? Verstehst du schon alles?"},
+     {"sprecher": "Juliana", "stimme": "f", "pt": "Quase tudo. Só os alentejanos ainda me fazem confusão!", "de": "Fast alles. Nur die Alentejaner bringen mich noch durcheinander!"}
+    ],
+    "fragen": [
+     {"frage": "Há quanto tempo vive a Juliana em Portugal?", "optionen": ["Há três anos.", "Há cinco anos.", "Há dez anos."], "richtig": 1},
+     {"frage": "Qual foi o problema da Juliana no início?", "optionen": ["Os portugueses falavam muito alto.", "Não conhecia o vocabulário.", "Quase não ouvia as vogais."], "richtig": 2},
+     {"frage": "Que sotaque ainda é difícil para ela?", "optionen": ["O alentejano.", "O de Lisboa.", "O do Porto."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Eine brasilianische Touristin spricht dich in Lagos an.",
+    "zeilen": [
+     {"sprecher": "Turista", "stimme": "f", "pt": "Olá! O senhor vive aqui em Lagos?", "de": "Hallo! Leben Sie hier in Lagos?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich lebe seit drei Jahren hier, aber ich bin Österreicher.", "loesungen": ["Sim, vivo aqui há três anos, mas sou austríaco.", "Vivo, vivo aqui há três anos, mas sou austríaco.", "Sim, vivo cá há três anos, mas sou austríaco.", "Sim, moro aqui há três anos, mas sou austríaco.", "Vivo, sim. Vivo aqui há três anos, mas sou austríaco."]},
+     {"sprecher": "Turista", "stimme": "f", "pt": "E percebe bem o sotaque daqui?", "de": "Und verstehen Sie den Akzent hier gut?"},
+     {"ich": true, "aufgabe": "Sag: Am Anfang war es schwierig, weil die Portugiesen die Vokale verschlucken.", "loesungen": ["No início foi difícil, porque os portugueses engolem as vogais.", "Ao princípio foi difícil, porque os portugueses engolem as vogais.", "No início era difícil, porque os portugueses engolem as vogais.", "Ao início foi difícil, porque os portugueses engolem as vogais.", "No início foi difícil porque os portugueses engolem as vogais."]},
+     {"sprecher": "Turista", "stimme": "f", "pt": "E o nosso sotaque, do Brasil?", "de": "Und unser Akzent, der brasilianische?"},
+     {"ich": true, "aufgabe": "Sag: Der brasilianische Akzent ist melodischer und leichter zu verstehen.", "loesungen": ["O sotaque brasileiro é mais cantado e mais fácil de perceber.", "O sotaque brasileiro é mais cantado e mais fácil de entender.", "O sotaque do Brasil é mais cantado e mais fácil de perceber.", "O sotaque do Brasil é mais cantado e mais fácil de entender."]}
+    ]
+   },
+   "saetze": [
+    {"id": "engolimos-as-vogais", "pt": "Os brasileiros dizem que nós engolimos as vogais.", "de": "Die Brasilianer sagen, dass wir die Vokale verschlucken."},
+    {"id": "sotaque-mais-cantado", "pt": "O sotaque do Brasil é mais cantado.", "de": "Der brasilianische Akzent ist melodischer."},
+    {"id": "nao-conseguia-distinguir", "pt": "No início não conseguia distinguir as palavras.", "de": "Am Anfang konnte ich die Wörter nicht unterscheiden."}
+   ]
+  },
+  {
+   "id": "B1-13-L03",
+   "typ": "neu",
+   "titel": "Wortschatz: Portugal vs. Brasilien",
+   "vokabeln": ["a-variante", "o-equivalente", "o-regionalismo", "o-mal-entendido", "confundir", "o-sinonimo", "querer-dizer", "o-calao", "o-termo"],
+   "grammatik": {
+    "titel": "Vocabulário: o que se diz cá e lá",
+    "erklaerung": [
+     "Muitas palavras do dia a dia são diferentes. Em Portugal: <b>autocarro, comboio, telemóvel, pequeno-almoço, casa de banho, frigorífico, ecrã, equipa, sumo, talho, chávena, gelado, ementa</b>. No Brasil: <i>ônibus, trem, celular, café da manhã, banheiro, geladeira, tela, equipe, suco, açougue, xícara, sorvete, cardápio</i>.",
+     "Algumas palavras existem nas duas variantes, mas com <b>outro sentido</b>: em Portugal, <b>o fato</b> é uma peça de roupa (o fato e gravata) e <b>o facto</b> é aquilo que aconteceu; no Brasil, <i>fato</i> quer dizer «facto» e o fato de roupa é <i>terno</i>. Em Portugal, <b>as propinas</b> pagam-se na universidade; no Brasil, <i>propina</i> é suborno!",
+     "Cuidado com os <b>mal-entendidos</b>: <b>rapariga</b> é neutro em Portugal, mas no Brasil é ofensivo – lá diz-se <i>moça</i> ou <i>garota</i>. Para «fila de espera», use <b>fila</b>, que se percebe em todo o lado.",
+     "Expressões do dia a dia: <b>fixe</b> (PT) – <i>legal</i> (BR); <b>Está bem / Pronto</b> (PT) – <i>Tá bom</i> (BR); <b>Olá</b> (PT) – <i>Oi</i> (BR); <b>bué</b> (calão de Lisboa) – <i>muito</i>. A regra para ti: <b>reconhecer</b> as formas brasileiras, mas falar português europeu."
+    ],
+    "erklaerung_de": [
+     "Viele Alltagswörter sind verschieden. In Portugal: <b>autocarro</b> (Bus), <b>comboio</b> (Zug), <b>telemóvel</b> (Handy), <b>pequeno-almoço</b> (Frühstück), <b>casa de banho</b> (Bad/WC), <b>frigorífico</b> (Kühlschrank), <b>ecrã</b> (Bildschirm), <b>equipa</b> (Team), <b>sumo</b> (Saft), <b>talho</b> (Metzgerei), <b>chávena</b> (Tasse), <b>gelado</b> (Eis), <b>ementa</b> (Speisekarte). In Brasilien: <i>ônibus, trem, celular, café da manhã, banheiro, geladeira, tela, equipe, suco, açougue, xícara, sorvete, cardápio</i>.",
+     "Manche Wörter gibt es in beiden Varianten, aber mit <b>anderer Bedeutung</b>: In Portugal ist <b>o fato</b> der Anzug und <b>o facto</b> die Tatsache; in Brasilien heißt <i>fato</i> „Tatsache“ und der Anzug <i>terno</i>. In Portugal sind <b>as propinas</b> die Studiengebühren – in Brasilien ist <i>propina</i> Bestechungsgeld!",
+     "Vorsicht vor <b>Missverständnissen</b>: <b>rapariga</b> (Mädchen) ist in Portugal neutral, in Brasilien aber beleidigend – dort sagt man <i>moça</i> oder <i>garota</i>. Für „Warteschlange“ nimm <b>fila</b>, das versteht man überall.",
+     "Alltagsausdrücke: <b>fixe</b> (PT) – <i>legal</i> (BR) = cool; <b>Está bem / Pronto</b> (PT) – <i>Tá bom</i> (BR) = okay; <b>Olá</b> (PT) – <i>Oi</i> (BR) = hallo; <b>bué</b> (Lissabonner Slang) = sehr/viel. Deine Regel: brasilianische Formen <b>erkennen</b>, aber selbst europäisches Portugiesisch sprechen."
+    ],
+    "vergleich": "Wie Österreichisch und Bundesdeutsch: Paradeiser/Tomate, Sackerl/Tüte, Jänner/Januar. Man versteht sich, aber man hört sofort, woher jemand kommt – und manchmal führt ein Wort zu einem peinlichen Missverständnis.",
+    "beispiele": [
+     {"pt": "Em Portugal, «rapariga» é uma palavra neutra.", "de": "In Portugal ist „rapariga“ ein neutrales Wort."},
+     {"pt": "O que quer dizer «fixe»? – Quer dizer «ótimo».", "de": "Was bedeutet „fixe“? – Es bedeutet „super“."},
+     {"pt": "Tive um mal-entendido com uma colega brasileira.", "de": "Ich hatte ein Missverständnis mit einer brasilianischen Kollegin."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Eine Brasilianerin sagt: „Peguei o ônibus.“ Was sagt man in Portugal?", "optionen": ["Apanhei o comboio.", "Apanhei o autocarro.", "Apanhei o elétrico."], "richtig": 1, "kategorie": "PT/BR"},
+     {"typ": "auswahl", "frage": "Brasilianisch „celular“ heißt in Portugal:", "optionen": ["o telemóvel", "o telefone fixo", "o portátil"], "richtig": 0, "kategorie": "PT/BR"},
+     {"typ": "auswahl", "frage": "Brasilianisch „café da manhã“ heißt in Portugal:", "optionen": ["o almoço", "o lanche", "o pequeno-almoço"], "richtig": 2, "kategorie": "PT/BR"},
+     {"typ": "auswahl", "frage": "Welches Wort ist in Portugal neutral, in Brasilien aber beleidigend?", "optionen": ["miúdo", "rapariga", "pequeno"], "richtig": 1, "kategorie": "PT/BR"},
+     {"typ": "luecke", "satz": "Desculpe, onde é a casa de ___?", "loesungen": ["banho"], "de": "Entschuldigung, wo ist die Toilette?", "erklaerung": "pt-PT: a casa de banho (BR: banheiro).", "kategorie": "PT/BR"},
+     {"typ": "luecke", "satz": "A minha ___ é pequena: somos cinco. (Team)", "loesungen": ["equipa"], "de": "Mein Team ist klein: Wir sind zu fünft.", "erklaerung": "pt-PT: a equipa (BR: equipe).", "kategorie": "PT/BR"},
+     {"typ": "uebersetzen", "de": "Was bedeutet dieses Wort?", "loesungen": ["O que quer dizer esta palavra?", "Que quer dizer esta palavra?", "O que é que quer dizer esta palavra?", "O que é que esta palavra quer dizer?", "O que significa esta palavra?", "Que significa esta palavra?"]},
+     {"typ": "uebersetzen", "de": "Verwechsle die beiden Varianten nicht! (tu)", "loesungen": ["Não confundas as duas variantes!", "Não confundas as duas variantes."], "kategorie": "Imperativ"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um português em São Paulo – ein Portugiese in São Paulo",
+    "situation": "Pedro erzählt Rita von seiner ersten Woche in Brasilien.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Na minha primeira semana em São Paulo tive um mal-entendido engraçado.", "de": "In meiner ersten Woche in São Paulo hatte ich ein lustiges Missverständnis."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Conta lá!", "de": "Erzähl mal!"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Entrei num café e pedi um pequeno-almoço. O empregado olhou para mim e não percebeu.", "de": "Ich bin in ein Café gegangen und habe ein Frühstück bestellt. Der Kellner hat mich angeschaut und nichts verstanden."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Claro, lá diz-se de outra maneira.", "de": "Klar, dort sagt man das anders."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Pois. Depois pedi uma bica e ele trouxe-me um café enorme, num copo!", "de": "Eben. Dann habe ich eine Bica bestellt, und er hat mir einen riesigen Kaffee im Glas gebracht!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E aprendeste o vocabulário deles?", "de": "Und hast du ihren Wortschatz gelernt?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Aprendi umas palavras, mas continuei a falar à portuguesa. No fim, já me chamavam «o portuga»!", "de": "Ein paar Wörter schon, aber ich habe weiter auf Portugiesisch aus Portugal gesprochen. Am Ende nannten sie mich schon „o portuga“!"}
+    ],
+    "fragen": [
+     {"frage": "Onde esteve o Pedro?", "optionen": ["No Rio de Janeiro.", "Em Salvador.", "Em São Paulo."], "richtig": 2},
+     {"frage": "O que trouxe o empregado quando o Pedro pediu uma bica?", "optionen": ["Um café enorme num copo.", "Um pequeno-almoço.", "Uma água."], "richtig": 0},
+     {"frage": "Que alcunha deram ao Pedro?", "optionen": ["«O lisboeta».", "«O portuga».", "«O europeu»."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português europeu. – Schreib auf europäischem Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich nehme jeden Tag den Bus.", "loesungen": ["Apanho o autocarro todos os dias.", "Todos os dias apanho o autocarro.", "Apanho todos os dias o autocarro."]},
+     {"de": "Mein Handy ist kaputt.", "loesungen": ["O meu telemóvel está avariado.", "O meu telemóvel avariou.", "O meu telemóvel está estragado.", "O meu telemóvel estragou-se."]},
+     {"de": "Das Frühstück ist im Preis inbegriffen.", "loesungen": ["O pequeno-almoço está incluído no preço.", "O pequeno-almoço está incluído."]},
+     {"de": "Entschuldigung, wo ist die Toilette?", "loesungen": ["Desculpe, onde é a casa de banho?", "Desculpe, onde fica a casa de banho?", "Com licença, onde é a casa de banho?"]},
+     {"de": "Ich hatte ein Missverständnis mit einem Kunden.", "loesungen": ["Tive um mal-entendido com um cliente."]}
+    ]
+   },
+   "saetze": [
+    {"id": "o-que-quer-dizer", "pt": "O que quer dizer esta palavra?", "de": "Was bedeutet dieses Wort?"},
+    {"id": "tive-mal-entendido", "pt": "Tive um mal-entendido com uma colega brasileira.", "de": "Ich hatte ein Missverständnis mit einer brasilianischen Kollegin."},
+    {"id": "nao-confundas", "pt": "Não confundas as duas variantes!", "de": "Verwechsle die beiden Varianten nicht!"}
+   ]
+  },
+  {
+   "id": "B1-13-L04",
+   "typ": "neu",
+   "titel": "Anrede: tu, você, o senhor, a gente",
+   "vokabeln": ["o-tratamento", "tratar-por-tu", "a-gente", "soar", "a-cortesia", "o-pronome", "a-formalidade", "a-vontade", "informal"],
+   "grammatik": {
+    "titel": "Formas de tratamento em Portugal e no Brasil",
+    "erklaerung": [
+     "Em Portugal há três níveis: <b>tu</b> (família, amigos, colegas), o <b>verbo sozinho</b> e <b>o senhor / a senhora</b> (formal): <i>Pode ajudar-me? O senhor pode ajudar-me?</i>",
+     "<b>Você</b> existe em Portugal, mas é delicado: pode soar distante ou até mal-educado. O mais seguro é usar o nome ou só o verbo: <i>A Ana quer café? – Quer café?</i>",
+     "No Brasil, <i>você</i> é a forma normal com quase toda a gente, e <i>tu</i> só se usa em algumas regiões (muitas vezes com o verbo na 3.ª pessoa: <i>tu vai</i>). Por isso, quando um brasileiro diz <i>você</i>, não quer ser frio nem mal-educado.",
+     "<b>A gente</b> = nós, mas com o verbo na <b>3.ª pessoa do singular</b>: <i>A gente vai à praia.</i> É muito comum no Brasil e também se ouve em Portugal na conversa informal. Num texto formal, use <b>nós</b>."
+    ],
+    "erklaerung_de": [
+     "In Portugal gibt es drei Stufen: <b>tu</b> (Familie, Freunde, Kollegen), das <b>Verb allein</b> und <b>o senhor / a senhora</b> (förmlich): <i>Pode ajudar-me? O senhor pode ajudar-me?</i>",
+     "<b>Você</b> gibt es in Portugal, aber es ist heikel: Es kann distanziert oder sogar unhöflich klingen. Am sichersten nimmt man den Namen oder nur das Verb: <i>A Ana quer café? – Quer café?</i>",
+     "In Brasilien ist <i>você</i> die normale Anrede für fast alle, <i>tu</i> gibt es nur in manchen Regionen (oft mit dem Verb in der 3. Person: <i>tu vai</i>). Wenn ein Brasilianer <i>você</i> sagt, will er also weder kühl noch unhöflich sein.",
+     "<b>A gente</b> = wir, aber mit dem Verb in der <b>3. Person Singular</b>: <i>A gente vai à praia.</i> Das ist in Brasilien sehr häufig und kommt auch in Portugal im lockeren Gespräch vor. In einem förmlichen Text nimm <b>nós</b>."
+    ],
+    "vergleich": "<i>A gente</i> funktioniert wie das deutsche „man“ mit Bedeutung „wir“ („Man sieht sich!“) – Verb in der 3. Person. Und beim Siezen braucht Deutsch immer das „Sie“, Portugal oft gar kein Pronomen, nur das Verb.",
+    "beispiele": [
+     {"pt": "Podemos tratar-nos por tu?", "de": "Können wir uns duzen?"},
+     {"pt": "A gente vê-se amanhã!", "de": "Wir sehen uns morgen!"},
+     {"pt": "Esteja à vontade, a casa é sua.", "de": "Fühlen Sie sich wie zu Hause."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Du willst einen älteren Herrn in Lagos höflich fragen, ob er Hilfe braucht. Was passt in Portugal am besten?", "optionen": ["Você precisa de ajuda?", "O senhor precisa de ajuda?", "Tu precisas de ajuda?"], "richtig": 1, "erklaerung": "In Portugal ist o senhor (oder nur das Verb: Precisa de ajuda?) die sichere, höfliche Form. „Você“ kann unhöflich wirken.", "kategorie": "Anrede"},
+     {"typ": "luecke", "satz": "A gente ___ à praia amanhã. (ir)", "loesungen": ["vai"], "de": "Wir gehen morgen an den Strand.", "erklaerung": "a gente + 3. Person Singular: a gente vai (nicht vamos).", "kategorie": "a gente"},
+     {"typ": "luecke", "satz": "Nós ___ à praia amanhã. (ir)", "loesungen": ["vamos"], "de": "Wir gehen morgen an den Strand.", "kategorie": "a gente"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist richtig?", "optionen": ["A gente falamos português.", "A gente fala português.", "A gente falam português."], "richtig": 1, "kategorie": "a gente"},
+     {"typ": "luecke", "satz": "Podemos tratar-___ por tu?", "loesungen": ["nos"], "de": "Können wir uns duzen?", "kategorie": "Pronomen"},
+     {"typ": "uebersetzen", "de": "Fühlen Sie sich wie zu Hause! (estar)", "loesungen": ["Esteja à vontade!", "Esteja à vontade.", "Fique à vontade!", "Fique à vontade."]},
+     {"typ": "uebersetzen", "de": "Das klingt ein bisschen unhöflich.", "loesungen": ["Isso soa um pouco mal-educado.", "Isto soa um pouco mal-educado.", "Soa um pouco mal-educado.", "Isso soa um bocado mal-educado.", "Soa um bocado mal-educado.", "Isso soa um pouco indelicado."]},
+     {"typ": "satzbau", "de": "In Portugal duzen sich Freunde.", "loesung": "Em Portugal os amigos tratam-se por tu."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Posso tratar-te por tu? – Darf ich dich duzen?",
+    "situation": "Stefan lernt Juliana, eine brasilianische Kollegin von Rita, kennen.",
+    "zeilen": [
+     {"sprecher": "Juliana", "stimme": "f", "pt": "Olá, sou a Juliana. A Rita falou-me muito de ti. Posso tratar-te por tu?", "de": "Hallo, ich bin Juliana. Rita hat mir viel von dir erzählt. Darf ich dich duzen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro! Aqui no Algarve, entre amigos, toda a gente se trata por tu.", "de": "Klar! Hier in der Algarve duzen sich unter Freunden alle."},
+     {"sprecher": "Juliana", "stimme": "f", "pt": "Que bom. No Brasil, a gente usa outra forma, e no início tive medo de parecer mal-educada aqui.", "de": "Wie schön. In Brasilien verwenden wir eine andere Form, und am Anfang hatte ich Angst, hier unhöflich zu wirken."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Comigo foi ao contrário: eu tratava toda a gente por «senhor» e «senhora».", "de": "Bei mir war es umgekehrt: Ich habe alle mit „senhor“ und „senhora“ angesprochen."},
+     {"sprecher": "Juliana", "stimme": "f", "pt": "E os vizinhos não achavam estranho?", "de": "Und die Nachbarn fanden das nicht seltsam?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O meu vizinho João disse-me logo: «Trata-me por tu, que a gente já se conhece!»", "de": "Mein Nachbar João sagte mir gleich: „Duz mich, wir kennen uns doch schon!“"},
+     {"sprecher": "Juliana", "stimme": "f", "pt": "Então em Portugal também se diz «a gente»!", "de": "Dann sagt man in Portugal auch „a gente“!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Diz-se, sim, mas mais na conversa informal. Num e-mail, escrevo sempre «nós».", "de": "Ja, aber eher im lockeren Gespräch. In einer E-Mail schreibe ich immer „nós“."}
+    ],
+    "fragen": [
+     {"frage": "O que pergunta a Juliana ao Stefan?", "optionen": ["Se pode tratá-lo por tu.", "Onde mora a Rita.", "Se ele é brasileiro."], "richtig": 0},
+     {"frage": "Como tratava o Stefan as pessoas no início?", "optionen": ["Por tu.", "Pelo nome.", "Por «senhor» e «senhora»."], "richtig": 2},
+     {"frage": "Quando usa o Stefan «a gente»?", "optionen": ["Nos e-mails formais.", "Na conversa informal.", "Nunca."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Podemos tratar-nos por tu?", "de": "Können wir uns duzen?"},
+     {"pt": "Trata-me por tu!", "de": "Duz mich!"},
+     {"pt": "A gente vê-se amanhã.", "de": "Wir sehen uns morgen."},
+     {"pt": "O senhor deseja mais alguma coisa?", "de": "Wünschen Sie noch etwas?"},
+     {"pt": "Esteja à vontade.", "de": "Fühlen Sie sich wie zu Hause."}
+    ]
+   },
+   "saetze": [
+    {"id": "tratar-nos-por-tu", "pt": "Podemos tratar-nos por tu?", "de": "Können wir uns duzen?"},
+    {"id": "a-gente-ve-se", "pt": "A gente vê-se amanhã!", "de": "Wir sehen uns morgen!"},
+    {"id": "esteja-a-vontade", "pt": "Esteja à vontade.", "de": "Fühlen Sie sich wie zu Hause."}
+   ]
+  },
+  {
+   "id": "B1-13-L05",
+   "typ": "neu",
+   "titel": "Estar a fazer statt Gerundium",
+   "vokabeln": ["o-gerundio", "a-construcao", "a-norma", "coloquial", "corrente", "a-regra", "a-excecao", "habitual", "o-uso"],
+   "grammatik": {
+    "titel": "Estar a + infinitivo (PT) e estar + gerúndio (BR)",
+    "erklaerung": [
+     "Para dizer o que está a acontecer agora, o português europeu usa <b>estar a + infinitivo</b>: <i>Estou a trabalhar. Estamos a jantar.</i> Para ações repetidas nos últimos tempos: <b>andar a + infinitivo</b>: <i>Ando a aprender crioulo.</i>",
+     "No Brasil usa-se <b>estar + gerúndio</b>: <i>Estou trabalhando. Estamos jantando.</i> Vais ouvir esta forma em novelas, músicas e vídeos – percebe-a, mas não a uses.",
+     "<b>Exceção</b>: no Alentejo e em partes do Algarve, muitas pessoas também usam o gerúndio na conversa. É <b>regional e coloquial</b>; na escrita e na norma, a regra é <i>estar a</i>.",
+     "O gerúndio também existe em Portugal, mas noutros usos: em frases escritas (<i>Chegando a Lisboa, telefone-me.</i>) e em expressões fixas como <b>Vou andando!</b> (= vou-me embora)."
+    ],
+    "erklaerung_de": [
+     "Um auszudrücken, was gerade passiert, verwendet das europäische Portugiesisch <b>estar a + Infinitiv</b>: <i>Estou a trabalhar. Estamos a jantar.</i> Für Wiederholtes in letzter Zeit: <b>andar a + Infinitiv</b>: <i>Ando a aprender crioulo.</i> (Ich lerne zurzeit Kreol.)",
+     "In Brasilien verwendet man <b>estar + Gerundium</b>: <i>Estou trabalhando. Estamos jantando.</i> Du hörst diese Form in Telenovelas, Liedern und Videos – versteh sie, aber benutze sie nicht.",
+     "<b>Ausnahme</b>: Im Alentejo und in Teilen der Algarve verwenden viele Leute im Gespräch ebenfalls das Gerundium. Das ist <b>regional und umgangssprachlich</b>; in der Schrift und in der Norm gilt <i>estar a</i>.",
+     "Das Gerundium gibt es auch in Portugal, aber anders: in geschriebenen Sätzen (<i>Chegando a Lisboa, telefone-me.</i> – Wenn Sie in Lissabon ankommen, rufen Sie mich an.) und in festen Wendungen wie <b>Vou andando!</b> (= Ich mach mich auf den Weg)."
+    ],
+    "vergleich": "Englisch „I am working“ entspricht dem brasilianischen <i>estou trabalhando</i>. Portugal sagt wörtlich „ich bin am Arbeiten“ – <i>estou a trabalhar</i>. Das umgangssprachliche deutsche „Ich bin am Kochen“ ist also das perfekte Modell für pt-PT.",
+    "beispiele": [
+     {"pt": "Estou a ver uma novela brasileira.", "de": "Ich schaue gerade eine brasilianische Telenovela."},
+     {"pt": "Ando a aprender as diferenças entre as variantes.", "de": "Ich lerne zurzeit die Unterschiede zwischen den Varianten."},
+     {"pt": "Bem, vou andando. Até amanhã!", "de": "Also, ich mach mich auf den Weg. Bis morgen!"}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Eine Brasilianerin schreibt: „Estou chegando!“ Wie sagt man das in Portugal?", "optionen": ["Estou chegar!", "Estou a chegar!", "Estou de chegar!"], "richtig": 1, "kategorie": "estar a"},
+     {"typ": "auswahl", "frage": "Welche Form ist in Portugal die Norm?", "optionen": ["Eles estão falando.", "Eles estão falar.", "Eles estão a falar."], "richtig": 2, "kategorie": "estar a"},
+     {"typ": "luecke", "satz": "Neste momento, estou ___ escrever um e-mail.", "loesungen": ["a"], "de": "Im Moment schreibe ich gerade eine E-Mail.", "kategorie": "estar a"},
+     {"typ": "luecke", "satz": "Ultimamente ___ a aprender crioulo. (andar, eu)", "loesungen": ["ando"], "de": "In letzter Zeit lerne ich Kreol.", "erklaerung": "andar a + Infinitiv = etwas zurzeit / in letzter Zeit (immer wieder) tun.", "kategorie": "andar a"},
+     {"typ": "auswahl", "frage": "„Vou andando!“ bedeutet in Portugal:", "optionen": ["Ich gehe zu Fuß.", "Ich mach mich auf den Weg – tschüss!", "Ich gehe gerade spazieren."], "richtig": 1, "kategorie": "Gerundium"},
+     {"typ": "uebersetzen", "de": "Wir essen gerade zu Abend.", "loesungen": ["Estamos a jantar."], "kategorie": "estar a"},
+     {"typ": "uebersetzen", "de": "Es regnet gerade.", "loesungen": ["Está a chover.", "Agora está a chover."], "kategorie": "estar a"},
+     {"typ": "satzbau", "de": "Was machst du gerade? (tu)", "loesung": "O que estás a fazer?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "O gerúndio no mercado – das Gerundium auf dem Markt",
+    "situation": "Stefan erzählt Ana, was ihm auf dem Markt aufgefallen ist.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ana, hoje no mercado o senhor Manuel disse uma coisa que me surpreendeu.", "de": "Ana, heute auf dem Markt hat Senhor Manuel etwas gesagt, das mich überrascht hat."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "O que é que ele disse?", "de": "Was hat er gesagt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não disse «estou a vender», usou o gerúndio, como os brasileiros.", "de": "Er hat nicht „estou a vender“ gesagt, sondern das Gerundium verwendet, wie die Brasilianer."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ah, isso é normal aqui no Sul. Muitas pessoas do Algarve e do Alentejo falam assim.", "de": "Ah, das ist hier im Süden normal. Viele Leute aus der Algarve und dem Alentejo sprechen so."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então não é um erro?", "de": "Dann ist es kein Fehler?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não é erro, é regional. Mas na escrita e em Lisboa, a norma é «estar a» mais infinitivo.", "de": "Kein Fehler, sondern regional. Aber in der Schrift und in Lissabon ist „estar a“ plus Infinitiv die Norm."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E eu, o que devo usar?", "de": "Und was soll ich verwenden?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Continua a dizer «estou a fazer». É o mais corrente em Portugal.", "de": "Sag weiter „estou a fazer“. Das ist in Portugal am gebräuchlichsten."}
+    ],
+    "fragen": [
+     {"frage": "Quem usou o gerúndio?", "optionen": ["Um senhor no mercado.", "A Ana.", "Um turista brasileiro."], "richtig": 0},
+     {"frage": "Segundo a Ana, onde é normal o gerúndio em Portugal?", "optionen": ["No Norte.", "Em Lisboa.", "No Algarve e no Alentejo."], "richtig": 2},
+     {"frage": "O que deve o Stefan usar?", "optionen": ["O gerúndio.", "«Estar a» mais infinitivo.", "As duas formas."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português europeu (estar a + infinitivo). – Schreib auf europäischem Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich arbeite gerade.", "loesungen": ["Estou a trabalhar."]},
+     {"de": "Was machst du gerade? (tu)", "loesungen": ["O que estás a fazer?", "O que é que estás a fazer?"]},
+     {"de": "Wir warten auf den Bus.", "loesungen": ["Estamos à espera do autocarro.", "Estamos a esperar pelo autocarro.", "Estamos a esperar o autocarro."]},
+     {"de": "Die Kinder spielen im Garten.", "loesungen": ["Os miúdos estão a brincar no jardim.", "As crianças estão a brincar no jardim."]},
+     {"de": "In letzter Zeit lese ich viel.", "loesungen": ["Ultimamente ando a ler muito.", "Ando a ler muito ultimamente.", "Ultimamente tenho lido muito.", "Tenho lido muito ultimamente."]}
+    ]
+   },
+   "saetze": [
+    {"id": "estou-a-ver-novela", "pt": "Estou a ver uma novela brasileira.", "de": "Ich schaue gerade eine brasilianische Telenovela."},
+    {"id": "ando-a-aprender", "pt": "Ando a aprender as diferenças entre as variantes.", "de": "Ich lerne zurzeit die Unterschiede zwischen den Varianten."},
+    {"id": "vou-andando", "pt": "Bem, vou andando. Até amanhã!", "de": "Also, ich mach mich auf den Weg. Bis morgen!"}
+   ]
+  },
+  {
+   "id": "B1-13-L06",
+   "typ": "neu",
+   "titel": "Brasilianer in Portugal – Pronomenstellung",
+   "vokabeln": ["o-imigrante", "integrar-se", "sentir-se-em-casa", "o-choque-cultural", "acolher", "o-conterraneo", "a-convivencia", "fazer-se-entender", "a-adaptacao"],
+   "grammatik": {
+    "titel": "Pronomes: «Chamo-me» (PT) e «Me chamo» (BR)",
+    "erklaerung": [
+     "Em Portugal, numa frase afirmativa simples, o pronome vem <b>depois do verbo</b>, com hífen (ênclise): <i>Chamo-me Stefan. Integrei-me bem. Sinto-me em casa. Os vizinhos acolheram-nos.</i>",
+     "O pronome passa para <b>antes do verbo</b> (próclise) depois de <b>não, nunca, já, também, ainda, só, sempre</b>, de palavras interrogativas (<i>quem, onde, como, quando</i>) e de <b>que, se, porque, quando</b> no início de uma oração: <i>Não me sinto sozinho. Já me integrei. Acho que se adaptou bem. Como te chamas?</i>",
+     "No Brasil, o pronome vem quase sempre <b>antes do verbo</b>, mesmo no início da frase: <i>Me chamo Juliana. Ele me disse. Te amo.</i> Em Portugal, uma frase nunca começa com um pronome átono – por isso estas formas soam logo brasileiras. Percebe-as, mas não as uses.",
+     "Com dois verbos, em Portugal o pronome vai para depois do infinitivo ou do primeiro verbo, sempre com hífen: <i>Quero integrar-me. / Quero-me integrar.</i> No Brasil, fica no meio e sem hífen: <i>Quero me integrar.</i>"
+    ],
+    "erklaerung_de": [
+     "In Portugal steht das Pronomen im einfachen Aussagesatz <b>nach dem Verb</b>, mit Bindestrich (Enklise): <i>Chamo-me Stefan. Integrei-me bem. Sinto-me em casa. Os vizinhos acolheram-nos.</i>",
+     "Das Pronomen rückt <b>vor das Verb</b> (Proklise) nach <b>não, nunca, já, também, ainda, só, sempre</b>, nach Fragewörtern (<i>quem, onde, como, quando</i>) und nach <b>que, se, porque, quando</b> am Anfang eines Nebensatzes: <i>Não me sinto sozinho. Já me integrei. Acho que se adaptou bem. Como te chamas?</i>",
+     "In Brasilien steht das Pronomen fast immer <b>vor dem Verb</b>, sogar am Satzanfang: <i>Me chamo Juliana. Ele me disse. Te amo.</i> In Portugal beginnt ein Satz nie mit einem unbetonten Pronomen – deshalb klingen diese Formen sofort brasilianisch. Versteh sie, aber benutze sie nicht.",
+     "Bei zwei Verben steht das Pronomen in Portugal nach dem Infinitiv oder nach dem ersten Verb, immer mit Bindestrich: <i>Quero integrar-me. / Quero-me integrar.</i> In Brasilien steht es in der Mitte und ohne Bindestrich: <i>Quero me integrar.</i>"
+    ],
+    "vergleich": "Im deutschen Hauptsatz steht das Pronomen nach dem Verb („Ich fühle mich wohl“) – genau wie in Portugal: <i>Sinto-me bem</i>. Nach „nicht“, Fragewörtern und „dass“ rückt es in Portugal vor das Verb (<i>Não me sinto bem. Acho que se sente bem.</i>). Brasilien stellt es fast immer davor: „Me sinto bem“ – daran erkennst du sofort einen Brasilianer.",
+    "beispiele": [
+     {"pt": "Integrámo-nos depressa graças aos vizinhos.", "de": "Dank der Nachbarn haben wir uns schnell integriert."},
+     {"pt": "Ainda não me sinto totalmente em casa.", "de": "Ich fühle mich noch nicht ganz zu Hause."},
+     {"pt": "A Juliana disse-me que se adaptou bem.", "de": "Juliana hat mir gesagt, dass sie sich gut eingewöhnt hat."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Eine Brasilianerin sagt: „Me sinto em casa aqui.“ Wie sagt man das in Portugal?", "optionen": ["Me sinto em casa aqui.", "Sinto-me em casa aqui.", "Sinto me em casa aqui."], "richtig": 1, "erklaerung": "In Portugal beginnt ein Satz nie mit einem unbetonten Pronomen: Sinto-me (mit Bindestrich).", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Já ___ integrei bem em Lagos.", "loesungen": ["me"], "de": "Ich habe mich in Lagos schon gut integriert.", "erklaerung": "Nach já steht das Pronomen vor dem Verb: Já me integrei.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Os vizinhos ___ muito bem. (acolher, nos – Perfeito)", "loesungen": ["acolheram-nos"], "de": "Die Nachbarn haben uns sehr gut aufgenommen.", "erklaerung": "Einfacher Aussagesatz ohne Auslöser → Enklise: acolheram-nos.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist korrektes europäisches Portugiesisch?", "optionen": ["Acho que ele se adaptou bem.", "Acho que ele adaptou-se bem.", "Acho que ele adaptou se bem."], "richtig": 0, "erklaerung": "Nach que (dass) steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Quando é que ___ mudaste para Portugal?", "loesungen": ["te"], "de": "Wann bist du nach Portugal gezogen?", "erklaerung": "Nach einem Fragewort steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Ich fühle mich hier zu Hause.", "loesungen": ["Sinto-me em casa aqui.", "Aqui sinto-me em casa.", "Sinto-me aqui em casa.", "Sinto-me em casa."], "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Ich kann mich schon verständlich machen.", "loesungen": ["Já consigo fazer-me entender.", "Já me consigo fazer entender.", "Já sou capaz de me fazer entender.", "Já consigo fazer-me entender em português.", "Já me consigo fazer entender em português."], "kategorie": "Pronomenstellung"},
+     {"typ": "satzbau", "de": "Sie hat sich schnell eingewöhnt.", "loesung": "Ela adaptou-se depressa."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Entrevista na rádio: uma brasileira em Portimão",
+    "situation": "Im Lokalradio spricht ein Journalist mit Camila aus Belo Horizonte, die seit vier Jahren in Portimão lebt.",
+    "zeilen": [
+     {"sprecher": "Jornalista", "stimme": "m", "pt": "Camila, vive em Portimão há quatro anos. Como foi a adaptação?", "de": "Camila, Sie leben seit vier Jahren in Portimão. Wie war die Eingewöhnung?"},
+     {"sprecher": "Camila", "stimme": "f", "pt": "No início foi difícil. Eu falava português, mas as pessoas não me percebiam bem, e eu também não as percebia a elas.", "de": "Am Anfang war es schwierig. Ich sprach Portugiesisch, aber die Leute verstanden mich nicht gut, und ich verstand sie auch nicht."},
+     {"sprecher": "Jornalista", "stimme": "m", "pt": "E sentiu algum choque cultural?", "de": "Und hatten Sie einen Kulturschock?"},
+     {"sprecher": "Camila", "stimme": "f", "pt": "Um pouco. Os portugueses são mais reservados, mas quando nos conhecem, acolhem-nos de braços abertos.", "de": "Ein bisschen. Die Portugiesen sind zurückhaltender, aber wenn sie uns kennen, nehmen sie uns mit offenen Armen auf."},
+     {"sprecher": "Jornalista", "stimme": "m", "pt": "E hoje, já se sente em casa?", "de": "Und heute, fühlen Sie sich schon zu Hause?"},
+     {"sprecher": "Camila", "stimme": "f", "pt": "Sinto-me, sim. Tenho amigos portugueses e há uma comunidade de conterrâneos muito unida. A convivência é boa, embora às vezes haja mal-entendidos por causa da língua.", "de": "Ja. Ich habe portugiesische Freunde, und es gibt eine sehr verbundene Gemeinschaft von Landsleuten. Das Zusammenleben ist gut, auch wenn es manchmal Missverständnisse wegen der Sprache gibt."},
+     {"sprecher": "Jornalista", "stimme": "m", "pt": "Que conselho dá aos imigrantes que chegam agora?", "de": "Welchen Rat geben Sie den Einwanderern, die jetzt ankommen?"},
+     {"sprecher": "Camila", "stimme": "f", "pt": "Que não tenham vergonha de perguntar. Para nos fazermos entender, temos primeiro de ouvir muito.", "de": "Dass sie sich nicht schämen zu fragen. Um uns verständlich zu machen, müssen wir zuerst viel zuhören."}
+    ],
+    "fragen": [
+     {"frage": "Há quanto tempo vive a Camila em Portimão?", "optionen": ["Há dois anos.", "Há quatro anos.", "Há dez anos."], "richtig": 1},
+     {"frage": "Como são os portugueses, segundo a Camila?", "optionen": ["Muito barulhentos.", "Pouco simpáticos com estrangeiros.", "Mais reservados, mas acolhem bem quem conhecem."], "richtig": 2},
+     {"frage": "Que conselho dá a Camila?", "optionen": ["Não ter vergonha de perguntar.", "Falar sempre à brasileira.", "Viver só com conterrâneos."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Larissa, eine neue Nachbarin aus Brasilien, fragt dich nach deinen Erfahrungen in Portugal.",
+    "zeilen": [
+     {"sprecher": "Larissa", "stimme": "f", "pt": "Olá! Sou a Larissa, cheguei há pouco do Brasil. Há quanto tempo vive cá?", "de": "Hallo! Ich bin Larissa, ich bin vor Kurzem aus Brasilien gekommen. Wie lange leben Sie schon hier?"},
+     {"ich": true, "aufgabe": "Sag: Seit drei Jahren. Ich habe mich schnell integriert.", "loesungen": ["Há três anos. Integrei-me depressa.", "Há três anos. Integrei-me rapidamente.", "Vivo cá há três anos. Integrei-me depressa.", "Vivo aqui há três anos. Integrei-me depressa.", "Há três anos. Integrei-me muito depressa.", "Há três anos e integrei-me depressa."]},
+     {"sprecher": "Larissa", "stimme": "f", "pt": "E já se sente em casa?", "de": "Und fühlen Sie sich schon zu Hause?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich fühle mich zu Hause. Die Nachbarn haben uns sehr gut aufgenommen.", "loesungen": ["Sim, sinto-me em casa. Os vizinhos acolheram-nos muito bem.", "Sinto-me, sim. Os vizinhos acolheram-nos muito bem.", "Sim, já me sinto em casa. Os vizinhos acolheram-nos muito bem.", "Sim, sinto-me em casa aqui. Os vizinhos acolheram-nos muito bem."]},
+     {"sprecher": "Larissa", "stimme": "f", "pt": "Eu ainda não me habituei. Às vezes as pessoas não me percebem!", "de": "Ich habe mich noch nicht gewöhnt. Manchmal verstehen mich die Leute nicht!"},
+     {"ich": true, "aufgabe": "Sag (förmlich): Keine Sorge, die Eingewöhnung dauert ein paar Monate.", "loesungen": ["Não se preocupe, a adaptação demora alguns meses.", "Não se preocupe. A adaptação demora alguns meses.", "Não se preocupe, a adaptação demora uns meses.", "Não se preocupe, a adaptação leva alguns meses.", "Não se preocupe, a adaptação leva uns meses."]}
+    ]
+   },
+   "saetze": [
+    {"id": "sinto-me-em-casa-lagos", "pt": "Sinto-me em casa em Lagos.", "de": "Ich fühle mich in Lagos zu Hause."},
+    {"id": "ja-me-integrei", "pt": "Já me integrei bem.", "de": "Ich habe mich schon gut integriert."},
+    {"id": "acolheram-nos-bem", "pt": "Os vizinhos acolheram-nos muito bem.", "de": "Die Nachbarn haben uns sehr gut aufgenommen."}
+   ]
+  },
+  {
+   "id": "B1-13-L07",
+   "typ": "neu",
+   "titel": "Angola und Mosambik",
+   "vokabeln": ["a-independencia", "a-colonia", "a-descolonizacao", "o-retornado", "a-heranca", "o-petroleo", "a-kizomba", "a-riqueza", "a-guerra-civil"],
+   "grammatik": {
+    "titel": "Falar de história: datas, períodos e «tornar-se»",
+    "erklaerung": [
+     "Datas: <b>a</b> + dia + <b>de</b> + mês + <b>de</b> + ano: <i>Angola tornou-se independente <b>a</b> 11 de novembro de 1975.</i> Só com o ano: <b>em</b> 1975. Décadas: <b>nos anos 70</b> ou <b>na década de 70</b>. Os séculos escrevem-se em numeração romana e, a partir do onze, leem-se como números normais: <i>no século XV</i> (quinze), <i>no século XX</i> (vinte).",
+     "Mudanças: <b>tornar-se</b> + adjetivo ou nome (<i>tornou-se independente</i>), <b>passar a</b> + infinitivo (<i>o português passou a ser língua oficial</i>) e <b>deixar de</b> + infinitivo (<i>deixou de ser uma colónia</i>).",
+     "Duração: <b>durante</b> (<i>durante 27 anos</i>), <b>de … a …</b> / <b>desde … até …</b> (<i>de 1975 a 2002</i>), <b>a partir de</b>. Para contar factos históricos usa-se o <b>pretérito perfeito</b>: <i>A guerra civil acabou em 2002.</i>",
+     "Palavras de África que vais ouvir: em Angola, <b>bué</b> (muito – que passou para o calão de Lisboa), <b>kota</b> (pessoa mais velha) e <b>candongueiro</b> (táxi coletivo); em Moçambique, <b>maningue</b> (muito) e <b>machimbombo</b> (autocarro). Na escrita, os dois países seguem uma norma próxima da europeia."
+    ],
+    "erklaerung_de": [
+     "Daten: <b>a</b> + Tag + <b>de</b> + Monat + <b>de</b> + Jahr: <i>Angola tornou-se independente <b>a</b> 11 de novembro de 1975.</i> Nur mit Jahr: <b>em</b> 1975. Jahrzehnte: <b>nos anos 70</b> oder <b>na década de 70</b> (in den 70ern). Jahrhunderte schreibt man mit römischen Zahlen und liest sie ab dem elften als Grundzahl: <i>no século XV</i> („quinze“), <i>no século XX</i> („vinte“).",
+     "Veränderungen: <b>tornar-se</b> + Adjektiv oder Nomen (<i>tornou-se independente</i> – wurde unabhängig), <b>passar a</b> + Infinitiv (<i>o português passou a ser língua oficial</i> – wurde Amtssprache) und <b>deixar de</b> + Infinitiv (<i>deixou de ser uma colónia</i> – war keine Kolonie mehr).",
+     "Dauer: <b>durante</b> (<i>durante 27 anos</i> – 27 Jahre lang), <b>de … a …</b> / <b>desde … até …</b> (<i>de 1975 a 2002</i> – von 1975 bis 2002), <b>a partir de</b> (ab). Für historische Ereignisse nimmt man das <b>pretérito perfeito</b>: <i>A guerra civil acabou em 2002.</i>",
+     "Wörter aus Afrika, die du hören wirst: in Angola <b>bué</b> (sehr/viel – ist in den Lissabonner Slang gewandert), <b>kota</b> (älterer Mensch) und <b>candongueiro</b> (Sammeltaxi); in Mosambik <b>maningue</b> (sehr/viel) und <b>machimbombo</b> (Bus). In der Schrift folgen beide Länder einer Norm, die der europäischen nahe ist."
+    ],
+    "vergleich": "Datum: Deutsch „am 11. November 1975“ – Portugal <i>a 11 de novembro de 1975</i> (Brasilien meist <i>em 11 de novembro</i>). Jahrhundert: „im 15. Jahrhundert“ = <i>no século XV</i>, gelesen „século quinze“ – also mit Grundzahl, nicht „fünfzehnte“.",
+    "beispiele": [
+     {"pt": "Angola tornou-se independente a 11 de novembro de 1975.", "de": "Angola wurde am 11. November 1975 unabhängig."},
+     {"pt": "Moçambique deixou de ser uma colónia em 1975.", "de": "Mosambik hörte 1975 auf, eine Kolonie zu sein."},
+     {"pt": "A guerra civil em Angola durou de 1975 a 2002.", "de": "Der Bürgerkrieg in Angola dauerte von 1975 bis 2002."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Angola tornou-se independente ___ 11 de novembro de 1975.", "loesungen": ["a"], "de": "Angola wurde am 11. November 1975 unabhängig.", "erklaerung": "Datum mit Tag: a + Tag (pt-PT). Nur das Jahr: em.", "kategorie": "Datum"},
+     {"typ": "luecke", "satz": "Moçambique ficou independente ___ 1975.", "loesungen": ["em"], "de": "Mosambik wurde 1975 unabhängig.", "kategorie": "Datum"},
+     {"typ": "auswahl", "frage": "„im 20. Jahrhundert“ liest man:", "optionen": ["no século vigésimo", "no século vinte", "no vinte século"], "richtig": 1, "erklaerung": "Ab dem 11. Jahrhundert liest man die Grundzahl: século vinte.", "kategorie": "Datum"},
+     {"typ": "luecke", "satz": "Com o petróleo, Angola ___ um país rico. (tornar-se, Perfeito)", "loesungen": ["tornou-se"], "de": "Mit dem Erdöl wurde Angola ein reiches Land.", "kategorie": "Veränderung"},
+     {"typ": "auswahl", "frage": "Was ist in Mosambik ein „machimbombo“?", "optionen": ["ein Taxi", "ein Bus", "ein Zug"], "richtig": 1, "kategorie": "Varianten"},
+     {"typ": "uebersetzen", "de": "Der Bürgerkrieg endete 2002.", "loesungen": ["A guerra civil acabou em 2002.", "A guerra civil terminou em 2002."], "kategorie": "Datum"},
+     {"typ": "uebersetzen", "de": "Die Sprache ist ein gemeinsames Erbe.", "loesungen": ["A língua é uma herança comum.", "A língua é uma herança partilhada."]},
+     {"typ": "satzbau", "de": "Portugiesisch wurde Amtssprache.", "loesung": "O português passou a ser língua oficial."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O pai do João – Joãos Vater",
+    "situation": "Stefan erfährt von seinem Nachbarn João, dass dessen Vater aus Angola kam.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "João, a Ana disse-me que o teu pai nasceu em Angola. É verdade?", "de": "João, Ana hat mir gesagt, dass dein Vater in Angola geboren ist. Stimmt das?"},
+     {"sprecher": "João", "stimme": "m", "pt": "É. Nasceu em Luanda, em 1950. A família dele vivia lá desde os anos 20.", "de": "Ja. Er ist 1950 in Luanda geboren. Seine Familie lebte dort seit den 20er-Jahren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E quando é que veio para Portugal?", "de": "Und wann ist er nach Portugal gekommen?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Em 1975, pouco antes da independência. Veio como retornado, só com uma mala.", "de": "1975, kurz vor der Unabhängigkeit. Er kam als Rückkehrer, nur mit einem Koffer."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Deve ter sido muito difícil.", "de": "Das muss sehr schwer gewesen sein."},
+     {"sprecher": "João", "stimme": "m", "pt": "Foi. Com a descolonização, muita gente perdeu tudo. E em Angola começou uma guerra civil que durou até 2002.", "de": "Ja. Mit der Entkolonialisierung haben viele Menschen alles verloren. Und in Angola begann ein Bürgerkrieg, der bis 2002 dauerte."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E ele ainda tem saudades?", "de": "Und hat er noch Sehnsucht?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Muitas. Ouve semba e kizomba todos os dias e ainda diz «bué» e «kota», como os angolanos!", "de": "Sehr. Er hört jeden Tag Semba und Kizomba und sagt immer noch „bué“ und „kota“, wie die Angolaner!"}
+    ],
+    "fragen": [
+     {"frage": "Onde nasceu o pai do João?", "optionen": ["Em Maputo.", "Em Luanda.", "Em Lisboa."], "richtig": 1},
+     {"frage": "Quando veio ele para Portugal?", "optionen": ["Em 1975.", "Em 2002.", "Em 1950."], "richtig": 0},
+     {"frage": "O que faz ele todos os dias?", "optionen": ["Lê jornais angolanos.", "Telefona para Luanda.", "Ouve semba e kizomba."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Angola wurde am 11. November 1975 unabhängig.", "loesungen": ["Angola tornou-se independente a 11 de novembro de 1975.", "Angola ficou independente a 11 de novembro de 1975.", "Angola tornou-se independente no dia 11 de novembro de 1975.", "Angola ficou independente no dia 11 de novembro de 1975."]},
+     {"de": "Mosambik war eine portugiesische Kolonie.", "loesungen": ["Moçambique foi uma colónia portuguesa.", "Moçambique era uma colónia portuguesa."]},
+     {"de": "Angola ist reich an Erdöl.", "loesungen": ["Angola é rica em petróleo.", "Angola é rico em petróleo."]},
+     {"de": "Am Freitag gehen wir Kizomba tanzen.", "loesungen": ["Na sexta-feira vamos dançar kizomba.", "À sexta-feira vamos dançar kizomba.", "Sexta-feira vamos dançar kizomba.", "Na sexta vamos dançar kizomba."]},
+     {"de": "Der kulturelle Reichtum Mosambiks ist enorm.", "loesungen": ["A riqueza cultural de Moçambique é enorme."]}
+    ]
+   },
+   "saetze": [
+    {"id": "angola-independente-1975", "pt": "Angola tornou-se independente a 11 de novembro de 1975.", "de": "Angola wurde am 11. November 1975 unabhängig."},
+    {"id": "deixou-de-ser-colonia", "pt": "Moçambique deixou de ser uma colónia em 1975.", "de": "Mosambik hörte 1975 auf, eine Kolonie zu sein."},
+    {"id": "heranca-comum", "pt": "A língua é uma herança comum.", "de": "Die Sprache ist ein gemeinsames Erbe."}
+   ]
+  },
+  {
+   "id": "B1-13-L08",
+   "typ": "neu",
+   "titel": "Kap Verde, São Tomé und Timor",
+   "vokabeln": ["o-crioulo", "o-arquipelago", "a-morabeza", "a-diaspora", "bilingue", "o-cacau", "a-emigracao", "a-mistura", "o-territorio"],
+   "grammatik": {
+    "titel": "Pronomes relativos: que, quem, onde, cujo, o qual",
+    "erklaerung": [
+     "<b>Que</b> é o relativo mais comum, para pessoas e coisas: <i>O crioulo é a língua <b>que</b> se fala em casa.</i> Depois de uma preposição, para pessoas usa-se <b>quem</b>: <i>a amiga <b>com quem</b> falei</i>.",
+     "<b>Onde</b> (= em que) usa-se para lugares: <i>Cabo Verde é o país <b>onde</b> nasceu Cesária Évora.</i>",
+     "<b>Cujo / cuja / cujos / cujas</b> = do qual, de quem. Concorda com o nome que vem <b>a seguir</b>: <i>São Tomé é uma ilha <b>cujo</b> cacau é famoso. Timor-Leste é um país <b>cujas</b> línguas oficiais são o português e o tétum.</i>",
+     "<b>O qual / a qual / os quais / as quais</b> aparece sobretudo depois de preposições e na escrita: <i>o arquipélago <b>no qual</b> vivem cerca de meio milhão de pessoas</i>. Na conversa, prefere-se <i>que</i> ou <i>onde</i>."
+    ],
+    "erklaerung_de": [
+     "<b>Que</b> ist das häufigste Relativpronomen, für Personen und Sachen: <i>O crioulo é a língua <b>que</b> se fala em casa.</i> (die Sprache, die man zu Hause spricht). Nach einer Präposition nimmt man für Personen <b>quem</b>: <i>a amiga <b>com quem</b> falei</i> (die Freundin, mit der ich gesprochen habe).",
+     "<b>Onde</b> (= em que, wo) steht für Orte: <i>Cabo Verde é o país <b>onde</b> nasceu Cesária Évora.</i>",
+     "<b>Cujo / cuja / cujos / cujas</b> = dessen / deren. Es richtet sich nach dem Nomen, das <b>danach</b> kommt: <i>São Tomé é uma ilha <b>cujo</b> cacau é famoso.</i> (eine Insel, deren Kakao berühmt ist). <i>Timor-Leste é um país <b>cujas</b> línguas oficiais são o português e o tétum.</i>",
+     "<b>O qual / a qual / os quais / as quais</b> steht vor allem nach Präpositionen und in geschriebener Sprache: <i>o arquipélago <b>no qual</b> vivem cerca de meio milhão de pessoas</i> (die Inselgruppe, auf der etwa eine halbe Million Menschen leben). Im Gespräch nimmt man lieber <i>que</i> oder <i>onde</i>."
+    ],
+    "vergleich": "<i>cujo</i> entspricht „dessen/deren“ – richtet sich aber nach dem folgenden Nomen, nicht nach dem Besitzer: <i>a ilha cujo cacau</i> = die Insel, deren Kakao. Im Deutschen hängt „dessen/deren“ vom Besitzer ab. Umgangssprachlich hört man „a senhora que o filho …“ – korrekt ist <i>a senhora cujo filho …</i>",
+    "beispiele": [
+     {"pt": "Cabo Verde é um arquipélago onde se fala português e crioulo.", "de": "Kap Verde ist eine Inselgruppe, wo man Portugiesisch und Kreol spricht."},
+     {"pt": "Tenho uma amiga cuja família vive na Praia.", "de": "Ich habe eine Freundin, deren Familie in Praia lebt."},
+     {"pt": "Timor-Leste é um país cujas línguas oficiais são o português e o tétum.", "de": "Osttimor ist ein Land, dessen Amtssprachen Portugiesisch und Tetum sind."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Cabo Verde é o país ___ nasceu Cesária Évora.", "loesungen": ["onde", "em que"], "de": "Kap Verde ist das Land, in dem Cesária Évora geboren wurde.", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "São Tomé é uma ilha ___ cacau é muito famoso.", "loesungen": ["cujo"], "de": "São Tomé ist eine Insel, deren Kakao sehr berühmt ist.", "erklaerung": "cujo richtet sich nach dem folgenden Nomen: o cacau (m. Sg.) → cujo.", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "Timor-Leste é um país ___ línguas oficiais são o português e o tétum.", "loesungen": ["cujas"], "de": "Osttimor ist ein Land, dessen Amtssprachen Portugiesisch und Tetum sind.", "erklaerung": "línguas ist weiblich Plural → cujas.", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "A Nilza é a amiga com ___ falei ontem.", "loesungen": ["quem"], "de": "Nilza ist die Freundin, mit der ich gestern gesprochen habe.", "erklaerung": "Person nach Präposition: com quem.", "kategorie": "Relativpronomen"},
+     {"typ": "auswahl", "frage": "„die Frau, deren Sohn zweisprachig ist“", "optionen": ["a senhora que o filho é bilingue", "a senhora cuja filho é bilingue", "a senhora cujo filho é bilingue"], "richtig": 2, "erklaerung": "cujo richtet sich nach filho (m.). „que o filho“ hört man umgangssprachlich, ist aber nicht korrekt.", "kategorie": "Relativpronomen"},
+     {"typ": "uebersetzen", "de": "Das Kreol ist die Sprache, die man zu Hause spricht.", "loesungen": ["O crioulo é a língua que se fala em casa.", "O crioulo é a língua falada em casa."], "kategorie": "Relativpronomen"},
+     {"typ": "uebersetzen", "de": "Die kapverdische Kultur ist eine Mischung aus Afrika und Europa.", "loesungen": ["A cultura cabo-verdiana é uma mistura de África e Europa.", "A cultura cabo-verdiana é uma mistura de África e da Europa.", "A cultura cabo-verdiana é uma mistura entre África e Europa."]},
+     {"typ": "diktat", "pt": "A diáspora cabo-verdiana é maior do que a população do arquipélago."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Podcast: «Eu sou cabo-verdiana e lisboeta»",
+    "situation": "Nilza erzählt in einem Podcast über ihre Herkunft.",
+    "zeilen": [
+     {"sprecher": "Nilza", "stimme": "f", "pt": "Olá, eu sou a Nilza. Nasci na ilha de Santiago, em Cabo Verde, e vim para Lisboa com doze anos.", "de": "Hallo, ich bin Nilza. Ich bin auf der Insel Santiago auf Kap Verde geboren und mit zwölf Jahren nach Lissabon gekommen."},
+     {"sprecher": "Nilza", "stimme": "f", "pt": "Cabo Verde é um arquipélago de dez ilhas onde a chuva é rara e a vida nunca foi fácil.", "de": "Kap Verde ist eine Inselgruppe aus zehn Inseln, wo Regen selten ist und das Leben nie leicht war."},
+     {"sprecher": "Nilza", "stimme": "f", "pt": "Por isso, a emigração faz parte da nossa história: a nossa diáspora é maior do que a população das ilhas.", "de": "Deshalb gehört die Auswanderung zu unserer Geschichte: Unsere Diaspora ist größer als die Bevölkerung der Inseln."},
+     {"sprecher": "Nilza", "stimme": "f", "pt": "Em casa, com os meus pais, falo crioulo; na escola e no trabalho, falo português. Sou bilingue desde pequena.", "de": "Zu Hause mit meinen Eltern spreche ich Kreol; in der Schule und bei der Arbeit Portugiesisch. Ich bin seit meiner Kindheit zweisprachig."},
+     {"sprecher": "Nilza", "stimme": "f", "pt": "O crioulo nasceu da mistura do português antigo com línguas africanas. Não é um dialeto, é uma língua.", "de": "Das Kreol ist aus der Mischung von altem Portugiesisch und afrikanischen Sprachen entstanden. Es ist kein Dialekt, es ist eine Sprache."},
+     {"sprecher": "Nilza", "stimme": "f", "pt": "O que mais me falta é a morabeza: a maneira como as pessoas recebem quem chega.", "de": "Was mir am meisten fehlt, ist die Morabeza: die Art, wie die Leute jemanden empfangen, der ankommt."},
+     {"sprecher": "Nilza", "stimme": "f", "pt": "Quando as saudades apertam, vou a uma tasca cabo-verdiana na Amadora e como uma cachupa.", "de": "Wenn die Sehnsucht groß wird, gehe ich in ein kapverdisches Lokal in Amadora und esse eine Cachupa."}
+    ],
+    "fragen": [
+     {"frage": "Com que idade veio a Nilza para Lisboa?", "optionen": ["Com doze anos.", "Com vinte anos.", "Com dois anos."], "richtig": 0},
+     {"frage": "Que língua fala a Nilza com os pais?", "optionen": ["Português.", "Crioulo.", "Inglês."], "richtig": 1},
+     {"frage": "O que diz a Nilza sobre o crioulo?", "optionen": ["Que é um dialeto do português.", "Que só se escreve, não se fala.", "Que é uma língua, nascida da mistura do português com línguas africanas."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Cabo Verde é um arquipélago de dez ilhas.", "de": "Kap Verde ist eine Inselgruppe aus zehn Inseln."},
+     {"pt": "Em casa fala-se crioulo.", "de": "Zu Hause spricht man Kreol."},
+     {"pt": "Os filhos da Rita são bilingues.", "de": "Ritas Kinder sind zweisprachig."},
+     {"pt": "São Tomé é uma ilha cujo cacau é famoso.", "de": "São Tomé ist eine Insel, deren Kakao berühmt ist."},
+     {"pt": "A emigração faz parte da história portuguesa.", "de": "Die Auswanderung gehört zur portugiesischen Geschichte."}
+    ]
+   },
+   "saetze": [
+    {"id": "lingua-que-se-fala", "pt": "O crioulo é a língua que se fala em casa.", "de": "Das Kreol ist die Sprache, die man zu Hause spricht."},
+    {"id": "ilha-cujo-cacau", "pt": "São Tomé é uma ilha cujo cacau é famoso.", "de": "São Tomé ist eine Insel, deren Kakao berühmt ist."},
+    {"id": "mistura-africa-europa", "pt": "A cultura cabo-verdiana é uma mistura de África e Europa.", "de": "Die kapverdische Kultur ist eine Mischung aus Afrika und Europa."}
+   ]
+  },
+  {
+   "id": "B1-13-L09",
+   "typ": "neu",
+   "titel": "Musik und Literatur der Lusophonie",
+   "vokabeln": ["a-morna", "a-bossa-nova", "o-romancista", "o-poema", "a-literatura", "premiado", "a-cronica", "o-conto", "o-cantor", "o-autor"],
+   "grammatik": {
+    "titel": "Gramática brasileira nas canções e nos livros",
+    "erklaerung": [
+     "Nas canções, novelas e livros brasileiros vais encontrar <b>ter</b> no lugar de <b>haver</b>: <i>Tem muita gente na praia.</i> Em Portugal diz-se <b>Há muita gente na praia.</b>",
+     "O <b>possessivo sem artigo</b>: no Brasil, <i>minha casa, meu amigo</i>; em Portugal, com artigo: <b>a minha casa, o meu amigo</b>.",
+     "<i>Seu / sua</i>: no Brasil quer dizer muitas vezes «de você», ou seja, o nosso <b>teu</b>. Em Portugal, <b>o seu</b> é formal (do senhor / da senhora); entre amigos diz-se <b>o teu</b>: <i>Qual é o teu cantor preferido?</i>",
+     "Na fala e nas letras: <i>pra</i> (= para), <i>tá</i> (= está) e <i>né</i> (= não é). <i>Pra</i> e <i>tá</i> também se ouvem em Portugal na fala rápida, mas não se escrevem; <i>né</i> é tipicamente brasileiro. E o pronome vem antes do verbo: <i>me diz, te quero</i> – em Portugal, <b>diz-me, quero-te</b>."
+    ],
+    "erklaerung_de": [
+     "In brasilianischen Liedern, Telenovelas und Büchern findest du <b>ter</b> statt <b>haver</b>: <i>Tem muita gente na praia.</i> (Es sind viele Leute am Strand.) In Portugal sagt man <b>Há muita gente na praia.</b>",
+     "Das <b>Possessivpronomen ohne Artikel</b>: in Brasilien <i>minha casa, meu amigo</i>; in Portugal mit Artikel: <b>a minha casa, o meu amigo</b>.",
+     "<i>Seu / sua</i> heißt in Brasilien oft „dein“ (von <i>você</i>), also unser <b>teu</b>. In Portugal ist <b>o seu</b> förmlich („Ihr“); unter Freunden sagt man <b>o teu</b>: <i>Qual é o teu cantor preferido?</i> (Wer ist dein Lieblingssänger?)",
+     "Beim Sprechen und in Liedtexten: <i>pra</i> (= para), <i>tá</i> (= está) und <i>né</i> (= não é, „oder?“). <i>Pra</i> und <i>tá</i> hört man auch in Portugal beim schnellen Sprechen, man schreibt sie aber nicht; <i>né</i> ist typisch brasilianisch. Und das Pronomen steht vor dem Verb: <i>me diz, te quero</i> – in Portugal <b>diz-me, quero-te</b>."
+    ],
+    "vergleich": "Wie Liedtexte im Dialekt: Man versteht sie und singt mit, schreibt aber selbst Hochdeutsch. Brasilianische Songs und Bücher sind wunderbar zum Hören und Lesen – übernimm nur nicht „minha casa“, „tem gente“ oder „me diz“ in dein eigenes Portugiesisch.",
+    "beispiele": [
+     {"pt": "Há muitos autores premiados em Moçambique.", "de": "Es gibt viele preisgekrönte Autoren in Mosambik."},
+     {"pt": "A minha canção preferida é uma morna.", "de": "Mein Lieblingslied ist eine Morna."},
+     {"pt": "Diz-me o nome desse cantor!", "de": "Sag mir den Namen dieses Sängers!"}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "In einem brasilianischen Roman steht: „Tem muita gente na praia.“ Wie sagt man das in Portugal?", "optionen": ["Há muita gente na praia.", "Tem-se muita gente na praia.", "Têm muita gente na praia."], "richtig": 0, "kategorie": "PT/BR"},
+     {"typ": "auswahl", "frage": "Brasilianisch „Minha mãe adora bossa nova.“ – auf pt-PT:", "optionen": ["Minha mãe adora a bossa nova.", "A minha mãe adora bossa nova.", "Mãe minha adora bossa nova."], "richtig": 1, "erklaerung": "In Portugal steht vor dem Possessivpronomen der Artikel: a minha mãe.", "kategorie": "PT/BR"},
+     {"typ": "auswahl", "frage": "In einem Lied heißt es: „Me diz a verdade.“ Auf pt-PT:", "optionen": ["Me diga a verdade.", "Diz a verdade-me.", "Diz-me a verdade."], "richtig": 2, "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "___ muitos contos de Mia Couto traduzidos em alemão.", "loesungen": ["Há"], "de": "Es gibt viele Erzählungen von Mia Couto auf Deutsch.", "erklaerung": "„es gibt“ = há (BR oft: tem).", "kategorie": "PT/BR"},
+     {"typ": "luecke", "satz": "Qual é o ___ autor preferido? (tu)", "loesungen": ["teu"], "de": "Wer ist dein Lieblingsautor?", "erklaerung": "Unter Freunden: o teu. „o seu“ ist in Portugal förmlich.", "kategorie": "Possessiv"},
+     {"typ": "uebersetzen", "de": "Kennst du ein Gedicht von Fernando Pessoa?", "loesungen": ["Conheces algum poema de Fernando Pessoa?", "Conheces um poema de Fernando Pessoa?", "Sabes algum poema de Fernando Pessoa?", "Conheces algum poema do Fernando Pessoa?"]},
+     {"typ": "uebersetzen", "de": "Mia Couto ist ein preisgekrönter Autor.", "loesungen": ["Mia Couto é um autor premiado.", "O Mia Couto é um autor premiado."]},
+     {"typ": "satzbau", "de": "Ich lese gerade eine Erzählung eines angolanischen Autors.", "loesung": "Estou a ler um conto de um autor angolano."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Livros e música – Bücher und Musik",
+    "situation": "Rita empfiehlt Stefan Bücher und Musik aus der lusophonen Welt.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, já leste alguma coisa de Mia Couto?", "de": "Stefan, hast du schon etwas von Mia Couto gelesen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ainda não. É moçambicano, não é?", "de": "Noch nicht. Er ist Mosambikaner, oder?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "É. É um dos autores mais premiados da língua portuguesa. Os contos dele são lindíssimos.", "de": "Ja. Er ist einer der meistausgezeichneten Autoren portugiesischer Sprache. Seine Erzählungen sind wunderschön."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Mas não são muito difíceis para mim?", "de": "Aber sind die nicht zu schwer für mich?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Começa pelas crónicas, que são curtas. Eu empresto-te um livro.", "de": "Fang mit den Kolumnen an, die sind kurz. Ich leihe dir ein Buch."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. E tu, que música andas a ouvir?", "de": "Abgemacht. Und du, was hörst du gerade für Musik?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Mornas da Cesária Évora e um pouco de bossa nova. Ontem ouvi a «Garota de Ipanema» três vezes!", "de": "Mornas von Cesária Évora und ein bisschen Bossa Nova. Gestern habe ich „Garota de Ipanema“ dreimal gehört!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então no sábado ponho um disco dela ao jantar.", "de": "Dann lege ich am Samstag beim Abendessen eine Platte von ihr auf."}
+    ],
+    "fragen": [
+     {"frage": "De onde é Mia Couto?", "optionen": ["De Angola.", "De Moçambique.", "Do Brasil."], "richtig": 1},
+     {"frage": "Por onde deve o Stefan começar?", "optionen": ["Pelos romances.", "Pelos poemas.", "Pelas crónicas, que são curtas."], "richtig": 2},
+     {"frage": "Que música anda a Rita a ouvir?", "optionen": ["Mornas e bossa nova.", "Fado e kizomba.", "Só música clássica."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist in einer Buchhandlung in Lagos und suchst etwas zum Lesen und Hören.",
+    "zeilen": [
+     {"sprecher": "Livreira", "stimme": "f", "pt": "Boa tarde. Posso ajudar?", "de": "Guten Tag. Kann ich helfen?"},
+     {"ich": true, "aufgabe": "Sag: Ja, ich suche ein Buch eines afrikanischen Autors auf Portugiesisch.", "loesungen": ["Sim, procuro um livro de um autor africano em português.", "Pode, procuro um livro de um autor africano em português.", "Sim, estou à procura de um livro de um autor africano em português.", "Sim, ando à procura de um livro de um autor africano em português."]},
+     {"sprecher": "Livreira", "stimme": "f", "pt": "Temos os contos de Mia Couto e os romances de Pepetela. Prefere contos ou romances?", "de": "Wir haben die Erzählungen von Mia Couto und die Romane von Pepetela. Möchten Sie lieber Erzählungen oder Romane?"},
+     {"ich": true, "aufgabe": "Sag: Lieber Erzählungen, weil sie kürzer sind.", "loesungen": ["Prefiro contos, porque são mais curtos.", "Prefiro os contos, porque são mais curtos.", "Contos, porque são mais curtos.", "Prefiro contos porque são mais curtos.", "Prefiro os contos porque são mais curtos."]},
+     {"sprecher": "Livreira", "stimme": "f", "pt": "Então leve este. É do Mia Couto, um autor muito premiado.", "de": "Dann nehmen Sie dieses. Es ist von Mia Couto, einem vielfach ausgezeichneten Autor."},
+     {"ich": true, "aufgabe": "Sag: Perfekt. Haben Sie auch Musik aus Kap Verde?", "loesungen": ["Perfeito. Também tem música de Cabo Verde?", "Ótimo. Também tem música de Cabo Verde?", "Perfeito. Tem também música de Cabo Verde?", "Perfeito. E tem música de Cabo Verde?", "Perfeito. Também têm música de Cabo Verde?", "Perfeito. Têm também música de Cabo Verde?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "autor-premiado", "pt": "Mia Couto é um autor premiado.", "de": "Mia Couto ist ein preisgekrönter Autor."},
+    {"id": "cancao-preferida-morna", "pt": "A minha canção preferida é uma morna.", "de": "Mein Lieblingslied ist eine Morna."},
+    {"id": "diz-me-o-nome", "pt": "Diz-me o nome desse cantor!", "de": "Sag mir den Namen dieses Sängers!"}
+   ]
+  },
+  {
+   "id": "B1-13-L10",
+   "typ": "neu",
+   "titel": "Hörtraining: Akzente erkennen",
+   "vokabeln": ["arrastado", "nitido", "o-ritmo", "imitar", "percetivel", "o-acento", "adivinhar", "o-lisboeta", "o-nortenho", "a-origem"],
+   "grammatik": {
+    "titel": "Fazer suposições: dever, parecer, se calhar, talvez",
+    "erklaerung": [
+     "<b>Dever</b> + infinitivo exprime uma suposição forte: <i>Ele <b>deve ser</b> do Norte.</i> (= provavelmente é). Para o passado: <i>Ela <b>deve ter vivido</b> no Brasil.</i>",
+     "<b>Parecer</b>: <i>Ela <b>parece</b> brasileira. Ele <b>parece ser</b> açoriano. <b>Parece que</b> é de Lisboa.</i> Em Portugal também se diz <b>soar a</b>: <i>Isso <b>soa a</b> brasileiro.</i>",
+     "<b>Se calhar</b> (muito português) e <b>talvez</b> = possivelmente. <i>Se calhar é angolano.</i> Atenção: <b>talvez</b> antes do verbo pede o conjuntivo: <i>Talvez <b>seja</b> de Cabo Verde.</i>",
+     "Pistas para adivinhar a origem: no Norte, o <b>v</b> soa muitas vezes como <b>b</b> (<i>binho</i> por <i>vinho</i>); em Lisboa, o <b>ei</b> soa quase «âi» (<i>leite</i> ≈ «lâite»); no Alentejo, o ritmo é lento e <b>arrastado</b>; nos Açores, sobretudo em São Miguel, as vogais são muito fechadas e difíceis de perceber."
+    ],
+    "erklaerung_de": [
+     "<b>Dever</b> + Infinitiv drückt eine starke Vermutung aus: <i>Ele <b>deve ser</b> do Norte.</i> (Er muss aus dem Norden sein = wahrscheinlich ist er es). Für die Vergangenheit: <i>Ela <b>deve ter vivido</b> no Brasil.</i> (Sie muss in Brasilien gelebt haben.)",
+     "<b>Parecer</b> (scheinen, aussehen wie): <i>Ela <b>parece</b> brasileira. Ele <b>parece ser</b> açoriano. <b>Parece que</b> é de Lisboa.</i> In Portugal sagt man auch <b>soar a</b>: <i>Isso <b>soa a</b> brasileiro.</i> (Das klingt brasilianisch.)",
+     "<b>Se calhar</b> (sehr portugiesisch) und <b>talvez</b> = vielleicht. <i>Se calhar é angolano.</i> Achtung: <b>talvez</b> vor dem Verb verlangt den Konjunktiv: <i>Talvez <b>seja</b> de Cabo Verde.</i>",
+     "Hinweise auf die Herkunft: Im Norden klingt das <b>v</b> oft wie <b>b</b> (<i>binho</i> statt <i>vinho</i>); in Lissabon klingt <b>ei</b> fast wie „ai“ (<i>leite</i> ≈ „laite“); im Alentejo ist der Rhythmus langsam und <b>gedehnt</b>; auf den Azoren, vor allem auf São Miguel, sind die Vokale sehr geschlossen und schwer zu verstehen."
+    ],
+    "vergleich": "Wie im Deutschen „Er muss aus dem Norden sein“: <i>Ele deve ser do Norte</i> – <i>dever</i> ist hier eine Vermutung, keine Pflicht. „Das klingt brasilianisch“ = <i>Isso soa a brasileiro</i> (mit <i>a</i>!). Und Vorsicht: „Akzent“ beim Sprechen ist <i>o sotaque</i>, <i>o acento</i> ist das Schriftzeichen oder die Betonung.",
+    "beispiele": [
+     {"pt": "Pelo sotaque, ele deve ser do Porto.", "de": "Dem Akzent nach muss er aus Porto sein."},
+     {"pt": "Ela parece brasileira, mas é de Cabo Verde.", "de": "Sie klingt brasilianisch, aber sie ist aus Kap Verde."},
+     {"pt": "Se calhar é açoriano – não percebo quase nada!", "de": "Vielleicht ist er von den Azoren – ich verstehe fast nichts!"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Pelo sotaque, ele ___ ser do Norte. (dever)", "loesungen": ["deve"], "de": "Dem Akzent nach muss er aus dem Norden sein.", "kategorie": "Vermutung"},
+     {"typ": "auswahl", "frage": "„Er hat einen starken Akzent.“", "optionen": ["Ele tem um acento forte.", "Ele tem um sotaque forte.", "Ele tem uma pronúncia acentuada."], "richtig": 1, "erklaerung": "o acento = Schriftakzent / Betonung. Der Akzent beim Sprechen ist o sotaque.", "kategorie": "Falsche Freunde"},
+     {"typ": "luecke", "satz": "Talvez ___ de Angola. (ser, ela)", "loesungen": ["seja"], "de": "Vielleicht ist sie aus Angola.", "erklaerung": "talvez vor dem Verb + Konjunktiv: seja.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Sie muss in Brasilien gelebt haben.“", "optionen": ["Ela deve viver no Brasil.", "Ela deve ter vivido no Brasil.", "Ela tem de ter vivido no Brasil."], "richtig": 1, "kategorie": "Vermutung"},
+     {"typ": "auswahl", "frage": "Jemand sagt „binho“ statt „vinho“. Woher kommt er wahrscheinlich?", "optionen": ["aus Lissabon", "aus der Algarve", "aus Nordportugal"], "richtig": 2, "kategorie": "Akzente"},
+     {"typ": "uebersetzen", "de": "Rate mal, woher sie kommt! (tu)", "loesungen": ["Adivinha de onde ela é!", "Adivinha de onde é que ela é!", "Adivinha donde ela é!", "Adivinha de onde ela vem!", "Adivinha de onde é ela!"]},
+     {"typ": "uebersetzen", "de": "Sein Akzent ist kaum wahrnehmbar.", "loesungen": ["O sotaque dele é pouco percetível.", "O sotaque dele quase não se nota.", "O sotaque dele mal se nota.", "O sotaque dele é quase impercetível."]},
+     {"typ": "diktat", "pt": "Os lisboetas falam depressa e engolem as vogais."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Adivinha de onde é! – Rate, woher er kommt!",
+    "situation": "Stefan und Ana hören eine Radiosendung, in der Hörer anrufen. Ana testet Stefans Ohr.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, ouve este ouvinte que está a ligar para a rádio. De onde achas que é?", "de": "Stefan, hör dir diesen Hörer an, der beim Radio anruft. Woher, glaubst du, kommt er?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Diz «binho» e «bamos»… Deve ser nortenho!", "de": "Er sagt „binho“ und „bamos“ … Er muss aus dem Norden sein!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Muito bem! É de Braga. E esta senhora agora?", "de": "Sehr gut! Er ist aus Braga. Und jetzt diese Dame?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Fala devagar, com um ritmo arrastado. Parece alentejana.", "de": "Sie spricht langsam, mit einem gedehnten Rhythmus. Sie klingt nach Alentejo."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Acertaste outra vez. E este rapaz?", "de": "Wieder richtig. Und dieser junge Mann?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Hum… fala muito depressa e quase não se ouvem as vogais. Se calhar é lisboeta?", "de": "Hm … er spricht sehr schnell und man hört die Vokale fast nicht. Vielleicht ist er Lissabonner?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não, é dos Açores! Ouve bem: as vogais são ainda mais fechadas e a melodia é diferente.", "de": "Nein, er ist von den Azoren! Hör genau hin: Die Vokale sind noch geschlossener und die Melodie ist anders."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Os açorianos são mesmo difíceis. Mas o teu sotaque algarvio já o reconheço de olhos fechados!", "de": "Die Azoreaner sind wirklich schwierig. Aber deinen Algarve-Akzent erkenne ich schon mit geschlossenen Augen!"}
+    ],
+    "fragen": [
+     {"frage": "De onde é o primeiro ouvinte?", "optionen": ["De Lisboa.", "De Braga.", "De Faro."], "richtig": 1},
+     {"frage": "Como fala a senhora alentejana?", "optionen": ["Devagar, com um ritmo arrastado.", "Muito depressa.", "Com sotaque brasileiro."], "richtig": 0},
+     {"frage": "De onde é o rapaz?", "optionen": ["De Lisboa.", "Do Porto.", "Dos Açores."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Er muss aus dem Norden sein.", "loesungen": ["Ele deve ser do Norte.", "Deve ser do Norte.", "Ele deve ser nortenho.", "Deve ser nortenho."]},
+     {"de": "Sie klingt brasilianisch, aber sie kommt aus Kap Verde. (parecer)", "loesungen": ["Ela parece brasileira, mas é de Cabo Verde.", "Parece brasileira, mas é de Cabo Verde.", "Ela parece brasileira, mas é cabo-verdiana.", "Parece brasileira, mas é cabo-verdiana."]},
+     {"de": "Das klingt brasilianisch.", "loesungen": ["Isso soa a brasileiro.", "Isto soa a brasileiro.", "Soa a brasileiro."]},
+     {"de": "Vielleicht ist er von den Azoren. (se calhar)", "loesungen": ["Se calhar é dos Açores.", "Se calhar ele é dos Açores.", "Se calhar é açoriano.", "Se calhar ele é açoriano."]},
+     {"de": "Die Kinder ahmen den brasilianischen Akzent nach.", "loesungen": ["Os miúdos imitam o sotaque brasileiro.", "As crianças imitam o sotaque brasileiro.", "Os miúdos imitam o sotaque do Brasil.", "As crianças imitam o sotaque do Brasil."]}
+    ]
+   },
+   "saetze": [
+    {"id": "deve-ser-do-norte", "pt": "Pelo sotaque, ele deve ser do Norte.", "de": "Dem Akzent nach muss er aus dem Norden sein."},
+    {"id": "soa-a-brasileiro", "pt": "Isso soa a brasileiro.", "de": "Das klingt brasilianisch."},
+    {"id": "adivinha-de-onde", "pt": "Adivinha de onde ela é!", "de": "Rate mal, woher sie kommt!"}
+   ]
+  },
+  {"id": "B1-13-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-13-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Na Festa da Lusofonia – auf dem Lusophonie-Fest",
+   "situation": "Rita und Stefan sind auf einem Fest der portugiesischsprachigen Länder in Lagos.",
+   "zeilen": [
+    {"sprecher": "Rita", "stimme": "f", "pt": "Que festa tão animada! Há gente de todos os países lusófonos.", "de": "Was für ein lebhaftes Fest! Hier sind Leute aus allen portugiesischsprachigen Ländern."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "É verdade. Ali há uma banca de Cabo Verde com cachupa e, ao lado, estão a tocar kizomba.", "de": "Stimmt. Dort ist ein Stand aus Kap Verde mit Cachupa, und daneben wird Kizomba gespielt."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Olha, aquela senhora é a Juliana, a minha colega brasileira. Já a conheces?", "de": "Schau, die Frau dort ist Juliana, meine brasilianische Kollegin. Kennst du sie schon?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Conheço, sim. Foi ela que me explicou porque é que os brasileiros dizem que nós engolimos as vogais.", "de": "Ja. Sie hat mir erklärt, warum die Brasilianer sagen, dass wir die Vokale verschlucken."},
+    {"sprecher": "Rita", "stimme": "f", "pt": "E o rapaz que está a falar com ela? Pelo sotaque, deve ser angolano.", "de": "Und der junge Mann, der mit ihr spricht? Dem Akzent nach muss er Angolaner sein."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Se calhar é. Disse «bué» três vezes na mesma frase!", "de": "Kann sein. Er hat dreimal im selben Satz „bué“ gesagt!"},
+    {"sprecher": "Rita", "stimme": "f", "pt": "Ah, mas isso também se diz em Lisboa. Não prova nada.", "de": "Ach, aber das sagt man auch in Lissabon. Das beweist gar nichts."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Então vamos perguntar-lhe. Assim pratico o meu português – o europeu, claro!", "de": "Dann fragen wir ihn. So übe ich mein Portugiesisch – das europäische, natürlich!"}
+   ],
+   "fragen": [
+    {"frage": "Onde estão a Rita e o Stefan?", "optionen": ["Numa festa da lusofonia.", "Num restaurante brasileiro.", "Num concerto de fado."], "richtig": 0},
+    {"frage": "Quem é a Juliana?", "optionen": ["A vizinha do Stefan.", "Uma colega brasileira da Rita.", "Uma cantora de Cabo Verde."], "richtig": 1},
+    {"frage": "Porque é que a Rita acha que o rapaz é angolano?", "optionen": ["Por causa da roupa.", "Porque está a dançar kizomba.", "Pelo sotaque."], "richtig": 2},
+    {"frage": "O que decide o Stefan fazer?", "optionen": ["Ir para casa.", "Falar com o rapaz.", "Comer cachupa."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "O português no mundo – Portugiesisch in der Welt",
+   "situation": "Ein Artikel in einer Zeitschrift zum Welttag der portugiesischen Sprache.",
+   "text": [
+    "O português no mundo: uma língua, muitas vozes",
+    "Com cerca de 260 milhões de falantes, o português é uma das línguas mais faladas do mundo. É língua oficial em nove países, unidos na CPLP, e também em Macau, na China.",
+    "A maioria dos falantes vive no Brasil, cuja variante é conhecida no mundo inteiro graças às novelas e à música. Mas é em Angola e em Moçambique que o número de falantes cresce mais depressa.",
+    "Em Portugal vivem hoje centenas de milhares de imigrantes de países lusófonos. A convivência é, em geral, boa, embora as diferenças de vocabulário provoquem alguns mal-entendidos: quem acaba de chegar de São Paulo nem sempre percebe à primeira o que é um «pequeno-almoço».",
+    "Para os linguistas, nenhuma variante é «mais correta» do que outra. A norma europeia e a brasileira têm regras próprias – por exemplo, na posição dos pronomes – e ambas se ensinam em escolas de todo o mundo.",
+    "Em Cabo Verde e na Guiné-Bissau, o português convive com o crioulo, que é a língua materna da maioria da população. Por isso, muitas pessoas são bilingues desde pequenas."
+   ],
+   "fragen": [
+    {"frage": "Em quantos países é o português língua oficial (além de Macau)?", "optionen": ["Em sete.", "Em nove.", "Em doze."], "richtig": 1},
+    {"frage": "Onde cresce mais depressa o número de falantes?", "optionen": ["Em Angola e Moçambique.", "No Brasil.", "Em Portugal."], "richtig": 0},
+    {"frage": "O que dizem os linguistas sobre as variantes?", "optionen": ["Que a europeia é a mais correta.", "Que a brasileira vai substituir as outras.", "Que nenhuma é mais correta do que outra."], "richtig": 2},
+    {"frage": "Qual é a língua materna da maioria em Cabo Verde?", "optionen": ["O português.", "O crioulo.", "O francês."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich fühle mich in Lagos zu Hause.", "loesungen": ["Sinto-me em casa em Lagos.", "Em Lagos sinto-me em casa.", "Em Lagos, sinto-me em casa."]},
+   {"de": "Was machst du gerade? (tu)", "loesungen": ["O que estás a fazer?", "O que é que estás a fazer?", "Que estás a fazer?"]},
+   {"de": "Die Nachbarn haben uns sehr gut aufgenommen.", "loesungen": ["Os vizinhos acolheram-nos muito bem."]},
+   {"de": "Angola wurde 1975 unabhängig.", "loesungen": ["Angola tornou-se independente em 1975.", "Angola ficou independente em 1975."]},
+   {"de": "São Tomé ist eine Insel, deren Kakao berühmt ist.", "loesungen": ["São Tomé é uma ilha cujo cacau é famoso.", "São Tomé é uma ilha cujo cacau é célebre."]},
+   {"de": "Er muss aus dem Norden sein.", "loesungen": ["Ele deve ser do Norte.", "Deve ser do Norte.", "Ele deve ser nortenho.", "Deve ser nortenho."]}
+  ],
+  "sprechen": [
+   {"pt": "O português tem cerca de 260 milhões de falantes.", "de": "Portugiesisch hat etwa 260 Millionen Sprecher."},
+   {"pt": "Os brasileiros dizem que nós engolimos as vogais.", "de": "Die Brasilianer sagen, dass wir die Vokale verschlucken."},
+   {"pt": "Em Portugal diz-se «autocarro» e «pequeno-almoço».", "de": "In Portugal sagt man „autocarro“ und „pequeno-almoço“."},
+   {"pt": "Podemos tratar-nos por tu?", "de": "Können wir uns duzen?"},
+   {"pt": "Pelo sotaque, ela deve ser alentejana.", "de": "Dem Akzent nach muss sie aus dem Alentejo sein."}
+  ]
+ }
+}

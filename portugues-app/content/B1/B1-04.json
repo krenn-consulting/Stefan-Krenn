@@ -1,0 +1,892 @@
+{
+ "id": "B1-04",
+ "level": "B1",
+ "titel": "Arrendar e comprar casa – Mieten und Kaufen",
+ "beschreibung": "Wohnungsanzeigen lesen, Besichtigungen, Mietvertrag, Kaution und Nebenkosten, Kauf mit CPCV und Escritura, Wohnkredit, Umbau mit Genehmigung und die Eigentümerversammlung – dazu der Konjunktiv im Relativsatz: bekannter Gegenstand (Tenho uma casa que tem …) gegenüber gesuchtem Gegenstand (Procuro uma casa que tenha …).",
+ "vokabeln": [
+  {"id": "a-imobiliaria", "pt": "a imobiliária", "de": "das Immobilienbüro / der Makler", "emoji": "🏢", "beispiel_pt": "Fomos a uma imobiliária no centro de Lagos.", "beispiel_de": "Wir sind zu einem Immobilienbüro im Zentrum von Lagos gegangen.", "hinweis": "Die Person: o agente imobiliário / a agente imobiliária. Die Provision zahlt in Portugal meist der Verkäufer bzw. Vermieter."},
+  {"id": "o-anuncio", "pt": "o anúncio", "de": "die Anzeige / das Inserat", "emoji": "📰", "beispiel_pt": "Vi um anúncio de um T2 na internet.", "beispiel_de": "Ich habe im Internet eine Anzeige für eine Zweizimmerwohnung gesehen.", "hinweis": "pôr um anúncio = eine Anzeige aufgeben"},
+  {"id": "arrendar", "pt": "arrendar", "de": "mieten / vermieten (Wohnung, Haus)", "emoji": "🔑", "beispiel_pt": "Arrendámos um apartamento em Lagos durante dois anos.", "beispiel_de": "Wir haben zwei Jahre lang eine Wohnung in Lagos gemietet.", "hinweis": "arrendar heißt beides: „mieten“ und „vermieten“. Für Autos, Fahrräder und Ferienwohnungen sagt man meist alugar. In Anzeigen: Arrenda-se."},
+  {"id": "a-renda", "pt": "a renda", "de": "die Miete (monatlich)", "emoji": "💶", "beispiel_pt": "A renda é de novecentos euros por mês.", "beispiel_de": "Die Miete beträgt neunhundert Euro im Monat.", "hinweis": "pagar a renda = die Miete zahlen; in Brasilien sagt man „o aluguel“."},
+  {"id": "mobilado", "pt": "mobilado", "de": "möbliert", "emoji": "🛋️", "beispiel_pt": "O apartamento é mobilado e tem tudo o que é preciso.", "beispiel_de": "Die Wohnung ist möbliert und hat alles, was man braucht.", "hinweis": "pt-PT: mobilado – in Brasilien „mobiliado“.", "alternativen": ["mobilada"]},
+  {"id": "a-assoalhada", "pt": "a assoalhada", "de": "der Wohnraum (Zimmer ohne Küche und Bad)", "emoji": "🚪", "beispiel_pt": "É um T3 com quatro assoalhadas.", "beispiel_de": "Es ist eine Wohnung mit drei Schlafzimmern und vier Wohnräumen.", "hinweis": "Typisch portugiesisch: Gezählt werden Wohn- und Schlafzimmer, nicht Küche und Bad. T3 = drei Schlafzimmer (T = tipologia).", "passiv": true},
+  {"id": "a-cozinha-equipada", "pt": "a cozinha equipada", "de": "die Einbauküche (mit Geräten)", "emoji": "🍳", "beispiel_pt": "O apartamento tem cozinha equipada com forno e máquina de lavar loiça.", "beispiel_de": "Die Wohnung hat eine Einbauküche mit Backofen und Geschirrspüler.", "passiv": true},
+  {"id": "pronto-a-habitar", "pt": "pronto a habitar", "de": "bezugsfertig", "emoji": "🏡", "beispiel_pt": "Vende-se moradia pronta a habitar.", "beispiel_de": "Bezugsfertiges Einfamilienhaus zu verkaufen.", "passiv": true},
+  {"id": "o-certificado-energetico", "pt": "o certificado energético", "de": "der Energieausweis", "emoji": "⚡", "beispiel_pt": "O anúncio tem de indicar a classe do certificado energético.", "beispiel_de": "Die Anzeige muss die Klasse des Energieausweises angeben.", "hinweis": "Klassen von A+ (sehr gut) bis F (schlecht); Pflicht bei Verkauf und Vermietung.", "passiv": true},
+
+  {"id": "a-localizacao", "pt": "a localização", "de": "die Lage", "emoji": "📍", "beispiel_pt": "A localização é ótima: fica a cinco minutos da praia.", "beispiel_de": "Die Lage ist super: fünf Minuten vom Strand entfernt."},
+  {"id": "a-zona", "pt": "a zona", "de": "die Gegend / das Viertel", "emoji": "🗺️", "beispiel_pt": "Gostamos muito desta zona.", "beispiel_de": "Diese Gegend gefällt uns sehr."},
+  {"id": "sossegado", "pt": "sossegado", "de": "ruhig (Ort, Gegend)", "emoji": "🤫", "beispiel_pt": "Moramos numa rua muito sossegada.", "beispiel_de": "Wir wohnen in einer sehr ruhigen Straße.", "hinweis": "Für Orte; für Menschen sagt man eher calmo oder tranquilo.", "alternativen": ["sossegada"]},
+  {"id": "luminoso", "pt": "luminoso", "de": "hell (lichtdurchflutet)", "emoji": "☀️", "beispiel_pt": "A sala é muito luminosa.", "beispiel_de": "Das Wohnzimmer ist sehr hell.", "alternativen": ["luminosa"]},
+  {"id": "espacoso", "pt": "espaçoso", "de": "geräumig", "emoji": "📐", "beispiel_pt": "O apartamento que temos agora é espaçoso.", "beispiel_de": "Die Wohnung, die wir jetzt haben, ist geräumig.", "alternativen": ["espaçosa"]},
+  {"id": "o-lugar-de-estacionamento", "pt": "o lugar de estacionamento", "de": "der Stellplatz / Parkplatz", "emoji": "🅿️", "beispiel_pt": "O prédio tem lugar de estacionamento na cave.", "beispiel_de": "Das Gebäude hat einen Stellplatz in der Tiefgarage.", "hinweis": "o parque de estacionamento = der (öffentliche) Parkplatz / das Parkhaus"},
+  {"id": "virado-a-sul", "pt": "virado a sul", "de": "nach Süden ausgerichtet", "emoji": "🧭", "beispiel_pt": "A varanda é virada a sul.", "beispiel_de": "Der Balkon ist nach Süden ausgerichtet.", "hinweis": "Auch: virado a norte / nascente (Osten) / poente (Westen).", "alternativen": ["virada a sul"], "passiv": true},
+  {"id": "o-sotao", "pt": "o sótão", "de": "der Dachboden", "emoji": "🪜", "beispiel_pt": "Guardamos as malas no sótão.", "beispiel_de": "Wir bewahren die Koffer auf dem Dachboden auf.", "passiv": true},
+  {"id": "a-arrecadacao", "pt": "a arrecadação", "de": "der Abstellraum / das Kellerabteil", "emoji": "📦", "beispiel_pt": "O apartamento tem uma arrecadação na cave.", "beispiel_de": "Zur Wohnung gehört ein Kellerabteil.", "passiv": true},
+
+  {"id": "procurar", "pt": "procurar", "de": "suchen", "emoji": "🔎", "beispiel_pt": "Procuramos uma casa que tenha jardim.", "beispiel_de": "Wir suchen ein Haus mit Garten.", "hinweis": "procurar algo – ohne Präposition! Auch: estar à procura de (auf der Suche sein nach)."},
+  {"id": "indispensavel", "pt": "indispensável", "de": "unverzichtbar / unbedingt nötig", "emoji": "❗", "beispiel_pt": "Uma garagem é indispensável para nós.", "beispiel_de": "Eine Garage ist für uns unverzichtbar."},
+  {"id": "de-preferencia", "pt": "de preferência", "de": "vorzugsweise / am liebsten", "emoji": "👍", "beispiel_pt": "Queremos uma casa perto do mar, de preferência com piscina.", "beispiel_de": "Wir wollen ein Haus in Meeresnähe, am liebsten mit Pool."},
+  {"id": "o-terraco", "pt": "o terraço", "de": "die (Dach-)Terrasse", "emoji": "🌇", "beispiel_pt": "Quero um terraço onde possa jantar ao ar livre.", "beispiel_de": "Ich möchte eine Terrasse, auf der ich im Freien zu Abend essen kann."},
+  {"id": "os-transportes-publicos", "pt": "os transportes públicos", "de": "die öffentlichen Verkehrsmittel", "emoji": "🚌", "beispiel_pt": "Preciso de uma casa que fique perto dos transportes públicos.", "beispiel_de": "Ich brauche eine Wohnung in der Nähe der öffentlichen Verkehrsmittel."},
+  {"id": "o-requisito", "pt": "o requisito", "de": "die Anforderung / Voraussetzung", "emoji": "📋", "beispiel_pt": "O primeiro requisito é a garagem.", "beispiel_de": "Die erste Anforderung ist die Garage.", "passiv": true},
+  {"id": "a-moradia-geminada", "pt": "a moradia geminada", "de": "die Doppelhaushälfte", "emoji": "🏘️", "beispiel_pt": "Vende-se moradia geminada com jardim.", "beispiel_de": "Doppelhaushälfte mit Garten zu verkaufen.", "hinweis": "moradia isolada = freistehendes Einfamilienhaus; moradia em banda = Reihenhaus", "passiv": true},
+  {"id": "o-condominio-fechado", "pt": "o condomínio fechado", "de": "die geschlossene Wohnanlage", "emoji": "🏊", "beispiel_pt": "A casa fica num condomínio fechado com piscina comum.", "beispiel_de": "Das Haus liegt in einer geschlossenen Wohnanlage mit Gemeinschaftspool.", "passiv": true},
+  {"id": "os-acessos", "pt": "os acessos", "de": "die Verkehrsanbindung", "emoji": "🛣️", "beispiel_pt": "A casa tem bons acessos à autoestrada.", "beispiel_de": "Das Haus hat eine gute Anbindung an die Autobahn.", "passiv": true},
+
+  {"id": "marcar-uma-visita", "pt": "marcar uma visita", "de": "einen Besichtigungstermin vereinbaren", "emoji": "📅", "beispiel_pt": "Liguei à imobiliária para marcar uma visita.", "beispiel_de": "Ich habe beim Makler angerufen, um einen Besichtigungstermin zu vereinbaren."},
+  {"id": "em-bom-estado", "pt": "em bom estado", "de": "in gutem Zustand", "emoji": "👌", "beispiel_pt": "A casa é antiga, mas está em bom estado.", "beispiel_de": "Das Haus ist alt, aber in gutem Zustand.", "hinweis": "Gegenteil: em mau estado"},
+  {"id": "remodelado", "pt": "remodelado", "de": "renoviert / modernisiert", "emoji": "✨", "beispiel_pt": "A cozinha foi remodelada há dois anos.", "beispiel_de": "Die Küche wurde vor zwei Jahren renoviert.", "alternativen": ["remodelada"]},
+  {"id": "arejado", "pt": "arejado", "de": "gut belüftet / luftig", "emoji": "🌬️", "beispiel_pt": "O quarto é arejado e tem muita luz.", "beispiel_de": "Das Schlafzimmer ist gut belüftet und hat viel Licht.", "alternativen": ["arejada"]},
+  {"id": "o-vidro-duplo", "pt": "o vidro duplo", "de": "die Doppelverglasung", "emoji": "🪟", "beispiel_pt": "As janelas da sala têm vidro duplo.", "beispiel_de": "Die Wohnzimmerfenster haben Doppelverglasung."},
+  {"id": "o-estado-de-conservacao", "pt": "o estado de conservação", "de": "der Erhaltungszustand", "emoji": "🔧", "beispiel_pt": "O estado de conservação do prédio é razoável.", "beispiel_de": "Der Erhaltungszustand des Gebäudes ist ganz in Ordnung.", "passiv": true},
+  {"id": "a-infiltracao", "pt": "a infiltração", "de": "der Wassereintritt (durch Wand oder Decke)", "emoji": "💧", "beispiel_pt": "Há uma infiltração no teto da casa de banho.", "beispiel_de": "In der Decke des Badezimmers dringt Wasser ein.", "passiv": true},
+  {"id": "o-isolamento", "pt": "o isolamento", "de": "die Isolierung / Dämmung", "emoji": "🧱", "beispiel_pt": "O isolamento térmico das casas antigas é fraco.", "beispiel_de": "Die Wärmedämmung alter Häuser ist schwach.", "passiv": true},
+  {"id": "a-caixilharia", "pt": "a caixilharia", "de": "die Fensterrahmen", "emoji": "🖼️", "beispiel_pt": "A caixilharia é de alumínio.", "beispiel_de": "Die Fensterrahmen sind aus Aluminium.", "passiv": true},
+
+  {"id": "o-contrato-de-arrendamento", "pt": "o contrato de arrendamento", "de": "der Mietvertrag", "emoji": "📝", "beispiel_pt": "O contrato de arrendamento tem de ser comunicado às Finanças.", "beispiel_de": "Der Mietvertrag muss dem Finanzamt gemeldet werden.", "hinweis": "Der Vermieter meldet den Vertrag dem Finanzamt und stellt elektronische Mietquittungen (recibos de renda) aus."},
+  {"id": "o-arrendamento", "pt": "o arrendamento", "de": "die Vermietung / das Mietverhältnis", "emoji": "🏠", "beispiel_pt": "O arrendamento em Lagos ficou muito caro.", "beispiel_de": "Mieten ist in Lagos sehr teuer geworden."},
+  {"id": "a-duracao", "pt": "a duração", "de": "die Dauer / Laufzeit", "emoji": "⏳", "beispiel_pt": "Qual é a duração do contrato?", "beispiel_de": "Wie lange läuft der Vertrag?"},
+  {"id": "o-animal-de-estimacao", "pt": "o animal de estimação", "de": "das Haustier", "emoji": "🐕", "beispiel_pt": "O senhorio aceita animais de estimação?", "beispiel_de": "Erlaubt der Vermieter Haustiere?", "hinweis": "Plural: os animais de estimação"},
+  {"id": "proibido", "pt": "proibido", "de": "verboten", "emoji": "🚭", "beispiel_pt": "É proibido fumar no apartamento.", "beispiel_de": "In der Wohnung ist Rauchen verboten.", "hinweis": "Gegenteil: permitido (erlaubt)", "alternativen": ["proibida"]},
+  {"id": "o-arrendatario", "pt": "o arrendatário", "de": "der Mieter (Vertragssprache)", "emoji": "🧑‍💼", "beispiel_pt": "O arrendatário paga a renda até ao dia oito de cada mês.", "beispiel_de": "Der Mieter zahlt die Miete bis zum Achten jedes Monats.", "hinweis": "Vertragssprache für o inquilino; der Vermieter heißt im Vertrag o senhorio.", "alternativen": ["a arrendatária"], "passiv": true},
+  {"id": "a-clausula", "pt": "a cláusula", "de": "die (Vertrags-)Klausel", "emoji": "📑", "beispiel_pt": "Leia bem a cláusula sobre as obras.", "beispiel_de": "Lesen Sie die Klausel über Renovierungen genau.", "passiv": true},
+  {"id": "a-denuncia", "pt": "a denúncia", "de": "die Kündigung (eines Vertrags)", "emoji": "✉️", "beispiel_pt": "A denúncia do contrato deve ser feita por carta registada.", "beispiel_de": "Die Kündigung des Vertrags muss per Einschreiben erfolgen.", "hinweis": "denunciar o contrato = den Vertrag kündigen. Achtung: Sonst heißt a denúncia auch „die Anzeige“ (bei der Polizei).", "passiv": true},
+  {"id": "subarrendar", "pt": "subarrendar", "de": "untervermieten", "emoji": "🛏️", "beispiel_pt": "É proibido subarrendar sem autorização do senhorio.", "beispiel_de": "Untervermieten ohne Erlaubnis des Vermieters ist verboten.", "passiv": true},
+
+  {"id": "a-caucao", "pt": "a caução", "de": "die Kaution", "emoji": "💰", "beispiel_pt": "Pagámos dois meses de caução.", "beispiel_de": "Wir haben zwei Monatsmieten Kaution bezahlt.", "hinweis": "Beim Auszug bekommt man sie zurück – abzüglich eventueller Schäden."},
+  {"id": "o-fiador", "pt": "o fiador", "de": "der Bürge", "emoji": "🤝", "beispiel_pt": "O senhorio pede um fiador.", "beispiel_de": "Der Vermieter verlangt einen Bürgen.", "hinweis": "ser fiador de alguém = für jemanden bürgen", "alternativen": ["a fiadora"]},
+  {"id": "adiantado", "pt": "adiantado", "de": "im Voraus (bezahlt)", "emoji": "⏩", "beispiel_pt": "O senhorio pede duas rendas adiantadas.", "beispiel_de": "Der Vermieter verlangt zwei Mieten im Voraus.", "hinweis": "pagar adiantado = im Voraus zahlen; auch: antecipado", "alternativen": ["adiantada"]},
+  {"id": "os-danos", "pt": "os danos", "de": "die Schäden", "emoji": "🔨", "beispiel_pt": "A caução serve para cobrir eventuais danos.", "beispiel_de": "Die Kaution dient dazu, eventuelle Schäden abzudecken.", "hinweis": "Singular: o dano"},
+  {"id": "a-parte", "pt": "à parte", "de": "extra / separat", "emoji": "➕", "beispiel_pt": "A água e a luz pagam-se à parte.", "beispiel_de": "Wasser und Strom werden extra bezahlt."},
+  {"id": "os-encargos", "pt": "os encargos", "de": "die (Neben-)Kosten / Belastungen", "emoji": "📊", "beispiel_pt": "Os encargos do condomínio estão incluídos na renda.", "beispiel_de": "Das Hausgeld ist in der Miete enthalten.", "passiv": true},
+  {"id": "os-consumos", "pt": "os consumos", "de": "der Verbrauch (Strom, Wasser, Gas)", "emoji": "🔌", "beispiel_pt": "Os consumos de água e luz não estão incluídos.", "beispiel_de": "Der Wasser- und Stromverbrauch ist nicht inbegriffen.", "passiv": true},
+  {"id": "o-desgaste", "pt": "o desgaste", "de": "die Abnutzung", "emoji": "🧽", "beispiel_pt": "O desgaste normal não pode ser descontado da caução.", "beispiel_de": "Normale Abnutzung darf nicht von der Kaution abgezogen werden.", "passiv": true},
+  {"id": "a-garantia-bancaria", "pt": "a garantia bancária", "de": "die Bankbürgschaft / Bankgarantie", "emoji": "🏦", "beispiel_pt": "Em vez de caução, apresentei uma garantia bancária.", "beispiel_de": "Statt einer Kaution habe ich eine Bankgarantie vorgelegt.", "passiv": true},
+
+  {"id": "o-cpcv", "pt": "o CPCV", "de": "der (notarielle) Kaufvorvertrag", "emoji": "✍️", "beispiel_pt": "Assinámos o CPCV na semana passada.", "beispiel_de": "Wir haben letzte Woche den Kaufvorvertrag unterschrieben.", "hinweis": "Contrato-Promessa de Compra e Venda: verbindlicher Vorvertrag beim Immobilienkauf; dabei wird die Anzahlung (o sinal) fällig."},
+  {"id": "a-escritura", "pt": "a escritura", "de": "der notarielle Kaufvertrag / die Beurkundung", "emoji": "📜", "beispiel_pt": "A escritura é no dia quinze, no notário.", "beispiel_de": "Die Beurkundung ist am Fünfzehnten beim Notar.", "hinweis": "fazer a escritura = den Kauf beurkunden (beim Notar oder im staatlichen Service Casa Pronta). Erst dann gehört dir das Haus."},
+  {"id": "o-sinal", "pt": "o sinal", "de": "die Anzahlung", "emoji": "💵", "beispiel_pt": "Pagámos um sinal de dez por cento.", "beispiel_de": "Wir haben eine Anzahlung von zehn Prozent geleistet.", "hinweis": "Steigt der Käufer aus, verliert er die Anzahlung; steigt der Verkäufer aus, muss er sie doppelt zurückzahlen (em dobro). Sonst heißt o sinal auch „das Zeichen“."},
+  {"id": "o-notario", "pt": "o notário", "de": "der Notar", "emoji": "🖋️", "beispiel_pt": "O notário leu a escritura em voz alta.", "beispiel_de": "Der Notar hat den Kaufvertrag laut vorgelesen.", "alternativen": ["a notária"]},
+  {"id": "o-proprietario", "pt": "o proprietário", "de": "der Eigentümer", "emoji": "🗝️", "beispiel_pt": "Quem é o proprietário da casa?", "beispiel_de": "Wem gehört das Haus?", "alternativen": ["a proprietária"]},
+  {"id": "o-imi", "pt": "o IMI", "de": "die Grundsteuer (IMI)", "emoji": "🏘️", "beispiel_pt": "O IMI é pago todos os anos pelo proprietário.", "beispiel_de": "Die Grundsteuer wird jedes Jahr vom Eigentümer bezahlt.", "hinweis": "Imposto Municipal sobre Imóveis – jährliche Steuer, den Satz legt die Gemeinde fest. Einmalig beim Kauf: o IMT."},
+  {"id": "a-caderneta-predial", "pt": "a caderneta predial", "de": "der Katasterauszug (vom Finanzamt)", "emoji": "📘", "beispiel_pt": "A caderneta predial pede-se nas Finanças ou online.", "beispiel_de": "Den Katasterauszug bekommt man beim Finanzamt oder online.", "passiv": true},
+  {"id": "a-certidao-permanente", "pt": "a certidão permanente", "de": "der Grundbuchauszug (online)", "emoji": "🔍", "beispiel_pt": "A certidão permanente mostra se a casa tem hipotecas.", "beispiel_de": "Der Grundbuchauszug zeigt, ob das Haus mit Hypotheken belastet ist.", "passiv": true},
+  {"id": "a-conservatoria", "pt": "a conservatória", "de": "das Registeramt / Grundbuchamt", "emoji": "🏛️", "beispiel_pt": "Depois da escritura, a casa é registada na conservatória.", "beispiel_de": "Nach der Beurkundung wird das Haus beim Grundbuchamt eingetragen.", "hinweis": "a conservatória do registo predial = das Grundbuchamt; o registo predial = das Grundbuch", "passiv": true},
+
+  {"id": "o-credito-habitacao", "pt": "o crédito habitação", "de": "der Wohnkredit", "emoji": "🏦", "beispiel_pt": "Pedimos um crédito habitação ao banco.", "beispiel_de": "Wir haben bei der Bank einen Wohnkredit beantragt.", "hinweis": "Auch: o crédito à habitação", "alternativen": ["o crédito à habitação"]},
+  {"id": "a-avaliacao", "pt": "a avaliação", "de": "die Bewertung / das Wertgutachten", "emoji": "📏", "beispiel_pt": "O banco marcou a avaliação da casa.", "beispiel_de": "Die Bank hat die Bewertung des Hauses angesetzt."},
+  {"id": "a-taxa-de-juro", "pt": "a taxa de juro", "de": "der Zinssatz", "emoji": "📈", "beispiel_pt": "A taxa de juro é variável.", "beispiel_de": "Der Zinssatz ist variabel.", "hinweis": "taxa fixa = fester Zinssatz; taxa variável = variabler; taxa mista = zuerst fest, dann variabel"},
+  {"id": "a-hipoteca", "pt": "a hipoteca", "de": "die Hypothek", "emoji": "⚓", "beispiel_pt": "A casa fica hipotecada ao banco até pagarmos o crédito.", "beispiel_de": "Das Haus ist mit einer Hypothek der Bank belastet, bis wir den Kredit abbezahlt haben.", "hinweis": "hipotecado = mit einer Hypothek belastet"},
+  {"id": "o-financiamento", "pt": "o financiamento", "de": "die Finanzierung", "emoji": "💳", "beispiel_pt": "O banco aprovou o financiamento.", "beispiel_de": "Die Bank hat die Finanzierung genehmigt.", "hinweis": "financiar = finanzieren"},
+  {"id": "o-seguro-de-vida", "pt": "o seguro de vida", "de": "die Lebensversicherung (Risikoversicherung)", "emoji": "🛡️", "beispiel_pt": "O banco exige um seguro de vida.", "beispiel_de": "Die Bank verlangt eine Lebensversicherung.", "hinweis": "Beim Wohnkredit fast immer Pflicht – zusammen mit dem seguro multirriscos (Gebäudeversicherung)."},
+  {"id": "o-spread", "pt": "o spread", "de": "der Spread (Bankaufschlag auf den Zinssatz)", "emoji": "➗", "beispiel_pt": "O spread é de um por cento.", "beispiel_de": "Der Aufschlag beträgt ein Prozent.", "hinweis": "variabler Zinssatz = Euribor + spread", "passiv": true},
+  {"id": "a-euribor", "pt": "a Euribor", "de": "der Euribor (Referenzzinssatz)", "emoji": "🇪🇺", "beispiel_pt": "Quando a Euribor sobe, a prestação também sobe.", "beispiel_de": "Wenn der Euribor steigt, steigt auch die Rate.", "passiv": true},
+  {"id": "o-avaliador", "pt": "o avaliador", "de": "der Gutachter / Schätzer", "emoji": "🧑‍🔧", "beispiel_pt": "O avaliador visitou a casa ontem.", "beispiel_de": "Der Gutachter hat das Haus gestern besichtigt.", "alternativen": ["a avaliadora"], "passiv": true},
+
+  {"id": "a-licenca", "pt": "a licença", "de": "die Genehmigung / Bewilligung", "emoji": "📄", "beispiel_pt": "Para fechar a varanda é preciso uma licença da câmara.", "beispiel_de": "Um den Balkon zu verglasen, braucht man eine Genehmigung der Gemeinde.", "hinweis": "a licença de obras = die Baugenehmigung; aber: com licença = Entschuldigung / darf ich?"},
+  {"id": "remodelar", "pt": "remodelar", "de": "renovieren / umbauen", "emoji": "🛠️", "beispiel_pt": "Queremos remodelar a cozinha.", "beispiel_de": "Wir wollen die Küche renovieren.", "hinweis": "a remodelação = die Renovierung"},
+  {"id": "o-empreiteiro", "pt": "o empreiteiro", "de": "der Bauunternehmer", "emoji": "👷", "beispiel_pt": "O empreiteiro deu-nos um orçamento por escrito.", "beispiel_de": "Der Bauunternehmer hat uns einen schriftlichen Kostenvoranschlag gegeben."},
+  {"id": "o-arquiteto", "pt": "o arquiteto", "de": "der Architekt", "emoji": "📐", "beispiel_pt": "O arquiteto fez o projeto da marquise.", "beispiel_de": "Der Architekt hat den Plan für den Wintergarten gemacht.", "hinweis": "Nach AO90: arquiteto (früher arquitecto).", "alternativen": ["a arquiteta"]},
+  {"id": "ilegal", "pt": "ilegal", "de": "illegal / ungenehmigt", "emoji": "🚫", "beispiel_pt": "A marquise do vizinho é ilegal.", "beispiel_de": "Der verglaste Balkon des Nachbarn ist nicht genehmigt.", "hinweis": "a marquise = typisch portugiesisch: ein mit Glas geschlossener Balkon"},
+  {"id": "a-licenca-de-utilizacao", "pt": "a licença de utilização", "de": "die Benutzungsbewilligung", "emoji": "🏠", "beispiel_pt": "Para vender a casa, é preciso ter a licença de utilização.", "beispiel_de": "Um das Haus zu verkaufen, braucht man die Benutzungsbewilligung.", "hinweis": "Bestätigt, dass ein Gebäude (zum Wohnen) genutzt werden darf.", "passiv": true},
+  {"id": "o-alvara", "pt": "o alvará", "de": "die Gewerbeberechtigung (für Bauunternehmen)", "emoji": "🪪", "beispiel_pt": "Contrate só empreiteiros com alvará.", "beispiel_de": "Beauftragen Sie nur Bauunternehmer mit Gewerbeberechtigung.", "passiv": true},
+  {"id": "o-embargo", "pt": "o embargo", "de": "der Baustopp", "emoji": "⛔", "beispiel_pt": "A câmara decretou o embargo da obra.", "beispiel_de": "Die Gemeinde hat einen Baustopp verhängt.", "passiv": true},
+  {"id": "a-fachada", "pt": "a fachada", "de": "die Fassade", "emoji": "🏢", "beispiel_pt": "O condomínio não permite que se mude a cor da fachada.", "beispiel_de": "Die Eigentümergemeinschaft erlaubt nicht, dass man die Farbe der Fassade ändert.", "passiv": true},
+
+  {"id": "o-condominio", "pt": "o condomínio", "de": "die Eigentümergemeinschaft / das Hausgeld", "emoji": "🏬", "beispiel_pt": "Pagamos sessenta euros de condomínio por mês.", "beispiel_de": "Wir zahlen sechzig Euro Hausgeld im Monat.", "hinweis": "Bedeutet die Gemeinschaft der Eigentümer, aber auch das monatliche Hausgeld (pagar o condomínio)."},
+  {"id": "a-assembleia-de-condominos", "pt": "a assembleia de condóminos", "de": "die Eigentümerversammlung", "emoji": "🗳️", "beispiel_pt": "A assembleia de condóminos é uma vez por ano.", "beispiel_de": "Die Eigentümerversammlung findet einmal im Jahr statt.", "hinweis": "Die ordentliche Versammlung ist meist in der ersten Jännerhälfte."},
+  {"id": "o-condomino", "pt": "o condómino", "de": "der Wohnungseigentümer (in der Gemeinschaft)", "emoji": "🧑‍🤝‍🧑", "beispiel_pt": "Todos os condóminos receberam a convocatória.", "beispiel_de": "Alle Wohnungseigentümer haben die Einladung bekommen.", "hinweis": "pt-PT: condómino (mit ó); in Brasilien „condômino“.", "alternativen": ["a condómina"]},
+  {"id": "votar", "pt": "votar", "de": "abstimmen / wählen", "emoji": "✋", "beispiel_pt": "Votámos a proposta na assembleia.", "beispiel_de": "Wir haben in der Versammlung über den Vorschlag abgestimmt.", "hinweis": "votar a favor / contra = dafür / dagegen stimmen"},
+  {"id": "o-telhado", "pt": "o telhado", "de": "das Dach", "emoji": "🏚️", "beispiel_pt": "O telhado precisa de obras.", "beispiel_de": "Das Dach muss repariert werden."},
+  {"id": "a-convocatoria", "pt": "a convocatória", "de": "die Einladung (zur Versammlung)", "emoji": "📨", "beispiel_pt": "A convocatória chegou por carta registada.", "beispiel_de": "Die Einladung kam per Einschreiben.", "passiv": true},
+  {"id": "o-fundo-comum-de-reserva", "pt": "o fundo comum de reserva", "de": "die Instandhaltungsrücklage", "emoji": "🐷", "beispiel_pt": "Parte da quota vai para o fundo comum de reserva.", "beispiel_de": "Ein Teil des Hausgelds fließt in die Instandhaltungsrücklage.", "hinweis": "Gesetzlich mindestens 10 % des Hausgelds – für Reparaturen am Gebäude.", "passiv": true},
+  {"id": "a-fracao", "pt": "a fração", "de": "die Wohnungseinheit (im Grundbuch)", "emoji": "🔠", "beispiel_pt": "A nossa fração é a letra C.", "beispiel_de": "Unsere Wohnungseinheit hat den Buchstaben C.", "hinweis": "Amtssprache: a fração autónoma – jede Wohnung im Gebäude hat einen Buchstaben.", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-04-L01",
+   "typ": "neu",
+   "titel": "Wohnungssuche: Anzeigen lesen",
+   "vokabeln": ["a-imobiliaria", "o-anuncio", "arrendar", "a-renda", "mobilado", "a-assoalhada", "a-cozinha-equipada", "pronto-a-habitar", "o-certificado-energetico"],
+   "grammatik": {
+    "titel": "Os pronomes relativos que, onde e quem",
+    "erklaerung": [
+     "Os pronomes relativos ligam duas frases: <i>Vi um anúncio. O anúncio é de um T2.</i> → <i>Vi um anúncio <b>que</b> é de um T2.</i>",
+     "<b>que</b> é o pronome mais usado: serve para pessoas e coisas: <i>a casa <b>que</b> vimos</i>, <i>o senhor <b>que</b> nos mostrou a casa</i>.",
+     "<b>onde</b> refere-se a um lugar: <i>a zona <b>onde</b> moramos</i>. <b>quem</b> refere-se a pessoas e usa-se depois de uma preposição: <i>a senhora <b>com quem</b> falei</i>.",
+     "Quando a casa ou a pessoa existe e é conhecida, o verbo da frase relativa fica no <b>indicativo</b>: <i>O apartamento que vimos <b>tem</b> varanda.</i>"
+    ],
+    "erklaerung_de": [
+     "Relativpronomen verbinden zwei Sätze: <i>Vi um anúncio. O anúncio é de um T2.</i> → <i>Vi um anúncio <b>que</b> é de um T2.</i> – Ich habe eine Anzeige gesehen, die für eine Zweizimmerwohnung ist.",
+     "<b>que</b> ist das häufigste Relativpronomen: Es gilt für Personen und Dinge: <i>a casa <b>que</b> vimos</i> (das Haus, das wir gesehen haben), <i>o senhor <b>que</b> nos mostrou a casa</i> (der Herr, der uns das Haus gezeigt hat).",
+     "<b>onde</b> bezieht sich auf einen Ort: <i>a zona <b>onde</b> moramos</i> (die Gegend, in der wir wohnen). <b>quem</b> bezieht sich auf Personen und steht nach einer Präposition: <i>a senhora <b>com quem</b> falei</i> (die Frau, mit der ich gesprochen habe).",
+     "Wenn das Haus oder die Person existiert und bekannt ist, steht das Verb im Relativsatz im <b>Indikativ</b>: <i>O apartamento que vimos <b>tem</b> varanda.</i> – Die Wohnung, die wir gesehen haben, hat einen Balkon."
+    ],
+    "vergleich": "Im Deutschen ändert sich das Relativpronomen (der, die, das, den, dem …) und das Verb rutscht ans Ende. Im Portugiesischen genügt fast immer <i>que</i>, und die Wortstellung bleibt normal: „die Wohnung, die wir gesehen haben“ = <i>o apartamento que vimos</i>. Ein Komma setzt man nur bei Zusatzinformationen.",
+    "beispiele": [
+     {"pt": "Vi um anúncio que me interessa.", "de": "Ich habe eine Anzeige gesehen, die mich interessiert."},
+     {"pt": "A imobiliária onde fomos fica no centro.", "de": "Das Immobilienbüro, zu dem wir gegangen sind, liegt im Zentrum."},
+     {"pt": "O senhor com quem falei é o senhorio.", "de": "Der Herr, mit dem ich gesprochen habe, ist der Vermieter."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Vi um anúncio ___ é de um T2 mobilado.", "loesungen": ["que"], "de": "Ich habe eine Anzeige für eine möblierte Zweizimmerwohnung gesehen.", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "Esta é a zona ___ queremos morar.", "loesungen": ["onde", "em que"], "de": "Das ist die Gegend, in der wir wohnen wollen.", "kategorie": "Relativpronomen"},
+     {"typ": "luecke", "satz": "O agente com ___ falei foi muito simpático.", "loesungen": ["quem"], "de": "Der Makler, mit dem ich gesprochen habe, war sehr nett.", "erklaerung": "Person nach Präposition → quem.", "kategorie": "Relativpronomen"},
+     {"typ": "auswahl", "frage": "„die Wohnung, die wir gesehen haben“", "optionen": ["o apartamento que vimos", "o apartamento quem vimos", "o apartamento onde vimos"], "richtig": 0, "kategorie": "Relativpronomen"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["A imobiliária que fomos fica no centro.", "A imobiliária onde fomos fica no centro.", "A imobiliária quem fomos fica no centro."], "richtig": 1, "erklaerung": "Ein Ort → onde (oder: a imobiliária a que fomos).", "kategorie": "Relativpronomen"},
+     {"typ": "uebersetzen", "de": "Ich habe eine Anzeige gesehen, die mich interessiert.", "loesungen": ["Vi um anúncio que me interessa.", "Eu vi um anúncio que me interessa.", "Vi um anúncio que me interessou."]},
+     {"typ": "uebersetzen", "de": "Die Miete beträgt achthundert Euro im Monat.", "loesungen": ["A renda é de oitocentos euros por mês.", "A renda é oitocentos euros por mês.", "A renda é de 800 euros por mês.", "A renda é de oitocentos euros mensais."]},
+     {"typ": "satzbau", "de": "Das Immobilienbüro, zu dem wir gegangen sind, liegt im Zentrum.", "loesung": "A imobiliária onde fomos fica no centro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Anúncios na internet – Anzeigen im Internet",
+    "situation": "Heike, eine Bekannte aus Deutschland, sucht eine Mietwohnung in Lagos. Stefan hilft ihr, die Anzeigen zu verstehen.",
+    "zeilen": [
+     {"sprecher": "Heike", "stimme": "f", "pt": "Stefan, olha este anúncio: „Arrenda-se T2 mobilado, cozinha equipada, pronto a habitar.“ T2 quer dizer o quê?", "de": "Stefan, schau dir diese Anzeige an: „Möblierte Zweizimmerwohnung mit Einbauküche, bezugsfertig, zu vermieten.“ Was heißt T2?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quer dizer que tem dois quartos. A sala não conta.", "de": "Das heißt, sie hat zwei Schlafzimmer. Das Wohnzimmer zählt nicht."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "E a renda? Não vejo o preço.", "de": "Und die Miete? Ich sehe den Preis nicht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está aqui em baixo: novecentos e cinquenta euros por mês. É caro, mas a zona é boa.", "de": "Steht hier unten: neunhundertfünfzig Euro im Monat. Das ist teuer, aber die Gegend ist gut."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "E este, que diz „certificado energético F“? É bom?", "de": "Und diese hier, auf der „Energieausweis F“ steht? Ist das gut?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, é a pior classe. Uma casa que tem classe F gasta muita energia no inverno.", "de": "Nein, das ist die schlechteste Klasse. Ein Haus mit Klasse F verbraucht im Winter viel Energie."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "Então prefiro o primeiro. Ligo à imobiliária?", "de": "Dann nehme ich lieber die erste. Soll ich beim Makler anrufen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, liga à imobiliária que pôs o anúncio e pergunta se o apartamento ainda está disponível.", "de": "Ja, ruf beim Makler an, der die Anzeige aufgegeben hat, und frag, ob die Wohnung noch frei ist."}
+    ],
+    "fragen": [
+     {"frage": "O que quer dizer T2?", "optionen": ["Que o apartamento tem dois quartos.", "Que tem duas casas de banho.", "Que fica no segundo andar."], "richtig": 0},
+     {"frage": "Quanto custa a renda do primeiro apartamento?", "optionen": ["Novecentos euros.", "Novecentos e cinquenta euros.", "Mil e cinquenta euros."], "richtig": 1},
+     {"frage": "Porque é que a classe F não é boa?", "optionen": ["Porque a casa é pequena.", "Porque a zona é barulhenta.", "Porque a casa gasta muita energia."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Vi um anúncio que me interessa.", "de": "Ich habe eine Anzeige gesehen, die mich interessiert."},
+     {"pt": "O apartamento ainda está disponível?", "de": "Ist die Wohnung noch frei?"},
+     {"pt": "A renda é de novecentos euros por mês.", "de": "Die Miete beträgt neunhundert Euro im Monat."},
+     {"pt": "O apartamento é mobilado?", "de": "Ist die Wohnung möbliert?"},
+     {"pt": "O senhor com quem falei é o senhorio.", "de": "Der Herr, mit dem ich gesprochen habe, ist der Vermieter."}
+    ]
+   },
+   "saetze": [
+    {"id": "anuncio-que-me-interessa", "pt": "Vi um anúncio que me interessa.", "de": "Ich habe eine Anzeige gesehen, die mich interessiert."},
+    {"id": "ainda-esta-disponivel", "pt": "O apartamento ainda está disponível?", "de": "Ist die Wohnung noch frei?"},
+    {"id": "a-renda-e-de", "pt": "A renda é de novecentos euros por mês.", "de": "Die Miete beträgt neunhundert Euro im Monat."}
+   ]
+  },
+  {
+   "id": "B1-04-L02",
+   "typ": "neu",
+   "titel": "Wo wir wohnen – Relativsatz mit Indikativ",
+   "vokabeln": ["a-localizacao", "a-zona", "sossegado", "luminoso", "espacoso", "o-lugar-de-estacionamento", "virado-a-sul", "o-sotao", "a-arrecadacao"],
+   "grammatik": {
+    "titel": "Frases relativas no indicativo e com preposição (em que, de que, o qual)",
+    "erklaerung": [
+     "Quando falamos de uma casa (ou de uma pessoa) que <b>existe e conhecemos</b>, o verbo da frase relativa está no <b>indicativo</b>: <i>Tenho uma casa que <b>tem</b> garagem.</i> <i>Moramos numa rua que <b>é</b> muito sossegada.</i>",
+     "Se o verbo pede uma preposição, ela vem <b>antes</b> do pronome: <i>falar <b>de</b></i> → <i>a casa <b>de que</b> te falei</i>; <i>morar <b>em</b></i> → <i>a casa <b>em que</b> moro</i> (= onde moro); <i>falar <b>com</b> alguém</i> → <i>o senhorio <b>com quem</b> falei</i>.",
+     "Na língua escrita usa-se também <b>o qual / a qual / os quais / as quais</b>, sobretudo depois de preposição: <i>a varanda <b>da qual</b> se vê o mar</i>, <i>o prédio <b>no qual</b> moramos</i>.",
+     "A preposição nunca fica no fim da frase nem desaparece: <i>a casa em que moro</i> – e não <i>a casa que moro</i>."
+    ],
+    "erklaerung_de": [
+     "Wenn wir von einem Haus (oder einer Person) sprechen, das <b>existiert und das wir kennen</b>, steht das Verb im Relativsatz im <b>Indikativ</b>: <i>Tenho uma casa que <b>tem</b> garagem.</i> (Ich habe ein Haus, das eine Garage hat.) <i>Moramos numa rua que <b>é</b> muito sossegada.</i>",
+     "Verlangt das Verb eine Präposition, steht sie <b>vor</b> dem Pronomen: <i>falar <b>de</b></i> → <i>a casa <b>de que</b> te falei</i> (das Haus, von dem ich dir erzählt habe); <i>morar <b>em</b></i> → <i>a casa <b>em que</b> moro</i> (= onde moro); <i>falar <b>com</b> alguém</i> → <i>o senhorio <b>com quem</b> falei</i>.",
+     "In der Schriftsprache verwendet man auch <b>o qual / a qual / os quais / as quais</b> (der/die/das), vor allem nach Präpositionen: <i>a varanda <b>da qual</b> se vê o mar</i> (der Balkon, von dem aus man das Meer sieht), <i>o prédio <b>no qual</b> moramos</i>.",
+     "Die Präposition steht nie am Satzende und fällt auch nicht weg: <i>a casa em que moro</i> – nicht <i>a casa que moro</i>."
+    ],
+    "vergleich": "Wie im Deutschen steht die Präposition vor dem Relativpronomen: „die Wohnung, <b>in der</b> ich wohne“ = <i>a casa <b>em que</b> moro</i>. Anders als im Englischen („the house I live in“) darf das Pronomen nie wegfallen.",
+    "beispiele": [
+     {"pt": "Moramos num apartamento que tem dois quartos e uma varanda.", "de": "Wir wohnen in einer Wohnung, die zwei Schlafzimmer und einen Balkon hat."},
+     {"pt": "Esta é a casa de que te falei.", "de": "Das ist das Haus, von dem ich dir erzählt habe."},
+     {"pt": "O senhorio com quem falámos é muito simpático.", "de": "Der Vermieter, mit dem wir gesprochen haben, ist sehr nett."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Esta é a casa ___ que te falei.", "loesungen": ["de"], "de": "Das ist das Haus, von dem ich dir erzählt habe.", "erklaerung": "falar de algo → a casa de que te falei.", "kategorie": "Relativsatz mit Präposition"},
+     {"typ": "luecke", "satz": "O prédio em ___ moramos tem elevador.", "loesungen": ["que"], "de": "Das Gebäude, in dem wir wohnen, hat einen Aufzug.", "kategorie": "Relativsatz mit Präposition"},
+     {"typ": "luecke", "satz": "O vizinho com ___ partilhamos a garagem é o João.", "loesungen": ["quem"], "de": "Der Nachbar, mit dem wir uns die Garage teilen, ist João.", "kategorie": "Relativsatz mit Präposition"},
+     {"typ": "luecke", "satz": "A varanda, da ___ se vê o mar, é virada a sul.", "loesungen": ["qual"], "de": "Der Balkon, von dem aus man das Meer sieht, ist nach Süden ausgerichtet.", "erklaerung": "a varanda (weiblich) → da qual.", "kategorie": "Relativsatz mit Präposition"},
+     {"typ": "auswahl", "frage": "„die Gegend, in der wir wohnen“", "optionen": ["a zona que moramos", "a zona em que moramos", "a zona em quem moramos"], "richtig": 1, "erklaerung": "morar em → em que (quem nur für Personen).", "kategorie": "Relativsatz mit Präposition"},
+     {"typ": "auswahl", "frage": "Tenho uma casa que ___ garagem.", "optionen": ["tem", "tenha", "ter"], "richtig": 0, "erklaerung": "Das Haus existiert und ist bekannt → Indikativ.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Wir wohnen in einer sehr ruhigen Straße.", "loesungen": ["Moramos numa rua muito sossegada.", "Vivemos numa rua muito sossegada.", "Moramos numa rua que é muito sossegada.", "Vivemos numa rua que é muito sossegada.", "Nós moramos numa rua muito sossegada.", "Nós vivemos numa rua muito sossegada."]},
+     {"typ": "satzbau", "de": "Das Wohnzimmer, das wir jetzt haben, ist sehr hell.", "loesung": "A sala que temos agora é muito luminosa."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A nossa casa nova – unser neues Haus",
+    "situation": "Pedro besucht Stefan und Ana zum ersten Mal in ihrem neuen Haus in einer kleinen Wohnanlage bei Lagos.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Que casa tão bonita! E a localização é ótima.", "de": "Was für ein schönes Haus! Und die Lage ist super."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Obrigada! É a casa de que te falámos no verão. Fica a dez minutos da praia.", "de": "Danke! Das ist das Haus, von dem wir dir im Sommer erzählt haben. Es liegt zehn Minuten vom Strand."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E a sala é tão luminosa! Está virada a sul?", "de": "Und das Wohnzimmer ist so hell! Ist es nach Süden ausgerichtet?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Está. E a varanda, da qual se vê o mar, também.", "de": "Ja. Und der Balkon, von dem aus man das Meer sieht, auch."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E onde guardam as bicicletas?", "de": "Und wo bewahrt ihr die Fahrräder auf?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Na arrecadação que fica ao lado da garagem. As malas vão para o sótão.", "de": "Im Abstellraum neben der Garage. Die Koffer kommen auf den Dachboden."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "A zona parece muito sossegada.", "de": "Die Gegend wirkt sehr ruhig."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E é. Os vizinhos com quem partilhamos a piscina são quase todos reformados.", "de": "Ist sie auch. Die Nachbarn, mit denen wir uns den Pool teilen, sind fast alle Rentner."}
+    ],
+    "fragen": [
+     {"frage": "Como é a sala?", "optionen": ["Pequena.", "Escura.", "Luminosa."], "richtig": 2},
+     {"frage": "Onde guardam as bicicletas?", "optionen": ["Na arrecadação.", "No sótão.", "Na varanda."], "richtig": 0},
+     {"frage": "Quem são os vizinhos?", "optionen": ["Famílias com crianças.", "Quase todos reformados.", "Estudantes."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Rita fragt dich nach deinem neuen Zuhause.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então, já estás instalado na casa nova? Como é?", "de": "Na, hast du dich im neuen Haus schon eingerichtet? Wie ist es?"},
+     {"ich": true, "aufgabe": "Diga que a casa tem três quartos e uma sala muito luminosa.", "loesungen": ["A casa tem três quartos e uma sala muito luminosa.", "Tem três quartos e uma sala muito luminosa.", "É uma casa que tem três quartos e uma sala muito luminosa.", "Já estou. A casa tem três quartos e uma sala muito luminosa.", "Sim, a casa tem três quartos e uma sala muito luminosa."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E a zona? Não é barulhenta?", "de": "Und die Gegend? Ist sie nicht laut?"},
+     {"ich": true, "aufgabe": "Diga que a rua onde mora é muito sossegada.", "loesungen": ["A rua onde moro é muito sossegada.", "A rua em que moro é muito sossegada.", "Não, a rua onde moro é muito sossegada.", "Não, a rua em que moro é muito sossegada.", "A rua onde vivo é muito sossegada.", "Não, a rua onde vivo é muito sossegada.", "A rua em que vivo é muito sossegada.", "Não, a rua em que vivo é muito sossegada."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E tens garagem?", "de": "Und hast du eine Garage?"},
+     {"ich": true, "aufgabe": "Diga que tem um lugar de estacionamento e uma arrecadação.", "loesungen": ["Tenho um lugar de estacionamento e uma arrecadação.", "Tenho lugar de estacionamento e arrecadação.", "Sim, tenho um lugar de estacionamento e uma arrecadação.", "Não, mas tenho um lugar de estacionamento e uma arrecadação.", "Não, mas tenho lugar de estacionamento e arrecadação."]}
+    ]
+   },
+   "saetze": [
+    {"id": "casa-de-que-te-falei", "pt": "Esta é a casa de que te falei.", "de": "Das ist das Haus, von dem ich dir erzählt habe."},
+    {"id": "rua-onde-moro", "pt": "A rua onde moro é muito sossegada.", "de": "Die Straße, in der ich wohne, ist sehr ruhig."},
+    {"id": "tenho-casa-que-tem", "pt": "Tenho uma casa que tem garagem.", "de": "Ich habe ein Haus, das eine Garage hat."}
+   ]
+  },
+  {
+   "id": "B1-04-L03",
+   "typ": "neu",
+   "titel": "Das Traumhaus – Relativsatz mit Konjunktiv",
+   "vokabeln": ["procurar", "indispensavel", "de-preferencia", "o-terraco", "os-transportes-publicos", "o-requisito", "a-moradia-geminada", "o-condominio-fechado", "os-acessos"],
+   "grammatik": {
+    "titel": "O conjuntivo na frase relativa: procuro uma casa que tenha …",
+    "erklaerung": [
+     "Quando procuramos ou desejamos algo que <b>ainda não conhecemos</b> (e que talvez nem exista), o verbo da frase relativa vai para o <b>presente do conjuntivo</b>: <i>Procuro uma casa que <b>tenha</b> garagem.</i>",
+     "Compare: <i>Tenho uma casa que <b>tem</b> garagem.</i> (a casa existe → indicativo) – <i>Quero uma casa que <b>tenha</b> garagem.</i> (a casa é só um desejo → conjuntivo).",
+     "Verbos típicos antes destas frases: <b>procurar</b>, <b>querer</b>, <b>precisar de</b>, <b>preferir</b> – quase sempre com artigo indefinido (<i>um, uma</i>): <i>Precisamos de um apartamento que <b>fique</b> perto da escola.</i>",
+     "Lembre-se das formas: ter → <b>tenha</b>, ser → <b>seja</b>, estar → <b>esteja</b>, ficar → <b>fique</b>, haver → <b>haja</b>, poder → <b>possa</b>, custar → <b>custe</b>."
+    ],
+    "erklaerung_de": [
+     "Wenn wir etwas suchen oder uns wünschen, das wir <b>noch nicht kennen</b> (und das es vielleicht gar nicht gibt), steht das Verb im Relativsatz im <b>Presente do conjuntivo</b>: <i>Procuro uma casa que <b>tenha</b> garagem.</i> – Ich suche ein Haus, das eine Garage hat.",
+     "Vergleiche: <i>Tenho uma casa que <b>tem</b> garagem.</i> (das Haus existiert → Indikativ) – <i>Quero uma casa que <b>tenha</b> garagem.</i> (das Haus ist nur ein Wunsch → Konjunktiv).",
+     "Typische Verben vor solchen Sätzen: <b>procurar</b> (suchen), <b>querer</b> (wollen), <b>precisar de</b> (brauchen), <b>preferir</b> (lieber haben) – fast immer mit unbestimmtem Artikel (<i>um, uma</i>): <i>Precisamos de um apartamento que <b>fique</b> perto da escola.</i> – Wir brauchen eine Wohnung, die in der Nähe der Schule liegt.",
+     "Denk an die Formen: ter → <b>tenha</b>, ser → <b>seja</b>, estar → <b>esteja</b>, ficar → <b>fique</b>, haver → <b>haja</b>, poder → <b>possa</b>, custar → <b>custe</b>."
+    ],
+    "vergleich": "Im Deutschen gibt es diesen Unterschied nicht: „Ich suche ein Haus, das eine Garage hat“ und „Ich habe ein Haus, das eine Garage hat“ – dasselbe Verb. Im Portugiesischen zeigt der Konjunktiv, dass das Haus (noch) unbekannt ist. Merkhilfe: Suche/Wunsch + <i>um/uma</i> → meist Konjunktiv.",
+    "beispiele": [
+     {"pt": "Procuramos uma casa que tenha jardim.", "de": "Wir suchen ein Haus, das einen Garten hat."},
+     {"pt": "Precisamos de um apartamento que fique perto dos transportes públicos.", "de": "Wir brauchen eine Wohnung in der Nähe der öffentlichen Verkehrsmittel."},
+     {"pt": "Quero uma casa que não seja muito cara.", "de": "Ich will ein Haus, das nicht zu teuer ist."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Procuro um apartamento que ___ varanda. (ter)", "loesungen": ["tenha"], "de": "Ich suche eine Wohnung, die einen Balkon hat.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Precisamos de uma casa que ___ perto da escola. (ficar)", "loesungen": ["fique"], "de": "Wir brauchen ein Haus, das in der Nähe der Schule liegt.", "erklaerung": "ficar → fique (c wird zu qu).", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Queremos uma zona que ___ sossegada. (ser)", "loesungen": ["seja"], "de": "Wir wollen eine Gegend, die ruhig ist.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Queremos uma casa que ___ menos de trezentos mil euros. (custar)", "loesungen": ["custe"], "de": "Wir wollen ein Haus, das weniger als dreihunderttausend Euro kostet.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Ich suche ein Haus, das einen Garten hat.“", "optionen": ["Procuro uma casa que tem jardim.", "Procuro uma casa que tenha jardim.", "Procuro uma casa que ter jardim."], "richtig": 1, "erklaerung": "Das gesuchte Haus ist noch unbekannt → Konjunktiv.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Que frase fala de uma casa que já existe?", "optionen": ["Moro numa casa que tem piscina.", "Quero uma casa que tenha piscina.", "Procuro uma casa que tenha piscina."], "richtig": 0, "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Wir suchen eine Wohnung, die in der Nähe der öffentlichen Verkehrsmittel liegt.", "loesungen": ["Procuramos um apartamento que fique perto dos transportes públicos.", "Procuramos uma casa que fique perto dos transportes públicos.", "Procuramos um apartamento que seja perto dos transportes públicos.", "Procuramos uma casa que seja perto dos transportes públicos.", "Estamos à procura de um apartamento que fique perto dos transportes públicos.", "Estamos à procura de uma casa que fique perto dos transportes públicos."]},
+     {"typ": "satzbau", "de": "Eine Garage ist für uns unverzichtbar.", "loesung": "Uma garagem é indispensável para nós."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Procura-se casa em Lagos – ein Forumsbeitrag",
+    "situation": "Heike schreibt in einem Internetforum für Ausländer an der Algarve. Hör dir ihren Beitrag an.",
+    "zeilen": [
+     {"sprecher": "Heike", "stimme": "f", "pt": "Olá a todos! Sou alemã e mudei-me para Lagos há um mês.", "de": "Hallo zusammen! Ich bin Deutsche und vor einem Monat nach Lagos gezogen."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "Procuro um apartamento que tenha pelo menos dois quartos, porque trabalho a partir de casa.", "de": "Ich suche eine Wohnung mit mindestens zwei Schlafzimmern, weil ich von zu Hause aus arbeite."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "De preferência, quero uma casa que seja luminosa e que tenha varanda ou terraço.", "de": "Am liebsten möchte ich eine Wohnung, die hell ist und einen Balkon oder eine Terrasse hat."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "Não tenho carro, por isso preciso de uma casa que fique perto dos transportes públicos.", "de": "Ich habe kein Auto, deshalb brauche ich eine Wohnung in der Nähe der öffentlichen Verkehrsmittel."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "O meu orçamento é de oitocentos euros por mês, no máximo.", "de": "Mein Budget liegt bei höchstens achthundert Euro im Monat."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "Alguém conhece uma imobiliária que seja de confiança? Obrigada!", "de": "Kennt jemand ein Immobilienbüro, das vertrauenswürdig ist? Danke!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a Heike precisa de dois quartos?", "optionen": ["Porque tem filhos.", "Porque trabalha a partir de casa.", "Porque recebe muitas visitas."], "richtig": 1},
+     {"frage": "Porque é que precisa de uma casa perto dos transportes públicos?", "optionen": ["Porque não tem carro.", "Porque trabalha em Faro.", "Porque não gosta de conduzir."], "richtig": 0},
+     {"frage": "O que pergunta a Heike no fim?", "optionen": ["Quanto custa a renda em Lagos.", "Onde fica a praia mais próxima.", "Se alguém conhece uma imobiliária de confiança."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva as frases em português.",
+    "aufgaben": [
+     {"de": "Ich suche eine Wohnung, die einen Balkon hat.", "loesungen": ["Procuro um apartamento que tenha varanda.", "Procuro um apartamento que tenha uma varanda.", "Procuro uma casa que tenha varanda.", "Procuro uma casa que tenha uma varanda.", "Estou à procura de um apartamento que tenha varanda.", "Estou à procura de uma casa que tenha varanda."]},
+     {"de": "Ich habe eine Wohnung, die einen Balkon hat.", "loesungen": ["Tenho um apartamento que tem varanda.", "Tenho um apartamento que tem uma varanda.", "Tenho uma casa que tem varanda.", "Tenho uma casa que tem uma varanda."]},
+     {"de": "Wir brauchen ein Haus, das ruhig ist.", "loesungen": ["Precisamos de uma casa que seja sossegada.", "Precisamos de uma casa sossegada.", "Precisamos de uma casa que seja calma."]},
+     {"de": "Am liebsten mit Pool.", "loesungen": ["De preferência com piscina."]},
+     {"de": "Kennst du ein Immobilienbüro, das gut ist?", "loesungen": ["Conheces uma imobiliária que seja boa?", "Conheces alguma imobiliária que seja boa?", "Conheces uma boa imobiliária?", "Conheces alguma boa imobiliária?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "procuro-casa-que-tenha", "pt": "Procuro uma casa que tenha garagem.", "de": "Ich suche ein Haus, das eine Garage hat."},
+    {"id": "precisamos-perto-transportes", "pt": "Precisamos de uma casa que fique perto dos transportes públicos.", "de": "Wir brauchen ein Haus in der Nähe der öffentlichen Verkehrsmittel."},
+    {"id": "de-preferencia-com-jardim", "pt": "De preferência com jardim.", "de": "Am liebsten mit Garten."}
+   ]
+  },
+  {
+   "id": "B1-04-L04",
+   "typ": "neu",
+   "titel": "Die Besichtigung",
+   "vokabeln": ["marcar-uma-visita", "em-bom-estado", "remodelado", "arejado", "o-vidro-duplo", "o-estado-de-conservacao", "a-infiltracao", "o-isolamento", "a-caixilharia"],
+   "grammatik": {
+    "titel": "Existe ou não existe? Há alguma … que / não há nenhum … que",
+    "erklaerung": [
+     "Numa pergunta, quando não sabemos se a coisa existe, usamos o <b>conjuntivo</b>: <i>Há <b>alguma</b> divisão que <b>tenha</b> humidade?</i> <i>Conhece <b>algum</b> canalizador que <b>possa</b> vir hoje?</i>",
+     "Na negação – quando a coisa <b>não existe</b> – também: <i>Não há <b>nenhuma</b> janela que <b>feche</b> bem.</i> <i>Não conheço <b>ninguém</b> que <b>arrende</b> casas baratas.</i>",
+     "Se a coisa existe e sabemos que existe, fica o <b>indicativo</b>: <i>Há uma janela que <b>tem</b> vidro duplo.</i> <i>Conheço um canalizador que <b>pode</b> vir hoje.</i>",
+     "Perguntas úteis numa visita: <i>Há alguma divisão que <b>precise</b> de obras? Há alguma coisa que <b>esteja</b> avariada?</i>"
+    ],
+    "erklaerung_de": [
+     "In einer Frage, wenn wir nicht wissen, ob es die Sache gibt, steht der <b>Konjunktiv</b>: <i>Há <b>alguma</b> divisão que <b>tenha</b> humidade?</i> (Gibt es einen Raum, der feucht ist?) <i>Conhece <b>algum</b> canalizador que <b>possa</b> vir hoje?</i> (Kennen Sie einen Installateur, der heute kommen kann?)",
+     "Bei Verneinung – wenn es die Sache <b>nicht gibt</b> – ebenso: <i>Não há <b>nenhuma</b> janela que <b>feche</b> bem.</i> (Es gibt kein Fenster, das gut schließt.) <i>Não conheço <b>ninguém</b> que <b>arrende</b> casas baratas.</i> (Ich kenne niemanden, der günstige Häuser vermietet.)",
+     "Wenn es die Sache gibt und wir das wissen, bleibt der <b>Indikativ</b>: <i>Há uma janela que <b>tem</b> vidro duplo.</i> <i>Conheço um canalizador que <b>pode</b> vir hoje.</i>",
+     "Nützliche Fragen bei einer Besichtigung: <i>Há alguma divisão que <b>precise</b> de obras?</i> (Gibt es einen Raum, der renoviert werden muss?) <i>Há alguma coisa que <b>esteja</b> avariada?</i> (Ist irgendetwas kaputt?)"
+    ],
+    "vergleich": "Deutsch: „Gibt es ein Zimmer, das feucht ist?“ – „Es gibt kein Zimmer, das feucht ist.“ – immer Indikativ. Portugiesisch: Frage nach etwas Unbekanntem und Verneinung mit <i>nenhum, ninguém, nada</i> → Konjunktiv.",
+    "beispiele": [
+     {"pt": "Há alguma divisão que tenha problemas de humidade?", "de": "Gibt es einen Raum mit Feuchtigkeitsproblemen?"},
+     {"pt": "Não há nenhuma janela que tenha vidro duplo.", "de": "Kein einziges Fenster hat Doppelverglasung."},
+     {"pt": "Há uma casa de banho que foi remodelada no ano passado.", "de": "Es gibt ein Badezimmer, das letztes Jahr renoviert wurde."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Há alguma divisão que ___ bolor? (ter)", "loesungen": ["tenha"], "de": "Gibt es einen Raum, in dem Schimmel ist?", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Não há nenhuma janela que ___ bem. (fechar)", "loesungen": ["feche"], "de": "Es gibt kein Fenster, das gut schließt.", "erklaerung": "Verneinung mit nenhum/nenhuma → Konjunktiv.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Conheço um eletricista que ___ vir amanhã. (poder)", "loesungen": ["pode"], "de": "Ich kenne einen Elektriker, der morgen kommen kann.", "erklaerung": "Den Elektriker gibt es wirklich → Indikativ.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Não conheço ninguém que ___ uma casa para arrendar. (ter)", "loesungen": ["tenha"], "de": "Ich kenne niemanden, der ein Haus zu vermieten hat.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Es gibt kein Zimmer, das hell ist.“", "optionen": ["Não há nenhum quarto que é luminoso.", "Não há nenhum quarto que seja luminoso.", "Não há nenhum quarto que estar luminoso."], "richtig": 1, "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Há uma cozinha que ___ remodelada há dois anos.", "optionen": ["foi", "fosse", "seja"], "richtig": 0, "erklaerung": "Die Küche existiert, es ist eine Tatsache → Indikativ.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Das Haus ist in gutem Zustand.", "loesungen": ["A casa está em bom estado.", "A casa está em bom estado de conservação.", "A moradia está em bom estado."]},
+     {"typ": "satzbau", "de": "Gibt es etwas, das kaputt ist?", "loesung": "Há alguma coisa que esteja avariada?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "A visita – die Besichtigung",
+    "situation": "Heike besichtigt mit Stefan eine Wohnung. Eine Maklerin zeigt sie ihnen.",
+    "zeilen": [
+     {"sprecher": "Agente", "stimme": "f", "pt": "Bem-vindos! Como podem ver, o apartamento está em bom estado. A cozinha foi remodelada há dois anos.", "de": "Willkommen! Wie Sie sehen, ist die Wohnung in gutem Zustand. Die Küche wurde vor zwei Jahren renoviert."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "É muito arejado. As janelas têm vidro duplo?", "de": "Sie ist sehr luftig. Haben die Fenster Doppelverglasung?"},
+     {"sprecher": "Agente", "stimme": "f", "pt": "As da sala têm. As dos quartos ainda são antigas, mas fecham bem.", "de": "Die im Wohnzimmer schon. Die in den Schlafzimmern sind noch alt, aber sie schließen gut."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Há alguma divisão que tenha problemas de humidade?", "de": "Gibt es einen Raum mit Feuchtigkeitsproblemen?"},
+     {"sprecher": "Agente", "stimme": "f", "pt": "Não, nenhuma. Houve só uma pequena infiltração na casa de banho, mas já foi reparada.", "de": "Nein, keinen. Es gab nur einen kleinen Wassereintritt im Bad, aber der wurde schon repariert."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "E o isolamento? No inverno faz frio?", "de": "Und die Dämmung? Ist es im Winter kalt?"},
+     {"sprecher": "Agente", "stimme": "f", "pt": "Sinceramente, o isolamento não é o melhor. Mas não há nenhum apartamento nesta zona que seja perfeito por este preço.", "de": "Ehrlich gesagt ist die Dämmung nicht die beste. Aber in dieser Gegend gibt es keine Wohnung, die zu diesem Preis perfekt ist."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Podemos ver a arrecadação antes de decidirmos?", "de": "Können wir uns das Kellerabteil ansehen, bevor wir uns entscheiden?"}
+    ],
+    "fragen": [
+     {"frage": "O que foi remodelado há dois anos?", "optionen": ["A casa de banho.", "A cozinha.", "A sala."], "richtig": 1},
+     {"frage": "Que problema houve na casa de banho?", "optionen": ["Uma pequena infiltração.", "Bolor no teto.", "Uma janela partida."], "richtig": 0},
+     {"frage": "O que diz a agente sobre o isolamento?", "optionen": ["Que é excelente.", "Que foi renovado.", "Que não é o melhor."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Queria marcar uma visita ao apartamento.", "de": "Ich möchte einen Besichtigungstermin für die Wohnung vereinbaren."},
+     {"pt": "Há alguma divisão que tenha humidade?", "de": "Gibt es einen Raum, der feucht ist?"},
+     {"pt": "As janelas têm vidro duplo?", "de": "Haben die Fenster Doppelverglasung?"},
+     {"pt": "A casa é antiga, mas está em bom estado.", "de": "Das Haus ist alt, aber in gutem Zustand."},
+     {"pt": "Não há nenhuma casa que seja perfeita.", "de": "Es gibt kein Haus, das perfekt ist."}
+    ]
+   },
+   "saetze": [
+    {"id": "marcar-visita", "pt": "Queria marcar uma visita, se faz favor.", "de": "Ich möchte bitte einen Besichtigungstermin vereinbaren."},
+    {"id": "ha-alguma-divisao", "pt": "Há alguma divisão que tenha humidade?", "de": "Gibt es einen Raum, der feucht ist?"},
+    {"id": "nao-ha-nenhuma-perfeita", "pt": "Não há nenhuma casa que seja perfeita.", "de": "Es gibt kein Haus, das perfekt ist."}
+   ]
+  },
+  {
+   "id": "B1-04-L05",
+   "typ": "neu",
+   "titel": "Der Mietvertrag",
+   "vokabeln": ["o-contrato-de-arrendamento", "o-arrendamento", "a-duracao", "o-animal-de-estimacao", "proibido", "o-arrendatario", "a-clausula", "a-denuncia", "subarrendar"],
+   "grammatik": {
+    "titel": "Condições: desde que, a não ser que + conjuntivo",
+    "erklaerung": [
+     "Num contrato há muitas condições. Para as exprimir usamos conjunções que pedem o <b>conjuntivo</b>: <b>desde que</b> e <b>contanto que</b> (= com a condição de) e <b>a não ser que</b> (= exceto se).",
+     "<i>Pode ter animais de estimação, <b>desde que</b> não <b>estraguem</b> nada.</i> <i>O contrato renova-se automaticamente, <b>a não ser que</b> uma das partes o <b>denuncie</b>.</i>",
+     "Atenção: <b>desde que</b> com sentido de tempo (= a partir do momento em que) leva o <b>indicativo</b>: <i>Desde que <b>moramos</b> aqui, nunca tivemos problemas.</i>",
+     "Com expressões impessoais também se usa o conjuntivo: <i>É obrigatório que o senhorio <b>comunique</b> o contrato às Finanças.</i> Mais simples, com infinitivo: <i>É proibido <b>fumar</b>.</i>"
+    ],
+    "erklaerung_de": [
+     "In einem Vertrag gibt es viele Bedingungen. Dafür verwendet man Konjunktionen, die den <b>Konjunktiv</b> verlangen: <b>desde que</b> und <b>contanto que</b> (= sofern, vorausgesetzt, dass) sowie <b>a não ser que</b> (= es sei denn).",
+     "<i>Pode ter animais de estimação, <b>desde que</b> não <b>estraguem</b> nada.</i> – Sie dürfen Haustiere halten, sofern sie nichts beschädigen. <i>O contrato renova-se automaticamente, <b>a não ser que</b> uma das partes o <b>denuncie</b>.</i> – Der Vertrag verlängert sich automatisch, es sei denn, eine Partei kündigt ihn.",
+     "Achtung: <b>desde que</b> im zeitlichen Sinn (= seit) steht mit <b>Indikativ</b>: <i>Desde que <b>moramos</b> aqui, nunca tivemos problemas.</i> – Seit wir hier wohnen, hatten wir nie Probleme.",
+     "Auch nach unpersönlichen Ausdrücken steht der Konjunktiv: <i>É obrigatório que o senhorio <b>comunique</b> o contrato às Finanças.</i> – Der Vermieter muss den Vertrag dem Finanzamt melden. Einfacher, mit Infinitiv: <i>É proibido <b>fumar</b>.</i> – Rauchen verboten."
+    ],
+    "vergleich": "„sofern / vorausgesetzt, dass“ = <i>desde que</i>, „es sei denn“ = <i>a não ser que</i> – beide mit Konjunktiv. Im Deutschen steht hier Indikativ: „sofern sie nichts kaputt machen“ = <i>desde que não estraguem nada</i>.",
+    "beispiele": [
+     {"pt": "Pode ter um cão, desde que não faça barulho.", "de": "Sie dürfen einen Hund halten, sofern er keinen Lärm macht."},
+     {"pt": "O contrato renova-se automaticamente, a não ser que uma das partes o denuncie.", "de": "Der Vertrag verlängert sich automatisch, es sei denn, eine Partei kündigt ihn."},
+     {"pt": "Desde que moramos aqui, a renda nunca subiu.", "de": "Seit wir hier wohnen, ist die Miete nie gestiegen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Pode ter animais de estimação, desde que não ___ barulho. (fazer)", "loesungen": ["façam"], "de": "Sie dürfen Haustiere halten, sofern sie keinen Lärm machen.", "kategorie": "Konjunktiv nach Konjunktionen"},
+     {"typ": "luecke", "satz": "Aceito o contrato, desde que a duração ___ de cinco anos. (ser)", "loesungen": ["seja"], "de": "Ich nehme den Vertrag an, sofern die Laufzeit fünf Jahre beträgt.", "kategorie": "Konjunktiv nach Konjunktionen"},
+     {"typ": "luecke", "satz": "O contrato acaba em junho, a não ser que o ___. (nós, renovar)", "loesungen": ["renovemos"], "de": "Der Vertrag endet im Juni, es sei denn, wir verlängern ihn.", "erklaerung": "a não ser que → Konjunktiv; das Pronomen o steht wegen que vor dem Verb.", "kategorie": "Konjunktiv nach Konjunktionen"},
+     {"typ": "luecke", "satz": "Desde que ___ aqui, nunca tivemos problemas com o senhorio. (morar, nós)", "loesungen": ["moramos", "vivemos"], "de": "Seit wir hier wohnen, hatten wir nie Probleme mit dem Vermieter.", "erklaerung": "desde que = seit (Zeit) → Indikativ.", "kategorie": "Konjunktiv nach Konjunktionen"},
+     {"typ": "auswahl", "frage": "„Sie dürfen eine Katze halten, sofern sie nichts kaputt macht.“", "optionen": ["Pode ter um gato, desde que não estraga nada.", "Pode ter um gato, desde que não estrague nada.", "Pode ter um gato, desde que não estragar nada."], "richtig": 1, "kategorie": "Konjunktiv nach Konjunktionen"},
+     {"typ": "auswahl", "frage": "O que significa „a não ser que“?", "optionen": ["es sei denn", "seitdem", "damit"], "richtig": 0, "kategorie": "Konjunktionen"},
+     {"typ": "uebersetzen", "de": "In der Wohnung ist Rauchen verboten.", "loesungen": ["É proibido fumar no apartamento.", "É proibido fumar em casa.", "É proibido fumar na casa.", "No apartamento é proibido fumar.", "Não é permitido fumar no apartamento."]},
+     {"typ": "satzbau", "de": "Wie lange läuft der Mietvertrag?", "loesung": "Qual é a duração do contrato de arrendamento?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "O contrato – der Vertrag",
+    "situation": "Heike geht mit ihrem künftigen Vermieter, Herrn Mendes, den Mietvertrag durch.",
+    "zeilen": [
+     {"sprecher": "Sr. Mendes", "stimme": "m", "pt": "Aqui está o contrato de arrendamento. A duração é de três anos, com renovação automática.", "de": "Hier ist der Mietvertrag. Die Laufzeit beträgt drei Jahre, mit automatischer Verlängerung."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "E se eu quiser sair antes?", "de": "Und wenn ich früher ausziehen möchte?"},
+     {"sprecher": "Sr. Mendes", "stimme": "m", "pt": "Pode denunciar o contrato, desde que me avise com a antecedência prevista na cláusula oitava.", "de": "Sie können den Vertrag kündigen, sofern Sie mir mit der Frist Bescheid geben, die in Klausel acht steht."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "Muito bem. E posso ter o meu gato? É muito calmo.", "de": "Gut. Und darf ich meine Katze halten? Sie ist sehr ruhig."},
+     {"sprecher": "Sr. Mendes", "stimme": "m", "pt": "Pode, desde que não estrague o chão nem as portas.", "de": "Ja, sofern sie weder den Boden noch die Türen beschädigt."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "E posso subarrendar um quarto, de vez em quando?", "de": "Und darf ich ab und zu ein Zimmer untervermieten?"},
+     {"sprecher": "Sr. Mendes", "stimme": "m", "pt": "Isso não. A cláusula doze diz que é proibido subarrendar, a não ser que eu dê autorização por escrito.", "de": "Das nicht. Klausel zwölf besagt, dass Untervermieten verboten ist, es sei denn, ich gebe eine schriftliche Erlaubnis."},
+     {"sprecher": "Heike", "stimme": "f", "pt": "Compreendo. Então vou ler tudo com calma e assino amanhã.", "de": "Verstehe. Dann lese ich alles in Ruhe durch und unterschreibe morgen."}
+    ],
+    "fragen": [
+     {"frage": "Qual é a duração do contrato?", "optionen": ["Um ano.", "Três anos.", "Cinco anos."], "richtig": 1},
+     {"frage": "Com que condição pode a Heike ter o gato?", "optionen": ["Se pagar mais renda.", "Se o gato ficar na varanda.", "Desde que o gato não estrague nada."], "richtig": 2},
+     {"frage": "O que diz a cláusula doze?", "optionen": ["Que é proibido subarrendar sem autorização escrita.", "Que a renda sobe todos os anos.", "Que é proibido ter animais."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du sprichst mit deinem künftigen Vermieter über den Vertrag.",
+    "zeilen": [
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "Então, tem alguma dúvida sobre o contrato?", "de": "Nun, haben Sie Fragen zum Vertrag?"},
+     {"ich": true, "aufgabe": "Pergunte qual é a duração do contrato.", "loesungen": ["Qual é a duração do contrato?", "Qual é a duração do contrato de arrendamento?", "Sim. Qual é a duração do contrato?", "Sim, qual é a duração do contrato?", "Quanto tempo dura o contrato?"]},
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "São dois anos, renováveis.", "de": "Zwei Jahre, verlängerbar."},
+     {"ich": true, "aufgabe": "Pergunte se aceita animais de estimação.", "loesungen": ["Aceita animais de estimação?", "O senhor aceita animais de estimação?", "Posso ter animais de estimação?", "São permitidos animais de estimação?", "E aceita animais de estimação?"]},
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "Aceito, desde que não façam barulho.", "de": "Ja, sofern sie keinen Lärm machen."},
+     {"ich": true, "aufgabe": "Diga que tem um cão pequeno que é muito calmo.", "loesungen": ["Tenho um cão pequeno que é muito calmo.", "Eu tenho um cão pequeno que é muito calmo.", "Ótimo, tenho um cão pequeno que é muito calmo.", "Tenho um cãozinho que é muito calmo."]}
+    ]
+   },
+   "saetze": [
+    {"id": "duracao-do-contrato", "pt": "Qual é a duração do contrato?", "de": "Wie lange läuft der Vertrag?"},
+    {"id": "desde-que-nao-facam", "pt": "Pode ter animais, desde que não façam barulho.", "de": "Sie dürfen Tiere halten, sofern sie keinen Lärm machen."},
+    {"id": "proibido-fumar", "pt": "É proibido fumar no apartamento.", "de": "In der Wohnung ist Rauchen verboten."}
+   ]
+  },
+  {
+   "id": "B1-04-L06",
+   "typ": "neu",
+   "titel": "Kaution und Nebenkosten",
+   "vokabeln": ["a-caucao", "o-fiador", "adiantado", "os-danos", "a-parte", "os-encargos", "os-consumos", "o-desgaste", "a-garantia-bancaria"],
+   "grammatik": {
+    "titel": "O pronome relativo cujo, cuja, cujos, cujas",
+    "erklaerung": [
+     "<b>cujo</b> mostra a quem pertence uma coisa: <i>O senhorio, <b>cuja</b> casa arrendámos, vive em Lisboa.</i> (= a casa do senhorio)",
+     "<b>cujo</b> concorda com a coisa que vem a seguir, não com o dono: <i>o vizinho <b>cuja</b> garagem…</i> (a garagem), <i>a senhora <b>cujos</b> filhos…</i> (os filhos).",
+     "Depois de <b>cujo</b> nunca há artigo: <i>cuja casa</i> – e não <i>cuja a casa</i>.",
+     "<b>cujo</b> é típico da língua escrita (contratos, cartas, notícias). Na conversa, muitas vezes diz-se de outra maneira: <i>o senhor que tem a casa…</i>"
+    ],
+    "erklaerung_de": [
+     "<b>cujo</b> zeigt, wem etwas gehört (= dessen/deren): <i>O senhorio, <b>cuja</b> casa arrendámos, vive em Lisboa.</i> – Der Vermieter, dessen Haus wir gemietet haben, wohnt in Lissabon.",
+     "<b>cujo</b> richtet sich nach dem Besitz, der danach kommt, nicht nach dem Besitzer: <i>o vizinho <b>cuja</b> garagem…</i> (der Nachbar, dessen Garage …: a garagem), <i>a senhora <b>cujos</b> filhos…</i> (die Frau, deren Kinder …: os filhos).",
+     "Nach <b>cujo</b> steht nie ein Artikel: <i>cuja casa</i> – nicht <i>cuja a casa</i>.",
+     "<b>cujo</b> ist typisch für die Schriftsprache (Verträge, Briefe, Nachrichten). Im Gespräch sagt man es oft anders: <i>o senhor que tem a casa…</i> (der Herr, der das Haus hat …)."
+    ],
+    "vergleich": "<i>cujo</i> entspricht „dessen/deren“: „der Vermieter, <b>dessen</b> Haus wir gemietet haben“ = <i>o senhorio, <b>cuja</b> casa arrendámos</i>. Aber: Im Deutschen richtet sich „dessen/deren“ nach dem Besitzer, im Portugiesischen <i>cujo/cuja</i> nach dem Besitz.",
+    "beispiele": [
+     {"pt": "O senhorio, cuja casa arrendámos, vive em Lisboa.", "de": "Der Vermieter, dessen Haus wir gemietet haben, wohnt in Lissabon."},
+     {"pt": "É um apartamento cujos encargos são muito baixos.", "de": "Es ist eine Wohnung, deren Nebenkosten sehr niedrig sind."},
+     {"pt": "A inquilina cujo cão ladrava muito já se mudou.", "de": "Die Mieterin, deren Hund viel gebellt hat, ist schon ausgezogen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O senhorio, ___ casa arrendámos, vive em Lisboa.", "loesungen": ["cuja"], "de": "Der Vermieter, dessen Haus wir gemietet haben, wohnt in Lissabon.", "erklaerung": "Nach dem Besitz richten: a casa → cuja.", "kategorie": "cujo"},
+     {"typ": "luecke", "satz": "É um prédio ___ encargos são muito altos.", "loesungen": ["cujos"], "de": "Es ist ein Gebäude, dessen Nebenkosten sehr hoch sind.", "kategorie": "cujo"},
+     {"typ": "luecke", "satz": "A vizinha, ___ cão ladra muito, mora no rés-do-chão.", "loesungen": ["cujo"], "de": "Die Nachbarin, deren Hund viel bellt, wohnt im Erdgeschoss.", "erklaerung": "o cão → cujo (auch wenn die Besitzerin weiblich ist).", "kategorie": "cujo"},
+     {"typ": "auswahl", "frage": "„die Nachbarin, deren Garage leer ist“", "optionen": ["a vizinha cuja garagem está vazia", "a vizinha cuja a garagem está vazia", "a vizinha cujo garagem está vazia"], "richtig": 0, "erklaerung": "Kein Artikel nach cujo; a garagem → cuja.", "kategorie": "cujo"},
+     {"typ": "auswahl", "frage": "O que é a caução?", "optionen": ["A renda do primeiro mês.", "O imposto sobre a casa.", "O dinheiro que o inquilino deixa como garantia."], "richtig": 2},
+     {"typ": "luecke", "satz": "A água e a luz pagam-se à ___.", "loesungen": ["parte"], "de": "Wasser und Strom werden extra bezahlt."},
+     {"typ": "uebersetzen", "de": "Wir haben zwei Monatsmieten Kaution bezahlt.", "loesungen": ["Pagámos dois meses de caução.", "Pagámos uma caução de dois meses.", "Pagámos duas rendas de caução.", "Pagámos dois meses de renda de caução.", "Nós pagámos dois meses de caução.", "Pagámos dois meses de renda como caução."]},
+     {"typ": "satzbau", "de": "Der Vermieter verlangt einen Bürgen.", "loesung": "O senhorio pede um fiador."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A caução não foi devolvida – die Kaution kam nicht zurück",
+    "situation": "Rita ist aus ihrer Mietwohnung ausgezogen und ärgert sich. Sie erzählt Stefan davon.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Estou furiosa! Saí do apartamento e o senhorio não me quer devolver a caução toda.", "de": "Ich bin wütend! Ich bin aus der Wohnung ausgezogen, und der Vermieter will mir nicht die ganze Kaution zurückgeben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Porquê? Deixaste danos na casa?", "de": "Warum? Hast du Schäden in der Wohnung hinterlassen?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Só o desgaste normal: uns riscos no chão e as paredes um pouco sujas.", "de": "Nur die normale Abnutzung: ein paar Kratzer im Boden und die Wände etwas schmutzig."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O desgaste normal não pode ser descontado da caução. Tens fotografias do dia em que entraste?", "de": "Normale Abnutzung darf nicht von der Kaution abgezogen werden. Hast du Fotos von dem Tag, an dem du eingezogen bist?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Tenho. E os consumos de água e luz, que se pagavam à parte, também estão todos pagos.", "de": "Ja. Und der Wasser- und Stromverbrauch, der extra bezahlt wurde, ist auch komplett bezahlt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então tens tudo do teu lado. Escreve-lhe uma carta registada e pede a devolução.", "de": "Dann hast du alles auf deiner Seite. Schreib ihm einen Einschreibebrief und verlange die Rückzahlung."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "É o que vou fazer. A minha amiga Marta, cujo senhorio fez o mesmo, recebeu tudo de volta depois de uma carta.", "de": "Das mache ich. Meine Freundin Marta, deren Vermieter dasselbe gemacht hat, hat nach einem Brief alles zurückbekommen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estás a ver? E da próxima vez, propõe ao senhorio uma garantia bancária em vez de caução.", "de": "Siehst du? Und nächstes Mal schlägst du dem Vermieter eine Bankgarantie statt einer Kaution vor."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a Rita está furiosa?", "optionen": ["Porque a renda subiu.", "Porque o senhorio não lhe devolve a caução toda.", "Porque o apartamento tem muitos danos."], "richtig": 1},
+     {"frage": "O que diz o Stefan sobre o desgaste normal?", "optionen": ["Que não pode ser descontado da caução.", "Que tem de ser pago pela Rita.", "Que é pago pelo fiador."], "richtig": 0},
+     {"frage": "O que aconteceu à amiga Marta?", "optionen": ["Perdeu a caução.", "Mudou-se para Lisboa.", "Recebeu tudo de volta depois de uma carta."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva as frases em português.",
+    "aufgaben": [
+     {"de": "Wie hoch ist die Kaution?", "loesungen": ["Quanto é a caução?", "De quanto é a caução?", "Qual é o valor da caução?"]},
+     {"de": "Sind die Nebenkosten in der Miete enthalten?", "loesungen": ["As despesas estão incluídas na renda?", "Os encargos estão incluídos na renda?", "As despesas do condomínio estão incluídas na renda?", "Os encargos do condomínio estão incluídos na renda?"]},
+     {"de": "Wasser und Strom werden extra bezahlt.", "loesungen": ["A água e a luz pagam-se à parte.", "A água e a luz são pagas à parte.", "Água e luz pagam-se à parte.", "A água e a eletricidade pagam-se à parte.", "A água e a eletricidade são pagas à parte."]},
+     {"de": "Der Vermieter verlangt zwei Mieten im Voraus.", "loesungen": ["O senhorio pede duas rendas adiantadas.", "O senhorio exige duas rendas adiantadas.", "O senhorio pede duas rendas antecipadas.", "O senhorio exige duas rendas antecipadas."]},
+     {"de": "Ich habe keinen Bürgen.", "loesungen": ["Não tenho fiador.", "Não tenho nenhum fiador.", "Eu não tenho fiador.", "Não tenho um fiador."]}
+    ]
+   },
+   "saetze": [
+    {"id": "quanto-e-a-caucao", "pt": "Quanto é a caução?", "de": "Wie hoch ist die Kaution?"},
+    {"id": "pagam-se-a-parte", "pt": "A água e a luz pagam-se à parte.", "de": "Wasser und Strom werden extra bezahlt."},
+    {"id": "nao-tenho-fiador", "pt": "Não tenho fiador.", "de": "Ich habe keinen Bürgen."}
+   ]
+  },
+  {
+   "id": "B1-04-L07",
+   "typ": "neu",
+   "titel": "Kaufen: CPCV und Escritura",
+   "vokabeln": ["o-cpcv", "a-escritura", "o-sinal", "o-notario", "o-proprietario", "o-imi", "a-caderneta-predial", "a-certidao-permanente", "a-conservatoria"],
+   "grammatik": {
+    "titel": "antes que, até que, sem que, para que + conjuntivo",
+    "erklaerung": [
+     "Algumas conjunções pedem sempre o <b>conjuntivo</b>: <b>antes que</b>, <b>até que</b>, <b>sem que</b> e <b>para que</b>: <i>Não assine nada <b>antes que</b> o advogado <b>veja</b> o contrato.</i>",
+     "<i>Vamos esperar <b>até que</b> o banco <b>aprove</b> o crédito.</i> <i>O notário lê a escritura em voz alta <b>para que</b> todos a <b>percebam</b>.</i>",
+     "Se o sujeito é o mesmo nas duas partes da frase, usa-se a preposição + <b>infinitivo</b>: <i>Lemos tudo <b>antes de assinar</b>.</i> (nós lemos, nós assinamos) – <i>Pagámos o sinal <b>para reservar</b> a casa.</i>",
+     "Em Portugal também é muito comum o <b>infinitivo pessoal</b>: <i>antes de <b>assinarmos</b></i>, <i>para <b>percebermos</b></i>. Vamos treiná-lo na próxima unidade."
+    ],
+    "erklaerung_de": [
+     "Einige Konjunktionen verlangen immer den <b>Konjunktiv</b>: <b>antes que</b> (bevor), <b>até que</b> (bis), <b>sem que</b> (ohne dass) und <b>para que</b> (damit): <i>Não assine nada <b>antes que</b> o advogado <b>veja</b> o contrato.</i> – Unterschreiben Sie nichts, bevor der Anwalt den Vertrag gesehen hat.",
+     "<i>Vamos esperar <b>até que</b> o banco <b>aprove</b> o crédito.</i> – Wir warten, bis die Bank den Kredit genehmigt. <i>O notário lê a escritura em voz alta <b>para que</b> todos a <b>percebam</b>.</i> – Der Notar liest den Kaufvertrag laut vor, damit alle ihn verstehen.",
+     "Ist das Subjekt in beiden Satzteilen gleich, nimmt man Präposition + <b>Infinitiv</b>: <i>Lemos tudo <b>antes de assinar</b>.</i> – Wir lesen alles, bevor wir unterschreiben. <i>Pagámos o sinal <b>para reservar</b> a casa.</i> – Wir haben die Anzahlung geleistet, um das Haus zu reservieren.",
+     "In Portugal ist auch der <b>persönliche Infinitiv</b> sehr verbreitet: <i>antes de <b>assinarmos</b></i> (bevor wir unterschreiben), <i>para <b>percebermos</b></i> (damit wir verstehen). Den üben wir in der nächsten Einheit."
+    ],
+    "vergleich": "„bevor“, „bis“, „ohne dass“, „damit“ stehen im Deutschen mit Indikativ. Portugiesisch: <i>antes que, até que, sem que, para que</i> + Konjunktiv – oder, bei gleichem Subjekt, einfach <i>antes de / até / sem / para</i> + Infinitiv (wie „um … zu“).",
+    "beispiele": [
+     {"pt": "Não assine nada antes que o advogado veja o contrato.", "de": "Unterschreiben Sie nichts, bevor der Anwalt den Vertrag gesehen hat."},
+     {"pt": "Pagamos o sinal para que o vendedor reserve a casa para nós.", "de": "Wir leisten die Anzahlung, damit der Verkäufer das Haus für uns reserviert."},
+     {"pt": "O notário lê a escritura em voz alta para que todos a percebam.", "de": "Der Notar liest den Kaufvertrag laut vor, damit alle ihn verstehen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Não assine o CPCV antes que o advogado o ___. (ver)", "loesungen": ["veja"], "de": "Unterschreiben Sie den Vorvertrag nicht, bevor der Anwalt ihn gesehen hat.", "kategorie": "Konjunktiv nach Konjunktionen"},
+     {"typ": "luecke", "satz": "Vamos esperar até que o banco ___ o crédito. (aprovar)", "loesungen": ["aprove"], "de": "Wir warten, bis die Bank den Kredit genehmigt.", "kategorie": "Konjunktiv nach Konjunktionen"},
+     {"typ": "luecke", "satz": "O notário lê a escritura para que todos a ___. (perceber)", "loesungen": ["percebam"], "de": "Der Notar liest den Kaufvertrag vor, damit alle ihn verstehen.", "kategorie": "Konjunktiv nach Konjunktionen"},
+     {"typ": "luecke", "satz": "Lemos o contrato antes de o ___. (assinar)", "loesungen": ["assinar", "assinarmos"], "de": "Wir lesen den Vertrag, bevor wir ihn unterschreiben.", "erklaerung": "Gleiches Subjekt → antes de + Infinitiv (oder persönlicher Infinitiv: assinarmos).", "kategorie": "Konjunktiv/Infinitiv"},
+     {"typ": "auswahl", "frage": "„ohne dass der Käufer es weiß“", "optionen": ["sem que o comprador sabe", "sem que o comprador saiba", "sem que o comprador saber"], "richtig": 1, "kategorie": "Konjunktiv nach Konjunktionen"},
+     {"typ": "auswahl", "frage": "Que documento se assina primeiro na compra de uma casa?", "optionen": ["A escritura.", "O CPCV.", "O registo predial."], "richtig": 1, "erklaerung": "Zuerst der Vorvertrag (CPCV) mit Anzahlung, später die Escritura beim Notar."},
+     {"typ": "uebersetzen", "de": "Wir haben eine Anzahlung von zehn Prozent geleistet.", "loesungen": ["Pagámos um sinal de dez por cento.", "Demos um sinal de dez por cento.", "Pagámos um sinal de 10%.", "Demos um sinal de 10%.", "Pagámos dez por cento de sinal."]},
+     {"typ": "satzbau", "de": "Die Grundsteuer wird jedes Jahr vom Eigentümer bezahlt.", "loesung": "O IMI é pago todos os anos pelo proprietário."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Primeiro o CPCV, depois a escritura – erst Vorvertrag, dann Kaufvertrag",
+    "situation": "Rita und Pedro wollen eine Wohnung in Portimão kaufen. Rita fragt Stefan, der gerade selbst ein Haus gekauft hat, um Rat.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, tu já passaste por isto. Encontrámos um T2 em Portimão. O que fazemos agora?", "de": "Stefan, du hast das schon hinter dir. Wir haben eine Zweizimmerwohnung in Portimão gefunden. Was machen wir jetzt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Primeiro assinam o CPCV com o proprietário e pagam o sinal, normalmente dez ou vinte por cento.", "de": "Zuerst unterschreibt ihr mit dem Eigentümer den Vorvertrag und leistet die Anzahlung, normalerweise zehn oder zwanzig Prozent."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E se depois mudarmos de ideias?", "de": "Und wenn wir es uns danach anders überlegen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perdem o sinal. Mas se for o vendedor a desistir, tem de vos devolver o sinal em dobro.", "de": "Dann verliert ihr die Anzahlung. Aber wenn der Verkäufer abspringt, muss er euch die Anzahlung doppelt zurückzahlen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Em dobro? Ainda bem! E a escritura, quando é?", "de": "Doppelt? Zum Glück! Und der Notartermin, wann ist der?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quando o banco aprovar o crédito. Antes disso, peçam a caderneta predial e a certidão permanente, para que o advogado verifique se a casa tem dívidas ou hipotecas.", "de": "Wenn die Bank den Kredit genehmigt hat. Vorher besorgt ihr den Katasterauszug und den Grundbuchauszug, damit der Anwalt prüft, ob auf dem Haus Schulden oder Hypotheken liegen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E o IMT, pagamos no notário?", "de": "Und die Grunderwerbsteuer, zahlen wir die beim Notar?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, pagam-no antes da escritura, nas Finanças ou online. E depois, todos os anos, há o IMI.", "de": "Nein, ihr zahlt sie vor der Beurkundung, beim Finanzamt oder online. Und danach gibt es jedes Jahr die Grundsteuer."}
+    ],
+    "fragen": [
+     {"frage": "O que se paga quando se assina o CPCV?", "optionen": ["O IMI.", "O sinal.", "A escritura."], "richtig": 1},
+     {"frage": "O que acontece se o vendedor desistir?", "optionen": ["Devolve o sinal em dobro.", "Não acontece nada.", "Paga o IMT."], "richtig": 0},
+     {"frage": "Para que servem a caderneta e a certidão?", "optionen": ["Para pedir o crédito habitação.", "Para pagar o IMI.", "Para o advogado verificar se a casa tem dívidas ou hipotecas."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Assinámos o CPCV e pagámos o sinal.", "de": "Wir haben den Vorvertrag unterschrieben und die Anzahlung geleistet."},
+     {"pt": "A escritura é no dia quinze, no notário.", "de": "Die Beurkundung ist am Fünfzehnten beim Notar."},
+     {"pt": "Não assine nada antes que o advogado veja o contrato.", "de": "Unterschreiben Sie nichts, bevor der Anwalt den Vertrag gesehen hat."},
+     {"pt": "O IMI é pago todos os anos pelo proprietário.", "de": "Die Grundsteuer wird jedes Jahr vom Eigentümer bezahlt."},
+     {"pt": "Quem é o proprietário da casa?", "de": "Wem gehört das Haus?"}
+    ]
+   },
+   "saetze": [
+    {"id": "assinamos-cpcv", "pt": "Assinámos o CPCV e pagámos o sinal.", "de": "Wir haben den Vorvertrag unterschrieben und die Anzahlung geleistet."},
+    {"id": "escritura-no-notario", "pt": "A escritura é no dia quinze, no notário.", "de": "Die Beurkundung ist am Fünfzehnten beim Notar."},
+    {"id": "antes-que-advogado-veja", "pt": "Não assine nada antes que o advogado veja o contrato.", "de": "Unterschreiben Sie nichts, bevor der Anwalt den Vertrag gesehen hat."}
+   ]
+  },
+  {
+   "id": "B1-04-L08",
+   "typ": "neu",
+   "titel": "Der Wohnkredit",
+   "vokabeln": ["o-credito-habitacao", "a-avaliacao", "a-taxa-de-juro", "a-hipoteca", "o-financiamento", "o-seguro-de-vida", "o-spread", "a-euribor", "o-avaliador"],
+   "grammatik": {
+    "titel": "Caso + conjuntivo",
+    "erklaerung": [
+     "<b>caso</b> significa o mesmo que <i>se</i> (uma condição), mas é mais formal e leva o <b>presente do conjuntivo</b>: <i><b>Caso</b> o banco <b>aprove</b> o crédito, fazemos a escritura em março.</i>",
+     "Vê-se muito em cartas, contratos e e-mails do banco: <i>Caso <b>tenha</b> dúvidas, contacte o seu gestor.</i> <i>Caso não <b>pague</b> a prestação, o banco pode executar a hipoteca.</i>",
+     "Com <b>se</b>, quando se fala do futuro, os portugueses usam o futuro do conjuntivo (<i>se o banco aprovar</i>) – estudamo-lo na unidade B1-07. Com <b>caso</b>, para o presente e o futuro, usa-se sempre o presente do conjuntivo.",
+     "Também existe <b>no caso de</b> + nome ou infinitivo: <i><b>No caso de</b> atraso no pagamento, há juros.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>caso</b> bedeutet dasselbe wie <i>se</i> (eine Bedingung: falls), ist aber förmlicher und verlangt den <b>Presente do conjuntivo</b>: <i><b>Caso</b> o banco <b>aprove</b> o crédito, fazemos a escritura em março.</i> – Falls die Bank den Kredit genehmigt, machen wir den Notartermin im März.",
+     "Man sieht es oft in Briefen, Verträgen und E-Mails der Bank: <i>Caso <b>tenha</b> dúvidas, contacte o seu gestor.</i> – Falls Sie Fragen haben, wenden Sie sich an Ihren Kundenbetreuer. <i>Caso não <b>pague</b> a prestação, o banco pode executar a hipoteca.</i> – Falls Sie die Rate nicht zahlen, kann die Bank die Hypothek vollstrecken.",
+     "Mit <b>se</b> verwendet man für die Zukunft das Futuro do conjuntivo (<i>se o banco aprovar</i>) – das lernen wir in Einheit B1-07. Nach <b>caso</b> steht für Gegenwart und Zukunft immer der Presente do conjuntivo.",
+     "Es gibt auch <b>no caso de</b> + Nomen oder Infinitiv: <i><b>No caso de</b> atraso no pagamento, há juros.</i> – Im Fall eines Zahlungsverzugs fallen Zinsen an."
+    ],
+    "vergleich": "<i>caso</i> = „falls / sofern“ (englisch „in case“). Deutsch: Indikativ („falls die Bank zustimmt“), Portugiesisch: Konjunktiv (<i>caso o banco aprove</i>). Achtung: nie <i>caso</i> + Indikativ!",
+    "beispiele": [
+     {"pt": "Caso o banco aprove o crédito, fazemos a escritura em março.", "de": "Falls die Bank den Kredit genehmigt, machen wir die Beurkundung im März."},
+     {"pt": "Caso tenha dúvidas, contacte o seu gestor de conta.", "de": "Falls Sie Fragen haben, wenden Sie sich an Ihren Kundenbetreuer."},
+     {"pt": "No caso de taxa variável, a prestação pode subir.", "de": "Bei einem variablen Zinssatz kann die Rate steigen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Caso o banco ___ o crédito, compramos a casa. (aprovar)", "loesungen": ["aprove"], "de": "Falls die Bank den Kredit genehmigt, kaufen wir das Haus.", "kategorie": "caso + Konjunktiv"},
+     {"typ": "luecke", "satz": "Caso ___ dúvidas, contacte-nos. (ter, o senhor)", "loesungen": ["tenha"], "de": "Falls Sie Fragen haben, kontaktieren Sie uns.", "kategorie": "caso + Konjunktiv"},
+     {"typ": "luecke", "satz": "Caso a avaliação ___ baixa, o banco empresta menos. (ser)", "loesungen": ["seja"], "de": "Falls die Bewertung niedrig ausfällt, leiht die Bank weniger.", "kategorie": "caso + Konjunktiv"},
+     {"typ": "luecke", "satz": "Caso a Euribor ___, a prestação também sobe. (subir)", "loesungen": ["suba"], "de": "Falls der Euribor steigt, steigt auch die Rate.", "erklaerung": "subir → suba (wie subo: Stamm sub- + a).", "kategorie": "caso + Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Falls die Zinsen steigen, zahlen wir mehr.“", "optionen": ["Caso os juros sobem, pagamos mais.", "Caso os juros subam, pagamos mais.", "Caso os juros subir, pagamos mais."], "richtig": 1, "erklaerung": "caso → immer Presente do conjuntivo (subam).", "kategorie": "caso + Konjunktiv"},
+     {"typ": "auswahl", "frage": "O que é o spread?", "optionen": ["O valor da casa.", "O imposto sobre a compra.", "A margem que o banco junta à Euribor."], "richtig": 2},
+     {"typ": "uebersetzen", "de": "Die Bank verlangt eine Lebensversicherung.", "loesungen": ["O banco exige um seguro de vida.", "O banco pede um seguro de vida.", "O banco obriga a ter um seguro de vida."]},
+     {"typ": "satzbau", "de": "Wie hoch ist der Zinssatz?", "loesung": "Qual é a taxa de juro?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "No banco – in der Bank",
+    "situation": "Pedro spricht mit seiner Kundenbetreuerin über den Wohnkredit für die Wohnung in Portimão.",
+    "zeilen": [
+     {"sprecher": "Gestora", "stimme": "f", "pt": "Bom dia, senhor Pedro. Já fizemos a simulação do seu crédito habitação.", "de": "Guten Morgen, Herr Pedro. Wir haben Ihren Wohnkredit schon durchgerechnet."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Bom dia. E então? Quanto é que o banco financia?", "de": "Guten Morgen. Und? Wie viel finanziert die Bank?"},
+     {"sprecher": "Gestora", "stimme": "f", "pt": "Até noventa por cento do valor da avaliação. Caso o avaliador dê um valor mais baixo do que o preço, terá de pagar a diferença.", "de": "Bis zu neunzig Prozent des Schätzwerts. Falls der Gutachter einen niedrigeren Wert als den Preis ansetzt, müssen Sie die Differenz bezahlen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E a taxa de juro? É fixa ou variável?", "de": "Und der Zinssatz? Ist er fest oder variabel?"},
+     {"sprecher": "Gestora", "stimme": "f", "pt": "Propomos uma taxa variável: Euribor a doze meses mais um spread de um por cento.", "de": "Wir schlagen einen variablen Zinssatz vor: Zwölfmonats-Euribor plus ein Prozent Aufschlag."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E caso a Euribor suba muito?", "de": "Und falls der Euribor stark steigt?"},
+     {"sprecher": "Gestora", "stimme": "f", "pt": "Nesse caso, a prestação sobe. Também temos taxa fixa, mas é um pouco mais alta.", "de": "Dann steigt die Rate. Wir haben auch einen festen Zinssatz, aber der ist etwas höher."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Vou falar com a Rita. E o seguro de vida é obrigatório?", "de": "Ich rede mit Rita. Und ist die Lebensversicherung Pflicht?"},
+     {"sprecher": "Gestora", "stimme": "f", "pt": "É. Precisa de seguro de vida e de seguro multirriscos, porque a casa fica hipotecada ao banco.", "de": "Ja. Sie brauchen eine Lebensversicherung und eine Gebäudeversicherung, weil das Haus mit einer Hypothek für die Bank belastet wird."}
+    ],
+    "fragen": [
+     {"frage": "Quanto financia o banco?", "optionen": ["Cem por cento do preço.", "Até noventa por cento do valor da avaliação.", "Metade do valor."], "richtig": 1},
+     {"frage": "O que acontece à prestação caso a Euribor suba?", "optionen": ["Sobe também.", "Desce.", "Fica igual."], "richtig": 0},
+     {"frage": "Porque é que o Pedro precisa dos seguros?", "optionen": ["Porque é estrangeiro.", "Porque a taxa é fixa.", "Porque a casa fica hipotecada ao banco."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du gehst zu deiner Bank, um einen Wohnkredit zu beantragen.",
+    "zeilen": [
+     {"sprecher": "Gestora", "stimme": "f", "pt": "Bom dia. Em que posso ajudar?", "de": "Guten Morgen. Wie kann ich helfen?"},
+     {"ich": true, "aufgabe": "Diga que queria pedir um crédito habitação.", "loesungen": ["Queria pedir um crédito habitação.", "Bom dia. Queria pedir um crédito habitação.", "Gostava de pedir um crédito habitação.", "Bom dia. Gostava de pedir um crédito habitação.", "Queria pedir um crédito à habitação.", "Bom dia. Queria pedir um crédito à habitação."]},
+     {"sprecher": "Gestora", "stimme": "f", "pt": "Com certeza. Já tem a casa escolhida?", "de": "Selbstverständlich. Haben Sie das Haus schon ausgesucht?"},
+     {"ich": true, "aufgabe": "Diga que sim e que já assinou o CPCV.", "loesungen": ["Sim, já assinei o CPCV.", "Tenho, já assinei o CPCV.", "Já. Já assinei o CPCV.", "Sim, e já assinei o CPCV.", "Sim, já assinámos o CPCV.", "Tenho, e já assinei o CPCV."]},
+     {"sprecher": "Gestora", "stimme": "f", "pt": "Muito bem. Então vamos marcar a avaliação.", "de": "Sehr gut. Dann vereinbaren wir die Bewertung."},
+     {"ich": true, "aufgabe": "Pergunte qual é a taxa de juro.", "loesungen": ["Qual é a taxa de juro?", "E qual é a taxa de juro?", "Qual é a taxa de juro, por favor?", "Muito bem. Qual é a taxa de juro?", "Muito bem. E qual é a taxa de juro?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "pedir-credito-habitacao", "pt": "Queria pedir um crédito habitação.", "de": "Ich möchte einen Wohnkredit beantragen."},
+    {"id": "caso-banco-aprove", "pt": "Caso o banco aprove o crédito, compramos a casa.", "de": "Falls die Bank den Kredit genehmigt, kaufen wir das Haus."},
+    {"id": "qual-taxa-de-juro", "pt": "Qual é a taxa de juro?", "de": "Wie hoch ist der Zinssatz?"}
+   ]
+  },
+  {
+   "id": "B1-04-L09",
+   "typ": "neu",
+   "titel": "Umbau und Genehmigungen",
+   "vokabeln": ["a-licenca", "remodelar", "o-empreiteiro", "o-arquiteto", "ilegal", "a-licenca-de-utilizacao", "o-alvara", "o-embargo", "a-fachada"],
+   "grammatik": {
+    "titel": "exigir que, permitir que, proibir que + conjuntivo",
+    "erklaerung": [
+     "Depois de verbos que exprimem <b>ordem, pedido, autorização ou proibição</b>, a frase com <i>que</i> leva o <b>conjuntivo</b>: <b>exigir que</b>, <b>pedir que</b>, <b>permitir que</b>, <b>deixar que</b>, <b>proibir que</b>.",
+     "<i>A câmara <b>exige que</b> <b>apresentemos</b> um projeto.</i> <i>O condomínio não <b>permite que</b> se <b>mude</b> a cor da fachada.</i>",
+     "Muitas vezes há uma alternativa com <b>infinitivo</b>: <i>A câmara não nos <b>deixa fazer</b> obras sem licença.</i> = <i>A câmara não deixa que <b>façamos</b> obras sem licença.</i>",
+     "Também com expressões impessoais: <b>é preciso que</b>, <b>é obrigatório que</b>: <i>É preciso que o empreiteiro <b>tenha</b> alvará.</i>"
+    ],
+    "erklaerung_de": [
+     "Nach Verben, die einen <b>Befehl, eine Bitte, eine Erlaubnis oder ein Verbot</b> ausdrücken, steht im <i>que</i>-Satz der <b>Konjunktiv</b>: <b>exigir que</b> (verlangen), <b>pedir que</b> (bitten), <b>permitir que</b> (erlauben), <b>deixar que</b> (lassen), <b>proibir que</b> (verbieten).",
+     "<i>A câmara <b>exige que</b> <b>apresentemos</b> um projeto.</i> – Die Gemeinde verlangt, dass wir einen Plan einreichen. <i>O condomínio não <b>permite que</b> se <b>mude</b> a cor da fachada.</i> – Die Eigentümergemeinschaft erlaubt nicht, dass man die Farbe der Fassade ändert.",
+     "Oft gibt es eine Alternative mit <b>Infinitiv</b>: <i>A câmara não nos <b>deixa fazer</b> obras sem licença.</i> = <i>A câmara não deixa que <b>façamos</b> obras sem licença.</i> – Die Gemeinde lässt uns ohne Genehmigung nicht umbauen.",
+     "Auch nach unpersönlichen Ausdrücken: <b>é preciso que</b>, <b>é obrigatório que</b>: <i>É preciso que o empreiteiro <b>tenha</b> alvará.</i> – Der Bauunternehmer muss eine Gewerbeberechtigung haben."
+    ],
+    "vergleich": "Deutsch: „Die Gemeinde verlangt, dass wir einen Plan einreichen“ – Indikativ. Portugiesisch: <i>exige que apresentemos</i> – Konjunktiv, weil es um eine Forderung geht, nicht um eine Tatsache. Ähnlich im Englischen mit Infinitiv: „they require us to submit“.",
+    "beispiele": [
+     {"pt": "A câmara exige que apresentemos um projeto de arquitetura.", "de": "Die Gemeinde verlangt, dass wir einen Architektenplan einreichen."},
+     {"pt": "O condomínio não permite que se mude a fachada.", "de": "Die Eigentümergemeinschaft erlaubt nicht, dass man die Fassade verändert."},
+     {"pt": "É preciso que o empreiteiro tenha alvará.", "de": "Der Bauunternehmer muss eine Gewerbeberechtigung haben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A câmara exige que ___ uma licença. (nós, pedir)", "loesungen": ["peçamos"], "de": "Die Gemeinde verlangt, dass wir eine Genehmigung beantragen.", "erklaerung": "pedir → peço → peçamos.", "kategorie": "Konjunktiv nach Willensverben"},
+     {"typ": "luecke", "satz": "O senhorio não permite que os inquilinos ___ obras. (fazer)", "loesungen": ["façam"], "de": "Der Vermieter erlaubt den Mietern nicht, umzubauen.", "kategorie": "Konjunktiv nach Willensverben"},
+     {"typ": "luecke", "satz": "É preciso que o empreiteiro ___ alvará. (ter)", "loesungen": ["tenha"], "de": "Der Bauunternehmer muss eine Gewerbeberechtigung haben.", "kategorie": "Konjunktiv nach Willensverben"},
+     {"typ": "luecke", "satz": "O arquiteto pede que lhe ___ as plantas da casa. (nós, enviar)", "loesungen": ["enviemos", "mandemos"], "de": "Der Architekt bittet uns, ihm die Grundrisse des Hauses zu schicken.", "kategorie": "Konjunktiv nach Willensverben"},
+     {"typ": "auswahl", "frage": "„Die Gemeinde verbietet, dass man die Fassade verändert.“", "optionen": ["A câmara proíbe que se muda a fachada.", "A câmara proíbe que se mude a fachada.", "A câmara proíbe que se mudar a fachada."], "richtig": 1, "kategorie": "Konjunktiv nach Willensverben"},
+     {"typ": "auswahl", "frage": "O que é o embargo de uma obra?", "optionen": ["A ordem da câmara para parar a obra.", "O preço da obra.", "O fim da obra."], "richtig": 0},
+     {"typ": "uebersetzen", "de": "Wir wollen die Küche renovieren.", "loesungen": ["Queremos remodelar a cozinha.", "Nós queremos remodelar a cozinha.", "Queremos renovar a cozinha."]},
+     {"typ": "satzbau", "de": "Ohne Genehmigung ist der Umbau illegal.", "loesung": "Sem licença, a obra é ilegal."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma marquise sem licença? – ein Wintergarten ohne Genehmigung?",
+    "situation": "Stefan und Ana möchten ihren Balkon mit Glas schließen (eine „marquise“) und fragen einen Architekten um Rat.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Queríamos fechar a varanda com vidro e fazer uma marquise. Precisamos de licença?", "de": "Wir würden gern den Balkon mit Glas schließen. Brauchen wir eine Genehmigung?"},
+     {"sprecher": "Arquiteto", "stimme": "m", "pt": "Precisam. A câmara exige que apresentem um projeto, porque a obra muda a fachada.", "de": "Ja. Die Gemeinde verlangt, dass Sie einen Plan einreichen, weil der Umbau die Fassade verändert."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Mas o nosso vizinho fez uma marquise sem licença…", "de": "Aber unser Nachbar hat einen verglasten Balkon ohne Genehmigung gebaut …"},
+     {"sprecher": "Arquiteto", "stimme": "m", "pt": "E é ilegal. A câmara pode mandar demolir. E quando ele vender a casa, vai ter problemas.", "de": "Und das ist illegal. Die Gemeinde kann den Abriss anordnen. Und wenn er das Haus verkauft, bekommt er Probleme."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E a remodelação da cozinha? Também precisa de licença?", "de": "Und die Renovierung der Küche? Braucht die auch eine Genehmigung?"},
+     {"sprecher": "Arquiteto", "stimme": "m", "pt": "Obras só no interior, sem mexer na estrutura, normalmente não precisam. Mas o condomínio pode pedir que o avisem antes.", "de": "Arbeiten nur im Inneren, ohne an der Bausubstanz etwas zu ändern, brauchen normalerweise keine. Aber die Eigentümergemeinschaft kann verlangen, dass Sie vorher Bescheid geben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Conhece algum empreiteiro que seja de confiança?", "de": "Kennen Sie einen Bauunternehmer, der zuverlässig ist?"},
+     {"sprecher": "Arquiteto", "stimme": "m", "pt": "Conheço um que trabalha muito bem. Mas exijam sempre que tenha alvará e peçam um orçamento por escrito.", "de": "Ich kenne einen, der sehr gut arbeitet. Aber verlangen Sie immer, dass er eine Gewerbeberechtigung hat, und lassen Sie sich einen schriftlichen Kostenvoranschlag geben."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a marquise precisa de licença?", "optionen": ["Porque é muito cara.", "Porque muda a fachada.", "Porque o vizinho se queixou."], "richtig": 1},
+     {"frage": "A remodelação da cozinha precisa de licença?", "optionen": ["Normalmente não, se não mexer na estrutura.", "Sim, sempre.", "Só se a cozinha for grande."], "richtig": 0},
+     {"frage": "O que aconselha o arquiteto?", "optionen": ["Fazer a obra sem licença.", "Contratar o vizinho.", "Exigir alvará e um orçamento por escrito."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva as frases em português.",
+    "aufgaben": [
+     {"de": "Wir wollen das Bad renovieren.", "loesungen": ["Queremos remodelar a casa de banho.", "Nós queremos remodelar a casa de banho.", "Queremos renovar a casa de banho."]},
+     {"de": "Brauchen wir eine Genehmigung?", "loesungen": ["Precisamos de licença?", "Precisamos de uma licença?", "É preciso licença?", "É preciso uma licença?"]},
+     {"de": "Die Gemeinde verlangt, dass wir einen Plan einreichen.", "loesungen": ["A câmara exige que apresentemos um projeto.", "A câmara exige que entreguemos um projeto.", "A câmara municipal exige que apresentemos um projeto.", "A câmara municipal exige que entreguemos um projeto."]},
+     {"de": "Ohne Genehmigung ist der Umbau illegal.", "loesungen": ["Sem licença, a obra é ilegal.", "Sem licença a obra é ilegal.", "A obra sem licença é ilegal.", "Sem licença, as obras são ilegais."]},
+     {"de": "Kennen Sie einen Bauunternehmer, der zuverlässig ist?", "loesungen": ["Conhece algum empreiteiro que seja de confiança?", "Conhece um empreiteiro que seja de confiança?", "Conhece algum empreiteiro que seja fiável?", "Conhece um empreiteiro que seja fiável?", "O senhor conhece algum empreiteiro que seja de confiança?", "A senhora conhece algum empreiteiro que seja de confiança?"]}
+    ]
+   },
+   "saetze": [
+    {"id": "precisamos-de-licenca", "pt": "Precisamos de licença para esta obra?", "de": "Brauchen wir für diesen Umbau eine Genehmigung?"},
+    {"id": "camara-exige-que", "pt": "A câmara exige que apresentemos um projeto.", "de": "Die Gemeinde verlangt, dass wir einen Plan einreichen."},
+    {"id": "empreiteiro-de-confianca", "pt": "Conhece algum empreiteiro que seja de confiança?", "de": "Kennen Sie einen zuverlässigen Bauunternehmer?"}
+   ]
+  },
+  {
+   "id": "B1-04-L10",
+   "typ": "neu",
+   "titel": "Die Eigentümerversammlung",
+   "vokabeln": ["o-condominio", "a-assembleia-de-condominos", "o-condomino", "votar", "o-telhado", "a-convocatoria", "o-fundo-comum-de-reserva", "a-fracao"],
+   "grammatik": {
+    "titel": "Resumo: alguém que, ninguém que, onde + indicativo ou conjuntivo",
+    "erklaerung": [
+     "Resumo: na frase relativa, o <b>indicativo</b> fala de algo real e conhecido; o <b>conjuntivo</b> fala de algo procurado, desejado ou que não existe.",
+     "O mesmo vale para <b>alguém que</b>, <b>ninguém que</b>, <b>algo que</b> e <b>nada que</b>: <i>Precisamos de <b>alguém que queira</b> ser administrador.</i> <i>Não há <b>ninguém que queira</b>!</i> – mas: <i>Há uma senhora que <b>quer</b>.</i>",
+     "<b>onde</b> funciona da mesma maneira: <i>Procuramos um sítio <b>onde possamos</b> pôr as bicicletas.</i> – <i>Temos um sítio onde <b>pomos</b> as bicicletas.</i>",
+     "Em propostas na assembleia, às vezes há dois conjuntivos: <i>Proponho que <b>contratemos</b> uma empresa que <b>limpe</b> as escadas.</i> (um depois de <i>propor que</i>, outro na frase relativa)."
+    ],
+    "erklaerung_de": [
+     "Zusammenfassung: Im Relativsatz spricht der <b>Indikativ</b> von etwas Realem und Bekanntem; der <b>Konjunktiv</b> von etwas Gesuchtem, Gewünschtem oder nicht Existierendem.",
+     "Dasselbe gilt für <b>alguém que</b> (jemand, der), <b>ninguém que</b> (niemand, der), <b>algo que</b> (etwas, das) und <b>nada que</b> (nichts, was): <i>Precisamos de <b>alguém que queira</b> ser administrador.</i> – Wir brauchen jemanden, der Verwalter sein will. <i>Não há <b>ninguém que queira</b>!</i> – aber: <i>Há uma senhora que <b>quer</b>.</i> – Es gibt eine Frau, die will.",
+     "<b>onde</b> funktioniert genauso: <i>Procuramos um sítio <b>onde possamos</b> pôr as bicicletas.</i> (Wir suchen einen Platz, wo wir die Fahrräder abstellen können.) – <i>Temos um sítio onde <b>pomos</b> as bicicletas.</i> (Wir haben einen Platz, wo wir sie abstellen.)",
+     "Bei Vorschlägen in der Versammlung stehen manchmal zwei Konjunktive: <i>Proponho que <b>contratemos</b> uma empresa que <b>limpe</b> as escadas.</i> – Ich schlage vor, dass wir eine Firma beauftragen, die das Treppenhaus reinigt. (einer nach <i>propor que</i>, einer im Relativsatz)"
+    ],
+    "vergleich": "Im Deutschen hört man keinen Unterschied: „Wir brauchen jemanden, der … will“ / „Es gibt eine Frau, die … will“. Im Portugiesischen schon: <i>alguém que queira</i> (gesucht) – <i>uma senhora que quer</i> (bekannt).",
+    "beispiele": [
+     {"pt": "Precisamos de alguém que queira ser administrador.", "de": "Wir brauchen jemanden, der Verwalter sein will."},
+     {"pt": "Não há nada que se possa fazer.", "de": "Man kann nichts machen."},
+     {"pt": "Procuramos uma empresa que repare o telhado.", "de": "Wir suchen eine Firma, die das Dach repariert."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Precisamos de alguém que ___ ser administrador. (querer)", "loesungen": ["queira"], "de": "Wir brauchen jemanden, der Verwalter sein will.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Não há nada que ___ fazer. (nós, poder)", "loesungen": ["possamos"], "de": "Es gibt nichts, was wir tun können.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "O João é o vizinho que ___ as atas. (escrever)", "loesungen": ["escreve"], "de": "João ist der Nachbar, der die Protokolle schreibt.", "erklaerung": "Bekannte Person → Indikativ.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "Procuramos uma empresa que ___ o telhado. (reparar)", "loesungen": ["repare"], "de": "Wir suchen eine Firma, die das Dach repariert.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Wir suchen einen Platz, wo wir die Fahrräder abstellen können.“", "optionen": ["Procuramos um sítio onde podemos pôr as bicicletas.", "Procuramos um sítio onde possamos pôr as bicicletas.", "Procuramos um sítio onde pudemos pôr as bicicletas."], "richtig": 1, "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "Há uma vizinha que ___ ajudar.", "optionen": ["quer", "queira", "querer"], "richtig": 0, "erklaerung": "Die Nachbarin gibt es wirklich → Indikativ.", "kategorie": "Relativsatz Indikativ/Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Die Mehrheit hat dafür gestimmt.", "loesungen": ["A maioria votou a favor.", "A maioria votou a favor disso.", "A maioria votou sim."]},
+     {"typ": "satzbau", "de": "Das Dach muss repariert werden.", "loesung": "O telhado tem de ser reparado."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A assembleia de condóminos – die Eigentümerversammlung",
+    "situation": "Pedro und Rita haben ihre Wohnung in Portimão gekauft und sind zum ersten Mal bei der Eigentümerversammlung.",
+    "zeilen": [
+     {"sprecher": "Sr. Costa", "stimme": "m", "pt": "Boa noite a todos. Como diz a convocatória, o primeiro ponto da ordem de trabalhos é o telhado.", "de": "Guten Abend allerseits. Wie in der Einladung steht, ist der erste Tagesordnungspunkt das Dach."},
+     {"sprecher": "D. Fernanda", "stimme": "f", "pt": "Finalmente! Há meses que tenho uma infiltração no quarto. Precisamos de uma empresa que repare o telhado quanto antes.", "de": "Endlich! Seit Monaten dringt bei mir im Schlafzimmer Wasser ein. Wir brauchen eine Firma, die das Dach so schnell wie möglich repariert."},
+     {"sprecher": "Sr. Costa", "stimme": "m", "pt": "Temos dois orçamentos. O mais barato é de doze mil euros, que podem ser pagos com o fundo comum de reserva.", "de": "Wir haben zwei Kostenvoranschläge. Der günstigere beträgt zwölftausend Euro, die aus der Instandhaltungsrücklage bezahlt werden können."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E o fundo chega para isso?", "de": "Und reicht die Rücklage dafür?"},
+     {"sprecher": "Sr. Costa", "stimme": "m", "pt": "Chega à justa. Proponho que votemos já. Quem vota a favor?", "de": "Gerade so. Ich schlage vor, dass wir gleich abstimmen. Wer ist dafür?"},
+     {"sprecher": "D. Fernanda", "stimme": "f", "pt": "Eu voto a favor. E a fração do Sr. Lopes também, porque ele me deu uma procuração.", "de": "Ich stimme dafür. Und die Einheit von Herrn Lopes auch, weil er mir eine Vollmacht gegeben hat."},
+     {"sprecher": "Sr. Costa", "stimme": "m", "pt": "Então está aprovado por maioria. Segundo ponto: o meu mandato acabou e precisamos de alguém que queira ser administrador.", "de": "Dann ist es mit Mehrheit angenommen. Zweiter Punkt: Meine Amtszeit ist vorbei, und wir brauchen jemanden, der Verwalter sein will."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Há alguém que tenha experiência? Nós chegámos há pouco tempo…", "de": "Gibt es jemanden, der Erfahrung hat? Wir sind erst vor kurzem eingezogen …"},
+     {"sprecher": "Sr. Costa", "stimme": "m", "pt": "Pelos vistos, não há ninguém que queira… Como todos os anos!", "de": "Anscheinend gibt es niemanden, der will … Wie jedes Jahr!"}
+    ],
+    "fragen": [
+     {"frage": "Qual é o primeiro ponto da ordem de trabalhos?", "optionen": ["O telhado.", "A eleição do administrador.", "A limpeza das escadas."], "richtig": 0},
+     {"frage": "Como vão pagar a reparação?", "optionen": ["Cada condómino paga mais cem euros.", "Com o fundo comum de reserva.", "Com um crédito do banco."], "richtig": 1},
+     {"frage": "Qual é o problema do segundo ponto?", "optionen": ["O orçamento é muito caro.", "A D. Fernanda não pode votar.", "Ninguém quer ser administrador."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du bist bei der Eigentümerversammlung deiner Wohnanlage.",
+    "zeilen": [
+     {"sprecher": "Administrador", "stimme": "m", "pt": "Alguém tem alguma proposta?", "de": "Hat jemand einen Vorschlag?"},
+     {"ich": true, "aufgabe": "Proponha que contratem uma empresa que limpe as escadas.", "loesungen": ["Proponho que contratemos uma empresa que limpe as escadas.", "Eu proponho que contratemos uma empresa que limpe as escadas.", "Sim, proponho que contratemos uma empresa que limpe as escadas.", "Tenho. Proponho que contratemos uma empresa que limpe as escadas.", "Proponho contratarmos uma empresa que limpe as escadas."]},
+     {"sprecher": "Administrador", "stimme": "m", "pt": "Boa ideia. Quem vota a favor?", "de": "Gute Idee. Wer ist dafür?"},
+     {"ich": true, "aufgabe": "Diga que vota a favor.", "loesungen": ["Eu voto a favor.", "Voto a favor.", "Eu voto a favor da proposta.", "Voto a favor da proposta."]},
+     {"sprecher": "Administrador", "stimme": "m", "pt": "Ótimo. Também precisamos de um novo administrador. Há alguém que queira?", "de": "Prima. Wir brauchen auch einen neuen Verwalter. Gibt es jemanden, der möchte?"},
+     {"ich": true, "aufgabe": "Diga que não conhece ninguém que tenha tempo para isso.", "loesungen": ["Não conheço ninguém que tenha tempo para isso.", "Eu não conheço ninguém que tenha tempo para isso.", "Infelizmente, não conheço ninguém que tenha tempo para isso.", "Não conheço ninguém que tenha tempo para isto."]}
+    ]
+   },
+   "saetze": [
+    {"id": "alguem-que-queira", "pt": "Precisamos de alguém que queira ser administrador.", "de": "Wir brauchen jemanden, der Verwalter sein will."},
+    {"id": "voto-a-favor", "pt": "Eu voto a favor.", "de": "Ich stimme dafür."},
+    {"id": "proponho-que-contratemos", "pt": "Proponho que contratemos uma empresa que limpe as escadas.", "de": "Ich schlage vor, dass wir eine Firma beauftragen, die das Treppenhaus reinigt."}
+   ]
+  },
+  {"id": "B1-04-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-04-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Rendas cada vez mais altas – immer höhere Mieten",
+   "situation": "Ein kurzer Radiobeitrag eines Regionalsenders über den Wohnungsmarkt an der Algarve.",
+   "zeilen": [
+    {"sprecher": "Jornalista", "stimme": "f", "pt": "As rendas no Algarve voltaram a subir este ano. Em Lagos, um T2 custa agora, em média, mais de mil euros por mês.", "de": "Die Mieten an der Algarve sind dieses Jahr wieder gestiegen. In Lagos kostet eine Zweizimmerwohnung jetzt im Schnitt über tausend Euro im Monat."},
+    {"sprecher": "Jornalista", "stimme": "f", "pt": "Muitas famílias procuram casas que fiquem mais longe da costa, onde as rendas ainda são mais baixas.", "de": "Viele Familien suchen Wohnungen weiter weg von der Küste, wo die Mieten noch niedriger sind."},
+    {"sprecher": "Jornalista", "stimme": "f", "pt": "Falámos com a Marta, enfermeira em Portimão.", "de": "Wir haben mit Marta gesprochen, Krankenpflegerin in Portimão."},
+    {"sprecher": "Marta", "stimme": "f", "pt": "Há seis meses que procuro um apartamento que eu possa pagar. Os senhorios pedem dois meses de caução, duas rendas adiantadas e ainda um fiador.", "de": "Seit sechs Monaten suche ich eine Wohnung, die ich mir leisten kann. Die Vermieter verlangen zwei Monatsmieten Kaution, zwei Mieten im Voraus und dazu noch einen Bürgen."},
+    {"sprecher": "Jornalista", "stimme": "f", "pt": "E comprar casa também não é fácil. Os bancos financiam no máximo noventa por cento do valor da avaliação, e muitos jovens não têm o resto.", "de": "Und ein Haus zu kaufen, ist auch nicht leicht. Die Banken finanzieren höchstens neunzig Prozent des Schätzwerts, und viele junge Leute haben den Rest nicht."},
+    {"sprecher": "Rui Santos", "stimme": "m", "pt": "Há muita procura e pouca oferta. Nesta zona, praticamente não há nenhuma casa que custe menos de duzentos mil euros.", "de": "Es gibt viel Nachfrage und wenig Angebot. In dieser Gegend gibt es praktisch kein Haus, das weniger als zweihunderttausend Euro kostet."},
+    {"sprecher": "Jornalista", "stimme": "f", "pt": "As câmaras da região prometem mais casas com rendas acessíveis nos próximos anos.", "de": "Die Gemeinden der Region versprechen für die nächsten Jahre mehr Wohnungen mit erschwinglichen Mieten."}
+   ],
+   "fragen": [
+    {"frage": "Quanto custa, em média, um T2 em Lagos?", "optionen": ["Menos de oitocentos euros.", "Mais de mil euros por mês.", "Duzentos mil euros."], "richtig": 1},
+    {"frage": "Onde procuram casa muitas famílias?", "optionen": ["Mais longe da costa.", "No centro de Lagos.", "Em Lisboa."], "richtig": 0},
+    {"frage": "O que pedem os senhorios à Marta?", "optionen": ["Só a primeira renda.", "Uma garantia bancária.", "Caução, rendas adiantadas e um fiador."], "richtig": 2},
+    {"frage": "O que diz o agente imobiliário Rui Santos?", "optionen": ["Que há muitas casas baratas.", "Que quase não há casas abaixo de duzentos mil euros.", "Que os preços vão descer."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Convocatória – Einladung zur Eigentümerversammlung",
+   "situation": "Stefan und Ana finden diesen Brief der Verwaltung ihrer Wohnanlage im Briefkasten.",
+   "text": [
+    "Condomínio Quinta das Oliveiras – Lagos",
+    "CONVOCATÓRIA",
+    "Ficam convocados todos os condóminos para a assembleia ordinária, que se realizará no dia 20 de janeiro, às 18h30, na sala comum do condomínio.",
+    "Ordem de trabalhos:",
+    "1. Aprovação das contas do ano anterior e do orçamento para o novo ano.",
+    "2. Reparação do telhado do edifício da piscina, a pagar com o fundo comum de reserva.",
+    "3. Eleição do administrador. Pede-se aos condóminos que estejam interessados que contactem a administração até ao dia 15 de janeiro.",
+    "Caso não haja quórum à hora marcada, a assembleia reunirá meia hora depois com os condóminos presentes.",
+    "Os condóminos que não possam estar presentes podem fazer-se representar por procuração.",
+    "A Administração"
+   ],
+   "fragen": [
+    {"frage": "Quando é a assembleia?", "optionen": ["No dia 15 de janeiro.", "No dia 20 de janeiro, às 18h30.", "Meia hora depois do jantar."], "richtig": 1},
+    {"frage": "O que vai ser reparado?", "optionen": ["O telhado do edifício da piscina.", "A fachada.", "O elevador."], "richtig": 0},
+    {"frage": "O que devem fazer os condóminos que querem ser administradores?", "optionen": ["Ir à assembleia com uma procuração.", "Pagar a quota.", "Contactar a administração até ao dia 15 de janeiro."], "richtig": 2},
+    {"frage": "O que podem fazer os condóminos que não possam ir?", "optionen": ["Votar por e-mail.", "Fazer-se representar por procuração.", "Nada."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Ich suche eine Wohnung, die eine Garage hat.", "loesungen": ["Procuro um apartamento que tenha garagem.", "Procuro uma casa que tenha garagem.", "Procuro um apartamento que tenha uma garagem.", "Procuro uma casa que tenha uma garagem.", "Estou à procura de uma casa que tenha garagem.", "Estou à procura de um apartamento que tenha garagem."]},
+   {"de": "Wir haben ein Haus, das einen Garten hat.", "loesungen": ["Temos uma casa que tem jardim.", "Temos uma casa que tem um jardim.", "Nós temos uma casa que tem jardim.", "Temos uma moradia que tem jardim."]},
+   {"de": "Es gibt keine Wohnung, die weniger als 700 Euro kostet.", "loesungen": ["Não há nenhum apartamento que custe menos de 700 euros.", "Não há nenhum apartamento que custe menos de setecentos euros.", "Não há nenhuma casa que custe menos de 700 euros.", "Não há nenhuma casa que custe menos de setecentos euros."]},
+   {"de": "Wie hoch ist die Kaution?", "loesungen": ["Quanto é a caução?", "De quanto é a caução?", "Qual é o valor da caução?"]},
+   {"de": "Falls die Bank den Kredit genehmigt, kaufen wir das Haus.", "loesungen": ["Caso o banco aprove o crédito, compramos a casa.", "Caso o banco aprove o crédito, vamos comprar a casa.", "Caso o banco aprove o crédito, compraremos a casa.", "Se o banco aprovar o crédito, compramos a casa.", "Se o banco aprovar o crédito, vamos comprar a casa."]},
+   {"de": "Die Grundsteuer wird jedes Jahr bezahlt.", "loesungen": ["O IMI é pago todos os anos.", "O IMI paga-se todos os anos."]}
+  ],
+  "sprechen": [
+   {"pt": "Procuro uma casa que tenha garagem.", "de": "Ich suche ein Haus, das eine Garage hat."},
+   {"pt": "Queria marcar uma visita, se faz favor.", "de": "Ich möchte bitte einen Besichtigungstermin vereinbaren."},
+   {"pt": "Pode ter animais, desde que não façam barulho.", "de": "Sie dürfen Tiere halten, sofern sie keinen Lärm machen."},
+   {"pt": "Assinámos o CPCV e pagámos o sinal.", "de": "Wir haben den Vorvertrag unterschrieben und die Anzahlung geleistet."},
+   {"pt": "Precisamos de alguém que queira ser administrador.", "de": "Wir brauchen jemanden, der Verwalter sein will."}
+  ]
+ }
+}

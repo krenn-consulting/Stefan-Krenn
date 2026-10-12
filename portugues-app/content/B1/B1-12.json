@@ -1,0 +1,889 @@
+{
+ "id": "B1-12",
+ "level": "B1",
+ "titel": "Ambiente e sociedade",
+ "beschreibung": "Über Klimawandel und Dürre an der Algarve, Wassersparen, Energie, Mobilität, Naturschutz, Tourismus, Gesellschaft und Freiwilligenarbeit sprechen und mitdiskutieren – mit dem unpersönlichen se (Vive-se bem aqui, Não se pode fumar, Diz-se que), unpersönlichen Ausdrücken (é preciso, vale a pena, é proibido) und Konnektoren zum Argumentieren (por um lado … por outro lado, no entanto, por isso, ou seja, aliás).",
+ "vokabeln": [
+  {"id": "as-alteracoes-climaticas", "pt": "as alterações climáticas", "de": "der Klimawandel", "emoji": "🌍", "beispiel_pt": "Fala-se muito das alterações climáticas.", "beispiel_de": "Man spricht viel über den Klimawandel.", "hinweis": "Im Portugiesischen meist im Plural. Auch: a mudança climática."},
+  {"id": "o-clima", "pt": "o clima", "de": "das Klima", "emoji": "🌤️", "beispiel_pt": "O clima do Algarve está a mudar.", "beispiel_de": "Das Klima der Algarve verändert sich."},
+  {"id": "a-chuva", "pt": "a chuva", "de": "der Regen", "emoji": "🌧️", "beispiel_pt": "Este inverno quase não houve chuva.", "beispiel_de": "In diesem Winter gab es fast keinen Regen."},
+  {"id": "a-albufeira", "pt": "a albufeira", "de": "der Stausee", "emoji": "🏞️", "beispiel_pt": "A albufeira da barragem da Bravura está quase vazia.", "beispiel_de": "Der Stausee der Bravura-Talsperre ist fast leer.", "hinweis": "Fachwort; im Alltag sagt man meist a barragem. Auch Name der Stadt Albufeira.", "passiv": true},
+  {"id": "a-horta", "pt": "a horta", "de": "der Gemüsegarten", "emoji": "🥬", "beispiel_pt": "O João tem uma horta atrás de casa.", "beispiel_de": "João hat hinter dem Haus einen Gemüsegarten."},
+  {"id": "a-temperatura", "pt": "a temperatura", "de": "die Temperatur", "emoji": "🌡️", "beispiel_pt": "As temperaturas vão subir amanhã.", "beispiel_de": "Die Temperaturen steigen morgen."},
+  {"id": "a-escassez-de-agua", "pt": "a escassez de água", "de": "die Wasserknappheit", "emoji": "🚱", "beispiel_pt": "A escassez de água é o maior problema da região.", "beispiel_de": "Die Wasserknappheit ist das größte Problem der Region.", "passiv": true},
+  {"id": "a-agricultura", "pt": "a agricultura", "de": "die Landwirtschaft", "emoji": "🚜", "beispiel_pt": "A agricultura gasta a maior parte da água.", "beispiel_de": "Die Landwirtschaft verbraucht den Großteil des Wassers.", "passiv": true},
+  {"id": "o-abacate", "pt": "o abacate", "de": "die Avocado", "emoji": "🥑", "beispiel_pt": "Plantam-se cada vez mais abacates no Algarve.", "beispiel_de": "In der Algarve werden immer mehr Avocados angebaut.", "passiv": true},
+
+  {"id": "o-consumo", "pt": "o consumo", "de": "der Verbrauch / der Konsum", "emoji": "📊", "beispiel_pt": "O consumo de água aumenta no verão.", "beispiel_de": "Der Wasserverbrauch steigt im Sommer."},
+  {"id": "consumir", "pt": "consumir", "de": "verbrauchen / konsumieren", "emoji": "🚰", "beispiel_pt": "A máquina de lavar loiça consome menos água do que lavar à mão.", "beispiel_de": "Die Spülmaschine verbraucht weniger Wasser als Abwaschen mit der Hand."},
+  {"id": "desperdicar", "pt": "desperdiçar", "de": "verschwenden", "emoji": "💸", "beispiel_pt": "Não se deve desperdiçar água.", "beispiel_de": "Man soll kein Wasser verschwenden."},
+  {"id": "o-desperdicio", "pt": "o desperdício", "de": "die Verschwendung", "emoji": "🚿", "beispiel_pt": "Lavar o carro com a mangueira é um desperdício.", "beispiel_de": "Das Auto mit dem Schlauch zu waschen ist Verschwendung.", "passiv": true},
+  {"id": "reutilizar", "pt": "reutilizar", "de": "wiederverwenden", "emoji": "♻️", "beispiel_pt": "Reutilizo a água da chuva para regar as plantas.", "beispiel_de": "Ich verwende das Regenwasser wieder, um die Pflanzen zu gießen.", "passiv": true},
+  {"id": "a-agua-da-torneira", "pt": "a água da torneira", "de": "das Leitungswasser", "emoji": "💧", "beispiel_pt": "Em Lagos pode-se beber a água da torneira.", "beispiel_de": "In Lagos kann man das Leitungswasser trinken."},
+  {"id": "a-relva", "pt": "a relva", "de": "der Rasen", "emoji": "🌱", "beispiel_pt": "Regar a relva no verão gasta muita água.", "beispiel_de": "Den Rasen im Sommer zu gießen verbraucht viel Wasser."},
+  {"id": "a-rega", "pt": "a rega", "de": "die Bewässerung / das Gießen", "emoji": "🪴", "beispiel_pt": "A Câmara proibiu a rega de jardins durante o dia.", "beispiel_de": "Die Gemeinde hat das Gießen von Gärten tagsüber verboten.", "hinweis": "a rega gota a gota = die Tröpfchenbewässerung", "passiv": true},
+  {"id": "o-autoclismo", "pt": "o autoclismo", "de": "die Toilettenspülung", "emoji": "🚽", "beispiel_pt": "Este autoclismo tem dois botões para poupar água.", "beispiel_de": "Diese Toilettenspülung hat zwei Tasten, um Wasser zu sparen.", "hinweis": "Typisch pt-PT. puxar o autoclismo = spülen", "passiv": true},
+
+  {"id": "os-paineis-solares", "pt": "os painéis solares", "de": "die Solarmodule / die Solaranlage", "emoji": "☀️", "beispiel_pt": "Instalámos painéis solares no telhado.", "beispiel_de": "Wir haben Solarmodule auf dem Dach installiert.", "hinweis": "Singular: o painel solar", "alternativen": ["o painel solar"]},
+  {"id": "a-fatura-da-luz", "pt": "a fatura da luz", "de": "die Stromrechnung", "emoji": "🧾", "beispiel_pt": "A fatura da luz deste mês veio altíssima.", "beispiel_de": "Die Stromrechnung diesen Monat war extrem hoch."},
+  {"id": "a-energia", "pt": "a energia", "de": "die Energie", "emoji": "⚡", "beispiel_pt": "Gasta-se muita energia com o ar condicionado.", "beispiel_de": "Mit der Klimaanlage verbraucht man viel Energie."},
+  {"id": "renovavel", "pt": "renovável", "de": "erneuerbar", "emoji": "🌬️", "beispiel_pt": "Portugal produz muita energia renovável.", "beispiel_de": "Portugal erzeugt viel erneuerbare Energie.", "hinweis": "Plural: renováveis – as energias renováveis"},
+  {"id": "o-aquecimento", "pt": "o aquecimento", "de": "die Heizung / das Heizen", "emoji": "🔥", "beispiel_pt": "Em muitas casas portuguesas não há aquecimento central.", "beispiel_de": "In vielen portugiesischen Häusern gibt es keine Zentralheizung.", "hinweis": "o aquecimento global = die Erderwärmung"},
+  {"id": "o-termoacumulador", "pt": "o termoacumulador", "de": "der Warmwasserspeicher / der Boiler", "emoji": "🛢️", "beispiel_pt": "O termoacumulador gasta muita eletricidade.", "beispiel_de": "Der Boiler verbraucht viel Strom.", "hinweis": "Typisch pt-PT; umgangssprachlich auch: o cilindro.", "passiv": true},
+  {"id": "a-bomba-de-calor", "pt": "a bomba de calor", "de": "die Wärmepumpe", "emoji": "♨️", "beispiel_pt": "A bomba de calor aquece a água com pouca eletricidade.", "beispiel_de": "Die Wärmepumpe erhitzt das Wasser mit wenig Strom.", "passiv": true},
+  {"id": "a-potencia-contratada", "pt": "a potência contratada", "de": "die vertraglich vereinbarte Anschlussleistung", "emoji": "🔌", "beispiel_pt": "Com pouca potência contratada, não se pode ligar o forno e a máquina ao mesmo tempo.", "beispiel_de": "Mit geringer Anschlussleistung kann man Backofen und Waschmaschine nicht gleichzeitig einschalten.", "hinweis": "Steht auf jeder Stromrechnung (z. B. 6,9 kVA) und bestimmt die Grundgebühr.", "passiv": true},
+  {"id": "o-contador", "pt": "o contador", "de": "der Zähler", "emoji": "🔢", "beispiel_pt": "O técnico veio ler o contador da luz.", "beispiel_de": "Der Techniker ist gekommen, um den Stromzähler abzulesen.", "passiv": true},
+
+  {"id": "a-mobilidade", "pt": "a mobilidade", "de": "die Mobilität", "emoji": "🚦", "beispiel_pt": "A Câmara apresentou um novo plano de mobilidade.", "beispiel_de": "Die Gemeinde hat einen neuen Mobilitätsplan vorgestellt."},
+  {"id": "a-trotinete", "pt": "a trotinete", "de": "der (E-)Scooter / der Tretroller", "emoji": "🛴", "beispiel_pt": "Em Lisboa alugam-se trotinetes elétricas em todo o lado.", "beispiel_de": "In Lissabon kann man überall E-Scooter mieten.", "hinweis": "a trotinete elétrica = der E-Scooter"},
+  {"id": "a-ciclovia", "pt": "a ciclovia", "de": "der Radweg", "emoji": "🚲", "beispiel_pt": "Há uma ciclovia nova ao longo da Meia Praia.", "beispiel_de": "Es gibt einen neuen Radweg entlang der Meia Praia."},
+  {"id": "o-carro-eletrico", "pt": "o carro elétrico", "de": "das Elektroauto", "emoji": "🚗", "beispiel_pt": "O Pedro comprou um carro elétrico.", "beispiel_de": "Pedro hat ein Elektroauto gekauft.", "hinweis": "Achtung: o elétrico allein = die Straßenbahn (Lissabon)."},
+  {"id": "a-poluicao", "pt": "a poluição", "de": "die Umweltverschmutzung", "emoji": "🏭", "beispiel_pt": "Nas grandes cidades, a poluição do ar é um problema sério.", "beispiel_de": "In den Großstädten ist die Luftverschmutzung ein ernstes Problem."},
+  {"id": "poluir", "pt": "poluir", "de": "verschmutzen", "emoji": "💨", "beispiel_pt": "Os carros a gasóleo poluem muito.", "beispiel_de": "Dieselautos verschmutzen die Umwelt stark.", "hinweis": "Präsens: poluo, poluis, polui, poluímos, poluem", "passiv": true},
+  {"id": "o-passe", "pt": "o passe", "de": "die Monatskarte / die Zeitkarte", "emoji": "🎫", "beispiel_pt": "Com o passe mensal, viaja-se mais barato.", "beispiel_de": "Mit der Monatskarte fährt man günstiger."},
+  {"id": "o-posto-de-carregamento", "pt": "o posto de carregamento", "de": "die Ladestation", "emoji": "🔋", "beispiel_pt": "Há dois postos de carregamento no parque de estacionamento do supermercado.", "beispiel_de": "Auf dem Parkplatz des Supermarkts gibt es zwei Ladestationen.", "passiv": true},
+  {"id": "a-pegada-de-carbono", "pt": "a pegada de carbono", "de": "der CO₂-Fußabdruck", "emoji": "👣", "beispiel_pt": "Andar de avião aumenta muito a pegada de carbono.", "beispiel_de": "Fliegen vergrößert den CO₂-Fußabdruck stark.", "passiv": true},
+
+  {"id": "o-parque-natural", "pt": "o parque natural", "de": "der Naturpark", "emoji": "🌳", "beispiel_pt": "A Costa Vicentina é um parque natural.", "beispiel_de": "Die Costa Vicentina ist ein Naturpark."},
+  {"id": "proteger", "pt": "proteger", "de": "schützen", "emoji": "🛡️", "beispiel_pt": "É preciso proteger a costa.", "beispiel_de": "Man muss die Küste schützen.", "hinweis": "Präsens: protejo, proteges, protege …"},
+  {"id": "a-placa", "pt": "a placa", "de": "das Schild", "emoji": "🪧", "beispiel_pt": "A placa diz: proibido pisar as dunas.", "beispiel_de": "Auf dem Schild steht: Betreten der Dünen verboten."},
+  {"id": "respeitar", "pt": "respeitar", "de": "respektieren / einhalten", "emoji": "🤝", "beispiel_pt": "Os turistas nem sempre respeitam as regras.", "beispiel_de": "Die Touristen halten sich nicht immer an die Regeln."},
+  {"id": "a-multa", "pt": "a multa", "de": "das Bußgeld / der Strafzettel", "emoji": "💶", "beispiel_pt": "Quem acampar fora dos parques de campismo pode apanhar uma multa.", "beispiel_de": "Wer außerhalb der Campingplätze zeltet, kann ein Bußgeld bekommen.", "hinweis": "apanhar / levar uma multa = ein Bußgeld bekommen"},
+  {"id": "a-especie", "pt": "a espécie", "de": "die Art / die Spezies", "emoji": "🦎", "beispiel_pt": "Na ria vivem muitas espécies de aves.", "beispiel_de": "In der Lagune leben viele Vogelarten.", "passiv": true},
+  {"id": "a-duna", "pt": "a duna", "de": "die Düne", "emoji": "🏜️", "beispiel_pt": "Não se deve andar em cima das dunas.", "beispiel_de": "Man soll nicht auf den Dünen herumlaufen.", "passiv": true},
+  {"id": "acampar", "pt": "acampar", "de": "zelten / campen", "emoji": "⛺", "beispiel_pt": "Não se pode acampar na praia.", "beispiel_de": "Am Strand darf man nicht zelten.", "hinweis": "o parque de campismo = der Campingplatz", "passiv": true},
+  {"id": "pisar", "pt": "pisar", "de": "betreten / treten auf", "emoji": "🥾", "beispiel_pt": "Proibido pisar as dunas.", "beispiel_de": "Betreten der Dünen verboten.", "passiv": true},
+
+  {"id": "o-estudo", "pt": "o estudo", "de": "die Studie", "emoji": "📑", "beispiel_pt": "Um estudo recente mostra que chove cada vez menos no sul.", "beispiel_de": "Eine neue Studie zeigt, dass es im Süden immer weniger regnet."},
+  {"id": "de-acordo-com", "pt": "de acordo com", "de": "laut / gemäß", "emoji": "📰", "beispiel_pt": "De acordo com o IPMA, o país está em seca.", "beispiel_de": "Laut IPMA herrscht im Land Dürre.", "hinweis": "Auch: segundo. IPMA = der portugiesische Wetterdienst.", "alternativen": ["segundo"]},
+  {"id": "prever", "pt": "prever", "de": "vorhersagen / erwarten", "emoji": "🔮", "beispiel_pt": "Prevê-se chuva para o fim de semana.", "beispiel_de": "Für das Wochenende ist Regen vorhergesagt.", "hinweis": "Konjugiert wie ver: prevejo, prevê, preveem, previu"},
+  {"id": "aumentar", "pt": "aumentar", "de": "steigen / erhöhen", "emoji": "📈", "beispiel_pt": "O preço da água aumentou este ano.", "beispiel_de": "Der Wasserpreis ist dieses Jahr gestiegen."},
+  {"id": "diminuir", "pt": "diminuir", "de": "sinken / verringern", "emoji": "📉", "beispiel_pt": "O número de turistas diminui no inverno.", "beispiel_de": "Die Zahl der Touristen sinkt im Winter."},
+  {"id": "em-media", "pt": "em média", "de": "im Durchschnitt", "emoji": "➗", "beispiel_pt": "Em média, cada pessoa consome 190 litros de água por dia.", "beispiel_de": "Im Durchschnitt verbraucht jeder Mensch 190 Liter Wasser pro Tag."},
+  {"id": "a-percentagem", "pt": "a percentagem", "de": "der Prozentsatz / der Anteil", "emoji": "💯", "beispiel_pt": "Uma grande percentagem da água perde-se nos canos.", "beispiel_de": "Ein großer Teil des Wassers geht in den Leitungen verloren.", "hinweis": "pt-PT: percentagem (BR: porcentagem)", "passiv": true},
+  {"id": "calcular", "pt": "calcular", "de": "berechnen / schätzen", "emoji": "🧮", "beispiel_pt": "Calcula-se que a população do Algarve triplica no verão.", "beispiel_de": "Man schätzt, dass sich die Bevölkerung der Algarve im Sommer verdreifacht.", "passiv": true},
+  {"id": "o-investigador", "pt": "o investigador", "de": "der Forscher / der Wissenschaftler", "emoji": "🔬", "beispiel_pt": "Os investigadores da Universidade do Algarve estudam a seca.", "beispiel_de": "Die Forscher der Universität der Algarve untersuchen die Dürre.", "hinweis": "pt-PT: investigador (BR: pesquisador)", "alternativen": ["a investigadora"], "passiv": true},
+
+  {"id": "isto-e", "pt": "isto é", "de": "das heißt", "emoji": "🔁", "beispiel_pt": "Chegam milhões de turistas, isto é, muito mais do que a região aguenta.", "beispiel_de": "Es kommen Millionen Touristen, das heißt, viel mehr, als die Region verkraftet.", "hinweis": "Synonym: ou seja"},
+  {"id": "por-isso", "pt": "por isso", "de": "deshalb / darum", "emoji": "➡️", "beispiel_pt": "Choveu pouco; por isso, a água ficou mais cara.", "beispiel_de": "Es hat wenig geregnet; deshalb ist das Wasser teurer geworden."},
+  {"id": "contribuir-para", "pt": "contribuir para", "de": "beitragen zu", "emoji": "🧩", "beispiel_pt": "O turismo contribui para a economia local.", "beispiel_de": "Der Tourismus trägt zur lokalen Wirtschaft bei."},
+  {"id": "o-impacto", "pt": "o impacto", "de": "die Auswirkung / der Einfluss", "emoji": "💥", "beispiel_pt": "O turismo tem um grande impacto no ambiente.", "beispiel_de": "Der Tourismus hat große Auswirkungen auf die Umwelt."},
+  {"id": "o-campo-de-golfe", "pt": "o campo de golfe", "de": "der Golfplatz", "emoji": "⛳", "beispiel_pt": "Os campos de golfe gastam muita água.", "beispiel_de": "Golfplätze verbrauchen viel Wasser.", "passiv": true},
+  {"id": "sustentavel", "pt": "sustentável", "de": "nachhaltig", "emoji": "🌿", "beispiel_pt": "Precisamos de um turismo mais sustentável.", "beispiel_de": "Wir brauchen einen nachhaltigeren Tourismus.", "hinweis": "Plural: sustentáveis; a sustentabilidade = die Nachhaltigkeit"},
+  {"id": "a-dependencia", "pt": "a dependência", "de": "die Abhängigkeit", "emoji": "🔗", "beispiel_pt": "A dependência do turismo é um risco para a região.", "beispiel_de": "Die Abhängigkeit vom Tourismus ist ein Risiko für die Region.", "passiv": true},
+  {"id": "o-turismo-de-massas", "pt": "o turismo de massas", "de": "der Massentourismus", "emoji": "👥", "beispiel_pt": "Albufeira é um exemplo de turismo de massas.", "beispiel_de": "Albufeira ist ein Beispiel für Massentourismus.", "passiv": true},
+  {"id": "a-sazonalidade", "pt": "a sazonalidade", "de": "die Saisonabhängigkeit", "emoji": "📅", "beispiel_pt": "A sazonalidade é um problema: no inverno, muitos restaurantes fecham.", "beispiel_de": "Die Saisonabhängigkeit ist ein Problem: Im Winter schließen viele Restaurants.", "passiv": true},
+
+  {"id": "a-sociedade", "pt": "a sociedade", "de": "die Gesellschaft", "emoji": "🏘️", "beispiel_pt": "A sociedade portuguesa está a envelhecer.", "beispiel_de": "Die portugiesische Gesellschaft altert."},
+  {"id": "a-solidao", "pt": "a solidão", "de": "die Einsamkeit", "emoji": "😔", "beispiel_pt": "A solidão é um grande problema entre os idosos.", "beispiel_de": "Einsamkeit ist ein großes Problem unter älteren Menschen."},
+  {"id": "a-populacao", "pt": "a população", "de": "die Bevölkerung", "emoji": "👪", "beispiel_pt": "A população do interior está a diminuir.", "beispiel_de": "Die Bevölkerung im Landesinneren nimmt ab."},
+  {"id": "o-idoso", "pt": "o idoso", "de": "der ältere Mensch / der Senior", "emoji": "👴", "beispiel_pt": "Muitos idosos vivem sozinhos.", "beispiel_de": "Viele ältere Menschen leben allein.", "alternativen": ["a idosa", "os idosos"]},
+  {"id": "a-reforma", "pt": "a reforma", "de": "die Rente / der Ruhestand", "emoji": "🧓", "beispiel_pt": "Com a reforma que recebe, a D. Graça mal consegue pagar as contas.", "beispiel_de": "Mit der Rente, die sie bekommt, kann Frau Graça kaum ihre Rechnungen bezahlen.", "hinweis": "estar na reforma = in Rente sein. Auch: die Reform / die Renovierung."},
+  {"id": "o-envelhecimento", "pt": "o envelhecimento", "de": "die Alterung / das Altern", "emoji": "⏳", "beispiel_pt": "O envelhecimento da população preocupa o Governo.", "beispiel_de": "Die Alterung der Bevölkerung beunruhigt die Regierung.", "passiv": true},
+  {"id": "o-lar-de-idosos", "pt": "o lar de idosos", "de": "das Seniorenheim / das Altersheim", "emoji": "🏥", "beispiel_pt": "Os lares de idosos têm longas listas de espera.", "beispiel_de": "Die Seniorenheime haben lange Wartelisten.", "passiv": true},
+  {"id": "a-natalidade", "pt": "a natalidade", "de": "die Geburtenrate", "emoji": "👶", "beispiel_pt": "Portugal tem uma das taxas de natalidade mais baixas da Europa.", "beispiel_de": "Portugal hat eine der niedrigsten Geburtenraten Europas.", "passiv": true},
+  {"id": "a-desigualdade", "pt": "a desigualdade", "de": "die Ungleichheit", "emoji": "⚖️", "beispiel_pt": "A desigualdade entre o litoral e o interior é grande.", "beispiel_de": "Die Ungleichheit zwischen Küste und Landesinnerem ist groß.", "passiv": true},
+
+  {"id": "o-voluntario", "pt": "o voluntário", "de": "der Freiwillige", "emoji": "🧤", "beispiel_pt": "Procuram-se voluntários para limpar a praia.", "beispiel_de": "Freiwillige für die Strandreinigung gesucht.", "alternativen": ["a voluntária"]},
+  {"id": "a-associacao", "pt": "a associação", "de": "der Verein", "emoji": "🏛️", "beispiel_pt": "A Ana é sócia de uma associação de proteção dos animais.", "beispiel_de": "Ana ist Mitglied in einem Tierschutzverein."},
+  {"id": "participar-em", "pt": "participar em", "de": "teilnehmen an", "emoji": "✋", "beispiel_pt": "No sábado vamos participar numa limpeza de praia.", "beispiel_de": "Am Samstag nehmen wir an einer Strandreinigung teil."},
+  {"id": "doar", "pt": "doar", "de": "spenden", "emoji": "🎁", "beispiel_pt": "Doámos roupa e livros à associação.", "beispiel_de": "Wir haben Kleidung und Bücher an den Verein gespendet.", "hinweis": "Präsens: doo, doas, doa …"},
+  {"id": "a-causa", "pt": "a causa", "de": "die Sache / das Anliegen", "emoji": "❤️", "beispiel_pt": "É por uma boa causa!", "beispiel_de": "Es ist für einen guten Zweck!", "hinweis": "por uma boa causa = für einen guten Zweck; por causa de = wegen"},
+  {"id": "o-voluntariado", "pt": "o voluntariado", "de": "die Freiwilligenarbeit / das Ehrenamt", "emoji": "🙋", "beispiel_pt": "Faz-se muito voluntariado na região.", "beispiel_de": "In der Region wird viel ehrenamtlich gearbeitet.", "passiv": true},
+  {"id": "o-donativo", "pt": "o donativo", "de": "die Spende", "emoji": "💝", "beispiel_pt": "Aceitam-se donativos.", "beispiel_de": "Spenden werden angenommen.", "passiv": true},
+  {"id": "o-banco-alimentar", "pt": "o banco alimentar", "de": "die Tafel (Lebensmittelbank)", "emoji": "🥫", "beispiel_pt": "Duas vezes por ano, o Banco Alimentar faz uma recolha nos supermercados.", "beispiel_de": "Zweimal im Jahr sammelt die Tafel in den Supermärkten Lebensmittel.", "passiv": true},
+  {"id": "angariar-fundos", "pt": "angariar fundos", "de": "Spenden sammeln / Geld sammeln", "emoji": "🪙", "beispiel_pt": "A associação organizou um jantar para angariar fundos.", "beispiel_de": "Der Verein hat ein Abendessen organisiert, um Spenden zu sammeln.", "passiv": true},
+
+  {"id": "deixe-me-acabar", "pt": "Deixe-me acabar.", "de": "Lassen Sie mich ausreden.", "emoji": "✋", "beispiel_pt": "Deixe-me acabar, se faz favor.", "beispiel_de": "Lassen Sie mich bitte ausreden.", "hinweis": "Informell (tu): Deixa-me acabar.", "alternativen": ["Deixa-me acabar."]},
+  {"id": "discordar", "pt": "discordar", "de": "nicht zustimmen / anderer Meinung sein", "emoji": "👎", "beispiel_pt": "Discordo totalmente de ti.", "beispiel_de": "Ich bin ganz anderer Meinung als du.", "hinweis": "discordar de alguém / algo; Gegenteil: concordar com"},
+  {"id": "na-minha-perspetiva", "pt": "na minha perspetiva", "de": "aus meiner Perspektive / meiner Meinung nach", "emoji": "👁️", "beispiel_pt": "Na minha perspetiva, o problema é a falta de casas.", "beispiel_de": "Aus meiner Perspektive ist das Problem der Mangel an Wohnungen.", "hinweis": "pt-PT (AO90): perspetiva, ohne c"},
+  {"id": "o-moderador", "pt": "o moderador", "de": "der Moderator / der Diskussionsleiter", "emoji": "🎙️", "beispiel_pt": "O moderador deu a palavra à primeira convidada.", "beispiel_de": "Der Moderator erteilte dem ersten Gast das Wort.", "alternativen": ["a moderadora"], "passiv": true},
+  {"id": "interromper", "pt": "interromper", "de": "unterbrechen", "emoji": "⏸️", "beispiel_pt": "Desculpe interromper, mas posso dizer uma coisa?", "beispiel_de": "Entschuldigen Sie, dass ich unterbreche, aber darf ich etwas sagen?"},
+  {"id": "ter-a-palavra", "pt": "ter a palavra", "de": "das Wort haben", "emoji": "🗣️", "beispiel_pt": "Tem a palavra a D. Fernanda.", "beispiel_de": "Frau Fernanda hat das Wort.", "hinweis": "pedir a palavra = ums Wort bitten", "passiv": true},
+  {"id": "quanto-a", "pt": "quanto a", "de": "was … betrifft", "emoji": "📌", "beispiel_pt": "Quanto à água, temos de agir já.", "beispiel_de": "Was das Wasser betrifft, müssen wir sofort handeln.", "hinweis": "quanto ao / à / aos / às", "passiv": true},
+  {"id": "concluir", "pt": "concluir", "de": "abschließen / folgern", "emoji": "🏁", "beispiel_pt": "Para concluir, gostava de deixar uma proposta.", "beispiel_de": "Zum Schluss möchte ich einen Vorschlag machen.", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-12-L01",
+   "typ": "neu",
+   "titel": "Klimawandel und Dürre an der Algarve: das unpersönliche se",
+   "vokabeln": ["as-alteracoes-climaticas", "o-clima", "a-chuva", "a-albufeira", "a-horta", "a-temperatura", "a-escassez-de-agua", "a-agricultura", "o-abacate"],
+   "grammatik": {
+    "titel": "O <i>se</i> impessoal: <i>Vive-se bem aqui</i>",
+    "erklaerung": [
+     "Para falar de forma geral, sem dizer quem faz a ação, usa-se o <b>se impessoal</b>: verbo na <b>3.ª pessoa do singular</b> + <b>se</b>. Corresponde ao alemão „man“: <i>Vive-se bem em Lagos.</i>",
+     "Numa frase afirmativa simples, o <b>se</b> vem depois do verbo, com hífen: <i>Come-<b>se</b> bem no Algarve. Fala-<b>se</b> muito da seca.</i>",
+     "Depois de <b>não</b>, de palavras interrogativas (<i>como, onde, quando</i>), de <b>que</b> e de advérbios como <i>já, ainda, também, sempre</i>, o <b>se</b> passa para antes do verbo: <i>Aqui <b>não se</b> vive mal. <b>Como se</b> diz isto em português? Acho <b>que se</b> fala demasiado do tempo.</i>",
+     "O se impessoal usa-se sobretudo com verbos sem objeto direto: <i>viver, comer, dormir, trabalhar, falar de, pensar em</i>. <i>No verão, dorme-se mal por causa do calor.</i>"
+    ],
+    "erklaerung_de": [
+     "Um allgemein zu sprechen, ohne zu sagen, wer etwas tut, verwendet man das <b>unpersönliche se</b>: Verb in der <b>3. Person Singular</b> + <b>se</b>. Es entspricht dem deutschen „man“: <i>Vive-se bem em Lagos.</i> – In Lagos lebt man gut.",
+     "In einem einfachen Aussagesatz steht <b>se</b> nach dem Verb, mit Bindestrich: <i>Come-<b>se</b> bem no Algarve.</i> – In der Algarve isst man gut. <i>Fala-<b>se</b> muito da seca.</i> – Man spricht viel über die Dürre.",
+     "Nach <b>não</b>, nach Fragewörtern (<i>como, onde, quando</i>), nach <b>que</b> und nach Adverbien wie <i>já, ainda, também, sempre</i> rückt <b>se</b> vor das Verb: <i>Aqui <b>não se</b> vive mal.</i> – Hier lebt man nicht schlecht. <i><b>Como se</b> diz isto em português?</i> – Wie sagt man das auf Portugiesisch? <i>Acho <b>que se</b> fala demasiado do tempo.</i> – Ich finde, man redet zu viel über das Wetter.",
+     "Das unpersönliche se steht vor allem bei Verben ohne direktes Objekt: <i>viver, comer, dormir, trabalhar, falar de, pensar em</i>. <i>No verão, dorme-se mal por causa do calor.</i> – Im Sommer schläft man wegen der Hitze schlecht."
+    ],
+    "vergleich": "Deutsch „man“ = <i>se</i> + Verb in der 3. Person Singular: „Hier lebt man gut.“ = <i>Vive-se bem aqui.</i> Das Englische nimmt oft „you“ oder „people“: „You eat well here.“ = <i>Come-se bem aqui.</i> Ein eigenes Wort für „man“ gibt es im Portugiesischen nicht.",
+    "beispiele": [
+     {"pt": "No Algarve vive-se bem, mas chove cada vez menos.", "de": "In der Algarve lebt man gut, aber es regnet immer weniger."},
+     {"pt": "Fala-se muito das alterações climáticas.", "de": "Man spricht viel über den Klimawandel."},
+     {"pt": "Com esta onda de calor, não se dorme bem.", "de": "Bei dieser Hitzewelle schläft man nicht gut."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Em Portugal ___ muito bem. (comer + se)", "loesungen": ["come-se"], "de": "In Portugal isst man sehr gut.", "kategorie": "se impessoal"},
+     {"typ": "luecke", "satz": "Aqui não ___ mal. (viver + se)", "loesungen": ["se vive"], "de": "Hier lebt man nicht schlecht.", "erklaerung": "Nach não steht se vor dem Verb: não se vive.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Acho que ___ demasiado do tempo. (falar + se)", "loesungen": ["se fala"], "de": "Ich finde, man redet zu viel über das Wetter.", "erklaerung": "Nach que steht se vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Wie sagt man ‚Dürre‘ auf Portugiesisch?“", "optionen": ["Como se diz „Dürre“ em português?", "Como diz-se „Dürre“ em português?", "Como se dizem „Dürre“ em português?"], "richtig": 0, "erklaerung": "Nach Fragewörtern (como, onde, quando …) steht se vor dem Verb – und das Verb bleibt im Singular.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Bei dieser Hitze schläft man schlecht.“", "optionen": ["Com este calor, dormem-se mal.", "Com este calor, se dorme mal.", "Com este calor, dorme-se mal."], "richtig": 2, "erklaerung": "Ohne Auslöser (não, Fragewort, que …) steht se nach dem Verb: dorme-se. Das Verb steht im Singular.", "kategorie": "se impessoal"},
+     {"typ": "uebersetzen", "de": "Man spricht viel über die Dürre.", "loesungen": ["Fala-se muito da seca.", "Fala-se muito sobre a seca.", "Fala-se muito na seca."]},
+     {"typ": "satzbau", "de": "In der Algarve lebt man gut, aber es regnet wenig.", "loesung": "No Algarve vive-se bem, mas chove pouco."},
+     {"typ": "diktat", "pt": "As barragens do Algarve estão quase vazias.", "de": "Die Stauseen der Algarve sind fast leer."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A seca no Algarve – die Dürre in der Algarve",
+    "situation": "O vizinho João, que tem uma horta, conversa com o Stefan à porta de casa.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Bom dia, Stefan! Que calor, não achas? E ainda estamos em maio.", "de": "Guten Morgen, Stefan! Was für eine Hitze, findest du nicht? Und dabei haben wir erst Mai."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia, João. Pois é. E este inverno quase não houve chuva.", "de": "Guten Morgen, João. Allerdings. Und in diesem Winter gab es fast keinen Regen."},
+     {"sprecher": "João", "stimme": "m", "pt": "Nem me fales. As barragens estão a menos de trinta por cento. Na televisão só se fala da seca.", "de": "Hör mir auf. Die Stauseen sind zu weniger als dreißig Prozent voll. Im Fernsehen spricht man nur über die Dürre."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a tua horta? Como está?", "de": "Und dein Gemüsegarten? Wie geht es ihm?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Mal. Já só rego à noite, porque durante o dia a água evapora logo.", "de": "Schlecht. Ich gieße nur noch nachts, weil das Wasser tagsüber sofort verdunstet."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Li que a agricultura gasta a maior parte da água. Com tantos abacates…", "de": "Ich habe gelesen, dass die Landwirtschaft den Großteil des Wassers verbraucht. Bei so vielen Avocados …"},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois, os abacates precisam de muita água. Quando eu era miúdo, o clima era diferente: chovia no inverno e não havia ondas de calor assim.", "de": "Ja, Avocados brauchen viel Wasser. Als ich ein Kind war, war das Klima anders: Im Winter regnete es und es gab keine solchen Hitzewellen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "As alterações climáticas sentem-se mesmo aqui no sul.", "de": "Den Klimawandel spürt man hier im Süden wirklich."},
+     {"sprecher": "João", "stimme": "m", "pt": "É verdade. Aqui ainda se vive bem, mas temos de ter muito cuidado com a água.", "de": "Das stimmt. Hier lebt man noch gut, aber wir müssen sehr sorgsam mit dem Wasser umgehen."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o João só rega à noite?", "optionen": ["Porque de dia não tem tempo.", "Porque durante o dia a água evapora logo.", "Porque a Câmara o obriga."], "richtig": 1},
+     {"frage": "Segundo o Stefan, quem gasta a maior parte da água?", "optionen": ["A agricultura.", "Os turistas.", "As piscinas."], "richtig": 0},
+     {"frage": "Como era o clima quando o João era miúdo?", "optionen": ["Mais seco do que agora.", "Igual ao de agora.", "Chovia no inverno e não havia ondas de calor assim."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "No Algarve vive-se bem.", "de": "In der Algarve lebt man gut."},
+     {"pt": "Este inverno quase não houve chuva.", "de": "In diesem Winter gab es fast keinen Regen."},
+     {"pt": "As barragens estão quase vazias.", "de": "Die Stauseen sind fast leer."},
+     {"pt": "Fala-se muito das alterações climáticas.", "de": "Man spricht viel über den Klimawandel."},
+     {"pt": "Com esta onda de calor, não se dorme bem.", "de": "Bei dieser Hitzewelle schläft man nicht gut."}
+    ]
+   },
+   "saetze": [
+    {"id": "vive-se-bem-aqui", "pt": "Vive-se bem aqui.", "de": "Hier lebt man gut."},
+    {"id": "como-se-diz-isto", "pt": "Como se diz isto em português?", "de": "Wie sagt man das auf Portugiesisch?"},
+    {"id": "este-ano-quase-nao-choveu", "pt": "Este ano quase não choveu.", "de": "Dieses Jahr hat es fast nicht geregnet."}
+   ]
+  },
+  {
+   "id": "B1-12-L02",
+   "typ": "neu",
+   "titel": "Wasser sparen: Regeln mit pode-se, deve-se, não se pode",
+   "vokabeln": ["o-consumo", "consumir", "desperdicar", "o-desperdicio", "reutilizar", "a-agua-da-torneira", "a-relva", "a-rega", "o-autoclismo"],
+   "grammatik": {
+    "titel": "Regras: <i>pode-se, deve-se, não se pode</i> + infinitivo",
+    "erklaerung": [
+     "Para dar regras gerais usa-se <b>poder</b> ou <b>dever</b> na 3.ª pessoa do singular + <b>se</b> + infinitivo: <i><b>Pode-se</b> beber a água da torneira. <b>Deve-se</b> fechar a torneira.</i>",
+     "Para proibir: <b>não se pode</b> + infinitivo. Depois de <b>não</b>, o <b>se</b> fica antes do verbo: <i><b>Não se pode</b> regar a relva durante o dia. <b>Não se deve</b> desperdiçar água.</i>",
+     "Nas perguntas com palavra interrogativa, o <b>se</b> também vai para antes do verbo: <i>Onde <b>se pode</b> deixar o óleo usado?</i> Nas perguntas sem palavra interrogativa, a ordem é a da frase afirmativa: <i><b>Pode-se</b> beber esta água?</i>",
+     "Para dizer que é obrigatório: <b>tem de se</b> + infinitivo ou <b>é preciso</b> + infinitivo: <i><b>Tem de se</b> poupar água. <b>É preciso</b> reparar as fugas.</i>"
+    ],
+    "erklaerung_de": [
+     "Für allgemeine Regeln nimmt man <b>poder</b> oder <b>dever</b> in der 3. Person Singular + <b>se</b> + Infinitiv: <i><b>Pode-se</b> beber a água da torneira.</i> – Man kann das Leitungswasser trinken. <i><b>Deve-se</b> fechar a torneira.</i> – Man soll den Wasserhahn zudrehen.",
+     "Verbote: <b>não se pode</b> + Infinitiv. Nach <b>não</b> steht se vor dem Verb: <i><b>Não se pode</b> regar a relva durante o dia.</i> – Tagsüber darf man den Rasen nicht gießen. <i><b>Não se deve</b> desperdiçar água.</i> – Man soll kein Wasser verschwenden.",
+     "In Fragen mit Fragewort rückt <b>se</b> ebenfalls vor das Verb: <i>Onde <b>se pode</b> deixar o óleo usado?</i> – Wo kann man das Altöl abgeben? In Ja/Nein-Fragen bleibt die Reihenfolge des Aussagesatzes: <i><b>Pode-se</b> beber esta água?</i> – Kann man dieses Wasser trinken?",
+     "Für „man muss“: <b>tem de se</b> + Infinitiv oder <b>é preciso</b> + Infinitiv: <i><b>Tem de se</b> poupar água.</i> – Man muss Wasser sparen. <i><b>É preciso</b> reparar as fugas.</i> – Man muss die Lecks reparieren."
+    ],
+    "vergleich": "„Man darf/kann“ = <i>pode-se</i>, „man soll“ = <i>deve-se</i>, „man darf nicht“ = <i>não se pode</i>. Im Deutschen steht „man“ als Subjekt; im Portugiesischen hängt <i>se</i> am Modalverb – das zweite Verb bleibt im Infinitiv.",
+    "beispiele": [
+     {"pt": "Em Lagos pode-se beber a água da torneira.", "de": "In Lagos kann man das Leitungswasser trinken."},
+     {"pt": "Não se pode regar a relva entre as oito e as vinte horas.", "de": "Zwischen 8 und 20 Uhr darf man den Rasen nicht gießen."},
+     {"pt": "Deve-se reutilizar a água sempre que possível.", "de": "Man soll das Wasser wiederverwenden, wann immer es möglich ist."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ beber a água da torneira? – Sim, é muito boa. (poder + se)", "loesungen": ["Pode-se"], "de": "Kann man das Leitungswasser trinken? – Ja, es ist sehr gut.", "kategorie": "se impessoal"},
+     {"typ": "luecke", "satz": "Aqui não ___ lavar o carro com a mangueira. (poder + se)", "loesungen": ["se pode"], "de": "Hier darf man das Auto nicht mit dem Schlauch waschen.", "erklaerung": "não zieht se vor das Verb: não se pode.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "___ fechar a torneira quando não se está a usar a água. (dever + se)", "loesungen": ["Deve-se"], "de": "Man soll den Wasserhahn zudrehen, wenn man das Wasser nicht benutzt.", "kategorie": "se impessoal"},
+     {"typ": "auswahl", "frage": "„Wo kann man hier die Flasche auffüllen?“", "optionen": ["Onde pode-se encher a garrafa aqui?", "Onde se pode encher a garrafa aqui?", "Onde se podem encher a garrafa aqui?"], "richtig": 1, "erklaerung": "Nach einem Fragewort (onde) steht se vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Man soll kein Wasser verschwenden.“", "optionen": ["Não se deve desperdiçar água.", "Não deve-se desperdiçar água.", "Não se devem desperdiçar água."], "richtig": 0, "erklaerung": "Nach não steht se vor dem Verb; das Verb bleibt im Singular.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Man darf den Rasen tagsüber nicht gießen.", "loesungen": ["Não se pode regar a relva durante o dia.", "Não se pode regar a relva de dia.", "Durante o dia não se pode regar a relva.", "De dia não se pode regar a relva.", "Durante o dia, não se pode regar a relva.", "É proibido regar a relva durante o dia."]},
+     {"typ": "uebersetzen", "de": "Man soll das Regenwasser wiederverwenden.", "loesungen": ["Deve-se reutilizar a água da chuva.", "Deve-se reaproveitar a água da chuva.", "Devemos reutilizar a água da chuva."]},
+     {"typ": "satzbau", "de": "Man muss Wasser sparen, weil es wenig geregnet hat.", "loesung": "Tem de se poupar água porque choveu pouco."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Aviso da Câmara: novas regras para a água – Mitteilung der Gemeinde: neue Regeln fürs Wasser",
+    "situation": "Um aviso da Câmara Municipal de Lagos, lido na rádio local.",
+    "zeilen": [
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Atenção, moradores de Lagos: devido à seca, a Câmara Municipal aprovou novas regras para o consumo de água.", "de": "Achtung, Einwohner von Lagos: Wegen der Dürre hat die Gemeinde neue Regeln für den Wasserverbrauch beschlossen."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "A partir de segunda-feira, não se pode regar jardins nem relva entre as oito da manhã e as oito da noite.", "de": "Ab Montag darf man zwischen acht Uhr morgens und acht Uhr abends weder Gärten noch Rasen gießen."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Também não se pode lavar carros com mangueira nem encher piscinas privadas.", "de": "Außerdem darf man keine Autos mit dem Schlauch waschen und keine privaten Pools füllen."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Nas praias, os duches vão estar desligados durante todo o verão.", "de": "An den Stränden bleiben die Duschen den ganzen Sommer über abgestellt."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Quem não cumprir estas regras pode pagar uma multa até quinhentos euros.", "de": "Wer sich nicht an diese Regeln hält, kann ein Bußgeld bis zu fünfhundert Euro zahlen."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "A Câmara pede a todos que reduzam o consumo: tomar duches mais curtos, reutilizar a água e reparar as fugas.", "de": "Die Gemeinde bittet alle, den Verbrauch zu senken: kürzer duschen, Wasser wiederverwenden und Lecks reparieren."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Mais informações no site da Câmara Municipal de Lagos.", "de": "Weitere Informationen auf der Website der Gemeinde Lagos."}
+    ],
+    "fragen": [
+     {"frage": "Quando é que não se pode regar a relva?", "optionen": ["Entre as oito da manhã e as oito da noite.", "Só ao fim de semana.", "Durante a noite."], "richtig": 0},
+     {"frage": "O que acontece nas praias?", "optionen": ["Fecham ao meio-dia.", "Os duches vão estar desligados.", "É proibido tomar banho."], "richtig": 1},
+     {"frage": "Quanto pode custar a multa?", "optionen": ["Cinquenta euros.", "Cem euros.", "Até quinhentos euros."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "O vizinho João quer lavar o carro com a mangueira ao meio-dia. Explique-lhe as regras novas (tu).",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Olá, Stefan! Está um calor… Vou aproveitar para lavar o carro.", "de": "Hallo, Stefan! Ist das heiß … Ich nutze die Gelegenheit und wasche das Auto."},
+     {"ich": true, "aufgabe": "Sag: Achtung, João, jetzt darf man keine Autos mit dem Schlauch waschen.", "loesungen": ["Cuidado, João, agora não se pode lavar carros com a mangueira.", "Atenção, João, agora não se pode lavar carros com a mangueira.", "Cuidado, João, agora não se pode lavar o carro com a mangueira.", "Atenção, João, agora não se pode lavar o carro com a mangueira.", "Cuidado, João, agora não se podem lavar carros com a mangueira.", "Atenção, João, agora não se podem lavar carros com a mangueira.", "Cuidado, João, agora é proibido lavar carros com a mangueira."]},
+     {"sprecher": "João", "stimme": "m", "pt": "A sério? Não sabia. Então como é que se lava o carro?", "de": "Echt? Das wusste ich nicht. Wie wäscht man denn dann das Auto?"},
+     {"ich": true, "aufgabe": "Sag: Man kann einen Eimer benutzen oder zu einer Waschanlage fahren. (o balde, a estação de lavagem)", "loesungen": ["Pode-se usar um balde ou ir a uma estação de lavagem.", "Pode-se usar um balde ou ir à estação de lavagem.", "Podes usar um balde ou ir a uma estação de lavagem.", "Podes usar um balde ou ir à estação de lavagem."]},
+     {"sprecher": "João", "stimme": "m", "pt": "E a relva? Também não a posso regar?", "de": "Und der Rasen? Darf ich den auch nicht gießen?"},
+     {"ich": true, "aufgabe": "Sag: Doch, aber nur am Abend. Man soll kein Wasser verschwenden.", "loesungen": ["Podes, mas só à noite. Não se deve desperdiçar água.", "Podes, mas só ao fim do dia. Não se deve desperdiçar água.", "Sim, mas só à noite. Não se deve desperdiçar água.", "Podes, mas só à noite. Não se deve desperdiçar água!", "Podes regar, mas só à noite. Não se deve desperdiçar água."]}
+    ]
+   },
+   "saetze": [
+    {"id": "nao-se-pode-regar", "pt": "Não se pode regar a relva durante o dia.", "de": "Tagsüber darf man den Rasen nicht gießen."},
+    {"id": "pode-se-beber-agua-torneira", "pt": "Pode-se beber a água da torneira?", "de": "Kann man das Leitungswasser trinken?"},
+    {"id": "nao-se-deve-desperdicar", "pt": "Não se deve desperdiçar água.", "de": "Man soll kein Wasser verschwenden."}
+   ]
+  },
+  {
+   "id": "B1-12-L03",
+   "typ": "neu",
+   "titel": "Energie und Stromrechnung: se mit Singular oder Plural?",
+   "vokabeln": ["os-paineis-solares", "a-fatura-da-luz", "a-energia", "renovavel", "o-aquecimento", "o-termoacumulador", "a-bomba-de-calor", "a-potencia-contratada", "o-contador"],
+   "grammatik": {
+    "titel": "<i>Vende-se</i> ou <i>vendem-se</i>? O <i>se</i> com objeto",
+    "erklaerung": [
+     "Quando o verbo tem um <b>objeto direto</b>, o <b>se</b> funciona como uma passiva (como em <i>vende-se</i>): o verbo <b>concorda com o nome</b>. Singular: <i>Instala-se um painel solar.</i> Plural: <i>Instala<b>m</b>-se painéis solares.</i>",
+     "Por isso: <i>Aluga-se apartamento</i>, mas <i>Aluga<b>m</b>-se apartamentos</i>. <i>Paga-se a fatura</i>, mas <i>Paga<b>m</b>-se as faturas</i>.",
+     "Com <b>verbo + preposição</b> não há objeto direto: o verbo fica <b>sempre no singular</b>. <i>Precisa-se <b>de</b> técnicos. Fala-se <b>de</b> energias renováveis. Trata-se <b>de</b> um problema sério.</i>",
+     "Na língua falada ouve-se muitas vezes o singular com nomes no plural (<i>vende-se casas</i>), mas na escrita use o plural: <i><b>Vendem</b>-se casas.</i>"
+    ],
+    "erklaerung_de": [
+     "Hat das Verb ein <b>direktes Objekt</b>, wirkt <b>se</b> wie ein Passiv (wie bei <i>vende-se</i>): Das Verb <b>richtet sich nach dem Nomen</b>. Singular: <i>Instala-se um painel solar.</i> – Ein Solarmodul wird installiert. Plural: <i>Instala<b>m</b>-se painéis solares.</i> – Solarmodule werden installiert.",
+     "Also: <i>Aluga-se apartamento</i> (Wohnung zu vermieten), aber <i>Aluga<b>m</b>-se apartamentos</i> (Wohnungen zu vermieten). <i>Paga-se a fatura</i>, aber <i>Paga<b>m</b>-se as faturas</i>.",
+     "Bei <b>Verb + Präposition</b> gibt es kein direktes Objekt: Das Verb steht <b>immer im Singular</b>. <i>Precisa-se <b>de</b> técnicos.</i> – Techniker gesucht. <i>Fala-se <b>de</b> energias renováveis.</i> – Man spricht über erneuerbare Energien. <i>Trata-se <b>de</b> um problema sério.</i> – Es handelt sich um ein ernstes Problem.",
+     "In der gesprochenen Sprache hört man oft den Singular mit Nomen im Plural (<i>vende-se casas</i>), aber schriftlich gilt der Plural: <i><b>Vendem</b>-se casas.</i> – Häuser zu verkaufen."
+    ],
+    "vergleich": "Im Deutschen bleibt „man“ immer gleich: „Man installiert Solarmodule.“ Im Portugiesischen richtet sich das Verb nach dem Objekt, weil es eigentlich ein Passiv ist: <i>Instalam-se painéis solares</i> = „Solarmodule werden installiert.“ Vergleiche Schilder wie „Zimmer zu vermieten“ = <i>Alugam-se quartos</i>.",
+    "beispiele": [
+     {"pt": "Instalam-se painéis solares – orçamento grátis.", "de": "Solarmodule werden installiert – kostenloser Kostenvoranschlag."},
+     {"pt": "No inverno gasta-se muita energia com o aquecimento.", "de": "Im Winter verbraucht man viel Energie fürs Heizen."},
+     {"pt": "Precisa-se de eletricistas com experiência em bombas de calor.", "de": "Elektriker mit Erfahrung mit Wärmepumpen gesucht."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ painéis solares. (instalar + se)", "loesungen": ["Instalam-se"], "de": "Solarmodule werden installiert.", "erklaerung": "painéis = Plural → instalam-se.", "kategorie": "se: Kongruenz"},
+     {"typ": "luecke", "satz": "___ casa com bomba de calor. (vender + se)", "loesungen": ["Vende-se"], "de": "Haus mit Wärmepumpe zu verkaufen.", "kategorie": "se: Kongruenz"},
+     {"typ": "luecke", "satz": "___ de técnicos para o novo parque solar. (precisar + se)", "loesungen": ["Precisa-se"], "de": "Techniker für den neuen Solarpark gesucht.", "erklaerung": "precisar de hat kein direktes Objekt → immer Singular.", "kategorie": "se: Kongruenz"},
+     {"typ": "luecke", "satz": "No inverno ___ muita energia com o aquecimento. (gastar + se)", "loesungen": ["gasta-se"], "de": "Im Winter verbraucht man viel Energie fürs Heizen.", "kategorie": "se impessoal"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist schriftlich korrekt? („Wohnungen mit Solarmodulen zu verkaufen.“)", "optionen": ["Vende-se apartamentos com painéis solares.", "Vendem-se apartamentos com painéis solares.", "Vendem-se de apartamentos com painéis solares."], "richtig": 1, "erklaerung": "apartamentos ist direktes Objekt im Plural → vendem-se.", "kategorie": "se: Kongruenz"},
+     {"typ": "auswahl", "frage": "„Man spricht viel über erneuerbare Energien.“", "optionen": ["Falam-se muito de energias renováveis.", "Fala-se muito de energias renováveis.", "Se fala muito de energias renováveis."], "richtig": 1, "erklaerung": "falar de → Präposition → Singular. Und am Satzanfang steht se nie vor dem Verb.", "kategorie": "se: Kongruenz"},
+     {"typ": "uebersetzen", "de": "Die Stromrechnung bezahlt man online.", "loesungen": ["Paga-se a fatura da luz online.", "A fatura da luz paga-se online.", "Paga-se a fatura da luz pela internet.", "A fatura da luz paga-se pela internet.", "A fatura da luz é paga online."]},
+     {"typ": "satzbau", "de": "Mit Solarmodulen spart man viel Geld.", "loesung": "Com painéis solares poupa-se muito dinheiro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A fatura da luz – die Stromrechnung",
+    "situation": "A Ana abre a fatura da luz de janeiro.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, olha para isto! Cento e oitenta euros de luz só em janeiro!", "de": "Stefan, schau dir das an! Hundertachtzig Euro Strom allein im Januar!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Cento e oitenta? É o aquecimento. Esta casa não tem isolamento nenhum.", "de": "Hundertachtzig? Das ist die Heizung. Dieses Haus hat überhaupt keine Dämmung."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Pois. Nas casas antigas do Algarve perde-se o calor todo pelas janelas.", "de": "Ja. In den alten Häusern der Algarve geht die ganze Wärme durch die Fenster verloren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E se instalássemos painéis solares? O Pedro instalou-os no ano passado e diz que poupa imenso.", "de": "Und wenn wir Solarmodule installieren würden? Pedro hat sie letztes Jahr installiert und sagt, dass er enorm spart."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Mas no inverno, quando se precisa mais de energia, há menos sol.", "de": "Aber im Winter, wenn man mehr Energie braucht, gibt es weniger Sonne."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É verdade, mas aqui há sol quase todo o ano. E com uma bomba de calor gasta-se muito menos eletricidade.", "de": "Stimmt, aber hier scheint fast das ganze Jahr die Sonne. Und mit einer Wärmepumpe verbraucht man viel weniger Strom."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E quanto custa isso tudo?", "de": "Und was kostet das alles?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Uns seis mil euros. Mas há apoios do Estado para as energias renováveis. Vou pedir um orçamento.", "de": "Etwa sechstausend Euro. Aber es gibt staatliche Förderungen für erneuerbare Energien. Ich hole einen Kostenvoranschlag ein."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Está bem. E até lá, desliga o aquecimento quando sais da sala!", "de": "Einverstanden. Und bis dahin: Mach die Heizung aus, wenn du aus dem Wohnzimmer gehst!"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a fatura de janeiro é tão alta?", "optionen": ["Por causa do aquecimento e da falta de isolamento.", "Porque o Stefan trabalha em casa.", "Porque o preço da luz subiu."], "richtig": 0},
+     {"frage": "Qual é a dúvida da Ana sobre os painéis solares?", "optionen": ["São muito feios.", "No inverno há menos sol.", "O Pedro não gostou deles."], "richtig": 1},
+     {"frage": "O que vai o Stefan fazer?", "optionen": ["Mudar de casa.", "Comprar um aquecedor novo.", "Pedir um orçamento."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Wohnung zu vermieten.", "loesungen": ["Aluga-se apartamento.", "Aluga-se um apartamento.", "Arrenda-se apartamento.", "Arrenda-se um apartamento."]},
+     {"de": "Zimmer (Plural) zu vermieten.", "loesungen": ["Alugam-se quartos.", "Arrendam-se quartos."]},
+     {"de": "Hier spricht man Deutsch.", "loesungen": ["Aqui fala-se alemão.", "Fala-se alemão aqui.", "Fala-se alemão."]},
+     {"de": "Im Winter verbraucht man viel Energie.", "loesungen": ["No inverno gasta-se muita energia.", "No inverno consome-se muita energia.", "Gasta-se muita energia no inverno.", "Consome-se muita energia no inverno.", "No inverno, gasta-se muita energia.", "No inverno, consome-se muita energia."]},
+     {"de": "Elektriker gesucht.", "loesungen": ["Precisa-se de eletricista.", "Precisa-se de eletricistas.", "Procura-se eletricista.", "Procuram-se eletricistas."]}
+    ]
+   },
+   "saetze": [
+    {"id": "fatura-da-luz-alta", "pt": "A fatura da luz veio muito alta.", "de": "Die Stromrechnung war sehr hoch."},
+    {"id": "pensamos-instalar-paineis", "pt": "Pensamos instalar painéis solares.", "de": "Wir haben vor, Solarmodule zu installieren."},
+    {"id": "gasta-se-muita-energia", "pt": "Gasta-se muita energia com o aquecimento.", "de": "Fürs Heizen verbraucht man viel Energie."}
+   ]
+  },
+  {
+   "id": "B1-12-L04",
+   "typ": "neu",
+   "titel": "Mobilität: é preciso, vale a pena, é melhor + Infinitiv",
+   "vokabeln": ["a-mobilidade", "a-trotinete", "a-ciclovia", "o-carro-eletrico", "a-poluicao", "poluir", "o-passe", "o-posto-de-carregamento", "a-pegada-de-carbono"],
+   "grammatik": {
+    "titel": "Expressões impessoais: <i>é preciso, é melhor, vale a pena</i> + infinitivo",
+    "erklaerung": [
+     "Para falar em geral usa-se <b>é</b> + adjetivo + <b>infinitivo</b>: <i><b>É preciso</b> usar mais os transportes públicos. <b>É possível</b> ir de comboio até Lisboa.</i>",
+     "Outras expressões: <i>é importante, é necessário, é fundamental, é difícil, é fácil, é melhor, vale a pena, convém</i>. Não se usa preposição antes do infinitivo: <i><b>Vale a pena</b> comprar o passe. <b>Convém</b> reservar o bilhete.</i>",
+     "Para dizer <b>quem</b> deve fazer, usa-se o <b>infinitivo pessoal</b>: <i>É preciso <b>usarmos</b> menos o carro. É melhor <b>irem</b> de comboio.</i> Também é possível <i>que</i> + conjuntivo: <i>É preciso que <b>usemos</b> menos o carro.</i>",
+     "Mais formal: <b>há que</b> + infinitivo = é preciso: <i><b>Há que</b> reduzir a poluição.</i>"
+    ],
+    "erklaerung_de": [
+     "Für allgemeine Aussagen nimmt man <b>é</b> + Adjektiv + <b>Infinitiv</b>: <i><b>É preciso</b> usar mais os transportes públicos.</i> – Man muss öfter die öffentlichen Verkehrsmittel nutzen. <i><b>É possível</b> ir de comboio até Lisboa.</i> – Man kann mit dem Zug bis Lissabon fahren.",
+     "Weitere Ausdrücke: <i>é importante, é necessário, é fundamental, é difícil, é fácil, é melhor, vale a pena</i> (es lohnt sich), <i>convém</i> (es empfiehlt sich). Vor dem Infinitiv steht keine Präposition: <i><b>Vale a pena</b> comprar o passe.</i> – Es lohnt sich, die Monatskarte zu kaufen. <i><b>Convém</b> reservar o bilhete.</i> – Man sollte die Fahrkarte reservieren.",
+     "Um zu sagen, <b>wer</b> etwas tun soll, nimmt man den <b>persönlichen Infinitiv</b>: <i>É preciso <b>usarmos</b> menos o carro.</i> – Wir müssen weniger Auto fahren. <i>É melhor <b>irem</b> de comboio.</i> – Es ist besser, wenn ihr/sie mit dem Zug fahrt/fahren. Möglich ist auch <i>que</i> + Konjunktiv: <i>É preciso que <b>usemos</b> menos o carro.</i>",
+     "Gehobener: <b>há que</b> + Infinitiv = man muss: <i><b>Há que</b> reduzir a poluição.</i> – Man muss die Umweltverschmutzung verringern."
+    ],
+    "vergleich": "„Man muss mehr Rad fahren.“ – Im Portugiesischen klingt <i>É preciso andar mais de bicicleta</i> natürlicher als eine Konstruktion mit <i>se</i>. Englisch „It's necessary to …“ / „It's worth …“ = <i>é preciso …</i> / <i>vale a pena …</i> – aber ohne „to“ vor dem Verb.",
+    "beispiele": [
+     {"pt": "É preciso usar mais os transportes públicos.", "de": "Man muss öfter die öffentlichen Verkehrsmittel nutzen."},
+     {"pt": "Vale a pena comprar o passe mensal.", "de": "Es lohnt sich, die Monatskarte zu kaufen."},
+     {"pt": "É fundamental criarmos mais ciclovias na cidade.", "de": "Es ist unbedingt nötig, dass wir in der Stadt mehr Radwege schaffen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "É preciso ___ menos o carro. (nós – usar)", "loesungen": ["usarmos"], "de": "Wir müssen weniger Auto fahren.", "erklaerung": "Persönlicher Infinitiv: usar + -mos.", "kategorie": "infinitivo pessoal"},
+     {"typ": "luecke", "satz": "É melhor ___ de comboio. (vocês – ir)", "loesungen": ["irem"], "de": "Es ist besser, wenn ihr mit dem Zug fahrt.", "erklaerung": "Persönlicher Infinitiv: ir → irem (vocês/eles).", "kategorie": "infinitivo pessoal"},
+     {"typ": "luecke", "satz": "É importante as câmaras ___ ciclovias seguras. (criar)", "loesungen": ["criarem"], "de": "Es ist wichtig, dass die Gemeinden sichere Radwege schaffen.", "kategorie": "infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Es lohnt sich, die Monatskarte zu kaufen.“", "optionen": ["Vale a pena de comprar o passe.", "Vale a pena comprar o passe.", "Vale a pena para comprar o passe."], "richtig": 1, "erklaerung": "Nach vale a pena steht der Infinitiv ohne Präposition.", "kategorie": "unpersönliche Ausdrücke"},
+     {"typ": "auswahl", "frage": "„Man muss die Luftverschmutzung verringern.“ (gehoben)", "optionen": ["Há que reduzir a poluição do ar.", "Há de reduzir a poluição do ar.", "É que reduzir a poluição do ar."], "richtig": 0, "kategorie": "unpersönliche Ausdrücke"},
+     {"typ": "uebersetzen", "de": "Man kann mit dem Zug nach Lissabon fahren. (É possível …)", "loesungen": ["É possível ir de comboio para Lisboa.", "É possível ir de comboio até Lisboa.", "É possível ir para Lisboa de comboio.", "É possível ir a Lisboa de comboio.", "É possível ir de comboio a Lisboa.", "É possível ir até Lisboa de comboio."]},
+     {"typ": "uebersetzen", "de": "Elektroautos verschmutzen die Luft weniger.", "loesungen": ["Os carros elétricos poluem menos o ar.", "Os carros elétricos poluem menos.", "Os carros elétricos poluem o ar menos.", "Carros elétricos poluem menos o ar."]},
+     {"typ": "satzbau", "de": "Es ist besser, mit dem Fahrrad zur Arbeit zu fahren.", "loesung": "É melhor ir de bicicleta para o trabalho."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Como vais para o trabalho? – Wie kommst du zur Arbeit?",
+    "situation": "A Rita e o Stefan falam sobre mobilidade numa esplanada em Lagos.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, ainda vais de carro para o cowork? São só dois quilómetros!", "de": "Stefan, fährst du immer noch mit dem Auto zum Coworking? Das sind doch nur zwei Kilometer!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Eu sei, eu sei. Mas com este calor, se vou a pé, chego lá todo transpirado.", "de": "Ich weiß, ich weiß. Aber bei dieser Hitze komme ich völlig verschwitzt an, wenn ich zu Fuß gehe."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então compra uma trotinete elétrica. Eu tenho uma e adoro. E há ciclovia quase até à marina.", "de": "Dann kauf dir einen E-Scooter. Ich habe einen und liebe ihn. Und es gibt fast bis zum Jachthafen einen Radweg."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois, e o Pedro quer convencer-me a comprar um carro elétrico. Diz que polui menos e que se poupa muito em gasóleo.", "de": "Tja, und Pedro will mich überreden, ein Elektroauto zu kaufen. Er sagt, es verschmutzt die Luft weniger und man spart viel Diesel."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "É verdade, mas os carros elétricos são caros. E em Lagos ainda há poucos postos de carregamento.", "de": "Stimmt, aber Elektroautos sind teuer. Und in Lagos gibt es noch wenige Ladestationen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E os transportes públicos? Vale a pena comprar o passe?", "de": "Und die öffentlichen Verkehrsmittel? Lohnt es sich, die Monatskarte zu kaufen?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Para ir a Faro, sim: o passe mensal é baratíssimo. Mas os comboios no Algarve são lentos e não há muitos.", "de": "Um nach Faro zu fahren, ja: Die Monatskarte ist superbillig. Aber die Züge in der Algarve sind langsam, und es gibt nicht viele."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ou seja: o melhor é andar a pé, como antigamente!", "de": "Das heißt: Am besten geht man zu Fuß, wie früher!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Exatamente. É barato, não polui e faz bem à saúde.", "de": "Genau. Es ist billig, verschmutzt nichts und ist gut für die Gesundheit."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan vai de carro para o cowork?", "optionen": ["Porque é muito longe.", "Por causa do calor.", "Porque não há ciclovia."], "richtig": 1},
+     {"frage": "Qual é o problema dos carros elétricos em Lagos, segundo a Rita?", "optionen": ["Há poucos postos de carregamento.", "Poluem muito.", "Não se podem estacionar no centro."], "richtig": 0},
+     {"frage": "O que diz a Rita sobre os comboios no Algarve?", "optionen": ["São caros.", "São muito rápidos.", "São lentos e não há muitos."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "É preciso usar mais os transportes públicos.", "de": "Man muss öfter die öffentlichen Verkehrsmittel nutzen."},
+     {"pt": "Vale a pena comprar o passe mensal.", "de": "Es lohnt sich, die Monatskarte zu kaufen."},
+     {"pt": "Há uma ciclovia nova ao longo da praia.", "de": "Es gibt einen neuen Radweg am Strand entlang."},
+     {"pt": "Os carros elétricos poluem menos.", "de": "Elektroautos verschmutzen die Umwelt weniger."},
+     {"pt": "É melhor irmos a pé.", "de": "Es ist besser, wenn wir zu Fuß gehen."}
+    ]
+   },
+   "saetze": [
+    {"id": "vale-a-pena-comprar-passe", "pt": "Vale a pena comprar o passe.", "de": "Es lohnt sich, die Monatskarte zu kaufen."},
+    {"id": "e-melhor-irmos-a-pe", "pt": "É melhor irmos a pé.", "de": "Es ist besser, wenn wir zu Fuß gehen."},
+    {"id": "onde-ha-posto-carregamento", "pt": "Onde há um posto de carregamento?", "de": "Wo gibt es eine Ladestation?"}
+   ]
+  },
+  {
+   "id": "B1-12-L05",
+   "typ": "neu",
+   "titel": "Im Naturpark: Regeln und andere Wege, „man“ zu sagen",
+   "vokabeln": ["o-parque-natural", "proteger", "a-placa", "respeitar", "a-multa", "a-especie", "a-duna", "acampar", "pisar"],
+   "grammatik": {
+    "titel": "Outras formas de dizer „man“: <i>uma pessoa, as pessoas, a gente, dizem</i>",
+    "erklaerung": [
+     "Com verbos reflexos (<i>levantar-se, deitar-se, habituar-se</i>) não se usa o se impessoal – ficariam dois <i>se</i>. Usa-se <b>uma pessoa</b> ou <b>as pessoas</b>: <i><b>Uma pessoa</b> habitua-se ao calor. <b>As pessoas</b> deitam-se tarde no verão.</i>",
+     "Na língua falada usa-se muito <b>a gente</b> (com o verbo na 3.ª pessoa do singular) no sentido de „nós“ ou „man“: <i>Aqui <b>a gente</b> sente-se bem.</i> É coloquial – na escrita, prefira <i>nós</i> ou o se.",
+     "A <b>3.ª pessoa do plural</b> sem sujeito também é impessoal, sobretudo com <i>dizer</i> ou quando não se sabe quem fez a ação: <i><b>Dizem</b> que vai chover. <b>Roubaram</b>-me a bicicleta.</i>",
+     "Nas regras e nas placas usa-se <b>é proibido</b> + infinitivo (ou só <b>proibido</b>): <i>É proibido acampar. Proibido pisar as dunas.</i> E para obrigações: <i>É obrigatório usar os caminhos marcados.</i>"
+    ],
+    "erklaerung_de": [
+     "Bei reflexiven Verben (<i>levantar-se, deitar-se, habituar-se</i>) geht das unpersönliche se nicht – es stünden zwei <i>se</i>. Man nimmt <b>uma pessoa</b> oder <b>as pessoas</b>: <i><b>Uma pessoa</b> habitua-se ao calor.</i> – Man gewöhnt sich an die Hitze. <i><b>As pessoas</b> deitam-se tarde no verão.</i> – Im Sommer geht man spät ins Bett.",
+     "Umgangssprachlich sagt man oft <b>a gente</b> (mit Verb in der 3. Person Singular) im Sinn von „wir“ oder „man“: <i>Aqui <b>a gente</b> sente-se bem.</i> – Hier fühlt man sich wohl. Das ist locker – schriftlich lieber <i>nós</i> oder se.",
+     "Die <b>3. Person Plural</b> ohne Subjekt ist ebenfalls unpersönlich, vor allem bei <i>dizer</i> oder wenn man nicht weiß, wer es war: <i><b>Dizem</b> que vai chover.</i> – Man sagt, es wird regnen. <i><b>Roubaram</b>-me a bicicleta.</i> – Man hat mir das Fahrrad gestohlen.",
+     "Auf Schildern und in Regeln steht <b>é proibido</b> + Infinitiv (oder nur <b>proibido</b>): <i>É proibido acampar.</i> – Zelten verboten. <i>Proibido pisar as dunas.</i> – Betreten der Dünen verboten. Für Pflichten: <i>É obrigatório usar os caminhos marcados.</i> – Die markierten Wege sind zu benutzen."
+    ],
+    "vergleich": "„Man gewöhnt sich an alles.“ – Hier geht <i>se</i> nicht, weil <i>habituar-se</i> schon reflexiv ist: <i>Uma pessoa habitua-se a tudo.</i> „Man hat mir … gestohlen“ heißt wie im Englischen („they stole …“) einfach <i>Roubaram-me …</i>.",
+    "beispiele": [
+     {"pt": "É proibido acampar no parque natural.", "de": "Im Naturpark ist Zelten verboten."},
+     {"pt": "Uma pessoa habitua-se depressa a viver perto do mar.", "de": "Man gewöhnt sich schnell daran, am Meer zu leben."},
+     {"pt": "Dizem que a multa por pisar as dunas é bastante alta.", "de": "Man sagt, das Bußgeld fürs Betreten der Dünen sei ziemlich hoch."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "„Man gewöhnt sich an alles.“", "optionen": ["Habitua-se a tudo.", "Uma pessoa habitua-se a tudo.", "Se habitua a tudo."], "richtig": 1, "erklaerung": "habituar-se ist reflexiv – ein zweites se geht nicht. „Habitua-se a tudo“ hieße „Er/Sie gewöhnt sich an alles“.", "kategorie": "se impessoal"},
+     {"typ": "luecke", "satz": "___ acampar fora dos parques de campismo. (Es ist verboten …)", "loesungen": ["É proibido"], "de": "Es ist verboten, außerhalb der Campingplätze zu zelten.", "kategorie": "unpersönliche Ausdrücke"},
+     {"typ": "luecke", "satz": "___ que vão fechar a praia por causa das obras. (dizer – eles)", "loesungen": ["Dizem"], "de": "Man sagt, dass sie den Strand wegen der Bauarbeiten schließen.", "kategorie": "unpersönliche Ausdrücke"},
+     {"typ": "luecke", "satz": "No verão, as pessoas ___ muito tarde. (deitar-se)", "loesungen": ["deitam-se"], "de": "Im Sommer gehen die Leute sehr spät ins Bett.", "erklaerung": "as pessoas = Plural → deitam-se (Enklise im Hauptsatz).", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist umgangssprachlich?", "optionen": ["Aqui a gente vive bem.", "Aqui vive-se bem.", "Aqui as pessoas vivem bem."], "richtig": 0, "erklaerung": "a gente (+ 3. Person Singular) ist typisch für die gesprochene Sprache.", "kategorie": "unpersönliche Ausdrücke"},
+     {"typ": "uebersetzen", "de": "Man muss die Natur schützen.", "loesungen": ["É preciso proteger a natureza.", "Tem de se proteger a natureza.", "Temos de proteger a natureza.", "Temos que proteger a natureza.", "Deve-se proteger a natureza.", "Há que proteger a natureza."]},
+     {"typ": "uebersetzen", "de": "Man hat mir das Fahrrad gestohlen.", "loesungen": ["Roubaram-me a bicicleta.", "Roubaram a minha bicicleta."], "erklaerung": "3. Person Plural ohne Subjekt = jemand Unbekanntes.", "kategorie": "unpersönliche Ausdrücke"},
+     {"typ": "satzbau", "de": "Auf dem Schild steht, dass es verboten ist, die Dünen zu betreten.", "loesung": "A placa diz que é proibido pisar as dunas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na Costa Vicentina – an der Costa Vicentina",
+    "situation": "O Stefan e a Ana fazem um passeio no Parque Natural da Costa Vicentina com uma guia.",
+    "zeilen": [
+     {"sprecher": "Guia", "stimme": "f", "pt": "Bem-vindos ao Parque Natural do Sudoeste Alentejano e Costa Vicentina. Antes de começarmos, algumas regras.", "de": "Willkommen im Naturpark Südwest-Alentejo und Costa Vicentina. Bevor wir anfangen, ein paar Regeln."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "Aqui não se pode sair dos caminhos marcados: as dunas são muito frágeis e é proibido pisá-las.", "de": "Hier darf man die markierten Wege nicht verlassen: Die Dünen sind sehr empfindlich, und es ist verboten, sie zu betreten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E porque é que as dunas são tão importantes?", "de": "Und warum sind die Dünen so wichtig?"},
+     {"sprecher": "Guia", "stimme": "f", "pt": "Protegem a costa do mar e do vento. E aqui vivem espécies de plantas que só existem nesta região.", "de": "Sie schützen die Küste vor dem Meer und dem Wind. Und hier leben Pflanzenarten, die es nur in dieser Region gibt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E pode-se acampar no parque?", "de": "Und darf man im Park zelten?"},
+     {"sprecher": "Guia", "stimme": "f", "pt": "Só nos parques de campismo. Quem acampar na praia ou fizer lume pode apanhar uma multa bem pesada.", "de": "Nur auf den Campingplätzen. Wer am Strand zeltet oder Feuer macht, kann ein ordentliches Bußgeld bekommen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E as autocaravanas? Veem-se muitas na estrada.", "de": "Und die Wohnmobile? Man sieht viele auf der Straße."},
+     {"sprecher": "Guia", "stimme": "f", "pt": "Pois, é um problema. Há turistas que não respeitam as regras, mas a fiscalização aumentou muito.", "de": "Ja, das ist ein Problem. Es gibt Touristen, die sich nicht an die Regeln halten, aber die Kontrollen haben stark zugenommen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ainda bem. Uma pessoa vem aqui para ver a natureza, não para ver lixo.", "de": "Zum Glück. Man kommt hierher, um die Natur zu sehen, nicht um Müll zu sehen."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que não se pode sair dos caminhos?", "optionen": ["Porque há cobras.", "Porque as dunas são frágeis.", "Porque é propriedade privada."], "richtig": 1},
+     {"frage": "Onde se pode acampar?", "optionen": ["Só nos parques de campismo.", "Na praia.", "Em qualquer lado."], "richtig": 0},
+     {"frage": "O que diz a guia sobre a fiscalização?", "optionen": ["Acabou.", "Continua igual.", "Aumentou muito."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Um turista quer acampar na praia, dentro do parque natural. Explique-lhe as regras (o senhor).",
+    "zeilen": [
+     {"sprecher": "Turista", "stimme": "m", "pt": "Desculpe, sabe se se pode acampar aqui na praia?", "de": "Entschuldigung, wissen Sie, ob man hier am Strand zelten darf?"},
+     {"ich": true, "aufgabe": "Sag: Nein, hier darf man nicht zelten. Es ist ein Naturpark.", "loesungen": ["Não, aqui não se pode acampar. É um parque natural.", "Não, não se pode acampar aqui. É um parque natural.", "Não, aqui é proibido acampar. É um parque natural.", "Não, é proibido acampar aqui. É um parque natural.", "Não, aqui não se pode acampar. Isto é um parque natural."]},
+     {"sprecher": "Turista", "stimme": "m", "pt": "Que pena! E onde é que se pode dormir perto da praia?", "de": "Wie schade! Und wo kann man in der Nähe des Strandes schlafen?"},
+     {"ich": true, "aufgabe": "Sag: Es gibt einen Campingplatz zwei Kilometer von hier.", "loesungen": ["Há um parque de campismo a dois quilómetros daqui.", "Há um parque de campismo a dois quilómetros.", "Tem um parque de campismo a dois quilómetros daqui."]},
+     {"sprecher": "Turista", "stimme": "m", "pt": "Obrigado. E posso subir às dunas para tirar uma fotografia?", "de": "Danke. Und darf ich auf die Dünen steigen, um ein Foto zu machen?"},
+     {"ich": true, "aufgabe": "Sag: Lieber nicht. Es ist verboten, die Dünen zu betreten, und das Bußgeld ist hoch.", "loesungen": ["É melhor não. É proibido pisar as dunas e a multa é alta.", "Melhor não. É proibido pisar as dunas e a multa é alta.", "É melhor não. É proibido pisar as dunas, e a multa é alta.", "É melhor não. É proibido pisar as dunas e a multa é pesada.", "É melhor não. É proibido pisar as dunas e a multa é muito alta."]}
+    ]
+   },
+   "saetze": [
+    {"id": "e-proibido-acampar", "pt": "É proibido acampar aqui.", "de": "Hier ist Zelten verboten."},
+    {"id": "uma-pessoa-habitua-se", "pt": "Uma pessoa habitua-se a tudo.", "de": "Man gewöhnt sich an alles."},
+    {"id": "dizem-que-vai-chover", "pt": "Dizem que vai chover amanhã.", "de": "Man sagt, dass es morgen regnet."}
+   ]
+  },
+  {
+   "id": "B1-12-L06",
+   "typ": "neu",
+   "titel": "Nachrichten und Studien: diz-se que, sabe-se que, prevê-se que",
+   "vokabeln": ["o-estudo", "de-acordo-com", "prever", "aumentar", "diminuir", "em-media", "a-percentagem", "calcular", "o-investigador"],
+   "grammatik": {
+    "titel": "<i>Diz-se que, sabe-se que, espera-se que</i> …",
+    "erklaerung": [
+     "Nas notícias e nas conversas usa-se muito <b>verbo + se + que</b> para dar uma informação sem dizer quem a deu: <i><b>Diz-se que</b> o verão vai ser muito quente. <b>Sabe-se que</b> a seca vai continuar.</i>",
+     "Outros verbos: <i>pensa-se que, acredita-se que, calcula-se que, estima-se que, prevê-se que</i>. Depois destes verbos usa-se normalmente o <b>indicativo</b>: <i>Calcula-se que a população <b>triplica</b> no verão.</i>",
+     "Com <b>espera-se que</b> e <b>teme-se que</b> (desejo, medo) usa-se o <b>conjuntivo</b>: <i>Espera-se que <b>chova</b> em outubro. Teme-se que <b>haja</b> falta de água.</i> O mesmo com <b>pede-se que</b>: <i>Pede-se que <b>poupem</b> água.</i>",
+     "Para indicar a fonte: <b>segundo</b> / <b>de acordo com</b> + fonte: <i><b>Segundo</b> o IPMA, vai chover. <b>De acordo com</b> um estudo recente, o consumo aumentou.</i>"
+    ],
+    "erklaerung_de": [
+     "In Nachrichten und Gesprächen verwendet man oft <b>Verb + se + que</b>, um eine Information zu geben, ohne die Quelle zu nennen: <i><b>Diz-se que</b> o verão vai ser muito quente.</i> – Man sagt, der Sommer wird sehr heiß. <i><b>Sabe-se que</b> a seca vai continuar.</i> – Man weiß, dass die Dürre anhalten wird.",
+     "Weitere Verben: <i>pensa-se que</i> (man glaubt), <i>acredita-se que</i>, <i>calcula-se que / estima-se que</i> (man schätzt), <i>prevê-se que</i> (man erwartet). Danach steht normalerweise der <b>Indikativ</b>: <i>Calcula-se que a população <b>triplica</b> no verão.</i> – Man schätzt, dass sich die Bevölkerung im Sommer verdreifacht.",
+     "Nach <b>espera-se que</b> und <b>teme-se que</b> (Wunsch, Befürchtung) steht der <b>Konjunktiv</b>: <i>Espera-se que <b>chova</b> em outubro.</i> – Man hofft, dass es im Oktober regnet. <i>Teme-se que <b>haja</b> falta de água.</i> – Man befürchtet Wassermangel. Ebenso nach <b>pede-se que</b>: <i>Pede-se que <b>poupem</b> água.</i> – Man bittet darum, Wasser zu sparen.",
+     "Für die Quelle: <b>segundo</b> / <b>de acordo com</b> + Quelle: <i><b>Segundo</b> o IPMA, vai chover.</i> – Laut IPMA wird es regnen. <i><b>De acordo com</b> um estudo recente, o consumo aumentou.</i> – Laut einer neuen Studie ist der Verbrauch gestiegen."
+    ],
+    "vergleich": "Deutsche Nachrichten sagen „Man geht davon aus, dass …“, „Es wird erwartet, dass …“ oder „Laut …“. Portugiesisch: <i>Pensa-se que …</i>, <i>Prevê-se que …</i>, <i>Segundo …</i>. Wie im Deutschen beim Konjunktiv I („Man sagt, es sei …“) gibt es auch hier eine Moduswahl – aber nur bei Wunsch und Befürchtung (<i>espera-se que, teme-se que</i>).",
+    "beispiele": [
+     {"pt": "Diz-se que este vai ser o verão mais quente de sempre.", "de": "Man sagt, dass dies der heißeste Sommer aller Zeiten wird."},
+     {"pt": "Espera-se que chova mais no outono.", "de": "Man hofft, dass es im Herbst mehr regnet."},
+     {"pt": "De acordo com um estudo recente, o consumo de água aumentou dez por cento.", "de": "Laut einer neuen Studie ist der Wasserverbrauch um zehn Prozent gestiegen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ que a seca vai continuar. (saber + se)", "loesungen": ["Sabe-se"], "de": "Man weiß, dass die Dürre anhalten wird.", "kategorie": "se impessoal"},
+     {"typ": "luecke", "satz": "Espera-se que ___ mais no inverno. (chover)", "loesungen": ["chova"], "de": "Man hofft, dass es im Winter mehr regnet.", "erklaerung": "esperar que → Konjunktiv.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Teme-se que ___ falta de água no verão. (haver)", "loesungen": ["haja"], "de": "Man befürchtet, dass es im Sommer Wassermangel gibt.", "erklaerung": "temer que → Konjunktiv: haver → haja.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Man schätzt, dass die Hälfte des Wassers verloren geht.“", "optionen": ["Calcula-se que metade da água se perde.", "Calcula-se de que metade da água se perde.", "Calculam-se que metade da água se perde."], "richtig": 0, "erklaerung": "calcular que + Indikativ, ohne de; das Verb bleibt im Singular.", "kategorie": "se impessoal"},
+     {"typ": "auswahl", "frage": "„Laut IPMA wird es am Wochenende regnen.“", "optionen": ["Segundo o IPMA, vai chover no fim de semana.", "Segundo do IPMA, vai chover no fim de semana.", "De acordo o IPMA, vai chover no fim de semana."], "richtig": 0, "erklaerung": "segundo + Quelle (ohne de); aber: de acordo com + Quelle."},
+     {"typ": "uebersetzen", "de": "Man sagt, dass das Wasser teurer wird.", "loesungen": ["Diz-se que a água vai ficar mais cara.", "Dizem que a água vai ficar mais cara.", "Diz-se que a água vai ser mais cara.", "Dizem que a água vai ser mais cara.", "Diz-se que a água vai encarecer.", "Dizem que a água vai encarecer."]},
+     {"typ": "satzbau", "de": "Im Durchschnitt verbraucht jede Person 190 Liter pro Tag.", "loesung": "Em média, cada pessoa consome 190 litros por dia."},
+     {"typ": "diktat", "pt": "Prevê-se chuva para o fim de semana.", "de": "Für das Wochenende ist Regen vorhergesagt."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Notícia: o Algarve continua em seca – Nachricht: Die Algarve bleibt in der Dürre",
+    "situation": "Uma notícia na rádio regional.",
+    "zeilen": [
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Boa tarde. O Algarve continua em situação de seca extrema, de acordo com os dados mais recentes do IPMA.", "de": "Guten Tag. Laut den neuesten Daten des IPMA herrscht in der Algarve weiterhin extreme Dürre."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Nos últimos doze meses choveu menos de metade do normal, e as barragens da região estão a vinte e cinco por cento da sua capacidade.", "de": "In den letzten zwölf Monaten hat es weniger als die Hälfte der normalen Menge geregnet, und die Stauseen der Region sind zu fünfundzwanzig Prozent gefüllt."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Segundo um estudo da Universidade do Algarve, o consumo de água aumentou quinze por cento nos últimos dez anos, sobretudo por causa do turismo e da agricultura.", "de": "Laut einer Studie der Universität der Algarve ist der Wasserverbrauch in den letzten zehn Jahren um fünfzehn Prozent gestiegen, vor allem wegen des Tourismus und der Landwirtschaft."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Calcula-se que, no verão, a população da região triplica.", "de": "Man schätzt, dass sich die Bevölkerung der Region im Sommer verdreifacht."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Os investigadores preveem que as temperaturas vão continuar a subir nas próximas décadas.", "de": "Die Forscher erwarten, dass die Temperaturen in den nächsten Jahrzehnten weiter steigen werden."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "O Governo já anunciou novas medidas, e espera-se que ajudem a poupar milhões de litros por ano.", "de": "Die Regierung hat bereits neue Maßnahmen angekündigt, und man hofft, dass sie helfen, Millionen Liter pro Jahr zu sparen."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Até lá, pede-se a todos que poupem água em casa.", "de": "Bis dahin werden alle gebeten, zu Hause Wasser zu sparen."}
+    ],
+    "fragen": [
+     {"frage": "De acordo com o IPMA, como está o Algarve?", "optionen": ["Em seca extrema.", "Com chuva normal.", "Com cheias."], "richtig": 0},
+     {"frage": "Porque é que o consumo de água aumentou, segundo o estudo?", "optionen": ["Por causa das piscinas privadas.", "Sobretudo por causa do turismo e da agricultura.", "Por causa das fugas nos canos."], "richtig": 1},
+     {"frage": "O que se pede a todos?", "optionen": ["Que não viajem no verão.", "Que paguem mais pela água.", "Que poupem água em casa."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Man sagt, dass der Sommer sehr heiß wird.", "loesungen": ["Diz-se que o verão vai ser muito quente.", "Dizem que o verão vai ser muito quente.", "Diz-se que o verão vai ser muito quente!"]},
+     {"de": "Man hofft, dass es bald regnet.", "loesungen": ["Espera-se que chova em breve.", "Espera-se que chova brevemente.", "Espera-se que em breve chova."]},
+     {"de": "Laut der Studie ist der Verbrauch gestiegen.", "loesungen": ["Segundo o estudo, o consumo aumentou.", "De acordo com o estudo, o consumo aumentou.", "Segundo o estudo, o consumo subiu.", "De acordo com o estudo, o consumo subiu."]},
+     {"de": "Die Zahl der Touristen sinkt im Winter.", "loesungen": ["O número de turistas diminui no inverno.", "No inverno, o número de turistas diminui.", "No inverno o número de turistas diminui.", "O número de turistas baixa no inverno."]},
+     {"de": "Man weiß nicht, wann es regnen wird.", "loesungen": ["Não se sabe quando vai chover.", "Não se sabe quando é que vai chover.", "Ninguém sabe quando vai chover."]}
+    ]
+   },
+   "saetze": [
+    {"id": "diz-se-que-verao-quente", "pt": "Diz-se que vai ser um verão muito quente.", "de": "Man sagt, es wird ein sehr heißer Sommer."},
+    {"id": "segundo-o-ipma", "pt": "Segundo o IPMA, vai chover amanhã.", "de": "Laut IPMA regnet es morgen."},
+    {"id": "espera-se-que-chova", "pt": "Espera-se que chova em breve.", "de": "Man hofft, dass es bald regnet."}
+   ]
+  },
+  {
+   "id": "B1-12-L07",
+   "typ": "neu",
+   "titel": "Tourismus – Segen oder Fluch? Argumente verbinden",
+   "vokabeln": ["por-isso", "isto-e", "contribuir-para", "o-impacto", "sustentavel", "o-campo-de-golfe", "a-dependencia", "o-turismo-de-massas", "a-sazonalidade"],
+   "grammatik": {
+    "titel": "Argumentar: <i>por um lado … por outro lado, no entanto, por isso, ou seja, aliás</i>",
+    "erklaerung": [
+     "Para mostrar dois lados de uma questão: <b>por um lado</b> … <b>por outro (lado)</b> …: <i>Por um lado, o turismo traz dinheiro; por outro, torna as casas mais caras.</i>",
+     "Para opor uma ideia: <b>no entanto</b> ou <b>contudo</b> (= mas, mais formal). Ficam no início da frase, seguidos de vírgula: <i>Há muito trabalho no verão. <b>No entanto</b>, no inverno muitos restaurantes fecham.</i>",
+     "Para tirar uma consequência: <b>por isso</b> / <b>portanto</b>: <i>Choveu pouco; <b>por isso</b>, há menos água.</i> Para explicar por outras palavras: <b>ou seja</b> / <b>isto é</b>: <i>A população triplica, <b>ou seja</b>, há três vezes mais pessoas.</i>",
+     "<b>Aliás</b> acrescenta um argumento ainda mais forte ou corrige o que se disse: <i>O turismo é importante. <b>Aliás</b>, é a principal atividade da região.</i> – <i>Vou na terça, <b>aliás</b>, na quarta.</i>"
+    ],
+    "erklaerung_de": [
+     "Um zwei Seiten einer Frage zu zeigen: <b>por um lado</b> … <b>por outro (lado)</b> … (einerseits … andererseits): <i>Por um lado, o turismo traz dinheiro; por outro, torna as casas mais caras.</i> – Einerseits bringt der Tourismus Geld, andererseits macht er die Häuser teurer.",
+     "Für einen Gegensatz: <b>no entanto</b> oder <b>contudo</b> (= aber, formeller; „jedoch, allerdings“). Sie stehen am Satzanfang, gefolgt von einem Komma: <i>Há muito trabalho no verão. <b>No entanto</b>, no inverno muitos restaurantes fecham.</i> – Im Sommer gibt es viel Arbeit. Im Winter schließen jedoch viele Restaurants.",
+     "Für eine Folge: <b>por isso</b> / <b>portanto</b> (deshalb, also): <i>Choveu pouco; <b>por isso</b>, há menos água.</i> Um etwas mit anderen Worten zu sagen: <b>ou seja</b> / <b>isto é</b> (das heißt): <i>A população triplica, <b>ou seja</b>, há três vezes mais pessoas.</i>",
+     "<b>Aliás</b> fügt ein noch stärkeres Argument hinzu („übrigens, sogar“) oder korrigiert das Gesagte („besser gesagt“): <i>O turismo é importante. <b>Aliás</b>, é a principal atividade da região.</i> – <i>Vou na terça, <b>aliás</b>, na quarta.</i> – Ich fahre am Dienstag, besser gesagt am Mittwoch."
+    ],
+    "vergleich": "Im Deutschen folgt nach „deshalb“ oder „jedoch“ das Verb (Inversion): „Deshalb <b>ist</b> das Wasser teurer.“ Im Portugiesischen bleibt die normale Reihenfolge Subjekt – Verb: <i>Por isso, a água <b>ficou</b> mais cara.</i> Englisch: <i>no entanto</i> = however, <i>ou seja</i> = that is / in other words, <i>aliás</i> = in fact / actually.",
+    "beispiele": [
+     {"pt": "Por um lado, o turismo cria empregos; por outro lado, faz subir as rendas.", "de": "Einerseits schafft der Tourismus Arbeitsplätze, andererseits lässt er die Mieten steigen."},
+     {"pt": "No verão há trabalho para todos. No entanto, no inverno muitos restaurantes fecham.", "de": "Im Sommer gibt es Arbeit für alle. Im Winter schließen jedoch viele Restaurants."},
+     {"pt": "O Algarve depende muito do turismo. Aliás, é uma das regiões mais turísticas da Europa.", "de": "Die Algarve hängt stark vom Tourismus ab. Sie ist übrigens eine der touristischsten Regionen Europas."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Choveu muito pouco; ___, há restrições de água. (deshalb)", "loesungen": ["por isso", "portanto"], "de": "Es hat sehr wenig geregnet; deshalb gibt es Wassereinschränkungen.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "O turismo traz dinheiro. ___, também traz problemas. (jedoch)", "loesungen": ["No entanto", "Contudo", "Porém"], "de": "Der Tourismus bringt Geld. Er bringt jedoch auch Probleme.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "A população triplica no verão, ___, há três vezes mais pessoas. (das heißt)", "loesungen": ["ou seja", "isto é"], "de": "Die Bevölkerung verdreifacht sich im Sommer, das heißt, es gibt dreimal so viele Menschen.", "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "Welcher Konnektor passt? „O Pedro conhece bem o Algarve. ___, nasceu em Lagos.“", "optionen": ["Aliás", "No entanto", "Por isso"], "richtig": 0, "erklaerung": "aliás fügt ein stärkeres Argument hinzu („übrigens / er ist sogar in Lagos geboren“).", "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "„Einerseits …, andererseits …“", "optionen": ["Por uma parte …, por outra parte …", "Por um lado …, por outro lado …", "De um lado …, a outro lado …"], "richtig": 1, "kategorie": "Konnektoren"},
+     {"typ": "uebersetzen", "de": "Deshalb brauchen wir einen nachhaltigeren Tourismus.", "loesungen": ["Por isso, precisamos de um turismo mais sustentável.", "Por isso precisamos de um turismo mais sustentável.", "Portanto, precisamos de um turismo mais sustentável.", "Por isso, precisamos de turismo mais sustentável.", "Por isso, nós precisamos de um turismo mais sustentável."]},
+     {"typ": "satzbau", "de": "Einerseits schafft der Tourismus Arbeitsplätze, andererseits macht er die Häuser teurer.", "loesung": "Por um lado, o turismo cria empregos; por outro lado, torna as casas mais caras."},
+     {"typ": "diktat", "pt": "No entanto, no inverno muitos restaurantes fecham.", "de": "Im Winter schließen jedoch viele Restaurants."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Turismo: bom ou mau para Lagos? – Tourismus: gut oder schlecht für Lagos?",
+    "situation": "Ao jantar, o Pedro e a Rita discutem sobre o turismo. O Stefan ouve e comenta.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Sem turismo, Lagos não era nada. Metade da cidade trabalha em restaurantes, hotéis e lojas.", "de": "Ohne Tourismus wäre Lagos nichts. Die halbe Stadt arbeitet in Restaurants, Hotels und Läden."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Por um lado, tens razão. Por outro lado, olha para as rendas: um T1 no centro custa mil e duzentos euros!", "de": "Einerseits hast du recht. Andererseits, schau dir die Mieten an: Eine Zweizimmerwohnung im Zentrum kostet tausendzweihundert Euro!"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Isso é verdade. No entanto, sem os turistas não havia empregos nenhuns.", "de": "Das stimmt. Allerdings gäbe es ohne die Touristen überhaupt keine Arbeitsplätze."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Empregos, sim, mas só no verão. Aliás, a minha prima trabalha num hotel e no inverno fica sempre no desemprego.", "de": "Arbeitsplätze ja, aber nur im Sommer. Meine Cousine arbeitet übrigens in einem Hotel und ist im Winter immer arbeitslos."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ou seja, o problema não é o turismo – é a sazonalidade.", "de": "Das heißt, das Problem ist nicht der Tourismus – sondern die Saisonabhängigkeit."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Exatamente. E o turismo de massas também gasta muita água: campos de golfe, piscinas, hotéis enormes…", "de": "Genau. Und der Massentourismus verbraucht auch viel Wasser: Golfplätze, Pools, riesige Hotels …"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Por isso é que eu defendo um turismo mais sustentável: menos turistas, mas que fiquem mais tempo e venham também no inverno.", "de": "Deshalb bin ich für einen nachhaltigeren Tourismus: weniger Touristen, die aber länger bleiben und auch im Winter kommen."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Nisso estamos de acordo!", "de": "Da sind wir uns einig!"}
+    ],
+    "fragen": [
+     {"frage": "Segundo o Pedro, qual é a importância do turismo para Lagos?", "optionen": ["Metade da cidade trabalha no turismo.", "É pequena.", "Só interessa aos hotéis."], "richtig": 0},
+     {"frage": "Qual é o problema da prima da Rita?", "optionen": ["Ganha pouco.", "No inverno fica sem trabalho.", "Não encontra casa."], "richtig": 1},
+     {"frage": "Em que é que o Pedro e a Rita estão de acordo no fim?", "optionen": ["Que é preciso proibir o turismo.", "Que se devem construir mais hotéis.", "Que é preciso um turismo mais sustentável."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Por um lado, o turismo cria empregos.", "de": "Einerseits schafft der Tourismus Arbeitsplätze."},
+     {"pt": "Por outro lado, faz subir as rendas.", "de": "Andererseits lässt er die Mieten steigen."},
+     {"pt": "No entanto, no inverno não há trabalho.", "de": "Im Winter gibt es jedoch keine Arbeit."},
+     {"pt": "Ou seja, o problema é a sazonalidade.", "de": "Das heißt, das Problem ist die Saisonabhängigkeit."},
+     {"pt": "O turismo contribui muito para a economia local.", "de": "Der Tourismus trägt viel zur lokalen Wirtschaft bei."}
+    ]
+   },
+   "saetze": [
+    {"id": "por-um-lado-por-outro", "pt": "Por um lado, sim; por outro lado, não.", "de": "Einerseits ja, andererseits nein."},
+    {"id": "ou-seja-o-problema-e-outro", "pt": "Ou seja, o problema é outro.", "de": "Das heißt, das Problem ist ein anderes."},
+    {"id": "nisso-estamos-de-acordo", "pt": "Nisso estamos de acordo.", "de": "Da sind wir uns einig."}
+   ]
+  },
+  {
+   "id": "B1-12-L08",
+   "typ": "neu",
+   "titel": "Gesellschaft: Alterung, Wohnen, Einsamkeit – Tendenzen beschreiben",
+   "vokabeln": ["a-sociedade", "a-solidao", "a-populacao", "o-idoso", "a-reforma", "o-envelhecimento", "o-lar-de-idosos", "a-natalidade", "a-desigualdade"],
+   "grammatik": {
+    "titel": "Tendências e quantidades: <i>cada vez mais, a maioria de, metade de</i>",
+    "erklaerung": [
+     "<b>cada vez mais</b> / <b>cada vez menos</b> mostram uma tendência: <i>Há <b>cada vez mais</b> idosos. As casas estão <b>cada vez mais</b> caras. Nascem <b>cada vez menos</b> crianças.</i>",
+     "Com <b>a maioria de</b>, <b>metade de</b>, <b>um terço de</b>, <b>grande parte de</b> + nome no plural, o verbo pode ficar no singular (concorda com <i>maioria</i>) ou no plural (concorda com o nome): <i>A maioria dos jovens <b>vive</b> / <b>vivem</b> com os pais.</i> As duas formas estão corretas.",
+     "Com percentagens, o verbo concorda normalmente com o nome: <i>Mais de vinte por cento dos portugueses <b>têm</b> mais de 65 anos. Dez por cento da população <b>vive</b> sozinha.</i>",
+     "Para comparar com o passado: <i><b>Há vinte anos</b>, … – <b>hoje em dia</b>, …</i> Para uma mudança em curso: <b>estar a</b> + infinitivo: <i>A população <b>está a envelhecer</b>.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>cada vez mais</b> / <b>cada vez menos</b> (immer mehr / immer weniger) zeigen eine Tendenz: <i>Há <b>cada vez mais</b> idosos.</i> – Es gibt immer mehr ältere Menschen. <i>As casas estão <b>cada vez mais</b> caras.</i> – Die Häuser werden immer teurer. <i>Nascem <b>cada vez menos</b> crianças.</i> – Es werden immer weniger Kinder geboren.",
+     "Bei <b>a maioria de</b> (die Mehrheit), <b>metade de</b> (die Hälfte), <b>um terço de</b> (ein Drittel), <b>grande parte de</b> (ein Großteil) + Nomen im Plural kann das Verb im Singular (richtet sich nach <i>maioria</i>) oder im Plural stehen (richtet sich nach dem Nomen): <i>A maioria dos jovens <b>vive</b> / <b>vivem</b> com os pais.</i> – Die meisten jungen Leute wohnen bei den Eltern. Beides ist korrekt.",
+     "Bei Prozentangaben richtet sich das Verb meist nach dem Nomen: <i>Mais de vinte por cento dos portugueses <b>têm</b> mais de 65 anos.</i> – Über zwanzig Prozent der Portugiesen sind älter als 65. <i>Dez por cento da população <b>vive</b> sozinha.</i> – Zehn Prozent der Bevölkerung leben allein.",
+     "Vergleich mit früher: <i><b>Há vinte anos</b>, … – <b>hoje em dia</b>, …</i> (vor zwanzig Jahren … – heutzutage …). Für eine laufende Veränderung: <b>estar a</b> + Infinitiv: <i>A população <b>está a envelhecer</b>.</i> – Die Bevölkerung altert."
+    ],
+    "vergleich": "„Immer teurer“ = <i>cada vez mais caro</i> – nicht <i>sempre mais caro</i>. „Die Mehrheit der Jugendlichen lebt …“ steht im Deutschen im Singular; im Portugiesischen sind Singular und Plural möglich. Für „altert gerade“ nimmt pt-PT <i>está a envelhecer</i>, nie das Gerundium.",
+    "beispiele": [
+     {"pt": "Há cada vez mais idosos e cada vez menos crianças.", "de": "Es gibt immer mehr ältere Menschen und immer weniger Kinder."},
+     {"pt": "A maioria dos jovens ainda vive com os pais.", "de": "Die meisten jungen Leute wohnen noch bei den Eltern."},
+     {"pt": "A população portuguesa está a envelhecer.", "de": "Die portugiesische Bevölkerung altert."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "As casas em Lagos estão ___ caras. (immer teurer)", "loesungen": ["cada vez mais"], "de": "Die Häuser in Lagos werden immer teurer.", "kategorie": "Tendenzen"},
+     {"typ": "luecke", "satz": "Há ___ crianças nas aldeias do interior. (immer weniger)", "loesungen": ["cada vez menos"], "de": "In den Dörfern im Landesinneren gibt es immer weniger Kinder.", "kategorie": "Tendenzen"},
+     {"typ": "luecke", "satz": "Mais de vinte ___ dos portugueses têm mais de 65 anos. (Prozent)", "loesungen": ["por cento"], "de": "Über zwanzig Prozent der Portugiesen sind älter als 65.", "kategorie": "Tendenzen"},
+     {"typ": "auswahl", "frage": "„Die Bevölkerung altert.“", "optionen": ["A população está envelhecendo.", "A população está a envelhecer.", "A população envelhece-se."], "richtig": 1, "erklaerung": "pt-PT: estar a + Infinitiv; envelhecer ist nicht reflexiv.", "kategorie": "estar a + Infinitiv"},
+     {"typ": "auswahl", "frage": "„A maioria dos jovens ___ com os pais.“ – Welche Form ist korrekt?", "optionen": ["Nur „vive“.", "Nur „vivem“.", "Beide sind korrekt."], "richtig": 2, "erklaerung": "Bei a maioria de + Plural sind Singular und Plural möglich.", "kategorie": "Kongruenz"},
+     {"typ": "uebersetzen", "de": "Immer mehr ältere Menschen leben allein.", "loesungen": ["Cada vez mais idosos vivem sozinhos.", "Há cada vez mais idosos a viver sozinhos.", "Há cada vez mais idosos que vivem sozinhos.", "Cada vez há mais idosos que vivem sozinhos.", "Cada vez mais idosos moram sozinhos."]},
+     {"typ": "uebersetzen", "de": "Die Hälfte der Häuser ist für Touristen.", "loesungen": ["Metade das casas é para turistas.", "Metade das casas são para turistas.", "Metade das casas é para os turistas.", "Metade das casas são para os turistas."]},
+     {"typ": "satzbau", "de": "Vor zwanzig Jahren war Wohnen viel billiger.", "loesung": "Há vinte anos, a habitação era muito mais barata."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Como está a mudar o Algarve? – Wie verändert sich die Algarve?",
+    "situation": "Num programa da rádio local, um jornalista entrevista a socióloga Inês Matos.",
+    "zeilen": [
+     {"sprecher": "Jornalista", "stimme": "m", "pt": "Dra. Inês Matos, como está a mudar a sociedade no Algarve?", "de": "Frau Dr. Inês Matos, wie verändert sich die Gesellschaft in der Algarve?"},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Há duas grandes tendências. Por um lado, a população está a envelhecer: há cada vez mais idosos e a natalidade é muito baixa.", "de": "Es gibt zwei große Tendenzen. Einerseits altert die Bevölkerung: Es gibt immer mehr ältere Menschen, und die Geburtenrate ist sehr niedrig."},
+     {"sprecher": "Jornalista", "stimme": "m", "pt": "E por outro lado?", "de": "Und andererseits?"},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Por outro lado, chegam cada vez mais estrangeiros: reformados do norte da Europa, mas também jovens que trabalham à distância.", "de": "Andererseits kommen immer mehr Ausländer: Rentner aus Nordeuropa, aber auch junge Leute, die remote arbeiten."},
+     {"sprecher": "Jornalista", "stimme": "m", "pt": "E isso tem impacto na habitação?", "de": "Und hat das Auswirkungen auf den Wohnungsmarkt?"},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Enorme. Em algumas freguesias, quase metade das casas é de alojamento local ou de segunda habitação. A maioria dos jovens algarvios não consegue pagar uma renda.", "de": "Enorme. In manchen Ortsteilen ist fast die Hälfte der Häuser Ferienwohnung oder Zweitwohnsitz. Die meisten jungen Algarvios können sich keine Miete leisten."},
+     {"sprecher": "Jornalista", "stimme": "m", "pt": "E os idosos? Como vivem?", "de": "Und die älteren Menschen? Wie leben sie?"},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Muitos vivem sozinhos, sobretudo nas aldeias do interior. A solidão é um problema sério, e os lares de idosos têm longas listas de espera.", "de": "Viele leben allein, vor allem in den Dörfern im Landesinneren. Einsamkeit ist ein ernstes Problem, und die Seniorenheime haben lange Wartelisten."}
+    ],
+    "fragen": [
+     {"frage": "Quais são as duas grandes tendências?", "optionen": ["O envelhecimento e a chegada de estrangeiros.", "O desemprego e a emigração.", "A seca e o turismo de massas."], "richtig": 0},
+     {"frage": "Qual é o problema da maioria dos jovens algarvios?", "optionen": ["Não há escolas.", "Não conseguem pagar uma renda.", "Não falam inglês."], "richtig": 1},
+     {"frage": "O que diz a socióloga sobre os lares de idosos?", "optionen": ["São muito baratos.", "Estão vazios.", "Têm longas listas de espera."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Die Bevölkerung altert.", "loesungen": ["A população está a envelhecer.", "A população envelhece."]},
+     {"de": "Die Mieten werden immer höher.", "loesungen": ["As rendas estão cada vez mais altas.", "As rendas são cada vez mais altas.", "As rendas estão cada vez mais caras.", "As rendas estão a ficar cada vez mais altas."]},
+     {"de": "Die Mehrheit der Rentner lebt an der Küste.", "loesungen": ["A maioria dos reformados vive no litoral.", "A maioria dos reformados vivem no litoral.", "A maioria dos reformados vive na costa.", "A maioria dos reformados vivem na costa."]},
+     {"de": "Es gibt immer weniger Kinder.", "loesungen": ["Há cada vez menos crianças.", "Cada vez há menos crianças."]},
+     {"de": "Meine Schwiegermutter ist seit zwei Jahren in Rente.", "loesungen": ["A minha sogra está reformada há dois anos.", "A minha sogra está na reforma há dois anos.", "A minha sogra é reformada há dois anos."]}
+    ]
+   },
+   "saetze": [
+    {"id": "esta-tudo-cada-vez-mais-caro", "pt": "Está tudo cada vez mais caro.", "de": "Alles wird immer teurer."},
+    {"id": "a-maioria-dos-jovens", "pt": "A maioria dos jovens não consegue comprar casa.", "de": "Die meisten jungen Leute können sich keine Wohnung kaufen."},
+    {"id": "ha-vinte-anos-era-diferente", "pt": "Há vinte anos, era tudo diferente.", "de": "Vor zwanzig Jahren war alles anders."}
+   ]
+  },
+  {
+   "id": "B1-12-L09",
+   "typ": "neu",
+   "titel": "Freiwilligenarbeit: begründen und ergänzen",
+   "vokabeln": ["o-voluntario", "a-associacao", "participar-em", "doar", "a-causa", "o-voluntariado", "o-donativo", "o-banco-alimentar", "angariar-fundos"],
+   "grammatik": {
+    "titel": "Dar razões e acrescentar: <i>como, já que, uma vez que, além disso</i>",
+    "erklaerung": [
+     "Para dar a causa: <b>porque</b> (depois da frase principal) e <b>como</b> (no início da frase): <i>Faço voluntariado <b>porque</b> gosto de ajudar. <b>Como</b> tenho tempo, ajudo na associação.</i>",
+     "Mais formais: <b>já que</b>, <b>uma vez que</b>, <b>visto que</b> + indicativo. Podem ficar no início ou no meio da frase: <i><b>Uma vez que</b> há poucos voluntários, precisamos da tua ajuda.</i>",
+     "Para acrescentar uma ideia: <b>além disso</b>, <b>também</b>, <b>não só … mas também</b>: <i>A limpeza é útil. <b>Além disso</b>, é divertida. Ajudamos <b>não só</b> os animais, <b>mas também</b> as pessoas.</i>",
+     "Nos anúncios usa-se muito o <b>se</b>: <i><b>Precisa-se de</b> voluntários. <b>Aceitam-se</b> donativos. <b>Procuram-se</b> pessoas com carro.</i> Lembre-se: com objeto no plural, o verbo vai para o plural."
+    ],
+    "erklaerung_de": [
+     "Für einen Grund: <b>porque</b> (nach dem Hauptsatz) und <b>como</b> (am Satzanfang, = „da“): <i>Faço voluntariado <b>porque</b> gosto de ajudar.</i> – Ich arbeite ehrenamtlich, weil ich gern helfe. <i><b>Como</b> tenho tempo, ajudo na associação.</i> – Da ich Zeit habe, helfe ich im Verein.",
+     "Formeller: <b>já que</b>, <b>uma vez que</b>, <b>visto que</b> (da, weil ja) + Indikativ. Sie können am Anfang oder in der Mitte stehen: <i><b>Uma vez que</b> há poucos voluntários, precisamos da tua ajuda.</i> – Da es wenige Freiwillige gibt, brauchen wir deine Hilfe.",
+     "Um etwas hinzuzufügen: <b>além disso</b> (außerdem), <b>também</b>, <b>não só … mas também</b> (nicht nur … sondern auch): <i>A limpeza é útil. <b>Além disso</b>, é divertida.</i> – Die Reinigung ist nützlich. Außerdem macht sie Spaß. <i>Ajudamos <b>não só</b> os animais, <b>mas também</b> as pessoas.</i>",
+     "In Anzeigen steht oft <b>se</b>: <i><b>Precisa-se de</b> voluntários.</i> – Freiwillige gesucht. <i><b>Aceitam-se</b> donativos.</i> – Spenden werden angenommen. <i><b>Procuram-se</b> pessoas com carro.</i> – Leute mit Auto gesucht. Denk daran: Mit Objekt im Plural steht das Verb im Plural."
+    ],
+    "vergleich": "<i>Como</i> am Satzanfang = „da“: <i>Como chove, ficamos em casa.</i> – „Da es regnet, bleiben wir zu Hause.“ In diesem Sinn beginnt man einen Satz normalerweise nicht mit <i>porque</i>. Englisch „since / as“ = <i>como, já que</i>; „besides“ = <i>além disso</i>.",
+    "beispiele": [
+     {"pt": "Como tenho mais tempo agora, decidi fazer voluntariado.", "de": "Da ich jetzt mehr Zeit habe, habe ich beschlossen, ehrenamtlich zu arbeiten."},
+     {"pt": "Precisa-se de voluntários para a recolha do Banco Alimentar.", "de": "Freiwillige für die Sammelaktion der Tafel gesucht."},
+     {"pt": "Além disso, conhece-se muita gente simpática.", "de": "Außerdem lernt man viele nette Leute kennen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ tenho tempo ao sábado, ajudo na associação. (da)", "loesungen": ["Como", "Já que", "Uma vez que", "Visto que"], "de": "Da ich samstags Zeit habe, helfe ich im Verein.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "A limpeza da praia é útil. ___, é divertida. (außerdem)", "loesungen": ["Além disso"], "de": "Die Strandreinigung ist nützlich. Außerdem macht sie Spaß.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "___ voluntários para o Banco Alimentar. (procurar + se)", "loesungen": ["Procuram-se"], "de": "Freiwillige für die Tafel gesucht.", "erklaerung": "voluntários = Plural → procuram-se.", "kategorie": "se: Kongruenz"},
+     {"typ": "auswahl", "frage": "„Spenden werden angenommen.“", "optionen": ["Aceita-se donativos.", "Aceitam-se donativos.", "Aceitam-se de donativos."], "richtig": 1, "erklaerung": "donativos = direktes Objekt im Plural → aceitam-se.", "kategorie": "se: Kongruenz"},
+     {"typ": "auswahl", "frage": "„Da es regnet, wurde die Reinigung verschoben.“", "optionen": ["Por que está a chover, a limpeza foi adiada.", "Como está a chover, a limpeza foi adiada.", "Como está chovendo, a limpeza foi adiada."], "richtig": 1, "erklaerung": "como am Satzanfang = da; pt-PT: está a chover.", "kategorie": "Konnektoren"},
+     {"typ": "uebersetzen", "de": "Wir haben Kleidung an den Verein gespendet.", "loesungen": ["Doámos roupa à associação.", "Nós doámos roupa à associação.", "Demos roupa à associação.", "Doámos roupas à associação."]},
+     {"typ": "uebersetzen", "de": "Ich nehme gern an der Strandreinigung teil.", "loesungen": ["Gosto de participar na limpeza da praia.", "Gosto de participar na limpeza de praia.", "Participo com gosto na limpeza da praia.", "Eu gosto de participar na limpeza da praia."]},
+     {"typ": "satzbau", "de": "Ich helfe nicht nur den Tieren, sondern auch den Menschen.", "loesung": "Ajudo não só os animais, mas também as pessoas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Limpeza da Meia Praia – Strandreinigung an der Meia Praia",
+    "situation": "A Ana convida o Stefan para uma ação de voluntariado.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, no sábado de manhã há uma limpeza da Meia Praia. A associação precisa de voluntários. Vens comigo?", "de": "Stefan, am Samstagvormittag gibt es eine Reinigung der Meia Praia. Der Verein braucht Freiwillige. Kommst du mit?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "No sábado? Tinha pensado em ir jogar golfe com o Pedro…", "de": "Am Samstag? Ich hatte vor, mit Pedro Golf spielen zu gehen …"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ó Stefan! É por uma boa causa. Além disso, só demora três horas.", "de": "Ach, Stefan! Es ist für einen guten Zweck. Außerdem dauert es nur drei Stunden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem, está bem. O que é preciso levar?", "de": "Na gut, na gut. Was muss man mitbringen?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Luvas, chapéu e uma garrafa de água reutilizável. A associação dá os sacos.", "de": "Handschuhe, Hut und eine wiederverwendbare Wasserflasche. Der Verein stellt die Säcke."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o que se faz com o lixo depois?", "de": "Und was macht man danach mit dem Müll?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Separa-se tudo: plástico, vidro, beatas… Depois, os dados vão para um estudo sobre o lixo no mar.", "de": "Alles wird getrennt: Plastik, Glas, Zigarettenstummel … Danach gehen die Daten an eine Studie über Müll im Meer."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Interessante. E se eu quiser doar dinheiro à associação?", "de": "Interessant. Und wenn ich dem Verein Geld spenden will?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Também se aceitam donativos. Aliás, no domingo há um jantar para angariar fundos. Já comprei bilhetes para nós os dois!", "de": "Spenden werden auch angenommen. Übrigens gibt es am Sonntag ein Abendessen, um Spenden zu sammeln. Ich habe schon Karten für uns beide gekauft!"}
+    ],
+    "fragen": [
+     {"frage": "O que queria o Stefan fazer no sábado?", "optionen": ["Jogar golfe com o Pedro.", "Trabalhar no escritório.", "Dormir até tarde."], "richtig": 0},
+     {"frage": "O que dá a associação aos voluntários?", "optionen": ["As luvas.", "Os sacos.", "Uma garrafa de água."], "richtig": 1},
+     {"frage": "O que há no domingo?", "optionen": ["Outra limpeza de praia.", "Uma reunião da associação.", "Um jantar para angariar fundos."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Precisa-se de voluntários para limpar a praia.", "de": "Freiwillige für die Strandreinigung gesucht."},
+     {"pt": "É por uma boa causa.", "de": "Es ist für einen guten Zweck."},
+     {"pt": "Como tenho tempo, ajudo na associação.", "de": "Da ich Zeit habe, helfe ich im Verein."},
+     {"pt": "Além disso, conhece-se muita gente.", "de": "Außerdem lernt man viele Leute kennen."},
+     {"pt": "Aceitam-se donativos.", "de": "Spenden werden angenommen."}
+    ]
+   },
+   "saetze": [
+    {"id": "e-por-uma-boa-causa", "pt": "É por uma boa causa!", "de": "Es ist für einen guten Zweck!"},
+    {"id": "gostava-de-participar-voluntario", "pt": "Gostava de participar como voluntário.", "de": "Ich würde gern als Freiwilliger mitmachen."},
+    {"id": "como-e-que-posso-ajudar", "pt": "Como é que posso ajudar?", "de": "Wie kann ich helfen?"}
+   ]
+  },
+  {
+   "id": "B1-12-L10",
+   "typ": "neu",
+   "titel": "Eine Debatte führen: Meinung, Widerspruch, Fazit",
+   "vokabeln": ["discordar", "interromper", "deixe-me-acabar", "na-minha-perspetiva", "o-moderador", "ter-a-palavra", "quanto-a", "concluir"],
+   "grammatik": {
+    "titel": "Debater: dar a opinião, discordar, interromper e concluir",
+    "erklaerung": [
+     "Dar a opinião: <i><b>a meu ver</b>, <b>na minha perspetiva</b>, <b>do meu ponto de vista</b>, <b>parece-me que</b>, <b>acho que</b></i> + indicativo: <i>A meu ver, o problema <b>é</b> a habitação.</i> Com <i>não acho que</i> usa-se o conjuntivo: <i>Não acho que <b>seja</b> assim.</i>",
+     "Concordar e discordar: <i><b>Concordo</b> consigo. Tem toda a razão. <b>Discordo</b> totalmente. Até certo ponto, sim, mas…</i> Para admitir um argumento do outro: <i><b>É verdade que</b> …, mas …</i>",
+     "Organizar o que se diz: <i><b>em primeiro lugar</b>, <b>em segundo lugar</b>, <b>por fim</b></i>; mudar de tema: <b>quanto a</b> + nome (<i>quanto <b>ao</b> turismo, quanto <b>à</b> água</i>); concluir: <i><b>em suma</b>, <b>para concluir</b></i>.",
+     "Interromper com educação: <i><b>Desculpe interromper</b>, mas… Posso só acrescentar uma coisa?</i> Pedir para terminar: <i><b>Deixe-me acabar</b>, se faz favor.</i> (com tu: <i>Deixa-me acabar.</i>)"
+    ],
+    "erklaerung_de": [
+     "Meinung äußern: <i><b>a meu ver</b>, <b>na minha perspetiva</b>, <b>do meu ponto de vista</b>, <b>parece-me que</b>, <b>acho que</b></i> + Indikativ: <i>A meu ver, o problema <b>é</b> a habitação.</i> – Meiner Ansicht nach ist das Problem der Wohnraum. Nach <i>não acho que</i> steht der Konjunktiv: <i>Não acho que <b>seja</b> assim.</i> – Ich glaube nicht, dass es so ist.",
+     "Zustimmen und widersprechen: <i><b>Concordo</b> consigo.</i> – Ich stimme Ihnen zu. <i>Tem toda a razão.</i> – Sie haben völlig recht. <i><b>Discordo</b> totalmente.</i> – Da bin ich ganz anderer Meinung. <i>Até certo ponto, sim, mas…</i> – Bis zu einem gewissen Punkt ja, aber … Um ein Gegenargument einzuräumen: <i><b>É verdade que</b> …, mas …</i> – Es stimmt, dass …, aber …",
+     "Gliedern: <i><b>em primeiro lugar</b>, <b>em segundo lugar</b>, <b>por fim</b></i> (erstens, zweitens, schließlich); Thema wechseln: <b>quanto a</b> + Nomen (<i>quanto <b>ao</b> turismo, quanto <b>à</b> água</i> – was den Tourismus / das Wasser betrifft); abschließen: <i><b>em suma</b>, <b>para concluir</b></i> (kurz gesagt, zum Schluss).",
+     "Höflich unterbrechen: <i><b>Desculpe interromper</b>, mas…</i> – Entschuldigen Sie, dass ich unterbreche, aber … <i>Posso só acrescentar uma coisa?</i> – Darf ich nur kurz etwas ergänzen? Ums Ausredenlassen bitten: <i><b>Deixe-me acabar</b>, se faz favor.</i> – Lassen Sie mich bitte ausreden. (mit tu: <i>Deixa-me acabar.</i>)"
+    ],
+    "vergleich": "Portugiesische Diskussionen sind oft höflich-indirekt: Statt „Das ist falsch“ sagt man lieber <i>Não sei se concordo…</i> oder <i>Até certo ponto, sim, mas…</i>. „Was … betrifft“ = <i>quanto a</i> – mit dem Artikel verschmolzen: <i>quanto ao turismo, quanto à água</i>.",
+    "beispiele": [
+     {"pt": "A meu ver, o maior problema do Algarve é a água.", "de": "Meiner Ansicht nach ist das größte Problem der Algarve das Wasser."},
+     {"pt": "Desculpe interromper, mas discordo totalmente.", "de": "Entschuldigen Sie, dass ich unterbreche, aber ich bin ganz anderer Meinung."},
+     {"pt": "Quanto à habitação, é preciso construir mais casas.", "de": "Was den Wohnraum betrifft, muss man mehr Häuser bauen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quanto ___ água, temos de agir já. (a + a)", "loesungen": ["à"], "de": "Was das Wasser betrifft, müssen wir sofort handeln.", "erklaerung": "quanto a + a = quanto à", "kategorie": "Diskussion"},
+     {"typ": "luecke", "satz": "Não acho que o turismo ___ o problema. (ser)", "loesungen": ["seja"], "de": "Ich glaube nicht, dass der Tourismus das Problem ist.", "erklaerung": "não acho que → Konjunktiv.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Desculpe ___, mas posso acrescentar uma coisa? (unterbrechen)", "loesungen": ["interromper"], "de": "Entschuldigen Sie, dass ich unterbreche, aber darf ich etwas ergänzen?", "kategorie": "Diskussion"},
+     {"typ": "auswahl", "frage": "„Ich bin völlig anderer Meinung.“", "optionen": ["Discordo totalmente.", "Não concordo-me totalmente.", "Discordo-me totalmente."], "richtig": 0, "erklaerung": "discordar und concordar sind nicht reflexiv.", "kategorie": "Diskussion"},
+     {"typ": "auswahl", "frage": "Wie sagst du höflich zu einem Herrn: „Lassen Sie mich ausreden.“?", "optionen": ["Deixa-me acabar, se faz favor.", "Deixe-me acabar, se faz favor.", "Me deixe acabar, se faz favor."], "richtig": 1, "erklaerung": "Formell (o senhor): deixe-me. Das Pronomen steht nie am Satzanfang.", "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Erstens müssen wir Wasser sparen.", "loesungen": ["Em primeiro lugar, temos de poupar água.", "Em primeiro lugar, temos que poupar água.", "Em primeiro lugar, é preciso poupar água.", "Em primeiro lugar temos de poupar água.", "Em primeiro lugar, precisamos de poupar água."]},
+     {"typ": "uebersetzen", "de": "Aus meiner Sicht hast du recht.", "loesungen": ["Do meu ponto de vista, tens razão.", "Do meu ponto de vista tens razão.", "Na minha perspetiva, tens razão.", "A meu ver, tens razão.", "Na minha opinião, tens razão."]},
+     {"typ": "satzbau", "de": "Es stimmt, dass der Tourismus Arbeitsplätze schafft, aber er verbraucht viel Wasser.", "loesung": "É verdade que o turismo cria empregos, mas gasta muita água."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Debate na Câmara: água para o golfe? – Debatte im Rathaus: Wasser für Golf?",
+    "situation": "Numa sessão pública na Câmara de Lagos, uma moradora e o diretor de um campo de golfe discutem.",
+    "zeilen": [
+     {"sprecher": "Moderador", "stimme": "m", "pt": "Boa noite. O tema de hoje é a água. Em primeiro lugar, tem a palavra a D. Fernanda, moradora em Lagos.", "de": "Guten Abend. Das heutige Thema ist das Wasser. Zuerst hat Frau Fernanda das Wort, Einwohnerin von Lagos."},
+     {"sprecher": "Fernanda", "stimme": "f", "pt": "Obrigada. A meu ver, não faz sentido regar campos de golfe quando os moradores têm restrições. Uma vez que a água é pouca, há que escolher.", "de": "Danke. Meiner Ansicht nach ist es nicht sinnvoll, Golfplätze zu bewässern, wenn die Einwohner Einschränkungen haben. Da das Wasser knapp ist, muss man sich entscheiden."},
+     {"sprecher": "Sr. Carvalho", "stimme": "m", "pt": "Desculpe interromper, mas discordo totalmente. Os nossos campos já usam água reciclada.", "de": "Entschuldigen Sie, dass ich unterbreche, aber ich bin ganz anderer Meinung. Unsere Plätze verwenden bereits aufbereitetes Wasser."},
+     {"sprecher": "Fernanda", "stimme": "f", "pt": "Deixe-me acabar, se faz favor. É verdade que alguns campos usam água reciclada, mas não todos.", "de": "Lassen Sie mich bitte ausreden. Es stimmt, dass einige Plätze aufbereitetes Wasser verwenden, aber nicht alle."},
+     {"sprecher": "Sr. Carvalho", "stimme": "m", "pt": "Até certo ponto, tem razão. No entanto, o golfe traz turistas no inverno, ou seja, ajuda a combater a sazonalidade.", "de": "Bis zu einem gewissen Punkt haben Sie recht. Allerdings bringt Golf im Winter Touristen, das heißt, es hilft gegen die Saisonabhängigkeit."},
+     {"sprecher": "Moderador", "stimme": "m", "pt": "Quanto às soluções, o que propõem?", "de": "Was die Lösungen betrifft – was schlagen Sie vor?"},
+     {"sprecher": "Fernanda", "stimme": "f", "pt": "Na minha perspetiva, todos os campos devem ser obrigados a usar água reciclada.", "de": "Aus meiner Perspektive sollten alle Plätze verpflichtet werden, aufbereitetes Wasser zu verwenden."},
+     {"sprecher": "Sr. Carvalho", "stimme": "m", "pt": "Nisso estou de acordo. Em suma: o golfe pode ser sustentável, mas é preciso investir.", "de": "Da stimme ich zu. Kurz gesagt: Golf kann nachhaltig sein, aber man muss investieren."}
+    ],
+    "fragen": [
+     {"frage": "Qual é a opinião da D. Fernanda no início?", "optionen": ["Não faz sentido regar campos de golfe quando há restrições.", "O golfe é bom para todos.", "É preciso construir mais campos de golfe."], "richtig": 0},
+     {"frage": "Segundo o Sr. Carvalho, qual é a vantagem do golfe?", "optionen": ["Gasta pouca água.", "Traz turistas no inverno.", "Cria empregos para os jovens."], "richtig": 1},
+     {"frage": "Em que estão os dois de acordo no fim?", "optionen": ["Que se devem fechar os campos.", "Que a água deve ficar mais cara.", "Que os campos devem usar água reciclada."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Debate com o vizinho João sobre o alojamento local em Lagos (tu).",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Eu acho que o alojamento local é ótimo. Dá dinheiro a muita gente.", "de": "Ich finde die Ferienwohnungen super. Sie bringen vielen Leuten Geld."},
+     {"ich": true, "aufgabe": "Sag: Einerseits hast du recht. Andererseits sind die Mieten sehr hoch.", "loesungen": ["Por um lado, tens razão. Por outro lado, as rendas estão muito altas.", "Por um lado, tens razão. Por outro, as rendas estão muito altas.", "Por um lado, tens razão; por outro lado, as rendas estão muito altas.", "Por um lado tens razão, por outro lado as rendas estão muito altas.", "Por um lado, tens razão. Por outro lado, as rendas são muito altas.", "Por um lado, tens razão. Por outro lado, as rendas estão muito caras."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Mas sem turistas não havia trabalho no Algarve!", "de": "Aber ohne Touristen gäbe es keine Arbeit in der Algarve!"},
+     {"ich": true, "aufgabe": "Sag: Es stimmt, dass der Tourismus Arbeitsplätze schafft, aber die jungen Leute finden keine Wohnung.", "loesungen": ["É verdade que o turismo cria empregos, mas os jovens não encontram casa.", "É verdade que o turismo cria emprego, mas os jovens não encontram casa.", "É verdade que o turismo cria empregos, mas os jovens não conseguem encontrar casa.", "É verdade que o turismo cria postos de trabalho, mas os jovens não encontram casa.", "É verdade que o turismo cria empregos, mas os jovens não arranjam casa."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Hum… Então, o que é que propões?", "de": "Hm … Was schlägst du also vor?"},
+     {"ich": true, "aufgabe": "Sag: Meiner Ansicht nach braucht man klarere Regeln. Das heißt, weniger Ferienwohnungen im Zentrum. (as regras, o alojamento local)", "loesungen": ["A meu ver, são precisas regras mais claras. Ou seja, menos alojamento local no centro.", "A meu ver, precisamos de regras mais claras. Ou seja, menos alojamento local no centro.", "A meu ver, fazem falta regras mais claras. Ou seja, menos alojamento local no centro.", "Na minha perspetiva, são precisas regras mais claras. Ou seja, menos alojamento local no centro.", "A meu ver, são precisas regras mais claras. Isto é, menos alojamento local no centro.", "A meu ver, é preciso haver regras mais claras. Ou seja, menos alojamento local no centro."]}
+    ]
+   },
+   "saetze": [
+    {"id": "desculpe-interromper", "pt": "Desculpe interromper, mas posso dizer uma coisa?", "de": "Entschuldigen Sie, dass ich unterbreche, aber darf ich etwas sagen?"},
+    {"id": "discordo-totalmente", "pt": "Discordo totalmente.", "de": "Da bin ich ganz anderer Meinung."},
+    {"id": "na-minha-perspetiva-problema", "pt": "Na minha perspetiva, o problema é outro.", "de": "Aus meiner Perspektive ist das Problem ein anderes."}
+   ]
+  },
+  {"id": "B1-12-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-12-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "O Pedro vai para a serra – Pedro zieht in die Berge",
+   "situation": "O Pedro conta ao Stefan uma novidade.",
+   "zeilen": [
+    {"sprecher": "Pedro", "stimme": "m", "pt": "Stefan, tenho uma novidade: vou mudar-me para Monchique.", "de": "Stefan, ich habe Neuigkeiten: Ich ziehe nach Monchique."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Para a serra? Porquê? Em Lagos vive-se tão bem!", "de": "In die Berge? Warum? In Lagos lebt man doch so gut!"},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "Vive-se bem, sim, mas as rendas estão impossíveis. Por um T2 em Monchique pago metade.", "de": "Man lebt gut, ja, aber die Mieten sind unmöglich. Für eine Dreizimmerwohnung in Monchique zahle ich die Hälfte."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Por um lado, percebo. Por outro lado, lá não há quase nada: nem comboio, nem cinema…", "de": "Einerseits verstehe ich das. Andererseits gibt es dort fast nichts: keinen Zug, kein Kino …"},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "É verdade que há poucos serviços. No entanto, como trabalho a partir de casa, não preciso de ir todos os dias à cidade.", "de": "Es stimmt, dass es wenig Infrastruktur gibt. Allerdings muss ich nicht jeden Tag in die Stadt, da ich von zu Hause aus arbeite."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E não tens medo dos incêndios? Diz-se que os verões vão ser cada vez mais quentes.", "de": "Und hast du keine Angst vor den Waldbränden? Man sagt, die Sommer werden immer heißer."},
+    {"sprecher": "Pedro", "stimme": "m", "pt": "Um bocadinho. Mas o terreno à volta da casa está limpo e, aliás, há bombeiros voluntários muito bons na vila.", "de": "Ein bisschen. Aber das Grundstück rund ums Haus ist gerodet, und übrigens gibt es im Ort sehr gute freiwillige Feuerwehrleute."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Então, boa sorte! E convida-nos para um almoço lá em cima.", "de": "Dann viel Glück! Und lade uns mal zum Mittagessen da oben ein."}
+   ],
+   "fragen": [
+    {"frage": "Para onde se vai mudar o Pedro?", "optionen": ["Para Lisboa.", "Para Monchique.", "Para a Alemanha."], "richtig": 1},
+    {"frage": "Porque é que o Pedro se vai mudar?", "optionen": ["Porque as rendas em Lagos estão muito altas.", "Porque perdeu o emprego.", "Porque não gosta do mar."], "richtig": 0},
+    {"frage": "Porque é que o Pedro não precisa de ir todos os dias à cidade?", "optionen": ["Porque tem carro elétrico.", "Porque está reformado.", "Porque trabalha a partir de casa."], "richtig": 2},
+    {"frage": "O que diz o Pedro sobre os bombeiros?", "optionen": ["Que não há bombeiros na vila.", "Que há bombeiros voluntários muito bons.", "Que os bombeiros estão longe."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Fórum: vale a pena instalar painéis solares? – Forum: Lohnen sich Solarmodule?",
+   "situation": "Uma pergunta e duas respostas num fórum de estrangeiros que vivem no Algarve.",
+   "text": [
+    "Fórum Viver no Algarve – Vale a pena instalar painéis solares?",
+    "Klaus_Tavira: Moro numa moradia perto de Tavira e a fatura da luz está cada vez mais alta. Diz-se que no Algarve os painéis solares se pagam em poucos anos. É verdade? Quanto se gasta numa instalação?",
+    "Sofia_Loulé: Instalei seis painéis há dois anos e paguei cerca de quatro mil euros. Por um lado, a fatura desceu sessenta por cento. Por outro lado, à noite continuo a comprar energia à rede, porque não tenho bateria. Ou seja, se quiser poupar mais, convém instalar também uma bateria.",
+    "Manuel_Faro: Concordo com a Sofia. Aliás, há apoios do Estado para as energias renováveis – informe-se antes de comprar. No entanto, cuidado com as empresas que batem à porta: pedem-se sempre três orçamentos!"
+   ],
+   "fragen": [
+    {"frage": "Porque é que o Klaus pensa em instalar painéis solares?", "optionen": ["Porque a fatura da luz está cada vez mais alta.", "Porque a casa não tem eletricidade.", "Porque o vizinho tem painéis."], "richtig": 0},
+    {"frage": "Quanto pagou a Sofia pela instalação?", "optionen": ["Seis mil euros.", "Cerca de quatro mil euros.", "Sessenta euros."], "richtig": 1},
+    {"frage": "Porque é que a Sofia ainda compra energia à noite?", "optionen": ["Porque os painéis estão avariados.", "Porque gasta muito com o aquecimento.", "Porque não tem bateria."], "richtig": 2},
+    {"frage": "O que aconselha o Manuel?", "optionen": ["Pedir sempre três orçamentos.", "Comprar à primeira empresa que aparecer.", "Esperar alguns anos."], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Hier lebt man gut.", "loesungen": ["Aqui vive-se bem.", "Vive-se bem aqui."]},
+   {"de": "Hier darf man nicht rauchen.", "loesungen": ["Aqui não se pode fumar.", "Não se pode fumar aqui.", "É proibido fumar aqui.", "Aqui é proibido fumar."]},
+   {"de": "Solarmodule zu verkaufen.", "loesungen": ["Vendem-se painéis solares."]},
+   {"de": "Man hofft, dass es im Winter regnet.", "loesungen": ["Espera-se que chova no inverno.", "Espera-se que no inverno chova."]},
+   {"de": "Der Tourismus bringt Geld. Allerdings verbraucht er viel Wasser.", "loesungen": ["O turismo traz dinheiro. No entanto, gasta muita água.", "O turismo traz dinheiro. No entanto, consome muita água.", "O turismo traz dinheiro. Contudo, gasta muita água.", "O turismo traz dinheiro. Contudo, consome muita água.", "O turismo traz dinheiro. No entanto gasta muita água."]},
+   {"de": "Es ist wichtig, dass wir Wasser sparen. (persönlicher Infinitiv)", "loesungen": ["É importante pouparmos água.", "É importante pouparmos a água."]}
+  ],
+  "sprechen": [
+   {"pt": "Fala-se muito das alterações climáticas.", "de": "Man spricht viel über den Klimawandel."},
+   {"pt": "Não se pode regar a relva durante o dia.", "de": "Tagsüber darf man den Rasen nicht gießen."},
+   {"pt": "Precisa-se de voluntários para limpar a praia.", "de": "Freiwillige für die Strandreinigung gesucht."},
+   {"pt": "Por um lado, o turismo cria empregos; por outro lado, faz subir as rendas.", "de": "Einerseits schafft der Tourismus Arbeitsplätze, andererseits lässt er die Mieten steigen."},
+   {"pt": "A meu ver, é preciso poupar mais água.", "de": "Meiner Ansicht nach muss man mehr Wasser sparen."}
+  ]
+ }
+}
