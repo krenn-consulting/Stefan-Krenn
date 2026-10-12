@@ -24,7 +24,7 @@ BRASILIANISMEN = [
     (r"(?i)\b(estou|está|estamos|estão|estás) \w+ndo\b", "estar + Gerundium → estar a + Infinitiv"),
     # Ausnahmen: „Se faz favor“ (= bitte), „Se calhar“ (= vielleicht) und
     # „Se“ als Bindewort „wenn“ (Se precisar …, Se tivesse …, Se não …)
-    (r"(^|[.!?–]\s*)(?!Se faz favor)(?!Se (calhar|não|eu|tu|ele|ela|nós|vocês|eles|elas|o|a|os|as|um|uma|isso|isto|aquilo|este|esta|esse|essa|aquele|aquela|alguém|ninguém|tudo|nada|algum|alguma|todos|todas|cada|calhar|[a-zà-ú]+(r|rmos|rem|sse|ssem|ssemos))\b)"
+    (r"(^|[.!?–]\s*)(?!Se faz favor)(?!Se (calhar|não|me|te|lhe|lhes|nos|vos|eu|tu|ele|ela|nós|vocês|eles|elas|o|a|os|as|um|uma|isso|isto|aquilo|este|esta|esse|essa|aquele|aquela|alguém|ninguém|tudo|nada|algum|alguma|todos|todas|cada|calhar|[a-zà-ú]+(r|rmos|rem|sse|ssem|ssemos))\b)"
      r"(?!Nos (últimos|últimas|próximos|próximas|primeiros|primeiras|dias|anos|meses|fins|tempos|Açores|Estados)\b)"
      r"(Me|Te|Se|Lhe|Nos) [a-zà-ú]+", "Pronomen am Satzanfang → Enklise (Chamo-me …)"),
     (r"\bequipe\b", "equipe → equipa"),
