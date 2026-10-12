@@ -1,0 +1,894 @@
+{
+ "id": "B1-14",
+ "level": "B1",
+ "titel": "Projeto – Präsentation über dich und dein Business",
+ "beschreibung": "Abschlussprojekt von B1: sich beruflich vorstellen, die eigene Firma, Dienstleistungen, Erfolge und Pläne beschreiben, eine Präsentation aufbauen, Fragen beantworten, einen Profiltext schreiben und einen Pitch halten – mit Wiederholung von Konjunktiv, infinitivo pessoal, futuro do conjuntivo und Pronomen.",
+ "vokabeln": [
+  {"id": "especializar-se", "pt": "especializar-se", "de": "sich spezialisieren", "emoji": "🎯", "beispiel_pt": "Especializei-me em estratégia para pequenas empresas.", "beispiel_de": "Ich habe mich auf Strategie für kleine Unternehmen spezialisiert.", "hinweis": "especializar-se em + Nomen"},
+  {"id": "a-trajetoria", "pt": "a trajetória", "de": "der Werdegang / Weg", "emoji": "🛤️", "beispiel_pt": "A minha trajetória profissional começou em Viena.", "beispiel_de": "Mein beruflicher Werdegang begann in Wien.", "hinweis": "AO90: trajetória (früher trajectória)", "passiv": true},
+  {"id": "natural-de", "pt": "natural de", "de": "gebürtig aus", "emoji": "🏔️", "beispiel_pt": "Sou natural de Viena, na Áustria.", "beispiel_de": "Ich bin gebürtiger Wiener.", "hinweis": "etwas formeller als „sou de …“"},
+  {"id": "radicado", "pt": "radicado", "de": "ansässig / niedergelassen", "emoji": "📌", "beispiel_pt": "Estou radicado em Lagos há três anos.", "beispiel_de": "Ich lebe seit drei Jahren fest in Lagos.", "alternativen": ["radicada"], "passiv": true},
+  {"id": "exercer", "pt": "exercer", "de": "ausüben (Beruf)", "emoji": "🧑‍💼", "beispiel_pt": "Exerço a profissão de consultor desde 1998.", "beispiel_de": "Ich übe den Beruf des Beraters seit 1998 aus.", "passiv": true},
+  {"id": "a-funcao", "pt": "a função", "de": "die Funktion / Aufgabe", "emoji": "🧩", "beispiel_pt": "Na multinacional, a minha função era coordenar projetos.", "beispiel_de": "Im Konzern bestand meine Aufgabe darin, Projekte zu koordinieren.", "hinweis": "desempenhar funções de … = als … tätig sein"},
+  {"id": "desempenhar", "pt": "desempenhar", "de": "ausüben / erfüllen (Rolle, Aufgabe)", "emoji": "🎭", "beispiel_pt": "Desempenhei funções de gestor de projetos durante sete anos.", "beispiel_de": "Ich war sieben Jahre lang als Projektmanager tätig.", "passiv": true},
+  {"id": "a-multinacional", "pt": "a multinacional", "de": "der internationale Konzern", "emoji": "🏢", "beispiel_pt": "Antes de fundar a minha empresa, trabalhei numa multinacional.", "beispiel_de": "Bevor ich meine Firma gegründet habe, habe ich in einem Konzern gearbeitet.", "passiv": true},
+  {"id": "por-conta-propria", "pt": "por conta própria", "de": "selbstständig", "emoji": "🧑‍💻", "beispiel_pt": "Trabalho por conta própria desde 2005.", "beispiel_de": "Ich bin seit 2005 selbstständig.", "hinweis": "Gegenteil: por conta de outrem (angestellt)"},
+
+  {"id": "o-fundador", "pt": "o fundador", "de": "der Gründer", "emoji": "🚀", "beispiel_pt": "Sou o fundador e diretor da empresa.", "beispiel_de": "Ich bin der Gründer und Geschäftsführer der Firma.", "alternativen": ["a fundadora"]},
+  {"id": "sediado", "pt": "sediado", "de": "mit Sitz in", "emoji": "📍", "beispiel_pt": "A empresa está sediada em Lagos.", "beispiel_de": "Die Firma hat ihren Sitz in Lagos.", "alternativen": ["sediada"]},
+  {"id": "a-dimensao", "pt": "a dimensão", "de": "die Größe / Dimension", "emoji": "📏", "beispiel_pt": "Trabalhamos com empresas de pequena e média dimensão.", "beispiel_de": "Wir arbeiten mit kleinen und mittelgroßen Unternehmen.", "passiv": true},
+  {"id": "a-area-de-atuacao", "pt": "a área de atuação", "de": "das Tätigkeitsfeld", "emoji": "🗂️", "beispiel_pt": "A nossa principal área de atuação é a estratégia.", "beispiel_de": "Unser wichtigstes Tätigkeitsfeld ist die Strategie.", "hinweis": "AO90: atuação (früher actuação)"},
+  {"id": "a-missao", "pt": "a missão", "de": "die Mission / der Auftrag", "emoji": "🧭", "beispiel_pt": "A nossa missão é ajudar as PME a crescer.", "beispiel_de": "Unsere Mission ist es, KMU beim Wachsen zu helfen."},
+  {"id": "os-valores", "pt": "os valores", "de": "die Werte", "emoji": "💎", "beispiel_pt": "Os nossos valores são a confiança e a transparência.", "beispiel_de": "Unsere Werte sind Vertrauen und Transparenz.", "hinweis": "Singular: o valor (auch: der Wert, der Betrag)"},
+  {"id": "a-pme", "pt": "a PME", "de": "das KMU (kleines oder mittleres Unternehmen)", "emoji": "🏪", "beispiel_pt": "A maioria dos nossos clientes são PME.", "beispiel_de": "Die meisten unserer Kunden sind KMU.", "hinweis": "pequena e média empresa; Plural unverändert: as PME", "passiv": true},
+  {"id": "o-volume-de-negocios", "pt": "o volume de negócios", "de": "der Umsatz", "emoji": "📊", "beispiel_pt": "O volume de negócios cresceu 15 % no ano passado.", "beispiel_de": "Der Umsatz ist im letzten Jahr um 15 % gestiegen.", "hinweis": "Synonym: a faturação", "passiv": true},
+  {"id": "os-recibos-verdes", "pt": "os recibos verdes", "de": "Freiberufler-Rechnungen (Selbstständigenstatus)", "emoji": "🟩", "beispiel_pt": "Muitos consultores em Portugal trabalham a recibos verdes.", "beispiel_de": "Viele Berater in Portugal arbeiten auf Honorarbasis.", "hinweis": "trabalhar a recibos verdes = als Freiberufler arbeiten (ohne Anstellung)", "passiv": true},
+  {"id": "a-filial", "pt": "a filial", "de": "die Niederlassung / Filiale", "emoji": "🏬", "beispiel_pt": "Temos uma pequena filial em Viena.", "beispiel_de": "Wir haben eine kleine Niederlassung in Wien.", "passiv": true},
+
+  {"id": "a-consultoria", "pt": "a consultoria", "de": "die Beratung", "emoji": "💡", "beispiel_pt": "Faço consultoria de gestão para empresas de turismo.", "beispiel_de": "Ich mache Unternehmensberatung für Tourismusbetriebe.", "hinweis": "a empresa de consultoria = die Beratungsfirma"},
+  {"id": "prestar-servicos", "pt": "prestar serviços", "de": "Dienstleistungen erbringen", "emoji": "🛎️", "beispiel_pt": "Prestamos serviços a empresas portuguesas e austríacas.", "beispiel_de": "Wir erbringen Dienstleistungen für portugiesische und österreichische Firmen.", "hinweis": "o prestador de serviços = der Dienstleister"},
+  {"id": "a-carteira-de-clientes", "pt": "a carteira de clientes", "de": "der Kundenstamm", "emoji": "💼", "beispiel_pt": "A minha carteira de clientes inclui hotéis e adegas.", "beispiel_de": "Zu meinem Kundenstamm gehören Hotels und Weingüter.", "passiv": true},
+  {"id": "o-publico-alvo", "pt": "o público-alvo", "de": "die Zielgruppe", "emoji": "🎯", "beispiel_pt": "O nosso público-alvo são as PME do Algarve.", "beispiel_de": "Unsere Zielgruppe sind die KMU der Algarve."},
+  {"id": "acompanhar", "pt": "acompanhar", "de": "begleiten / betreuen", "emoji": "🤝", "beispiel_pt": "Acompanhamos os clientes desde o diagnóstico até à implementação.", "beispiel_de": "Wir begleiten die Kunden von der Analyse bis zur Umsetzung."},
+  {"id": "a-parceria", "pt": "a parceria", "de": "die Partnerschaft / Kooperation", "emoji": "🔗", "beispiel_pt": "Temos uma parceria com uma agência de marketing em Faro.", "beispiel_de": "Wir kooperieren mit einer Marketingagentur in Faro.", "hinweis": "o parceiro = der Partner"},
+  {"id": "personalizado", "pt": "personalizado", "de": "maßgeschneidert / individuell", "emoji": "✂️", "beispiel_pt": "Cada cliente recebe um plano personalizado.", "beispiel_de": "Jeder Kunde bekommt einen individuellen Plan.", "alternativen": ["personalizada"]},
+  {"id": "implementar", "pt": "implementar", "de": "umsetzen / einführen", "emoji": "⚙️", "beispiel_pt": "Ajudamos a implementar novos processos.", "beispiel_de": "Wir helfen, neue Abläufe einzuführen.", "hinweis": "a implementação = die Umsetzung", "passiv": true},
+  {"id": "fidelizar", "pt": "fidelizar", "de": "(Kunden) binden", "emoji": "🧲", "beispiel_pt": "É mais barato fidelizar um cliente do que conquistar um novo.", "beispiel_de": "Es ist billiger, einen Kunden zu binden, als einen neuen zu gewinnen.", "passiv": true},
+  {"id": "a-necessidade", "pt": "a necessidade", "de": "das Bedürfnis / der Bedarf", "emoji": "📝", "beispiel_pt": "Primeiro analisamos as necessidades do cliente.", "beispiel_de": "Zuerst analysieren wir den Bedarf des Kunden."},
+
+  {"id": "o-desafio", "pt": "o desafio", "de": "die Herausforderung", "emoji": "🧗", "beispiel_pt": "Mudar a empresa para Portugal foi um grande desafio.", "beispiel_de": "Die Firma nach Portugal zu verlegen, war eine große Herausforderung."},
+  {"id": "superar", "pt": "superar", "de": "überwinden / übertreffen", "emoji": "🏋️", "beispiel_pt": "Superámos a crise com muito trabalho.", "beispiel_de": "Wir haben die Krise mit viel Arbeit überwunden."},
+  {"id": "o-exito", "pt": "o êxito", "de": "der Erfolg", "emoji": "🏅", "beispiel_pt": "O projeto com o hotel foi um êxito.", "beispiel_de": "Das Projekt mit dem Hotel war ein Erfolg.", "hinweis": "Synonym: o sucesso"},
+  {"id": "alcancar", "pt": "alcançar", "de": "erreichen", "emoji": "🥇", "beispiel_pt": "Alcançámos todos os objetivos do ano.", "beispiel_de": "Wir haben alle Jahresziele erreicht.", "hinweis": "eu alcanço (ç vor o)"},
+  {"id": "o-marco", "pt": "o marco", "de": "der Meilenstein", "emoji": "🪧", "beispiel_pt": "Abrir o escritório em Lagos foi um marco.", "beispiel_de": "Das Büro in Lagos zu eröffnen, war ein Meilenstein.", "passiv": true},
+  {"id": "a-crise", "pt": "a crise", "de": "die Krise", "emoji": "📉", "beispiel_pt": "Durante a crise de 2020 perdemos muitos clientes.", "beispiel_de": "In der Krise 2020 haben wir viele Kunden verloren."},
+  {"id": "o-obstaculo", "pt": "o obstáculo", "de": "das Hindernis", "emoji": "🚧", "beispiel_pt": "A burocracia foi o maior obstáculo.", "beispiel_de": "Die Bürokratie war das größte Hindernis.", "passiv": true},
+  {"id": "o-fracasso", "pt": "o fracasso", "de": "der Misserfolg / das Scheitern", "emoji": "💥", "beispiel_pt": "Um fracasso também ensina muito.", "beispiel_de": "Auch ein Misserfolg lehrt viel.", "passiv": true},
+  {"id": "a-licao", "pt": "a lição", "de": "die Lektion / Lehre", "emoji": "📘", "beispiel_pt": "Aprendi a lição: nunca depender de um só cliente.", "beispiel_de": "Ich habe meine Lehre gezogen: nie von einem einzigen Kunden abhängen."},
+  {"id": "conquistar", "pt": "conquistar", "de": "gewinnen / erobern", "emoji": "🏆", "beispiel_pt": "Este ano conquistámos três clientes novos.", "beispiel_de": "Dieses Jahr haben wir drei neue Kunden gewonnen.", "passiv": true},
+
+  {"id": "expandir", "pt": "expandir", "de": "ausweiten / expandieren", "emoji": "📈", "beispiel_pt": "Queremos expandir a empresa para Lisboa.", "beispiel_de": "Wir wollen die Firma nach Lissabon ausweiten."},
+  {"id": "a-meta", "pt": "a meta", "de": "das (konkrete) Ziel", "emoji": "🏁", "beispiel_pt": "A nossa meta é duplicar a faturação em três anos.", "beispiel_de": "Unser Ziel ist es, den Umsatz in drei Jahren zu verdoppeln."},
+  {"id": "contratar", "pt": "contratar", "de": "einstellen / beauftragen", "emoji": "✍️", "beispiel_pt": "Vamos contratar duas pessoas, se tudo correr bem.", "beispiel_de": "Wir stellen zwei Leute ein, wenn alles gut läuft."},
+  {"id": "lancar", "pt": "lançar", "de": "auf den Markt bringen / starten", "emoji": "🎉", "beispiel_pt": "Em março vamos lançar um novo serviço online.", "beispiel_de": "Im März bringen wir einen neuen Online-Service heraus.", "hinweis": "eu lanço (ç vor o)"},
+  {"id": "a-curto-prazo", "pt": "a curto prazo", "de": "kurzfristig", "emoji": "⏱️", "beispiel_pt": "A curto prazo, queremos consolidar a equipa.", "beispiel_de": "Kurzfristig wollen wir das Team festigen."},
+  {"id": "investir", "pt": "investir", "de": "investieren", "emoji": "💶", "beispiel_pt": "Vamos investir em formação.", "beispiel_de": "Wir werden in Weiterbildung investieren.", "hinweis": "investir em + Nomen; eu invisto"},
+  {"id": "o-crescimento", "pt": "o crescimento", "de": "das Wachstum", "emoji": "🌱", "beispiel_pt": "O crescimento do turismo cria novas oportunidades.", "beispiel_de": "Das Wachstum des Tourismus schafft neue Chancen."},
+  {"id": "consolidar", "pt": "consolidar", "de": "festigen / konsolidieren", "emoji": "🧱", "beispiel_pt": "Primeiro queremos consolidar a nossa posição no Algarve.", "beispiel_de": "Zuerst wollen wir unsere Position in der Algarve festigen.", "passiv": true},
+  {"id": "a-internacionalizacao", "pt": "a internacionalização", "de": "die Internationalisierung", "emoji": "🌍", "beispiel_pt": "Apoiamos PME portuguesas na internacionalização para a Áustria.", "beispiel_de": "Wir unterstützen portugiesische KMU bei der Expansion nach Österreich.", "passiv": true},
+  {"id": "a-transformacao-digital", "pt": "a transformação digital", "de": "die digitale Transformation", "emoji": "💻", "beispiel_pt": "A transformação digital é um tema central para os nossos clientes.", "beispiel_de": "Die digitale Transformation ist ein zentrales Thema für unsere Kunden.", "passiv": true},
+
+  {"id": "vou-comecar-por", "pt": "Vou começar por …", "de": "Ich beginne mit …", "emoji": "🎬", "beispiel_pt": "Vou começar por me apresentar.", "beispiel_de": "Ich beginne damit, mich vorzustellen.", "hinweis": "começar por + Infinitiv / Nomen"},
+  {"id": "passando-agora-a", "pt": "Passando agora a …", "de": "Kommen wir nun zu …", "emoji": "➡️", "beispiel_pt": "Passando agora aos resultados: as vendas subiram 20 %.", "beispiel_de": "Kommen wir nun zu den Ergebnissen: Der Verkauf ist um 20 % gestiegen.", "hinweis": "Gerundium in festen Wendungen ist auch in Portugal üblich"},
+  {"id": "antes-de-mais", "pt": "antes de mais", "de": "zuallererst / vor allem", "emoji": "1️⃣", "beispiel_pt": "Antes de mais, quero agradecer o convite.", "beispiel_de": "Zuallererst möchte ich mich für die Einladung bedanken.", "hinweis": "typischer Einstieg in Reden und E-Mails"},
+  {"id": "por-ultimo", "pt": "por último", "de": "zuletzt / schließlich", "emoji": "🔚", "beispiel_pt": "Por último, vou falar dos próximos passos.", "beispiel_de": "Zum Schluss spreche ich über die nächsten Schritte."},
+  {"id": "o-diapositivo", "pt": "o diapositivo", "de": "die Folie (Präsentation)", "emoji": "🖼️", "beispiel_pt": "Como podem ver neste diapositivo, as vendas subiram.", "beispiel_de": "Wie Sie auf dieser Folie sehen, ist der Verkauf gestiegen.", "hinweis": "im Büroalltag auch: o slide"},
+  {"id": "resumir", "pt": "resumir", "de": "zusammenfassen", "emoji": "🗜️", "beispiel_pt": "Vou resumir os pontos principais.", "beispiel_de": "Ich fasse die wichtigsten Punkte zusammen."},
+  {"id": "a-introducao", "pt": "a introdução", "de": "die Einleitung", "emoji": "🚪", "beispiel_pt": "A introdução não deve durar mais de dois minutos.", "beispiel_de": "Die Einleitung sollte nicht länger als zwei Minuten dauern."},
+  {"id": "a-conclusao", "pt": "a conclusão", "de": "der Schluss / die Schlussfolgerung", "emoji": "✅", "beispiel_pt": "Em conclusão, o projeto vale a pena.", "beispiel_de": "Zusammenfassend: Das Projekt lohnt sich."},
+  {"id": "no-que-diz-respeito-a", "pt": "no que diz respeito a", "de": "was … betrifft", "emoji": "🔎", "beispiel_pt": "No que diz respeito aos custos, os números são claros.", "beispiel_de": "Was die Kosten betrifft, sind die Zahlen eindeutig.", "passiv": true},
+  {"id": "sublinhar", "pt": "sublinhar", "de": "betonen / unterstreichen", "emoji": "✏️", "beispiel_pt": "Quero sublinhar um ponto importante.", "beispiel_de": "Ich möchte einen wichtigen Punkt betonen.", "passiv": true},
+
+  {"id": "boa-pergunta", "pt": "Boa pergunta!", "de": "Gute Frage!", "emoji": "🙋", "beispiel_pt": "Boa pergunta! Deixe-me pensar um segundo.", "beispiel_de": "Gute Frage! Lassen Sie mich kurz nachdenken."},
+  {"id": "pelo-que-percebi", "pt": "Pelo que percebi, …", "de": "Wenn ich richtig verstanden habe, …", "emoji": "👂", "beispiel_pt": "Pelo que percebi, a sua pergunta é sobre os prazos.", "beispiel_de": "Wenn ich richtig verstanden habe, geht es in Ihrer Frage um die Fristen."},
+  {"id": "detalhar", "pt": "detalhar", "de": "im Detail erläutern", "emoji": "🔍", "beispiel_pt": "Posso detalhar este ponto no fim, se quiser.", "beispiel_de": "Ich kann diesen Punkt am Ende genauer erläutern, wenn Sie möchten."},
+  {"id": "ao-certo", "pt": "ao certo", "de": "genau (wissen)", "emoji": "🎲", "beispiel_pt": "Não sei ao certo, mas posso confirmar até amanhã.", "beispiel_de": "Ich weiß es nicht genau, aber ich kann es bis morgen bestätigen.", "hinweis": "meist mit saber: não sei ao certo"},
+  {"id": "pertinente", "pt": "pertinente", "de": "berechtigt / treffend", "emoji": "❓", "beispiel_pt": "É uma pergunta muito pertinente.", "beispiel_de": "Das ist eine sehr berechtigte Frage."},
+  {"id": "aprofundar", "pt": "aprofundar", "de": "vertiefen", "emoji": "🔬", "beispiel_pt": "Posso aprofundar este tema depois da apresentação.", "beispiel_de": "Ich kann dieses Thema nach der Präsentation vertiefen.", "passiv": true},
+  {"id": "reformular", "pt": "reformular", "de": "umformulieren", "emoji": "🔄", "beispiel_pt": "Pode reformular a pergunta, se faz favor?", "beispiel_de": "Können Sie die Frage bitte anders formulieren?", "passiv": true},
+  {"id": "a-objecao", "pt": "a objeção", "de": "der Einwand", "emoji": "✋", "beispiel_pt": "Compreendo a sua objeção.", "beispiel_de": "Ich verstehe Ihren Einwand.", "hinweis": "AO90: objeção (früher objecção)", "passiv": true},
+  {"id": "ja-la-vamos", "pt": "Já lá vamos.", "de": "Dazu kommen wir gleich.", "emoji": "⏩", "beispiel_pt": "Os preços? Já lá vamos.", "beispiel_de": "Die Preise? Dazu kommen wir gleich.", "passiv": true},
+
+  {"id": "o-perfil", "pt": "o perfil", "de": "das Profil", "emoji": "🪪", "beispiel_pt": "Atualizei o meu perfil no LinkedIn.", "beispiel_de": "Ich habe mein LinkedIn-Profil aktualisiert."},
+  {"id": "a-rede-de-contactos", "pt": "a rede de contactos", "de": "das (Kontakt-)Netzwerk", "emoji": "🕸️", "beispiel_pt": "A minha rede de contactos em Portugal está a crescer.", "beispiel_de": "Mein Netzwerk in Portugal wächst.", "hinweis": "pt-PT: contacto (BR: contato)"},
+  {"id": "a-recomendacao", "pt": "a recomendação", "de": "die Empfehlung", "emoji": "👍", "beispiel_pt": "Recebi uma recomendação de um cliente satisfeito.", "beispiel_de": "Ich habe eine Empfehlung von einem zufriedenen Kunden bekommen."},
+  {"id": "a-competencia", "pt": "a competência", "de": "die Kompetenz / Fähigkeit", "emoji": "🧠", "beispiel_pt": "A comunicação é uma das minhas principais competências.", "beispiel_de": "Kommunikation ist eine meiner wichtigsten Kompetenzen."},
+  {"id": "destacar", "pt": "destacar", "de": "hervorheben", "emoji": "🔦", "beispiel_pt": "No perfil, destaco a experiência internacional.", "beispiel_de": "Im Profil hebe ich die internationale Erfahrung hervor.", "hinweis": "destacar-se = sich hervortun"},
+  {"id": "apaixonado-por", "pt": "apaixonado por", "de": "begeistert von / leidenschaftlich für", "emoji": "❤️", "beispiel_pt": "Sou apaixonado por estratégia e por boa comida.", "beispiel_de": "Ich begeistere mich für Strategie und gutes Essen.", "alternativen": ["apaixonada por"]},
+  {"id": "o-testemunho", "pt": "o testemunho", "de": "das Kundenzitat / die Referenz", "emoji": "💬", "beispiel_pt": "No site há testemunhos de vários clientes.", "beispiel_de": "Auf der Website gibt es Stimmen mehrerer Kunden.", "hinweis": "auch: die Zeugenaussage", "passiv": true},
+  {"id": "o-portefolio", "pt": "o portefólio", "de": "das Portfolio", "emoji": "🗃️", "beispiel_pt": "O nosso portefólio inclui mais de cem projetos.", "beispiel_de": "Unser Portfolio umfasst mehr als hundert Projekte.", "hinweis": "pt-PT: portefólio (BR: portfólio)", "passiv": true},
+  {"id": "a-visibilidade", "pt": "a visibilidade", "de": "die Sichtbarkeit", "emoji": "👁️", "beispiel_pt": "Um bom perfil dá mais visibilidade à empresa.", "beispiel_de": "Ein gutes Profil verschafft der Firma mehr Sichtbarkeit.", "passiv": true},
+
+  {"id": "rentavel", "pt": "rentável", "de": "rentabel / gewinnbringend", "emoji": "💰", "beispiel_pt": "O investimento torna-se rentável em menos de um ano.", "beispiel_de": "Die Investition rechnet sich in weniger als einem Jahr."},
+  {"id": "o-concorrente", "pt": "o concorrente", "de": "der Konkurrent / Mitbewerber", "emoji": "🥊", "beispiel_pt": "Os nossos concorrentes são maiores, mas menos flexíveis.", "beispiel_de": "Unsere Mitbewerber sind größer, aber weniger flexibel.", "alternativen": ["a concorrente"]},
+  {"id": "a-poupanca", "pt": "a poupança", "de": "die Einsparung / das Sparen", "emoji": "🐷", "beispiel_pt": "Com este sistema, a poupança é de cerca de 20 %.", "beispiel_de": "Mit diesem System spart man etwa 20 %.", "hinweis": "auch: die Ersparnisse"},
+  {"id": "reduzir", "pt": "reduzir", "de": "senken / reduzieren", "emoji": "⬇️", "beispiel_pt": "Podemos reduzir os custos de energia.", "beispiel_de": "Wir können die Energiekosten senken.", "hinweis": "ele reduz (ohne -e)"},
+  {"id": "comprometer-se", "pt": "comprometer-se", "de": "sich verpflichten", "emoji": "🤞", "beispiel_pt": "Comprometemo-nos a entregar o plano em duas semanas.", "beispiel_de": "Wir verpflichten uns, den Plan in zwei Wochen zu liefern.", "hinweis": "comprometer-se a + Infinitiv", "passiv": true},
+  {"id": "sem-compromisso", "pt": "sem compromisso", "de": "unverbindlich", "emoji": "🆓", "beispiel_pt": "Posso enviar-lhe uma proposta sem compromisso.", "beispiel_de": "Ich kann Ihnen ein unverbindliches Angebot schicken."},
+  {"id": "a-proposta-de-valor", "pt": "a proposta de valor", "de": "das Nutzenversprechen", "emoji": "🎁", "beispiel_pt": "A nossa proposta de valor é simples: menos custos, mais clientes.", "beispiel_de": "Unser Nutzenversprechen ist einfach: weniger Kosten, mehr Kunden.", "passiv": true},
+  {"id": "a-vantagem-competitiva", "pt": "a vantagem competitiva", "de": "der Wettbewerbsvorteil", "emoji": "📶", "beispiel_pt": "Falar alemão é uma vantagem competitiva no Algarve.", "beispiel_de": "Deutsch zu sprechen ist in der Algarve ein Wettbewerbsvorteil.", "passiv": true},
+  {"id": "o-caso-de-sucesso", "pt": "o caso de sucesso", "de": "das Erfolgsbeispiel / Referenzprojekt", "emoji": "🌟", "beispiel_pt": "Vou mostrar-lhe um caso de sucesso de um hotel em Albufeira.", "beispiel_de": "Ich zeige Ihnen ein Erfolgsbeispiel eines Hotels in Albufeira.", "passiv": true},
+
+  {"id": "a-fluencia", "pt": "a fluência", "de": "die Sprachgewandtheit / flüssiges Sprechen", "emoji": "🌊", "beispiel_pt": "A minha fluência melhorou muito este ano.", "beispiel_de": "Mein flüssiges Sprechen hat sich dieses Jahr sehr verbessert.", "hinweis": "fluente = fließend"},
+  {"id": "evoluir", "pt": "evoluir", "de": "sich (weiter)entwickeln", "emoji": "🦋", "beispiel_pt": "O meu português evoluiu bastante.", "beispiel_de": "Mein Portugiesisch hat sich ziemlich weiterentwickelt.", "hinweis": "a evolução = die Entwicklung"},
+  {"id": "o-esforco", "pt": "o esforço", "de": "die Anstrengung / Mühe", "emoji": "💪", "beispiel_pt": "O esforço valeu a pena.", "beispiel_de": "Die Mühe hat sich gelohnt."},
+  {"id": "orgulhar-se-de", "pt": "orgulhar-se de", "de": "stolz sein auf", "emoji": "🦚", "beispiel_pt": "Orgulho-me de conseguir fazer uma apresentação em português.", "beispiel_de": "Ich bin stolz darauf, eine Präsentation auf Portugiesisch halten zu können."},
+  {"id": "dominar", "pt": "dominar", "de": "beherrschen", "emoji": "🎓", "beispiel_pt": "Ainda não domino o conjuntivo, mas estou quase lá.", "beispiel_de": "Ich beherrsche den Konjunktiv noch nicht, aber ich bin fast so weit."},
+  {"id": "o-nivel", "pt": "o nível", "de": "das Niveau / die Stufe", "emoji": "🪜", "beispiel_pt": "Já tenho o nível B1.", "beispiel_de": "Ich habe schon das Niveau B1."},
+  {"id": "aperfeicoar", "pt": "aperfeiçoar", "de": "vervollkommnen / verfeinern", "emoji": "🛠️", "beispiel_pt": "No B2 quero aperfeiçoar a escrita formal.", "beispiel_de": "In B2 will ich das formelle Schreiben verfeinern.", "passiv": true},
+  {"id": "a-persistencia", "pt": "a persistência", "de": "die Ausdauer / Beharrlichkeit", "emoji": "🐢", "beispiel_pt": "Aprender uma língua exige persistência.", "beispiel_de": "Eine Sprache zu lernen, erfordert Ausdauer.", "passiv": true},
+  {"id": "a-autoconfianca", "pt": "a autoconfiança", "de": "das Selbstvertrauen", "emoji": "😎", "beispiel_pt": "Ganhei autoconfiança a falar com clientes.", "beispiel_de": "Beim Sprechen mit Kunden habe ich Selbstvertrauen gewonnen.", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-14-L01",
+   "typ": "neu",
+   "titel": "Sich beruflich vorstellen",
+   "vokabeln": ["especializar-se", "a-trajetoria", "natural-de", "radicado", "exercer", "a-funcao", "desempenhar", "a-multinacional", "por-conta-propria"],
+   "grammatik": {
+    "titel": "Apresentar-se: há, desde e o perfeito composto",
+    "erklaerung": [
+     "Para dizer <b>há quanto tempo</b> fazes algo que ainda continua, usa o <b>presente</b> com <b>há</b> + período ou <b>desde</b> + momento: <i>Sou consultor <b>há</b> mais de vinte anos. Trabalho por conta própria <b>desde</b> 2005.</i> Também se diz: <i><b>Há</b> três anos <b>que</b> vivo em Lagos.</i>",
+     "O <b>perfeito composto</b> (ter + particípio) descreve algo que se repete nos últimos tempos e continua: <i>Ultimamente <b>tenho trabalhado</b> sobretudo com hotéis.</i> Para factos terminados usa-se o <b>perfeito simples</b>: <i>Em 2005 <b>fundei</b> a minha empresa.</i>",
+     "Profissão: <b>ser</b> + profissão sem artigo (<i>Sou consultor</i>), <b>trabalhar como</b> (<i>Trabalhei como gestor de projetos</i>), <b>desempenhar funções de</b> (mais formal) e <b>trabalhar por conta própria</b> ou <b>por conta de outrem</b>.",
+     "Origem e residência: <b>Sou natural de</b> Viena (= nasci em Viena). <b>Estou radicado</b> em Portugal (= vivo cá de forma permanente). Especialidade: <b>Especializei-me em</b> estratégia. <b>Sou especializado em</b> PME."
+    ],
+    "erklaerung_de": [
+     "Um zu sagen, <b>seit wann</b> du etwas tust, das noch andauert, nimmt man das <b>Präsens</b> mit <b>há</b> + Zeitraum oder <b>desde</b> + Zeitpunkt: <i>Sou consultor <b>há</b> mais de vinte anos.</i> (seit über 20 Jahren) <i>Trabalho por conta própria <b>desde</b> 2005.</i> (seit 2005) Man sagt auch: <i><b>Há</b> três anos <b>que</b> vivo em Lagos.</i>",
+     "Das <b>perfeito composto</b> (ter + Partizip) beschreibt etwas, das sich in letzter Zeit wiederholt und andauert: <i>Ultimamente <b>tenho trabalhado</b> sobretudo com hotéis.</i> (In letzter Zeit arbeite ich vor allem mit Hotels.) Für abgeschlossene Tatsachen nimmt man das <b>perfeito simples</b>: <i>Em 2005 <b>fundei</b> a minha empresa.</i>",
+     "Beruf: <b>ser</b> + Beruf ohne Artikel (<i>Sou consultor</i>), <b>trabalhar como</b> (<i>Trabalhei como gestor de projetos</i>), <b>desempenhar funções de</b> (förmlicher: als … tätig sein) und <b>trabalhar por conta própria</b> (selbstständig) oder <b>por conta de outrem</b> (angestellt).",
+     "Herkunft und Wohnsitz: <b>Sou natural de</b> Viena (= ich bin in Wien geboren). <b>Estou radicado</b> em Portugal (= ich lebe dauerhaft hier). Spezialgebiet: <b>Especializei-me em</b> estratégia. <b>Sou especializado em</b> PME."
+    ],
+    "vergleich": "Deutsch: „Ich bin seit 20 Jahren Berater“ – Präsens + „seit“. Portugiesisch genauso im Präsens: <i>Sou consultor há 20 anos</i> (há + Zeitraum) bzw. <i>desde 2005</i> (desde + Zeitpunkt). Die Falle: <i>tenho trabalhado</i> heißt nicht „ich habe gearbeitet“, sondern „ich arbeite in letzter Zeit (immer wieder)“.",
+    "beispiele": [
+     {"pt": "Sou consultor há mais de vinte anos.", "de": "Ich bin seit über zwanzig Jahren Berater."},
+     {"pt": "Há três anos que estou radicado em Lagos.", "de": "Ich lebe seit drei Jahren fest in Lagos."},
+     {"pt": "Ultimamente tenho trabalhado sobretudo com empresas de turismo.", "de": "In letzter Zeit arbeite ich vor allem mit Tourismusunternehmen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Trabalho por conta própria ___ 2005.", "loesungen": ["desde"], "de": "Ich bin seit 2005 selbstständig.", "erklaerung": "Zeitpunkt (Jahr) → desde.", "kategorie": "há/desde"},
+     {"typ": "luecke", "satz": "Sou consultor ___ mais de vinte anos.", "loesungen": ["há"], "de": "Ich bin seit über zwanzig Jahren Berater.", "erklaerung": "Zeitraum → há.", "kategorie": "há/desde"},
+     {"typ": "auswahl", "frage": "„In letzter Zeit arbeite ich vor allem mit Hotels.“", "optionen": ["Ultimamente trabalhei sobretudo com hotéis.", "Ultimamente tenho trabalhado sobretudo com hotéis.", "Ultimamente tinha trabalhado sobretudo com hotéis."], "richtig": 1, "erklaerung": "Wiederholt in letzter Zeit und andauernd → perfeito composto: tenho trabalhado.", "kategorie": "Perfeito composto"},
+     {"typ": "auswahl", "frage": "„2005 habe ich meine Firma gegründet.“", "optionen": ["Em 2005 tenho fundado a minha empresa.", "Em 2005 fundava a minha empresa.", "Em 2005 fundei a minha empresa."], "richtig": 2, "erklaerung": "Abgeschlossene Tatsache zu einem Zeitpunkt → perfeito simples.", "kategorie": "Perfeito composto"},
+     {"typ": "luecke", "satz": "Há dez anos, ___ em estratégia para PME. (especializar-se, eu – Perfeito)", "loesungen": ["especializei-me"], "de": "Vor zehn Jahren habe ich mich auf Strategie für KMU spezialisiert.", "erklaerung": "Hauptsatz ohne Auslöser → Pronomen nach dem Verb: especializei-me.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Sou natural ___ Viena, na Áustria.", "loesungen": ["de"], "de": "Ich bin gebürtig aus Wien in Österreich."},
+     {"typ": "uebersetzen", "de": "Ich lebe seit drei Jahren fest in Lagos. (radicado)", "loesungen": ["Estou radicado em Lagos há três anos.", "Há três anos que estou radicado em Lagos.", "Estou radicado em Lagos desde há três anos."], "kategorie": "há/desde"},
+     {"typ": "uebersetzen", "de": "Ich bin seit 2005 selbstständig.", "loesungen": ["Trabalho por conta própria desde 2005.", "Desde 2005 que trabalho por conta própria.", "Desde 2005 trabalho por conta própria.", "Sou trabalhador independente desde 2005."], "kategorie": "há/desde"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um pequeno-almoço de networking – ein Networking-Frühstück",
+    "situation": "Bei einem Unternehmerfrühstück in Portimão kommt Stefan mit Marta ins Gespräch.",
+    "zeilen": [
+     {"sprecher": "Marta", "stimme": "f", "pt": "Bom dia! Sou a Marta Sousa, da agência de viagens Sotavento. Ainda não nos conhecemos, pois não?", "de": "Guten Morgen! Ich bin Marta Sousa vom Reisebüro Sotavento. Wir kennen uns noch nicht, oder?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ainda não. Muito prazer, Stefan Krenn. Sou consultor de gestão.", "de": "Noch nicht. Sehr erfreut, Stefan Krenn. Ich bin Unternehmensberater."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Krenn… Não é um nome português. De onde é?", "de": "Krenn … Das ist kein portugiesischer Name. Woher kommen Sie?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sou natural de Viena, mas estou radicado em Lagos há três anos.", "de": "Ich bin gebürtiger Wiener, lebe aber seit drei Jahren fest in Lagos."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "E trabalha para alguma empresa daqui?", "de": "Und arbeiten Sie für eine Firma von hier?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não, trabalho por conta própria desde 2005. Antes, desempenhei funções de gestor de projetos numa multinacional.", "de": "Nein, ich bin seit 2005 selbstständig. Davor war ich Projektmanager in einem Konzern."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "E em que se especializou?", "de": "Und worauf haben Sie sich spezialisiert?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Em estratégia para PME. Ultimamente tenho trabalhado sobretudo com hotéis e empresas de turismo.", "de": "Auf Strategie für KMU. In letzter Zeit arbeite ich vor allem mit Hotels und Tourismusunternehmen."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Então temos mesmo de falar! Tem um cartão de visita?", "de": "Dann müssen wir unbedingt reden! Haben Sie eine Visitenkarte?"}
+    ],
+    "fragen": [
+     {"frage": "Onde trabalha a Marta?", "optionen": ["Numa agência de viagens.", "Numa empresa de consultoria.", "Num hotel."], "richtig": 0},
+     {"frage": "Há quanto tempo vive o Stefan em Lagos?", "optionen": ["Há vinte anos.", "Desde 2005.", "Há três anos."], "richtig": 2},
+     {"frage": "Com quem tem o Stefan trabalhado ultimamente?", "optionen": ["Com bancos.", "Com hotéis e empresas de turismo.", "Com multinacionais."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Auf einer Konferenz in Faro spricht dich ein Teilnehmer an.",
+    "zeilen": [
+     {"sprecher": "Participante", "stimme": "m", "pt": "Boa tarde! Ainda não nos conhecemos. A que se dedica?", "de": "Guten Tag! Wir kennen uns noch nicht. Was machen Sie beruflich?"},
+     {"ich": true, "aufgabe": "Sag: Ich bin Berater und seit 2005 selbstständig.", "loesungen": ["Sou consultor e trabalho por conta própria desde 2005.", "Sou consultor. Trabalho por conta própria desde 2005.", "Sou consultor e desde 2005 trabalho por conta própria.", "Sou consultor e, desde 2005, trabalho por conta própria."]},
+     {"sprecher": "Participante", "stimme": "m", "pt": "E de onde é? Tem um sotaque diferente.", "de": "Und woher kommen Sie? Sie haben einen anderen Akzent."},
+     {"ich": true, "aufgabe": "Sag: Ich bin gebürtig aus Wien, aber ich lebe seit drei Jahren in Lagos.", "loesungen": ["Sou natural de Viena, mas vivo em Lagos há três anos.", "Sou natural de Viena, mas estou radicado em Lagos há três anos.", "Sou natural de Viena, mas há três anos que vivo em Lagos.", "Sou de Viena, mas vivo em Lagos há três anos."]},
+     {"sprecher": "Participante", "stimme": "m", "pt": "E em que área trabalha?", "de": "Und in welchem Bereich arbeiten Sie?"},
+     {"ich": true, "aufgabe": "Sag: Ich habe mich auf Strategie für KMU spezialisiert.", "loesungen": ["Especializei-me em estratégia para PME.", "Sou especializado em estratégia para PME.", "Especializei-me em estratégia para pequenas e médias empresas.", "Sou especializado em estratégia para pequenas e médias empresas."]}
+    ]
+   },
+   "saetze": [
+    {"id": "consultor-ha-vinte-anos", "pt": "Sou consultor há mais de vinte anos.", "de": "Ich bin seit über zwanzig Jahren Berater."},
+    {"id": "natural-de-viena", "pt": "Sou natural de Viena, mas estou radicado em Lagos.", "de": "Ich bin gebürtiger Wiener, lebe aber fest in Lagos."},
+    {"id": "tenho-trabalhado-hoteis", "pt": "Ultimamente tenho trabalhado sobretudo com hotéis.", "de": "In letzter Zeit arbeite ich vor allem mit Hotels."}
+   ]
+  },
+  {
+   "id": "B1-14-L02",
+   "typ": "neu",
+   "titel": "Die eigene Firma beschreiben",
+   "vokabeln": ["o-fundador", "sediado", "a-dimensao", "a-area-de-atuacao", "a-missao", "os-valores", "a-pme", "o-volume-de-negocios", "os-recibos-verdes", "a-filial"],
+   "grammatik": {
+    "titel": "Ser + particípio (passiva) e estar + particípio (estado)",
+    "erklaerung": [
+     "Para dizer o que <b>aconteceu</b> à empresa usa-se a <b>passiva com ser</b>: <i>A empresa <b>foi fundada</b> em 2005. O site <b>foi criado</b> por uma agência.</i> O particípio concorda com o sujeito: <i>a empresa foi fundad<b>a</b>, os projetos foram concluíd<b>os</b></i>. Quem faz a ação vem com <b>por</b>: <i>fundada <b>por</b> Stefan Krenn</i>.",
+     "Para descrever um <b>estado</b> atual usa-se <b>estar + particípio</b>: <i>A empresa <b>está sediada</b> em Lagos. O escritório <b>está situado</b> no centro.</i>",
+     "Para características usa-se <b>ser</b> + particípio ou adjetivo: <i>Somos especializados em estratégia. A equipa é composta por quatro pessoas.</i>",
+     "Nos textos de empresas também é muito frequente o <b>se passivo</b>: <i><b>Prestam-se</b> serviços em alemão, inglês e português. <b>Aceitam-se</b> pagamentos por transferência.</i> O verbo concorda com o nome: <i>presta-se um serviço / prestam-se serviços</i>."
+    ],
+    "erklaerung_de": [
+     "Um zu sagen, was mit der Firma <b>geschehen ist</b>, nimmt man das <b>Passiv mit ser</b>: <i>A empresa <b>foi fundada</b> em 2005.</i> (Die Firma wurde 2005 gegründet.) <i>O site <b>foi criado</b> por uma agência.</i> Das Partizip richtet sich nach dem Subjekt: <i>a empresa foi fundad<b>a</b>, os projetos foram concluíd<b>os</b></i>. Wer die Handlung ausführt, steht mit <b>por</b>: <i>fundada <b>por</b> Stefan Krenn</i>.",
+     "Für einen aktuellen <b>Zustand</b> nimmt man <b>estar + Partizip</b>: <i>A empresa <b>está sediada</b> em Lagos.</i> (hat ihren Sitz in Lagos) <i>O escritório <b>está situado</b> no centro.</i> (liegt im Zentrum)",
+     "Für Eigenschaften nimmt man <b>ser</b> + Partizip oder Adjektiv: <i>Somos especializados em estratégia.</i> (Wir sind auf Strategie spezialisiert.) <i>A equipa é composta por quatro pessoas.</i> (Das Team besteht aus vier Personen.)",
+     "In Firmentexten ist auch das <b>se-Passiv</b> sehr häufig: <i><b>Prestam-se</b> serviços em alemão, inglês e português.</i> (Dienstleistungen werden auf Deutsch, Englisch und Portugiesisch erbracht.) <i><b>Aceitam-se</b> pagamentos por transferência.</i> Das Verb richtet sich nach dem Nomen: <i>presta-se um serviço / prestam-se serviços</i>."
+    ],
+    "vergleich": "Das Deutsche unterscheidet „wurde gegründet“ (Vorgang) und „ist ansässig / liegt“ (Zustand) – genau wie <i>foi fundada</i> (ser) und <i>está sediada</i> (estar). Statt „werden“ nimmt das Portugiesische <i>ser</i>: „Die Firma wurde gegründet“ = <i>A empresa foi fundada</i>.",
+    "beispiele": [
+     {"pt": "A empresa foi fundada em 2005, em Viena.", "de": "Die Firma wurde 2005 in Wien gegründet."},
+     {"pt": "Hoje está sediada em Lagos e tem uma pequena filial em Viena.", "de": "Heute hat sie ihren Sitz in Lagos und eine kleine Niederlassung in Wien."},
+     {"pt": "Prestam-se serviços em alemão, inglês e português.", "de": "Dienstleistungen werden auf Deutsch, Englisch und Portugiesisch erbracht."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A empresa ___ fundada em 2005. (ser, Perfeito)", "loesungen": ["foi"], "de": "Die Firma wurde 2005 gegründet.", "kategorie": "Passiv"},
+     {"typ": "luecke", "satz": "O escritório ___ sediado em Lagos. (estar, Präsens)", "loesungen": ["está"], "de": "Das Büro hat seinen Sitz in Lagos.", "erklaerung": "Zustand → estar + Partizip.", "kategorie": "ser/estar"},
+     {"typ": "luecke", "satz": "Todos os projetos foram ___ a tempo. (concluir)", "loesungen": ["concluídos"], "de": "Alle Projekte wurden rechtzeitig abgeschlossen.", "erklaerung": "Das Partizip passt sich an: os projetos → concluídos.", "kategorie": "Passiv"},
+     {"typ": "auswahl", "frage": "„Die Firma wurde von zwei Partnern gegründet.“", "optionen": ["A empresa foi fundada por dois sócios.", "A empresa está fundada por dois sócios.", "A empresa fundou-se de dois sócios."], "richtig": 0, "erklaerung": "Vorgang → ser + Partizip; der Handelnde steht mit por.", "kategorie": "Passiv"},
+     {"typ": "auswahl", "frage": "Was bedeutet „trabalhar a recibos verdes“?", "optionen": ["schwarz arbeiten", "als Freiberufler (ohne Anstellung) arbeiten", "im Büro arbeiten"], "richtig": 1, "kategorie": "Wortschatz"},
+     {"typ": "luecke", "satz": "___ serviços em alemão e português. (prestar, se-Passiv)", "loesungen": ["Prestam-se"], "de": "Dienstleistungen werden auf Deutsch und Portugiesisch erbracht.", "erklaerung": "serviços ist Plural → prestam-se.", "kategorie": "se-Passiv"},
+     {"typ": "uebersetzen", "de": "Unsere Mission ist es, KMU beim Wachsen zu helfen.", "loesungen": ["A nossa missão é ajudar as PME a crescer.", "A nossa missão é ajudar as PME a crescerem.", "A nossa missão é ajudar PME a crescer.", "A nossa missão é ajudar PME a crescerem."]},
+     {"typ": "uebersetzen", "de": "Wir arbeiten mit kleinen und mittleren Unternehmen.", "loesungen": ["Trabalhamos com pequenas e médias empresas.", "Trabalhamos com PME.", "Trabalhamos com empresas de pequena e média dimensão."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "«Sobre nós» – der Text auf Stefans Website",
+    "situation": "Stefan liest Ana den neuen Text „Sobre nós“ für seine Website vor.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A Krenn Consulting foi fundada em 2005, em Viena, por Stefan Krenn.", "de": "Krenn Consulting wurde 2005 in Wien von Stefan Krenn gegründet."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Há três anos, a sede passou para Lagos, no Algarve. Em Viena mantém-se uma pequena filial.", "de": "Vor drei Jahren wurde der Sitz nach Lagos in die Algarve verlegt. In Wien gibt es weiterhin eine kleine Niederlassung."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A nossa principal área de atuação é a estratégia para empresas de pequena e média dimensão, sobretudo no turismo, na hotelaria e no setor do vinho.", "de": "Unser wichtigstes Tätigkeitsfeld ist die Strategie für kleine und mittlere Unternehmen, vor allem im Tourismus, im Hotelgewerbe und im Weinsektor."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A nossa missão é ajudar as PME a crescer de forma sustentável.", "de": "Unsere Mission ist es, KMU beim nachhaltigen Wachsen zu helfen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Os nossos valores são a confiança, a transparência e a proximidade com o cliente.", "de": "Unsere Werte sind Vertrauen, Transparenz und Kundennähe."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Prestam-se serviços em alemão, inglês e português.", "de": "Dienstleistungen werden auf Deutsch, Englisch und Portugiesisch erbracht."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Está ótimo! Só acrescentava uma frase sobre os teus clientes austríacos.", "de": "Sehr gut! Ich würde nur einen Satz über deine österreichischen Kunden ergänzen."}
+    ],
+    "fragen": [
+     {"frage": "Onde foi fundada a empresa?", "optionen": ["Em Lagos.", "Em Viena.", "Em Lisboa."], "richtig": 1},
+     {"frage": "Qual é a principal área de atuação?", "optionen": ["A estratégia para PME.", "A contabilidade.", "O marketing digital."], "richtig": 0},
+     {"frage": "O que acrescentava a Ana?", "optionen": ["Os preços dos serviços.", "Uma fotografia do escritório.", "Uma frase sobre os clientes austríacos."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Descreva a sua empresa. – Beschreib deine Firma auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Die Firma wurde 2005 in Wien gegründet.", "loesungen": ["A empresa foi fundada em 2005, em Viena.", "A empresa foi fundada em Viena em 2005.", "A empresa foi fundada em 2005 em Viena.", "A empresa foi fundada em Viena, em 2005."]},
+     {"de": "Heute hat sie ihren Sitz in Lagos.", "loesungen": ["Hoje está sediada em Lagos.", "Hoje a empresa está sediada em Lagos.", "Hoje tem sede em Lagos.", "Hoje é sediada em Lagos.", "Hoje a sede é em Lagos.", "Hoje a sede fica em Lagos."]},
+     {"de": "Ich bin der Gründer und Geschäftsführer.", "loesungen": ["Sou o fundador e diretor.", "Sou o fundador e o diretor.", "Sou o fundador e gerente.", "Sou o fundador e o gerente.", "Sou o fundador e diretor-geral."]},
+     {"de": "Unsere Werte sind Vertrauen und Transparenz.", "loesungen": ["Os nossos valores são a confiança e a transparência.", "Os nossos valores são confiança e transparência."]},
+     {"de": "Wir haben eine Niederlassung in Wien.", "loesungen": ["Temos uma filial em Viena."]}
+    ]
+   },
+   "saetze": [
+    {"id": "empresa-foi-fundada", "pt": "A empresa foi fundada em 2005, em Viena.", "de": "Die Firma wurde 2005 in Wien gegründet."},
+    {"id": "esta-sediada-em-lagos", "pt": "Hoje está sediada em Lagos.", "de": "Heute hat sie ihren Sitz in Lagos."},
+    {"id": "nossa-missao-pme", "pt": "A nossa missão é ajudar as PME a crescer.", "de": "Unsere Mission ist es, KMU beim Wachsen zu helfen."}
+   ]
+  },
+  {
+   "id": "B1-14-L03",
+   "typ": "neu",
+   "titel": "Dienstleistungen und Kunden",
+   "vokabeln": ["a-consultoria", "prestar-servicos", "a-carteira-de-clientes", "o-publico-alvo", "acompanhar", "a-parceria", "personalizado", "implementar", "fidelizar", "a-necessidade"],
+   "grammatik": {
+    "titel": "Revisão: o conjuntivo em orações relativas",
+    "erklaerung": [
+     "Quando falamos de pessoas ou coisas <b>concretas</b>, que já conhecemos, usa-se o <b>indicativo</b>: <i>Tenho um cliente que <b>tem</b> três hotéis.</i>",
+     "Quando falamos de pessoas ou coisas <b>indefinidas</b>, desejadas ou ainda desconhecidas, usa-se o <b>conjuntivo</b>: <i>Ajudo empresas que <b>queiram</b> crescer. Procuro um parceiro que <b>fale</b> alemão.</i>",
+     "Formas do presente do conjuntivo: parte-se da forma <i>eu</i> do presente (<i>faço → faça, tenho → tenha, conheço → conheça</i>). Irregulares: <i>ser → seja, estar → esteja, ir → vá, saber → saiba, querer → queira, haver → haja</i>.",
+     "Depois de <b>não há … que</b> e <b>nenhum … que</b> também vem o conjuntivo: <i>Não há nenhuma empresa que não <b>precise</b> de estratégia.</i>"
+    ],
+    "erklaerung_de": [
+     "Wenn wir von <b>konkreten</b> Personen oder Dingen sprechen, die wir schon kennen, steht der <b>Indikativ</b>: <i>Tenho um cliente que <b>tem</b> três hotéis.</i> (Ich habe einen Kunden, der drei Hotels hat.)",
+     "Wenn wir von <b>unbestimmten</b>, gewünschten oder noch unbekannten Personen oder Dingen sprechen, steht der <b>Konjunktiv</b>: <i>Ajudo empresas que <b>queiram</b> crescer.</i> (Ich helfe Firmen, die wachsen wollen.) <i>Procuro um parceiro que <b>fale</b> alemão.</i> (Ich suche einen Partner, der Deutsch spricht.)",
+     "Formen des presente do conjuntivo: Man geht von der eu-Form des Präsens aus (<i>faço → faça, tenho → tenha, conheço → conheça</i>). Unregelmäßig: <i>ser → seja, estar → esteja, ir → vá, saber → saiba, querer → queira, haver → haja</i>.",
+     "Nach <b>não há … que</b> und <b>nenhum … que</b> steht ebenfalls der Konjunktiv: <i>Não há nenhuma empresa que não <b>precise</b> de estratégia.</i> (Es gibt keine Firma, die keine Strategie braucht.)"
+    ],
+    "vergleich": "Im Deutschen gibt es keinen Unterschied: „Ich suche einen Partner, der Deutsch spricht.“ Im Portugiesischen entscheidet die Frage „Gibt es ihn schon konkret?“: <i>Tenho um parceiro que fala alemão</i> (konkret, bekannt) – <i>Procuro um parceiro que fale alemão</i> (gesucht, noch unbekannt).",
+    "beispiele": [
+     {"pt": "Ajudo empresas que queiram crescer de forma sustentável.", "de": "Ich helfe Firmen, die nachhaltig wachsen wollen."},
+     {"pt": "Procuramos parceiros que conheçam bem o mercado austríaco.", "de": "Wir suchen Partner, die den österreichischen Markt gut kennen."},
+     {"pt": "Tenho um cliente que tem três hotéis em Albufeira.", "de": "Ich habe einen Kunden, der drei Hotels in Albufeira hat."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Ajudo empresas que ___ crescer. (querer)", "loesungen": ["queiram"], "de": "Ich helfe Firmen, die wachsen wollen.", "erklaerung": "Unbestimmte Firmen → Konjunktiv: queiram.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Tenho um cliente que ___ três hotéis. (ter)", "loesungen": ["tem"], "de": "Ich habe einen Kunden, der drei Hotels hat.", "erklaerung": "Konkreter, bekannter Kunde → Indikativ.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Procuro um parceiro que ___ alemão. (falar)", "loesungen": ["fale"], "de": "Ich suche einen Partner, der Deutsch spricht.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Gibt es hier jemanden, der Deutsch spricht?“", "optionen": ["Há aqui alguém que fala alemão?", "Há aqui alguém que fale alemão?", "Há aqui alguém que falará alemão?"], "richtig": 1, "erklaerung": "Ob es diese Person gibt, ist unbekannt → Konjunktiv.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Não há nenhuma empresa que não ___ de estratégia. (precisar)", "loesungen": ["precise"], "de": "Es gibt keine Firma, die keine Strategie braucht.", "kategorie": "Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Wir bieten maßgeschneiderte Dienstleistungen an.", "loesungen": ["Prestamos serviços personalizados.", "Oferecemos serviços personalizados.", "Prestamos serviços à medida.", "Oferecemos serviços à medida."]},
+     {"typ": "uebersetzen", "de": "Wir begleiten den Kunden bis zur Umsetzung.", "loesungen": ["Acompanhamos o cliente até à implementação.", "Acompanhamos o cliente até à fase de implementação.", "Acompanhamos os clientes até à implementação."]},
+     {"typ": "satzbau", "de": "Unsere Zielgruppe sind die KMU der Algarve.", "loesung": "O nosso público-alvo são as PME do Algarve."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um telefonema de um hotel – ein Anruf von einem Hotel",
+    "situation": "Ein Hotelbesitzer aus Albufeira ruft Stefan an.",
+    "zeilen": [
+     {"sprecher": "Rui Duarte", "stimme": "m", "pt": "Senhor Krenn? Fala o Rui Duarte, do grupo Hotéis Mar Azul. Um colega deu-me o seu contacto.", "de": "Herr Krenn? Hier spricht Rui Duarte von der Hotelgruppe Mar Azul. Ein Kollege hat mir Ihren Kontakt gegeben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muito bom dia, senhor Duarte. Em que lhe posso ser útil?", "de": "Guten Morgen, Herr Duarte. Womit kann ich Ihnen dienen?"},
+     {"sprecher": "Rui Duarte", "stimme": "m", "pt": "Temos três hotéis em Albufeira e precisamos de alguém que nos ajude a fidelizar os clientes alemães.", "de": "Wir haben drei Hotels in Albufeira und brauchen jemanden, der uns hilft, die deutschen Gäste zu binden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É exatamente o tipo de consultoria que faço. Primeiro, analiso as vossas necessidades.", "de": "Das ist genau die Art von Beratung, die ich mache. Zuerst analysiere ich Ihren Bedarf."},
+     {"sprecher": "Rui Duarte", "stimme": "m", "pt": "E depois? Entrega-nos um relatório e vai-se embora?", "de": "Und dann? Sie geben uns einen Bericht und gehen wieder?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Nada disso. Preparo um plano personalizado e acompanho a vossa equipa até à implementação.", "de": "Keineswegs. Ich erstelle einen individuellen Plan und begleite Ihr Team bis zur Umsetzung."},
+     {"sprecher": "Rui Duarte", "stimme": "m", "pt": "Ótimo. E trabalha sozinho?", "de": "Sehr gut. Und arbeiten Sie allein?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tenho uma parceria com uma agência de marketing em Faro, para os projetos que precisem de mais pessoas.", "de": "Ich kooperiere mit einer Marketingagentur in Faro, für Projekte, die mehr Leute brauchen."}
+    ],
+    "fragen": [
+     {"frage": "Quantos hotéis tem o senhor Duarte?", "optionen": ["Dois.", "Três.", "Cinco."], "richtig": 1},
+     {"frage": "O que faz o Stefan primeiro?", "optionen": ["Analisa as necessidades do cliente.", "Faz um site novo.", "Assina um contrato."], "richtig": 0},
+     {"frage": "Com quem tem o Stefan uma parceria?", "optionen": ["Com um banco.", "Com outro hotel.", "Com uma agência de marketing em Faro."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dona Fernanda, Besitzerin eines Restaurants in Lagos, möchte wissen, was deine Firma macht.",
+    "zeilen": [
+     {"sprecher": "Fernanda", "stimme": "f", "pt": "Então, o que é que a sua empresa faz exatamente?", "de": "Also, was macht Ihre Firma genau?"},
+     {"ich": true, "aufgabe": "Sag: Wir erbringen Beratungsdienstleistungen für KMU, die wachsen wollen.", "loesungen": ["Prestamos serviços de consultoria a PME que queiram crescer.", "Prestamos serviços de consultoria às PME que queiram crescer.", "Prestamos serviços de consultoria a pequenas e médias empresas que queiram crescer.", "Fazemos consultoria para PME que queiram crescer."]},
+     {"sprecher": "Fernanda", "stimme": "f", "pt": "E como funciona?", "de": "Und wie läuft das ab?"},
+     {"ich": true, "aufgabe": "Sag: Zuerst analysieren wir Ihren Bedarf, dann machen wir einen individuellen Plan.", "loesungen": ["Primeiro analisamos as suas necessidades, depois fazemos um plano personalizado.", "Primeiro analisamos as suas necessidades e depois fazemos um plano personalizado.", "Primeiro analisamos as vossas necessidades, depois fazemos um plano personalizado.", "Em primeiro lugar analisamos as suas necessidades, depois fazemos um plano personalizado."]},
+     {"sprecher": "Fernanda", "stimme": "f", "pt": "E depois deixam-me sozinha com o plano?", "de": "Und dann lassen Sie mich mit dem Plan allein?"},
+     {"ich": true, "aufgabe": "Sag: Nein, wir begleiten Sie bis zur Umsetzung.", "loesungen": ["Não, acompanhamo-la até à implementação.", "Não, nós acompanhamo-la até à implementação.", "Não, acompanhamos a senhora até à implementação.", "Não, acompanhamo-la até à fase de implementação."]}
+    ]
+   },
+   "saetze": [
+    {"id": "ajudo-empresas-que-queiram", "pt": "Ajudo empresas que queiram crescer.", "de": "Ich helfe Firmen, die wachsen wollen."},
+    {"id": "procuro-parceiro-que-fale", "pt": "Procuro um parceiro que fale alemão.", "de": "Ich suche einen Partner, der Deutsch spricht."},
+    {"id": "acompanhamos-implementacao", "pt": "Acompanhamos o cliente até à implementação.", "de": "Wir begleiten den Kunden bis zur Umsetzung."}
+   ]
+  },
+  {
+   "id": "B1-14-L04",
+   "typ": "neu",
+   "titel": "Erfolge und Herausforderungen",
+   "vokabeln": ["o-desafio", "superar", "o-exito", "alcancar", "o-marco", "a-crise", "o-obstaculo", "o-fracasso", "a-licao", "conquistar"],
+   "grammatik": {
+    "titel": "Revisão: pretérito perfeito e imperfeito",
+    "erklaerung": [
+     "O <b>pretérito perfeito</b> conta ações concluídas, factos e resultados – a «linha da história»: <i>Em 2020 <b>perdemos</b> metade dos clientes. <b>Superámos</b> a crise.</i>",
+     "O <b>imperfeito</b> descreve o cenário: situações que duravam, descrições e hábitos no passado: <i>Na altura, a empresa <b>era</b> pequena e eu <b>trabalhava</b> sozinho. Todas as semanas <b>ia</b> a Lisboa.</i>",
+     "Muitas vezes os dois aparecem juntos: o imperfeito diz o que <b>estava a acontecer</b>, o perfeito o que <b>aconteceu</b> de repente: <i><b>Estávamos</b> a crescer quando <b>chegou</b> a pandemia.</i>",
+     "Para contar uma história de sucesso: <b>no início / na altura</b> (imperfeito) … <b>um dia / em 2020 / de repente</b> (perfeito) … <b>desde então</b> (perfeito composto ou presente): <i>Desde então, temos crescido todos os anos.</i>"
+    ],
+    "erklaerung_de": [
+     "Das <b>pretérito perfeito</b> erzählt abgeschlossene Handlungen, Tatsachen und Ergebnisse – den „roten Faden“ der Geschichte: <i>Em 2020 <b>perdemos</b> metade dos clientes.</i> (2020 haben wir die Hälfte der Kunden verloren.) <i><b>Superámos</b> a crise.</i>",
+     "Das <b>imperfeito</b> beschreibt den Hintergrund: Situationen, die andauerten, Beschreibungen und Gewohnheiten in der Vergangenheit: <i>Na altura, a empresa <b>era</b> pequena e eu <b>trabalhava</b> sozinho.</i> (Damals war die Firma klein und ich arbeitete allein.) <i>Todas as semanas <b>ia</b> a Lisboa.</i>",
+     "Oft kommen beide zusammen vor: Das imperfeito sagt, was <b>gerade im Gange war</b>, das perfeito, was plötzlich <b>passierte</b>: <i><b>Estávamos</b> a crescer quando <b>chegou</b> a pandemia.</i> (Wir waren gerade am Wachsen, als die Pandemie kam.)",
+     "Um eine Erfolgsgeschichte zu erzählen: <b>no início / na altura</b> (imperfeito) … <b>um dia / em 2020 / de repente</b> (perfeito) … <b>desde então</b> (perfeito composto oder Präsens): <i>Desde então, temos crescido todos os anos.</i> (Seitdem wachsen wir jedes Jahr.)"
+    ],
+    "vergleich": "Das Deutsche hat für beides oft dasselbe Perfekt („ich habe gearbeitet“). Faustregel: Passt „damals immer / es war gerade so“ → <i>imperfeito</i>. Ist es ein abgeschlossenes Ereignis der Geschichte → <i>perfeito</i>. Englisch hilft: „we were growing“ (imperfeito) – „the pandemic came“ (perfeito).",
+    "beispiele": [
+     {"pt": "Estávamos a crescer quando chegou a pandemia.", "de": "Wir waren gerade am Wachsen, als die Pandemie kam."},
+     {"pt": "Na altura, a empresa era pequena e eu trabalhava sozinho.", "de": "Damals war die Firma klein und ich arbeitete allein."},
+     {"pt": "Superámos a crise e conquistámos novos clientes.", "de": "Wir haben die Krise überwunden und neue Kunden gewonnen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Em 2020 ___ metade dos clientes. (perder, nós)", "loesungen": ["perdemos"], "de": "2020 haben wir die Hälfte der Kunden verloren.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "luecke", "satz": "Na altura, a empresa ___ muito pequena. (ser)", "loesungen": ["era"], "de": "Damals war die Firma sehr klein.", "erklaerung": "Beschreibung des Hintergrunds → imperfeito.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "luecke", "satz": "Estávamos a crescer quando ___ a pandemia. (chegar)", "loesungen": ["chegou"], "de": "Wir waren gerade am Wachsen, als die Pandemie kam.", "erklaerung": "Plötzliches Ereignis → perfeito.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "auswahl", "frage": "„Damals bin ich jede Woche nach Lissabon gefahren.“", "optionen": ["Na altura fui todas as semanas a Lisboa.", "Na altura ia todas as semanas a Lisboa.", "Na altura tenho ido todas as semanas a Lisboa."], "richtig": 1, "erklaerung": "Gewohnheit in der Vergangenheit → imperfeito: ia.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "auswahl", "frage": "„Wir haben die Krise überwunden.“", "optionen": ["Superávamos a crise.", "Superamos a crise.", "Superámos a crise."], "richtig": 2, "erklaerung": "Perfeito, wir-Form der -ar-Verben: -ámos mit Akzent (pt-PT). „superamos“ ohne Akzent ist Präsens.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "luecke", "satz": "O projeto com o hotel ___ um êxito. (ser, Perfeito)", "loesungen": ["foi"], "de": "Das Projekt mit dem Hotel war ein Erfolg.", "kategorie": "Perfeito/Imperfeito"},
+     {"typ": "uebersetzen", "de": "Die Bürokratie war das größte Hindernis.", "loesungen": ["A burocracia foi o maior obstáculo.", "A burocracia era o maior obstáculo."]},
+     {"typ": "uebersetzen", "de": "Wir haben alle Ziele erreicht.", "loesungen": ["Alcançámos todos os objetivos.", "Alcançámos todas as metas.", "Atingimos todos os objetivos.", "Atingimos todas as metas."], "kategorie": "Perfeito/Imperfeito"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Podcast «Empreendedores do Sul»",
+    "situation": "Stefan ist Gast in einem Podcast über Unternehmer in Südportugal.",
+    "zeilen": [
+     {"sprecher": "Entrevistadora", "stimme": "f", "pt": "Stefan, qual foi o maior desafio da sua trajetória?", "de": "Stefan, was war die größte Herausforderung auf Ihrem Weg?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sem dúvida, a crise de 2020. Estávamos a crescer muito quando chegou a pandemia, e em dois meses perdemos metade dos clientes.", "de": "Ohne Zweifel die Krise 2020. Wir wuchsen gerade stark, als die Pandemie kam, und in zwei Monaten haben wir die Hälfte der Kunden verloren."},
+     {"sprecher": "Entrevistadora", "stimme": "f", "pt": "Como é que superou essa fase?", "de": "Wie haben Sie diese Phase überstanden?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Os hotéis estavam fechados, por isso mudei a estratégia: passei a fazer consultoria online e ajudei os clientes na transformação digital.", "de": "Die Hotels waren geschlossen, also habe ich die Strategie geändert: Ich habe auf Online-Beratung umgestellt und den Kunden bei der digitalen Transformation geholfen."},
+     {"sprecher": "Entrevistadora", "stimme": "f", "pt": "E qual foi o maior êxito?", "de": "Und was war der größte Erfolg?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Em 2022 alcançámos o melhor ano de sempre. E no ano seguinte abrimos o escritório em Lagos, o que foi um marco para mim.", "de": "2022 hatten wir das beste Jahr überhaupt. Und im Jahr darauf haben wir das Büro in Lagos eröffnet, was für mich ein Meilenstein war."},
+     {"sprecher": "Entrevistadora", "stimme": "f", "pt": "Que lição tirou de tudo isto?", "de": "Welche Lehre haben Sie aus all dem gezogen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que um fracasso não é o fim. E que nunca se deve depender de um só tipo de cliente.", "de": "Dass ein Misserfolg nicht das Ende ist. Und dass man nie von einer einzigen Art von Kunden abhängen darf."}
+    ],
+    "fragen": [
+     {"frage": "Qual foi o maior desafio do Stefan?", "optionen": ["A crise de 2020.", "A mudança para Lagos.", "A burocracia."], "richtig": 0},
+     {"frage": "Como superou ele a crise?", "optionen": ["Despediu a equipa.", "Passou a fazer consultoria online.", "Fechou o escritório."], "richtig": 1},
+     {"frage": "Que lição tirou o Stefan?", "optionen": ["Que é melhor trabalhar sozinho.", "Que os hotéis são maus clientes.", "Que um fracasso não é o fim."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Estávamos a crescer quando chegou a pandemia.", "de": "Wir waren gerade am Wachsen, als die Pandemie kam."},
+     {"pt": "Superámos a crise com muito trabalho.", "de": "Wir haben die Krise mit viel Arbeit überwunden."},
+     {"pt": "O projeto com o hotel foi um êxito.", "de": "Das Projekt mit dem Hotel war ein Erfolg."},
+     {"pt": "Na altura, eu trabalhava sozinho.", "de": "Damals arbeitete ich allein."},
+     {"pt": "Aprendi a lição: nunca depender de um só cliente.", "de": "Ich habe meine Lehre gezogen: nie von einem einzigen Kunden abhängen."}
+    ]
+   },
+   "saetze": [
+    {"id": "estavamos-a-crescer", "pt": "Estávamos a crescer quando chegou a pandemia.", "de": "Wir waren gerade am Wachsen, als die Pandemie kam."},
+    {"id": "superamos-a-crise", "pt": "Superámos a crise com muito trabalho.", "de": "Wir haben die Krise mit viel Arbeit überwunden."},
+    {"id": "projeto-foi-exito", "pt": "O projeto com o hotel foi um êxito.", "de": "Das Projekt mit dem Hotel war ein Erfolg."}
+   ]
+  },
+  {
+   "id": "B1-14-L05",
+   "typ": "neu",
+   "titel": "Zukunftspläne",
+   "vokabeln": ["expandir", "a-meta", "contratar", "lancar", "a-curto-prazo", "investir", "o-crescimento", "consolidar", "a-internacionalizacao", "a-transformacao-digital"],
+   "grammatik": {
+    "titel": "Revisão: o futuro do conjuntivo",
+    "erklaerung": [
+     "Para falar de condições e momentos <b>no futuro</b>, o português europeu usa o <b>futuro do conjuntivo</b> depois de <b>se, quando, assim que, logo que, enquanto, sempre que</b> e <b>como</b>: <i>Se tudo <b>correr</b> bem, vamos contratar duas pessoas. Quando a empresa <b>crescer</b>, abrimos um escritório em Lisboa.</i>",
+     "Formação: 3.ª pessoa do plural do <b>perfeito</b> sem <b>-ram</b>: <i>fizeram → fizer, tiveram → tiver, puderam → puder, foram → for, quiseram → quiser, estiveram → estiver</i>; <i>haver → houver</i>. Terminações: eu <b>-r</b>, tu <b>-res</b>, ele <b>-r</b>, nós <b>-rmos</b>, eles <b>-rem</b>: <i>quando <b>tivermos</b> tempo, se eles <b>quiserem</b></i>.",
+     "Na oração principal vem o <b>presente</b>, <b>ir + infinitivo</b> ou o <b>futuro</b>: <i>Se o mercado <b>continuar</b> a crescer, <b>vamos investir</b> mais.</i> Nos verbos regulares, a forma de <i>eu</i> e <i>ele</i> é igual ao infinitivo: <i>se eu <b>lançar</b>, quando ela <b>expandir</b></i>.",
+     "Prazos e metas: <b>a curto / médio / longo prazo</b>, <b>daqui a</b> + tempo (<i>daqui a dois anos</i>), <b>até</b> + data (<i>até ao fim do ano</i>)."
+    ],
+    "erklaerung_de": [
+     "Für Bedingungen und Zeitpunkte <b>in der Zukunft</b> verwendet das europäische Portugiesisch das <b>futuro do conjuntivo</b> nach <b>se</b> (wenn/falls), <b>quando</b> (wenn/sobald), <b>assim que / logo que</b> (sobald), <b>enquanto</b> (solange), <b>sempre que</b> (immer wenn) und <b>como</b> (wie): <i>Se tudo <b>correr</b> bem, vamos contratar duas pessoas. Quando a empresa <b>crescer</b>, abrimos um escritório em Lisboa.</i>",
+     "Bildung: 3. Person Plural des <b>perfeito</b> ohne <b>-ram</b>: <i>fizeram → fizer, tiveram → tiver, puderam → puder, foram → for, quiseram → quiser, estiveram → estiver</i>; <i>haver → houver</i>. Endungen: eu <b>-r</b>, tu <b>-res</b>, ele <b>-r</b>, nós <b>-rmos</b>, eles <b>-rem</b>: <i>quando <b>tivermos</b> tempo, se eles <b>quiserem</b></i>.",
+     "Im Hauptsatz steht <b>Präsens</b>, <b>ir + Infinitiv</b> oder <b>Futur</b>: <i>Se o mercado <b>continuar</b> a crescer, <b>vamos investir</b> mais.</i> Bei regelmäßigen Verben ist die eu- und ele-Form gleich dem Infinitiv: <i>se eu <b>lançar</b>, quando ela <b>expandir</b></i>.",
+     "Fristen und Ziele: <b>a curto / médio / longo prazo</b> (kurz-/mittel-/langfristig), <b>daqui a</b> + Zeit (<i>daqui a dois anos</i> – in zwei Jahren), <b>até</b> + Datum (<i>até ao fim do ano</i> – bis Jahresende)."
+    ],
+    "vergleich": "Deutsch sagt einfach „Wenn alles gut läuft, …“ im Präsens, Englisch ebenso („if everything goes well“). Portugiesisch braucht dafür eine eigene Form: <i>se tudo <b>correr</b> bem</i> – nicht „se tudo corre bem“. Das futuro do conjuntivo gibt es im Deutschen nicht, deshalb lohnt sich das Üben besonders.",
+    "beispiele": [
+     {"pt": "Quando a empresa crescer, vamos abrir um escritório em Lisboa.", "de": "Wenn die Firma wächst, eröffnen wir ein Büro in Lissabon."},
+     {"pt": "Vamos contratar duas pessoas, se tudo correr bem.", "de": "Wir stellen zwei Leute ein, wenn alles gut läuft."},
+     {"pt": "Assim que tivermos mais clientes alemães, lançamos um serviço online.", "de": "Sobald wir mehr deutsche Kunden haben, bringen wir einen Online-Service heraus."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Quando a empresa ___, abrimos uma filial em Lisboa. (crescer)", "loesungen": ["crescer"], "de": "Wenn die Firma wächst, eröffnen wir eine Niederlassung in Lissabon.", "erklaerung": "Regelmäßiges Verb: futuro do conjuntivo = Infinitivform.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Vamos contratar mais pessoas, se tudo ___ bem. (correr)", "loesungen": ["correr"], "de": "Wir stellen mehr Leute ein, wenn alles gut läuft.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Assim que nós ___ tempo, lançamos o novo serviço. (ter)", "loesungen": ["tivermos"], "de": "Sobald wir Zeit haben, bringen wir den neuen Service heraus.", "erklaerung": "tiveram → tiver → nós tivermos.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Se os clientes ___, fazemos a reunião online. (querer)", "loesungen": ["quiserem"], "de": "Wenn die Kunden wollen, machen wir die Besprechung online.", "erklaerung": "quiseram → quiser → eles quiserem.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Wenn ich kann, investiere ich mehr in Weiterbildung.“", "optionen": ["Se posso, invisto mais em formação.", "Se puder, invisto mais em formação.", "Se poder, invisto mais em formação."], "richtig": 1, "erklaerung": "poder → puderam → puder (nicht „poder“).", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„a curto prazo“ bedeutet:", "optionen": ["kurzfristig", "langfristig", "pünktlich"], "richtig": 0, "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Unser Ziel ist es, den Umsatz in drei Jahren zu verdoppeln.", "loesungen": ["A nossa meta é duplicar a faturação em três anos.", "O nosso objetivo é duplicar a faturação em três anos.", "A nossa meta é duplicar o volume de negócios em três anos.", "A nossa meta é duplicar a faturação daqui a três anos."]},
+     {"typ": "satzbau", "de": "Wenn der Markt weiter wächst, werden wir mehr investieren.", "loesung": "Se o mercado continuar a crescer, vamos investir mais."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Planos ao jantar – Pläne beim Abendessen",
+    "situation": "Ana fragt Stefan beim Abendessen nach seinen Plänen für die Firma.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então, já pensaste nos planos para o próximo ano?", "de": "Na, hast du schon über die Pläne für nächstes Jahr nachgedacht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já. A curto prazo, quero consolidar o que temos aqui no Algarve.", "de": "Ja. Kurzfristig will ich festigen, was wir hier in der Algarve haben."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E depois? Falaste em Lisboa…", "de": "Und dann? Du hast von Lissabon gesprochen …"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim. Abrimos um pequeno escritório em Lisboa daqui a dois anos, se tudo correr bem.", "de": "Ja. In zwei Jahren eröffnen wir ein kleines Büro in Lissabon, wenn alles gut läuft."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E vais precisar de mais gente?", "de": "Und wirst du mehr Leute brauchen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quando a faturação chegar aos valores que quero, contrato uma consultora portuguesa.", "de": "Wenn der Umsatz die Werte erreicht, die ich mir vorstelle, stelle ich eine portugiesische Beraterin ein."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E a ideia do serviço online para as empresas austríacas?", "de": "Und die Idee mit dem Online-Service für österreichische Firmen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vou lançá-lo em março. Assim que tiver os primeiros clientes, conto-te tudo!", "de": "Ich bringe ihn im März heraus. Sobald ich die ersten Kunden habe, erzähle ich dir alles!"}
+    ],
+    "fragen": [
+     {"frage": "O que quer o Stefan fazer a curto prazo?", "optionen": ["Abrir um escritório em Lisboa.", "Consolidar o negócio no Algarve.", "Vender a empresa."], "richtig": 1},
+     {"frage": "Quando vai o Stefan contratar uma consultora?", "optionen": ["Quando a faturação chegar aos valores que ele quer.", "Já no próximo mês.", "Nunca."], "richtig": 0},
+     {"frage": "Quando vai lançar o serviço online?", "optionen": ["Em janeiro.", "Daqui a dois anos.", "Em março."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva os seus planos. – Schreib deine Pläne auf Portugiesisch (futuro do conjuntivo).",
+    "aufgaben": [
+     {"de": "Wir stellen zwei Leute ein, wenn alles gut läuft.", "loesungen": ["Vamos contratar duas pessoas, se tudo correr bem.", "Contratamos duas pessoas, se tudo correr bem.", "Vamos contratar duas pessoas se tudo correr bem.", "Contratamos duas pessoas se tudo correr bem.", "Se as coisas correrem bem, vamos contratar duas pessoas."]},
+     {"de": "Wenn die Firma wächst, eröffnen wir eine Niederlassung in Lissabon.", "loesungen": ["Quando a empresa crescer, abrimos uma filial em Lisboa.", "Quando a empresa crescer, vamos abrir uma filial em Lisboa.", "Quando a empresa crescer, abriremos uma filial em Lisboa."]},
+     {"de": "Sobald wir mehr Kunden haben, investieren wir in Marketing.", "loesungen": ["Assim que tivermos mais clientes, investimos em marketing.", "Assim que tivermos mais clientes, vamos investir em marketing.", "Logo que tivermos mais clientes, investimos em marketing.", "Logo que tivermos mais clientes, vamos investir em marketing."]},
+     {"de": "Kurzfristig wollen wir unsere Position festigen.", "loesungen": ["A curto prazo, queremos consolidar a nossa posição.", "A curto prazo queremos consolidar a nossa posição."]},
+     {"de": "Wenn Sie Zeit haben, rufen Sie mich an.", "loesungen": ["Se tiver tempo, ligue-me.", "Quando tiver tempo, ligue-me.", "Se tiver tempo, telefone-me.", "Quando tiver tempo, telefone-me."]}
+    ]
+   },
+   "saetze": [
+    {"id": "quando-a-empresa-crescer", "pt": "Quando a empresa crescer, vamos abrir um escritório em Lisboa.", "de": "Wenn die Firma wächst, eröffnen wir ein Büro in Lissabon."},
+    {"id": "se-tudo-correr-bem", "pt": "Vamos contratar duas pessoas, se tudo correr bem.", "de": "Wir stellen zwei Leute ein, wenn alles gut läuft."},
+    {"id": "assim-que-tivermos", "pt": "Assim que tivermos mais clientes, lançamos um serviço online.", "de": "Sobald wir mehr Kunden haben, bringen wir einen Online-Service heraus."}
+   ]
+  },
+  {
+   "id": "B1-14-L06",
+   "typ": "neu",
+   "titel": "Eine Präsentation aufbauen",
+   "vokabeln": ["vou-comecar-por", "passando-agora-a", "antes-de-mais", "por-ultimo", "o-diapositivo", "resumir", "a-introducao", "a-conclusao", "no-que-diz-respeito-a", "sublinhar"],
+   "grammatik": {
+    "titel": "Estruturar uma apresentação: conectores e gerúndio",
+    "erklaerung": [
+     "<b>Introdução</b>: <i>Antes de mais, obrigado pelo convite. <b>Vou começar por</b> me apresentar. <b>Vou falar de</b> três pontos.</i> <b>Começar por</b> + infinitivo = fazer algo primeiro.",
+     "<b>Desenvolvimento</b>: <i><b>em primeiro lugar</b> … <b>em segundo lugar</b> …, <b>de seguida</b> …, <b>passando agora a</b> …, <b>no que diz respeito a</b> …, <b>como podem ver neste diapositivo</b> …</i>",
+     "<b>Conclusão</b>: <i><b>para terminar</b>, <b>por último</b>, <b>em suma</b>, <b>resumindo</b> …</i> e no fim: <i>Obrigado pela vossa atenção. Fico à disposição para perguntas.</i>",
+     "Atenção: <i>passando agora a</i> e <i>resumindo</i> são gerúndios – e estão corretos em português europeu! Em Portugal, o gerúndio usa-se em expressões fixas e no início de frases. O que não se usa é <i>estar</i> + gerúndio: diz-se <b>estou a apresentar</b>."
+    ],
+    "erklaerung_de": [
+     "<b>Einleitung</b>: <i>Antes de mais, obrigado pelo convite.</i> (Zuallererst danke für die Einladung.) <i><b>Vou começar por</b> me apresentar.</i> (Ich beginne damit, mich vorzustellen.) <i><b>Vou falar de</b> três pontos.</i> <b>Começar por</b> + Infinitiv = etwas zuerst tun.",
+     "<b>Hauptteil</b>: <i><b>em primeiro lugar</b> … <b>em segundo lugar</b> …</i> (erstens … zweitens …), <i><b>de seguida</b></i> (anschließend), <i><b>passando agora a</b></i> (kommen wir nun zu), <i><b>no que diz respeito a</b></i> (was … betrifft), <i><b>como podem ver neste diapositivo</b></i> (wie Sie auf dieser Folie sehen).",
+     "<b>Schluss</b>: <i><b>para terminar</b>, <b>por último</b></i> (zum Schluss), <i><b>em suma</b>, <b>resumindo</b></i> (kurz gesagt, zusammenfassend) und am Ende: <i>Obrigado pela vossa atenção. Fico à disposição para perguntas.</i> (Danke für Ihre Aufmerksamkeit. Ich stehe für Fragen zur Verfügung.)",
+     "Achtung: <i>passando agora a</i> und <i>resumindo</i> sind Gerundien – und im europäischen Portugiesisch korrekt! In Portugal steht das Gerundium in festen Wendungen und am Satzanfang. Was man nicht verwendet, ist <i>estar</i> + Gerundium: Man sagt <b>estou a apresentar</b>."
+    ],
+    "vergleich": "Wie im Deutschen: „Zunächst … Kommen wir nun zu … Zusammenfassend …“. Ein Unterschied: Portugiesische Präsentationen beginnen fast immer mit einem Dank (<i>Antes de mais, quero agradecer …</i>), und das Publikum wird im Plural ohne Pronomen angesprochen: <i>Como podem ver …</i> (Wie Sie sehen können …).",
+    "beispiele": [
+     {"pt": "Antes de mais, quero agradecer o convite.", "de": "Zuallererst möchte ich mich für die Einladung bedanken."},
+     {"pt": "Vou começar por apresentar a empresa.", "de": "Ich beginne damit, die Firma vorzustellen."},
+     {"pt": "Passando agora aos resultados: como podem ver neste diapositivo, as vendas subiram.", "de": "Kommen wir nun zu den Ergebnissen: Wie Sie auf dieser Folie sehen, ist der Verkauf gestiegen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Vou começar ___ apresentar a empresa.", "loesungen": ["por"], "de": "Ich beginne damit, die Firma vorzustellen.", "kategorie": "Präsentation"},
+     {"typ": "luecke", "satz": "___ agora aos resultados. (passar, Gerundium)", "loesungen": ["Passando"], "de": "Kommen wir nun zu den Ergebnissen.", "kategorie": "Präsentation"},
+     {"typ": "auswahl", "frage": "Welche Wendung passt zum Schluss einer Präsentation?", "optionen": ["Antes de mais, …", "Passando agora a …", "Em suma, …"], "richtig": 2, "kategorie": "Präsentation"},
+     {"typ": "auswahl", "frage": "„Ich präsentiere gerade unsere Ergebnisse.“ – auf pt-PT:", "optionen": ["Estou apresentando os nossos resultados.", "Estou a apresentar os nossos resultados.", "Apresentando os nossos resultados."], "richtig": 1, "erklaerung": "Verlaufsform in Portugal: estar a + Infinitiv.", "kategorie": "estar a"},
+     {"typ": "luecke", "satz": "No que diz ___ aos custos, os números são claros.", "loesungen": ["respeito"], "de": "Was die Kosten betrifft, sind die Zahlen eindeutig.", "kategorie": "Präsentation"},
+     {"typ": "luecke", "satz": "Como ___ ver neste diapositivo, as vendas subiram. (poder, Sie Plural)", "loesungen": ["podem"], "de": "Wie Sie auf dieser Folie sehen, ist der Verkauf gestiegen.", "erklaerung": "Publikum (Sie, Plural) → 3. Person Plural ohne Pronomen.", "kategorie": "Anrede"},
+     {"typ": "uebersetzen", "de": "Zuallererst möchte ich mich für die Einladung bedanken.", "loesungen": ["Antes de mais, quero agradecer o convite.", "Antes de mais, gostava de agradecer o convite.", "Antes de mais, queria agradecer o convite.", "Antes de mais, gostaria de agradecer o convite.", "Antes de mais, quero agradecer pelo convite."]},
+     {"typ": "uebersetzen", "de": "Ich fasse die wichtigsten Punkte zusammen.", "loesungen": ["Vou resumir os pontos principais.", "Resumo os pontos principais.", "Vou resumir os principais pontos."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "O início da apresentação – der Anfang der Präsentation",
+    "situation": "Stefan eröffnet seinen Vortrag beim Unternehmerverband der Algarve.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde a todos. Antes de mais, quero agradecer à Associação Empresarial do Algarve o convite.", "de": "Guten Tag allerseits. Zuallererst möchte ich dem Unternehmerverband der Algarve für die Einladung danken."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vou começar por me apresentar: chamo-me Stefan Krenn e sou consultor de gestão há mais de vinte anos.", "de": "Ich beginne damit, mich vorzustellen: Ich heiße Stefan Krenn und bin seit über zwanzig Jahren Unternehmensberater."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A minha apresentação tem três partes.", "de": "Meine Präsentation hat drei Teile."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Em primeiro lugar, vou falar dos desafios das PME do turismo; de seguida, de três casos de sucesso; e, por último, das tendências para os próximos anos.", "de": "Zunächst spreche ich über die Herausforderungen der KMU im Tourismus; danach über drei Erfolgsbeispiele; und zum Schluss über die Trends der nächsten Jahre."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Como podem ver neste diapositivo, oito em cada dez hotéis da região são empresas familiares.", "de": "Wie Sie auf dieser Folie sehen, sind acht von zehn Hotels der Region Familienbetriebe."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Passando agora ao primeiro ponto: a falta de pessoal.", "de": "Kommen wir nun zum ersten Punkt: dem Personalmangel."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "No fim, terei todo o gosto em responder às vossas perguntas.", "de": "Am Ende beantworte ich sehr gern Ihre Fragen."}
+    ],
+    "fragen": [
+     {"frage": "Quantas partes tem a apresentação?", "optionen": ["Duas.", "Três.", "Quatro."], "richtig": 1},
+     {"frage": "O que mostra o diapositivo?", "optionen": ["Que oito em cada dez hotéis da região são empresas familiares.", "As vendas da empresa do Stefan.", "Um mapa do Algarve."], "richtig": 0},
+     {"frage": "Qual é o primeiro ponto?", "optionen": ["Os casos de sucesso.", "As tendências.", "A falta de pessoal."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Antes de mais, quero agradecer o convite.", "de": "Zuallererst möchte ich mich für die Einladung bedanken."},
+     {"pt": "Vou começar por me apresentar.", "de": "Ich beginne damit, mich vorzustellen."},
+     {"pt": "Como podem ver neste diapositivo, as vendas subiram.", "de": "Wie Sie auf dieser Folie sehen, ist der Verkauf gestiegen."},
+     {"pt": "Passando agora ao segundo ponto.", "de": "Kommen wir nun zum zweiten Punkt."},
+     {"pt": "Em suma, o projeto vale a pena.", "de": "Kurz gesagt: Das Projekt lohnt sich."}
+    ]
+   },
+   "saetze": [
+    {"id": "antes-de-mais-agradecer", "pt": "Antes de mais, quero agradecer o convite.", "de": "Zuallererst möchte ich mich für die Einladung bedanken."},
+    {"id": "vou-comecar-por-me-apresentar", "pt": "Vou começar por me apresentar.", "de": "Ich beginne damit, mich vorzustellen."},
+    {"id": "passando-agora-resultados", "pt": "Passando agora aos resultados, como podem ver neste diapositivo, as vendas subiram.", "de": "Kommen wir nun zu den Ergebnissen: Wie Sie auf dieser Folie sehen, ist der Verkauf gestiegen."}
+   ]
+  },
+  {
+   "id": "B1-14-L07",
+   "typ": "neu",
+   "titel": "Fragen nach der Präsentation beantworten",
+   "vokabeln": ["boa-pergunta", "pelo-que-percebi", "detalhar", "ao-certo", "pertinente", "aprofundar", "reformular", "a-objecao", "ja-la-vamos"],
+   "grammatik": {
+    "titel": "Revisão: a colocação dos pronomes",
+    "erklaerung": [
+     "Na <b>oração principal</b>, quando nenhuma palavra «puxa» o pronome, este vem <b>depois do verbo</b>, ligado por hífen: <i><b>Envio-lhe</b> os números amanhã. <b>Explico-lhes</b> já este ponto.</i>",
+     "O pronome vem <b>antes do verbo</b> depois de <b>não, nunca, já, também, só</b>, de <b>palavras interrogativas</b> (como, quando, onde…) e de <b>que, quem, se, quando</b> em orações subordinadas: <i>Não <b>lhe</b> sei dizer ao certo. Já <b>lhe</b> respondo. Como <b>o</b> posso ajudar? Se <b>me</b> permite, …</i>",
+     "Com <b>verbo + infinitivo</b>, o pronome pode ficar depois do infinitivo ou depois do primeiro verbo: <i>Posso <b>enviar-lhe</b> a apresentação. / <b>Posso-lhe</b> enviar a apresentação.</i> Com uma palavra que «puxa», também se pode pôr antes do primeiro verbo: <i>Não <b>lhe</b> posso dizer. / Não posso <b>dizer-lhe</b>.</i>",
+     "Pronomes combinados (para reconhecer): <b>lhe + o = lho</b>, <b>lhe + a = lha</b>, <b>me + o = mo</b>: <i>A apresentação? <b>Envio-lha</b> hoje.</i> (= envio-lhe a apresentação)"
+    ],
+    "erklaerung_de": [
+     "Im <b>Hauptsatz</b> steht das Pronomen, wenn kein Wort es „anzieht“, <b>hinter dem Verb</b>, mit Bindestrich: <i><b>Envio-lhe</b> os números amanhã.</i> (Ich schicke Ihnen die Zahlen morgen.) <i><b>Explico-lhes</b> já este ponto.</i> (Ich erkläre Ihnen diesen Punkt gleich.)",
+     "Das Pronomen steht <b>vor dem Verb</b> nach <b>não, nunca, já, também, só</b>, nach <b>Fragewörtern</b> (como, quando, onde …) und nach <b>que, quem, se, quando</b> in Nebensätzen: <i>Não <b>lhe</b> sei dizer ao certo.</i> (Ich kann es Ihnen nicht genau sagen.) <i>Já <b>lhe</b> respondo.</i> (Ich antworte Ihnen gleich.) <i>Como <b>o</b> posso ajudar?</i> <i>Se <b>me</b> permite, …</i> (Wenn Sie erlauben, …)",
+     "Bei <b>Verb + Infinitiv</b> kann das Pronomen hinter dem Infinitiv oder hinter dem ersten Verb stehen: <i>Posso <b>enviar-lhe</b> a apresentação. / <b>Posso-lhe</b> enviar a apresentação.</i> (Ich kann Ihnen die Präsentation schicken.) Mit einem „anziehenden“ Wort kann es auch vor das erste Verb: <i>Não <b>lhe</b> posso dizer. / Não posso <b>dizer-lhe</b>.</i>",
+     "Kombinierte Pronomen (zum Wiedererkennen): <b>lhe + o = lho</b>, <b>lhe + a = lha</b>, <b>me + o = mo</b>: <i>A apresentação? <b>Envio-lha</b> hoje.</i> (Die Präsentation? Ich schicke sie Ihnen heute.)"
+    ],
+    "vergleich": "Im Deutschen hängt die Stellung von „Ihnen“ nicht von einem Signalwort ab: „Ich schicke Ihnen …“ / „Ich kann Ihnen nicht sagen …“. Im Portugiesischen entscheidet das Wort davor: <i>Envio-lhe</i> (nichts davor) – <i>Não lhe envio</i> / <i>Já lhe envio</i>. Im Brasilianischen steht das Pronomen oft am Satzanfang (<i>Lhe envio</i>) – in Portugal ist das falsch.",
+    "beispiele": [
+     {"pt": "Boa pergunta! Já lhe respondo.", "de": "Gute Frage! Ich antworte Ihnen gleich."},
+     {"pt": "Não lhe sei dizer ao certo, mas envio-lhe os números amanhã.", "de": "Ich kann es Ihnen nicht genau sagen, aber ich schicke Ihnen die Zahlen morgen."},
+     {"pt": "Posso detalhar este ponto no fim, se me permite.", "de": "Ich kann diesen Punkt am Ende genauer erläutern, wenn Sie erlauben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ os números amanhã. (enviar + lhe, eu)", "loesungen": ["Envio-lhe", "Mando-lhe"], "de": "Ich schicke Ihnen die Zahlen morgen.", "erklaerung": "Hauptsatz ohne Signalwort → Pronomen nach dem Verb: envio-lhe.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Não ___ sei dizer ao certo. (lhe)", "loesungen": ["lhe"], "de": "Ich kann es Ihnen nicht genau sagen.", "erklaerung": "Nach não steht das Pronomen vor dem Verb.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "„Ich antworte Ihnen gleich.“", "optionen": ["Já respondo-lhe.", "Já lhe respondo.", "Lhe respondo já."], "richtig": 1, "erklaerung": "já zieht das Pronomen vor das Verb; ein Satz beginnt in Portugal nie mit lhe.", "kategorie": "Pronomenstellung"},
+     {"typ": "auswahl", "frage": "Was bedeutet „Já lá vamos.“ in einer Präsentation?", "optionen": ["Wir sind schon fertig.", "Wir waren schon dort.", "Dazu kommen wir gleich."], "richtig": 2, "kategorie": "Wortschatz"},
+     {"typ": "luecke", "satz": "A apresentação? Envio-___ hoje. (lhe + a)", "loesungen": ["lha"], "de": "Die Präsentation? Ich schicke sie Ihnen heute.", "erklaerung": "lhe + a = lha.", "kategorie": "Pronomen kombiniert"},
+     {"typ": "satzbau", "de": "Ich kann diesen Punkt am Ende genauer erläutern.", "loesung": "Posso detalhar este ponto no fim."},
+     {"typ": "uebersetzen", "de": "Wenn ich richtig verstanden habe, geht es in Ihrer Frage um die Kosten.", "loesungen": ["Pelo que percebi, a sua pergunta é sobre os custos.", "Pelo que percebi, a sua pergunta tem a ver com os custos.", "Pelo que percebi, a pergunta é sobre os custos.", "Pelo que percebi, a sua questão é sobre os custos."]},
+     {"typ": "uebersetzen", "de": "Ich weiß es nicht genau, aber ich schicke Ihnen die Zahlen morgen.", "loesungen": ["Não sei ao certo, mas envio-lhe os números amanhã.", "Não sei ao certo, mas mando-lhe os números amanhã.", "Não sei ao certo, mas amanhã envio-lhe os números.", "Não sei ao certo, mas amanhã mando-lhe os números."], "erklaerung": "„mas“ zieht das Pronomen nicht an → envio-lhe.", "kategorie": "Pronomenstellung"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Perguntas do público – Fragen aus dem Publikum",
+    "situation": "Nach Stefans Vortrag beim Unternehmerverband eröffnet die Moderatorin die Fragerunde.",
+    "zeilen": [
+     {"sprecher": "Moderadora", "stimme": "f", "pt": "Muito obrigada, Stefan. Temos tempo para algumas perguntas. Sim, o senhor ali à frente.", "de": "Vielen Dank, Stefan. Wir haben Zeit für ein paar Fragen. Ja, der Herr dort vorne."},
+     {"sprecher": "Sr. Correia", "stimme": "m", "pt": "Boa tarde. Falou de hotéis grandes. Mas um restaurante pequeno, como o meu, também pode trabalhar consigo?", "de": "Guten Tag. Sie haben von großen Hotels gesprochen. Aber kann auch ein kleines Restaurant wie meines mit Ihnen arbeiten?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa pergunta! Pelo que percebi, quer saber se os nossos serviços se adaptam a negócios pequenos. A resposta é sim: metade dos meus clientes tem menos de dez funcionários.", "de": "Gute Frage! Wenn ich richtig verstanden habe, möchten Sie wissen, ob unsere Leistungen zu kleinen Betrieben passen. Die Antwort ist ja: Die Hälfte meiner Kunden hat weniger als zehn Mitarbeiter."},
+     {"sprecher": "Participante", "stimme": "f", "pt": "E quanto custa, mais ou menos, um projeto desses?", "de": "Und was kostet so ein Projekt ungefähr?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não lhe sei dizer ao certo, porque depende muito das necessidades. Mas, se me deixar o seu contacto, envio-lhe uma estimativa esta semana.", "de": "Das kann ich Ihnen nicht genau sagen, weil es stark vom Bedarf abhängt. Aber wenn Sie mir Ihren Kontakt dalassen, schicke ich Ihnen diese Woche eine Schätzung."},
+     {"sprecher": "Participante", "stimme": "f", "pt": "Tenho ainda uma objeção: os consultores estrangeiros muitas vezes não conhecem bem o mercado português.", "de": "Ich habe noch einen Einwand: Ausländische Berater kennen den portugiesischen Markt oft nicht gut."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Compreendo a sua objeção, e é muito pertinente. Por isso trabalho sempre com parceiros locais – e já vivo cá há três anos!", "de": "Ich verstehe Ihren Einwand, und er ist sehr berechtigt. Deshalb arbeite ich immer mit lokalen Partnern – und ich lebe ja schon seit drei Jahren hier!"},
+     {"sprecher": "Moderadora", "stimme": "f", "pt": "Infelizmente, o tempo acabou. Quem quiser aprofundar algum tema pode falar com o Stefan no intervalo.", "de": "Leider ist die Zeit um. Wer ein Thema vertiefen möchte, kann in der Pause mit Stefan sprechen."}
+    ],
+    "fragen": [
+     {"frage": "O que quer saber o senhor Correia?", "optionen": ["Onde fica o escritório do Stefan.", "Se um negócio pequeno também pode trabalhar com o Stefan.", "Quantos funcionários tem o Stefan."], "richtig": 1},
+     {"frage": "Porque é que o Stefan não diz o preço ao certo?", "optionen": ["Porque é segredo.", "Porque ainda não fez as contas.", "Porque depende das necessidades do cliente."], "richtig": 2},
+     {"frage": "Como responde o Stefan à objeção?", "optionen": ["Diz que trabalha com parceiros locais e que vive cá.", "Diz que a objeção não é pertinente.", "Pede para reformular a pergunta."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Nach deiner Präsentation stellt dir eine Hotelmanagerin Fragen.",
+    "zeilen": [
+     {"sprecher": "Helena", "stimme": "f", "pt": "Muito interessante. Mas quanto tempo demora, em média, um projeto?", "de": "Sehr interessant. Aber wie lange dauert ein Projekt im Durchschnitt?"},
+     {"ich": true, "aufgabe": "Sag: Gute Frage! Ich weiß es nicht genau, es hängt vom Kunden ab.", "loesungen": ["Boa pergunta! Não sei ao certo, depende do cliente.", "Boa pergunta! Não sei ao certo; depende do cliente.", "Boa pergunta! Não sei ao certo. Depende do cliente.", "Boa pergunta! Não sei bem, depende do cliente."]},
+     {"sprecher": "Helena", "stimme": "f", "pt": "E os preços? Pode dizer-nos alguma coisa?", "de": "Und die Preise? Können Sie uns etwas dazu sagen?"},
+     {"ich": true, "aufgabe": "Sag: Dazu kommen wir gleich. Zuerst zeige ich Ihnen ein Beispiel.", "loesungen": ["Já lá vamos. Primeiro vou mostrar-lhe um exemplo.", "Já lá vamos. Primeiro mostro-lhe um exemplo.", "Já lá vamos. Primeiro vou-lhe mostrar um exemplo.", "Já lá vamos. Primeiro vou mostrar-vos um exemplo.", "Já lá vamos. Primeiro mostro-vos um exemplo."]},
+     {"sprecher": "Helena", "stimme": "f", "pt": "E se eu tiver mais perguntas depois?", "de": "Und wenn ich danach noch Fragen habe?"},
+     {"ich": true, "aufgabe": "Sag: Ich kann Ihnen die Informationen per E-Mail schicken.", "loesungen": ["Posso enviar-lhe as informações por e-mail.", "Posso-lhe enviar as informações por e-mail.", "Posso mandar-lhe as informações por e-mail.", "Posso-lhe mandar as informações por e-mail.", "Posso enviar-lhe a informação por e-mail."]}
+    ]
+   },
+   "saetze": [
+    {"id": "boa-pergunta-ja-lhe-respondo", "pt": "Boa pergunta! Já lhe respondo.", "de": "Gute Frage! Ich antworte Ihnen gleich."},
+    {"id": "pelo-que-percebi-quer-saber", "pt": "Pelo que percebi, quer saber quanto custa um projeto.", "de": "Wenn ich richtig verstanden habe, möchten Sie wissen, was ein Projekt kostet."},
+    {"id": "nao-lhe-sei-dizer-ao-certo", "pt": "Não lhe sei dizer ao certo, mas envio-lhe os números amanhã.", "de": "Ich kann es Ihnen nicht genau sagen, aber ich schicke Ihnen die Zahlen morgen."}
+   ]
+  },
+  {
+   "id": "B1-14-L08",
+   "typ": "neu",
+   "titel": "LinkedIn-Profil und Website-Text",
+   "vokabeln": ["o-perfil", "a-rede-de-contactos", "a-recomendacao", "a-competencia", "destacar", "apaixonado-por", "o-testemunho", "o-portefolio", "a-visibilidade"],
+   "grammatik": {
+    "titel": "Revisão: o infinitivo pessoal",
+    "erklaerung": [
+     "O <b>infinitivo pessoal</b> é um infinitivo com terminações de pessoa: eu <b>-</b>, tu <b>-es</b>, ele <b>-</b>, nós <b>-mos</b>, eles <b>-em</b>: <i>ter → teres, termos, terem</i>. Usa-se quando o infinitivo tem um <b>sujeito próprio</b>, diferente do verbo principal: <i>Escrevi este perfil para os clientes <b>perceberem</b> o que faço.</i>",
+     "É muito frequente depois de <b>preposições</b> como <b>para, sem, antes de, depois de, até, por</b>: <i>Antes de <b>assinarem</b> o contrato, leiam os testemunhos. Depois de <b>lerem</b> o meu perfil, muitos clientes contactam-me.</i>",
+     "Também se usa depois de <b>expressões impessoais</b>: <i>É importante <b>termos</b> uma boa rede de contactos. É melhor <b>atualizares</b> o perfil.</i> Em vez de <i>É melhor que atualizes</i> (conjuntivo), o português europeu prefere muitas vezes o infinitivo pessoal.",
+     "Se o sujeito é o mesmo e está claro, basta o infinitivo normal: <i>Atualizei o perfil para <b>ter</b> mais visibilidade.</i> Nos verbos irregulares, a base é sempre o infinitivo: <i>fazer → fazermos, pôr → pormos, ser → serem</i>."
+    ],
+    "erklaerung_de": [
+     "Der <b>infinitivo pessoal</b> ist ein Infinitiv mit Personalendungen: eu <b>-</b>, tu <b>-es</b>, ele <b>-</b>, nós <b>-mos</b>, eles <b>-em</b>: <i>ter → teres, termos, terem</i>. Man verwendet ihn, wenn der Infinitiv ein <b>eigenes Subjekt</b> hat, das sich vom Hauptverb unterscheidet: <i>Escrevi este perfil para os clientes <b>perceberem</b> o que faço.</i> (Ich habe dieses Profil geschrieben, damit die Kunden verstehen, was ich mache.)",
+     "Sehr häufig steht er nach <b>Präpositionen</b> wie <b>para, sem, antes de, depois de, até, por</b>: <i>Antes de <b>assinarem</b> o contrato, leiam os testemunhos.</i> (Bevor Sie den Vertrag unterschreiben, lesen Sie die Kundenstimmen.) <i>Depois de <b>lerem</b> o meu perfil, muitos clientes contactam-me.</i> (Nachdem sie mein Profil gelesen haben, melden sich viele Kunden.)",
+     "Auch nach <b>unpersönlichen Ausdrücken</b>: <i>É importante <b>termos</b> uma boa rede de contactos.</i> (Es ist wichtig, dass wir ein gutes Netzwerk haben.) <i>É melhor <b>atualizares</b> o perfil.</i> (Es ist besser, wenn du das Profil aktualisierst.) Statt <i>É melhor que atualizes</i> (Konjunktiv) bevorzugt das europäische Portugiesisch oft den infinitivo pessoal.",
+     "Ist das Subjekt dasselbe und klar, genügt der normale Infinitiv: <i>Atualizei o perfil para <b>ter</b> mais visibilidade.</i> Bei unregelmäßigen Verben ist die Basis immer der Infinitiv: <i>fazer → fazermos, pôr → pormos, ser → serem</i>."
+    ],
+    "vergleich": "Das Deutsche braucht einen Nebensatz: „damit die Kunden verstehen“, „bevor Sie unterschreiben“. Das Portugiesische nimmt einfach den Infinitiv mit Endung: <i>para os clientes perceberem</i>, <i>antes de assinarem</i>. Diese Form gibt es fast nur im Portugiesischen (und Galicischen) – im Brasilianischen wird sie seltener verwendet als in Portugal.",
+    "beispiele": [
+     {"pt": "Escrevi este perfil para os clientes perceberem o que faço.", "de": "Ich habe dieses Profil geschrieben, damit die Kunden verstehen, was ich mache."},
+     {"pt": "É importante termos uma boa rede de contactos em Portugal.", "de": "Es ist wichtig, dass wir ein gutes Netzwerk in Portugal haben."},
+     {"pt": "Antes de assinarem o contrato, leiam os testemunhos dos nossos clientes.", "de": "Bevor Sie den Vertrag unterschreiben, lesen Sie die Stimmen unserer Kunden."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Escrevi este texto para os clientes ___ o que faço. (perceber)", "loesungen": ["perceberem"], "de": "Ich habe diesen Text geschrieben, damit die Kunden verstehen, was ich mache.", "erklaerung": "Eigenes Subjekt (os clientes) → infinitivo pessoal: perceberem.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "É importante ___ uma boa rede de contactos. (ter, nós)", "loesungen": ["termos"], "de": "Es ist wichtig, dass wir ein gutes Netzwerk haben.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Antes de ___ o contrato, leiam os testemunhos. (assinar, Sie Plural)", "loesungen": ["assinarem"], "de": "Bevor Sie den Vertrag unterschreiben, lesen Sie die Kundenstimmen.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Damit wir mehr Sichtbarkeit haben, müssen wir das Profil aktualisieren.“", "optionen": ["Para temos mais visibilidade, temos de atualizar o perfil.", "Para tenhamos mais visibilidade, temos de atualizar o perfil.", "Para termos mais visibilidade, temos de atualizar o perfil."], "richtig": 2, "erklaerung": "Nach para steht der (persönliche) Infinitiv: termos – nicht das Präsens oder der Konjunktiv.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Sou apaixonado por estratégia.“ bedeutet:", "optionen": ["Ich bin von Strategie enttäuscht.", "Ich begeistere mich für Strategie.", "Ich bin auf Strategie angewiesen."], "richtig": 1, "kategorie": "Wortschatz"},
+     {"typ": "luecke", "satz": "No perfil, ___ a minha experiência internacional. (destacar, eu)", "loesungen": ["destaco"], "de": "Im Profil hebe ich meine internationale Erfahrung hervor."},
+     {"typ": "uebersetzen", "de": "Es ist besser, wenn du dein Profil aktualisierst. (tu, infinitivo pessoal)", "loesungen": ["É melhor atualizares o perfil.", "É melhor atualizares o teu perfil.", "É melhor tu atualizares o teu perfil.", "É melhor tu atualizares o perfil."], "kategorie": "Infinitivo pessoal"},
+     {"typ": "uebersetzen", "de": "Ich habe eine Empfehlung von einem zufriedenen Kunden bekommen.", "loesungen": ["Recebi uma recomendação de um cliente satisfeito.", "Tive uma recomendação de um cliente satisfeito."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "O perfil novo – das neue Profil",
+    "situation": "Stefan liest seinem Freund Pedro den neuen Profiltext für LinkedIn vor.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então, mostra lá esse perfil novo. Dizem que agora toda a gente procura consultores no LinkedIn.", "de": "Na, zeig mal dein neues Profil. Es heißt ja, dass jetzt alle auf LinkedIn nach Beratern suchen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ouve: «Consultor de estratégia, apaixonado por PME e por boa comida. Natural de Viena, radicado em Lagos.»", "de": "Hör zu: „Strategieberater mit Leidenschaft für KMU und gutes Essen. Gebürtiger Wiener, ansässig in Lagos.“"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Começa bem. E depois?", "de": "Fängt gut an. Und dann?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "«Ajudo hotéis e adegas a crescer de forma sustentável. As minhas principais competências são a estratégia e a comunicação intercultural.»", "de": "„Ich helfe Hotels und Weingütern, nachhaltig zu wachsen. Meine wichtigsten Kompetenzen sind Strategie und interkulturelle Kommunikation.“"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Eu destacava mais a experiência internacional. É a tua grande vantagem, não é?", "de": "Ich würde die internationale Erfahrung mehr hervorheben. Das ist doch dein großer Vorteil, oder?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tens razão. E vou pedir recomendações a dois clientes, para as pessoas verem resultados concretos.", "de": "Du hast recht. Und ich werde zwei Kunden um Empfehlungen bitten, damit die Leute konkrete Ergebnisse sehen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Boa ideia. Põe também o link para o portefólio do site. Quanto mais visibilidade, melhor.", "de": "Gute Idee. Setz auch den Link zum Portfolio auf der Website. Je mehr Sichtbarkeit, desto besser."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já pus. Agora só me falta alargar a minha rede de contactos portuguesa – a começar por ti!", "de": "Hab ich schon. Jetzt muss ich nur noch mein portugiesisches Netzwerk erweitern – angefangen bei dir!"}
+    ],
+    "fragen": [
+     {"frage": "Segundo o perfil, o Stefan é apaixonado por quê?", "optionen": ["Por golfe e vinho.", "Por PME e por boa comida.", "Por viagens e línguas."], "richtig": 1},
+     {"frage": "O que sugere o Pedro?", "optionen": ["Pôr uma fotografia nova.", "Escrever o texto em inglês.", "Destacar mais a experiência internacional."], "richtig": 2},
+     {"frage": "Para que quer o Stefan as recomendações?", "optionen": ["Para as pessoas verem resultados concretos.", "Para mudar de emprego.", "Para baixar os preços."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva o texto do seu perfil. – Schreib deinen Profiltext auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Ich bin Strategieberater und begeistere mich für KMU.", "loesungen": ["Sou consultor de estratégia e sou apaixonado por PME.", "Sou consultor de estratégia, apaixonado por PME.", "Sou consultor de estratégia e apaixonado por PME.", "Sou consultor de estratégia apaixonado por PME.", "Sou consultor de estratégia e apaixonado pelas PME."]},
+     {"de": "Kommunikation ist eine meiner wichtigsten Kompetenzen.", "loesungen": ["A comunicação é uma das minhas principais competências.", "A comunicação é uma das minhas competências principais.", "A comunicação é uma das minhas competências mais importantes."]},
+     {"de": "Im Profil hebe ich die internationale Erfahrung hervor.", "loesungen": ["No perfil, destaco a experiência internacional.", "No perfil destaco a experiência internacional.", "No perfil, destaco a minha experiência internacional.", "No perfil destaco a minha experiência internacional."]},
+     {"de": "Es ist wichtig, dass wir ein gutes Netzwerk haben. (infinitivo pessoal)", "loesungen": ["É importante termos uma boa rede de contactos.", "É importante nós termos uma boa rede de contactos."]},
+     {"de": "Ich habe den Text geschrieben, damit die Kunden verstehen, was ich mache.", "loesungen": ["Escrevi o texto para os clientes perceberem o que faço.", "Escrevi o texto para os clientes perceberem o que eu faço.", "Escrevi o texto para os clientes entenderem o que faço.", "Escrevi o texto para que os clientes percebam o que faço.", "Escrevi o texto para os clientes compreenderem o que faço."]}
+    ]
+   },
+   "saetze": [
+    {"id": "para-os-clientes-perceberem", "pt": "Escrevi este perfil para os clientes perceberem o que faço.", "de": "Ich habe dieses Profil geschrieben, damit die Kunden verstehen, was ich mache."},
+    {"id": "importante-termos-rede", "pt": "É importante termos uma boa rede de contactos.", "de": "Es ist wichtig, dass wir ein gutes Netzwerk haben."},
+    {"id": "consultor-apaixonado-por-pme", "pt": "Sou consultor de estratégia, apaixonado por PME.", "de": "Ich bin Strategieberater mit Leidenschaft für KMU."}
+   ]
+  },
+  {
+   "id": "B1-14-L09",
+   "typ": "neu",
+   "titel": "Pitch für einen portugiesischen Kunden",
+   "vokabeln": ["rentavel", "o-concorrente", "a-poupanca", "reduzir", "comprometer-se", "sem-compromisso", "a-proposta-de-valor", "a-vantagem-competitiva", "o-caso-de-sucesso"],
+   "grammatik": {
+    "titel": "Revisão: hipóteses com o imperfeito do conjuntivo e o condicional",
+    "erklaerung": [
+     "Num pitch ajuda muito fazer o cliente <b>imaginar</b> uma situação: <b>se + imperfeito do conjuntivo</b>, e na oração principal o <b>condicional</b>: <i>Se <b>reduzisse</b> os custos de energia em 20 %, quanto <b>pouparia</b> por ano?</i>",
+     "Imperfeito do conjuntivo: 3.ª pessoa do plural do <b>perfeito</b> sem <b>-ram</b> + <b>-sse</b>: <i>fizeram → fizesse, tiveram → tivesse, puderam → pudesse, foram → fosse</i>. Na forma <i>nós</i> leva acento: <i>tivéssemos, fizéssemos, reduzíssemos</i>.",
+     "Condicional: infinitivo + <b>-ia</b>: <i>pouparia, seria, ganharíamos</i>; irregulares: <i>fazer → faria, dizer → diria, trazer → traria</i>. Na fala, em Portugal, usa-se muito o <b>imperfeito</b> em vez do condicional: <i>Se tivesse um site em alemão, <b>vendia</b> mais.</i>",
+     "Atenção à diferença: condição <b>real</b> no futuro → <b>futuro do conjuntivo</b>: <i>Se <b>assinar</b> este mês, tem 10 % de desconto.</i> Situação <b>imaginada</b> → <b>imperfeito do conjuntivo</b>: <i>Se <b>assinasse</b> hoje, começávamos já na segunda-feira.</i>"
+    ],
+    "erklaerung_de": [
+     "In einem Pitch hilft es sehr, den Kunden sich eine Situation <b>vorstellen</b> zu lassen: <b>se + imperfeito do conjuntivo</b>, im Hauptsatz das <b>condicional</b>: <i>Se <b>reduzisse</b> os custos de energia em 20 %, quanto <b>pouparia</b> por ano?</i> (Wenn Sie die Energiekosten um 20 % senken würden, wie viel würden Sie im Jahr sparen?)",
+     "Imperfeito do conjuntivo: 3. Person Plural des <b>perfeito</b> ohne <b>-ram</b> + <b>-sse</b>: <i>fizeram → fizesse, tiveram → tivesse, puderam → pudesse, foram → fosse</i>. Die nós-Form trägt einen Akzent: <i>tivéssemos, fizéssemos, reduzíssemos</i>.",
+     "Condicional: Infinitiv + <b>-ia</b>: <i>pouparia, seria, ganharíamos</i>; unregelmäßig: <i>fazer → faria, dizer → diria, trazer → traria</i>. Im gesprochenen Portugiesisch in Portugal nimmt man oft das <b>imperfeito</b> statt des condicional: <i>Se tivesse um site em alemão, <b>vendia</b> mais.</i> (Wenn ich eine deutsche Website hätte, würde ich mehr verkaufen.)",
+     "Achtung, Unterschied: <b>reale</b> Bedingung in der Zukunft → <b>futuro do conjuntivo</b>: <i>Se <b>assinar</b> este mês, tem 10 % de desconto.</i> (Wenn Sie diesen Monat unterschreiben, bekommen Sie 10 % Rabatt.) <b>Vorgestellte</b> Situation → <b>imperfeito do conjuntivo</b>: <i>Se <b>assinasse</b> hoje, começávamos já na segunda-feira.</i> (Wenn Sie heute unterschreiben würden, könnten wir schon am Montag anfangen.)"
+    ],
+    "vergleich": "Wie im Deutschen: „Wenn Sie … senken würden, würden Sie … sparen“ entspricht <i>Se reduzisse …, pouparia …</i>. Der Unterschied zum Englischen „if you reduced“ ist gering. Neu für Deutschsprachige ist nur die Unterscheidung zwischen realer Zukunft (<i>se assinar</i>) und reiner Vorstellung (<i>se assinasse</i>) – im Deutschen sagt man in beiden Fällen oft einfach „wenn Sie unterschreiben“.",
+    "beispiele": [
+     {"pt": "Se reduzisse os custos de energia em 20 %, quanto pouparia por ano?", "de": "Wenn Sie die Energiekosten um 20 % senken würden, wie viel würden Sie im Jahr sparen?"},
+     {"pt": "Se tivesse um site em alemão, o hotel seria muito mais rentável.", "de": "Wenn das Hotel eine deutsche Website hätte, wäre es viel rentabler."},
+     {"pt": "Se assinar este mês, comprometemo-nos a entregar o plano em duas semanas.", "de": "Wenn Sie diesen Monat unterschreiben, verpflichten wir uns, den Plan in zwei Wochen zu liefern."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se o hotel ___ os custos em 20 %, pouparia 30 000 euros por ano. (reduzir)", "loesungen": ["reduzisse"], "de": "Wenn das Hotel die Kosten um 20 % senken würde, würde es 30 000 Euro im Jahr sparen.", "erklaerung": "Vorgestellte Situation → imperfeito do conjuntivo: reduziram → reduzisse.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Com um plano personalizado, a sua empresa ___ mais rentável. (ser, Konditional)", "loesungen": ["seria", "era"], "de": "Mit einem individuellen Plan wäre Ihre Firma rentabler.", "kategorie": "Condicional"},
+     {"typ": "luecke", "satz": "Se nós ___ mais tempo, fazíamos um diagnóstico completo. (ter)", "loesungen": ["tivéssemos"], "de": "Wenn wir mehr Zeit hätten, würden wir eine vollständige Analyse machen.", "erklaerung": "tiveram → tivesse → nós tivéssemos (mit Akzent).", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Wenn Sie diesen Monat unterschreiben, bekommen Sie 10 % Rabatt.“ (echtes Angebot)", "optionen": ["Se assinasse este mês, tinha 10 % de desconto.", "Se assina este mês, tem 10 % de desconto.", "Se assinar este mês, tem 10 % de desconto."], "richtig": 2, "erklaerung": "Reale Bedingung in der Zukunft → futuro do conjuntivo: se assinar.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Was würden Sie mit dem gesparten Geld machen?“", "optionen": ["O que fazeria com o dinheiro poupado?", "O que faria com o dinheiro poupado?", "O que fizer com o dinheiro poupado?"], "richtig": 1, "erklaerung": "fazer ist unregelmäßig: faria (nicht „fazeria“).", "kategorie": "Condicional"},
+     {"typ": "luecke", "satz": "Ao contrário dos nossos ___, respondemos em 24 horas. (Mitbewerber)", "loesungen": ["concorrentes"], "de": "Anders als unsere Mitbewerber antworten wir innerhalb von 24 Stunden.", "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Ich kann Ihnen ein unverbindliches Angebot schicken.", "loesungen": ["Posso enviar-lhe uma proposta sem compromisso.", "Posso-lhe enviar uma proposta sem compromisso.", "Posso mandar-lhe uma proposta sem compromisso.", "Posso-lhe mandar uma proposta sem compromisso.", "Posso enviar-lhe um orçamento sem compromisso.", "Posso-lhe enviar um orçamento sem compromisso."], "kategorie": "Pronomenstellung"},
+     {"typ": "uebersetzen", "de": "Wenn Sie die Kosten senken würden, wäre das Hotel rentabler.", "loesungen": ["Se reduzisse os custos, o hotel seria mais rentável.", "Se reduzisse os custos, o hotel era mais rentável.", "Se o senhor reduzisse os custos, o hotel seria mais rentável.", "Se a senhora reduzisse os custos, o hotel seria mais rentável.", "Se baixasse os custos, o hotel seria mais rentável."], "kategorie": "Imperfeito do conjuntivo"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Dez minutos para convencer – zehn Minuten zum Überzeugen",
+    "situation": "Stefan präsentiert Dona Graça, der Besitzerin eines Weinguts bei Lagoa, sein Angebot.",
+    "zeilen": [
+     {"sprecher": "Dona Graça", "stimme": "f", "pt": "Senhor Krenn, tenho dez minutos. Diga-me porque é que havia de contratar um consultor.", "de": "Herr Krenn, ich habe zehn Minuten. Sagen Sie mir, warum ich einen Berater engagieren sollte."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Com todo o gosto. A sua adega recebe cada vez mais turistas alemães e austríacos, não é verdade?", "de": "Sehr gern. Ihr Weingut empfängt immer mehr deutsche und österreichische Touristen, nicht wahr?"},
+     {"sprecher": "Dona Graça", "stimme": "f", "pt": "É, cerca de metade dos visitantes. Mas a loja vende pouco.", "de": "Ja, etwa die Hälfte der Besucher. Aber der Laden verkauft wenig."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É aí que eu entro. Se fizesse provas de vinho em alemão e tivesse uma loja online, as vendas subiriam claramente. Num caso de sucesso parecido, uma adega aumentou as vendas em 30 % no primeiro ano.", "de": "Genau da komme ich ins Spiel. Wenn Sie Weinproben auf Deutsch anbieten und einen Online-Shop hätten, würde der Verkauf deutlich steigen. In einem ähnlichen Referenzprojekt hat ein Weingut den Verkauf im ersten Jahr um 30 % gesteigert."},
+     {"sprecher": "Dona Graça", "stimme": "f", "pt": "Os seus concorrentes dizem todos o mesmo. O que é que o senhor tem de diferente?", "de": "Ihre Mitbewerber sagen alle dasselbe. Was ist bei Ihnen anders?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Falo a língua dos seus clientes e conheço a cultura deles. Essa é a nossa vantagem competitiva. E comprometo-me a apresentar resultados em seis meses.", "de": "Ich spreche die Sprache Ihrer Kunden und kenne ihre Kultur. Das ist unser Wettbewerbsvorteil. Und ich verpflichte mich, in sechs Monaten Ergebnisse vorzulegen."},
+     {"sprecher": "Dona Graça", "stimme": "f", "pt": "E quanto é que isso me custaria?", "de": "Und was würde mich das kosten?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Se quiser, envio-lhe uma proposta sem compromisso até sexta-feira.", "de": "Wenn Sie möchten, schicke ich Ihnen bis Freitag ein unverbindliches Angebot."},
+     {"sprecher": "Dona Graça", "stimme": "f", "pt": "Está bem. Se os números fizerem sentido, voltamos a falar.", "de": "In Ordnung. Wenn die Zahlen stimmig sind, sprechen wir wieder."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema da adega?", "optionen": ["Tem poucos turistas.", "A loja vende pouco.", "O vinho é caro demais."], "richtig": 1},
+     {"frage": "Qual é a vantagem competitiva do Stefan, segundo ele?", "optionen": ["É mais barato do que os concorrentes.", "Tem uma equipa muito grande.", "Fala a língua dos clientes e conhece a cultura deles."], "richtig": 2},
+     {"frage": "O que vai o Stefan enviar até sexta-feira?", "optionen": ["Uma proposta sem compromisso.", "Uma garrafa de vinho.", "O contrato assinado."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Senhor Matos, Besitzer eines Restaurants in Lagos, gibt dir zwei Minuten für deinen Pitch.",
+    "zeilen": [
+     {"sprecher": "Sr. Matos", "stimme": "m", "pt": "Então, em dois minutos: porque é que eu havia de trabalhar consigo?", "de": "Also, in zwei Minuten: Warum sollte ich mit Ihnen arbeiten?"},
+     {"ich": true, "aufgabe": "Sag: Wir helfen Ihnen, die Kosten zu senken.", "loesungen": ["Ajudamo-lo a reduzir os custos.", "Nós ajudamo-lo a reduzir os custos.", "Ajudamos o senhor a reduzir os custos.", "Ajudamo-lo a baixar os custos.", "Podemos ajudá-lo a reduzir os custos."]},
+     {"sprecher": "Sr. Matos", "stimme": "m", "pt": "Isso dizem todos. E quanto é que eu pouparia?", "de": "Das sagen alle. Und wie viel würde ich sparen?"},
+     {"ich": true, "aufgabe": "Sag: Wenn Sie die Energiekosten senken würden, würden Sie etwa 20 % sparen.", "loesungen": ["Se reduzisse os custos de energia, pouparia cerca de 20 %.", "Se reduzisse os custos de energia, poupava cerca de 20 %.", "Se reduzisse os custos de energia, pouparia uns 20 %.", "Se o senhor reduzisse os custos de energia, pouparia cerca de 20 %.", "Se reduzisse os custos de energia, pouparia aproximadamente 20 %."]},
+     {"sprecher": "Sr. Matos", "stimme": "m", "pt": "Hum… Não sei. Preciso de pensar.", "de": "Hm … Ich weiß nicht. Ich muss nachdenken."},
+     {"ich": true, "aufgabe": "Sag: Natürlich. Ich kann Ihnen ein unverbindliches Angebot schicken.", "loesungen": ["Claro. Posso enviar-lhe uma proposta sem compromisso.", "Com certeza. Posso enviar-lhe uma proposta sem compromisso.", "Claro. Posso-lhe enviar uma proposta sem compromisso.", "Claro. Posso mandar-lhe uma proposta sem compromisso.", "Claro. Posso enviar-lhe um orçamento sem compromisso."]}
+    ]
+   },
+   "saetze": [
+    {"id": "se-reduzisse-os-custos", "pt": "Se reduzisse os custos de energia, pouparia cerca de 20 %.", "de": "Wenn Sie die Energiekosten senken würden, würden Sie etwa 20 % sparen."},
+    {"id": "proposta-sem-compromisso", "pt": "Posso enviar-lhe uma proposta sem compromisso.", "de": "Ich kann Ihnen ein unverbindliches Angebot schicken."},
+    {"id": "ao-contrario-dos-concorrentes", "pt": "Ao contrário dos concorrentes, falamos a língua dos seus clientes.", "de": "Anders als die Mitbewerber sprechen wir die Sprache Ihrer Kunden."}
+   ]
+  },
+  {
+   "id": "B1-14-L10",
+   "typ": "neu",
+   "titel": "Rückblick auf B1",
+   "vokabeln": ["a-fluencia", "evoluir", "o-esforco", "orgulhar-se-de", "dominar", "o-nivel", "aperfeicoar", "a-persistencia", "a-autoconfianca"],
+   "grammatik": {
+    "titel": "Revisão geral: indicativo ou conjuntivo?",
+    "erklaerung": [
+     "<b>Indicativo</b> para factos e certezas, também depois de <b>achar que, pensar que, ter a certeza de que</b> (afirmativo): <i>Acho que o meu português <b>evoluiu</b> muito. Tenho a certeza de que o esforço <b>vale</b> a pena.</i>",
+     "<b>Presente do conjuntivo</b> depois de desejos, sentimentos, dúvidas e negação (<i>espero que, quero que, não acho que, talvez</i>), de expressões impessoais (<i>é importante que</i>) e de <b>embora, para que, antes que</b>: <i>Espero que o B2 não <b>seja</b> muito difícil. Embora ainda <b>cometa</b> erros, falo com confiança.</i>",
+     "<b>Imperfeito do conjuntivo</b> quando o verbo principal está no passado ou no condicional: <i>A professora pediu-me que <b>falasse</b> mais. Gostava que os meus clientes me <b>corrigissem</b>.</i>",
+     "<b>Futuro do conjuntivo</b> para condições e momentos no futuro, depois de <b>se, quando, assim que</b>: <i>Quando <b>chegar</b> ao B2, vou ler um romance em português.</i> E não esquecer o <b>infinitivo pessoal</b>: <i>É importante <b>praticarmos</b> todos os dias.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>Indikativ</b> für Tatsachen und Gewissheiten, auch nach <b>achar que, pensar que, ter a certeza de que</b> (bejaht): <i>Acho que o meu português <b>evoluiu</b> muito.</i> (Ich finde, mein Portugiesisch hat sich sehr entwickelt.) <i>Tenho a certeza de que o esforço <b>vale</b> a pena.</i>",
+     "<b>Presente do conjuntivo</b> nach Wünschen, Gefühlen, Zweifel und Verneinung (<i>espero que, quero que, não acho que, talvez</i>), nach unpersönlichen Ausdrücken (<i>é importante que</i>) und nach <b>embora, para que, antes que</b>: <i>Espero que o B2 não <b>seja</b> muito difícil.</i> (Ich hoffe, B2 ist nicht zu schwer.) <i>Embora ainda <b>cometa</b> erros, falo com confiança.</i> (Obwohl ich noch Fehler mache, spreche ich selbstbewusst.)",
+     "<b>Imperfeito do conjuntivo</b>, wenn das Hauptverb in der Vergangenheit oder im condicional steht: <i>A professora pediu-me que <b>falasse</b> mais.</i> (Die Lehrerin bat mich, mehr zu sprechen.) <i>Gostava que os meus clientes me <b>corrigissem</b>.</i> (Ich hätte gern, dass meine Kunden mich korrigieren.)",
+     "<b>Futuro do conjuntivo</b> für Bedingungen und Zeitpunkte in der Zukunft, nach <b>se, quando, assim que</b>: <i>Quando <b>chegar</b> ao B2, vou ler um romance em português.</i> (Wenn ich B2 erreiche, lese ich einen Roman auf Portugiesisch.) Und nicht vergessen: den <b>infinitivo pessoal</b>: <i>É importante <b>praticarmos</b> todos os dias.</i>"
+    ],
+    "vergleich": "Das Deutsche kennt den Konjunktiv vor allem für Irreales („wäre, hätte“) und indirekte Rede. Das Portugiesische verwendet ihn viel häufiger – immer dann, wenn etwas gewünscht, bezweifelt, bewertet oder nur vorgestellt wird. Faustregel für B1: Tatsache → Indikativ; Wunsch, Zweifel, Gefühl → presente do conjuntivo; Vergangenheit/Konditional im Hauptsatz → imperfeito do conjuntivo; Zukunft nach se/quando → futuro do conjuntivo.",
+    "beispiele": [
+     {"pt": "Acho que o meu português evoluiu bastante este ano.", "de": "Ich finde, mein Portugiesisch hat sich dieses Jahr ziemlich weiterentwickelt."},
+     {"pt": "Embora ainda não domine o conjuntivo, já não tenho medo dele.", "de": "Obwohl ich den Konjunktiv noch nicht beherrsche, habe ich keine Angst mehr davor."},
+     {"pt": "Quando chegar ao nível B2, vou ler um romance de Saramago.", "de": "Wenn ich das Niveau B2 erreiche, lese ich einen Roman von Saramago."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Espero que o B2 não ___ muito difícil. (ser)", "loesungen": ["seja"], "de": "Ich hoffe, B2 ist nicht zu schwer.", "erklaerung": "Wunsch (espero que) → presente do conjuntivo.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Acho que o meu português ___ bastante. (evoluir, Perfeito)", "loesungen": ["evoluiu"], "de": "Ich finde, mein Portugiesisch hat sich ziemlich weiterentwickelt.", "erklaerung": "Bejahtes achar que → Indikativ.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Embora ainda ___ erros, falo com confiança. (cometer, eu)", "loesungen": ["cometa"], "de": "Obwohl ich noch Fehler mache, spreche ich selbstbewusst.", "erklaerung": "embora → immer Konjunktiv.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Quando ___ ao nível B2, vou ler Saramago no original. (chegar, eu)", "loesungen": ["chegar"], "de": "Wenn ich das Niveau B2 erreiche, lese ich Saramago im Original.", "erklaerung": "Zukunft nach quando → futuro do conjuntivo (= Infinitivform bei regelmäßigen Verben).", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Die Lehrerin hat mich gebeten, mehr zu sprechen.“", "optionen": ["A professora pediu-me que fale mais.", "A professora pediu-me que falasse mais.", "A professora me pediu que falasse mais."], "richtig": 1, "erklaerung": "Hauptverb in der Vergangenheit → imperfeito do conjuntivo; im Hauptsatz steht das Pronomen nach dem Verb: pediu-me.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "„Ich bin stolz darauf, eine Präsentation auf Portugiesisch halten zu können.“", "optionen": ["Me orgulho de conseguir fazer uma apresentação em português.", "Orgulho-me em conseguir fazer uma apresentação em português.", "Orgulho-me de conseguir fazer uma apresentação em português."], "richtig": 2, "erklaerung": "orgulhar-se de; im Hauptsatz ohne Signalwort: orgulho-me.", "kategorie": "Pronomenstellung"},
+     {"typ": "diktat", "pt": "O esforço valeu a pena: hoje já faço apresentações em português."},
+     {"typ": "uebersetzen", "de": "Mein Portugiesisch hat sich ziemlich weiterentwickelt.", "loesungen": ["O meu português evoluiu bastante.", "O meu português evoluiu muito.", "O meu português melhorou bastante."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Fim do B1 – Ende von B1",
+    "situation": "In der letzten B1-Stunde spricht Stefans Lehrerin Teresa mit ihm über seine Fortschritte.",
+    "zeilen": [
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Então, Stefan, chegámos ao fim do B1. Como é que se sente?", "de": "Also, Stefan, wir sind am Ende von B1 angekommen. Wie fühlen Sie sich?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sinceramente, orgulho-me muito. Há um ano não conseguia fazer uma reunião em português, e na semana passada fiz uma apresentação inteira!", "de": "Ehrlich gesagt bin ich sehr stolz. Vor einem Jahr konnte ich keine Besprechung auf Portugiesisch führen, und letzte Woche habe ich eine ganze Präsentation gehalten!"},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "É verdade, a sua fluência evoluiu imenso. O que foi mais difícil?", "de": "Das stimmt, Ihr flüssiges Sprechen hat sich enorm entwickelt. Was war am schwierigsten?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O conjuntivo, sem dúvida. Ainda não o domino, mas já não tenho medo dele.", "de": "Der Konjunktiv, ohne Zweifel. Ich beherrsche ihn noch nicht, aber ich habe keine Angst mehr davor."},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "E o que quer aperfeiçoar no B2?", "de": "Und was möchten Sie in B2 verfeinern?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A escrita formal. Quero que os meus relatórios em português sejam tão bons como os que escrevo em alemão.", "de": "Das formelle Schreiben. Ich möchte, dass meine Berichte auf Portugiesisch so gut sind wie die, die ich auf Deutsch schreibe."},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Com a sua persistência, tenho a certeza de que vai conseguir.", "de": "Mit Ihrer Ausdauer bin ich sicher, dass Sie es schaffen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado, Teresa. E quando terminar o B2, convido-a para jantar – e pago eu!", "de": "Danke, Teresa. Und wenn ich B2 abgeschlossen habe, lade ich Sie zum Abendessen ein – und ich zahle!"}
+    ],
+    "fragen": [
+     {"frage": "O que fez o Stefan na semana passada?", "optionen": ["Uma reunião em alemão.", "Uma apresentação inteira em português.", "O exame do B2."], "richtig": 1},
+     {"frage": "O que foi mais difícil para o Stefan?", "optionen": ["A pronúncia.", "O vocabulário.", "O conjuntivo."], "richtig": 2},
+     {"frage": "O que quer o Stefan aperfeiçoar no B2?", "optionen": ["A escrita formal.", "A pronúncia do «r».", "O vocabulário de cozinha."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "O meu português evoluiu bastante este ano.", "de": "Mein Portugiesisch hat sich dieses Jahr ziemlich weiterentwickelt."},
+     {"pt": "Orgulho-me de conseguir fazer uma apresentação em português.", "de": "Ich bin stolz darauf, eine Präsentation auf Portugiesisch halten zu können."},
+     {"pt": "Ainda não domino o conjuntivo, mas já não tenho medo dele.", "de": "Ich beherrsche den Konjunktiv noch nicht, aber ich habe keine Angst mehr davor."},
+     {"pt": "O esforço valeu a pena.", "de": "Die Mühe hat sich gelohnt."},
+     {"pt": "Quando terminar o B2, vou ler um romance em português.", "de": "Wenn ich B2 abgeschlossen habe, lese ich einen Roman auf Portugiesisch."}
+    ]
+   },
+   "saetze": [
+    {"id": "portugues-evoluiu-bastante", "pt": "O meu português evoluiu bastante este ano.", "de": "Mein Portugiesisch hat sich dieses Jahr ziemlich weiterentwickelt."},
+    {"id": "orgulho-me-de-conseguir", "pt": "Orgulho-me de conseguir fazer uma apresentação em português.", "de": "Ich bin stolz darauf, eine Präsentation auf Portugiesisch halten zu können."},
+    {"id": "quando-terminar-o-b2", "pt": "Quando terminar o B2, vou ler um romance em português.", "de": "Wenn ich B2 abgeschlossen habe, lese ich einen Roman auf Portugiesisch."}
+   ]
+  },
+  {"id": "B1-14-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-14-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Entrevista na rádio – Interview im Radio",
+   "situation": "Ein Regionalradiosender interviewt Stefan über seine Firma in Lagos.",
+   "zeilen": [
+    {"sprecher": "Jornalista", "stimme": "f", "pt": "Bom dia, Stefan. Obrigada por ter vindo ao estúdio. Para quem não o conhece: quem é e o que faz?", "de": "Guten Morgen, Stefan. Danke, dass Sie ins Studio gekommen sind. Für alle, die Sie nicht kennen: Wer sind Sie und was machen Sie?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Sou consultor de gestão, natural de Viena, e vivo em Lagos há três anos. A minha empresa ajuda PME do turismo a crescer.", "de": "Guten Morgen. Ich bin Unternehmensberater, gebürtiger Wiener, und lebe seit drei Jahren in Lagos. Meine Firma hilft KMU im Tourismus beim Wachsen."},
+    {"sprecher": "Jornalista", "stimme": "f", "pt": "Porque é que escolheu o Algarve para a sede da empresa?", "de": "Warum haben Sie die Algarve als Firmensitz gewählt?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Pela qualidade de vida, claro, mas também porque muitos dos meus clientes austríacos e alemães passam férias cá. Faz sentido estarmos perto deles.", "de": "Wegen der Lebensqualität natürlich, aber auch, weil viele meiner österreichischen und deutschen Kunden hier Urlaub machen. Es ist sinnvoll, dass wir in ihrer Nähe sind."},
+    {"sprecher": "Jornalista", "stimme": "f", "pt": "E planos para o futuro?", "de": "Und Pläne für die Zukunft?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Se tudo correr bem, abrimos um escritório em Lisboa daqui a dois anos e contratamos duas pessoas.", "de": "Wenn alles gut läuft, eröffnen wir in zwei Jahren ein Büro in Lissabon und stellen zwei Leute ein."},
+    {"sprecher": "Jornalista", "stimme": "f", "pt": "Uma última pergunta: que conselho daria a um estrangeiro que quisesse abrir uma empresa cá?", "de": "Eine letzte Frage: Welchen Rat würden Sie einem Ausländer geben, der hier eine Firma gründen möchte?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Que aprenda português. Quando falamos a língua deles, os portugueses abrem-nos muito mais portas.", "de": "Dass er Portugiesisch lernt. Wenn wir ihre Sprache sprechen, öffnen uns die Portugiesen viel mehr Türen."}
+   ],
+   "fragen": [
+    {"frage": "Há quanto tempo vive o Stefan em Lagos?", "optionen": ["Há dois anos.", "Há três anos.", "Desde 2005."], "richtig": 1},
+    {"frage": "Além da qualidade de vida, porque escolheu o Stefan o Algarve?", "optionen": ["Porque muitos clientes passam férias cá.", "Porque os impostos são mais baixos.", "Porque a sede antiga fechou."], "richtig": 0},
+    {"frage": "O que acontece se tudo correr bem?", "optionen": ["O Stefan vende a empresa.", "O Stefan volta para Viena.", "A empresa abre um escritório em Lisboa e contrata duas pessoas."], "richtig": 2},
+    {"frage": "Qual é o conselho do Stefan?", "optionen": ["Contratar um bom advogado.", "Aprender português.", "Abrir a empresa em Lisboa."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Uma notícia no jornal regional – eine Meldung in der Regionalzeitung",
+   "situation": "Ana zeigt Stefan einen kurzen Artikel über seine Firma.",
+   "text": [
+    "Consultor austríaco distinguido em Lagos",
+    "A Krenn Consulting, empresa de consultoria sediada em Lagos, recebeu ontem o prémio «PME Parceira», atribuído por uma associação de empresários da região. O fundador, Stefan Krenn, natural de Viena, está radicado no Algarve há três anos.",
+    "A empresa presta serviços sobretudo a hotéis, restaurantes e adegas. Segundo o júri, o seu principal mérito foi ter ajudado mais de vinte PME a superar a crise e a conquistar clientes da Alemanha e da Áustria.",
+    "No discurso de agradecimento, feito em português, Stefan Krenn sublinhou a importância das parcerias locais: «Sem os meus parceiros portugueses, nada disto teria sido possível.»",
+    "Para o próximo ano, a empresa planeia lançar um serviço online e, se o crescimento continuar, contratar uma consultora portuguesa."
+   ],
+   "fragen": [
+    {"frage": "Que prémio recebeu a empresa?", "optionen": ["O prémio «PME Parceira».", "Um prémio de turismo.", "Um prémio de inovação digital."], "richtig": 0},
+    {"frage": "Segundo o júri, qual foi o principal mérito da empresa?", "optionen": ["Abrir uma filial em Viena.", "Ajudar mais de vinte PME a superar a crise.", "Ter o maior volume de negócios da região."], "richtig": 1},
+    {"frage": "Em que língua fez o Stefan o discurso?", "optionen": ["Em alemão.", "Em inglês.", "Em português."], "richtig": 2},
+    {"frage": "O que planeia a empresa para o próximo ano?", "optionen": ["Lançar um serviço online.", "Mudar a sede para Lisboa.", "Fechar a filial de Viena."], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Die Firma wurde 2005 gegründet und hat ihren Sitz in Lagos.", "loesungen": ["A empresa foi fundada em 2005 e está sediada em Lagos.", "A empresa foi fundada em 2005 e tem sede em Lagos.", "A empresa foi fundada em 2005 e a sede é em Lagos.", "A empresa foi fundada em 2005 e a sede fica em Lagos."]},
+   {"de": "Wir helfen Firmen, die wachsen wollen.", "loesungen": ["Ajudamos empresas que queiram crescer.", "Ajudamos as empresas que queiram crescer.", "Nós ajudamos empresas que queiram crescer."]},
+   {"de": "Wenn alles gut läuft, eröffnen wir ein Büro in Lissabon.", "loesungen": ["Se tudo correr bem, abrimos um escritório em Lisboa.", "Se tudo correr bem, vamos abrir um escritório em Lisboa.", "Se tudo correr bem, abriremos um escritório em Lisboa."]},
+   {"de": "Es ist wichtig, dass wir gute Partner haben. (infinitivo pessoal)", "loesungen": ["É importante termos bons parceiros.", "É importante nós termos bons parceiros."]},
+   {"de": "Gute Frage! Ich antworte Ihnen gleich.", "loesungen": ["Boa pergunta! Já lhe respondo.", "Boa pergunta! Respondo-lhe já.", "Boa pergunta! Já lhe vou responder."]},
+   {"de": "Wenn Sie die Kosten senken würden, wäre Ihr Hotel rentabler.", "loesungen": ["Se reduzisse os custos, o seu hotel seria mais rentável.", "Se reduzisse os custos, o seu hotel era mais rentável.", "Se o senhor reduzisse os custos, o seu hotel seria mais rentável.", "Se a senhora reduzisse os custos, o seu hotel seria mais rentável."]}
+  ],
+  "sprechen": [
+   {"pt": "Antes de mais, quero agradecer o convite.", "de": "Zuallererst möchte ich mich für die Einladung bedanken."},
+   {"pt": "Sou natural de Viena, mas estou radicado em Lagos há três anos.", "de": "Ich bin gebürtiger Wiener, lebe aber seit drei Jahren fest in Lagos."},
+   {"pt": "Passando agora aos nossos planos: se tudo correr bem, vamos expandir para Lisboa.", "de": "Kommen wir nun zu unseren Plänen: Wenn alles gut läuft, expandieren wir nach Lissabon."},
+   {"pt": "Boa pergunta! Pelo que percebi, quer saber quanto custa.", "de": "Gute Frage! Wenn ich richtig verstanden habe, möchten Sie wissen, was es kostet."},
+   {"pt": "Obrigado pela vossa atenção. Fico à disposição para perguntas.", "de": "Danke für Ihre Aufmerksamkeit. Ich stehe für Fragen zur Verfügung."}
+  ]
+ }
+}
