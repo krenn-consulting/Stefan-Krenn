@@ -1,0 +1,1149 @@
+{
+ "id": "B2-04",
+ "level": "B2",
+ "titel": "Direito e justiça – Verträge, Notar, Rechte",
+ "beschreibung": "Rechtssprache verstehen und selbst sicher anwenden: feste Formeln (nos termos de, ao abrigo de, para os devidos efeitos), Aufbau eines Vertrags, Bedingungen mit caso, desde que, salvo se und na falta de, Passiv und futuro do conjuntivo in Klauseln, Notar und Beglaubigung, Vollmacht, Erbrecht, Verbraucherrechte, Strafzettel und Einspruch, Gericht und Verfahren, das Gespräch mit dem Anwalt, ein Mietrechtsstreit – und am Ende juristische Texte in einfache Sprache übertragen. Alle Rechtsinformationen sind allgemein gehalten; im Einzelfall gilt immer der aktuelle Gesetzestext.",
+ "vokabeln": [
+  {"id": "a-jurisprudencia", "pt": "a jurisprudência", "de": "die Rechtsprechung", "emoji": "📚", "beispiel_pt": "Neste ponto, a jurisprudência dos tribunais superiores não é uniforme.", "beispiel_de": "In diesem Punkt ist die Rechtsprechung der obersten Gerichte nicht einheitlich.", "hinweis": "Formel aus derselben Familie: nos termos de = gemäß (nos termos da lei = nach Maßgabe des Gesetzes)"},
+  {"id": "a-lacuna-da-lei", "pt": "a lacuna da lei", "de": "die Gesetzeslücke", "emoji": "🕳️", "beispiel_pt": "Os juristas discutem se há aqui uma lacuna da lei.", "beispiel_de": "Die Juristen diskutieren, ob hier eine Gesetzeslücke vorliegt.", "hinweis": "Formel dazu: ao abrigo de = auf Grundlage von (ao abrigo do artigo 10.º)"},
+  {"id": "para-os-devidos-efeitos", "pt": "para os devidos efeitos", "de": "zur Vorlage bei den zuständigen Stellen / für alle rechtlichen Zwecke", "emoji": "📎", "beispiel_pt": "Declaro, para os devidos efeitos, que resido em Lagos desde 2022.", "beispiel_de": "Ich erkläre zur Vorlage bei den zuständigen Stellen, dass ich seit 2022 in Lagos wohne.", "hinweis": "Feste Schlussformel in Bescheinigungen und Erklärungen."},
+  {"id": "o-codigo-civil", "pt": "o Código Civil", "de": "das Zivilgesetzbuch (vergleichbar mit ABGB/BGB)", "emoji": "📕", "beispiel_pt": "O Código Civil regula os contratos, as heranças e o arrendamento.", "beispiel_de": "Das Zivilgesetzbuch regelt Verträge, Erbschaften und Mietverhältnisse.", "alternativen": ["o código civil"]},
+  {"id": "a-legislacao", "pt": "a legislação", "de": "die Gesetzgebung / die geltenden Vorschriften", "emoji": "📚", "beispiel_pt": "A legislação sobre arrendamento mudou várias vezes nos últimos anos.", "beispiel_de": "Die Mietgesetzgebung hat sich in den letzten Jahren mehrmals geändert."},
+  {"id": "vigorar", "pt": "vigorar", "de": "in Kraft sein / gelten", "emoji": "✅", "beispiel_pt": "Estas regras vigoram desde o início do ano.", "beispiel_de": "Diese Regeln gelten seit Jahresbeginn.", "hinweis": "Gleichbedeutend: estar em vigor (in Kraft sein); entrar em vigor = in Kraft treten; a lei em vigor = das geltende Recht"},
+  {"id": "revogar", "pt": "revogar", "de": "aufheben (Gesetz) / widerrufen", "emoji": "❌", "beispiel_pt": "A nova lei revogou o regime anterior.", "beispiel_de": "Das neue Gesetz hat die frühere Regelung aufgehoben.", "hinweis": "a revogação = die Aufhebung / der Widerruf; auch: revogar uma procuração (eine Vollmacht widerrufen)"},
+  {"id": "o-diploma-legal", "pt": "o diploma legal", "de": "der Rechtsakt / die Rechtsvorschrift", "emoji": "📜", "beispiel_pt": "Este diploma legal entra em vigor no dia seguinte ao da sua publicação.", "beispiel_de": "Diese Rechtsvorschrift tritt am Tag nach ihrer Veröffentlichung in Kraft.", "hinweis": "Juristisch ist o diploma jedes Gesetz oder jede Verordnung – nicht nur ein Zeugnis.", "passiv": true},
+  {"id": "o-decreto-lei", "pt": "o decreto-lei", "de": "das Gesetzesdekret (Regierungsverordnung mit Gesetzeskraft)", "emoji": "🏛️", "beispiel_pt": "O Governo aprovou um decreto-lei sobre o tema.", "beispiel_de": "Die Regierung hat zu diesem Thema ein Gesetzesdekret erlassen.", "hinweis": "Plural: os decretos-lei. Gesetze des Parlaments heißen lei, Gesetzesdekrete erlässt die Regierung.", "passiv": true},
+  {"id": "o-preambulo", "pt": "o preâmbulo", "de": "die Präambel / Einleitung (eines Gesetzes)", "emoji": "📜", "beispiel_pt": "O preâmbulo do decreto-lei explica os objetivos da reforma.", "beispiel_de": "Die Präambel des Gesetzesdekrets erläutert die Ziele der Reform.", "hinweis": "Zitierweise von Normen: artigo 7.º, n.º 2, alínea b) = Art. 7 Abs. 2 lit. b", "passiv": true},
+  {"id": "a-disposicao-legal", "pt": "a disposição legal", "de": "die gesetzliche Bestimmung", "emoji": "📌", "beispiel_pt": "Esta cláusula contraria uma disposição legal e, por isso, é nula.", "beispiel_de": "Diese Klausel widerspricht einer gesetzlichen Bestimmung und ist deshalb nichtig.", "passiv": true},
+  {"id": "o-jurista", "pt": "o jurista", "de": "der Jurist", "emoji": "🎓", "beispiel_pt": "Antes de assinar, pedi a opinião de uma jurista.", "beispiel_de": "Vor der Unterschrift habe ich eine Juristin um ihre Meinung gebeten.", "alternativen": ["a jurista"], "passiv": true},
+
+  {"id": "o-outorgante", "pt": "o outorgante", "de": "die Vertragspartei (in Urkunden)", "emoji": "✍️", "beispiel_pt": "O primeiro outorgante é o senhorio e o segundo outorgante é o arrendatário.", "beispiel_de": "Erste Vertragspartei ist der Vermieter, zweite Vertragspartei der Mieter.", "hinweis": "Urkundensprache: primeiro / segundo outorgante = erste / zweite Vertragspartei; weiblich: a outorgante.", "alternativen": ["a outorgante"]},
+  {"id": "o-presente-contrato", "pt": "o presente contrato", "de": "der vorliegende Vertrag", "emoji": "📄", "beispiel_pt": "O presente contrato é válido por um ano.", "beispiel_de": "Der vorliegende Vertrag gilt ein Jahr.", "hinweis": "presente = vorliegend: a presente declaração, o presente documento."},
+  {"id": "celebrar-um-contrato", "pt": "celebrar um contrato", "de": "einen Vertrag abschließen", "emoji": "🤝", "beispiel_pt": "Celebrámos um contrato de prestação de serviços com o hotel.", "beispiel_de": "Wir haben mit dem Hotel einen Dienstleistungsvertrag abgeschlossen.", "hinweis": "Formell für fazer um contrato; celebrar heißt sonst auch „feiern“.", "alternativen": ["celebrar o contrato"]},
+  {"id": "as-partes-contratantes", "pt": "as partes contratantes", "de": "die Vertragsparteien", "emoji": "👥", "beispiel_pt": "As partes contratantes acordam no seguinte.", "beispiel_de": "Die Vertragsparteien vereinbaren Folgendes.", "hinweis": "Kurz: as partes; eine davon: uma das partes."},
+  {"id": "o-objeto-do-contrato", "pt": "o objeto do contrato", "de": "der Vertragsgegenstand", "emoji": "🎯", "beispiel_pt": "O objeto do contrato é a venda de um terreno em Odiáxere.", "beispiel_de": "Vertragsgegenstand ist der Verkauf eines Grundstücks in Odiáxere."},
+  {"id": "o-anexo", "pt": "o anexo", "de": "die Anlage / der Anhang", "emoji": "🗂️", "beispiel_pt": "A lista do mobiliário consta do anexo I.", "beispiel_de": "Die Liste der Möbel steht in Anlage I.", "hinweis": "constar de = enthalten sein in; fazer parte integrante = fester Bestandteil sein"},
+  {"id": "em-duplicado", "pt": "em duplicado", "de": "in zweifacher Ausfertigung", "emoji": "📑", "beispiel_pt": "O contrato é feito em duplicado, ficando um exemplar para cada parte.", "beispiel_de": "Der Vertrag wird in zweifacher Ausfertigung erstellt, je ein Exemplar für jede Partei.", "hinweis": "em triplicado = in dreifacher Ausfertigung"},
+  {"id": "salvo-disposicao-em-contrario", "pt": "salvo disposição em contrário", "de": "sofern nichts anderes bestimmt ist", "emoji": "↔️", "beispiel_pt": "Salvo disposição em contrário, o contrato vigora por um ano.", "beispiel_de": "Sofern nichts anderes bestimmt ist, gilt der Vertrag ein Jahr.", "hinweis": "Typische Formel in Verträgen; a vigência = die Laufzeit", "passiv": true},
+  {"id": "rubricar", "pt": "rubricar", "de": "paraphieren (mit Kürzel abzeichnen)", "emoji": "🖊️", "beispiel_pt": "As partes devem rubricar todas as páginas.", "beispiel_de": "Die Parteien müssen alle Seiten abzeichnen.", "hinweis": "a rubrica = das Kürzel / die Paraphe", "passiv": true},
+  {"id": "o-foro-competente", "pt": "o foro competente", "de": "der Gerichtsstand", "emoji": "🏛️", "beispiel_pt": "As partes escolhem como foro competente o da comarca de Faro.", "beispiel_de": "Die Parteien wählen als Gerichtsstand den Gerichtsbezirk Faro.", "hinweis": "a comarca = der Gerichtsbezirk", "passiv": true},
+  {"id": "a-minuta", "pt": "a minuta", "de": "der Entwurf (eines Vertrags oder Schreibens)", "emoji": "📝", "beispiel_pt": "A advogada enviou-nos a minuta do contrato para a revermos.", "beispiel_de": "Die Anwältin hat uns den Vertragsentwurf zur Durchsicht geschickt.", "passiv": true},
+  {"id": "doravante-designado", "pt": "doravante designado", "de": "im Folgenden … genannt", "emoji": "➡️", "beispiel_pt": "A empresa Sol do Sul, doravante designada por primeira outorgante, é representada pelo seu gerente.", "beispiel_de": "Die Firma Sol do Sul, im Folgenden erste Vertragspartei genannt, wird von ihrem Geschäftsführer vertreten.", "hinweis": "doravante = von nun an; Variante: adiante designado.", "alternativen": ["doravante designada"], "passiv": true},
+
+  {"id": "no-caso-de", "pt": "no caso de", "de": "für den Fall, dass / im Fall von", "emoji": "🔀", "beispiel_pt": "No caso de o inquilino não pagar, o senhorio pode resolver o contrato.", "beispiel_de": "Für den Fall, dass der Mieter nicht zahlt, kann der Vermieter vom Vertrag zurücktreten.", "hinweis": "no caso de + Substantiv oder persönlicher Infinitiv (no caso de os inquilinos não pagarem). Das Bindewort caso + Konjunktiv kennst du schon: caso não pague."},
+  {"id": "salvo-se", "pt": "salvo se", "de": "außer wenn / es sei denn", "emoji": "🚧", "beispiel_pt": "O contrato renova-se automaticamente, salvo se uma das partes o denunciar.", "beispiel_de": "Der Vertrag verlängert sich automatisch, es sei denn, eine Partei kündigt ihn.", "hinweis": "Wie se: + futuro do conjuntivo (salvo se houver, salvo se for). salvo allein = außer: salvo erro (Irrtum vorbehalten)."},
+  {"id": "na-falta-de", "pt": "na falta de", "de": "mangels / in Ermangelung von", "emoji": "🕳️", "beispiel_pt": "Na falta de acordo, decide o tribunal.", "beispiel_de": "Mangels Einigung entscheidet das Gericht."},
+  {"id": "em-caso-de", "pt": "em caso de", "de": "im Falle von", "emoji": "⚠️", "beispiel_pt": "Em caso de dúvida, contacte o seu advogado.", "beispiel_de": "Im Zweifelsfall wenden Sie sich an Ihren Anwalt.", "hinweis": "Mit Substantiv: em caso de incumprimento, em caso de urgência."},
+  {"id": "a-clausula-penal", "pt": "a cláusula penal", "de": "die Vertragsstrafe", "emoji": "💸", "beispiel_pt": "O contrato prevê uma cláusula penal de cem euros por cada dia de atraso.", "beispiel_de": "Der Vertrag sieht eine Vertragsstrafe von hundert Euro pro Verzugstag vor.", "hinweis": "prever = vorsehen (in Verträgen und Gesetzen)"},
+  {"id": "resolver-o-contrato", "pt": "resolver o contrato", "de": "vom Vertrag zurücktreten / den Vertrag auflösen", "emoji": "✂️", "beispiel_pt": "Se o empreiteiro não terminar a obra, podemos resolver o contrato.", "beispiel_de": "Wenn der Bauunternehmer die Arbeiten nicht beendet, können wir vom Vertrag zurücktreten.", "hinweis": "Juristisch: resolver = wegen Vertragsverletzung auflösen; denunciar = zum Laufzeitende kündigen. Im Alltag heißt resolver „lösen, erledigen“."},
+  {"id": "considerar-se", "pt": "considerar-se", "de": "als … gelten", "emoji": "🟰", "beispiel_pt": "O contrato considera-se resolvido se uma das partes não cumprir as suas obrigações.", "beispiel_de": "Der Vertrag gilt als aufgelöst, wenn eine der Parteien ihre Pflichten nicht erfüllt.", "hinweis": "Typisch: considera-se notificado, considera-se aceite, considera-se resolvido."},
+  {"id": "de-comum-acordo", "pt": "de comum acordo", "de": "einvernehmlich / im gegenseitigen Einvernehmen", "emoji": "🤝", "beispiel_pt": "As partes podem alterar o contrato de comum acordo.", "beispiel_de": "Die Parteien können den Vertrag einvernehmlich ändern.", "hinweis": "Im Vertrag oft: por mútuo acordo"},
+  {"id": "a-interpelacao", "pt": "a interpelação", "de": "die (förmliche) Zahlungs-/Leistungsaufforderung", "emoji": "📣", "beispiel_pt": "Após a interpelação, o devedor tem oito dias para pagar.", "beispiel_de": "Nach der Aufforderung hat der Schuldner acht Tage Zeit zu zahlen.", "hinweis": "interpelar o devedor = den Schuldner (förmlich) zur Leistung auffordern", "passiv": true},
+  {"id": "a-titulo-gratuito", "pt": "a título gratuito", "de": "unentgeltlich", "emoji": "🎁", "beispiel_pt": "O imóvel foi cedido a título gratuito ao sobrinho.", "beispiel_de": "Die Immobilie wurde dem Neffen unentgeltlich überlassen.", "hinweis": "Gegenteil: a título oneroso = entgeltlich", "passiv": true},
+  {"id": "a-mora", "pt": "a mora", "de": "der (Zahlungs-)Verzug", "emoji": "🐢", "beispiel_pt": "Em caso de mora, o devedor paga juros.", "beispiel_de": "Im Verzugsfall zahlt der Schuldner Zinsen.", "hinweis": "estar em mora = in Verzug sein; os juros de mora kennst du schon.", "passiv": true},
+  {"id": "a-parte-faltosa", "pt": "a parte faltosa", "de": "die vertragsbrüchige / säumige Partei", "emoji": "🙅", "beispiel_pt": "A parte faltosa terá de indemnizar a outra.", "beispiel_de": "Die vertragsbrüchige Partei muss die andere entschädigen.", "passiv": true},
+
+  {"id": "o-cartorio", "pt": "o cartório", "de": "die Notariatskanzlei", "emoji": "🏢", "beispiel_pt": "Marcámos a assinatura no cartório para as dez.", "beispiel_de": "Wir haben den Unterschriftstermin in der Notariatskanzlei für zehn Uhr vereinbart.", "hinweis": "Vollständig: o cartório notarial. Die meisten Notare in Portugal arbeiten heute freiberuflich."},
+  {"id": "a-escritura-publica", "pt": "a escritura pública", "de": "die notarielle Urkunde", "emoji": "📜", "beispiel_pt": "A compra de um imóvel exige, em regra, escritura pública ou documento particular autenticado.", "beispiel_de": "Der Kauf einer Immobilie erfordert in der Regel eine notarielle Urkunde oder eine beglaubigte Privaturkunde.", "hinweis": "Kurz sagt man meist nur a escritura."},
+  {"id": "reconhecer-a-assinatura", "pt": "reconhecer a assinatura", "de": "die Unterschrift beglaubigen", "emoji": "✒️", "beispiel_pt": "Tive de reconhecer a assinatura da declaração no cartório.", "beispiel_de": "Ich musste die Unterschrift auf der Erklärung beim Notar beglaubigen lassen.", "hinweis": "o reconhecimento de assinatura = die Unterschriftsbeglaubigung. In Portugal dürfen das u. a. auch Anwälte und Solicitadores."},
+  {"id": "certificar", "pt": "certificar", "de": "bescheinigen / beglaubigen", "emoji": "🔏", "beispiel_pt": "O notário certificou que a fotocópia confere com o original.", "beispiel_de": "Der Notar hat bestätigt, dass die Kopie mit dem Original übereinstimmt.", "hinweis": "a fotocópia certificada = die beglaubigte Kopie; conferir com o original = mit dem Original übereinstimmen"},
+  {"id": "o-documento-particular", "pt": "o documento particular", "de": "die Privaturkunde (ohne Notar erstellt)", "emoji": "📃", "beispiel_pt": "O contrato de arrendamento é um documento particular e não precisa de notário.", "beispiel_de": "Der Mietvertrag ist eine Privaturkunde und braucht keinen Notar.", "hinweis": "o documento particular autenticado = vom Notar, Anwalt oder Solicitador bestätigte Privaturkunde"},
+  {"id": "o-ato-notarial", "pt": "o ato notarial", "de": "die notarielle Amtshandlung", "emoji": "🖋️", "beispiel_pt": "Cada ato notarial tem um preço diferente.", "beispiel_de": "Jede notarielle Amtshandlung hat einen anderen Preis.", "hinweis": "AO90: ato (früher acto)."},
+  {"id": "os-emolumentos", "pt": "os emolumentos", "de": "die (Amts-)Gebühren", "emoji": "💶", "beispiel_pt": "Os emolumentos do notário foram pagos no próprio dia.", "beispiel_de": "Die Notargebühren wurden noch am selben Tag bezahlt.", "passiv": true},
+  {"id": "lavrar", "pt": "lavrar", "de": "(eine Urkunde) errichten / aufnehmen", "emoji": "🖊️", "beispiel_pt": "O notário lavrou a escritura na presença das duas partes.", "beispiel_de": "Der Notar hat die Urkunde in Anwesenheit beider Parteien errichtet.", "hinweis": "Sonst: pflügen. lavrar uma ata = ein Protokoll aufnehmen", "passiv": true},
+  {"id": "o-reconhecimento-presencial", "pt": "o reconhecimento presencial", "de": "die Beglaubigung bei persönlicher Unterschrift", "emoji": "👁️", "beispiel_pt": "Para o reconhecimento presencial, tem de assinar à frente do notário.", "beispiel_de": "Für die Beglaubigung müssen Sie vor dem Notar unterschreiben.", "passiv": true},
+  {"id": "a-fe-publica", "pt": "a fé pública", "de": "der öffentliche Glaube (Beweiskraft öffentlicher Urkunden)", "emoji": "🏛️", "beispiel_pt": "Os documentos lavrados pelo notário têm fé pública.", "beispiel_de": "Die vom Notar errichteten Urkunden genießen öffentlichen Glauben.", "passiv": true},
+  {"id": "o-termo-de-autenticacao", "pt": "o termo de autenticação", "de": "der Beglaubigungsvermerk", "emoji": "🧾", "beispiel_pt": "O termo de autenticação é junto ao documento particular.", "beispiel_de": "Der Beglaubigungsvermerk wird der Privaturkunde beigefügt.", "hinweis": "junto (Adjektiv) = beigefügt; juntar um documento = ein Dokument beilegen", "passiv": true},
+  {"id": "a-outorga", "pt": "a outorga", "de": "die Unterzeichnung (einer Urkunde) / die Erteilung", "emoji": "📅", "beispiel_pt": "A outorga da escritura está marcada para sexta-feira.", "beispiel_de": "Die Unterzeichnung der Urkunde ist für Freitag angesetzt.", "passiv": true},
+
+  {"id": "outorgar", "pt": "outorgar", "de": "(eine Urkunde) unterzeichnen / (eine Vollmacht) erteilen", "emoji": "🖋️", "beispiel_pt": "Outorguei uma procuração a favor da minha advogada.", "beispiel_de": "Ich habe meiner Anwältin eine Vollmacht erteilt.", "hinweis": "Im Alltag: passar uma procuração; a favor de = zugunsten von"},
+  {"id": "conferir-poderes", "pt": "conferir poderes", "de": "Befugnisse übertragen / bevollmächtigen", "emoji": "🔑", "beispiel_pt": "Confiro-lhe poderes para assinar a escritura em meu nome.", "beispiel_de": "Ich bevollmächtige Sie, die Urkunde in meinem Namen zu unterschreiben.", "hinweis": "conferir: confiro, conferes, confere … (e → i nur in der 1. Person)"},
+  {"id": "os-poderes", "pt": "os poderes", "de": "die Befugnisse / Vollmachten", "emoji": "💪", "beispiel_pt": "A procuração dá-lhe poderes para vender a casa.", "beispiel_de": "Die Vollmacht berechtigt ihn, das Haus zu verkaufen.", "hinweis": "Singular: o poder = die Macht. com poderes especiais = mit Sondervollmacht"},
+  {"id": "o-mandatario", "pt": "o mandatário", "de": "der Bevollmächtigte / Beauftragte", "emoji": "🧑‍💼", "beispiel_pt": "O mandatário deve agir no interesse de quem o nomeou.", "beispiel_de": "Der Bevollmächtigte muss im Interesse dessen handeln, der ihn bestellt hat.", "alternativen": ["a mandatária"]},
+  {"id": "em-nome-e-representacao-de", "pt": "em nome e representação de", "de": "im Namen und in Vertretung von", "emoji": "🗣️", "beispiel_pt": "O advogado assinou em nome e representação do cliente.", "beispiel_de": "Der Anwalt hat im Namen und in Vertretung des Mandanten unterschrieben.", "hinweis": "Im Alltag reicht: em nome de."},
+  {"id": "irrevogavel", "pt": "irrevogável", "de": "unwiderruflich", "emoji": "🔒", "beispiel_pt": "Uma procuração irrevogável só se usa em situações especiais.", "beispiel_de": "Eine unwiderrufliche Vollmacht verwendet man nur in besonderen Fällen."},
+  {"id": "o-representante-legal", "pt": "o representante legal", "de": "der gesetzliche Vertreter", "emoji": "👨‍👧", "beispiel_pt": "Os pais são os representantes legais dos filhos menores.", "beispiel_de": "Die Eltern sind die gesetzlichen Vertreter ihrer minderjährigen Kinder.", "alternativen": ["a representante legal"]},
+  {"id": "a-procuracao-forense", "pt": "a procuração forense", "de": "die Prozessvollmacht (für Anwälte)", "emoji": "📂", "beispiel_pt": "Para a advogada o representar em tribunal, é preciso uma procuração forense.", "beispiel_de": "Damit die Anwältin ihn vor Gericht vertreten kann, braucht es eine Prozessvollmacht.", "passiv": true},
+  {"id": "substabelecer", "pt": "substabelecer", "de": "(eine Vollmacht) weiterübertragen", "emoji": "🔄", "beispiel_pt": "A advogada substabeleceu os poderes num colega de Faro.", "beispiel_de": "Die Anwältin hat die Vollmacht an einen Kollegen in Faro weiterübertragen.", "hinweis": "o substabelecimento = die Untervollmacht", "passiv": true},
+  {"id": "caducar", "pt": "caducar", "de": "erlöschen / ablaufen (Recht, Frist, Vollmacht)", "emoji": "⌛", "beispiel_pt": "Em regra, a procuração caduca com a morte de quem a passou.", "beispiel_de": "In der Regel erlischt die Vollmacht mit dem Tod dessen, der sie erteilt hat.", "hinweis": "a caducidade = das Erlöschen; Fristablauf", "passiv": true},
+  {"id": "bastante-procurador", "pt": "bastante procurador", "de": "ordnungsgemäß Bevollmächtigter (Urkundensprache)", "emoji": "📋", "beispiel_pt": "Compareceu João Silva, na qualidade de bastante procurador de Stefan Krenn.", "beispiel_de": "Es erschien João Silva als ordnungsgemäß Bevollmächtigter von Stefan Krenn.", "hinweis": "bastante steht hier altertümlich für „ausreichend (bevollmächtigt)“.", "passiv": true},
+  {"id": "o-mandato", "pt": "o mandato", "de": "der Auftrag (Vertrag) / das Mandat", "emoji": "📜", "beispiel_pt": "O mandato termina quando o negócio estiver concluído.", "beispiel_de": "Der Auftrag endet, wenn das Geschäft abgeschlossen ist.", "hinweis": "Nicht verwechseln: o mandado = der (Haft-/Durchsuchungs-)Befehl", "passiv": true},
+
+  {"id": "o-herdeiro", "pt": "o herdeiro", "de": "der Erbe", "emoji": "👪", "beispiel_pt": "Os filhos são herdeiros dos pais.", "beispiel_de": "Die Kinder sind Erben ihrer Eltern.", "alternativen": ["a herdeira"]},
+  {"id": "o-testamento", "pt": "o testamento", "de": "das Testament", "emoji": "📜", "beispiel_pt": "O pai da Ana fez testamento num cartório em Faro.", "beispiel_de": "Anas Vater hat bei einem Notar in Faro ein Testament errichtet.", "hinweis": "fazer testamento = ein Testament errichten"},
+  {"id": "a-partilha", "pt": "a partilha", "de": "die Erbteilung / Aufteilung", "emoji": "➗", "beispiel_pt": "A partilha dos bens foi feita sem conflitos.", "beispiel_de": "Die Aufteilung des Vermögens verlief ohne Streit.", "hinweis": "partilhar = teilen; fazer partilhas = das Erbe aufteilen"},
+  {"id": "o-falecido", "pt": "o falecido", "de": "der Verstorbene", "emoji": "🕯️", "beispiel_pt": "O falecido deixou uma casa e algumas poupanças.", "beispiel_de": "Der Verstorbene hinterließ ein Haus und einige Ersparnisse.", "hinweis": "falecer = versterben (formell für morrer)", "alternativen": ["a falecida"]},
+  {"id": "os-bens", "pt": "os bens", "de": "das Vermögen / die Güter", "emoji": "🏠", "beispiel_pt": "Os bens foram divididos entre os três irmãos.", "beispiel_de": "Das Vermögen wurde unter den drei Geschwistern aufgeteilt.", "hinweis": "bens imóveis = Immobilien; bens móveis = bewegliche Sachen"},
+  {"id": "o-patrimonio", "pt": "o património", "de": "das Vermögen / das Erbe (auch kulturell)", "emoji": "💼", "beispiel_pt": "O património da família inclui terrenos no Alentejo.", "beispiel_de": "Zum Familienvermögen gehören Grundstücke im Alentejo.", "hinweis": "pt-PT: património (BR: patrimônio). o património cultural = das Kulturerbe"},
+  {"id": "o-legado", "pt": "o legado", "de": "das Vermächtnis", "emoji": "🎁", "beispiel_pt": "No testamento, deixou um legado à afilhada.", "beispiel_de": "Im Testament hat er seinem Patenkind ein Vermächtnis hinterlassen.", "passiv": true},
+  {"id": "a-habilitacao-de-herdeiros", "pt": "a habilitação de herdeiros", "de": "der Erbnachweis (ähnlich dem Erbschein)", "emoji": "📋", "beispiel_pt": "Sem a habilitação de herdeiros, não se podem movimentar as contas do falecido.", "beispiel_de": "Ohne Erbnachweis kann man nicht über die Konten des Verstorbenen verfügen.", "passiv": true},
+  {"id": "o-cabeca-de-casal", "pt": "o cabeça de casal", "de": "der Nachlassverwalter (aus dem Kreis der Erben)", "emoji": "🧭", "beispiel_pt": "O cabeça de casal administra a herança até à partilha.", "beispiel_de": "Der Nachlassverwalter verwaltet das Erbe bis zur Aufteilung.", "hinweis": "In der Regel der überlebende Ehepartner.", "passiv": true},
+  {"id": "a-legitima", "pt": "a legítima", "de": "der Pflichtteil", "emoji": "⚖️", "beispiel_pt": "Os filhos têm direito à legítima, mesmo que o testamento diga outra coisa.", "beispiel_de": "Die Kinder haben Anspruch auf den Pflichtteil, auch wenn das Testament etwas anderes sagt.", "hinweis": "os herdeiros legitimários = die Pflichtteilsberechtigten", "passiv": true},
+  {"id": "repudiar-a-heranca", "pt": "repudiar a herança", "de": "das Erbe ausschlagen", "emoji": "🙅‍♂️", "beispiel_pt": "Como a herança só tinha dívidas, ele decidiu repudiá-la.", "beispiel_de": "Da das Erbe nur aus Schulden bestand, beschloss er, es auszuschlagen.", "hinweis": "o repúdio = die Ausschlagung", "passiv": true},
+  {"id": "deserdar", "pt": "deserdar", "de": "enterben", "emoji": "🚪", "beispiel_pt": "Só é possível deserdar um filho em casos muito graves previstos na lei.", "beispiel_de": "Ein Kind kann man nur in sehr schweren, gesetzlich vorgesehenen Fällen enterben.", "passiv": true},
+
+  {"id": "a-falta-de-conformidade", "pt": "a falta de conformidade", "de": "die Vertragswidrigkeit / der Sachmangel", "emoji": "🧩", "beispiel_pt": "Se houver falta de conformidade, o consumidor pode exigir a reparação.", "beispiel_de": "Liegt ein Mangel vor, kann der Verbraucher die Reparatur verlangen.", "hinweis": "Fachbegriff aus dem Verbraucherrecht; im Alltag: o defeito."},
+  {"id": "defeituoso", "pt": "defeituoso", "de": "mangelhaft / defekt", "emoji": "🛠️", "beispiel_pt": "Devolvi a máquina de café porque veio defeituosa.", "beispiel_de": "Ich habe die Kaffeemaschine zurückgegeben, weil sie defekt geliefert wurde.", "alternativen": ["defeituosa"]},
+  {"id": "a-substituicao", "pt": "a substituição", "de": "der Austausch / Ersatz", "emoji": "🔄", "beispiel_pt": "Pedi a substituição do telemóvel avariado.", "beispiel_de": "Ich habe den Austausch des kaputten Handys verlangt.", "hinweis": "substituir = ersetzen, austauschen"},
+  {"id": "a-reducao-do-preco", "pt": "a redução do preço", "de": "die Preisminderung", "emoji": "📉", "beispiel_pt": "Em alternativa, o consumidor pode pedir uma redução do preço.", "beispiel_de": "Alternativ kann der Verbraucher eine Preisminderung verlangen."},
+  {"id": "o-prazo-de-garantia", "pt": "o prazo de garantia", "de": "die Gewährleistungs- / Garantiefrist", "emoji": "🗓️", "beispiel_pt": "O prazo de garantia ainda não terminou.", "beispiel_de": "Die Gewährleistungsfrist ist noch nicht abgelaufen.", "hinweis": "Unterscheide: a garantia legal (gesetzlich) und a garantia comercial (freiwillig vom Hersteller oder Händler)."},
+  {"id": "o-litigio", "pt": "o litígio", "de": "der Rechtsstreit", "emoji": "⚔️", "beispiel_pt": "O litígio foi resolvido sem ir a tribunal.", "beispiel_de": "Der Rechtsstreit wurde ohne Gericht beigelegt.", "hinweis": "litigar = prozessieren"},
+  {"id": "fazer-valer-os-seus-direitos", "pt": "fazer valer os seus direitos", "de": "seine Rechte geltend machen", "emoji": "📣", "beispiel_pt": "Muitos consumidores não sabem como fazer valer os seus direitos.", "beispiel_de": "Viele Verbraucher wissen nicht, wie sie ihre Rechte geltend machen.", "alternativen": ["fazer valer os meus direitos"]},
+  {"id": "lesar", "pt": "lesar", "de": "schädigen / benachteiligen", "emoji": "🩹", "beispiel_pt": "Esta cláusula lesa os interesses do consumidor.", "beispiel_de": "Diese Klausel benachteiligt die Interessen des Verbrauchers.", "hinweis": "o lesado = der Geschädigte"},
+  {"id": "a-venda-a-distancia", "pt": "a venda à distância", "de": "der Fernabsatz (z. B. Onlinekauf)", "emoji": "📦", "beispiel_pt": "Na venda à distância, o consumidor tem, em regra, catorze dias para desistir.", "beispiel_de": "Beim Fernabsatz hat der Verbraucher in der Regel vierzehn Tage, um zurückzutreten.", "passiv": true},
+  {"id": "o-direito-de-arrependimento", "pt": "o direito de arrependimento", "de": "das Widerrufsrecht (umgangssprachlich)", "emoji": "🔙", "beispiel_pt": "O direito de arrependimento é o nome popular do direito de livre resolução.", "beispiel_de": "„Recht auf Reue“ ist der volkstümliche Name für das Widerrufsrecht.", "passiv": true},
+  {"id": "o-centro-de-arbitragem", "pt": "o centro de arbitragem", "de": "die Schlichtungsstelle", "emoji": "🏢", "beispiel_pt": "Apresentei o caso num centro de arbitragem de conflitos de consumo.", "beispiel_de": "Ich habe den Fall bei einer Schlichtungsstelle für Verbraucherstreitigkeiten eingereicht.", "passiv": true},
+  {"id": "o-onus-da-prova", "pt": "o ónus da prova", "de": "die Beweislast", "emoji": "🏋️", "beispiel_pt": "Neste caso, o ónus da prova cabe ao vendedor.", "beispiel_de": "In diesem Fall liegt die Beweislast beim Verkäufer.", "hinweis": "pt-PT: ónus (BR: ônus); caber a = zustehen / obliegen", "passiv": true},
+
+  {"id": "a-coima", "pt": "a coima", "de": "die Geldbuße (Verwaltungsstrafe)", "emoji": "💶", "beispiel_pt": "Recebi uma coima por estacionamento proibido.", "beispiel_de": "Ich habe eine Geldbuße wegen Falschparkens bekommen.", "hinweis": "Juristisch korrekt für Verwaltungsstrafen; im Alltag sagt man meist a multa."},
+  {"id": "a-contraordenacao", "pt": "a contraordenação", "de": "die Ordnungswidrigkeit / Verwaltungsübertretung", "emoji": "🚦", "beispiel_pt": "Estacionar em cima do passeio é uma contraordenação.", "beispiel_de": "Auf dem Gehsteig zu parken, ist eine Ordnungswidrigkeit.", "hinweis": "leve, grave, muito grave; kein Strafdelikt (o crime)"},
+  {"id": "a-infracao", "pt": "a infração", "de": "der Verstoß", "emoji": "🚫", "beispiel_pt": "O condutor cometeu uma infração grave.", "beispiel_de": "Der Fahrer hat einen schweren Verstoß begangen.", "hinweis": "AO90: infração (früher infracção)"},
+  {"id": "impugnar", "pt": "impugnar", "de": "anfechten / Einspruch erheben", "emoji": "✋", "beispiel_pt": "Decidi impugnar a coima porque o sinal não estava visível.", "beispiel_de": "Ich habe beschlossen, die Geldbuße anzufechten, weil das Schild nicht sichtbar war.", "hinweis": "a impugnação = die Anfechtung"},
+  {"id": "apresentar-defesa", "pt": "apresentar defesa", "de": "eine Stellungnahme einreichen / sich verteidigen", "emoji": "📝", "beispiel_pt": "Pode apresentar defesa por escrito no prazo indicado na notificação.", "beispiel_de": "Sie können innerhalb der in der Zustellung genannten Frist schriftlich Stellung nehmen."},
+  {"id": "o-excesso-de-velocidade", "pt": "o excesso de velocidade", "de": "die Geschwindigkeitsüberschreitung", "emoji": "🏎️", "beispiel_pt": "Foi apanhado por excesso de velocidade na A22.", "beispiel_de": "Er wurde auf der A22 wegen zu schnellen Fahrens erwischt."},
+  {"id": "o-auto-de-noticia", "pt": "o auto de notícia", "de": "die Anzeige / das Protokoll (über einen Verstoß)", "emoji": "🗒️", "beispiel_pt": "O agente levantou um auto de notícia.", "beispiel_de": "Der Beamte hat eine Anzeige aufgenommen.", "hinweis": "levantar um auto = einen Verstoß protokollieren", "passiv": true},
+  {"id": "o-pagamento-voluntario", "pt": "o pagamento voluntário", "de": "die freiwillige (sofortige) Zahlung", "emoji": "💳", "beispiel_pt": "Com o pagamento voluntário, paga-se normalmente o valor mínimo da coima.", "beispiel_de": "Bei freiwilliger Zahlung zahlt man normalerweise den Mindestbetrag der Geldbuße.", "passiv": true},
+  {"id": "a-sancao-acessoria", "pt": "a sanção acessória", "de": "die Nebenstrafe (z. B. Fahrverbot)", "emoji": "➕", "beispiel_pt": "Além da coima, pode haver uma sanção acessória.", "beispiel_de": "Zusätzlich zur Geldbuße kann es eine Nebenstrafe geben.", "passiv": true},
+  {"id": "a-inibicao-de-conduzir", "pt": "a inibição de conduzir", "de": "das Fahrverbot", "emoji": "🚗", "beispiel_pt": "Uma infração muito grave pode levar à inibição de conduzir.", "beispiel_de": "Ein sehr schwerer Verstoß kann zu einem Fahrverbot führen.", "passiv": true},
+  {"id": "prescrever", "pt": "prescrever", "de": "verjähren", "emoji": "⏰", "beispiel_pt": "Se o processo ficar parado muito tempo, a contraordenação pode prescrever.", "beispiel_de": "Wenn das Verfahren lange ruht, kann die Ordnungswidrigkeit verjähren.", "hinweis": "a prescrição = die Verjährung; beim Arzt: prescrever = verschreiben", "passiv": true},
+  {"id": "o-agente-autuante", "pt": "o agente autuante", "de": "der anzeigende Beamte", "emoji": "👮", "beispiel_pt": "O nome do agente autuante consta do auto.", "beispiel_de": "Der Name des anzeigenden Beamten steht im Protokoll.", "passiv": true},
+
+  {"id": "o-recurso", "pt": "o recurso", "de": "das Rechtsmittel / die Berufung", "emoji": "📤", "beispiel_pt": "O advogado vai interpor recurso da sentença.", "beispiel_de": "Der Anwalt wird gegen das Urteil Berufung einlegen.", "hinweis": "interpor recurso = ein Rechtsmittel einlegen; sonst: os recursos = die Ressourcen"},
+  {"id": "o-prazo-legal", "pt": "o prazo legal", "de": "die gesetzliche Frist", "emoji": "⏳", "beispiel_pt": "O recurso tem de ser apresentado dentro do prazo legal.", "beispiel_de": "Das Rechtsmittel muss innerhalb der gesetzlichen Frist eingelegt werden."},
+  {"id": "o-juiz", "pt": "o juiz", "de": "der Richter", "emoji": "👨‍⚖️", "beispiel_pt": "A juíza ouviu as duas partes antes de decidir.", "beispiel_de": "Die Richterin hat vor ihrer Entscheidung beide Parteien angehört.", "alternativen": ["a juíza"]},
+  {"id": "a-sentenca", "pt": "a sentença", "de": "das Urteil", "emoji": "📜", "beispiel_pt": "A sentença foi lida na semana passada.", "beispiel_de": "Das Urteil wurde letzte Woche verkündet.", "hinweis": "o acórdão = Urteil eines Kollegialgerichts (z. B. Berufungsgericht)"},
+  {"id": "o-julgamento", "pt": "o julgamento", "de": "die Hauptverhandlung / der Prozess", "emoji": "⚖️", "beispiel_pt": "O julgamento foi adiado para março.", "beispiel_de": "Die Verhandlung wurde auf März verschoben."},
+  {"id": "recorrer-da-decisao", "pt": "recorrer da decisão", "de": "gegen die Entscheidung Rechtsmittel einlegen", "emoji": "↩️", "beispiel_pt": "Se não concordar, pode recorrer da decisão.", "beispiel_de": "Wenn Sie nicht einverstanden sind, können Sie gegen die Entscheidung Rechtsmittel einlegen.", "hinweis": "recorrer de (gegen etwas) – aber recorrer a = zurückgreifen auf"},
+  {"id": "condenar", "pt": "condenar", "de": "verurteilen", "emoji": "🔨", "beispiel_pt": "O tribunal condenou a empresa a pagar uma indemnização.", "beispiel_de": "Das Gericht hat die Firma zur Zahlung von Schadenersatz verurteilt.", "hinweis": "condenar alguém a + Infinitiv / a uma pena"},
+  {"id": "o-reu", "pt": "o réu", "de": "der Beklagte", "emoji": "🙍", "beispiel_pt": "O réu não compareceu na audiência.", "beispiel_de": "Der Beklagte ist nicht zur Verhandlung erschienen.", "hinweis": "Im Zivilprozess: o autor (Kläger) e o réu (Beklagter).", "alternativen": ["a ré"], "passiv": true},
+  {"id": "o-arguido", "pt": "o arguido", "de": "der Beschuldigte / Angeklagte (Strafverfahren)", "emoji": "🕴️", "beispiel_pt": "O arguido tem o direito de não prestar declarações.", "beispiel_de": "Der Beschuldigte hat das Recht, die Aussage zu verweigern.", "alternativen": ["a arguida"], "passiv": true},
+  {"id": "a-audiencia", "pt": "a audiência", "de": "die (Gerichts-)Verhandlung / Anhörung", "emoji": "🗓️", "beispiel_pt": "A audiência está marcada para as dez horas.", "beispiel_de": "Die Verhandlung ist für zehn Uhr angesetzt.", "passiv": true},
+  {"id": "absolver", "pt": "absolver", "de": "freisprechen", "emoji": "🕊️", "beispiel_pt": "O juiz absolveu o arguido por falta de provas.", "beispiel_de": "Der Richter hat den Angeklagten aus Mangel an Beweisen freigesprochen.", "passiv": true},
+  {"id": "o-ministerio-publico", "pt": "o Ministério Público", "de": "die Staatsanwaltschaft", "emoji": "🏛️", "beispiel_pt": "O Ministério Público abriu um inquérito.", "beispiel_de": "Die Staatsanwaltschaft hat ein Ermittlungsverfahren eingeleitet.", "hinweis": "o procurador (do Ministério Público) = der Staatsanwalt; o inquérito = das Ermittlungsverfahren", "alternativen": ["o ministério público"], "passiv": true},
+
+  {"id": "os-honorarios", "pt": "os honorários", "de": "das Honorar (Anwalt, Arzt)", "emoji": "💰", "beispiel_pt": "Os honorários são cobrados à hora.", "beispiel_de": "Das Honorar wird nach Stunden abgerechnet."},
+  {"id": "a-consulta-juridica", "pt": "a consulta jurídica", "de": "die Rechtsberatung", "emoji": "💬", "beispiel_pt": "Marquei uma consulta jurídica para quinta-feira.", "beispiel_de": "Ich habe für Donnerstag einen Termin zur Rechtsberatung vereinbart."},
+  {"id": "o-parecer-juridico", "pt": "o parecer jurídico", "de": "das Rechtsgutachten", "emoji": "📑", "beispiel_pt": "Pedi à advogada um parecer jurídico por escrito.", "beispiel_de": "Ich habe die Anwältin um ein schriftliches Rechtsgutachten gebeten.", "hinweis": "o parecer allein = die Stellungnahme / das Gutachten"},
+  {"id": "a-contraparte", "pt": "a contraparte", "de": "die Gegenpartei", "emoji": "🆚", "beispiel_pt": "A contraparte propôs um acordo.", "beispiel_de": "Die Gegenpartei hat einen Vergleich vorgeschlagen."},
+  {"id": "as-hipoteses-de-exito", "pt": "as hipóteses de êxito", "de": "die Erfolgsaussichten", "emoji": "🎲", "beispiel_pt": "Quais são as hipóteses de êxito, senhora doutora?", "beispiel_de": "Wie stehen die Erfolgsaussichten, Frau Doktor?", "hinweis": "Anwälte spricht man in Portugal mit senhor doutor / senhora doutora an."},
+  {"id": "chegar-a-acordo", "pt": "chegar a acordo", "de": "sich einigen", "emoji": "🤝", "beispiel_pt": "É quase sempre melhor chegar a acordo do que ir a tribunal.", "beispiel_de": "Es ist fast immer besser, sich zu einigen, als vor Gericht zu gehen.", "alternativen": ["chegar a um acordo"]},
+  {"id": "a-via-judicial", "pt": "a via judicial", "de": "der Rechtsweg", "emoji": "🛣️", "beispiel_pt": "Se não houver acordo, resta a via judicial.", "beispiel_de": "Wenn es keine Einigung gibt, bleibt der Rechtsweg."},
+  {"id": "o-apoio-judiciario", "pt": "o apoio judiciário", "de": "die Prozesskostenhilfe / Verfahrenshilfe", "emoji": "🆘", "beispiel_pt": "Quem não tem meios pode pedir apoio judiciário na Segurança Social.", "beispiel_de": "Wer keine Mittel hat, kann bei der Sozialversicherung Verfahrenshilfe beantragen.", "passiv": true},
+  {"id": "o-sigilo-profissional", "pt": "o sigilo profissional", "de": "die berufliche Schweigepflicht", "emoji": "🤐", "beispiel_pt": "A advogada está obrigada ao sigilo profissional.", "beispiel_de": "Die Anwältin unterliegt der Schweigepflicht.", "passiv": true},
+  {"id": "a-provisao", "pt": "a provisão", "de": "der (Honorar-)Vorschuss", "emoji": "💵", "beispiel_pt": "A advogada pediu uma provisão antes de começar o trabalho.", "beispiel_de": "Die Anwältin hat vor Beginn der Arbeit einen Vorschuss verlangt.", "passiv": true},
+  {"id": "a-ordem-dos-advogados", "pt": "a Ordem dos Advogados", "de": "die Rechtsanwaltskammer", "emoji": "🏛️", "beispiel_pt": "Os advogados têm de estar inscritos na Ordem dos Advogados.", "beispiel_de": "Anwälte müssen bei der Rechtsanwaltskammer eingetragen sein.", "alternativen": ["a ordem dos advogados"], "passiv": true},
+  {"id": "intentar-uma-acao", "pt": "intentar uma ação", "de": "Klage erheben", "emoji": "📨", "beispiel_pt": "Decidimos intentar uma ação contra o construtor.", "beispiel_de": "Wir haben beschlossen, gegen den Bauträger Klage zu erheben.", "hinweis": "Auch: pôr / propor uma ação; a ação = die Klage", "passiv": true},
+
+  {"id": "o-despejo", "pt": "o despejo", "de": "die (Zwangs-)Räumung", "emoji": "📦", "beispiel_pt": "O senhorio ameaçou o inquilino com o despejo.", "beispiel_de": "Der Vermieter hat dem Mieter mit der Räumung gedroht.", "hinweis": "despejar = räumen; auch: ausschütten (Wasser)"},
+  {"id": "o-periodo-de-renovacao", "pt": "o período de renovação", "de": "der Verlängerungszeitraum", "emoji": "🔁", "beispiel_pt": "O contrato renova-se automaticamente por períodos de renovação de um ano.", "beispiel_de": "Der Vertrag verlängert sich automatisch um Verlängerungszeiträume von einem Jahr."},
+  {"id": "a-atualizacao-da-renda", "pt": "a atualização da renda", "de": "die Mietanpassung (Indexierung)", "emoji": "📈", "beispiel_pt": "A atualização da renda faz-se, em regra, uma vez por ano.", "beispiel_de": "Die Mietanpassung erfolgt in der Regel einmal im Jahr."},
+  {"id": "o-atraso-no-pagamento", "pt": "o atraso no pagamento", "de": "der Zahlungsrückstand", "emoji": "🐌", "beispiel_pt": "Houve um atraso no pagamento de duas rendas.", "beispiel_de": "Zwei Mieten wurden verspätet bezahlt."},
+  {"id": "o-aviso-de-rececao", "pt": "o aviso de receção", "de": "der Rückschein", "emoji": "📬", "beispiel_pt": "Enviei a carta registada com aviso de receção.", "beispiel_de": "Ich habe den Brief per Einschreiben mit Rückschein geschickt.", "hinweis": "AO90: receção (früher recepção); Abkürzung AR"},
+  {"id": "denunciar-o-contrato", "pt": "denunciar o contrato", "de": "den Vertrag (zum Laufzeitende) kündigen", "emoji": "✉️", "beispiel_pt": "O inquilino denunciou o contrato com a antecedência prevista.", "beispiel_de": "Der Mieter hat den Vertrag mit der vorgesehenen Frist gekündigt."},
+  {"id": "o-acordo-extrajudicial", "pt": "o acordo extrajudicial", "de": "der außergerichtliche Vergleich", "emoji": "🕊️", "beispiel_pt": "Chegámos a um acordo extrajudicial e evitámos o tribunal.", "beispiel_de": "Wir haben uns außergerichtlich geeinigt und das Gericht vermieden."},
+  {"id": "a-oposicao-a-renovacao", "pt": "a oposição à renovação", "de": "der Widerspruch gegen die Verlängerung", "emoji": "🛑", "beispiel_pt": "O senhorio enviou uma carta de oposição à renovação.", "beispiel_de": "Der Vermieter hat ein Schreiben geschickt, in dem er der Verlängerung widerspricht.", "passiv": true},
+  {"id": "o-coeficiente-de-atualizacao", "pt": "o coeficiente de atualização", "de": "der (jährliche) Anpassungsfaktor", "emoji": "🔢", "beispiel_pt": "O coeficiente de atualização das rendas é publicado todos os anos.", "beispiel_de": "Der Anpassungsfaktor für Mieten wird jedes Jahr veröffentlicht.", "passiv": true},
+  {"id": "as-obras-de-conservacao", "pt": "as obras de conservação", "de": "die Instandhaltungsarbeiten", "emoji": "🧱", "beispiel_pt": "Em regra, as obras de conservação cabem ao senhorio.", "beispiel_de": "In der Regel ist der Vermieter für die Instandhaltung zuständig.", "passiv": true},
+  {"id": "a-injuncao", "pt": "a injunção", "de": "das Mahnverfahren / der Zahlungsbefehl", "emoji": "📮", "beispiel_pt": "Para cobrar as rendas em atraso, o senhorio recorreu a uma injunção.", "beispiel_de": "Um die Mietrückstände einzutreiben, hat der Vermieter ein Mahnverfahren eingeleitet.", "passiv": true},
+  {"id": "a-acao-de-despejo", "pt": "a ação de despejo", "de": "die Räumungsklage", "emoji": "🏚️", "beispiel_pt": "Uma ação de despejo pode demorar vários meses.", "beispiel_de": "Eine Räumungsklage kann mehrere Monate dauern.", "passiv": true},
+
+  {"id": "por-outras-palavras", "pt": "por outras palavras", "de": "mit anderen Worten", "emoji": "🔁", "beispiel_pt": "Por outras palavras: se não pagar a tempo, perde o desconto.", "beispiel_de": "Mit anderen Worten: Wenn Sie nicht rechtzeitig zahlen, verlieren Sie den Rabatt."},
+  {"id": "em-linguagem-corrente", "pt": "em linguagem corrente", "de": "in der Alltagssprache / einfach gesagt", "emoji": "🗨️", "beispiel_pt": "Em linguagem corrente, «resolver o contrato» significa pôr-lhe fim.", "beispiel_de": "In der Alltagssprache bedeutet „resolver o contrato“, ihn zu beenden."},
+  {"id": "resumidamente", "pt": "resumidamente", "de": "kurz gesagt / zusammengefasst", "emoji": "📝", "beispiel_pt": "Resumidamente, o contrato dura um ano e renova-se sozinho.", "beispiel_de": "Kurz gesagt: Der Vertrag läuft ein Jahr und verlängert sich von selbst."},
+  {"id": "o-essencial", "pt": "o essencial", "de": "das Wesentliche", "emoji": "🎯", "beispiel_pt": "O essencial é que tem trinta dias para responder.", "beispiel_de": "Das Wesentliche ist, dass Sie dreißig Tage Zeit haben zu antworten."},
+  {"id": "decorrer-de", "pt": "decorrer de", "de": "sich ergeben aus", "emoji": "🌊", "beispiel_pt": "Desta cláusula decorre que as pequenas reparações são pagas pelo inquilino.", "beispiel_de": "Aus dieser Klausel ergibt sich, dass kleine Reparaturen vom Mieter bezahlt werden.", "hinweis": "Auch zeitlich: o prazo decorre = die Frist läuft"},
+  {"id": "implicar", "pt": "implicar", "de": "bedeuten / zur Folge haben", "emoji": "➡️", "beispiel_pt": "A falta de pagamento implica a perda do sinal.", "beispiel_de": "Die Nichtzahlung hat den Verlust der Anzahlung zur Folge.", "hinweis": "Umgangssprachlich: implicar com alguém = an jemandem herumnörgeln"},
+  {"id": "em-causa", "pt": "em causa", "de": "betreffend / um den es geht", "emoji": "🔍", "beispiel_pt": "O artigo em causa trata dos prazos de pagamento.", "beispiel_de": "Der betreffende Artikel behandelt die Zahlungsfristen.", "hinweis": "estar em causa = auf dem Spiel stehen / zur Debatte stehen"},
+  {"id": "a-ressalva", "pt": "a ressalva", "de": "der Vorbehalt / die Einschränkung", "emoji": "⚠️", "beispiel_pt": "Assinei o acordo, mas com uma ressalva.", "beispiel_de": "Ich habe die Vereinbarung unterschrieben, aber mit einem Vorbehalt.", "hinweis": "ressalvar = vorbehalten; salvaguardar = wahren", "passiv": true},
+  {"id": "o-requerente", "pt": "o requerente", "de": "der Antragsteller", "emoji": "🙋", "beispiel_pt": "O requerente deve juntar uma cópia do documento de identificação.", "beispiel_de": "Der Antragsteller muss eine Kopie seines Ausweises beilegen.", "hinweis": "o requerimento = der Antrag", "alternativen": ["a requerente"], "passiv": true},
+  {"id": "descodificar", "pt": "descodificar", "de": "entschlüsseln / verständlich machen", "emoji": "🔓", "beispiel_pt": "Pedi à advogada que me ajudasse a descodificar a carta.", "beispiel_de": "Ich habe die Anwältin gebeten, mir beim Entschlüsseln des Briefs zu helfen.", "passiv": true},
+  {"id": "a-redacao", "pt": "a redação", "de": "der Wortlaut / die Abfassung", "emoji": "✏️", "beispiel_pt": "A redação do artigo é muito confusa.", "beispiel_de": "Der Wortlaut des Artikels ist sehr verwirrend.", "hinweis": "Auch: die Redaktion (einer Zeitung); AO90: redação", "passiv": true},
+  {"id": "o-juridiques", "pt": "o juridiquês", "de": "das Juristendeutsch (umgangssprachlich)", "emoji": "🤯", "beispiel_pt": "Este contrato está escrito num juridiquês impossível!", "beispiel_de": "Dieser Vertrag ist in einem unmöglichen Juristendeutsch geschrieben!", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B2-04-L01",
+   "typ": "neu",
+   "titel": "Linguagem jurídica – noções básicas",
+   "vokabeln": ["a-jurisprudencia", "a-lacuna-da-lei", "para-os-devidos-efeitos", "o-codigo-civil", "a-legislacao", "vigorar", "revogar", "o-diploma-legal", "o-decreto-lei", "o-preambulo", "a-disposicao-legal", "o-jurista"],
+   "grammatik": {
+    "titel": "Fórmulas fixas da linguagem jurídica",
+    "erklaerung": [
+     "A linguagem jurídica usa fórmulas fixas que se repetem em contratos, leis e cartas oficiais. Quem as reconhece logo percebe muito mais depressa o essencial.",
+     "<b>nos termos de</b> = de acordo com: <i>nos termos do artigo 5.º</i>, <i>nos termos da lei</i>. <b>ao abrigo de</b> indica a norma em que se baseia um pedido ou um direito: <i>ao abrigo do contrato</i>.",
+     "<b>para os devidos efeitos</b> aparece no fim de declarações e certidões: o documento pode ser apresentado onde for necessário.",
+     "As referências seguem uma ordem fixa, do geral para o particular: <i>artigo 7.º, n.º 2, alínea b)</i>. Lê-se: «artigo sétimo, número dois, alínea bê».",
+     "Em vez de «este» usa-se <b>o presente / a presente</b> (<i>a presente declaração</i>) e, para algo já mencionado, <b>o referido / a referida</b> (<i>o referido contrato</i>)."
+    ],
+    "erklaerung_de": [
+     "Juristische Texte verwenden feste Formeln. Wer sie erkennt, versteht das Wesentliche viel schneller.",
+     "<b>nos termos de</b> = gemäß; <b>ao abrigo de</b> = auf Grundlage von (der Norm, auf die man sich stützt).",
+     "<b>para os devidos efeitos</b> steht am Ende von Erklärungen: „zur Vorlage bei den zuständigen Stellen“.",
+     "Zitierweise: <i>artigo 7.º, n.º 2, alínea b)</i> = Art. 7 Abs. 2 lit. b.",
+     "<b>o presente</b> = der vorliegende; <b>o referido</b> = der genannte / besagte."
+    ],
+    "vergleich": "Deutsch: „gemäß § 5“, „auf Grundlage von“, „zur Vorlage bei Behörden“. Englisch: „pursuant to“, „under“, „for all legal purposes“. Wie im Deutschen klingen die Formeln steif – im Gespräch sagt man einfach <i>segundo a lei</i> oder <i>de acordo com o contrato</i>.",
+    "beispiele": [
+     {"pt": "A renda é atualizada nos termos da lei.", "de": "Die Miete wird nach Maßgabe des Gesetzes angepasst."},
+     {"pt": "Apresento esta reclamação ao abrigo do artigo 10.º do contrato.", "de": "Ich reiche diese Beschwerde auf Grundlage von Artikel 10 des Vertrags ein."},
+     {"pt": "Passo a presente declaração para os devidos efeitos.", "de": "Ich stelle diese Erklärung zur Vorlage bei den zuständigen Stellen aus."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O pedido foi feito ___ abrigo do artigo 10.º.", "loesungen": ["ao"], "de": "Der Antrag wurde auf Grundlage von Artikel 10 gestellt.", "kategorie": "Rechtssprache"},
+     {"typ": "luecke", "satz": "A renda é atualizada nos ___ da lei.", "loesungen": ["termos"], "de": "Die Miete wird nach Maßgabe des Gesetzes angepasst.", "kategorie": "Rechtssprache"},
+     {"typ": "luecke", "satz": "Declaro, para os devidos ___, que resido em Lagos.", "loesungen": ["efeitos"], "de": "Ich erkläre zur Vorlage bei den zuständigen Stellen, dass ich in Lagos wohne.", "kategorie": "Rechtssprache"},
+     {"typ": "auswahl", "frage": "Qual é a forma correta de citar uma norma?", "optionen": ["artigo 7.º, n.º 2, alínea b)", "alínea b), artigo 7.º, n.º 2", "n.º 2, alínea b), artigo 7.º"], "richtig": 0, "erklaerung": "Vom Allgemeinen zum Besonderen: Artikel → Absatz (número) → Buchstabe (alínea).", "kategorie": "Rechtssprache"},
+     {"typ": "auswahl", "frage": "Em linguagem corrente, «nos termos do contrato» significa…", "optionen": ["apesar do contrato", "de acordo com o contrato", "no fim do contrato"], "richtig": 1, "kategorie": "Rechtssprache"},
+     {"typ": "uebersetzen", "de": "Das neue Gesetz ist schon in Kraft.", "loesungen": ["A nova lei já está em vigor.", "A lei nova já está em vigor.", "A nova lei já entrou em vigor."]},
+     {"typ": "uebersetzen", "de": "Der Vertrag kann gemäß Artikel 3 gekündigt werden.", "loesungen": ["O contrato pode ser denunciado nos termos do artigo 3.º.", "O contrato pode ser denunciado nos termos do artigo 3.", "O contrato pode ser rescindido nos termos do artigo 3.º.", "O contrato pode ser rescindido nos termos do artigo 3.", "O contrato pode ser denunciado ao abrigo do artigo 3.º."]},
+     {"typ": "satzbau", "de": "Diese Bestimmung wurde durch das neue Gesetzesdekret aufgehoben.", "loesung": "Esta disposição foi revogada pelo novo decreto-lei."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma carta difícil de perceber",
+    "situation": "O Stefan recebeu uma carta da administração do condomínio e pede ajuda à Helena, uma amiga jurista.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Helena, recebi esta carta da administração do condomínio e, sinceramente, não percebo metade.", "de": "Helena, ich habe diesen Brief von der Hausverwaltung bekommen und verstehe ehrlich gesagt die Hälfte nicht."},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Deixa ver… «Nos termos do artigo 12.º do regulamento, informa-se V. Ex.ª de que…» É linguagem jurídica, mas não é tão complicado como parece.", "de": "Lass sehen … „Gemäß Artikel 12 der Hausordnung teilen wir Ihnen mit, dass …“ Das ist Rechtssprache, aber nicht so kompliziert, wie es aussieht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Para começar, o que quer dizer «nos termos de»?", "de": "Zuerst einmal: Was heißt „nos termos de“?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Quer dizer simplesmente «de acordo com». Estão a dizer-te que seguem o que está escrito no artigo 12.º.", "de": "Es heißt einfach „gemäß“. Sie sagen dir, dass sie sich an Artikel 12 halten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E mais abaixo: «ao abrigo da alínea c) do n.º 3». É a mesma coisa?", "de": "Und weiter unten: „auf Grundlage von Absatz 3 Buchstabe c“. Ist das dasselbe?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "É parecido. «Ao abrigo de» indica a regra em que se baseiam. A alínea é só uma subdivisão do artigo.", "de": "Ähnlich. „Ao abrigo de“ nennt die Regel, auf die sie sich stützen. Die alínea ist nur ein Unterpunkt des Artikels."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E porque é que no fim diz «para os devidos efeitos»?", "de": "Und warum steht am Ende „para os devidos efeitos“?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "É uma fórmula fixa. Significa que a carta vale como comunicação oficial, caso precises de a usar.", "de": "Das ist eine feste Formel. Sie bedeutet, dass der Brief als offizielle Mitteilung gilt, falls du ihn verwenden musst."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então, em resumo, o que é que querem de mim?", "de": "Also, kurz gesagt: Was wollen sie von mir?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Querem que tires as bicicletas da garagem comum até ao fim do mês. Mais nada!", "de": "Sie wollen, dass du die Fahrräder bis Monatsende aus der Gemeinschaftsgarage nimmst. Sonst nichts!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tanta palavra difícil só para isso!", "de": "So viele schwierige Wörter nur dafür!"}
+    ],
+    "fragen": [
+     {"frage": "Quem enviou a carta ao Stefan?", "optionen": ["o senhorio", "a administração do condomínio", "a câmara municipal"], "richtig": 1},
+     {"frage": "Segundo a Helena, «nos termos de» significa…", "optionen": ["de acordo com", "apesar de", "em vez de"], "richtig": 0},
+     {"frage": "O que pede, afinal, a carta?", "optionen": ["que o Stefan pague uma coima", "que vá a uma assembleia", "que tire as bicicletas da garagem comum"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "A nova lei já está em vigor.", "de": "Das neue Gesetz ist schon in Kraft."},
+     {"pt": "O contrato pode ser denunciado nos termos da lei.", "de": "Der Vertrag kann nach Maßgabe des Gesetzes gekündigt werden."},
+     {"pt": "Apresento o pedido ao abrigo do artigo 10.º.", "de": "Ich stelle den Antrag auf Grundlage von Artikel 10."},
+     {"pt": "Passo a presente declaração para os devidos efeitos.", "de": "Ich stelle diese Erklärung zur Vorlage bei den zuständigen Stellen aus."},
+     {"pt": "Esta disposição foi revogada no ano passado.", "de": "Diese Bestimmung wurde letztes Jahr aufgehoben."}
+    ]
+   },
+   "saetze": [
+    {"id": "lei-em-vigor", "pt": "A nova lei já está em vigor.", "de": "Das neue Gesetz ist schon in Kraft."},
+    {"id": "nos-termos-da-lei", "pt": "O contrato pode ser denunciado nos termos da lei.", "de": "Der Vertrag kann nach Maßgabe des Gesetzes gekündigt werden."},
+    {"id": "para-os-devidos-efeitos-declaracao", "pt": "Passo a presente declaração para os devidos efeitos.", "de": "Ich stelle diese Erklärung zur Vorlage bei den zuständigen Stellen aus."}
+   ]
+  },
+  {
+   "id": "B2-04-L02",
+   "typ": "neu",
+   "titel": "A estrutura de um contrato",
+   "vokabeln": ["o-outorgante", "o-presente-contrato", "celebrar-um-contrato", "as-partes-contratantes", "o-objeto-do-contrato", "o-anexo", "em-duplicado", "salvo-disposicao-em-contrario", "rubricar", "o-foro-competente", "a-minuta", "doravante-designado"],
+   "grammatik": {
+    "titel": "O presente nas cláusulas e a passiva com «se»",
+    "erklaerung": [
+     "Os contratos escrevem-se no <b>presente do indicativo</b>, mesmo quando falam do futuro. Aqui o presente tem valor de obrigação: <i>O arrendatário <b>paga</b> a renda até ao dia 8.</i>",
+     "Para obrigações usa-se também <b>obrigar-se a</b> + infinitivo: <i>O segundo outorgante <b>obriga-se a</b> devolver o imóvel em bom estado.</i>",
+     "A passiva com <b>se</b> é muito frequente: <i>O contrato <b>rege-se</b> pelas cláusulas seguintes.</i> O verbo concorda com o sujeito: <i><b>Anexam-se</b> os documentos.</i> No início da frase, o pronome vem sempre depois do verbo.",
+     "Fórmula típica de abertura: <i>Entre [nome], doravante designado por primeiro outorgante, e [nome], doravante designado por segundo outorgante, <b>é celebrado</b> o presente contrato, que <b>se rege</b> pelas cláusulas seguintes.</i>"
+    ],
+    "erklaerung_de": [
+     "Verträge stehen im Präsens, auch für die Zukunft – das Präsens drückt hier eine Pflicht aus.",
+     "<b>obrigar-se a</b> + Infinitiv = sich verpflichten zu.",
+     "Passiv mit <b>se</b>: Das Verb richtet sich nach dem Subjekt (<i>anexam-se os documentos</i>). Am Satzanfang immer Enklise.",
+     "Eröffnungsformel: „Zwischen … (im Folgenden erste Vertragspartei) und … wird der vorliegende Vertrag geschlossen, der sich nach den folgenden Klauseln richtet.“"
+    ],
+    "vergleich": "Auch deutsche Verträge verwenden das Präsens mit Pflichtcharakter („Der Mieter zahlt die Miete bis zum 8.“). Englisch nimmt dafür meist „shall“ („The tenant shall pay …“). Das portugiesische <i>se</i>-Passiv entspricht oft dem deutschen „man“ oder dem Passiv: <i>anexam-se os documentos</i> = „beigefügt werden die Unterlagen“.",
+    "beispiele": [
+     {"pt": "O presente contrato rege-se pelas cláusulas seguintes.", "de": "Der vorliegende Vertrag richtet sich nach den folgenden Klauseln."},
+     {"pt": "O segundo outorgante obriga-se a devolver o imóvel em bom estado.", "de": "Die zweite Vertragspartei verpflichtet sich, die Immobilie in gutem Zustand zurückzugeben."},
+     {"pt": "Anexam-se ao presente contrato a planta e o inventário.", "de": "Dem vorliegenden Vertrag werden der Grundriss und das Inventar beigefügt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O segundo outorgante ___ a pagar a renda até ao dia 8. (obrigar-se)", "loesungen": ["obriga-se"], "de": "Die zweite Vertragspartei verpflichtet sich, die Miete bis zum 8. zu zahlen.", "kategorie": "Rechtssprache"},
+     {"typ": "luecke", "satz": "O contrato ___ pelas cláusulas seguintes. (reger-se)", "loesungen": ["rege-se"], "de": "Der Vertrag richtet sich nach den folgenden Klauseln.", "kategorie": "Passiv mit se"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["Anexa-se os documentos.", "Anexam-se os documentos.", "Se anexam os documentos."], "richtig": 1, "erklaerung": "Passiv mit se: Das Verb richtet sich nach dem Subjekt (os documentos → anexam). Am Satzanfang Enklise.", "kategorie": "Passiv mit se"},
+     {"typ": "auswahl", "frage": "Num contrato, a frase «O arrendatário paga a renda até ao dia 8» exprime…", "optionen": ["uma obrigação", "um desejo", "uma hipótese"], "richtig": 0, "kategorie": "Rechtssprache"},
+     {"typ": "luecke", "satz": "Durante a ___ do contrato, não é permitido subarrendar.", "loesungen": ["vigência"], "de": "Während der Laufzeit des Vertrags ist Untervermieten nicht erlaubt.", "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Der vorliegende Vertrag wird in zweifacher Ausfertigung erstellt.", "loesungen": ["O presente contrato é feito em duplicado.", "O presente contrato é celebrado em duplicado.", "O presente contrato é redigido em duplicado.", "O presente contrato é elaborado em duplicado.", "O presente contrato é lavrado em duplicado."]},
+     {"typ": "uebersetzen", "de": "Die Parteien schließen den folgenden Vertrag ab.", "loesungen": ["As partes celebram o seguinte contrato.", "As partes celebram o contrato seguinte.", "As partes contratantes celebram o seguinte contrato.", "As partes contratantes celebram o contrato seguinte."]},
+     {"typ": "satzbau", "de": "Die Anlage ist fester Bestandteil des Vertrags.", "loesung": "O anexo faz parte integrante do contrato."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A minuta do contrato",
+    "situation": "O Stefan vai prestar serviços de consultoria a um hotel em Portimão. A advogada, Dra. Helena Matos, explica-lhe a estrutura do contrato.",
+    "zeilen": [
+     {"sprecher": "Helena", "stimme": "f", "pt": "Senhor Krenn, aqui tem a minuta do contrato com o hotel. Vamos ver a estrutura juntos?", "de": "Herr Krenn, hier ist der Vertragsentwurf mit dem Hotel. Sehen wir uns den Aufbau gemeinsam an?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, por favor. Começa com os nomes das partes, não é?", "de": "Ja, bitte. Er beginnt mit den Namen der Parteien, oder?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Exatamente. Primeiro identificam-se as partes contratantes: o hotel é o primeiro outorgante e o senhor é o segundo.", "de": "Genau. Zuerst werden die Vertragsparteien genannt: Das Hotel ist die erste Vertragspartei, Sie sind die zweite."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E porque é que se escreve sempre «doravante designado»?", "de": "Und warum schreibt man immer „im Folgenden genannt“?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Para não repetir os nomes completos. A partir daí, basta escrever «o segundo outorgante».", "de": "Damit man die vollen Namen nicht wiederholen muss. Danach genügt „die zweite Vertragspartei“."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Percebo. E a cláusula primeira?", "de": "Verstehe. Und Klausel eins?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Define o objeto do contrato: consultoria na área da organização interna, durante seis meses.", "de": "Sie legt den Vertragsgegenstand fest: Beratung im Bereich interne Organisation, sechs Monate lang."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Aqui diz que os anexos fazem parte integrante do contrato. O que é que isso implica?", "de": "Hier steht, dass die Anlagen fester Bestandteil des Vertrags sind. Was bedeutet das?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Implica que o plano de trabalho do anexo I tem o mesmo valor que as cláusulas. Leia-o com atenção.", "de": "Das bedeutet, dass der Arbeitsplan in Anlage I genauso gilt wie die Klauseln. Lesen Sie ihn aufmerksam."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E no fim? Tenho de assinar todas as páginas?", "de": "Und am Ende? Muss ich alle Seiten unterschreiben?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Assina na última e rubrica as restantes. O contrato é feito em duplicado: fica um exemplar para cada parte.", "de": "Sie unterschreiben die letzte und zeichnen die übrigen ab. Der Vertrag wird in zweifacher Ausfertigung erstellt: ein Exemplar für jede Partei."}
+    ],
+    "fragen": [
+     {"frage": "Que tipo de contrato estão a analisar?", "optionen": ["um contrato de arrendamento", "um contrato de prestação de serviços", "um contrato de compra e venda"], "richtig": 1},
+     {"frage": "Para que serve a expressão «doravante designado»?", "optionen": ["para evitar repetir os nomes completos", "para indicar a data do contrato", "para mostrar quem paga"], "richtig": 0},
+     {"frage": "O que deve o Stefan fazer nas páginas que não são a última?", "optionen": ["assiná-las por extenso", "entregá-las ao notário", "rubricá-las"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "A Dra. Helena Matos telefona ao Stefan para falar da minuta do contrato.",
+    "zeilen": [
+     {"sprecher": "Helena", "stimme": "f", "pt": "Bom dia, Senhor Krenn. Já leu a minuta que lhe enviei?", "de": "Guten Morgen, Herr Krenn. Haben Sie den Entwurf schon gelesen, den ich Ihnen geschickt habe?"},
+     {"ich": true, "aufgabe": "Diga que sim, mas que tem dúvidas sobre a cláusula terceira.", "loesungen": ["Sim, mas tenho dúvidas sobre a cláusula terceira.", "Já li, mas tenho dúvidas sobre a cláusula terceira.", "Sim, já li, mas tenho dúvidas sobre a cláusula terceira.", "Já, mas tenho dúvidas sobre a cláusula terceira.", "Sim, mas tenho algumas dúvidas sobre a cláusula terceira.", "Já li, mas tenho algumas dúvidas sobre a cláusula terceira."]},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Diga. Qual é a dúvida?", "de": "Bitte. Was ist die Frage?"},
+     {"ich": true, "aufgabe": "Pergunte se os anexos fazem parte do contrato.", "loesungen": ["Os anexos fazem parte do contrato?", "Os anexos fazem parte integrante do contrato?", "Queria saber se os anexos fazem parte do contrato.", "Gostava de saber se os anexos fazem parte do contrato.", "Os anexos também fazem parte do contrato?"]},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Fazem, sim. Têm o mesmo valor que as cláusulas.", "de": "Ja, das tun sie. Sie gelten genauso wie die Klauseln."},
+     {"ich": true, "aufgabe": "Pergunte quantos exemplares tem de assinar.", "loesungen": ["Quantos exemplares tenho de assinar?", "Quantos exemplares tenho que assinar?", "Quantos exemplares é que tenho de assinar?", "Tenho de assinar quantos exemplares?", "E quantos exemplares tenho de assinar?"]},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Dois. O contrato é feito em duplicado.", "de": "Zwei. Der Vertrag wird in zweifacher Ausfertigung erstellt."}
+    ]
+   },
+   "saetze": [
+    {"id": "contrato-rege-se", "pt": "O presente contrato rege-se pelas cláusulas seguintes.", "de": "Der vorliegende Vertrag richtet sich nach den folgenden Klauseln."},
+    {"id": "obriga-se-a-devolver", "pt": "O segundo outorgante obriga-se a devolver o imóvel em bom estado.", "de": "Die zweite Vertragspartei verpflichtet sich, die Immobilie in gutem Zustand zurückzugeben."},
+    {"id": "feito-em-duplicado", "pt": "O contrato é feito em duplicado.", "de": "Der Vertrag wird in zweifacher Ausfertigung erstellt."}
+   ]
+  },
+  {
+   "id": "B2-04-L03",
+   "typ": "neu",
+   "titel": "Cláusulas e condições",
+   "vokabeln": ["no-caso-de", "salvo-se", "na-falta-de", "em-caso-de", "a-clausula-penal", "resolver-o-contrato", "considerar-se", "de-comum-acordo", "a-interpelacao", "a-titulo-gratuito", "a-mora", "a-parte-faltosa"],
+   "grammatik": {
+    "titel": "Condições: caso, desde que, salvo se, na falta de",
+    "erklaerung": [
+     "<b>caso</b> + presente do conjuntivo (ou imperfeito, se a hipótese for pouco provável): <i><b>Caso</b> o pagamento não <b>seja</b> feito, são devidos juros.</i>",
+     "<b>desde que</b> (= com a condição de que) e <b>a não ser que</b> pedem também o presente do conjuntivo: <i>Pode ter animais, <b>desde que</b> não <b>causem</b> danos.</i>",
+     "<b>se</b> e <b>salvo se</b> (= exceto se) usam o <b>futuro do conjuntivo</b> quando a condição se refere ao futuro: <i>O contrato renova-se, <b>salvo se</b> uma das partes o <b>denunciar</b>.</i> <i>O contrato considera-se resolvido <b>se</b> uma das partes não <b>cumprir</b> as suas obrigações.</i>",
+     "<b>na falta de</b> e <b>em caso de</b> levam um nome: <i><b>Na falta de</b> acordo, decide o tribunal.</i> <i><b>Em caso de</b> mora, são devidos juros.</i> <b>no caso de</b> aceita também um infinitivo pessoal: <i><b>No caso de</b> o inquilino não <b>pagar</b>…</i>",
+     "Atenção: nunca «caso» + futuro do conjuntivo, nem «se» + presente do conjuntivo. ✗ <i>caso houver</i> → ✓ <i>caso haja</i> / <i>se houver</i>."
+    ],
+    "erklaerung_de": [
+     "<b>caso</b> (falls) + Konjunktiv Präsens: <i>caso seja</i>, <i>caso haja</i>.",
+     "<b>desde que</b> (sofern, vorausgesetzt) und <b>a não ser que</b> (es sei denn) ebenfalls + Konjunktiv Präsens.",
+     "<b>se</b> und <b>salvo se</b> (außer wenn) + futuro do conjuntivo: <i>se houver</i>, <i>salvo se for</i>, <i>se não cumprir</i>.",
+     "<b>na falta de</b> (mangels) und <b>em caso de</b> (im Falle von) + Substantiv; <b>no caso de</b> auch + persönlicher Infinitiv.",
+     "Nie <i>caso houver</i> oder <i>se haja</i>!"
+    ],
+    "vergleich": "Im Deutschen stehen „falls“, „sofern“ und „außer wenn“ alle mit Indikativ. Englisch: „in case“, „provided that“, „unless“. Im Portugiesischen bestimmt das Bindewort die Verbform: caso / desde que / a não ser que → presente do conjuntivo; se / salvo se → futuro do conjuntivo.",
+    "beispiele": [
+     {"pt": "Caso o arrendatário não pague, o senhorio pode resolver o contrato.", "de": "Falls der Mieter nicht zahlt, kann der Vermieter vom Vertrag zurücktreten."},
+     {"pt": "O contrato renova-se, salvo se uma das partes o denunciar.", "de": "Der Vertrag verlängert sich, es sei denn, eine Partei kündigt ihn."},
+     {"pt": "Na falta de acordo, decide o tribunal.", "de": "Mangels Einigung entscheidet das Gericht."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Caso o arrendatário não ___ a renda, o senhorio pode resolver o contrato. (pagar)", "loesungen": ["pague"], "de": "Falls der Mieter die Miete nicht zahlt, kann der Vermieter vom Vertrag zurücktreten.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Pode subarrendar um quarto, desde que o senhorio ___. (concordar)", "loesungen": ["concorde"], "de": "Sie dürfen ein Zimmer untervermieten, sofern der Vermieter einverstanden ist.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "O contrato considera-se resolvido se o empreiteiro não ___ a obra no prazo. (fazer)", "loesungen": ["fizer"], "de": "Der Vertrag gilt als aufgelöst, wenn der Bauunternehmer die Arbeiten nicht fristgerecht ausführt.", "erklaerung": "se + futuro do conjuntivo: fazer → fizer.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "A garantia mantém-se, salvo se o cliente ___ o aparelho. (abrir)", "loesungen": ["abrir"], "de": "Die Garantie bleibt bestehen, außer wenn der Kunde das Gerät öffnet.", "erklaerung": "salvo se + futuro do conjuntivo; bei regelmäßigen Verben sieht die 3. Person aus wie der Infinitiv.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["Caso houver atraso, há juros.", "Caso haja atraso, há juros.", "Caso há atraso, há juros."], "richtig": 1, "erklaerung": "caso + presente do conjuntivo: haja.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "«___ acordo entre as partes, decide o tribunal.»", "optionen": ["Na falta de", "Desde que", "Salvo se"], "richtig": 0, "kategorie": "Konnektoren"},
+     {"typ": "uebersetzen", "de": "Falls der Käufer nicht zahlt, gilt der Vertrag als aufgelöst.", "loesungen": ["Caso o comprador não pague, o contrato considera-se resolvido.", "Caso o comprador não pague, considera-se resolvido o contrato.", "Se o comprador não pagar, o contrato considera-se resolvido.", "Caso o comprador não pague, o contrato é considerado resolvido.", "Se o comprador não pagar, considera-se resolvido o contrato."]},
+     {"typ": "uebersetzen", "de": "Im Falle von Verzug zahlt die säumige Partei Zinsen.", "loesungen": ["Em caso de mora, a parte faltosa paga juros.", "Em caso de atraso, a parte faltosa paga juros.", "Em caso de mora, a parte faltosa pagará juros.", "Em caso de mora, a parte faltosa paga juros de mora."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "O contrato com o empreiteiro",
+    "situation": "A Ana lê em voz alta as cláusulas do contrato para as obras na casa e comenta-as com o Stefan.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, ouve esta cláusula: «Caso a obra não esteja concluída até 30 de junho, aplica-se uma cláusula penal de cem euros por cada dia de atraso.»", "de": "Stefan, hör dir diese Klausel an: „Falls die Arbeiten nicht bis 30. Juni abgeschlossen sind, gilt eine Vertragsstrafe von hundert Euro pro Verzugstag.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. Isso protege-nos, desde que ele não arranje uma desculpa qualquer.", "de": "Sehr gut. Das schützt uns, sofern er nicht irgendeine Ausrede findet."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Pois, a frase seguinte diz: «salvo se o atraso resultar de condições meteorológicas excecionais».", "de": "Tja, der nächste Satz lautet: „außer wenn die Verzögerung auf außergewöhnliche Wetterbedingungen zurückgeht“."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Condições excecionais no Algarve? Só se chover em agosto!", "de": "Außergewöhnliches Wetter an der Algarve? Höchstens, wenn es im August regnet!"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E há mais: «Na falta de pagamento de qualquer prestação, o empreiteiro pode suspender a obra.»", "de": "Und es geht weiter: „Bei Nichtzahlung einer Rate kann der Bauunternehmer die Arbeiten einstellen.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso parece-me justo. Nós pagamos sempre a tempo.", "de": "Das finde ich fair. Wir zahlen immer pünktlich."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "A última é a mais importante: «O contrato considera-se resolvido se uma das partes não cumprir as suas obrigações no prazo de quinze dias após ser notificada.»", "de": "Die letzte ist die wichtigste: „Der Vertrag gilt als aufgelöst, wenn eine der Parteien ihre Pflichten nicht innerhalb von fünfzehn Tagen nach Benachrichtigung erfüllt.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ou seja, se ele desaparecer, avisamo-lo por escrito e, quinze dias depois, estamos livres.", "de": "Das heißt, wenn er verschwindet, benachrichtigen wir ihn schriftlich, und fünfzehn Tage später sind wir frei."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Exatamente. Mas, caso isso aconteça, temos de guardar todas as provas.", "de": "Genau. Aber falls das passiert, müssen wir alle Beweise aufbewahren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então assinamos, mas só depois de a Helena dar uma vista de olhos.", "de": "Dann unterschreiben wir, aber erst, nachdem Helena einen Blick darauf geworfen hat."}
+    ],
+    "fragen": [
+     {"frage": "O que acontece se a obra não estiver concluída a tempo?", "optionen": ["O contrato é anulado de imediato.", "O empreiteiro paga cem euros por cada dia de atraso.", "O casal deixa de pagar as prestações."], "richtig": 1},
+     {"frage": "Em que caso não se aplica a cláusula penal?", "optionen": ["se o casal mudar de ideias", "se o empreiteiro adoecer", "se o atraso resultar de condições meteorológicas excecionais"], "richtig": 2},
+     {"frage": "O que querem fazer antes de assinar?", "optionen": ["pedir à Helena que veja o contrato", "pagar a primeira prestação", "falar com o banco"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva as frases em português.",
+    "aufgaben": [
+     {"de": "Falls Sie Fragen haben, rufen Sie mich an.", "loesungen": ["Caso tenha dúvidas, ligue-me.", "Caso tenha alguma dúvida, ligue-me.", "Caso tenha perguntas, ligue-me.", "Se tiver dúvidas, ligue-me.", "Se tiver alguma dúvida, ligue-me.", "Caso tenha alguma pergunta, telefone-me."]},
+     {"de": "Sie dürfen den Garten benutzen, sofern Sie ihn sauber halten.", "loesungen": ["Pode usar o jardim, desde que o mantenha limpo.", "Pode utilizar o jardim, desde que o mantenha limpo.", "Pode usar o jardim desde que o mantenha limpo.", "Pode utilizar o jardim desde que o mantenha limpo."]},
+     {"de": "Der Vertrag verlängert sich, außer wenn eine Partei ihn kündigt.", "loesungen": ["O contrato renova-se, salvo se uma das partes o denunciar.", "O contrato renova-se, salvo se uma das partes o rescindir.", "O contrato renova-se salvo se uma das partes o denunciar.", "O contrato é renovado, salvo se uma das partes o denunciar.", "O contrato renova-se, salvo se uma parte o denunciar."]},
+     {"de": "Mangels Einigung entscheidet das Gericht.", "loesungen": ["Na falta de acordo, decide o tribunal.", "Na falta de acordo, o tribunal decide."]},
+     {"de": "Wenn der Mieter nicht zahlt, gilt der Vertrag als aufgelöst.", "loesungen": ["Se o inquilino não pagar, o contrato considera-se resolvido.", "Se o arrendatário não pagar, o contrato considera-se resolvido.", "Caso o inquilino não pague, o contrato considera-se resolvido.", "Caso o arrendatário não pague, o contrato considera-se resolvido.", "Se o inquilino não pagar, considera-se resolvido o contrato."]}
+    ]
+   },
+   "saetze": [
+    {"id": "caso-nao-seja-pago", "pt": "Caso o pagamento não seja feito a tempo, são devidos juros.", "de": "Falls die Zahlung nicht rechtzeitig erfolgt, sind Zinsen fällig."},
+    {"id": "salvo-se-denunciar", "pt": "O contrato renova-se, salvo se uma das partes o denunciar.", "de": "Der Vertrag verlängert sich, es sei denn, eine Partei kündigt ihn."},
+    {"id": "considera-se-resolvido", "pt": "O contrato considera-se resolvido se uma das partes não cumprir.", "de": "Der Vertrag gilt als aufgelöst, wenn eine der Parteien ihre Pflichten nicht erfüllt."}
+   ]
+  },
+  {
+   "id": "B2-04-L04",
+   "typ": "neu",
+   "titel": "No notário: escrituras e reconhecimentos",
+   "vokabeln": ["o-cartorio", "a-escritura-publica", "reconhecer-a-assinatura", "certificar", "o-documento-particular", "o-ato-notarial", "os-emolumentos", "lavrar", "o-reconhecimento-presencial", "a-fe-publica", "o-termo-de-autenticacao", "a-outorga"],
+   "grammatik": {
+    "titel": "A voz passiva: ser, estar e «se» + particípio",
+    "erklaerung": [
+     "Nos documentos notariais domina a <b>voz passiva</b>, porque interessa o ato e não quem o pratica: <i>A escritura <b>foi lavrada</b> no cartório de Lagos.</i>",
+     "<b>ser + particípio</b> (ação): o particípio concorda com o sujeito: <i>A assinatura <b>foi reconhecida</b>; os documentos <b>foram certificados</b>.</i> O agente introduz-se com <b>por</b>: <i>pelo notário</i>, <i>pela notária</i>.",
+     "<b>estar + particípio</b> descreve o resultado ou o estado: <i>O documento <b>está</b> assinado e certificado.</i>",
+     "<b>«se» apassivante</b>: mais neutro e muito usado em avisos: <i><b>Reconhecem-se</b> assinaturas. <b>Fazem-se</b> fotocópias certificadas.</i>",
+     "Também nos tempos compostos: <i>A escritura <b>tinha sido marcada</b> para março, mas <b>foi adiada</b>.</i>"
+    ],
+    "erklaerung_de": [
+     "In notariellen Texten dominiert das Passiv – wichtig ist die Handlung, nicht wer sie ausführt.",
+     "<b>ser</b> + Partizip = Vorgangspassiv („wurde beurkundet“); das Partizip richtet sich nach dem Subjekt; der Handelnde mit <b>por</b> (pelo/pela).",
+     "<b>estar</b> + Partizip = Zustandspassiv („ist unterschrieben“).",
+     "<b>se</b>-Passiv: typisch für Aushänge („Unterschriften werden beglaubigt“).",
+     "Plusquamperfekt Passiv: <i>tinha sido marcada</i> = war angesetzt worden."
+    ],
+    "vergleich": "Deutsch unterscheidet Vorgangspassiv mit „werden“ (wurde beurkundet) und Zustandspassiv mit „sein“ (ist beurkundet) – genau wie Portugiesisch mit ser und estar. Englisch hat dafür nur „to be“. Anders als im Deutschen richtet sich das portugiesische Partizip nach dem Subjekt: <i>a escritura foi lavrada</i>, <i>os documentos foram lavrados</i>.",
+    "beispiele": [
+     {"pt": "A escritura foi lavrada na presença das duas partes.", "de": "Die Urkunde wurde in Anwesenheit beider Parteien errichtet."},
+     {"pt": "A declaração já está assinada e reconhecida.", "de": "Die Erklärung ist bereits unterschrieben und beglaubigt."},
+     {"pt": "Neste cartório reconhecem-se assinaturas sem marcação.", "de": "In dieser Kanzlei werden Unterschriften ohne Termin beglaubigt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A escritura foi ___ pelo notário na presença das partes. (lavrar)", "loesungen": ["lavrada"], "de": "Die Urkunde wurde vom Notar in Anwesenheit der Parteien errichtet.", "kategorie": "Passiv"},
+     {"typ": "luecke", "satz": "As assinaturas foram ___ no cartório. (reconhecer)", "loesungen": ["reconhecidas"], "de": "Die Unterschriften wurden in der Kanzlei beglaubigt.", "erklaerung": "Das Partizip richtet sich nach as assinaturas: feminin Plural.", "kategorie": "Passiv"},
+     {"typ": "auswahl", "frage": "Num aviso do cartório: «___ fotocópias certificadas.»", "optionen": ["Fazem-se", "Faz-se", "Se fazem"], "richtig": 0, "erklaerung": "se-Passiv: Verb im Plural wegen fotocópias; am Satzanfang Enklise.", "kategorie": "Passiv mit se"},
+     {"typ": "auswahl", "frage": "Qual das frases descreve um estado (o resultado)?", "optionen": ["O documento foi assinado ontem.", "O documento é assinado pelo notário.", "O documento está assinado."], "richtig": 2, "kategorie": "Passiv"},
+     {"typ": "luecke", "satz": "Ativa: O notário certificou as cópias. → Passiva: As cópias ___ certificadas pelo notário.", "loesungen": ["foram"], "de": "Die Kopien wurden vom Notar beglaubigt.", "kategorie": "Passiv"},
+     {"typ": "uebersetzen", "de": "Die Unterschrift wurde vom Notar beglaubigt.", "loesungen": ["A assinatura foi reconhecida pelo notário.", "A assinatura foi reconhecida pela notária.", "A assinatura foi certificada pelo notário.", "A assinatura foi autenticada pelo notário."]},
+     {"typ": "uebersetzen", "de": "Die Beurkundung war für März angesetzt worden, wurde aber verschoben.", "loesungen": ["A escritura tinha sido marcada para março, mas foi adiada.", "A escritura tinha sido marcada para março mas foi adiada.", "A escritura tinha sido agendada para março, mas foi adiada."]},
+     {"typ": "satzbau", "de": "Der Kauf wurde mit einer notariellen Urkunde abgeschlossen.", "loesung": "A compra foi formalizada por escritura pública."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No cartório",
+    "situation": "O Stefan precisa de reconhecer uma assinatura numa declaração destinada à Áustria e vai a um cartório em Lagos.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Bom dia. Em que posso ajudar?", "de": "Guten Tag. Was kann ich für Sie tun?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Preciso de reconhecer a minha assinatura numa declaração que vai ser enviada para a Áustria.", "de": "Guten Tag. Ich muss meine Unterschrift auf einer Erklärung beglaubigen lassen, die nach Österreich geschickt wird."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Muito bem. A declaração já está assinada?", "de": "Sehr gut. Ist die Erklärung schon unterschrieben?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já. Assinei-a ontem à noite, em casa.", "de": "Ja. Ich habe sie gestern Abend zu Hause unterschrieben."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Nesse caso, peço-lhe que assine outra vez à minha frente. O reconhecimento é presencial: a assinatura tem de ser feita aqui.", "de": "Dann bitte ich Sie, noch einmal vor mir zu unterschreiben. Die Beglaubigung erfolgt bei persönlicher Anwesenheit: Die Unterschrift muss hier geleistet werden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não há problema. Por acaso, trouxe outro exemplar em branco.", "de": "Kein Problem. Zufällig habe ich noch ein leeres Exemplar dabei."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Ótimo. Preciso também do seu documento de identificação.", "de": "Sehr gut. Ich brauche auch Ihren Ausweis."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Aqui tem o passaporte. Queria também uma fotocópia certificada do passaporte, se for possível.", "de": "Hier ist der Reisepass. Ich hätte auch gern eine beglaubigte Kopie des Passes, wenn das möglich ist."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Com certeza. A notária certifica que a cópia confere com o original.", "de": "Selbstverständlich. Die Notarin bestätigt, dass die Kopie mit dem Original übereinstimmt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E quanto custa tudo isto?", "de": "Und was kostet das alles?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Os emolumentos dependem de cada ato notarial. Tem a tabela de preços afixada ali, na parede.", "de": "Die Gebühren hängen von der jeweiligen Amtshandlung ab. Die Preisliste hängt dort an der Wand."}
+    ],
+    "fragen": [
+     {"frage": "Para que precisa o Stefan do reconhecimento?", "optionen": ["para uma declaração que vai para a Áustria", "para comprar uma casa", "para tirar a carta de condução"], "richtig": 0},
+     {"frage": "Porque é que o Stefan tem de assinar outra vez?", "optionen": ["porque a primeira assinatura estava ilegível", "porque o reconhecimento presencial exige que assine no cartório", "porque perdeu a declaração"], "richtig": 1},
+     {"frage": "O que diz a funcionária sobre os custos?", "optionen": ["São sempre vinte euros.", "São pagos pelas autoridades austríacas.", "Dependem de cada ato e estão numa tabela."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Preciso de reconhecer a minha assinatura.", "de": "Ich muss meine Unterschrift beglaubigen lassen."},
+     {"pt": "Queria uma fotocópia certificada do passaporte.", "de": "Ich hätte gern eine beglaubigte Kopie des Reisepasses."},
+     {"pt": "A escritura foi lavrada no cartório de Lagos.", "de": "Die Urkunde wurde in der Notariatskanzlei in Lagos errichtet."},
+     {"pt": "A declaração já está assinada.", "de": "Die Erklärung ist schon unterschrieben."},
+     {"pt": "Quanto custam os emolumentos?", "de": "Wie hoch sind die Gebühren?"}
+    ]
+   },
+   "saetze": [
+    {"id": "reconhecer-a-minha-assinatura", "pt": "Preciso de reconhecer a minha assinatura.", "de": "Ich muss meine Unterschrift beglaubigen lassen."},
+    {"id": "fotocopia-certificada-passaporte", "pt": "Queria uma fotocópia certificada do passaporte.", "de": "Ich hätte gern eine beglaubigte Kopie des Reisepasses."},
+    {"id": "escritura-foi-lavrada", "pt": "A escritura foi lavrada no cartório de Lagos.", "de": "Die Urkunde wurde in der Notariatskanzlei in Lagos errichtet."}
+   ]
+  },
+  {
+   "id": "B2-04-L05",
+   "typ": "neu",
+   "titel": "A procuração",
+   "vokabeln": ["outorgar", "conferir-poderes", "os-poderes", "o-mandatario", "em-nome-e-representacao-de", "irrevogavel", "o-representante-legal", "a-procuracao-forense", "substabelecer", "caducar", "bastante-procurador", "o-mandato"],
+   "grammatik": {
+    "titel": "Pronomes com futuro e condicional: a mesóclise",
+    "erklaerung": [
+     "Em textos formais e jurídicos de Portugal, o pronome átono com o <b>futuro</b> ou o <b>condicional</b> coloca-se no meio do verbo – é a <b>mesóclise</b>: <i>representará + o → <b>representá-lo-á</b></i>; <i>conferiria + lhe → <b>conferir-lhe-ia</b></i>.",
+     "Forma-se a partir do infinitivo: infinitivo + pronome + terminação (-ei, -ás, -á, -emos, -ão; -ia, -ias, -íamos, -iam). Com <b>o, a, os, as</b>, o -r do infinitivo cai e o pronome passa a <b>lo, la, los, las</b>: <i>assiná-la-ei</i>, <i>vendê-los-á</i>.",
+     "Se houver uma palavra que atrai o pronome (não, que, já, quem, também…), usa-se a próclise normal: <i>O procurador <b>não o representará</b>.</i> <i>É a pessoa <b>que o representará</b>.</i>",
+     "Na fala, a mesóclise é rara: diz-se <i>vai representá-lo</i>. Mas é indispensável reconhecê-la em procurações, contratos e cartas oficiais. Nunca: ✗ <i>representará-o</i>."
+    ],
+    "erklaerung_de": [
+     "In formellen Texten steht das unbetonte Pronomen bei Futur und Konditional mitten im Verb (Mesoklise): <i>representá-lo-á</i> = er wird ihn vertreten.",
+     "Bildung: Infinitiv + Pronomen + Endung. Bei o/a/os/as fällt das -r weg, das Pronomen wird zu lo/la/los/las: <i>assiná-la-ei</i> = ich werde sie unterschreiben.",
+     "Nach não, que, já, quem usw. normale Proklise: <i>não o representará</i>.",
+     "Mündlich sagt man <i>vai representá-lo</i>; in Urkunden muss man die Mesoklise aber erkennen. Falsch: <i>representará-o</i>."
+    ],
+    "vergleich": "Diese Stellung gibt es weder im Deutschen noch im Englischen – und auch im brasilianischen Portugiesisch kaum noch. Sie entstand, weil das Futur historisch aus Infinitiv + haver gebildet wurde (representar + hei → representarei); das Pronomen steht deshalb dazwischen.",
+    "beispiele": [
+     {"pt": "A Ana representá-lo-á na escritura.", "de": "Ana wird ihn bei der Beurkundung vertreten."},
+     {"pt": "Ser-lhe-á enviada uma cópia da procuração.", "de": "Ihnen wird eine Kopie der Vollmacht zugeschickt werden."},
+     {"pt": "O mandatário não o representará sem poderes especiais.", "de": "Der Bevollmächtigte wird ihn ohne Sondervollmacht nicht vertreten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O procurador ___ na escritura. (representar + o, futuro)", "loesungen": ["representá-lo-á"], "de": "Der Bevollmächtigte wird ihn bei der Beurkundung vertreten.", "kategorie": "Mesoklise"},
+     {"typ": "luecke", "satz": "___ enviada uma cópia da procuração. (ser + lhe, futuro)", "loesungen": ["Ser-lhe-á", "ser-lhe-á"], "de": "Ihnen wird eine Kopie der Vollmacht zugeschickt werden.", "kategorie": "Mesoklise"},
+     {"typ": "auswahl", "frage": "Qual é a forma correta em linguagem formal?", "optionen": ["Conferirá-lhe poderes para vender.", "Conferir-lhe-á poderes para vender.", "Lhe conferirá poderes para vender."], "richtig": 1, "kategorie": "Mesoklise"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["O procurador não representá-lo-á.", "O procurador não representará-o.", "O procurador não o representará."], "richtig": 2, "erklaerung": "não zieht das Pronomen vor das Verb – keine Mesoklise.", "kategorie": "Mesoklise"},
+     {"typ": "luecke", "satz": "Fala: «Vou assiná-la amanhã.» → Escrita formal: «___ amanhã.»", "loesungen": ["Assiná-la-ei", "assiná-la-ei"], "de": "Ich werde sie morgen unterschreiben.", "erklaerung": "assinar + a + ei → assiná-la-ei (das -r fällt weg, a → la).", "kategorie": "Mesoklise"},
+     {"typ": "uebersetzen", "de": "Ich bevollmächtige Sie, das Haus in meinem Namen zu verkaufen.", "loesungen": ["Confiro-lhe poderes para vender a casa em meu nome.", "Pela presente, confiro-lhe poderes para vender a casa em meu nome.", "Confiro-lhe os poderes para vender a casa em meu nome.", "Dou-lhe poderes para vender a casa em meu nome.", "Confiro-lhe poderes para, em meu nome, vender a casa."]},
+     {"typ": "uebersetzen", "de": "Der Bevollmächtigte wird mich bei der Versammlung vertreten.", "loesungen": ["O mandatário representar-me-á na assembleia.", "O mandatário vai representar-me na assembleia.", "O mandatário vai-me representar na assembleia.", "O procurador representar-me-á na assembleia.", "O procurador vai representar-me na assembleia.", "O mandatário representar-me-á na reunião."]},
+     {"typ": "satzbau", "de": "Die Vollmacht erlischt mit dem Tod dessen, der sie erteilt hat.", "loesung": "A procuração caduca com a morte de quem a outorgou."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma procuração para a Ana",
+    "situation": "A escritura de um terreno que o Stefan e a Ana vão comprar está marcada para um dia em que o Stefan estará em Viena. Ele fala com a advogada.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Senhora doutora, a escritura do terreno está marcada para dia 14, mas nesse dia estou em Viena.", "de": "Frau Doktor, die Beurkundung für das Grundstück ist am 14., aber an dem Tag bin ich in Wien."},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Não há problema. Pode outorgar uma procuração a favor da sua mulher, e ela assina em seu nome.", "de": "Kein Problem. Sie können Ihrer Frau eine Vollmacht erteilen, und sie unterschreibt in Ihrem Namen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E basta uma folha assinada por mim?", "de": "Und reicht ein von mir unterschriebenes Blatt?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Para um ato destes, não. A procuração tem de cumprir uma forma especial, mas eu própria posso tratar disso aqui no escritório.", "de": "Für so eine Amtshandlung nicht. Die Vollmacht muss eine besondere Form erfüllen, aber darum kann ich mich selbst hier in der Kanzlei kümmern."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E que poderes lhe confiro exatamente?", "de": "Und welche Befugnisse übertrage ich ihr genau?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Poderes para comprar o terreno pelo preço acordado, assinar a escritura e pagar os impostos. Nada mais.", "de": "Die Befugnis, das Grundstück zum vereinbarten Preis zu kaufen, die Urkunde zu unterschreiben und die Steuern zu zahlen. Mehr nicht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E se depois houver algum problema com o registo?", "de": "Und wenn es danach ein Problem mit der Grundbucheintragung gibt?"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Posso acrescentar poderes para tratar do registo. Assim, a Ana representá-lo-á em todos os atos necessários.", "de": "Ich kann die Befugnis für die Eintragung hinzufügen. Dann wird Ana Sie bei allen nötigen Handlungen vertreten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "«Representá-lo-á»… Isso soa muito antigo!", "de": "„Representá-lo-á“ … Das klingt sehr altmodisch!"},
+     {"sprecher": "Helena", "stimme": "f", "pt": "É linguagem jurídica. Na prática, quer dizer «vai representá-lo». E lembre-se: pode revogar a procuração quando quiser.", "de": "Das ist Rechtssprache. Praktisch heißt es „wird Sie vertreten“. Und denken Sie daran: Sie können die Vollmacht jederzeit widerrufen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perfeito. Então prepare-a, se faz favor.", "de": "Perfekt. Dann bereiten Sie sie bitte vor."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan precisa de uma procuração?", "optionen": ["porque a Ana é a única compradora", "porque não fala bem português", "porque vai estar em Viena no dia da escritura"], "richtig": 2},
+     {"frage": "Que poderes terá a Ana?", "optionen": ["comprar o terreno, assinar a escritura e pagar os impostos", "vender a casa onde vivem", "abrir contas bancárias em nome do Stefan"], "richtig": 0},
+     {"frage": "O que significa «representá-lo-á», segundo a Helena?", "optionen": ["representou-o", "vai representá-lo", "representava-o"], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Está no escritório da advogada para preparar uma procuração.",
+    "zeilen": [
+     {"sprecher": "Helena", "stimme": "f", "pt": "Então, a favor de quem quer passar a procuração?", "de": "Also, wem möchten Sie die Vollmacht erteilen?"},
+     {"ich": true, "aufgabe": "Diga que quer passar a procuração a favor da sua mulher, a Ana.", "loesungen": ["Quero passar a procuração a favor da minha mulher, a Ana.", "A favor da minha mulher, a Ana.", "Quero passá-la a favor da minha mulher, a Ana.", "A favor da minha mulher, Ana.", "Quero passar a procuração a favor da minha mulher, Ana.", "Quero outorgar a procuração a favor da minha mulher, a Ana."]},
+     {"sprecher": "Helena", "stimme": "f", "pt": "E que poderes lhe quer conferir?", "de": "Und welche Befugnisse möchten Sie ihr übertragen?"},
+     {"ich": true, "aufgabe": "Diga que ela deve poder assinar a escritura em seu nome.", "loesungen": ["Ela deve poder assinar a escritura em meu nome.", "Poderes para assinar a escritura em meu nome.", "Quero que ela possa assinar a escritura em meu nome.", "Que possa assinar a escritura em meu nome.", "Poderes para ela assinar a escritura em meu nome."]},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Muito bem. Quer que a procuração seja irrevogável?", "de": "Sehr gut. Soll die Vollmacht unwiderruflich sein?"},
+     {"ich": true, "aufgabe": "Diga que não, que prefere poder revogá-la.", "loesungen": ["Não, prefiro poder revogá-la.", "Não, prefiro poder revogar a procuração.", "Não. Prefiro poder revogá-la.", "Não, prefiro que seja revogável.", "Não, prefiro que possa ser revogada."]},
+     {"sprecher": "Helena", "stimme": "f", "pt": "Faz bem. Amanhã tem a procuração pronta.", "de": "Gut so. Morgen ist die Vollmacht fertig."}
+    ]
+   },
+   "saetze": [
+    {"id": "confiro-lhe-poderes", "pt": "Confiro-lhe poderes para assinar a escritura em meu nome.", "de": "Ich bevollmächtige Sie, die Urkunde in meinem Namen zu unterschreiben."},
+    {"id": "representa-lo-a", "pt": "A Ana representá-lo-á em todos os atos necessários.", "de": "Ana wird Sie bei allen nötigen Handlungen vertreten."},
+    {"id": "revogar-a-procuracao", "pt": "Pode revogar a procuração quando quiser.", "de": "Sie können die Vollmacht jederzeit widerrufen."}
+   ]
+  },
+  {
+   "id": "B2-04-L06",
+   "typ": "neu",
+   "titel": "Heranças e testamentos",
+   "vokabeln": ["o-herdeiro", "o-testamento", "a-partilha", "o-falecido", "os-bens", "o-patrimonio", "o-legado", "a-habilitacao-de-herdeiros", "o-cabeca-de-casal", "a-legitima", "repudiar-a-heranca", "deserdar"],
+   "grammatik": {
+    "titel": "O infinitivo pessoal",
+    "erklaerung": [
+     "O <b>infinitivo pessoal</b> é uma particularidade do português: o infinitivo recebe terminações de pessoa – eu partilhar, tu partilhar<b>es</b>, ele partilhar, nós partilhar<b>mos</b>, eles partilhar<b>em</b>.",
+     "Usa-se sobretudo quando o sujeito do infinitivo é diferente do da frase principal: <i>O notário leu o testamento para <b>todos ouvirem</b>.</i>",
+     "É muito frequente depois de preposições (para, sem, antes de, depois de, até, no caso de): <i>Antes de <b>fazermos</b> a partilha, temos de pagar as dívidas.</i>",
+     "Com expressões impessoais, substitui muitas vezes o conjuntivo: <i>É preciso <b>que os herdeiros assinem</b></i> = <i>É preciso <b>os herdeiros assinarem</b></i>. A segunda forma é mais leve e muito usada em Portugal.",
+     "Na norma escrita, a preposição não se contrai com o artigo do sujeito: <i>depois <b>de os</b> irmãos chegarem a acordo</i> (e não «dos irmãos»)."
+    ],
+    "erklaerung_de": [
+     "Der persönliche Infinitiv hat Personalendungen: -es (tu), -mos (nós), -em (eles).",
+     "Man braucht ihn vor allem, wenn das Subjekt des Infinitivs ein anderes ist als im Hauptsatz.",
+     "Sehr häufig nach Präpositionen: <i>antes de fazermos</i> = bevor wir … machen.",
+     "Nach unpersönlichen Ausdrücken ersetzt er oft den Konjunktiv: <i>É preciso os herdeiros assinarem</i> = Die Erben müssen unterschreiben.",
+     "Schriftnorm: <i>depois de os irmãos …</i>, nicht „dos irmãos“, weil os zum Subjekt gehört."
+    ],
+    "vergleich": "Deutsch und Englisch haben keinen Infinitiv mit Personalendungen; sie brauchen einen Nebensatz („bevor wir die Erbteilung machen“, „before we divide the estate“). Das Portugiesische bleibt mit <i>antes de fazermos a partilha</i> kürzer.",
+    "beispiele": [
+     {"pt": "Antes de fazermos a partilha, temos de pagar as dívidas do falecido.", "de": "Bevor wir die Erbteilung vornehmen, müssen wir die Schulden des Verstorbenen bezahlen."},
+     {"pt": "É necessário os herdeiros assinarem a habilitação.", "de": "Die Erben müssen den Erbnachweis unterschreiben."},
+     {"pt": "O notário leu o testamento em voz alta para todos ouvirem.", "de": "Der Notar las das Testament laut vor, damit alle es hören konnten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Antes de ___ a partilha, temos de pagar as dívidas. (nós, fazer)", "loesungen": ["fazermos"], "de": "Bevor wir die Erbteilung machen, müssen wir die Schulden bezahlen.", "kategorie": "Persönlicher Infinitiv"},
+     {"typ": "luecke", "satz": "É necessário os herdeiros ___ a habilitação. (assinar)", "loesungen": ["assinarem"], "de": "Die Erben müssen den Erbnachweis unterschreiben.", "kategorie": "Persönlicher Infinitiv"},
+     {"typ": "luecke", "satz": "O notário leu o testamento em voz alta para todos ___. (ouvir)", "loesungen": ["ouvirem"], "de": "Der Notar las das Testament laut vor, damit alle es hörten.", "kategorie": "Persönlicher Infinitiv"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta segundo a norma escrita?", "optionen": ["Depois de os irmãos chegarem a acordo, fez-se a partilha.", "Depois de os irmãos chegar a acordo, fez-se a partilha.", "Depois dos irmãos chegar a acordo, fez-se a partilha."], "richtig": 0, "erklaerung": "Persönlicher Infinitiv (chegarem) und keine Zusammenziehung de + os, weil os zum Subjekt gehört.", "kategorie": "Persönlicher Infinitiv"},
+     {"typ": "auswahl", "frage": "«É preciso que vocês declarem a herança.» Com infinitivo pessoal fica…", "optionen": ["É preciso vocês declarar a herança.", "É preciso vocês declararem a herança.", "É preciso vocês declaram a herança."], "richtig": 1, "kategorie": "Persönlicher Infinitiv"},
+     {"typ": "uebersetzen", "de": "Bevor wir das Testament öffnen, müssen alle Erben anwesend sein.", "loesungen": ["Antes de abrirmos o testamento, todos os herdeiros têm de estar presentes.", "Antes de abrirmos o testamento, todos os herdeiros têm que estar presentes.", "Antes de abrirmos o testamento, todos os herdeiros devem estar presentes.", "Antes de abrirmos o testamento, é preciso todos os herdeiros estarem presentes."]},
+     {"typ": "uebersetzen", "de": "Es ist wichtig, dass die Kinder ihren Pflichtteil erhalten.", "loesungen": ["É importante os filhos receberem a legítima.", "É importante que os filhos recebam a legítima.", "É importante os filhos receberem a sua legítima.", "É importante que os filhos recebam a sua legítima."]},
+     {"typ": "satzbau", "de": "Die Erben haben das Haus verkauft, ohne sich über den Preis zu einigen.", "loesung": "Os herdeiros venderam a casa sem chegarem a acordo sobre o preço."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A herança da tia Lurdes",
+    "situation": "A tia da Ana, que vivia em Monchique, faleceu há pouco tempo. A Ana conta ao Stefan como vai ser tratada a herança.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, ligou-me o meu primo Rui. Já está marcada a habilitação de herdeiros da tia Lurdes.", "de": "Stefan, mein Cousin Rui hat angerufen. Der Termin für den Erbnachweis von Tante Lurdes steht schon."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ainda bem. E já se sabe se ela deixou testamento?", "de": "Gut. Weiß man schon, ob sie ein Testament hinterlassen hat?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Deixou. Fê-lo há uns anos num cartório em Portimão. Deixa a casa de Monchique aos sobrinhos, em partes iguais.", "de": "Ja. Sie hat es vor ein paar Jahren bei einem Notar in Portimão errichtet. Das Haus in Monchique hinterlässt sie den Neffen und Nichten zu gleichen Teilen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ela não tinha filhos nem marido, pois não?", "de": "Sie hatte weder Kinder noch Ehemann, oder?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não. Por isso, pôde deixar tudo a quem quis. Somos quatro herdeiros: eu, o Rui e as duas irmãs dele.", "de": "Nein. Deshalb konnte sie alles vererben, wem sie wollte. Wir sind vier Erben: ich, Rui und seine beiden Schwestern."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E quem trata de tudo até à partilha?", "de": "Und wer kümmert sich bis zur Erbteilung um alles?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "O Rui ficou como cabeça de casal. É ele que administra a herança até fazermos as partilhas.", "de": "Rui ist Nachlassverwalter. Er verwaltet das Erbe, bis wir es aufteilen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E as poupanças? Ela tinha uma conta no banco, não tinha?", "de": "Und die Ersparnisse? Sie hatte doch ein Bankkonto, oder?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Tinha, mas o banco só deixa movimentar a conta depois de apresentarmos a habilitação.", "de": "Ja, aber die Bank lässt erst über das Konto verfügen, wenn wir den Erbnachweis vorlegen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a casa? Vão vendê-la?", "de": "Und das Haus? Werdet ihr es verkaufen?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ainda não sabemos. Antes de decidirmos, é melhor pedirmos uma avaliação. Não quero que a herança acabe numa zanga de família.", "de": "Das wissen wir noch nicht. Bevor wir entscheiden, lassen wir es besser schätzen. Ich will nicht, dass das Erbe in einem Familienstreit endet."}
+    ],
+    "fragen": [
+     {"frage": "A quem deixou a tia Lurdes a casa de Monchique?", "optionen": ["à igreja da aldeia", "só ao Rui", "aos sobrinhos, em partes iguais"], "richtig": 2},
+     {"frage": "Qual é o papel do Rui?", "optionen": ["É o cabeça de casal e administra a herança.", "É o notário que fez o testamento.", "Repudiou a herança."], "richtig": 0},
+     {"frage": "O que querem fazer antes de decidirem sobre a casa?", "optionen": ["vendê-la imediatamente", "pedir uma avaliação", "arrendá-la a turistas"], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva as frases em português.",
+    "aufgaben": [
+     {"de": "Bevor wir das Haus verkaufen, müssen wir die Erbteilung machen.", "loesungen": ["Antes de vendermos a casa, temos de fazer a partilha.", "Antes de vendermos a casa, temos que fazer a partilha.", "Antes de vendermos a casa, temos de fazer as partilhas.", "Antes de vendermos a casa, precisamos de fazer a partilha."]},
+     {"de": "Mein Onkel hat kein Testament gemacht.", "loesungen": ["O meu tio não fez testamento.", "O meu tio não deixou testamento.", "O meu tio não fez um testamento.", "O meu tio não deixou nenhum testamento."]},
+     {"de": "Es ist besser, dass die Erben sich einigen.", "loesungen": ["É melhor os herdeiros chegarem a acordo.", "É melhor que os herdeiros cheguem a acordo.", "É melhor os herdeiros chegarem a um acordo.", "É melhor que os herdeiros cheguem a um acordo."]},
+     {"de": "Er hat das Erbe ausgeschlagen, weil es nur Schulden gab.", "loesungen": ["Repudiou a herança porque só havia dívidas.", "Ele repudiou a herança porque só havia dívidas.", "Ele repudiou a herança, porque só havia dívidas.", "Repudiou a herança, porque só havia dívidas.", "Repudiou a herança porque só tinha dívidas."]},
+     {"de": "Die Erben müssen die Erbschaft beim Finanzamt melden.", "loesungen": ["Os herdeiros têm de declarar a herança nas Finanças.", "Os herdeiros têm que declarar a herança nas Finanças.", "Os herdeiros têm de participar a herança nas Finanças.", "Os herdeiros devem declarar a herança nas Finanças.", "Os herdeiros têm de comunicar a herança às Finanças."]}
+    ]
+   },
+   "saetze": [
+    {"id": "antes-de-fazermos-a-partilha", "pt": "Antes de fazermos a partilha, temos de pagar as dívidas.", "de": "Bevor wir die Erbteilung machen, müssen wir die Schulden bezahlen."},
+    {"id": "deixou-testamento", "pt": "Ela deixou testamento num cartório em Portimão.", "de": "Sie hat bei einem Notar in Portimão ein Testament hinterlassen."},
+    {"id": "e-preciso-os-herdeiros-assinarem", "pt": "É preciso os herdeiros assinarem a habilitação.", "de": "Die Erben müssen den Erbnachweis unterschreiben."}
+   ]
+  },
+  {
+   "id": "B2-04-L07",
+   "typ": "neu",
+   "titel": "Direitos do consumidor",
+   "vokabeln": ["a-falta-de-conformidade", "defeituoso", "a-substituicao", "a-reducao-do-preco", "o-prazo-de-garantia", "o-litigio", "fazer-valer-os-seus-direitos", "lesar", "a-venda-a-distancia", "o-direito-de-arrependimento", "o-centro-de-arbitragem", "o-onus-da-prova"],
+   "grammatik": {
+    "titel": "O futuro do conjuntivo em normas e regulamentos",
+    "erklaerung": [
+     "Leis, regulamentos e condições gerais descrevem situações futuras e possíveis com o <b>futuro do conjuntivo</b> depois de <b>se, quando, sempre que, enquanto, logo que</b> e de relativos como <b>quem, o que, o … que</b>: <i>Se o bem <b>apresentar</b> defeito, o consumidor pode exigir a reparação.</i>",
+     "Formação: 3.ª pessoa do plural do pretérito perfeito sem <b>-ram</b> + -r, -res, -r, -rmos, -rem: <i>fizeram → fizer</i>, <i>puderam → puder</i>, <i>houveram → houver</i>, <i>estiveram → estiver</i>, <i>quiseram → quiser</i>.",
+     "Com relativos, a norma torna-se geral: <i><b>O consumidor que comprar</b> à distância tem direito a desistir.</i> <i><b>Quem quiser</b> reclamar deve guardar a fatura.</i>",
+     "Na frase principal: presente, futuro ou imperativo: <i>Sempre que o vendedor não <b>responder</b>, o consumidor <b>pode</b> recorrer a um centro de arbitragem.</i>",
+     "Lembre-se: depois de <b>caso</b> usa-se o presente do conjuntivo: <i>caso o bem <b>apresente</b> defeito</i>."
+    ],
+    "erklaerung_de": [
+     "In Gesetzen und AGB beschreibt das futuro do conjuntivo mögliche künftige Fälle – nach se, quando, sempre que, enquanto, logo que und nach quem / o que / o … que.",
+     "Bildung: 3. Person Plural des Perfekts ohne -ram + Endungen: fizeram → fizer, puderam → puder.",
+     "Mit Relativpronomen wird daraus eine allgemeine Regel: <i>Quem quiser reclamar …</i> = Wer reklamieren will …",
+     "Im Hauptsatz: Präsens, Futur oder Imperativ.",
+     "Nach <b>caso</b> steht dagegen der Konjunktiv Präsens."
+    ],
+    "vergleich": "Deutsch und Englisch benutzen hier einfach das Präsens: „Wenn die Ware einen Mangel aufweist …“ / „If the goods are defective …“. Das Portugiesische markiert mit dem futuro do conjuntivo, dass der Fall noch offen ist – <i>se apresentar</i>, nicht ✗ <i>se apresenta</i>.",
+    "beispiele": [
+     {"pt": "Se o bem apresentar defeito, o consumidor pode exigir a reparação.", "de": "Weist die Ware einen Mangel auf, kann der Verbraucher die Reparatur verlangen."},
+     {"pt": "Quem quiser reclamar deve guardar a fatura.", "de": "Wer reklamieren will, sollte die Rechnung aufbewahren."},
+     {"pt": "Sempre que houver falta de conformidade, o vendedor é responsável.", "de": "Immer wenn ein Mangel vorliegt, haftet der Verkäufer."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se o produto ___ defeituoso, o vendedor tem de o reparar. (estar)", "loesungen": ["estiver"], "de": "Wenn das Produkt mangelhaft ist, muss der Verkäufer es reparieren.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Quem ___ devolver o artigo deve guardar o talão. (querer)", "loesungen": ["quiser"], "de": "Wer den Artikel zurückgeben will, sollte den Kassenbon aufbewahren.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "Sempre que ___ falta de conformidade, o consumidor pode exigir a substituição. (haver)", "loesungen": ["houver"], "de": "Immer wenn ein Mangel vorliegt, kann der Verbraucher den Austausch verlangen.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "luecke", "satz": "O consumidor que ___ uma compra online tem, em regra, catorze dias para desistir. (fazer)", "loesungen": ["fizer"], "de": "Der Verbraucher, der online einkauft, hat in der Regel vierzehn Tage zum Rücktritt.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["Quando o vendedor responderá, avise-me.", "Quando o vendedor responder, avise-me.", "Quando o vendedor responda, avise-me."], "richtig": 1, "erklaerung": "quando + futuro do conjuntivo für die Zukunft: responder.", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "«Caso o bem ___ defeito, contacte a loja.»", "optionen": ["apresentar", "apresenta", "apresente"], "richtig": 2, "erklaerung": "caso + presente do conjuntivo.", "kategorie": "Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Wenn das Gerät nicht funktioniert, können Sie den Austausch verlangen.", "loesungen": ["Se o aparelho não funcionar, pode exigir a substituição.", "Se o aparelho não funcionar, pode pedir a substituição.", "Se o aparelho não funcionar, pode exigir a sua substituição.", "Se o aparelho não funcionar, pode pedir a sua substituição.", "Caso o aparelho não funcione, pode exigir a substituição."]},
+     {"typ": "uebersetzen", "de": "Wer seine Rechte geltend machen will, sollte die Rechnung aufbewahren.", "loesungen": ["Quem quiser fazer valer os seus direitos deve guardar a fatura.", "Quem quiser fazer valer os seus direitos tem de guardar a fatura.", "Quem quiser fazer valer os direitos deve guardar a fatura.", "Quem quiser fazer valer os seus direitos deverá guardar a fatura."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Consultório do consumidor",
+    "situation": "Num programa de rádio, uma ouvinte expõe um problema e um jurista responde.",
+    "zeilen": [
+     {"sprecher": "Apresentadora", "stimme": "f", "pt": "Bom dia, estamos de volta com o «Consultório do Consumidor». Hoje temos connosco o jurista Paulo Reis e uma ouvinte em linha: a Dona Fernanda, de Silves.", "de": "Guten Morgen, wir sind zurück mit der „Verbrauchersprechstunde“. Heute bei uns: der Jurist Paulo Reis und eine Hörerin am Telefon, Frau Fernanda aus Silves."},
+     {"sprecher": "Fernanda", "stimme": "f", "pt": "Bom dia. Comprei uma máquina de lavar há oito meses e já avariou duas vezes. A loja diz que a garantia não cobre.", "de": "Guten Morgen. Ich habe vor acht Monaten eine Waschmaschine gekauft, und sie ist schon zweimal kaputtgegangen. Das Geschäft sagt, die Garantie deckt das nicht."},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Bom dia, Dona Fernanda. Se a máquina tiver um defeito de origem, trata-se de uma falta de conformidade, e a loja é responsável.", "de": "Guten Morgen, Frau Fernanda. Wenn die Maschine einen ursprünglichen Mangel hat, handelt es sich um Vertragswidrigkeit, und das Geschäft haftet."},
+     {"sprecher": "Fernanda", "stimme": "f", "pt": "Mas eles dizem que fui eu que a usei mal.", "de": "Aber die sagen, ich hätte sie falsch benutzt."},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Durante um certo período após a compra, em regra é o vendedor que tem de provar isso. O ónus da prova cabe-lhe a ele.", "de": "Während eines gewissen Zeitraums nach dem Kauf muss in der Regel der Verkäufer das beweisen. Die Beweislast liegt bei ihm."},
+     {"sprecher": "Fernanda", "stimme": "f", "pt": "E o que posso exigir?", "de": "Und was kann ich verlangen?"},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Em primeiro lugar, a reparação ou a substituição. Se nada disso resultar, pode pedir uma redução do preço ou até resolver o contrato.", "de": "Zuerst die Reparatur oder den Austausch. Wenn das nichts bringt, können Sie eine Preisminderung verlangen oder sogar vom Vertrag zurücktreten."},
+     {"sprecher": "Apresentadora", "stimme": "f", "pt": "E se a loja continuar a recusar?", "de": "Und wenn das Geschäft sich weiter weigert?"},
+     {"sprecher": "Paulo", "stimme": "m", "pt": "Aconselho a escrever no livro de reclamações e, se for preciso, a recorrer a um centro de arbitragem. Costuma ser rápido e barato.", "de": "Ich rate, ins Beschwerdebuch zu schreiben und, wenn nötig, eine Schlichtungsstelle einzuschalten. Das geht meist schnell und ist günstig."},
+     {"sprecher": "Fernanda", "stimme": "f", "pt": "Muito obrigada. Vou já fazer valer os meus direitos!", "de": "Vielen Dank. Ich mache meine Rechte sofort geltend!"},
+     {"sprecher": "Apresentadora", "stimme": "f", "pt": "Força, Dona Fernanda! E não se esqueça: guarde sempre a fatura.", "de": "Nur zu, Frau Fernanda! Und vergessen Sie nicht: Bewahren Sie immer die Rechnung auf."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema da Dona Fernanda?", "optionen": ["A loja não lhe quer dar a fatura.", "A máquina de lavar avariou duas vezes e a loja recusa responsabilidade.", "Comprou uma máquina online e quer devolvê-la."], "richtig": 1},
+     {"frage": "Segundo o jurista, a quem cabe em regra o ónus da prova durante um certo período?", "optionen": ["ao consumidor", "ao fabricante", "ao vendedor"], "richtig": 2},
+     {"frage": "O que deve ela fazer se a loja continuar a recusar?", "optionen": ["usar o livro de reclamações e, se necessário, um centro de arbitragem", "comprar uma máquina nova", "pedir ajuda à polícia"], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "O aparelho veio defeituoso.", "de": "Das Gerät wurde defekt geliefert."},
+     {"pt": "Exijo a reparação ou a substituição do produto.", "de": "Ich verlange die Reparatur oder den Austausch des Produkts."},
+     {"pt": "Se a loja não responder, recorro a um centro de arbitragem.", "de": "Wenn das Geschäft nicht antwortet, wende ich mich an eine Schlichtungsstelle."},
+     {"pt": "Quem quiser reclamar deve guardar a fatura.", "de": "Wer reklamieren will, sollte die Rechnung aufbewahren."},
+     {"pt": "Ainda estou dentro do prazo de garantia.", "de": "Ich bin noch innerhalb der Gewährleistungsfrist."}
+    ]
+   },
+   "saetze": [
+    {"id": "exijo-a-substituicao", "pt": "Exijo a reparação ou a substituição do produto.", "de": "Ich verlange die Reparatur oder den Austausch des Produkts."},
+    {"id": "se-a-loja-nao-responder", "pt": "Se a loja não responder, recorro a um centro de arbitragem.", "de": "Wenn das Geschäft nicht antwortet, wende ich mich an eine Schlichtungsstelle."},
+    {"id": "dentro-do-prazo-de-garantia", "pt": "Ainda estou dentro do prazo de garantia.", "de": "Ich bin noch innerhalb der Gewährleistungsfrist."}
+   ]
+  },
+  {
+   "id": "B2-04-L08",
+   "typ": "neu",
+   "titel": "A coima e a defesa",
+   "vokabeln": ["a-coima", "a-contraordenacao", "a-infracao", "impugnar", "apresentar-defesa", "o-excesso-de-velocidade", "o-auto-de-noticia", "o-pagamento-voluntario", "a-sancao-acessoria", "a-inibicao-de-conduzir", "prescrever", "o-agente-autuante"],
+   "grammatik": {
+    "titel": "A passiva em orações condicionais",
+    "erklaerung": [
+     "Notificações e avisos oficiais combinam a <b>passiva</b> com condições: <i>Se a coima não <b>for paga</b> no prazo, o processo <b>será remetido</b> para cobrança.</i>",
+     "Futuro do conjuntivo na passiva: <b>for / forem + particípio</b>: <i>se a defesa <b>for apresentada</b></i>, <i>quando os documentos <b>forem entregues</b></i>.",
+     "Presente do conjuntivo na passiva: <b>seja / sejam + particípio</b>, depois de caso, desde que, para que, a não ser que: <i>caso a coima não <b>seja paga</b></i>, <i>desde que a defesa <b>seja apresentada</b> a tempo</i>.",
+     "Infinitivo na passiva: <i>após <b>ser notificado</b></i>, <i>sem <b>ser ouvido</b></i>; com sujeito plural, infinitivo pessoal: <i>após <b>serem notificados</b></i>.",
+     "O particípio concorda sempre com o sujeito: <i>a coima for paga</i>, <i>as coimas forem pagas</i>, <i>o auto for levantado</i>."
+    ],
+    "erklaerung_de": [
+     "Amtliche Schreiben verbinden Passiv mit Bedingungen: „Wird die Geldbuße nicht fristgerecht bezahlt, wird das Verfahren … weitergeleitet.“",
+     "se / quando + <b>for(em)</b> + Partizip (futuro do conjuntivo).",
+     "caso / desde que / para que + <b>seja(m)</b> + Partizip (presente do conjuntivo).",
+     "Infinitiv: <i>após ser notificado</i>; Plural: <i>após serem notificados</i>.",
+     "Das Partizip richtet sich nach dem Subjekt."
+    ],
+    "vergleich": "Deutsch drückt das mit „werden“ aus („Wird die Geldbuße nicht bezahlt …“), Englisch mit „If the fine is not paid …“. Portugiesisch braucht zusätzlich die richtige Konjunktivform von ser: <i>se … for paga</i>, <i>caso … seja paga</i>.",
+    "beispiele": [
+     {"pt": "Se a coima não for paga no prazo, o processo segue para cobrança.", "de": "Wird die Geldbuße nicht fristgerecht bezahlt, geht das Verfahren an die Vollstreckung."},
+     {"pt": "Caso a defesa seja apresentada a tempo, será analisada.", "de": "Falls die Stellungnahme rechtzeitig eingereicht wird, wird sie geprüft."},
+     {"pt": "Após serem notificados, os condutores podem apresentar defesa.", "de": "Nach der Zustellung können die Fahrer Stellung nehmen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se a coima não ___ paga no prazo, o processo segue para cobrança. (ser)", "loesungen": ["for"], "de": "Wird die Geldbuße nicht fristgerecht bezahlt, geht das Verfahren an die Vollstreckung.", "kategorie": "Passiv"},
+     {"typ": "luecke", "satz": "Caso a defesa não ___ apresentada a tempo, a decisão torna-se definitiva. (ser)", "loesungen": ["seja"], "de": "Falls die Stellungnahme nicht rechtzeitig eingereicht wird, wird die Entscheidung rechtskräftig.", "kategorie": "Passiv"},
+     {"typ": "luecke", "satz": "Quando os documentos ___ entregues, o processo será analisado. (ser)", "loesungen": ["forem"], "de": "Sobald die Unterlagen eingereicht sind, wird das Verfahren geprüft.", "kategorie": "Passiv"},
+     {"typ": "auswahl", "frage": "«Se as coimas forem ___ voluntariamente, …»", "optionen": ["pago", "pagas", "pagos"], "richtig": 1, "erklaerung": "as coimas → feminin Plural: pagas.", "kategorie": "Passiv"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["Após ser notificados, têm o prazo indicado para responder.", "Após sejam notificados, têm o prazo indicado para responder.", "Após serem notificados, têm o prazo indicado para responder."], "richtig": 2, "erklaerung": "Plural-Subjekt → persönlicher Infinitiv: serem.", "kategorie": "Persönlicher Infinitiv"},
+     {"typ": "uebersetzen", "de": "Falls die Geldbuße nicht bezahlt wird, wird das Verfahren fortgesetzt.", "loesungen": ["Caso a coima não seja paga, o processo prossegue.", "Caso a coima não seja paga, o processo continua.", "Se a coima não for paga, o processo prossegue.", "Se a coima não for paga, o processo continua.", "Caso a coima não seja paga, o processo seguirá.", "Se a coima não for paga, o processo seguirá."]},
+     {"typ": "uebersetzen", "de": "Ich möchte die Geldbuße anfechten.", "loesungen": ["Quero impugnar a coima.", "Gostava de impugnar a coima.", "Queria impugnar a coima.", "Gostaria de impugnar a coima.", "Pretendo impugnar a coima."]},
+     {"typ": "satzbau", "de": "Die Stellungnahme muss innerhalb der Frist eingereicht werden.", "loesung": "A defesa tem de ser apresentada dentro do prazo."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma notificação inesperada",
+    "situation": "O Stefan recebeu uma notificação por excesso de velocidade e pede conselho ao vizinho João.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "João, recebi uma notificação por excesso de velocidade na N125. Dizem que o meu carro ia a setenta e oito numa zona de cinquenta.", "de": "João, ich habe eine Zustellung wegen zu schnellen Fahrens auf der N125 bekommen. Angeblich fuhr mein Auto achtundsiebzig in einer Fünfzigerzone."},
+     {"sprecher": "João", "stimme": "m", "pt": "Ui! Isso pode ser uma contraordenação grave. Eras tu que ias a conduzir?", "de": "Oha! Das kann eine schwere Ordnungswidrigkeit sein. Bist du gefahren?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não! Nesse dia, o carro estava emprestado ao meu cunhado.", "de": "Nein! An dem Tag hatte ich das Auto meinem Schwager geliehen."},
+     {"sprecher": "João", "stimme": "m", "pt": "Então tens de identificar o condutor. Se não o fizeres dentro do prazo, a responsabilidade pode passar para ti.", "de": "Dann musst du den Fahrer angeben. Wenn du das nicht fristgerecht machst, kann die Verantwortung auf dich übergehen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E se ele pagar logo?", "de": "Und wenn er gleich zahlt?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Se a coima for paga voluntariamente, ele paga normalmente o valor mínimo. Mas atenção: isso pode não evitar uma sanção acessória.", "de": "Wenn die Geldbuße freiwillig bezahlt wird, zahlt er normalerweise den Mindestbetrag. Aber Achtung: Eine Nebenstrafe lässt sich damit eventuell nicht vermeiden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sanção acessória? Queres dizer inibição de conduzir?", "de": "Nebenstrafe? Du meinst ein Fahrverbot?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Pode ser. Nesse caso, ele pode apresentar defesa por escrito e explicar as circunstâncias.", "de": "Möglich. Dann kann er schriftlich Stellung nehmen und die Umstände erklären."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Há outra coisa: a matrícula na notificação não está bem escrita.", "de": "Noch etwas: Das Kennzeichen ist in der Zustellung falsch geschrieben."},
+     {"sprecher": "João", "stimme": "m", "pt": "Aí talvez valha a pena impugnar. Mas fala primeiro com um advogado e não deixes passar o prazo!", "de": "Dann lohnt es sich vielleicht, Einspruch zu erheben. Aber sprich zuerst mit einem Anwalt und lass die Frist nicht verstreichen!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado, João. Vou já ligar ao meu cunhado.", "de": "Danke, João. Ich rufe gleich meinen Schwager an."}
+    ],
+    "fragen": [
+     {"frage": "Porque recebeu o Stefan a notificação?", "optionen": ["por estacionamento proibido", "por excesso de velocidade", "por não pagar a portagem"], "richtig": 1},
+     {"frage": "Quem conduzia o carro?", "optionen": ["o cunhado do Stefan", "a Ana", "o João"], "richtig": 0},
+     {"frage": "Porque é que talvez valha a pena impugnar?", "optionen": ["porque o radar estava avariado", "porque o Stefan é estrangeiro", "porque a matrícula na notificação está mal escrita"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Telefona para o serviço que lhe enviou a notificação da coima.",
+    "zeilen": [
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Bom dia, em que posso ajudar?", "de": "Guten Tag, was kann ich für Sie tun?"},
+     {"ich": true, "aufgabe": "Diga que recebeu a notificação de uma coima, mas que não era o senhor quem conduzia.", "loesungen": ["Recebi a notificação de uma coima, mas não era eu que conduzia.", "Recebi a notificação de uma coima, mas não era eu quem conduzia.", "Recebi uma notificação de uma coima, mas não era eu que conduzia.", "Bom dia. Recebi a notificação de uma coima, mas não era eu que conduzia.", "Recebi a notificação de uma coima, mas não era eu que estava a conduzir.", "Recebi a notificação de uma coima, mas não era eu que ia a conduzir."]},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Nesse caso, tem de identificar o condutor dentro do prazo indicado.", "de": "Dann müssen Sie den Fahrer innerhalb der angegebenen Frist benennen."},
+     {"ich": true, "aufgabe": "Pergunte se pode fazê-lo por escrito.", "loesungen": ["Posso fazê-lo por escrito?", "Posso fazer isso por escrito?", "Pode ser por escrito?", "Posso identificá-lo por escrito?", "Posso fazer isso por escrito, se faz favor?"]},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Pode, sim. Envie os dados do condutor e uma cópia da carta de condução dele.", "de": "Ja, das geht. Schicken Sie die Daten des Fahrers und eine Kopie seines Führerscheins."},
+     {"ich": true, "aufgabe": "Pergunte o que acontece se o condutor pagar a coima voluntariamente.", "loesungen": ["O que acontece se o condutor pagar a coima voluntariamente?", "E se o condutor pagar a coima voluntariamente?", "O que acontece se ele pagar a coima voluntariamente?", "E se ele pagar a coima voluntariamente, o que acontece?", "O que é que acontece se o condutor pagar a coima voluntariamente?"]},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Paga, em regra, o valor mínimo. Uma eventual sanção acessória é decidida à parte.", "de": "Er zahlt in der Regel den Mindestbetrag. Über eine mögliche Nebenstrafe wird gesondert entschieden."}
+    ]
+   },
+   "saetze": [
+    {"id": "se-a-coima-nao-for-paga", "pt": "Se a coima não for paga no prazo, o processo segue para cobrança.", "de": "Wird die Geldbuße nicht fristgerecht bezahlt, geht das Verfahren an die Vollstreckung."},
+    {"id": "quero-impugnar-a-coima", "pt": "Quero impugnar a coima.", "de": "Ich möchte die Geldbuße anfechten."},
+    {"id": "identificar-o-condutor", "pt": "Tenho de identificar o condutor dentro do prazo.", "de": "Ich muss den Fahrer innerhalb der Frist benennen."}
+   ]
+  },
+  {
+   "id": "B2-04-L09",
+   "typ": "neu",
+   "titel": "No tribunal: julgamento e sentença",
+   "vokabeln": ["o-recurso", "o-prazo-legal", "o-juiz", "a-sentenca", "o-julgamento", "recorrer-da-decisao", "condenar", "o-reu", "o-arguido", "a-audiencia", "absolver", "o-ministerio-publico"],
+   "grammatik": {
+    "titel": "Factos não confirmados: futuro composto e condicional",
+    "erklaerung": [
+     "Nas notícias de tribunal, o jornalista distancia-se de factos que ainda não estão provados. Para isso, o português europeu usa sobretudo o <b>futuro composto</b> (<i>o arguido <b>terá agido</b> sozinho</i>) e o <b>condicional</b> (<i>o arguido <b>teria</b> conhecimento da fraude</i>).",
+     "Futuro composto = <b>ter</b> no futuro + particípio: <i>terá desviado</i>, <i>terão ocorrido</i>. Apesar do nome, refere-se ao <b>passado</b>: algo que <b>alegadamente</b> aconteceu. <i>Os factos <b>terão ocorrido</b> em 2020.</i>",
+     "Depois de <b>segundo</b>, <b>de acordo com</b> ou <b>conforme</b>, usa-se muitas vezes o condicional (simples ou composto): <i>Segundo a acusação, o réu <b>teria vendido</b> o imóvel duas vezes.</i>",
+     "O advérbio <b>alegadamente</b> reforça a distância e combina com o indicativo: <i>O arguido <b>alegadamente</b> falsificou os documentos.</i>",
+     "Quando o tribunal já decidiu, volta o indicativo – já não há dúvida: <i>O juiz <b>absolveu</b> o arguido.</i> / <i>A empresa <b>foi condenada</b>.</i>"
+    ],
+    "erklaerung_de": [
+     "Presse- und Gerichtsberichte distanzieren sich von unbewiesenen Fakten – vor allem mit dem futuro composto (terá + Partizip) oder dem Konditional.",
+     "<i>Os factos terão ocorrido em 2020</i> = Die Taten sollen sich 2020 ereignet haben. Trotz „Futur“: Es geht um die Vergangenheit!",
+     "Nach segundo / de acordo com: Konditional = deutsch Konjunktiv I („laut Anklage habe er … verkauft“).",
+     "alegadamente = angeblich, mutmaßlich (mit Indikativ).",
+     "Nach dem Urteil steht wieder der Indikativ."
+    ],
+    "vergleich": "Deutsch: „Der Angeklagte soll das Geld unterschlagen haben“ oder Konjunktiv I („er habe …“). Englisch: „allegedly“ / „is said to have …“. Portugiesisch: <i>terá desviado</i> – eine Futurform, die sich auf die Vergangenheit bezieht. Nicht mit einer echten Zukunft verwechseln!",
+    "beispiele": [
+     {"pt": "O arguido terá desviado dinheiro da empresa.", "de": "Der Angeklagte soll Geld der Firma veruntreut haben."},
+     {"pt": "Segundo o Ministério Público, o arguido teria conhecimento da fraude.", "de": "Laut Staatsanwaltschaft habe der Angeklagte von dem Betrug gewusst."},
+     {"pt": "Os factos terão ocorrido entre 2019 e 2021.", "de": "Die Taten sollen sich zwischen 2019 und 2021 ereignet haben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Segundo a polícia, o arguido ___ fugido para Espanha. (ter – futuro)", "loesungen": ["terá"], "de": "Laut Polizei soll der Beschuldigte nach Spanien geflohen sein.", "kategorie": "Futuro composto"},
+     {"typ": "luecke", "satz": "Os factos ___ ocorrido no verão passado. (ter – futuro)", "loesungen": ["terão"], "de": "Die Taten sollen sich letzten Sommer ereignet haben.", "kategorie": "Futuro composto", "erklaerung": "os factos → Plural: terão + Partizip."},
+     {"typ": "luecke", "satz": "De acordo com a acusação, a empresa ___ conhecimento do problema. (ter – condicional)", "loesungen": ["teria"], "de": "Laut Anklage habe die Firma von dem Problem gewusst.", "kategorie": "Condicional"},
+     {"typ": "auswahl", "frage": "Qual destas frases indica que o facto NÃO está provado?", "optionen": ["O juiz condenou o réu.", "O réu terá enganado vários clientes.", "O réu foi absolvido."], "richtig": 1, "erklaerung": "terá + Partizip = soll … haben (unbewiesen).", "kategorie": "Futuro composto"},
+     {"typ": "auswahl", "frage": "«O arguido terá agido sozinho.» significa:", "optionen": ["O arguido vai agir sozinho no futuro.", "O arguido agiu sozinho – está provado.", "Pensa-se que o arguido agiu sozinho, mas isso não está provado."], "richtig": 2, "erklaerung": "Das futuro composto bezieht sich hier auf die Vergangenheit und drückt eine unbewiesene Behauptung aus.", "kategorie": "Futuro composto"},
+     {"typ": "uebersetzen", "de": "Der Angeklagte soll das Geld veruntreut haben.", "loesungen": ["O arguido terá desviado o dinheiro.", "O arguido teria desviado o dinheiro.", "O arguido alegadamente desviou o dinheiro.", "Alegadamente, o arguido desviou o dinheiro.", "O arguido terá desviado dinheiro."]},
+     {"typ": "uebersetzen", "de": "Wenn Sie mit dem Urteil nicht einverstanden sind, können Sie Rechtsmittel einlegen.", "loesungen": ["Se não concordar com a sentença, pode recorrer.", "Se não concordar com a sentença, pode recorrer da decisão.", "Se não concordar com a sentença, pode interpor recurso.", "Caso não concorde com a sentença, pode recorrer.", "Caso não concorde com a sentença, pode interpor recurso.", "Se não estiver de acordo com a sentença, pode recorrer.", "Se não concordar com a sentença, pode recorrer dela."]},
+     {"typ": "satzbau", "de": "Der Richter hat den Angeklagten aus Mangel an Beweisen freigesprochen.", "loesung": "O juiz absolveu o arguido por falta de provas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Notícia de tribunal",
+    "situation": "Num noticiário regional, uma jornalista fala de um julgamento e pede explicações a um advogado. (Caso fictício.)",
+    "zeilen": [
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Começou ontem, no tribunal de Portimão, o julgamento de um empresário da construção acusado de burla. Segundo o Ministério Público, o arguido terá vendido o mesmo apartamento a três compradores diferentes.", "de": "Gestern hat im Gericht von Portimão der Prozess gegen einen Bauunternehmer begonnen, der des Betrugs angeklagt ist. Laut Staatsanwaltschaft soll der Angeklagte dieselbe Wohnung an drei verschiedene Käufer verkauft haben."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Os factos terão ocorrido entre 2019 e 2021. O arguido não prestou declarações na primeira audiência. Temos em estúdio o advogado Rui Matos. Doutor, o que acontece agora?", "de": "Die Taten sollen sich zwischen 2019 und 2021 ereignet haben. Der Angeklagte hat sich in der ersten Verhandlung nicht geäußert. Bei uns im Studio ist der Anwalt Rui Matos. Herr Doktor, wie geht es jetzt weiter?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Agora o tribunal ouve as testemunhas e analisa as provas. Só no fim do julgamento é que é lida a sentença.", "de": "Jetzt hört das Gericht die Zeugen an und prüft die Beweise. Erst am Ende der Verhandlung wird das Urteil verkündet."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "E o arguido pode ser condenado a pena de prisão?", "de": "Und kann der Angeklagte zu einer Freiheitsstrafe verurteilt werden?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Pode ser condenado, mas também pode ser absolvido. Não nos esqueçamos de que, até haver uma decisão definitiva, o arguido presume-se inocente.", "de": "Er kann verurteilt, aber auch freigesprochen werden. Vergessen wir nicht: Bis zu einer rechtskräftigen Entscheidung gilt der Angeklagte als unschuldig."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "E se for condenado, o processo acaba aí?", "de": "Und wenn er verurteilt wird, ist das Verfahren dann zu Ende?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Não necessariamente. Em regra, tanto o arguido como o Ministério Público podem recorrer da decisão para um tribunal superior, desde que o façam dentro do prazo legal.", "de": "Nicht unbedingt. In der Regel können sowohl der Angeklagte als auch die Staatsanwaltschaft bei einem höheren Gericht Rechtsmittel gegen die Entscheidung einlegen, sofern sie das innerhalb der gesetzlichen Frist tun."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "E os compradores que perderam o dinheiro?", "de": "Und die Käufer, die ihr Geld verloren haben?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Podem pedir uma indemnização no próprio processo penal. Assim não precisam de intentar uma ação à parte.", "de": "Sie können im Strafverfahren selbst Schadenersatz verlangen. So müssen sie keine gesonderte Klage erheben."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Obrigada, doutor. A próxima audiência está marcada para o dia catorze. Voltaremos ao assunto.", "de": "Danke, Herr Doktor. Die nächste Verhandlung ist für den Vierzehnten angesetzt. Wir bleiben an dem Thema dran."}
+    ],
+    "fragen": [
+     {"frage": "De que é acusado o empresário?", "optionen": ["de não pagar os impostos", "de ter vendido o mesmo apartamento a vários compradores", "de ter construído sem licença"], "richtig": 1},
+     {"frage": "Segundo o advogado, como deve ser considerado o arguido até haver uma decisão definitiva?", "optionen": ["inocente", "culpado", "condenado"], "richtig": 0},
+     {"frage": "Quem pode, em regra, recorrer da decisão?", "optionen": ["só os compradores", "só o juiz", "o arguido e o Ministério Público"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva as frases em português.",
+    "aufgaben": [
+     {"de": "Der Prozess wurde auf März verschoben.", "loesungen": ["O julgamento foi adiado para março.", "O julgamento foi adiado para o mês de março."]},
+     {"de": "Die Richterin hat heute das Urteil verkündet.", "loesungen": ["A juíza leu hoje a sentença.", "A juíza leu a sentença hoje.", "Hoje a juíza leu a sentença.", "A juíza proferiu hoje a sentença.", "A juíza proferiu a sentença hoje."]},
+     {"de": "Laut Polizei soll der Beschuldigte allein gehandelt haben.", "loesungen": ["Segundo a polícia, o arguido terá agido sozinho.", "De acordo com a polícia, o arguido terá agido sozinho.", "Segundo a polícia, o arguido teria agido sozinho.", "Segundo a polícia, o arguido terá agido sem ajuda."]},
+     {"de": "Die Firma wurde zur Zahlung von Schadenersatz verurteilt.", "loesungen": ["A empresa foi condenada a pagar uma indemnização.", "A empresa foi condenada ao pagamento de uma indemnização.", "A empresa foi condenada a pagar indemnização."]},
+     {"de": "Das Rechtsmittel muss innerhalb der gesetzlichen Frist eingelegt werden.", "loesungen": ["O recurso tem de ser interposto dentro do prazo legal.", "O recurso tem de ser apresentado dentro do prazo legal.", "O recurso deve ser interposto dentro do prazo legal.", "O recurso deve ser apresentado dentro do prazo legal.", "O recurso tem que ser interposto dentro do prazo legal.", "O recurso tem que ser apresentado dentro do prazo legal."]}
+    ]
+   },
+   "saetze": [
+    {"id": "o-julgamento-foi-adiado", "pt": "O julgamento foi adiado para março.", "de": "Der Prozess wurde auf März verschoben."},
+    {"id": "o-arguido-tera-agido-sozinho", "pt": "Segundo a acusação, o arguido terá agido sozinho.", "de": "Laut Anklage soll der Angeklagte allein gehandelt haben."},
+    {"id": "recorrer-dentro-do-prazo", "pt": "Vamos recorrer da decisão dentro do prazo legal.", "de": "Wir werden innerhalb der gesetzlichen Frist Rechtsmittel gegen die Entscheidung einlegen."}
+   ]
+  },
+  {
+   "id": "B2-04-L10",
+   "typ": "neu",
+   "titel": "Na advogada: consulta e estratégia",
+   "vokabeln": ["os-honorarios", "a-consulta-juridica", "o-parecer-juridico", "a-contraparte", "as-hipoteses-de-exito", "chegar-a-acordo", "a-via-judicial", "o-apoio-judiciario", "o-sigilo-profissional", "a-provisao", "a-ordem-dos-advogados", "intentar-uma-acao"],
+   "grammatik": {
+    "titel": "Concessão e exceção: mesmo que, a não ser que, por mais que",
+    "erklaerung": [
+     "<b>Mesmo que</b> e <b>ainda que</b> (= auch wenn, selbst wenn) pedem o <b>conjuntivo</b>: <i><b>Mesmo que</b> ganhe o processo, não recupera todas as despesas.</i>",
+     "<b>A não ser que</b> e <b>a menos que</b> (= es sei denn) também pedem o conjuntivo. São parecidos com <b>salvo se</b>, mas mais correntes na fala: <i>Vamos para tribunal, <b>a não ser que</b> a contraparte <b>aceite</b> o acordo.</i>",
+     "<b>Por mais que</b> + conjuntivo (= so sehr … auch): <i><b>Por mais que</b> insista, a advogada não pode revelar nada – está sujeita ao sigilo profissional.</i>",
+     "<b>Embora</b> (= obwohl) leva sempre conjuntivo: <i>embora <b>seja</b> caro</i>. Já <b>apesar de</b> leva infinitivo (pessoal): <i>apesar de <b>termos</b> razão</i>.",
+     "Em hipóteses ou no passado, usa-se o <b>imperfeito do conjuntivo</b>: <i><b>Mesmo que ganhássemos</b>, o processo demoraria anos.</i>"
+    ],
+    "erklaerung_de": [
+     "mesmo que / ainda que = auch wenn → Konjunktiv.",
+     "a não ser que / a menos que = es sei denn → Konjunktiv (ähnlich wie salvo se).",
+     "por mais que = so sehr … auch → Konjunktiv.",
+     "embora = obwohl → Konjunktiv; apesar de + (persönlicher) Infinitiv.",
+     "Hypothetisch oder in der Vergangenheit: Konjunktiv Imperfekt (ganhássemos)."
+    ],
+    "vergleich": "Im Deutschen steht nach „auch wenn“ und „es sei denn“ der Indikativ („auch wenn Sie gewinnen“), im Englischen ebenso („even if you win“, „unless they accept“). Das Portugiesische verlangt den Konjunktiv: <i>mesmo que ganhe</i>, <i>a não ser que aceitem</i>.",
+    "beispiele": [
+     {"pt": "Mesmo que ganhe o processo, não recupera todas as despesas.", "de": "Auch wenn Sie den Prozess gewinnen, bekommen Sie nicht alle Kosten zurück."},
+     {"pt": "Seguimos a via judicial, a não ser que a contraparte aceite a proposta.", "de": "Wir beschreiten den Rechtsweg, es sei denn, die Gegenpartei nimmt den Vorschlag an."},
+     {"pt": "Embora as hipóteses de êxito sejam boas, aconselho um acordo.", "de": "Obwohl die Erfolgsaussichten gut sind, rate ich zu einer Einigung."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Mesmo que o senhor ___ razão, o processo pode demorar anos. (ter)", "loesungen": ["tenha"], "de": "Auch wenn Sie recht haben, kann der Prozess Jahre dauern.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Avançamos com a ação, a não ser que a contraparte ___ pagar. (aceitar)", "loesungen": ["aceite"], "de": "Wir erheben Klage, es sei denn, die Gegenpartei willigt ein zu zahlen.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Por mais que ___, a advogada não pode revelar nada. (insistir – nós)", "loesungen": ["insistamos"], "de": "So sehr wir auch nachbohren, die Anwältin darf nichts preisgeben.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Ainda que os honorários ___ altos, vale a pena. (ser)", "loesungen": ["sejam"], "de": "Auch wenn das Honorar hoch ist, lohnt es sich.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["Apesar de os honorários serem altos, contratámos a advogada.", "Apesar de os honorários sejam altos, contratámos a advogada.", "Apesar que os honorários são altos, contratámos a advogada."], "richtig": 0, "erklaerung": "apesar de + (persönlicher) Infinitiv: serem.", "kategorie": "Persönlicher Infinitiv"},
+     {"typ": "auswahl", "frage": "«Mesmo que ___ o processo, não recuperaríamos o dinheiro.»", "optionen": ["ganhamos", "ganhássemos", "ganharmos"], "richtig": 1, "erklaerung": "Hypothese mit Konditional im Hauptsatz → Konjunktiv Imperfekt: ganhássemos.", "kategorie": "Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Wir gehen vor Gericht, es sei denn, die Gegenpartei schlägt eine Einigung vor.", "loesungen": ["Vamos a tribunal, a não ser que a contraparte proponha um acordo.", "Vamos para tribunal, a não ser que a contraparte proponha um acordo.", "Vamos a tribunal, a menos que a contraparte proponha um acordo.", "Vamos para tribunal, a menos que a contraparte proponha um acordo.", "Vamos a tribunal a não ser que a contraparte proponha um acordo.", "Vamos a tribunal, salvo se a contraparte propuser um acordo."]},
+     {"typ": "uebersetzen", "de": "Auch wenn es teuer ist, möchte ich ein schriftliches Rechtsgutachten.", "loesungen": ["Mesmo que seja caro, quero um parecer jurídico por escrito.", "Mesmo que seja caro, gostava de um parecer jurídico por escrito.", "Mesmo que seja caro, queria um parecer jurídico por escrito.", "Mesmo que seja caro, gostaria de um parecer jurídico por escrito.", "Ainda que seja caro, quero um parecer jurídico por escrito.", "Ainda que seja caro, gostava de um parecer jurídico por escrito.", "Ainda que seja caro, queria um parecer jurídico por escrito."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma consulta jurídica",
+    "situation": "O Stefan está no escritório da advogada Sofia Antunes por causa de umas obras mal feitas na casa.",
+    "zeilen": [
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Sente-se, senhor Krenn. Li os documentos que me enviou. Em resumo, o empreiteiro não corrigiu as infiltrações no telhado, apesar de o senhor o ter avisado várias vezes.", "de": "Setzen Sie sich, Herr Krenn. Ich habe die Unterlagen gelesen, die Sie mir geschickt haben. Kurz gesagt: Der Bauunternehmer hat die undichten Stellen im Dach nicht behoben, obwohl Sie ihn mehrmals darauf hingewiesen haben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Exatamente. Já lhe escrevi três cartas e nada. Quais são as hipóteses de êxito, senhora doutora, se intentarmos uma ação?", "de": "Genau. Ich habe ihm schon drei Briefe geschrieben, und nichts. Wie stehen die Erfolgsaussichten, Frau Doktor, wenn wir Klage erheben?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Pelo que vi, são razoáveis: tem fotografias, o contrato e as cartas. Mas, mesmo que ganhe, a via judicial pode demorar bastante tempo.", "de": "Nach dem, was ich gesehen habe, ganz gut: Sie haben Fotos, den Vertrag und die Briefe. Aber selbst wenn Sie gewinnen, kann der Rechtsweg ziemlich lange dauern."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estou a ver. E quanto me vai custar?", "de": "Verstehe. Und was wird mich das kosten?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Os meus honorários são cobrados à hora e, para começar, peço-lhe uma provisão. A isso juntam-se as custas do tribunal.", "de": "Mein Honorar wird nach Stunden abgerechnet, und zu Beginn bitte ich Sie um einen Vorschuss. Dazu kommen die Gerichtskosten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Compreendo. Há alguma alternativa?", "de": "Verstehe. Gibt es eine Alternative?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Há. Proponho escrever primeiro à contraparte e tentar chegar a acordo – a não ser que o senhor prefira avançar já.", "de": "Ja. Ich schlage vor, zuerst der Gegenpartei zu schreiben und zu versuchen, uns zu einigen – es sei denn, Sie möchten sofort vorgehen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Prefiro tentar um acordo. Mas, se ele não responder, avançamos.", "de": "Ich versuche lieber eine Einigung. Aber wenn er nicht antwortet, gehen wir vor."},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Muito bem. Dou-lhe quinze dias na carta. Se não houver resposta, preparo a ação.", "de": "Sehr gut. Ich gebe ihm im Brief fünfzehn Tage. Wenn keine Antwort kommt, bereite ich die Klage vor."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Só mais uma pergunta: o que lhe contei fica entre nós?", "de": "Nur noch eine Frage: Bleibt das, was ich Ihnen erzählt habe, unter uns?"},
+     {"sprecher": "Sofia", "stimme": "f", "pt": "Naturalmente. Os advogados estão obrigados ao sigilo profissional.", "de": "Selbstverständlich. Anwälte unterliegen der beruflichen Schweigepflicht."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o problema do Stefan?", "optionen": ["O senhorio quer aumentar a renda.", "O vizinho fez obras sem licença.", "O empreiteiro não corrigiu as infiltrações no telhado."], "richtig": 2},
+     {"frage": "Porque é que a advogada considera razoáveis as hipóteses de êxito?", "optionen": ["Porque o Stefan tem fotografias, o contrato e as cartas.", "Porque o empreiteiro já admitiu a culpa.", "Porque o processo vai ser rápido."], "richtig": 0},
+     {"frage": "O que decide o Stefan?", "optionen": ["avançar imediatamente com a ação", "tentar primeiro chegar a acordo", "desistir do caso"], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Gostava de marcar uma consulta jurídica.", "de": "Ich möchte einen Termin zur Rechtsberatung vereinbaren."},
+     {"pt": "Quais são as hipóteses de êxito, senhora doutora?", "de": "Wie stehen die Erfolgsaussichten, Frau Doktor?"},
+     {"pt": "Como são calculados os seus honorários?", "de": "Wie wird Ihr Honorar berechnet?"},
+     {"pt": "Mesmo que demore, quero fazer valer os meus direitos.", "de": "Auch wenn es dauert, möchte ich meine Rechte geltend machen."},
+     {"pt": "Prefiro chegar a acordo, a não ser que a contraparte se recuse.", "de": "Ich ziehe eine Einigung vor, es sei denn, die Gegenpartei weigert sich."}
+    ]
+   },
+   "saetze": [
+    {"id": "quais-sao-as-hipoteses-de-exito", "pt": "Quais são as hipóteses de êxito, senhora doutora?", "de": "Wie stehen die Erfolgsaussichten, Frau Doktor?"},
+    {"id": "como-sao-calculados-os-honorarios", "pt": "Como são calculados os seus honorários?", "de": "Wie wird Ihr Honorar berechnet?"},
+    {"id": "a-nao-ser-que-a-contraparte-recuse", "pt": "Prefiro chegar a acordo, a não ser que a contraparte se recuse.", "de": "Ich ziehe eine Einigung vor, es sei denn, die Gegenpartei weigert sich."}
+   ]
+  },
+  {
+   "id": "B2-04-L11",
+   "typ": "neu",
+   "titel": "Conflitos no arrendamento",
+   "vokabeln": ["o-despejo", "o-periodo-de-renovacao", "a-atualizacao-da-renda", "o-atraso-no-pagamento", "o-aviso-de-rececao", "denunciar-o-contrato", "o-acordo-extrajudicial", "a-oposicao-a-renovacao", "o-coeficiente-de-atualizacao", "as-obras-de-conservacao", "a-injuncao", "a-acao-de-despejo"],
+   "grammatik": {
+    "titel": "Condições no passado: caso, desde que, salvo se + imperfeito do conjuntivo",
+    "erklaerung": [
+     "Quando o verbo principal está no <b>passado</b> ou no <b>condicional</b>, as conjunções condicionais pedem o <b>imperfeito do conjuntivo</b>: <i>O contrato dizia que, <b>caso</b> o inquilino não <b>pagasse</b>, o senhorio podia resolvê-lo.</i>",
+     "Formação: 3.ª pessoa do plural do pretérito perfeito sem <b>-ram</b> + -sse, -sses, -sse, -ssemos, -ssem: <i>pagaram → pagasse</i>, <i>fizeram → fizesse</i>, <i>houveram → houvesse</i>, <i>opuseram → opusesse</i>.",
+     "É muito frequente no <b>discurso indireto</b>: <i>«Caso não <b>pague</b>, avanço com a injunção.»</i> → <i>O senhorio disse que, caso eu não <b>pagasse</b>, avançaria com a injunção.</i>",
+     "O mesmo com <b>desde que</b> e <b>salvo se</b>: <i>Aceitou, <b>desde que</b> a renda <b>fosse</b> paga a tempo.</i> / <i>O contrato renovava-se, <b>salvo se</b> uma das partes se <b>opusesse</b>.</i>",
+     "Na frase principal: <b>condicional</b> (<i>avançaria</i>) ou, na fala, <b>imperfeito do indicativo</b> (<i>avançava</i>)."
+    ],
+    "erklaerung_de": [
+     "Steht der Hauptsatz in der Vergangenheit oder im Konditional, folgt nach caso, desde que, salvo se der Konjunktiv Imperfekt (Zeitenfolge).",
+     "Bildung: 3. Person Plural Perfekt ohne -ram + -sse: pagaram → pagasse, fizeram → fizesse.",
+     "Typisch in der indirekten Rede: „Er sagte, falls ich nicht zahle, würde er …“ → caso eu não pagasse.",
+     "Hauptsatz: Konditional oder umgangssprachlich Imperfekt."
+    ],
+    "vergleich": "Deutsch löst das mit indirekter Rede oder Konjunktiv („falls ich nicht zahle, würde er …“), Englisch verschiebt nur die Zeit („if I didn't pay, he would …“). Portugiesisch braucht eine eigene Form: <i>caso não pagasse</i> – nicht ✗ <i>caso não pague</i>, wenn der Hauptsatz in der Vergangenheit steht.",
+    "beispiele": [
+     {"pt": "O senhorio avisou que, caso o atraso continuasse, avançaria com uma ação de despejo.", "de": "Der Vermieter warnte, er werde eine Räumungsklage einreichen, falls der Rückstand anhalte."},
+     {"pt": "O inquilino aceitou a atualização da renda, desde que o senhorio fizesse as obras.", "de": "Der Mieter akzeptierte die Mietanpassung unter der Bedingung, dass der Vermieter die Arbeiten durchführt."},
+     {"pt": "O contrato renovava-se automaticamente, salvo se alguma das partes se opusesse.", "de": "Der Vertrag verlängerte sich automatisch, es sei denn, eine der Parteien widersprach."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O senhorio disse que, caso eu não ___ até dia oito, enviaria uma carta. (pagar)", "loesungen": ["pagasse"], "de": "Der Vermieter sagte, falls ich nicht bis zum Achten zahle, werde er einen Brief schicken.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Aceitámos a proposta, desde que o senhorio ___ as obras de conservação. (fazer)", "loesungen": ["fizesse"], "de": "Wir haben den Vorschlag angenommen, unter der Bedingung, dass der Vermieter die Instandhaltungsarbeiten durchführt.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "O contrato renovava-se, salvo se uma das partes se ___. (opor)", "loesungen": ["opusesse"], "de": "Der Vertrag verlängerte sich, es sei denn, eine der Parteien widersprach.", "kategorie": "Imperfeito do conjuntivo", "erklaerung": "opor → opuseram → opusesse."},
+     {"typ": "luecke", "satz": "Caso ___ algum problema, o inquilino devia avisar por escrito. (haver)", "loesungen": ["houvesse"], "de": "Falls es ein Problem gab, sollte der Mieter schriftlich Bescheid geben.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "«O advogado garantiu que, caso o inquilino ___ a dívida, não haveria ação de despejo.»", "optionen": ["pagasse", "pague", "pagar"], "richtig": 0, "erklaerung": "Hauptsatz in der Vergangenheit → Konjunktiv Imperfekt: pagasse.", "kategorie": "Zeitenfolge"},
+     {"typ": "auswahl", "frage": "Discurso indireto: «Caso não respondam, avanço com a injunção.» → O senhorio disse que, caso não ___, avançaria com a injunção.", "optionen": ["respondam", "respondessem", "responderem"], "richtig": 1, "erklaerung": "In der indirekten Rede wird aus dem presente do conjuntivo das imperfeito do conjuntivo.", "kategorie": "Zeitenfolge"},
+     {"typ": "uebersetzen", "de": "Der Mieter sagte, falls die Arbeiten nicht gemacht würden, würde er ausziehen.", "loesungen": ["O inquilino disse que, caso as obras não fossem feitas, sairia de casa.", "O inquilino disse que, se as obras não fossem feitas, sairia de casa.", "O inquilino disse que, caso as obras não fossem feitas, saía de casa.", "O inquilino disse que, caso as obras não fossem feitas, se mudaria.", "O inquilino disse que, se as obras não fossem feitas, se mudaria.", "O inquilino disse que, caso as obras não fossem feitas, mudar-se-ia.", "O inquilino disse que, caso não fizessem as obras, sairia de casa.", "O arrendatário disse que, caso as obras não fossem feitas, sairia de casa."]},
+     {"typ": "satzbau", "de": "Wir haben den Vertrag per Einschreiben mit Rückschein gekündigt.", "loesung": "Denunciámos o contrato por carta registada com aviso de receção."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma carta do senhorio",
+    "situation": "A Rita recebeu uma carta do senhorio e pede conselho ao Stefan.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, tens um minuto? Recebi ontem uma carta registada do meu senhorio, com aviso de receção. Diz que se opõe à renovação do contrato.", "de": "Stefan, hast du eine Minute? Ich habe gestern einen Einschreibebrief mit Rückschein von meinem Vermieter bekommen. Er schreibt, dass er der Verlängerung des Vertrags widerspricht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A sério? Mas o teu contrato não se renovava automaticamente?", "de": "Echt? Aber hat sich dein Vertrag nicht automatisch verlängert?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Sim. Dizia que se renovava por períodos de renovação de um ano, salvo se alguma das partes se opusesse com a antecedência prevista.", "de": "Ja. Darin stand, dass er sich um jeweils ein Jahr verlängert, es sei denn, eine der Parteien widerspricht mit der vorgesehenen Frist."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E ele respeitou essa antecedência?", "de": "Und hat er diese Frist eingehalten?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "É isso que não sei. A carta chegou bastante tarde. Acho que ele quer arrendar a casa a turistas no verão.", "de": "Das weiß ich eben nicht. Der Brief kam ziemlich spät. Ich glaube, er will die Wohnung im Sommer an Touristen vermieten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então vale a pena mostrar o contrato a uma advogada. Se o prazo não tiver sido cumprido, a oposição pode não ter efeito.", "de": "Dann lohnt es sich, den Vertrag einer Anwältin zu zeigen. Falls die Frist nicht eingehalten wurde, ist der Widerspruch womöglich unwirksam."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E há outra coisa: no ano passado, ele disse que, caso eu aceitasse a atualização da renda, faria as obras na cozinha. Aceitei e até hoje nada.", "de": "Und noch etwas: Letztes Jahr hat er gesagt, falls ich die Mietanpassung akzeptiere, würde er die Arbeiten in der Küche machen. Ich habe akzeptiert, und bis heute ist nichts passiert."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tens isso por escrito?", "de": "Hast du das schriftlich?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Tenho um e-mail dele. E nunca houve um único atraso no pagamento da minha parte.", "de": "Ich habe eine E-Mail von ihm. Und von meiner Seite gab es nie einen einzigen Zahlungsrückstand."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso é importante. Talvez consigam um acordo extrajudicial antes de isto ir parar a tribunal.", "de": "Das ist wichtig. Vielleicht schafft ihr eine außergerichtliche Einigung, bevor das vor Gericht landet."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Tens razão. Vou marcar uma consulta jurídica ainda esta semana.", "de": "Du hast recht. Ich mache noch diese Woche einen Termin zur Rechtsberatung aus."}
+    ],
+    "fragen": [
+     {"frage": "O que diz a carta do senhorio?", "optionen": ["que vai aumentar a renda", "que se opõe à renovação do contrato", "que a Rita tem rendas em atraso"], "richtig": 1},
+     {"frage": "O que tinha prometido o senhorio no ano passado?", "optionen": ["fazer obras na cozinha, caso a Rita aceitasse a atualização da renda", "baixar a renda", "vender-lhe a casa"], "richtig": 0},
+     {"frage": "O que decide a Rita?", "optionen": ["sair de casa imediatamente", "deixar de pagar a renda", "marcar uma consulta jurídica"], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "É inquilino e telefona ao senhorio por causa da atualização da renda e de umas obras.",
+    "zeilen": [
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "Estou? Fala Joaquim Brito.", "de": "Hallo? Joaquim Brito am Apparat."},
+     {"ich": true, "aufgabe": "Cumprimente-o e diga que recebeu a carta sobre a atualização da renda.", "loesungen": ["Bom dia, senhor Brito. Recebi a carta sobre a atualização da renda.", "Boa tarde, senhor Brito. Recebi a carta sobre a atualização da renda.", "Bom dia, senhor Brito. Recebi a sua carta sobre a atualização da renda.", "Boa tarde, senhor Brito. Recebi a sua carta sobre a atualização da renda.", "Bom dia. Recebi a sua carta sobre a atualização da renda.", "Bom dia, senhor Brito, recebi a carta sobre a atualização da renda."]},
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "Muito bem. A renda é atualizada com o coeficiente deste ano, como prevê a lei.", "de": "Sehr gut. Die Miete wird mit dem diesjährigen Anpassungsfaktor angepasst, wie es das Gesetz vorsieht."},
+     {"ich": true, "aufgabe": "Diga que aceita, desde que ele faça as obras na casa de banho.", "loesungen": ["Aceito, desde que faça as obras na casa de banho.", "Eu aceito, desde que faça as obras na casa de banho.", "Aceito, desde que o senhor faça as obras na casa de banho.", "Está bem, aceito, desde que faça as obras na casa de banho.", "Aceito desde que faça as obras na casa de banho."]},
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "As obras na casa de banho? Isso não é por conta do inquilino?", "de": "Die Arbeiten im Bad? Ist das nicht Sache des Mieters?"},
+     {"ich": true, "aufgabe": "Responda que, em regra, as obras de conservação cabem ao senhorio.", "loesungen": ["Em regra, as obras de conservação cabem ao senhorio.", "Não, em regra as obras de conservação cabem ao senhorio.", "Não. Em regra, as obras de conservação cabem ao senhorio.", "Em regra, as obras de conservação são da responsabilidade do senhorio.", "Em regra, as obras de conservação cabem ao senhorio, não ao inquilino."]},
+     {"sprecher": "Senhorio", "stimme": "m", "pt": "Está bem, está bem. Mando cá o canalizador na próxima semana.", "de": "Schon gut, schon gut. Ich schicke nächste Woche den Installateur vorbei."}
+    ]
+   },
+   "saetze": [
+    {"id": "aceito-desde-que-faca-as-obras", "pt": "Aceito, desde que faça as obras de conservação.", "de": "Ich bin einverstanden, sofern Sie die Instandhaltungsarbeiten durchführen."},
+    {"id": "disse-que-caso-nao-pagasse", "pt": "Disse que, caso eu não pagasse, avançaria com o despejo.", "de": "Er sagte, falls ich nicht zahle, werde er die Räumung betreiben."},
+    {"id": "nunca-houve-atraso-no-pagamento", "pt": "Nunca houve nenhum atraso no pagamento.", "de": "Es gab nie einen Zahlungsrückstand."}
+   ]
+  },
+  {
+   "id": "B2-04-L12",
+   "typ": "neu",
+   "titel": "Do juridiquês à linguagem corrente",
+   "vokabeln": ["por-outras-palavras", "em-linguagem-corrente", "resumidamente", "o-essencial", "decorrer-de", "implicar", "em-causa", "a-ressalva", "o-requerente", "descodificar", "a-redacao", "o-juridiques"],
+   "grammatik": {
+    "titel": "Reformular: do substantivo ao verbo",
+    "erklaerung": [
+     "A linguagem jurídica prefere <b>substantivos</b> (nominalização): <i>a falta de pagamento</i>, <i>a apresentação do requerimento</i>, <i>após a receção da notificação</i>. Na linguagem corrente usamos <b>verbos</b>: <i>se não pagar</i>, <i>quando apresentar o pedido</i>, <i>depois de receber a carta</i>.",
+     "Preposição + substantivo → conjunção ou preposição + verbo: <i><b>em caso de</b> incumprimento</i> → <i><b>se</b> não <b>cumprir</b></i>; <i><b>após a</b> assinatura</i> → <i><b>depois de assinar</b></i>; <i><b>para efeitos de</b> registo</i> → <i><b>para registar</b></i>.",
+     "Se a ação tem um sujeito próprio, use o <b>infinitivo pessoal</b>: <i>antes da entrega dos documentos pelos herdeiros</i> → <i>antes de os herdeiros <b>entregarem</b> os documentos</i>.",
+     "A passiva passa a ativa: <i>A renda <b>é paga</b> pelo inquilino.</i> → <i>O inquilino <b>paga</b> a renda.</i>",
+     "Para anunciar a reformulação: <b>ou seja, isto é, por outras palavras, em linguagem corrente, resumidamente</b>."
+    ],
+    "erklaerung_de": [
+     "Juristensprache liebt Substantive (Nominalstil), die Alltagssprache Verben.",
+     "em caso de incumprimento → se não cumprir; após a assinatura → depois de assinar; para efeitos de registo → para registar.",
+     "Mit eigenem Subjekt: persönlicher Infinitiv (antes de os herdeiros entregarem …).",
+     "Passiv wird zu Aktiv.",
+     "Umformulierungs-Konnektoren: ou seja, isto é, por outras palavras …"
+    ],
+    "vergleich": "Der deutsche Amtsstil kennt dasselbe („nach erfolgter Zustellung“ = „wenn Sie den Brief bekommen haben“), im Englischen spricht man von „plain language“. Im Portugiesischen ist der persönliche Infinitiv das wichtigste Werkzeug, um den Nominalstil aufzulösen.",
+    "beispiele": [
+     {"pt": "Em caso de incumprimento, há lugar a indemnização. → Se não cumprir, tem de pagar uma indemnização.", "de": "Bei Nichterfüllung ist Schadenersatz zu leisten. → Wenn Sie nicht erfüllen, müssen Sie Schadenersatz zahlen."},
+     {"pt": "Após a receção da notificação, dispõe de dez dias. → Depois de receber a carta, tem dez dias.", "de": "Nach Zustellung der Mitteilung verfügen Sie über zehn Tage. → Wenn Sie den Brief bekommen haben, haben Sie zehn Tage."},
+     {"pt": "Antes da assinatura do contrato pelas partes … → Antes de as partes assinarem o contrato …", "de": "Vor Unterzeichnung des Vertrags durch die Parteien … → Bevor die Parteien den Vertrag unterschreiben …"}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "«Após a assinatura do contrato» → Depois de ___ o contrato, … (assinar – nós)", "loesungen": ["assinarmos"], "de": "Nach Unterzeichnung des Vertrags → Nachdem wir den Vertrag unterschrieben haben, …", "kategorie": "Persönlicher Infinitiv"},
+     {"typ": "luecke", "satz": "«Antes da entrega dos documentos pelos requerentes» → Antes de os requerentes ___ os documentos. (entregar)", "loesungen": ["entregarem"], "de": "Vor Einreichung der Unterlagen durch die Antragsteller → Bevor die Antragsteller die Unterlagen einreichen.", "kategorie": "Persönlicher Infinitiv"},
+     {"typ": "luecke", "satz": "«Em caso de atraso» → Se o senhor se ___, … (atrasar)", "loesungen": ["atrasar"], "de": "Im Fall einer Verspätung → Wenn Sie sich verspäten, …", "kategorie": "Futuro do conjuntivo"},
+     {"typ": "auswahl", "frage": "Qual é a versão em linguagem corrente de «A falta de pagamento implica a perda do sinal»?", "optionen": ["O pagamento implica o sinal.", "Se não pagar, perde o sinal.", "A perda do sinal é paga."], "richtig": 1, "kategorie": "Umformulieren"},
+     {"typ": "auswahl", "frage": "«Para efeitos de registo, é necessária a apresentação do original.» Em linguagem corrente:", "optionen": ["Para registar, tem de apresentar o original.", "Para o registo, o original apresenta-se necessário.", "É necessário registar os efeitos do original."], "richtig": 0, "kategorie": "Umformulieren"},
+     {"typ": "satzbau", "de": "Aus dieser Klausel ergibt sich, dass der Mieter die Reparaturen bezahlt.", "loesung": "Desta cláusula decorre que o inquilino paga as reparações."},
+     {"typ": "uebersetzen", "de": "Wenn Sie den Brief bekommen haben, haben Sie zehn Tage Zeit zu antworten.", "loesungen": ["Depois de receber a carta, tem dez dias para responder.", "Quando receber a carta, tem dez dias para responder.", "Depois de receber a carta, dispõe de dez dias para responder.", "Após receber a carta, tem dez dias para responder.", "Depois de ter recebido a carta, tem dez dias para responder.", "Quando tiver recebido a carta, tem dez dias para responder."]},
+     {"typ": "uebersetzen", "de": "Einfach gesagt: Der Vermieter muss die Instandhaltungsarbeiten bezahlen.", "loesungen": ["Em linguagem corrente, o senhorio tem de pagar as obras de conservação.", "Em linguagem corrente: o senhorio tem de pagar as obras de conservação.", "Em linguagem corrente, o senhorio tem que pagar as obras de conservação.", "Em linguagem corrente, é o senhorio que tem de pagar as obras de conservação.", "Por outras palavras, o senhorio tem de pagar as obras de conservação."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma carta da Câmara",
+    "situation": "O Stefan recebeu uma carta da Câmara Municipal sobre o seu pedido para instalar um toldo no escritório. A Ana ajuda-o a descodificar o texto.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ana, ajuda-me aqui. Recebi uma carta da Câmara sobre o pedido do toldo e está escrita num juridiquês impossível.", "de": "Ana, hilf mir mal. Ich habe einen Brief von der Gemeinde wegen des Antrags für die Markise bekommen, und der ist in einem unmöglichen Juristendeutsch geschrieben."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Deixa ver. «Fica o requerente notificado de que, para efeitos de apreciação do pedido, se torna necessária a junção de planta de localização.»", "de": "Lass sehen. „Dem Antragsteller wird mitgeteilt, dass zur Prüfung des Antrags die Beifügung eines Lageplans erforderlich ist.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Por outras palavras?", "de": "Mit anderen Worten?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Em linguagem corrente: para analisarem o teu pedido, tens de enviar uma planta com a localização. O requerente és tu.", "de": "Einfach gesagt: Damit sie deinen Antrag prüfen, musst du einen Lageplan schicken. Der Antragsteller bist du."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ah, então é só isso! E o parágrafo seguinte?", "de": "Ach, das ist alles! Und der nächste Absatz?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "«A não apresentação dos elementos em causa no prazo de dez dias úteis implica a rejeição liminar do pedido.»", "de": "„Die Nichtvorlage der betreffenden Unterlagen innerhalb von zehn Werktagen hat die sofortige Zurückweisung des Antrags zur Folge.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "«Rejeição liminar» parece grave.", "de": "„Sofortige Zurückweisung“ klingt ernst."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Resumidamente: se não mandares a planta em dez dias úteis, rejeitam o pedido logo à partida, sem o analisarem. O essencial é não deixares passar o prazo.", "de": "Kurz gesagt: Wenn du den Plan nicht innerhalb von zehn Werktagen schickst, lehnen sie den Antrag von vornherein ab, ohne ihn zu prüfen. Das Wesentliche ist, die Frist nicht zu verpassen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E aquela frase no fim, com uma ressalva?", "de": "Und der Satz am Ende, mit einem Vorbehalt?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "«Ressalvam-se os direitos de terceiros.» Isto é: mesmo que a Câmara aprove o toldo, os vizinhos mantêm os seus direitos. Se o toldo os prejudicar, podem reclamar.", "de": "„Die Rechte Dritter bleiben vorbehalten.“ Das heißt: Selbst wenn die Gemeinde die Markise genehmigt, behalten die Nachbarn ihre Rechte. Wenn die Markise sie beeinträchtigt, können sie sich beschweren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Percebido. Quem fez a redação desta carta devia fazer um curso de português claro!", "de": "Verstanden. Wer diesen Brief verfasst hat, sollte einen Kurs in klarem Portugiesisch machen!"}
+    ],
+    "fragen": [
+     {"frage": "O que pede a Câmara ao Stefan?", "optionen": ["que pague uma taxa", "que envie uma planta de localização", "que retire o toldo"], "richtig": 1},
+     {"frage": "O que acontece se o Stefan não enviar nada em dez dias úteis?", "optionen": ["O pedido é rejeitado sem ser analisado.", "Tem de pagar uma coima.", "O prazo é prolongado automaticamente."], "richtig": 0},
+     {"frage": "O que significa a ressalva dos direitos de terceiros?", "optionen": ["Que o Stefan pode ignorar os vizinhos.", "Que a Câmara paga eventuais danos.", "Que os vizinhos mantêm os seus direitos, mesmo que o pedido seja aprovado."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva as frases em português, em linguagem clara.",
+    "aufgaben": [
+     {"de": "Mit anderen Worten: Sie müssen den Plan innerhalb von zehn Tagen schicken.", "loesungen": ["Por outras palavras, tem de enviar a planta no prazo de dez dias.", "Por outras palavras: tem de enviar a planta no prazo de dez dias.", "Por outras palavras, tem de enviar a planta em dez dias.", "Por outras palavras, tem de mandar a planta em dez dias.", "Por outras palavras, tem que enviar a planta em dez dias.", "Por outras palavras, tem de enviar a planta dentro de dez dias."]},
+     {"de": "Kurz gesagt: Wenn Sie nicht zahlen, verlieren Sie die Anzahlung.", "loesungen": ["Resumidamente, se não pagar, perde o sinal.", "Resumidamente: se não pagar, perde o sinal.", "Em resumo, se não pagar, perde o sinal.", "Resumindo, se não pagar, perde o sinal."]},
+     {"de": "Der Wortlaut dieses Artikels ist sehr verwirrend.", "loesungen": ["A redação deste artigo é muito confusa.", "A redação deste artigo é bastante confusa."]},
+     {"de": "Was bedeutet diese Klausel in der Alltagssprache?", "loesungen": ["O que significa esta cláusula em linguagem corrente?", "O que quer dizer esta cláusula em linguagem corrente?", "Em linguagem corrente, o que significa esta cláusula?", "O que é que significa esta cláusula em linguagem corrente?", "O que é que quer dizer esta cláusula em linguagem corrente?"]},
+     {"de": "Bevor die Parteien unterschreiben, muss der Notar den Vertrag vorlesen.", "loesungen": ["Antes de as partes assinarem, o notário tem de ler o contrato.", "Antes de as partes assinarem, o notário tem que ler o contrato.", "Antes de as partes assinarem, o notário deve ler o contrato.", "Antes de as partes assinarem o contrato, o notário tem de o ler.", "Antes de as partes assinarem, o notário tem de ler o contrato em voz alta."]}
+    ]
+   },
+   "saetze": [
+    {"id": "por-outras-palavras-na-pratica", "pt": "Por outras palavras: o que é que isto significa na prática?", "de": "Mit anderen Worten: Was bedeutet das in der Praxis?"},
+    {"id": "o-que-significa-em-linguagem-corrente", "pt": "O que significa esta cláusula em linguagem corrente?", "de": "Was bedeutet diese Klausel in der Alltagssprache?"},
+    {"id": "o-essencial-e-nao-deixar-passar-o-prazo", "pt": "O essencial é não deixar passar o prazo.", "de": "Das Wesentliche ist, die Frist nicht zu verpassen."}
+   ]
+  },
+  {"id": "B2-04-L13", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B2-04-L14", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Uma fatura por pagar – eine offene Rechnung",
+   "situation": "O Stefan telefona à advogada Sofia Antunes porque um cliente não pagou uma fatura.",
+   "zeilen": [
+    {"sprecher": "Sofia", "stimme": "f", "pt": "Bom dia, senhor Krenn. Recebi o seu e-mail. Um cliente não pagou a última fatura, é isso?", "de": "Guten Tag, Herr Krenn. Ich habe Ihre E-Mail bekommen. Ein Kunde hat die letzte Rechnung nicht bezahlt, richtig?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Exatamente. Um hotel em Albufeira. Já passaram sessenta dias e não responde às minhas mensagens.", "de": "Genau. Ein Hotel in Albufeira. Es sind schon sechzig Tage vergangen, und es antwortet nicht auf meine Nachrichten."},
+    {"sprecher": "Sofia", "stimme": "f", "pt": "O contrato que assinaram tem alguma cláusula sobre atrasos?", "de": "Hat der Vertrag, den Sie unterschrieben haben, eine Klausel über Zahlungsverzug?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Tem. Diz que, caso o cliente não pague no prazo, são devidos juros de mora, salvo se o atraso resultar de culpa da minha empresa.", "de": "Ja. Darin steht, dass Verzugszinsen fällig werden, falls der Kunde nicht fristgerecht zahlt, es sei denn, der Verzug geht auf ein Verschulden meiner Firma zurück."},
+    {"sprecher": "Sofia", "stimme": "f", "pt": "E houve algum problema com o serviço?", "de": "Und gab es irgendein Problem mit der Leistung?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Nenhum. Até recebi um e-mail do diretor a elogiar o relatório.", "de": "Keines. Ich habe sogar eine E-Mail vom Direktor bekommen, in der er den Bericht lobt."},
+    {"sprecher": "Sofia", "stimme": "f", "pt": "Ótimo, guarde-o. Proponho o seguinte: envio primeiro uma carta registada com aviso de receção. Se não pagarem em quinze dias, avançamos com uma injunção.", "de": "Sehr gut, bewahren Sie sie auf. Ich schlage Folgendes vor: Ich schicke zuerst einen Einschreibebrief mit Rückschein. Wenn sie nicht innerhalb von fünfzehn Tagen zahlen, leiten wir ein Mahnverfahren ein."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E se eles propuserem pagar em prestações?", "de": "Und wenn sie vorschlagen, in Raten zu zahlen?"},
+    {"sprecher": "Sofia", "stimme": "f", "pt": "Pode aceitar, desde que fique tudo por escrito e com datas fixas. Mesmo que demore um pouco mais, é melhor do que ir para tribunal.", "de": "Das können Sie annehmen, sofern alles schriftlich und mit festen Terminen festgehalten wird. Auch wenn es etwas länger dauert, ist es besser, als vor Gericht zu gehen."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Concordo. Avance com a carta, se faz favor.", "de": "Einverstanden. Schicken Sie den Brief bitte ab."}
+   ],
+   "fragen": [
+    {"frage": "Qual é o problema do Stefan?", "optionen": ["Um hotel não pagou a última fatura.", "Um hotel quer rescindir o contrato.", "Um cliente reclamou do relatório."], "richtig": 0},
+    {"frage": "Segundo a cláusula, quando é que NÃO são devidos juros de mora?", "optionen": ["quando o cliente paga em prestações", "quando o atraso resulta de culpa da empresa do Stefan", "quando passam mais de sessenta dias"], "richtig": 1},
+    {"frage": "O que vai a advogada fazer primeiro?", "optionen": ["intentar uma ação em tribunal", "telefonar ao diretor do hotel", "enviar uma carta registada com aviso de receção"], "richtig": 2},
+    {"frage": "Em que condição pode o Stefan aceitar o pagamento em prestações?", "optionen": ["se o hotel pagar o dobro dos juros", "desde que fique tudo por escrito e com datas fixas", "só com autorização do tribunal"], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Antes de assinar – vor der Unterschrift",
+   "situation": "A Ana encontrou um folheto informativo sobre contratos de arrendamento.",
+   "text": [
+    "Antes de assinar um contrato de arrendamento – cinco conselhos",
+    "1. Leia o contrato com calma antes da assinatura. Caso alguma cláusula lhe pareça confusa, peça uma explicação por escrito ou marque uma consulta jurídica.",
+    "2. Verifique a duração e a renovação. Muitos contratos renovam-se automaticamente, salvo se uma das partes se opuser com a antecedência prevista. Anote essa data!",
+    "3. Confirme quem paga as obras. Em regra, as obras de conservação cabem ao senhorio, a não ser que o contrato preveja outra solução dentro dos limites da lei.",
+    "4. Guarde todos os comprovativos. Quem pagar a renda em numerário deve pedir sempre recibo.",
+    "5. Em caso de conflito, tente primeiro um acordo extrajudicial; a via judicial deve ser o último recurso. Atenção: as informações deste folheto são gerais e não dispensam a consulta da lei em vigor."
+   ],
+   "fragen": [
+    {"frage": "O que aconselha o folheto caso uma cláusula pareça confusa?", "optionen": ["assinar e perguntar depois", "pedir uma explicação por escrito ou marcar uma consulta jurídica", "riscar a cláusula"], "richtig": 1},
+    {"frage": "Porque é importante anotar uma data?", "optionen": ["por causa da oposição à renovação", "porque a renda é paga nesse dia", "por causa das obras de conservação"], "richtig": 0},
+    {"frage": "O que deve fazer quem paga a renda em numerário?", "optionen": ["pagar sempre no banco", "pagar só de seis em seis meses", "pedir sempre recibo"], "richtig": 2},
+    {"frage": "Segundo o folheto, quando se deve recorrer à via judicial?", "optionen": ["sempre que houver um atraso", "como último recurso", "antes de tentar um acordo"], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Falls der Kunde nicht zahlt, schicken wir ihm einen Einschreibebrief.", "loesungen": ["Caso o cliente não pague, enviamos-lhe uma carta registada.", "Caso o cliente não pague, mandamos-lhe uma carta registada.", "Caso o cliente não pague, enviaremos uma carta registada.", "Caso o cliente não pague, enviamos uma carta registada.", "Se o cliente não pagar, enviamos-lhe uma carta registada.", "Se o cliente não pagar, mandamos-lhe uma carta registada.", "Se o cliente não pagar, enviamos uma carta registada."]},
+   {"de": "Sie können das Haus benutzen, sofern Sie die Miete pünktlich zahlen.", "loesungen": ["Pode usar a casa, desde que pague a renda a tempo.", "Pode utilizar a casa, desde que pague a renda a tempo.", "Pode usar a casa, desde que pague a renda pontualmente.", "Pode usar a casa desde que pague a renda a tempo.", "Pode usar a casa, desde que pague a renda dentro do prazo."]},
+   {"de": "Der Vertrag verlängert sich automatisch, außer wenn eine der Parteien widerspricht.", "loesungen": ["O contrato renova-se automaticamente, salvo se uma das partes se opuser.", "O contrato renova-se automaticamente salvo se uma das partes se opuser.", "O contrato renova-se automaticamente, salvo se alguma das partes se opuser.", "O contrato é renovado automaticamente, salvo se uma das partes se opuser.", "O contrato renova-se automaticamente, a não ser que uma das partes se oponha."]},
+   {"de": "Der Angeklagte soll allein gehandelt haben.", "loesungen": ["O arguido terá agido sozinho.", "O arguido teria agido sozinho.", "Alegadamente, o arguido agiu sozinho.", "O arguido alegadamente agiu sozinho."]},
+   {"de": "Auch wenn wir recht haben, ist es besser, uns zu einigen.", "loesungen": ["Mesmo que tenhamos razão, é melhor chegarmos a acordo.", "Mesmo que tenhamos razão, é melhor chegar a acordo.", "Mesmo que tenhamos razão, é melhor chegarmos a um acordo.", "Mesmo que tenhamos razão, é melhor chegar a um acordo.", "Ainda que tenhamos razão, é melhor chegarmos a acordo.", "Ainda que tenhamos razão, é melhor chegar a acordo.", "Mesmo que tenhamos razão, é melhor que cheguemos a acordo."]},
+   {"de": "Ich muss meine Unterschrift beglaubigen lassen.", "loesungen": ["Preciso de reconhecer a minha assinatura.", "Tenho de reconhecer a minha assinatura.", "Tenho que reconhecer a minha assinatura.", "Preciso de fazer o reconhecimento da minha assinatura.", "Tenho de fazer o reconhecimento da minha assinatura."]}
+  ],
+  "sprechen": [
+   {"pt": "Tem trinta dias para responder, nos termos da lei.", "de": "Nach Maßgabe des Gesetzes haben Sie dreißig Tage Zeit zu antworten."},
+   {"pt": "Caso tenha dúvidas, não hesite em contactar-me.", "de": "Falls Sie Fragen haben, zögern Sie nicht, mich zu kontaktieren."},
+   {"pt": "Segundo a acusação, o arguido terá agido sozinho.", "de": "Laut Anklage soll der Angeklagte allein gehandelt haben."},
+   {"pt": "Prefiro chegar a acordo, a não ser que a contraparte se recuse.", "de": "Ich ziehe eine Einigung vor, es sei denn, die Gegenpartei weigert sich."},
+   {"pt": "Por outras palavras: se não pagar a tempo, perde o desconto.", "de": "Mit anderen Worten: Wenn Sie nicht rechtzeitig zahlen, verlieren Sie den Rabatt."}
+  ]
+ }
+}
