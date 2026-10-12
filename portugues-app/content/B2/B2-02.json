@@ -1,0 +1,1106 @@
+{
+ "id": "B2-02",
+ "level": "B2",
+ "titel": "Se tivesse sabido… – Irreale Vergangenheit",
+ "beschreibung": "Über verpasste Gelegenheiten, Unfälle, alternative Geschichte und eigene Entscheidungen sprechen: Condicional composto (teria feito) und die umgangssprachliche Form (tinha feito), irreale und gemischte Bedingungssätze, Vermutungen und journalistische Distanzierung (o suspeito teria fugido) sowie caso, a não ser que, sem que und desde que mit Konjunktiv.",
+ "vokabeln": [
+  {"id": "por-pouco", "pt": "por pouco", "de": "beinahe / um ein Haar", "emoji": "😅", "beispiel_pt": "Por pouco não perdíamos o avião.", "beispiel_de": "Beinahe hätten wir das Flugzeug verpasst.", "hinweis": "por pouco não + verbo = beinahe (wäre/hätte …)"},
+  {"id": "a-justa", "pt": "à justa", "de": "(ganz) knapp", "emoji": "⏱️", "beispiel_pt": "Cheguei à porta de embarque mesmo à justa.", "beispiel_de": "Ich bin ganz knapp am Gate angekommen.", "hinweis": "Coloquial. O dinheiro chega à justa = das Geld reicht gerade so."},
+  {"id": "a-escala", "pt": "a escala", "de": "die Zwischenlandung / der Zwischenstopp", "emoji": "🛬", "beispiel_pt": "O voo para Viena tem escala em Frankfurt.", "beispiel_de": "Der Flug nach Wien hat eine Zwischenlandung in Frankfurt.", "hinweis": "Um voo direto não tem escala. A escala também = der Maßstab."},
+  {"id": "o-voo-de-ligacao", "pt": "o voo de ligação", "de": "der Anschlussflug", "emoji": "🔁", "beispiel_pt": "Com mais meia hora de atraso, teríamos perdido o voo de ligação.", "beispiel_de": "Mit einer halben Stunde mehr Verspätung hätten wir den Anschlussflug verpasst.", "passiv": true},
+  {"id": "o-contratempo", "pt": "o contratempo", "de": "der Zwischenfall / die Panne", "emoji": "🚧", "beispiel_pt": "Tivemos um contratempo à saída de casa: o carro não pegava.", "beispiel_de": "Wir hatten beim Losfahren eine Panne: Das Auto sprang nicht an."},
+  {"id": "o-casamento", "pt": "o casamento", "de": "die Hochzeit / die Ehe", "emoji": "💒", "beispiel_pt": "O casamento do meu irmão foi em Viena.", "beispiel_de": "Die Hochzeit meines Bruders war in Wien.", "hinweis": "casar-se com alguém = jemanden heiraten"},
+  {"id": "o-copo-dagua", "pt": "o copo-d'água", "de": "der Hochzeitsempfang / die Hochzeitsfeier", "emoji": "🥂", "beispiel_pt": "Depois da cerimónia, houve um copo-d'água numa quinta.", "beispiel_de": "Nach der Trauung gab es einen Empfang auf einem Landgut.", "hinweis": "Expressão típica de Portugal (wörtlich: „Glas Wasser“).", "passiv": true},
+  {"id": "o-padrinho", "pt": "o padrinho", "de": "der Trauzeuge / der Pate", "emoji": "🤵", "beispiel_pt": "Eu era o padrinho, por isso não podia mesmo faltar.", "beispiel_de": "Ich war der Trauzeuge, deshalb durfte ich auf keinen Fall fehlen.", "hinweis": "Feminino: a madrinha", "alternativen": ["a madrinha"]},
+  {"id": "ficar-em-terra", "pt": "ficar em terra", "de": "am Boden bleiben / den Flug verpassen", "emoji": "🧍", "beispiel_pt": "Sem o cartão de embarque, tinha ficado em terra.", "beispiel_de": "Ohne die Bordkarte wäre ich nicht mitgekommen.", "passiv": true},
+  {"id": "a-porta-de-embarque", "pt": "a porta de embarque", "de": "das Gate / der Flugsteig", "emoji": "🚪", "beispiel_pt": "A porta de embarque fecha vinte minutos antes da partida.", "beispiel_de": "Das Gate schließt zwanzig Minuten vor dem Abflug.", "passiv": true},
+  {"id": "de-qualquer-maneira", "pt": "de qualquer maneira", "de": "jedenfalls / wie auch immer", "emoji": "🤷", "beispiel_pt": "De qualquer maneira, teríamos chegado a tempo da cerimónia.", "beispiel_de": "Jedenfalls wären wir rechtzeitig zur Trauung gekommen.", "hinweis": "Sinónimos: de qualquer modo, de qualquer forma"},
+
+  {"id": "atempadamente", "pt": "atempadamente", "de": "rechtzeitig (gehoben)", "emoji": "⏰", "beispiel_pt": "Se nos tivessem informado atempadamente, teríamos ido.", "beispiel_de": "Hätte man uns rechtzeitig informiert, wären wir hingegangen.", "hinweis": "Mais formal do que a tempo."},
+  {"id": "de-antemao", "pt": "de antemão", "de": "im Voraus", "emoji": "🔮", "beispiel_pt": "Agradeço de antemão a vossa ajuda.", "beispiel_de": "Ich danke im Voraus für eure Hilfe.", "passiv": true},
+  {"id": "dar-sinal-de-vida", "pt": "dar sinal de vida", "de": "sich melden / ein Lebenszeichen geben", "emoji": "📱", "beispiel_pt": "O Pedro não deu sinal de vida o fim de semana todo.", "beispiel_de": "Pedro hat sich das ganze Wochenende nicht gemeldet."},
+  {"id": "fazer-questao-de", "pt": "fazer questão de", "de": "Wert darauf legen", "emoji": "☝️", "beispiel_pt": "O João fazia questão de que todos os vizinhos viessem.", "beispiel_de": "João legte Wert darauf, dass alle Nachbarn kommen.", "hinweis": "fazer questão de + infinitivo / fazer questão de que + conjuntivo"},
+  {"id": "por-ao-corrente", "pt": "pôr ao corrente", "de": "auf den neuesten Stand bringen", "emoji": "📣", "beispiel_pt": "A Ana pôs-me ao corrente das novidades do bairro.", "beispiel_de": "Ana hat mich über die Neuigkeiten aus dem Viertel informiert.", "hinweis": "estar ao corrente de = Bescheid wissen über", "passiv": true},
+  {"id": "a-festa-de-anos", "pt": "a festa de anos", "de": "die Geburtstagsfeier", "emoji": "🎂", "beispiel_pt": "A festa de anos do João foi no sábado.", "beispiel_de": "Joãos Geburtstagsfeier war am Samstag.", "hinweis": "Em Portugal: fazer anos, a festa de anos (BR: aniversário)."},
+  {"id": "faltar-a", "pt": "faltar a", "de": "nicht erscheinen bei / versäumen", "emoji": "🪑", "beispiel_pt": "Faltei à festa sem querer.", "beispiel_de": "Ich habe die Feier unabsichtlich versäumt.", "hinweis": "faltar a uma reunião, faltar às aulas"},
+  {"id": "levar-a-peito", "pt": "levar a peito", "de": "sich zu Herzen nehmen", "emoji": "💔", "beispiel_pt": "Não leves isto a peito; foi sem querer.", "beispiel_de": "Nimm dir das nicht zu Herzen; es war keine Absicht."},
+  {"id": "o-desencontro", "pt": "o desencontro", "de": "das Aneinander-Vorbeilaufen / Missverständnis", "emoji": "🔀", "beispiel_pt": "Foi um desencontro: ele ligou para o meu número antigo.", "beispiel_de": "Wir haben uns verpasst: Er hat meine alte Nummer angerufen.", "passiv": true},
+  {"id": "dar-com-a-lingua-nos-dentes", "pt": "dar com a língua nos dentes", "de": "ausplaudern / sich verplappern", "emoji": "🤐", "beispiel_pt": "Era uma surpresa, mas a Rita deu com a língua nos dentes.", "beispiel_de": "Es war eine Überraschung, aber Rita hat sich verplappert."},
+
+  {"id": "o-penalti", "pt": "o penálti", "de": "der Elfmeter (ugs.)", "emoji": "⚽", "beispiel_pt": "Se ele tivesse marcado o penálti, tínhamos ganho.", "beispiel_de": "Hätte er den Elfmeter verwandelt, hätten wir gewonnen.", "hinweis": "Formal: a grande penalidade"},
+  {"id": "a-baliza", "pt": "a baliza", "de": "das Tor (Gehäuse)", "emoji": "🥅", "beispiel_pt": "A bola bateu no poste e não entrou na baliza.", "beispiel_de": "Der Ball traf den Pfosten und ging nicht ins Tor.", "hinweis": "o golo = der Treffer; a baliza = das Tor als Gehäuse"},
+  {"id": "rematar", "pt": "rematar", "de": "(aufs Tor) schießen; abschließen", "emoji": "🦶", "beispiel_pt": "Rematou mal e a bola foi para fora.", "beispiel_de": "Er hat schlecht geschossen, und der Ball ging ins Aus.", "hinweis": "o remate = der Torschuss"},
+  {"id": "o-guarda-redes", "pt": "o guarda-redes", "de": "der Torwart", "emoji": "🧤", "beispiel_pt": "O guarda-redes defendeu tudo.", "beispiel_de": "Der Torwart hat alles gehalten.", "hinweis": "pt-PT; BR: goleiro"},
+  {"id": "a-jogada", "pt": "a jogada", "de": "der Spielzug", "emoji": "🔄", "beispiel_pt": "Que jogada! Pena não ter dado golo.", "beispiel_de": "Was für ein Spielzug! Schade, dass kein Tor daraus wurde.", "passiv": true},
+  {"id": "bolas", "pt": "Bolas!", "de": "Mist! / Verflixt!", "emoji": "😤", "beispiel_pt": "Bolas! Se tivesse saído mais cedo, tinha apanhado o comboio.", "beispiel_de": "Mist! Wäre ich früher losgegangen, hätte ich den Zug erwischt.", "hinweis": "Coloquial, mas não ofensivo."},
+  {"id": "safar-se", "pt": "safar-se", "de": "davonkommen / sich durchschlagen", "emoji": "🏃", "beispiel_pt": "Desta vez safámo-nos: o árbitro não viu a falta.", "beispiel_de": "Diesmal sind wir davongekommen: Der Schiedsrichter hat das Foul nicht gesehen.", "hinweis": "Coloquial. Ela safa-se bem em inglês = sie kommt auf Englisch gut zurecht."},
+  {"id": "ter-jeito-para", "pt": "ter jeito para", "de": "ein Händchen haben für / begabt sein für", "emoji": "🎯", "beispiel_pt": "O Pedro tem jeito para o futebol.", "beispiel_de": "Pedro hat Talent für Fußball."},
+  {"id": "nem-de-proposito", "pt": "nem de propósito", "de": "wie gerufen / was für ein Zufall", "emoji": "🙌", "beispiel_pt": "Nem de propósito: estávamos a falar de ti!", "beispiel_de": "Wie gerufen: Wir haben gerade von dir gesprochen!", "passiv": true},
+  {"id": "a-rasca", "pt": "à rasca", "de": "in der Klemme (ugs.)", "emoji": "😬", "beispiel_pt": "Se não me tivesses emprestado o dinheiro, tinha ficado à rasca.", "beispiel_de": "Hättest du mir das Geld nicht geliehen, wäre ich in der Klemme gewesen.", "hinweis": "estar/ficar à rasca", "passiv": true},
+  {"id": "de-caras", "pt": "de caras", "de": "sofort / ohne zu zögern (ugs.)", "emoji": "⚡", "beispiel_pt": "No lugar dele, tinha aceitado de caras.", "beispiel_de": "An seiner Stelle hätte ich sofort angenommen.", "passiv": true},
+  {"id": "o-fora-de-jogo", "pt": "o fora de jogo", "de": "das Abseits", "emoji": "🚩", "beispiel_pt": "O golo foi anulado por fora de jogo.", "beispiel_de": "Das Tor wurde wegen Abseits aberkannt.", "passiv": true},
+
+  {"id": "a-bolsa-de-estudo", "pt": "a bolsa de estudo", "de": "das Stipendium", "emoji": "🎓", "beispiel_pt": "Sem a bolsa de estudo, ela não teria estudado em Coimbra.", "beispiel_de": "Ohne das Stipendium hätte sie nicht in Coimbra studiert."},
+  {"id": "ir-la-para-fora", "pt": "ir lá para fora", "de": "ins Ausland gehen (ugs.)", "emoji": "✈️", "beispiel_pt": "Muitos jovens portugueses vão lá para fora à procura de trabalho.", "beispiel_de": "Viele junge Portugiesen gehen auf Arbeitssuche ins Ausland.", "hinweis": "lá fora = im Ausland (aus portugiesischer Sicht)"},
+  {"id": "o-dilema", "pt": "o dilema", "de": "das Dilemma", "emoji": "⚖️", "beispiel_pt": "Estava perante um dilema: ficar ou partir.", "beispiel_de": "Ich stand vor einem Dilemma: bleiben oder gehen."},
+  {"id": "a-guinada", "pt": "a guinada", "de": "die Kehrtwende / der Richtungswechsel", "emoji": "🔃", "beispiel_pt": "Aos quarenta e cinco anos, dei uma guinada na minha vida.", "beispiel_de": "Mit fünfundvierzig habe ich meinem Leben eine neue Richtung gegeben.", "hinweis": "dar uma guinada", "passiv": true},
+  {"id": "a-viragem", "pt": "a viragem", "de": "die Wende / der Umschwung", "emoji": "↪️", "beispiel_pt": "A mudança para Portugal foi uma viragem na minha carreira.", "beispiel_de": "Der Umzug nach Portugal war eine Wende in meiner Laufbahn.", "passiv": true},
+  {"id": "a-vocacao", "pt": "a vocação", "de": "die Berufung", "emoji": "🌟", "beispiel_pt": "Ensinar sempre foi a vocação dela.", "beispiel_de": "Unterrichten war immer ihre Berufung."},
+  {"id": "o-oficio", "pt": "o ofício", "de": "das Handwerk / der Beruf", "emoji": "🔨", "beispiel_pt": "O avô do Pedro aprendeu o ofício de carpinteiro.", "beispiel_de": "Pedros Großvater hat das Tischlerhandwerk gelernt.", "hinweis": "Também: o ofício = das amtliche Schreiben.", "passiv": true},
+  {"id": "a-escolha", "pt": "a escolha", "de": "die Wahl / die Entscheidung", "emoji": "🔀", "beispiel_pt": "Vir para Lagos foi a melhor escolha da nossa vida.", "beispiel_de": "Nach Lagos zu kommen war die beste Entscheidung unseres Lebens."},
+  {"id": "atualmente", "pt": "atualmente", "de": "derzeit / gegenwärtig", "emoji": "📍", "beispiel_pt": "Atualmente trabalho a partir de casa.", "beispiel_de": "Derzeit arbeite ich von zu Hause aus.", "hinweis": "Atenção: não significa engl. „actually“ (= na verdade)."},
+  {"id": "estabelecer-se", "pt": "estabelecer-se", "de": "sich niederlassen", "emoji": "🏡", "beispiel_pt": "Estabelecemo-nos em Lagos há alguns anos.", "beispiel_de": "Wir haben uns vor einigen Jahren in Lagos niedergelassen.", "passiv": true},
+  {"id": "seguir-as-pisadas-de", "pt": "seguir as pisadas de", "de": "in die Fußstapfen treten von", "emoji": "👣", "beispiel_pt": "A Rita seguiu as pisadas da mãe e também é médica.", "beispiel_de": "Rita ist in die Fußstapfen ihrer Mutter getreten und ist auch Ärztin.", "passiv": true},
+
+  {"id": "o-estrondo", "pt": "o estrondo", "de": "der Knall / das Krachen", "emoji": "💥", "beispiel_pt": "Às tantas, ouvimos um estrondo no jardim.", "beispiel_de": "Irgendwann in der Nacht hörten wir einen Knall im Garten."},
+  {"id": "o-vendaval", "pt": "o vendaval", "de": "der Sturm", "emoji": "🌪️", "beispiel_pt": "O vendaval desta noite derrubou várias árvores.", "beispiel_de": "Der Sturm heute Nacht hat mehrere Bäume umgeworfen."},
+  {"id": "derrubar", "pt": "derrubar", "de": "umwerfen / umstoßen", "emoji": "🪴", "beispiel_pt": "O vento derrubou a vedação do vizinho.", "beispiel_de": "Der Wind hat den Zaun des Nachbarn umgeworfen."},
+  {"id": "o-vaso", "pt": "o vaso", "de": "der Blumentopf / die Vase", "emoji": "🏺", "beispiel_pt": "O vaso das sardinheiras estava partido no chão.", "beispiel_de": "Der Geranientopf lag zerbrochen auf dem Boden.", "hinweis": "as sardinheiras = die Geranien (pt-PT)"},
+  {"id": "a-pegada", "pt": "a pegada", "de": "die Fußspur / der Abdruck", "emoji": "🐾", "beispiel_pt": "Havia pegadas de gato na terra molhada.", "beispiel_de": "In der nassen Erde waren Katzenspuren.", "passiv": true},
+  {"id": "as-tantas", "pt": "às tantas", "de": "irgendwann (spät) / auf einmal", "emoji": "🌒", "beispiel_pt": "Às tantas da noite, o cão começou a ladrar.", "beispiel_de": "Mitten in der Nacht fing der Hund an zu bellen.", "hinweis": "às tantas da noite / da madrugada = mitten in der Nacht"},
+  {"id": "o-vulto", "pt": "o vulto", "de": "die (schemenhafte) Gestalt", "emoji": "👤", "beispiel_pt": "Vi um vulto a passar junto ao portão.", "beispiel_de": "Ich sah eine Gestalt am Tor vorbeigehen.", "passiv": true},
+  {"id": "aparentar", "pt": "aparentar", "de": "(dem Anschein nach) haben / aussehen wie", "emoji": "🧐", "beispiel_pt": "O homem aparentava uns quarenta anos.", "beispiel_de": "Der Mann sah aus wie etwa vierzig.", "passiv": true},
+  {"id": "uns", "pt": "uns / umas (+ número)", "de": "etwa / ungefähr (vor Zahlen)", "emoji": "≈", "beispiel_pt": "Teria uns trinta anos.", "beispiel_de": "Er war wohl um die dreißig.", "hinweis": "uns/umas antes de um número = cerca de: umas duas horas"},
+  {"id": "a-vedacao", "pt": "a vedação", "de": "der Zaun", "emoji": "🚧", "beispiel_pt": "A vedação entre os dois jardins caiu.", "beispiel_de": "Der Zaun zwischen den beiden Gärten ist umgefallen."},
+  {"id": "o-gato-vadio", "pt": "o gato vadio", "de": "die streunende Katze", "emoji": "🐈", "beispiel_pt": "Teria sido um gato vadio.", "beispiel_de": "Es war wohl eine streunende Katze.", "passiv": true},
+  {"id": "arrombar", "pt": "arrombar", "de": "aufbrechen", "emoji": "🔓", "beispiel_pt": "Ninguém arrombou a porta; estava tudo fechado.", "beispiel_de": "Niemand hat die Tür aufgebrochen; alles war verschlossen.", "passiv": true},
+
+  {"id": "ao-que-tudo-indica", "pt": "ao que tudo indica", "de": "allem Anschein nach", "emoji": "🗞️", "beispiel_pt": "Ao que tudo indica, o incêndio terá começado na cozinha.", "beispiel_de": "Allem Anschein nach ist das Feuer in der Küche ausgebrochen.", "hinweis": "Típico da linguagem jornalística: a informação não está confirmada."},
+  {"id": "foragido", "pt": "foragido", "de": "flüchtig (auf der Flucht)", "emoji": "🏃", "beispiel_pt": "O suspeito continua foragido.", "beispiel_de": "Der Verdächtige ist weiterhin flüchtig.", "alternativen": ["foragida"], "passiv": true},
+  {"id": "o-furto", "pt": "o furto", "de": "der Diebstahl", "emoji": "👛", "beispiel_pt": "Houve vários furtos em carros estacionados junto à marina.", "beispiel_de": "Es gab mehrere Diebstähle aus geparkten Autos bei der Marina.", "hinweis": "Na linguagem jurídica: furto = sem violência; roubo = com violência ou ameaça."},
+  {"id": "o-roubo", "pt": "o roubo", "de": "der Raub / der Diebstahl", "emoji": "💰", "beispiel_pt": "O roubo aconteceu em plena luz do dia.", "beispiel_de": "Der Raub geschah am helllichten Tag."},
+  {"id": "apurar", "pt": "apurar", "de": "ermitteln / klären", "emoji": "🔎", "beispiel_pt": "A polícia está a apurar as causas do incêndio.", "beispiel_de": "Die Polizei ermittelt die Brandursache.", "passiv": true},
+  {"id": "a-policia-judiciaria", "pt": "a Polícia Judiciária", "de": "die Kriminalpolizei (PJ)", "emoji": "🕵️", "beispiel_pt": "A Polícia Judiciária investiga o caso.", "beispiel_de": "Die Kriminalpolizei ermittelt in dem Fall.", "hinweis": "Abreviatura muito usada: a PJ", "passiv": true},
+  {"id": "por-se-em-fuga", "pt": "pôr-se em fuga", "de": "flüchten / die Flucht ergreifen", "emoji": "🏍️", "beispiel_pt": "Os assaltantes puseram-se em fuga numa mota.", "beispiel_de": "Die Räuber flüchteten auf einem Motorrad."},
+  {"id": "o-assaltante", "pt": "o assaltante", "de": "der Räuber / der Einbrecher", "emoji": "🦹", "beispiel_pt": "O assaltante teria cerca de vinte anos.", "beispiel_de": "Der Räuber soll etwa zwanzig Jahre alt gewesen sein.", "alternativen": ["a assaltante"]},
+  {"id": "o-desaparecimento", "pt": "o desaparecimento", "de": "das Verschwinden", "emoji": "🫥", "beispiel_pt": "O desaparecimento do turista foi comunicado à GNR.", "beispiel_de": "Das Verschwinden des Touristen wurde der GNR gemeldet."},
+  {"id": "segundo-fontes-policiais", "pt": "segundo fontes policiais", "de": "laut Polizeiquellen", "emoji": "👮", "beispiel_pt": "Segundo fontes policiais, o suspeito teria fugido para Espanha.", "beispiel_de": "Laut Polizeiquellen soll der Verdächtige nach Spanien geflohen sein.", "passiv": true},
+  {"id": "o-inquerito", "pt": "o inquérito", "de": "das Ermittlungsverfahren / die Untersuchung", "emoji": "📂", "beispiel_pt": "O Ministério Público abriu um inquérito.", "beispiel_de": "Die Staatsanwaltschaft hat ein Ermittlungsverfahren eingeleitet.", "hinweis": "Também: o inquérito = die Umfrage.", "passiv": true},
+  {"id": "presumivel", "pt": "presumível", "de": "mutmaßlich", "emoji": "🤔", "beispiel_pt": "O presumível autor do crime foi detido ontem.", "beispiel_de": "Der mutmaßliche Täter wurde gestern festgenommen.", "passiv": true},
+
+  {"id": "caso", "pt": "caso", "de": "falls", "emoji": "🔀", "beispiel_pt": "Caso tenha alguma dúvida, contacte-nos.", "beispiel_de": "Falls Sie Fragen haben, kontaktieren Sie uns.", "hinweis": "caso + conjuntivo (presente ou imperfeito) – nunca com o futuro do conjuntivo."},
+  {"id": "na-eventualidade-de", "pt": "na eventualidade de", "de": "im Falle (von / dass)", "emoji": "📑", "beispiel_pt": "Na eventualidade de cancelamento, o valor será devolvido.", "beispiel_de": "Im Falle einer Stornierung wird der Betrag erstattet.", "passiv": true},
+  {"id": "a-desistencia", "pt": "a desistência", "de": "der Rücktritt / die Absage", "emoji": "🙅", "beispiel_pt": "Em caso de desistência, o sinal não é devolvido.", "beispiel_de": "Bei Rücktritt wird die Anzahlung nicht erstattet.", "passiv": true},
+  {"id": "o-cancelamento", "pt": "o cancelamento", "de": "die Stornierung / die Absage", "emoji": "❌", "beispiel_pt": "O cancelamento é gratuito até 48 horas antes da chegada.", "beispiel_de": "Die Stornierung ist bis 48 Stunden vor der Anreise kostenlos."},
+  {"id": "acionar", "pt": "acionar", "de": "in Anspruch nehmen / auslösen", "emoji": "🔔", "beispiel_pt": "Caso o voo seja cancelado, pode acionar o seguro de viagem.", "beispiel_de": "Falls der Flug gestrichen wird, können Sie die Reiseversicherung in Anspruch nehmen.", "hinweis": "acionar o seguro, acionar o alarme"},
+  {"id": "em-vigor", "pt": "em vigor", "de": "in Kraft / gültig", "emoji": "📜", "beispiel_pt": "As novas condições estão em vigor desde janeiro.", "beispiel_de": "Die neuen Bedingungen gelten seit Januar.", "hinweis": "entrar em vigor = in Kraft treten", "passiv": true},
+  {"id": "devidamente", "pt": "devidamente", "de": "ordnungsgemäß / ordentlich", "emoji": "✅", "beispiel_pt": "O formulário tem de estar devidamente preenchido.", "beispiel_de": "Das Formular muss ordnungsgemäß ausgefüllt sein."},
+  {"id": "o-hospede", "pt": "o hóspede", "de": "der (Hotel-)Gast", "emoji": "🛎️", "beispiel_pt": "Caso o hóspede chegue depois das 22 horas, deve avisar a receção.", "beispiel_de": "Falls der Gast nach 22 Uhr ankommt, soll er die Rezeption informieren.", "alternativen": ["a hóspede"]},
+  {"id": "sem-custos", "pt": "sem custos", "de": "kostenlos / ohne Kosten", "emoji": "🆓", "beispiel_pt": "Pode alterar a data sem custos adicionais.", "beispiel_de": "Sie können das Datum ohne zusätzliche Kosten ändern."},
+  {"id": "salvo", "pt": "salvo", "de": "außer / vorbehaltlich", "emoji": "🔖", "beispiel_pt": "Salvo indicação em contrário, o pequeno-almoço está incluído.", "beispiel_de": "Sofern nicht anders angegeben, ist das Frühstück inbegriffen.", "passiv": true},
+  {"id": "reservar-se-o-direito-de", "pt": "reservar-se o direito de", "de": "sich das Recht vorbehalten", "emoji": "⚖️", "beispiel_pt": "O hotel reserva-se o direito de cobrar a primeira noite.", "beispiel_de": "Das Hotel behält sich das Recht vor, die erste Nacht zu berechnen.", "passiv": true},
+
+  {"id": "a-nao-ser-que", "pt": "a não ser que", "de": "es sei denn", "emoji": "🚫", "beispiel_pt": "Fazemos a pérgola em maio, a não ser que chova muito.", "beispiel_de": "Wir bauen die Pergola im Mai, es sei denn, es regnet viel.", "hinweis": "Sempre com conjuntivo."},
+  {"id": "sem-que", "pt": "sem que", "de": "ohne dass", "emoji": "🤫", "beispiel_pt": "Não comece a obra sem que eu veja o orçamento final.", "beispiel_de": "Fangen Sie mit den Arbeiten nicht an, ohne dass ich den endgültigen Kostenvoranschlag gesehen habe.", "hinweis": "Mesmo sujeito: sem + infinitivo (Saiu sem pagar)."},
+  {"id": "a-menos-que", "pt": "a menos que", "de": "es sei denn / sofern nicht", "emoji": "➖", "beispiel_pt": "Não aceito, a menos que baixe o preço.", "beispiel_de": "Ich nehme nicht an, es sei denn, Sie senken den Preis.", "passiv": true},
+  {"id": "contanto-que", "pt": "contanto que", "de": "sofern / vorausgesetzt, dass", "emoji": "🤝", "beispiel_pt": "Pode começar na segunda, contanto que traga a madeira.", "beispiel_de": "Sie können am Montag anfangen, sofern Sie das Holz mitbringen.", "passiv": true},
+  {"id": "o-marceneiro", "pt": "o marceneiro", "de": "der Tischler / der Schreiner", "emoji": "🪚", "beispiel_pt": "O marceneiro fez uns armários lindíssimos para a cozinha.", "beispiel_de": "Der Tischler hat wunderschöne Küchenschränke gebaut."},
+  {"id": "a-pergola", "pt": "a pérgola", "de": "die Pergola", "emoji": "⛱️", "beispiel_pt": "Queremos uma pérgola no terraço para ter sombra.", "beispiel_de": "Wir wollen eine Pergola auf der Terrasse, um Schatten zu haben.", "passiv": true},
+  {"id": "a-madeira", "pt": "a madeira", "de": "das Holz", "emoji": "🪵", "beispiel_pt": "A madeira tem de ser tratada por causa da humidade.", "beispiel_de": "Das Holz muss wegen der Feuchtigkeit behandelt werden.", "hinweis": "de madeira = aus Holz; a Madeira = die Insel"},
+  {"id": "de-boca", "pt": "de boca", "de": "mündlich (ugs.)", "emoji": "👄", "beispiel_pt": "Combinámos tudo de boca, sem nada por escrito.", "beispiel_de": "Wir haben alles mündlich vereinbart, nichts schriftlich.", "passiv": true},
+  {"id": "atrasar-se", "pt": "atrasar-se", "de": "sich verspäten / in Verzug geraten", "emoji": "🐢", "beispiel_pt": "Se a obra se atrasar, quem paga?", "beispiel_de": "Wenn sich die Arbeiten verzögern, wer zahlt?"},
+  {"id": "impermeavel", "pt": "impermeável", "de": "wasserdicht / wasserfest", "emoji": "💧", "beispiel_pt": "O verniz deixa a madeira impermeável.", "beispiel_de": "Der Lack macht das Holz wasserfest.", "hinweis": "o impermeável = der Regenmantel", "passiv": true},
+  {"id": "sair-caro", "pt": "sair caro", "de": "teuer werden / teuer zu stehen kommen", "emoji": "💸", "beispiel_pt": "Se não tivéssemos tratado a madeira, teria saído muito caro.", "beispiel_de": "Hätten wir das Holz nicht behandelt, wäre es sehr teuer geworden.", "hinweis": "Também: sair barato"},
+  {"id": "tirar-as-medidas", "pt": "tirar as medidas", "de": "Maß nehmen / ausmessen", "emoji": "📏", "beispiel_pt": "O marceneiro vem amanhã tirar as medidas.", "beispiel_de": "Der Tischler kommt morgen zum Ausmessen."},
+
+  {"id": "o-terramoto", "pt": "o terramoto", "de": "das Erdbeben", "emoji": "🌋", "beispiel_pt": "O terramoto de 1755 destruiu grande parte de Lisboa.", "beispiel_de": "Das Erdbeben von 1755 zerstörte einen großen Teil Lissabons.", "hinweis": "pt-PT; BR: terremoto. Sinónimo técnico: o sismo"},
+  {"id": "a-ditadura", "pt": "a ditadura", "de": "die Diktatur", "emoji": "⛓️", "beispiel_pt": "Portugal viveu quase meio século em ditadura.", "beispiel_de": "Portugal lebte fast ein halbes Jahrhundert in einer Diktatur."},
+  {"id": "a-revolucao-dos-cravos", "pt": "a Revolução dos Cravos", "de": "die Nelkenrevolution", "emoji": "🌺", "beispiel_pt": "A Revolução dos Cravos aconteceu a 25 de abril de 1974.", "beispiel_de": "Die Nelkenrevolution fand am 25. April 1974 statt.", "hinweis": "Também se diz simplesmente: o 25 de Abril", "passiv": true},
+  {"id": "o-imperio", "pt": "o império", "de": "das Reich / das Imperium", "emoji": "👑", "beispiel_pt": "O império português chegou a estender-se do Brasil a Macau.", "beispiel_de": "Das portugiesische Kolonialreich erstreckte sich einst von Brasilien bis Macau."},
+  {"id": "os-descobrimentos", "pt": "os Descobrimentos", "de": "die (portugiesischen) Entdeckungsfahrten", "emoji": "⛵", "beispiel_pt": "Os Descobrimentos começaram no século XV.", "beispiel_de": "Die Entdeckungsfahrten begannen im 15. Jahrhundert.", "passiv": true},
+  {"id": "o-navegador", "pt": "o navegador", "de": "der Seefahrer", "emoji": "🧭", "beispiel_pt": "Vasco da Gama foi o navegador que chegou à Índia por mar em 1498.", "beispiel_de": "Vasco da Gama war der Seefahrer, der 1498 Indien auf dem Seeweg erreichte.", "hinweis": "Também: o navegador = der Browser", "passiv": true},
+  {"id": "reconstruir", "pt": "reconstruir", "de": "wiederaufbauen", "emoji": "🏗️", "beispiel_pt": "Depois do terramoto, a Baixa foi reconstruída sob a direção do Marquês de Pombal.", "beispiel_de": "Nach dem Erdbeben wurde die Baixa unter der Leitung des Marquês de Pombal wiederaufgebaut.", "hinweis": "a reconstrução = der Wiederaufbau"},
+  {"id": "a-dinastia", "pt": "a dinastia", "de": "die Dynastie", "emoji": "🏰", "beispiel_pt": "A dinastia de Bragança começou em 1640.", "beispiel_de": "Die Dynastie Braganza begann 1640.", "passiv": true},
+  {"id": "a-coroa", "pt": "a coroa", "de": "die Krone", "emoji": "👑", "beispiel_pt": "Em 1580, a coroa portuguesa passou para Filipe II de Espanha.", "beispiel_de": "1580 ging die portugiesische Krone an Philipp II. von Spanien über.", "passiv": true},
+  {"id": "a-batalha", "pt": "a batalha", "de": "die Schlacht", "emoji": "⚔️", "beispiel_pt": "D. Sebastião desapareceu na batalha de Alcácer Quibir, em 1578.", "beispiel_de": "König Sebastian verschwand 1578 in der Schlacht von Alcácer Quibir."},
+  {"id": "o-regime", "pt": "o regime", "de": "das Regime / das System", "emoji": "🏛️", "beispiel_pt": "O 25 de Abril pôs fim ao regime do Estado Novo.", "beispiel_de": "Der 25. April beendete das Regime des Estado Novo."},
+  {"id": "a-democracia", "pt": "a democracia", "de": "die Demokratie", "emoji": "🗳️", "beispiel_pt": "A democracia portuguesa tem pouco mais de cinquenta anos.", "beispiel_de": "Die portugiesische Demokratie ist etwas über fünfzig Jahre alt."},
+
+  {"id": "o-embate", "pt": "o embate", "de": "der Aufprall / der Zusammenstoß", "emoji": "💢", "beispiel_pt": "O embate foi ligeiro, mas o para-choques ficou partido.", "beispiel_de": "Der Aufprall war leicht, aber die Stoßstange ist kaputt.", "passiv": true},
+  {"id": "embater-em", "pt": "embater em", "de": "prallen gegen / auffahren auf", "emoji": "🚗", "beispiel_pt": "O carro de trás embateu no meu.", "beispiel_de": "Das Auto hinter mir ist auf meines aufgefahren."},
+  {"id": "o-para-choques", "pt": "o para-choques", "de": "die Stoßstange", "emoji": "🛻", "beispiel_pt": "O para-choques traseiro ficou amolgado.", "beispiel_de": "Die hintere Stoßstange ist verbeult."},
+  {"id": "amolgado", "pt": "amolgado", "de": "verbeult", "emoji": "🥫", "beispiel_pt": "A porta do condutor ficou amolgada.", "beispiel_de": "Die Fahrertür ist verbeult.", "hinweis": "a amolgadela = die Delle", "alternativen": ["amolgada"]},
+  {"id": "o-retrovisor", "pt": "o retrovisor", "de": "der Rückspiegel / der Außenspiegel", "emoji": "🪞", "beispiel_pt": "Se tivesse olhado pelo retrovisor, tinha visto a mota.", "beispiel_de": "Hätte ich in den Rückspiegel geschaut, hätte ich das Motorrad gesehen."},
+  {"id": "a-marcha-atras", "pt": "a marcha-atrás", "de": "der Rückwärtsgang", "emoji": "↩️", "beispiel_pt": "Estava a fazer marcha-atrás quando ouvi o barulho.", "beispiel_de": "Ich fuhr gerade rückwärts, als ich das Geräusch hörte.", "hinweis": "fazer marcha-atrás = rückwärtsfahren"},
+  {"id": "travar", "pt": "travar", "de": "bremsen", "emoji": "🛑", "beispiel_pt": "Travei a fundo, mas não consegui evitar o acidente.", "beispiel_de": "Ich habe voll gebremst, konnte den Unfall aber nicht vermeiden.", "hinweis": "o travão = die Bremse (BR: freio)"},
+  {"id": "derrapar", "pt": "derrapar", "de": "ins Schleudern geraten", "emoji": "🌧️", "beispiel_pt": "Com a chuva, o carro derrapou na curva.", "beispiel_de": "Wegen des Regens geriet das Auto in der Kurve ins Schleudern.", "passiv": true},
+  {"id": "o-cruzamento", "pt": "o cruzamento", "de": "die Kreuzung", "emoji": "✖️", "beispiel_pt": "O acidente aconteceu no cruzamento junto ao mercado.", "beispiel_de": "Der Unfall passierte an der Kreuzung beim Markt."},
+  {"id": "o-croquis", "pt": "o croquis", "de": "die Skizze", "emoji": "✏️", "beispiel_pt": "Na declaração amigável, é preciso desenhar um croquis do acidente.", "beispiel_de": "Im Unfallbericht muss man eine Skizze des Unfalls zeichnen.", "passiv": true},
+  {"id": "a-viatura", "pt": "a viatura", "de": "das Fahrzeug (formell)", "emoji": "🚙", "beispiel_pt": "A viatura ficou imobilizada na berma.", "beispiel_de": "Das Fahrzeug blieb auf dem Seitenstreifen liegen.", "passiv": true},
+  {"id": "o-reboque", "pt": "o reboque", "de": "der Abschleppwagen / das Abschleppen", "emoji": "🚛", "beispiel_pt": "Tivemos de chamar o reboque.", "beispiel_de": "Wir mussten den Abschleppdienst rufen.", "passiv": true},
+
+  {"id": "a-oportunidade", "pt": "a oportunidade", "de": "die Gelegenheit / die Chance", "emoji": "🚪", "beispiel_pt": "Perdemos uma oportunidade de ouro.", "beispiel_de": "Wir haben eine einmalige Chance verpasst.", "hinweis": "aproveitar / perder uma oportunidade"},
+  {"id": "a-quota-de-mercado", "pt": "a quota de mercado", "de": "der Marktanteil", "emoji": "🥧", "beispiel_pt": "Se tivéssemos entrado mais cedo, hoje teríamos uma quota de mercado maior.", "beispiel_de": "Wären wir früher eingestiegen, hätten wir heute einen größeren Marktanteil.", "passiv": true},
+  {"id": "o-investidor", "pt": "o investidor", "de": "der Investor", "emoji": "💼", "beispiel_pt": "O investidor queria entrar com duzentos mil euros.", "beispiel_de": "Der Investor wollte mit zweihunderttausend Euro einsteigen.", "alternativen": ["a investidora"]},
+  {"id": "a-ronda-de-financiamento", "pt": "a ronda de financiamento", "de": "die Finanzierungsrunde", "emoji": "💶", "beispiel_pt": "A startup fechou uma ronda de financiamento de dois milhões.", "beispiel_de": "Das Start-up hat eine Finanzierungsrunde über zwei Millionen abgeschlossen.", "passiv": true},
+  {"id": "a-mina-de-ouro", "pt": "a mina de ouro", "de": "die Goldgrube", "emoji": "⛏️", "beispiel_pt": "Aquele mercado teria sido uma mina de ouro.", "beispiel_de": "Dieser Markt wäre eine Goldgrube gewesen.", "passiv": true},
+  {"id": "a-aquisicao", "pt": "a aquisição", "de": "die Übernahme / der Erwerb", "emoji": "🏢", "beispiel_pt": "A aquisição da empresa foi anunciada ontem.", "beispiel_de": "Die Übernahme des Unternehmens wurde gestern bekannt gegeben.", "passiv": true},
+  {"id": "a-margem-de-lucro", "pt": "a margem de lucro", "de": "die Gewinnmarge", "emoji": "📊", "beispiel_pt": "Com aquela margem de lucro, não valia a pena.", "beispiel_de": "Bei dieser Gewinnmarge hat es sich nicht gelohnt.", "passiv": true},
+  {"id": "dar-um-passo-maior-do-que-a-perna", "pt": "dar um passo maior do que a perna", "de": "sich übernehmen", "emoji": "🦵", "beispiel_pt": "Se tivéssemos aceitado, teríamos dado um passo maior do que a perna.", "beispiel_de": "Hätten wir angenommen, hätten wir uns übernommen."},
+  {"id": "pensar-duas-vezes", "pt": "pensar duas vezes", "de": "es sich zweimal überlegen", "emoji": "✌️", "beispiel_pt": "Se tivesse pensado duas vezes, não teria assinado.", "beispiel_de": "Hätte ich es mir zweimal überlegt, hätte ich nicht unterschrieben.", "hinweis": "sem pensar duas vezes = ohne zu zögern"},
+  {"id": "a-visao", "pt": "a visão", "de": "die Vision / die Weitsicht", "emoji": "🔭", "beispiel_pt": "Faltou-nos visão para apostar no digital.", "beispiel_de": "Uns fehlte die Weitsicht, auf das Digitale zu setzen."},
+  {"id": "ficar-para-tras", "pt": "ficar para trás", "de": "zurückfallen / auf der Strecke bleiben", "emoji": "🐌", "beispiel_pt": "Quem não investe em tecnologia fica para trás.", "beispiel_de": "Wer nicht in Technik investiert, fällt zurück."},
+
+  {"id": "justificar-se", "pt": "justificar-se", "de": "sich rechtfertigen", "emoji": "🙋", "beispiel_pt": "Não precisas de te justificar.", "beispiel_de": "Du musst dich nicht rechtfertigen."},
+  {"id": "nao-ter-outro-remedio", "pt": "não ter outro remédio", "de": "keine andere Wahl haben", "emoji": "🤷‍♂️", "beispiel_pt": "Não tive outro remédio senão cancelar a reunião.", "beispiel_de": "Mir blieb nichts anderes übrig, als die Besprechung abzusagen.", "hinweis": "não ter outro remédio senão + infinitivo"},
+  {"id": "de-boa-fe", "pt": "de boa-fé", "de": "in gutem Glauben", "emoji": "🕊️", "beispiel_pt": "Assinei o contrato de boa-fé.", "beispiel_de": "Ich habe den Vertrag in gutem Glauben unterschrieben.", "passiv": true},
+  {"id": "dar-a-mao-a-palmatoria", "pt": "dar a mão à palmatória", "de": "einen Fehler zugeben / klein beigeben", "emoji": "✋", "beispiel_pt": "Tenho de dar a mão à palmatória: tinhas razão.", "beispiel_de": "Ich muss es zugeben: Du hattest recht."},
+  {"id": "em-minha-defesa", "pt": "em minha defesa", "de": "zu meiner Verteidigung", "emoji": "🛡️", "beispiel_pt": "Em minha defesa, ninguém me tinha avisado.", "beispiel_de": "Zu meiner Verteidigung: Niemand hatte mich gewarnt.", "passiv": true},
+  {"id": "a-posteriori", "pt": "a posteriori", "de": "im Nachhinein", "emoji": "🔙", "beispiel_pt": "A posteriori, é fácil dizer o que devíamos ter feito.", "beispiel_de": "Im Nachhinein ist es leicht zu sagen, was wir hätten tun sollen."},
+  {"id": "pensando-bem", "pt": "pensando bem", "de": "wenn man es recht bedenkt", "emoji": "💭", "beispiel_pt": "Pensando bem, talvez tenhas razão.", "beispiel_de": "Wenn ich es mir recht überlege, hast du vielleicht recht."},
+  {"id": "convenhamos", "pt": "convenhamos", "de": "seien wir ehrlich / zugegeben", "emoji": "😏", "beispiel_pt": "Convenhamos: ninguém podia prever aquilo.", "beispiel_de": "Seien wir ehrlich: Das konnte niemand vorhersehen.", "passiv": true},
+  {"id": "a-luz-de", "pt": "à luz de", "de": "im Lichte von / angesichts", "emoji": "💡", "beispiel_pt": "À luz do que sabíamos na altura, foi a decisão certa.", "beispiel_de": "Angesichts dessen, was wir damals wussten, war es die richtige Entscheidung.", "passiv": true},
+  {"id": "o-bode-expiatorio", "pt": "o bode expiatório", "de": "der Sündenbock", "emoji": "🐐", "beispiel_pt": "Não me façam de bode expiatório!", "beispiel_de": "Macht mich nicht zum Sündenbock!", "passiv": true},
+  {"id": "por-as-culpas-em", "pt": "pôr as culpas em", "de": "die Schuld schieben auf", "emoji": "👉", "beispiel_pt": "Não ponhas as culpas no estagiário.", "beispiel_de": "Schieb die Schuld nicht auf den Praktikanten."}
+ ],
+ "lektionen": [
+  {
+   "id": "B2-02-L01",
+   "typ": "neu",
+   "titel": "Por um triz – Formen des Condicional composto",
+   "vokabeln": ["por-pouco", "a-justa", "a-escala", "o-voo-de-ligacao", "o-contratempo", "o-casamento", "o-copo-dagua", "o-padrinho", "ficar-em-terra", "a-porta-de-embarque", "de-qualquer-maneira"],
+   "grammatik": {
+    "titel": "O condicional composto: formas e uso",
+    "erklaerung": [
+     "O <b>condicional composto</b> forma-se com o condicional de <b>ter</b> + <b>particípio passado</b>: eu <b>teria</b>, tu <b>terias</b>, você/ele/ela <b>teria</b>, nós <b>teríamos</b>, vocês/eles/elas <b>teriam</b> + <i>feito</i>.",
+     "Exprime uma ação que <b>podia ter acontecido, mas não aconteceu</b>: <i>Sem a Ana, nunca <b>teríamos chegado</b> a tempo.</i> (Chegámos, porque a Ana conduziu.)",
+     "Particípios irregulares frequentes: fazer → <b>feito</b>, dizer → <b>dito</b>, ver → <b>visto</b>, vir → <b>vindo</b>, pôr → <b>posto</b>, escrever → <b>escrito</b>, abrir → <b>aberto</b>, ganhar → <b>ganho</b>, gastar → <b>gasto</b>, pagar → <b>pago</b>.",
+     "Também serve para dar uma opinião ou uma crítica com delicadeza: <i>No teu lugar, eu <b>teria marcado</b> um voo direto.</i>",
+     "Com pronomes: depois de <i>não, nunca, também…</i> o pronome vem antes – <i>Nunca me <b>teria perdoado</b>.</i> Sem esses elementos, a escrita formal usa a mesóclise (<i>ter-me-ia perdoado</i>); na fala prefere-se <i>tinha-me perdoado</i> (lição 3)."
+    ],
+    "erklaerung_de": [
+     "<b>Condicional composto</b> = Konditional von <b>ter</b> + Partizip: <i>teria feito</i> = ich hätte gemacht / ich würde gemacht haben.",
+     "Es beschreibt, was in der Vergangenheit hätte passieren können, aber nicht passiert ist.",
+     "Unregelmäßige Partizipien lernen: feito, dito, visto, vindo, posto, escrito, aberto, ganho, gasto, pago.",
+     "Portugiesisch hat nur ein Hilfsverb: auch „ich wäre gekommen“ = <i>teria vindo</i>."
+    ],
+    "vergleich": "Alemão: „hätte/wäre + particípio“ (ich hätte gemacht, ich wäre gekommen). Português: sempre <i>ter</i> – <i>teria feito</i>, <i>teria vindo</i>. Inglês: „would have done / would have come“.",
+    "beispiele": [
+     {"pt": "Sem a Ana a conduzir, nunca teríamos chegado a tempo.", "de": "Ohne Ana am Steuer wären wir nie rechtzeitig angekommen."},
+     {"pt": "No teu lugar, eu teria marcado um voo direto.", "de": "An deiner Stelle hätte ich einen Direktflug gebucht."},
+     {"pt": "Com mais meia hora de atraso, teríamos ficado em terra.", "de": "Mit einer halben Stunde mehr Verspätung wären wir nicht mitgekommen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "No teu lugar, eu ___ um voo mais cedo. (apanhar)", "loesungen": ["teria apanhado"], "de": "An deiner Stelle hätte ich einen früheren Flug genommen.", "kategorie": "Condicional composto"},
+     {"typ": "luecke", "satz": "Sem a ajuda do taxista, nós ___ o avião. (perder)", "loesungen": ["teríamos perdido"], "de": "Ohne die Hilfe des Taxifahrers hätten wir das Flugzeug verpasst.", "kategorie": "Condicional composto"},
+     {"typ": "luecke", "satz": "Eles ___ a verdade, mas ninguém lhes perguntou nada. (dizer)", "loesungen": ["teriam dito"], "de": "Sie hätten die Wahrheit gesagt, aber niemand hat sie etwas gefragt.", "erklaerung": "Particípio irregular: dizer → dito.", "kategorie": "Particípios irregulares"},
+     {"typ": "luecke", "satz": "Com mais tempo, a minha mãe ___ ao casamento de comboio. (vir)", "loesungen": ["teria vindo"], "de": "Mit mehr Zeit wäre meine Mutter mit dem Zug zur Hochzeit gekommen.", "erklaerung": "vir → vindo. Em português usa-se ter, mesmo onde o alemão usa „sein“.", "kategorie": "Particípios irregulares"},
+     {"typ": "auswahl", "frage": "Qual é o particípio passado de «pôr»?", "optionen": ["ponido", "posto", "pondo"], "richtig": 1, "kategorie": "Particípios irregulares"},
+     {"typ": "auswahl", "frage": "«Ich hätte es anders gemacht.» – Qual é a tradução correta?", "optionen": ["Eu teria fazido de outra maneira.", "Eu terei feito de outra maneira.", "Eu teria feito de outra maneira."], "richtig": 2, "erklaerung": "fazer → feito; o condicional de ter é teria (terei é futuro).", "kategorie": "Condicional composto"},
+     {"typ": "uebersetzen", "de": "Ich wäre gern zur Hochzeit gekommen.", "loesungen": ["Eu teria gostado de vir ao casamento.", "Teria gostado de vir ao casamento.", "Eu teria gostado de ir ao casamento.", "Teria gostado de ir ao casamento.", "Tinha gostado de vir ao casamento.", "Tinha gostado de ir ao casamento.", "Eu gostava de ter vindo ao casamento.", "Gostava de ter vindo ao casamento.", "Eu gostava de ter ido ao casamento.", "Gostava de ter ido ao casamento.", "Gostaria de ter ido ao casamento.", "Gostaria de ter vindo ao casamento."], "kategorie": "Condicional composto"},
+     {"typ": "satzbau", "de": "Ohne das Taxi hätten wir den Anschlussflug verpasst.", "loesung": "Sem o táxi, teríamos perdido o voo de ligação."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Por um triz – Um ein Haar",
+    "situation": "O Stefan conta ao Pedro como quase perdeu o voo para o casamento do irmão, em Viena.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Então, Stefan, como correu a viagem a Viena? Chegaste a tempo do casamento?", "de": "Na, Stefan, wie war die Reise nach Wien? Bist du rechtzeitig zur Hochzeit gekommen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Por um triz! Tivemos um contratempo logo de manhã: o táxi não apareceu.", "de": "Um ein Haar! Gleich in der Früh hatten wir eine Panne: Das Taxi ist nicht gekommen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "A sério? E o que fizeram?", "de": "Echt? Und was habt ihr gemacht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Fomos no nosso carro até Faro. A Ana conduziu como uma profissional. Sem ela, nunca teríamos chegado a tempo.", "de": "Wir sind mit unserem Auto nach Faro gefahren. Ana ist gefahren wie ein Profi. Ohne sie wären wir nie rechtzeitig angekommen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E o voo tinha escala, não tinha?", "de": "Und der Flug hatte eine Zwischenlandung, oder?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tinha, em Frankfurt. O primeiro voo atrasou-se meia hora e chegámos à porta de embarque do voo de ligação mesmo à justa.", "de": "Ja, in Frankfurt. Der erste Flug hatte eine halbe Stunde Verspätung, und wir sind ganz knapp am Gate des Anschlussflugs angekommen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Eu, no teu lugar, teria marcado um voo direto.", "de": "Ich hätte an deiner Stelle einen Direktflug gebucht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Também eu, mas já não havia. De qualquer maneira, eu era o padrinho: se tivesse ficado em terra, o meu irmão nunca me teria perdoado.", "de": "Ich auch, aber es gab keinen mehr. Jedenfalls war ich der Trauzeuge: Wäre ich nicht mitgekommen, hätte mir mein Bruder nie verziehen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E o copo-d'água, que tal?", "de": "Und die Hochzeitsfeier, wie war sie?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Fantástico. Mas, sinceramente, eu teria ido um dia antes. Aquela manhã foi stress a mais.", "de": "Fantastisch. Aber ehrlich gesagt wäre ich lieber einen Tag früher geflogen. Dieser Morgen war zu viel Stress."}
+    ],
+    "fragen": [
+     {"frage": "Qual foi o contratempo da manhã?", "optionen": ["O voo foi cancelado.", "O táxi não apareceu.", "A Ana estava doente."], "richtig": 1},
+     {"frage": "Onde era a escala?", "optionen": ["Em Frankfurt.", "Em Lisboa.", "Em Viena."], "richtig": 0},
+     {"frage": "O que teria feito o Pedro?", "optionen": ["Teria ido de carro até Viena.", "Teria ficado em casa.", "Teria marcado um voo direto."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Apanhámos o avião por um triz.", "de": "Wir haben das Flugzeug um ein Haar erwischt."},
+     {"pt": "Sem a Ana, nunca teríamos chegado a tempo.", "de": "Ohne Ana wären wir nie rechtzeitig angekommen."},
+     {"pt": "No teu lugar, eu teria marcado um voo direto.", "de": "An deiner Stelle hätte ich einen Direktflug gebucht."},
+     {"pt": "Chegámos à porta de embarque mesmo à justa.", "de": "Wir sind ganz knapp am Gate angekommen."},
+     {"pt": "De qualquer maneira, o meu irmão nunca me teria perdoado.", "de": "Jedenfalls hätte mir mein Bruder nie verziehen."}
+    ]
+   },
+   "saetze": [
+    {"id": "nunca-teriamos-chegado", "pt": "Sem ela, nunca teríamos chegado a tempo.", "de": "Ohne sie wären wir nie rechtzeitig angekommen."},
+    {"id": "no-teu-lugar-teria", "pt": "No teu lugar, eu teria marcado um voo direto.", "de": "An deiner Stelle hätte ich einen Direktflug gebucht."},
+    {"id": "apanhamos-por-um-triz", "pt": "Apanhámos o avião por um triz.", "de": "Wir haben das Flugzeug um ein Haar erwischt."}
+   ]
+  },
+  {
+   "id": "B2-02-L02",
+   "typ": "neu",
+   "titel": "Se tivesse sabido, teria vindo – irrealer Bedingungssatz",
+   "vokabeln": ["atempadamente", "de-antemao", "dar-sinal-de-vida", "fazer-questao-de", "por-ao-corrente", "a-festa-de-anos", "faltar-a", "levar-a-peito", "o-desencontro", "dar-com-a-lingua-nos-dentes"],
+   "grammatik": {
+    "titel": "A condição irreal no passado",
+    "erklaerung": [
+     "Para falar de uma condição que <b>não se realizou</b> no passado, usa-se: <b>se + mais-que-perfeito do conjuntivo</b> (tivesse + particípio) e, na oração principal, o <b>condicional composto</b> (teria + particípio).",
+     "<i>Se <b>tivesse sabido</b> da festa, <b>teria vindo</b>.</i> – A festa já passou: não soube e não vim.",
+     "Mais-que-perfeito do conjuntivo: eu <b>tivesse</b>, tu <b>tivesses</b>, ele/ela <b>tivesse</b>, nós <b>tivéssemos</b>, eles/elas <b>tivessem</b> + particípio.",
+     "A ordem pode inverter-se: <i>Teria vindo, se tivesse sabido.</i> Na negativa: <i>Se não me tivesses avisado, não teria ido.</i>",
+     "Atenção: depois de <b>se</b> (= wenn) nunca vem o condicional. Errado: <i>se teria sabido</i>. Também se pode exprimir a condição com <b>sem</b> ou <b>com</b>: <i>Sem o teu aviso, teria faltado.</i>"
+    ],
+    "erklaerung_de": [
+     "Irrealer Bedingungssatz der Vergangenheit: <b>se + tivesse + Partizip</b>, Hauptsatz <b>teria + Partizip</b>.",
+     "„Wenn ich es gewusst hätte, wäre ich gekommen.“ = <i>Se tivesse sabido, teria vindo.</i>",
+     "Nach <i>se</i> nie den Konditional verwenden!"
+    ],
+    "vergleich": "Alemão: „Wenn ich es gewusst hätte, wäre ich gekommen.“ – Konjunktiv II nas duas orações. Português: conjuntivo na oração com <i>se</i>, condicional na principal. Inglês: „If I had known, I would have come.“",
+    "beispiele": [
+     {"pt": "Se tivesse sabido da festa, teria vindo.", "de": "Wenn ich von der Feier gewusst hätte, wäre ich gekommen."},
+     {"pt": "Se o João nos tivesse avisado atempadamente, teríamos ido.", "de": "Hätte João uns rechtzeitig Bescheid gegeben, wären wir hingegangen."},
+     {"pt": "Teria levado um presente, se tivesse sabido de antemão.", "de": "Ich hätte ein Geschenk mitgebracht, wenn ich es im Voraus gewusst hätte."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se eu ___ da festa, teria levado um presente. (saber)", "loesungen": ["tivesse sabido"], "de": "Wenn ich von der Feier gewusst hätte, hätte ich ein Geschenk mitgebracht.", "kategorie": "Se + mais-que-perfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Se o João nos tivesse avisado atempadamente, nós ___ à festa. (ir)", "loesungen": ["teríamos ido"], "de": "Hätte João uns rechtzeitig Bescheid gegeben, wären wir zur Feier gegangen.", "kategorie": "Condicional composto"},
+     {"typ": "luecke", "satz": "O João não ___ sentido, se tu tivesses aparecido. (ficar)", "loesungen": ["teria ficado"], "de": "João wäre nicht gekränkt gewesen, wenn du gekommen wärst.", "kategorie": "Condicional composto"},
+     {"typ": "luecke", "satz": "Se a Ana não ___ a mensagem, eu nunca teria sabido. (ver)", "loesungen": ["tivesse visto"], "de": "Hätte Ana die Nachricht nicht gesehen, hätte ich es nie erfahren.", "erklaerung": "ver → visto (particípio irregular).", "kategorie": "Se + mais-que-perfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["Se teria sabido, teria vindo.", "Se tivesse sabido, teria vindo.", "Se tinha sabido, teria vindo."], "richtig": 1, "erklaerung": "Depois de se: mais-que-perfeito do conjuntivo (tivesse sabido).", "kategorie": "Se + mais-que-perfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "«Se tu me ___ de antemão, eu não teria faltado.»", "optionen": ["dirias", "tivesses dito", "tinhas dito"], "richtig": 1, "erklaerung": "Na oração com se usa-se o conjuntivo: tivesses dito.", "kategorie": "Se + mais-que-perfeito do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Wenn ich es gewusst hätte, wäre ich gekommen.", "loesungen": ["Se tivesse sabido, teria vindo.", "Se eu tivesse sabido, teria vindo.", "Se tivesse sabido, tinha vindo.", "Se eu tivesse sabido, tinha vindo.", "Se soubesse, tinha vindo.", "Se eu soubesse, tinha vindo.", "Se soubesse, teria vindo.", "Se eu soubesse, teria vindo.", "Teria vindo se tivesse sabido.", "Teria vindo, se tivesse sabido.", "Se tivesse sabido, teria ido.", "Se eu tivesse sabido, teria ido."], "kategorie": "Condição irreal"},
+     {"typ": "satzbau", "de": "Wenn du rechtzeitig angerufen hättest, hätten wir auf dich gewartet.", "loesung": "Se tu tivesses ligado a tempo, teríamos esperado por ti."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A festa de anos do João – Joãos Geburtstagsfeier",
+    "situation": "Na manhã seguinte, o João encontra o Stefan à porta de casa. O Stefan faltou à festa de anos do vizinho.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Olá, Stefan. Ontem à noite estivemos todos à tua espera…", "de": "Hallo, Stefan. Gestern Abend haben wir alle auf dich gewartet …"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "À minha espera? Para quê?", "de": "Auf mich? Wofür?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Para a minha festa de anos! Fiz sessenta anos e fazia questão de que estivesses lá.", "de": "Für meine Geburtstagsfeier! Ich bin sechzig geworden und wollte unbedingt, dass du da bist."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ó João, desculpa! Se eu tivesse sabido, teria vindo de certeza. Ninguém me disse nada.", "de": "Ach João, entschuldige! Hätte ich es gewusst, wäre ich sicher gekommen. Niemand hat mir etwas gesagt."},
+     {"sprecher": "João", "stimme": "m", "pt": "Mandei o convite pelo grupo dos vizinhos, na semana passada.", "de": "Ich habe die Einladung letzte Woche über die Nachbarschaftsgruppe geschickt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ah, isso explica tudo. Saí desse grupo há um mês… Foi um desencontro.", "de": "Ah, das erklärt alles. Ich bin vor einem Monat aus der Gruppe ausgetreten … Wir haben uns verpasst."},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois. Escusado será dizer que a minha mulher também perguntou por ti.", "de": "Tja. Überflüssig zu sagen, dass auch meine Frau nach dir gefragt hat."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Que pena! Se a Ana tivesse visto a mensagem, também me teria prevenido, mas ela saiu do grupo comigo.", "de": "Wie schade! Hätte Ana die Nachricht gesehen, hätte sie mich auch vorgewarnt, aber sie ist mit mir aus der Gruppe ausgetreten."},
+     {"sprecher": "João", "stimme": "m", "pt": "Bem, não levei a peito. Mas da próxima vez aviso-te pessoalmente – e atempadamente!", "de": "Na gut, ich habe es mir nicht zu Herzen genommen. Aber nächstes Mal sage ich es dir persönlich – und rechtzeitig!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. E logo à tarde passo por tua casa com uma garrafa de vinho do Porto.", "de": "Abgemacht. Und heute Nachmittag komme ich mit einer Flasche Portwein bei dir vorbei."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Stefan faltou à festa?", "optionen": ["Porque estava doente.", "Porque não recebeu o convite.", "Porque estava em Viena."], "richtig": 1},
+     {"frage": "Quantos anos fez o João?", "optionen": ["Sessenta.", "Cinquenta.", "Setenta."], "richtig": 0},
+     {"frage": "O que vai fazer o Stefan à tarde?", "optionen": ["Voltar a entrar no grupo dos vizinhos.", "Organizar outra festa.", "Levar uma garrafa de vinho do Porto ao João."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "A Rita pergunta-lhe porque não foi ao jantar de sexta-feira. Explique-se com frases irreais no passado.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, porque é que não apareceste no jantar de sexta? Estávamos todos lá!", "de": "Stefan, warum bist du am Freitag nicht zum Abendessen gekommen? Wir waren alle da!"},
+     {"ich": true, "aufgabe": "Diga: Wenn ich es gewusst hätte, wäre ich gekommen.", "loesungen": ["Se tivesse sabido, teria vindo.", "Se eu tivesse sabido, teria vindo.", "Se tivesse sabido, tinha vindo.", "Se eu tivesse sabido, tinha vindo.", "Se soubesse, tinha vindo.", "Se eu soubesse, tinha vindo.", "Se tivesse sabido, teria ido.", "Se eu tivesse sabido, teria ido.", "Se tivesse sabido, tinha ido.", "Se soubesse, tinha ido.", "Teria vindo, se tivesse sabido."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Mas eu mandei-te uma mensagem na quarta-feira!", "de": "Aber ich habe dir am Mittwoch eine Nachricht geschickt!"},
+     {"ich": true, "aufgabe": "Diga: Ich habe sie nicht gesehen. Hättest du mich angerufen, hätte ich es gewusst.", "loesungen": ["Não a vi. Se tu me tivesses ligado, teria sabido.", "Não a vi. Se tu me tivesses ligado, eu teria sabido.", "Não a vi. Se tu me tivesses telefonado, teria sabido.", "Não a vi. Se tu me tivesses ligado, tinha sabido.", "Não a vi. Teria sabido, se me tivesses ligado.", "Não a vi. Teria sabido se me tivesses ligado.", "Não a vi. Tinha sabido, se me tivesses ligado.", "Não a vi. Se tu me tivesses telefonado, eu teria sabido."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Pronto, não faz mal. Mas o Pedro ficou um bocado sentido.", "de": "Na gut, macht nichts. Aber Pedro war ein bisschen gekränkt."},
+     {"ich": true, "aufgabe": "Diga: Das tut mir leid. Hätte ich das gewusst, hätte ich ihn vorher angerufen.", "loesungen": ["Lamento. Se tivesse sabido, ter-lhe-ia ligado antes.", "Lamento. Se tivesse sabido, tinha-lhe ligado antes.", "Lamento. Se eu tivesse sabido, tinha-lhe ligado antes.", "Tenho muita pena. Se tivesse sabido, tinha-lhe ligado antes.", "Desculpa. Se tivesse sabido, tinha-lhe ligado antes.", "Lamento. Se soubesse, tinha-lhe ligado antes.", "Lamento. Se tivesse sabido, tinha-lhe telefonado antes.", "Lamento muito. Se tivesse sabido, ter-lhe-ia telefonado antes."]}
+    ]
+   },
+   "saetze": [
+    {"id": "se-tivesse-sabido-teria-vindo", "pt": "Se tivesse sabido, teria vindo.", "de": "Wenn ich es gewusst hätte, wäre ich gekommen."},
+    {"id": "fazia-questao-de-que", "pt": "Fazia questão de que estivesses lá.", "de": "Ich wollte unbedingt, dass du da bist."},
+    {"id": "foi-um-desencontro", "pt": "Foi um desencontro.", "de": "Wir haben uns verpasst."}
+   ]
+  },
+  {
+   "id": "B2-02-L03",
+   "typ": "neu",
+   "titel": "Tinha ganho! – die umgangssprachliche Form",
+   "vokabeln": ["o-penalti", "a-baliza", "rematar", "o-guarda-redes", "a-jogada", "bolas", "safar-se", "ter-jeito-para", "nem-de-proposito", "a-rasca", "de-caras", "o-fora-de-jogo"],
+   "grammatik": {
+    "titel": "Tinha feito em vez de teria feito",
+    "erklaerung": [
+     "Na língua falada em Portugal, o condicional composto é muitas vezes substituído pelo <b>mais-que-perfeito composto do indicativo</b> (tinha + particípio): <i>Se tivesse sabido, <b>tinha vindo</b>.</i> = <i>teria vindo</i>.",
+     "Na oração com <b>se</b> aparece, na fala, muitas vezes o <b>imperfeito do conjuntivo</b>, quando o contexto já é claramente passado: <i>Se eu <b>soubesse</b>, tinha vindo.</i>",
+     "Com pronomes, a forma coloquial evita a mesóclise: <i>Tinha-te avisado</i> (fala) em vez de <i>Ter-te-ia avisado</i> (escrita cuidada).",
+     "Registo: <b>tinha feito</b> → conversa, mensagens, amigos; <b>teria feito</b> → textos escritos, relatórios, discurso formal.",
+     "Cuidado: <i>tinha feito</i> continua a ser também o mais-que-perfeito normal (= hatte gemacht): <i>Quando chegámos, o jogo já <b>tinha começado</b>.</i> É o contexto que decide."
+    ],
+    "erklaerung_de": [
+     "Umgangssprachlich ersetzt <b>tinha + Partizip</b> sehr oft <i>teria + Partizip</i>: <i>Se tivesse sabido, tinha vindo.</i>",
+     "Im se-Satz hört man oft auch nur <i>soubesse</i> statt <i>tivesse sabido</i>.",
+     "<i>tinha feito</i> kann aber auch einfach „hatte gemacht“ bedeuten – der Kontext entscheidet."
+    ],
+    "vergleich": "Também o alemão falado simplifica („Hätt ich das gewusst, wär ich gekommen“). Em português europeu, <i>tinha + particípio</i> na oração principal é muito frequente na fala e não é considerado erro.",
+    "beispiele": [
+     {"pt": "Se ele tivesse marcado o penálti, tínhamos ganho.", "de": "Hätte er den Elfmeter verwandelt, hätten wir gewonnen."},
+     {"pt": "Se eu soubesse, tinha ficado em casa.", "de": "Hätte ich das gewusst, wäre ich zu Hause geblieben."},
+     {"pt": "Se não me tivesses ajudado, tinha ficado à rasca.", "de": "Hättest du mir nicht geholfen, wäre ich in der Klemme gewesen."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Qual é a versão coloquial de «Se tivesse rematado, teria marcado»?", "optionen": ["Se tivesse rematado, tinha marcado.", "Se teria rematado, tinha marcado.", "Se tinha rematado, marcava."], "richtig": 0, "erklaerung": "Só muda a oração principal: teria marcado → tinha marcado.", "kategorie": "Registo"},
+     {"typ": "luecke", "satz": "Se o guarda-redes não tivesse defendido, o Benfica ___ . (ganhar – forma coloquial)", "loesungen": ["tinha ganho", "tinha ganhado"], "de": "Hätte der Torwart nicht gehalten, hätte Benfica gewonnen.", "erklaerung": "Com ter, em Portugal, usa-se sobretudo o particípio curto: ganho.", "kategorie": "Tinha + particípio"},
+     {"typ": "luecke", "satz": "Bolas! Se eu soubesse, ___ o bilhete mais cedo. (comprar – forma coloquial)", "loesungen": ["tinha comprado"], "de": "Mist! Hätte ich das gewusst, hätte ich die Karte früher gekauft.", "kategorie": "Tinha + particípio"},
+     {"typ": "luecke", "satz": "Se tu me tivesses perguntado, eu ___ . (avisar-te – forma coloquial)", "loesungen": ["tinha-te avisado"], "de": "Hättest du mich gefragt, hätte ich dich gewarnt.", "erklaerung": "Na fala: tinha-te avisado; na escrita formal: ter-te-ia avisado.", "kategorie": "Pronomes"},
+     {"typ": "auswahl", "frage": "Em que situação é mais natural usar «teria feito»?", "optionen": ["Num relatório para a seguradora.", "Numa mensagem a um amigo.", "Numa conversa no café."], "richtig": 0, "kategorie": "Registo"},
+     {"typ": "auswahl", "frage": "«Quando chegámos ao estádio, o jogo já tinha começado.» – Aqui, «tinha começado» significa…", "optionen": ["hätte begonnen", "hatte begonnen", "würde beginnen"], "richtig": 1, "erklaerung": "Aqui não há condição: é o mais-que-perfeito normal (ação anterior a outra no passado).", "kategorie": "Tinha + particípio"},
+     {"typ": "uebersetzen", "de": "Hätte er den Elfmeter verwandelt, hätten wir gewonnen. (umgangssprachlich)", "loesungen": ["Se ele tivesse marcado o penálti, tínhamos ganho.", "Se tivesse marcado o penálti, tínhamos ganho.", "Se ele tivesse marcado o penálti, tínhamos ganhado.", "Se tivesse marcado o penálti, tínhamos ganhado.", "Se ele marcasse o penálti, tínhamos ganho.", "Se ele tivesse metido o penálti, tínhamos ganho.", "Se ele tivesse marcado o penálti, teríamos ganho.", "Se tivesse marcado o penálti, teríamos ganho.", "Se ele tivesse marcado a grande penalidade, tínhamos ganho."], "kategorie": "Tinha + particípio"},
+     {"typ": "satzbau", "de": "Hätte ich nicht so viel Glück gehabt, wäre ich in der Klemme gewesen.", "loesung": "Se não tivesse tido tanta sorte, tinha ficado à rasca."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Depois do jogo – Nach dem Spiel",
+    "situation": "No café, o Pedro e o Stefan comentam o jogo de futebol da véspera.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Viste o jogo ontem? Que desilusão!", "de": "Hast du gestern das Spiel gesehen? Was für eine Enttäuschung!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vi, vi. Se o Silva tivesse marcado aquele penálti, tínhamos ganho.", "de": "Ja, ja. Hätte Silva diesen Elfmeter verwandelt, hätten wir gewonnen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Pois! Rematou mal e a bola foi direitinha para as mãos do guarda-redes.", "de": "Eben! Er hat schlecht geschossen, und der Ball ging direkt in die Hände des Torwarts."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o golo que anularam? Para mim, não havia fora de jogo nenhum.", "de": "Und das aberkannte Tor? Für mich war das überhaupt kein Abseits."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Também acho. Se o árbitro tivesse visto as imagens, tinha validado o golo.", "de": "Finde ich auch. Hätte sich der Schiedsrichter die Bilder angesehen, hätte er das Tor gegeben."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bolas, e eu que até tinha feito uma aposta com o João…", "de": "Mist, und ich hatte sogar mit João gewettet …"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Apostaste? O quê?", "de": "Du hast gewettet? Um was?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Um jantar. Se tivéssemos ganho, era ele que pagava.", "de": "Um ein Abendessen. Hätten wir gewonnen, hätte er gezahlt."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Bem, desta vez não te safaste. Mas olha, nem de propósito: lá vem o João!", "de": "Tja, diesmal bist du nicht davongekommen. Aber schau, wie gerufen: Da kommt João!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ai… Se eu soubesse, tinha ficado em casa!", "de": "Oje … Hätte ich das gewusst, wäre ich zu Hause geblieben!"}
+    ],
+    "fragen": [
+     {"frage": "O que teria acontecido se o Silva tivesse marcado o penálti?", "optionen": ["A equipa tinha empatado.", "A equipa tinha ganho.", "O árbitro tinha anulado o golo."], "richtig": 1},
+     {"frage": "O que pensa o Pedro do golo anulado?", "optionen": ["Que havia fora de jogo.", "Que o árbitro tinha razão.", "Que não havia fora de jogo."], "richtig": 2},
+     {"frage": "O que apostou o Stefan com o João?", "optionen": ["Um jantar.", "Uma garrafa de vinho.", "Dez euros."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português, em registo coloquial.",
+    "aufgaben": [
+     {"de": "Hätte ich das gewusst, hätte ich dich gewarnt.", "loesungen": ["Se eu soubesse, tinha-te avisado.", "Se soubesse, tinha-te avisado.", "Se eu tivesse sabido, tinha-te avisado.", "Se tivesse sabido, tinha-te avisado.", "Se soubesse, tinha-te prevenido.", "Se eu soubesse, tinha-te prevenido.", "Se tivesse sabido, tinha-te prevenido.", "Se tivesse sabido, ter-te-ia avisado.", "Se eu tivesse sabido, ter-te-ia avisado."]},
+     {"de": "Mist! Wären wir früher losgefahren, hätten wir den Zug erwischt.", "loesungen": ["Bolas! Se tivéssemos saído mais cedo, tínhamos apanhado o comboio.", "Bolas! Se tivéssemos saído mais cedo, teríamos apanhado o comboio.", "Bolas! Se saíssemos mais cedo, tínhamos apanhado o comboio.", "Bolas! Se nós tivéssemos saído mais cedo, tínhamos apanhado o comboio.", "Bolas! Tínhamos apanhado o comboio se tivéssemos saído mais cedo."]},
+     {"de": "Er hat Talent für Fußball.", "loesungen": ["Ele tem jeito para o futebol.", "Tem jeito para o futebol.", "Ele tem jeito para futebol.", "Tem jeito para futebol."]},
+     {"de": "Hättest du mir nicht geholfen, wäre ich in der Klemme gewesen.", "loesungen": ["Se tu não me tivesses ajudado, tinha ficado à rasca.", "Se não me tivesses ajudado, tinha ficado à rasca.", "Se não me tivesses ajudado, tinha estado à rasca.", "Se não me tivesses ajudado, teria ficado à rasca.", "Se tu não me tivesses ajudado, teria ficado à rasca.", "Se não me ajudasses, tinha ficado à rasca."]}
+    ]
+   },
+   "saetze": [
+    {"id": "tinhamos-ganho", "pt": "Se ele tivesse marcado o penálti, tínhamos ganho.", "de": "Hätte er den Elfmeter verwandelt, hätten wir gewonnen."},
+    {"id": "se-eu-soubesse-tinha-ficado", "pt": "Se eu soubesse, tinha ficado em casa!", "de": "Hätte ich das gewusst, wäre ich zu Hause geblieben!"},
+    {"id": "tem-jeito-para", "pt": "O Pedro tem jeito para o futebol.", "de": "Pedro hat Talent für Fußball."}
+   ]
+  },
+  {
+   "id": "B2-02-L04",
+   "typ": "neu",
+   "titel": "Caminhos da vida – gemischte Bedingungssätze",
+   "vokabeln": ["a-bolsa-de-estudo", "ir-la-para-fora", "o-dilema", "a-guinada", "a-viragem", "a-vocacao", "o-oficio", "a-escolha", "atualmente", "estabelecer-se", "seguir-as-pisadas-de"],
+   "grammatik": {
+    "titel": "Tempos mistos: passado e presente",
+    "erklaerung": [
+     "Nas frases <b>mistas</b>, a condição e a consequência referem-se a tempos diferentes.",
+     "<b>Condição no passado → consequência no presente</b>: se + <b>tivesse + particípio</b>, oração principal no <b>imperfeito</b> ou <b>condicional</b>: <i>Se <b>tivesse começado</b> mais cedo, agora <b>falava</b> (falaria) melhor português.</i>",
+     "<b>Característica permanente → consequência no passado</b>: se + <b>imperfeito do conjuntivo</b>, oração principal no <b>condicional composto</b> (ou tinha + particípio): <i>Se <b>fosse</b> mais organizado, não <b>teria perdido</b> o voo.</i>",
+     "Palavras como <i>agora, hoje, atualmente, neste momento, já</i> ajudam a marcar o tempo de cada oração.",
+     "Na fala, o imperfeito do indicativo (<i>falava, vivia, era</i>) é mais comum do que o condicional simples (<i>falaria, viveria, seria</i>)."
+    ],
+    "erklaerung_de": [
+     "Gemischte Bedingungssätze: Bedingung in der Vergangenheit, Folge in der Gegenwart – <i>Se tivesse começado mais cedo, agora falava melhor.</i>",
+     "Oder umgekehrt: dauerhafte Eigenschaft, Folge in der Vergangenheit – <i>Se fosse mais organizado, não teria perdido o voo.</i>",
+     "Zeitwörter wie <i>agora, hoje, atualmente</i> helfen bei der Orientierung."
+    ],
+    "vergleich": "Alemão: „Hätte ich früher angefangen, würde ich jetzt besser sprechen.“ Inglês: „If I had started earlier, I would speak better now.“ A lógica é a mesma; em português, o imperfeito (<i>falava</i>) substitui muitas vezes o condicional.",
+    "beispiele": [
+     {"pt": "Se tivesse começado mais cedo, agora falava melhor português.", "de": "Hätte ich früher angefangen, würde ich jetzt besser Portugiesisch sprechen."},
+     {"pt": "Se não tivesse ganho a bolsa de estudo, hoje não seria médica.", "de": "Hätte sie das Stipendium nicht bekommen, wäre sie heute keine Ärztin."},
+     {"pt": "Se eu fosse mais disciplinado, já teria feito o exame.", "de": "Wäre ich disziplinierter, hätte ich die Prüfung schon abgelegt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se a Rita não tivesse ganho a bolsa de estudo, hoje não ___ médica. (ser)", "loesungen": ["era", "seria"], "de": "Hätte Rita das Stipendium nicht bekommen, wäre sie heute keine Ärztin.", "kategorie": "Tempos mistos"},
+     {"typ": "luecke", "satz": "Se ___ mais organizado, não teria perdido o voo. (eu – ser)", "loesungen": ["fosse", "eu fosse"], "de": "Wäre ich organisierter, hätte ich den Flug nicht verpasst.", "erklaerung": "Característica permanente → imperfeito do conjuntivo (fosse).", "kategorie": "Tempos mistos"},
+     {"typ": "luecke", "satz": "Se não tivesse aprendido o ofício com o pai, atualmente não ___ trabalho. (ter)", "loesungen": ["tinha", "teria"], "de": "Hätte er das Handwerk nicht beim Vater gelernt, hätte er derzeit keine Arbeit.", "kategorie": "Tempos mistos"},
+     {"typ": "luecke", "satz": "Se a Ana não ___ tanta paciência, eu já teria desistido do português. (ter)", "loesungen": ["tivesse"], "de": "Hätte Ana nicht so viel Geduld, hätte ich das Portugiesische schon aufgegeben.", "kategorie": "Tempos mistos"},
+     {"typ": "auswahl", "frage": "«Se tivesse aceitado aquele emprego em Londres, agora ___ em Inglaterra.»", "optionen": ["vivesse", "vivia", "tivesse vivido"], "richtig": 1, "erklaerung": "A consequência é no presente (agora): imperfeito ou condicional – vivia / viveria.", "kategorie": "Tempos mistos"},
+     {"typ": "auswahl", "frage": "Qual destas frases liga uma característica permanente a uma consequência no passado?", "optionen": ["Se fosse mais paciente, não teria discutido com o chefe.", "Se tivesse sido paciente, agora tinha emprego.", "Se for paciente, não discuto."], "richtig": 0, "kategorie": "Tempos mistos"},
+     {"typ": "uebersetzen", "de": "Wenn ich nicht ausgewandert wäre, würde ich heute in Wien leben.", "loesungen": ["Se não tivesse emigrado, hoje vivia em Viena.", "Se eu não tivesse emigrado, hoje vivia em Viena.", "Se não tivesse emigrado, hoje viveria em Viena.", "Se eu não tivesse emigrado, hoje viveria em Viena.", "Se não tivesse emigrado, vivia hoje em Viena.", "Se não tivesse emigrado, viveria hoje em Viena.", "Se eu não tivesse emigrado, vivia hoje em Viena.", "Hoje vivia em Viena, se não tivesse emigrado.", "Hoje viveria em Viena, se não tivesse emigrado.", "Se não tivesse emigrado, hoje morava em Viena."], "kategorie": "Tempos mistos"},
+     {"typ": "satzbau", "de": "Wenn ich mutiger wäre, hätte ich das Angebot angenommen.", "loesung": "Se eu fosse mais corajoso, teria aceitado a proposta."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Caminhos da vida – Lebenswege",
+    "situation": "Numa esplanada em Lagos, o Stefan, a Ana e a Rita conversam sobre as escolhas que fizeram na vida.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Stefan, nunca te perguntei: porque é que vieste para Portugal?", "de": "Stefan, ich habe dich nie gefragt: Warum bist du nach Portugal gekommen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Foi uma guinada, na verdade. Aos quarenta e tal anos, estava perante um dilema: ou continuava em Viena, ou mudava de vida.", "de": "Es war eigentlich eine Kehrtwende. Mit Mitte vierzig stand ich vor einem Dilemma: Entweder in Wien weitermachen oder mein Leben ändern."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E eu ajudei um bocadinho, não foi?", "de": "Und ich habe ein bisschen nachgeholfen, oder?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ajudaste muito! Se não te tivesse conhecido em Lisboa, hoje ainda estava fechado num escritório em Viena.", "de": "Sehr sogar! Hätte ich dich nicht in Lissabon kennengelernt, säße ich heute noch in einem Büro in Wien."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E não tens saudades?", "de": "Und vermisst du es nicht?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Às vezes. Mas, se tivesse ficado, agora não tinha esta vista nem este sol.", "de": "Manchmal. Aber wäre ich geblieben, hätte ich jetzt weder diese Aussicht noch diese Sonne."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "O único problema é o português dele. Se tivesse começado a estudar mais cedo, agora falava como um algarvio!", "de": "Das einzige Problem ist sein Portugiesisch. Hätte er früher angefangen zu lernen, würde er jetzt wie ein Algarvio sprechen!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois… e se eu fosse mais disciplinado, já teria feito o exame há muito tempo.", "de": "Tja … und wäre ich disziplinierter, hätte ich die Prüfung schon längst gemacht."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Eu também quase fui lá para fora. Tive uma bolsa de estudo para a Alemanha e recusei.", "de": "Ich wäre auch fast ins Ausland gegangen. Ich hatte ein Stipendium für Deutschland und habe abgelehnt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E hoje, o que achas dessa escolha?", "de": "Und wie siehst du diese Entscheidung heute?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Foi a certa. Se tivesse ido, se calhar hoje não era médica em Portimão. Cada escolha dá à vida o seu rumo.", "de": "Es war die richtige. Wäre ich gegangen, wäre ich heute vielleicht keine Ärztin in Portimão. Jede Entscheidung gibt dem Leben seine Richtung."}
+    ],
+    "fragen": [
+     {"frage": "Onde é que o Stefan conheceu a Ana?", "optionen": ["Em Viena.", "Em Lagos.", "Em Lisboa."], "richtig": 2},
+     {"frage": "O que diz a Ana sobre o português do Stefan?", "optionen": ["Que ele já fala como um algarvio.", "Que ele falaria melhor se tivesse começado mais cedo.", "Que ele nunca estudou português."], "richtig": 1},
+     {"frage": "O que recusou a Rita?", "optionen": ["Uma bolsa de estudo para a Alemanha.", "Um emprego em Lisboa.", "Um lugar num hospital de Viena."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Se tivesse começado mais cedo, agora falava melhor.", "de": "Hätte ich früher angefangen, würde ich jetzt besser sprechen."},
+     {"pt": "Se não te tivesse conhecido, hoje ainda estava em Viena.", "de": "Hätte ich dich nicht kennengelernt, wäre ich heute noch in Wien."},
+     {"pt": "Se eu fosse mais disciplinado, já teria feito o exame.", "de": "Wäre ich disziplinierter, hätte ich die Prüfung schon gemacht."},
+     {"pt": "Aos quarenta anos, estava numa encruzilhada.", "de": "Mit vierzig stand ich an einem Scheideweg."},
+     {"pt": "Vir para Lagos foi a melhor escolha da nossa vida.", "de": "Nach Lagos zu kommen war die beste Entscheidung unseres Lebens."}
+    ]
+   },
+   "saetze": [
+    {"id": "agora-falava-melhor", "pt": "Se tivesse começado mais cedo, agora falava melhor.", "de": "Hätte ich früher angefangen, würde ich jetzt besser sprechen."},
+    {"id": "se-fosse-mais-disciplinado", "pt": "Se eu fosse mais disciplinado, já teria feito o exame.", "de": "Wäre ich disziplinierter, hätte ich die Prüfung schon gemacht."},
+    {"id": "mudou-de-rumo", "pt": "A minha vida mudou de rumo quando conheci a Ana.", "de": "Mein Leben hat eine andere Richtung genommen, als ich Ana kennenlernte."}
+   ]
+  },
+  {
+   "id": "B2-02-L05",
+   "typ": "neu",
+   "titel": "Teria sido o vento? – Vermutungen über die Vergangenheit",
+   "vokabeln": ["o-estrondo", "o-vendaval", "derrubar", "o-vaso", "a-pegada", "as-tantas", "o-vulto", "aparentar", "uns", "a-vedacao", "o-gato-vadio", "arrombar"],
+   "grammatik": {
+    "titel": "Suposições sobre o passado",
+    "erklaerung": [
+     "O condicional também serve para fazer <b>suposições</b> sobre o passado, quando não temos a certeza.",
+     "Estado ou situação no passado → <b>condicional simples</b>: <i>Ele <b>teria</b> uns trinta anos.</i> (= devia ter uns trinta anos) · <i><b>Seriam</b> umas três da manhã.</i>",
+     "Ação concluída no passado → <b>condicional composto</b>: <i><b>Teria sido</b> o vento?</i> · <i>Quem <b>teria deixado</b> o portão aberto?</i>",
+     "Alternativas muito frequentes na fala: <b>dever + ter + particípio</b> (<i>Deve ter sido o vento</i>), <b>se calhar</b> + indicativo (<i>Se calhar foi um gato</i>) e <b>talvez</b> + conjuntivo (<i>Talvez tenha sido um gato</i>).",
+     "<b>uns / umas</b> antes de um número significa «cerca de»: <i>umas duas horas, uns quarenta anos</i>."
+    ],
+    "erklaerung_de": [
+     "Vermutungen über die Vergangenheit: Zustand → <i>teria, seria</i> (er war wohl …); abgeschlossene Handlung → <i>teria sido, teria feito</i> (es wird … gewesen sein).",
+     "Umgangssprachlich oft: <i>Deve ter sido o vento.</i> = Das muss der Wind gewesen sein.",
+     "<i>uns/umas</i> + Zahl = ungefähr: <i>uns trinta anos</i> = um die dreißig."
+    ],
+    "vergleich": "Alemão: „Er war wohl um die dreißig.“ / „Das wird der Wind gewesen sein.“ – com <i>wohl</i> ou com o futuro. Português: condicional (<i>teria, teria sido</i>) ou <i>deve ter sido</i>. Inglês: „He must have been about thirty. It must have been the wind.“",
+    "beispiele": [
+     {"pt": "Seriam umas três da manhã quando ouvimos o estrondo.", "de": "Es war wohl gegen drei Uhr morgens, als wir den Knall hörten."},
+     {"pt": "Teria sido o vendaval que derrubou o vaso?", "de": "Ob es der Sturm war, der den Blumentopf umgeworfen hat?"},
+     {"pt": "O homem teria uns trinta anos.", "de": "Der Mann war wohl um die dreißig."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ umas três da manhã quando ouvimos o estrondo. (ser – suposição)", "loesungen": ["Seriam", "Deviam ser"], "de": "Es war wohl gegen drei Uhr morgens, als wir den Knall hörten.", "kategorie": "Suposição"},
+     {"typ": "luecke", "satz": "Quem ___ o portão aberto? (deixar – suposição)", "loesungen": ["teria deixado", "terá deixado"], "de": "Wer mag das Tor offen gelassen haben?", "kategorie": "Suposição"},
+     {"typ": "luecke", "satz": "O homem ___ uns quarenta anos. (ter – suposição)", "loesungen": ["teria", "devia ter"], "de": "Der Mann war wohl um die vierzig.", "erklaerung": "Estado no passado: condicional simples (teria) ou devia ter.", "kategorie": "Suposição"},
+     {"typ": "luecke", "satz": "Não havia pegadas nenhumas. ___ sido o vento.", "loesungen": ["Deve ter", "Teria", "Terá"], "de": "Es gab keinerlei Spuren. Es wird wohl der Wind gewesen sein.", "kategorie": "Suposição"},
+     {"typ": "auswahl", "frage": "Qual destas frases exprime uma suposição sobre o passado?", "optionen": ["Teria sido um gato vadio.", "Foi um gato vadio.", "Será um gato vadio."], "richtig": 0, "erklaerung": "«Foi» apresenta um facto; «será» é uma suposição sobre o presente.", "kategorie": "Suposição"},
+     {"typ": "auswahl", "frage": "«Er war wohl um die dreißig.»", "optionen": ["Tinha trinta anos.", "Teria uns trinta anos.", "Terá tido trinta anos."], "richtig": 1, "kategorie": "Suposição"},
+     {"typ": "uebersetzen", "de": "Das muss der Sturm gewesen sein.", "loesungen": ["Deve ter sido o vendaval.", "Teria sido o vendaval.", "Terá sido o vendaval.", "Deve ter sido a tempestade.", "Deve ter sido o temporal.", "Teria sido a tempestade.", "Foi de certeza o vendaval."], "kategorie": "Suposição"},
+     {"typ": "satzbau", "de": "Es war wohl gegen Mitternacht, als der Hund zu bellen anfing.", "loesung": "Seria por volta da meia-noite quando o cão começou a ladrar."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um estrondo às tantas da noite – Ein Knall mitten in der Nacht",
+    "situation": "De manhã, a Ana e o Stefan encontram o jardim desarrumado. O vizinho João aparece junto à vedação.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, anda ver! O vaso das sardinheiras está partido e a vedação está no chão.", "de": "Stefan, komm schauen! Der Geranientopf ist kaputt, und der Zaun liegt am Boden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então foi esse o estrondo que ouvimos às tantas da noite. Seriam umas três da manhã.", "de": "Das war also der Knall, den wir mitten in der Nacht gehört haben. Es war wohl gegen drei Uhr früh."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Teria sido o vendaval? Ontem à noite o vento estava fortíssimo.", "de": "Ob das der Sturm war? Gestern Abend war der Wind extrem stark."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pode ser. Mas olha para estas pegadas na terra… São pequenas. Deve ter sido um gato vadio.", "de": "Kann sein. Aber schau dir diese Spuren in der Erde an … Sie sind klein. Das muss eine streunende Katze gewesen sein."},
+     {"sprecher": "João", "stimme": "m", "pt": "Bom dia, vizinhos! Também tiveram estragos? O vento derrubou-me duas árvores.", "de": "Guten Morgen, Nachbarn! Habt ihr auch Schäden? Mir hat der Wind zwei Bäume umgeworfen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Tivemos. E achas que alguém teria entrado no jardim?", "de": "Ja. Und glaubst du, dass jemand in den Garten gekommen sein könnte?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Duvido. Mas, olhem, às duas e tal vi um vulto junto ao vosso portão.", "de": "Bezweifle ich. Aber schaut, kurz nach zwei habe ich eine Gestalt an eurem Tor gesehen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Um vulto? Como era?", "de": "Eine Gestalt? Wie sah sie aus?"},
+     {"sprecher": "João", "stimme": "m", "pt": "Estava escuro… Teria uns vinte e poucos anos, era magro. Se calhar era o Rui, o filho da vizinha, que chega sempre tarde do trabalho.", "de": "Es war dunkel … Er war wohl Anfang zwanzig, schlank. Vielleicht war es Rui, der Sohn der Nachbarin, der immer spät von der Arbeit kommt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Pronto, mistério resolvido: o vento derrubou a vedação, o gato deixou as pegadas e o vulto era o Rui!", "de": "Also, Rätsel gelöst: Der Wind hat den Zaun umgeworfen, die Katze hat die Spuren hinterlassen, und die Gestalt war Rui!"}
+    ],
+    "fragen": [
+     {"frage": "A que horas ouviram o estrondo, mais ou menos?", "optionen": ["Por volta da meia-noite.", "Por volta das três da manhã.", "Às seis da manhã."], "richtig": 1},
+     {"frage": "O que pensa o Stefan das pegadas?", "optionen": ["Que são de um gato vadio.", "Que são de um ladrão.", "Que são do João."], "richtig": 0},
+     {"frage": "Quem seria o vulto, segundo o João?", "optionen": ["Um assaltante.", "O Stefan.", "O filho da vizinha."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "De manhã, o seu carro aparece todo riscado. O João pergunta o que aconteceu. Faça suposições.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Bom dia, Stefan! O que é que aconteceu ao teu carro? Está todo riscado!", "de": "Guten Morgen, Stefan! Was ist mit deinem Auto passiert? Es ist ganz zerkratzt!"},
+     {"ich": true, "aufgabe": "Diga: Ich weiß es nicht. Es war wohl ein Fahrrad.", "loesungen": ["Não sei. Teria sido uma bicicleta.", "Não sei. Deve ter sido uma bicicleta.", "Não sei. Terá sido uma bicicleta.", "Não sei. Se calhar foi uma bicicleta.", "Não sei. Talvez tenha sido uma bicicleta.", "Não faço ideia. Deve ter sido uma bicicleta."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Uma bicicleta? E a que horas foi isso?", "de": "Ein Fahrrad? Und wann war das?"},
+     {"ich": true, "aufgabe": "Diga: Es war wohl gegen Mitternacht. Ich habe einen Knall gehört.", "loesungen": ["Seria por volta da meia-noite. Ouvi um estrondo.", "Seria meia-noite. Ouvi um estrondo.", "Devia ser meia-noite. Ouvi um estrondo.", "Devia ser por volta da meia-noite. Ouvi um estrondo.", "Seria à volta da meia-noite. Ouvi um estrondo.", "Seria por volta da meia-noite. Ouvi um barulho."]},
+     {"sprecher": "João", "stimme": "m", "pt": "E viste alguém?", "de": "Und hast du jemanden gesehen?"},
+     {"ich": true, "aufgabe": "Diga: Nur eine Gestalt. Er war wohl etwa zwanzig Jahre alt.", "loesungen": ["Só um vulto. Teria uns vinte anos.", "Só um vulto. Devia ter uns vinte anos.", "Vi só um vulto. Teria uns vinte anos.", "Apenas um vulto. Teria uns vinte anos.", "Só um vulto. Teria cerca de vinte anos.", "Só vi um vulto. Teria uns vinte anos."]}
+    ]
+   },
+   "saetze": [
+    {"id": "deve-ter-sido-o-vento", "pt": "Deve ter sido o vento.", "de": "Das muss der Wind gewesen sein."},
+    {"id": "teria-uns-trinta-anos", "pt": "O homem teria uns trinta anos.", "de": "Der Mann war wohl um die dreißig."},
+    {"id": "seriam-umas-tres", "pt": "Seriam umas três da manhã.", "de": "Es war wohl gegen drei Uhr morgens."}
+   ]
+  },
+  {
+   "id": "B2-02-L06",
+   "typ": "neu",
+   "titel": "O suspeito terá fugido – Distanzierung in den Nachrichten",
+   "vokabeln": ["ao-que-tudo-indica", "foragido", "o-furto", "o-roubo", "apurar", "a-policia-judiciaria", "por-se-em-fuga", "o-assaltante", "o-desaparecimento", "segundo-fontes-policiais", "o-inquerito", "presumivel"],
+   "grammatik": {
+    "titel": "Terá fugido / teria fugido: a informação não confirmada",
+    "erklaerung": [
+     "Nas notícias, quando uma informação <b>não está confirmada</b>, o jornalista distancia-se com o <b>futuro composto</b> ou com o <b>condicional composto</b>: <i>O suspeito <b>terá fugido</b> para Espanha.</i> / <i>O suspeito <b>teria fugido</b> para Espanha.</i>",
+     "A imprensa portuguesa usa muito o <b>futuro</b> (<i>terá fugido, terá começado</i>); o <b>condicional</b> aparece sobretudo quando se cita uma fonte: <i>Segundo a PJ, o suspeito <b>teria</b> cúmplices.</i>",
+     "Para o presente usam-se as formas simples: <i>O suspeito <b>estará</b> / <b>estaria</b> escondido no Alentejo.</i>",
+     "Outras marcas de distância: <i>ao que tudo indica, segundo fontes policiais, o presumível autor, alegadamente</i>.",
+     "No discurso indireto mantém-se o condicional: <i>A polícia disse que o assaltante <b>teria</b> cerca de vinte anos.</i>"
+    ],
+    "erklaerung_de": [
+     "In Nachrichten zeigt <i>terá fugido</i> / <i>teria fugido</i>, dass eine Information nicht bestätigt ist: „soll geflohen sein“.",
+     "Für die Gegenwart: <i>estará / estaria escondido</i> = soll sich versteckt halten.",
+     "Typische Signalwörter: <i>ao que tudo indica, segundo fontes policiais, presumível, alegadamente</i>."
+    ],
+    "vergleich": "Alemão: „Der Verdächtige soll geflohen sein.“ (sollen + Infinitiv Perfekt). Inglês: „The suspect reportedly fled.“ Português: <i>terá fugido / teria fugido</i> – um só verbo, sem equivalente a «sollen».",
+    "beispiele": [
+     {"pt": "O suspeito terá fugido numa mota.", "de": "Der Verdächtige soll auf einem Motorrad geflüchtet sein."},
+     {"pt": "Segundo fontes policiais, o assaltante teria cerca de vinte anos.", "de": "Laut Polizeiquellen soll der Räuber etwa zwanzig Jahre alt gewesen sein."},
+     {"pt": "Ao que tudo indica, o incêndio terá começado num armazém.", "de": "Allem Anschein nach ist das Feuer in einer Lagerhalle ausgebrochen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Segundo a GNR, os assaltantes ___ numa mota. (fugir – informação não confirmada)", "loesungen": ["terão fugido", "teriam fugido"], "de": "Laut GNR sollen die Räuber auf einem Motorrad geflüchtet sein.", "kategorie": "Distanciamento"},
+     {"typ": "luecke", "satz": "O incêndio ___ num armazém abandonado. (começar – futuro composto)", "loesungen": ["terá começado"], "de": "Das Feuer soll in einer verlassenen Lagerhalle ausgebrochen sein.", "kategorie": "Distanciamento"},
+     {"typ": "luecke", "satz": "Segundo fontes policiais, o suspeito ___ escondido em Espanha. (estar – condicional)", "loesungen": ["estaria"], "de": "Laut Polizeiquellen soll sich der Verdächtige in Spanien versteckt halten.", "erklaerung": "Situação presente não confirmada: condicional simples.", "kategorie": "Distanciamento"},
+     {"typ": "luecke", "satz": "A polícia disse que o assaltante ___ cerca de vinte anos. (ter)", "loesungen": ["teria", "tinha"], "de": "Die Polizei sagte, der Räuber sei etwa zwanzig Jahre alt gewesen.", "kategorie": "Discurso indireto"},
+     {"typ": "auswahl", "frage": "«Der Räuber soll bewaffnet gewesen sein.»", "optionen": ["O assaltante esteve armado.", "O assaltante estaria armado.", "O assaltante está armado."], "richtig": 1, "erklaerung": "estaria = segundo informações ainda não confirmadas.", "kategorie": "Distanciamento"},
+     {"typ": "auswahl", "frage": "Qual destas frases apresenta a informação como um facto confirmado?", "optionen": ["O suspeito foi detido ontem em Faro.", "O suspeito terá sido detido ontem em Faro.", "O suspeito teria sido detido ontem em Faro."], "richtig": 0, "kategorie": "Distanciamento"},
+     {"typ": "uebersetzen", "de": "Laut Polizeiquellen soll der Verdächtige nach Spanien geflohen sein.", "loesungen": ["Segundo fontes policiais, o suspeito teria fugido para Espanha.", "Segundo fontes policiais, o suspeito terá fugido para Espanha.", "De acordo com fontes policiais, o suspeito teria fugido para Espanha.", "De acordo com fontes policiais, o suspeito terá fugido para Espanha.", "Segundo fontes policiais, o suspeito ter-se-á posto em fuga para Espanha."], "kategorie": "Distanciamento"},
+     {"typ": "satzbau", "de": "Der mutmaßliche Täter wurde gestern festgenommen.", "loesung": "O presumível autor foi detido ontem."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Assalto em Portimão – Überfall in Portimão",
+    "situation": "Notícia da rádio local sobre o assalto a uma ourivesaria no centro de Portimão.",
+    "zeilen": [
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Boa tarde. Uma ourivesaria no centro de Portimão foi assaltada esta manhã. Os assaltantes terão fugido numa mota. Vamos ao nosso repórter.", "de": "Guten Tag. Ein Juweliergeschäft im Zentrum von Portimão wurde heute Morgen überfallen. Die Räuber sollen auf einem Motorrad geflüchtet sein. Wir schalten zu unserem Reporter."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Boa tarde. O assalto aconteceu por volta das dez horas, quando a loja tinha acabado de abrir.", "de": "Guten Tag. Der Überfall geschah gegen zehn Uhr, als das Geschäft gerade geöffnet hatte."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Segundo fontes policiais, seriam dois homens, ambos de cara tapada. Um deles estaria armado com uma faca.", "de": "Laut Polizeiquellen soll es sich um zwei Männer gehandelt haben, beide vermummt. Einer von ihnen soll mit einem Messer bewaffnet gewesen sein."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Ao que tudo indica, levaram joias e relógios no valor de vários milhares de euros. Felizmente, não houve feridos.", "de": "Allem Anschein nach haben sie Schmuck und Uhren im Wert von mehreren tausend Euro mitgenommen. Zum Glück gab es keine Verletzten."},
+     {"sprecher": "Testemunha", "stimme": "f", "pt": "Ouvi gritos e vi dois homens a sair a correr. Puseram-se em fuga numa mota preta, em direção à A22.", "de": "Ich hörte Schreie und sah zwei Männer hinauslaufen. Sie flüchteten auf einem schwarzen Motorrad in Richtung A22."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "A Polícia Judiciária já está a investigar o caso. Os suspeitos continuam foragidos.", "de": "Die Kriminalpolizei ermittelt bereits. Die Verdächtigen sind weiterhin flüchtig."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Ainda segundo as mesmas fontes, os assaltantes teriam estudado os horários da loja durante vários dias.", "de": "Laut denselben Quellen sollen die Räuber die Öffnungszeiten des Geschäfts mehrere Tage lang ausgekundschaftet haben."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Obrigada. Voltaremos a este assunto no noticiário das sete.", "de": "Danke. Wir kommen in den Sieben-Uhr-Nachrichten auf dieses Thema zurück."}
+    ],
+    "fragen": [
+     {"frage": "Como terão fugido os assaltantes?", "optionen": ["De carro.", "Numa mota.", "A pé."], "richtig": 1},
+     {"frage": "O que levaram, ao que tudo indica?", "optionen": ["Dinheiro da caixa.", "Telemóveis.", "Joias e relógios."], "richtig": 2},
+     {"frage": "Que informação ainda NÃO está confirmada?", "optionen": ["Que os assaltantes teriam estudado os horários da loja.", "Que a loja fica em Portimão.", "Que a PJ está a investigar."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português, no estilo de uma notícia.",
+    "aufgaben": [
+     {"de": "Der Räuber soll etwa zwanzig Jahre alt gewesen sein.", "loesungen": ["O assaltante teria cerca de vinte anos.", "O assaltante teria uns vinte anos.", "O assaltante teria à volta de vinte anos.", "O assaltante teria por volta de vinte anos.", "O assaltante terá cerca de vinte anos."]},
+     {"de": "Allem Anschein nach ist das Feuer in der Küche ausgebrochen.", "loesungen": ["Ao que tudo indica, o incêndio terá começado na cozinha.", "Ao que tudo indica, o incêndio começou na cozinha.", "Ao que tudo indica, o incêndio teria começado na cozinha.", "Ao que tudo indica, o fogo terá começado na cozinha.", "Ao que tudo indica, o fogo começou na cozinha."]},
+     {"de": "Die Kriminalpolizei ermittelt in dem Fall.", "loesungen": ["A Polícia Judiciária está a investigar o caso.", "A PJ está a investigar o caso.", "A Polícia Judiciária investiga o caso.", "A PJ investiga o caso."]},
+     {"de": "Der Verdächtige ist weiterhin flüchtig.", "loesungen": ["O suspeito continua foragido.", "O suspeito ainda está foragido.", "O suspeito continua em fuga.", "O suspeito permanece foragido."]}
+    ]
+   },
+   "saetze": [
+    {"id": "o-suspeito-tera-fugido", "pt": "O suspeito terá fugido numa mota.", "de": "Der Verdächtige soll auf einem Motorrad geflüchtet sein."},
+    {"id": "segundo-fontes-teria", "pt": "Segundo fontes policiais, o assaltante teria cerca de vinte anos.", "de": "Laut Polizeiquellen soll der Räuber etwa zwanzig gewesen sein."},
+    {"id": "continua-foragido", "pt": "O suspeito continua foragido.", "de": "Der Verdächtige ist weiterhin flüchtig."}
+   ]
+  },
+  {
+   "id": "B2-02-L07",
+   "typ": "neu",
+   "titel": "Caso tenha dúvidas… – caso + Konjunktiv",
+   "vokabeln": ["caso", "na-eventualidade-de", "a-desistencia", "o-cancelamento", "acionar", "em-vigor", "devidamente", "o-hospede", "sem-custos", "salvo", "reservar-se-o-direito-de"],
+   "grammatik": {
+    "titel": "Caso + conjuntivo",
+    "erklaerung": [
+     "<b>Caso</b> introduz uma condição e é sempre seguido do <b>conjuntivo</b>. É mais formal do que <i>se</i> e muito frequente em contratos, avisos e e-mails profissionais.",
+     "Condição no presente ou no futuro → <b>presente do conjuntivo</b>: <i><b>Caso tenha</b> dúvidas, contacte a receção.</i> (= Se tiver dúvidas, …)",
+     "Atenção: <b>se</b> + futuro do conjuntivo (<i>se tiver</i>), mas <b>caso</b> + presente do conjuntivo (<i>caso tenha</i>). Nunca <i>caso tiver</i>.",
+     "Num contexto passado ou hipotético → <b>imperfeito do conjuntivo</b>: <i>Disseram-nos que, <b>caso</b> o voo <b>fosse</b> cancelado, nos devolviam o dinheiro.</i>",
+     "Expressões semelhantes da linguagem administrativa: <i>em caso de</i> + nome (<i>em caso de desistência</i>), <i>na eventualidade de</i> + nome ou infinitivo, <i>salvo</i> (= exceto)."
+    ],
+    "erklaerung_de": [
+     "<b>caso</b> = „falls“ – immer mit Konjunktiv: <i>caso tenha</i> (Präsens), in der Vergangenheit <i>caso tivesse</i>.",
+     "Vergleiche: <i>se tiver</i> (Futur-Konjunktiv) – aber <i>caso tenha</i> (Präsens-Konjunktiv). Nie <i>caso tiver</i>!",
+     "Typisch für Verträge, Hinweise und formelle E-Mails."
+    ],
+    "vergleich": "Alemão: „falls / sofern“ + indicativo (Falls Sie Fragen haben …). Inglês: „in case / should you have any questions“. Português: <i>caso</i> exige o conjuntivo – <i>caso tenha</i>, nunca <i>caso tem</i>.",
+    "beispiele": [
+     {"pt": "Caso tenha alguma dúvida, contacte-nos.", "de": "Falls Sie Fragen haben, kontaktieren Sie uns."},
+     {"pt": "Caso o hóspede chegue depois das 22 horas, deve avisar a receção.", "de": "Falls der Gast nach 22 Uhr ankommt, soll er die Rezeption informieren."},
+     {"pt": "Disseram-nos que, caso o voo fosse cancelado, podíamos acionar o seguro.", "de": "Man sagte uns, falls der Flug gestrichen würde, könnten wir die Versicherung in Anspruch nehmen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Caso o senhor ___ alguma dúvida, contacte a receção. (ter)", "loesungen": ["tenha"], "de": "Falls Sie Fragen haben, wenden Sie sich an die Rezeption.", "kategorie": "Caso + conjuntivo"},
+     {"typ": "luecke", "satz": "Caso o voo ___ cancelado, pode acionar o seguro de viagem. (ser)", "loesungen": ["seja"], "de": "Falls der Flug gestrichen wird, können Sie die Reiseversicherung in Anspruch nehmen.", "kategorie": "Caso + conjuntivo"},
+     {"typ": "luecke", "satz": "Se ___ alguma dúvida, contacte-nos. (ter – o senhor)", "loesungen": ["tiver"], "de": "Wenn Sie Fragen haben, kontaktieren Sie uns.", "erklaerung": "Com se: futuro do conjuntivo (tiver). Com caso: presente do conjuntivo (tenha).", "kategorie": "Se vs. caso"},
+     {"typ": "luecke", "satz": "O hotel avisou que, caso ___ depois da meia-noite, cobraria a primeira noite. (nós – chegar)", "loesungen": ["chegássemos"], "de": "Das Hotel wies darauf hin, dass es die erste Nacht berechnen würde, falls wir nach Mitternacht ankämen.", "erklaerung": "Contexto passado: imperfeito do conjuntivo.", "kategorie": "Caso + conjuntivo"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["Caso tiver dúvidas, ligue-nos.", "Caso tenha dúvidas, ligue-nos.", "Caso tem dúvidas, ligue-nos."], "richtig": 1, "kategorie": "Caso + conjuntivo"},
+     {"typ": "auswahl", "frage": "Passe para registo formal: «Se mudar de ideias, avise-nos.»", "optionen": ["Caso mude de ideias, queira informar-nos.", "Caso mudar de ideias, avise.", "Caso muda de ideias, informe-nos."], "richtig": 0, "erklaerung": "caso + presente do conjuntivo (mude); «queira + infinitivo» é uma fórmula de cortesia escrita.", "kategorie": "Registo"},
+     {"typ": "uebersetzen", "de": "Falls Sie die Reservierung stornieren möchten, schicken Sie uns bitte eine E-Mail.", "loesungen": ["Caso queira cancelar a reserva, envie-nos um e-mail, por favor.", "Caso queira cancelar a reserva, envie-nos um e-mail.", "Caso pretenda cancelar a reserva, envie-nos um e-mail.", "Caso deseje cancelar a reserva, envie-nos um e-mail.", "Caso queira cancelar a reserva, mande-nos um e-mail.", "Caso queira cancelar a reserva, por favor envie-nos um e-mail.", "Caso pretenda cancelar a reserva, por favor envie-nos um e-mail.", "Caso queira cancelar a reserva, envie-nos um email.", "Se quiser cancelar a reserva, envie-nos um e-mail."], "kategorie": "Caso + conjuntivo"},
+     {"typ": "satzbau", "de": "Falls es regnet, findet das Abendessen drinnen statt.", "loesung": "Caso chova, o jantar realiza-se lá dentro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma reserva com condições – Eine Buchung mit Bedingungen",
+    "situation": "O Stefan telefona para um hotel no Porto para reservar quartos para um seminário com clientes.",
+    "zeilen": [
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Bom dia, receção do hotel, fala a Marta. Em que posso ajudar?", "de": "Guten Tag, Hotelrezeption, Sie sprechen mit Marta. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Queria reservar seis quartos para um seminário, de 14 a 16 de março.", "de": "Guten Tag. Ich möchte sechs Zimmer für ein Seminar vom 14. bis 16. März reservieren."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Com certeza, temos disponibilidade. Caso precise também de uma sala de reuniões, temos uma para vinte pessoas.", "de": "Selbstverständlich, wir haben freie Zimmer. Falls Sie auch einen Besprechungsraum brauchen, haben wir einen für zwanzig Personen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo, vamos precisar. E quais são as condições de cancelamento?", "de": "Sehr gut, den brauchen wir. Und wie sind die Stornobedingungen?"},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "O cancelamento é sem custos até sete dias antes da chegada. Caso desista depois disso, cobramos a primeira noite de cada quarto.", "de": "Die Stornierung ist bis sieben Tage vor der Anreise kostenlos. Falls Sie danach zurücktreten, berechnen wir die erste Nacht jedes Zimmers."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Compreendo. E caso um dos participantes chegue mais tarde?", "de": "Verstehe. Und falls einer der Teilnehmer später ankommt?"},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Não há problema. Caso o hóspede chegue depois da meia-noite, basta avisar a receção por e-mail.", "de": "Kein Problem. Falls der Gast nach Mitternacht ankommt, genügt eine kurze E-Mail an die Rezeption."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perfeito. E o pequeno-almoço está incluído?", "de": "Perfekt. Und ist das Frühstück inbegriffen?"},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Salvo indicação em contrário, sim. Vou enviar-lhe a proposta por e-mail. Caso concorde, peço-lhe que a devolva devidamente assinada.", "de": "Sofern nicht anders angegeben, ja. Ich schicke Ihnen das Angebot per E-Mail. Falls Sie einverstanden sind, bitte ich Sie, es ordnungsgemäß unterschrieben zurückzuschicken."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muito bem. Fico a aguardar. Obrigado.", "de": "Sehr gut. Ich warte darauf. Danke."}
+    ],
+    "fragen": [
+     {"frage": "Quantos quartos quer reservar o Stefan?", "optionen": ["Quatro.", "Seis.", "Vinte."], "richtig": 1},
+     {"frage": "O que acontece caso desista a menos de sete dias da chegada?", "optionen": ["Não paga nada.", "Paga todas as noites.", "Paga a primeira noite de cada quarto."], "richtig": 2},
+     {"frage": "O que deve o Stefan fazer, caso concorde com a proposta?", "optionen": ["Devolvê-la assinada.", "Telefonar outra vez para o hotel.", "Pagar tudo adiantado."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Caso tenha alguma dúvida, contacte-nos.", "de": "Falls Sie Fragen haben, kontaktieren Sie uns."},
+     {"pt": "O cancelamento é sem custos até sete dias antes.", "de": "Die Stornierung ist bis sieben Tage vorher kostenlos."},
+     {"pt": "Caso desista depois disso, cobramos a primeira noite.", "de": "Falls Sie danach zurücktreten, berechnen wir die erste Nacht."},
+     {"pt": "Salvo indicação em contrário, o pequeno-almoço está incluído.", "de": "Sofern nicht anders angegeben, ist das Frühstück inbegriffen."},
+     {"pt": "Caso concorde, peço-lhe que devolva a proposta assinada.", "de": "Falls Sie einverstanden sind, schicken Sie das Angebot bitte unterschrieben zurück."}
+    ]
+   },
+   "saetze": [
+    {"id": "caso-tenha-duvidas", "pt": "Caso tenha alguma dúvida, contacte-nos.", "de": "Falls Sie Fragen haben, kontaktieren Sie uns."},
+    {"id": "caso-o-voo-seja-cancelado", "pt": "Caso o voo seja cancelado, pode acionar o seguro.", "de": "Falls der Flug gestrichen wird, können Sie die Versicherung in Anspruch nehmen."},
+    {"id": "salvo-indicacao-em-contrario", "pt": "Salvo indicação em contrário, o pequeno-almoço está incluído.", "de": "Sofern nicht anders angegeben, ist das Frühstück inbegriffen."}
+   ]
+  },
+  {
+   "id": "B2-02-L08",
+   "typ": "neu",
+   "titel": "A não ser que chova – Bedingungen aushandeln",
+   "vokabeln": ["a-nao-ser-que", "sem-que", "a-menos-que", "contanto-que", "o-marceneiro", "a-pergola", "a-madeira", "de-boca", "atrasar-se", "impermeavel", "sair-caro", "tirar-as-medidas"],
+   "grammatik": {
+    "titel": "A não ser que, sem que, desde que + conjuntivo",
+    "erklaerung": [
+     "Estas conjunções exigem o <b>conjuntivo</b>: <b>a não ser que / a menos que</b> (es sei denn), <b>sem que</b> (ohne dass), <b>desde que / contanto que</b> (sofern, vorausgesetzt dass).",
+     "<i>Acabamos em maio, <b>a não ser que chova</b>.</i> · <i>Não comece <b>sem que</b> eu <b>veja</b> o orçamento.</i> · <i>Aceito, <b>desde que</b> o preço <b>inclua</b> o verniz.</i>",
+     "Atenção a <b>desde que</b>: + conjuntivo = «sofern»; + indicativo = «seit»: <i>Desde que <b>chegámos</b>, não parou de chover.</i>",
+     "<b>Sem que</b> só se usa com sujeitos diferentes; com o mesmo sujeito usa-se <b>sem + infinitivo</b>: <i>Ele saiu <b>sem pagar</b>.</i> / <i>Ele saiu <b>sem que</b> ninguém o <b>visse</b>.</i>",
+     "Num contexto passado usa-se o imperfeito do conjuntivo: <i>Disse que acabava em maio, <b>a não ser que chovesse</b>.</i>"
+    ],
+    "erklaerung_de": [
+     "<i>a não ser que / a menos que</i> (es sei denn), <i>sem que</i> (ohne dass), <i>desde que / contanto que</i> (sofern) → immer Konjunktiv.",
+     "<i>desde que</i> + Indikativ heißt dagegen „seit“.",
+     "Gleiches Subjekt: <i>sem</i> + Infinitiv (<i>saiu sem pagar</i>)."
+    ],
+    "vergleich": "Alemão: „es sei denn“, „ohne dass“, „sofern“ + indicativo. Inglês: „unless it rains“. Português: sempre conjuntivo – <i>a não ser que chova</i>, nunca <i>a não ser que chove</i>.",
+    "beispiele": [
+     {"pt": "Acabamos a pérgola em maio, a não ser que chova muito.", "de": "Wir werden mit der Pergola im Mai fertig, es sei denn, es regnet viel."},
+     {"pt": "Não comece a obra sem que eu veja o orçamento final.", "de": "Fangen Sie nicht an, ohne dass ich den endgültigen Kostenvoranschlag gesehen habe."},
+     {"pt": "Aceito o preço, desde que inclua o verniz.", "de": "Ich akzeptiere den Preis, sofern der Lack inbegriffen ist."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Acabamos a pérgola em maio, a não ser que ___ muito. (chover)", "loesungen": ["chova"], "de": "Wir werden mit der Pergola im Mai fertig, es sei denn, es regnet viel.", "kategorie": "Conjunções + conjuntivo"},
+     {"typ": "luecke", "satz": "Não comece a obra sem que eu ___ o orçamento final. (ver)", "loesungen": ["veja"], "de": "Fangen Sie nicht an, ohne dass ich den endgültigen Kostenvoranschlag gesehen habe.", "kategorie": "Conjunções + conjuntivo"},
+     {"typ": "luecke", "satz": "Aceito o preço, desde que o marceneiro ___ a madeira tratada. (trazer)", "loesungen": ["traga"], "de": "Ich akzeptiere den Preis, sofern der Tischler behandeltes Holz mitbringt.", "kategorie": "Conjunções + conjuntivo"},
+     {"typ": "luecke", "satz": "Desde que ___ para Lagos, nunca tivemos problemas com obras. (nós – vir)", "loesungen": ["viemos"], "de": "Seit wir nach Lagos gekommen sind, hatten wir nie Probleme mit Bauarbeiten.", "erklaerung": "Aqui desde que = seit → indicativo.", "kategorie": "Desde que"},
+     {"typ": "luecke", "satz": "Ele saiu da obra sem ___ nada a ninguém. (dizer)", "loesungen": ["dizer"], "de": "Er hat die Baustelle verlassen, ohne jemandem etwas zu sagen.", "erklaerung": "Mesmo sujeito: sem + infinitivo.", "kategorie": "Sem que / sem"},
+     {"typ": "auswahl", "frage": "«Ich zahle nicht, es sei denn, die Arbeit ist fertig.»", "optionen": ["Não pago, a não ser que o trabalho está pronto.", "Não pago, a não ser que o trabalho esteja pronto.", "Não pago, a não ser que o trabalho estiver pronto."], "richtig": 1, "kategorie": "Conjunções + conjuntivo"},
+     {"typ": "uebersetzen", "de": "Sie können am Montag anfangen, vorausgesetzt, Sie bringen das Holz mit.", "loesungen": ["Pode começar na segunda, desde que traga a madeira.", "Pode começar na segunda-feira, desde que traga a madeira.", "Pode começar na segunda, contanto que traga a madeira.", "Pode começar na segunda-feira, contanto que traga a madeira.", "O senhor pode começar na segunda, desde que traga a madeira.", "O senhor pode começar na segunda-feira, desde que traga a madeira.", "Pode começar na segunda, desde que traga a madeira consigo.", "Pode começar na segunda-feira, desde que traga a madeira consigo."], "kategorie": "Conjunções + conjuntivo"},
+     {"typ": "satzbau", "de": "Er hat die Pergola gebaut, ohne dass wir etwas extra zahlen mussten.", "loesung": "Ele construiu a pérgola sem que tivéssemos de pagar nada a mais."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Negociar com o marceneiro – Verhandlung mit dem Tischler",
+    "situation": "O Sr. Armando, marceneiro, vem a casa da Ana e do Stefan tirar as medidas para uma pérgola no terraço.",
+    "zeilen": [
+     {"sprecher": "Armando", "stimme": "m", "pt": "Bom dia. Então é aqui o terraço? Vou já tirar as medidas.", "de": "Guten Tag. Das ist also die Terrasse? Ich messe gleich aus."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Bom dia, Sr. Armando. Queríamos uma pérgola de madeira, de ponta a ponta.", "de": "Guten Tag, Herr Armando. Wir hätten gern eine Pergola aus Holz, von einem Ende zum anderen."},
+     {"sprecher": "Armando", "stimme": "m", "pt": "Faz-se. Mas aconselho madeira tratada e impermeável; aqui, perto do mar, a outra estraga-se num instante.", "de": "Machbar. Aber ich empfehle behandeltes, wasserfestes Holz; hier am Meer ist das andere im Nu kaputt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem, desde que o preço não suba muito. Quando pode começar?", "de": "In Ordnung, sofern der Preis nicht stark steigt. Wann können Sie anfangen?"},
+     {"sprecher": "Armando", "stimme": "m", "pt": "Daqui a duas semanas, a não ser que chova. Com chuva não trabalho no exterior.", "de": "In zwei Wochen, es sei denn, es regnet. Bei Regen arbeite ich nicht draußen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E quanto tempo demora?", "de": "Und wie lange dauert es?"},
+     {"sprecher": "Armando", "stimme": "m", "pt": "Uma semana, mais coisa menos coisa. E faço tudo sem que tenham de sair de casa.", "de": "Eine Woche, mehr oder weniger. Und ich mache alles, ohne dass Sie das Haus verlassen müssen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Só uma coisa: da última vez combinámos tudo de boca e saiu-nos caro. Desta vez queremos um orçamento por escrito.", "de": "Nur eins: Letztes Mal haben wir alles mündlich vereinbart, und es ist uns teuer zu stehen gekommen. Diesmal möchten wir einen schriftlichen Kostenvoranschlag."},
+     {"sprecher": "Armando", "stimme": "m", "pt": "Com certeza, mando-o amanhã. Mas não começo sem que me paguem trinta por cento de adiantamento.", "de": "Selbstverständlich, ich schicke ihn morgen. Aber ich fange nicht an, ohne dass Sie mir dreißig Prozent Anzahlung leisten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Parece-nos justo, contanto que o resto seja pago só no fim.", "de": "Das finden wir fair, sofern der Rest erst am Ende bezahlt wird."},
+     {"sprecher": "Armando", "stimme": "m", "pt": "Combinado. O resto pagam quando a pérgola estiver pronta.", "de": "Abgemacht. Den Rest zahlen Sie, wenn die Pergola fertig ist."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Sr. Armando aconselha madeira tratada?", "optionen": ["Porque é mais barata.", "Por causa da proximidade do mar.", "Porque é mais bonita."], "richtig": 1},
+     {"frage": "Em que caso não começa o trabalho daqui a duas semanas?", "optionen": ["Se chover.", "Se o Stefan não estiver em casa.", "Se a madeira não chegar."], "richtig": 0},
+     {"frage": "O que exige o marceneiro antes de começar?", "optionen": ["O pagamento total.", "Uma licença da câmara.", "Trinta por cento de adiantamento."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Está a combinar uma instalação com um eletricista. Ponha condições com desde que, a não ser que e sem que.",
+    "zeilen": [
+     {"sprecher": "Eletricista", "stimme": "m", "pt": "Posso fazer a instalação na terça-feira. Fica-lhe bem?", "de": "Ich kann die Installation am Dienstag machen. Passt Ihnen das?"},
+     {"ich": true, "aufgabe": "Diga: Ja, sofern Sie vor zehn Uhr kommen.", "loesungen": ["Sim, desde que venha antes das dez.", "Fica, desde que venha antes das dez.", "Sim, desde que chegue antes das dez.", "Sim, contanto que venha antes das dez.", "Sim, desde que o senhor venha antes das dez.", "Fica, desde que chegue antes das dez."]},
+     {"sprecher": "Eletricista", "stimme": "m", "pt": "Antes das dez é difícil, mas vou tentar. E quanto ao pagamento?", "de": "Vor zehn ist schwierig, aber ich versuche es. Und was die Bezahlung betrifft?"},
+     {"ich": true, "aufgabe": "Diga: Ich zahle alles am Ende, es sei denn, Sie brauchen eine Anzahlung.", "loesungen": ["Pago tudo no fim, a não ser que precise de um adiantamento.", "Pago tudo no final, a não ser que precise de um adiantamento.", "Pago tudo no fim, a menos que precise de um adiantamento.", "Pago tudo no fim, a não ser que o senhor precise de um adiantamento.", "Pago tudo no fim, a não ser que precise de um sinal.", "Pago tudo no final, a menos que precise de um adiantamento."]},
+     {"sprecher": "Eletricista", "stimme": "m", "pt": "Não é preciso. Mais alguma coisa?", "de": "Nicht nötig. Sonst noch etwas?"},
+     {"ich": true, "aufgabe": "Diga: Bitte ändern Sie nichts, ohne dass ich es weiß.", "loesungen": ["Por favor, não mude nada sem que eu saiba.", "Não mude nada sem que eu saiba, por favor.", "Por favor, não altere nada sem que eu saiba.", "Não altere nada sem que eu saiba, por favor.", "Por favor, não mude nada sem eu saber.", "Por favor, não altere nada sem eu saber."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a-nao-ser-que-chova", "pt": "Acabamos em maio, a não ser que chova.", "de": "Wir werden im Mai fertig, es sei denn, es regnet."},
+    {"id": "sem-que-eu-veja", "pt": "Não comece sem que eu veja o orçamento.", "de": "Fangen Sie nicht an, ohne dass ich den Kostenvoranschlag gesehen habe."},
+    {"id": "desde-que-o-preco", "pt": "Está bem, desde que o preço não suba muito.", "de": "In Ordnung, sofern der Preis nicht stark steigt."}
+   ]
+  },
+  {
+   "id": "B2-02-L09",
+   "typ": "neu",
+   "titel": "E se…? – Geschichte, die nicht passiert ist",
+   "vokabeln": ["o-terramoto", "a-ditadura", "a-revolucao-dos-cravos", "o-imperio", "os-descobrimentos", "o-navegador", "reconstruir", "a-dinastia", "a-coroa", "a-batalha", "o-regime", "a-democracia"],
+   "grammatik": {
+    "titel": "Se não tivesse sido…, não fosse…: hipóteses sobre a história",
+    "erklaerung": [
+     "Para imaginar uma história alternativa, combina-se a condição irreal com <b>consequências no passado</b> (<i>teria + particípio</i>) ou <b>no presente</b> (<i>seria, teria, era</i>): <i>Se o terramoto não <b>tivesse destruído</b> a Baixa, hoje as ruas <b>seriam</b> estreitas e tortas.</i>",
+     "Quando a condição é um <b>nome</b>, usa-se <b>se não fosse</b> / <b>se não tivesse sido</b> + nome (= ohne): <i><b>Se não fosse</b> o Marquês de Pombal, a cidade não teria sido reconstruída tão depressa.</i> Mais curto e mais literário: <i><b>Não fosse</b> o Marquês…</i>",
+     "<b>Sem</b> + nome tem o mesmo valor: <i><b>Sem</b> os Descobrimentos, o império português nunca teria existido.</i>",
+     "No registo escrito e formal (livros de história, documentários), o pronome átono fica <b>no meio</b> do condicional: <i>A coroa <b>ter-se-ia mantido</b> portuguesa.</i> Depois de <i>não, nunca, talvez…</i> vem antes: <i>A coroa <b>não se teria perdido</b>.</i> Na fala: <i>tinha-se mantido</i>.",
+     "Para não apresentar uma hipótese como facto, os historiadores usam <i>talvez, provavelmente, é possível que…</i>: <i>Talvez a ditadura <b>tivesse durado</b> ainda mais.</i>"
+    ],
+    "erklaerung_de": [
+     "Alternative Geschichte: <i>Se + tivesse + Partizip</i>, Folge <i>teria + Partizip</i> (Vergangenheit) oder <i>seria/era</i> (Gegenwart).",
+     "„Ohne X …“ / „Wäre X nicht gewesen …“ = <i>se não fosse X</i> / <i>se não tivesse sido X</i> / <i>não fosse X</i> / <i>sem X</i>.",
+     "Formell steht das Pronomen mitten im Verb: <i>ter-se-ia mantido</i>; nach <i>não</i> davor: <i>não se teria mantido</i>."
+    ],
+    "vergleich": "Alemão: „Wäre Pombal nicht gewesen, …“ / „Ohne Pombal …“. Inglês: „If it hadn't been for Pombal… / But for Pombal…“. Português: <i>Se não fosse / Não fosse o Pombal…</i> – com o verbo ser no conjuntivo.",
+    "beispiele": [
+     {"pt": "Se não fosse o Marquês de Pombal, a Baixa não teria sido reconstruída tão depressa.", "de": "Wäre der Marquês de Pombal nicht gewesen, wäre die Baixa nicht so schnell wiederaufgebaut worden."},
+     {"pt": "Se D. Sebastião não tivesse desaparecido na batalha, talvez a coroa não tivesse passado para Espanha.", "de": "Wäre König Sebastian nicht in der Schlacht verschwunden, wäre die Krone vielleicht nicht an Spanien gegangen."},
+     {"pt": "Sem o 25 de Abril, Portugal teria continuado em ditadura sabe-se lá quanto tempo.", "de": "Ohne den 25. April wäre Portugal wer weiß wie lange eine Diktatur geblieben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Se o terramoto não ___ a Baixa, hoje as ruas seriam estreitas. (destruir)", "loesungen": ["tivesse destruído"], "de": "Hätte das Erdbeben die Baixa nicht zerstört, wären die Straßen heute eng.", "kategorie": "Condição irreal"},
+     {"typ": "luecke", "satz": "Se não ___ o Marquês de Pombal, a cidade não teria sido reconstruída tão depressa. (ser)", "loesungen": ["fosse", "tivesse sido"], "de": "Wäre der Marquês de Pombal nicht gewesen, wäre die Stadt nicht so schnell wiederaufgebaut worden.", "erklaerung": "Condição com um nome: se não fosse / se não tivesse sido + nome.", "kategorie": "Se não fosse + nome"},
+     {"typ": "luecke", "satz": "Sem os navegadores, o império português nunca ___. (existir)", "loesungen": ["teria existido", "tinha existido"], "de": "Ohne die Seefahrer hätte es das portugiesische Reich nie gegeben.", "kategorie": "Sem + nome"},
+     {"typ": "luecke", "satz": "Se a revolução tivesse falhado, hoje Portugal talvez não ___ uma democracia tão estável. (ser)", "loesungen": ["fosse"], "de": "Wäre die Revolution gescheitert, wäre Portugal heute vielleicht keine so stabile Demokratie.", "erklaerung": "Depois de «talvez» (antes do verbo) usa-se o conjuntivo: fosse.", "kategorie": "Tempos mistos"},
+     {"typ": "auswahl", "frage": "Registo formal: «A coroa ___ portuguesa.» (manter-se – condicional composto)", "optionen": ["ter-se-ia mantido", "teria-se mantido", "se teria mantido"], "richtig": 0, "erklaerung": "Sem palavra que atraia o pronome, o registo formal usa a mesóclise: ter-se-ia mantido.", "kategorie": "Pronomes"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["A dinastia não ter-se-ia mantido no poder.", "A dinastia não se teria mantido no poder.", "A dinastia não teria-se mantido no poder."], "richtig": 1, "erklaerung": "Depois de «não», o pronome vem antes do verbo: não se teria mantido.", "kategorie": "Pronomes"},
+     {"typ": "uebersetzen", "de": "Ohne die Nelkenrevolution wäre Portugal länger eine Diktatur geblieben.", "loesungen": ["Sem a Revolução dos Cravos, Portugal teria continuado a ser uma ditadura durante mais tempo.", "Sem a Revolução dos Cravos, Portugal teria sido uma ditadura durante mais tempo.", "Sem a Revolução dos Cravos, Portugal teria continuado em ditadura durante mais tempo.", "Sem a Revolução dos Cravos, Portugal teria continuado em ditadura mais tempo.", "Sem a Revolução dos Cravos, Portugal tinha continuado em ditadura durante mais tempo.", "Se não fosse a Revolução dos Cravos, Portugal teria continuado em ditadura durante mais tempo.", "Se não tivesse sido a Revolução dos Cravos, Portugal teria continuado em ditadura durante mais tempo.", "Sem o 25 de Abril, Portugal teria continuado em ditadura durante mais tempo.", "Sem a Revolução dos Cravos, Portugal teria permanecido uma ditadura durante mais tempo."], "kategorie": "Sem + nome"},
+     {"typ": "satzbau", "de": "Wäre das Erdbeben nicht gewesen, sähe Lissabon heute ganz anders aus.", "loesung": "Não fosse o terramoto, Lisboa seria hoje muito diferente."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma visita guiada à Baixa – Eine Führung durch die Baixa",
+    "situation": "Num fim de semana em Lisboa, a Ana e o Stefan fazem uma visita guiada pela Baixa com a guia Teresa.",
+    "zeilen": [
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Estamos na Praça do Comércio. Imaginem esta praça na manhã de 1 de novembro de 1755: primeiro o terramoto, depois o maremoto e, por fim, os incêndios.", "de": "Wir sind auf der Praça do Comércio. Stellen Sie sich diesen Platz am Morgen des 1. November 1755 vor: zuerst das Erdbeben, dann die Flutwelle und schließlich die Brände."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E como era a cidade antes?", "de": "Und wie sah die Stadt vorher aus?"},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Medieval: ruas estreitas e tortas, como em Alfama. Se o terramoto não tivesse destruído a Baixa, hoje andaríamos aqui por becos e escadinhas.", "de": "Mittelalterlich: enge, krumme Gassen wie in der Alfama. Hätte das Erdbeben die Baixa nicht zerstört, würden wir hier heute durch Gässchen und Treppchen gehen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E foi o Marquês de Pombal que mandou reconstruir tudo, não foi?", "de": "Und es war der Marquês de Pombal, der alles wiederaufbauen ließ, oder?"},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Exatamente. Não fosse a energia dele, a reconstrução teria demorado muito mais. As ruas direitas e os prédios com estrutura antissísmica foram ideia da sua equipa.", "de": "Genau. Wäre seine Tatkraft nicht gewesen, hätte der Wiederaufbau viel länger gedauert. Die geraden Straßen und die erdbebensicheren Gebäude waren die Idee seines Teams."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Os historiadores também gostam destes jogos de «e se…?», ou é só coisa de turistas?", "de": "Mögen die Historiker diese „Was wäre, wenn …?“-Spiele auch, oder ist das nur was für Touristen?"},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Gostam, mas com cuidado. Por exemplo: se D. Sebastião não tivesse desaparecido na batalha de Alcácer Quibir, talvez a coroa não tivesse passado para Filipe II em 1580. Talvez – ninguém pode ter a certeza.", "de": "Ja, aber vorsichtig. Zum Beispiel: Wäre König Sebastian nicht in der Schlacht von Alcácer Quibir verschwunden, wäre die Krone 1580 vielleicht nicht an Philipp II. gegangen. Vielleicht – sicher sein kann niemand."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E o 25 de Abril? O meu avô diz sempre que, sem a revolução, ainda hoje estaríamos em ditadura.", "de": "Und der 25. April? Mein Großvater sagt immer, ohne die Revolution wären wir heute noch in einer Diktatur."},
+     {"sprecher": "Teresa", "stimme": "f", "pt": "Isso já ninguém sabe. O mais provável é que o regime tivesse caído mais tarde, de outra maneira. Mas a democracia teria nascido com outro rosto.", "de": "Das weiß niemand. Am wahrscheinlichsten ist, dass das Regime später, auf andere Weise gefallen wäre. Aber die Demokratie hätte ein anderes Gesicht gehabt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Gosto dessa ideia: a história é feita de escolhas – e de acasos.", "de": "Der Gedanke gefällt mir: Die Geschichte besteht aus Entscheidungen – und aus Zufällen."}
+    ],
+    "fragen": [
+     {"frage": "Segundo a guia, como seria a Baixa sem o terramoto?", "optionen": ["Igual à de hoje.", "Teria ruas estreitas e tortas, como Alfama.", "Seria uma zona sem prédios."], "richtig": 1},
+     {"frage": "Porque é que a Teresa diz «talvez» quando fala de D. Sebastião?", "optionen": ["Porque é uma hipótese que ninguém pode confirmar.", "Porque não se lembra da data.", "Porque D. Sebastião nunca existiu."], "richtig": 0},
+     {"frage": "O que acha a Teresa que teria acontecido sem o 25 de Abril?", "optionen": ["A ditadura ainda existiria hoje.", "Portugal teria voltado a ter um rei.", "O regime teria provavelmente caído mais tarde, de outra maneira."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português.",
+    "aufgaben": [
+     {"de": "Ohne das Erdbeben wäre die Baixa heute mittelalterlich.", "loesungen": ["Sem o terramoto, a Baixa seria hoje medieval.", "Sem o terramoto, hoje a Baixa seria medieval.", "Sem o terramoto, a Baixa hoje seria medieval.", "Sem o terramoto, a Baixa era hoje medieval.", "Se não fosse o terramoto, a Baixa seria hoje medieval.", "Não fosse o terramoto, a Baixa seria hoje medieval.", "Se não tivesse sido o terramoto, a Baixa seria hoje medieval.", "Sem o sismo, a Baixa seria hoje medieval."]},
+     {"de": "Wäre Pombal nicht gewesen, hätte der Wiederaufbau länger gedauert.", "loesungen": ["Se não fosse o Pombal, a reconstrução teria demorado mais.", "Se não fosse Pombal, a reconstrução teria demorado mais.", "Não fosse o Pombal, a reconstrução teria demorado mais.", "Não fosse Pombal, a reconstrução teria demorado mais.", "Se não tivesse sido o Pombal, a reconstrução teria demorado mais.", "Se não tivesse sido Pombal, a reconstrução teria demorado mais.", "Sem o Pombal, a reconstrução teria demorado mais.", "Sem Pombal, a reconstrução teria demorado mais.", "Se não fosse Pombal, a reconstrução tinha demorado mais.", "Se não fosse o Marquês de Pombal, a reconstrução teria demorado mais."]},
+     {"de": "Vielleicht wäre die Krone nicht an Spanien gegangen.", "loesungen": ["Talvez a coroa não tivesse passado para Espanha.", "Talvez a coroa não tivesse passado para a Espanha.", "Se calhar a coroa não teria passado para Espanha.", "Se calhar a coroa não tinha passado para Espanha.", "A coroa talvez não tivesse passado para Espanha.", "Provavelmente a coroa não teria passado para Espanha."]},
+     {"de": "Die Demokratie hätte ein anderes Gesicht gehabt.", "loesungen": ["A democracia teria tido outro rosto.", "A democracia teria tido um rosto diferente.", "A democracia tinha tido outro rosto.", "A democracia teria tido outra cara.", "A democracia teria nascido com outro rosto."]}
+    ]
+   },
+   "saetze": [
+    {"id": "nao-fosse-o-terramoto", "pt": "Não fosse o terramoto, Lisboa seria hoje muito diferente.", "de": "Wäre das Erdbeben nicht gewesen, sähe Lissabon heute ganz anders aus."},
+    {"id": "se-nao-fosse-o-marques", "pt": "Se não fosse o Marquês de Pombal, a reconstrução teria demorado muito mais.", "de": "Wäre der Marquês de Pombal nicht gewesen, hätte der Wiederaufbau viel länger gedauert."},
+    {"id": "ninguem-pode-ter-a-certeza", "pt": "Talvez – ninguém pode ter a certeza.", "de": "Vielleicht – sicher sein kann niemand."}
+   ]
+  },
+  {
+   "id": "B2-02-L10",
+   "typ": "neu",
+   "titel": "Tendo travado a tempo… – ein Unfall im Nachhinein",
+   "vokabeln": ["o-embate", "embater-em", "o-para-choques", "amolgado", "o-retrovisor", "a-marcha-atras", "travar", "derrapar", "o-cruzamento", "o-croquis", "a-viatura", "o-reboque"],
+   "grammatik": {
+    "titel": "A condição sem «se»: com/sem, a + infinitivo, gerúndio",
+    "erklaerung": [
+     "A condição irreal nem sempre precisa de <b>se</b>. Na fala e na escrita usam-se também formas mais curtas:",
+     "<b>com / sem + nome</b>: <i><b>Com</b> mais atenção, não teria embatido no carro da frente.</i> · <i><b>Sem</b> o reboque, tínhamos ficado ali a noite toda.</i>",
+     "<b>a + infinitivo</b> (sobretudo em Portugal): <i><b>A ter</b> olhado pelo retrovisor, teria visto a mota.</i> = Se tivesse olhado… · No presente: <i><b>A continuar</b> assim, ainda tens um acidente.</i>",
+     "<b>gerúndio</b> (registo mais formal, típico de relatórios e seguros): <i><b>Tendo travado</b> a tempo, o condutor teria evitado o embate.</i>",
+     "Para dizer o que era <b>possível</b> mas não aconteceu: <b>podia ter + particípio</b> (fala) ou <b>teria podido + infinitivo</b> (formal): <i>Ele <b>podia ter evitado</b> o acidente.</i>"
+    ],
+    "erklaerung_de": [
+     "Bedingung ohne <i>se</i>: <i>com/sem</i> + Nomen („mit/ohne …“), <i>a</i> + Infinitiv (<i>A ter olhado …</i> = Hätte ich geschaut …), Gerundium (<i>Tendo travado …</i> = Hätte er gebremst …).",
+     "<i>A + Infinitiv</i> ist typisch europäisches Portugiesisch.",
+     "„Er hätte den Unfall vermeiden können“ = <i>Podia ter evitado o acidente.</i>"
+    ],
+    "vergleich": "Alemão: „Mit mehr Aufmerksamkeit …“, „Hätte ich in den Spiegel geschaut …“ (Inversion ohne „wenn“). Inglês: „Had I looked in the mirror, …“. Português: <i>A ter olhado pelo retrovisor, …</i> ou <i>Tendo olhado…</i>.",
+    "beispiele": [
+     {"pt": "Com mais atenção, não teria embatido no carro da frente.", "de": "Mit mehr Aufmerksamkeit wäre ich nicht auf das vordere Auto aufgefahren."},
+     {"pt": "A ter olhado pelo retrovisor, tinha visto a mota.", "de": "Hätte ich in den Rückspiegel geschaut, hätte ich das Motorrad gesehen."},
+     {"pt": "Tendo travado a tempo, o condutor teria evitado o embate.", "de": "Hätte der Fahrer rechtzeitig gebremst, hätte er den Zusammenstoß vermieden."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ mais atenção, não teria embatido no carro da frente. (preposição)", "loesungen": ["Com"], "de": "Mit mehr Aufmerksamkeit wäre ich nicht auf das vordere Auto aufgefahren.", "kategorie": "Condição sem se"},
+     {"typ": "luecke", "satz": "A ___ olhado pelo retrovisor, tinha visto a mota. (ter)", "loesungen": ["ter"], "de": "Hätte ich in den Rückspiegel geschaut, hätte ich das Motorrad gesehen.", "kategorie": "A + infinitivo"},
+     {"typ": "luecke", "satz": "___ a tempo, o condutor teria evitado o embate. (travar – gerúndio composto)", "loesungen": ["Tendo travado"], "de": "Hätte der Fahrer rechtzeitig gebremst, hätte er den Zusammenstoß vermieden.", "kategorie": "Gerúndio"},
+     {"typ": "luecke", "satz": "Ele ___ evitado o acidente, se não estivesse a falar ao telemóvel. (poder – fala)", "loesungen": ["podia ter"], "de": "Er hätte den Unfall vermeiden können, wenn er nicht telefoniert hätte.", "erklaerung": "Possibilidade não realizada: podia ter + particípio (formal: teria podido evitar).", "kategorie": "Podia ter + particípio"},
+     {"typ": "auswahl", "frage": "Qual frase tem o mesmo sentido de «Se tivesse travado a fundo, não teria derrapado»?", "optionen": ["A travar a fundo, não derrapo.", "Tendo travado a fundo, não teria derrapado.", "Travando a fundo, não derrapei."], "richtig": 1, "kategorie": "Gerúndio"},
+     {"typ": "auswahl", "frage": "«A continuar assim, ainda tens um acidente.» – O que significa?", "optionen": ["Wenn du so weitermachst, hast du noch einen Unfall.", "Weil du so weitergemacht hast, hattest du einen Unfall.", "Obwohl du so weitermachst, hast du keinen Unfall."], "richtig": 0, "erklaerung": "a + infinitivo simples = condição no presente/futuro (se continuares assim).", "kategorie": "A + infinitivo"},
+     {"typ": "uebersetzen", "de": "Ohne den Abschleppwagen wären wir die ganze Nacht dort geblieben.", "loesungen": ["Sem o reboque, teríamos ficado lá a noite toda.", "Sem o reboque, tínhamos ficado lá a noite toda.", "Sem o reboque, teríamos ficado ali a noite toda.", "Sem o reboque, tínhamos ficado ali a noite toda.", "Sem o reboque, teríamos ficado lá a noite inteira.", "Sem o reboque, tínhamos ficado lá a noite inteira.", "Sem o reboque, teríamos ficado lá toda a noite.", "Se não fosse o reboque, teríamos ficado lá a noite toda.", "Se não fosse o reboque, tínhamos ficado lá a noite toda."], "kategorie": "Sem + nome"},
+     {"typ": "satzbau", "de": "Hätte ich nicht gebremst, wäre ich gegen die Mauer geprallt.", "loesung": "Se não tivesse travado, teria embatido no muro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um toque no cruzamento – Ein Blechschaden an der Kreuzung",
+    "situation": "O Stefan teve um pequeno acidente no cruzamento junto ao mercado. Telefona à Ana enquanto espera pelo reboque.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan? Estás bem? A tua mensagem assustou-me.", "de": "Stefan? Geht es dir gut? Deine Nachricht hat mich erschreckt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estou ótimo, não te preocupes. Foi só um toque no cruzamento junto ao mercado. Ninguém se magoou.", "de": "Mir geht es bestens, keine Sorge. Es war nur ein Blechschaden an der Kreuzung beim Markt. Niemand wurde verletzt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Mas o que é que aconteceu?", "de": "Aber was ist passiert?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estava a fazer marcha-atrás para sair do estacionamento e uma carrinha embateu em mim. Travei, mas já não deu.", "de": "Ich bin rückwärts aus dem Parkplatz gefahren, und ein Lieferwagen ist in mich hineingefahren. Ich habe gebremst, aber es war zu spät."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E não o viste?", "de": "Und du hast ihn nicht gesehen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Confesso que não. A ter olhado melhor pelo retrovisor, tinha-o visto. Mas ele também vinha depressa demais: com o piso molhado, quase derrapou.", "de": "Ich gebe zu, nein. Hätte ich besser in den Rückspiegel geschaut, hätte ich ihn gesehen. Aber er war auch zu schnell: Auf der nassen Fahrbahn wäre er fast ins Schleudern geraten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E o carro, como ficou?", "de": "Und wie sieht das Auto aus?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O para-choques traseiro está amolgado e a luz partida. Não dá para conduzir, por isso chamei o reboque.", "de": "Die hintere Stoßstange ist verbeult und das Licht kaputt. Man kann nicht damit fahren, deshalb habe ich den Abschleppdienst gerufen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Já preencheram a declaração amigável?", "de": "Habt ihr schon den Unfallbericht ausgefüllt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já. Fizemos o croquis juntos e ele concordou com tudo. Sem a ajuda de um senhor que viu o embate, tínhamos discutido muito mais.", "de": "Ja. Wir haben die Skizze zusammen gezeichnet, und er war mit allem einverstanden. Ohne die Hilfe eines Herrn, der den Zusammenstoß gesehen hat, hätten wir viel mehr gestritten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ainda bem. Vou buscar-te. Fica aí quietinho!", "de": "Zum Glück. Ich hole dich ab. Bleib schön dort!"}
+    ],
+    "fragen": [
+     {"frage": "O que estava o Stefan a fazer quando aconteceu o acidente?", "optionen": ["Estava a fazer marcha-atrás.", "Estava parado no semáforo.", "Estava a falar ao telemóvel."], "richtig": 0},
+     {"frage": "Segundo o Stefan, o que teria evitado o acidente?", "optionen": ["Conduzir mais depressa.", "Ter estacionado noutro sítio.", "Ter olhado melhor pelo retrovisor."], "richtig": 2},
+     {"frage": "Quem ajudou a evitar uma discussão maior?", "optionen": ["A Ana.", "Um senhor que viu o embate.", "O condutor do reboque."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Foi só um toque; ninguém se magoou.", "de": "Es war nur ein Blechschaden; niemand wurde verletzt."},
+     {"pt": "A ter olhado pelo retrovisor, tinha-o visto.", "de": "Hätte ich in den Rückspiegel geschaut, hätte ich ihn gesehen."},
+     {"pt": "O para-choques traseiro ficou amolgado.", "de": "Die hintere Stoßstange ist verbeult."},
+     {"pt": "Com o piso molhado, o carro quase derrapou.", "de": "Auf der nassen Fahrbahn wäre das Auto fast ins Schleudern geraten."},
+     {"pt": "Sem o reboque, tínhamos ficado ali a noite toda.", "de": "Ohne den Abschleppdienst wären wir die ganze Nacht dort geblieben."}
+    ]
+   },
+   "saetze": [
+    {"id": "a-ter-olhado", "pt": "A ter olhado pelo retrovisor, tinha visto a mota.", "de": "Hätte ich in den Rückspiegel geschaut, hätte ich das Motorrad gesehen."},
+    {"id": "com-mais-atencao", "pt": "Com mais atenção, não teria embatido no carro.", "de": "Mit mehr Aufmerksamkeit wäre ich nicht auf das Auto aufgefahren."},
+    {"id": "podia-ter-evitado", "pt": "Ele podia ter evitado o acidente.", "de": "Er hätte den Unfall vermeiden können."}
+   ]
+  },
+  {
+   "id": "B2-02-L11",
+   "typ": "neu",
+   "titel": "Uma oportunidade de ouro? – der zusammengesetzte Infinitiv",
+   "vokabeln": ["a-oportunidade", "a-quota-de-mercado", "o-investidor", "a-ronda-de-financiamento", "a-mina-de-ouro", "a-aquisicao", "a-margem-de-lucro", "dar-um-passo-maior-do-que-a-perna", "pensar-duas-vezes", "a-visao", "ficar-para-tras"],
+   "grammatik": {
+    "titel": "Ter feito, termos feito: o infinitivo composto",
+    "erklaerung": [
+     "O <b>infinitivo composto</b> (<b>ter + particípio</b>) refere-se a uma ação <b>anterior</b>: <i>Lamento não <b>ter aceitado</b> a proposta.</i> · <i>Foi um erro não <b>ter investido</b>.</i>",
+     "Também existe na forma <b>pessoal</b>, quando o sujeito precisa de ficar claro: eu <b>ter</b>, tu <b>teres</b>, ele <b>ter</b>, nós <b>termos</b>, eles <b>terem</b> + particípio: <i>Foi um erro não <b>termos entrado</b> mais cedo no mercado.</i>",
+     "Usa-se muito depois de preposições: <i><b>por</b> não terem tido visão</i> (weil), <i><b>depois de</b> termos recusado</i> (nachdem), <i><b>sem</b> ter pensado duas vezes</i> (ohne).",
+     "Para avaliar uma decisão passada: <i><b>Teria sido</b> melhor <b>termos esperado</b>.</i> · <i>Ainda bem que não aceitámos.</i> (Ainda bem que + indicativo)",
+     "Compare: <i>Arrependo-me de <b>não ter aceitado</b></i> (= arrependo-me de que não aceitei) – é muito mais natural do que uma oração com <i>que</i>."
+    ],
+    "erklaerung_de": [
+     "Zusammengesetzter Infinitiv: <i>ter + Partizip</i> = „… zu haben“: <i>Lamento não ter aceitado.</i> = Ich bedaure, nicht angenommen zu haben.",
+     "Persönlicher Infinitiv: <i>termos/terem aceitado</i> – zeigt, wer gehandelt hat: <i>Foi um erro não termos investido.</i> = Es war ein Fehler, dass wir nicht investiert haben.",
+     "Oft nach Präpositionen: <i>por, depois de, sem, apesar de</i>."
+    ],
+    "vergleich": "Alemão: „Es war ein Fehler, dass wir nicht investiert haben.“ (oração com dass). Inglês: „It was a mistake not to have invested / for us not to have invested.“ Português: <i>Foi um erro não termos investido.</i> – infinitivo pessoal, sem <i>que</i>.",
+    "beispiele": [
+     {"pt": "Foi um erro não termos entrado no mercado espanhol mais cedo.", "de": "Es war ein Fehler, dass wir nicht früher in den spanischen Markt eingestiegen sind."},
+     {"pt": "Por não terem tido visão, ficaram para trás.", "de": "Weil sie keine Weitsicht hatten, sind sie zurückgefallen."},
+     {"pt": "Teria sido melhor termos pensado duas vezes.", "de": "Es wäre besser gewesen, wenn wir es uns zweimal überlegt hätten."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Foi um erro não ___ no mercado espanhol mais cedo. (nós – entrar)", "loesungen": ["termos entrado", "nós termos entrado"], "de": "Es war ein Fehler, dass wir nicht früher in den spanischen Markt eingestiegen sind.", "kategorie": "Infinitivo pessoal composto"},
+     {"typ": "luecke", "satz": "Por não ___ visão, os concorrentes ficaram para trás. (eles – ter)", "loesungen": ["terem tido"], "de": "Weil sie keine Weitsicht hatten, sind die Konkurrenten zurückgefallen.", "erklaerung": "ter + particípio de ter: terem tido.", "kategorie": "Infinitivo pessoal composto"},
+     {"typ": "luecke", "satz": "Lamento não ___ a proposta do investidor. (aceitar)", "loesungen": ["ter aceitado"], "de": "Ich bedaure, das Angebot des Investors nicht angenommen zu haben.", "kategorie": "Infinitivo composto"},
+     {"typ": "luecke", "satz": "Depois de ___ a oferta, arrependemo-nos. (nós – recusar)", "loesungen": ["termos recusado", "recusarmos"], "de": "Nachdem wir das Angebot abgelehnt hatten, haben wir es bereut.", "kategorie": "Infinitivo pessoal composto"},
+     {"typ": "auswahl", "frage": "«Es wäre besser gewesen, wenn wir gewartet hätten.»", "optionen": ["Teria sido melhor termos esperado.", "Seria melhor esperarmos.", "Foi melhor termos esperado."], "richtig": 0, "kategorie": "Infinitivo pessoal composto"},
+     {"typ": "auswahl", "frage": "Qual é a forma correta? «Assinaram o contrato sem ___ duas vezes.»", "optionen": ["terem pensado", "tinham pensado", "tivessem pensado"], "richtig": 0, "erklaerung": "Depois da preposição sem (mesmo sujeito) usa-se o infinitivo, aqui composto e pessoal: terem pensado.", "kategorie": "Infinitivo pessoal composto"},
+     {"typ": "uebersetzen", "de": "Es war ein Fehler, dass wir das Angebot nicht angenommen haben.", "loesungen": ["Foi um erro não termos aceitado a proposta.", "Foi um erro não termos aceitado a oferta.", "Foi um erro nós não termos aceitado a proposta.", "Foi um erro nós não termos aceitado a oferta.", "Foi um erro não aceitarmos a proposta.", "Foi um erro não aceitarmos a oferta.", "Foi um erro não termos aceite a proposta.", "Foi um erro não termos aceite a oferta."], "kategorie": "Infinitivo pessoal composto"},
+     {"typ": "satzbau", "de": "Zum Glück haben wir uns nicht übernommen.", "loesung": "Ainda bem que não demos um passo maior do que a perna."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O comboio que passou – Der verpasste Zug",
+    "situation": "Num café em Lagos, o Pedro conta ao Stefan a história da pequena empresa de software que fundou com um amigo.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Viste a notícia? A Navitur foi comprada por um grupo espanhol. Uma aquisição de vários milhões.", "de": "Hast du die Nachricht gesehen? Navitur wurde von einer spanischen Gruppe gekauft. Eine Übernahme über mehrere Millionen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vi. Não era essa a empresa que vos fazia concorrência?", "de": "Ja. War das nicht die Firma, die euch Konkurrenz gemacht hat?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Essa mesma. E o pior é que, há cinco anos, um investidor nos ofereceu entrar com duzentos mil euros. Recusámos.", "de": "Genau die. Und das Schlimmste ist, dass uns vor fünf Jahren ein Investor angeboten hat, mit zweihunderttausend Euro einzusteigen. Wir haben abgelehnt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Porquê?", "de": "Warum?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Medo, sobretudo. Achávamos que, com aquele dinheiro, íamos dar um passo maior do que a perna. A Navitur aceitou e fez logo uma segunda ronda de financiamento.", "de": "Vor allem aus Angst. Wir dachten, mit dem Geld würden wir uns übernehmen. Navitur hat angenommen und gleich eine zweite Finanzierungsrunde gemacht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E hoje, o que pensas?", "de": "Und was denkst du heute?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Que foi um erro não termos aceitado. Faltou-nos visão. Se tivéssemos crescido nessa altura, hoje teríamos uma boa quota de mercado.", "de": "Dass es ein Fehler war, dass wir nicht angenommen haben. Uns fehlte die Weitsicht. Wären wir damals gewachsen, hätten wir heute einen guten Marktanteil."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Calma. A posteriori tudo parece uma mina de ouro. Lembra-te de que vocês têm uma margem de lucro excelente e nenhuma dívida.", "de": "Ruhig. Im Nachhinein sieht alles wie eine Goldgrube aus. Denk daran, dass ihr eine ausgezeichnete Gewinnmarge und keine Schulden habt."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Isso é verdade. E também não ficámos para trás: temos os clientes mais fiéis do Algarve.", "de": "Das stimmt. Und zurückgefallen sind wir auch nicht: Wir haben die treuesten Kunden der Algarve."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois. Se calhar, por não terem aceitado o investidor, ainda hoje mandam na vossa própria empresa. Isso também vale muito.", "de": "Eben. Vielleicht habt ihr gerade deshalb, weil ihr den Investor nicht genommen habt, heute noch in eurer eigenen Firma das Sagen. Das ist auch viel wert."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o Pedro e o sócio recusaram o investidor?", "optionen": ["Porque o valor era baixo.", "Por medo de dar um passo maior do que a perna.", "Porque queriam vender a empresa."], "richtig": 1},
+     {"frage": "O que aconteceu à Navitur?", "optionen": ["Foi comprada por um grupo espanhol.", "Fechou por causa das dívidas.", "Comprou a empresa do Pedro."], "richtig": 0},
+     {"frage": "Qual é, segundo o Stefan, a vantagem de não terem aceitado?", "optionen": ["Têm mais clientes do que a Navitur.", "Podem vender a empresa mais cara.", "Continuam a mandar na própria empresa."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Uma investidora pergunta-lhe, numa reunião, porque é que a sua empresa recusou uma proposta há três anos. Avalie essa decisão.",
+    "zeilen": [
+     {"sprecher": "Investidora", "stimme": "f", "pt": "Há três anos recusaram uma proposta de aquisição. Porquê?", "de": "Vor drei Jahren haben Sie ein Übernahmeangebot abgelehnt. Warum?"},
+     {"ich": true, "aufgabe": "Diga: Wir wollten uns nicht übernehmen.", "loesungen": ["Não queríamos dar um passo maior do que a perna.", "Nós não queríamos dar um passo maior do que a perna.", "Não queríamos dar um passo maior que a perna."]},
+     {"sprecher": "Investidora", "stimme": "f", "pt": "E arrependem-se?", "de": "Und bereuen Sie es?"},
+     {"ich": true, "aufgabe": "Diga: Ein bisschen. Es war vielleicht ein Fehler, dass wir nicht früher gewachsen sind.", "loesungen": ["Um bocado. Talvez tenha sido um erro não termos crescido mais cedo.", "Um pouco. Talvez tenha sido um erro não termos crescido mais cedo.", "Um bocadinho. Talvez tenha sido um erro não termos crescido mais cedo.", "Um bocado. Se calhar foi um erro não termos crescido mais cedo.", "Um pouco. Se calhar foi um erro não termos crescido mais cedo.", "Um bocado. Foi talvez um erro não termos crescido mais cedo.", "Um pouco. Foi talvez um erro não termos crescido mais cedo."]},
+     {"sprecher": "Investidora", "stimme": "f", "pt": "E se recebessem hoje uma proposta semelhante?", "de": "Und wenn Sie heute ein ähnliches Angebot bekämen?"},
+     {"ich": true, "aufgabe": "Diga: Diesmal würden wir es uns zweimal überlegen, bevor wir ablehnen.", "loesungen": ["Desta vez pensaríamos duas vezes antes de recusar.", "Desta vez pensávamos duas vezes antes de recusar.", "Desta vez íamos pensar duas vezes antes de recusar.", "Desta vez pensaríamos duas vezes antes de recusarmos.", "Desta vez pensávamos duas vezes antes de recusarmos.", "Desta vez pensaríamos duas vezes antes de dizer que não."]}
+    ]
+   },
+   "saetze": [
+    {"id": "foi-um-erro-nao-termos", "pt": "Foi um erro não termos aceitado.", "de": "Es war ein Fehler, dass wir nicht angenommen haben."},
+    {"id": "faltou-nos-visao", "pt": "Faltou-nos visão.", "de": "Uns fehlte die Weitsicht."},
+    {"id": "teria-sido-melhor-termos", "pt": "Teria sido melhor termos esperado.", "de": "Es wäre besser gewesen, wenn wir gewartet hätten."}
+   ]
+  },
+  {
+   "id": "B2-02-L12",
+   "typ": "neu",
+   "titel": "Em minha defesa… – sich rechtfertigen und Fehler zugeben",
+   "vokabeln": ["justificar-se", "nao-ter-outro-remedio", "de-boa-fe", "dar-a-mao-a-palmatoria", "em-minha-defesa", "a-posteriori", "pensando-bem", "convenhamos", "a-luz-de", "o-bode-expiatorio", "por-as-culpas-em"],
+   "grammatik": {
+    "titel": "Mesmo que tivesse sabido…: justificar e conceder",
+    "erklaerung": [
+     "Para dizer que <b>nada teria mudado</b>, usa-se <b>mesmo que / ainda que</b> + <b>mais-que-perfeito do conjuntivo</b> e, na principal, o condicional composto: <i><b>Mesmo que</b> me <b>tivessem avisado</b>, não <b>teria conseguido</b> acabar a tempo.</i>",
+     "Na fala também: <i><b>Mesmo que</b> soubesse, <b>tinha feito</b> o mesmo.</i>",
+     "Para se justificar, os portugueses usam muito <b>haver de</b> no imperfeito em perguntas retóricas: <i>Como é que eu <b>havia de</b> saber?</i> (= Wie hätte ich das wissen sollen?) · <i>O que é que <b>havíamos de</b> fazer?</i>",
+     "Outras fórmulas: <i>Não tinha como saber.</i> · <i>Não tive outro remédio senão…</i> · <i>À luz do que sabíamos na altura…</i>",
+     "Para <b>admitir</b> um erro: <i>Tenho de dar a mão à palmatória.</i> · <i>Devia ter avisado – a culpa é minha.</i> Para <b>recusar</b> a culpa dos outros: <i>Não ponhas as culpas no estagiário!</i> (imperativo negativo: conjuntivo)"
+    ],
+    "erklaerung_de": [
+     "„Selbst wenn ich es gewusst hätte, hätte ich …“ = <i>Mesmo que tivesse sabido, teria …</i>",
+     "„Wie hätte ich das wissen sollen?“ = <i>Como é que eu havia de saber?</i> – typisch pt-PT.",
+     "Fehler zugeben: <i>dar a mão à palmatória</i>; Schuld abschieben: <i>pôr as culpas em alguém</i>."
+    ],
+    "vergleich": "Alemão: „Selbst wenn …, hätte …“ / „Wie hätte ich das wissen sollen?“. Inglês: „Even if I had known… / How was I supposed to know?“. Português: <i>Mesmo que tivesse sabido… / Como é que eu havia de saber?</i>",
+    "beispiele": [
+     {"pt": "Mesmo que me tivessem avisado, não teria conseguido acabar a tempo.", "de": "Selbst wenn man mich gewarnt hätte, hätte ich es nicht rechtzeitig geschafft."},
+     {"pt": "Como é que eu havia de saber que o cliente tinha mudado de ideias?", "de": "Wie hätte ich wissen sollen, dass der Kunde seine Meinung geändert hatte?"},
+     {"pt": "Tenho de dar a mão à palmatória: devia ter verificado os números.", "de": "Ich muss es zugeben: Ich hätte die Zahlen überprüfen sollen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Mesmo que me ___, não teria conseguido acabar a tempo. (eles – avisar)", "loesungen": ["tivessem avisado"], "de": "Selbst wenn man mich gewarnt hätte, hätte ich es nicht rechtzeitig geschafft.", "kategorie": "Mesmo que + conjuntivo"},
+     {"typ": "luecke", "satz": "Ainda que ___ o erro, o resultado teria sido o mesmo. (nós – detetar)", "loesungen": ["tivéssemos detetado"], "de": "Selbst wenn wir den Fehler entdeckt hätten, wäre das Ergebnis dasselbe gewesen.", "kategorie": "Mesmo que + conjuntivo"},
+     {"typ": "luecke", "satz": "Como é que eu ___ de saber que o prazo tinha mudado? (haver)", "loesungen": ["havia"], "de": "Wie hätte ich wissen sollen, dass sich die Frist geändert hatte?", "erklaerung": "Pergunta retórica: haver de no imperfeito.", "kategorie": "Haver de"},
+     {"typ": "luecke", "satz": "Não ___ as culpas no estagiário! (tu – pôr)", "loesungen": ["ponhas"], "de": "Schieb die Schuld nicht auf den Praktikanten!", "erklaerung": "Imperativo negativo = presente do conjuntivo: não ponhas.", "kategorie": "Imperativo"},
+     {"typ": "auswahl", "frage": "«Selbst wenn ich es gewusst hätte, hätte ich dasselbe getan.»", "optionen": ["Mesmo que soube, fazia o mesmo.", "Mesmo que tivesse sabido, teria feito o mesmo.", "Mesmo que tinha sabido, teria feito o mesmo."], "richtig": 1, "kategorie": "Mesmo que + conjuntivo"},
+     {"typ": "auswahl", "frage": "Qual expressão serve para ADMITIR um erro?", "optionen": ["Pôr as culpas em alguém.", "Fazer de alguém bode expiatório.", "Dar a mão à palmatória."], "richtig": 2, "kategorie": "Expressões"},
+     {"typ": "uebersetzen", "de": "Wie hätte ich das wissen sollen? Niemand hatte mich gewarnt.", "loesungen": ["Como é que eu havia de saber? Ninguém me tinha avisado.", "Como havia eu de saber? Ninguém me tinha avisado.", "Como é que eu havia de saber isso? Ninguém me tinha avisado.", "Como é que eu podia saber? Ninguém me tinha avisado.", "Como é que eu havia de saber? Ninguém me avisou.", "Como é que eu havia de saber? Ninguém me tinha prevenido.", "Como havia eu de saber? Ninguém me avisou."], "kategorie": "Haver de"},
+     {"typ": "satzbau", "de": "Zu meiner Verteidigung: Ich habe in gutem Glauben gehandelt.", "loesung": "Em minha defesa, agi de boa-fé."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Quem é o culpado? – Wer ist schuld?",
+    "situation": "Reunião na empresa do Stefan: a apresentação para um cliente importante correu mal. O Marco, a Inês e o Stefan analisam o que aconteceu.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom, convenhamos: a apresentação de ontem não correu bem. O cliente encontrou dois erros nos números. O que é que se passou?", "de": "Also, seien wir ehrlich: Die Präsentation gestern ist nicht gut gelaufen. Der Kunde hat zwei Fehler in den Zahlen gefunden. Was ist passiert?"},
+     {"sprecher": "Marco", "stimme": "m", "pt": "Os números vieram do estagiário. Se ele os tivesse verificado, nada disto teria acontecido.", "de": "Die Zahlen kamen vom Praktikanten. Hätte er sie überprüft, wäre das alles nicht passiert."},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Marco, não ponhas as culpas no Tiago. Ele está cá há duas semanas! Não o vamos fazer de bode expiatório.", "de": "Marco, schieb die Schuld nicht auf Tiago. Er ist seit zwei Wochen hier! Wir machen ihn nicht zum Sündenbock."},
+     {"sprecher": "Marco", "stimme": "m", "pt": "Em minha defesa, ninguém me disse que eu tinha de rever a folha de cálculo. Como é que eu havia de saber?", "de": "Zu meiner Verteidigung: Niemand hat mir gesagt, dass ich die Tabelle prüfen muss. Wie hätte ich das wissen sollen?"},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Eu tenho de dar a mão à palmatória: fui eu que mudei o prazo e não avisei ninguém. Mesmo que o Tiago tivesse trabalhado a noite toda, não teria tido tempo para verificar tudo.", "de": "Ich muss es zugeben: Ich habe die Frist geändert und niemandem Bescheid gesagt. Selbst wenn Tiago die ganze Nacht gearbeitet hätte, hätte er keine Zeit gehabt, alles zu prüfen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado pela franqueza, Inês. E eu também não estou livre de culpa: devia ter revisto a apresentação antes de a enviar.", "de": "Danke für deine Offenheit, Inês. Und ich bin auch nicht ohne Schuld: Ich hätte die Präsentation vor dem Verschicken durchsehen sollen."},
+     {"sprecher": "Marco", "stimme": "m", "pt": "Pensando bem, eu também podia ter perguntado. Estava com pressa e agi de boa-fé.", "de": "Wenn ich es mir recht überlege, hätte ich auch fragen können. Ich war in Eile und habe in gutem Glauben gehandelt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ninguém precisa de se justificar mais. À luz do que sabíamos, todos fizemos o possível. A posteriori, é fácil ver os erros.", "de": "Niemand muss sich mehr rechtfertigen. Nach dem, was wir wussten, haben alle ihr Möglichstes getan. Im Nachhinein ist es leicht, die Fehler zu sehen."},
+     {"sprecher": "Inês", "stimme": "f", "pt": "Então, o que propões?", "de": "Also, was schlägst du vor?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A partir de agora, cada documento passa por duas pessoas antes de sair. E eu ligo hoje ao cliente para pedir desculpa. Não tenho outro remédio.", "de": "Ab jetzt geht jedes Dokument durch zwei Hände, bevor es rausgeht. Und ich rufe heute den Kunden an, um mich zu entschuldigen. Mir bleibt nichts anderes übrig."}
+    ],
+    "fragen": [
+     {"frage": "Em quem queria o Marco pôr as culpas?", "optionen": ["Na Inês.", "No estagiário.", "No cliente."], "richtig": 1},
+     {"frage": "O que admite a Inês?", "optionen": ["Que mudou o prazo sem avisar ninguém.", "Que fez os números errados.", "Que não foi à apresentação."], "richtig": 0},
+     {"frage": "O que decide o Stefan?", "optionen": ["Despedir o estagiário.", "Mudar de cliente.", "Que cada documento passa por duas pessoas e que ele próprio pede desculpa ao cliente."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português.",
+    "aufgaben": [
+     {"de": "Selbst wenn man mich gewarnt hätte, hätte ich es nicht rechtzeitig geschafft.", "loesungen": ["Mesmo que me tivessem avisado, não teria conseguido a tempo.", "Mesmo que me tivessem avisado, não teria conseguido acabar a tempo.", "Mesmo que me tivessem avisado, não tinha conseguido a tempo.", "Mesmo que me tivessem avisado, não tinha conseguido acabar a tempo.", "Ainda que me tivessem avisado, não teria conseguido a tempo.", "Ainda que me tivessem avisado, não teria conseguido acabar a tempo.", "Mesmo que me tivessem prevenido, não teria conseguido acabar a tempo.", "Mesmo que me tivessem avisado, não teria conseguido terminar a tempo."]},
+     {"de": "Wie hätte ich das wissen sollen?", "loesungen": ["Como é que eu havia de saber?", "Como havia eu de saber?", "Como é que eu havia de saber isso?", "Como é que havia de saber?"]},
+     {"de": "Ich muss es zugeben: Du hattest recht.", "loesungen": ["Tenho de dar a mão à palmatória: tinhas razão.", "Tenho que dar a mão à palmatória: tinhas razão.", "Tenho de dar a mão à palmatória: tu tinhas razão.", "Tenho que dar a mão à palmatória: tu tinhas razão."]},
+     {"de": "Mir blieb nichts anderes übrig, als die Besprechung abzusagen.", "loesungen": ["Não tive outro remédio senão cancelar a reunião.", "Não tive outro remédio a não ser cancelar a reunião.", "Não tive outro remédio senão desmarcar a reunião.", "Não tive outro remédio a não ser desmarcar a reunião.", "Não tive outra hipótese senão cancelar a reunião."]}
+    ]
+   },
+   "saetze": [
+    {"id": "como-e-que-eu-havia-de-saber", "pt": "Como é que eu havia de saber?", "de": "Wie hätte ich das wissen sollen?"},
+    {"id": "mesmo-que-tivessem-avisado", "pt": "Mesmo que me tivessem avisado, não teria conseguido.", "de": "Selbst wenn man mich gewarnt hätte, hätte ich es nicht geschafft."},
+    {"id": "nao-ponhas-as-culpas", "pt": "Não ponhas as culpas no estagiário.", "de": "Schieb die Schuld nicht auf den Praktikanten."}
+   ]
+  },
+  {"id": "B2-02-L13", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B2-02-L14", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "A casa que não comprámos – Das Haus, das wir nicht gekauft haben",
+   "situation": "Ao fim da tarde, a Ana, o Stefan e o vizinho João conversam sobre uma casa que esteve à venda na rua deles.",
+   "zeilen": [
+    {"sprecher": "João", "stimme": "m", "pt": "Sabem que a casa amarela do fundo da rua foi vendida? Dizem que foi por quase o dobro do preço de há cinco anos.", "de": "Wisst ihr, dass das gelbe Haus am Ende der Straße verkauft wurde? Es heißt, für fast das Doppelte des Preises von vor fünf Jahren."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "Não me digas! Nós estivemos quase a comprá-la, lembras-te, Stefan?", "de": "Sag bloß! Wir hätten sie fast gekauft, erinnerst du dich, Stefan?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Lembro-me perfeitamente. Se tivéssemos assinado nessa altura, hoje teríamos uma casa com piscina e vista para o mar.", "de": "Sehr gut sogar. Hätten wir damals unterschrieben, hätten wir heute ein Haus mit Pool und Meerblick."},
+    {"sprecher": "João", "stimme": "m", "pt": "E porque é que desistiram?", "de": "Und warum habt ihr aufgegeben?"},
+    {"sprecher": "Ana", "stimme": "f", "pt": "O banco só nos dava o empréstimo desde que vendêssemos o apartamento de Viena primeiro. E isso demorou meses.", "de": "Die Bank hätte uns den Kredit nur gegeben, sofern wir zuerst die Wohnung in Wien verkauften. Und das hat Monate gedauert."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "E o dono não esperava por ninguém. Disse-nos que vendia a outro comprador, a não ser que pagássemos um sinal na mesma semana.", "de": "Und der Besitzer wartete auf niemanden. Er sagte uns, er würde an einen anderen Käufer verkaufen, es sei denn, wir zahlten noch in derselben Woche eine Anzahlung."},
+    {"sprecher": "João", "stimme": "m", "pt": "Que pena. Mas, convenhamos, a casa tinha problemas. Ao que tudo indica, o telhado terá sido arranjado à pressa antes da venda.", "de": "Wie schade. Aber seien wir ehrlich, das Haus hatte Probleme. Allem Anschein nach soll das Dach vor dem Verkauf schnell repariert worden sein."},
+    {"sprecher": "Ana", "stimme": "f", "pt": "A sério? Então, mesmo que a tivéssemos comprado, teríamos gastado uma fortuna em obras.", "de": "Wirklich? Dann hätten wir, selbst wenn wir es gekauft hätten, ein Vermögen für Renovierungen ausgegeben."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Pensando bem, ainda bem que não demos um passo maior do que a perna. Se não tivéssemos ficado nesta casa, também não teríamos o João como vizinho!", "de": "Wenn ich es recht bedenke, zum Glück haben wir uns nicht übernommen. Wären wir nicht in diesem Haus geblieben, hätten wir auch João nicht als Nachbarn!"},
+    {"sprecher": "João", "stimme": "m", "pt": "Isso é que era uma perda! Bom, caso apareça outra casa à venda, eu aviso-vos – atempadamente, desta vez.", "de": "Das wäre ein Verlust gewesen! Gut, falls noch ein Haus zum Verkauf steht, sage ich euch Bescheid – diesmal rechtzeitig."}
+   ],
+   "fragen": [
+    {"frage": "Por quanto foi vendida a casa amarela?", "optionen": ["Por metade do preço de há cinco anos.", "Por quase o dobro do preço de há cinco anos.", "Pelo mesmo preço de há cinco anos."], "richtig": 1},
+    {"frage": "Em que condição dava o banco o empréstimo?", "optionen": ["Desde que vendessem primeiro o apartamento de Viena.", "Desde que o João fosse fiador.", "Desde que pagassem um sinal na mesma semana."], "richtig": 0},
+    {"frage": "O que diz o João sobre o telhado?", "optionen": ["Que está em perfeito estado.", "Que foi feito por um marceneiro.", "Que terá sido arranjado à pressa antes da venda."], "richtig": 2},
+    {"frage": "O que promete o João no fim?", "optionen": ["Comprar a casa amarela.", "Avisá-los caso apareça outra casa à venda.", "Arranjar o telhado deles."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Temporal no Barlavento – Unwetter im westlichen Algarve",
+   "situation": "A Ana lê ao Stefan uma notícia do jornal regional sobre o temporal da noite anterior.",
+   "text": [
+    "Temporal provoca estragos e acidentes no Barlavento algarvio",
+    "O vendaval que atingiu ontem à noite o Barlavento algarvio derrubou dezenas de árvores e provocou vários acidentes. Ao que tudo indica, as rajadas mais fortes terão ocorrido entre as duas e as quatro da manhã.",
+    "Na EN125, perto de Lagos, uma viatura ligeira terá derrapado numa curva e embatido num muro. Segundo fontes da GNR, o condutor seguiria em excesso de velocidade. Foi transportado ao hospital com ferimentos ligeiros.",
+    "Um comandante dos bombeiros sublinhou que a situação «poderia ter sido muito pior»: «Se o temporal tivesse chegado durante o dia, com o trânsito normal, teríamos tido certamente mais acidentes.»",
+    "A Proteção Civil recomenda que, caso seja necessário sair de casa, os condutores reduzam a velocidade e evitem as zonas arborizadas. Salvo indicação em contrário, as escolas da região abrem hoje normalmente, a não ser que haja novos alertas durante a manhã."
+   ],
+   "fragen": [
+    {"frage": "Que informação NÃO está confirmada, segundo o texto?", "optionen": ["Que o condutor seguiria em excesso de velocidade.", "Que o condutor foi levado ao hospital.", "Que o vendaval derrubou árvores."], "richtig": 0},
+    {"frage": "Porque é que, segundo o comandante, a situação podia ter sido pior?", "optionen": ["Porque os bombeiros chegaram tarde.", "Porque as escolas estavam abertas.", "Porque, de dia, com trânsito normal, teria havido mais acidentes."], "richtig": 2},
+    {"frage": "O que recomenda a Proteção Civil?", "optionen": ["Que ninguém saia de casa durante uma semana.", "Que os condutores reduzam a velocidade e evitem zonas com árvores, caso tenham de sair.", "Que se chame sempre o reboque."], "richtig": 1},
+    {"frage": "Em que caso podem as escolas não abrir?", "optionen": ["Se houver novos alertas durante a manhã.", "Se os professores faltarem.", "Se a EN125 estiver fechada."], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Hätte ich es gewusst, wäre ich zur Hochzeit gekommen.", "loesungen": ["Se tivesse sabido, teria vindo ao casamento.", "Se eu tivesse sabido, teria vindo ao casamento.", "Se tivesse sabido, tinha vindo ao casamento.", "Se eu tivesse sabido, tinha vindo ao casamento.", "Se soubesse, tinha vindo ao casamento.", "Se tivesse sabido, teria ido ao casamento.", "Se eu tivesse sabido, teria ido ao casamento.", "Se tivesse sabido, tinha ido ao casamento.", "Teria vindo ao casamento, se tivesse sabido.", "Se soubesse, tinha ido ao casamento."]},
+   {"de": "Hätte ich früher angefangen, würde ich jetzt besser Portugiesisch sprechen.", "loesungen": ["Se tivesse começado mais cedo, agora falava melhor português.", "Se eu tivesse começado mais cedo, agora falava melhor português.", "Se tivesse começado mais cedo, agora falaria melhor português.", "Se eu tivesse começado mais cedo, agora falaria melhor português.", "Se tivesse começado mais cedo, falava agora melhor português.", "Se tivesse começado mais cedo, falaria agora melhor português.", "Se tivesse começado mais cedo, hoje falava melhor português.", "Se tivesse começado mais cedo, agora falava português melhor."]},
+   {"de": "Der Verdächtige soll nach Spanien geflohen sein.", "loesungen": ["O suspeito terá fugido para Espanha.", "O suspeito teria fugido para Espanha.", "O suspeito terá fugido para a Espanha.", "O suspeito teria fugido para a Espanha.", "O suspeito ter-se-á posto em fuga para Espanha."]},
+   {"de": "Falls Sie Fragen haben, kontaktieren Sie uns.", "loesungen": ["Caso tenha dúvidas, contacte-nos.", "Caso tenha alguma dúvida, contacte-nos.", "Caso tenha perguntas, contacte-nos.", "Caso tenha alguma pergunta, contacte-nos.", "Caso tenha dúvidas, entre em contacto connosco.", "Caso tenha alguma dúvida, entre em contacto connosco.", "Se tiver dúvidas, contacte-nos.", "Se tiver alguma dúvida, contacte-nos."]},
+   {"de": "Wir machen die Pergola im Mai, es sei denn, es regnet.", "loesungen": ["Fazemos a pérgola em maio, a não ser que chova.", "Fazemos a pérgola em maio, a menos que chova.", "Vamos fazer a pérgola em maio, a não ser que chova.", "Vamos fazer a pérgola em maio, a menos que chova.", "Faremos a pérgola em maio, a não ser que chova.", "Construímos a pérgola em maio, a não ser que chova."]},
+   {"de": "Es war ein Fehler, dass wir nicht investiert haben.", "loesungen": ["Foi um erro não termos investido.", "Foi um erro nós não termos investido.", "Foi um erro não investirmos.", "Foi um erro não termos feito o investimento."]}
+  ],
+  "sprechen": [
+   {"pt": "Sem a Ana, nunca teríamos chegado a tempo.", "de": "Ohne Ana wären wir nie rechtzeitig angekommen."},
+   {"pt": "Se não te tivesse conhecido, hoje ainda estava em Viena.", "de": "Hätte ich dich nicht kennengelernt, wäre ich heute noch in Wien."},
+   {"pt": "Ao que tudo indica, o incêndio terá começado na cozinha.", "de": "Allem Anschein nach ist das Feuer in der Küche ausgebrochen."},
+   {"pt": "Aceito o preço, desde que inclua o verniz.", "de": "Ich akzeptiere den Preis, sofern der Lack inbegriffen ist."},
+   {"pt": "Como é que eu havia de saber? Tenho de dar a mão à palmatória.", "de": "Wie hätte ich das wissen sollen? Ich muss es zugeben."}
+  ]
+ }
+}
