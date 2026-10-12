@@ -1,0 +1,1138 @@
+{
+ "id": "B2-05",
+ "level": "B2",
+ "titel": "Política e atualidade – Parlament und Gemeinden",
+ "beschreibung": "Das politische System Portugals verstehen, sich als EU-Bürger für die Kommunalwahlen eintragen lassen, Junta de Freguesia und Câmara unterscheiden, Nachrichten und Gesetzgebung folgen, sich an Bürgerhaushalt, Petitionen und Gemeinderatssitzungen beteiligen, einen Leserbrief schreiben und Umfragen lesen – mit Zeitenfolge (Pede que votem / Pediu que votassem; Disse que iria votar; Era necessário que o Governo tivesse agido), Relativsätzen mit o qual und cujo und Partizipialkonstruktionen der Pressesprache.",
+ "vokabeln": [
+  {"id": "a-republica", "pt": "a república", "de": "die Republik", "emoji": "🏛️", "beispiel_pt": "Portugal é uma república desde 1910.", "beispiel_de": "Portugal ist seit 1910 eine Republik.", "hinweis": "Als Eigenname groß: a República Portuguesa."},
+  {"id": "democratico", "pt": "democrático", "de": "demokratisch", "emoji": "🗳️", "beispiel_pt": "Depois do 25 de Abril, Portugal tornou-se um Estado democrático.", "beispiel_de": "Nach dem 25. April wurde Portugal ein demokratischer Staat.", "hinweis": "Fem.: democrática – as instituições democráticas."},
+  {"id": "a-constituicao", "pt": "a Constituição", "de": "die Verfassung", "emoji": "📜", "beispiel_pt": "A Constituição portuguesa foi aprovada em 1976.", "beispiel_de": "Die portugiesische Verfassung wurde 1976 verabschiedet.", "hinweis": "Als Name der Verfassung groß geschrieben; constitucional = verfassungsgemäß."},
+  {"id": "o-presidente-da-republica", "pt": "o Presidente da República", "de": "der Präsident der Republik / das Staatsoberhaupt", "emoji": "🎖️", "beispiel_pt": "O Presidente da República é eleito de cinco em cinco anos.", "beispiel_de": "Der Präsident der Republik wird alle fünf Jahre gewählt.", "hinweis": "Amtssitz: Palácio de Belém – in der Presse steht „Belém“ oft für den Präsidenten."},
+  {"id": "o-chefe-de-estado", "pt": "o chefe de Estado", "de": "das Staatsoberhaupt", "emoji": "👤", "beispiel_pt": "Em Portugal, o chefe de Estado é o Presidente da República.", "beispiel_de": "In Portugal ist das Staatsoberhaupt der Präsident der Republik.", "hinweis": "o chefe do Governo = der Regierungschef (o primeiro-ministro)."},
+  {"id": "a-reeleicao", "pt": "a reeleição", "de": "die Wiederwahl", "emoji": "⏳", "beispiel_pt": "O Presidente da República só pode candidatar-se à reeleição uma vez seguida.", "beispiel_de": "Der Präsident der Republik kann nur einmal in Folge zur Wiederwahl antreten.", "hinweis": "Verb: reeleger – foi reeleito (Partizip mit ser)."},
+  {"id": "eleger", "pt": "eleger", "de": "wählen (jemanden in ein Amt)", "emoji": "✅", "beispiel_pt": "Os portugueses elegem os deputados da Assembleia da República.", "beispiel_de": "Die Portugiesen wählen die Abgeordneten der Assembleia da República.", "hinweis": "eleger = jemanden wählen; votar = abstimmen, seine Stimme abgeben. Partizip mit ser/estar: eleito (foi eleito)."},
+  {"id": "a-legislatura", "pt": "a legislatura", "de": "die Legislaturperiode", "emoji": "📆", "beispiel_pt": "Uma legislatura dura, em regra, quatro anos.", "beispiel_de": "Eine Legislaturperiode dauert in der Regel vier Jahre.", "passiv": true},
+  {"id": "o-conselho-de-ministros", "pt": "o Conselho de Ministros", "de": "der Ministerrat / das Kabinett", "emoji": "👥", "beispiel_pt": "O Conselho de Ministros aprovou hoje um novo decreto.", "beispiel_de": "Der Ministerrat hat heute ein neues Dekret beschlossen.", "passiv": true},
+  {"id": "os-orgaos-de-soberania", "pt": "os órgãos de soberania", "de": "die Verfassungsorgane", "emoji": "⚖️", "beispiel_pt": "Os órgãos de soberania são o Presidente da República, a Assembleia da República, o Governo e os tribunais.", "beispiel_de": "Die Verfassungsorgane sind der Präsident der Republik, die Assembleia da República, die Regierung und die Gerichte.", "hinweis": "Wörtlich „Souveränitätsorgane“.", "passiv": true},
+  {"id": "o-poder-legislativo", "pt": "o poder legislativo", "de": "die gesetzgebende Gewalt / die Legislative", "emoji": "📘", "beispiel_pt": "O poder legislativo pertence sobretudo à Assembleia da República.", "beispiel_de": "Die gesetzgebende Gewalt liegt vor allem bei der Assembleia da República.", "hinweis": "o poder executivo = die Exekutive; o poder judicial = die Judikative.", "passiv": true},
+  {"id": "a-separacao-de-poderes", "pt": "a separação de poderes", "de": "die Gewaltenteilung", "emoji": "🔀", "beispiel_pt": "A separação de poderes é um princípio fundamental da democracia.", "beispiel_de": "Die Gewaltenteilung ist ein Grundprinzip der Demokratie.", "passiv": true},
+
+  {"id": "recensear-se", "pt": "recensear-se", "de": "sich ins Wählerverzeichnis eintragen (lassen)", "emoji": "📝", "beispiel_pt": "Os cidadãos da UE que vivem em Portugal podem recensear-se para votar nas eleições autárquicas.", "beispiel_de": "EU-Bürger, die in Portugal leben, können sich eintragen lassen, um bei den Kommunalwahlen zu wählen.", "hinweis": "Portugiesische Staatsbürger werden automatisch eingetragen, EU-Bürger müssen es selbst beantragen. Konjugation: recenseio, recenseias … (que) me recenseie."},
+  {"id": "o-recenseamento-eleitoral", "pt": "o recenseamento eleitoral", "de": "das Wählerverzeichnis / die Wählerregistrierung", "emoji": "📋", "beispiel_pt": "Convém verificar a inscrição no recenseamento eleitoral antes das eleições.", "beispiel_de": "Es empfiehlt sich, den Eintrag im Wählerverzeichnis vor den Wahlen zu prüfen.", "passiv": true},
+  {"id": "o-eleitor", "pt": "o eleitor", "de": "der Wähler / der Wahlberechtigte", "emoji": "🧑", "beispiel_pt": "Muitos eleitores só decidem o voto na última semana.", "beispiel_de": "Viele Wähler entscheiden sich erst in der letzten Woche.", "hinweis": "Fem.: a eleitora."},
+  {"id": "a-assembleia-de-voto", "pt": "a assembleia de voto", "de": "das Wahllokal", "emoji": "🏫", "beispiel_pt": "A minha assembleia de voto fica na escola primária.", "beispiel_de": "Mein Wahllokal ist in der Grundschule.", "hinweis": "Auch: a secção de voto, a mesa de voto (der Wahlvorstand)."},
+  {"id": "o-boletim-de-voto", "pt": "o boletim de voto", "de": "der Stimmzettel", "emoji": "🗒️", "beispiel_pt": "Faz-se uma cruz no quadrado do boletim de voto.", "beispiel_de": "Man macht ein Kreuz in das Kästchen auf dem Stimmzettel."},
+  {"id": "a-urna", "pt": "a urna", "de": "die Wahlurne", "emoji": "🗳️", "beispiel_pt": "Depois de votar, o eleitor deposita o boletim na urna.", "beispiel_de": "Nach der Stimmabgabe wirft der Wähler den Stimmzettel in die Urne.", "hinweis": "ir às urnas = wählen gehen (Pressesprache).", "passiv": true},
+  {"id": "o-voto-antecipado", "pt": "o voto antecipado", "de": "die vorzeitige Stimmabgabe", "emoji": "✉️", "beispiel_pt": "Como vamos estar fora no dia das eleições, pedimos o voto antecipado.", "beispiel_de": "Da wir am Wahltag verreist sind, haben wir die vorzeitige Stimmabgabe beantragt.", "hinweis": "votar antecipadamente; die Regeln und Fristen stehen jeweils auf der offiziellen Wahlseite. o voto nulo = die ungültige Stimme."},
+  {"id": "o-voto-em-branco", "pt": "o voto em branco", "de": "die leere Stimmabgabe (unausgefüllter Stimmzettel)", "emoji": "⬜", "beispiel_pt": "Há quem veja o voto em branco como uma forma de protesto.", "beispiel_de": "Manche sehen die leere Stimmabgabe als eine Form des Protests.", "hinweis": "votar em branco; o voto nulo = die ungültige Stimme.", "passiv": true},
+  {"id": "a-taxa-de-abstencao", "pt": "a taxa de abstenção", "de": "die Nichtwählerquote", "emoji": "🏠", "beispiel_pt": "A taxa de abstenção nas eleições autárquicas costuma ser elevada.", "beispiel_de": "Die Nichtwählerquote bei Kommunalwahlen ist meist hoch.", "hinweis": "a abstenção = das Nichtwählen / die Enthaltung; a taxa = die Quote, die Rate."},
+  {"id": "abster-se", "pt": "abster-se", "de": "sich (der Stimme) enthalten / nicht wählen", "emoji": "🤐", "beispiel_pt": "Na votação de ontem, três deputados abstiveram-se.", "beispiel_de": "Bei der gestrigen Abstimmung haben sich drei Abgeordnete enthalten.", "hinweis": "Konjugiert wie ter: abstenho-me, absteve-se, abstiveram-se; (que) se abstenham / se abstivessem."},
+  {"id": "as-eleicoes-autarquicas", "pt": "as eleições autárquicas", "de": "die Kommunalwahlen", "emoji": "🏘️", "beispiel_pt": "As eleições autárquicas realizam-se de quatro em quatro anos.", "beispiel_de": "Die Kommunalwahlen finden alle vier Jahre statt.", "hinweis": "Kurz: as autárquicas. Ebenso: as legislativas (Parlamentswahl), as presidenciais, as europeias."},
+  {"id": "o-sufragio-universal", "pt": "o sufrágio universal", "de": "das allgemeine Wahlrecht", "emoji": "🌐", "beispiel_pt": "O Presidente da República é eleito por sufrágio universal e direto.", "beispiel_de": "Der Präsident der Republik wird in allgemeiner und direkter Wahl gewählt.", "passiv": true},
+
+  {"id": "a-junta-de-freguesia", "pt": "a junta de freguesia", "de": "die Junta (Verwaltung der Freguesia)", "emoji": "🏢", "beispiel_pt": "Fui à junta de freguesia pedir um atestado de residência.", "beispiel_de": "Ich war bei der Junta, um eine Wohnsitzbescheinigung zu beantragen.", "hinweis": "Im Alltag kurz: a junta. Die unterste Verwaltungsebene, unterhalb der Câmara Municipal."},
+  {"id": "a-freguesia", "pt": "a freguesia", "de": "die Freguesia (kleinste Verwaltungseinheit, ≈ Ortsteil)", "emoji": "📍", "beispiel_pt": "O concelho de Lagos está dividido em várias freguesias.", "beispiel_de": "Die Gemeinde Lagos ist in mehrere Freguesias gegliedert.", "hinweis": "Ursprünglich die Pfarrgemeinde; heute eine reine Verwaltungseinheit."},
+  {"id": "o-presidente-da-junta", "pt": "o presidente da junta", "de": "der Vorsteher der Freguesia", "emoji": "🧑‍💼", "beispiel_pt": "O presidente da junta conhece toda a gente na aldeia.", "beispiel_de": "Der Vorsteher der Freguesia kennt im Dorf jeden."},
+  {"id": "o-vereador", "pt": "o vereador", "de": "der Stadtrat (Mitglied der Gemeindeexekutive)", "emoji": "👔", "beispiel_pt": "A vereadora do ambiente apresentou um novo plano de recolha de lixo.", "beispiel_de": "Die Umweltstadträtin hat einen neuen Plan für die Müllabfuhr vorgestellt.", "hinweis": "Fem.: a vereadora. Die Vereadores bilden mit dem presidente da câmara die Câmara Municipal."},
+  {"id": "o-pelouro", "pt": "o pelouro", "de": "das Ressort (eines Stadtrats)", "emoji": "🗂️", "beispiel_pt": "Ele é vereador com o pelouro da cultura.", "beispiel_de": "Er ist Stadtrat mit dem Kulturressort.", "passiv": true},
+  {"id": "camarario", "pt": "camarário", "de": "städtisch / der Câmara", "emoji": "🏗️", "beispiel_pt": "As obras camarárias na avenida vão durar seis meses.", "beispiel_de": "Die städtischen Bauarbeiten auf der Avenida dauern sechs Monate.", "hinweis": "Abgeleitet von câmara (municipal): os serviços camarários, o executivo camarário.", "passiv": true},
+  {"id": "o-municipe", "pt": "o munícipe", "de": "der Gemeindebürger / der Einwohner (einer Gemeinde)", "emoji": "🧍", "beispiel_pt": "Os munícipes podem intervir no fim das reuniões públicas da câmara.", "beispiel_de": "Die Gemeindebürger können am Ende der öffentlichen Sitzungen der Câmara das Wort ergreifen.", "hinweis": "Amtssprache; im Alltag: os moradores, os habitantes."},
+  {"id": "a-assembleia-municipal", "pt": "a assembleia municipal", "de": "die Gemeindeversammlung (Kommunalparlament)", "emoji": "🏛️", "beispiel_pt": "A assembleia municipal aprovou o orçamento da câmara.", "beispiel_de": "Die Gemeindeversammlung hat den Haushalt der Câmara verabschiedet.", "hinweis": "Kontrolliert die Câmara Municipal (Exekutive); auf Ebene der Freguesia: a assembleia de freguesia.", "passiv": true},
+  {"id": "a-delegacao-de-competencias", "pt": "a delegação de competências", "de": "die Übertragung von Zuständigkeiten", "emoji": "🤝", "beispiel_pt": "Com a delegação de competências, a junta passou a tratar da limpeza das ruas.", "beispiel_de": "Durch die Übertragung von Zuständigkeiten kümmert sich jetzt die Junta um die Straßenreinigung.", "passiv": true},
+  {"id": "o-atestado-de-residencia", "pt": "o atestado de residência", "de": "die Wohnsitzbescheinigung", "emoji": "🏠", "beispiel_pt": "Para a matrícula na escola pediram-me um atestado de residência.", "beispiel_de": "Für die Schulanmeldung hat man mich um eine Wohnsitzbescheinigung gebeten.", "hinweis": "Wird von der Junta de Freguesia ausgestellt (passar um atestado)."},
+  {"id": "o-edital", "pt": "o edital", "de": "die öffentliche Bekanntmachung (Aushang)", "emoji": "📌", "beispiel_pt": "O edital com as assembleias de voto está afixado à porta da junta.", "beispiel_de": "Die Bekanntmachung mit den Wahllokalen hängt an der Tür der Junta.", "passiv": true},
+  {"id": "a-reuniao-de-camara", "pt": "a reunião de câmara", "de": "die Sitzung der Câmara (Gemeindeexekutive)", "emoji": "🪑", "beispiel_pt": "Algumas reuniões de câmara são públicas e os munícipes podem assistir.", "beispiel_de": "Einige Sitzungen der Câmara sind öffentlich, und die Bürger können zuhören."},
+
+  {"id": "agir", "pt": "agir", "de": "handeln", "emoji": "🏃", "beispiel_pt": "As autoridades deviam ter agido mais cedo.", "beispiel_de": "Die Behörden hätten früher handeln müssen.", "hinweis": "ajo, ages, age … (que) eu aja – g wird vor a/o zu j."},
+  {"id": "a-inacao", "pt": "a inação", "de": "die Untätigkeit", "emoji": "😴", "beispiel_pt": "Os moradores criticam a inação da câmara.", "beispiel_de": "Die Anwohner kritisieren die Untätigkeit der Câmara.", "passiv": true},
+  {"id": "apelar-a", "pt": "apelar a", "de": "aufrufen zu / appellieren an", "emoji": "📣", "beispiel_pt": "A comissão eleitoral apelou à participação de todos.", "beispiel_de": "Die Wahlkommission hat alle zur Teilnahme aufgerufen.", "hinweis": "apelar ao voto = zur Stimmabgabe aufrufen; apelar a alguém que + Konjunktiv."},
+  {"id": "o-apelo", "pt": "o apelo", "de": "der Appell / der Aufruf", "emoji": "📢", "beispiel_pt": "Antes de cada eleição, repete-se o apelo ao voto.", "beispiel_de": "Vor jeder Wahl wird der Aufruf zur Stimmabgabe wiederholt."},
+  {"id": "pressionar", "pt": "pressionar", "de": "unter Druck setzen / drängen", "emoji": "🗜️", "beispiel_pt": "Os moradores pressionaram a câmara para resolver o problema.", "beispiel_de": "Die Anwohner haben die Câmara gedrängt, das Problem zu lösen."},
+  {"id": "demitir-se", "pt": "demitir-se", "de": "zurücktreten", "emoji": "🚪", "beispiel_pt": "A vereadora demitiu-se ontem à noite.", "beispiel_de": "Die Stadträtin ist gestern Abend zurückgetreten.", "hinweis": "demitir alguém = jemanden entlassen; demitir-se = zurücktreten, kündigen."},
+  {"id": "a-demissao", "pt": "a demissão", "de": "der Rücktritt / die Entlassung", "emoji": "📤", "beispiel_pt": "A oposição pediu a demissão do vereador.", "beispiel_de": "Die Opposition hat den Rücktritt des Stadtrats gefordert.", "passiv": true},
+  {"id": "a-promessa-eleitoral", "pt": "a promessa eleitoral", "de": "das Wahlversprechen", "emoji": "🤞", "beispiel_pt": "Nem todas as promessas eleitorais chegam a ser cumpridas.", "beispiel_de": "Nicht alle Wahlversprechen werden auch eingehalten.", "passiv": true},
+  {"id": "o-compromisso", "pt": "o compromisso", "de": "die Zusage / die Verpflichtung / der Kompromiss", "emoji": "🤝", "beispiel_pt": "O presidente da câmara assumiu o compromisso de construir uma creche.", "beispiel_de": "Der Bürgermeister hat sich verpflichtet, eine Kinderkrippe zu bauen.", "hinweis": "Doppelsinn: Zusage UND Kompromiss (chegar a um compromisso = einen Kompromiss finden)."},
+  {"id": "tardiamente", "pt": "tardiamente", "de": "verspätet / zu spät (formell)", "emoji": "⏰", "beispiel_pt": "A câmara reagiu tardiamente às queixas dos moradores.", "beispiel_de": "Die Câmara hat verspätet auf die Beschwerden der Anwohner reagiert.", "hinweis": "Formell für tarde / tarde demais. Gegenteil: a tempo.", "passiv": true},
+  {"id": "assumir-responsabilidades", "pt": "assumir responsabilidades", "de": "Verantwortung übernehmen", "emoji": "🙋", "beispiel_pt": "A ministra assumiu responsabilidades pelo atraso.", "beispiel_de": "Die Ministerin hat die Verantwortung für die Verzögerung übernommen.", "passiv": true},
+
+  {"id": "o-autarca", "pt": "o autarca", "de": "der Kommunalpolitiker (gewählter Amtsträger)", "emoji": "🧑‍⚖️", "beispiel_pt": "O autarca, cujo mandato termina este ano, não se vai recandidatar.", "beispiel_de": "Der Kommunalpolitiker, dessen Amtszeit dieses Jahr endet, tritt nicht wieder an.", "hinweis": "Für Männer und Frauen: o/a autarca. Meist für Bürgermeister und Junta-Vorsteher."},
+  {"id": "tomar-posse", "pt": "tomar posse", "de": "das Amt antreten (vereidigt werden)", "emoji": "🎗️", "beispiel_pt": "Os novos vereadores tomaram posse ontem.", "beispiel_de": "Die neuen Stadträte haben gestern ihr Amt angetreten.", "hinweis": "a tomada de posse = die Amtseinführung."},
+  {"id": "em-funcoes", "pt": "em funções", "de": "im Amt / amtierend", "emoji": "🪪", "beispiel_pt": "A presidente em funções vai recandidatar-se.", "beispiel_de": "Die amtierende Präsidentin will wieder kandidieren.", "hinweis": "entrar em funções = das Amt antreten; cessar funções = aus dem Amt scheiden."},
+  {"id": "o-antecessor", "pt": "o antecessor", "de": "der Vorgänger", "emoji": "⬅️", "beispiel_pt": "A nova presidente elogiou o trabalho do seu antecessor.", "beispiel_de": "Die neue Präsidentin lobte die Arbeit ihres Vorgängers.", "hinweis": "Fem.: a antecessora.", "passiv": true},
+  {"id": "o-sucessor", "pt": "o sucessor", "de": "der Nachfolger", "emoji": "➡️", "beispiel_pt": "Ainda não se sabe quem será o seu sucessor.", "beispiel_de": "Man weiß noch nicht, wer sein Nachfolger sein wird.", "hinweis": "Fem.: a sucessora.", "passiv": true},
+  {"id": "recandidatar-se", "pt": "recandidatar-se", "de": "erneut kandidieren", "emoji": "🔁", "beispiel_pt": "A presidente da junta decidiu recandidatar-se.", "beispiel_de": "Die Vorsteherin der Freguesia hat beschlossen, wieder zu kandidieren."},
+  {"id": "a-limitacao-de-mandatos", "pt": "a limitação de mandatos", "de": "die Amtszeitbegrenzung", "emoji": "🚧", "beispiel_pt": "Por causa da limitação de mandatos, um presidente de câmara não pode cumprir mais de três mandatos seguidos.", "beispiel_de": "Wegen der Amtszeitbegrenzung darf ein Bürgermeister nicht mehr als drei Amtszeiten in Folge ausüben.", "passiv": true},
+  {"id": "o-cabeca-de-lista", "pt": "o cabeça de lista", "de": "der Spitzenkandidat", "emoji": "🥇", "beispiel_pt": "A cabeça de lista apresentou o programa na praça central.", "beispiel_de": "Die Spitzenkandidatin hat das Programm auf dem Hauptplatz vorgestellt.", "hinweis": "Für Männer und Frauen: o/a cabeça de lista.", "passiv": true},
+  {"id": "o-grupo-de-cidadaos-eleitores", "pt": "o grupo de cidadãos eleitores", "de": "die unabhängige Bürgerliste", "emoji": "🙌", "beispiel_pt": "Nas autárquicas também concorrem grupos de cidadãos eleitores, sem partido.", "beispiel_de": "Bei den Kommunalwahlen treten auch unabhängige Bürgerlisten an, ohne Partei.", "hinweis": "Umgangssprachlich: os independentes.", "passiv": true},
+  {"id": "a-lista-de-candidatos", "pt": "a lista de candidatos", "de": "die Kandidatenliste", "emoji": "📃", "beispiel_pt": "Cada força política entrega a sua lista de candidatos no tribunal.", "beispiel_de": "Jede politische Kraft reicht ihre Kandidatenliste beim Gericht ein."},
+  {"id": "concorrer", "pt": "concorrer", "de": "(bei einer Wahl) antreten / sich bewerben", "emoji": "📨", "beispiel_pt": "Cinco listas concorrem à câmara municipal.", "beispiel_de": "Fünf Listen treten für die Câmara an.", "hinweis": "concorrer a = antreten für / sich bewerben um; auch: konkurrieren."},
+
+  {"id": "o-regulamento", "pt": "o regulamento", "de": "die Verordnung / die Satzung / die Regelung", "emoji": "📑", "beispiel_pt": "O regulamento municipal, segundo o qual não se pode acampar na praia, aplica-se a todo o concelho.", "beispiel_de": "Die Gemeindeverordnung, nach der man am Strand nicht zelten darf, gilt für das ganze Gemeindegebiet."},
+  {"id": "a-entrada-em-vigor", "pt": "a entrada em vigor", "de": "das Inkrafttreten", "emoji": "🔨", "beispiel_pt": "A entrada em vigor do novo regulamento está prevista para janeiro.", "beispiel_de": "Das Inkrafttreten der neuen Verordnung ist für Januar vorgesehen.", "hinweis": "Verb: entrar em vigor (in Kraft treten); estar em vigor = gelten."},
+  {"id": "acautelar", "pt": "acautelar", "de": "(Interessen) wahren / absichern / berücksichtigen", "emoji": "🛡️", "beispiel_pt": "O regulamento deve acautelar os interesses dos moradores.", "beispiel_de": "Die Verordnung soll die Interessen der Anwohner wahren.", "hinweis": "Typisch für Amts- und Pressesprache.", "passiv": true},
+  {"id": "a-portaria", "pt": "a portaria", "de": "die (Ministerial-)Verordnung", "emoji": "📄", "beispiel_pt": "As novas regras foram publicadas numa portaria.", "beispiel_de": "Die neuen Regeln wurden in einer Verordnung veröffentlicht.", "hinweis": "Zweite Bedeutung: der Empfang / die Pförtnerloge (z. B. im Krankenhaus).", "passiv": true},
+  {"id": "o-orgao-autarquico", "pt": "o órgão autárquico", "de": "das kommunale Organ", "emoji": "🏛️", "beispiel_pt": "A câmara municipal e a assembleia municipal são órgãos autárquicos.", "beispiel_de": "Câmara und Gemeindeversammlung sind kommunale Organe.", "passiv": true},
+  {"id": "o-organismo", "pt": "o organismo", "de": "die Behörde / die Einrichtung", "emoji": "🏢", "beispiel_pt": "O pedido passa por vários organismos públicos.", "beispiel_de": "Der Antrag geht durch mehrere Behörden.", "hinweis": "Auch: der Organismus (Biologie).", "passiv": true},
+  {"id": "a-auscultacao", "pt": "a auscultação", "de": "die Anhörung / die Befragung (der Betroffenen)", "emoji": "👂", "beispiel_pt": "Antes de decidir, a câmara fez uma auscultação aos moradores.", "beispiel_de": "Vor der Entscheidung hat die Câmara die Anwohner angehört.", "hinweis": "Typisch pt-PT, formell; Verb: auscultar (eigentlich „abhorchen“ beim Arzt)."},
+  {"id": "a-consulta-publica", "pt": "a consulta pública", "de": "die öffentliche Konsultation / Anhörung", "emoji": "📣", "beispiel_pt": "O projeto esteve em consulta pública durante um mês.", "beispiel_de": "Das Projekt lag einen Monat lang zur öffentlichen Konsultation aus."},
+  {"id": "a-tutela", "pt": "a tutela", "de": "die Aufsicht / das zuständige Ministerium", "emoji": "🛡️", "beispiel_pt": "A escola aguarda uma resposta da tutela.", "beispiel_de": "Die Schule wartet auf eine Antwort des zuständigen Ministeriums.", "hinweis": "In der Presse steht „a tutela“ für das zuständige Ministerium.", "passiv": true},
+  {"id": "o-plano-diretor-municipal", "pt": "o plano diretor municipal", "de": "der Flächennutzungsplan der Gemeinde", "emoji": "🗺️", "beispiel_pt": "Segundo o plano diretor municipal, não se pode construir naquela zona.", "beispiel_de": "Laut Flächennutzungsplan darf man in dieser Zone nicht bauen.", "hinweis": "Abk.: o PDM.", "passiv": true},
+  {"id": "o-licenciamento", "pt": "o licenciamento", "de": "das Genehmigungsverfahren / die Genehmigung", "emoji": "🏗️", "beispiel_pt": "O licenciamento da obra demorou dois anos.", "beispiel_de": "Das Genehmigungsverfahren für den Bau dauerte zwei Jahre.", "passiv": true},
+
+  {"id": "o-porta-voz", "pt": "o porta-voz", "de": "der Sprecher / die Sprecherin", "emoji": "🎙️", "beispiel_pt": "O porta-voz do Governo não quis comentar a notícia.", "beispiel_de": "Der Regierungssprecher wollte die Meldung nicht kommentieren.", "hinweis": "Unveränderlich: o/a porta-voz; Plural: os/as porta-vozes."},
+  {"id": "a-conferencia-de-imprensa", "pt": "a conferência de imprensa", "de": "die Pressekonferenz", "emoji": "🎤", "beispiel_pt": "A ministra deu uma conferência de imprensa ao fim da tarde.", "beispiel_de": "Die Ministerin gab am späten Nachmittag eine Pressekonferenz."},
+  {"id": "o-executivo", "pt": "o executivo", "de": "die Regierung (Exekutive)", "emoji": "🏛️", "beispiel_pt": "O executivo aprovou ontem novas medidas.", "beispiel_de": "Die Regierung hat gestern neue Maßnahmen beschlossen.", "hinweis": "Pressesprachliches Synonym für o Governo; auf Gemeindeebene: o executivo camarário."},
+  {"id": "o-palacio-de-belem", "pt": "o Palácio de Belém", "de": "der Belém-Palast (Amtssitz des Präsidenten)", "emoji": "🏰", "beispiel_pt": "O Palácio de Belém é a residência oficial do Presidente da República.", "beispiel_de": "Der Belém-Palast ist der Amtssitz des Präsidenten der Republik.", "hinweis": "In Schlagzeilen steht „Belém“ für den Präsidenten.", "passiv": true},
+  {"id": "o-palacio-de-sao-bento", "pt": "o Palácio de São Bento", "de": "der São-Bento-Palast (Sitz des Parlaments)", "emoji": "🏛️", "beispiel_pt": "A Assembleia da República funciona no Palácio de São Bento.", "beispiel_de": "Die Assembleia da República tagt im São-Bento-Palast.", "hinweis": "„São Bento“ kann in der Presse auch den Premierminister meinen – seine Amtswohnung liegt gleich daneben.", "passiv": true},
+  {"id": "a-remodelacao-governamental", "pt": "a remodelação governamental", "de": "die Regierungsumbildung", "emoji": "🔄", "beispiel_pt": "Fala-se de uma remodelação governamental para breve.", "beispiel_de": "Es ist von einer baldigen Regierungsumbildung die Rede.", "passiv": true},
+  {"id": "segundo-apurou", "pt": "segundo apurou", "de": "wie (die Zeitung) erfahren hat", "emoji": "🔎", "beispiel_pt": "Segundo apurou o nosso jornal, a decisão será anunciada amanhã.", "beispiel_de": "Wie unsere Zeitung erfahren hat, wird die Entscheidung morgen bekanntgegeben.", "hinweis": "Pressesprache; apurar = ermitteln, in Erfahrung bringen. Oft mit Futuro composto für Unbestätigtes: terá dito."},
+  {"id": "o-hemiciclo", "pt": "o hemiciclo", "de": "der Plenarsaal (Halbrund)", "emoji": "🏟️", "beispiel_pt": "O debate aqueceu no hemiciclo.", "beispiel_de": "Im Plenarsaal wurde die Debatte hitzig.", "hinweis": "Pressesprache für den Plenarsaal der Assembleia da República.", "passiv": true},
+  {"id": "o-desmentido", "pt": "o desmentido", "de": "das Dementi", "emoji": "🙅", "beispiel_pt": "O ministério emitiu um desmentido ao fim do dia.", "beispiel_de": "Das Ministerium hat am Abend ein Dementi veröffentlicht.", "passiv": true},
+  {"id": "a-fonte-oficial", "pt": "a fonte oficial", "de": "die offizielle Quelle", "emoji": "🔎", "beispiel_pt": "Segundo fonte oficial da câmara, as obras começam em março.", "beispiel_de": "Laut einer offiziellen Quelle der Câmara beginnen die Arbeiten im März.", "hinweis": "In der Presse oft ohne Artikel: segundo fonte oficial, disse fonte do ministério.", "passiv": true},
+  {"id": "reagir", "pt": "reagir", "de": "reagieren", "emoji": "↩️", "beispiel_pt": "A oposição reagiu de imediato ao anúncio.", "beispiel_de": "Die Opposition hat sofort auf die Ankündigung reagiert.", "hinweis": "reajo, reages … (que) eu reaja; a reação = die Reaktion."},
+
+  {"id": "a-proposta-de-lei", "pt": "a proposta de lei", "de": "der Gesetzentwurf (der Regierung)", "emoji": "📝", "beispiel_pt": "O Governo apresentou uma proposta de lei sobre a habitação.", "beispiel_de": "Die Regierung hat einen Gesetzentwurf zum Wohnungswesen vorgelegt.", "hinweis": "proposta de lei = kommt von der Regierung; projeto de lei = kommt von Abgeordneten oder Fraktionen."},
+  {"id": "o-projeto-de-lei", "pt": "o projeto de lei", "de": "der Gesetzentwurf (aus dem Parlament)", "emoji": "📄", "beispiel_pt": "Vários partidos apresentaram projetos de lei sobre o mesmo tema.", "beispiel_de": "Mehrere Parteien haben Gesetzentwürfe zum selben Thema eingebracht."},
+  {"id": "a-votacao-final-global", "pt": "a votação final global", "de": "die Schlussabstimmung (im Parlament)", "emoji": "🙋", "beispiel_pt": "A votação final global está marcada para sexta-feira.", "beispiel_de": "Die Schlussabstimmung ist für Freitag angesetzt.", "hinweis": "Vorher: votação na generalidade (Grundzüge) und na especialidade (Einzelheiten)."},
+  {"id": "vetar", "pt": "vetar", "de": "ein Veto einlegen (gegen)", "emoji": "✋", "beispiel_pt": "O Presidente da República pode vetar uma lei aprovada pelo Parlamento.", "beispiel_de": "Der Präsident der Republik kann gegen ein vom Parlament beschlossenes Gesetz ein Veto einlegen."},
+  {"id": "o-veto", "pt": "o veto", "de": "das Veto", "emoji": "🚫", "beispiel_pt": "Depois do veto, o diploma voltou à Assembleia.", "beispiel_de": "Nach dem Veto ging das Gesetz zurück an das Parlament."},
+  {"id": "promulgar", "pt": "promulgar", "de": "(ein Gesetz) ausfertigen / in Kraft setzen", "emoji": "🖋️", "beispiel_pt": "O Presidente promulgou o diploma sem reservas.", "beispiel_de": "Der Präsident hat das Gesetz ohne Vorbehalte ausgefertigt.", "hinweis": "a promulgação = die Ausfertigung (Unterschrift des Präsidenten)."},
+  {"id": "o-tribunal-constitucional", "pt": "o Tribunal Constitucional", "de": "das Verfassungsgericht", "emoji": "⚖️", "beispiel_pt": "O Presidente enviou a lei para o Tribunal Constitucional.", "beispiel_de": "Der Präsident hat das Gesetz an das Verfassungsgericht geschickt.", "passiv": true},
+  {"id": "a-bancada-parlamentar", "pt": "a bancada parlamentar", "de": "die Parlamentsfraktion", "emoji": "💺", "beispiel_pt": "Cada bancada parlamentar tem um tempo de intervenção limitado.", "beispiel_de": "Jede Fraktion hat eine begrenzte Redezeit.", "passiv": true},
+  {"id": "o-diario-da-republica", "pt": "o Diário da República", "de": "das Amtsblatt / das Gesetzblatt", "emoji": "📰", "beispiel_pt": "A lei foi publicada em Diário da República.", "beispiel_de": "Das Gesetz wurde im Gesetzblatt veröffentlicht.", "hinweis": "Abk.: DR. Online frei zugänglich.", "passiv": true},
+  {"id": "a-comissao-parlamentar", "pt": "a comissão parlamentar", "de": "der Parlamentsausschuss", "emoji": "👥", "beispiel_pt": "A proposta vai ser discutida na comissão parlamentar.", "beispiel_de": "Der Entwurf wird im Parlamentsausschuss beraten.", "hinweis": "a comissão parlamentar de inquérito = der Untersuchungsausschuss."},
+  {"id": "a-fiscalizacao-preventiva", "pt": "a fiscalização preventiva", "de": "die vorbeugende Normenkontrolle", "emoji": "🔍", "beispiel_pt": "O Presidente pediu a fiscalização preventiva da lei ao Tribunal Constitucional.", "beispiel_de": "Der Präsident beantragte beim Verfassungsgericht die vorbeugende Normenkontrolle des Gesetzes.", "hinweis": "Prüfung der Verfassungsmäßigkeit, bevor das Gesetz ausgefertigt wird.", "passiv": true},
+  {"id": "a-mocao-de-censura", "pt": "a moção de censura", "de": "der Misstrauensantrag", "emoji": "👎", "beispiel_pt": "Se uma moção de censura for aprovada por maioria absoluta, o Governo cai.", "beispiel_de": "Wird ein Misstrauensantrag mit absoluter Mehrheit angenommen, stürzt die Regierung.", "passiv": true},
+
+  {"id": "o-orcamento-participativo", "pt": "o orçamento participativo", "de": "der Bürgerhaushalt", "emoji": "💶", "beispiel_pt": "No orçamento participativo, os cidadãos propõem e votam projetos para o seu bairro.", "beispiel_de": "Beim Bürgerhaushalt schlagen die Bürger Projekte für ihr Viertel vor und stimmen darüber ab."},
+  {"id": "a-cidadania", "pt": "a cidadania", "de": "die Staatsbürgerschaft / das bürgerschaftliche Engagement", "emoji": "🤲", "beispiel_pt": "Votar é um ato de cidadania.", "beispiel_de": "Wählen ist ein Akt bürgerschaftlicher Verantwortung.", "hinweis": "Doppelsinn: a cidadania portuguesa = die portugiesische Staatsbürgerschaft."},
+  {"id": "civico", "pt": "cívico", "de": "bürgerschaftlich / staatsbürgerlich", "emoji": "🏙️", "beispiel_pt": "Participar na vida da freguesia é um dever cívico.", "beispiel_de": "Sich am Leben der Freguesia zu beteiligen, ist eine Bürgerpflicht.", "hinweis": "Fem.: cívica – a educação cívica, o espírito cívico."},
+  {"id": "subscrever", "pt": "subscrever", "de": "unterzeichnen (Petition) / sich anschließen", "emoji": "✍️", "beispiel_pt": "Já subscrevi a petição contra o encerramento do centro de saúde.", "beispiel_de": "Ich habe die Petition gegen die Schließung des Gesundheitszentrums schon unterschrieben.", "hinweis": "Auch: einer Meinung zustimmen (Subscrevo o que disse o colega). Partizip: subscrito."},
+  {"id": "o-subscritor", "pt": "o subscritor", "de": "der Unterzeichner (einer Petition)", "emoji": "🖊️", "beispiel_pt": "A petição já tem mais de mil subscritores.", "beispiel_de": "Die Petition hat schon mehr als tausend Unterzeichner.", "passiv": true},
+  {"id": "o-abaixo-assinado", "pt": "o abaixo-assinado", "de": "die Unterschriftenliste / die Sammeleingabe", "emoji": "📋", "beispiel_pt": "Os moradores fizeram um abaixo-assinado para pedir uma passadeira.", "beispiel_de": "Die Anwohner haben Unterschriften gesammelt, um einen Zebrastreifen zu fordern.", "hinweis": "Plural: os abaixo-assinados. Informeller als a petição."},
+  {"id": "a-associacao-de-moradores", "pt": "a associação de moradores", "de": "der Anwohnerverein", "emoji": "🏘️", "beispiel_pt": "A associação de moradores reúne-se todos os meses.", "beispiel_de": "Der Anwohnerverein trifft sich jeden Monat."},
+  {"id": "a-iniciativa-legislativa-de-cidadaos", "pt": "a iniciativa legislativa de cidadãos", "de": "die Gesetzesinitiative von Bürgern (≈ Volksbegehren)", "emoji": "📚", "beispiel_pt": "Através de uma iniciativa legislativa de cidadãos, os eleitores podem propor uma lei ao Parlamento.", "beispiel_de": "Mit einer Bürger-Gesetzesinitiative können Wähler dem Parlament ein Gesetz vorschlagen.", "passiv": true},
+  {"id": "o-referendo", "pt": "o referendo", "de": "die Volksabstimmung / das Referendum", "emoji": "☑️", "beispiel_pt": "Em Portugal, os referendos nacionais são raros.", "beispiel_de": "In Portugal sind landesweite Volksabstimmungen selten.", "hinweis": "Auch auf Gemeindeebene möglich: o referendo local."},
+  {"id": "a-sessao-de-esclarecimento", "pt": "a sessão de esclarecimento", "de": "die Informationsveranstaltung", "emoji": "ℹ️", "beispiel_pt": "A junta organiza uma sessão de esclarecimento sobre o orçamento participativo.", "beispiel_de": "Die Junta veranstaltet eine Informationsveranstaltung zum Bürgerhaushalt.", "passiv": true},
+  {"id": "o-associativismo", "pt": "o associativismo", "de": "das Vereinswesen", "emoji": "🎭", "beispiel_pt": "O associativismo tem uma longa tradição em Portugal.", "beispiel_de": "Das Vereinswesen hat in Portugal eine lange Tradition.", "passiv": true},
+  {"id": "o-proponente", "pt": "o proponente", "de": "der Antragsteller / der Einreicher (eines Vorschlags)", "emoji": "💡", "beispiel_pt": "O proponente do projeto vencedor foi uma escola primária.", "beispiel_de": "Eingereicht wurde das Siegerprojekt von einer Grundschule.", "passiv": true},
+
+  {"id": "pedir-a-palavra", "pt": "pedir a palavra", "de": "ums Wort bitten", "emoji": "✋", "beispiel_pt": "Senhor presidente, peço a palavra.", "beispiel_de": "Herr Vorsitzender, ich bitte ums Wort.", "hinweis": "dar a palavra a alguém = jemandem das Wort erteilen."},
+  {"id": "intervir", "pt": "intervir", "de": "das Wort ergreifen / eingreifen", "emoji": "🗣️", "beispiel_pt": "Vários munícipes intervieram no fim da reunião.", "beispiel_de": "Mehrere Bürger ergriffen am Ende der Sitzung das Wort.", "hinweis": "Konjugiert wie vir: intervenho, interveio, intervieram; (que) intervenha."},
+  {"id": "a-intervencao", "pt": "a intervenção", "de": "der Redebeitrag / der Eingriff", "emoji": "💬", "beispiel_pt": "A intervenção da vereadora foi muito aplaudida.", "beispiel_de": "Der Redebeitrag der Stadträtin bekam viel Applaus."},
+  {"id": "a-mocao", "pt": "a moção", "de": "der Antrag (Resolution)", "emoji": "📃", "beispiel_pt": "A moção sobre a falta de médicos foi aprovada.", "beispiel_de": "Der Antrag zum Ärztemangel wurde angenommen."},
+  {"id": "a-maioria-relativa", "pt": "a maioria relativa", "de": "die relative (einfache) Mehrheit", "emoji": "📊", "beispiel_pt": "A lista vencedora só obteve maioria relativa e precisa de acordos.", "beispiel_de": "Die siegreiche Liste hat nur eine relative Mehrheit erreicht und braucht Absprachen.", "hinweis": "Gegenstück: a maioria absoluta (mehr als die Hälfte).", "passiv": true},
+  {"id": "a-coligacao", "pt": "a coligação", "de": "die Koalition", "emoji": "🔗", "beispiel_pt": "Como nenhum partido teve maioria, formou-se uma coligação.", "beispiel_de": "Da keine Partei eine Mehrheit hatte, wurde eine Koalition gebildet.", "hinweis": "coligar-se = sich zusammenschließen."},
+  {"id": "a-maioria-absoluta", "pt": "a maioria absoluta", "de": "die absolute Mehrheit", "emoji": "📊", "beispiel_pt": "Nenhuma força política obteve maioria absoluta.", "beispiel_de": "Keine politische Kraft erhielt die absolute Mehrheit.", "hinweis": "a maioria relativa = die relative (einfache) Mehrheit."},
+  {"id": "o-periodo-antes-da-ordem-do-dia", "pt": "o período antes da ordem do dia", "de": "die Zeit vor der Tagesordnung (≈ Aktuelle Stunde)", "emoji": "🕐", "beispiel_pt": "No período antes da ordem do dia discutem-se assuntos atuais.", "beispiel_de": "In der Zeit vor der Tagesordnung werden aktuelle Themen besprochen.", "passiv": true},
+  {"id": "a-declaracao-de-voto", "pt": "a declaração de voto", "de": "die Erklärung zur Abstimmung", "emoji": "🗒️", "beispiel_pt": "A vereadora absteve-se e apresentou uma declaração de voto.", "beispiel_de": "Die Stadträtin enthielt sich und gab eine Erklärung zur Abstimmung ab.", "passiv": true},
+  {"id": "vossa-excelencia", "pt": "Vossa Excelência", "de": "Euer / Ihre Exzellenz (sehr formelle Anrede)", "emoji": "🎩", "beispiel_pt": "Senhor presidente, Vossa Excelência ainda não respondeu à minha pergunta.", "beispiel_de": "Herr Vorsitzender, Sie haben meine Frage noch nicht beantwortet.", "hinweis": "Abk.: V. Ex.ª. Im Parlament, in Sitzungen und Briefen an Amtsträger üblich; Verb in der 3. Person.", "passiv": true},
+  {"id": "a-sessao-extraordinaria", "pt": "a sessão extraordinária", "de": "die Sondersitzung", "emoji": "🚨", "beispiel_pt": "Convocou-se uma sessão extraordinária da assembleia municipal.", "beispiel_de": "Es wurde eine Sondersitzung der Gemeindeversammlung einberufen.", "passiv": true},
+  {"id": "o-pedido-de-esclarecimento", "pt": "o pedido de esclarecimento", "de": "die Bitte um Klarstellung / die Nachfrage", "emoji": "🙋", "beispiel_pt": "Antes da votação houve vários pedidos de esclarecimento.", "beispiel_de": "Vor der Abstimmung gab es mehrere Nachfragen.", "passiv": true},
+
+  {"id": "as-cartas-ao-diretor", "pt": "as cartas ao diretor", "de": "die Leserbriefe (Rubrik)", "emoji": "✉️", "beispiel_pt": "O jornal publicou a minha carta na secção de cartas ao diretor.", "beispiel_de": "Die Zeitung hat meinen Brief in der Leserbrief-Rubrik veröffentlicht.", "hinweis": "In portugiesischen Zeitungen heißt die Rubrik meist „Cartas ao Diretor“.", "passiv": true},
+  {"id": "a-insatisfacao", "pt": "a insatisfação", "de": "die Unzufriedenheit", "emoji": "😠", "beispiel_pt": "Venho manifestar a minha insatisfação com o estado das estradas.", "beispiel_de": "Hiermit bringe ich meine Unzufriedenheit mit dem Zustand der Straßen zum Ausdruck."},
+  {"id": "lastimavel", "pt": "lastimável", "de": "bedauerlich / beklagenswert", "emoji": "😞", "beispiel_pt": "É lastimável que ninguém tenha respondido às queixas.", "beispiel_de": "Es ist bedauerlich, dass niemand auf die Beschwerden geantwortet hat.", "hinweis": "Nach é lastimável que folgt der Konjunktiv."},
+  {"id": "indignado", "pt": "indignado", "de": "empört", "emoji": "😤", "beispiel_pt": "Os moradores estão indignados com o barulho das obras.", "beispiel_de": "Die Anwohner sind empört über den Baulärm."},
+  {"id": "chamar-a-atencao-para", "pt": "chamar a atenção para", "de": "aufmerksam machen auf", "emoji": "👉", "beispiel_pt": "Escrevo para chamar a atenção para o estado do parque infantil.", "beispiel_de": "Ich schreibe, um auf den Zustand des Spielplatzes aufmerksam zu machen."},
+  {"id": "manifestar", "pt": "manifestar", "de": "zum Ausdruck bringen / äußern", "emoji": "🗯️", "beispiel_pt": "Gostava de manifestar o meu apoio a esta proposta.", "beispiel_de": "Ich möchte meine Unterstützung für diesen Vorschlag zum Ausdruck bringen.", "hinweis": "manifestar-se = demonstrieren / sich äußern."},
+  {"id": "o-abandono", "pt": "o abandono", "de": "die Verwahrlosung / das Verlassen", "emoji": "🏚️", "beispiel_pt": "O antigo mercado está ao abandono há anos.", "beispiel_de": "Die alte Markthalle verfällt seit Jahren.", "hinweis": "estar ao abandono = verwahrlost sein, leer stehen."},
+  {"id": "o-espaco-publico", "pt": "o espaço público", "de": "der öffentliche Raum", "emoji": "🌳", "beispiel_pt": "O espaço público deve ser acessível a todos.", "beispiel_de": "Der öffentliche Raum sollte für alle zugänglich sein."},
+  {"id": "a-degradacao", "pt": "a degradação", "de": "der Verfall / die Verschlechterung", "emoji": "🧱", "beispiel_pt": "A degradação dos passeios é perigosa para os idosos.", "beispiel_de": "Der Verfall der Gehwege ist für ältere Menschen gefährlich.", "passiv": true},
+  {"id": "o-desleixo", "pt": "o desleixo", "de": "die Nachlässigkeit / die Schlamperei", "emoji": "🗑️", "beispiel_pt": "Aquele jardim é um exemplo de desleixo.", "beispiel_de": "Dieser Park ist ein Beispiel für Schlamperei.", "passiv": true},
+  {"id": "o-signatario", "pt": "o signatário", "de": "der Unterzeichnende", "emoji": "✒️", "beispiel_pt": "O signatário vive no bairro há dez anos.", "beispiel_de": "Der Unterzeichnende wohnt seit zehn Jahren im Viertel.", "hinweis": "In formellen Briefen spricht man von sich selbst manchmal in der 3. Person: o abaixo-assinado / o signatário.", "passiv": true},
+  {"id": "deplorar", "pt": "deplorar", "de": "beklagen / zutiefst bedauern (formell)", "emoji": "😔", "beispiel_pt": "Os signatários deploram a falta de resposta da câmara.", "beispiel_de": "Die Unterzeichnenden beklagen, dass die Câmara nicht antwortet.", "hinweis": "Formell; im Alltag: lamentar. Adj.: deplorável.", "passiv": true},
+
+  {"id": "o-inquirido", "pt": "o inquirido", "de": "der Befragte", "emoji": "🙋", "beispiel_pt": "A maioria dos inquiridos considera que a habitação é o maior problema.", "beispiel_de": "Die Mehrheit der Befragten hält das Wohnen für das größte Problem.", "hinweis": "Von inquirir (befragen); o inquérito = die Umfrage, die Untersuchung."},
+  {"id": "a-amostra", "pt": "a amostra", "de": "die Stichprobe", "emoji": "🧪", "beispiel_pt": "A amostra é composta por mil inquiridos.", "beispiel_de": "Die Stichprobe besteht aus tausend Befragten.", "hinweis": "Auch: die Warenprobe, das Muster."},
+  {"id": "a-margem-de-erro", "pt": "a margem de erro", "de": "die Fehlermarge / die Fehlertoleranz", "emoji": "±", "beispiel_pt": "A sondagem tem uma margem de erro de três pontos percentuais.", "beispiel_de": "Die Umfrage hat eine Fehlermarge von drei Prozentpunkten."},
+  {"id": "o-ponto-percentual", "pt": "o ponto percentual", "de": "der Prozentpunkt", "emoji": "📈", "beispiel_pt": "O partido subiu dois pontos percentuais.", "beispiel_de": "Die Partei hat zwei Prozentpunkte zugelegt."},
+  {"id": "as-intencoes-de-voto", "pt": "as intenções de voto", "de": "die Wahlabsichten (≈ Sonntagsfrage)", "emoji": "🧭", "beispiel_pt": "Nas intenções de voto, os dois maiores partidos estão muito próximos.", "beispiel_de": "Bei den Wahlabsichten liegen die beiden größten Parteien sehr nah beieinander."},
+  {"id": "liderar", "pt": "liderar", "de": "anführen / an der Spitze liegen", "emoji": "🏁", "beispiel_pt": "A candidata lidera as sondagens desde o verão.", "beispiel_de": "Die Kandidatin führt seit dem Sommer in den Umfragen."},
+  {"id": "a-tendencia", "pt": "a tendência", "de": "der Trend / die Tendenz", "emoji": "↗️", "beispiel_pt": "A tendência é de subida da abstenção entre os jovens.", "beispiel_de": "Der Trend geht zu höherer Wahlenthaltung bei jungen Menschen."},
+  {"id": "o-empate-tecnico", "pt": "o empate técnico", "de": "das statistische Patt (Kopf-an-Kopf-Rennen)", "emoji": "🤜", "beispiel_pt": "Com esta margem de erro, há um empate técnico entre os dois candidatos.", "beispiel_de": "Bei dieser Fehlermarge liegen die beiden Kandidaten statistisch gleichauf.", "passiv": true},
+  {"id": "o-indeciso", "pt": "o indeciso", "de": "der Unentschlossene", "emoji": "🤷", "beispiel_pt": "Os indecisos podem decidir a eleição.", "beispiel_de": "Die Unentschlossenen können die Wahl entscheiden.", "hinweis": "Auch als Adjektiv: Ainda estou indeciso."},
+  {"id": "a-afluencia-as-urnas", "pt": "a afluência às urnas", "de": "die Wahlbeteiligung", "emoji": "🚶", "beispiel_pt": "Ao meio-dia, a afluência às urnas era superior à das últimas eleições.", "beispiel_de": "Um zwölf Uhr war die Wahlbeteiligung höher als bei der letzten Wahl.", "passiv": true},
+  {"id": "a-ficha-tecnica", "pt": "a ficha técnica", "de": "die methodischen Angaben (einer Umfrage)", "emoji": "🗃️", "beispiel_pt": "Antes de comentar uma sondagem, convém ler a ficha técnica.", "beispiel_de": "Bevor man eine Umfrage kommentiert, sollte man die methodischen Angaben lesen.", "hinweis": "Auch: der Abspann / das Impressum (Film, Buch).", "passiv": true},
+  {"id": "a-projecao", "pt": "a projeção", "de": "die Hochrechnung / die Prognose", "emoji": "📺", "beispiel_pt": "Às oito da noite, as televisões divulgam as primeiras projeções.", "beispiel_de": "Um acht Uhr abends veröffentlichen die Fernsehsender die ersten Hochrechnungen.", "passiv": true}
+ ],
+ "lektionen": [
+  {
+   "id": "B2-05-L01",
+   "typ": "neu",
+   "titel": "O sistema político português: a voz passiva",
+   "vokabeln": ["a-republica", "democratico", "a-constituicao", "o-presidente-da-republica", "o-chefe-de-estado", "a-reeleicao", "eleger", "a-legislatura", "o-conselho-de-ministros", "os-orgaos-de-soberania", "o-poder-legislativo", "a-separacao-de-poderes"],
+   "grammatik": {
+    "titel": "A voz passiva com <i>ser</i>: <i>O Presidente é eleito por sufrágio direto</i>",
+    "erklaerung": [
+     "Nos textos sobre instituições, o importante é muitas vezes <b>o que acontece</b>, não quem o faz. Por isso usa-se muito a <b>voz passiva</b>: <b>ser</b> + <b>particípio passado</b>. <i>Os deputados <b>são eleitos</b> de quatro em quatro anos.</i>",
+     "O particípio <b>concorda</b> em género e número com o sujeito: <i>A Constituição foi aprovad<b>a</b>. Os ministros são nomead<b>os</b>.</i>",
+     "Quem pratica a ação (o agente) é introduzido por <b>por</b> (+ artigo: <b>pelo, pela, pelos, pelas</b>): <i>O primeiro-ministro é nomeado <b>pelo</b> Presidente da República.</i>",
+     "O tempo está no verbo <b>ser</b>: <i>é aprovada</i> (presente), <i>foi aprovada</i> (pretérito perfeito), <i>era aprovada</i> (imperfeito), <i>será aprovada</i> (futuro), <i>tinha sido aprovada</i> (mais-que-perfeito).",
+     "Atenção aos verbos com <b>dois particípios</b>: com <b>ser/estar</b> usa-se a forma curta (<i>foi <b>eleito</b>, está <b>aceite</b></i>); com <b>ter/haver</b>, a forma regular (<i>tinham <b>elegido</b>, tinha <b>aceitado</b></i>)."
+    ],
+    "erklaerung_de": [
+     "Bei Institutionen zählt oft, <b>was</b> geschieht, nicht wer handelt – daher das Passiv: <b>ser</b> + Partizip (≈ „werden“ + Partizip).",
+     "Das Partizip richtet sich in Geschlecht und Zahl nach dem Subjekt: <i>A Constituição foi aprovada.</i>",
+     "Der Handelnde wird mit <b>por</b> (pelo, pela …) angeschlossen = „von“.",
+     "Die Zeit steckt in <b>ser</b>: é / foi / era / será / tinha sido + Partizip.",
+     "Doppelte Partizipien: mit ser/estar die Kurzform (eleito, aceite), mit ter/haver die regelmäßige Form (elegido, aceitado)."
+    ],
+    "vergleich": "Deutsch bildet das Vorgangspassiv mit „werden“: „Der Präsident wird gewählt.“ – <i>O Presidente é eleito.</i> Das Englische ist näher am Portugiesischen: „The President is elected by the people.“ – <i>O Presidente é eleito pelo povo.</i> Anders als im Deutschen kongruiert das portugiesische Partizip mit dem Subjekt.",
+    "beispiele": [
+     {"pt": "O Presidente da República é eleito por sufrágio universal e direto.", "de": "Der Präsident der Republik wird in allgemeiner und direkter Wahl gewählt."},
+     {"pt": "A Constituição foi aprovada em 1976, depois do 25 de Abril.", "de": "Die Verfassung wurde 1976, nach dem 25. April, verabschiedet."},
+     {"pt": "Os ministros são nomeados pelo Presidente, sob proposta do primeiro-ministro.", "de": "Die Minister werden vom Präsidenten auf Vorschlag des Premierministers ernannt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O Presidente da República ___ por sufrágio universal. (eleger, presente)", "loesungen": ["é eleito"], "de": "Der Präsident der Republik wird in allgemeiner Wahl gewählt.", "kategorie": "Passiv"},
+     {"typ": "luecke", "satz": "A Constituição ___ em 1976. (aprovar, pretérito perfeito)", "loesungen": ["foi aprovada"], "de": "Die Verfassung wurde 1976 verabschiedet.", "erklaerung": "a Constituição ist feminin → aprovada.", "kategorie": "Passiv"},
+     {"typ": "auswahl", "frage": "Os deputados ___ de quatro em quatro anos.", "optionen": ["são eleitos", "é eleito", "são elegidos"], "richtig": 0, "erklaerung": "Mit ser steht die Kurzform eleito; elegido nur nach ter/haver (tinham elegido). Plural, weil os deputados das Subjekt ist.", "kategorie": "Partizip"},
+     {"typ": "auswahl", "frage": "Qual destas frases está na voz passiva?", "optionen": ["O Governo apresentou a proposta.", "O Governo tem apresentado propostas.", "A proposta foi apresentada pelo Governo."], "richtig": 2, "kategorie": "Passiv"},
+     {"typ": "luecke", "satz": "Ativa: O Presidente nomeia o primeiro-ministro. → Passiva: O primeiro-ministro ___ pelo Presidente.", "loesungen": ["é nomeado"], "de": "Der Premierminister wird vom Präsidenten ernannt.", "kategorie": "Umformung"},
+     {"typ": "luecke", "satz": "Ativa: Os cidadãos elegeram a nova Assembleia. → Passiva: A nova Assembleia ___ pelos cidadãos.", "loesungen": ["foi eleita"], "de": "Die neue Versammlung wurde von den Bürgern gewählt.", "erklaerung": "Zeit des Aktivsatzes (elegeram = Perfeito) bleibt: foi; a Assembleia → eleita.", "kategorie": "Umformung"},
+     {"typ": "uebersetzen", "de": "Die Minister werden vom Präsidenten ernannt.", "loesungen": ["Os ministros são nomeados pelo Presidente.", "Os ministros são nomeados pelo Presidente da República.", "Os ministros são nomeados pelo presidente."]},
+     {"typ": "satzbau", "de": "Das Gesetz wurde vom Parlament verabschiedet.", "loesung": "A lei foi aprovada pelo Parlamento."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Quem manda em Portugal?",
+    "situation": "Num café em Lagos, a Rita explica ao Stefan como funciona o sistema político português.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Rita, ajuda-me a perceber uma coisa: em Portugal, quem manda mais, o Presidente ou o primeiro-ministro?", "de": "Rita, hilf mir, etwas zu verstehen: Wer hat in Portugal mehr zu sagen, der Präsident oder der Premierminister?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Boa pergunta! Portugal é uma república semipresidencialista. O Presidente da República é o chefe de Estado, mas quem governa é o Governo, chefiado pelo primeiro-ministro.", "de": "Gute Frage! Portugal ist eine semipräsidentielle Republik. Der Präsident ist das Staatsoberhaupt, aber regiert wird von der Regierung, die der Premierminister führt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o Presidente, como é escolhido?", "de": "Und wie wird der Präsident bestimmt?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "É eleito por sufrágio universal e direto. O mandato dura cinco anos e só pode ser reeleito uma vez seguida.", "de": "Er wird in allgemeiner und direkter Wahl gewählt. Die Amtszeit dauert fünf Jahre, und er kann nur einmal direkt wiedergewählt werden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Como na Áustria, então. Lá também elegemos o Presidente diretamente. E o primeiro-ministro?", "de": "Also wie in Österreich. Dort wählen wir den Präsidenten auch direkt. Und der Premierminister?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Esse não é eleito diretamente. Nós elegemos os deputados da Assembleia da República e depois o Presidente nomeia o primeiro-ministro, tendo em conta os resultados eleitorais.", "de": "Der wird nicht direkt gewählt. Wir wählen die Abgeordneten der Assembleia da República, und dann ernennt der Präsident den Premierminister unter Berücksichtigung der Wahlergebnisse."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Quer dizer que o Presidente tem um papel sobretudo simbólico?", "de": "Das heißt, der Präsident hat vor allem eine symbolische Rolle?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Não só. Pode vetar leis, enviá-las para o Tribunal Constitucional e, em certas situações, até dissolver a Assembleia.", "de": "Nicht nur. Er kann Gesetze mit einem Veto belegen, sie an das Verfassungsgericht schicken und in bestimmten Situationen sogar das Parlament auflösen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E quantos deputados tem a Assembleia?", "de": "Und wie viele Abgeordnete hat das Parlament?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Duzentos e trinta. E a legislatura dura, em regra, quatro anos. No fundo, cada órgão de soberania controla os outros – é a separação de poderes.", "de": "Zweihundertdreißig. Und die Legislaturperiode dauert in der Regel vier Jahre. Im Grunde kontrolliert jedes Verfassungsorgan die anderen – das ist die Gewaltenteilung."}
+    ],
+    "fragen": [
+     {"frage": "Quem é o chefe de Estado em Portugal?", "optionen": ["O primeiro-ministro.", "O presidente da Assembleia da República.", "O Presidente da República."], "richtig": 2},
+     {"frage": "Como chega o primeiro-ministro ao cargo?", "optionen": ["É nomeado pelo Presidente, tendo em conta os resultados eleitorais.", "É eleito diretamente pelos cidadãos.", "É escolhido pelo Tribunal Constitucional."], "richtig": 0},
+     {"frage": "Quantos deputados tem a Assembleia da República?", "optionen": ["Cento e oitenta e três.", "Duzentos e trinta.", "Trezentos."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Portugal é uma república semipresidencialista.", "de": "Portugal ist eine semipräsidentielle Republik."},
+     {"pt": "O Presidente da República é eleito por sufrágio universal e direto.", "de": "Der Präsident der Republik wird in allgemeiner und direkter Wahl gewählt."},
+     {"pt": "O primeiro-ministro é nomeado pelo Presidente.", "de": "Der Premierminister wird vom Präsidenten ernannt."},
+     {"pt": "A Constituição foi aprovada em 1976.", "de": "Die Verfassung wurde 1976 verabschiedet."},
+     {"pt": "Cada órgão de soberania controla os outros.", "de": "Jedes Verfassungsorgan kontrolliert die anderen."}
+    ]
+   },
+   "saetze": [
+    {"id": "quem-manda-em-portugal", "pt": "Quem manda mais em Portugal, o Presidente ou o primeiro-ministro?", "de": "Wer hat in Portugal mehr zu sagen, der Präsident oder der Premierminister?"},
+    {"id": "e-eleito-por-sufragio", "pt": "É eleito por sufrágio universal e direto.", "de": "Er wird in allgemeiner und direkter Wahl gewählt."},
+    {"id": "tendo-em-conta-os-resultados", "pt": "Tendo em conta os resultados eleitorais, o Presidente nomeia o primeiro-ministro.", "de": "Unter Berücksichtigung der Wahlergebnisse ernennt der Präsident den Premierminister."}
+   ]
+  },
+  {
+   "id": "B2-05-L02",
+   "typ": "neu",
+   "titel": "Votar como cidadão da UE: Pede que votem",
+   "vokabeln": ["recensear-se", "o-recenseamento-eleitoral", "o-eleitor", "a-assembleia-de-voto", "o-boletim-de-voto", "a-urna", "o-voto-antecipado", "o-voto-em-branco", "a-taxa-de-abstencao", "abster-se", "as-eleicoes-autarquicas", "o-sufragio-universal"],
+   "grammatik": {
+    "titel": "Concordância dos tempos (1): <i>Pede que votem</i>",
+    "erklaerung": [
+     "Quando o verbo principal exprime <b>pedido, vontade, conselho, necessidade ou emoção</b> (<i>pedir, querer, recomendar, exigir, é importante, convém</i>), a oração com <b>que</b> leva o <b>conjuntivo</b>.",
+     "Se o verbo principal está no <b>presente</b>, no <b>futuro</b> ou no <b>imperativo</b>, usa-se o <b>presente do conjuntivo</b>: <i>A comissão <b>pede</b> que os eleitores <b>votem</b>. <b>Vai pedir</b> que <b>votem</b>. <b>Peça</b>-lhes que <b>votem</b>.</i>",
+     "Se a ação da oração subordinada já está <b>concluída</b>, usa-se o <b>pretérito perfeito do conjuntivo</b> (<i>tenha</i> + particípio): <i>Espero que já te <b>tenhas recenseado</b>.</i>",
+     "Atenção ao verbo <b>dizer</b>: com uma <b>informação</b> leva indicativo (<i>Diz que a Ana <b>trabalha</b> na junta</i>); com uma <b>ordem ou pedido</b> leva conjuntivo (<i>Diz à Ana que <b>ligue</b> para a junta</i>).",
+     "Pronomes: depois de <b>que</b>, o pronome vem antes do verbo: <i>É importante que <b>se recenseiem</b>.</i>"
+    ],
+    "erklaerung_de": [
+     "Nach Verben des Bittens, Wollens, Ratens, Forderns und nach unpersönlichen Ausdrücken (é importante, convém) steht im que-Satz der Konjunktiv.",
+     "Hauptsatz im Präsens, Futur oder Imperativ → <b>Presente do conjuntivo</b>: <i>Pede que votem.</i>",
+     "Ist die Handlung im Nebensatz schon abgeschlossen → <b>Perfeito do conjuntivo</b>: <i>Espero que te tenhas recenseado.</i>",
+     "<b>dizer que</b> + Indikativ = etwas mitteilen; <b>dizer que</b> + Konjunktiv = jemanden auffordern.",
+     "Nach que steht das Pronomen vor dem Verb."
+    ],
+    "vergleich": "Im Deutschen genügt oft ein Infinitiv oder „sollen“: „Sie bittet die Wähler, früh zu wählen.“ / „Sag Ana, sie soll anrufen.“ Das Portugiesische verlangt bei verschiedenen Subjekten einen que-Satz mit Konjunktiv: <i>Pede aos eleitores que votem cedo. Diz à Ana que ligue.</i> Englisch nutzt meist Infinitiv: „She asks voters to vote early.“",
+    "beispiele": [
+     {"pt": "A comissão eleitoral pede que os eleitores votem cedo.", "de": "Die Wahlkommission bittet die Wähler, früh zu wählen."},
+     {"pt": "É importante que os cidadãos da UE se recenseiem a tempo.", "de": "Es ist wichtig, dass sich EU-Bürger rechtzeitig ins Wählerverzeichnis eintragen."},
+     {"pt": "Espero que já te tenhas recenseado.", "de": "Ich hoffe, du hast dich schon ins Wählerverzeichnis eingetragen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A comissão eleitoral pede que os eleitores ___ cedo. (votar)", "loesungen": ["votem"], "de": "Die Wahlkommission bittet die Wähler, früh zu wählen.", "kategorie": "Zeitenfolge"},
+     {"typ": "luecke", "satz": "É importante que todos os cidadãos da UE ___ a tempo. (recensear-se)", "loesungen": ["se recenseiem"], "de": "Es ist wichtig, dass sich alle EU-Bürger rechtzeitig eintragen.", "erklaerung": "Nach que: Pronomen vor dem Verb. recensear → que se recenseiem (wie passear → passeiem).", "kategorie": "Zeitenfolge"},
+     {"typ": "auswahl", "frage": "O Stefan diz à Ana que ___ para a junta. (Aufforderung: Sie soll anrufen.)", "optionen": ["liga", "ligue", "ligasse"], "richtig": 1, "erklaerung": "dizer que als Aufforderung + Konjunktiv; Hauptsatz im Präsens → presente do conjuntivo.", "kategorie": "dizer que"},
+     {"typ": "auswahl", "frage": "O Stefan diz que a Ana ___ na junta. (Information: Sie arbeitet dort.)", "optionen": ["trabalhe", "trabalhasse", "trabalha"], "richtig": 2, "erklaerung": "dizer que als Mitteilung + Indikativ.", "kategorie": "dizer que"},
+     {"typ": "luecke", "satz": "Espero que já te ___. (recensear-se, pretérito perfeito do conjuntivo)", "loesungen": ["tenhas recenseado"], "de": "Ich hoffe, du hast dich schon eingetragen.", "kategorie": "Zeitenfolge"},
+     {"typ": "uebersetzen", "de": "Die Regierung wird verlangen, dass die Gemeinden mehr sparen.", "loesungen": ["O Governo vai exigir que as câmaras poupem mais.", "O Governo exigirá que as câmaras poupem mais.", "O Governo vai exigir que os municípios poupem mais.", "O Governo exigirá que os municípios poupem mais.", "O governo vai exigir que as câmaras poupem mais.", "O governo vai exigir que os municípios poupem mais."]},
+     {"typ": "satzbau", "de": "Ich bitte dich, nicht leer abzustimmen.", "loesung": "Peço-te que não votes em branco."},
+     {"typ": "uebersetzen", "de": "Es ist wichtig, dass wir wählen gehen.", "loesungen": ["É importante que vamos votar.", "É importante irmos votar.", "É importante que votemos.", "É importante votarmos."], "erklaerung": "Alternative ohne Konjunktiv: persönlicher Infinitiv (É importante irmos votar)."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Na junta de freguesia: o recenseamento",
+    "situation": "O Stefan vai à junta de freguesia perguntar se pode votar nas eleições autárquicas.",
+    "zeilen": [
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Bom dia. Em que posso ajudar?", "de": "Guten Morgen. Womit kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Sou austríaco e moro em Lagos há três anos. Gostava de saber se posso votar nas próximas eleições autárquicas.", "de": "Guten Morgen. Ich bin Österreicher und wohne seit drei Jahren in Lagos. Ich würde gern wissen, ob ich bei den nächsten Kommunalwahlen wählen kann."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Pode, sim. Os cidadãos da União Europeia que residem em Portugal podem votar nas autárquicas, desde que estejam recenseados.", "de": "Ja, das können Sie. EU-Bürger mit Wohnsitz in Portugal dürfen bei den Kommunalwahlen wählen, sofern sie im Wählerverzeichnis eingetragen sind."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E como é que me recenseio?", "de": "Und wie trage ich mich ein?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Pode tratar disso aqui, na junta da sua área de residência. Peço-lhe apenas que traga um documento de identificação válido.", "de": "Das können Sie hier erledigen, bei der Junta Ihres Wohnorts. Ich bitte Sie nur, ein gültiges Ausweisdokument mitzubringen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Há algum prazo?", "de": "Gibt es eine Frist?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Há. O recenseamento fecha algum tempo antes de cada eleição, por isso recomendo que trate disso o quanto antes.", "de": "Ja. Das Verzeichnis wird einige Zeit vor jeder Wahl geschlossen, deshalb empfehle ich Ihnen, das so bald wie möglich zu erledigen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E nas legislativas, também posso votar?", "de": "Und bei der Parlamentswahl darf ich auch wählen?"},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Nas legislativas e nas presidenciais, não. Mas, se quiser, pode votar cá nas europeias.", "de": "Bei der Parlaments- und der Präsidentschaftswahl nicht. Aber wenn Sie möchten, können Sie hier bei der Europawahl wählen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perfeito. A minha mulher é portuguesa, por isso já está recenseada. Ela quer que eu vote com ela na mesma assembleia de voto.", "de": "Perfekt. Meine Frau ist Portugiesin, sie ist also schon eingetragen. Sie möchte, dass ich mit ihr im selben Wahllokal wähle."},
+     {"sprecher": "Funcionária", "stimme": "f", "pt": "Como moram na mesma freguesia, é muito provável. Depois da inscrição, pode consultar o seu local de voto na internet.", "de": "Wenn Sie in derselben Freguesia wohnen, ist das sehr wahrscheinlich. Nach der Eintragung können Sie Ihr Wahllokal im Internet nachsehen."}
+    ],
+    "fragen": [
+     {"frage": "Em que eleições pode o Stefan votar em Portugal?", "optionen": ["Nas legislativas e nas presidenciais.", "Nas autárquicas e nas europeias.", "Só nas presidenciais."], "richtig": 1},
+     {"frage": "O que recomenda a funcionária?", "optionen": ["Que espere pelo dia das eleições.", "Que escreva à câmara municipal.", "Que trate do recenseamento o quanto antes."], "richtig": 2},
+     {"frage": "Porque é que a mulher do Stefan já está recenseada?", "optionen": ["Porque é portuguesa.", "Porque trabalha na junta.", "Porque se recenseou no ano passado."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "O seu amigo Pedro diz que não vai votar nas autárquicas. Tente convencê-lo (tu).",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Este ano não vou votar. Para quê? Ficam sempre os mesmos.", "de": "Dieses Jahr gehe ich nicht wählen. Wozu? Es bleiben immer dieselben."},
+     {"ich": true, "aufgabe": "Sag: Ich bitte dich, wählen zu gehen. Jede Stimme zählt.", "loesungen": ["Peço-te que vás votar. Cada voto conta.", "Peço-te que vás votar. Todos os votos contam.", "Peço-te que votes. Cada voto conta.", "Peço-te que vás votar, cada voto conta."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Mas nenhum candidato me convence.", "de": "Aber kein Kandidat überzeugt mich."},
+     {"ich": true, "aufgabe": "Sag: Dann wähl leer, aber es ist wichtig, dass du nicht zu Hause bleibst.", "loesungen": ["Então vota em branco, mas é importante que não fiques em casa.", "Então vota em branco, mas é importante não ficares em casa.", "Então, vota em branco, mas é importante que não fiques em casa."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E tu? Como estrangeiro, podes votar?", "de": "Und du? Darfst du als Ausländer wählen?"},
+     {"ich": true, "aufgabe": "Sag: Bei den Kommunalwahlen ja, sofern ich im Wählerverzeichnis eingetragen bin.", "loesungen": ["Nas autárquicas posso, desde que esteja recenseado.", "Nas autárquicas, sim, desde que esteja recenseado.", "Nas eleições autárquicas posso, desde que esteja recenseado.", "Nas autárquicas sim, desde que esteja recenseado."]}
+    ]
+   },
+   "saetze": [
+    {"id": "posso-votar-nas-autarquicas", "pt": "Posso votar nas eleições autárquicas?", "de": "Darf ich bei den Kommunalwahlen wählen?"},
+    {"id": "como-e-que-me-recenseio", "pt": "Como é que me recenseio?", "de": "Wie trage ich mich ins Wählerverzeichnis ein?"},
+    {"id": "peco-te-que-vas-votar", "pt": "Peço-te que vás votar.", "de": "Ich bitte dich, wählen zu gehen."}
+   ]
+  },
+  {
+   "id": "B2-05-L03",
+   "typ": "neu",
+   "titel": "A câmara e a junta: Disse que iria tratar do assunto",
+   "vokabeln": ["a-junta-de-freguesia", "a-freguesia", "o-presidente-da-junta", "o-vereador", "o-pelouro", "camarario", "o-municipe", "a-assembleia-municipal", "a-delegacao-de-competencias", "o-atestado-de-residencia", "o-edital", "a-reuniao-de-camara"],
+   "grammatik": {
+    "titel": "Concordância dos tempos (2): o discurso indireto – <i>Disse que iria votar</i>",
+    "erklaerung": [
+     "Para contar o que alguém disse, usa-se o <b>discurso indireto</b>. Se o verbo introdutor está no <b>passado</b> (<i>disse, explicou, garantiu, prometeu</i>), os tempos <b>recuam</b>:",
+     "<b>presente → imperfeito</b>: „As obras <b>terminam</b> em maio.“ → <i>Disse que as obras <b>terminavam</b> em maio.</i>",
+     "<b>pretérito perfeito → mais-que-perfeito</b>: „Já <b>falei</b> com a vereadora.“ → <i>Disse que já <b>tinha falado</b> com a vereadora.</i>",
+     "<b>futuro / ir + infinitivo → condicional</b> (ou <i>ia</i> + infinitivo, mais coloquial): „<b>Vou votar</b>.“ → <i>Disse que <b>iria votar</b> / <b>votaria</b> / <b>ia votar</b>.</i>",
+     "Mudam também as referências de tempo e lugar: <i>hoje → naquele dia, amanhã → no dia seguinte, ontem → na véspera, aqui → ali/lá, este → aquele</i>.",
+     "Se o verbo introdutor está no <b>presente</b> (<i>diz, explica</i>), os tempos não mudam: <i>Diz que as obras terminam em maio.</i>"
+    ],
+    "erklaerung_de": [
+     "In der indirekten Rede mit einleitendem Verb in der Vergangenheit verschieben sich die Zeiten:",
+     "Präsens → Imperfeito (terminam → terminavam).",
+     "Perfeito → Mais-que-perfeito (falei → tinha falado).",
+     "Futur / ir + Infinitiv → Condicional (iria votar / votaria) oder umgangssprachlich ia votar.",
+     "Zeit- und Ortsangaben passen sich an: amanhã → no dia seguinte, aqui → ali.",
+     "Steht das einleitende Verb im Präsens, bleiben die Zeiten unverändert. Anders als im Deutschen wird kein Konjunktiv I verwendet!"
+    ],
+    "vergleich": "Deutsch nutzt in der indirekten Rede den Konjunktiv I: „Er sagte, die Arbeiten endeten im Mai / würden im Mai enden.“ Portugiesisch verwendet dagegen den <b>Indikativ</b> mit Zeitverschiebung: <i>Disse que as obras terminavam em maio.</i> Das entspricht dem englischen „backshift“: „He said the works ended / would end in May.“",
+    "beispiele": [
+     {"pt": "O presidente da junta disse que o atestado estaria pronto na sexta-feira.", "de": "Der Vorsteher der Freguesia sagte, die Bescheinigung sei am Freitag fertig."},
+     {"pt": "A vereadora explicou que a rua não era da competência da junta.", "de": "Die Stadträtin erklärte, die Straße falle nicht in die Zuständigkeit der Junta."},
+     {"pt": "Garantiram-nos que já tinham pedido um orçamento para as obras.", "de": "Man versicherte uns, man habe schon einen Kostenvoranschlag für die Arbeiten eingeholt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "„Vamos reabrir o mercado.“ → O presidente da junta disse que ___ o mercado.", "loesungen": ["iriam reabrir", "iam reabrir", "reabririam"], "de": "Der Vorsteher sagte, man werde den Markt wieder öffnen.", "kategorie": "Zeitenfolge"},
+     {"typ": "luecke", "satz": "„Já pedimos o parecer.“ → A vereadora disse que já ___ o parecer.", "loesungen": ["tinham pedido", "haviam pedido"], "de": "Die Stadträtin sagte, man habe das Gutachten schon angefordert.", "erklaerung": "Perfeito (pedimos) → Mais-que-perfeito (tinham pedido).", "kategorie": "Zeitenfolge"},
+     {"typ": "auswahl", "frage": "Uma semana depois: „Amanhã há reunião de câmara.“ → Ele disse que ___ havia reunião de câmara.", "optionen": ["amanhã", "ontem", "no dia seguinte"], "richtig": 2, "erklaerung": "Aus späterer Sicht wird amanhã zu no dia seguinte.", "kategorie": "Discurso indireto"},
+     {"typ": "auswahl", "frage": "O presidente disse: „As obras terminam em maio.“ → O presidente disse que as obras ___ em maio.", "optionen": ["terminem", "terminavam", "terminassem"], "richtig": 1, "erklaerung": "Präsens → Imperfeito do indicativo. Kein Konjunktiv, denn es ist eine Mitteilung.", "kategorie": "Zeitenfolge"},
+     {"typ": "luecke", "satz": "„Estamos a analisar o caso.“ → Disseram que ___ a analisar o caso.", "loesungen": ["estavam"], "de": "Sie sagten, sie würden den Fall prüfen.", "kategorie": "Zeitenfolge"},
+     {"typ": "uebersetzen", "de": "Sie sagte, sie würde wählen gehen.", "loesungen": ["Disse que iria votar.", "Ela disse que iria votar.", "Disse que ia votar.", "Ela disse que ia votar.", "Disse que votaria.", "Ela disse que votaria."]},
+     {"typ": "satzbau", "de": "Der Stadtrat erklärte, dass die Junta zuständig sei.", "loesung": "O vereador explicou que a junta era responsável."},
+     {"typ": "uebersetzen", "de": "Er sagte mir, dass er die Bescheinigung schon ausgestellt hatte.", "loesungen": ["Disse-me que já tinha passado o atestado.", "Ele disse-me que já tinha passado o atestado.", "Disse-me que já tinha emitido o atestado.", "Ele disse-me que já tinha emitido o atestado.", "Disse-me que já tinha passado a declaração."], "erklaerung": "Hauptsatz ohne Auslöser → Enklise: Disse-me."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O que disse o presidente da junta",
+    "situation": "O Stefan volta da junta de freguesia e conta à Ana o que lhe disseram.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então, como correu a conversa na junta?", "de": "Und, wie lief das Gespräch bei der Junta?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Correu bem. O presidente da junta disse que o atestado de residência estaria pronto na sexta-feira.", "de": "Gut. Der Vorsteher sagte, die Wohnsitzbescheinigung sei am Freitag fertig."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E perguntaste-lhe pelos buracos na nossa rua?", "de": "Und hast du ihn nach den Schlaglöchern in unserer Straße gefragt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Perguntei. Disse que a rua não era da competência da junta, mas da câmara.", "de": "Ja. Er sagte, die Straße falle nicht in die Zuständigkeit der Junta, sondern der Câmara."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Outra vez? No ano passado disseram-nos exatamente o contrário!", "de": "Schon wieder? Letztes Jahr hat man uns genau das Gegenteil gesagt!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois. Ele explicou que, com a delegação de competências, a junta só tratava da limpeza, não das obras.", "de": "Tja. Er erklärte, dass sich die Junta mit der Übertragung der Zuständigkeiten nur um die Reinigung kümmere, nicht um Bauarbeiten."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E o que é que sugeriu?", "de": "Und was hat er vorgeschlagen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Disse que havia uma reunião de câmara pública no mês seguinte e que os munícipes podiam intervir no fim.", "de": "Er sagte, im folgenden Monat gebe es eine öffentliche Sitzung der Câmara und die Bürger könnten am Ende das Wort ergreifen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E quem é o vereador responsável?", "de": "Und wer ist der zuständige Stadtrat?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É uma vereadora, com o pelouro das obras. Ele garantiu que já tinha falado com ela e que ela iria ver a rua.", "de": "Eine Stadträtin mit dem Bauressort. Er versicherte, er habe schon mit ihr gesprochen und sie werde sich die Straße ansehen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Promessas… Mas vamos à reunião. Eu preparo a intervenção.", "de": "Versprechungen … Aber wir gehen zur Sitzung. Ich bereite den Redebeitrag vor."}
+    ],
+    "fragen": [
+     {"frage": "Quando estará pronto o atestado de residência?", "optionen": ["No mês seguinte.", "Amanhã.", "Na sexta-feira."], "richtig": 2},
+     {"frage": "Segundo o presidente da junta, quem é responsável pelas obras na rua?", "optionen": ["A câmara.", "A junta.", "Os moradores."], "richtig": 0},
+     {"frage": "O que podem fazer os munícipes na reunião de câmara pública?", "optionen": ["Votar o orçamento.", "Intervir no fim.", "Nada, só podem ouvir."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português, em discurso indireto.",
+    "aufgaben": [
+     {"de": "Der Vorsteher sagte, die Bescheinigung würde am Freitag fertig sein.", "loesungen": ["O presidente da junta disse que o atestado estaria pronto na sexta-feira.", "O presidente da junta disse que o atestado ia estar pronto na sexta-feira.", "O presidente da junta disse que o atestado ficaria pronto na sexta-feira.", "O presidente da junta disse que o atestado de residência estaria pronto na sexta-feira."]},
+     {"de": "Sie sagte, sie habe schon mit dem Stadtrat gesprochen.", "loesungen": ["Disse que já tinha falado com o vereador.", "Ela disse que já tinha falado com o vereador.", "Disse que já havia falado com o vereador.", "Ela disse que já havia falado com o vereador."]},
+     {"de": "Er erklärte, die Straße sei Sache der Câmara.", "loesungen": ["Explicou que a rua era da competência da câmara.", "Ele explicou que a rua era da competência da câmara.", "Explicou que a rua era da responsabilidade da câmara.", "Ele explicou que a rua era da responsabilidade da câmara.", "Explicou que a rua era responsabilidade da câmara."]},
+     {"de": "Man sagte uns, die Sitzung würde öffentlich sein.", "loesungen": ["Disseram-nos que a reunião seria pública.", "Disseram-nos que a reunião ia ser pública.", "Disseram-nos que a reunião iria ser pública."]},
+     {"de": "Er fragte, ob wir in der Freguesia wohnten.", "loesungen": ["Perguntou se morávamos na freguesia.", "Ele perguntou se morávamos na freguesia.", "Perguntou se vivíamos na freguesia.", "Ele perguntou se vivíamos na freguesia.", "Perguntou-nos se morávamos na freguesia."]}
+    ]
+   },
+   "saetze": [
+    {"id": "disse-que-estaria-pronto", "pt": "Disse que estaria pronto na sexta-feira.", "de": "Er sagte, es sei am Freitag fertig."},
+    {"id": "nao-e-da-competencia-da-junta", "pt": "Isso não é da competência da junta, mas da câmara.", "de": "Das fällt nicht in die Zuständigkeit der Junta, sondern der Câmara."},
+    {"id": "garantiu-que-tinha-falado", "pt": "Garantiu que já tinha falado com a vereadora.", "de": "Er versicherte, er habe schon mit der Stadträtin gesprochen."}
+   ]
+  },
+  {
+   "id": "B2-05-L04",
+   "typ": "neu",
+   "titel": "Exigências ao poder: Pediu que votassem",
+   "vokabeln": ["agir", "a-inacao", "apelar-a", "o-apelo", "pressionar", "demitir-se", "a-demissao", "a-promessa-eleitoral", "o-compromisso", "tardiamente", "assumir-responsabilidades"],
+   "grammatik": {
+    "titel": "Concordância dos tempos (3): <i>Pediu que votassem – Era necessário que tivesse agido</i>",
+    "erklaerung": [
+     "Se o verbo principal (de pedido, vontade, necessidade, emoção…) está no <b>passado</b> (<i>pediu, pedia, queria, exigiram, era necessário</i>) ou no <b>condicional</b> (<i>seria bom</i>), a oração com <b>que</b> leva o <b>imperfeito do conjuntivo</b>: <i>A comissão <b>pediu</b> que os eleitores <b>votassem</b> cedo.</i>",
+     "Compare: <i><b>Pede</b> que <b>votem</b>.</i> (presente → presente do conjuntivo) / <i><b>Pediu</b> que <b>votassem</b>.</i> (passado → imperfeito do conjuntivo).",
+     "Para uma ação <b>anterior</b> a outra no passado, usa-se o <b>mais-que-perfeito do conjuntivo</b> (<i>tivesse</i> + particípio): <i><b>Era necessário</b> que o Governo <b>tivesse agido</b> mais cedo.</i> – isto é, o Governo não agiu a tempo.",
+     "Com o verbo principal no presente e uma ação já passada, usa-se o <b>pretérito perfeito do conjuntivo</b>: <i><b>É</b> lastimável que a câmara não <b>tenha agido</b>.</i>",
+     "Resumo: <b>presente/futuro</b> → <i>vote / tenha votado</i>; <b>passado/condicional</b> → <i>votasse / tivesse votado</i>."
+    ],
+    "erklaerung_de": [
+     "Hauptsatz in der Vergangenheit oder im Konditional → im que-Satz <b>Imperfeito do conjuntivo</b>: <i>Pediu que votassem.</i>",
+     "Gegenüberstellung: Pede que votem / Pediu que votassem.",
+     "Vorzeitigkeit in der Vergangenheit → <b>Mais-que-perfeito do conjuntivo</b>: <i>Era necessário que o Governo tivesse agido.</i> = Die Regierung hätte handeln müssen (hat es aber nicht).",
+     "Hauptsatz im Präsens + abgeschlossene Handlung → Perfeito do conjuntivo: <i>É lastimável que não tenha agido.</i>"
+    ],
+    "vergleich": "Deutsch drückt „hätte handeln müssen“ mit Modalverb aus: „Die Regierung hätte früher handeln müssen.“ Portugiesisch hat zwei Wege: <i>O Governo devia ter agido mais cedo</i> oder, formeller, <i>Era necessário que o Governo tivesse agido mais cedo.</i> Englisch: „It was necessary for the government to have acted earlier.“",
+    "beispiele": [
+     {"pt": "A comissão eleitoral pediu que os eleitores votassem cedo.", "de": "Die Wahlkommission bat die Wähler, früh zu wählen."},
+     {"pt": "Era necessário que o Governo tivesse agido mais cedo.", "de": "Die Regierung hätte früher handeln müssen."},
+     {"pt": "Os moradores exigiram que a câmara assumisse responsabilidades.", "de": "Die Anwohner forderten, dass die Câmara Verantwortung übernimmt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A comissão pediu que os eleitores ___ cedo. (votar)", "loesungen": ["votassem"], "de": "Die Kommission bat die Wähler, früh zu wählen.", "kategorie": "Zeitenfolge"},
+     {"typ": "luecke", "satz": "Era necessário que o Governo ___ mais cedo. (agir, mais-que-perfeito do conjuntivo)", "loesungen": ["tivesse agido"], "de": "Die Regierung hätte früher handeln müssen.", "kategorie": "Zeitenfolge"},
+     {"typ": "auswahl", "frage": "Os moradores exigiram que a câmara ___ o problema.", "optionen": ["resolva", "resolvesse", "resolveu"], "richtig": 1, "erklaerung": "exigiram (Vergangenheit) → Imperfeito do conjuntivo.", "kategorie": "Zeitenfolge"},
+     {"typ": "auswahl", "frage": "É lastimável que a junta não ___ a tempo. (Die Junta hat nicht rechtzeitig gehandelt.)", "optionen": ["tenha agido", "tivesse agido", "agiu"], "richtig": 0, "erklaerung": "Hauptsatz im Präsens (É) + abgeschlossene Handlung → Perfeito do conjuntivo.", "kategorie": "Zeitenfolge"},
+     {"typ": "luecke", "satz": "Umformung: O ministro quer que as câmaras poupem. → O ministro queria que as câmaras ___.", "loesungen": ["poupassem"], "de": "Der Minister wollte, dass die Gemeinden sparen.", "kategorie": "Umformung"},
+     {"typ": "uebersetzen", "de": "Die Anwohner verlangten, dass der Stadtrat zurücktritt.", "loesungen": ["Os moradores exigiram que o vereador se demitisse.", "Os moradores pediram que o vereador se demitisse.", "Os moradores exigiram a demissão do vereador."], "erklaerung": "Nach que: Pronomen vor dem Verb (se demitisse)."},
+     {"typ": "satzbau", "de": "Es wäre besser gewesen, wenn die Regierung rechtzeitig gehandelt hätte.", "loesung": "Teria sido melhor se o Governo tivesse agido a tempo."},
+     {"typ": "uebersetzen", "de": "Ich hatte nicht erwartet, dass sich so viele Leute enthalten würden.", "loesungen": ["Não esperava que tanta gente se abstivesse.", "Não esperava que tantas pessoas se abstivessem.", "Eu não esperava que tanta gente se abstivesse.", "Eu não esperava que tantas pessoas se abstivessem."], "erklaerung": "abster-se wie ter: se abstivesse / se abstivessem.", "kategorie": "Zeitenfolge"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Depois da tempestade",
+    "situation": "Depois de uma noite de chuva forte, o vizinho João e o Stefan olham para a rua inundada.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Viste o estado da rua? A água chegou às garagens outra vez.", "de": "Hast du den Zustand der Straße gesehen? Das Wasser ist wieder bis in die Garagen gekommen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vi. E não é a primeira vez. No ano passado pedimos que limpassem as sarjetas antes do inverno.", "de": "Ja. Und es ist nicht das erste Mal. Letztes Jahr haben wir darum gebeten, die Gullys vor dem Winter zu reinigen."},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois pedimos. E responderam que iam tratar do assunto. Nada!", "de": "Ja, haben wir. Und sie antworteten, sie würden sich darum kümmern. Nichts ist passiert!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Era necessário que tivessem agido em outubro, não agora. Esta inação sai cara aos moradores.", "de": "Sie hätten im Oktober handeln müssen, nicht jetzt. Diese Untätigkeit kommt die Anwohner teuer zu stehen."},
+     {"sprecher": "João", "stimme": "m", "pt": "Alguns vizinhos querem pressionar a câmara. Há até quem peça a demissão do vereador.", "de": "Einige Nachbarn wollen Druck auf die Câmara ausüben. Manche fordern sogar den Rücktritt des Stadtrats."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "A demissão parece-me exagerada. O que eu queria era que assumissem responsabilidades e cumprissem o compromisso.", "de": "Der Rücktritt scheint mir übertrieben. Ich möchte nur, dass sie Verantwortung übernehmen und ihre Zusage einhalten."},
+     {"sprecher": "João", "stimme": "m", "pt": "Concordo. Lembras-te? Na campanha, o presidente da câmara prometeu que, se fosse eleito, resolveria o problema das cheias.", "de": "Einverstanden. Erinnerst du dich? Im Wahlkampf hat der Bürgermeister versprochen, er würde, falls er gewählt würde, das Hochwasserproblem lösen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Promessas eleitorais… Vou escrever-lhes outra vez e pedir que nos recebam.", "de": "Wahlversprechen … Ich schreibe ihnen noch einmal und bitte darum, dass sie uns empfangen."},
+     {"sprecher": "João", "stimme": "m", "pt": "Faz isso. E pede que te respondam por escrito, para ficar registado.", "de": "Mach das. Und bitte darum, dass sie dir schriftlich antworten, damit es festgehalten ist."}
+    ],
+    "fragen": [
+     {"frage": "O que pediram os vizinhos no ano passado?", "optionen": ["Que construíssem novas garagens.", "Que mudassem o nome da rua.", "Que limpassem as sarjetas antes do inverno."], "richtig": 2},
+     {"frage": "O que pensa o Stefan sobre a demissão do vereador?", "optionen": ["Parece-lhe exagerada.", "Acha que é a única solução.", "Não tem opinião."], "richtig": 0},
+     {"frage": "O que tinha prometido o presidente da câmara na campanha?", "optionen": ["Baixar os impostos.", "Resolver o problema das cheias, se fosse eleito.", "Construir uma creche."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Pedimos que limpassem as sarjetas antes do inverno.", "de": "Wir baten darum, die Gullys vor dem Winter zu reinigen."},
+     {"pt": "Era necessário que tivessem agido mais cedo.", "de": "Sie hätten früher handeln müssen."},
+     {"pt": "O que eu queria era que assumissem responsabilidades.", "de": "Ich möchte nur, dass sie Verantwortung übernehmen."},
+     {"pt": "Prometeu que, se fosse eleito, resolveria o problema.", "de": "Er versprach, das Problem zu lösen, falls er gewählt würde."},
+     {"pt": "Pede que te respondam por escrito.", "de": "Bitte darum, dass sie dir schriftlich antworten."}
+    ]
+   },
+   "saetze": [
+    {"id": "era-necessario-que-tivessem-agido", "pt": "Era necessário que tivessem agido mais cedo.", "de": "Sie hätten früher handeln müssen."},
+    {"id": "pedimos-que-nos-recebessem", "pt": "Pedimos que nos recebessem.", "de": "Wir baten darum, dass man uns empfängt."},
+    {"id": "parece-me-exagerado", "pt": "Isso parece-me exagerado.", "de": "Das scheint mir übertrieben."}
+   ]
+  },
+  {
+   "id": "B2-05-L05",
+   "typ": "neu",
+   "titel": "Candidatos e autarcas: o pronome cujo",
+   "vokabeln": ["o-autarca", "tomar-posse", "em-funcoes", "o-antecessor", "o-sucessor", "recandidatar-se", "a-limitacao-de-mandatos", "o-cabeca-de-lista", "o-grupo-de-cidadaos-eleitores", "a-lista-de-candidatos", "concorrer"],
+   "grammatik": {
+    "titel": "O relativo <i>cujo, cuja, cujos, cujas</i>",
+    "erklaerung": [
+     "<b>Cujo</b> exprime <b>posse</b> numa oração relativa e corresponde ao alemão „dessen/deren“: <i>O autarca, <b>cujo</b> mandato termina este ano, não se vai recandidatar.</i>",
+     "<b>Cujo</b> concorda com o <b>nome que vem a seguir</b> (a coisa possuída), não com o possuidor: <i>a candidata <b>cujo</b> pai…, o candidato <b>cuja</b> mãe…, a lista <b>cujos</b> membros…, o partido <b>cujas</b> propostas…</i>",
+     "Depois de <b>cujo</b> <b>nunca</b> se usa artigo: ✘ <i>cujo o mandato</i> → ✔ <i>cujo mandato</i>.",
+     "Se o verbo exige preposição, ela vem <b>antes</b> de cujo: <i>O vereador <b>a cujo</b> gabinete enviei a carta… A lista <b>em cujo</b> programa votei…</i>",
+     "Na língua falada, muitas pessoas evitam <i>cujo</i> e dizem <i>que o seu</i> (✘ <i>uma autarca que o mandato termina</i>). Em textos formais e escritos, use sempre <b>cujo</b>.",
+     "Quando o antecedente é indefinido, a relativa pode levar conjuntivo: <i>Só voto numa lista <b>cujo</b> programa <b>fale</b> do estacionamento.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>cujo</b> = dessen / deren.",
+     "Es richtet sich nach dem folgenden Substantiv (dem Besessenen): cujo pai, cuja mãe, cujos membros, cujas propostas.",
+     "Nach cujo nie einen Artikel setzen (nicht: cujo o).",
+     "Präpositionen stehen davor: a cujo gabinete = an dessen Büro.",
+     "Umgangssprachlich hört man „que o seu“ – im formellen Schreiben immer cujo.",
+     "Bei unbestimmtem Bezugswort ist der Konjunktiv möglich: uma lista cujo programa fale de …"
+    ],
+    "vergleich": "Deutsch „dessen/deren“ richtet sich nach dem Besitzer: „die Kandidatin, deren Vater …“. Portugiesisch <i>cujo</i> richtet sich nach dem Besessenen: <i>a candidata <b>cujo</b> pai</i> (pai ist maskulin). Englisch „whose“ ist unveränderlich: „the candidate whose father …“.",
+    "beispiele": [
+     {"pt": "O autarca, cujo mandato termina este ano, não se vai recandidatar.", "de": "Der Kommunalpolitiker, dessen Amtszeit dieses Jahr endet, tritt nicht wieder an."},
+     {"pt": "Concorre também um grupo de cidadãos eleitores cujos membros não pertencem a nenhum partido.", "de": "Es tritt auch eine Bürgerliste an, deren Mitglieder keiner Partei angehören."},
+     {"pt": "A presidente, a cuja tomada de posse assisti, está em funções há quatro anos.", "de": "Die Vorsitzende, bei deren Amtseinführung ich dabei war, ist seit vier Jahren im Amt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O autarca, ___ mandato termina este ano, não se vai recandidatar.", "loesungen": ["cujo"], "de": "Der Kommunalpolitiker, dessen Amtszeit dieses Jahr endet, tritt nicht wieder an.", "kategorie": "cujo"},
+     {"typ": "luecke", "satz": "A candidata, ___ propostas foram muito discutidas, lidera as sondagens.", "loesungen": ["cujas"], "de": "Die Kandidatin, deren Vorschläge viel diskutiert wurden, führt in den Umfragen.", "erklaerung": "cujo richtet sich nach propostas (fem. Plural) → cujas.", "kategorie": "cujo"},
+     {"typ": "auswahl", "frage": "A freguesia ___ presidente se demitiu vai ter eleições intercalares.", "optionen": ["cujo o", "cujo", "que o seu"], "richtig": 1, "erklaerung": "Nach cujo kein Artikel; „que o seu“ ist umgangssprachlich und gilt als fehlerhaft.", "kategorie": "cujo"},
+     {"typ": "auswahl", "frage": "O vereador ___ gabinete enviei a carta ainda não respondeu.", "optionen": ["a cujo", "cujo", "ao cujo"], "richtig": 0, "erklaerung": "enviar a carta a … → die Präposition a steht vor cujo, ohne Artikel.", "kategorie": "cujo"},
+     {"typ": "luecke", "satz": "Juntar: A lista ganhou. O cabeça de lista dela é independente. → A lista, ___ cabeça de lista é independente, ganhou.", "loesungen": ["cujo"], "de": "Die Liste, deren Spitzenkandidat parteilos ist, hat gewonnen.", "kategorie": "Umformung"},
+     {"typ": "auswahl", "frage": "Qual é a frase adequada num texto formal?", "optionen": ["É uma autarca que o mandato termina agora.", "É uma autarca que o seu mandato termina agora.", "É uma autarca cujo mandato termina agora."], "richtig": 2, "kategorie": "Register"},
+     {"typ": "uebersetzen", "de": "Die Kandidatin, deren Vater Bürgermeister war, tritt für die Junta an.", "loesungen": ["A candidata, cujo pai foi presidente da câmara, concorre à junta.", "A candidata cujo pai foi presidente da câmara concorre à junta.", "A candidata, cujo pai era presidente da câmara, concorre à junta.", "A candidata, cujo pai foi presidente da câmara, candidata-se à junta."], "erklaerung": "pai ist maskulin → cujo, auch wenn die Kandidatin weiblich ist."},
+     {"typ": "satzbau", "de": "Das ist der Stadtrat, dessen Ressort die Kultur ist.", "loesung": "Este é o vereador cujo pelouro é a cultura."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Os cartazes da campanha",
+    "situation": "Antes das eleições autárquicas, a Rita e o Stefan passam pelos cartazes das candidaturas à junta de freguesia. (Pessoas fictícias.)",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Já viste os cartazes? Este ano concorrem quatro listas à nossa junta.", "de": "Hast du die Plakate gesehen? Dieses Jahr treten vier Listen für unsere Junta an."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vi. Quem é a senhora cujo retrato está em todo o lado?", "de": "Ja. Wer ist die Dame, deren Bild überall hängt?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "É a Maria Sousa, a presidente em funções. Tomou posse há quatro anos e decidiu recandidatar-se.", "de": "Das ist Maria Sousa, die amtierende Vorsteherin. Sie hat ihr Amt vor vier Jahren angetreten und beschlossen, wieder zu kandidieren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o senhor de barba?", "de": "Und der Herr mit dem Bart?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "É o Carlos Mendes, cabeça de lista de um grupo de cidadãos eleitores, cujos membros não pertencem a nenhum partido.", "de": "Das ist Carlos Mendes, Spitzenkandidat einer Bürgerliste, deren Mitglieder keiner Partei angehören."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o antigo presidente, aquele cujo nome está na placa do jardim? Não concorre?", "de": "Und der frühere Vorsteher, dessen Name auf dem Schild im Park steht? Tritt er nicht an?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Já não pode. Por causa da limitação de mandatos, ao fim de três mandatos seguidos teve de sair.", "de": "Er darf nicht mehr. Wegen der Amtszeitbegrenzung musste er nach drei Amtszeiten in Folge aufhören."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então a Maria Sousa foi a sucessora dele.", "de": "Dann war Maria Sousa seine Nachfolgerin."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Foi. E tem feito um bom trabalho, embora haja quem critique as obras do parque, que nunca mais acabam.", "de": "Ja. Und sie macht ihre Sache gut, auch wenn manche die Bauarbeiten im Park kritisieren, die einfach kein Ende nehmen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bem, eu só voto numa lista cujo programa fale da falta de estacionamento!", "de": "Also, ich wähle nur eine Liste, deren Programm den Parkplatzmangel anspricht!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Então lê os programas com calma. Estão todos nas páginas das candidaturas.", "de": "Dann lies die Programme in Ruhe. Sie stehen alle auf den Seiten der Kandidaturen."}
+    ],
+    "fragen": [
+     {"frage": "Quantas listas concorrem à junta de freguesia?", "optionen": ["Três.", "Quatro.", "Cinco."], "richtig": 1},
+     {"frage": "Quem é o Carlos Mendes?", "optionen": ["O presidente em funções.", "O antigo presidente da junta.", "O cabeça de lista de um grupo de cidadãos eleitores."], "richtig": 2},
+     {"frage": "Porque é que o antigo presidente não concorre?", "optionen": ["Por causa da limitação de mandatos.", "Porque mudou de partido.", "Porque se mudou para Lisboa."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Numa banca de campanha no mercado, uma candidata fala consigo. Responda de forma educada (a senhora).",
+    "zeilen": [
+     {"sprecher": "Candidata", "stimme": "f", "pt": "Bom dia! Posso deixar-lhe o nosso programa?", "de": "Guten Morgen! Darf ich Ihnen unser Programm geben?"},
+     {"ich": true, "aufgabe": "Sag: Gern. Sind Sie die Kandidatin, deren Plakat vor der Schule hängt?", "loesungen": ["Com todo o gosto. É a candidata cujo cartaz está em frente à escola?", "Com muito gosto. É a candidata cujo cartaz está em frente à escola?", "Com todo o gosto. A senhora é a candidata cujo cartaz está em frente à escola?", "Com gosto. É a candidata cujo cartaz está à frente da escola?", "Com todo o gosto. É a candidata cujo cartaz está à frente da escola?"]},
+     {"sprecher": "Candidata", "stimme": "f", "pt": "Sou, sim. Sou cabeça de lista de um grupo de cidadãos eleitores.", "de": "Ja, die bin ich. Ich bin Spitzenkandidatin einer Bürgerliste."},
+     {"ich": true, "aufgabe": "Sag: Ich bin EU-Bürger und habe mich schon eingetragen. Was schlagen Sie für die Parkplätze vor?", "loesungen": ["Sou cidadão da UE e já me recenseei. O que propõe para o estacionamento?", "Sou cidadão da União Europeia e já me recenseei. O que propõe para o estacionamento?", "Sou cidadão europeu e já me recenseei. O que propõe para o estacionamento?", "Sou cidadão da UE e já estou recenseado. O que propõe para o estacionamento?"]},
+     {"sprecher": "Candidata", "stimme": "f", "pt": "Queremos criar um parque à entrada da vila, cujos lugares serão gratuitos para os moradores.", "de": "Wir wollen am Ortseingang einen Parkplatz schaffen, dessen Stellplätze für Anwohner kostenlos sein werden."},
+     {"ich": true, "aufgabe": "Sag: Interessant. Ich werde Ihr Programm in Ruhe lesen.", "loesungen": ["Interessante. Vou ler o seu programa com calma.", "Interessante. Vou ler o vosso programa com calma.", "Interessante. Vou ler o programa com calma.", "Interessante, vou ler o seu programa com calma."]}
+    ]
+   },
+   "saetze": [
+    {"id": "candidata-cujo-cartaz", "pt": "É a candidata cujo cartaz está em frente à escola?", "de": "Sind Sie die Kandidatin, deren Plakat vor der Schule hängt?"},
+    {"id": "decidiu-recandidatar-se", "pt": "A presidente em funções decidiu recandidatar-se.", "de": "Die amtierende Vorsitzende hat beschlossen, wieder zu kandidieren."},
+    {"id": "so-voto-numa-lista-cujo", "pt": "Só voto numa lista cujo programa fale deste problema.", "de": "Ich wähle nur eine Liste, deren Programm dieses Problem anspricht."}
+   ]
+  },
+  {
+   "id": "B2-05-L06",
+   "typ": "neu",
+   "titel": "Regulamentos e consultas públicas: o qual, a qual",
+   "vokabeln": ["o-regulamento", "a-entrada-em-vigor", "acautelar", "a-portaria", "o-orgao-autarquico", "o-organismo", "a-auscultacao", "a-consulta-publica", "a-tutela", "o-plano-diretor-municipal", "o-licenciamento"],
+   "grammatik": {
+    "titel": "Os relativos <i>o qual, a qual, os quais, as quais</i>",
+    "erklaerung": [
+     "<b>O qual</b> (a qual, os quais, as quais) é um relativo típico da <b>língua escrita e formal</b>. Concorda em género e número com o <b>antecedente</b>: <i>o regulamento, segundo <b>o qual</b>… / a consulta pública, durante <b>a qual</b>…</i>",
+     "Usa-se sobretudo depois de <b>preposições longas ou compostas</b>: <i>segundo, sobre, perante, durante, sem, contra, através de, com base em</i>: <i>Os pareceres, <b>sem os quais</b> a câmara não pode decidir…</i>",
+     "Com as preposições <b>a, de, em, por</b> há contração: <b>ao qual, do qual, no qual, pelo qual</b>: <i>A deliberação <b>à qual</b> me refiro… As razões <b>pelas quais</b> votei contra…</i> (Depois de <i>a, de, em, com</i> também se pode usar <i>que</i>: <i>a deliberação a que me refiro</i>.)",
+     "Também serve para <b>evitar ambiguidades</b>, porque mostra o género e o número: <i>Falei com a filha do vereador, <b>a qual</b> trabalha na câmara.</i> (quem trabalha é a filha).",
+     "Para pessoas, depois de preposição, também se usa <b>quem</b>: <i>a vereadora com <b>quem</b> falei = a vereadora com <b>a qual</b> falei.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>o qual / a qual / os quais / as quais</b> = der/die/das, welcher – formell und schriftsprachlich; richtet sich nach dem Bezugswort.",
+     "Vor allem nach längeren Präpositionen: segundo o qual (laut dem), durante a qual (während der), sem os quais (ohne die).",
+     "Verschmelzung: ao qual, do qual, no qual, pelo qual. Nach a/de/em/com geht auch que.",
+     "Vermeidet Mehrdeutigkeit, weil Genus und Numerus sichtbar sind.",
+     "Bei Personen nach Präposition auch quem: com quem = mit dem/der."
+    ],
+    "vergleich": "Deutsch braucht dafür einfach „der/die/das“ oder „welcher“: „die Verordnung, nach der …“. Portugiesisch unterscheidet: kurze Präposition → <i>que</i> möglich (<i>a que me refiro</i>), lange Präposition → <i>o qual</i> (<i>segundo o qual</i>). Englisch: „the regulation according to which …“ – <i>which</i> entspricht <i>o qual</i>.",
+    "beispiele": [
+     {"pt": "O regulamento, segundo o qual não se pode acampar na praia, aplica-se a todo o concelho.", "de": "Die Verordnung, nach der man am Strand nicht zelten darf, gilt im ganzen Gemeindegebiet."},
+     {"pt": "A consulta pública, durante a qual chegaram centenas de sugestões, terminou ontem.", "de": "Die öffentliche Konsultation, während der Hunderte von Vorschlägen eingingen, endete gestern."},
+     {"pt": "Estas são as razões pelas quais a assembleia municipal adiou a votação.", "de": "Das sind die Gründe, aus denen die Gemeindeversammlung die Abstimmung vertagt hat."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "O plano diretor municipal, segundo ___ não se pode construir naquela zona, vai ser revisto.", "loesungen": ["o qual"], "de": "Der Flächennutzungsplan, nach dem man in dieser Zone nicht bauen darf, wird überarbeitet.", "kategorie": "o qual"},
+     {"typ": "luecke", "satz": "A auscultação, durante ___ os moradores deram a sua opinião, durou duas semanas.", "loesungen": ["a qual"], "de": "Die Anhörung, während der die Anwohner ihre Meinung sagten, dauerte zwei Wochen.", "kategorie": "o qual"},
+     {"typ": "auswahl", "frage": "Os pareceres, sem ___ a câmara não pode decidir, ainda não chegaram.", "optionen": ["os quais", "que", "as quais"], "richtig": 0, "erklaerung": "Nach sem nimmt man o qual; os pareceres → os quais. „sem que“ wäre eine Konjunktion (ohne dass).", "kategorie": "o qual"},
+     {"typ": "auswahl", "frage": "A deliberação ___ me refiro foi publicada ontem.", "optionen": ["na qual", "a qual", "à qual"], "richtig": 2, "erklaerung": "referir-se a + a qual → à qual.", "kategorie": "o qual"},
+     {"typ": "auswahl", "frage": "Falei com a filha do vereador, ___ trabalha na câmara. (Die Tochter arbeitet dort.)", "optionen": ["o qual", "a qual", "que"], "richtig": 1, "erklaerung": "que wäre mehrdeutig (Tochter oder Stadtrat?); a qual zeigt eindeutig auf a filha.", "kategorie": "o qual"},
+     {"typ": "luecke", "satz": "A portaria, pela ___ foram alteradas as regras, foi publicada esta semana.", "loesungen": ["qual"], "de": "Die Verordnung, durch die die Regeln geändert wurden, wurde diese Woche veröffentlicht.", "kategorie": "o qual"},
+     {"typ": "uebersetzen", "de": "Das Projekt, über das wir abgestimmt haben, wurde abgelehnt.", "loesungen": ["O projeto sobre o qual votámos foi rejeitado.", "O projeto, sobre o qual votámos, foi rejeitado.", "O projeto sobre o qual votámos foi chumbado.", "O projeto, sobre o qual votámos, foi chumbado."], "erklaerung": "Perfeito 1. Pers. Plural im pt-PT mit Akzent: votámos. chumbar = (umgangssprachlich/Presse) ablehnen, durchfallen lassen."},
+     {"typ": "satzbau", "de": "Das sind die Behörden, an die ich geschrieben habe.", "loesung": "Estes são os organismos aos quais escrevi."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Sessão sobre o novo regulamento de estacionamento",
+    "situation": "Numa sessão pública, uma técnica da câmara apresenta um projeto de regulamento. O Stefan e uma moradora fazem perguntas.",
+    "zeilen": [
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Boa noite a todos. Vimos apresentar o projeto de regulamento de estacionamento, o qual está em consulta pública até ao fim do mês.", "de": "Guten Abend allerseits. Wir stellen den Entwurf der Parkordnung vor, der bis Monatsende zur öffentlichen Konsultation ausliegt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa noite. Gostava de perceber qual é o critério segundo o qual se definem as zonas pagas.", "de": "Guten Abend. Ich würde gern verstehen, nach welchem Kriterium die gebührenpflichtigen Zonen festgelegt werden."},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Baseámo-nos num estudo de mobilidade, com base no qual identificámos as ruas mais congestionadas.", "de": "Wir haben uns auf eine Mobilitätsstudie gestützt, auf deren Grundlage wir die am stärksten verstopften Straßen ermittelt haben."},
+     {"sprecher": "Moradora", "stimme": "f", "pt": "E os moradores? Vamos ter de pagar para estacionar à porta de casa?", "de": "Und die Anwohner? Müssen wir zahlen, um vor unserer Haustür zu parken?"},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Não. Os moradores terão um dístico, através do qual poderão estacionar gratuitamente na sua zona.", "de": "Nein. Die Anwohner erhalten einen Parkausweis, mit dem sie in ihrer Zone kostenlos parken können."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E quem decide no fim? A câmara sozinha?", "de": "Und wer entscheidet am Ende? Die Câmara allein?"},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "A câmara aprova a proposta, mas a decisão final cabe à assembleia municipal, perante a qual o regulamento será discutido.", "de": "Die Câmara beschließt den Vorschlag, aber die endgültige Entscheidung liegt bei der Gemeindeversammlung, vor der die Verordnung beraten wird."},
+     {"sprecher": "Moradora", "stimme": "f", "pt": "E as nossas sugestões contam para alguma coisa?", "de": "Und zählen unsere Vorschläge überhaupt etwas?"},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Contam, sim. Todas as participações, sem as quais este processo não faria sentido, serão analisadas no relatório final.", "de": "Ja, natürlich. Alle Beiträge, ohne die dieses Verfahren keinen Sinn hätte, werden im Abschlussbericht ausgewertet."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E onde é que posso enviar a minha participação?", "de": "Und wo kann ich meinen Beitrag einreichen?"},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Pelo formulário no site da câmara ou por escrito, nos serviços camarários.", "de": "Über das Formular auf der Website der Câmara oder schriftlich bei der Stadtverwaltung."}
+    ],
+    "fragen": [
+     {"frage": "Até quando está o regulamento em consulta pública?", "optionen": ["Até ao fim do ano.", "Já terminou.", "Até ao fim do mês."], "richtig": 2},
+     {"frage": "Como poderão os moradores estacionar gratuitamente na sua zona?", "optionen": ["Com um dístico.", "Com o cartão de cidadão.", "Não poderão."], "richtig": 0},
+     {"frage": "Quem toma a decisão final sobre o regulamento?", "optionen": ["A técnica da câmara.", "A assembleia municipal.", "O Governo."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português, com o qual / a qual.",
+    "aufgaben": [
+     {"de": "Die Verordnung, nach der man hier nicht parken darf, ist neu.", "loesungen": ["O regulamento segundo o qual não se pode estacionar aqui é novo.", "O regulamento, segundo o qual não se pode estacionar aqui, é novo.", "O regulamento segundo o qual é proibido estacionar aqui é novo.", "O regulamento, segundo o qual é proibido estacionar aqui, é novo."]},
+     {"de": "Die Sitzung, während der abgestimmt wurde, war öffentlich.", "loesungen": ["A reunião durante a qual se votou foi pública.", "A reunião, durante a qual se votou, foi pública.", "A sessão durante a qual se votou foi pública.", "A sessão, durante a qual se votou, foi pública."]},
+     {"de": "Die Gründe, aus denen der Antrag abgelehnt wurde, sind unklar.", "loesungen": ["As razões pelas quais o pedido foi recusado não são claras.", "As razões pelas quais o pedido foi indeferido não são claras.", "Os motivos pelos quais o pedido foi recusado não são claros.", "Os motivos pelos quais o pedido foi indeferido não são claros.", "As razões pelas quais o pedido foi rejeitado não são claras."]},
+     {"de": "Das ist die Behörde, an die ich mich gewandt habe.", "loesungen": ["Este é o organismo ao qual me dirigi.", "Esse é o organismo ao qual me dirigi.", "Este é o organismo a que me dirigi.", "Esta é a entidade à qual me dirigi."]},
+     {"de": "Die Stadträtin, mit der ich gesprochen habe, war sehr freundlich.", "loesungen": ["A vereadora com a qual falei foi muito simpática.", "A vereadora com quem falei foi muito simpática.", "A vereadora com a qual falei foi muito amável.", "A vereadora com quem falei foi muito amável.", "A vereadora com a qual falei era muito simpática."]}
+    ]
+   },
+   "saetze": [
+    {"id": "criterio-segundo-o-qual", "pt": "Qual é o critério segundo o qual se definem as zonas?", "de": "Nach welchem Kriterium werden die Zonen festgelegt?"},
+    {"id": "razoes-pelas-quais", "pt": "Gostava de conhecer as razões pelas quais a proposta foi recusada.", "de": "Ich würde gern die Gründe erfahren, aus denen der Vorschlag abgelehnt wurde."},
+    {"id": "onde-posso-enviar-participacao", "pt": "Onde é que posso enviar a minha participação?", "de": "Wo kann ich meinen Beitrag einreichen?"}
+   ]
+  },
+  {
+   "id": "B2-05-L07",
+   "typ": "neu",
+   "titel": "A linguagem das notícias: Aprovada a lei, …",
+   "vokabeln": ["o-porta-voz", "a-conferencia-de-imprensa", "o-executivo", "o-palacio-de-belem", "o-palacio-de-sao-bento", "a-remodelacao-governamental", "segundo-apurou", "o-hemiciclo", "o-desmentido", "a-fonte-oficial", "reagir"],
+   "grammatik": {
+    "titel": "Construções de particípio na imprensa: <i>Terminada a reunião, …</i>",
+    "erklaerung": [
+     "A imprensa gosta de frases curtas e densas. Em vez de <i>Depois de a reunião ter terminado, …</i> escreve-se: <b>Terminada a reunião, …</b> (particípio + nome).",
+     "O particípio vem <b>antes</b> do nome e <b>concorda</b> com ele: <i>Aprovad<b>a</b> a lei… Aprovad<b>o</b> o orçamento… Contad<b>os</b> os votos… Concluíd<b>as</b> as obras…</i>",
+     "Estas construções exprimem <b>tempo</b> (depois de) ou <b>causa</b>: <i><b>Questionado</b> pelos jornalistas, o ministro recusou comentar.</i> = Quando foi questionado… Também se diz <i><b>Uma vez</b> aprovada a lei, …</i> ou <i><b>Depois de</b> aprovada a lei, …</i>",
+     "Outra marca da imprensa portuguesa: o <b>futuro composto</b> para informações <b>não confirmadas</b>: <i>O ministro <b>terá apresentado</b> a demissão.</i> = Angeblich hat der Minister … Do mesmo modo: <i>segundo apurou o jornal, …; alegadamente</i>."
+    ],
+    "erklaerung_de": [
+     "Pressestil: <b>Partizip + Substantiv</b> statt Nebensatz: <i>Terminada a reunião, …</i> = Nach Ende der Sitzung …",
+     "Das Partizip steht vorn und kongruiert mit dem Substantiv: aprovada a lei, aprovado o orçamento, contados os votos.",
+     "Bedeutung: zeitlich (nachdem) oder kausal (weil/als): <i>Questionado pelos jornalistas …</i> = Von Journalisten gefragt …",
+     "Das <b>Futuro composto</b> (terá feito) kennzeichnet in der Presse unbestätigte Meldungen ≈ „soll … haben“."
+    ],
+    "vergleich": "Deutsch kennt ähnliche Verkürzungen nur begrenzt („Nach Abschluss der Sitzung …“, „Von Journalisten befragt, …“). Das deutsche „soll gesagt haben“ entspricht dem portugiesischen <i>terá dito</i>. Englisch: „Once the law was passed, …“ / „The minister allegedly resigned.“",
+    "beispiele": [
+     {"pt": "Terminada a reunião do Conselho de Ministros, o porta-voz falou aos jornalistas.", "de": "Nach dem Ende der Ministerratssitzung sprach der Sprecher mit den Journalisten."},
+     {"pt": "Questionada sobre uma remodelação governamental, a ministra recusou comentar.", "de": "Auf eine Regierungsumbildung angesprochen, lehnte die Ministerin einen Kommentar ab."},
+     {"pt": "Segundo apurou o jornal, o secretário de Estado terá apresentado a demissão.", "de": "Wie die Zeitung erfuhr, soll der Staatssekretär seinen Rücktritt eingereicht haben."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ a reunião, o porta-voz falou aos jornalistas. (terminar)", "loesungen": ["Terminada", "terminada"], "de": "Nach Ende der Sitzung sprach der Sprecher mit den Journalisten.", "kategorie": "Partizipialkonstruktion"},
+     {"typ": "luecke", "satz": "___ os votos, a junta anunciou os resultados. (contar)", "loesungen": ["Contados", "contados"], "de": "Nach Auszählung der Stimmen gab die Junta die Ergebnisse bekannt.", "erklaerung": "os votos → contados (mask. Plural).", "kategorie": "Partizipialkonstruktion"},
+     {"typ": "auswahl", "frage": "Qual é a versão jornalística de „Depois de a lei ter sido aprovada, o Governo reagiu“?", "optionen": ["Aprovado a lei, o Governo reagiu.", "Aprovada a lei, o Governo reagiu.", "A lei aprovando, o Governo reagiu."], "richtig": 1, "erklaerung": "Partizip kongruiert mit a lei → aprovada.", "kategorie": "Partizipialkonstruktion"},
+     {"typ": "auswahl", "frage": "„Questionado pelos jornalistas, o ministro recusou comentar.“ O que significa „questionado“ aqui?", "optionen": ["Depois de questionar alguém.", "Porque questiona sempre tudo.", "Quando foi questionado."], "richtig": 2, "kategorie": "Partizipialkonstruktion"},
+     {"typ": "auswahl", "frage": "O jornal ainda não confirmou a informação. Qual é a frase adequada?", "optionen": ["O ministro terá dito que se ia demitir.", "O ministro disse que se ia demitir.", "O ministro diz que se demite."], "richtig": 0, "erklaerung": "Futuro composto (terá dito) = unbestätigte Meldung, „soll gesagt haben“.", "kategorie": "Pressesprache"},
+     {"typ": "luecke", "satz": "Umformung: Depois de ter sido anunciada a remodelação, a oposição reagiu. → ___ a remodelação, a oposição reagiu.", "loesungen": ["Anunciada", "anunciada"], "de": "Nach Bekanntgabe der Umbildung reagierte die Opposition.", "kategorie": "Umformung"},
+     {"typ": "uebersetzen", "de": "Nach Ende der Pressekonferenz verließ die Ministerin den Saal.", "loesungen": ["Terminada a conferência de imprensa, a ministra saiu da sala.", "Concluída a conferência de imprensa, a ministra saiu da sala.", "Terminada a conferência de imprensa, a ministra deixou a sala.", "Concluída a conferência de imprensa, a ministra deixou a sala.", "Depois da conferência de imprensa, a ministra saiu da sala."]},
+     {"typ": "diktat", "pt": "Segundo fonte oficial, o executivo reúne-se amanhã de manhã.", "de": "Laut offizieller Quelle tritt die Regierung morgen früh zusammen."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Noticiário das oito",
+    "situation": "Um noticiário de rádio (texto fictício, sem pessoas reais). A pivô e um repórter apresentam as notícias políticas.",
+    "zeilen": [
+     {"sprecher": "Pivô", "stimme": "f", "pt": "São oito horas. Terminada a reunião do Conselho de Ministros, o porta-voz do Governo deu uma conferência de imprensa e anunciou novas medidas para a habitação.", "de": "Es ist acht Uhr. Nach Ende der Ministerratssitzung gab der Regierungssprecher eine Pressekonferenz und kündigte neue Maßnahmen für das Wohnungswesen an."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Questionado sobre uma eventual remodelação governamental, o porta-voz recusou comentar. Temos em linha o nosso repórter.", "de": "Auf eine mögliche Regierungsumbildung angesprochen, lehnte der Sprecher einen Kommentar ab. Wir haben unseren Reporter in der Leitung."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Bom dia. Segundo apurou a nossa redação, um dos ministros terá apresentado a demissão ao primeiro-ministro na semana passada.", "de": "Guten Morgen. Wie unsere Redaktion erfuhr, soll einer der Minister letzte Woche beim Premierminister seinen Rücktritt eingereicht haben."},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Contactado pela nossa rádio, o gabinete do ministro emitiu um desmentido, mas sem dar mais pormenores.", "de": "Von unserem Sender kontaktiert, veröffentlichte das Büro des Ministers ein Dementi, allerdings ohne weitere Einzelheiten."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "E como reagiu a oposição?", "de": "Und wie hat die Opposition reagiert?"},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Reagiu de imediato. Ouvida em São Bento, a líder parlamentar do maior partido da oposição exigiu que o executivo esclarecesse a situação.", "de": "Sofort. In São Bento befragt, forderte die Fraktionschefin der größten Oppositionspartei, dass die Regierung die Lage aufklärt."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "E Belém já se pronunciou?", "de": "Und hat sich Belém schon geäußert?"},
+     {"sprecher": "Repórter", "stimme": "m", "pt": "Segundo fonte oficial da Presidência, o Presidente da República acompanha a situação, mas não fará comentários antes de receber o primeiro-ministro.", "de": "Laut einer offiziellen Quelle des Präsidialamts verfolgt der Präsident die Lage, wird sich aber vor dem Empfang des Premierministers nicht äußern."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Obrigada. Entretanto, no hemiciclo, aprovada a ordem de trabalhos, começou o debate sobre o orçamento. Voltamos ao assunto daqui a meia hora.", "de": "Danke. Im Plenarsaal hat inzwischen, nach Annahme der Tagesordnung, die Haushaltsdebatte begonnen. Wir kommen in einer halben Stunde darauf zurück."}
+    ],
+    "fragen": [
+     {"frage": "Quem deu a conferência de imprensa depois do Conselho de Ministros?", "optionen": ["O primeiro-ministro.", "O porta-voz do Governo.", "O Presidente da República."], "richtig": 1},
+     {"frage": "Porque é que o repórter diz „terá apresentado a demissão“?", "optionen": ["Porque a demissão vai acontecer no futuro.", "Porque o ministro o anunciou em direto.", "Porque é uma informação não confirmada."], "richtig": 2},
+     {"frage": "O que fez o gabinete do ministro?", "optionen": ["Emitiu um desmentido.", "Confirmou a demissão.", "Não atendeu o telefone."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita, com entoação de jornalista.",
+    "saetze": [
+     {"pt": "Terminada a reunião, o porta-voz falou aos jornalistas.", "de": "Nach Ende der Sitzung sprach der Sprecher mit den Journalisten."},
+     {"pt": "Questionado sobre o assunto, o ministro recusou comentar.", "de": "Auf das Thema angesprochen, lehnte der Minister einen Kommentar ab."},
+     {"pt": "Segundo apurou a nossa redação, o ministro terá apresentado a demissão.", "de": "Wie unsere Redaktion erfuhr, soll der Minister zurückgetreten sein."},
+     {"pt": "O gabinete emitiu um desmentido.", "de": "Das Büro veröffentlichte ein Dementi."},
+     {"pt": "Belém ainda não se pronunciou.", "de": "Belém hat sich noch nicht geäußert."}
+    ]
+   },
+   "saetze": [
+    {"id": "recusou-comentar", "pt": "Questionado sobre o assunto, recusou comentar.", "de": "Auf das Thema angesprochen, lehnte er einen Kommentar ab."},
+    {"id": "tera-apresentado-a-demissao", "pt": "O ministro terá apresentado a demissão.", "de": "Der Minister soll seinen Rücktritt eingereicht haben."},
+    {"id": "segundo-fonte-oficial", "pt": "Segundo fonte oficial, a decisão ainda não foi tomada.", "de": "Laut offizieller Quelle ist die Entscheidung noch nicht gefallen."}
+   ]
+  },
+  {
+   "id": "B2-05-L08",
+   "typ": "neu",
+   "titel": "Como nasce uma lei: Tendo sido aprovada, …",
+   "vokabeln": ["a-proposta-de-lei", "o-projeto-de-lei", "a-votacao-final-global", "vetar", "o-veto", "promulgar", "o-tribunal-constitucional", "a-bancada-parlamentar", "o-diario-da-republica", "a-comissao-parlamentar", "a-fiscalizacao-preventiva", "a-mocao-de-censura"],
+   "grammatik": {
+    "titel": "O gerúndio composto na linguagem formal: <i>Tendo o Presidente vetado o diploma, …</i>",
+    "erklaerung": [
+     "No português europeu <b>não</b> se usa <i>estar</i> + gerúndio (diz-se <i>estar a votar</i>). Mas o <b>gerúndio</b> é muito usado em <b>orações adverbiais</b> da língua escrita: <i><b>Não tendo</b> maioria absoluta, o Governo negociou com a oposição.</i>",
+     "O <b>gerúndio composto</b> (<b>tendo</b> + particípio) indica uma ação <b>anterior</b>, muitas vezes com valor de <b>causa</b>: <i><b>Tendo sido aprovada</b> na generalidade, a proposta seguiu para a comissão parlamentar.</i>",
+     "O sujeito pode vir <b>depois</b> do gerúndio: <i><b>Tendo o Presidente vetado</b> o diploma, a lei voltou à Assembleia.</i>",
+     "Pronomes: ligam-se ao <b>auxiliar</b> com hífen: <i><b>tendo-o</b> analisado, tendo-<b>se</b> abstido</i>. Depois de <b>não</b>, vêm antes: <i>não o tendo promulgado</i>.",
+     "Na língua corrente, prefere-se muitas vezes uma conjunção: <i>Como o Presidente vetou o diploma, …</i> / <i>Depois de ter sido aprovada, …</i>"
+    ],
+    "erklaerung_de": [
+     "estar + Gerundium ist in pt-PT tabu, aber in schriftsprachlichen Adverbialsätzen ist das Gerundium üblich: <i>Não tendo maioria, …</i> = Da sie keine Mehrheit hatte, …",
+     "<b>tendo + Partizip</b> = Vorzeitigkeit, oft mit kausalem Sinn (nachdem / da): <i>Tendo sido aprovada, …</i>",
+     "Das Subjekt kann nach dem Gerundium stehen: <i>Tendo o Presidente vetado …</i>",
+     "Pronomen hängen am Hilfsverb: tendo-o analisado; nach não davor: não o tendo promulgado.",
+     "Im Alltag lieber: Como … / Depois de ter …"
+    ],
+    "vergleich": "Deutsch löst das mit Nebensätzen: „Da der Präsident ein Veto eingelegt hatte, …“. Englisch kennt die gleiche Konstruktion: „Having been approved, the bill went to committee.“ = <i>Tendo sido aprovada, a proposta seguiu para a comissão.</i>",
+    "beispiele": [
+     {"pt": "Tendo sido aprovada na generalidade, a proposta de lei seguiu para a comissão parlamentar.", "de": "Nachdem der Gesetzentwurf in erster Lesung angenommen worden war, ging er an den Ausschuss."},
+     {"pt": "Tendo o Presidente vetado o diploma, a lei voltou à Assembleia da República.", "de": "Da der Präsident ein Veto eingelegt hatte, ging das Gesetz an das Parlament zurück."},
+     {"pt": "Não tendo maioria absoluta, o Governo teve de negociar com a oposição.", "de": "Da die Regierung keine absolute Mehrheit hatte, musste sie mit der Opposition verhandeln."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "___ aprovada na generalidade, a proposta seguiu para a comissão parlamentar. (gerúndio composto passivo)", "loesungen": ["Tendo sido", "tendo sido"], "de": "Nachdem er in erster Lesung angenommen worden war, ging der Entwurf an den Ausschuss.", "kategorie": "Gerundium"},
+     {"typ": "luecke", "satz": "___ o Presidente vetado o diploma, a lei voltou à Assembleia.", "loesungen": ["Tendo", "tendo"], "de": "Da der Präsident ein Veto eingelegt hatte, ging das Gesetz zurück an das Parlament.", "kategorie": "Gerundium"},
+     {"typ": "auswahl", "frage": "„Da die Regierung keine absolute Mehrheit hatte, verhandelte sie mit der Opposition.“", "optionen": ["Não tendo maioria absoluta, o Governo negociou com a oposição.", "Não estando a ter maioria absoluta, o Governo negociou com a oposição.", "Tendo não maioria absoluta, o Governo negociou com a oposição."], "richtig": 0, "kategorie": "Gerundium"},
+     {"typ": "auswahl", "frage": "O Presidente recebeu o diploma e, ___, devolveu-o à Assembleia.", "optionen": ["o tendo analisado", "tendo-o analisado", "tendo analisado-o"], "richtig": 1, "erklaerung": "Das Pronomen hängt am Hilfsverb: tendo-o analisado.", "kategorie": "Pronomenstellung"},
+     {"typ": "luecke", "satz": "Umformung: Como o Tribunal Constitucional considerou a norma inconstitucional, o Presidente vetou a lei. → ___ o Tribunal Constitucional considerado a norma inconstitucional, o Presidente vetou a lei.", "loesungen": ["Tendo", "tendo"], "de": "Da das Verfassungsgericht die Norm für verfassungswidrig erklärt hatte, legte der Präsident ein Veto ein.", "kategorie": "Umformung"},
+     {"typ": "auswahl", "frage": "Quem apresenta uma proposta de lei (e não um projeto de lei)?", "optionen": ["Os deputados.", "O Governo.", "O Tribunal Constitucional."], "richtig": 1, "erklaerung": "proposta de lei = Regierung; projeto de lei = Abgeordnete/Fraktionen.", "kategorie": "Wortschatz"},
+     {"typ": "uebersetzen", "de": "Nachdem das Gesetz ausgefertigt worden war, wurde es im Gesetzblatt veröffentlicht.", "loesungen": ["Tendo sido promulgada, a lei foi publicada em Diário da República.", "Depois de promulgada, a lei foi publicada em Diário da República.", "Depois de ter sido promulgada, a lei foi publicada em Diário da República.", "Tendo sido promulgada, a lei foi publicada no Diário da República.", "Depois de promulgada, a lei foi publicada no Diário da República.", "Promulgada a lei, foi publicada em Diário da República."]},
+     {"typ": "satzbau", "de": "Der Präsident kann gegen das Gesetz ein Veto einlegen.", "loesung": "O Presidente pode vetar a lei."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Como se faz uma lei?",
+    "situation": "O Stefan está a ver o Canal Parlamento. A Rita explica-lhe o processo legislativo.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Estás a ver o Canal Parlamento? Que paciência!", "de": "Du schaust den Parlamentskanal? Hast du eine Geduld!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estou a tentar perceber como se faz uma lei. Acabaram de votar uma proposta de lei.", "de": "Ich versuche zu verstehen, wie ein Gesetz entsteht. Sie haben gerade über einen Gesetzentwurf abgestimmt."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Isso foi a votação na generalidade. Tendo sido aprovada, a proposta baixa agora à comissão parlamentar, onde é discutida artigo a artigo.", "de": "Das war die Abstimmung über die Grundzüge. Da er angenommen wurde, geht der Entwurf jetzt in den Ausschuss, wo er Artikel für Artikel beraten wird."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É a tal votação na especialidade?", "de": "Ist das diese Abstimmung über die Einzelheiten?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Isso. No fim, volta ao plenário para a votação final global.", "de": "Genau. Am Ende geht er zurück ins Plenum zur Schlussabstimmung."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E depois entra logo em vigor?", "de": "Und dann tritt er gleich in Kraft?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Não. O diploma vai para Belém. O Presidente pode promulgá-lo, vetá-lo ou pedir a fiscalização preventiva ao Tribunal Constitucional.", "de": "Nein. Das Gesetz geht nach Belém. Der Präsident kann es ausfertigen, ein Veto einlegen oder beim Verfassungsgericht eine vorbeugende Normenkontrolle beantragen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E se o Presidente vetar a lei, acabou?", "de": "Und wenn der Präsident ein Veto einlegt, ist es vorbei?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Não necessariamente. Depois de um veto político, a Assembleia pode, em regra, confirmar a lei por maioria absoluta e, nesse caso, o Presidente tem de a promulgar.", "de": "Nicht unbedingt. Nach einem politischen Veto kann das Parlament das Gesetz in der Regel mit absoluter Mehrheit bestätigen, und dann muss der Präsident es ausfertigen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E por fim é publicada no Diário da República.", "de": "Und schließlich wird es im Gesetzblatt veröffentlicht."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Exatamente. Só depois de publicada é que pode entrar em vigor.", "de": "Genau. Erst nach der Veröffentlichung kann es in Kraft treten."}
+    ],
+    "fragen": [
+     {"frage": "Onde é discutida a proposta artigo a artigo?", "optionen": ["No plenário.", "Na comissão parlamentar.", "Em Belém."], "richtig": 1},
+     {"frage": "O que pode fazer o Presidente com o diploma?", "optionen": ["Só pode promulgá-lo.", "Pode alterar os artigos.", "Promulgá-lo, vetá-lo ou pedir a fiscalização preventiva."], "richtig": 2},
+     {"frage": "O que pode acontecer depois de um veto político?", "optionen": ["A Assembleia pode confirmar a lei por maioria absoluta.", "A lei fica anulada para sempre.", "O Governo cai automaticamente."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "O Pedro comenta consigo uma notícia sobre um veto do Presidente (tu).",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Ouviste? O Presidente vetou a lei de que falávamos ontem.", "de": "Hast du gehört? Der Präsident hat ein Veto gegen das Gesetz eingelegt, über das wir gestern gesprochen haben."},
+     {"ich": true, "aufgabe": "Sag: Ja, habe ich gehört. Hat er es an das Verfassungsgericht geschickt?", "loesungen": ["Ouvi, sim. Enviou-a para o Tribunal Constitucional?", "Ouvi, sim. Mandou-a para o Tribunal Constitucional?", "Ouvi. Enviou-a para o Tribunal Constitucional?", "Sim, ouvi. Enviou-a para o Tribunal Constitucional?", "Ouvi, sim. Enviou-a ao Tribunal Constitucional?"]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Não, foi um veto político. Agora a lei volta ao Parlamento.", "de": "Nein, es war ein politisches Veto. Jetzt geht das Gesetz zurück ans Parlament."},
+     {"ich": true, "aufgabe": "Sag: Und wenn das Parlament es mit absoluter Mehrheit bestätigt, muss der Präsident es ausfertigen.", "loesungen": ["E se o Parlamento a confirmar por maioria absoluta, o Presidente tem de a promulgar.", "E se o Parlamento a confirmar por maioria absoluta, o Presidente tem de promulgá-la.", "E se a Assembleia a confirmar por maioria absoluta, o Presidente tem de a promulgar.", "E se a Assembleia a confirmar por maioria absoluta, o Presidente tem de promulgá-la.", "E se o Parlamento a confirmar por maioria absoluta, o Presidente tem que a promulgar."]},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Pois. Mas o Governo não tem maioria absoluta…", "de": "Eben. Aber die Regierung hat keine absolute Mehrheit …"},
+     {"ich": true, "aufgabe": "Sag: Dann wird sie mit der Opposition verhandeln müssen.", "loesungen": ["Então vai ter de negociar com a oposição.", "Então terá de negociar com a oposição.", "Então vai ter que negociar com a oposição.", "Então tem de negociar com a oposição.", "Então terá que negociar com a oposição."]}
+    ]
+   },
+   "saetze": [
+    {"id": "tendo-sido-aprovada", "pt": "Tendo sido aprovada, a proposta seguiu para a comissão.", "de": "Nachdem der Entwurf angenommen worden war, ging er an den Ausschuss."},
+    {"id": "o-presidente-vetou-o-diploma", "pt": "O Presidente vetou o diploma e devolveu-o à Assembleia.", "de": "Der Präsident legte ein Veto gegen das Gesetz ein und schickte es an das Parlament zurück."},
+    {"id": "so-depois-de-publicada", "pt": "Só depois de publicada é que a lei entra em vigor.", "de": "Erst nach der Veröffentlichung tritt das Gesetz in Kraft."}
+   ]
+  },
+  {
+   "id": "B2-05-L09",
+   "typ": "neu",
+   "titel": "Participar: orçamento participativo e petições",
+   "vokabeln": ["o-orcamento-participativo", "a-cidadania", "civico", "subscrever", "o-subscritor", "o-abaixo-assinado", "a-associacao-de-moradores", "a-iniciativa-legislativa-de-cidadaos", "o-referendo", "a-sessao-de-esclarecimento", "o-associativismo", "o-proponente"],
+   "grammatik": {
+    "titel": "Concordância dos tempos (4): <i>para que, a fim de que, desde que, sem que</i>",
+    "erklaerung": [
+     "Algumas conjunções exigem <b>sempre</b> o conjuntivo: <b>para que, a fim de que</b> (finalidade), <b>desde que, a não ser que</b> (condição), <b>sem que</b>, <b>embora</b>. O <b>tempo</b> do conjuntivo depende do verbo da oração principal.",
+     "Oração principal no <b>presente, futuro ou imperativo</b> → <b>presente do conjuntivo</b>: <i>Assino a petição <b>para que</b> o centro de saúde <b>reabra</b>.</i>",
+     "Oração principal no <b>passado</b> ou no <b>condicional</b> → <b>imperfeito do conjuntivo</b>: <i>Fizemos um abaixo-assinado <b>para que</b> a junta <b>pusesse</b> uma passadeira.</i> / <i>Apoiaríamos o projeto <b>desde que</b> não <b>custasse</b> demasiado.</i>",
+     "Se o sujeito das duas orações é o <b>mesmo</b>, usa-se <b>para / sem / a fim de + infinitivo</b>: <i>Fui à sessão <b>para perceber</b> as regras.</i> (e não <i>para que eu percebesse</i>).",
+     "Na linguagem administrativa é frequente <b>a fim de que</b>: <i>As propostas devem ser entregues até ao fim de abril, <b>a fim de que possam</b> ser analisadas.</i>"
+    ],
+    "erklaerung_de": [
+     "para que / a fim de que (damit), desde que (sofern), a não ser que (es sei denn), sem que (ohne dass), embora (obwohl) → immer Konjunktiv.",
+     "Hauptsatz im Präsens/Futur/Imperativ → Presente do conjuntivo: <i>Assino para que reabra.</i>",
+     "Hauptsatz in der Vergangenheit/im Konditional → Imperfeito do conjuntivo: <i>Assinei para que reabrisse.</i>",
+     "Gleiches Subjekt → para / sem / a fim de + Infinitiv: <i>Fui à sessão para perceber.</i>"
+    ],
+    "vergleich": "Deutsch „damit“ steht mit dem Indikativ und übernimmt die Zeit kaum: „Wir haben unterschrieben, damit die Junta einen Zebrastreifen anlegt.“ Portugiesisch verlangt den Konjunktiv und richtet die Zeit nach dem Hauptsatz: <i>Assinámos para que a junta <b>pusesse</b> uma passadeira.</i> Englisch: „We signed so that the council would put in a crossing.“",
+    "beispiele": [
+     {"pt": "Assinei a petição para que o centro de saúde não fechasse.", "de": "Ich habe die Petition unterschrieben, damit das Gesundheitszentrum nicht schließt."},
+     {"pt": "A junta organiza uma sessão de esclarecimento para que todos percebam as regras do orçamento participativo.", "de": "Die Junta veranstaltet eine Informationsveranstaltung, damit alle die Regeln des Bürgerhaushalts verstehen."},
+     {"pt": "Apoiaríamos o projeto desde que a associação de moradores fosse ouvida.", "de": "Wir würden das Projekt unterstützen, sofern der Anwohnerverein angehört würde."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Subscrevemos o abaixo-assinado para que a junta ___ uma passadeira. (pôr)", "loesungen": ["pusesse"], "de": "Wir haben die Unterschriftenliste unterschrieben, damit die Junta einen Zebrastreifen anlegt.", "erklaerung": "subscrevemos (Vergangenheit) → Imperfeito do conjuntivo: pusesse.", "kategorie": "Zeitenfolge"},
+     {"typ": "luecke", "satz": "A associação de moradores reúne-se todos os meses para que os vizinhos ___ propor ideias. (poder)", "loesungen": ["possam"], "de": "Der Anwohnerverein trifft sich jeden Monat, damit die Nachbarn Ideen vorschlagen können.", "kategorie": "Zeitenfolge"},
+     {"typ": "auswahl", "frage": "Os proponentes foram avisados a fim de que ___ as propostas a tempo.", "optionen": ["entreguem", "entregassem", "entregavam"], "richtig": 1, "erklaerung": "foram avisados (Vergangenheit) → Imperfeito do conjuntivo.", "kategorie": "Zeitenfolge"},
+     {"typ": "auswahl", "frage": "Fui à sessão de esclarecimento ___ as regras.", "optionen": ["para que eu percebesse", "para perceber", "para que percebo"], "richtig": 1, "erklaerung": "Gleiches Subjekt (eu – eu) → para + Infinitiv.", "kategorie": "para que / para"},
+     {"typ": "luecke", "satz": "Umformung: A junta aceita o projeto desde que custe menos de 50 mil euros. → A junta aceitaria o projeto desde que ___ menos de 50 mil euros.", "loesungen": ["custasse"], "de": "Die Junta würde das Projekt annehmen, sofern es weniger als 50.000 Euro kostet.", "kategorie": "Umformung"},
+     {"typ": "auswahl", "frage": "Na nossa freguesia, nada se decide sem que os moradores ___ ouvidos.", "optionen": ["sejam", "fossem", "são"], "richtig": 0, "erklaerung": "decide-se (Präsens) + sem que → Presente do conjuntivo: sejam.", "kategorie": "Zeitenfolge"},
+     {"typ": "uebersetzen", "de": "Wir haben Unterschriften gesammelt, damit die Câmara den Spielplatz repariert.", "loesungen": ["Fizemos um abaixo-assinado para que a câmara reparasse o parque infantil.", "Recolhemos assinaturas para que a câmara reparasse o parque infantil.", "Fizemos um abaixo-assinado para que a câmara arranjasse o parque infantil.", "Recolhemos assinaturas para que a câmara arranjasse o parque infantil.", "Recolhemos assinaturas para que a câmara reparasse o parque."], "erklaerung": "Hauptsatz in der Vergangenheit → reparasse, auch wenn das Deutsche „repariert“ sagt.", "kategorie": "Zeitenfolge"},
+     {"typ": "satzbau", "de": "Sich an der Freguesia zu beteiligen, ist eine Bürgerpflicht.", "loesung": "Participar na vida da freguesia é um dever cívico."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Sessão de esclarecimento na junta",
+    "situation": "A junta de freguesia apresenta o seu orçamento participativo (regras fictícias). O Stefan e a Ana fazem perguntas.",
+    "zeilen": [
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Boa noite e obrigada por terem vindo. Esta sessão de esclarecimento serve para que todos percebam como funciona o nosso orçamento participativo.", "de": "Guten Abend und danke, dass Sie gekommen sind. Diese Informationsveranstaltung soll allen erklären, wie unser Bürgerhaushalt funktioniert."},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Qualquer residente pode apresentar uma proposta. Os projetos mais votados são depois incluídos no orçamento do ano seguinte.", "de": "Jeder Einwohner kann einen Vorschlag einreichen. Die Projekte mit den meisten Stimmen werden dann in den Haushalt des folgenden Jahres aufgenommen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa noite. Nós, na associação de moradores, gostávamos de propor a recuperação do parque infantil. Há algum limite de valor?", "de": "Guten Abend. Wir vom Anwohnerverein würden gern die Sanierung des Spielplatzes vorschlagen. Gibt es eine Obergrenze?"},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Há. Cada projeto pode custar até 50 mil euros, desde que seja de interesse público e fique num terreno da freguesia.", "de": "Ja. Jedes Projekt darf bis zu 50.000 Euro kosten, sofern es im öffentlichen Interesse liegt und auf einem Grundstück der Freguesia liegt."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E quem pode votar? Só quem tem nacionalidade portuguesa?", "de": "Und wer darf abstimmen? Nur wer die portugiesische Staatsangehörigkeit hat?"},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Não. Podem votar todos os residentes maiores de dezasseis anos, online ou aqui na junta, para que ninguém fique de fora.", "de": "Nein. Abstimmen dürfen alle Einwohner über sechzehn, online oder hier in der Junta, damit niemand ausgeschlossen ist."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o proponente precisa de subscritores, como num abaixo-assinado?", "de": "Und braucht der Einreicher Unterstützer, wie bei einer Unterschriftenliste?"},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "Não é preciso. Mas convém divulgar a proposta, para que os vizinhos votem nela.", "de": "Das ist nicht nötig. Aber es empfiehlt sich, den Vorschlag bekannt zu machen, damit die Nachbarn dafür stimmen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "No ano passado assinámos uma petição para que não fechassem a extensão de saúde. Isso é diferente, não é?", "de": "Letztes Jahr haben wir eine Petition unterschrieben, damit die Gesundheitsstation nicht geschlossen wird. Das ist etwas anderes, oder?"},
+     {"sprecher": "Técnica", "stimme": "f", "pt": "É diferente. A petição é um pedido dirigido ao poder; aqui são os cidadãos que decidem diretamente como se gasta uma parte do dinheiro. A nível nacional existem ainda o referendo e a iniciativa legislativa de cidadãos.", "de": "Ja. Eine Petition ist eine Bitte an die Machthaber; hier entscheiden die Bürger direkt, wie ein Teil des Geldes ausgegeben wird. Auf nationaler Ebene gibt es außerdem die Volksabstimmung und die Bürger-Gesetzesinitiative."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. Então vamos preparar a proposta a tempo. Afinal, isto também é cidadania!", "de": "Prima. Dann bereiten wir den Vorschlag rechtzeitig vor. Das ist schließlich auch bürgerschaftliches Engagement!"}
+    ],
+    "fragen": [
+     {"frage": "Para que serve a sessão de esclarecimento?", "optionen": ["Para recolher assinaturas.", "Para que todos percebam como funciona o orçamento participativo.", "Para votar os projetos."], "richtig": 1},
+     {"frage": "Quanto pode custar, no máximo, cada projeto?", "optionen": ["Até 50 mil euros.", "Até 16 mil euros.", "Não há limite."], "richtig": 0},
+     {"frage": "Qual é a diferença entre a petição e o orçamento participativo, segundo a técnica?", "optionen": ["Não há nenhuma diferença.", "A petição só se pode fazer online.", "No orçamento participativo, os cidadãos decidem diretamente."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português, com conjuntivo depois de para que / desde que / sem que.",
+    "aufgaben": [
+     {"de": "Ich habe die Petition unterschrieben, damit das Gesundheitszentrum nicht schließt.", "loesungen": ["Assinei a petição para que o centro de saúde não fechasse.", "Subscrevi a petição para que o centro de saúde não fechasse.", "Assinei a petição para que o centro de saúde não encerrasse.", "Subscrevi a petição para que o centro de saúde não encerrasse."]},
+     {"de": "Die Junta veranstaltet eine Informationsveranstaltung, damit alle die Regeln verstehen.", "loesungen": ["A junta organiza uma sessão de esclarecimento para que todos percebam as regras.", "A junta organiza uma sessão de esclarecimento para que todos entendam as regras.", "A junta organiza uma sessão de esclarecimento para que todos compreendam as regras.", "A junta vai organizar uma sessão de esclarecimento para que todos percebam as regras."]},
+     {"de": "Wir würden das Projekt unterstützen, sofern es nicht zu viel kostet.", "loesungen": ["Apoiaríamos o projeto desde que não custasse demasiado.", "Apoiaríamos o projeto desde que não custasse muito.", "Nós apoiaríamos o projeto desde que não custasse demasiado.", "Apoiávamos o projeto desde que não custasse demasiado.", "Apoiávamos o projeto desde que não custasse muito."]},
+     {"de": "Nichts wurde beschlossen, ohne dass die Anwohner angehört wurden.", "loesungen": ["Nada foi decidido sem que os moradores fossem ouvidos.", "Não se decidiu nada sem que os moradores fossem ouvidos.", "Nada foi decidido sem que os moradores fossem consultados.", "Não se decidiu nada sem que os moradores fossem consultados."]},
+     {"de": "Der Anwohnerverein trifft sich jeden Monat.", "loesungen": ["A associação de moradores reúne-se todos os meses.", "A associação de moradores reúne-se mensalmente.", "A associação de moradores reúne todos os meses."]}
+    ]
+   },
+   "saetze": [
+    {"id": "assinei-para-que-nao-fechasse", "pt": "Assinei a petição para que o centro de saúde não fechasse.", "de": "Ich habe die Petition unterschrieben, damit das Gesundheitszentrum nicht schließt."},
+    {"id": "desde-que-seja-de-interesse-publico", "pt": "Pode ser qualquer projeto, desde que seja de interesse público.", "de": "Es kann jedes Projekt sein, sofern es im öffentlichen Interesse liegt."},
+    {"id": "isto-tambem-e-cidadania", "pt": "Participar na vida da freguesia também é cidadania.", "de": "Sich am Leben der Freguesia zu beteiligen ist auch bürgerschaftliches Engagement."}
+   ]
+  },
+  {
+   "id": "B2-05-L10",
+   "typ": "neu",
+   "titel": "Na assembleia municipal: peço a palavra",
+   "vokabeln": ["pedir-a-palavra", "intervir", "a-intervencao", "a-mocao", "a-maioria-relativa", "a-coligacao", "a-maioria-absoluta", "o-periodo-antes-da-ordem-do-dia", "a-declaracao-de-voto", "vossa-excelencia", "a-sessao-extraordinaria", "o-pedido-de-esclarecimento"],
+   "grammatik": {
+    "titel": "Perguntas indiretas e tratamento formal: <i>Gostaria de saber se V. Ex.ª…</i>",
+    "erklaerung": [
+     "Numa sessão formal, as perguntas fazem-se muitas vezes de forma <b>indireta</b>, o que soa mais cortês: <i>Gostaria de saber <b>se</b> a moção será votada hoje.</i>",
+     "Perguntas de <b>sim/não</b> → <b>se</b>: „<i>A obra já começou?</i>“ → <i>Pergunto <b>se</b> a obra já começou.</i> Perguntas com <b>palavra interrogativa</b> → mantém-se a palavra (<i>quando, quanto, onde, porque, quem, qual</i>): <i>Gostaria de saber <b>quanto custa</b> a obra.</i>",
+     "Na pergunta indireta a ordem é a da frase afirmativa e, no registo formal, evita-se <i>é que</i>: <i>Gostaria de saber quando começam as obras</i> (mais coloquial: <i>quando é que começam</i>). No fim, ponto final e não ponto de interrogação.",
+     "Se o verbo introdutor está no <b>passado</b> (<i>perguntou, quis saber</i>), aplica-se a concordância dos tempos: „<i>A obra <b>está</b> concluída?</i>“ → <i>Perguntou se a obra <b>estava</b> concluída.</i> / „<i>Quando <b>vão</b> votar?</i>“ → <i>Quis saber quando <b>iriam</b> votar.</i>",
+     "Tratamento: <b>Vossa Excelência</b> (V. Ex.ª), <i>o senhor presidente, a senhora vereadora, o senhor deputado municipal</i> levam o verbo na <b>3.ª pessoa do singular</b> e o possessivo <b>seu/sua</b>: <i>V. Ex.ª <b>disse</b> na <b>sua</b> intervenção… / A senhora vereadora <b>pode</b> esclarecer…?</i>"
+    ],
+    "erklaerung_de": [
+     "Indirekte Fragen klingen höflicher: <i>Gostaria de saber se …</i> = Ich würde gern wissen, ob …",
+     "Ja/Nein-Frage → se (ob); W-Frage → Fragewort bleibt (quando, quanto, onde …).",
+     "Normale Wortstellung, im formellen Register ohne „é que“, am Ende ein Punkt.",
+     "Einleitendes Verb in der Vergangenheit → Zeitverschiebung wie in der indirekten Rede: está → estava, vão votar → iriam votar.",
+     "Vossa Excelência / o senhor presidente / a senhora vereadora + Verb in der 3. Person Singular, Possessiv seu/sua."
+    ],
+    "vergleich": "Deutsch: „Ich möchte wissen, ob …“ – se entspricht „ob“. In der Vergangenheit verwendet das Deutsche oft den Konjunktiv („Sie fragte, ob die Arbeiten abgeschlossen seien“), das Portugiesische den Indikativ mit Zeitverschiebung: <i>Perguntou se as obras estavam concluídas.</i> Englisch: „She asked whether the works were finished.“ – „Your Excellency“ wird im Englischen viel seltener verwendet als <i>V. Ex.ª</i> in Portugal.",
+    "beispiele": [
+     {"pt": "Senhor presidente, gostaria de saber se a moção será votada ainda hoje.", "de": "Herr Vorsitzender, ich würde gern wissen, ob der Antrag heute noch abgestimmt wird."},
+     {"pt": "O munícipe perguntou à vereadora quando começariam as obras.", "de": "Der Bürger fragte die Stadträtin, wann die Bauarbeiten beginnen würden."},
+     {"pt": "Vossa Excelência ainda não respondeu à pergunta que lhe fiz.", "de": "Sie haben die Frage, die ich Ihnen gestellt habe, noch nicht beantwortet."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "„A moção já foi votada?“ → O deputado municipal perguntou ___ a moção já tinha sido votada.", "loesungen": ["se"], "de": "Der Gemeindeabgeordnete fragte, ob der Antrag schon abgestimmt worden sei.", "kategorie": "indirekte Frage"},
+     {"typ": "luecke", "satz": "„Quando começam as obras?“ → A moradora perguntou quando ___ as obras. (começar)", "loesungen": ["começavam", "começariam", "iam começar", "iriam começar"], "de": "Die Anwohnerin fragte, wann die Bauarbeiten beginnen.", "kategorie": "Zeitenfolge"},
+     {"typ": "auswahl", "frage": "Qual é a pergunta indireta adequada num registo formal?", "optionen": ["Gostaria de saber quanto custa a obra.", "Gostaria de saber quanto é que custa a obra?", "Gostaria de saber se quanto custa a obra."], "richtig": 0, "erklaerung": "Fragewort bleibt, kein „é que“, kein Fragezeichen, kein zusätzliches se.", "kategorie": "indirekte Frage"},
+     {"typ": "auswahl", "frage": "Senhora vereadora, ___ esclarecer este ponto?", "optionen": ["podes", "pode", "podeis"], "richtig": 1, "erklaerung": "a senhora vereadora → 3. Person Singular.", "kategorie": "Anrede"},
+     {"typ": "auswahl", "frage": "„Vão aprovar a proposta por unanimidade?“ → O jornalista quis saber se ___ a proposta por unanimidade.", "optionen": ["vão aprovar", "iriam aprovar", "aprovem"], "richtig": 1, "erklaerung": "quis saber (Vergangenheit) → ir + Infinitiv wird zu iriam/iam + Infinitiv.", "kategorie": "Zeitenfolge"},
+     {"typ": "luecke", "satz": "Umformung: „V. Ex.ª apoia a coligação?“ → A jornalista perguntou ao presidente se ___ a coligação.", "loesungen": ["apoiava"], "de": "Die Journalistin fragte den Präsidenten, ob er die Koalition unterstütze.", "kategorie": "Umformung"},
+     {"typ": "uebersetzen", "de": "Herr Vorsitzender, ich bitte ums Wort.", "loesungen": ["Senhor presidente, peço a palavra.", "Senhor Presidente, peço a palavra."]},
+     {"typ": "uebersetzen", "de": "Die Stadträtin fragte, ob der Antrag einstimmig angenommen worden sei.", "loesungen": ["A vereadora perguntou se a moção tinha sido aprovada por unanimidade.", "A vereadora quis saber se a moção tinha sido aprovada por unanimidade.", "A vereadora perguntou se a moção fora aprovada por unanimidade.", "A vereadora perguntou se a moção tinha sido aprovada por unanimidade?"], "erklaerung": "Perfeito → Mais-que-perfeito (tinha sido aprovada); kein Konjunktiv wie im Deutschen.", "kategorie": "Zeitenfolge"}
+    ]
+   },
+   "hoeren": {
+    "titel": "Intervenção do público",
+    "situation": "Sessão da assembleia municipal (pessoas e forças políticas fictícias). O Stefan intervém em nome da associação de moradores.",
+    "zeilen": [
+     {"sprecher": "Presidente da mesa", "stimme": "m", "pt": "Terminado o período antes da ordem do dia, passamos à intervenção do público. Tem a palavra o senhor Stefan.", "de": "Nach der Zeit vor der Tagesordnung kommen wir zu den Wortmeldungen aus dem Publikum. Herr Stefan hat das Wort."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Muito obrigado, senhor presidente. Cumprimento a mesa, os senhores deputados municipais e o executivo. Intervenho em nome da associação de moradores da Rua do Mar.", "de": "Vielen Dank, Herr Vorsitzender. Ich begrüße das Präsidium, die Gemeindeabgeordneten und die Câmara. Ich spreche im Namen des Anwohnervereins der Rua do Mar."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Em março entregámos um abaixo-assinado sobre o trânsito junto à escola. Gostaria de saber se a câmara já tomou alguma decisão e quando poderemos ter uma resposta.", "de": "Im März haben wir eine Unterschriftenliste zum Verkehr an der Schule eingereicht. Ich würde gern wissen, ob die Câmara schon eine Entscheidung getroffen hat und wann wir mit einer Antwort rechnen können."},
+     {"sprecher": "Presidente da mesa", "stimme": "m", "pt": "Obrigado. Para responder, dou a palavra à senhora vereadora da mobilidade.", "de": "Danke. Zur Antwort erteile ich der Stadträtin für Mobilität das Wort."},
+     {"sprecher": "Vereadora", "stimme": "f", "pt": "Agradeço a intervenção. Posso informar que o executivo aprovou, por unanimidade, um estudo de trânsito para aquela zona. Os resultados devem estar prontos no outono.", "de": "Danke für den Beitrag. Ich kann mitteilen, dass die Câmara einstimmig eine Verkehrsstudie für dieses Gebiet beschlossen hat. Die Ergebnisse sollen im Herbst vorliegen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Senhor presidente, peço desculpa, mas gostaria de fazer um pedido de esclarecimento: o estudo inclui uma passadeira em frente à escola?", "de": "Herr Vorsitzender, entschuldigen Sie, aber ich hätte eine Nachfrage: Sieht die Studie einen Zebrastreifen vor der Schule vor?"},
+     {"sprecher": "Vereadora", "stimme": "f", "pt": "Inclui. E, caso o estudo confirme a necessidade, a obra será prevista no orçamento do próximo ano.", "de": "Ja. Und falls die Studie den Bedarf bestätigt, wird die Maßnahme im Haushalt des nächsten Jahres eingeplant."},
+     {"sprecher": "Presidente da mesa", "stimme": "m", "pt": "Ficou esclarecido? Muito bem. Informo ainda que, a pedido de vários deputados, será convocada uma sessão extraordinária sobre a mobilidade.", "de": "Ist das geklärt? Sehr gut. Ich teile außerdem mit, dass auf Wunsch mehrerer Abgeordneter eine Sondersitzung zur Mobilität einberufen wird."},
+     {"sprecher": "Presidente da mesa", "stimme": "m", "pt": "Passamos à votação da moção sobre a falta de médicos de família. Quem vota contra? Quem se abstém?", "de": "Wir kommen zur Abstimmung über den Antrag zum Hausärztemangel. Wer ist dagegen? Wer enthält sich?"},
+     {"sprecher": "Presidente da mesa", "stimme": "m", "pt": "A moção foi aprovada por maioria, com duas abstenções. Os grupos que o desejarem podem agora apresentar declarações de voto.", "de": "Der Antrag ist mehrheitlich bei zwei Enthaltungen angenommen. Die Fraktionen, die es wünschen, können jetzt Erklärungen zur Abstimmung abgeben."}
+    ],
+    "fragen": [
+     {"frage": "Em nome de quem intervém o Stefan?", "optionen": ["Da junta de freguesia.", "Da associação de moradores.", "De um partido."], "richtig": 1},
+     {"frage": "O que aprovou o executivo por unanimidade?", "optionen": ["Um estudo de trânsito.", "Uma escola nova.", "Uma sessão extraordinária."], "richtig": 0},
+     {"frage": "Como foi aprovada a moção sobre a falta de médicos de família?", "optionen": ["Por unanimidade.", "Não foi aprovada.", "Por maioria, com duas abstenções."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita, em tom formal.",
+    "saetze": [
+     {"pt": "Senhor presidente, peço a palavra.", "de": "Herr Vorsitzender, ich bitte ums Wort."},
+     {"pt": "Gostaria de saber se a câmara já tomou alguma decisão.", "de": "Ich würde gern wissen, ob die Câmara schon eine Entscheidung getroffen hat."},
+     {"pt": "Peço desculpa, mas gostaria de fazer um pedido de esclarecimento.", "de": "Entschuldigen Sie, aber ich hätte eine Nachfrage."},
+     {"pt": "Vossa Excelência ainda não respondeu à minha pergunta.", "de": "Sie haben meine Frage noch nicht beantwortet."},
+     {"pt": "A moção foi aprovada por unanimidade.", "de": "Der Antrag wurde einstimmig angenommen."}
+    ]
+   },
+   "saetze": [
+    {"id": "senhor-presidente-peco-a-palavra", "pt": "Senhor presidente, peço a palavra.", "de": "Herr Vorsitzender, ich bitte ums Wort."},
+    {"id": "gostaria-de-saber-se-a-camara", "pt": "Gostaria de saber se a câmara já tomou alguma decisão.", "de": "Ich würde gern wissen, ob die Câmara schon eine Entscheidung getroffen hat."},
+    {"id": "fazer-um-pedido-de-esclarecimento", "pt": "Gostaria de fazer um pedido de esclarecimento.", "de": "Ich hätte eine Nachfrage."}
+   ]
+  },
+  {
+   "id": "B2-05-L11",
+   "typ": "neu",
+   "titel": "Cartas ao diretor: …, o que é lastimável",
+   "vokabeln": ["as-cartas-ao-diretor", "a-insatisfacao", "lastimavel", "indignado", "chamar-a-atencao-para", "manifestar", "o-abandono", "o-espaco-publico", "a-degradacao", "o-desleixo", "o-signatario", "deplorar"],
+   "grammatik": {
+    "titel": "O relativo <i>o que</i> referido a uma frase: <i>…, o que é lastimável; …, pelo que</i>",
+    "erklaerung": [
+     "Quando o relativo se refere a uma <b>frase inteira</b> (e não a um nome), usa-se <b>o que</b>: <i>A câmara não respondeu às queixas, <b>o que</b> é lastimável.</i> (= e isso é lastimável).",
+     "Compare: <i>O jardim <b>que</b> fica junto à escola está ao abandono.</i> (que → o jardim) / <i>O jardim está ao abandono, <b>o que</b> é perigoso.</i> (o que → toda a situação). Com uma frase como antecedente, ✘ <i>…, que é lastimável</i> e ✘ <i>…, o qual é lastimável</i> estão errados.",
+     "Com preposição: <b>pelo que, do que, ao que, com o que</b>. Muito usado em cartas formais: <b>pelo que</b> = por isso, por esse motivo: <i>Não obtive resposta, <b>pelo que</b> volto a escrever.</i>",
+     "Variantes formais: <b>facto que</b>, <b>situação que</b>: <i>O mercado está fechado há cinco anos, <b>situação que</b> os moradores deploram.</i>",
+     "Fórmulas de uma carta ao diretor: <i>Venho por este meio chamar a atenção para… / Gostaria de manifestar a minha insatisfação com… / É lastimável que… / Apelo às entidades competentes para que…</i> No fim, nome e localidade."
+    ],
+    "erklaerung_de": [
+     "Bezieht sich der Relativsatz auf einen ganzen Satz, heißt es <b>o que</b> (= was): <i>…, o que é lastimável</i> = …, was bedauerlich ist.",
+     "Nicht „que“ allein und nicht „o qual“ – die brauchen ein Substantiv als Bezugswort.",
+     "<b>pelo que</b> = weshalb / deshalb (formell, typisch in Briefen).",
+     "Auch: situação que / facto que (ein Umstand, den …).",
+     "Typische Briefformeln: Venho por este meio … (Hiermit …), Gostaria de manifestar …"
+    ],
+    "vergleich": "Deutsch: „Die Câmara hat nicht geantwortet, <b>was</b> bedauerlich ist.“ – Portugiesisch braucht den Artikel: <i><b>o que</b></i>, nicht nur <i>que</i>. Englisch: „…, <b>which</b> is regrettable.“ Das englische „which“ deckt hier also <i>o que</i> ab, nicht <i>o qual</i>.",
+    "beispiele": [
+     {"pt": "A câmara ainda não respondeu às nossas queixas, o que é lastimável.", "de": "Die Câmara hat auf unsere Beschwerden noch nicht geantwortet, was bedauerlich ist."},
+     {"pt": "O antigo mercado está ao abandono há anos, pelo que apelamos a uma intervenção urgente.", "de": "Die alte Markthalle verfällt seit Jahren, weshalb wir zu einem dringenden Eingreifen aufrufen."},
+     {"pt": "Os passeios estão degradados, o que põe em risco os mais idosos.", "de": "Die Gehwege sind verfallen, was ältere Menschen gefährdet."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "A junta prometeu limpar o jardim, ___ ainda não aconteceu.", "loesungen": ["o que"], "de": "Die Junta hat versprochen, den Park zu reinigen, was noch nicht geschehen ist.", "kategorie": "o que"},
+     {"typ": "auswahl", "frage": "O parque infantil ___ fica junto à escola está ao abandono.", "optionen": ["o que", "que", "pelo que"], "richtig": 1, "erklaerung": "Bezugswort ist ein Substantiv (o parque infantil) → que.", "kategorie": "o que"},
+     {"typ": "auswahl", "frage": "Os contentores estão sempre cheios, ___ é um sinal de desleixo.", "optionen": ["que", "o qual", "o que"], "richtig": 2, "erklaerung": "Bezug auf den ganzen Satz → o que.", "kategorie": "o que"},
+     {"typ": "luecke", "satz": "Não obtive qualquer resposta, ___ volto a escrever. (= por isso, formal)", "loesungen": ["pelo que"], "de": "Ich habe keine Antwort erhalten, weshalb ich erneut schreibe.", "kategorie": "o que"},
+     {"typ": "luecke", "satz": "Umformung: As obras pararam em maio. Isso deixou os moradores indignados. → As obras pararam em maio, ___ deixou os moradores indignados.", "loesungen": ["o que"], "de": "Die Arbeiten wurden im Mai eingestellt, was die Anwohner empört hat.", "kategorie": "Umformung"},
+     {"typ": "auswahl", "frage": "Qual é a abertura mais adequada para uma carta ao diretor?", "optionen": ["Olá! Só queria dizer que a rua está um nojo.", "Venho por este meio chamar a atenção para o estado da Rua do Mar.", "Então, isto é para resolver ou não?"], "richtig": 1, "kategorie": "Register"},
+     {"typ": "uebersetzen", "de": "Der Park verwahrlost, was bedauerlich ist.", "loesungen": ["O jardim está ao abandono, o que é lastimável.", "O parque está ao abandono, o que é lastimável.", "O jardim está ao abandono, o que é lamentável.", "O parque está ao abandono, o que é lamentável."], "erklaerung": "was = o que (Bezug auf den ganzen Satz)."},
+     {"typ": "uebersetzen", "de": "Ich möchte meine Unzufriedenheit mit dem Zustand der Gehwege zum Ausdruck bringen.", "loesungen": ["Gostaria de manifestar a minha insatisfação com o estado dos passeios.", "Gostava de manifestar a minha insatisfação com o estado dos passeios.", "Venho manifestar a minha insatisfação com o estado dos passeios.", "Quero manifestar a minha insatisfação com o estado dos passeios."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "A carta para o jornal",
+    "situation": "O Stefan escreveu uma carta ao diretor de um jornal regional e lê o rascunho à Ana.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ainda estás a escrever a carta para o jornal?", "de": "Schreibst du immer noch an dem Brief für die Zeitung?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Estou quase a acabar. Queres ouvir? „Senhor diretor, venho por este meio chamar a atenção para o estado do antigo mercado municipal.“", "de": "Ich bin fast fertig. Willst du es hören? „Sehr geehrter Herr Chefredakteur, hiermit möchte ich auf den Zustand der alten Markthalle aufmerksam machen.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "„O edifício está ao abandono há mais de cinco anos, o que é lastimável numa cidade que vive do turismo.“", "de": "„Das Gebäude verfällt seit mehr als fünf Jahren, was in einer Stadt, die vom Tourismus lebt, bedauerlich ist.“"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Começa bem. Mas não estás a ser demasiado duro?", "de": "Das fängt gut an. Aber bist du nicht zu hart?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Acho que não. Ouve o resto: „A degradação é visível: há vidros partidos, lixo acumulado e parte do telhado ameaça cair, o que põe em risco quem passa.“", "de": "Ich glaube nicht. Hör dir den Rest an: „Der Verfall ist sichtbar: Es gibt zerbrochene Scheiben, angesammelten Müll, und ein Teil des Dachs droht einzustürzen, was Passanten gefährdet.“"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Isso é verdade, e os vizinhos estão indignados. Mas convém propor alguma coisa, e não só criticar.", "de": "Das stimmt, und die Nachbarn sind empört. Aber man sollte auch etwas vorschlagen, nicht nur kritisieren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tens razão. Vou acrescentar: „Os moradores já apresentaram várias sugestões, nenhuma das quais obteve resposta, pelo que apelo à câmara para que dê uma nova utilização ao espaço.“", "de": "Du hast recht. Ich füge hinzu: „Die Anwohner haben schon mehrere Vorschläge gemacht, auf keinen davon kam eine Antwort, weshalb ich die Câmara auffordere, dem Gebäude eine neue Nutzung zu geben.“"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Assim fica mais construtivo. E assinas com o teu nome?", "de": "So ist es konstruktiver. Und unterschreibst du mit deinem Namen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Claro. Normalmente os jornais pedem a identificação completa, mas só publicam o nome e a localidade.", "de": "Klar. Normalerweise verlangen die Zeitungen die vollständigen Angaben, veröffentlichen aber nur den Namen und den Ort."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Então manda. E se a publicarem, compro dois exemplares!", "de": "Dann schick ihn ab. Und wenn sie ihn veröffentlichen, kaufe ich zwei Exemplare!"}
+    ],
+    "fragen": [
+     {"frage": "Sobre o que escreve o Stefan?", "optionen": ["Sobre o estado do antigo mercado municipal.", "Sobre o preço dos jornais.", "Sobre as eleições autárquicas."], "richtig": 0},
+     {"frage": "O que sugere a Ana?", "optionen": ["Que não envie a carta.", "Que proponha alguma coisa, e não só critique.", "Que escreva de forma anónima."], "richtig": 1},
+     {"frage": "Que dados publicam normalmente os jornais?", "optionen": ["A morada completa.", "O número de telefone.", "Só o nome e a localidade."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "O vizinho João queixa-se do parque infantil do bairro. Responda-lhe (tu).",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Já viste o parque infantil? Os baloiços estão partidos há meses.", "de": "Hast du den Spielplatz gesehen? Die Schaukeln sind seit Monaten kaputt."},
+     {"ich": true, "aufgabe": "Sag: Ja, habe ich gesehen. Das ist ein Beispiel für Schlamperei, was bedauerlich ist.", "loesungen": ["Já vi. É um exemplo de desleixo, o que é lastimável.", "Vi, sim. É um exemplo de desleixo, o que é lastimável.", "Já vi. É um exemplo de desleixo, o que é lamentável.", "Vi. É um exemplo de desleixo, o que é lastimável.", "Vi, sim. É um exemplo de desleixo, o que é lamentável."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Os pais estão indignados. Alguém devia fazer alguma coisa.", "de": "Die Eltern sind empört. Jemand sollte etwas unternehmen."},
+     {"ich": true, "aufgabe": "Sag: Ich werde einen Leserbrief schreiben, um auf den Zustand des Spielplatzes aufmerksam zu machen.", "loesungen": ["Vou escrever uma carta ao diretor para chamar a atenção para o estado do parque infantil.", "Vou escrever uma carta ao jornal para chamar a atenção para o estado do parque infantil.", "Vou escrever uma carta ao diretor para chamar a atenção para o estado do parque.", "Vou escrever uma carta ao jornal para chamar a atenção para o estado do parque.", "Vou escrever uma carta de leitor para chamar a atenção para o estado do parque infantil."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Boa ideia. Eu também assino, se quiseres.", "de": "Gute Idee. Wenn du willst, unterschreibe ich auch."},
+     {"ich": true, "aufgabe": "Sag: Gern. Dann unterschreiben wir beide, was dem Brief mehr Gewicht geben wird.", "loesungen": ["Com todo o gosto. Então assinamos os dois, o que vai dar mais peso à carta.", "Com todo o gosto. Então assinamos os dois, o que dará mais peso à carta.", "Com gosto. Então assinamos os dois, o que vai dar mais peso à carta.", "Com gosto. Então assinamos os dois, o que dará mais peso à carta.", "Com muito gosto. Então assinamos os dois, o que vai dar mais peso à carta."]}
+    ]
+   },
+   "saetze": [
+    {"id": "nao-respondeu-o-que-e-lastimavel", "pt": "A câmara não respondeu, o que é lastimável.", "de": "Die Câmara hat nicht geantwortet, was bedauerlich ist."},
+    {"id": "venho-por-este-meio-chamar-a-atencao", "pt": "Venho por este meio chamar a atenção para o estado do mercado.", "de": "Hiermit möchte ich auf den Zustand der Markthalle aufmerksam machen."},
+    {"id": "nao-obtive-resposta-pelo-que", "pt": "Não obtive resposta, pelo que volto a escrever.", "de": "Ich habe keine Antwort erhalten, weshalb ich erneut schreibe."}
+   ]
+  },
+  {
+   "id": "B2-05-L12",
+   "typ": "neu",
+   "titel": "Sondagens: a maioria dos inquiridos considera…",
+   "vokabeln": ["o-inquirido", "a-amostra", "a-margem-de-erro", "o-ponto-percentual", "as-intencoes-de-voto", "liderar", "a-tendencia", "o-empate-tecnico", "o-indeciso", "a-afluencia-as-urnas", "a-ficha-tecnica", "a-projecao"],
+   "grammatik": {
+    "titel": "Concordância com expressões de quantidade: <i>A maioria dos inquiridos considera…; 30 % dos eleitores estão…</i>",
+    "erklaerung": [
+     "Com <b>a maioria de, a maior parte de, metade de, um terço de, grande parte de</b> + nome no plural, o verbo pode ficar no <b>singular</b> (concorda com <i>a maioria</i>) ou ir para o <b>plural</b> (concorda com <i>os inquiridos</i>): <i>A maioria dos inquiridos <b>considera</b> / <b>consideram</b> que…</i> Em textos formais, o singular é a opção mais segura.",
+     "Com <b>percentagens</b>, o verbo concorda normalmente com o <b>nome</b> que se segue: <i>30 % dos eleitores <b>estão</b> indecisos; 40 % da população <b>votou</b>.</i> Sem nome, concorda com o número: <i>Só 1 % <b>respondeu</b>; 52 % <b>votaram</b>.</i>",
+     "Variações: <i><b>subir / descer</b> dois pontos percentuais; <b>passar de</b> 31 % <b>para</b> 33 %; <b>ficar à frente de</b>…</i> Atenção: de 20 % para 22 % são mais <b>dois pontos percentuais</b>, mas um aumento de <b>10 %</b>.",
+     "Valores aproximados: <i>cerca de, perto de, quase, mais de, menos de, à volta de</i>. Na imprensa: <i>A abstenção <b>rondou</b> os 45 %</i> (<b>rondar</b> = andar à volta de).",
+     "Leitura crítica: se a diferença entre dois candidatos é <b>menor</b> do que a margem de erro, fala-se de <b>empate técnico</b>."
+    ],
+    "erklaerung_de": [
+     "a maioria / metade / um terço de + Plural: Verb im Singular oder Plural möglich – formell ist der Singular am sichersten.",
+     "Prozentangaben: Verb richtet sich meist nach dem folgenden Substantiv (30 % dos eleitores estão …, 40 % da população votou).",
+     "Prozentpunkte ≠ Prozent: von 20 % auf 22 % = zwei Prozentpunkte, aber 10 % Zuwachs.",
+     "Ungefähre Werte: cerca de, perto de, à volta de; rondar = sich bewegen um."
+    ],
+    "vergleich": "Deutsch: „Die Mehrheit der Befragten <b>ist</b> der Meinung …“ (Singular), aber „40 Prozent der Wähler <b>haben</b> gewählt“ (meist Plural) – ganz ähnlich wie im Portugiesischen. Englisch: „The majority of respondents think …“ – im Englischen ist der Plural hier üblicher.",
+    "beispiele": [
+     {"pt": "A maioria dos inquiridos considera que a habitação é o maior problema do concelho.", "de": "Die Mehrheit der Befragten hält das Wohnen für das größte Problem der Gemeinde."},
+     {"pt": "Segundo a sondagem, 30 % dos eleitores ainda estão indecisos.", "de": "Laut der Umfrage sind 30 % der Wähler noch unentschlossen."},
+     {"pt": "A lista subiu dois pontos percentuais e passou de 31 % para 33 %.", "de": "Die Liste hat zwei Prozentpunkte zugelegt und ist von 31 % auf 33 % gestiegen."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Num texto formal: „A maioria dos inquiridos ___ que a abstenção vai subir.“", "optionen": ["acredita", "acreditamos", "acreditas"], "richtig": 0, "erklaerung": "a maioria → 3. Person Singular (Plural acreditam wäre auch möglich).", "kategorie": "Kongruenz"},
+     {"typ": "luecke", "satz": "Segundo a sondagem, 30 % dos eleitores ainda ___ indecisos. (estar)", "loesungen": ["estão"], "de": "Laut der Umfrage sind 30 % der Wähler noch unentschlossen.", "kategorie": "Kongruenz"},
+     {"typ": "luecke", "satz": "Nas últimas eleições, metade dos eleitores ___ . (abster-se, pretérito perfeito)", "loesungen": ["absteve-se", "abstiveram-se"], "de": "Bei den letzten Wahlen hat sich die Hälfte der Wähler enthalten.", "erklaerung": "Beides ist richtig: Singular (metade) oder Plural (os eleitores).", "kategorie": "Kongruenz"},
+     {"typ": "auswahl", "frage": "A candidata tinha 40 % e agora tem 43 %. Subiu…", "optionen": ["três por cento.", "três pontos percentuais.", "quarenta e três pontos."], "richtig": 1, "erklaerung": "Differenz zweier Prozentwerte = Prozentpunkte.", "kategorie": "Wortschatz"},
+     {"typ": "luecke", "satz": "Com uma margem de erro de três pontos, os dois partidos estão em ___ técnico.", "loesungen": ["empate"], "de": "Bei einer Fehlermarge von drei Punkten liegen die beiden Parteien statistisch gleichauf.", "kategorie": "Wortschatz"},
+     {"typ": "luecke", "satz": "Umformung: A lista verde está à frente nas sondagens. → A lista verde ___ as sondagens.", "loesungen": ["lidera"], "de": "Die grüne Liste führt in den Umfragen.", "kategorie": "Umformung"},
+     {"typ": "uebersetzen", "de": "Die Mehrheit der Befragten ist mit der Arbeit der Câmara zufrieden.", "loesungen": ["A maioria dos inquiridos está satisfeita com o trabalho da câmara.", "A maioria dos inquiridos estão satisfeitos com o trabalho da câmara.", "A maior parte dos inquiridos está satisfeita com o trabalho da câmara.", "A maior parte dos inquiridos estão satisfeitos com o trabalho da câmara."], "erklaerung": "Singular (a maioria … está satisfeita) oder Plural (… estão satisfeitos).", "kategorie": "Kongruenz"},
+     {"typ": "uebersetzen", "de": "Ein Drittel der Wähler ist noch unentschlossen.", "loesungen": ["Um terço dos eleitores ainda está indeciso.", "Um terço dos eleitores ainda estão indecisos.", "Um terço dos eleitores está ainda indeciso.", "Um terço dos eleitores estão ainda indecisos.", "Um terço do eleitorado ainda está indeciso."], "kategorie": "Kongruenz"}
+    ]
+   },
+   "hoeren": {
+    "titel": "A sondagem da semana",
+    "situation": "Um programa de televisão comenta uma sondagem para as autárquicas (sondagem e listas fictícias).",
+    "zeilen": [
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Boa noite. A três semanas das eleições autárquicas, divulgamos a sondagem realizada para esta estação. Comecemos pelas intenções de voto.", "de": "Guten Abend. Drei Wochen vor den Kommunalwahlen veröffentlichen wir die Umfrage, die für diesen Sender durchgeführt wurde. Beginnen wir mit den Wahlabsichten."},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "A lista Novo Rumo lidera com 34 %, mais dois pontos percentuais do que no mês passado. Logo a seguir surge a lista Mar e Serra, com 31 %.", "de": "Die Liste Novo Rumo führt mit 34 %, zwei Prozentpunkte mehr als im letzten Monat. Dicht dahinter liegt die Liste Mar e Serra mit 31 %."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Três pontos de diferença. É uma vantagem clara?", "de": "Drei Punkte Unterschied. Ist das ein klarer Vorsprung?"},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "Não. Com uma margem de erro de 3,5 pontos, estamos perante um empate técnico. Nada está decidido.", "de": "Nein. Bei einer Fehlermarge von 3,5 Punkten haben wir ein statistisches Patt. Nichts ist entschieden."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "E os indecisos?", "de": "Und die Unentschlossenen?"},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "São muitos: cerca de 20 % dos inquiridos ainda não sabem em quem votar, e a maioria diz que só decide na última semana.", "de": "Es sind viele: Etwa 20 % der Befragten wissen noch nicht, wen sie wählen sollen, und die Mehrheit sagt, sie entscheide sich erst in der letzten Woche."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Que outras tendências mostra o estudo?", "de": "Welche anderen Trends zeigt die Studie?"},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "Para a maioria dos inquiridos, a habitação é o maior problema do concelho. E há um dado preocupante: quase metade dos jovens admite não ir votar.", "de": "Für die Mehrheit der Befragten ist das Wohnen das größte Problem der Gemeinde. Und es gibt eine besorgniserregende Zahl: Fast die Hälfte der jungen Leute gibt zu, nicht wählen zu gehen."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "Recordamos a ficha técnica: a amostra é de 800 inquiridos, entrevistados por telefone na primeira semana do mês.", "de": "Zur Methodik: Die Stichprobe umfasst 800 Befragte, die in der ersten Woche des Monats telefonisch interviewt wurden."},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "E convém lembrar que uma sondagem é uma fotografia do momento, e não uma projeção do resultado final.", "de": "Und man sollte daran denken, dass eine Umfrage eine Momentaufnahme ist und keine Hochrechnung des Endergebnisses."},
+     {"sprecher": "Pivô", "stimme": "f", "pt": "No dia das eleições, acompanhe connosco a afluência às urnas e as primeiras projeções, a partir das oito da noite.", "de": "Verfolgen Sie am Wahltag mit uns die Wahlbeteiligung und die ersten Hochrechnungen, ab acht Uhr abends."}
+    ],
+    "fragen": [
+     {"frage": "Que lista lidera as intenções de voto?", "optionen": ["A lista Mar e Serra.", "A lista Novo Rumo.", "Nenhuma: têm exatamente o mesmo resultado."], "richtig": 1},
+     {"frage": "Porque é que o comentador fala de empate técnico?", "optionen": ["Porque a diferença é menor do que a margem de erro.", "Porque as duas listas têm 34 %.", "Porque a sondagem foi feita por telefone."], "richtig": 0},
+     {"frage": "Quantas pessoas foram inquiridas?", "optionen": ["350.", "20.", "800."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português, com a linguagem das sondagens.",
+    "aufgaben": [
+     {"de": "Die Mehrheit der Befragten hält das Wohnen für das größte Problem.", "loesungen": ["A maioria dos inquiridos considera que a habitação é o maior problema.", "A maioria dos inquiridos consideram que a habitação é o maior problema.", "A maioria dos inquiridos considera a habitação o maior problema.", "A maior parte dos inquiridos considera que a habitação é o maior problema.", "A maioria dos inquiridos acha que a habitação é o maior problema."]},
+     {"de": "Die Partei hat zwei Prozentpunkte zugelegt.", "loesungen": ["O partido subiu dois pontos percentuais.", "O partido ganhou dois pontos percentuais.", "O partido subiu dois pontos."]},
+     {"de": "Etwa 20 % der Wähler sind noch unentschlossen.", "loesungen": ["Cerca de 20 % dos eleitores ainda estão indecisos.", "Cerca de 20% dos eleitores ainda estão indecisos.", "Cerca de 20 % dos eleitores estão ainda indecisos.", "Perto de 20 % dos eleitores ainda estão indecisos.", "À volta de 20 % dos eleitores ainda estão indecisos.", "Cerca de vinte por cento dos eleitores ainda estão indecisos."]},
+     {"de": "Die Kandidatin führt seit dem Sommer in den Umfragen.", "loesungen": ["A candidata lidera as sondagens desde o verão.", "A candidata lidera nas sondagens desde o verão.", "Desde o verão que a candidata lidera as sondagens.", "A candidata está à frente nas sondagens desde o verão."]},
+     {"de": "Bevor man eine Umfrage kommentiert, sollte man die methodischen Angaben lesen.", "loesungen": ["Antes de comentar uma sondagem, convém ler a ficha técnica.", "Antes de se comentar uma sondagem, convém ler a ficha técnica.", "Antes de comentar uma sondagem, deve-se ler a ficha técnica.", "Antes de comentar uma sondagem, deve ler-se a ficha técnica."]}
+    ]
+   },
+   "saetze": [
+    {"id": "a-maioria-dos-inquiridos-considera", "pt": "A maioria dos inquiridos considera que a habitação é o maior problema.", "de": "Die Mehrheit der Befragten hält das Wohnen für das größte Problem."},
+    {"id": "subiu-dois-pontos-percentuais", "pt": "A lista subiu dois pontos percentuais.", "de": "Die Liste hat zwei Prozentpunkte zugelegt."},
+    {"id": "empate-tecnico-nada-decidido", "pt": "Com esta margem de erro, há um empate técnico: nada está decidido.", "de": "Bei dieser Fehlermarge herrscht ein statistisches Patt: Nichts ist entschieden."}
+   ]
+  },
+  {"id": "B2-05-L13", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B2-05-L14", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Rádio local – notícias do concelho",
+   "situation": "Noticiário de uma rádio local (notícias fictícias).",
+   "zeilen": [
+    {"sprecher": "Pivô", "stimme": "f", "pt": "Bom dia. Começamos pela câmara municipal: aprovado ontem o novo regulamento de estacionamento, as zonas pagas no centro histórico vão ser alargadas.", "de": "Guten Morgen. Wir beginnen mit der Câmara: Nachdem gestern die neue Parkordnung beschlossen wurde, werden die gebührenpflichtigen Zonen in der Altstadt erweitert."},
+    {"sprecher": "Repórter", "stimme": "m", "pt": "Bom dia. A proposta foi aprovada por maioria, com os votos contra da oposição, a qual considera que os moradores não foram suficientemente ouvidos.", "de": "Guten Morgen. Der Vorschlag wurde mehrheitlich angenommen, gegen die Stimmen der Opposition, die der Meinung ist, die Anwohner seien nicht ausreichend angehört worden."},
+    {"sprecher": "Repórter", "stimme": "m", "pt": "Questionado pelos jornalistas, o presidente da câmara disse que a consulta pública tinha recebido mais de trezentas participações e que todas tinham sido analisadas.", "de": "Von Journalisten befragt, sagte der Bürgermeister, die öffentliche Konsultation habe über dreihundert Beiträge erhalten, und alle seien ausgewertet worden."},
+    {"sprecher": "Pivô", "stimme": "f", "pt": "E os moradores do centro? Vão ter de pagar?", "de": "Und die Anwohner im Zentrum? Müssen sie zahlen?"},
+    {"sprecher": "Repórter", "stimme": "m", "pt": "Não. Segundo o regulamento, cuja entrada em vigor está prevista para janeiro, os residentes terão um dístico gratuito.", "de": "Nein. Laut der Verordnung, deren Inkrafttreten für Januar vorgesehen ist, erhalten die Anwohner einen kostenlosen Parkausweis."},
+    {"sprecher": "Pivô", "stimme": "f", "pt": "Entretanto, um abaixo-assinado pede que a câmara reabra o mercado municipal.", "de": "Unterdessen fordert eine Unterschriftenliste, dass die Câmara die Markthalle wieder öffnet."},
+    {"sprecher": "Repórter", "stimme": "m", "pt": "É verdade. O abaixo-assinado, promovido pela associação de moradores, já reuniu mais de mil subscritores. Os promotores pediram que o assunto fosse discutido na próxima assembleia municipal.", "de": "Das stimmt. Die vom Anwohnerverein initiierte Unterschriftenliste hat schon mehr als tausend Unterzeichner. Die Initiatoren haben gebeten, das Thema in der nächsten Gemeindeversammlung zu behandeln."},
+    {"sprecher": "Pivô", "stimme": "f", "pt": "Por fim, a duas semanas das autárquicas, a sondagem desta rádio mostra um empate técnico entre as duas principais candidaturas. Um quarto dos inquiridos ainda está indeciso.", "de": "Zum Schluss: Zwei Wochen vor den Kommunalwahlen zeigt die Umfrage dieses Senders ein statistisches Patt zwischen den beiden wichtigsten Kandidaturen. Ein Viertel der Befragten ist noch unentschlossen."}
+   ],
+   "fragen": [
+    {"frage": "O que foi aprovado ontem?", "optionen": ["O orçamento participativo.", "O novo regulamento de estacionamento.", "A reabertura do mercado."], "richtig": 1},
+    {"frage": "Porque é que a oposição votou contra?", "optionen": ["Porque acha que os moradores não foram suficientemente ouvidos.", "Porque quer mais zonas pagas.", "Porque o regulamento entra em vigor tarde demais."], "richtig": 0},
+    {"frage": "O que terão os residentes do centro?", "optionen": ["Um desconto de 50 %.", "Lugares reservados à porta de casa.", "Um dístico gratuito."], "richtig": 2},
+    {"frage": "O que pediram os promotores do abaixo-assinado?", "optionen": ["Que o mercado fosse vendido.", "Que o assunto fosse discutido na assembleia municipal.", "Que a câmara convocasse um referendo."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Cartas ao diretor – O jardim esquecido",
+   "situation": "Uma carta publicada num jornal regional (texto fictício).",
+   "text": [
+    "Senhor diretor,",
+    "Venho por este meio chamar a atenção para o estado do Jardim da Avenida, o qual foi durante décadas o orgulho do nosso bairro. Hoje está ao abandono, o que é lastimável.",
+    "Os bancos estão partidos, a iluminação não funciona há meses e o lago, cuja água deixou de ser tratada, tornou-se um foco de mosquitos. Ao fim da tarde, muitos pais evitam o parque infantil.",
+    "Em fevereiro, a associação de moradores entregou na junta de freguesia um abaixo-assinado com quase quinhentas assinaturas. Na altura, o presidente da junta garantiu que o problema seria resolvido antes do verão. Estamos em setembro e nada foi feito.",
+    "Não pretendo atribuir culpas a ninguém em particular. Mas era necessário que as entidades competentes tivessem agido há muito, pelo que apelo a que a câmara e a junta se entendam e apresentem um calendário de obras.",
+    "O jardim é um espaço público, de todos e para todos. Merece mais do que promessas. – M. S., Lagos"
+   ],
+   "fragen": [
+    {"frage": "Qual é o principal problema descrito na carta?", "optionen": ["O barulho das obras.", "O abandono do Jardim da Avenida.", "A falta de estacionamento."], "richtig": 1},
+    {"frage": "O que garantiu o presidente da junta em fevereiro?", "optionen": ["Que o problema seria resolvido antes do verão.", "Que o jardim ia ser vendido.", "Que não havia dinheiro para obras."], "richtig": 0},
+    {"frage": "Que tom tem a carta?", "optionen": ["Agressivo e insultuoso.", "Indiferente.", "Crítico, mas construtivo."], "richtig": 2},
+    {"frage": "O que pede o autor no fim da carta?", "optionen": ["Que o jornal investigue o caso.", "Que a câmara e a junta apresentem um calendário de obras.", "A demissão do presidente da junta."], "richtig": 1}
+   ]
+  },
+  "schreiben": [
+   {"de": "Die Wahlkommission bat die Wähler, früh zu wählen.", "loesungen": ["A comissão eleitoral pediu aos eleitores que votassem cedo.", "A comissão eleitoral pediu que os eleitores votassem cedo.", "A comissão pediu aos eleitores que votassem cedo.", "A comissão pediu que os eleitores votassem cedo."]},
+   {"de": "Der Bürgermeister sagte, die Arbeiten würden im Mai enden.", "loesungen": ["O presidente da câmara disse que as obras terminariam em maio.", "O presidente da câmara disse que as obras iam terminar em maio.", "O presidente da câmara disse que as obras iriam terminar em maio.", "O presidente da câmara disse que as obras terminavam em maio.", "O presidente da câmara disse que as obras acabariam em maio."]},
+   {"de": "Die Kandidatin, deren Programm ich gelesen habe, tritt für die Junta an.", "loesungen": ["A candidata cujo programa li concorre à junta.", "A candidata, cujo programa li, concorre à junta.", "A candidata cujo programa eu li concorre à junta.", "A candidata, cujo programa li, candidata-se à junta.", "A candidata cujo programa li candidata-se à junta."]},
+   {"de": "Nach Auszählung der Stimmen wurden die Ergebnisse bekanntgegeben.", "loesungen": ["Contados os votos, foram anunciados os resultados.", "Contados os votos, os resultados foram anunciados.", "Depois de contados os votos, os resultados foram anunciados.", "Contados os votos, foram divulgados os resultados.", "Contados os votos, os resultados foram divulgados."]},
+   {"de": "Ich würde gern wissen, ob der Antrag heute abgestimmt wird.", "loesungen": ["Gostaria de saber se a moção vai ser votada hoje.", "Gostaria de saber se a moção será votada hoje.", "Gostaria de saber se a moção é votada hoje.", "Gostava de saber se a moção vai ser votada hoje.", "Gostava de saber se a moção será votada hoje."]},
+   {"de": "Der Präsident der Republik wird alle fünf Jahre gewählt.", "loesungen": ["O Presidente da República é eleito de cinco em cinco anos.", "O Presidente da República é eleito a cada cinco anos.", "O presidente da República é eleito de cinco em cinco anos.", "O Presidente da República é eleito de 5 em 5 anos."]}
+  ],
+  "sprechen": [
+   {"pt": "Gostaria de saber se a câmara já tomou alguma decisão.", "de": "Ich würde gern wissen, ob die Câmara schon eine Entscheidung getroffen hat."},
+   {"pt": "A petição já tem mais de mil subscritores.", "de": "Die Petition hat schon mehr als tausend Unterzeichner."},
+   {"pt": "Era necessário que tivessem agido mais cedo.", "de": "Sie hätten früher handeln müssen."},
+   {"pt": "O autarca, cujo mandato termina este ano, não se vai recandidatar.", "de": "Der Kommunalpolitiker, dessen Amtszeit dieses Jahr endet, tritt nicht wieder an."},
+   {"pt": "Terminada a reunião, o porta-voz falou aos jornalistas.", "de": "Nach Ende der Sitzung sprach der Sprecher mit den Journalisten."}
+  ]
+ }
+}
