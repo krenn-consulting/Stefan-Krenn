@@ -1,0 +1,888 @@
+{
+ "id": "B1-10",
+ "level": "B1",
+ "titel": "Conflitos e reclamações formais",
+ "beschreibung": "Sich höflich, aber bestimmt beschweren – beim Internetanbieter, im Hotel, beim Bauunternehmer und bei der Versicherung –, formelle Beschwerdebriefe und Mahnungen schreiben, die Verbraucherrechte kennen (DECO, Schlichtung, Friedensgericht) und am Telefon eskalieren. Grammatik: Konzessivsätze (embora + Konjunktiv, apesar de + Nomen/Infinitiv, mesmo que, ainda que, por mais que) und Konnektoren (mesmo assim, no entanto, contudo).",
+ "vokabeln": [
+  {"id": "embora", "pt": "embora", "de": "obwohl / obgleich", "emoji": "🔀", "beispiel_pt": "Embora a internet falhe todos os dias, a operadora diz que está tudo bem.", "beispiel_de": "Obwohl das Internet jeden Tag ausfällt, sagt der Anbieter, dass alles in Ordnung ist.", "hinweis": "Immer mit Konjunktiv: embora seja, embora tenha, embora possa."},
+  {"id": "o-conflito", "pt": "o conflito", "de": "der Konflikt / der Streit", "emoji": "⚔️", "beispiel_pt": "Prefiro resolver o conflito com uma conversa.", "beispiel_de": "Ich löse den Konflikt lieber mit einem Gespräch."},
+  {"id": "insatisfeito", "pt": "insatisfeito", "de": "unzufrieden", "emoji": "😒", "beispiel_pt": "Estou muito insatisfeito com o serviço.", "beispiel_de": "Ich bin mit dem Service sehr unzufrieden.", "alternativen": ["insatisfeita"]},
+  {"id": "a-falha", "pt": "a falha", "de": "die Störung / der Ausfall / der Fehler", "emoji": "⚠️", "beispiel_pt": "Houve uma falha na rede durante três dias.", "beispiel_de": "Es gab drei Tage lang eine Störung im Netz.", "hinweis": "a falha de energia = der Stromausfall"},
+  {"id": "a-interrupcao", "pt": "a interrupção", "de": "die Unterbrechung", "emoji": "⏸️", "passiv": true, "beispiel_pt": "Pedimos desculpa pela interrupção do serviço.", "beispiel_de": "Wir entschuldigen uns für die Unterbrechung des Dienstes."},
+  {"id": "o-descontentamento", "pt": "o descontentamento", "de": "die Unzufriedenheit / der Unmut", "emoji": "😤", "passiv": true, "beispiel_pt": "Os clientes mostraram o seu descontentamento nas redes sociais.", "beispiel_de": "Die Kunden haben ihren Unmut in den sozialen Netzwerken gezeigt."},
+  {"id": "persistir", "pt": "persistir", "de": "andauern / weiter bestehen", "emoji": "🔁", "passiv": true, "beispiel_pt": "Se o problema persistir, contacte a linha de apoio.", "beispiel_de": "Sollte das Problem weiter bestehen, wenden Sie sich an die Hotline.", "hinweis": "Typisch mit Futuro do conjuntivo: se o problema persistir …"},
+  {"id": "resolver-de-vez", "pt": "resolver de vez", "de": "endgültig lösen / ein für alle Mal lösen", "emoji": "✅", "beispiel_pt": "Quero resolver este problema de vez.", "beispiel_de": "Ich will dieses Problem ein für alle Mal lösen."},
+  {"id": "dar-razao-a", "pt": "dar razão a alguém", "de": "jemandem recht geben", "emoji": "🤝", "beispiel_pt": "No fim, a operadora deu-me razão.", "beispiel_de": "Am Ende hat mir der Anbieter recht gegeben.", "hinweis": "ter razão = recht haben; dar razão a alguém = jemandem recht geben"},
+  {"id": "apesar-de", "pt": "apesar de", "de": "trotz / obwohl (+ Infinitiv)", "emoji": "🧱", "beispiel_pt": "Apesar do preço, o apartamento era muito pequeno.", "beispiel_de": "Trotz des Preises war die Wohnung sehr klein.", "hinweis": "de + o = do: apesar do atraso, apesar da chuva. Mit Infinitiv: apesar de ter reservado."},
+  {"id": "apesar-disso", "pt": "apesar disso", "de": "trotzdem / dennoch", "emoji": "↪️", "beispiel_pt": "O quarto estava sujo. Apesar disso, ficámos lá duas noites.", "beispiel_de": "Das Zimmer war schmutzig. Trotzdem sind wir zwei Nächte dort geblieben."},
+  {"id": "a-estadia", "pt": "a estadia", "de": "der Aufenthalt", "emoji": "🧳", "beispiel_pt": "Desejamos-lhe uma ótima estadia!", "beispiel_de": "Wir wünschen Ihnen einen schönen Aufenthalt!"},
+  {"id": "nao-corresponder-a-descricao", "pt": "não corresponder à descrição", "de": "nicht der Beschreibung entsprechen", "emoji": "🖼️", "beispiel_pt": "O apartamento não corresponde à descrição do anúncio.", "beispiel_de": "Die Wohnung entspricht nicht der Beschreibung in der Anzeige."},
+  {"id": "o-transtorno", "pt": "o transtorno", "de": "die Unannehmlichkeit", "emoji": "😣", "beispiel_pt": "Pedimos desculpa pelo transtorno.", "beispiel_de": "Wir entschuldigen uns für die Unannehmlichkeiten.", "hinweis": "Standardformel, wenn sich Firmen entschuldigen."},
+  {"id": "a-desilusao", "pt": "a desilusão", "de": "die Enttäuschung", "emoji": "😞", "beispiel_pt": "As férias foram uma grande desilusão.", "beispiel_de": "Der Urlaub war eine große Enttäuschung.", "hinweis": "Que desilusão! = Wie enttäuschend!"},
+  {"id": "lamentavel", "pt": "lamentável", "de": "bedauerlich / beschämend", "emoji": "🙁", "passiv": true, "beispiel_pt": "O estado da casa de banho era lamentável.", "beispiel_de": "Der Zustand des Badezimmers war beschämend."},
+  {"id": "a-gerencia", "pt": "a gerência", "de": "die Geschäftsleitung", "emoji": "🏢", "passiv": true, "beispiel_pt": "A gerência do hotel ofereceu-nos o jantar.", "beispiel_de": "Die Hotelleitung hat uns das Abendessen spendiert."},
+  {"id": "a-falta-de-higiene", "pt": "a falta de higiene", "de": "die mangelnde Hygiene / mangelnde Sauberkeit", "emoji": "🦠", "passiv": true, "beispiel_pt": "Reclamei da falta de higiene na cozinha.", "beispiel_de": "Ich habe mich über die mangelnde Sauberkeit in der Küche beschwert."},
+  {"id": "mesmo-que", "pt": "mesmo que", "de": "selbst wenn / auch wenn", "emoji": "🛡️", "beispiel_pt": "Mesmo que o senhor insista, não pago esse valor.", "beispiel_de": "Selbst wenn Sie darauf bestehen, zahle ich diesen Betrag nicht.", "hinweis": "Immer mit Konjunktiv."},
+  {"id": "ainda-que", "pt": "ainda que", "de": "auch wenn / wenngleich", "emoji": "🌗", "beispiel_pt": "Ainda que demore mais, quero o trabalho bem feito.", "beispiel_de": "Auch wenn es länger dauert, will ich, dass die Arbeit ordentlich gemacht wird.", "hinweis": "Etwas gehobener als mesmo que; ebenfalls mit Konjunktiv."},
+  {"id": "o-mestre-de-obras", "pt": "o mestre de obras", "de": "der Baumeister / der Polier", "emoji": "👷", "beispiel_pt": "O mestre de obras prometeu acabar a varanda em março.", "beispiel_de": "Der Baumeister hat versprochen, die Terrasse im März fertigzustellen.", "hinweis": "Leitet die Arbeiten auf der Baustelle; bei kleinen Firmen oft der Chef selbst."},
+  {"id": "mal-feito", "pt": "mal feito", "de": "schlecht gemacht / gepfuscht", "emoji": "🪛", "beispiel_pt": "O trabalho na varanda está mal feito.", "beispiel_de": "Die Arbeit auf der Terrasse ist gepfuscht.", "alternativen": ["malfeito"], "hinweis": "Gegenteil: bem feito"},
+  {"id": "refazer", "pt": "refazer", "de": "neu machen / noch einmal machen", "emoji": "🔄", "beispiel_pt": "Têm de refazer o chão da cozinha.", "beispiel_de": "Sie müssen den Küchenboden neu machen.", "hinweis": "Konjugiert wie fazer: refaço, refez, refeito."},
+  {"id": "o-adiantamento", "pt": "o adiantamento", "de": "die Anzahlung / der Vorschuss", "emoji": "💶", "beispiel_pt": "Já paguei um adiantamento de trinta por cento.", "beispiel_de": "Ich habe schon eine Anzahlung von dreißig Prozent geleistet."},
+  {"id": "cobrar-a-mais", "pt": "cobrar a mais", "de": "zu viel verrechnen", "emoji": "🧾", "beispiel_pt": "Cobraram-me duzentos euros a mais.", "beispiel_de": "Man hat mir zweihundert Euro zu viel verrechnet."},
+  {"id": "o-acabamento", "pt": "o acabamento", "de": "die Ausführung / der Feinschliff (am Bau)", "emoji": "🖌️", "passiv": true, "beispiel_pt": "Os acabamentos da casa de banho são de má qualidade.", "beispiel_de": "Die Ausführung im Badezimmer ist von schlechter Qualität."},
+  {"id": "a-fissura", "pt": "a fissura", "de": "der Riss", "emoji": "🧱", "passiv": true, "beispiel_pt": "Apareceu uma fissura na parede nova.", "beispiel_de": "In der neuen Wand ist ein Riss aufgetaucht.", "hinweis": "umgangssprachlich auch: a racha"},
+  {"id": "exmos-senhores", "pt": "Exmos. Senhores", "de": "Sehr geehrte Damen und Herren", "emoji": "✉️", "beispiel_pt": "Exmos. Senhores, venho por este meio apresentar reclamação.", "beispiel_de": "Sehr geehrte Damen und Herren, hiermit erhebe ich Beschwerde.", "hinweis": "Exmos. = Excelentíssimos. Anrede an eine Firma ohne bekannte Ansprechperson. An eine Frau: Exma. Senhora."},
+  {"id": "relativo-a", "pt": "relativo a", "de": "bezüglich / betreffend", "emoji": "📎", "beispiel_pt": "Venho por este meio apresentar reclamação relativa à fatura de outubro.", "beispiel_de": "Hiermit erhebe ich Beschwerde bezüglich der Oktoberrechnung.", "hinweis": "Richtet sich nach dem Nomen: relativo ao contrato, relativa à fatura, relativas às falhas."},
+  {"id": "v-exa", "pt": "V. Ex.ª", "de": "Sie (sehr formell, schriftlich)", "emoji": "🎩", "passiv": true, "beispiel_pt": "Agradeço que V. Ex.ª me responda com brevidade.", "beispiel_de": "Ich bitte Sie, mir baldmöglichst zu antworten.", "hinweis": "= Vossa Excelência, Verb in der 3. Person Singular. Plural: V. Ex.as (Vossas Excelências)."},
+  {"id": "o-numero-de-cliente", "pt": "o número de cliente", "de": "die Kundennummer", "emoji": "🔢", "beispiel_pt": "O meu número de cliente é 457 210.", "beispiel_de": "Meine Kundennummer ist 457 210."},
+  {"id": "em-resposta-a", "pt": "em resposta a", "de": "in Beantwortung / als Antwort auf", "emoji": "↩️", "passiv": true, "beispiel_pt": "Em resposta ao vosso e-mail de 3 de maio, informo que não aceito a proposta.", "beispiel_de": "In Beantwortung Ihrer E-Mail vom 3. Mai teile ich mit, dass ich den Vorschlag nicht annehme."},
+  {"id": "pelo-exposto", "pt": "Pelo exposto, …", "de": "Aus den genannten Gründen … / Daher …", "emoji": "📌", "passiv": true, "beispiel_pt": "Pelo exposto, solicito a devolução do valor pago.", "beispiel_de": "Aus den genannten Gründen ersuche ich um Rückzahlung des bezahlten Betrags.", "hinweis": "Leitet im formellen Brief die Forderung am Schluss ein."},
+  {"id": "nao-obstante", "pt": "não obstante", "de": "ungeachtet / trotz", "emoji": "⚖️", "passiv": true, "beispiel_pt": "Não obstante as várias reclamações, o problema continua.", "beispiel_de": "Ungeachtet der mehrfachen Beschwerden besteht das Problem weiter.", "hinweis": "Sehr formell; bedeutet dasselbe wie apesar de."},
+  {"id": "o-mais-breve-possivel", "pt": "o mais breve possível", "de": "so bald wie möglich / baldmöglichst", "emoji": "⏩", "beispiel_pt": "Peço que me respondam o mais breve possível.", "beispiel_de": "Ich bitte Sie, mir so bald wie möglich zu antworten.", "hinweis": "Noch formeller: com a maior brevidade possível."},
+  {"id": "por-escrito", "pt": "por escrito", "de": "schriftlich", "emoji": "✍️", "beispiel_pt": "Quero a resposta por escrito.", "beispiel_de": "Ich möchte die Antwort schriftlich."},
+  {"id": "a-seguradora", "pt": "a seguradora", "de": "die Versicherung(sgesellschaft)", "emoji": "🏦", "beispiel_pt": "Liguei para a seguradora logo a seguir à tempestade.", "beispiel_de": "Ich habe die Versicherung gleich nach dem Sturm angerufen.", "hinweis": "o seguro = die Versicherung (der Vertrag); a seguradora = die Firma"},
+  {"id": "o-sinistro", "pt": "o sinistro", "de": "der Schadensfall", "emoji": "💥", "beispiel_pt": "O sinistro aconteceu durante a tempestade.", "beispiel_de": "Der Schadensfall ereignete sich während des Sturms.", "hinweis": "Versicherungssprache. Im Alltag sagt man eher o acidente oder os estragos."},
+  {"id": "participar-um-sinistro", "pt": "participar um sinistro", "de": "einen Schaden melden", "emoji": "📝", "beispiel_pt": "Participei o sinistro no próprio dia.", "beispiel_de": "Ich habe den Schaden noch am selben Tag gemeldet.", "hinweis": "participar = (offiziell) melden; a participação = die Schadensmeldung"},
+  {"id": "os-estragos", "pt": "os estragos", "de": "die Schäden", "emoji": "🏚️", "beispiel_pt": "A tempestade fez muitos estragos no telhado.", "beispiel_de": "Der Sturm hat am Dach große Schäden angerichtet.", "hinweis": "Alltagswort; in der Versicherungssprache heißt es eher os danos. Verb: estragar."},
+  {"id": "cobrir", "pt": "cobrir", "de": "decken / abdecken (Versicherung)", "emoji": "☂️", "beispiel_pt": "O seguro cobre os danos causados pela água?", "beispiel_de": "Deckt die Versicherung Wasserschäden?", "hinweis": "Unregelmäßig: cubro, cobres, cobre … – Partizip: coberto."},
+  {"id": "a-indemnizacao", "pt": "a indemnização", "de": "die Entschädigung / der Schadenersatz", "emoji": "💰", "beispiel_pt": "Ainda estou à espera da indemnização.", "beispiel_de": "Ich warte immer noch auf die Entschädigung.", "hinweis": "pt-PT: indemnização (BR: indenização)"},
+  {"id": "o-perito", "pt": "o perito", "de": "der Gutachter / der Sachverständige", "emoji": "🔍", "passiv": true, "beispiel_pt": "O perito da seguradora vem avaliar os danos na terça-feira.", "beispiel_de": "Der Gutachter der Versicherung kommt am Dienstag, um die Schäden zu begutachten.", "alternativen": ["a perita"]},
+  {"id": "a-declaracao-amigavel", "pt": "a declaração amigável", "de": "der (Europäische) Unfallbericht", "emoji": "🚗", "passiv": true, "beispiel_pt": "Depois do acidente, preenchemos a declaração amigável.", "beispiel_de": "Nach dem Unfall haben wir den Unfallbericht ausgefüllt.", "hinweis": "Formular, das beide Fahrer nach einem Autounfall gemeinsam ausfüllen."},
+  {"id": "o-prejuizo", "pt": "o prejuízo", "de": "der (finanzielle) Schaden / der Verlust", "emoji": "📉", "passiv": true, "beispiel_pt": "A avaria causou-me um prejuízo de mil euros.", "beispiel_de": "Der Defekt hat mir einen Schaden von tausend Euro verursacht."},
+  {"id": "o-consumidor", "pt": "o consumidor", "de": "der Verbraucher", "emoji": "🛒", "beispiel_pt": "Como consumidor, tenho direito a uma resposta.", "beispiel_de": "Als Verbraucher habe ich Anspruch auf eine Antwort.", "alternativen": ["a consumidora"]},
+  {"id": "a-defesa-do-consumidor", "pt": "a defesa do consumidor", "de": "der Verbraucherschutz", "emoji": "🛡️", "passiv": true, "beispiel_pt": "A DECO é a maior associação de defesa do consumidor em Portugal.", "beispiel_de": "Die DECO ist der größte Verbraucherschutzverband Portugals.", "hinweis": "DECO = Associação Portuguesa para a Defesa do Consumidor (vergleichbar mit dem VKI in Österreich)."},
+  {"id": "lesado", "pt": "lesado", "de": "geschädigt", "emoji": "🩹", "passiv": true, "beispiel_pt": "Os clientes lesados podem pedir uma indemnização.", "beispiel_de": "Die geschädigten Kunden können eine Entschädigung verlangen.", "alternativen": ["lesada"]},
+  {"id": "a-clausula-abusiva", "pt": "a cláusula abusiva", "de": "die missbräuchliche Vertragsklausel", "emoji": "📜", "passiv": true, "beispiel_pt": "Uma cláusula abusiva não tem validade.", "beispiel_de": "Eine missbräuchliche Klausel ist ungültig."},
+  {"id": "a-publicidade-enganosa", "pt": "a publicidade enganosa", "de": "die irreführende Werbung", "emoji": "📢", "passiv": true, "beispiel_pt": "Prometer internet sem falhas é publicidade enganosa.", "beispiel_de": "Internet ohne Störungen zu versprechen ist irreführende Werbung."},
+  {"id": "o-direito-de-livre-resolucao", "pt": "o direito de livre resolução", "de": "das Widerrufsrecht", "emoji": "🔙", "passiv": true, "beispiel_pt": "Nas compras online, tem catorze dias para exercer o direito de livre resolução.", "beispiel_de": "Bei Online-Käufen haben Sie vierzehn Tage Zeit, Ihr Widerrufsrecht auszuüben."},
+  {"id": "mesmo-assim", "pt": "mesmo assim", "de": "trotzdem", "emoji": "💪", "beispiel_pt": "A loja recusou a troca. Mesmo assim, não desisti.", "beispiel_de": "Das Geschäft hat den Umtausch abgelehnt. Trotzdem habe ich nicht aufgegeben."},
+  {"id": "porem", "pt": "porém", "de": "jedoch / allerdings", "emoji": "🔃", "beispiel_pt": "O aspirador tinha garantia. Porém, a loja recusou a reparação.", "beispiel_de": "Der Staubsauger hatte Garantie. Das Geschäft hat die Reparatur jedoch abgelehnt.", "hinweis": "Etwas formeller als mas; kann auch mitten im Satz stehen: A loja, porém, recusou."},
+  {"id": "contudo", "pt": "contudo", "de": "jedoch / dennoch", "emoji": "🔂", "beispiel_pt": "A loja reconheceu o defeito; contudo, não devolveu o dinheiro.", "beispiel_de": "Das Geschäft hat den Mangel anerkannt, das Geld aber dennoch nicht zurückgegeben.", "hinweis": "Etwas formeller als mas; steht oft nach Strichpunkt oder Komma."},
+  {"id": "a-divida", "pt": "a dívida", "de": "die Schuld (Geld)", "emoji": "💸", "beispiel_pt": "A empresa ainda tem uma dívida de 800 euros para comigo.", "beispiel_de": "Die Firma schuldet mir noch 800 Euro.", "hinweis": "o valor em dívida = der offene Betrag; a culpa = die (moralische) Schuld"},
+  {"id": "o-prazo-limite", "pt": "o prazo-limite", "de": "die letzte Frist / die Deadline", "emoji": "⏳", "beispiel_pt": "O prazo-limite para o pagamento é 15 de novembro.", "beispiel_de": "Die letzte Zahlungsfrist ist der 15. November."},
+  {"id": "por-mais-que", "pt": "por mais que", "de": "so sehr auch / sooft auch", "emoji": "🔁", "beispiel_pt": "Por mais que eu ligue, ninguém me atende.", "beispiel_de": "Sooft ich auch anrufe, niemand hebt ab.", "hinweis": "Immer mit Konjunktiv. Ebenso: por muito que."},
+  {"id": "ver-se-obrigado-a", "pt": "ver-se obrigado a", "de": "sich gezwungen sehen zu", "emoji": "🚧", "beispiel_pt": "Vejo-me obrigado a recorrer a tribunal.", "beispiel_de": "Ich sehe mich gezwungen, vor Gericht zu gehen.", "alternativen": ["ver-se obrigada a"]},
+  {"id": "o-tribunal", "pt": "o tribunal", "de": "das Gericht", "emoji": "🏛️", "beispiel_pt": "Espero não ter de ir a tribunal.", "beispiel_de": "Ich hoffe, dass ich nicht vor Gericht gehen muss."},
+  {"id": "a-cobranca", "pt": "a cobrança", "de": "das Inkasso / die Eintreibung", "emoji": "📬", "passiv": true, "beispiel_pt": "A fatura foi enviada para uma empresa de cobranças.", "beispiel_de": "Die Rechnung wurde an ein Inkassobüro weitergegeben."},
+  {"id": "o-incumprimento", "pt": "o incumprimento", "de": "die Nichterfüllung / der Vertragsbruch", "emoji": "🚫", "passiv": true, "beispiel_pt": "Em caso de incumprimento, o contrato pode ser rescindido.", "beispiel_de": "Bei Nichterfüllung kann der Vertrag aufgelöst werden."},
+  {"id": "a-acao-judicial", "pt": "a ação judicial", "de": "die Klage", "emoji": "⚖️", "passiv": true, "beispiel_pt": "O advogado aconselhou-me a avançar com uma ação judicial.", "beispiel_de": "Der Anwalt hat mir geraten, Klage einzureichen."},
+  {"id": "os-juros-de-mora", "pt": "os juros de mora", "de": "die Verzugszinsen", "emoji": "📈", "passiv": true, "beispiel_pt": "Ao valor em dívida acrescem juros de mora.", "beispiel_de": "Zum offenen Betrag kommen Verzugszinsen hinzu."},
+  {"id": "a-mediacao", "pt": "a mediação", "de": "die Mediation / die Schlichtung", "emoji": "🕊️", "beispiel_pt": "Propus uma mediação para evitar o tribunal.", "beispiel_de": "Ich habe eine Mediation vorgeschlagen, um das Gericht zu vermeiden."},
+  {"id": "o-mediador", "pt": "o mediador", "de": "der Mediator / der Schlichter", "emoji": "🧑‍⚖️", "passiv": true, "beispiel_pt": "A mediadora ouviu as duas partes com calma.", "beispiel_de": "Die Mediatorin hat beide Seiten in Ruhe angehört.", "alternativen": ["a mediadora"]},
+  {"id": "o-julgado-de-paz", "pt": "o julgado de paz", "de": "das Friedensgericht (Schlichtungsgericht)", "emoji": "🏠", "passiv": true, "beispiel_pt": "Os julgados de paz resolvem conflitos de pequeno valor de forma rápida e barata.", "beispiel_de": "Die Friedensgerichte lösen Streitigkeiten mit geringem Streitwert schnell und günstig.", "hinweis": "Portugiesische Besonderheit: für Streitigkeiten bis 15 000 €, meist mit Mediation vorab."},
+  {"id": "a-arbitragem", "pt": "a arbitragem", "de": "das Schiedsverfahren", "emoji": "🏁", "passiv": true, "beispiel_pt": "O centro de arbitragem resolve conflitos de consumo.", "beispiel_de": "Die Schiedsstelle löst Verbraucherstreitigkeiten."},
+  {"id": "ceder", "pt": "ceder", "de": "nachgeben / einlenken", "emoji": "🫳", "beispiel_pt": "Chegamos a acordo se cada um ceder um pouco.", "beispiel_de": "Wir einigen uns, wenn jeder ein bisschen nachgibt.", "hinweis": "Futuro do conjuntivo: se cada um ceder …"},
+  {"id": "o-meio-termo", "pt": "o meio-termo", "de": "der Kompromiss / die goldene Mitte", "emoji": "🎯", "beispiel_pt": "Vamos encontrar um meio-termo.", "beispiel_de": "Finden wir einen Kompromiss.", "hinweis": "Vorsicht: o compromisso heißt meist „die Verpflichtung“ oder „der Termin“."},
+  {"id": "amigavel", "pt": "amigável", "de": "gütlich / freundschaftlich", "emoji": "🤗", "beispiel_pt": "Preferimos uma solução amigável.", "beispiel_de": "Wir ziehen eine gütliche Lösung vor."},
+  {"id": "chegar-a-um-entendimento", "pt": "chegar a um entendimento", "de": "sich verständigen / eine Einigung erzielen", "emoji": "🫱", "beispiel_pt": "Depois de duas horas, chegámos a um entendimento.", "beispiel_de": "Nach zwei Stunden haben wir uns geeinigt."},
+  {"id": "nem-que", "pt": "nem que", "de": "und wenn … auch / selbst wenn (betont)", "emoji": "✊", "beispiel_pt": "Vou até ao fim, nem que tenha de ir a tribunal.", "beispiel_de": "Ich ziehe das durch, und wenn ich vor Gericht gehen muss.", "hinweis": "nem que seja = und sei es nur: nem que seja um pedido de desculpas"},
+  {"id": "falar-com-o-responsavel", "pt": "falar com o responsável", "de": "mit dem Verantwortlichen sprechen", "emoji": "☎️", "beispiel_pt": "Posso falar com o responsável, por favor?", "beispiel_de": "Kann ich bitte mit dem Verantwortlichen sprechen?", "hinweis": "o/a responsável = die zuständige Person"},
+  {"id": "o-superior-hierarquico", "pt": "o superior hierárquico", "de": "der/die Vorgesetzte", "emoji": "🪜", "passiv": true, "beispiel_pt": "Vou passar a chamada ao meu superior hierárquico.", "beispiel_de": "Ich verbinde Sie mit meinem Vorgesetzten."},
+  {"id": "a-gravacao", "pt": "a gravação", "de": "die Aufzeichnung", "emoji": "⏺️", "passiv": true, "beispiel_pt": "Para efeitos de qualidade, esta chamada pode ser gravada. Não autorizo a gravação.", "beispiel_de": "Zu Qualitätszwecken kann dieses Gespräch aufgezeichnet werden. Ich stimme der Aufzeichnung nicht zu."},
+  {"id": "transferir-a-chamada", "pt": "transferir a chamada", "de": "das Gespräch weiterleiten / verbinden", "emoji": "🔀", "beispiel_pt": "Vou transferir a chamada para o departamento técnico.", "beispiel_de": "Ich verbinde Sie mit der technischen Abteilung."},
+  {"id": "o-numero-da-reclamacao", "pt": "o número da reclamação", "de": "die Beschwerdenummer / das Aktenzeichen", "emoji": "🔖", "beispiel_pt": "Pode dar-me o número da reclamação?", "beispiel_de": "Können Sie mir die Beschwerdenummer geben?"},
+  {"id": "manter-a-calma", "pt": "manter a calma", "de": "ruhig bleiben", "emoji": "🧘", "beispiel_pt": "Mesmo que me irritem, tento manter a calma.", "beispiel_de": "Auch wenn sie mich ärgern, versuche ich, ruhig zu bleiben."},
+  {"id": "estar-farto-de", "pt": "estar farto de", "de": "genug haben von / es satthaben", "emoji": "😩", "beispiel_pt": "Estou farto de esperar ao telefone!", "beispiel_de": "Ich habe es satt, am Telefon zu warten!", "alternativen": ["estar farta de"]},
+  {"id": "levantar-a-voz", "pt": "levantar a voz", "de": "laut werden / die Stimme erheben", "emoji": "📣", "passiv": true, "beispiel_pt": "Não precisa de levantar a voz.", "beispiel_de": "Sie brauchen nicht laut zu werden."},
+  {"id": "a-resposta-padrao", "pt": "a resposta-padrão", "de": "die Standardantwort", "emoji": "🤖", "passiv": true, "beispiel_pt": "Recebi outra vez a mesma resposta-padrão.", "beispiel_de": "Ich habe schon wieder dieselbe Standardantwort bekommen."},
+  {"id": "a-compensacao", "pt": "a compensação", "de": "die Entschädigung / der Ausgleich", "emoji": "🎁", "beispiel_pt": "Como compensação, ofereceram-nos um mês grátis.", "beispiel_de": "Als Entschädigung haben sie uns einen Gratismonat angeboten."},
+  {"id": "o-gesto-de-boa-vontade", "pt": "o gesto de boa vontade", "de": "die Kulanz / die Geste des guten Willens", "emoji": "💐", "beispiel_pt": "O desconto foi um gesto de boa vontade.", "beispiel_de": "Der Rabatt war eine Kulanzgeste."},
+  {"id": "o-pedido-de-desculpas", "pt": "o pedido de desculpas", "de": "die Entschuldigung", "emoji": "🙏", "beispiel_pt": "Recebi finalmente um pedido de desculpas por escrito.", "beispiel_de": "Ich habe endlich eine schriftliche Entschuldigung bekommen."},
+  {"id": "reconhecer-o-erro", "pt": "reconhecer o erro", "de": "den Fehler eingestehen", "emoji": "🙋", "beispiel_pt": "A empresa reconheceu o erro e devolveu o dinheiro.", "beispiel_de": "Die Firma hat den Fehler eingestanden und das Geld zurückgegeben."},
+  {"id": "ficar-resolvido", "pt": "ficar resolvido", "de": "erledigt / gelöst werden", "emoji": "🏁", "beispiel_pt": "Ainda bem que o assunto ficou resolvido.", "beispiel_de": "Zum Glück ist die Sache erledigt."},
+  {"id": "ainda-assim", "pt": "ainda assim", "de": "trotzdem / dennoch", "emoji": "➰", "beispiel_pt": "Pediram desculpa; ainda assim, mudei de operadora.", "beispiel_de": "Sie haben sich entschuldigt; trotzdem habe ich den Anbieter gewechselt.", "hinweis": "Gleichbedeutend mit mesmo assim."},
+  {"id": "todavia", "pt": "todavia", "de": "jedoch (sehr formell)", "emoji": "📃", "passiv": true, "beispiel_pt": "A reclamação foi aceite; todavia, o prazo de resposta não foi cumprido.", "beispiel_de": "Die Beschwerde wurde angenommen; die Antwortfrist wurde jedoch nicht eingehalten."},
+  {"id": "dar-o-assunto-por-encerrado", "pt": "dar o assunto por encerrado", "de": "die Angelegenheit als erledigt betrachten", "emoji": "📁", "passiv": true, "beispiel_pt": "Com este reembolso, damos o assunto por encerrado.", "beispiel_de": "Mit dieser Rückerstattung betrachten wir die Angelegenheit als erledigt."},
+  {"id": "guardar-rancor", "pt": "guardar rancor", "de": "nachtragend sein / Groll hegen", "emoji": "🧊", "passiv": true, "beispiel_pt": "Já passou. Não guardo rancor a ninguém.", "beispiel_de": "Es ist vorbei. Ich trage niemandem etwas nach."}
+ ],
+ "lektionen": [
+  {
+   "id": "B1-10-L01",
+   "typ": "neu",
+   "titel": "Embora … – Ärger mit dem Internetanbieter",
+   "vokabeln": ["embora", "o-conflito", "insatisfeito", "a-falha", "a-interrupcao", "o-descontentamento", "persistir", "resolver-de-vez", "dar-razao-a"],
+   "grammatik": {
+    "titel": "Embora + presente do conjuntivo",
+    "erklaerung": [
+     "<b>Embora</b> introduz uma concessão: um facto que, à primeira vista, devia impedir o que diz a frase principal. Depois de <i>embora</i> usa-se <b>sempre o conjuntivo</b>: <i>Embora a internet <b>falhe</b> todos os dias, a operadora não faz nada.</i>",
+     "Se a frase principal está no presente ou no futuro, usamos o <b>presente do conjuntivo</b>: <i>embora <b>seja</b>, embora <b>tenha</b>, embora <b>possa</b>, embora <b>pague</b></i>. As formas são as mesmas que depois de <i>espero que …</i>",
+     "A oração com <i>embora</i> pode vir antes ou depois da principal: <i>Pago a mensalidade, <b>embora</b> o serviço <b>seja</b> mau.</i> Os pronomes ficam antes do verbo: <i>embora <b>me dê</b> razão</i>.",
+     "Atenção: com <b>mas</b>, o verbo fica no indicativo. <i>O serviço <b>é</b> mau, <b>mas</b> pago.</i> = <i><b>Embora</b> o serviço <b>seja</b> mau, pago.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>Embora</b> (obwohl) leitet eine Einräumung ein: eine Tatsache, die eigentlich gegen den Hauptsatz spricht. Nach <i>embora</i> steht <b>immer der Konjunktiv</b>: <i>Embora a internet <b>falhe</b> …</i> – Obwohl das Internet ausfällt …",
+     "Steht der Hauptsatz im Präsens oder Futur, nimmt man den <b>Presente do conjuntivo</b>: <i>seja, tenha, possa, pague</i> – dieselben Formen wie nach <i>espero que …</i>",
+     "Der <i>embora</i>-Satz kann vor oder nach dem Hauptsatz stehen: <i>Pago a mensalidade, embora o serviço seja mau.</i> Pronomen stehen im Nebensatz vor dem Verb: <i>embora <b>me dê</b> razão</i> – obwohl er mir recht gibt.",
+     "Vorsicht: Mit <b>mas</b> (aber) bleibt der Indikativ. <i>O serviço é mau, mas pago.</i> = <i>Embora o serviço seja mau, pago.</i> – gleiche Aussage, andere Konstruktion."
+    ],
+    "vergleich": "Deutsch „obwohl“ steht mit Indikativ: „Obwohl das Internet ausfällt …“. Im Portugiesischen verlangt <i>embora</i> den Konjunktiv: <i>Embora a internet falhe …</i> Auch englisch „although“ hat den Indikativ – hier musst du also umdenken.",
+    "beispiele": [
+     {"pt": "Embora a fatura seja alta, a internet funciona mal.", "de": "Obwohl die Rechnung hoch ist, funktioniert das Internet schlecht."},
+     {"pt": "Continuo insatisfeito, embora a operadora me dê razão.", "de": "Ich bin weiterhin unzufrieden, obwohl mir der Anbieter recht gibt."},
+     {"pt": "Embora estejamos a pagar o tarifário mais caro, a falha persiste.", "de": "Obwohl wir den teuersten Tarif zahlen, besteht die Störung weiter."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Embora a internet ___ (falhar) todos os dias, ninguém resolve o problema.", "loesungen": ["falhe"], "de": "Obwohl das Internet jeden Tag ausfällt, löst niemand das Problem.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Embora eu ___ (ser) cliente há cinco anos, não tenho nenhum desconto.", "loesungen": ["seja"], "de": "Obwohl ich seit fünf Jahren Kunde bin, habe ich keinen Rabatt.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Pagamos tudo a tempo, embora o serviço ___ (ter) muitas falhas.", "loesungen": ["tenha"], "de": "Wir zahlen alles pünktlich, obwohl der Dienst viele Störungen hat.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Embora os técnicos ___ (dizer) que está tudo bem, a ligação cai todas as noites.", "loesungen": ["digam"], "de": "Obwohl die Techniker sagen, dass alles in Ordnung ist, bricht die Verbindung jeden Abend ab.", "erklaerung": "dizer → (eu) digo → que eles digam.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "Embora a operadora ___ razão, nada muda.", "optionen": ["me dá", "me dê", "dá-me"], "richtig": 1, "erklaerung": "Nach embora: Konjunktiv (dê), und das Pronomen steht im Nebensatz vor dem Verb.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "Welcher Satz bedeutet dasselbe wie „O serviço é caro, mas é rápido.“?", "optionen": ["Embora o serviço seja caro, é rápido.", "Embora o serviço é caro, é rápido.", "Porque o serviço é caro, é rápido."], "richtig": 0, "erklaerung": "mas + Indikativ = embora + Konjunktiv.", "kategorie": "Konzessiv"},
+     {"typ": "uebersetzen", "de": "Obwohl ich unzufrieden bin, kündige ich den Vertrag nicht.", "loesungen": ["Embora esteja insatisfeito, não rescindo o contrato.", "Embora eu esteja insatisfeito, não rescindo o contrato.", "Embora esteja insatisfeita, não rescindo o contrato.", "Embora eu esteja insatisfeita, não rescindo o contrato.", "Embora esteja insatisfeito, não vou rescindir o contrato.", "Embora eu esteja insatisfeito, não vou rescindir o contrato.", "Não rescindo o contrato, embora esteja insatisfeito."], "kategorie": "Konjunktiv"},
+     {"typ": "satzbau", "de": "Ich will dieses Problem endgültig lösen, obwohl es schwierig ist.", "loesung": "Quero resolver este problema de vez, embora seja difícil."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A internet volta a falhar – das Internet fällt schon wieder aus",
+    "situation": "Stefan ruft die Hotline seines Internetanbieters an. Die Verbindung in seinem Home-Office in Lagos bricht seit Tagen immer wieder ab.",
+    "zeilen": [
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Linha de apoio ao cliente, bom dia. Fala a Sílvia. Em que posso ajudar?", "de": "Kundenhotline, guten Morgen. Hier spricht Sílvia. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. A minha internet tem falhas todos os dias desde segunda-feira. Como trabalho a partir de casa, isto é grave: já perdi duas reuniões.", "de": "Guten Morgen. Mein Internet fällt seit Montag jeden Tag aus. Da ich von zu Hause aus arbeite, ist das schlimm: Ich habe schon zwei Besprechungen verpasst."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Lamento muito. Já reiniciou o router?", "de": "Das tut mir sehr leid. Haben Sie den Router schon neu gestartet?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já, várias vezes. Embora o router esteja sempre ligado, a ligação cai ao fim da tarde.", "de": "Ja, mehrmals. Obwohl der Router immer eingeschaltet ist, bricht die Verbindung am späten Nachmittag ab."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Estou a ver aqui uma interrupção na sua zona. Os nossos técnicos já estão a trabalhar no problema.", "de": "Ich sehe hier eine Unterbrechung in Ihrer Gegend. Unsere Techniker arbeiten schon an dem Problem."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Compreendo, mas estou muito insatisfeito. Embora pague o tarifário mais caro, o serviço está pior do que nunca.", "de": "Ich verstehe, aber ich bin sehr unzufrieden. Obwohl ich den teuersten Tarif zahle, ist der Service schlechter denn je."},
+     {"sprecher": "Assistente", "stimme": "f", "pt": "Tem toda a razão. Vou registar o seu descontentamento e pedir um desconto na próxima fatura.", "de": "Sie haben völlig recht. Ich halte Ihre Unzufriedenheit fest und beantrage einen Rabatt auf der nächsten Rechnung."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado. Mas o que eu quero mesmo é resolver isto de vez.", "de": "Danke. Aber was ich wirklich will, ist, das ein für alle Mal zu lösen."}
+    ],
+    "fragen": [
+     {"frage": "Desde quando tem o Stefan problemas com a internet?", "optionen": ["Desde sábado.", "Desde segunda-feira.", "Desde o mês passado."], "richtig": 1},
+     {"frage": "Quando é que a ligação cai?", "optionen": ["De manhã cedo.", "À hora de almoço.", "Ao fim da tarde."], "richtig": 2},
+     {"frage": "O que propõe a assistente?", "optionen": ["Um desconto na próxima fatura.", "Um router novo.", "Mudar de tarifário."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Estou muito insatisfeito com o serviço.", "de": "Ich bin mit dem Service sehr unzufrieden."},
+     {"pt": "Embora pague a tempo, a internet falha todos os dias.", "de": "Obwohl ich pünktlich zahle, fällt das Internet jeden Tag aus."},
+     {"pt": "Quero resolver este problema de vez.", "de": "Ich will dieses Problem ein für alle Mal lösen."},
+     {"pt": "No fim, a operadora deu-me razão.", "de": "Am Ende hat mir der Anbieter recht gegeben."},
+     {"pt": "Prefiro resolver o conflito com uma conversa.", "de": "Ich löse den Konflikt lieber mit einem Gespräch."}
+    ]
+   },
+   "saetze": [
+    {"id": "embora-pague-a-tempo", "pt": "Embora pague a tempo, a internet falha todos os dias.", "de": "Obwohl ich pünktlich zahle, fällt das Internet jeden Tag aus."},
+    {"id": "estou-insatisfeito-servico", "pt": "Estou muito insatisfeito com o serviço.", "de": "Ich bin mit dem Service sehr unzufrieden."},
+    {"id": "resolver-problema-de-vez", "pt": "Quero resolver este problema de vez.", "de": "Ich will dieses Problem ein für alle Mal lösen."}
+   ]
+  },
+  {
+   "id": "B1-10-L02",
+   "typ": "neu",
+   "titel": "Apesar de … – das enttäuschende Hotel",
+   "vokabeln": ["apesar-de", "apesar-disso", "a-estadia", "nao-corresponder-a-descricao", "o-transtorno", "a-desilusao", "lamentavel", "a-gerencia", "a-falta-de-higiene"],
+   "grammatik": {
+    "titel": "Apesar de + nome / + infinitivo; apesar disso",
+    "erklaerung": [
+     "<b>Apesar de</b> + <b>nome</b>: <i>apesar <b>do</b> preço, apesar <b>da</b> chuva, apesar <b>dos</b> problemas</i> (de + o = do, de + a = da).",
+     "<b>Apesar de</b> + <b>infinitivo</b> – sem conjuntivo! <i>Apesar de <b>ser</b> caro, o quarto era pequeno.</i> Quando é preciso mostrar o sujeito, usamos o <b>infinitivo pessoal</b>: <i>Apesar de <b>termos</b> reservado vista mar, o quarto dava para o parque de estacionamento.</i> Com sujeito próprio: <i>apesar de <b>os</b> donos <b>serem</b> simpáticos</i>.",
+     "Para o passado, usa-se muitas vezes <b>apesar de ter</b> + particípio: <i>Apesar de <b>ter</b> reclamado, não recebi resposta.</i> (= <i>embora tenha reclamado</i>)",
+     "<b>Apesar disso</b> (= trotzdem) liga duas frases e fica sozinho: <i>O quarto estava sujo. <b>Apesar disso</b>, ficámos.</i> Não confunda: <i>apesar <b>de</b></i> + nome/infinitivo, mas <i>apesar <b>disso</b></i> sem mais nada."
+    ],
+    "erklaerung_de": [
+     "<b>Apesar de</b> + <b>Nomen</b> = trotz: <i>apesar do preço</i> (trotz des Preises), <i>apesar da chuva</i> (trotz des Regens). de + o = do, de + a = da.",
+     "<b>Apesar de</b> + <b>Infinitiv</b> = obwohl – ganz ohne Konjunktiv! Muss das Subjekt klar sein, nimmt man den <b>persönlichen Infinitiv</b>: <i>Apesar de <b>termos</b> reservado …</i> – Obwohl wir gebucht hatten … Mit eigenem Subjekt: <i>apesar de os donos serem simpáticos</i> (hier meist <i>de os</i>, nicht <i>dos</i>).",
+     "Für Vergangenes: <b>apesar de ter</b> + Partizip: <i>Apesar de ter reclamado, não recebi resposta.</i> – Obwohl ich mich beschwert hatte, bekam ich keine Antwort.",
+     "<b>Apesar disso</b> = trotzdem; es verbindet zwei Sätze und steht allein: <i>O quarto estava sujo. Apesar disso, ficámos.</i> Also: <i>apesar de</i> + Nomen/Infinitiv, aber <i>apesar disso</i> ohne Ergänzung."
+    ],
+    "vergleich": "„Trotz des Preises“ = <i>apesar do preço</i>. Für „obwohl wir gebucht hatten“ braucht das Portugiesische keinen Nebensatz: <i>apesar de termos reservado</i> – der persönliche Infinitiv macht es kurz. Englisch ähnlich: „despite having booked“.",
+    "beispiele": [
+     {"pt": "Apesar do preço alto, o quarto não correspondia à descrição.", "de": "Trotz des hohen Preises entsprach das Zimmer nicht der Beschreibung."},
+     {"pt": "Apesar de termos reclamado, a gerência não fez nada.", "de": "Obwohl wir uns beschwert hatten, hat die Geschäftsleitung nichts unternommen."},
+     {"pt": "A piscina estava fechada. Apesar disso, gostámos da estadia.", "de": "Der Pool war geschlossen. Trotzdem hat uns der Aufenthalt gefallen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Apesar ___ chuva, fomos à praia.", "loesungen": ["da"], "de": "Trotz des Regens sind wir an den Strand gegangen.", "erklaerung": "de + a chuva = da chuva.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Apesar ___ problemas, a estadia foi agradável.", "loesungen": ["dos"], "de": "Trotz der Probleme war der Aufenthalt angenehm.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "Apesar de ___ (nós – ter) reservado com antecedência, não havia quarto para nós.", "loesungen": ["termos"], "de": "Obwohl wir rechtzeitig reserviert hatten, gab es kein Zimmer für uns.", "erklaerung": "Persönlicher Infinitiv: nós → termos.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Apesar de os donos ___ (ser) simpáticos, o apartamento foi uma desilusão.", "loesungen": ["serem"], "de": "Obwohl die Besitzer nett waren, war die Wohnung eine Enttäuschung.", "erklaerung": "Eigenes Subjekt (os donos) → persönlicher Infinitiv: serem.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "„Trotzdem“ heißt auf Portugiesisch …", "optionen": ["apesar de", "apesar disso", "embora"], "richtig": 1, "kategorie": "Konzessiv"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist richtig?", "optionen": ["Apesar de seja caro, é bom.", "Apesar que é caro, é bom.", "Apesar de ser caro, é bom."], "richtig": 2, "erklaerung": "Nach apesar de folgt der Infinitiv – kein Konjunktiv.", "kategorie": "Konzessiv"},
+     {"typ": "uebersetzen", "de": "Trotz der mangelnden Sauberkeit sind wir drei Nächte geblieben.", "loesungen": ["Apesar da falta de higiene, ficámos três noites.", "Apesar da falta de limpeza, ficámos três noites.", "Apesar da falta de higiene, ficámos lá três noites.", "Apesar da falta de limpeza, ficámos lá três noites.", "Ficámos três noites, apesar da falta de higiene."], "kategorie": "Konzessiv"},
+     {"typ": "satzbau", "de": "Wir entschuldigen uns für die Unannehmlichkeiten.", "loesung": "Pedimos desculpa pelo transtorno."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um quarto sem vista – ein Zimmer ohne Aussicht",
+    "situation": "Stefan und Ana verbringen ein Wochenende in einem Hotel in Évora. An der Rezeption beschweren sie sich.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Apesar de termos reservado um quarto com vista para a cidade, o nosso quarto dá para o parque de estacionamento.", "de": "Guten Tag. Obwohl wir ein Zimmer mit Blick auf die Stadt gebucht haben, geht unser Zimmer auf den Parkplatz hinaus."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Peço imensa desculpa pelo transtorno. Deixe-me ver… Infelizmente, hoje o hotel está cheio.", "de": "Ich bitte vielmals um Entschuldigung für die Unannehmlichkeiten. Lassen Sie mich nachsehen … Leider ist das Hotel heute voll."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E não é só isso. Apesar do preço, a casa de banho está suja e o ar condicionado não funciona.", "de": "Und das ist nicht alles. Trotz des Preises ist das Badezimmer schmutzig, und die Klimaanlage funktioniert nicht."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Isso é lamentável. Vou já mandar alguém fazer a limpeza.", "de": "Das ist bedauerlich. Ich schicke sofort jemanden zum Putzen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sinceramente, o quarto não corresponde à descrição do site. Para nós, está a ser uma desilusão.", "de": "Ehrlich gesagt entspricht das Zimmer nicht der Beschreibung auf der Website. Für uns ist das eine Enttäuschung."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Compreendo perfeitamente. Um momento, vou falar com a gerência.", "de": "Das verstehe ich vollkommen. Einen Moment, ich spreche mit der Geschäftsleitung."},
+     {"sprecher": "Rececionista", "stimme": "f", "pt": "Pronto: a gerência oferece-lhes o jantar de hoje, e amanhã de manhã podem passar para uma suíte com vista.", "de": "So: Die Geschäftsleitung lädt Sie heute zum Abendessen ein, und morgen früh können Sie in eine Suite mit Aussicht umziehen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Assim já está melhor. Apesar do mau começo, talvez a estadia ainda acabe bem.", "de": "So ist es schon besser. Trotz des schlechten Anfangs endet der Aufenthalt vielleicht doch noch gut."}
+    ],
+    "fragen": [
+     {"frage": "Que quarto tinham reservado o Stefan e a Ana?", "optionen": ["Um quarto com vista para a cidade.", "Um quarto com vista para o mar.", "Um quarto com varanda."], "richtig": 0},
+     {"frage": "Qual destes problemas NÃO é referido?", "optionen": ["A casa de banho suja.", "O ar condicionado avariado.", "O barulho dos vizinhos."], "richtig": 2},
+     {"frage": "O que oferece a gerência?", "optionen": ["Um desconto de cinquenta por cento.", "O jantar e uma suíte no dia seguinte.", "Uma noite grátis."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Du hast über das Wochenende eine Ferienwohnung in Tavira gemietet. Sie entspricht nicht der Anzeige. Du rufst die Vermieterin, Dona Graça, an und sprichst sie formell an.",
+    "zeilen": [
+     {"sprecher": "Graça", "stimme": "f", "pt": "Estou, sim? Fala a Graça. Então, estão a gostar do apartamento?", "de": "Hallo? Hier ist Graça. Na, gefällt Ihnen die Wohnung?"},
+     {"ich": true, "aufgabe": "Sag: Leider nicht. Die Wohnung entspricht nicht der Beschreibung.", "loesungen": ["Infelizmente não. O apartamento não corresponde à descrição.", "Infelizmente, não. O apartamento não corresponde à descrição.", "Infelizmente não. O apartamento não corresponde à descrição do anúncio.", "Lamento, mas não. O apartamento não corresponde à descrição."]},
+     {"sprecher": "Graça", "stimme": "f", "pt": "A sério? Mas qual é o problema?", "de": "Wirklich? Aber was ist denn das Problem?"},
+     {"ich": true, "aufgabe": "Sag: Trotz des Preises gibt es keine Klimaanlage, und die Küche ist schmutzig.", "loesungen": ["Apesar do preço, não há ar condicionado e a cozinha está suja.", "Apesar do preço, não tem ar condicionado e a cozinha está suja.", "Apesar do preço, não há ar condicionado, e a cozinha está suja.", "Apesar do preço, não há ar condicionado e a cozinha está muito suja."]},
+     {"sprecher": "Graça", "stimme": "f", "pt": "Peço desculpa pelo transtorno. Mando já lá alguém para limpar.", "de": "Entschuldigen Sie die Unannehmlichkeiten. Ich schicke sofort jemanden zum Putzen hin."},
+     {"ich": true, "aufgabe": "Sag: Danke. Trotzdem hätte ich gern einen Rabatt.", "loesungen": ["Obrigado. Apesar disso, gostava de ter um desconto.", "Obrigado. Apesar disso, gostava de um desconto.", "Obrigado. Mesmo assim, gostava de ter um desconto.", "Obrigada. Apesar disso, gostava de ter um desconto.", "Obrigado. Apesar disso, gostaria de ter um desconto.", "Obrigado. Apesar disso, queria um desconto."]}
+    ]
+   },
+   "saetze": [
+    {"id": "apesar-do-preco", "pt": "Apesar do preço, o apartamento foi uma desilusão.", "de": "Trotz des Preises war die Wohnung eine Enttäuschung."},
+    {"id": "nao-corresponde-descricao", "pt": "O quarto não corresponde à descrição.", "de": "Das Zimmer entspricht nicht der Beschreibung."},
+    {"id": "apesar-de-termos-reservado", "pt": "Apesar de termos reservado vista mar, o quarto dá para o parque de estacionamento.", "de": "Obwohl wir Meerblick gebucht haben, geht das Zimmer auf den Parkplatz hinaus."}
+   ]
+  },
+  {
+   "id": "B1-10-L03",
+   "typ": "neu",
+   "titel": "Mesmo que … – Streit mit dem Bauunternehmer",
+   "vokabeln": ["mesmo-que", "ainda-que", "o-mestre-de-obras", "mal-feito", "refazer", "o-adiantamento", "cobrar-a-mais", "o-acabamento", "a-fissura"],
+   "grammatik": {
+    "titel": "Mesmo que / ainda que + presente do conjuntivo",
+    "erklaerung": [
+     "<b>Mesmo que</b> e <b>ainda que</b> significam <i>selbst wenn / auch wenn</i>. Tal como <i>embora</i>, pedem <b>sempre o conjuntivo</b>: <i><b>Mesmo que</b> o senhor <b>insista</b>, não pago.</i>",
+     "A diferença: <i>embora</i> fala de um facto real (<i>Embora a obra <b>esteja</b> atrasada …</i> – está mesmo atrasada). <i>Mesmo que</i> fala muitas vezes de uma hipótese (<i>Mesmo que <b>demore</b> mais …</i> – talvez demore, talvez não).",
+     "<b>Ainda que</b> é um pouco mais formal e serve para os dois casos: <i><b>Ainda que</b> o preço <b>seja</b> justo, o acabamento está mal feito.</i>",
+     "Lembre-se dos irregulares: <i>ser → seja, estar → esteja, ter → tenha, fazer → faça, ir → vá, haver → haja, querer → queira, saber → saiba, dar → dê</i>."
+    ],
+    "erklaerung_de": [
+     "<b>Mesmo que</b> und <b>ainda que</b> heißen „selbst wenn / auch wenn“. Wie nach <i>embora</i> folgt <b>immer der Konjunktiv</b>: <i>Mesmo que o senhor insista, não pago.</i> – Selbst wenn Sie darauf bestehen, zahle ich nicht.",
+     "Der Unterschied: <i>embora</i> nennt eine echte Tatsache (die Baustelle <b>ist</b> verspätet). <i>Mesmo que</i> nennt oft eine Annahme: <i>Mesmo que demore mais …</i> – vielleicht dauert es länger, vielleicht nicht.",
+     "<b>Ainda que</b> ist etwas gehobener und passt für beides: <i>Ainda que o preço seja justo, o acabamento está mal feito.</i> – Auch wenn der Preis fair ist, die Ausführung ist schlecht.",
+     "Wiederhole die unregelmäßigen Formen: <i>seja, esteja, tenha, faça, vá, haja, queira, saiba, dê</i>."
+    ],
+    "vergleich": "„Selbst wenn er darauf besteht“ – im Deutschen Indikativ. Portugiesisch: <i>Mesmo que ele insista</i> – Konjunktiv. Englisch: „even if he insists“. <i>Mesmo se</i> gibt es auch, im europäischen Portugiesisch ist <i>mesmo que</i> aber viel üblicher.",
+    "beispiele": [
+     {"pt": "Mesmo que o senhor insista, só pago o resto quando a obra estiver acabada.", "de": "Selbst wenn Sie darauf bestehen, zahle ich den Rest erst, wenn die Arbeiten fertig sind."},
+     {"pt": "Ainda que demore mais uma semana, quero a parede refeita.", "de": "Auch wenn es noch eine Woche länger dauert, will ich, dass die Wand neu gemacht wird."},
+     {"pt": "Mesmo que a fissura seja pequena, tem de ser reparada.", "de": "Auch wenn der Riss klein ist, muss er repariert werden."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Mesmo que o mestre de obras ___ (dizer) que não, o chão está mal feito.", "loesungen": ["diga"], "de": "Selbst wenn der Baumeister nein sagt – der Boden ist gepfuscht.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Ainda que o orçamento ___ (ser) baixo, não aceito este acabamento.", "loesungen": ["seja"], "de": "Auch wenn der Kostenvoranschlag niedrig ist, akzeptiere ich diese Ausführung nicht.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Mesmo que ___ (haver) atrasos, quero o trabalho bem feito.", "loesungen": ["haja"], "de": "Selbst wenn es Verzögerungen gibt, will ich ordentliche Arbeit.", "erklaerung": "haver → haja (unregelmäßig).", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Não pago mais nada, mesmo que o senhor me ___ (fazer) um desconto.", "loesungen": ["faça"], "de": "Ich zahle nichts mehr, selbst wenn Sie mir einen Rabatt geben.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Selbst wenn sie zurückkommen, …“", "optionen": ["Mesmo que voltam, …", "Mesmo que voltem, …", "Mesmo que voltarem, …"], "richtig": 1, "erklaerung": "mesmo que + Presente do conjuntivo: voltem.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "Welcher Satz beschreibt eine Tatsache (keine bloße Möglichkeit)?", "optionen": ["Embora a obra esteja atrasada, o empreiteiro quer o dinheiro.", "Mesmo que a obra se atrase, quero uma data fixa.", "Mesmo que chova, os trabalhos continuam."], "richtig": 0, "erklaerung": "embora → wirkliche Tatsache; mesmo que → oft eine Annahme.", "kategorie": "Konzessiv"},
+     {"typ": "uebersetzen", "de": "Sie haben mir 200 Euro zu viel verrechnet.", "loesungen": ["Cobraram-me 200 euros a mais.", "Cobraram-me duzentos euros a mais.", "Cobrou-me 200 euros a mais.", "Cobrou-me duzentos euros a mais."], "erklaerung": "Pronomen nach dem Verb (Enklise): Cobraram-me …", "kategorie": "Pronomenstellung"},
+     {"typ": "satzbau", "de": "Selbst wenn es länger dauert, müssen Sie die Wand neu machen.", "loesung": "Mesmo que demore mais, tem de refazer a parede."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A obra da varanda – Ärger mit der Terrasse",
+    "situation": "Der Baumeister Senhor Rodrigues hat mit seiner kleinen Firma Stefans Terrasse in Lagos renoviert. Stefan ist mit dem Ergebnis nicht zufrieden.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Senhor Rodrigues, olhe para isto: já há uma fissura no chão, e a obra acabou há uma semana.", "de": "Herr Rodrigues, sehen Sie sich das an: Im Boden ist schon ein Riss, und die Arbeiten sind seit einer Woche fertig."},
+     {"sprecher": "Rodrigues", "stimme": "m", "pt": "Isso não é nada, é normal nos primeiros meses. Mesmo que apareçam mais umas, não tem importância.", "de": "Das ist nichts, das ist in den ersten Monaten normal. Selbst wenn noch ein paar auftauchen, spielt das keine Rolle."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Para mim tem. E os acabamentos à volta da porta estão mal feitos.", "de": "Für mich schon. Und die Ausführung rund um die Tür ist gepfuscht."},
+     {"sprecher": "Rodrigues", "stimme": "m", "pt": "Bem, posso mandar cá um homem para retocar. Mas a fatura tem de ser paga esta semana.", "de": "Na gut, ich kann einen Mann vorbeischicken, der das ausbessert. Aber die Rechnung muss diese Woche bezahlt werden."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Também queria falar da fatura. O senhor cobrou-me trezentos euros a mais do que o orçamento.", "de": "Über die Rechnung wollte ich auch sprechen. Sie haben mir dreihundert Euro mehr verrechnet als im Kostenvoranschlag."},
+     {"sprecher": "Rodrigues", "stimme": "m", "pt": "Foi preciso material extra. Mesmo que o senhor não concorde, os preços subiram.", "de": "Es war zusätzliches Material nötig. Auch wenn Sie nicht einverstanden sind – die Preise sind gestiegen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ainda que isso seja verdade, devia ter-me avisado antes. Já lhe paguei um adiantamento de quarenta por cento.", "de": "Auch wenn das stimmt, hätten Sie mich vorher informieren müssen. Ich habe Ihnen schon eine Anzahlung von vierzig Prozent bezahlt."},
+     {"sprecher": "Rodrigues", "stimme": "m", "pt": "Está bem, está bem. Refazemos a parte da porta e falamos da fatura depois.", "de": "Schon gut, schon gut. Wir machen den Teil bei der Tür neu und reden danach über die Rechnung."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Combinado. Mas só pago o resto quando estiver tudo bem feito.", "de": "Abgemacht. Aber den Rest zahle ich erst, wenn alles ordentlich gemacht ist."}
+    ],
+    "fragen": [
+     {"frage": "Quando acabou a obra?", "optionen": ["Há um mês.", "Há uma semana.", "Ontem."], "richtig": 1},
+     {"frage": "Porque é que a fatura é mais alta do que o orçamento?", "optionen": ["Por causa de material extra.", "Por causa do IVA.", "Porque o trabalho demorou mais."], "richtig": 0},
+     {"frage": "O que decide o Stefan?", "optionen": ["Pagar já tudo.", "Ir a tribunal.", "Pagar o resto só quando tudo estiver bem feito."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português – com mesmo que / ainda que. – Schreib auf Portugiesisch, mit mesmo que / ainda que.",
+    "aufgaben": [
+     {"de": "Selbst wenn Sie darauf bestehen, zahle ich nicht. (formell)", "loesungen": ["Mesmo que o senhor insista, não pago.", "Mesmo que insista, não pago.", "Mesmo que a senhora insista, não pago.", "Ainda que o senhor insista, não pago.", "Ainda que insista, não pago.", "Mesmo que o senhor insista, eu não pago."]},
+     {"de": "Auch wenn es teurer ist, will ich eine ordentliche Arbeit.", "loesungen": ["Mesmo que seja mais caro, quero um trabalho bem feito.", "Ainda que seja mais caro, quero um trabalho bem feito.", "Mesmo que seja mais caro, quero um bom trabalho.", "Ainda que seja mais caro, quero um bom trabalho.", "Mesmo que seja mais caro, quero o trabalho bem feito."]},
+     {"de": "Der Baumeister muss den Boden neu machen.", "loesungen": ["O mestre de obras tem de refazer o chão.", "O mestre de obras tem que refazer o chão.", "O mestre de obras tem de refazer o pavimento.", "O mestre de obras tem que refazer o pavimento.", "O empreiteiro tem de refazer o chão."]},
+     {"de": "Ich habe schon eine Anzahlung geleistet.", "loesungen": ["Já paguei um adiantamento.", "Eu já paguei um adiantamento.", "Já fiz um adiantamento.", "Já dei um adiantamento."]},
+     {"de": "Selbst wenn es Verzögerungen gibt, will ich ein fixes Datum.", "loesungen": ["Mesmo que haja atrasos, quero uma data fixa.", "Ainda que haja atrasos, quero uma data fixa.", "Mesmo que haja atrasos, quero uma data certa.", "Ainda que haja atrasos, quero uma data certa."]}
+    ]
+   },
+   "saetze": [
+    {"id": "mesmo-que-insista", "pt": "Mesmo que o senhor insista, não pago esse valor.", "de": "Selbst wenn Sie darauf bestehen, zahle ich diesen Betrag nicht."},
+    {"id": "trabalho-mal-feito-refazer", "pt": "O trabalho está mal feito. Tem de o refazer.", "de": "Die Arbeit ist gepfuscht. Sie müssen sie neu machen."},
+    {"id": "cobrou-me-a-mais", "pt": "O senhor cobrou-me trezentos euros a mais.", "de": "Sie haben mir dreihundert Euro zu viel verrechnet."}
+   ]
+  },
+  {
+   "id": "B1-10-L04",
+   "typ": "neu",
+   "titel": "Der formelle Beschwerdebrief",
+   "vokabeln": ["exmos-senhores", "relativo-a", "v-exa", "o-numero-de-cliente", "em-resposta-a", "pelo-exposto", "nao-obstante", "o-mais-breve-possivel", "por-escrito"],
+   "grammatik": {
+    "titel": "A carta formal de reclamação: estrutura e fórmulas",
+    "erklaerung": [
+     "Uma carta (ou e-mail) de reclamação tem uma estrutura fixa: <b>saudação</b> → <b>objetivo</b> → <b>factos</b> → <b>pedido</b> → <b>despedida</b>. A uma empresa escreve-se <i><b>Exmos. Senhores,</b></i> (a uma pessoa: <i>Exmo. Senhor / Exma. Senhora</i>).",
+     "O objetivo vem logo na primeira frase, com <i><b>Venho por este meio</b></i> + infinitivo: <i>Venho por este meio <b>apresentar</b> reclamação relativa a …</i>, <i>Venho por este meio <b>solicitar</b> …</i>",
+     "Nos factos usam-se datas, números e conectores formais: <i>Em resposta a …, Na sequência de …, <b>Não obstante</b> as várias chamadas …</i> No pedido: <i><b>Pelo exposto</b>, solicito …</i> Atenção: <i>solicitar que</i> pede conjuntivo – <i>Solicito que me <b>reembolsem</b> …</i>",
+     "Na despedida: <i>Sem outro assunto de momento, … Com os melhores cumprimentos</i> ou <i>Atenciosamente</i>. Em cartas muito formais aparece <b>V. Ex.ª</b> (Vossa Excelência), com o verbo na 3.ª pessoa: <i>Agradeço que V. Ex.ª me <b>responda</b> …</i>"
+    ],
+    "erklaerung_de": [
+     "Ein Beschwerdebrief (oder eine E-Mail) hat einen festen Aufbau: <b>Anrede</b> → <b>Anliegen</b> → <b>Sachverhalt</b> → <b>Forderung</b> → <b>Gruß</b>. An eine Firma: <i>Exmos. Senhores,</i> – Sehr geehrte Damen und Herren (an eine Person: <i>Exmo. Senhor / Exma. Senhora</i>).",
+     "Das Anliegen steht gleich im ersten Satz, mit <i>Venho por este meio</i> + Infinitiv: <i>Venho por este meio apresentar reclamação relativa a …</i> – Hiermit erhebe ich Beschwerde bezüglich …",
+     "Im Sachverhalt: Daten, Nummern und formelle Konnektoren – <i>Em resposta a</i> (in Beantwortung), <i>Na sequência de</i> (im Anschluss an), <i>Não obstante</i> (ungeachtet). Die Forderung leitet <i>Pelo exposto</i> (aus den genannten Gründen) ein. Achtung: <i>solicitar que</i> verlangt den Konjunktiv – <i>Solicito que me reembolsem …</i>",
+     "Zum Schluss: <i>Sem outro assunto de momento, … Com os melhores cumprimentos</i> oder <i>Atenciosamente</i>. In sehr förmlichen Briefen steht <b>V. Ex.ª</b> (Vossa Excelência) mit dem Verb in der 3. Person: <i>Agradeço que V. Ex.ª me responda …</i> – Ich bitte Sie um Antwort …"
+    ],
+    "vergleich": "Wie im Deutschen („Sehr geehrte Damen und Herren … Mit freundlichen Grüßen“) gibt es feste Formeln. Portugiesische Geschäftsbriefe sind aber noch förmlicher: <i>Venho por este meio …</i> (wörtlich „Ich komme auf diesem Weg …“) ist Standard, wo im Deutschen ein schlichtes „hiermit“ genügt.",
+    "beispiele": [
+     {"pt": "Exmos. Senhores, venho por este meio apresentar reclamação relativa à fatura n.º 2026/388.", "de": "Sehr geehrte Damen und Herren, hiermit erhebe ich Beschwerde bezüglich der Rechnung Nr. 2026/388."},
+     {"pt": "Não obstante as minhas várias chamadas, o problema continua por resolver.", "de": "Ungeachtet meiner mehrfachen Anrufe ist das Problem immer noch nicht gelöst."},
+     {"pt": "Pelo exposto, solicito que me devolvam o valor cobrado a mais o mais breve possível.", "de": "Aus den genannten Gründen ersuche ich Sie, mir den zu viel verrechneten Betrag baldmöglichst zurückzuzahlen."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Wie beginnt ein Beschwerdebrief an eine Firma (Ansprechperson unbekannt)?", "optionen": ["Olá a todos,", "Exmos. Senhores,", "Querida empresa,"], "richtig": 1, "kategorie": "Formeller Brief"},
+     {"typ": "luecke", "satz": "Venho por este ___ apresentar reclamação relativa ao serviço prestado.", "loesungen": ["meio"], "de": "Hiermit erhebe ich Beschwerde bezüglich der erbrachten Leistung.", "kategorie": "Formeller Brief"},
+     {"typ": "luecke", "satz": "Solicito que me ___ (devolver – vocês) o valor pago.", "loesungen": ["devolvam"], "de": "Ich ersuche Sie, mir den bezahlten Betrag zurückzuzahlen.", "erklaerung": "solicitar que + Konjunktiv: devolvam.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "___ as várias reclamações, o problema continua.", "loesungen": ["Não obstante", "Apesar das", "não obstante", "apesar das"], "de": "Ungeachtet der mehrfachen Beschwerden besteht das Problem weiter.", "kategorie": "Konzessiv"},
+     {"typ": "auswahl", "frage": "Welcher Schluss passt zu einem formellen Brief?", "optionen": ["Beijinhos e até breve!", "Um abraço grande,", "Sem outro assunto de momento, com os melhores cumprimentos,"], "richtig": 2, "kategorie": "Formeller Brief"},
+     {"typ": "auswahl", "frage": "Agradeço que V. Ex.ª me ___ com brevidade.", "optionen": ["responda", "respondes", "responde"], "richtig": 0, "erklaerung": "V. Ex.ª → 3. Person; agradecer que + Konjunktiv → responda.", "kategorie": "Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Ich möchte die Antwort schriftlich und so bald wie möglich.", "loesungen": ["Quero a resposta por escrito e o mais breve possível.", "Queria a resposta por escrito e o mais breve possível.", "Gostava de receber a resposta por escrito e o mais breve possível.", "Gostaria de receber a resposta por escrito e o mais breve possível.", "Quero a resposta por escrito o mais breve possível.", "Gostava de ter a resposta por escrito e o mais breve possível."], "kategorie": "Formeller Brief"},
+     {"typ": "diktat", "pt": "Pelo exposto, solicito o reembolso do valor pago."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A carta para a operadora – der Brief an den Anbieter",
+    "situation": "Stefan liest Ana den Entwurf seines Beschwerdebriefs an den Internetanbieter vor. Ana verbessert ihn.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ouve lá o início: «Olá! Escrevo porque a internet não funciona.» Está bem assim?", "de": "Hör mal den Anfang: „Hallo! Ich schreibe, weil das Internet nicht funktioniert.“ Passt das so?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Não, isso é muito informal. Começa com «Exmos. Senhores» e depois «Venho por este meio apresentar reclamação».", "de": "Nein, das ist viel zu informell. Fang mit „Sehr geehrte Damen und Herren“ an und dann „Hiermit erhebe ich Beschwerde“."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. «Venho por este meio apresentar reclamação relativa às falhas de internet desde o dia 2 de outubro. O meu número de cliente é 457 210.»", "de": "Gut. „Hiermit erhebe ich Beschwerde bezüglich der Internetausfälle seit dem 2. Oktober. Meine Kundennummer ist 457 210.“"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ótimo. E agora os factos, com datas.", "de": "Sehr gut. Und jetzt der Sachverhalt, mit Daten."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "«Não obstante as cinco chamadas para a linha de apoio, o problema persiste.» Pelo exposto, solicito… o quê?", "de": "„Ungeachtet der fünf Anrufe bei der Hotline besteht das Problem weiter.“ Aus den genannten Gründen ersuche ich … um was?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Solicito que me reembolsem o mês de outubro e que resolvam o problema o mais breve possível.", "de": "Ich ersuche Sie, mir den Monat Oktober zurückzuerstatten und das Problem so bald wie möglich zu lösen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E no fim? «Beijinhos»?", "de": "Und am Schluss? „Bussis“?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Estás a brincar! «Sem outro assunto de momento, com os melhores cumprimentos.» E guarda uma cópia: queremos tudo por escrito.", "de": "Du machst Witze! „Ohne weiteres Anliegen verbleibe ich mit freundlichen Grüßen.“ Und heb eine Kopie auf: Wir wollen alles schriftlich."}
+    ],
+    "fragen": [
+     {"frage": "O que está errado no primeiro rascunho do Stefan?", "optionen": ["É demasiado longo.", "É muito informal.", "Não tem o número de cliente."], "richtig": 1},
+     {"frage": "Quantas vezes ligou o Stefan para a linha de apoio?", "optionen": ["Duas.", "Três.", "Cinco."], "richtig": 2},
+     {"frage": "O que pede o Stefan na carta?", "optionen": ["O reembolso de outubro e uma solução rápida.", "Um router novo.", "Rescindir o contrato."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Exmos. Senhores, venho por este meio apresentar reclamação.", "de": "Sehr geehrte Damen und Herren, hiermit erhebe ich Beschwerde."},
+     {"pt": "O meu número de cliente é quatro, cinco, sete, dois, um, zero.", "de": "Meine Kundennummer ist vier, fünf, sieben, zwei, eins, null."},
+     {"pt": "Não obstante as várias chamadas, o problema persiste.", "de": "Ungeachtet der mehrfachen Anrufe besteht das Problem weiter."},
+     {"pt": "Pelo exposto, solicito o reembolso do valor pago.", "de": "Aus den genannten Gründen ersuche ich um Rückerstattung des bezahlten Betrags."},
+     {"pt": "Sem outro assunto de momento, com os melhores cumprimentos.", "de": "Ohne weiteres Anliegen, mit freundlichen Grüßen."}
+    ]
+   },
+   "saetze": [
+    {"id": "venho-apresentar-reclamacao", "pt": "Venho por este meio apresentar reclamação relativa à fatura de outubro.", "de": "Hiermit erhebe ich Beschwerde bezüglich der Oktoberrechnung."},
+    {"id": "solicito-que-me-reembolsem", "pt": "Solicito que me reembolsem o valor pago.", "de": "Ich ersuche Sie, mir den bezahlten Betrag zurückzuerstatten."},
+    {"id": "resposta-por-escrito", "pt": "Peço uma resposta por escrito o mais breve possível.", "de": "Ich bitte um eine schriftliche Antwort so bald wie möglich."}
+   ]
+  },
+  {
+   "id": "B1-10-L05",
+   "typ": "neu",
+   "titel": "Schaden bei der Versicherung melden",
+   "vokabeln": ["a-seguradora", "o-sinistro", "participar-um-sinistro", "os-estragos", "cobrir", "a-indemnizacao", "o-perito", "a-declaracao-amigavel", "o-prejuizo"],
+   "grammatik": {
+    "titel": "Embora no passado: embora tenha feito / embora fizesse",
+    "erklaerung": [
+     "Para falar de um facto <b>já acontecido</b>, com a frase principal no presente, usa-se o <b>pretérito perfeito do conjuntivo</b>: <i>ter</i> no conjuntivo + particípio. <i>Embora <b>tenha participado</b> o sinistro há um mês, ainda não recebi nada.</i>",
+     "Formas: <i>(eu) tenha, (tu) tenhas, (ele/ela/você) tenha, (nós) tenhamos, (eles) tenham</i> + particípio: <i>embora <b>tenhamos enviado</b> as fotografias</i>, <i>embora o perito já <b>tenha vindo</b></i>.",
+     "Se a frase principal está no <b>passado</b> e a concessão também, usa-se o <b>imperfeito do conjuntivo</b>: <i>Embora a apólice <b>cobrisse</b> tempestades, a seguradora recusou a indemnização.</i> · <i>Embora <b>estivesse</b> a chover, o perito veio.</i>",
+     "Resumo: presente → <i>embora <b>seja</b></i> (agora) / <i>embora <b>tenha sido</b></i> (antes). Passado → <i>embora <b>fosse</b></i>. Alternativa sem conjuntivo: <i><b>apesar de ter</b> participado</i>."
+    ],
+    "erklaerung_de": [
+     "Für eine <b>schon geschehene</b> Handlung bei Hauptsatz im Präsens nimmt man den <b>Pretérito perfeito do conjuntivo</b>: <i>ter</i> im Konjunktiv + Partizip. <i>Embora tenha participado o sinistro …</i> – Obwohl ich den Schaden gemeldet habe …",
+     "Formen: <i>tenha, tenhas, tenha, tenhamos, tenham</i> + Partizip: <i>embora tenhamos enviado</i> (obwohl wir geschickt haben), <i>embora o perito já tenha vindo</i> (obwohl der Gutachter schon gekommen ist).",
+     "Steht der Hauptsatz in der <b>Vergangenheit</b>, folgt der <b>Imperfeito do conjuntivo</b>: <i>Embora a apólice cobrisse tempestades, a seguradora recusou …</i> – Obwohl die Polizze Stürme abdeckte, lehnte die Versicherung ab.",
+     "Kurz: Präsens → <i>embora seja</i> (jetzt) / <i>embora tenha sido</i> (vorher). Vergangenheit → <i>embora fosse</i>. Bequemer Ausweg ohne Konjunktiv: <i>apesar de ter participado</i>."
+    ],
+    "vergleich": "Deutsch: „Obwohl ich den Schaden gemeldet habe …“ – Perfekt im Indikativ. Portugiesisch: <i>Embora tenha participado …</i> – „haben“ im Konjunktiv + Partizip. Englisch: „although I have reported“. Tipp: Wer unsicher ist, weicht auf <i>apesar de ter participado</i> aus.",
+    "beispiele": [
+     {"pt": "Embora tenha participado o sinistro há um mês, ainda não recebi nenhuma resposta.", "de": "Obwohl ich den Schaden vor einem Monat gemeldet habe, habe ich noch keine Antwort bekommen."},
+     {"pt": "Embora o perito já tenha visto os danos, a seguradora pede mais fotografias.", "de": "Obwohl der Gutachter die Schäden schon gesehen hat, verlangt die Versicherung weitere Fotos."},
+     {"pt": "Embora a apólice cobrisse tempestades, a seguradora recusou a indemnização.", "de": "Obwohl die Polizze Sturmschäden abdeckte, lehnte die Versicherung die Entschädigung ab."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Embora ___ (eu – enviar) todas as fotografias, pedem mais documentos.", "loesungen": ["tenha enviado"], "de": "Obwohl ich alle Fotos geschickt habe, verlangen sie weitere Unterlagen.", "erklaerung": "tenha + Partizip (enviado).", "kategorie": "Konjunktiv Perfekt"},
+     {"typ": "luecke", "satz": "Embora o perito já ___ (vir) cá a casa, ainda não sabemos nada.", "loesungen": ["tenha vindo"], "de": "Obwohl der Gutachter schon bei uns zu Hause war, wissen wir noch nichts.", "erklaerung": "vir → Partizip vindo: tenha vindo.", "kategorie": "Konjunktiv Perfekt"},
+     {"typ": "luecke", "satz": "Embora ___ (nós – participar) o sinistro a tempo, a seguradora diz que chegou tarde.", "loesungen": ["tenhamos participado"], "de": "Obwohl wir den Schaden rechtzeitig gemeldet haben, sagt die Versicherung, die Meldung sei zu spät gekommen.", "kategorie": "Konjunktiv Perfekt"},
+     {"typ": "luecke", "satz": "Embora o seguro ___ (cobrir) os danos, a seguradora recusou-se a pagar.", "loesungen": ["cobrisse"], "de": "Obwohl die Versicherung die Schäden abdeckte, weigerte sich die Gesellschaft zu zahlen.", "erklaerung": "Hauptsatz in der Vergangenheit (recusou-se) → Imperfeito do conjuntivo: cobrisse.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "Embora a seguradora já ___ os danos, continua sem pagar.", "optionen": ["reconheceu", "tenha reconhecido", "reconhece"], "richtig": 1, "erklaerung": "Vergangene Handlung, Hauptsatz im Präsens → embora + tenha + Partizip.", "kategorie": "Konjunktiv Perfekt"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist richtig? (Hauptsatz in der Vergangenheit)", "optionen": ["Embora esteja a chover, o perito veio.", "Embora estivesse a chover, o perito veio.", "Embora estava a chover, o perito veio."], "richtig": 1, "erklaerung": "veio (Vergangenheit) → Imperfeito do conjuntivo: estivesse.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "uebersetzen", "de": "Obwohl ich den Schaden am selben Tag gemeldet habe, warte ich noch auf die Entschädigung.", "loesungen": ["Embora tenha participado o sinistro no próprio dia, ainda estou à espera da indemnização.", "Embora eu tenha participado o sinistro no próprio dia, ainda estou à espera da indemnização.", "Embora tenha participado o sinistro no mesmo dia, ainda estou à espera da indemnização.", "Embora eu tenha participado o sinistro no mesmo dia, ainda estou à espera da indemnização.", "Apesar de ter participado o sinistro no próprio dia, ainda estou à espera da indemnização.", "Apesar de ter participado o sinistro no mesmo dia, ainda estou à espera da indemnização.", "Embora tenha participado o sinistro no próprio dia, continuo à espera da indemnização."], "kategorie": "Konjunktiv Perfekt"},
+     {"typ": "satzbau", "de": "Deckt die Versicherung die Wasserschäden?", "loesung": "O seguro cobre os danos causados pela água?"}
+    ]
+   },
+   "hoeren": {
+    "titel": "A tempestade e o seguro – der Sturm und die Versicherung",
+    "situation": "Nach einem Herbststurm ist Wasser durch das Dach in Stefans Wohnzimmer gelaufen. Er ruft bei seiner Versicherung an.",
+    "zeilen": [
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Seguros Atlântico, boa tarde. Em que posso ajudar?", "de": "Atlântico Versicherungen, guten Tag. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. Participei um sinistro há três semanas, depois da tempestade, e ainda não tive resposta.", "de": "Guten Tag. Ich habe vor drei Wochen, nach dem Sturm, einen Schaden gemeldet und noch keine Antwort bekommen."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Diga-me o número da apólice, por favor.", "de": "Nennen Sie mir bitte die Polizzennummer."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É o 20 455 731. Entrou água pelo telhado e há estragos no teto e no chão da sala.", "de": "Es ist die 20 455 731. Wasser ist durch das Dach eingedrungen, und es gibt Schäden an der Decke und am Boden des Wohnzimmers."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Já encontrei. Vejo aqui que o perito esteve em sua casa na semana passada.", "de": "Ich hab's gefunden. Ich sehe hier, dass der Gutachter letzte Woche bei Ihnen war."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Sim, mas embora o perito já tenha visto tudo, ninguém me diz quanto vou receber.", "de": "Ja, aber obwohl der Gutachter schon alles gesehen hat, sagt mir niemand, wie viel ich bekomme."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "O relatório diz que parte dos danos é antiga. Por isso, a indemnização cobre só o teto.", "de": "Laut Bericht ist ein Teil der Schäden alt. Deshalb deckt die Entschädigung nur die Decke ab."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso não faz sentido! Embora a casa tenha trinta anos, o chão era novo. Tenho as faturas da obra.", "de": "Das ergibt keinen Sinn! Obwohl das Haus dreißig Jahre alt ist, war der Boden neu. Ich habe die Rechnungen von den Arbeiten."},
+     {"sprecher": "Funcionário", "stimme": "m", "pt": "Nesse caso, envie-nos as faturas por e-mail e o processo volta a ser analisado.", "de": "In dem Fall schicken Sie uns die Rechnungen per E-Mail, und der Fall wird neu geprüft."}
+    ],
+    "fragen": [
+     {"frage": "Quando participou o Stefan o sinistro?", "optionen": ["Há três dias.", "Há três semanas.", "Há três meses."], "richtig": 1},
+     {"frage": "Segundo o relatório, o que cobre a indemnização?", "optionen": ["Só o teto.", "Só o chão.", "O teto e o chão."], "richtig": 0},
+     {"frage": "O que deve o Stefan enviar?", "optionen": ["Fotografias do telhado.", "A apólice assinada.", "As faturas da obra."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Ein anderer Autofahrer ist dir auf einem Parkplatz in Portimão hinten aufgefahren. Ihr wollt gemeinsam den Unfallbericht ausfüllen. Du sprichst ihn formell an.",
+    "zeilen": [
+     {"sprecher": "Condutor", "stimme": "m", "pt": "Peço desculpa, não o vi! Está bem?", "de": "Entschuldigung, ich habe Sie nicht gesehen! Geht es Ihnen gut?"},
+     {"ich": true, "aufgabe": "Sag: Mir geht es gut, aber das Auto hat Schäden.", "loesungen": ["Eu estou bem, mas o carro tem estragos.", "Estou bem, mas o carro tem estragos.", "Estou bem, mas o carro tem danos.", "Eu estou bem, mas o carro tem danos.", "Estou bem, mas o carro ficou com estragos.", "Estou bem, mas o carro ficou com danos.", "Estou bem, mas o carro ficou danificado."]},
+     {"sprecher": "Condutor", "stimme": "m", "pt": "Ainda bem. Tem uma declaração amigável no carro?", "de": "Zum Glück. Haben Sie einen Unfallbericht im Auto?"},
+     {"ich": true, "aufgabe": "Sag: Ja. Füllen wir ihn zusammen aus, und danach melde ich den Schaden der Versicherung.", "loesungen": ["Tenho. Vamos preenchê-la juntos e depois participo o sinistro à seguradora.", "Sim. Vamos preenchê-la juntos e depois participo o sinistro à seguradora.", "Sim, tenho. Vamos preenchê-la juntos e depois participo o sinistro à seguradora.", "Tenho. Vamos preenchê-la juntos e depois participo o sinistro ao seguro.", "Tenho. Preenchemos juntos e depois participo o sinistro à seguradora.", "Sim. Vamos preenchê-la juntos e depois participo o sinistro ao seguro."]},
+     {"sprecher": "Condutor", "stimme": "m", "pt": "Mas olhe que o seu carro já tinha aquele risco antes.", "de": "Aber schauen Sie, Ihr Auto hatte diesen Kratzer schon vorher."},
+     {"ich": true, "aufgabe": "Sag: Obwohl das Auto alt ist, hatte es keine Schäden. Der Gutachter wird das sehen.", "loesungen": ["Embora o carro seja velho, não tinha danos. O perito vai ver.", "Embora o carro seja antigo, não tinha danos. O perito vai ver.", "Embora o carro seja velho, não tinha danos nenhuns. O perito vai ver.", "Embora o carro seja velho, não tinha danos. O perito vai ver isso.", "Apesar de o carro ser velho, não tinha danos. O perito vai ver."]}
+    ]
+   },
+   "saetze": [
+    {"id": "participei-o-sinistro", "pt": "Participei o sinistro no próprio dia.", "de": "Ich habe den Schaden noch am selben Tag gemeldet."},
+    {"id": "embora-tenha-participado", "pt": "Embora tenha participado o sinistro há um mês, ainda não recebi nada.", "de": "Obwohl ich den Schaden vor einem Monat gemeldet habe, habe ich noch nichts bekommen."},
+    {"id": "o-seguro-cobre", "pt": "O seguro cobre os danos causados pela água?", "de": "Deckt die Versicherung die Wasserschäden?"}
+   ]
+  },
+  {
+   "id": "B1-10-L06",
+   "typ": "neu",
+   "titel": "Verbraucherrechte – was steht mir zu?",
+   "vokabeln": ["o-consumidor", "a-defesa-do-consumidor", "lesado", "a-clausula-abusiva", "a-publicidade-enganosa", "o-direito-de-livre-resolucao", "mesmo-assim", "porem", "contudo"],
+   "grammatik": {
+    "titel": "Conectores concessivos com indicativo: mesmo assim, no entanto, contudo, porém",
+    "erklaerung": [
+     "Nem todas as concessões pedem conjuntivo. Com <b>conectores</b> que ligam duas frases, o verbo fica no <b>indicativo</b>: <i>A loja reconheceu o defeito. <b>No entanto</b>, não <b>devolveu</b> o dinheiro.</i>",
+     "<b>Mesmo assim</b> e <b>ainda assim</b> (= trotzdem) são muito usados na fala: <i>Mostrei o talão. <b>Mesmo assim</b>, recusaram a troca.</i>",
+     "<b>No entanto</b>, <b>contudo</b>, <b>porém</b> e <b>todavia</b> (= jedoch) são mais formais. Podem vir no início da frase ou depois do sujeito, entre vírgulas: <i>A loja, <b>porém</b>, recusou.</i> Antes deles usa-se muitas vezes ponto final ou ponto e vírgula.",
+     "Compare: <i><b>Embora</b> a loja <b>tenha</b> razão, …</i> (conjuntivo, uma só frase) ↔ <i>A loja <b>tem</b> razão. <b>Contudo</b>, …</i> (indicativo, duas frases)."
+    ],
+    "erklaerung_de": [
+     "Nicht jede Einräumung braucht den Konjunktiv. <b>Konnektoren</b>, die zwei Hauptsätze verbinden, stehen mit <b>Indikativ</b>: <i>A loja reconheceu o defeito. No entanto, não devolveu o dinheiro.</i> – Das Geschäft hat den Mangel anerkannt. Das Geld hat es jedoch nicht zurückgegeben.",
+     "<b>Mesmo assim</b> und <b>ainda assim</b> (trotzdem) sind in der gesprochenen Sprache sehr häufig: <i>Mostrei o talão. Mesmo assim, recusaram a troca.</i>",
+     "<b>No entanto, contudo, porém, todavia</b> (jedoch) sind formeller. Sie stehen am Satzanfang oder nach dem Subjekt zwischen Kommas: <i>A loja, porém, recusou.</i> Davor steht oft ein Punkt oder Strichpunkt.",
+     "Vergleiche: <i>Embora a loja tenha razão, …</i> (Konjunktiv, ein Satzgefüge) ↔ <i>A loja tem razão. Contudo, …</i> (Indikativ, zwei Sätze)."
+    ],
+    "vergleich": "Wie „trotzdem / jedoch“ im Deutschen verbinden diese Wörter zwei Hauptsätze – also Indikativ. Achtung Wortstellung: Im Deutschen folgt nach „trotzdem“ sofort das Verb („Trotzdem <b>haben</b> sie abgelehnt“), im Portugiesischen bleibt die normale Reihenfolge: <i>Mesmo assim, eles recusaram.</i>",
+    "beispiele": [
+     {"pt": "Comprei o telemóvel online. No entanto, só recebi a caixa vazia.", "de": "Ich habe das Handy online gekauft. Bekommen habe ich allerdings nur die leere Schachtel."},
+     {"pt": "O contrato tem uma cláusula abusiva; contudo, a empresa recusa-se a alterá-la.", "de": "Der Vertrag enthält eine missbräuchliche Klausel; die Firma weigert sich jedoch, sie zu ändern."},
+     {"pt": "A associação de defesa do consumidor deu-me razão. Mesmo assim, tive de esperar dois meses.", "de": "Der Verbraucherschutzverband hat mir recht gegeben. Trotzdem musste ich zwei Monate warten."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "A loja reconheceu o defeito. ___, não devolveu o dinheiro.", "optionen": ["Embora", "Contudo", "Apesar de"], "richtig": 1, "erklaerung": "Zwei Hauptsätze → Konnektor mit Indikativ: contudo.", "kategorie": "Konzessiv"},
+     {"typ": "auswahl", "frage": "Welcher Satz ist richtig?", "optionen": ["Mostrei o talão. Mesmo que, recusaram a troca.", "Mostrei o talão. Mesmo assim, recusassem a troca.", "Mostrei o talão. Mesmo assim, recusaram a troca."], "richtig": 2, "erklaerung": "mesmo assim + Indikativ (recusaram).", "kategorie": "Konzessiv"},
+     {"typ": "luecke", "satz": "Tenho direito à garantia. No ___, a loja diz que o defeito é culpa minha.", "loesungen": ["entanto"], "de": "Ich habe Anspruch auf Garantie. Das Geschäft sagt allerdings, der Mangel sei meine Schuld.", "kategorie": "Konzessiv"},
+     {"typ": "luecke", "satz": "O vendedor foi simpático; ___ assim, não aceito esta cláusula.", "loesungen": ["mesmo", "ainda"], "de": "Der Verkäufer war freundlich; trotzdem akzeptiere ich diese Klausel nicht.", "kategorie": "Konzessiv"},
+     {"typ": "luecke", "satz": "Embora a loja ___ (ter) razão, podia ser mais simpática.", "loesungen": ["tenha"], "de": "Obwohl das Geschäft recht hat, könnte es freundlicher sein.", "erklaerung": "embora → Konjunktiv. Mit contudo / no entanto bliebe der Indikativ: A loja tem razão. Contudo, …", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Die Firma hat jedoch nicht geantwortet.“ (formell, mitten im Satz)", "optionen": ["A empresa, porém, não respondeu.", "A empresa, embora, não respondeu.", "A empresa, apesar, não respondeu."], "richtig": 0, "kategorie": "Konzessiv"},
+     {"typ": "uebersetzen", "de": "Ich habe den Kassenbon gezeigt. Trotzdem haben sie den Umtausch abgelehnt.", "loesungen": ["Mostrei o talão. Mesmo assim, recusaram a troca.", "Mostrei o talão. Ainda assim, recusaram a troca.", "Mostrei o talão. Apesar disso, recusaram a troca.", "Eu mostrei o talão. Mesmo assim, recusaram a troca.", "Mostrei o talão. Mesmo assim, eles recusaram a troca."], "erklaerung": "Keine Inversion wie im Deutschen: Mesmo assim, recusaram …", "kategorie": "Konzessiv"},
+     {"typ": "satzbau", "de": "Als Verbraucher habe ich Anspruch auf eine Antwort.", "loesung": "Como consumidor, tenho direito a uma resposta."}
+    ]
+   },
+   "hoeren": {
+    "titel": "«Os Seus Direitos» – eine Verbrauchersendung im Radio",
+    "situation": "In einer Radiosendung beantwortet eine Juristin eines Verbraucherschutzverbands Fragen von Hörern. Ana hört beim Kochen zu.",
+    "zeilen": [
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Bom dia, estamos de volta com «Os Seus Direitos». Primeira pergunta: o senhor Carlos comprou uma máquina de lavar online e quer devolvê-la.", "de": "Guten Morgen, wir sind zurück mit „Ihre Rechte“. Erste Frage: Herr Carlos hat online eine Waschmaschine gekauft und will sie zurückgeben."},
+     {"sprecher": "Jurista", "stimme": "f", "pt": "Nas compras online, o consumidor tem o direito de livre resolução: catorze dias para devolver o produto, sem ter de explicar porquê.", "de": "Bei Online-Käufen hat der Verbraucher ein Widerrufsrecht: vierzehn Tage, um das Produkt zurückzugeben, ohne Begründung."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Mesmo que a máquina já tenha sido usada?", "de": "Auch wenn die Maschine schon benutzt wurde?"},
+     {"sprecher": "Jurista", "stimme": "f", "pt": "Pode experimentá-la, como faria numa loja. No entanto, se a estragar, pode ter de pagar a desvalorização.", "de": "Er darf sie ausprobieren, so wie er es in einem Geschäft täte. Wenn er sie allerdings beschädigt, muss er unter Umständen den Wertverlust bezahlen."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "Segunda pergunta: a dona Teresa contratou internet «sem limites», mas a velocidade é muito baixa.", "de": "Zweite Frage: Frau Teresa hat Internet „ohne Limits“ abgeschlossen, aber die Geschwindigkeit ist sehr niedrig."},
+     {"sprecher": "Jurista", "stimme": "f", "pt": "Isso pode ser publicidade enganosa. Ela deve reclamar no Livro de Reclamações, que também existe em versão eletrónica.", "de": "Das kann irreführende Werbung sein. Sie sollte sich im Beschwerdebuch beschweren, das es auch in elektronischer Form gibt."},
+     {"sprecher": "Locutor", "stimme": "m", "pt": "E se a empresa não responder?", "de": "Und wenn die Firma nicht antwortet?"},
+     {"sprecher": "Jurista", "stimme": "f", "pt": "A empresa tem quinze dias úteis para responder. Se não o fizer, os consumidores lesados podem pedir apoio a uma associação de defesa do consumidor.", "de": "Die Firma hat fünfzehn Werktage Zeit für eine Antwort. Tut sie das nicht, können sich die geschädigten Verbraucher an einen Verbraucherschutzverband wenden."}
+    ],
+    "fragen": [
+     {"frage": "Quantos dias tem o consumidor para devolver uma compra online?", "optionen": ["Oito.", "Catorze.", "Trinta."], "richtig": 1},
+     {"frage": "O problema da dona Teresa pode ser…", "optionen": ["uma cláusula abusiva.", "um defeito de fabrico.", "publicidade enganosa."], "richtig": 2},
+     {"frage": "Quanto tempo tem a empresa para responder a uma reclamação?", "optionen": ["Quinze dias úteis.", "Um mês.", "Três dias."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português – com mesmo assim, no entanto, contudo ou porém. – Schreib auf Portugiesisch.",
+    "aufgaben": [
+     {"de": "Das Geschäft hat den Mangel anerkannt. Trotzdem hat es das Geld nicht zurückgegeben.", "loesungen": ["A loja reconheceu o defeito. Mesmo assim, não devolveu o dinheiro.", "A loja reconheceu o defeito. Apesar disso, não devolveu o dinheiro.", "A loja reconheceu o defeito. Ainda assim, não devolveu o dinheiro.", "A loja reconheceu o defeito. No entanto, não devolveu o dinheiro.", "A loja reconheceu o defeito. Contudo, não devolveu o dinheiro."]},
+     {"de": "Als Verbraucher habe ich Rechte.", "loesungen": ["Como consumidor, tenho direitos.", "Enquanto consumidor, tenho direitos.", "Como consumidora, tenho direitos.", "Eu, como consumidor, tenho direitos."]},
+     {"de": "Das ist irreführende Werbung.", "loesungen": ["Isto é publicidade enganosa.", "Isso é publicidade enganosa.", "É publicidade enganosa."]},
+     {"de": "Das Produkt hat Garantie. Das Geschäft will jedoch nichts tun.", "loesungen": ["O produto tem garantia. No entanto, a loja não quer fazer nada.", "O produto tem garantia. Contudo, a loja não quer fazer nada.", "O produto tem garantia. Porém, a loja não quer fazer nada.", "O produto tem garantia. A loja, porém, não quer fazer nada.", "O produto tem garantia; contudo, a loja não quer fazer nada."]},
+     {"de": "Die geschädigten Kunden können sich beschweren.", "loesungen": ["Os clientes lesados podem reclamar.", "Os clientes lesados podem queixar-se.", "Os clientes lesados podem apresentar reclamação.", "Os clientes lesados podem fazer uma reclamação."]}
+    ]
+   },
+   "saetze": [
+    {"id": "como-consumidor-direito", "pt": "Como consumidor, tenho direito a uma resposta.", "de": "Als Verbraucher habe ich Anspruch auf eine Antwort."},
+    {"id": "mesmo-assim-recusaram", "pt": "Mostrei o talão. Mesmo assim, recusaram a troca.", "de": "Ich habe den Kassenbon gezeigt. Trotzdem haben sie den Umtausch abgelehnt."},
+    {"id": "contudo-nao-devolveu", "pt": "A loja reconheceu o defeito; contudo, não devolveu o dinheiro.", "de": "Das Geschäft hat den Mangel anerkannt, das Geld aber dennoch nicht zurückgegeben."}
+   ]
+  },
+  {
+   "id": "B1-10-L07",
+   "typ": "neu",
+   "titel": "Mahnung und Fristsetzung",
+   "vokabeln": ["a-divida", "o-prazo-limite", "por-mais-que", "ver-se-obrigado-a", "o-tribunal", "a-cobranca", "o-incumprimento", "a-acao-judicial", "os-juros-de-mora"],
+   "grammatik": {
+    "titel": "Por mais que / por muito que + conjuntivo; caso + conjuntivo",
+    "erklaerung": [
+     "<b>Por mais que</b> e <b>por muito que</b> exprimem uma concessão forte (<i>so sehr auch, sooft auch</i>) e pedem <b>conjuntivo</b>: <i><b>Por mais que</b> eu <b>ligue</b>, ninguém me atende.</i>",
+     "Também com nome ou adjetivo no meio: <i><b>Por mais</b> e-mails <b>que</b> <b>envie</b>, não respondem.</i> · <i><b>Por mais</b> simpático <b>que</b> <b>seja</b>, tem de pagar.</i>",
+     "Na carta de interpelação (Mahnung) aparece <b>caso</b> + conjuntivo (= se): <i><b>Caso</b> o pagamento não <b>seja</b> efetuado no prazo de dez dias, …</i> A consequência vem no futuro, às vezes com mesóclise: <i>… <b>ver-me-ei obrigado</b> a recorrer a tribunal</i> (= vou ver-me obrigado).",
+     "Fórmulas de prazo: <i>no prazo de oito dias</i>, <i>até ao dia 15 de novembro</i>, <i>a contar da receção desta carta</i>, <i>o prazo-limite é …</i>"
+    ],
+    "erklaerung_de": [
+     "<b>Por mais que</b> und <b>por muito que</b> drücken eine starke Einräumung aus (so sehr auch, sooft auch) und verlangen den <b>Konjunktiv</b>: <i>Por mais que eu ligue, ninguém me atende.</i> – Sooft ich auch anrufe, niemand hebt ab.",
+     "Auch mit Nomen oder Adjektiv dazwischen: <i>Por mais e-mails que envie …</i> – So viele E-Mails ich auch schicke … · <i>Por mais simpático que seja …</i> – So nett er auch ist …",
+     "In der Mahnung steht <b>caso</b> + Konjunktiv (= falls): <i>Caso o pagamento não seja efetuado …</i> – Falls die Zahlung nicht erfolgt … Die Folge steht im Futur, manchmal mit Mesoklise: <i>ver-me-ei obrigado</i> – ich werde mich gezwungen sehen.",
+     "Fristformeln: <i>no prazo de oito dias</i> (innerhalb von acht Tagen), <i>até ao dia 15</i> (bis zum 15.), <i>a contar da receção desta carta</i> (ab Erhalt dieses Schreibens), <i>o prazo-limite é …</i> (die letzte Frist ist …)."
+    ],
+    "vergleich": "„Sooft ich auch anrufe“ – im Deutschen Indikativ mit „auch“. Portugiesisch: <i>Por mais que eu ligue</i> – Konjunktiv. „Falls die Zahlung nicht erfolgt“ = <i>Caso o pagamento não seja efetuado</i>: nach <i>caso</i> steht der Presente do conjuntivo, nach <i>se</i> dagegen der Futuro do conjuntivo (<i>se não for efetuado</i>).",
+    "beispiele": [
+     {"pt": "Por mais que eu escreva, a empresa não responde.", "de": "So oft ich auch schreibe, die Firma antwortet nicht."},
+     {"pt": "Caso o valor em dívida não seja pago até ao dia 15, avançarei com uma ação judicial.", "de": "Falls der offene Betrag nicht bis zum 15. bezahlt wird, werde ich Klage einreichen."},
+     {"pt": "Por muito que me custe, vejo-me obrigado a recorrer a tribunal.", "de": "So schwer es mir fällt, ich sehe mich gezwungen, vor Gericht zu gehen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Por mais que eu ___ (ligar), ninguém me atende.", "loesungen": ["ligue"], "de": "Sooft ich auch anrufe, niemand hebt ab.", "erklaerung": "ligar → ligue (g → gu vor e).", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Por muito que o senhor ___ (insistir), a fatura está errada.", "loesungen": ["insista"], "de": "So sehr Sie auch darauf bestehen, die Rechnung ist falsch.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Caso o pagamento não ___ (ser) efetuado até sexta-feira, cobramos juros de mora.", "loesungen": ["seja"], "de": "Falls die Zahlung nicht bis Freitag erfolgt, verrechnen wir Verzugszinsen.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Por mais desculpas que ___ (dar – eles), o problema continua.", "loesungen": ["deem"], "de": "So oft sie sich auch entschuldigen, das Problem bleibt.", "erklaerung": "dar → que eles deem (nach der Rechtschreibreform ohne Zirkumflex).", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "„Ver-me-ei obrigado a recorrer a tribunal.“ bedeutet:", "optionen": ["Ich habe mich gezwungen gesehen, vor Gericht zu gehen.", "Ich werde mich gezwungen sehen, vor Gericht zu gehen.", "Ich würde mich gezwungen sehen, vor Gericht zu gehen."], "richtig": 1, "erklaerung": "Mesoklise im Futur: ver-me-ei = vou ver-me.", "kategorie": "Mesoklise"},
+     {"typ": "auswahl", "frage": "Caso o senhor não ___ até dia 30, …", "optionen": ["paga", "pagar", "pague"], "richtig": 2, "erklaerung": "caso + Presente do conjuntivo: pague. (Nach se: se não pagar.)", "kategorie": "Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Die letzte Frist ist der 30. November.", "loesungen": ["O prazo-limite é 30 de novembro.", "O prazo-limite é o dia 30 de novembro.", "O prazo-limite é dia 30 de novembro.", "O prazo-limite é a 30 de novembro."], "erklaerung": "Monate schreibt man klein: novembro."},
+     {"typ": "diktat", "pt": "Caso não pague no prazo de dez dias, vejo-me obrigado a recorrer a tribunal."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A fatura por pagar – die offene Rechnung",
+    "situation": "Ein Kunde von Stefans Beratungsfirma hat eine Rechnung seit drei Monaten nicht bezahlt. Stefan bespricht mit seiner Anwältin, Dra. Marques, die nächsten Schritte.",
+    "zeilen": [
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Doutora, o cliente de Faro ainda não pagou a fatura de julho. São 4 800 euros.", "de": "Frau Doktor, der Kunde aus Faro hat die Rechnung vom Juli immer noch nicht bezahlt. Es sind 4 800 Euro."},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Já lhe enviou algum lembrete?", "de": "Haben Sie ihm schon eine Erinnerung geschickt?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Três e-mails e duas chamadas. Por mais que insista, dizem sempre que o pagamento está a ser processado.", "de": "Drei E-Mails und zwei Anrufe. Sosehr ich auch nachhake, sie sagen immer, die Zahlung werde gerade bearbeitet."},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Então está na altura de uma interpelação formal, por carta registada com aviso de receção.", "de": "Dann ist es Zeit für eine formelle Mahnung, per Einschreiben mit Rückschein."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o que diz essa carta?", "de": "Und was steht in diesem Brief?"},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Que, caso o valor em dívida não seja pago no prazo de oito dias, o senhor avançará com uma ação judicial. E pode exigir juros de mora.", "de": "Dass Sie Klage einreichen werden, falls der offene Betrag nicht innerhalb von acht Tagen bezahlt wird. Und Sie können Verzugszinsen verlangen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Mas ir a tribunal demora anos, não é?", "de": "Aber vor Gericht zu gehen dauert Jahre, oder?"},
+     {"sprecher": "Advogada", "stimme": "f", "pt": "Pode demorar. Mas, pela minha experiência, muitos clientes pagam assim que recebem a carta. Ninguém quer um processo em tribunal.", "de": "Das kann dauern. Aber meiner Erfahrung nach zahlen viele Kunden, sobald sie den Brief bekommen. Niemand will ein Gerichtsverfahren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Está bem. Então prepare a carta, por favor. O prazo-limite fica para o dia 20.", "de": "In Ordnung. Dann bereiten Sie den Brief bitte vor. Die letzte Frist setzen wir auf den 20."}
+    ],
+    "fragen": [
+     {"frage": "Quanto deve o cliente ao Stefan?", "optionen": ["4 800 euros.", "8 400 euros.", "480 euros."], "richtig": 0},
+     {"frage": "O que fez o Stefan até agora?", "optionen": ["Foi a tribunal.", "Enviou e-mails e telefonou.", "Não fez nada."], "richtig": 1},
+     {"frage": "Segundo a advogada, o que acontece muitas vezes?", "optionen": ["Os clientes nunca pagam.", "O tribunal decide num mês.", "Os clientes pagam quando recebem a carta."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "Por mais que eu ligue, ninguém me atende.", "de": "Sooft ich auch anrufe, niemand hebt ab."},
+     {"pt": "O valor em dívida é de 4 800 euros.", "de": "Der offene Betrag beträgt 4 800 Euro."},
+     {"pt": "Caso não pague até ao dia 20, avanço com uma ação judicial.", "de": "Falls Sie nicht bis zum 20. zahlen, reiche ich Klage ein."},
+     {"pt": "Vejo-me obrigado a recorrer a tribunal.", "de": "Ich sehe mich gezwungen, vor Gericht zu gehen."},
+     {"pt": "O prazo-limite é sexta-feira.", "de": "Die letzte Frist ist Freitag."}
+    ]
+   },
+   "saetze": [
+    {"id": "por-mais-que-ligue", "pt": "Por mais que eu ligue, ninguém me atende.", "de": "Sooft ich auch anrufe, niemand hebt ab."},
+    {"id": "caso-nao-seja-pago", "pt": "Caso o valor não seja pago no prazo de oito dias, avançarei com uma ação judicial.", "de": "Falls der Betrag nicht innerhalb von acht Tagen bezahlt wird, werde ich Klage einreichen."},
+    {"id": "vejo-me-obrigado", "pt": "Vejo-me obrigado a recorrer a tribunal.", "de": "Ich sehe mich gezwungen, vor Gericht zu gehen."}
+   ]
+  },
+  {
+   "id": "B1-10-L08",
+   "typ": "neu",
+   "titel": "Mediation und Kompromiss",
+   "vokabeln": ["a-mediacao", "o-mediador", "o-julgado-de-paz", "a-arbitragem", "ceder", "o-meio-termo", "amigavel", "chegar-a-um-entendimento", "nem-que"],
+   "grammatik": {
+    "titel": "Nem que, quer … quer …, seja qual for, custe o que custar",
+    "erklaerung": [
+     "<b>Nem que</b> + conjuntivo mostra que estamos dispostos a ir até ao fim: <i>Vou resolver isto, <b>nem que tenha</b> de ir ao julgado de paz.</i> <b>Nem que seja</b> = <i>und sei es nur</i>: <i>Quero uma resposta, nem que seja um e-mail.</i>",
+     "<b>Quer … quer …</b> + conjuntivo = <i>ob … oder …</i>: <i><b>Quer</b> o vizinho <b>queira</b>, <b>quer</b> não, a árvore tem de ser cortada.</i> Na fala diz-se muito: <i>quer queira, quer não</i>.",
+     "Fórmulas fixas com o verbo repetido: <i><b>seja qual for</b> a decisão</i> (wie auch immer), <i><b>custe o que custar</b></i> (koste es, was es wolle), <i><b>aconteça o que acontecer</b></i> (was auch passiert).",
+     "Numa mediação, estas expressões ajudam a mostrar firmeza e boa vontade: <i>Seja qual for o resultado, quero chegar a um entendimento.</i> · <i>Estou disposto a ceder, nem que seja um pouco.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>Nem que</b> + Konjunktiv zeigt Entschlossenheit: <i>Vou resolver isto, nem que tenha de ir ao julgado de paz.</i> – Ich kläre das, und wenn ich zum Friedensgericht gehen muss. <b>Nem que seja</b> = und sei es nur: <i>nem que seja um e-mail</i>.",
+     "<b>Quer … quer …</b> + Konjunktiv = ob … oder …: <i>Quer o vizinho queira, quer não, …</i> – Ob der Nachbar will oder nicht, … Umgangssprachlich: <i>quer queira, quer não</i> (ob man will oder nicht).",
+     "Feste Formeln mit wiederholtem Verb: <i>seja qual for</i> (wie auch immer … ist), <i>custe o que custar</i> (koste es, was es wolle), <i>aconteça o que acontecer</i> (was auch passiert).",
+     "In einer Mediation helfen diese Wendungen, Festigkeit und guten Willen zu zeigen: <i>Seja qual for o resultado, quero chegar a um entendimento.</i> – Wie auch immer es ausgeht, ich will mich einigen."
+    ],
+    "vergleich": "Das Deutsche hat hier „ob … oder“, „egal wie“ oder „koste es, was es wolle“ – letzteres ist ein alter deutscher Konjunktiv, genau wie <i>custe o que custar</i>. Im Portugiesischen sind solche Formeln mit Konjunktiv im Alltag sehr lebendig.",
+    "beispiele": [
+     {"pt": "Quer o senhor concorde, quer não, a mediação é a melhor solução.", "de": "Ob Sie zustimmen oder nicht, die Mediation ist die beste Lösung."},
+     {"pt": "Vamos chegar a um entendimento, nem que demore o dia todo.", "de": "Wir werden uns einigen, und wenn es den ganzen Tag dauert."},
+     {"pt": "Seja qual for o resultado, continuamos a ser vizinhos.", "de": "Wie auch immer es ausgeht, wir bleiben Nachbarn."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Vou resolver isto, nem que ___ (ter) de ir ao julgado de paz.", "loesungen": ["tenha"], "de": "Ich kläre das, und wenn ich zum Friedensgericht gehen muss.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Quer o vizinho ___ (querer), quer não, a árvore tem de ser cortada.", "loesungen": ["queira"], "de": "Ob der Nachbar will oder nicht, der Baum muss gefällt werden.", "erklaerung": "querer → que eu queira (unregelmäßig).", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Seja qual ___ (ser) a decisão, aceitamos.", "loesungen": ["for"], "de": "Wie auch immer die Entscheidung ausfällt, wir akzeptieren sie.", "erklaerung": "Feste Formel: seja qual for (Futuro do conjuntivo von ser).", "kategorie": "Konzessiv"},
+     {"typ": "luecke", "satz": "Custe o que ___ (custar), quero uma solução amigável.", "loesungen": ["custar"], "de": "Koste es, was es wolle, ich will eine gütliche Lösung.", "erklaerung": "Feste Formel: custe o que custar.", "kategorie": "Konzessiv"},
+     {"typ": "auswahl", "frage": "„… und sei es nur eine Entschuldigung.“", "optionen": ["… nem que seja um pedido de desculpas.", "… mesmo que é um pedido de desculpas.", "… quer seja um pedido de desculpas."], "richtig": 0, "kategorie": "Konzessiv"},
+     {"typ": "auswahl", "frage": "„Ob es regnet oder nicht, die Mediation findet statt.“", "optionen": ["Quer chove quer não, a mediação realiza-se.", "Quer chova quer não, a mediação realiza-se.", "Se chover ou não, a mediação realiza-se."], "richtig": 1, "erklaerung": "quer … quer … + Konjunktiv: chova.", "kategorie": "Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Finden wir einen Kompromiss.", "loesungen": ["Vamos encontrar um meio-termo.", "Vamos chegar a um meio-termo.", "Encontremos um meio-termo.", "Vamos procurar um meio-termo."]},
+     {"typ": "satzbau", "de": "Wir einigen uns, wenn jeder ein bisschen nachgibt.", "loesung": "Chegamos a um entendimento se cada um ceder um pouco."}
+    ]
+   },
+   "hoeren": {
+    "titel": "No julgado de paz – Mediation beim Friedensgericht",
+    "situation": "Seit Monaten dringt Wasser von der Terrasse des Nachbarn über Stefans Garage ein. Stefan und der Nachbar, Senhor Albano, treffen sich zu einer Mediation beim Friedensgericht.",
+    "zeilen": [
+     {"sprecher": "Mediadora", "stimme": "f", "pt": "Bom dia. Estamos aqui para encontrar uma solução amigável. Eu não decido nada: ajudo-os a chegar a um entendimento.", "de": "Guten Morgen. Wir sind hier, um eine gütliche Lösung zu finden. Ich entscheide nichts: Ich helfe Ihnen, sich zu einigen."},
+     {"sprecher": "Albano", "stimme": "m", "pt": "A infiltração não é culpa minha. O prédio é velho.", "de": "Der Wassereintritt ist nicht meine Schuld. Das Gebäude ist alt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Seja qual for a causa, a água vem do seu terraço. Tenho humidade na garagem há seis meses.", "de": "Was auch immer die Ursache ist, das Wasser kommt von Ihrer Terrasse. Ich habe seit sechs Monaten Feuchtigkeit in der Garage."},
+     {"sprecher": "Mediadora", "stimme": "f", "pt": "Senhor Albano, quer a culpa seja sua, quer não, o problema existe. O que propõe?", "de": "Herr Albano, ob Sie schuld sind oder nicht, das Problem besteht. Was schlagen Sie vor?"},
+     {"sprecher": "Albano", "stimme": "m", "pt": "Posso mandar arranjar o terraço. Mas não pago a pintura da garagem, nem que me levem a tribunal.", "de": "Ich kann die Terrasse reparieren lassen. Aber die Malerarbeiten in der Garage zahle ich nicht, und wenn man mich vor Gericht bringt."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então proponho um meio-termo: o senhor repara o terraço e eu pago a pintura.", "de": "Dann schlage ich einen Kompromiss vor: Sie reparieren die Terrasse, und ich zahle das Ausmalen."},
+     {"sprecher": "Albano", "stimme": "m", "pt": "Hum… Está bem, aceito. Desde que o empreiteiro seja o meu.", "de": "Hm … Na gut, einverstanden. Vorausgesetzt, es ist mein Bauunternehmer."},
+     {"sprecher": "Mediadora", "stimme": "f", "pt": "Ótimo. Cada um cedeu um pouco, e assim evitam um processo longo. Vou registar o acordo.", "de": "Sehr gut. Jeder ist ein bisschen entgegengekommen, und so vermeiden Sie ein langes Verfahren. Ich halte die Vereinbarung schriftlich fest."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o papel da mediadora?", "optionen": ["Decidir quem tem razão.", "Ajudar as partes a chegar a um entendimento.", "Defender o Stefan."], "richtig": 1},
+     {"frage": "De onde vem a água?", "optionen": ["Do terraço do senhor Albano.", "Da rua.", "Do telhado do prédio."], "richtig": 0},
+     {"frage": "Qual é o meio-termo?", "optionen": ["O Stefan paga tudo.", "Vão a tribunal.", "O senhor Albano repara o terraço e o Stefan paga a pintura."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "Dein Nachbar João und du streitet über die Kosten für einen neuen Zaun (a vedação) zwischen euren Gärten. Ihr duzt euch und sucht einen Kompromiss.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Stefan, a vedação nova custa 1 200 euros. Acho que devias pagar tu tudo – a ideia foi tua.", "de": "Stefan, der neue Zaun kostet 1 200 Euro. Ich finde, du solltest alles zahlen – es war deine Idee."},
+     {"ich": true, "aufgabe": "Sag: Selbst wenn es meine Idee war, der Zaun ist für uns beide.", "loesungen": ["Mesmo que tenha sido ideia minha, a vedação é para os dois.", "Mesmo que a ideia tenha sido minha, a vedação é para os dois.", "Ainda que tenha sido ideia minha, a vedação é para os dois.", "Embora tenha sido ideia minha, a vedação é para os dois.", "Mesmo que tenha sido ideia minha, a vedação é para nós os dois.", "Mesmo que a ideia tenha sido minha, a vedação é para nós os dois."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois, isso é verdade. Então, o que propões?", "de": "Na ja, das stimmt. Was schlägst du also vor?"},
+     {"ich": true, "aufgabe": "Sag: Finden wir einen Kompromiss: Jeder zahlt die Hälfte.", "loesungen": ["Vamos encontrar um meio-termo: cada um paga metade.", "Vamos encontrar um meio-termo: cada um paga a metade.", "Vamos chegar a um meio-termo: cada um paga metade.", "Proponho um meio-termo: cada um paga metade.", "Vamos encontrar um meio-termo: pagamos metade cada um."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Metade? Está bem, mas o trabalho faço-o eu, para pouparmos.", "de": "Die Hälfte? Na gut, aber die Arbeit mache ich selbst, damit wir sparen."},
+     {"ich": true, "aufgabe": "Sag: Abgemacht! Hauptsache, wir bleiben Freunde.", "loesungen": ["Combinado! O importante é continuarmos amigos.", "Combinado! O mais importante é continuarmos amigos.", "Está combinado! O importante é continuarmos amigos.", "Combinado! O importante é que continuemos amigos.", "Combinado! O importante é sermos amigos."]}
+    ]
+   },
+   "saetze": [
+    {"id": "vamos-encontrar-meio-termo", "pt": "Vamos encontrar um meio-termo.", "de": "Finden wir einen Kompromiss."},
+    {"id": "prefiro-solucao-amigavel", "pt": "Prefiro uma solução amigável a um processo em tribunal.", "de": "Eine gütliche Lösung ist mir lieber als ein Gerichtsverfahren."},
+    {"id": "nem-que-seja-um-email", "pt": "Quero uma resposta, nem que seja um e-mail.", "de": "Ich will eine Antwort, und sei es nur eine E-Mail."}
+   ]
+  },
+  {
+   "id": "B1-10-L09",
+   "typ": "neu",
+   "titel": "Am Telefon eskalieren – falar com o responsável",
+   "vokabeln": ["falar-com-o-responsavel", "o-superior-hierarquico", "a-gravacao", "transferir-a-chamada", "o-numero-da-reclamacao", "manter-a-calma", "estar-farto-de", "levantar-a-voz", "a-resposta-padrao"],
+   "grammatik": {
+    "titel": "Pedidos firmes: peço-lhe que / exijo que + presente do conjuntivo; queria que + imperfeito do conjuntivo",
+    "erklaerung": [
+     "Quando pedimos a <b>outra pessoa</b> que faça alguma coisa, usamos um verbo de vontade + <b>que</b> + <b>conjuntivo</b>. Com o verbo principal no presente, vem o <b>presente do conjuntivo</b>: <i><b>Peço-lhe que</b> me <b>transfira</b> a chamada.</i> · <i><b>Exijo que</b> me <b>deem</b> o número da reclamação.</i>",
+     "Mais delicado (e muito usado ao telefone): <b>queria que</b> / <b>gostava que</b> + <b>imperfeito do conjuntivo</b>: <i><b>Queria que</b> me <b>transferisse</b> para o responsável.</i> · <i><b>Gostava que</b> me <b>enviassem</b> a resposta por escrito.</i> Forma-se a partir da 3.ª pessoa do plural do pretérito perfeito: <i>deram → desse, fizeram → fizesse, puderam → pudesse, ligaram → ligasse</i>.",
+     "Se o sujeito é o mesmo, não há <i>que</i>: usa-se o infinitivo. <i><b>Queria falar</b> com o responsável.</i> (eu quero, eu falo) ↔ <i><b>Queria que o senhor falasse</b> com o responsável.</i> (eu quero, o senhor fala). Depois de <i>que</i>, o pronome vem antes do verbo: <i>que <b>me</b> transfira</i>.",
+     "Para manter a calma e ser firme ao mesmo tempo, comece com uma concessão: <i><b>Embora compreenda</b> que o senhor não tem culpa, preciso de falar com o responsável.</i>"
+    ],
+    "erklaerung_de": [
+     "Wenn man <b>jemand anderen</b> um etwas bittet, folgt auf ein Verb des Wollens <b>que</b> + <b>Konjunktiv</b>. Steht das Hauptverb im Präsens, nimmt man den <b>Presente do conjuntivo</b>: <i>Peço-lhe que me transfira a chamada.</i> – Ich bitte Sie, mich zu verbinden. · <i>Exijo que me deem o número da reclamação.</i> – Ich verlange, dass Sie mir die Beschwerdenummer geben.",
+     "Höflicher (und am Telefon sehr üblich): <b>queria que / gostava que</b> + <b>Imperfeito do conjuntivo</b>: <i>Queria que me transferisse para o responsável.</i> – Ich hätte gern, dass Sie mich mit dem Verantwortlichen verbinden. Bildung: 3. Person Plural des Pretérito perfeito ohne <i>-ram</i> + <i>-sse</i>: <i>deram → desse, fizeram → fizesse, puderam → pudesse, ligaram → ligasse</i>.",
+     "Bei gleichem Subjekt kein <i>que</i>, sondern Infinitiv: <i>Queria falar com o responsável.</i> (ich will, ich spreche) ↔ <i>Queria que o senhor falasse com o responsável.</i> (ich will, Sie sprechen). Nach <i>que</i> steht das Pronomen vor dem Verb: <i>que me transfira</i>.",
+     "Um ruhig und trotzdem bestimmt zu bleiben, beginnt man mit einer Einräumung: <i>Embora compreenda que o senhor não tem culpa, preciso de falar com o responsável.</i> – Obwohl ich verstehe, dass Sie nichts dafür können, muss ich mit dem Verantwortlichen sprechen."
+    ],
+    "vergleich": "Deutsch: „Ich möchte, dass Sie mich verbinden“ – Indikativ im Nebensatz. Portugiesisch verlangt den Konjunktiv: <i>Queria que me transferisse</i>. Englisch löst es mit dem Infinitiv: „I'd like you to put me through“. Das höfliche <i>queria</i> entspricht dem deutschen „ich hätte gern“.",
+    "beispiele": [
+     {"pt": "Peço-lhe que me dê o número da reclamação.", "de": "Ich bitte Sie, mir die Beschwerdenummer zu geben."},
+     {"pt": "Queria que me transferisse a chamada para o responsável.", "de": "Ich hätte gern, dass Sie mich mit dem Verantwortlichen verbinden."},
+     {"pt": "Embora compreenda que não tem culpa, estou farto de respostas-padrão.", "de": "Obwohl ich verstehe, dass Sie nichts dafür können, habe ich Standardantworten satt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Peço-lhe que me ___ (transferir) a chamada para o responsável.", "loesungen": ["transfira"], "de": "Ich bitte Sie, mich mit dem Verantwortlichen zu verbinden.", "erklaerung": "transferir → (eu) transfiro → que transfira.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "Queria que me ___ (dar) o número da reclamação.", "loesungen": ["desse"], "de": "Ich hätte gern, dass Sie mir die Beschwerdenummer geben.", "erklaerung": "queria que → Imperfeito do conjuntivo: deram → desse.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Gostava que o responsável me ___ (ligar) ainda hoje.", "loesungen": ["ligasse"], "de": "Ich hätte gern, dass mich der Verantwortliche heute noch anruft.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Exijo que ___ (resolver – vocês) o problema esta semana.", "loesungen": ["resolvam"], "de": "Ich verlange, dass Sie das Problem diese Woche lösen.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "Queria que me ___ ao responsável, por favor.", "optionen": ["passa", "passasse", "passe"], "richtig": 1, "erklaerung": "queria (Imperfeito) + que → Imperfeito do conjuntivo: passasse.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "Embora ___ que a culpa não é sua, preciso de falar com o responsável.", "optionen": ["compreendo", "compreenda", "compreender"], "richtig": 1, "erklaerung": "embora + Presente do conjuntivo: compreenda.", "kategorie": "Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Ich habe es satt, am Telefon zu warten!", "loesungen": ["Estou farto de esperar ao telefone!", "Estou farta de esperar ao telefone!", "Estou farto de esperar ao telefone.", "Estou farta de esperar ao telefone.", "Já estou farto de esperar ao telefone!", "Estou farto de estar à espera ao telefone!", "Estou farta de estar à espera ao telefone!"]},
+     {"typ": "satzbau", "de": "Ich hätte gern, dass Sie mir die Antwort schriftlich schicken.", "loesung": "Queria que me enviasse a resposta por escrito."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Quero falar com o responsável! – Ich will den Verantwortlichen sprechen!",
+    "situation": "Zwei Wochen nach seinem Beschwerdebrief fällt Stefans Internet immer noch aus. Er ruft zum vierten Mal in dieser Woche bei der Hotline an.",
+    "zeilen": [
+     {"sprecher": "Assistente", "stimme": "m", "pt": "Linha de apoio ao cliente, boa tarde, fala o Rui. Informo que esta chamada está a ser gravada. Em que posso ajudar?", "de": "Kundenhotline, guten Tag, hier spricht Rui. Ich weise darauf hin, dass dieses Gespräch aufgezeichnet wird. Wie kann ich helfen?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Boa tarde. É a quarta vez que ligo esta semana. O número da reclamação é o 58 112.", "de": "Guten Tag. Ich rufe diese Woche zum vierten Mal an. Die Beschwerdenummer ist 58 112."},
+     {"sprecher": "Assistente", "stimme": "m", "pt": "Obrigado. Estou a ver… Os nossos técnicos estão a trabalhar para resolver a situação com a maior brevidade possível.", "de": "Danke. Ich sehe gerade … Unsere Techniker arbeiten daran, die Situation so rasch wie möglich zu lösen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Desculpe, mas essa é a mesma resposta-padrão que me deram na segunda-feira. Embora compreenda que o senhor não tem culpa, estou farto de esperar.", "de": "Entschuldigung, aber das ist dieselbe Standardantwort, die man mir am Montag gegeben hat. Obwohl ich verstehe, dass Sie nichts dafür können, habe ich das Warten satt."},
+     {"sprecher": "Assistente", "stimme": "m", "pt": "Compreendo a sua frustração. Infelizmente, daqui não posso fazer mais nada.", "de": "Ich verstehe Ihren Ärger. Leider kann ich von hier aus nichts weiter tun."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então queria que me transferisse a chamada para o responsável, por favor.", "de": "Dann hätte ich gern, dass Sie mich bitte mit dem Verantwortlichen verbinden."},
+     {"sprecher": "Assistente", "stimme": "m", "pt": "Muito bem. Vou passar a chamada à minha superior hierárquica. Um momento, por favor.", "de": "In Ordnung. Ich verbinde Sie mit meiner Vorgesetzten. Einen Moment, bitte."},
+     {"sprecher": "Responsável", "stimme": "f", "pt": "Boa tarde, fala Helena Matos, responsável pelo apoio técnico. Já li o seu processo e peço-lhe desculpa. Amanhã de manhã vamos enviar um técnico a sua casa.", "de": "Guten Tag, hier spricht Helena Matos, Leiterin des technischen Supports. Ich habe Ihren Fall schon gelesen und bitte Sie um Entschuldigung. Morgen Vormittag schicken wir einen Techniker zu Ihnen nach Hause."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Finalmente! Muito obrigado. Tentei manter a calma, mas já não aguentava mais.", "de": "Endlich! Vielen Dank. Ich habe versucht, ruhig zu bleiben, aber ich hielt es nicht mehr aus."}
+    ],
+    "fragen": [
+     {"frage": "Quantas vezes ligou o Stefan esta semana?", "optionen": ["Duas.", "Três.", "Quatro."], "richtig": 2},
+     {"frage": "Porque é que o Stefan fica irritado com o Rui?", "optionen": ["Porque o Rui levanta a voz.", "Porque recebe a mesma resposta-padrão.", "Porque o Rui desliga a chamada."], "richtig": 1},
+     {"frage": "O que promete a responsável?", "optionen": ["Enviar um técnico no dia seguinte de manhã.", "Devolver o dinheiro de outubro.", "Ligar-lhe na próxima semana."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português – firme, mas educado. – Schreib auf Portugiesisch, bestimmt, aber höflich.",
+    "aufgaben": [
+     {"de": "Ich hätte gern, dass Sie mich mit dem Verantwortlichen verbinden. (formell)", "loesungen": ["Queria que me transferisse a chamada para o responsável.", "Queria que me transferisse para o responsável.", "Queria que me passasse ao responsável.", "Gostava que me transferisse a chamada para o responsável.", "Gostava que me transferisse para o responsável.", "Gostava que me passasse ao responsável.", "Gostaria que me transferisse para o responsável.", "Gostaria que me passasse ao responsável."]},
+     {"de": "Können Sie mir die Beschwerdenummer geben?", "loesungen": ["Pode dar-me o número da reclamação?", "Pode-me dar o número da reclamação?", "Podia dar-me o número da reclamação?", "Pode dizer-me o número da reclamação?", "Podia dizer-me o número da reclamação?"]},
+     {"de": "Ich habe es satt, immer dieselbe Standardantwort zu bekommen.", "loesungen": ["Estou farto de receber sempre a mesma resposta-padrão.", "Estou farta de receber sempre a mesma resposta-padrão.", "Estou farto de ouvir sempre a mesma resposta-padrão.", "Estou farta de ouvir sempre a mesma resposta-padrão.", "Já estou farto de receber sempre a mesma resposta-padrão."]},
+     {"de": "Auch wenn sie mich ärgern, bleibe ich ruhig.", "loesungen": ["Mesmo que me irritem, mantenho a calma.", "Ainda que me irritem, mantenho a calma.", "Mesmo que me irritem, eu mantenho a calma.", "Mesmo que me irritem, fico calmo.", "Mesmo que me irritem, fico calma.", "Mesmo que me chateiem, mantenho a calma."]},
+     {"de": "Obwohl ich verstehe, dass Sie nichts dafür können, möchte ich mit dem Verantwortlichen sprechen.", "loesungen": ["Embora compreenda que não tem culpa, queria falar com o responsável.", "Embora compreenda que o senhor não tem culpa, queria falar com o responsável.", "Embora compreenda que a senhora não tem culpa, queria falar com o responsável.", "Embora compreenda que a culpa não é sua, queria falar com o responsável.", "Embora perceba que não tem culpa, queria falar com o responsável.", "Embora compreenda que não tem culpa, gostava de falar com o responsável.", "Embora compreenda que não tem culpa, quero falar com o responsável."]}
+    ]
+   },
+   "saetze": [
+    {"id": "posso-falar-com-responsavel", "pt": "Posso falar com o responsável, por favor?", "de": "Kann ich bitte mit dem Verantwortlichen sprechen?"},
+    {"id": "queria-que-me-transferisse", "pt": "Queria que me transferisse a chamada para o responsável.", "de": "Ich hätte gern, dass Sie mich mit dem Verantwortlichen verbinden."},
+    {"id": "estou-farto-de-esperar", "pt": "Estou farto de esperar ao telefone!", "de": "Ich habe es satt, am Telefon zu warten!"}
+   ]
+  },
+  {
+   "id": "B1-10-L10",
+   "typ": "neu",
+   "titel": "Die Lösung – Entschuldigung und Entschädigung",
+   "vokabeln": ["a-compensacao", "o-gesto-de-boa-vontade", "o-pedido-de-desculpas", "reconhecer-o-erro", "ficar-resolvido", "ainda-assim", "todavia", "dar-o-assunto-por-encerrado", "guardar-rancor"],
+   "grammatik": {
+    "titel": "Mesmo que + imperfeito do conjuntivo (hipóteses) e resumo das concessivas",
+    "erklaerung": [
+     "Para uma <b>hipótese</b> pouco provável ou irreal, usa-se <b>mesmo que / ainda que + imperfeito do conjuntivo</b>, e a frase principal vai para o <b>condicional</b> (na fala, muitas vezes o imperfeito): <i><b>Mesmo que</b> me <b>oferecessem</b> um ano grátis, <b>mudaria</b> (mudava) de operadora.</i>",
+     "Compare: <i>Mesmo que me <b>ofereçam</b> um desconto, <b>mudo</b> de operadora.</i> (é possível que ofereçam) ↔ <i>Mesmo que me <b>oferecessem</b> um ano grátis, <b>mudaria</b>.</i> (só uma hipótese).",
+     "Resumo da unidade: <b>conjuntivo</b> depois de <i>embora, mesmo que, ainda que, por mais que, nem que, caso</i>; <b>infinitivo</b> depois de <i>apesar de</i>; <b>indicativo</b> com <i>mesmo assim, ainda assim, apesar disso, no entanto, contudo, porém, todavia</i>.",
+     "Ao aceitar uma solução, estas estruturas ajudam a ser justo e claro: <i>A empresa reconheceu o erro. <b>Ainda assim</b>, o processo demorou demasiado.</i> · <i><b>Embora</b> o problema <b>tenha durado</b> um mês, dou o assunto por encerrado.</i>"
+    ],
+    "erklaerung_de": [
+     "Für eine unwahrscheinliche oder nur gedachte <b>Annahme</b> nimmt man <b>mesmo que / ainda que + Imperfeito do conjuntivo</b>, der Hauptsatz steht im <b>Condicional</b> (gesprochen oft im Imperfeito): <i>Mesmo que me oferecessem um ano grátis, mudaria de operadora.</i> – Selbst wenn sie mir ein Gratisjahr anböten, würde ich den Anbieter wechseln.",
+     "Vergleiche: <i>Mesmo que me ofereçam um desconto, mudo de operadora.</i> (Rabatt ist gut möglich) ↔ <i>Mesmo que me oferecessem um ano grátis, mudaria.</i> (bloß eine Annahme).",
+     "Zusammenfassung der Einheit: <b>Konjunktiv</b> nach <i>embora, mesmo que, ainda que, por mais que, nem que, caso</i>; <b>Infinitiv</b> nach <i>apesar de</i>; <b>Indikativ</b> bei <i>mesmo assim, ainda assim, apesar disso, no entanto, contudo, porém, todavia</i>.",
+     "Wenn man eine Lösung annimmt, helfen diese Strukturen, fair und klar zu bleiben: <i>A empresa reconheceu o erro. Ainda assim, o processo demorou demasiado.</i> – Die Firma hat den Fehler eingestanden. Trotzdem hat das Ganze zu lange gedauert."
+    ],
+    "vergleich": "Hier passen Deutsch und Portugiesisch gut zusammen: „Selbst wenn sie mir ein Gratisjahr anböten (anbieten würden), würde ich wechseln“ – Konjunktiv II in beiden Satzteilen, wie <i>oferecessem … mudaria</i>. Englisch: „Even if they offered me a free year, I would switch.“",
+    "beispiele": [
+     {"pt": "Mesmo que me oferecessem um ano grátis, mudaria de operadora.", "de": "Selbst wenn sie mir ein Gratisjahr anböten, würde ich den Anbieter wechseln."},
+     {"pt": "Embora o problema tenha durado um mês, damos o assunto por encerrado.", "de": "Obwohl das Problem einen Monat gedauert hat, betrachten wir die Angelegenheit als erledigt."},
+     {"pt": "Pediram desculpa e deram-nos uma compensação. Ainda assim, mudámos de operadora.", "de": "Sie haben sich entschuldigt und uns eine Entschädigung gegeben. Trotzdem haben wir den Anbieter gewechselt."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Mesmo que me ___ (oferecer – eles) um desconto enorme, mudaria de operadora.", "loesungen": ["oferecessem"], "de": "Selbst wenn sie mir einen riesigen Rabatt anböten, würde ich den Anbieter wechseln.", "erklaerung": "Annahme + Condicional im Hauptsatz → Imperfeito do conjuntivo: ofereceram → oferecessem.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Ainda que a empresa ___ (reconhecer) o erro, eu não aceitaria esta compensação.", "loesungen": ["reconhecesse"], "de": "Auch wenn die Firma den Fehler eingestehen würde, würde ich diese Entschädigung nicht annehmen.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "luecke", "satz": "Mesmo que eles pedissem desculpa, eu não ___ (aceitar).", "loesungen": ["aceitaria", "aceitava"], "de": "Selbst wenn sie sich entschuldigen würden, würde ich nicht annehmen.", "erklaerung": "Hauptsatz im Condicional (aceitaria); gesprochen auch Imperfeito (aceitava).", "kategorie": "Condicional"},
+     {"typ": "luecke", "satz": "Recebi um pedido de desculpas. ___ assim, continuo insatisfeito.", "loesungen": ["Ainda", "Mesmo", "ainda", "mesmo"], "de": "Ich habe eine Entschuldigung bekommen. Trotzdem bin ich weiterhin unzufrieden.", "kategorie": "Konzessiv"},
+     {"typ": "auswahl", "frage": "Mesmo que me ___ um ano grátis, não ficava com eles.", "optionen": ["dão", "dessem", "deem"], "richtig": 1, "erklaerung": "Reine Annahme, Hauptsatz im Imperfeito/Condicional → Imperfeito do conjuntivo: dessem.", "kategorie": "Imperfeito do conjuntivo"},
+     {"typ": "auswahl", "frage": "A empresa pediu desculpa. ___, mudei de operadora.", "optionen": ["Embora", "Mesmo que", "Ainda assim"], "richtig": 2, "erklaerung": "Zwei Hauptsätze → Konnektor mit Indikativ: ainda assim.", "kategorie": "Konzessiv"},
+     {"typ": "auswahl", "frage": "Apesar de ___ reconhecido o erro, a empresa não pagou nada.", "optionen": ["tenha", "ter", "tivesse"], "richtig": 1, "erklaerung": "Nach apesar de steht der Infinitiv: apesar de ter reconhecido.", "kategorie": "Konzessiv"},
+     {"typ": "uebersetzen", "de": "Der Rabatt war eine Kulanzgeste. Trotzdem bin ich unzufrieden.", "loesungen": ["O desconto foi um gesto de boa vontade. Ainda assim, estou insatisfeito.", "O desconto foi um gesto de boa vontade. Ainda assim, estou insatisfeita.", "O desconto foi um gesto de boa vontade. Mesmo assim, estou insatisfeito.", "O desconto foi um gesto de boa vontade. Mesmo assim, estou insatisfeita.", "O desconto foi um gesto de boa vontade. Apesar disso, estou insatisfeito.", "O desconto foi um gesto de boa vontade. Apesar disso, estou insatisfeita.", "O desconto foi um gesto de boa vontade; ainda assim, estou insatisfeito."], "kategorie": "Konzessiv"},
+     {"typ": "satzbau", "de": "Zum Glück ist die Sache erledigt.", "loesung": "Ainda bem que o assunto ficou resolvido."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A resposta da operadora – die Antwort des Anbieters",
+    "situation": "Eine Woche nach dem Technikerbesuch kommt die schriftliche Antwort des Internetanbieters. Ana liest Stefan die E-Mail vor.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, chegou a resposta da operadora. Ouve: «Exmo. Senhor, em resposta à sua reclamação n.º 58 112, reconhecemos que houve uma falha grave na sua zona.»", "de": "Stefan, die Antwort des Anbieters ist da. Hör zu: „Sehr geehrter Herr, in Beantwortung Ihrer Beschwerde Nr. 58 112 räumen wir ein, dass es in Ihrer Gegend eine schwere Störung gab.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Finalmente reconhecem o erro! E o que oferecem?", "de": "Endlich geben sie den Fehler zu! Und was bieten sie an?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "«Como compensação, não cobraremos a mensalidade de outubro. Além disso, como gesto de boa vontade, oferecemos-lhe três meses de televisão grátis.»", "de": "„Als Entschädigung verrechnen wir die Monatsgebühr für Oktober nicht. Außerdem bieten wir Ihnen als Kulanzgeste drei Monate Fernsehen gratis an.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Não está mal. E há algum pedido de desculpas?", "de": "Nicht schlecht. Und gibt es auch eine Entschuldigung?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Há: «Lamentamos o transtorno causado. Todavia, informamos que a avaria teve origem em obras da câmara municipal.»", "de": "Ja: „Wir bedauern die entstandenen Unannehmlichkeiten. Wir weisen jedoch darauf hin, dass der Defekt auf Bauarbeiten der Gemeinde zurückging.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pois, a culpa é sempre dos outros. Ainda assim, aceito a proposta. O mais importante é a internet funcionar.", "de": "Klar, schuld sind immer die anderen. Trotzdem nehme ich das Angebot an. Das Wichtigste ist, dass das Internet funktioniert."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "E a última frase: «Com esta compensação, damos o assunto por encerrado.» Vais responder?", "de": "Und der letzte Satz: „Mit dieser Entschädigung betrachten wir die Angelegenheit als erledigt.“ Antwortest du?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Vou, só para agradecer. O assunto ficou resolvido e eu não guardo rancor. Mas, se a internet voltar a falhar, mudo de operadora, nem que tenha de pagar a multa.", "de": "Ja, nur um mich zu bedanken. Die Sache ist erledigt, und ich bin nicht nachtragend. Aber wenn das Internet wieder ausfällt, wechsle ich den Anbieter, und wenn ich die Vertragsstrafe zahlen muss."}
+    ],
+    "fragen": [
+     {"frage": "O que reconhece a operadora?", "optionen": ["Que o router do Stefan estava avariado.", "Que houve uma falha grave na zona.", "Que a fatura estava errada."], "richtig": 1},
+     {"frage": "Qual é a compensação?", "optionen": ["Não pagar outubro e três meses de televisão grátis.", "Um router novo e um mês grátis.", "Um desconto de cinquenta por cento."], "richtig": 0},
+     {"frage": "Segundo a operadora, qual foi a origem da avaria?", "optionen": ["Uma tempestade.", "Um erro dos técnicos.", "Obras da câmara municipal."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita. – Hör zu und sprich nach.",
+    "saetze": [
+     {"pt": "A empresa reconheceu o erro e pediu desculpa.", "de": "Die Firma hat den Fehler eingestanden und sich entschuldigt."},
+     {"pt": "Como compensação, não cobram a mensalidade de outubro.", "de": "Als Entschädigung verrechnen sie die Monatsgebühr für Oktober nicht."},
+     {"pt": "O desconto foi um gesto de boa vontade.", "de": "Der Rabatt war eine Kulanzgeste."},
+     {"pt": "Mesmo que me oferecessem um ano grátis, mudaria de operadora.", "de": "Selbst wenn sie mir ein Gratisjahr anböten, würde ich den Anbieter wechseln."},
+     {"pt": "Ainda bem que o assunto ficou resolvido.", "de": "Zum Glück ist die Sache erledigt."}
+    ]
+   },
+   "saetze": [
+    {"id": "empresa-reconheceu-o-erro", "pt": "A empresa reconheceu o erro e pediu desculpa.", "de": "Die Firma hat den Fehler eingestanden und sich entschuldigt."},
+    {"id": "mesmo-que-oferecessem", "pt": "Mesmo que me oferecessem um ano grátis, mudaria de operadora.", "de": "Selbst wenn sie mir ein Gratisjahr anböten, würde ich den Anbieter wechseln."},
+    {"id": "assunto-ficou-resolvido", "pt": "Ainda bem que o assunto ficou resolvido.", "de": "Zum Glück ist die Sache erledigt."}
+   ]
+  },
+  {"id": "B1-10-L11", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B1-10-L12", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "O frigorífico avariado – der kaputte Kühlschrank",
+   "situation": "Stefan ruft beim Elektrogeschäft in Portimão an, in dem er vor zwei Monaten einen Kühlschrank gekauft hat.",
+   "zeilen": [
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Eletro Sul, bom dia. Fala a Marta.", "de": "Eletro Sul, guten Morgen. Hier spricht Marta."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Bom dia. Comprei-vos um frigorífico há dois meses e, embora ainda esteja na garantia, deixou de funcionar.", "de": "Guten Morgen. Ich habe bei Ihnen vor zwei Monaten einen Kühlschrank gekauft, und obwohl er noch Garantie hat, funktioniert er nicht mehr."},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Lamento. Já falou com o serviço técnico?", "de": "Das tut mir leid. Haben Sie schon mit dem Kundendienst gesprochen?"},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Já. Apesar de lhes ter enviado fotografias, dizem que o defeito foi causado por mim.", "de": "Ja. Obwohl ich ihnen Fotos geschickt habe, sagen sie, ich hätte den Defekt verursacht."},
+    {"sprecher": "Funcionária", "stimme": "f", "pt": "Nesse caso, a loja não pode fazer nada.", "de": "In dem Fall kann das Geschäft nichts machen."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Não concordo. Como consumidor, tenho direito à reparação ou à troca. Posso falar com o responsável, por favor?", "de": "Da bin ich nicht einverstanden. Als Verbraucher habe ich Anspruch auf Reparatur oder Umtausch. Kann ich bitte mit dem Verantwortlichen sprechen?"},
+    {"sprecher": "Gerente", "stimme": "m", "pt": "Bom dia, fala o gerente. Mesmo que o defeito não seja claro, vamos mandar um técnico a sua casa na quinta-feira.", "de": "Guten Morgen, hier spricht der Filialleiter. Auch wenn der Defekt nicht eindeutig ist, schicken wir am Donnerstag einen Techniker zu Ihnen nach Hause."},
+    {"sprecher": "Stefan", "stimme": "m", "pt": "Obrigado. Mas caso o técnico não o consiga reparar, quero um frigorífico novo.", "de": "Danke. Aber falls der Techniker ihn nicht reparieren kann, will ich einen neuen Kühlschrank."},
+    {"sprecher": "Gerente", "stimme": "m", "pt": "Combinado. Se não tiver reparação, trocamos-lho.", "de": "Abgemacht. Wenn er nicht zu reparieren ist, tauschen wir ihn Ihnen um."}
+   ],
+   "fragen": [
+    {"frage": "Há quanto tempo comprou o Stefan o frigorífico?", "optionen": ["Há duas semanas.", "Há dois meses.", "Há dois anos."], "richtig": 1},
+    {"frage": "O que diz o serviço técnico?", "optionen": ["Que o defeito foi causado pelo Stefan.", "Que vão trocar o frigorífico.", "Que a garantia já acabou."], "richtig": 0},
+    {"frage": "Quando vai o técnico a casa do Stefan?", "optionen": ["Na segunda-feira.", "Amanhã.", "Na quinta-feira."], "richtig": 2},
+    {"frage": "O que acontece se o frigorífico não tiver reparação?", "optionen": ["O Stefan recebe o dinheiro de volta.", "A loja troca-o por um novo.", "O Stefan vai a tribunal."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Carta de reclamação – Beschwerdebrief an die Baufirma",
+   "situation": "Stefan schreibt einen eingeschriebenen Brief an die Firma, die sein Badezimmer renoviert hat.",
+   "text": [
+    "Exmos. Senhores,",
+    "Venho por este meio apresentar reclamação relativa às obras realizadas na casa de banho da minha casa, em Lagos, concluídas a 3 de setembro.",
+    "Embora tenha pago um adiantamento de 40 % e, mais tarde, o restante valor, os trabalhos apresentam vários defeitos: os azulejos estão mal colocados e apareceram duas fissuras na parede.",
+    "Não obstante as minhas três chamadas e dois e-mails, V. Ex.as não deram qualquer resposta. Além disso, a fatura final inclui 350 euros que não constavam do orçamento.",
+    "Pelo exposto, solicito que refaçam os trabalhos no prazo de trinta dias e que me devolvam o valor cobrado a mais.",
+    "Caso não obtenha resposta até ao dia 15 de novembro, ver-me-ei obrigado a recorrer ao julgado de paz.",
+    "Sem outro assunto de momento, com os melhores cumprimentos,",
+    "Stefan Krenn"
+   ],
+   "fragen": [
+    {"frage": "Porque escreve o Stefan esta carta?", "optionen": ["Para pedir um orçamento.", "Para agradecer as obras.", "Para reclamar de obras mal feitas."], "richtig": 2},
+    {"frage": "Quantas vezes contactou o Stefan a empresa antes da carta?", "optionen": ["Cinco vezes: três chamadas e dois e-mails.", "Uma vez.", "Nunca."], "richtig": 0},
+    {"frage": "O que pede o Stefan?", "optionen": ["Uma indemnização e um pedido de desculpas.", "Que refaçam os trabalhos e devolvam o valor cobrado a mais.", "Que cancelem o contrato."], "richtig": 1},
+    {"frage": "O que fará o Stefan se não tiver resposta até 15 de novembro?", "optionen": ["Escreve outra carta.", "Paga a fatura.", "Recorre ao julgado de paz."], "richtig": 2}
+   ]
+  },
+  "schreiben": [
+   {"de": "Obwohl das Internet jeden Tag ausfällt, zahle ich den ganzen Betrag.", "loesungen": ["Embora a internet falhe todos os dias, pago o valor todo.", "Embora a internet falhe todos os dias, pago o valor total.", "Embora a internet falhe todos os dias, pago tudo.", "Embora a internet falhe todos os dias, eu pago o valor todo.", "Pago o valor todo, embora a internet falhe todos os dias."]},
+   {"de": "Trotz des Preises war das Hotel eine Enttäuschung.", "loesungen": ["Apesar do preço, o hotel foi uma desilusão.", "O hotel foi uma desilusão, apesar do preço.", "Apesar do preço, o hotel era uma desilusão."]},
+   {"de": "Selbst wenn Sie darauf bestehen, zahle ich diesen Betrag nicht. (formell)", "loesungen": ["Mesmo que o senhor insista, não pago esse valor.", "Mesmo que insista, não pago esse valor.", "Mesmo que a senhora insista, não pago esse valor.", "Ainda que o senhor insista, não pago esse valor.", "Ainda que insista, não pago esse valor.", "Mesmo que o senhor insista, não pago este valor.", "Mesmo que insista, não pago este valor."]},
+   {"de": "Hiermit erhebe ich Beschwerde bezüglich der Oktoberrechnung.", "loesungen": ["Venho por este meio apresentar reclamação relativa à fatura de outubro.", "Venho por este meio apresentar uma reclamação relativa à fatura de outubro.", "Venho por este meio reclamar da fatura de outubro."]},
+   {"de": "Sooft ich auch anrufe, niemand hebt ab.", "loesungen": ["Por mais que eu ligue, ninguém me atende.", "Por mais que ligue, ninguém me atende.", "Por muito que eu ligue, ninguém me atende.", "Por muito que ligue, ninguém me atende.", "Por mais que eu telefone, ninguém me atende.", "Por mais que telefone, ninguém me atende."]},
+   {"de": "Kann ich bitte mit dem Verantwortlichen sprechen?", "loesungen": ["Posso falar com o responsável, por favor?", "Por favor, posso falar com o responsável?", "Podia falar com o responsável, por favor?", "Posso falar com o responsável, se faz favor?", "Posso falar com a responsável, por favor?"]}
+  ],
+  "sprechen": [
+   {"pt": "Embora pague a tempo, a internet falha todos os dias.", "de": "Obwohl ich pünktlich zahle, fällt das Internet jeden Tag aus."},
+   {"pt": "Apesar de termos reservado vista mar, o quarto dá para o parque de estacionamento.", "de": "Obwohl wir Meerblick gebucht haben, geht das Zimmer auf den Parkplatz hinaus."},
+   {"pt": "Mesmo que o senhor insista, não pago esse valor.", "de": "Selbst wenn Sie darauf bestehen, zahle ich diesen Betrag nicht."},
+   {"pt": "Vamos encontrar um meio-termo.", "de": "Finden wir einen Kompromiss."},
+   {"pt": "Queria que me transferisse a chamada para o responsável.", "de": "Ich hätte gern, dass Sie mich mit dem Verantwortlichen verbinden."}
+  ]
+ }
+}
