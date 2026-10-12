@@ -1,0 +1,1123 @@
+{
+ "id": "B2-07",
+ "level": "B2",
+ "titel": "Imprensa – Kommentare und Leitartikel",
+ "beschreibung": "Leitartikel, Kolumnen und Meinungsbeiträge verstehen, zusammenfassen und selbst schreiben: Textsorten der Presse, fortgeschrittene Konnektoren des Gegensatzes, der Begründung, der Folge und der Präzisierung (contudo, todavia, porquanto, visto que, por conseguinte, daí que, ou seja, aliás, de resto, nomeadamente), Meinungsmarker (é de lamentar que, convém sublinhar que, importa referir que), Ironie und Wertung erkennen, Fakten von Meinungen trennen und Desinformation entlarven.",
+ "vokabeln": [
+  {"id": "o-editorial", "pt": "o editorial", "de": "der Leitartikel", "emoji": "📰", "beispiel_pt": "O editorial de hoje defende mais investimento nos transportes públicos.", "beispiel_de": "Der heutige Leitartikel spricht sich für mehr Investitionen in den öffentlichen Verkehr aus.", "hinweis": "Nicht namentlich gezeichnet: gibt die Linie der Zeitung wieder."},
+  {"id": "o-artigo-de-opiniao", "pt": "o artigo de opinião", "de": "der Meinungsbeitrag / Gastkommentar", "emoji": "🗣️", "beispiel_pt": "O artigo de opinião é assinado por uma professora de Faro.", "beispiel_de": "Der Meinungsbeitrag ist von einer Lehrerin aus Faro gezeichnet."},
+  {"id": "o-colunista", "pt": "o colunista", "de": "der Kolumnist / die Kolumnistin", "emoji": "✍️", "beispiel_pt": "A colunista escreve todas as semanas sobre economia.", "beispiel_de": "Die Kolumnistin schreibt jede Woche über Wirtschaft.", "alternativen": ["a colunista"]},
+  {"id": "o-cronista", "pt": "o cronista", "de": "der Kolumnist (Feuilleton) / Verfasser von Crónicas", "emoji": "🖋️", "beispiel_pt": "O cronista escreve sobre pequenas coisas do dia a dia.", "beispiel_de": "Der Kolumnist schreibt über kleine Dinge des Alltags.", "hinweis": "a crónica = persönlicher, oft literarischer Kurztext – keine „Chronik“.", "passiv": true},
+  {"id": "o-lead", "pt": "o lead", "de": "der Lead / Vorspann (einer Nachricht)", "emoji": "🔎", "beispiel_pt": "O lead responde às perguntas essenciais: quem, o quê, quando e onde.", "beispiel_de": "Der Lead beantwortet die wesentlichen Fragen: wer, was, wann und wo.", "hinweis": "Auch: a entrada, o lide.", "passiv": true},
+  {"id": "o-subtitulo", "pt": "o subtítulo", "de": "der Untertitel", "emoji": "🔤", "beispiel_pt": "O subtítulo acrescenta um pormenor importante.", "beispiel_de": "Der Untertitel fügt ein wichtiges Detail hinzu.", "passiv": true},
+  {"id": "o-semanario", "pt": "o semanário", "de": "die Wochenzeitung", "emoji": "🗞️", "beispiel_pt": "O semanário sai às sextas-feiras.", "beispiel_de": "Die Wochenzeitung erscheint freitags."},
+  {"id": "o-diario", "pt": "o diário", "de": "die Tageszeitung", "emoji": "📅", "beispiel_pt": "Leio um diário nacional e um semanário regional.", "beispiel_de": "Ich lese eine überregionale Tageszeitung und eine regionale Wochenzeitung.", "hinweis": "o diário = auch das Tagebuch."},
+  {"id": "a-primeira-pagina", "pt": "a primeira página", "de": "die Titelseite", "emoji": "📄", "beispiel_pt": "A notícia esteve na primeira página de todos os jornais.", "beispiel_de": "Die Nachricht war auf der Titelseite aller Zeitungen."},
+  {"id": "a-seccao", "pt": "a secção", "de": "das Ressort / der Teil (einer Zeitung)", "emoji": "🗂️", "beispiel_pt": "Leio sempre primeiro a secção de cultura.", "beispiel_de": "Ich lese immer zuerst das Kulturressort.", "hinweis": "Auch: a rubrica (feste Rubrik).", "passiv": true},
+  {"id": "a-imprensa-escrita", "pt": "a imprensa escrita", "de": "die Printmedien", "emoji": "📚", "beispiel_pt": "A imprensa escrita vende cada vez menos em papel.", "beispiel_de": "Die Printmedien verkaufen auf Papier immer weniger.", "passiv": true},
+  {"id": "o-suplemento", "pt": "o suplemento", "de": "die Beilage (einer Zeitung)", "emoji": "📎", "beispiel_pt": "Ao sábado, o jornal traz um suplemento de cultura.", "beispiel_de": "Samstags hat die Zeitung eine Kulturbeilage."},
+
+  {"id": "em-contrapartida", "pt": "em contrapartida", "de": "hingegen / im Gegenzug", "emoji": "⚖️", "beispiel_pt": "O centro está cheio de turistas; em contrapartida, as aldeias estão vazias.", "beispiel_de": "Das Zentrum ist voller Touristen; die Dörfer hingegen sind leer."},
+  {"id": "ao-passo-que", "pt": "ao passo que", "de": "während / wohingegen", "emoji": "↔️", "beispiel_pt": "O editorial elogia a medida, ao passo que o colunista a critica.", "beispiel_de": "Der Leitartikel lobt die Maßnahme, während der Kolumnist sie kritisiert.", "hinweis": "Nur Gegensatz, nicht zeitlich (zeitlich: enquanto). + Indikativ."},
+  {"id": "se-bem-que", "pt": "se bem que", "de": "wenngleich / obwohl", "emoji": "🤏", "beispiel_pt": "A ideia é boa, se bem que chegue um pouco tarde.", "beispiel_de": "Die Idee ist gut, wenngleich sie etwas spät kommt.", "hinweis": "+ Konjunktiv (in der Umgangssprache auch Indikativ)."},
+  {"id": "pese-embora", "pt": "pese embora", "de": "ungeachtet / trotz", "emoji": "🪨", "beispiel_pt": "Pese embora as críticas, a câmara manteve o projeto.", "beispiel_de": "Ungeachtet der Kritik hielt die Gemeinde am Projekt fest.", "hinweis": "Gehoben, typisch für Presse und Juristensprache.", "passiv": true},
+  {"id": "por-muito-que", "pt": "por muito que", "de": "so sehr … auch", "emoji": "💪", "beispiel_pt": "Por muito que se fale de habitação, pouco muda.", "beispiel_de": "So viel auch über Wohnraum geredet wird, es ändert sich wenig.", "hinweis": "+ Konjunktiv."},
+  {"id": "a-contradicao", "pt": "a contradição", "de": "der Widerspruch", "emoji": "🔀", "beispiel_pt": "O artigo cai numa contradição evidente.", "beispiel_de": "Der Artikel verstrickt sich in einen offensichtlichen Widerspruch."},
+  {"id": "o-contraste", "pt": "o contraste", "de": "der Gegensatz / Kontrast", "emoji": "🌓", "beispiel_pt": "O contraste entre o verão e o inverno é enorme em Lagos.", "beispiel_de": "Der Gegensatz zwischen Sommer und Winter ist in Lagos riesig.", "passiv": true},
+  {"id": "o-senao", "pt": "o senão", "de": "der Haken / der Nachteil", "emoji": "☝️", "beispiel_pt": "A proposta é boa, mas tem um senão: ninguém sabe quanto custa.", "beispiel_de": "Der Vorschlag ist gut, hat aber einen Haken: Niemand weiß, was er kostet.", "hinweis": "Plural: os senões.", "passiv": true},
+  {"id": "ressalvar", "pt": "ressalvar", "de": "einschränkend anmerken", "emoji": "📌", "beispiel_pt": "Convém ressalvar que os números são provisórios.", "beispiel_de": "Einschränkend ist anzumerken, dass die Zahlen vorläufig sind.", "passiv": true},
+  {"id": "o-reverso-da-medalha", "pt": "o reverso da medalha", "de": "die Kehrseite der Medaille", "emoji": "🪙", "beispiel_pt": "O turismo traz receitas; o reverso da medalha são as rendas altas.", "beispiel_de": "Der Tourismus bringt Einnahmen; die Kehrseite der Medaille sind die hohen Mieten.", "passiv": true},
+  {"id": "em-todo-o-caso", "pt": "em todo o caso", "de": "jedenfalls / wie auch immer", "emoji": "🤷", "beispiel_pt": "Em todo o caso, a decisão ainda não é definitiva.", "beispiel_de": "Jedenfalls ist die Entscheidung noch nicht endgültig."},
+
+  {"id": "porquanto", "pt": "porquanto", "de": "da / weil (sehr gehoben)", "emoji": "🎩", "beispiel_pt": "A medida é injusta, porquanto penaliza quem menos tem.", "beispiel_de": "Die Maßnahme ist ungerecht, da sie die trifft, die am wenigsten haben.", "hinweis": "Nur in formellen Texten; steht immer nach dem Hauptsatz.", "passiv": true},
+  {"id": "visto-que", "pt": "visto que", "de": "da / weil", "emoji": "👁️", "beispiel_pt": "Visto que o prazo terminou, a proposta foi rejeitada.", "beispiel_de": "Da die Frist abgelaufen ist, wurde der Vorschlag abgelehnt."},
+  {"id": "dado-que", "pt": "dado que", "de": "da (ja) / angesichts dessen, dass", "emoji": "🎲", "beispiel_pt": "Dado que o inquérito é antigo, convém ter cautela.", "beispiel_de": "Da die Umfrage alt ist, ist Vorsicht geboten."},
+  {"id": "uma-vez-que", "pt": "uma vez que", "de": "da / weil", "emoji": "1️⃣", "beispiel_pt": "Uma vez que ninguém respondeu, o jornal publicou a notícia.", "beispiel_de": "Da niemand geantwortet hat, hat die Zeitung die Nachricht veröffentlicht.", "hinweis": "Mit Konjunktiv: „sobald“."},
+  {"id": "ja-que", "pt": "já que", "de": "da ja", "emoji": "💡", "beispiel_pt": "Já que estamos a falar de imprensa, leste o editorial de hoje?", "beispiel_de": "Da wir gerade über Presse reden: Hast du den heutigen Leitartikel gelesen?"},
+  {"id": "na-medida-em-que", "pt": "na medida em que", "de": "insofern als", "emoji": "📏", "beispiel_pt": "A decisão é discutível na medida em que ignora os moradores.", "beispiel_de": "Die Entscheidung ist insofern fragwürdig, als sie die Anwohner übergeht.", "passiv": true},
+  {"id": "em-virtude-de", "pt": "em virtude de", "de": "aufgrund / infolge", "emoji": "🏛️", "beispiel_pt": "A sessão foi adiada em virtude do mau tempo.", "beispiel_de": "Die Sitzung wurde aufgrund des schlechten Wetters vertagt.", "passiv": true},
+  {"id": "devido-a", "pt": "devido a", "de": "wegen / aufgrund", "emoji": "🌧️", "beispiel_pt": "O jornal não saiu devido a uma greve.", "beispiel_de": "Die Zeitung ist wegen eines Streiks nicht erschienen.", "hinweis": "devido a + o = devido ao, devido a + a = devido à."},
+  {"id": "gracas-a", "pt": "graças a", "de": "dank", "emoji": "🙏", "beispiel_pt": "Graças a uma leitora, o erro foi corrigido.", "beispiel_de": "Dank einer Leserin wurde der Fehler korrigiert.", "hinweis": "Nur für positive Ursachen."},
+  {"id": "por-forca-de", "pt": "por força de", "de": "kraft / aufgrund (von Gesetzen, Regeln)", "emoji": "⚖️", "beispiel_pt": "Por força da lei, o jornal publicou o direito de resposta.", "beispiel_de": "Von Gesetzes wegen hat die Zeitung die Gegendarstellung veröffentlicht.", "passiv": true},
+  {"id": "a-justificacao", "pt": "a justificação", "de": "die Begründung / Rechtfertigung", "emoji": "📝", "beispiel_pt": "A justificação da câmara não convenceu os colunistas.", "beispiel_de": "Die Begründung der Gemeinde hat die Kolumnisten nicht überzeugt."},
+  {"id": "alegar", "pt": "alegar", "de": "vorbringen / geltend machen / behaupten", "emoji": "🗯️", "beispiel_pt": "A empresa alega que cumpriu todas as regras.", "beispiel_de": "Die Firma behauptet, alle Regeln eingehalten zu haben.", "passiv": true},
+
+  {"id": "por-conseguinte", "pt": "por conseguinte", "de": "folglich", "emoji": "➡️", "beispiel_pt": "As vendas caíram; por conseguinte, o jornal deixou de sair em papel.", "beispiel_de": "Der Verkauf ist eingebrochen; folglich erscheint die Zeitung nicht mehr auf Papier."},
+  {"id": "pelo-que", "pt": "pelo que", "de": "weshalb / daher (Satzanschluss)", "emoji": "🔗", "beispiel_pt": "O prazo terminou ontem, pelo que já não é possível concorrer.", "beispiel_de": "Die Frist ist gestern abgelaufen, weshalb man sich nicht mehr bewerben kann.", "hinweis": "Nach Komma; typisch für Presse und Behörden."},
+  {"id": "de-modo-que", "pt": "de modo que", "de": "sodass", "emoji": "🎯", "beispiel_pt": "Choveu muito, de modo que o festival foi adiado.", "beispiel_de": "Es hat viel geregnet, sodass das Festival verschoben wurde.", "hinweis": "Mit Konjunktiv: „damit“ (Zweck)."},
+  {"id": "dai-que", "pt": "daí que", "de": "daher / deshalb (+ Konjunktiv)", "emoji": "🌊", "beispiel_pt": "Os preços subiram muito; daí que muitas famílias se queixem.", "beispiel_de": "Die Preise sind stark gestiegen; deshalb beschweren sich viele Familien.", "hinweis": "Immer mit Konjunktiv!"},
+  {"id": "consequentemente", "pt": "consequentemente", "de": "folglich / infolgedessen", "emoji": "📉", "beispiel_pt": "A procura aumentou e, consequentemente, os preços subiram.", "beispiel_de": "Die Nachfrage ist gestiegen, und folglich sind die Preise gestiegen."},
+  {"id": "sendo-assim", "pt": "sendo assim", "de": "somit / unter diesen Umständen", "emoji": "🧭", "beispiel_pt": "Sendo assim, resta esperar pela decisão.", "beispiel_de": "Somit bleibt nur, auf die Entscheidung zu warten."},
+  {"id": "de-tal-forma-que", "pt": "de tal forma que", "de": "derart, dass / so sehr, dass", "emoji": "🌀", "beispiel_pt": "O trânsito aumentou de tal forma que a câmara criou um novo parque.", "beispiel_de": "Der Verkehr hat derart zugenommen, dass die Gemeinde einen neuen Parkplatz angelegt hat.", "passiv": true},
+  {"id": "acarretar", "pt": "acarretar", "de": "mit sich bringen / nach sich ziehen", "emoji": "🧳", "beispiel_pt": "A obra vai acarretar custos elevados.", "beispiel_de": "Der Bau wird hohe Kosten mit sich bringen.", "passiv": true},
+  {"id": "desencadear", "pt": "desencadear", "de": "auslösen", "emoji": "💥", "beispiel_pt": "A notícia desencadeou uma onda de comentários.", "beispiel_de": "Die Nachricht hat eine Welle von Kommentaren ausgelöst.", "passiv": true},
+  {"id": "resultar-em", "pt": "resultar em", "de": "zu etwas führen / in etwas münden", "emoji": "🧪", "beispiel_pt": "A falta de manutenção resultou em vários acidentes.", "beispiel_de": "Die mangelnde Wartung hat zu mehreren Unfällen geführt."},
+  {"id": "o-efeito-de-bola-de-neve", "pt": "o efeito de bola de neve", "de": "der Schneeballeffekt", "emoji": "🌨️", "beispiel_pt": "Um boato pode ter um efeito de bola de neve.", "beispiel_de": "Ein Gerücht kann einen Schneeballeffekt haben.", "passiv": true},
+  {"id": "as-repercussoes", "pt": "as repercussões", "de": "die Auswirkungen", "emoji": "📡", "beispiel_pt": "As repercussões da decisão ainda são difíceis de prever.", "beispiel_de": "Die Auswirkungen der Entscheidung sind noch schwer abzusehen.", "passiv": true},
+
+  {"id": "de-resto", "pt": "de resto", "de": "im Übrigen / ansonsten", "emoji": "🧩", "beispiel_pt": "O artigo é curto; de resto, diz pouco de novo.", "beispiel_de": "Der Artikel ist kurz; im Übrigen sagt er wenig Neues.", "hinweis": "Ähnlich wie aliás: fügt eine zusätzliche Bemerkung an."},
+  {"id": "nomeadamente", "pt": "nomeadamente", "de": "insbesondere / unter anderem / und zwar", "emoji": "👉", "beispiel_pt": "Há vários problemas, nomeadamente o trânsito e o estacionamento.", "beispiel_de": "Es gibt mehrere Probleme, insbesondere den Verkehr und das Parken.", "hinweis": "Falscher Freund: nicht „namentlich (mit Namen)“."},
+  {"id": "designadamente", "pt": "designadamente", "de": "insbesondere (formell)", "emoji": "🏷️", "beispiel_pt": "O regulamento prevê exceções, designadamente para residentes.", "beispiel_de": "Die Verordnung sieht Ausnahmen vor, insbesondere für Anwohner.", "passiv": true},
+  {"id": "a-saber", "pt": "a saber", "de": "nämlich / und zwar", "emoji": "📋", "beispiel_pt": "Faltam dois documentos, a saber: o contrato e a fatura.", "beispiel_de": "Es fehlen zwei Dokumente, nämlich der Vertrag und die Rechnung.", "passiv": true},
+  {"id": "dito-de-outro-modo", "pt": "dito de outro modo", "de": "anders gesagt", "emoji": "🔁", "beispiel_pt": "Dito de outro modo: ninguém sabe quem vai pagar a obra.", "beispiel_de": "Anders gesagt: Niemand weiß, wer den Bau bezahlen wird.", "hinweis": "Ähnlich: por outras palavras, isto é, ou seja."},
+  {"id": "mais-concretamente", "pt": "mais concretamente", "de": "genauer gesagt", "emoji": "🔬", "beispiel_pt": "Falo dos preços, mais concretamente das rendas.", "beispiel_de": "Ich spreche von den Preisen, genauer gesagt von den Mieten."},
+  {"id": "em-particular", "pt": "em particular", "de": "insbesondere / vor allem", "emoji": "🔍", "beispiel_pt": "Os jovens, em particular, leem as notícias no telemóvel.", "beispiel_de": "Vor allem die Jugendlichen lesen die Nachrichten auf dem Handy.", "passiv": true},
+  {"id": "ou-melhor", "pt": "ou melhor", "de": "besser gesagt / beziehungsweise", "emoji": "✏️", "beispiel_pt": "O jornal fecha amanhã – ou melhor, deixa de sair em papel.", "beispiel_de": "Die Zeitung schließt morgen – besser gesagt, sie erscheint nicht mehr auf Papier."},
+  {"id": "com-efeito", "pt": "com efeito", "de": "in der Tat / tatsächlich", "emoji": "✅", "beispiel_pt": "Com efeito, os números confirmam a tendência.", "beispiel_de": "In der Tat bestätigen die Zahlen den Trend.", "passiv": true},
+  {"id": "o-esclarecimento", "pt": "o esclarecimento", "de": "die Klarstellung / Richtigstellung", "emoji": "💬", "beispiel_pt": "O jornal publicou um esclarecimento sobre a notícia.", "beispiel_de": "Die Zeitung hat eine Richtigstellung zu der Nachricht veröffentlicht.", "passiv": true},
+  {"id": "clarificar", "pt": "clarificar", "de": "klarstellen / klären", "emoji": "🔦", "beispiel_pt": "Importa clarificar este ponto.", "beispiel_de": "Dieser Punkt muss klargestellt werden."},
+
+  {"id": "e-de-lamentar-que", "pt": "é de lamentar que", "de": "es ist bedauerlich, dass", "emoji": "😔", "beispiel_pt": "É de lamentar que a biblioteca feche ao sábado.", "beispiel_de": "Es ist bedauerlich, dass die Bibliothek samstags geschlossen ist.", "hinweis": "+ Konjunktiv."},
+  {"id": "convem-sublinhar-que", "pt": "convém sublinhar que", "de": "man muss betonen, dass", "emoji": "🖍️", "beispiel_pt": "Convém sublinhar que a obra foi paga com fundos europeus.", "beispiel_de": "Man muss betonen, dass der Bau mit EU-Mitteln bezahlt wurde.", "hinweis": "+ Indikativ (eine Tatsache wird betont)."},
+  {"id": "importa-referir-que", "pt": "importa referir que", "de": "es ist zu erwähnen, dass", "emoji": "📍", "beispiel_pt": "Importa referir que o estudo ainda não foi publicado.", "beispiel_de": "Es ist zu erwähnen, dass die Studie noch nicht veröffentlicht wurde.", "hinweis": "+ Indikativ."},
+  {"id": "e-de-salientar-que", "pt": "é de salientar que", "de": "hervorzuheben ist, dass", "emoji": "✨", "beispiel_pt": "É de salientar que a participação foi muito alta.", "beispiel_de": "Hervorzuheben ist, dass die Beteiligung sehr hoch war."},
+  {"id": "ha-que-reconhecer-que", "pt": "há que reconhecer que", "de": "man muss zugeben, dass", "emoji": "🤝", "beispiel_pt": "Há que reconhecer que a câmara reagiu depressa.", "beispiel_de": "Man muss zugeben, dass die Gemeinde schnell reagiert hat.", "passiv": true},
+  {"id": "e-inegavel-que", "pt": "é inegável que", "de": "es ist unbestreitbar, dass", "emoji": "🧱", "beispiel_pt": "É inegável que o turismo mudou a cidade.", "beispiel_de": "Es ist unbestreitbar, dass der Tourismus die Stadt verändert hat.", "hinweis": "+ Indikativ."},
+  {"id": "a-nosso-ver", "pt": "a nosso ver", "de": "unserer Ansicht nach", "emoji": "👓", "beispiel_pt": "A nosso ver, a decisão é precipitada.", "beispiel_de": "Unserer Ansicht nach ist die Entscheidung überstürzt.", "hinweis": "Typisch für Leitartikel: das „Wir“ der Redaktion."},
+  {"id": "nao-deixa-de-ser", "pt": "não deixa de ser", "de": "es ist durchaus / immerhin", "emoji": "🧐", "beispiel_pt": "Não deixa de ser curioso que ninguém tenha reparado no erro.", "beispiel_de": "Es ist durchaus merkwürdig, dass niemand den Fehler bemerkt hat.", "hinweis": "+ Adjektiv; oft leise ironisch.", "passiv": true},
+  {"id": "cabe-perguntar", "pt": "cabe perguntar", "de": "man muss sich fragen", "emoji": "🤔", "beispiel_pt": "Cabe perguntar quem vai pagar a obra.", "beispiel_de": "Man muss sich fragen, wer den Bau bezahlen wird.", "passiv": true},
+  {"id": "parece-nos-que", "pt": "parece-nos que", "de": "uns scheint, dass", "emoji": "🌫️", "beispiel_pt": "Parece-nos que o problema é outro.", "beispiel_de": "Uns scheint, dass das Problem ein anderes ist.", "hinweis": "Verneint mit Konjunktiv: Não nos parece que seja…"},
+  {"id": "e-de-louvar-que", "pt": "é de louvar que", "de": "es ist zu loben, dass", "emoji": "👏", "beispiel_pt": "É de louvar que a escola tenha aberto a biblioteca à população.", "beispiel_de": "Es ist zu loben, dass die Schule ihre Bibliothek für die Bevölkerung geöffnet hat.", "hinweis": "+ Konjunktiv.", "passiv": true},
+  {"id": "fica-por-esclarecer", "pt": "fica por esclarecer", "de": "es bleibt unklar / offen", "emoji": "❓", "beispiel_pt": "Fica por esclarecer quanto custou o projeto.", "beispiel_de": "Es bleibt unklar, wie viel das Projekt gekostet hat.", "passiv": true},
+
+  {"id": "a-ironia", "pt": "a ironia", "de": "die Ironie", "emoji": "😏", "beispiel_pt": "O texto está cheio de ironia.", "beispiel_de": "Der Text ist voller Ironie."},
+  {"id": "ironico", "pt": "irónico", "de": "ironisch", "emoji": "🙃", "beispiel_pt": "O título é claramente irónico.", "beispiel_de": "Der Titel ist eindeutig ironisch.", "alternativen": ["irónica"]},
+  {"id": "o-sarcasmo", "pt": "o sarcasmo", "de": "der Sarkasmus", "emoji": "🐍", "beispiel_pt": "O sarcasmo do colunista não agradou a todos.", "beispiel_de": "Der Sarkasmus des Kolumnisten hat nicht allen gefallen.", "passiv": true},
+  {"id": "mordaz", "pt": "mordaz", "de": "bissig / scharfzüngig", "emoji": "🦷", "beispiel_pt": "Ela escreve crónicas mordazes sobre a vida na cidade.", "beispiel_de": "Sie schreibt bissige Kolumnen über das Leben in der Stadt.", "passiv": true},
+  {"id": "o-eufemismo", "pt": "o eufemismo", "de": "der Euphemismus / die Beschönigung", "emoji": "🪶", "beispiel_pt": "«Ajustamento de preços» é um eufemismo para «aumento».", "beispiel_de": "„Preisanpassung“ ist ein Euphemismus für „Erhöhung“."},
+  {"id": "a-hiperbole", "pt": "a hipérbole", "de": "die Übertreibung (Stilmittel)", "emoji": "🎈", "beispiel_pt": "Dizer que a cidade inteira parou é uma hipérbole.", "beispiel_de": "Zu sagen, die ganze Stadt sei stillgestanden, ist eine Übertreibung.", "passiv": true},
+  {"id": "o-tom", "pt": "o tom", "de": "der Ton / Tonfall", "emoji": "🎵", "beispiel_pt": "O tom do editorial é sereno.", "beispiel_de": "Der Ton des Leitartikels ist sachlich und ruhig."},
+  {"id": "as-aspas", "pt": "as aspas", "de": "die Anführungszeichen", "emoji": "❝", "beispiel_pt": "O autor põe a palavra «solução» entre aspas.", "beispiel_de": "Der Autor setzt das Wort „Lösung“ in Anführungszeichen.", "hinweis": "In Portugal oft « » (aspas angulares)."},
+  {"id": "louvavel", "pt": "louvável", "de": "lobenswert", "emoji": "🏅", "beispiel_pt": "A iniciativa dos voluntários é louvável.", "beispiel_de": "Die Initiative der Freiwilligen ist lobenswert."},
+  {"id": "depreciativo", "pt": "depreciativo", "de": "abwertend", "emoji": "👎", "beispiel_pt": "A palavra tem um sentido depreciativo.", "beispiel_de": "Das Wort hat eine abwertende Bedeutung.", "passiv": true},
+  {"id": "elogiar", "pt": "elogiar", "de": "loben", "emoji": "🌟", "beispiel_pt": "O colunista elogia o trabalho dos voluntários.", "beispiel_de": "Der Kolumnist lobt die Arbeit der Freiwilligen."},
+  {"id": "a-farpa", "pt": "a farpa", "de": "der Seitenhieb", "emoji": "🗡️", "beispiel_pt": "O artigo termina com uma farpa à câmara.", "beispiel_de": "Der Artikel endet mit einem Seitenhieb gegen die Gemeinde.", "hinweis": "Wörtlich: Splitter, Widerhaken. lançar farpas = sticheln.", "passiv": true},
+
+  {"id": "o-facto", "pt": "o facto", "de": "die Tatsache", "emoji": "📌", "beispiel_pt": "Uma coisa é o facto, outra é a interpretação.", "beispiel_de": "Das eine ist die Tatsache, das andere die Deutung.", "hinweis": "pt-PT mit c: facto. o fato = der Anzug."},
+  {"id": "factual", "pt": "factual", "de": "faktenbasiert / sachlich", "emoji": "🧾", "beispiel_pt": "A notícia deve ser factual e breve.", "beispiel_de": "Die Nachricht soll sachlich und kurz sein.", "passiv": true},
+  {"id": "o-juizo-de-valor", "pt": "o juízo de valor", "de": "das Werturteil", "emoji": "⚖️", "beispiel_pt": "«Uma obra desastrosa» é um juízo de valor, não um facto.", "beispiel_de": "„Ein katastrophaler Bau“ ist ein Werturteil, keine Tatsache."},
+  {"id": "verificavel", "pt": "verificável", "de": "überprüfbar", "emoji": "🔍", "beispiel_pt": "Um facto é verificável; uma opinião não.", "beispiel_de": "Eine Tatsache ist überprüfbar; eine Meinung nicht."},
+  {"id": "comprovar", "pt": "comprovar", "de": "belegen / nachweisen", "emoji": "✔️", "beispiel_pt": "O jornalista não conseguiu comprovar a informação.", "beispiel_de": "Der Journalist konnte die Information nicht belegen."},
+  {"id": "a-objetividade", "pt": "a objetividade", "de": "die Objektivität", "emoji": "🎯", "beispiel_pt": "A objetividade total é difícil, mas o rigor é obrigatório.", "beispiel_de": "Völlige Objektivität ist schwierig, aber Genauigkeit ist Pflicht."},
+  {"id": "subjetivo", "pt": "subjetivo", "de": "subjektiv", "emoji": "💭", "beispiel_pt": "A crónica é um género assumidamente subjetivo.", "beispiel_de": "Die Crónica ist eine bewusst subjektive Textsorte.", "alternativen": ["subjetiva"]},
+  {"id": "imparcial", "pt": "imparcial", "de": "unparteiisch", "emoji": "🤲", "beispiel_pt": "Uma notícia imparcial ouve as duas partes.", "beispiel_de": "Eine unparteiische Nachricht hört beide Seiten an."},
+  {"id": "tendencioso", "pt": "tendencioso", "de": "tendenziös / einseitig", "emoji": "↗️", "beispiel_pt": "O título é tendencioso: só mostra um lado da questão.", "beispiel_de": "Der Titel ist tendenziös: Er zeigt nur eine Seite der Frage.", "alternativen": ["tendenciosa"], "passiv": true},
+  {"id": "a-isencao", "pt": "a isenção", "de": "die Unvoreingenommenheit / Neutralität", "emoji": "🧘", "beispiel_pt": "O código deontológico exige isenção aos jornalistas.", "beispiel_de": "Der Pressekodex verlangt von Journalisten Unvoreingenommenheit.", "hinweis": "Auch: Befreiung (z. B. a isenção de IMI).", "passiv": true},
+  {"id": "a-citacao", "pt": "a citação", "de": "das Zitat", "emoji": "❞", "beispiel_pt": "A citação vem entre aspas e com o nome da fonte.", "beispiel_de": "Das Zitat steht in Anführungszeichen und mit dem Namen der Quelle.", "hinweis": "Achtung: a citação = auch die (gerichtliche) Vorladung.", "passiv": true},
+  {"id": "o-rigor", "pt": "o rigor", "de": "die Genauigkeit / Sorgfalt", "emoji": "📐", "beispiel_pt": "O rigor é a primeira regra do jornalismo.", "beispiel_de": "Sorgfalt ist die erste Regel des Journalismus."},
+
+  {"id": "a-desinformacao", "pt": "a desinformação", "de": "die Desinformation", "emoji": "🦠", "beispiel_pt": "A desinformação espalha-se mais depressa do que os desmentidos.", "beispiel_de": "Desinformation verbreitet sich schneller als Dementis."},
+  {"id": "a-verificacao-de-factos", "pt": "a verificação de factos", "de": "der Faktencheck", "emoji": "🕵️", "beispiel_pt": "O jornal tem uma secção de verificação de factos.", "beispiel_de": "Die Zeitung hat ein Faktencheck-Ressort.", "hinweis": "Auch: o fact-check."},
+  {"id": "enganador", "pt": "enganador", "de": "irreführend", "emoji": "🎭", "beispiel_pt": "O gráfico é enganador: o eixo não começa no zero.", "beispiel_de": "Die Grafik ist irreführend: Die Achse beginnt nicht bei null.", "alternativen": ["enganadora"]},
+  {"id": "o-caca-cliques", "pt": "o caça-cliques", "de": "der Klickköder / Clickbait", "emoji": "🎣", "beispiel_pt": "«Não vai acreditar no que aconteceu» é um típico caça-cliques.", "beispiel_de": "„Sie werden nicht glauben, was passiert ist“ ist ein typischer Klickköder.", "hinweis": "Auch: o clickbait, o isco.", "passiv": true},
+  {"id": "manipular", "pt": "manipular", "de": "manipulieren", "emoji": "🕹️", "beispiel_pt": "É fácil manipular uma fotografia com o telemóvel.", "beispiel_de": "Es ist leicht, ein Foto mit dem Handy zu manipulieren."},
+  {"id": "descontextualizado", "pt": "descontextualizado", "de": "aus dem Zusammenhang gerissen", "emoji": "✂️", "beispiel_pt": "O vídeo é verdadeiro, mas está descontextualizado.", "beispiel_de": "Das Video ist echt, aber aus dem Zusammenhang gerissen.", "alternativen": ["descontextualizada"], "passiv": true},
+  {"id": "tornar-se-viral", "pt": "tornar-se viral", "de": "viral gehen", "emoji": "🚀", "beispiel_pt": "A publicação tornou-se viral em poucas horas.", "beispiel_de": "Der Beitrag ging innerhalb weniger Stunden viral."},
+  {"id": "a-teoria-da-conspiracao", "pt": "a teoria da conspiração", "de": "die Verschwörungstheorie", "emoji": "🛸", "beispiel_pt": "As teorias da conspiração oferecem explicações simples para problemas complexos.", "beispiel_de": "Verschwörungstheorien bieten einfache Erklärungen für komplexe Probleme.", "passiv": true},
+  {"id": "a-fotomontagem", "pt": "a fotomontagem", "de": "die Fotomontage", "emoji": "🖼️", "beispiel_pt": "A imagem do tubarão na marina era uma fotomontagem.", "beispiel_de": "Das Bild vom Hai im Jachthafen war eine Fotomontage.", "passiv": true},
+  {"id": "fidedigno", "pt": "fidedigno", "de": "glaubwürdig / zuverlässig (Quelle)", "emoji": "🛡️", "beispiel_pt": "Antes de partilhar, procure uma fonte fidedigna.", "beispiel_de": "Suchen Sie vor dem Teilen eine zuverlässige Quelle.", "alternativen": ["fidedigna"], "hinweis": "Gehobener als fiável."},
+  {"id": "a-literacia-mediatica", "pt": "a literacia mediática", "de": "die Medienkompetenz", "emoji": "🎓", "beispiel_pt": "A escola organiza uma oficina de literacia mediática.", "beispiel_de": "Die Schule veranstaltet einen Workshop zur Medienkompetenz.", "passiv": true},
+  {"id": "o-espirito-critico", "pt": "o espírito crítico", "de": "das kritische Denken", "emoji": "🧠", "beispiel_pt": "Ler vários jornais ajuda a desenvolver o espírito crítico.", "beispiel_de": "Mehrere Zeitungen zu lesen hilft, kritisch denken zu lernen."},
+
+  {"id": "frisar", "pt": "frisar", "de": "betonen / unterstreichen", "emoji": "〰️", "beispiel_pt": "O presidente da câmara frisou que a obra não terá custos para os moradores.", "beispiel_de": "Der Bürgermeister betonte, dass der Bau die Anwohner nichts kosten werde."},
+  {"id": "adiantar", "pt": "adiantar", "de": "vorab mitteilen / bekanntgeben", "emoji": "⏩", "beispiel_pt": "A empresa não adiantou mais pormenores.", "beispiel_de": "Die Firma nannte keine weiteren Einzelheiten.", "hinweis": "Pressesprache: „não adiantou“ = hat (noch) nicht mitgeteilt."},
+  {"id": "vincar", "pt": "vincar", "de": "nachdrücklich betonen", "emoji": "✒️", "beispiel_pt": "A ministra fez questão de vincar a sua posição.", "beispiel_de": "Die Ministerin legte Wert darauf, ihre Position nachdrücklich zu betonen.", "passiv": true},
+  {"id": "sustentar", "pt": "sustentar", "de": "die Auffassung vertreten / behaupten", "emoji": "🏛️", "beispiel_pt": "O colunista sustenta que a medida chega tarde.", "beispiel_de": "Der Kolumnist vertritt die Auffassung, dass die Maßnahme zu spät kommt.", "hinweis": "Auch: ernähren, stützen."},
+  {"id": "refutar", "pt": "refutar", "de": "widerlegen / zurückweisen", "emoji": "🙅", "beispiel_pt": "A associação refutou as acusações.", "beispiel_de": "Der Verein wies die Vorwürfe zurück."},
+  {"id": "contestar", "pt": "contestar", "de": "anfechten / bestreiten", "emoji": "✋", "beispiel_pt": "Os moradores contestam os números da câmara.", "beispiel_de": "Die Anwohner bestreiten die Zahlen der Gemeinde."},
+  {"id": "insinuar", "pt": "insinuar", "de": "andeuten / unterstellen", "emoji": "🤨", "beispiel_pt": "O artigo insinua que houve favorecimento, mas não o prova.", "beispiel_de": "Der Artikel unterstellt, dass es Begünstigung gab, belegt es aber nicht.", "passiv": true},
+  {"id": "desvalorizar", "pt": "desvalorizar", "de": "herunterspielen", "emoji": "🔻", "beispiel_pt": "O diretor desvalorizou a polémica.", "beispiel_de": "Der Direktor spielte die Kontroverse herunter.", "hinweis": "Auch: abwerten (Währung)."},
+  {"id": "ironizar", "pt": "ironizar", "de": "ironisch bemerken / spötteln", "emoji": "😼", "beispiel_pt": "«Ao menos o buraco é democrático», ironizou um morador.", "beispiel_de": "„Wenigstens ist das Schlagloch demokratisch“, spöttelte ein Anwohner.", "passiv": true},
+  {"id": "escusar-se-a", "pt": "escusar-se a", "de": "sich weigern zu / ablehnen zu", "emoji": "🤐", "beispiel_pt": "A empresa escusou-se a comentar a notícia.", "beispiel_de": "Die Firma lehnte es ab, die Nachricht zu kommentieren.", "passiv": true},
+  {"id": "o-desabafo", "pt": "o desabafo", "de": "das Sich-Luft-Machen / der Gefühlsausbruch", "emoji": "😮‍💨", "beispiel_pt": "O texto é menos uma análise do que um desabafo.", "beispiel_de": "Der Text ist weniger eine Analyse als ein Dampfablassen.", "passiv": true},
+  {"id": "a-fonte-proxima", "pt": "a fonte próxima de", "de": "die Quelle aus dem Umfeld von", "emoji": "🫥", "beispiel_pt": "Segundo uma fonte próxima da direção, o jornal vai mudar de diretor.", "beispiel_de": "Laut einer Quelle aus dem Umfeld der Geschäftsleitung wird die Zeitung den Chefredakteur wechseln.", "passiv": true},
+
+  {"id": "o-antetitulo", "pt": "o antetítulo", "de": "die Dachzeile / Überzeile", "emoji": "🔝", "beispiel_pt": "O antetítulo situa o tema: «Habitação no Algarve».", "beispiel_de": "Die Dachzeile ordnet das Thema ein: „Wohnen in der Algarve“.", "passiv": true},
+  {"id": "a-tiragem", "pt": "a tiragem", "de": "die Auflage", "emoji": "🖨️", "beispiel_pt": "A tiragem do semanário caiu para metade.", "beispiel_de": "Die Auflage der Wochenzeitung hat sich halbiert.", "passiv": true},
+  {"id": "o-assinante", "pt": "o assinante", "de": "der Abonnent / die Abonnentin", "emoji": "🧑‍💻", "beispiel_pt": "O jornal tem cada vez mais assinantes digitais.", "beispiel_de": "Die Zeitung hat immer mehr Digitalabonnenten.", "alternativen": ["a assinante"]},
+  {"id": "a-edicao-digital", "pt": "a edição digital", "de": "die Digitalausgabe", "emoji": "📱", "beispiel_pt": "Leio a edição digital no comboio.", "beispiel_de": "Ich lese die Digitalausgabe im Zug."},
+  {"id": "a-agencia-noticiosa", "pt": "a agência noticiosa", "de": "die Nachrichtenagentur", "emoji": "🛰️", "beispiel_pt": "A notícia foi avançada por uma agência noticiosa.", "beispiel_de": "Die Nachricht wurde von einer Nachrichtenagentur gemeldet.", "hinweis": "In Portugal v. a. die Agência Lusa."},
+  {"id": "o-correspondente", "pt": "o correspondente", "de": "der Korrespondent / die Korrespondentin", "emoji": "🌍", "beispiel_pt": "A correspondente em Bruxelas explica a nova diretiva.", "beispiel_de": "Die Korrespondentin in Brüssel erklärt die neue Richtlinie.", "alternativen": ["a correspondente"]},
+  {"id": "o-enviado-especial", "pt": "o enviado especial", "de": "der Sonderberichterstatter", "emoji": "✈️", "beispiel_pt": "O jornal mandou um enviado especial à cimeira.", "beispiel_de": "Die Zeitung schickte einen Sonderberichterstatter zum Gipfel.", "alternativen": ["a enviada especial"], "passiv": true},
+  {"id": "o-furo-jornalistico", "pt": "o furo jornalístico", "de": "die Exklusivmeldung / der Scoop", "emoji": "🕳️", "beispiel_pt": "O semanário conseguiu um furo jornalístico.", "beispiel_de": "Der Wochenzeitung ist ein Scoop gelungen.", "hinweis": "Kurz: o furo. dar o furo = als Erster melden.", "passiv": true},
+  {"id": "o-jornalismo-de-investigacao", "pt": "o jornalismo de investigação", "de": "der investigative Journalismus", "emoji": "🔦", "beispiel_pt": "O jornalismo de investigação exige tempo e dinheiro.", "beispiel_de": "Investigativer Journalismus braucht Zeit und Geld."},
+  {"id": "a-liberdade-de-imprensa", "pt": "a liberdade de imprensa", "de": "die Pressefreiheit", "emoji": "🕊️", "beispiel_pt": "A liberdade de imprensa está consagrada na Constituição.", "beispiel_de": "Die Pressefreiheit ist in der Verfassung verankert."},
+  {"id": "a-censura", "pt": "a censura", "de": "die Zensur", "emoji": "🚫", "beispiel_pt": "Antes de 1974, os jornais passavam pela censura.", "beispiel_de": "Vor 1974 mussten die Zeitungen durch die Zensur.", "hinweis": "o lápis azul = Symbol der Zensur im Estado Novo."},
+
+  {"id": "a-tese", "pt": "a tese", "de": "die These", "emoji": "🧷", "beispiel_pt": "A tese do artigo aparece logo no primeiro parágrafo.", "beispiel_de": "Die These des Artikels steht gleich im ersten Absatz.", "hinweis": "Auch: die Doktorarbeit (a tese de doutoramento)."},
+  {"id": "o-contra-argumento", "pt": "o contra-argumento", "de": "das Gegenargument", "emoji": "🔄", "beispiel_pt": "Um bom artigo de opinião antecipa os contra-argumentos.", "beispiel_de": "Ein guter Meinungsbeitrag nimmt die Gegenargumente vorweg."},
+  {"id": "rebater", "pt": "rebater", "de": "entkräften / kontern", "emoji": "🏓", "beispiel_pt": "A autora rebate os contra-argumentos um a um.", "beispiel_de": "Die Autorin entkräftet die Gegenargumente eines nach dem anderen."},
+  {"id": "acresce-que", "pt": "acresce que", "de": "hinzu kommt, dass", "emoji": "➕", "beispiel_pt": "A obra é cara. Acresce que vai demorar três anos.", "beispiel_de": "Der Bau ist teuer. Hinzu kommt, dass er drei Jahre dauern wird.", "hinweis": "Auch: acresce a isto que …"},
+  {"id": "posto-isto", "pt": "posto isto", "de": "dies vorausgeschickt / nach alledem", "emoji": "🧱", "beispiel_pt": "Posto isto, passemos às soluções.", "beispiel_de": "Dies vorausgeschickt, kommen wir zu den Lösungen.", "passiv": true},
+  {"id": "em-sintese", "pt": "em síntese", "de": "zusammenfassend", "emoji": "🧮", "beispiel_pt": "Em síntese, a medida é necessária, mas insuficiente.", "beispiel_de": "Zusammenfassend: Die Maßnahme ist notwendig, aber unzureichend."},
+  {"id": "em-jeito-de-conclusao", "pt": "em jeito de conclusão", "de": "abschließend / als Fazit", "emoji": "🏁", "beispiel_pt": "Em jeito de conclusão, deixo uma pergunta ao leitor.", "beispiel_de": "Als Fazit stelle ich dem Leser eine Frage.", "passiv": true},
+  {"id": "a-premissa", "pt": "a premissa", "de": "die Prämisse / Voraussetzung", "emoji": "🧩", "beispiel_pt": "O raciocínio parte de uma premissa falsa.", "beispiel_de": "Die Argumentation geht von einer falschen Prämisse aus.", "passiv": true},
+  {"id": "a-falacia", "pt": "a falácia", "de": "der Fehlschluss / Trugschluss", "emoji": "🪤", "beispiel_pt": "Atacar a pessoa em vez do argumento é uma falácia.", "beispiel_de": "Die Person statt des Arguments anzugreifen ist ein Fehlschluss.", "passiv": true},
+  {"id": "generalizar", "pt": "generalizar", "de": "verallgemeinern", "emoji": "🌐", "beispiel_pt": "Não se pode generalizar a partir de um só caso.", "beispiel_de": "Man kann nicht von einem einzigen Fall aus verallgemeinern."},
+  {"id": "a-argumentacao", "pt": "a argumentação", "de": "die Argumentation", "emoji": "🪜", "beispiel_pt": "A argumentação é clara e bem estruturada.", "beispiel_de": "Die Argumentation ist klar und gut aufgebaut."}
+ ],
+ "lektionen": [
+  {
+   "id": "B2-07-L01",
+   "typ": "neu",
+   "titel": "Textsorten der Presse: editorial, artigo de opinião, crónica",
+   "vokabeln": ["o-editorial", "o-artigo-de-opiniao", "o-colunista", "o-cronista", "o-lead", "o-subtitulo", "o-semanario", "o-diario", "a-primeira-pagina", "a-seccao", "a-imprensa-escrita", "o-suplemento"],
+   "grammatik": {
+    "titel": "Os géneros jornalísticos: informar ou opinar?",
+    "erklaerung": [
+     "A imprensa distingue dois grandes grupos de textos: os <b>géneros informativos</b> (<i>a notícia, a reportagem, a entrevista</i>), que relatam factos, e os <b>géneros de opinião</b> (<i>o editorial, o artigo de opinião, a crónica, a coluna</i>), que interpretam e avaliam.",
+     "O <b>editorial</b> não é assinado por um autor individual: exprime a posição do jornal e usa muitas vezes a 1.ª pessoa do plural (<i>consideramos, a nosso ver</i>). O <b>artigo de opinião</b> e a <b>coluna</b> são assinados por colunistas ou por convidados.",
+     "A <b>crónica</b> portuguesa é um texto curto, pessoal e muitas vezes literário, entre o jornalismo e a literatura. Não é um registo histórico.",
+     "A notícia segue a <b>pirâmide invertida</b>: <i>título</i> → <i>subtítulo</i> → <i>lead</i> (quem? o quê? quando? onde? como? porquê?) → pormenores. O registo é neutro, na 3.ª pessoa e sem adjetivos valorativos."
+    ],
+    "erklaerung_de": [
+     "Die Presse unterscheidet zwei große Gruppen: <b>informierende Textsorten</b> (Nachricht, Reportage, Interview), die Fakten berichten, und <b>meinungsbildende Textsorten</b> (Leitartikel, Meinungsbeitrag, Crónica, Kolumne), die deuten und bewerten.",
+     "Der <b>Leitartikel</b> ist nicht namentlich gezeichnet: Er gibt die Haltung der Zeitung wieder und steht oft in der 1. Person Plural (<i>consideramos, a nosso ver</i>). <b>Meinungsbeiträge</b> und <b>Kolumnen</b> tragen den Namen von Kolumnisten oder Gastautoren.",
+     "Die portugiesische <b>crónica</b> ist ein kurzer, persönlicher, oft literarischer Text zwischen Journalismus und Literatur – keine „Chronik“.",
+     "Die Nachricht folgt der <b>umgekehrten Pyramide</b>: Titel → Untertitel → Lead (wer, was, wann, wo, wie, warum) → Details. Neutraler Stil, 3. Person, keine wertenden Adjektive."
+    ],
+    "vergleich": "Deutsch „Leitartikel“ = <i>o editorial</i>, „Kolumne“ = <i>a coluna</i> oder <i>a crónica</i>, „Gastbeitrag“ = <i>o artigo de opinião</i>. Englisch: editorial, op-ed, column. Falscher Freund: <i>a crónica</i> ist keine „Chronik“, sondern eine persönliche Kolumne.",
+    "beispiele": [
+     {"pt": "O editorial de hoje defende mais investimento nos transportes públicos.", "de": "Der heutige Leitartikel spricht sich für mehr Investitionen in den öffentlichen Verkehr aus."},
+     {"pt": "A crónica de domingo fala do cheiro a sardinhas nas ruas de Lagos.", "de": "Die Sonntagskolumne erzählt vom Sardinenduft in den Straßen von Lagos."},
+     {"pt": "O lead resume a notícia em duas frases.", "de": "Der Lead fasst die Nachricht in zwei Sätzen zusammen."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Que texto exprime a posição oficial do jornal?", "optionen": ["a crónica", "o editorial", "a reportagem"], "richtig": 1, "kategorie": "Textsorten"},
+     {"typ": "auswahl", "frage": "«Na minha rua, as manhãs de agosto cheiram a protetor solar e a pão quente.» – De que tipo de texto é esta frase, provavelmente?", "optionen": ["de uma notícia", "de uma crónica", "de um lead"], "richtig": 1, "erklaerung": "Persönlicher, literarischer Ton in der 1. Person → crónica.", "kategorie": "Textsorten"},
+     {"typ": "auswahl", "frage": "Qual destas frases é adequada para o lead de uma notícia?", "optionen": ["A Câmara de Lagos aprovou ontem um novo parque de estacionamento junto à estação.", "Finalmente, uma decisão sensata da câmara!", "Que tristeza ver tanto carro no centro!"], "richtig": 0, "erklaerung": "Ein Lead ist sachlich: wer, was, wann, wo – ohne Wertung.", "kategorie": "Textsorten"},
+     {"typ": "luecke", "satz": "A colunista escreve todas as semanas na ___ de economia.", "loesungen": ["rubrica", "coluna", "secção"], "de": "Die Kolumnistin schreibt jede Woche in der Wirtschaftsrubrik."},
+     {"typ": "luecke", "satz": "A notícia esteve na ___ de todos os diários.", "loesungen": ["primeira página"], "de": "Die Nachricht war auf der Titelseite aller Tageszeitungen."},
+     {"typ": "uebersetzen", "de": "Der Leitartikel ist nicht unterschrieben, weil er die Meinung der Zeitung ausdrückt.", "loesungen": ["O editorial não é assinado porque exprime a opinião do jornal.", "O editorial não é assinado, porque exprime a opinião do jornal.", "O editorial não está assinado porque exprime a opinião do jornal.", "O editorial não é assinado porque expressa a opinião do jornal.", "O editorial não é assinado porque exprime a posição do jornal.", "O editorial não é assinado, visto que exprime a opinião do jornal."]},
+     {"typ": "uebersetzen", "de": "Ich lese eine Tageszeitung und zwei Wochenzeitungen.", "loesungen": ["Leio um diário e dois semanários.", "Eu leio um diário e dois semanários.", "Leio um jornal diário e dois semanários."]},
+     {"typ": "satzbau", "de": "Die Redaktion der Wochenzeitung befindet sich in Faro.", "loesung": "A redação do semanário fica em Faro."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O jornal de sábado – die Samstagszeitung",
+    "situation": "A Ana e o Stefan tomam o pequeno-almoço e folheiam o jornal de sábado.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Stefan, passas-me o caderno de opinião? Quero ler o editorial.", "de": "Stefan, gibst du mir den Meinungsteil? Ich will den Leitartikel lesen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Toma. Sobre o que é hoje?", "de": "Hier. Worum geht es heute?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Sobre a falta de médicos de família no Algarve. E, como sempre, vem assinado «A Direção».", "de": "Um den Mangel an Hausärzten in der Algarve. Und wie immer ist er mit „Die Direktion“ unterzeichnet."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É por isso que o editorial não tem nome de autor: fala em nome do jornal, não é?", "de": "Deshalb hat der Leitartikel keinen Autorennamen: Er spricht im Namen der Zeitung, oder?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Exatamente. Já o artigo de opinião ao lado é de um professor de Faro, convidado pelo jornal.", "de": "Genau. Der Meinungsbeitrag daneben hingegen ist von einem Lehrer aus Faro, den die Zeitung eingeladen hat."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E aquela página com a fotografia do pôr do sol?", "de": "Und die Seite mit dem Foto vom Sonnenuntergang?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "É a crónica da Teresa Lobo. Escreve sobre pequenas coisas do dia a dia, quase como literatura.", "de": "Das ist die Kolumne von Teresa Lobo. Sie schreibt über kleine Dinge des Alltags, fast wie Literatur."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Eu prefiro as notícias: leio o título e o lead e fico a saber o essencial.", "de": "Ich mag lieber die Nachrichten: Ich lese den Titel und den Lead und weiß das Wesentliche."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Pois, mas assim perdes o melhor do jornal de sábado!", "de": "Ja, aber so verpasst du das Beste an der Samstagszeitung!"}
+    ],
+    "fragen": [
+     {"frage": "De que trata o editorial?", "optionen": ["Da falta de médicos de família no Algarve.", "Do pôr do sol em Lagos.", "Das obras no porto."], "richtig": 0},
+     {"frage": "Quem escreveu o artigo de opinião?", "optionen": ["A direção do jornal.", "A Teresa Lobo.", "Um professor de Faro convidado pelo jornal."], "richtig": 2},
+     {"frage": "O que prefere ler o Stefan?", "optionen": ["As crónicas.", "As notícias.", "Os editoriais."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "O editorial exprime a posição do jornal.", "de": "Der Leitartikel drückt die Haltung der Zeitung aus."},
+     {"pt": "O artigo de opinião é assinado por um convidado.", "de": "Der Meinungsbeitrag ist von einem Gastautor gezeichnet."},
+     {"pt": "A crónica é um texto pessoal e quase literário.", "de": "Die Crónica ist ein persönlicher, fast literarischer Text."},
+     {"pt": "O lead responde às perguntas essenciais.", "de": "Der Lead beantwortet die wesentlichen Fragen."},
+     {"pt": "A notícia esteve na primeira página de todos os diários.", "de": "Die Nachricht war auf der Titelseite aller Tageszeitungen."}
+    ]
+   },
+   "saetze": [
+    {"id": "editorial-posicao-jornal", "pt": "O editorial exprime a posição do jornal.", "de": "Der Leitartikel drückt die Haltung der Zeitung aus."},
+    {"id": "leio-diario-semanario", "pt": "Leio um diário nacional e um semanário regional.", "de": "Ich lese eine überregionale Tageszeitung und eine regionale Wochenzeitung."},
+    {"id": "noticia-primeira-pagina", "pt": "A notícia esteve na primeira página.", "de": "Die Nachricht war auf der Titelseite."}
+   ]
+  },
+  {
+   "id": "B2-07-L02",
+   "typ": "neu",
+   "titel": "Gegensatz: no entanto, contudo, todavia, ao passo que, se bem que",
+   "vokabeln": ["em-contrapartida", "ao-passo-que", "se-bem-que", "pese-embora", "por-muito-que", "a-contradicao", "o-contraste", "o-senao", "ressalvar", "o-reverso-da-medalha", "em-todo-o-caso"],
+   "grammatik": {
+    "titel": "Contrastar ideias: advérbios conectivos e conjunções concessivas",
+    "erklaerung": [
+     "<b>Advérbios conectivos</b> ligam duas frases independentes: <i>no entanto, contudo, todavia, não obstante, ainda assim, em contrapartida</i>. Ficam no início da segunda frase ou depois do primeiro elemento, entre vírgulas: <i>O projeto é caro. <b>Contudo</b>, é necessário.</i> / <i>O projeto é, <b>contudo</b>, necessário.</i>",
+     "Escala de registo: <i>mas</i> (neutro, oral) → <i>no entanto, contudo</i> (escrita corrente) → <i>todavia, não obstante</i> (formal, jornalístico ou jurídico). <i>Ainda assim</i> (= mesmo assim) indica que o resultado contraria a expectativa.",
+     "<b>Conjunções concessivas</b> introduzem uma oração subordinada e levam <b>conjuntivo</b>: <i>embora, se bem que, ainda que, por muito que, pese embora</i>. <i>Embora o artigo <b>seja</b> longo, lê-se bem.</i>",
+     "<b>Ao passo que</b> (= enquanto, com valor de contraste) leva <b>indicativo</b>: <i>O editorial elogia a medida, ao passo que o colunista a <b>critica</b>.</i>",
+     "<i>Não obstante</i> e <i>pese embora</i> também funcionam como preposições, antes de um nome: <i>Não obstante as críticas, a obra avançou.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>Verbindende Adverbien</b> verknüpfen zwei Hauptsätze: <i>no entanto, contudo, todavia, não obstante, ainda assim, em contrapartida</i>. Sie stehen am Anfang des zweiten Satzes oder nach dem ersten Satzglied, zwischen Kommas.",
+     "Registerskala: <i>mas</i> (neutral, mündlich) → <i>no entanto, contudo</i> (übliche Schriftsprache) → <i>todavia, não obstante</i> (formell, Presse, Recht). <i>Ainda assim</i> = trotzdem.",
+     "<b>Konzessive Konjunktionen</b> leiten einen Nebensatz ein und verlangen den <b>Konjunktiv</b>: <i>embora, se bem que, ainda que, por muito que, pese embora</i>.",
+     "<b>Ao passo que</b> („während, wohingegen“ – Gegensatz, nicht Zeit) steht mit <b>Indikativ</b>.",
+     "<i>Não obstante</i> und <i>pese embora</i> können auch wie Präpositionen vor einem Substantiv stehen („ungeachtet“)."
+    ],
+    "vergleich": "Deutsch hat „jedoch, allerdings, dennoch, hingegen“ – das Portugiesische unterscheidet stärker nach Register: <i>mas</i> (gesprochen) vs. <i>contudo/todavia</i> (geschrieben). Nach <i>embora / se bem que</i> folgt wie nach „obwohl“ ein Nebensatz – aber im Konjunktiv. Englisch: however, nevertheless, whereas.",
+    "beispiele": [
+     {"pt": "A obra é necessária. Contudo, o custo levanta dúvidas.", "de": "Der Bau ist notwendig. Allerdings wirft der Preis Fragen auf."},
+     {"pt": "Os comerciantes aplaudem a medida, ao passo que os moradores se queixam do barulho.", "de": "Die Händler begrüßen die Maßnahme, während sich die Anwohner über den Lärm beschweren."},
+     {"pt": "Por muito que se fale de habitação, as rendas continuam a subir.", "de": "So viel auch über Wohnraum geredet wird, die Mieten steigen weiter."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Qual é o conector mais formal?", "optionen": ["mas", "só que", "todavia"], "richtig": 2, "kategorie": "Register"},
+     {"typ": "luecke", "satz": "Embora o artigo ___ longo, lê-se bem. (ser)", "loesungen": ["seja"], "de": "Obwohl der Artikel lang ist, liest er sich gut.", "erklaerung": "embora + Konjunktiv.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "O editorial elogia a medida, ao ___ que o colunista a critica.", "loesungen": ["passo"], "de": "Der Leitartikel lobt die Maßnahme, während der Kolumnist sie kritisiert.", "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "«Os números são bons. ___, muitas famílias continuam com dificuldades.»", "optionen": ["Embora", "No entanto", "Ao passo que"], "richtig": 1, "erklaerung": "Zwischen zwei Hauptsätzen steht ein Adverb (no entanto); embora und ao passo que leiten Nebensätze ein.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "Por muito que o colunista ___, ninguém o ouve. (protestar)", "loesungen": ["proteste"], "de": "So sehr der Kolumnist auch protestiert, niemand hört auf ihn.", "kategorie": "Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Die Idee ist gut. Allerdings kommt sie zu spät.", "loesungen": ["A ideia é boa. No entanto, chega tarde demais.", "A ideia é boa. Contudo, chega tarde demais.", "A ideia é boa. Todavia, chega tarde demais.", "A ideia é boa. No entanto, chega demasiado tarde.", "A ideia é boa. Contudo, chega demasiado tarde.", "A ideia é boa. No entanto, vem tarde demais.", "A ideia é boa. Contudo, vem tarde demais.", "A ideia é boa. No entanto, chega tarde."]},
+     {"typ": "uebersetzen", "de": "Es hat geregnet; dennoch hat das Fest stattgefunden. (formell, mit „não obstante“)", "loesungen": ["Choveu; não obstante, a festa realizou-se.", "Choveu. Não obstante, a festa realizou-se.", "Choveu; não obstante, a festa teve lugar.", "Choveu. Não obstante, a festa teve lugar.", "Choveu; não obstante, a festa decorreu.", "Choveu. Não obstante, a festa decorreu."], "kategorie": "Register"},
+     {"typ": "satzbau", "de": "Das Zentrum ist voll; die Dörfer hingegen sind leer.", "loesung": "O centro está cheio; em contrapartida, as aldeias estão vazias."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Dois textos, duas opiniões – zwei Texte, zwei Meinungen",
+    "situation": "O Pedro e o Stefan comentam, num café, dois textos sobre a nova ciclovia de Lagos.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Leste o editorial sobre a ciclovia? Diz que é a melhor obra dos últimos anos.", "de": "Hast du den Leitartikel über den Radweg gelesen? Er sagt, das sei der beste Bau der letzten Jahre."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Li. No entanto, o artigo de opinião da página seguinte diz exatamente o contrário.", "de": "Ja. Der Meinungsbeitrag auf der nächsten Seite sagt allerdings genau das Gegenteil."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Pois. O editorial fala de saúde e de ambiente, ao passo que o colunista só fala dos lugares de estacionamento que desapareceram.", "de": "Eben. Der Leitartikel spricht von Gesundheit und Umwelt, während der Kolumnist nur von den verschwundenen Parkplätzen redet."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ele tem alguma razão, se bem que exagere um pouco: na minha rua perderam-se doze lugares.", "de": "Er hat ein bisschen recht, wenngleich er etwas übertreibt: In meiner Straße sind zwölf Parkplätze weggefallen."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "É verdade. Ainda assim, vejo cada vez mais miúdos a ir de bicicleta para a escola.", "de": "Stimmt. Trotzdem sehe ich immer mehr Kinder, die mit dem Fahrrad zur Schule fahren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso é ótimo. Contudo, a obra custou o dobro do previsto.", "de": "Das ist toll. Allerdings hat der Bau doppelt so viel gekostet wie geplant."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Por muito que custe, é um investimento para vinte anos.", "de": "So viel er auch kostet, es ist eine Investition für zwanzig Jahre."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Em todo o caso, gostei de ler os dois textos. Cada um tem a sua ressalva.", "de": "Jedenfalls habe ich beide Texte gern gelesen. Jeder hat seinen Vorbehalt."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "É para isso que serve a imprensa: para pensarmos pela nossa cabeça.", "de": "Dafür ist die Presse da: damit wir mit dem eigenen Kopf denken."}
+    ],
+    "fragen": [
+     {"frage": "O que diz o editorial sobre a ciclovia?", "optionen": ["Que é uma obra inútil.", "Que custou pouco.", "Que é a melhor obra dos últimos anos."], "richtig": 2},
+     {"frage": "Do que fala o colunista?", "optionen": ["Dos lugares de estacionamento que desapareceram.", "Do barulho das bicicletas.", "Da falta de escolas."], "richtig": 0},
+     {"frage": "Que problema aponta o Stefan no fim?", "optionen": ["A ciclovia é estreita.", "A obra custou o dobro do previsto.", "Ninguém usa a ciclovia."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "A Rita acha que o novo mercado municipal é perfeito. Concorde em parte, mas contraponha (tu).",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Já foste ao mercado novo? É lindíssimo, não achas?", "de": "Warst du schon in der neuen Markthalle? Sie ist wunderschön, findest du nicht?"},
+     {"ich": true, "aufgabe": "Responda com «no entanto»: „Ja, sie ist sehr schön. Allerdings sind die Preise höher.“", "loesungen": ["Sim, é muito bonito. No entanto, os preços são mais altos.", "Sim, é muito bonito. No entanto, os preços estão mais altos.", "É, é muito bonito. No entanto, os preços são mais altos.", "Sim, é lindo. No entanto, os preços são mais altos.", "Sim, é muito bonito. No entanto, os preços são mais elevados.", "Sim, é muito bonito; no entanto, os preços são mais altos."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Mais altos? Mas a qualidade também é melhor!", "de": "Höher? Aber die Qualität ist auch besser!"},
+     {"ich": true, "aufgabe": "Responda com «se bem que» + conjuntivo: „Das stimmt, wenngleich nicht alle es sich leisten können.“", "loesungen": ["É verdade, se bem que nem todos possam pagar.", "É verdade, se bem que nem todos o possam pagar.", "Isso é verdade, se bem que nem todos possam pagar.", "É verdade, se bem que nem toda a gente possa pagar.", "É verdade, se bem que nem todos tenham dinheiro para isso.", "É verdade, se bem que nem todos possam pagá-lo."]},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Bem, eu continuo a achar que valeu a pena.", "de": "Na ja, ich finde weiterhin, dass es sich gelohnt hat."},
+     {"ich": true, "aufgabe": "Responda com «em todo o caso»: „Jedenfalls ist sie besser als das alte Gebäude.“", "loesungen": ["Em todo o caso, é melhor do que o edifício antigo.", "Em todo o caso, é melhor que o edifício antigo.", "Em todo o caso, está melhor do que o edifício antigo.", "Em todo o caso, é melhor do que o antigo edifício.", "Em todo o caso, é melhor do que o antigo."]}
+    ]
+   },
+   "saetze": [
+    {"id": "contudo-custo-duvidas", "pt": "A obra é necessária. Contudo, o custo levanta dúvidas.", "de": "Der Bau ist notwendig. Allerdings wirft der Preis Fragen auf."},
+    {"id": "ao-passo-que-critica", "pt": "O editorial elogia a medida, ao passo que o colunista a critica.", "de": "Der Leitartikel lobt die Maßnahme, während der Kolumnist sie kritisiert."},
+    {"id": "em-todo-o-caso-decisao", "pt": "Em todo o caso, a decisão ainda não é definitiva.", "de": "Jedenfalls ist die Entscheidung noch nicht endgültig."}
+   ]
+  },
+  {
+   "id": "B2-07-L03",
+   "typ": "neu",
+   "titel": "Begründung: visto que, dado que, uma vez que, porquanto",
+   "vokabeln": ["porquanto", "visto-que", "dado-que", "uma-vez-que", "ja-que", "na-medida-em-que", "em-virtude-de", "devido-a", "gracas-a", "por-forca-de", "a-justificacao", "alegar"],
+   "grammatik": {
+    "titel": "Justificar: conectores causais e o seu registo",
+    "erklaerung": [
+     "<i>Porque</i> é o conector neutro. Na escrita jornalística usam-se mais <b>visto que, dado que, uma vez que, já que</b> (+ indicativo), que podem iniciar a frase: <i><b>Visto que</b> o prazo terminou, a proposta foi rejeitada.</i>",
+     "<b>Porquanto</b> é muito formal (textos jurídicos e editoriais) e vem sempre depois da oração principal: <i>A medida é injusta, <b>porquanto</b> penaliza quem menos tem.</i>",
+     "<b>Na medida em que</b> justifica e limita ao mesmo tempo: <i>A decisão é discutível <b>na medida em que</b> ignora os moradores.</i>",
+     "Antes de um nome usam-se locuções prepositivas: <b>devido a</b> (neutro), <b>graças a</b> (causa positiva), <b>em virtude de</b> e <b>por força de</b> (formais, administrativas): <i>devido <b>ao</b> mau tempo, graças <b>à</b> ajuda dos vizinhos, em virtude <b>da</b> greve.</i>",
+     "Atenção: <i>uma vez que</i> + <b>conjuntivo</b> significa «assim que»: <i>Uma vez que <b>tenha</b> os dados, publico o artigo.</i>"
+    ],
+    "erklaerung_de": [
+     "<i>Porque</i> ist neutral. In Pressetexten stehen häufiger <b>visto que, dado que, uma vez que, já que</b> (+ Indikativ), die auch den Satz eröffnen können.",
+     "<b>Porquanto</b> ist sehr gehoben (Recht, Leitartikel) und steht immer nach dem Hauptsatz.",
+     "<b>Na medida em que</b> = „insofern als“: begründet und schränkt gleichzeitig ein.",
+     "Vor Substantiven: <b>devido a</b> (neutral, „wegen“), <b>graças a</b> („dank“, nur positiv), <b>em virtude de</b> und <b>por força de</b> (formell, Amtssprache). Auf die Zusammenziehung achten: ao, à, da.",
+     "Achtung: <i>uma vez que</i> + <b>Konjunktiv</b> heißt „sobald“."
+    ],
+    "vergleich": "Deutsch „da / weil / aufgrund“ – das Portugiesische hat eine breitere Registerskala: <i>porque</i> (neutral) → <i>visto que, dado que</i> (schriftlich) → <i>porquanto</i> (sehr gehoben). <i>Graças a</i> nur bei positiven Ursachen, wie dt. „dank“. Englisch: since, given that, insofar as, owing to.",
+    "beispiele": [
+     {"pt": "Dado que o inquérito tem apenas cem respostas, convém ter cautela com as conclusões.", "de": "Da die Umfrage nur hundert Antworten hat, ist bei den Schlussfolgerungen Vorsicht geboten."},
+     {"pt": "O jornal não saiu ontem devido a uma greve na gráfica.", "de": "Die Zeitung ist gestern wegen eines Streiks in der Druckerei nicht erschienen."},
+     {"pt": "A crítica é justa, porquanto o projeto nunca foi discutido com a população.", "de": "Die Kritik ist berechtigt, da das Projekt nie mit der Bevölkerung besprochen wurde."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["Graças à tempestade, a ponte caiu.", "Devido à tempestade, a ponte caiu.", "Graças a tempestade, a ponte caiu."], "richtig": 1, "erklaerung": "graças a nur für positive Ursachen; außerdem a + a = à.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "A sessão foi adiada em virtude ___ greve.", "loesungen": ["da"], "de": "Die Sitzung wurde wegen des Streiks vertagt.", "kategorie": "Präpositionen"},
+     {"typ": "luecke", "satz": "___ que o prazo terminou, já não é possível concorrer.", "loesungen": ["Visto", "Dado", "Uma vez", "Já"], "de": "Da die Frist abgelaufen ist, kann man sich nicht mehr bewerben.", "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "Onde pode ficar «porquanto»?", "optionen": ["Só no início da frase.", "Depois da oração principal.", "Em qualquer posição, como «porque»."], "richtig": 1, "kategorie": "Register"},
+     {"typ": "auswahl", "frage": "«Uma vez que tenha os resultados, publico a notícia.» Aqui, «uma vez que» significa…", "optionen": ["visto que", "assim que", "embora"], "richtig": 1, "erklaerung": "Mit Konjunktiv bedeutet uma vez que „sobald“.", "kategorie": "Konnektoren"},
+     {"typ": "uebersetzen", "de": "Da niemand geantwortet hat, hat die Zeitung die Nachricht veröffentlicht.", "loesungen": ["Visto que ninguém respondeu, o jornal publicou a notícia.", "Dado que ninguém respondeu, o jornal publicou a notícia.", "Uma vez que ninguém respondeu, o jornal publicou a notícia.", "Já que ninguém respondeu, o jornal publicou a notícia.", "Como ninguém respondeu, o jornal publicou a notícia."]},
+     {"typ": "uebersetzen", "de": "Die Maßnahme ist ungerecht, da sie die Ärmsten trifft. (formell, mit „porquanto“)", "loesungen": ["A medida é injusta, porquanto afeta os mais pobres.", "A medida é injusta, porquanto penaliza os mais pobres.", "A medida é injusta, porquanto prejudica os mais pobres.", "A medida é injusta porquanto afeta os mais pobres.", "A medida é injusta, porquanto atinge os mais pobres."], "kategorie": "Register"},
+     {"typ": "satzbau", "de": "Dank einer Leserin wurde der Fehler korrigiert.", "loesung": "Graças a uma leitora, o erro foi corrigido."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O comentário da manhã – der Morgenkommentar",
+    "situation": "Um comentador de uma rádio local (fictícia) explica porque é que o festival de verão de Lagos mudou de data.",
+    "zeilen": [
+     {"sprecher": "Comentador", "stimme": "m", "pt": "Bom dia. Hoje falamos da mudança de data do festival de verão.", "de": "Guten Morgen. Heute sprechen wir über die Terminänderung des Sommerfestivals."},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "A organização decidiu passá-lo de agosto para setembro, visto que em agosto a cidade já está cheia de turistas.", "de": "Die Veranstalter haben beschlossen, es von August auf September zu verlegen, da die Stadt im August ohnehin voller Touristen ist."},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "Dado que o calor tem sido cada vez mais intenso, setembro parece também mais seguro para o público.", "de": "Da die Hitze immer stärker geworden ist, erscheint der September auch sicherer für das Publikum."},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "Os comerciantes, porém, estão divididos.", "de": "Die Händler sind allerdings geteilter Meinung."},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "Uns aplaudem a decisão, uma vez que setembro costuma ser um mês mais fraco para o comércio.", "de": "Die einen begrüßen die Entscheidung, da der September für den Handel meist ein schwächerer Monat ist."},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "Outros temem perder clientes, já que muitas famílias regressam a casa no fim de agosto.", "de": "Andere fürchten, Kunden zu verlieren, da viele Familien Ende August nach Hause zurückkehren."},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "Graças ao novo calendário, a câmara espera prolongar a época turística.", "de": "Dank des neuen Kalenders hofft die Gemeinde, die Tourismussaison zu verlängern."},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "A meu ver, a decisão é razoável, na medida em que distribui melhor os visitantes ao longo do ano.", "de": "Meiner Ansicht nach ist die Entscheidung vernünftig, insofern als sie die Besucher besser übers Jahr verteilt."},
+     {"sprecher": "Comentador", "stimme": "m", "pt": "Resta saber se o público vai aderir. Até amanhã.", "de": "Es bleibt abzuwarten, ob das Publikum mitzieht. Bis morgen."}
+    ],
+    "fragen": [
+     {"frage": "Para quando passou o festival?", "optionen": ["Para julho.", "Para setembro.", "Para outubro."], "richtig": 1},
+     {"frage": "Porque é que alguns comerciantes estão preocupados?", "optionen": ["Porque muitas famílias regressam a casa no fim de agosto.", "Porque setembro é demasiado quente.", "Porque o festival vai acabar."], "richtig": 0},
+     {"frage": "O que espera a câmara com o novo calendário?", "optionen": ["Reduzir o número de turistas.", "Poupar dinheiro.", "Prolongar a época turística."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português.",
+    "aufgaben": [
+     {"de": "Da der Artikel keine Quellen nennt, glaube ich ihm nicht. (visto que)", "loesungen": ["Visto que o artigo não cita fontes, não acredito nele.", "Visto que o artigo não indica fontes, não acredito nele.", "Visto que o artigo não refere fontes, não acredito nele.", "Visto que o artigo não menciona fontes, não acredito nele.", "Visto que o artigo não cita fontes, não acredito no artigo.", "Visto que o artigo não cita fontes, não confio nele."]},
+     {"de": "Wegen des schlechten Wetters wurde das Konzert abgesagt. (devido a)", "loesungen": ["Devido ao mau tempo, o concerto foi cancelado.", "O concerto foi cancelado devido ao mau tempo.", "Devido ao mau tempo, o concerto foi anulado.", "O concerto foi anulado devido ao mau tempo."]},
+     {"de": "Dank der Nachbarn wurde der Brand schnell gelöscht. (graças a)", "loesungen": ["Graças aos vizinhos, o incêndio foi apagado rapidamente.", "Graças aos vizinhos, o incêndio foi rapidamente apagado.", "O incêndio foi apagado rapidamente graças aos vizinhos.", "Graças aos vizinhos, o fogo foi apagado rapidamente.", "Graças aos vizinhos, o fogo foi rapidamente apagado."]},
+     {"de": "Da wir gerade über Presse sprechen: Hast du den Leitartikel gelesen? (já que, tu)", "loesungen": ["Já que estamos a falar de imprensa, leste o editorial?", "Já que falamos de imprensa, leste o editorial?", "Já que estamos a falar da imprensa, leste o editorial?", "Já que estamos a falar de imprensa, já leste o editorial?", "Já que estamos a falar de imprensa: leste o editorial?"]},
+     {"de": "Die Firma behauptet, dass sie alle Regeln eingehalten hat. (alegar)", "loesungen": ["A empresa alega que cumpriu todas as regras.", "A empresa alega ter cumprido todas as regras.", "A empresa alega que respeitou todas as regras.", "A empresa alega que tem cumprido todas as regras."]}
+    ]
+   },
+   "saetze": [
+    {"id": "visto-que-prazo", "pt": "Visto que o prazo terminou, a proposta foi rejeitada.", "de": "Da die Frist abgelaufen ist, wurde der Vorschlag abgelehnt."},
+    {"id": "gracas-a-leitora", "pt": "Graças a uma leitora, o erro foi corrigido.", "de": "Dank einer Leserin wurde der Fehler korrigiert."},
+    {"id": "devido-a-greve", "pt": "O jornal não saiu devido a uma greve.", "de": "Die Zeitung ist wegen eines Streiks nicht erschienen."}
+   ]
+  },
+  {
+   "id": "B2-07-L04",
+   "typ": "neu",
+   "titel": "Folge: por conseguinte, pelo que, de modo que, daí que",
+   "vokabeln": ["por-conseguinte", "pelo-que", "de-modo-que", "dai-que", "consequentemente", "sendo-assim", "de-tal-forma-que", "acarretar", "desencadear", "resultar-em", "o-efeito-de-bola-de-neve", "as-repercussoes"],
+   "grammatik": {
+    "titel": "Exprimir consequências: do neutro ao formal",
+    "erklaerung": [
+     "Advérbios de consequência entre duas frases: <i>portanto, por isso</i> (neutros), <b>por conseguinte, consequentemente, sendo assim</b> (formais): <i>As vendas em papel caíram. <b>Por conseguinte</b>, o jornal passou a ser só digital.</i>",
+     "<b>Pelo que</b> liga duas orações numa só frase, depois de vírgula; é muito típico da imprensa e da administração: <i>O prazo terminou ontem, <b>pelo que</b> já não há candidaturas.</i>",
+     "<b>De modo que / de forma que</b> + indicativo exprimem o resultado; <b>de tal forma que</b> e <b>tão … que / tanto … que</b> realçam a intensidade: <i>Choveu <b>tanto que</b> a estrada fechou.</i> Com <b>conjuntivo</b>, <i>de modo que</i> exprime finalidade: <i>Explique devagar, de modo que todos <b>percebam</b>.</i>",
+     "<b>Daí que</b> (= por isso) leva sempre <b>conjuntivo</b>, uma marca do português europeu culto: <i>Os preços subiram; <b>daí que</b> muitas famílias se <b>queixem</b>.</i>",
+     "Verbos de consequência: <i>resultar em, acarretar, desencadear, levar a</i>: <i>A falta de chuva <b>levou a</b> restrições no consumo de água.</i>"
+    ],
+    "erklaerung_de": [
+     "Folge-Adverbien zwischen zwei Sätzen: <i>portanto, por isso</i> (neutral), <b>por conseguinte, consequentemente, sendo assim</b> (formell).",
+     "<b>Pelo que</b> („weshalb“) verbindet zwei Teilsätze nach einem Komma – sehr typisch für Presse und Behörden.",
+     "<b>De modo que / de forma que</b> + Indikativ = „sodass“ (Ergebnis); <b>de tal forma que</b>, <b>tão … que / tanto … que</b> betonen die Intensität. Mit <b>Konjunktiv</b> heißt <i>de modo que</i> „damit“ (Zweck).",
+     "<b>Daí que</b> („daher“) steht immer mit <b>Konjunktiv</b> – ein Merkmal des gehobenen europäischen Portugiesisch.",
+     "Verben der Folge: <i>resultar em</i> (zu etwas führen), <i>acarretar</i> (mit sich bringen), <i>desencadear</i> (auslösen), <i>levar a</i> (führen zu)."
+    ],
+    "vergleich": "Deutsch „folglich, deshalb, sodass, weshalb“. <i>Pelo que</i> entspricht oft „weshalb“ als Satzanschluss. Besonders ist <i>daí que</i> + Konjunktiv – dafür gibt es im Deutschen keine wörtliche Entsprechung. Englisch: therefore, consequently, which is why, hence.",
+    "beispiele": [
+     {"pt": "O prazo terminou ontem, pelo que a câmara já não aceita propostas.", "de": "Die Frist ist gestern abgelaufen, weshalb die Gemeinde keine Vorschläge mehr annimmt."},
+     {"pt": "As rendas subiram muito; daí que muitos jovens saiam do centro.", "de": "Die Mieten sind stark gestiegen; deshalb ziehen viele junge Leute aus dem Zentrum weg."},
+     {"pt": "A notícia desencadeou tantas reações que o jornal publicou um esclarecimento.", "de": "Die Nachricht hat so viele Reaktionen ausgelöst, dass die Zeitung eine Klarstellung veröffentlicht hat."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Os preços subiram; daí que muitas famílias se ___. (queixar)", "loesungen": ["queixem"], "de": "Die Preise sind gestiegen; deshalb beschweren sich viele Familien.", "erklaerung": "daí que + Konjunktiv.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "«O prazo terminou, ___ já não é possível concorrer.»", "optionen": ["pelo que", "daí que", "embora"], "richtig": 0, "erklaerung": "Nach daí que müsste der Konjunktiv folgen (seja); embora drückt keinen Grund aus.", "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "Qual é o conector mais formal?", "optionen": ["por isso", "então", "por conseguinte"], "richtig": 2, "kategorie": "Register"},
+     {"typ": "luecke", "satz": "Choveu muito, de modo que o festival ___ adiado. (ser – pretérito perfeito)", "loesungen": ["foi"], "de": "Es hat viel geregnet, sodass das Festival verschoben wurde.", "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "«Explique devagar, de modo que todos ___.»", "optionen": ["percebem", "percebam", "perceberam"], "richtig": 1, "erklaerung": "Mit Konjunktiv drückt de modo que einen Zweck aus („damit“).", "kategorie": "Konjunktiv"},
+     {"typ": "uebersetzen", "de": "Die Nachfrage ist gestiegen, und folglich sind die Preise gestiegen.", "loesungen": ["A procura aumentou e, consequentemente, os preços subiram.", "A procura aumentou e, por conseguinte, os preços subiram.", "A procura aumentou e consequentemente os preços subiram.", "A procura subiu e, consequentemente, os preços aumentaram.", "A procura aumentou e, por conseguinte, os preços aumentaram.", "A procura aumentou e, consequentemente, os preços aumentaram.", "A procura aumentou; por conseguinte, os preços subiram."]},
+     {"typ": "uebersetzen", "de": "Die Bauarbeiten werden hohe Kosten mit sich bringen.", "loesungen": ["A obra vai acarretar custos elevados.", "As obras vão acarretar custos elevados.", "A obra acarretará custos elevados.", "As obras acarretarão custos elevados.", "A obra vai acarretar custos altos.", "As obras vão acarretar custos altos."]},
+     {"typ": "satzbau", "de": "Somit bleibt nur, auf die Entscheidung zu warten.", "loesung": "Sendo assim, resta esperar pela decisão."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O fim do jornal em papel – das Ende der gedruckten Zeitung",
+    "situation": "O João conta à Ana que o jornal regional (fictício) «Voz do Litoral» vai deixar de sair em papel.",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Ana, sabias que a «Voz do Litoral» vai deixar de sair em papel?", "de": "Ana, wusstest du, dass die „Voz do Litoral“ nicht mehr auf Papier erscheinen wird?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "A sério? Porquê?", "de": "Im Ernst? Warum?"},
+     {"sprecher": "João", "stimme": "m", "pt": "As vendas caíram muito; por conseguinte, a administração decidiu passar a ser só digital.", "de": "Der Verkauf ist stark eingebrochen; folglich hat die Geschäftsführung beschlossen, nur noch digital zu erscheinen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Que pena. O papel também encareceu imenso, pelo que imagino que não tinham alternativa.", "de": "Wie schade. Das Papier ist auch enorm teurer geworden, weshalb sie wohl keine Alternative hatten."},
+     {"sprecher": "João", "stimme": "m", "pt": "Pois. Mas isso vai acarretar problemas para os mais velhos, que não usam a internet.", "de": "Ja. Aber das wird Probleme für die Älteren mit sich bringen, die das Internet nicht nutzen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "É verdade. A minha vizinha só lê o jornal no café; daí que esteja preocupadíssima.", "de": "Stimmt. Meine Nachbarin liest die Zeitung nur im Café; deshalb ist sie sehr besorgt."},
+     {"sprecher": "João", "stimme": "m", "pt": "E há outra consequência: o quiosque da praça também pode fechar.", "de": "Und es gibt noch eine Folge: Der Kiosk am Platz könnte auch schließen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Sendo assim, perdemos duas coisas de uma vez: o jornal e um ponto de encontro.", "de": "Somit verlieren wir zwei Dinge auf einmal: die Zeitung und einen Treffpunkt."},
+     {"sprecher": "João", "stimme": "m", "pt": "Um efeito de bola de neve, como dizia o editorial de despedida.", "de": "Ein Schneeballeffekt, wie es im Abschiedsleitartikel hieß."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Vou guardar a última edição. Vai ser uma recordação.", "de": "Ich werde die letzte Ausgabe aufheben. Das wird eine Erinnerung sein."}
+    ],
+    "fragen": [
+     {"frage": "Porque é que o jornal vai deixar de sair em papel?", "optionen": ["Porque o diretor se reformou.", "Porque as vendas caíram muito.", "Porque houve uma greve."], "richtig": 1},
+     {"frage": "Que problema refere o João?", "optionen": ["Os mais velhos que não usam a internet vão ter dificuldades.", "O jornal vai ficar mais caro.", "Os jornalistas vão mudar-se para Lisboa."], "richtig": 0},
+     {"frage": "Que outra consequência é mencionada?", "optionen": ["O café vai fechar.", "A Ana vai assinar outro jornal.", "O quiosque da praça também pode fechar."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "As vendas caíram; por conseguinte, o jornal passou a ser só digital.", "de": "Der Verkauf ist eingebrochen; folglich erscheint die Zeitung nur noch digital."},
+     {"pt": "O prazo terminou ontem, pelo que já não é possível concorrer.", "de": "Die Frist ist gestern abgelaufen, weshalb man sich nicht mehr bewerben kann."},
+     {"pt": "Os preços subiram; daí que muitas famílias se queixem.", "de": "Die Preise sind gestiegen; deshalb beschweren sich viele Familien."},
+     {"pt": "A notícia desencadeou uma onda de comentários.", "de": "Die Nachricht hat eine Welle von Kommentaren ausgelöst."},
+     {"pt": "Sendo assim, resta esperar pela decisão.", "de": "Somit bleibt nur, auf die Entscheidung zu warten."}
+    ]
+   },
+   "saetze": [
+    {"id": "pelo-que-concorrer", "pt": "O prazo terminou, pelo que já não é possível concorrer.", "de": "Die Frist ist abgelaufen, weshalb man sich nicht mehr bewerben kann."},
+    {"id": "dai-que-queixem", "pt": "Os preços subiram; daí que muitas famílias se queixem.", "de": "Die Preise sind gestiegen; deshalb beschweren sich viele Familien."},
+    {"id": "sendo-assim-esperar", "pt": "Sendo assim, resta esperar pela decisão.", "de": "Somit bleibt nur, auf die Entscheidung zu warten."}
+   ]
+  },
+  {
+   "id": "B2-07-L05",
+   "typ": "neu",
+   "titel": "Präzisieren und umformulieren: ou seja, nomeadamente, aliás, de resto",
+   "vokabeln": ["de-resto", "nomeadamente", "designadamente", "a-saber", "dito-de-outro-modo", "mais-concretamente", "em-particular", "ou-melhor", "com-efeito", "o-esclarecimento", "clarificar"],
+   "grammatik": {
+    "titel": "Reformular, especificar e acrescentar informação",
+    "erklaerung": [
+     "<b>Reformular</b> (dizer o mesmo de forma mais clara): <i>ou seja, isto é, quer dizer</i> (neutros), <b>dito de outro modo, por outras palavras</b> (escrita). Para <b>corrigir</b> o que se acabou de dizer: <b>ou melhor</b>: <i>O jornal fecha – <b>ou melhor</b>, deixa de sair em papel.</i>",
+     "<b>Especificar</b> (dar exemplos ou nomear os elementos de um conjunto): <b>nomeadamente, designadamente</b> (formal), <b>em particular, mais concretamente</b>; <b>a saber</b> anuncia uma enumeração completa, normalmente depois de dois pontos: <i>Faltam dois documentos, <b>a saber</b>: o contrato e a fatura.</i>",
+     "Atenção ao falso amigo: <b>nomeadamente</b> não quer dizer «com o nome de»; significa «entre outros, sobretudo».",
+     "<b>Acrescentar</b> um argumento ou um comentário lateral: <b>aliás</b> (= além disso, de facto), <b>de resto</b> (= de qualquer modo, além do mais). Confirmar o que foi dito: <b>com efeito</b> (= de facto, na verdade).",
+     "Pontuação: estes conectores ficam normalmente entre vírgulas: <i>Vários serviços, <b>nomeadamente</b> a biblioteca, fecham ao sábado.</i>"
+    ],
+    "erklaerung_de": [
+     "<b>Umformulieren</b>: <i>ou seja, isto é, quer dizer</i> (neutral), <b>dito de outro modo, por outras palavras</b> (schriftlich). Sich selbst <b>korrigieren</b>: <b>ou melhor</b> („besser gesagt“).",
+     "<b>Präzisieren</b> / Beispiele nennen: <b>nomeadamente, designadamente</b> (formell), <b>em particular, mais concretamente</b>. <b>A saber</b> kündigt eine vollständige Aufzählung an, meist nach Doppelpunkt („nämlich“).",
+     "Falscher Freund: <b>nomeadamente</b> heißt nicht „namentlich“, sondern „insbesondere, unter anderem“.",
+     "<b>Ergänzen</b>: <b>aliás</b> („übrigens, im Übrigen“), <b>de resto</b> („im Übrigen, ohnehin“). Bestätigen: <b>com efeito</b> („in der Tat“).",
+     "Diese Konnektoren stehen meist zwischen Kommas."
+    ],
+    "vergleich": "Deutsch: „das heißt, mit anderen Worten, besser gesagt, insbesondere, nämlich, übrigens, in der Tat“. Englisch: that is, in other words, or rather, namely, in particular, incidentally, indeed. Vorsicht: <i>nomeadamente</i> ≠ „namentlich“, <i>com efeito</i> ≠ „mit Wirkung“ (das wäre <i>com efeitos a partir de</i>).",
+    "beispiele": [
+     {"pt": "A câmara vai rever várias taxas, nomeadamente a da recolha do lixo.", "de": "Die Gemeinde wird mehrere Gebühren überprüfen, insbesondere die für die Müllabfuhr."},
+     {"pt": "O festival foi um êxito – ou melhor, foi um êxito para quem conseguiu bilhete.", "de": "Das Festival war ein Erfolg – besser gesagt, ein Erfolg für alle, die eine Karte bekommen haben."},
+     {"pt": "O tema não é novo; de resto, o jornal já o tinha tratado no ano passado.", "de": "Das Thema ist nicht neu; im Übrigen hatte die Zeitung es schon letztes Jahr behandelt."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "«Há vários problemas, ___ o trânsito e o estacionamento.» Qual é o conector adequado?", "optionen": ["nomeadamente", "ou melhor", "com efeito"], "richtig": 0, "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "Que conector serve para corrigir o que se acabou de dizer?", "optionen": ["a saber", "ou melhor", "designadamente"], "richtig": 1, "kategorie": "Konnektoren"},
+     {"typ": "auswahl", "frage": "«Nomeadamente» significa…", "optionen": ["com o nome de", "sobretudo, entre outros", "por conseguinte"], "richtig": 1, "erklaerung": "Falscher Freund: nomeadamente = insbesondere, unter anderem.", "kategorie": "Falsche Freunde"},
+     {"typ": "luecke", "satz": "Faltam dois documentos, a ___: o contrato e a fatura.", "loesungen": ["saber"], "de": "Es fehlen zwei Dokumente, nämlich der Vertrag und die Rechnung.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "Dito de outro ___: ninguém sabe quem vai pagar.", "loesungen": ["modo"], "de": "Anders gesagt: Niemand weiß, wer zahlen wird."},
+     {"typ": "uebersetzen", "de": "Ich spreche von den Preisen, genauer gesagt von den Mieten.", "loesungen": ["Falo dos preços, mais concretamente das rendas.", "Estou a falar dos preços, mais concretamente das rendas.", "Falo dos preços, mais concretamente, das rendas.", "Refiro-me aos preços, mais concretamente às rendas."]},
+     {"typ": "uebersetzen", "de": "Die Zeitung hat eine Richtigstellung veröffentlicht. Im Übrigen hat sie sich bei den Lesern entschuldigt. (de resto)", "loesungen": ["O jornal publicou um esclarecimento. De resto, pediu desculpa aos leitores.", "O jornal publicou um esclarecimento; de resto, pediu desculpa aos leitores.", "O jornal publicou um esclarecimento. De resto, pediu desculpas aos leitores.", "O jornal publicou um esclarecimento. De resto, desculpou-se junto dos leitores."]},
+     {"typ": "satzbau", "de": "Dieser Punkt muss klargestellt werden.", "loesung": "Importa clarificar este ponto."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Um esclarecimento – eine Richtigstellung",
+    "situation": "A Ana lê em voz alta ao Stefan um esclarecimento publicado pelo semanário regional (fictício) «Voz do Litoral».",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Ouve isto: «Na edição da semana passada, afirmámos que a piscina municipal ia fechar. Importa clarificar este ponto.»", "de": "Hör dir das an: „In der Ausgabe der vergangenen Woche haben wir behauptet, dass das städtische Hallenbad schließen werde. Dieser Punkt muss klargestellt werden.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então afinal não fecha?", "de": "Es schließt also doch nicht?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Espera. «A piscina não fecha; ou melhor, fecha apenas durante dois meses, para obras.»", "de": "Warte. „Das Bad schließt nicht; besser gesagt, es schließt nur für zwei Monate wegen Bauarbeiten.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ou seja, a notícia estava meio certa e meio errada.", "de": "Das heißt, die Nachricht war halb richtig und halb falsch."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Exato. E continua: «As obras incluem várias melhorias, nomeadamente um novo sistema de aquecimento e acessos para cadeiras de rodas.»", "de": "Genau. Und weiter: „Die Arbeiten umfassen mehrere Verbesserungen, insbesondere eine neue Heizung und Zugänge für Rollstühle.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso é uma boa notícia, em particular para os mais velhos.", "de": "Das ist eine gute Nachricht, vor allem für die Älteren."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "«Com efeito, a câmara confirmou que a reabertura está prevista para março.»", "de": "„In der Tat hat die Gemeinde bestätigt, dass die Wiedereröffnung für März geplant ist.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Pelo menos o jornal admite o erro. De resto, isso acontece a todos.", "de": "Wenigstens gibt die Zeitung den Fehler zu. Im Übrigen passiert das allen."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Pois. Dito de outro modo: mais vale um esclarecimento do que um boato.", "de": "Eben. Anders gesagt: Besser eine Richtigstellung als ein Gerücht."}
+    ],
+    "fragen": [
+     {"frage": "O que tinha dito o jornal na semana anterior?", "optionen": ["Que a piscina ia fechar.", "Que a piscina ia ficar mais cara.", "Que a piscina ia abrir ao domingo."], "richtig": 0},
+     {"frage": "Durante quanto tempo fecha a piscina?", "optionen": ["Para sempre.", "Durante dois meses.", "Durante um ano."], "richtig": 1},
+     {"frage": "Que melhoria é mencionada?", "optionen": ["Uma nova cafetaria.", "Um parque de estacionamento.", "Acessos para cadeiras de rodas."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "O João pergunta-lhe sobre uma reunião na junta de freguesia. Precise e reformule as suas respostas (tu).",
+    "zeilen": [
+     {"sprecher": "João", "stimme": "m", "pt": "Então, a reunião correu bem? Falaram de quê?", "de": "Na, ist die Versammlung gut gelaufen? Worüber habt ihr gesprochen?"},
+     {"ich": true, "aufgabe": "Responda com «nomeadamente»: „Über mehrere Themen, insbesondere über die Müllabfuhr.“", "loesungen": ["De vários temas, nomeadamente da recolha do lixo.", "Falámos de vários temas, nomeadamente da recolha do lixo.", "Sobre vários temas, nomeadamente sobre a recolha do lixo.", "De vários assuntos, nomeadamente da recolha do lixo.", "Falámos de vários assuntos, nomeadamente da recolha do lixo."]},
+     {"sprecher": "João", "stimme": "m", "pt": "E decidiram alguma coisa?", "de": "Und habt ihr etwas beschlossen?"},
+     {"ich": true, "aufgabe": "Korrigieren Sie sich mit «ou melhor»: „Ja – besser gesagt, wir haben beschlossen, nächsten Monat zu entscheiden.“", "loesungen": ["Sim – ou melhor, decidimos decidir no próximo mês.", "Sim, ou melhor, decidimos decidir no próximo mês.", "Sim – ou melhor, decidimos tomar uma decisão no próximo mês.", "Sim – ou melhor, decidimos decidir no mês que vem.", "Sim, ou melhor, decidimos decidir no mês que vem."]},
+     {"sprecher": "João", "stimme": "m", "pt": "Ah, típico! Ou seja, ficou tudo na mesma.", "de": "Ah, typisch! Das heißt, es bleibt alles beim Alten."},
+     {"ich": true, "aufgabe": "Bestätigen Sie mit «com efeito»: „In der Tat. Im Übrigen ist das nicht das erste Mal. (de resto)“", "loesungen": ["Com efeito. De resto, não é a primeira vez.", "Com efeito. De resto, não é a primeira vez que isso acontece.", "Com efeito; de resto, não é a primeira vez.", "Com efeito. E, de resto, não é a primeira vez."]}
+    ]
+   },
+   "saetze": [
+    {"id": "nomeadamente-transito", "pt": "Há vários problemas, nomeadamente o trânsito e o estacionamento.", "de": "Es gibt mehrere Probleme, insbesondere den Verkehr und das Parken."},
+    {"id": "ou-melhor-corrigir", "pt": "O jornal fecha – ou melhor, deixa de sair em papel.", "de": "Die Zeitung schließt – besser gesagt, sie erscheint nicht mehr auf Papier."},
+    {"id": "importa-clarificar-ponto", "pt": "Importa clarificar este ponto.", "de": "Dieser Punkt muss klargestellt werden."}
+   ]
+  },
+  {
+   "id": "B2-07-L06",
+   "typ": "neu",
+   "titel": "Meinungsmarker: é de lamentar que, convém sublinhar que, a nosso ver",
+   "vokabeln": ["e-de-lamentar-que", "convem-sublinhar-que", "importa-referir-que", "e-de-salientar-que", "ha-que-reconhecer-que", "e-inegavel-que", "a-nosso-ver", "nao-deixa-de-ser", "cabe-perguntar", "parece-nos-que", "e-de-louvar-que", "fica-por-esclarecer"],
+   "grammatik": {
+    "titel": "Marcadores de opinião: indicativo ou conjuntivo?",
+    "erklaerung": [
+     "As expressões que <b>avaliam</b> um facto (emoção, juízo de valor) levam <b>conjuntivo</b>: <i><b>é de lamentar que</b>, <b>é de louvar que</b>, é estranho que, é pena que, é inaceitável que</i>. <i>É de lamentar que a biblioteca <b>feche</b> ao sábado.</i>",
+     "As expressões que <b>afirmam ou destacam</b> uma informação como verdadeira levam <b>indicativo</b>: <i><b>convém sublinhar que</b>, <b>importa referir que</b>, <b>é de salientar que</b>, <b>é inegável que</b>, <b>há que reconhecer que</b></i>. <i>É inegável que o turismo <b>mudou</b> a cidade.</i>",
+     "<b>Parece-nos que</b> + indicativo; na negativa, conjuntivo: <i>Não nos parece que a medida <b>seja</b> suficiente.</i>",
+     "Para um facto passado avaliado, usa-se o <b>pretérito perfeito do conjuntivo</b>: <i>É de louvar que a escola <b>tenha aberto</b> a biblioteca.</i>",
+     "O editorial prefere fórmulas impessoais ou a 1.ª pessoa do plural (<i>a nosso ver, parece-nos, consideramos</i>) em vez de «eu acho». <b>Não deixa de ser</b> + adjetivo introduz uma avaliação discreta, muitas vezes irónica: <i>Não deixa de ser curioso que…</i>"
+    ],
+    "erklaerung_de": [
+     "Ausdrücke, die eine Tatsache <b>bewerten</b> (Gefühl, Werturteil), verlangen den <b>Konjunktiv</b>: <i>é de lamentar que, é de louvar que, é pena que …</i>",
+     "Ausdrücke, die etwas als wahr <b>hervorheben</b>, stehen mit <b>Indikativ</b>: <i>convém sublinhar que, importa referir que, é de salientar que, é inegável que, há que reconhecer que</i>.",
+     "<b>Parece-nos que</b> + Indikativ; verneint mit Konjunktiv (<i>Não nos parece que seja …</i>).",
+     "Für eine vergangene, bewertete Tatsache: <b>Perfekt Konjunktiv</b> (<i>tenha aberto</i>).",
+     "Leitartikel bevorzugen unpersönliche Formeln oder das redaktionelle „Wir“ statt „eu acho“. <b>Não deixa de ser</b> + Adjektiv = dezente, oft ironische Bewertung („es ist durchaus …“)."
+    ],
+    "vergleich": "Deutsch braucht hier keinen Modus-Wechsel („Es ist bedauerlich, dass die Bibliothek schließt“ / „Man muss betonen, dass …“). Im Portugiesischen entscheidet die Bedeutung: bewerten → Konjunktiv, feststellen → Indikativ. Englisch: it is regrettable that, it should be stressed that, it is undeniable that.",
+    "beispiele": [
+     {"pt": "É de lamentar que a câmara não tenha ouvido os moradores.", "de": "Es ist bedauerlich, dass die Gemeinde die Anwohner nicht angehört hat."},
+     {"pt": "Convém sublinhar que a obra foi paga com fundos europeus.", "de": "Man muss betonen, dass der Bau mit EU-Mitteln bezahlt wurde."},
+     {"pt": "Não nos parece que a solução seja aumentar as taxas.", "de": "Uns scheint nicht, dass die Lösung darin besteht, die Gebühren zu erhöhen."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "É de lamentar que a biblioteca ___ ao sábado. (fechar)", "loesungen": ["feche"], "de": "Es ist bedauerlich, dass die Bibliothek samstags schließt.", "erklaerung": "Bewertung → Konjunktiv.", "kategorie": "Konjunktiv"},
+     {"typ": "luecke", "satz": "É inegável que o turismo ___ a cidade. (mudar – pretérito perfeito)", "loesungen": ["mudou"], "de": "Es ist unbestreitbar, dass der Tourismus die Stadt verändert hat.", "erklaerung": "Feststellung → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "«Importa referir que o estudo ainda não ___ publicado.»", "optionen": ["foi", "tenha sido", "fosse"], "richtig": 0, "erklaerung": "importa referir que hebt eine Tatsache hervor → Indikativ.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "auswahl", "frage": "«Não nos parece que a medida ___ suficiente.»", "optionen": ["é", "seja", "será"], "richtig": 1, "erklaerung": "Verneintes parecer → Konjunktiv.", "kategorie": "Indikativ/Konjunktiv"},
+     {"typ": "luecke", "satz": "É de louvar que a escola ___ aberto a biblioteca à população. (ter)", "loesungen": ["tenha"], "de": "Es ist zu loben, dass die Schule ihre Bibliothek für die Bevölkerung geöffnet hat.", "kategorie": "Konjunktiv"},
+     {"typ": "auswahl", "frage": "Que expressão é típica de um editorial?", "optionen": ["Eu cá acho que…", "A nosso ver, …", "Sei lá, …"], "richtig": 1, "kategorie": "Register"},
+     {"typ": "uebersetzen", "de": "Man muss zugeben, dass die Gemeinde schnell reagiert hat.", "loesungen": ["Há que reconhecer que a câmara reagiu depressa.", "Há que reconhecer que a câmara reagiu rapidamente.", "Há que reconhecer que a câmara municipal reagiu depressa.", "Há que reconhecer que a autarquia reagiu depressa.", "Há que reconhecer que a câmara reagiu com rapidez."]},
+     {"typ": "uebersetzen", "de": "Es bleibt unklar, wie viel das Projekt gekostet hat.", "loesungen": ["Fica por esclarecer quanto custou o projeto.", "Fica por esclarecer quanto é que o projeto custou."]}
+    ]
+   },
+   "hoeren": {
+    "titel": "O editorial – der Leitartikel",
+    "situation": "Leitura de um editorial (fictício) sobre o fecho da única livraria de uma vila do Algarve.",
+    "zeilen": [
+     {"sprecher": "Locutora", "stimme": "f", "pt": "A livraria Horizonte fecha as portas no fim do mês, depois de quarenta anos de atividade.", "de": "Die Buchhandlung Horizonte schließt Ende des Monats nach vierzig Jahren."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "É de lamentar que a vila perca o único espaço onde se podia folhear um livro antes de o comprar.", "de": "Es ist bedauerlich, dass der Ort den einzigen Raum verliert, in dem man ein Buch vor dem Kauf durchblättern konnte."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Convém sublinhar que o fecho não se deve à falta de leitores, mas ao aumento da renda.", "de": "Man muss betonen, dass die Schließung nicht an fehlenden Lesern liegt, sondern an der Mieterhöhung."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Há que reconhecer que o proprietário do edifício está dentro da lei.", "de": "Man muss zugeben, dass der Eigentümer des Gebäudes im Rahmen des Gesetzes handelt."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "No entanto, não deixa de ser irónico que o espaço vá dar lugar a mais uma loja de recordações.", "de": "Es ist allerdings durchaus ironisch, dass der Raum einem weiteren Souvenirladen weichen soll."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "É de louvar que um grupo de moradores tenha lançado uma campanha para salvar a livraria.", "de": "Es ist zu loben, dass eine Gruppe von Anwohnern eine Kampagne zur Rettung der Buchhandlung gestartet hat."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "Fica por esclarecer se a câmara está disposta a ajudar.", "de": "Es bleibt offen, ob die Gemeinde bereit ist zu helfen."},
+     {"sprecher": "Locutora", "stimme": "f", "pt": "A nosso ver, uma vila sem livraria fica mais pobre. Cabe perguntar: que vila queremos ser?", "de": "Unserer Ansicht nach wird ein Ort ohne Buchhandlung ärmer. Man muss sich fragen: Was für ein Ort wollen wir sein?"}
+    ],
+    "fragen": [
+     {"frage": "Porque é que a livraria fecha?", "optionen": ["Por falta de leitores.", "Por causa do aumento da renda.", "Porque o dono se reformou."], "richtig": 1},
+     {"frage": "O que vai abrir no lugar da livraria?", "optionen": ["Uma loja de recordações.", "Um café.", "Uma biblioteca."], "richtig": 0},
+     {"frage": "O que é que o editorial elogia?", "optionen": ["A decisão do proprietário.", "A ajuda da câmara.", "A campanha de um grupo de moradores."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva em português.",
+    "aufgaben": [
+     {"de": "Es ist bedauerlich, dass der Markt sonntags geschlossen ist. (é de lamentar que)", "loesungen": ["É de lamentar que o mercado esteja fechado ao domingo.", "É de lamentar que o mercado feche ao domingo.", "É de lamentar que o mercado esteja fechado aos domingos.", "É de lamentar que o mercado feche aos domingos."]},
+     {"de": "Hervorzuheben ist, dass die Beteiligung sehr hoch war. (é de salientar que)", "loesungen": ["É de salientar que a participação foi muito alta.", "É de salientar que a participação foi muito elevada.", "É de salientar que a adesão foi muito alta."]},
+     {"de": "Unserer Ansicht nach ist die Entscheidung überstürzt.", "loesungen": ["A nosso ver, a decisão é precipitada.", "A nosso ver, a decisão foi precipitada.", "Na nossa opinião, a decisão é precipitada.", "A nosso ver, é uma decisão precipitada."]},
+     {"de": "Uns scheint nicht, dass das Problem gelöst ist. (parecer, Konjunktiv)", "loesungen": ["Não nos parece que o problema esteja resolvido.", "Não nos parece que o problema tenha sido resolvido.", "Não nos parece que o problema esteja solucionado."]},
+     {"de": "Es ist durchaus merkwürdig, dass niemand den Fehler bemerkt hat. (não deixa de ser)", "loesungen": ["Não deixa de ser curioso que ninguém tenha reparado no erro.", "Não deixa de ser estranho que ninguém tenha reparado no erro.", "Não deixa de ser curioso que ninguém tenha dado pelo erro.", "Não deixa de ser estranho que ninguém tenha dado pelo erro.", "Não deixa de ser curioso que ninguém tenha notado o erro.", "Não deixa de ser estranho que ninguém tenha notado o erro."]}
+    ]
+   },
+   "saetze": [
+    {"id": "e-de-lamentar-que-feche", "pt": "É de lamentar que a biblioteca feche ao sábado.", "de": "Es ist bedauerlich, dass die Bibliothek samstags geschlossen ist."},
+    {"id": "convem-sublinhar-fundos", "pt": "Convém sublinhar que a obra foi paga com fundos europeus.", "de": "Man muss betonen, dass der Bau mit EU-Mitteln bezahlt wurde."},
+    {"id": "nao-nos-parece-que", "pt": "Não nos parece que a medida seja suficiente.", "de": "Uns scheint nicht, dass die Maßnahme ausreicht."}
+   ]
+  },
+  {
+   "id": "B2-07-L07",
+   "typ": "neu",
+   "titel": "Ironie, Wertung und Stilmittel erkennen",
+   "vokabeln": ["a-ironia", "ironico", "o-sarcasmo", "mordaz", "o-eufemismo", "a-hiperbole", "o-tom", "as-aspas", "louvavel", "depreciativo", "elogiar", "a-farpa"],
+   "grammatik": {
+    "titel": "Ler nas entrelinhas: ironia, aspas, eufemismo e adjetivos valorativos",
+    "erklaerung": [
+     "A <b>ironia</b> diz o contrário do que se pensa; o contexto é que revela a intenção: <i>«Mais uma obra <b>brilhante</b>: a rua nova já tem buracos.»</i>",
+     "As <b>aspas irónicas</b> mostram que o autor não aceita a palavra que cita: <i>A câmara chama-lhe uma «<b>solução</b>».</i> Na escrita portuguesa usam-se muitas vezes as aspas angulares « ».",
+     "O <b>eufemismo</b> suaviza a realidade (<i>«ajustamento de preços»</i> em vez de <i>aumento</i>); a <b>hipérbole</b> exagera (<i>«a cidade inteira parou»</i>).",
+     "Os <b>adjetivos valorativos</b> revelam a opinião: positivos (<i>louvável, notável, exemplar</i>) ou negativos (<i>lamentável, inaceitável, desastroso</i>). A posição do adjetivo também conta: <i>um <b>simples</b> erro</i> (= apenas um erro) ≠ <i>um erro <b>simples</b></i> (= fácil).",
+     "Outros sinais de ironia: perguntas retóricas (<i>Quem diria?</i>), diminutivos (<i>uma obrazinha de três milhões</i>), <i>pelos vistos</i>, <i>ao que parece</i>, <i>como seria de esperar</i>."
+    ],
+    "erklaerung_de": [
+     "<b>Ironie</b> sagt das Gegenteil des Gemeinten; erst der Kontext zeigt die Absicht.",
+     "<b>Ironische Anführungszeichen</b> zeigen Distanz zum zitierten Wort. In Portugal oft « ».",
+     "<b>Euphemismus</b> beschönigt („Preisanpassung“ statt „Erhöhung“); <b>Hyperbel</b> übertreibt.",
+     "<b>Wertende Adjektive</b> verraten die Meinung. Die Stellung zählt: <i>um simples erro</i> = „bloß ein Fehler“, <i>um erro simples</i> = „ein einfacher Fehler“.",
+     "Weitere Ironiesignale: rhetorische Fragen, Verkleinerungsformen (<i>obrazinha</i>), <i>pelos vistos, ao que parece, como seria de esperar</i>."
+    ],
+    "vergleich": "Wie im Deutschen („sogenannte Lösung“, Gänsefüßchen) – aber portugiesische Kolumnen arbeiten noch stärker mit Diminutiv und rhetorischen Fragen. Die Bedeutungsänderung je nach Stellung des Adjektivs gibt es im Deutschen kaum (vgl. „ein großer Mann“ – <i>um grande homem</i> = bedeutend, <i>um homem grande</i> = groß gewachsen). Englisch: so-called, scare quotes, understatement.",
+    "beispiele": [
+     {"pt": "A câmara chama-lhe «requalificação»; os moradores chamam-lhe confusão.", "de": "Die Gemeinde nennt es „Aufwertung“; die Anwohner nennen es Chaos."},
+     {"pt": "«Ajustamento tarifário» é um eufemismo para aumento da água.", "de": "„Tarifanpassung“ ist ein Euphemismus für eine Erhöhung des Wasserpreises."},
+     {"pt": "O tom do artigo é mordaz, mas nunca depreciativo.", "de": "Der Ton des Artikels ist bissig, aber nie abwertend."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "«Mais uma obra brilhante: a rua nova, inaugurada há um mês, já tem buracos.» – O adjetivo «brilhante» é…", "optionen": ["sincero", "irónico", "neutro"], "richtig": 1, "kategorie": "Ironie"},
+     {"typ": "auswahl", "frage": "«Ajustamento de preços» em vez de «aumento» é…", "optionen": ["uma hipérbole", "um eufemismo", "uma farpa"], "richtig": 1, "kategorie": "Stilmittel"},
+     {"typ": "auswahl", "frage": "Porque é que o autor escreve: A câmara chama-lhe uma «solução»?", "optionen": ["Para citar uma palavra que não aceita.", "Para destacar o título do jornal.", "Porque a palavra é estrangeira."], "richtig": 0, "kategorie": "Ironie"},
+     {"typ": "auswahl", "frage": "«Foi um simples erro.» significa…", "optionen": ["Foi um erro fácil de perceber.", "Foi só um erro, nada de grave.", "Foi um erro muito grave."], "richtig": 1, "erklaerung": "Vorangestellt: simples = bloß, nur.", "kategorie": "Adjektivstellung"},
+     {"typ": "luecke", "satz": "O colunista ___ o trabalho dos voluntários. (elogiar – presente)", "loesungen": ["elogia"], "de": "Der Kolumnist lobt die Arbeit der Freiwilligen."},
+     {"typ": "luecke", "satz": "Dizer que a cidade inteira parou é uma ___.", "loesungen": ["hipérbole"], "de": "Zu sagen, die ganze Stadt sei stillgestanden, ist eine Übertreibung.", "kategorie": "Stilmittel"},
+     {"typ": "uebersetzen", "de": "Der Artikel endet mit einem Seitenhieb gegen die Gemeinde.", "loesungen": ["O artigo termina com uma farpa à câmara.", "O artigo acaba com uma farpa à câmara.", "O artigo termina com uma farpa contra a câmara.", "O artigo termina com uma farpa à câmara municipal.", "O artigo termina com uma farpa dirigida à câmara."]},
+     {"typ": "satzbau", "de": "Der Ton des Leitartikels ist ruhig, aber das Wort „Lösung“ steht in Anführungszeichen.", "loesung": "O tom do editorial é sereno, mas a palavra «solução» está entre aspas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Uma crónica com farpas – eine Kolumne mit Seitenhieben",
+    "situation": "A Rita lê ao Stefan uma crónica (fictícia) sobre a rotunda nova da entrada da cidade. Depois comentam o texto.",
+    "zeilen": [
+     {"sprecher": "Rita", "stimme": "f", "pt": "Ouve esta crónica: «Temos finalmente a rotunda mais bonita do Algarve. Pena é que ninguém saiba por onde sair dela.»", "de": "Hör dir diese Kolumne an: „Wir haben endlich den schönsten Kreisverkehr der Algarve. Schade nur, dass niemand weiß, wo man hinausfährt.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso é ironia pura!", "de": "Das ist reine Ironie!"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "E continua: «A câmara garante que o trânsito vai fluir. Pelos vistos, o trânsito ainda não foi informado.»", "de": "Und weiter: „Die Gemeinde versichert, dass der Verkehr fließen wird. Offenbar hat man den Verkehr noch nicht informiert.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "É mordaz, mas tem graça. E fala do custo?", "de": "Bissig, aber witzig. Spricht sie auch über die Kosten?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Fala de uma «obrazinha de dois milhões», com aspas e tudo.", "de": "Sie spricht von einem „Bauprojektchen für zwei Millionen“, mit Anführungszeichen und allem."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "O diminutivo diz tudo. Mas não achas o tom um bocado depreciativo para quem trabalhou na obra?", "de": "Die Verkleinerungsform sagt alles. Aber findest du den Ton nicht etwas abwertend gegenüber denen, die am Bau gearbeitet haben?"},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Não, porque no fim elogia os trabalhadores: diz que o esforço deles foi louvável.", "de": "Nein, denn am Ende lobt sie die Arbeiter: Sie sagt, ihr Einsatz sei lobenswert gewesen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então a farpa é só para quem decidiu, não para quem construiu.", "de": "Der Seitenhieb gilt also nur denen, die entschieden haben, nicht denen, die gebaut haben."},
+     {"sprecher": "Rita", "stimme": "f", "pt": "Exatamente. É isso que distingue uma boa crónica de um simples desabafo.", "de": "Genau. Das unterscheidet eine gute Kolumne von bloßem Dampfablassen."}
+    ],
+    "fragen": [
+     {"frage": "Qual é o tema da crónica?", "optionen": ["Uma rotunda nova.", "Uma ponte antiga.", "Um parque infantil."], "richtig": 0},
+     {"frage": "Que recurso usa a cronista para falar do custo?", "optionen": ["Uma estatística oficial.", "Uma citação do presidente da câmara.", "Um diminutivo entre aspas."], "richtig": 2},
+     {"frage": "A quem elogia a cronista no fim?", "optionen": ["Ao presidente da câmara.", "Aos trabalhadores da obra.", "Aos condutores."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "O título é claramente irónico.", "de": "Der Titel ist eindeutig ironisch."},
+     {"pt": "«Ajustamento de preços» é um eufemismo para «aumento».", "de": "„Preisanpassung“ ist ein Euphemismus für „Erhöhung“."},
+     {"pt": "O autor põe a palavra «solução» entre aspas.", "de": "Der Autor setzt das Wort „Lösung“ in Anführungszeichen."},
+     {"pt": "O tom é mordaz, mas nunca depreciativo.", "de": "Der Ton ist bissig, aber nie abwertend."},
+     {"pt": "A iniciativa dos voluntários é louvável.", "de": "Die Initiative der Freiwilligen ist lobenswert."}
+    ]
+   },
+   "saetze": [
+    {"id": "titulo-ironico", "pt": "O título é claramente irónico.", "de": "Der Titel ist eindeutig ironisch."},
+    {"id": "eufemismo-aumento", "pt": "«Ajustamento de preços» é um eufemismo para «aumento».", "de": "„Preisanpassung“ ist ein Euphemismus für „Erhöhung“."},
+    {"id": "palavra-entre-aspas", "pt": "O autor põe a palavra «solução» entre aspas.", "de": "Der Autor setzt das Wort „Lösung“ in Anführungszeichen."}
+   ]
+  },
+  {
+   "id": "B2-07-L08",
+   "typ": "neu",
+   "titel": "Fakten oder Meinung? Distanz markieren: segundo, alegadamente, terá dito",
+   "vokabeln": ["o-facto", "factual", "o-juizo-de-valor", "verificavel", "comprovar", "a-objetividade", "subjetivo", "imparcial", "tendencioso", "a-isencao", "a-citacao", "o-rigor"],
+   "grammatik": {
+    "titel": "Factos, opiniões e informação não confirmada: o futuro e o condicional de distanciamento",
+    "erklaerung": [
+     "Um <b>facto</b> é verificável (<i>A câmara aprovou o orçamento na terça-feira.</i>); uma <b>opinião</b> contém um <b>juízo de valor</b> (<i>A câmara aprovou um orçamento irresponsável.</i>). Sinais de opinião: adjetivos valorativos, advérbios como <i>felizmente, infelizmente, finalmente</i>, verbos como <i>achar, considerar</i>.",
+     "Para <b>atribuir</b> uma informação a uma fonte: <b>segundo</b>, <b>de acordo com</b>, <b>citado por</b>: <i><b>Segundo</b> a câmara, a obra custou dois milhões.</i> O jornalista não garante o dado; apenas o relata.",
+     "Para informação <b>não confirmada</b>, a imprensa portuguesa usa o <b>futuro composto</b> (<i>ter</i> no futuro + particípio) com valor de suposição sobre o passado: <i>O autarca <b>terá dito</b> que não se recandidata.</i> (= alegadamente disse).",
+     "Para o presente ou o futuro usa-se o <b>condicional</b>: <i>O projeto <b>custaria</b> o dobro do previsto.</i> (= segundo algumas fontes, custa). Muitas vezes combinado com <i>alegadamente</i> ou <i>ao que tudo indica</i>.",
+     "Em contrapartida, o <b>pretérito perfeito</b> e o <b>presente do indicativo</b> apresentam a informação como <b>facto confirmado</b>: <i>O autarca <b>disse</b> que não se recandidata.</i>"
+    ],
+    "erklaerung_de": [
+     "Eine <b>Tatsache</b> ist überprüfbar; eine <b>Meinung</b> enthält ein <b>Werturteil</b>. Meinungssignale: wertende Adjektive, Adverbien wie <i>felizmente, finalmente</i>, Verben wie <i>achar, considerar</i>.",
+     "Eine Information einer Quelle <b>zuschreiben</b>: <b>segundo</b>, <b>de acordo com</b>, <b>citado por</b> („laut, zufolge“).",
+     "Für <b>unbestätigte</b> Informationen über die Vergangenheit nutzt die portugiesische Presse das <b>Futur II</b>: <i>O autarca terá dito …</i> = „Der Bürgermeister soll gesagt haben …“.",
+     "Für Gegenwart/Zukunft: <b>Konditional</b>: <i>O projeto custaria o dobro.</i> = „Das Projekt soll das Doppelte kosten.“",
+     "<b>Perfekt</b> und <b>Präsens Indikativ</b> stellen eine Information dagegen als bestätigte Tatsache dar."
+    ],
+    "vergleich": "Deutsch drückt die Distanz mit „sollen“ oder dem Konjunktiv I aus („Er soll gesagt haben“, „Er habe gesagt“). Das Portugiesische nutzt dafür das Futur II (<i>terá dito</i>) und das Konditional (<i>custaria</i>). Englisch: „he is said to have …“, „allegedly“, „reportedly“.",
+    "beispiele": [
+     {"pt": "Segundo a associação, mais de cem famílias terão sido afetadas.", "de": "Laut dem Verein sollen mehr als hundert Familien betroffen gewesen sein."},
+     {"pt": "O hotel teria licença apenas para quarenta quartos.", "de": "Das Hotel soll nur eine Genehmigung für vierzig Zimmer haben."},
+     {"pt": "«Uma obra inútil» é um juízo de valor; «uma obra de dois milhões» é um facto verificável.", "de": "„Ein nutzloser Bau“ ist ein Werturteil; „ein Bau für zwei Millionen“ ist eine überprüfbare Tatsache."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Qual destas frases apresenta um facto e não uma opinião?", "optionen": ["A câmara aprovou o orçamento na terça-feira.", "A câmara aprovou um orçamento irresponsável.", "Felizmente, a câmara aprovou o orçamento."], "richtig": 0, "kategorie": "Fakten/Meinung"},
+     {"typ": "auswahl", "frage": "«O ministro terá dito que a medida era temporária.» O jornalista…", "optionen": ["confirma que o ministro o disse.", "não confirma a informação.", "discorda do ministro."], "richtig": 1, "erklaerung": "Futur II = unbestätigte Information („soll gesagt haben“).", "kategorie": "Distanzierung"},
+     {"typ": "luecke", "satz": "Segundo fontes da empresa, o diretor ___ saído ontem do jornal. (ter – futuro, distanciamento)", "loesungen": ["terá"], "de": "Laut Quellen aus dem Unternehmen soll der Direktor die Zeitung gestern verlassen haben.", "erklaerung": "Distanzierung über die Vergangenheit: Futur II (terá + Partizip) = „soll … haben“.", "kategorie": "Distanzierung"},
+     {"typ": "luecke", "satz": "Alegadamente, o projeto ___ o dobro do previsto. (custar – condicional)", "loesungen": ["custaria"], "de": "Angeblich soll das Projekt das Doppelte des Geplanten kosten.", "kategorie": "Distanzierung"},
+     {"typ": "auswahl", "frage": "Qual é a palavra que revela um juízo de valor?", "optionen": ["ontem", "lamentável", "quarenta"], "richtig": 1, "kategorie": "Fakten/Meinung"},
+     {"typ": "uebersetzen", "de": "Der Bürgermeister soll gesagt haben, dass er nicht wieder kandidiert. (Futur II)", "loesungen": ["O presidente da câmara terá dito que não se recandidata.", "O presidente da câmara terá dito que não se ia recandidatar.", "O presidente da câmara terá dito que não se recandidatava.", "O autarca terá dito que não se recandidata.", "O autarca terá dito que não se ia recandidatar.", "O presidente da câmara terá dito que não volta a candidatar-se.", "O presidente da câmara terá dito que não se vai recandidatar."]},
+     {"typ": "uebersetzen", "de": "Eine Tatsache ist überprüfbar, eine Meinung nicht.", "loesungen": ["Um facto é verificável, uma opinião não.", "Um facto é verificável; uma opinião não.", "Um facto é verificável, mas uma opinião não.", "Um facto pode ser verificado, uma opinião não."]},
+     {"typ": "satzbau", "de": "Der Journalist konnte die Information nicht belegen.", "loesung": "O jornalista não conseguiu comprovar a informação."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Facto ou opinião? – Tatsache oder Meinung?",
+    "situation": "Numa oficina de escrita para estrangeiros, a formadora Marta analisa com o Stefan uma pequena notícia (fictícia).",
+    "zeilen": [
+     {"sprecher": "Marta", "stimme": "f", "pt": "Stefan, leia a primeira frase da notícia, se faz favor.", "de": "Stefan, lesen Sie bitte den ersten Satz der Nachricht."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "«A câmara aprovou ontem, por maioria, um novo regulamento para as esplanadas.»", "de": "„Die Gemeinde hat gestern mehrheitlich eine neue Verordnung für die Straßencafés beschlossen.“"},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Facto ou opinião?", "de": "Tatsache oder Meinung?"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Facto. É verificável: basta consultar a ata da reunião.", "de": "Tatsache. Das ist überprüfbar: Man muss nur das Sitzungsprotokoll einsehen."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Muito bem. E a segunda: «O regulamento terá sido redigido por um gabinete de Lisboa.»", "de": "Sehr gut. Und der zweite: „Die Verordnung soll von einem Büro aus Lissabon verfasst worden sein.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Aqui o jornalista não confirma: usa o futuro, «terá sido». É uma informação por comprovar.", "de": "Hier bestätigt der Journalist nicht: Er benutzt das Futur, „terá sido“. Das ist eine noch nicht belegte Information."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Exatamente. E a terceira: «Uma decisão infeliz, que vai matar o comércio do centro.»", "de": "Genau. Und der dritte: „Eine unglückliche Entscheidung, die den Handel im Zentrum umbringen wird.“"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso já é um juízo de valor. «Infeliz» e «matar» são palavras muito subjetivas.", "de": "Das ist schon ein Werturteil. „Unglücklich“ und „umbringen“ sind sehr subjektive Wörter."},
+     {"sprecher": "Marta", "stimme": "f", "pt": "Pois. Numa notícia, essa frase só seria aceitável como citação, entre aspas e com o nome de quem a disse.", "de": "Eben. In einer Nachricht wäre dieser Satz nur als Zitat akzeptabel, in Anführungszeichen und mit dem Namen dessen, der ihn gesagt hat."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Senão, a notícia deixa de ser imparcial e passa a ser tendenciosa.", "de": "Sonst ist die Nachricht nicht mehr unparteiisch, sondern tendenziös."}
+    ],
+    "fragen": [
+     {"frage": "Como se pode verificar a primeira informação?", "optionen": ["Perguntando aos comerciantes.", "Consultando a ata da reunião.", "Lendo o editorial."], "richtig": 1},
+     {"frage": "Porque é que a segunda informação não está confirmada?", "optionen": ["Porque o jornalista usa o futuro «terá sido».", "Porque está entre aspas.", "Porque não tem data."], "richtig": 0},
+     {"frage": "Segundo a formadora, como poderia a terceira frase aparecer numa notícia?", "optionen": ["No título.", "No lead, sem alterações.", "Como citação, entre aspas e com o nome do autor."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Reescreva as frases como informação não confirmada (futuro ou condicional de distanciamento).",
+    "aufgaben": [
+     {"de": "Der Direktor soll die Zeitung verlassen haben. (Futur II)", "loesungen": ["O diretor terá saído do jornal.", "O diretor terá deixado o jornal.", "Alegadamente, o diretor terá saído do jornal."]},
+     {"de": "Das Hotel soll zweihundert Zimmer haben. (Konditional)", "loesungen": ["O hotel teria duzentos quartos.", "Alegadamente, o hotel teria duzentos quartos.", "Segundo algumas fontes, o hotel teria duzentos quartos."]},
+     {"de": "Laut der Gemeinde hat der Bau zwei Millionen gekostet. (segundo)", "loesungen": ["Segundo a câmara, a obra custou dois milhões.", "Segundo a câmara, a obra custou dois milhões de euros.", "Segundo a câmara municipal, a obra custou dois milhões.", "A obra custou dois milhões, segundo a câmara.", "Segundo a autarquia, a obra custou dois milhões."]},
+     {"de": "Sorgfalt ist die erste Regel des Journalismus.", "loesungen": ["O rigor é a primeira regra do jornalismo.", "O rigor é a regra número um do jornalismo."]},
+     {"de": "„Ein nutzloser Bau“ ist ein Werturteil, keine Tatsache.", "loesungen": ["«Uma obra inútil» é um juízo de valor, não um facto.", "\"Uma obra inútil\" é um juízo de valor, não um facto.", "Uma obra inútil é um juízo de valor, não um facto.", "«Uma obra inútil» é um juízo de valor e não um facto."]}
+    ]
+   },
+   "saetze": [
+    {"id": "facto-verificavel", "pt": "Um facto é verificável; uma opinião não.", "de": "Eine Tatsache ist überprüfbar; eine Meinung nicht."},
+    {"id": "tera-dito-distancia", "pt": "O autarca terá dito que não se recandidata.", "de": "Der Bürgermeister soll gesagt haben, dass er nicht wieder kandidiert."},
+    {"id": "segundo-a-camara", "pt": "Segundo a câmara, a obra custou dois milhões.", "de": "Laut der Gemeinde hat der Bau zwei Millionen gekostet."}
+   ]
+  },
+  {
+   "id": "B2-07-L09",
+   "typ": "neu",
+   "titel": "Desinformation erkennen: verificar antes de partilhar",
+   "vokabeln": ["a-desinformacao", "a-verificacao-de-factos", "enganador", "o-caca-cliques", "manipular", "descontextualizado", "tornar-se-viral", "a-teoria-da-conspiracao", "a-fotomontagem", "fidedigno", "a-literacia-mediatica", "o-espirito-critico"],
+   "grammatik": {
+    "titel": "O infinitivo pessoal depois de preposições: antes de partilharmos, sem verificarem",
+    "erklaerung": [
+     "Depois de preposições (<b>antes de, depois de, para, sem, até, ao, por</b>) usa-se o infinitivo. Quando o sujeito precisa de ficar claro, o infinitivo é <b>pessoal</b> e flexiona: <i>eu partilhar, tu partilhar<b>es</b>, ele partilhar, nós partilhar<b>mos</b>, vós partilhar<b>des</b>, eles partilhar<b>em</b></i>.",
+     "<i>Antes de <b>partilharmos</b> uma notícia, devemos verificar a fonte.</i> / <i>Muitas pessoas partilham sem <b>lerem</b> o artigo.</i>",
+     "Se o sujeito é o mesmo da oração principal, a flexão é facultativa (mas frequente no plural): <i>Os leitores partilham sem <b>ler</b> / sem <b>lerem</b>.</i> Se o sujeito é diferente, é obrigatória: <i>O jornal publicou o desmentido para os leitores <b>saberem</b> a verdade.</i>",
+     "<b>Ao</b> + infinitivo = «quando»: <i><b>Ao lermos</b> o título, ficamos com uma ideia errada.</i>",
+     "Recomendações típicas de literacia mediática: <i>convém</i>, <i>é preciso</i>, <i>é importante</i> + infinitivo pessoal: <i>É importante <b>desconfiarmos</b> de títulos sensacionalistas.</i>"
+    ],
+    "erklaerung_de": [
+     "Nach Präpositionen (<b>antes de, depois de, para, sem, até, ao</b>) steht der Infinitiv. Damit das Subjekt klar ist, wird er als <b>persönlicher Infinitiv</b> konjugiert: <i>partilhar, partilhares, partilhar, partilharmos, partilhardes, partilharem</i>.",
+     "Beispiele: <i>Antes de partilharmos …</i> („Bevor wir teilen …“), <i>sem lerem</i> („ohne zu lesen“ – sie).",
+     "Gleiches Subjekt: Endung freiwillig (im Plural häufig). Anderes Subjekt: Endung Pflicht (<i>para os leitores saberem</i> = „damit die Leser wissen“).",
+     "<b>Ao</b> + Infinitiv = „beim …, als / wenn“.",
+     "Typische Empfehlungen: <i>convém, é preciso, é importante</i> + persönlicher Infinitiv."
+    ],
+    "vergleich": "Das Deutsche braucht hier einen Nebensatz („bevor wir teilen“, „damit die Leser wissen“); das Portugiesische kommt mit dem konjugierten Infinitiv aus – eine Besonderheit, die es weder im Deutschen noch im Englischen gibt.",
+    "beispiele": [
+     {"pt": "Antes de partilharmos uma notícia, convém verificar a fonte.", "de": "Bevor wir eine Nachricht teilen, sollten wir die Quelle überprüfen."},
+     {"pt": "Muitos leitores partilham artigos sem os lerem até ao fim.", "de": "Viele Leser teilen Artikel, ohne sie bis zum Ende zu lesen."},
+     {"pt": "O jornal publicou a verificação de factos para os leitores perceberem o que é falso.", "de": "Die Zeitung hat den Faktencheck veröffentlicht, damit die Leser verstehen, was falsch ist."}
+    ],
+    "uebungen": [
+     {"typ": "luecke", "satz": "Antes de ___ uma notícia, devemos verificar a fonte. (nós – partilhar)", "loesungen": ["partilharmos"], "de": "Bevor wir eine Nachricht teilen, sollten wir die Quelle prüfen.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "O jornal publicou o desmentido para os leitores ___ a verdade. (saber)", "loesungen": ["saberem"], "de": "Die Zeitung hat das Dementi veröffentlicht, damit die Leser die Wahrheit erfahren.", "erklaerung": "Anderes Subjekt als im Hauptsatz → persönlicher Infinitiv ist Pflicht.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "luecke", "satz": "Ao ___ o título, ficamos com uma ideia errada. (nós – ler)", "loesungen": ["lermos"], "de": "Wenn wir den Titel lesen, bekommen wir einen falschen Eindruck.", "kategorie": "Infinitivo pessoal"},
+     {"typ": "auswahl", "frage": "«O vídeo é verdadeiro, mas foi gravado há dez anos noutro país.» O vídeo está…", "optionen": ["descontextualizado", "verificado", "imparcial"], "richtig": 0, "kategorie": "Desinformation"},
+     {"typ": "auswahl", "frage": "«Não vai acreditar no que este pescador encontrou!» – Este título é…", "optionen": ["um lead", "um caça-cliques", "um editorial"], "richtig": 1, "kategorie": "Desinformation"},
+     {"typ": "auswahl", "frage": "Qual é a frase correta?", "optionen": ["É importante nós desconfiamos dos títulos alarmistas.", "É importante desconfiarmos dos títulos alarmistas.", "É importante que desconfiarmos dos títulos alarmistas."], "richtig": 1, "kategorie": "Infinitivo pessoal"},
+     {"typ": "uebersetzen", "de": "Viele Leute teilen Nachrichten, ohne sie zu lesen.", "loesungen": ["Muitas pessoas partilham notícias sem as lerem.", "Muitas pessoas partilham notícias sem as ler.", "Muita gente partilha notícias sem as ler.", "Muitas pessoas partilham notícias sem as lerem primeiro."]},
+     {"typ": "satzbau", "de": "Der Beitrag ging innerhalb weniger Stunden viral.", "loesung": "A publicação tornou-se viral em poucas horas."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O tubarão da marina – der Hai im Jachthafen",
+    "situation": "O Pedro mostra ao Stefan uma publicação que circula nas redes sociais.",
+    "zeilen": [
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Já viste isto? Dizem que apareceu um tubarão enorme na marina de Lagos!", "de": "Hast du das schon gesehen? Es heißt, im Jachthafen von Lagos sei ein riesiger Hai aufgetaucht!"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Mostra lá. Hum… a fotografia parece-me estranha. A sombra do barco não bate certo.", "de": "Zeig mal. Hm … das Foto kommt mir seltsam vor. Der Schatten des Boots passt nicht."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Mas já tem milhares de partilhas. Tornou-se viral numa manhã.", "de": "Aber es wurde schon tausendfach geteilt. Es ist an einem Vormittag viral gegangen."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Isso não prova nada. Antes de partilharmos, vamos ver se algum jornal fidedigno fala disto.", "de": "Das beweist gar nichts. Bevor wir es teilen, schauen wir, ob eine seriöse Zeitung darüber berichtet."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "Espera… olha, a secção de verificação de factos do diário já analisou a imagem.", "de": "Warte … schau, das Faktencheck-Ressort der Tageszeitung hat das Bild schon analysiert."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E então?", "de": "Und?"},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "É uma fotomontagem. O tubarão foi fotografado na África do Sul há anos.", "de": "Es ist eine Fotomontage. Der Hai wurde vor Jahren in Südafrika fotografiert."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Lá está. Uma imagem verdadeira, mas descontextualizada e manipulada.", "de": "Da haben wir's. Ein echtes Bild, aber aus dem Zusammenhang gerissen und manipuliert."},
+     {"sprecher": "Pedro", "stimme": "m", "pt": "E eu quase a mandava para o grupo da família…", "de": "Und ich hätte es fast in die Familiengruppe geschickt …"},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Espírito crítico, Pedro! Desconfia sempre de notícias que provocam medo ou espanto.", "de": "Kritisch denken, Pedro! Misstraue immer Nachrichten, die Angst oder Staunen auslösen."}
+    ],
+    "fragen": [
+     {"frage": "O que mostra a publicação?", "optionen": ["Um tubarão na marina de Lagos.", "Um barco afundado.", "Uma baleia na praia."], "richtig": 0},
+     {"frage": "Quem analisou a imagem?", "optionen": ["A polícia marítima.", "Um biólogo da universidade.", "A secção de verificação de factos de um diário."], "richtig": 2},
+     {"frage": "O que é, afinal, a imagem?", "optionen": ["Uma fotografia recente de Lagos.", "Uma fotomontagem com uma foto antiga de outro país.", "Um desenho feito por uma criança."], "richtig": 1}
+    ]
+   },
+   "sprechen": {
+    "typ": "rollenspiel",
+    "situation": "A sua vizinha manda-lhe uma «notícia» alarmante por mensagem. Responda com calma e espírito crítico (tu).",
+    "zeilen": [
+     {"sprecher": "Vizinha", "stimme": "f", "pt": "Viste? Dizem que vão cortar a água em Lagos durante um mês inteiro!", "de": "Hast du gesehen? Es heißt, in Lagos wird einen ganzen Monat lang das Wasser abgestellt!"},
+     {"ich": true, "aufgabe": "Fragen Sie nach der Quelle: „Wo hast du das gelesen? Welche Quelle ist das?“", "loesungen": ["Onde é que leste isso? Qual é a fonte?", "Onde leste isso? Qual é a fonte?", "Onde é que leste isso? Que fonte é essa?", "Onde leste isso? Que fonte é essa?"]},
+     {"sprecher": "Vizinha", "stimme": "f", "pt": "Recebi num grupo. Já toda a gente partilhou!", "de": "Ich habe es in einer Gruppe bekommen. Alle haben es schon geteilt!"},
+     {"ich": true, "aufgabe": "Antworten Sie mit persönlichem Infinitiv: „Bevor wir es teilen, sollten wir auf der Seite der Gemeinde nachsehen.“ (antes de, convém)", "loesungen": ["Antes de partilharmos, convém ver no site da câmara.", "Antes de partilharmos, convém consultar o site da câmara.", "Antes de o partilharmos, convém ver no site da câmara.", "Antes de partilharmos, convém verificar no site da câmara.", "Antes de partilharmos isso, convém ver no site da câmara."]},
+     {"sprecher": "Vizinha", "stimme": "f", "pt": "Tens razão… No site diz que o corte é só de duas horas, na terça-feira.", "de": "Du hast recht … Auf der Seite steht, dass das Wasser nur zwei Stunden am Dienstag abgestellt wird."},
+     {"ich": true, "aufgabe": "Ziehen Sie das Fazit: „Siehst du? Die Nachricht war irreführend.“", "loesungen": ["Estás a ver? A notícia era enganadora.", "Vês? A notícia era enganadora.", "Estás a ver? A notícia era enganosa.", "Vês? A notícia era enganosa.", "Estás a ver? Essa notícia era enganadora."]}
+    ]
+   },
+   "saetze": [
+    {"id": "antes-de-partilharmos", "pt": "Antes de partilharmos uma notícia, convém verificar a fonte.", "de": "Bevor wir eine Nachricht teilen, sollten wir die Quelle prüfen."},
+    {"id": "fonte-fidedigna", "pt": "Antes de partilhar, procure uma fonte fidedigna.", "de": "Suchen Sie vor dem Teilen eine zuverlässige Quelle."},
+    {"id": "verdadeiro-descontextualizado", "pt": "O vídeo é verdadeiro, mas está descontextualizado.", "de": "Das Video ist echt, aber aus dem Zusammenhang gerissen."}
+   ]
+  },
+  {
+   "id": "B2-07-L10",
+   "typ": "neu",
+   "titel": "Redewiedergabe in der Presse: frisar, sustentar, refutar, adiantar",
+   "vokabeln": ["frisar", "adiantar", "vincar", "sustentar", "refutar", "contestar", "insinuar", "desvalorizar", "ironizar", "escusar-se-a", "o-desabafo", "a-fonte-proxima"],
+   "grammatik": {
+    "titel": "Verbos introdutores e discurso indireto na imprensa",
+    "erklaerung": [
+     "O verbo que introduz uma citação <b>não é neutro</b>: <i>disse, afirmou, declarou</i> (neutros) · <i><b>frisou, sublinhou, vincou</b></i> (ênfase) · <i><b>admitiu, reconheceu</b></i> (concessão) · <i><b>refutou, contestou, negou</b></i> (oposição) · <i><b>insinuou</b></i> (sugestão negativa) · <i><b>desvalorizou</b></i> (minimizar) · <i><b>adiantou</b></i> (informação nova). Escolher o verbo já é interpretar.",
+     "No <b>discurso indireto</b> com verbo introdutor no passado, os tempos recuam: presente → <b>pretérito imperfeito</b> (<i>«A obra <b>está</b> atrasada» → admitiu que a obra <b>estava</b> atrasada</i>); pretérito perfeito → <b>mais-que-perfeito composto</b> (<i>«<b>Cumprimos</b> o prazo» → garantiu que <b>tinham cumprido</b> o prazo</i>); futuro → <b>condicional</b> (<i>«<b>Haverá</b> obras» → adiantou que <b>haveria</b> obras</i>).",
+     "Se a afirmação continua válida no momento da notícia, a imprensa mantém muitas vezes o presente: <i>O autarca frisou que a obra <b>é</b> uma prioridade.</i>",
+     "Na imprensa, o verbo introdutor aparece muitas vezes <b>depois</b> da citação, com inversão: <i>«Não há atrasos», <b>garantiu o vereador</b>.</i>",
+     "<b>Escusar-se a</b> + infinitivo e <b>recusar-se a</b> + infinitivo: <i>A empresa escusou-se a comentar.</i> Fontes anónimas: <i>fonte próxima de…, fonte oficial, segundo apurou o jornal</i>."
+    ],
+    "erklaerung_de": [
+     "Das einleitende Verb ist <b>nicht neutral</b>: <i>disse, afirmou</i> (neutral) · <i>frisou, sublinhou, vincou</i> (Betonung) · <i>admitiu, reconheceu</i> (Zugeständnis) · <i>refutou, contestou, negou</i> (Widerspruch) · <i>insinuou</i> (Unterstellung) · <i>desvalorizou</i> (herunterspielen) · <i>adiantou</i> (neue Information). Die Verbwahl ist schon Deutung.",
+     "<b>Indirekte Rede</b> nach Verb in der Vergangenheit: Präsens → Imperfekt; Perfekt → Plusquamperfekt (<i>tinham cumprido</i>); Futur → Konditional (<i>haveria</i>).",
+     "Gilt die Aussage noch, bleibt in der Presse oft das Präsens.",
+     "In Pressetexten steht das Redeverb oft <b>nach</b> dem Zitat, mit Inversion: <i>«…», garantiu o vereador.</i>",
+     "<b>Escusar-se a</b> / <b>recusar-se a</b> + Infinitiv = „es ablehnen zu“. Anonyme Quellen: <i>fonte próxima de …</i> („aus dem Umfeld von“)."
+    ],
+    "vergleich": "Deutsch markiert indirekte Rede mit dem Konjunktiv I („Er sagte, die Arbeiten seien verspätet“); Portugiesisch verschiebt dagegen die Zeiten (<i>estavam atrasadas</i>), wie das Englische (backshift). Die Inversion nach dem Zitat („…“, sagte der Stadtrat) ist in beiden Sprachen gleich.",
+    "beispiele": [
+     {"pt": "«Não há qualquer atraso», garantiu o vereador.", "de": "„Es gibt keinerlei Verzögerung“, versicherte der Stadtrat."},
+     {"pt": "A diretora admitiu que a obra estava atrasada, mas frisou que o orçamento seria cumprido.", "de": "Die Direktorin räumte ein, dass der Bau im Verzug sei, betonte aber, dass das Budget eingehalten werde."},
+     {"pt": "Contactada pelo jornal, a empresa escusou-se a comentar.", "de": "Von der Zeitung kontaktiert, lehnte die Firma einen Kommentar ab."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Que verbo mostra que a pessoa diz que uma acusação é falsa?", "optionen": ["frisou", "refutou", "adiantou"], "richtig": 1, "kategorie": "Redeverben"},
+     {"typ": "auswahl", "frage": "«O ministro desvalorizou as críticas.» Isto significa que o ministro…", "optionen": ["deu pouca importância às críticas.", "concordou com as críticas.", "pediu desculpa pelas críticas."], "richtig": 0, "kategorie": "Redeverben"},
+     {"typ": "luecke", "satz": "«A obra está atrasada.» → A diretora admitiu que a obra ___ atrasada.", "loesungen": ["estava"], "de": "Die Direktorin räumte ein, dass der Bau verspätet sei.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Haverá mais obras em 2027.» → O vereador adiantou que ___ mais obras em 2027.", "loesungen": ["haveria", "iria haver"], "de": "Der Stadtrat teilte mit, dass es 2027 weitere Arbeiten geben werde.", "kategorie": "Indirekte Rede"},
+     {"typ": "luecke", "satz": "«Cumprimos todos os prazos.» → A empresa garantiu que ___ cumprido todos os prazos.", "loesungen": ["tinha", "tinham"], "de": "Die Firma versicherte, alle Fristen eingehalten zu haben.", "erklaerung": "Perfekt → Plusquamperfekt (tinha cumprido); tinham, wenn „wir“ = die Mitarbeiter gemeint sind.", "kategorie": "Indirekte Rede"},
+     {"typ": "uebersetzen", "de": "„Es gibt keine Verzögerung“, versicherte der Stadtrat.", "loesungen": ["«Não há atraso», garantiu o vereador.", "«Não há atrasos», garantiu o vereador.", "\"Não há atraso\", garantiu o vereador.", "\"Não há atrasos\", garantiu o vereador.", "«Não há qualquer atraso», garantiu o vereador.", "«Não há nenhum atraso», garantiu o vereador.", "«Não há atraso», assegurou o vereador."]},
+     {"typ": "uebersetzen", "de": "Die Firma lehnte es ab, die Nachricht zu kommentieren. (escusar-se a)", "loesungen": ["A empresa escusou-se a comentar a notícia.", "A empresa escusou-se a comentar essa notícia.", "A empresa escusou-se a comentar esta notícia."]},
+     {"typ": "satzbau", "de": "Der Kolumnist vertritt die Auffassung, dass die Maßnahme zu spät kommt.", "loesung": "O colunista sustenta que a medida chega tarde."}
+    ]
+   },
+   "hoeren": {
+    "titel": "A conferência de imprensa – die Pressekonferenz",
+    "situation": "Uma jornalista de uma rádio local (fictícia) resume, em direto, uma conferência de imprensa sobre a nova marina de uma vila algarvia.",
+    "zeilen": [
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Boa tarde. Acabou há minutos a conferência de imprensa sobre a ampliação da marina.", "de": "Guten Tag. Vor wenigen Minuten ist die Pressekonferenz zur Erweiterung des Jachthafens zu Ende gegangen."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "O presidente da câmara frisou que o projeto vai criar cerca de cem postos de trabalho.", "de": "Der Bürgermeister betonte, dass das Projekt rund hundert Arbeitsplätze schaffen werde."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Questionado sobre o impacto ambiental, desvalorizou as críticas dos ambientalistas e garantiu que todos os estudos tinham sido feitos.", "de": "Auf die Umweltauswirkungen angesprochen, spielte er die Kritik der Umweltschützer herunter und versicherte, alle Studien seien durchgeführt worden."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "A associação ambientalista, por sua vez, contesta esses estudos e sustenta que a obra ameaça as pradarias marinhas.", "de": "Der Umweltverband bestreitet seinerseits diese Studien und vertritt die Auffassung, dass der Bau die Seegraswiesen bedroht."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "O autarca refutou essa acusação: «Não há qualquer risco para a ria», afirmou.", "de": "Der Bürgermeister wies diesen Vorwurf zurück: „Es gibt keinerlei Risiko für die Lagune“, sagte er."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Adiantou ainda que as obras deveriam começar na primavera.", "de": "Er teilte außerdem mit, dass die Arbeiten im Frühjahr beginnen sollten."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Quanto ao custo total, escusou-se a avançar números.", "de": "Zu den Gesamtkosten wollte er keine Zahlen nennen."},
+     {"sprecher": "Jornalista", "stimme": "f", "pt": "Segundo uma fonte próxima do processo, o investimento rondaria os trinta milhões, mas esse valor não foi confirmado.", "de": "Laut einer Quelle aus dem Umfeld des Verfahrens soll sich die Investition auf rund dreißig Millionen belaufen, dieser Betrag wurde aber nicht bestätigt."}
+    ],
+    "fragen": [
+     {"frage": "O que frisou o presidente da câmara?", "optionen": ["Que o projeto vai criar cerca de cem postos de trabalho.", "Que a obra vai ser adiada.", "Que o projeto custa trinta milhões."], "richtig": 0},
+     {"frage": "Qual é a posição da associação ambientalista?", "optionen": ["Apoia o projeto sem reservas.", "Contesta os estudos e diz que a obra ameaça as pradarias marinhas.", "Ainda não tem posição."], "richtig": 1},
+     {"frage": "O valor de trinta milhões…", "optionen": ["foi anunciado pelo presidente da câmara.", "consta dos estudos ambientais.", "vem de uma fonte anónima e não está confirmado."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Passe para o discurso indireto (verbo introdutor no passado).",
+    "aufgaben": [
+     {"de": "„Die Arbeiten sind verspätet.“ → Die Direktorin räumte ein, dass die Arbeiten verspätet waren. (admitir)", "loesungen": ["A diretora admitiu que as obras estavam atrasadas.", "A diretora admitiu que os trabalhos estavam atrasados."]},
+     {"de": "„Wir werden das Budget einhalten.“ → Der Bürgermeister betonte, dass sie das Budget einhalten würden. (frisar)", "loesungen": ["O presidente da câmara frisou que iam cumprir o orçamento.", "O presidente da câmara frisou que cumpririam o orçamento.", "O presidente da câmara frisou que o orçamento seria cumprido.", "O autarca frisou que iam cumprir o orçamento.", "O autarca frisou que cumpririam o orçamento."]},
+     {"de": "„Wir haben nichts falsch gemacht.“ → Die Firma versicherte, nichts falsch gemacht zu haben. (garantir)", "loesungen": ["A empresa garantiu que não tinha feito nada de errado.", "A empresa garantiu não ter feito nada de errado.", "A empresa garantiu que não tinha feito nada mal.", "A empresa garantiu que não tinham feito nada de errado."]},
+     {"de": "Der Verein wies die Vorwürfe zurück. (refutar)", "loesungen": ["A associação refutou as acusações.", "A associação refutou as críticas."]},
+     {"de": "Der Direktor spielte die Kontroverse herunter. (desvalorizar)", "loesungen": ["O diretor desvalorizou a polémica.", "O diretor desvalorizou a controvérsia."]}
+    ]
+   },
+   "saetze": [
+    {"id": "garantiu-o-vereador", "pt": "«Não há qualquer atraso», garantiu o vereador.", "de": "„Es gibt keinerlei Verzögerung“, versicherte der Stadtrat."},
+    {"id": "escusou-se-a-comentar", "pt": "Contactada pelo jornal, a empresa escusou-se a comentar.", "de": "Von der Zeitung kontaktiert, lehnte die Firma einen Kommentar ab."},
+    {"id": "admitiu-que-estava", "pt": "A diretora admitiu que a obra estava atrasada.", "de": "Die Direktorin räumte ein, dass der Bau im Verzug war."}
+   ]
+  },
+  {
+   "id": "B2-07-L11",
+   "typ": "neu",
+   "titel": "Schlagzeilen und Nominalstil – wie eine Zeitung entsteht",
+   "vokabeln": ["o-antetitulo", "a-tiragem", "o-assinante", "a-edicao-digital", "a-agencia-noticiosa", "o-correspondente", "o-enviado-especial", "o-furo-jornalistico", "o-jornalismo-de-investigacao", "a-liberdade-de-imprensa", "a-censura"],
+   "grammatik": {
+    "titel": "A linguagem dos títulos e a nominalização",
+    "erklaerung": [
+     "Os <b>títulos</b> poupam palavras: omitem artigos e verbos auxiliares e usam o <b>presente</b> para factos passados: <i>«Câmara <b>aprova</b> novo parque de estacionamento»</i> (= a câmara aprovou ontem).",
+     "Para o futuro: <i>vai</i> + infinitivo ou o verbo <i>querer</i>: <i>«Governo <b>vai rever</b> lei das rendas»</i>. A <b>passiva sem auxiliar</b> é muito frequente: <i>«Ponte <b>reaberta</b> ao trânsito»</i> (= a ponte foi reaberta). Os <b>dois pontos</b> atribuem uma declaração: <i>«Autarca: “Não há atrasos”»</i>.",
+     "A <b>nominalização</b> transforma um verbo num nome e torna o texto mais denso e formal, típico do lead e do antetítulo: <i>aprovar → <b>a aprovação</b>, decidir → <b>a decisão</b>, encerrar → <b>o encerramento</b>, aumentar → <b>o aumento</b>, reabrir → <b>a reabertura</b></i>.",
+     "Exemplo: <i>A câmara decidiu encerrar a piscina.</i> → <i>«<b>Encerramento</b> da piscina decidido pela câmara»</i> / <i>A <b>decisão</b> da câmara <b>de</b> encerrar a piscina…</i>. Atenção às preposições: <i>o aumento <b>de</b> preços</i>, <i>a reabertura <b>da</b> ponte</i>, <i>a decisão <b>de</b> + infinitivo</i>.",
+     "Nos títulos portugueses as maiúsculas usam-se só no início e nos nomes próprios (não como em inglês)."
+    ],
+    "erklaerung_de": [
+     "<b>Schlagzeilen</b> sparen Wörter: ohne Artikel und Hilfsverben, im <b>Präsens</b> auch für Vergangenes (<i>Câmara aprova …</i> = „Gemeinde beschließt …“).",
+     "Zukunft: <i>vai</i> + Infinitiv oder <i>querer</i>. Häufig ist das <b>Passiv ohne Hilfsverb</b> (<i>Ponte reaberta</i> = „Brücke wieder freigegeben“). Ein <b>Doppelpunkt</b> ordnet ein Zitat zu.",
+     "Die <b>Nominalisierung</b> macht aus Verben Substantive – dichter, formeller Stil (Lead, Dachzeile): <i>aprovar → a aprovação, encerrar → o encerramento, reabrir → a reabertura</i>.",
+     "Auf die Präpositionen achten: <i>o aumento de preços, a reabertura da ponte, a decisão de</i> + Infinitiv.",
+     "Großschreibung in Titeln nur am Anfang und bei Eigennamen."
+    ],
+    "vergleich": "Wie im Deutschen („Gemeinde beschließt neuen Parkplatz“, „Brücke wieder freigegeben“) – auch der Nominalstil („die Entscheidung der Gemeinde zur Schließung …“) ist ein bekanntes Merkmal der Pressesprache. Anders als im Englischen kein „Title Case“.",
+    "beispiele": [
+     {"pt": "Câmara aprova novo regulamento para as esplanadas.", "de": "Gemeinde beschließt neue Verordnung für Straßencafés."},
+     {"pt": "Estrada da serra reaberta ao trânsito depois das chuvas.", "de": "Bergstraße nach den Regenfällen wieder für den Verkehr freigegeben."},
+     {"pt": "A decisão de encerrar o mercado ao domingo gerou protestos.", "de": "Die Entscheidung, den Markt sonntags zu schließen, löste Proteste aus."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Qual destas frases tem a forma típica de um título?", "optionen": ["A câmara aprovou ontem o novo regulamento.", "Câmara aprova novo regulamento", "Ontem, a câmara decidiu aprovar um regulamento novo."], "richtig": 1, "kategorie": "Schlagzeilen"},
+     {"typ": "auswahl", "frage": "«Ponte reaberta ao trânsito» significa…", "optionen": ["A ponte foi reaberta ao trânsito.", "A ponte vai fechar.", "A ponte está a ser construída."], "richtig": 0, "kategorie": "Schlagzeilen"},
+     {"typ": "luecke", "satz": "reabrir → a ___ da ponte", "loesungen": ["reabertura"], "de": "wieder öffnen → die Wiedereröffnung der Brücke", "kategorie": "Nominalisierung"},
+     {"typ": "luecke", "satz": "encerrar → o ___ da escola", "loesungen": ["encerramento"], "de": "schließen → die Schließung der Schule", "kategorie": "Nominalisierung"},
+     {"typ": "luecke", "satz": "A decisão ___ encerrar o mercado gerou protestos.", "loesungen": ["de"], "de": "Die Entscheidung, den Markt zu schließen, löste Proteste aus.", "kategorie": "Präpositionen"},
+     {"typ": "uebersetzen", "de": "Gemeinde beschließt neuen Parkplatz am Bahnhof. (als Schlagzeile)", "loesungen": ["Câmara aprova novo parque de estacionamento junto à estação", "Câmara aprova novo parque de estacionamento junto à estação.", "Câmara aprova novo parque de estacionamento na estação", "Câmara aprova novo estacionamento junto à estação", "Câmara aprova novo parque junto à estação"]},
+     {"typ": "uebersetzen", "de": "Die Auflage der Wochenzeitung hat sich halbiert.", "loesungen": ["A tiragem do semanário caiu para metade.", "A tiragem do semanário caiu para a metade.", "A tiragem do semanário reduziu-se para metade.", "A tiragem do semanário desceu para metade."]},
+     {"typ": "satzbau", "de": "Die Pressefreiheit ist in der Verfassung verankert.", "loesung": "A liberdade de imprensa está consagrada na Constituição."}
+    ]
+   },
+   "hoeren": {
+    "titel": "Visita à redação – Besuch in der Redaktion",
+    "situation": "A turma de português do Stefan visita a redação de um semanário regional (fictício). O editor, Rui, explica como funciona o jornal.",
+    "zeilen": [
+     {"sprecher": "Rui", "stimme": "m", "pt": "Bem-vindos. Aqui fazemos o jornal de papel e a edição digital, que hoje tem mais leitores do que o papel.", "de": "Willkommen. Hier machen wir die Papierzeitung und die Digitalausgabe, die heute mehr Leser hat als die gedruckte."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E a tiragem em papel continua a descer?", "de": "Und die gedruckte Auflage sinkt weiter?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Desce um pouco todos os anos. Em contrapartida, o número de assinantes digitais duplicou.", "de": "Sie sinkt jedes Jahr ein wenig. Dafür hat sich die Zahl der Digitalabonnenten verdoppelt."},
+     {"sprecher": "Colega", "stimme": "f", "pt": "Como é que escolhem as notícias nacionais?", "de": "Wie wählen Sie die überregionalen Nachrichten aus?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Muitas chegam da agência noticiosa. Nós concentramo-nos no que é local e no jornalismo de investigação.", "de": "Viele kommen von der Nachrichtenagentur. Wir konzentrieren uns auf das Lokale und auf investigativen Journalismus."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Já tiveram algum furo jornalístico?", "de": "Hatten Sie schon einmal eine Exklusivgeschichte?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Tivemos, sim: há dois anos fomos os primeiros a noticiar a poluição numa ribeira. Foi um trabalho de seis meses.", "de": "Ja: Vor zwei Jahren haben wir als Erste über die Verschmutzung eines Bachs berichtet. Das war eine Arbeit von sechs Monaten."},
+     {"sprecher": "Colega", "stimme": "f", "pt": "E quem escreve os títulos?", "de": "Und wer schreibt die Überschriften?"},
+     {"sprecher": "Rui", "stimme": "m", "pt": "O editor de cada secção. Um bom título tem poucas palavras, um verbo forte e nenhum adjetivo inútil.", "de": "Der Ressortleiter. Eine gute Überschrift hat wenige Wörter, ein starkes Verb und kein überflüssiges Adjektiv."},
+     {"sprecher": "Rui", "stimme": "m", "pt": "Ali na parede está uma página de 1973, cheia de cortes da censura. Lembra-nos todos os dias o valor da liberdade de imprensa.", "de": "Dort an der Wand hängt eine Seite von 1973 voller Zensurstriche. Sie erinnert uns jeden Tag an den Wert der Pressefreiheit."}
+    ],
+    "fragen": [
+     {"frage": "O que aconteceu ao número de assinantes digitais?", "optionen": ["Diminuiu.", "Duplicou.", "Manteve-se igual."], "richtig": 1},
+     {"frage": "De onde chegam muitas notícias nacionais?", "optionen": ["Dos leitores.", "Dos correspondentes no estrangeiro.", "Da agência noticiosa."], "richtig": 2},
+     {"frage": "O que está na parede da redação?", "optionen": ["Uma página de 1973 com cortes da censura.", "A primeira edição digital.", "Um prémio de jornalismo."], "richtig": 0}
+    ]
+   },
+   "sprechen": {
+    "typ": "nachsprechen",
+    "anweisung": "Ouça e repita.",
+    "saetze": [
+     {"pt": "Câmara aprova novo regulamento para as esplanadas.", "de": "Gemeinde beschließt neue Verordnung für Straßencafés."},
+     {"pt": "A decisão de encerrar o mercado ao domingo gerou protestos.", "de": "Die Entscheidung, den Markt sonntags zu schließen, löste Proteste aus."},
+     {"pt": "A tiragem em papel desce, mas os assinantes digitais aumentam.", "de": "Die Druckauflage sinkt, aber die Digitalabonnenten nehmen zu."},
+     {"pt": "O jornalismo de investigação exige tempo e dinheiro.", "de": "Investigativer Journalismus braucht Zeit und Geld."},
+     {"pt": "A liberdade de imprensa está consagrada na Constituição.", "de": "Die Pressefreiheit ist in der Verfassung verankert."}
+    ]
+   },
+   "saetze": [
+    {"id": "titulo-camara-aprova", "pt": "Câmara aprova novo regulamento para as esplanadas.", "de": "Gemeinde beschließt neue Verordnung für Straßencafés."},
+    {"id": "decisao-de-encerrar", "pt": "A decisão de encerrar o mercado gerou protestos.", "de": "Die Entscheidung, den Markt zu schließen, löste Proteste aus."},
+    {"id": "liberdade-de-imprensa-constituicao", "pt": "A liberdade de imprensa está consagrada na Constituição.", "de": "Die Pressefreiheit ist in der Verfassung verankert."}
+   ]
+  },
+  {
+   "id": "B2-07-L12",
+   "typ": "neu",
+   "titel": "Einen Kommentar aufbauen: These, Argumente, Gegenargument, Fazit",
+   "vokabeln": ["a-tese", "o-contra-argumento", "rebater", "acresce-que", "posto-isto", "em-sintese", "em-jeito-de-conclusao", "a-premissa", "a-falacia", "generalizar", "a-argumentacao"],
+   "grammatik": {
+    "titel": "Estruturar um artigo de opinião: organizadores textuais e concessão",
+    "erklaerung": [
+     "<b>Introdução e tese</b>: <i>Comecemos por…, Antes de mais, A questão que se coloca é…, Defendemos que…</i>",
+     "<b>Desenvolvimento</b>: <i>em primeiro lugar, por um lado… por outro (lado), além disso, <b>acresce que</b>, aliás, nomeadamente</i>. Cada parágrafo apresenta um argumento, de preferência com um facto verificável.",
+     "<b>Concessão e refutação</b> (antecipar o contra-argumento para o rebater): <i><b>É certo que</b>… / <b>Admita-se que</b>… / <b>Poder-se-á objetar que</b>…</i> + <i>no entanto, contudo, todavia</i>. <i>É certo que a obra é cara. <b>Todavia</b>, sai mais barata do que não fazer nada.</i>",
+     "<b>Conclusão</b>: <i><b>em síntese</b>, em suma, <b>posto isto</b>, <b>em jeito de conclusão</b>, resta dizer que</i>. Uma boa conclusão retoma a tese, não acrescenta argumentos novos e pode terminar com uma pergunta ou um apelo.",
+     "<b>Poder-se-á</b> é uma forma de <b>mesóclise</b> (pronome no meio do verbo no futuro e no condicional), própria da escrita formal: <i>dir-se-ia, poder-se-ia, far-se-á</i>. Na língua oral, prefere-se <i>pode-se objetar</i> ou <i>alguém dirá que</i>."
+    ],
+    "erklaerung_de": [
+     "<b>Einleitung und These</b>: <i>Comecemos por …, Antes de mais, Defendemos que …</i>",
+     "<b>Hauptteil</b>: <i>em primeiro lugar, por um lado … por outro, além disso, acresce que („hinzu kommt“), aliás</i>. Pro Absatz ein Argument, möglichst mit einer überprüfbaren Tatsache.",
+     "<b>Einräumen und Widerlegen</b>: <i>É certo que … / Admita-se que … / Poder-se-á objetar que …</i> + <i>no entanto, contudo, todavia</i> – das Gegenargument vorwegnehmen und entkräften.",
+     "<b>Schluss</b>: <i>em síntese, em suma, posto isto, em jeito de conclusão</i>. Die These aufgreifen, keine neuen Argumente; evtl. Frage oder Appell.",
+     "<b>Poder-se-á</b> = <b>Mesoklise</b> (Pronomen mitten im Futur/Konditional) – nur in formeller Schriftsprache: <i>dir-se-ia, far-se-á</i>. Mündlich: <i>pode-se objetar</i>."
+    ],
+    "vergleich": "Der Aufbau entspricht der deutschen Erörterung (These – Argumente – Gegenargument – Fazit). Formeln wie „Zwar …, aber …“ entsprechen <i>É certo que …; no entanto …</i>. Die Mesoklise (<i>poder-se-á</i>) hat weder im Deutschen noch im Englischen eine Entsprechung. Englisch: admittedly, it could be argued that, to sum up.",
+    "beispiele": [
+     {"pt": "É certo que a obra é cara. Todavia, sai mais barata do que não fazer nada.", "de": "Zwar ist der Bau teuer. Er ist jedoch billiger, als nichts zu tun."},
+     {"pt": "Poder-se-á objetar que o centro perde clientes. Os números, contudo, mostram o contrário.", "de": "Man könnte einwenden, dass das Zentrum Kunden verliert. Die Zahlen zeigen jedoch das Gegenteil."},
+     {"pt": "Em síntese, a medida é necessária, mas insuficiente.", "de": "Zusammenfassend: Die Maßnahme ist notwendig, aber unzureichend."}
+    ],
+    "uebungen": [
+     {"typ": "auswahl", "frage": "Que expressão serve para introduzir um contra-argumento que depois se vai rebater?", "optionen": ["Em síntese,", "É certo que…", "Acresce que…"], "richtig": 1, "kategorie": "Textaufbau"},
+     {"typ": "auswahl", "frage": "Onde fica, normalmente, «em jeito de conclusão»?", "optionen": ["No primeiro parágrafo.", "No meio do desenvolvimento.", "No último parágrafo."], "richtig": 2, "kategorie": "Textaufbau"},
+     {"typ": "auswahl", "frage": "«Conheço dois turistas mal-educados; logo, todos os turistas são mal-educados.» Este raciocínio é…", "optionen": ["uma falácia: generaliza a partir de poucos casos.", "uma premissa verdadeira.", "um facto verificável."], "richtig": 0, "kategorie": "Argumentation"},
+     {"typ": "luecke", "satz": "A obra é cara. ___ que vai demorar três anos.", "loesungen": ["Acresce"], "de": "Der Bau ist teuer. Hinzu kommt, dass er drei Jahre dauern wird.", "kategorie": "Konnektoren"},
+     {"typ": "luecke", "satz": "Poder-se-___ objetar que o centro perde clientes.", "loesungen": ["á"], "de": "Man könnte einwenden, dass das Zentrum Kunden verliert.", "erklaerung": "Mesoklise: poder + se + á (Futur).", "kategorie": "Mesoklise"},
+     {"typ": "uebersetzen", "de": "Zwar ist die Idee gut. Allerdings fehlt das Geld. (É certo que …; contudo)", "loesungen": ["É certo que a ideia é boa. Contudo, falta o dinheiro.", "É certo que a ideia é boa. Contudo, falta dinheiro.", "É certo que a ideia é boa; contudo, falta o dinheiro.", "É certo que a ideia é boa; contudo, falta dinheiro.", "É certo que a ideia é boa. Contudo, não há dinheiro."]},
+     {"typ": "uebersetzen", "de": "Man kann nicht von einem einzigen Fall aus verallgemeinern.", "loesungen": ["Não se pode generalizar a partir de um só caso.", "Não se pode generalizar a partir de um único caso.", "Não podemos generalizar a partir de um só caso.", "Não podemos generalizar a partir de um único caso.", "Não se pode generalizar com base num só caso."]},
+     {"typ": "satzbau", "de": "Die Autorin entkräftet die Gegenargumente eines nach dem anderen.", "loesung": "A autora rebate os contra-argumentos um a um."}
+    ]
+   },
+   "hoeren": {
+    "titel": "O artigo do Stefan – Stefans Meinungsbeitrag",
+    "situation": "O Stefan escreveu um artigo de opinião para o semanário sobre um centro histórico sem carros ao fim de semana. A Ana dá-lhe a sua opinião sobre o texto.",
+    "zeilen": [
+     {"sprecher": "Ana", "stimme": "f", "pt": "Li o teu artigo. A tese está clara logo no primeiro parágrafo: queres o centro sem carros ao fim de semana.", "de": "Ich habe deinen Artikel gelesen. Die These ist gleich im ersten Absatz klar: Du willst das Zentrum am Wochenende autofrei."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Ótimo. E os argumentos convencem?", "de": "Gut. Und überzeugen die Argumente?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Os dois primeiros sim: menos barulho e mais espaço para as esplanadas. E citas um estudo de outra cidade, o que dá rigor.", "de": "Die ersten beiden schon: weniger Lärm und mehr Platz für die Straßencafés. Und du zitierst eine Studie aus einer anderen Stadt, das macht es solide."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "E o terceiro?", "de": "Und das dritte?"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Aí generalizas: dizes que «toda a gente» concorda. Não sabes isso; é uma falácia.", "de": "Da verallgemeinerst du: Du sagst, „alle“ seien einverstanden. Das weißt du nicht; das ist ein Trugschluss."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Tens razão. Vou mudar para «muitos moradores com quem falei».", "de": "Du hast recht. Ich ändere es in „viele Anwohner, mit denen ich gesprochen habe“."},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Falta-te também o contra-argumento. Os comerciantes vão dizer que perdem clientes.", "de": "Dir fehlt auch das Gegenargument. Die Händler werden sagen, dass sie Kunden verlieren."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "Então acrescento: «É certo que alguns comerciantes temem perder clientes. Contudo, noutras cidades as vendas subiram.»", "de": "Dann füge ich hinzu: „Zwar fürchten einige Händler, Kunden zu verlieren. In anderen Städten sind die Umsätze jedoch gestiegen.“"},
+     {"sprecher": "Ana", "stimme": "f", "pt": "Assim rebates a crítica antes de ela aparecer. E na conclusão não acrescentes nada de novo: retoma a tese.", "de": "So entkräftest du die Kritik, bevor sie kommt. Und im Schluss nichts Neues hinzufügen: Greif die These wieder auf."},
+     {"sprecher": "Stefan", "stimme": "m", "pt": "«Em síntese, um centro sem carros ao fim de semana é bom para quem vive cá e para quem nos visita.» Que tal?", "de": "„Zusammenfassend: Ein autofreies Zentrum am Wochenende ist gut für die, die hier leben, und für unsere Besucher.“ Wie findest du das?"}
+    ],
+    "fragen": [
+     {"frage": "Qual é a tese do artigo do Stefan?", "optionen": ["Que o centro deve ficar sem carros ao fim de semana.", "Que é preciso mais estacionamento.", "Que as esplanadas devem fechar mais cedo."], "richtig": 0},
+     {"frage": "Que problema encontra a Ana no terceiro argumento?", "optionen": ["Não tem fontes.", "É uma generalização: «toda a gente» concorda.", "É demasiado longo."], "richtig": 1},
+     {"frage": "Que contra-argumento sugere a Ana?", "optionen": ["Que os turistas não gostam de andar a pé.", "Que a medida é cara.", "Que os comerciantes podem perder clientes."], "richtig": 2}
+    ]
+   },
+   "sprechen": {
+    "typ": "schreiben",
+    "anweisung": "Escreva frases para um artigo de opinião.",
+    "aufgaben": [
+     {"de": "Wir vertreten die Auffassung, dass die Bibliothek auch samstags öffnen sollte. (defender, Konjunktiv)", "loesungen": ["Defendemos que a biblioteca deve abrir também ao sábado.", "Defendemos que a biblioteca deveria abrir também ao sábado.", "Defendemos que a biblioteca abra também ao sábado.", "Defendemos que a biblioteca abra também aos sábados.", "Defendemos que a biblioteca deve abrir também aos sábados."]},
+     {"de": "Hinzu kommt, dass viele Studenten unter der Woche arbeiten. (acresce que)", "loesungen": ["Acresce que muitos estudantes trabalham durante a semana.", "Acresce que muitos estudantes trabalham à semana.", "Acresce que muitos alunos trabalham durante a semana.", "Acresce que muitos estudantes trabalham nos dias de semana."]},
+     {"de": "Zwar kostet das Geld. Dennoch ist es eine Investition in die Zukunft. (É certo que …; todavia)", "loesungen": ["É certo que isso custa dinheiro. Todavia, é um investimento no futuro.", "É certo que custa dinheiro. Todavia, é um investimento no futuro.", "É certo que isso custa dinheiro; todavia, é um investimento no futuro.", "É certo que custa dinheiro; todavia, é um investimento no futuro.", "É certo que isto custa dinheiro. Todavia, é um investimento no futuro."]},
+     {"de": "Man könnte einwenden, dass niemand samstags liest. (poder-se-á objetar)", "loesungen": ["Poder-se-á objetar que ninguém lê ao sábado.", "Poder-se-á objetar que ninguém lê aos sábados.", "Poder-se-ia objetar que ninguém lê ao sábado.", "Poder-se-ia objetar que ninguém lê aos sábados."]},
+     {"de": "Zusammenfassend: Eine offene Bibliothek ist gut für alle.", "loesungen": ["Em síntese, uma biblioteca aberta é boa para todos.", "Em síntese: uma biblioteca aberta é boa para todos.", "Em suma, uma biblioteca aberta é boa para todos.", "Em síntese, uma biblioteca aberta é boa para toda a gente."]}
+    ]
+   },
+   "saetze": [
+    {"id": "e-certo-que-todavia", "pt": "É certo que a obra é cara. Todavia, sai mais barata do que não fazer nada.", "de": "Zwar ist der Bau teuer. Er ist jedoch billiger, als nichts zu tun."},
+    {"id": "acresce-que-tres-anos", "pt": "Acresce que a obra vai demorar três anos.", "de": "Hinzu kommt, dass der Bau drei Jahre dauern wird."},
+    {"id": "em-sintese-medida", "pt": "Em síntese, a medida é necessária, mas insuficiente.", "de": "Zusammenfassend: Die Maßnahme ist notwendig, aber unzureichend."}
+   ]
+  },
+  {"id": "B2-07-L13", "typ": "wiederholung", "titel": "Wiederholung der Einheit"},
+  {"id": "B2-07-L14", "typ": "test", "titel": "Einheitentest"}
+ ],
+ "test": {
+  "hoeren": {
+   "titel": "Debate na rádio – Diskussion im Radio",
+   "situation": "Num programa de uma rádio local (fictícia), uma moderadora conversa com um colunista e uma especialista em literacia mediática sobre o futuro da imprensa regional.",
+   "zeilen": [
+    {"sprecher": "Moderadora", "stimme": "f", "pt": "Boa noite. Hoje perguntamos: a imprensa regional ainda faz falta? Começo pelo Nuno, colunista há vinte anos.", "de": "Guten Abend. Heute fragen wir: Braucht man die Regionalpresse noch? Ich beginne mit Nuno, seit zwanzig Jahren Kolumnist."},
+    {"sprecher": "Nuno", "stimme": "m", "pt": "Faz mais falta do que nunca. As redes sociais informam depressa, mas nem sempre com rigor; daí que os leitores precisem de jornais em que possam confiar.", "de": "Mehr denn je. Soziale Netzwerke informieren schnell, aber nicht immer sorgfältig; deshalb brauchen die Leser Zeitungen, denen sie vertrauen können."},
+    {"sprecher": "Moderadora", "stimme": "f", "pt": "Inês, concorda?", "de": "Inês, stimmen Sie zu?"},
+    {"sprecher": "Inês", "stimme": "f", "pt": "Em parte. É certo que os jornais verificam a informação. No entanto, muitos jovens nunca abriram um jornal regional, pelo que o desafio é chegar até eles.", "de": "Teilweise. Zwar überprüfen Zeitungen die Informationen. Allerdings haben viele Jugendliche nie eine Regionalzeitung aufgeschlagen, weshalb die Herausforderung darin besteht, sie zu erreichen."},
+    {"sprecher": "Nuno", "stimme": "m", "pt": "Por isso o nosso jornal lançou uma edição digital com vídeos curtos. Os assinantes mais novos aumentaram, se bem que ainda sejam poucos.", "de": "Deshalb hat unsere Zeitung eine Digitalausgabe mit kurzen Videos gestartet. Die jüngeren Abonnenten haben zugenommen, wenngleich es noch wenige sind."},
+    {"sprecher": "Inês", "stimme": "f", "pt": "E há outro ponto: nas escolas onde damos oficinas de literacia mediática, os alunos aprendem a distinguir factos de opiniões e a desconfiar dos caça-cliques.", "de": "Und es gibt noch einen Punkt: In den Schulen, in denen wir Medienkompetenz-Workshops geben, lernen die Schüler, Tatsachen von Meinungen zu unterscheiden und Klickködern zu misstrauen."},
+    {"sprecher": "Moderadora", "stimme": "f", "pt": "E os resultados?", "de": "Und die Ergebnisse?"},
+    {"sprecher": "Inês", "stimme": "f", "pt": "Ao fim de um ano, a maioria verifica a fonte antes de partilhar uma notícia. Ou seja, o espírito crítico também se treina.", "de": "Nach einem Jahr prüft die Mehrheit die Quelle, bevor sie eine Nachricht teilt. Das heißt, kritisches Denken lässt sich auch trainieren."},
+    {"sprecher": "Nuno", "stimme": "m", "pt": "Em síntese: a imprensa regional não vai desaparecer, mas tem de mudar de forma.", "de": "Zusammenfassend: Die Regionalpresse wird nicht verschwinden, aber sie muss ihre Form ändern."}
+   ],
+   "fragen": [
+    {"frage": "Segundo o Nuno, porque é que a imprensa regional faz falta?", "optionen": ["Porque as redes sociais nem sempre informam com rigor.", "Porque é mais barata do que a internet.", "Porque os jovens preferem o papel."], "richtig": 0},
+    {"frage": "Qual é, para a Inês, o principal desafio?", "optionen": ["Baixar o preço das assinaturas.", "Chegar aos jovens.", "Contratar mais jornalistas."], "richtig": 1},
+    {"frage": "O que lançou o jornal do Nuno?", "optionen": ["Um suplemento de desporto.", "Uma rádio local.", "Uma edição digital com vídeos curtos."], "richtig": 2},
+    {"frage": "Que resultado das oficinas refere a Inês?", "optionen": ["Os alunos deixaram de usar as redes sociais.", "A maioria verifica a fonte antes de partilhar uma notícia.", "Os alunos escrevem artigos para o jornal."], "richtig": 1}
+   ]
+  },
+  "lesen": {
+   "titel": "Artigo de opinião: «A rotunda e o silêncio» – ein Meinungsbeitrag",
+   "situation": "Ein (fiktiver) Meinungsbeitrag aus einer Regionalzeitung über ein umstrittenes Bauprojekt.",
+   "text": [
+    "A rotunda e o silêncio",
+    "A câmara anunciou na semana passada a construção de uma nova rotunda à entrada da cidade. Segundo o executivo, a obra custará cerca de dois milhões de euros e ficará concluída dentro de um ano. Até aqui, os factos.",
+    "Ninguém contesta que o cruzamento atual é perigoso. É de lamentar, contudo, que a decisão tenha sido tomada sem qualquer consulta aos moradores, que vivem o problema todos os dias. Acresce que o projeto não prevê passeios nem ciclovia, pelo que quem anda a pé continuará a correr riscos.",
+    "Poder-se-á objetar que não há dinheiro para tudo. É certo. Mas uma obra pensada só para carros, em 2026, não deixa de ser um sinal dos tempos – ou melhor, de outros tempos.",
+    "Em síntese: a rotunda é necessária, mas a forma como foi decidida não é. Fica por esclarecer porque é que a câmara preferiu o silêncio ao diálogo. A nosso ver, ainda vai a tempo de ouvir quem cá vive."
+   ],
+   "fragen": [
+    {"frage": "Qual destas informações é apresentada como facto?", "optionen": ["Que a rotunda é um sinal dos tempos.", "Que a câmara anunciou a construção de uma rotunda.", "Que a câmara preferiu o silêncio ao diálogo."], "richtig": 1},
+    {"frage": "O que critica o autor?", "optionen": ["A falta de consulta aos moradores e a ausência de passeios e ciclovia.", "O facto de o cruzamento ser perigoso.", "O custo da obra, que considera exagerado."], "richtig": 0},
+    {"frage": "Que função tem a frase «Poder-se-á objetar que não há dinheiro para tudo»?", "optionen": ["Apresenta a tese do autor.", "Resume o artigo.", "Antecipa um contra-argumento."], "richtig": 2},
+    {"frage": "Qual é a conclusão do autor?", "optionen": ["A rotunda não deve ser construída.", "A rotunda é necessária, mas a câmara devia ouvir os moradores.", "A câmara deve gastar mais dinheiro."], "richtig": 1},
+    {"frage": "«Não deixa de ser um sinal dos tempos – ou melhor, de outros tempos.» O tom desta frase é…", "optionen": ["irónico", "neutro", "entusiasta"], "richtig": 0}
+   ]
+  },
+  "schreiben": [
+   {"de": "Der Leitartikel lobt die Maßnahme, während der Kolumnist sie kritisiert. (ao passo que)", "loesungen": ["O editorial elogia a medida, ao passo que o colunista a critica.", "O editorial elogia a medida, ao passo que o colunista critica a medida."]},
+   {"de": "Die Preise sind gestiegen; deshalb beschweren sich viele Familien. (daí que)", "loesungen": ["Os preços subiram; daí que muitas famílias se queixem.", "Os preços aumentaram; daí que muitas famílias se queixem.", "Os preços subiram, daí que muitas famílias se queixem.", "Os preços subiram. Daí que muitas famílias se queixem."]},
+   {"de": "Es ist bedauerlich, dass die Gemeinde die Anwohner nicht angehört hat. (é de lamentar que)", "loesungen": ["É de lamentar que a câmara não tenha ouvido os moradores.", "É de lamentar que a câmara municipal não tenha ouvido os moradores.", "É de lamentar que a autarquia não tenha ouvido os moradores.", "É de lamentar que a câmara não tenha ouvido os residentes."]},
+   {"de": "Der Bürgermeister soll gesagt haben, dass die Arbeiten im Frühjahr beginnen. (Futur II)", "loesungen": ["O presidente da câmara terá dito que as obras começam na primavera.", "O presidente da câmara terá dito que as obras começariam na primavera.", "O presidente da câmara terá dito que as obras iam começar na primavera.", "O autarca terá dito que as obras começam na primavera.", "O autarca terá dito que as obras começariam na primavera.", "O autarca terá dito que as obras iam começar na primavera."]},
+   {"de": "Bevor wir eine Nachricht teilen, sollten wir die Quelle überprüfen. (antes de, persönlicher Infinitiv)", "loesungen": ["Antes de partilharmos uma notícia, devemos verificar a fonte.", "Antes de partilharmos uma notícia, convém verificar a fonte.", "Antes de partilharmos uma notícia, devíamos verificar a fonte.", "Antes de partilharmos uma notícia, deveríamos verificar a fonte."]},
+   {"de": "„Es gibt keine Verzögerung“, versicherte der Stadtrat.", "loesungen": ["«Não há atraso», garantiu o vereador.", "«Não há atrasos», garantiu o vereador.", "\"Não há atraso\", garantiu o vereador.", "\"Não há atrasos\", garantiu o vereador.", "«Não há qualquer atraso», garantiu o vereador.", "«Não há atraso», assegurou o vereador."]}
+  ],
+  "sprechen": [
+   {"pt": "O editorial exprime a posição do jornal; o artigo de opinião é assinado.", "de": "Der Leitartikel drückt die Haltung der Zeitung aus; der Meinungsbeitrag ist namentlich gezeichnet."},
+   {"pt": "Convém sublinhar que um facto é verificável e uma opinião não.", "de": "Man muss betonen, dass eine Tatsache überprüfbar ist und eine Meinung nicht."},
+   {"pt": "O vídeo é verdadeiro, mas está descontextualizado.", "de": "Das Video ist echt, aber aus dem Zusammenhang gerissen."},
+   {"pt": "É certo que a obra é cara. Todavia, é necessária.", "de": "Zwar ist der Bau teuer. Er ist jedoch notwendig."},
+   {"pt": "Em síntese, a medida é necessária, mas insuficiente.", "de": "Zusammenfassend: Die Maßnahme ist notwendig, aber unzureichend."}
+  ]
+ }
+}
